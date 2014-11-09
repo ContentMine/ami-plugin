@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg height="800.0" width="700.0" xmlns="http://www.w3.org/2000/svg">
+ <g title="org.xmlcml.svg2xml.page.MixedAnalyzer2" id="g.1.15" transform="matrix(1.0,0.0,0.0,1.0,-116.43,-606.3)">
+  <g>
+   <line fill="#000000" stroke="black" stroke-width="0.0" svgx:z="1825" id="line.0" x1="137.64" y1="620.31" x2="142.32" y2="609.03" xmlns:svgx="http://www.xml-cml.org/schema/svgx"/>
+   <line fill="#000000" stroke="black" stroke-width="0.0" svgx:z="1824" id="line.1" x1="137.64" y1="620.34" x2="129.0" y2="611.7" xmlns:svgx="http://www.xml-cml.org/schema/svgx"/>
+   <line fill="#000000" stroke="black" stroke-width="0.0" svgx:z="1822" id="line.2" x1="178.32" y1="620.34" x2="184.44" y2="614.22" xmlns:svgx="http://www.xml-cml.org/schema/svgx"/>
+   <line fill="#000000" stroke="black" stroke-width="0.0" svgx:z="1823" id="line.3" x1="179.88" y1="621.9" x2="186.0" y2="615.78" xmlns:svgx="http://www.xml-cml.org/schema/svgx"/>
+   <polyline fill="#000000" stroke="black" stroke-width="0.0" svgx:z="1815" id="polyline.4" points="136.26 619.32 137.64 620.34 138.9 620.58 137.88 632.4 137.64 632.52 137.34 632.4 136.26 619.32" xmlns:svgx="http://www.xml-cml.org/schema/svgx"/>
+   <line fill="#000000" stroke="black" stroke-width="0.0" svgx:z="1820" id="line.5" x1="137.64" y1="620.34" x2="154.98" y2="620.34" xmlns:svgx="http://www.xml-cml.org/schema/svgx"/>
+   <line fill="#000000" stroke="black" stroke-width="0.0" svgx:z="1814" id="line.6" x1="137.64" y1="620.46" x2="137.64" y2="632.4" xmlns:svgx="http://www.xml-cml.org/schema/svgx"/>
+   <line fill="#000000" stroke="black" stroke-width="0.0" svgx:z="1819" id="line.7" x1="162.48" y1="620.34" x2="179.88" y2="620.34" xmlns:svgx="http://www.xml-cml.org/schema/svgx"/>
+   <line fill="#000000" stroke="black" stroke-width="0.0" svgx:z="1818" id="line.8" x1="179.88" y1="620.34" x2="179.88" y2="632.52" xmlns:svgx="http://www.xml-cml.org/schema/svgx"/>
+   <line fill="#000000" stroke="black" stroke-width="0.0" svgx:z="1817" id="line.9" x1="158.76" y1="624.78" x2="158.76" y2="632.52" xmlns:svgx="http://www.xml-cml.org/schema/svgx"/>
+   <line fill="#000000" stroke="black" stroke-width="0.0" svgx:z="1830" id="line.10" x1="147.0" y1="631.14" x2="149.4" y2="631.14" xmlns:svgx="http://www.xml-cml.org/schema/svgx"/>
+   <line fill="#000000" stroke="black" stroke-width="0.0" svgx:z="1805" id="line.11" x1="169.32" y1="636.09" x2="177.69" y2="631.26" xmlns:svgx="http://www.xml-cml.org/schema/svgx"/>
+   <line fill="#000000" stroke="black" stroke-width="0.0" svgx:z="1800" id="line.12" x1="137.64" y1="632.55" x2="127.02" y2="638.64" xmlns:svgx="http://www.xml-cml.org/schema/svgx"/>
+   <line fill="#000000" stroke="black" stroke-width="0.0" svgx:z="1799" id="line.13" x1="148.2" y1="638.64" x2="137.64" y2="632.55" xmlns:svgx="http://www.xml-cml.org/schema/svgx"/>
+   <line fill="#000000" stroke="black" stroke-width="0.0" svgx:z="1831" id="line.14" x1="147.18" y1="632.4" x2="149.16" y2="632.4" xmlns:svgx="http://www.xml-cml.org/schema/svgx"/>
+   <line fill="#000000" stroke="black" stroke-width="0.0" svgx:z="1802" id="line.15" x1="148.2" y1="638.64" x2="158.76" y2="632.55" xmlns:svgx="http://www.xml-cml.org/schema/svgx"/>
+   <line fill="#000000" stroke="black" stroke-width="0.0" svgx:z="1803" id="line.16" x1="158.76" y1="632.55" x2="169.32" y2="638.64" xmlns:svgx="http://www.xml-cml.org/schema/svgx"/>
+   <line fill="#000000" stroke="black" stroke-width="0.0" svgx:z="1804" id="line.17" x1="169.32" y1="638.64" x2="179.88" y2="632.55" xmlns:svgx="http://www.xml-cml.org/schema/svgx"/>
+   <line fill="#000000" stroke="black" stroke-width="0.0" svgx:z="1806" id="line.18" x1="179.88" y1="632.55" x2="190.44" y2="638.64" xmlns:svgx="http://www.xml-cml.org/schema/svgx"/>
+   <line fill="#000000" stroke="black" stroke-width="0.0" svgx:z="1807" id="line.19" x1="190.44" y1="638.64" x2="201.0" y2="632.55" xmlns:svgx="http://www.xml-cml.org/schema/svgx"/>
+   <line fill="#000000" stroke="black" stroke-width="0.0" svgx:z="1832" id="line.20" x1="147.42" y1="633.66" x2="148.98" y2="633.66" xmlns:svgx="http://www.xml-cml.org/schema/svgx"/>
+   <polyline fill="#000000" stroke="black" stroke-width="0.0" svgx:z="1828" id="polyline.21" points="160.02 640.38 157.5 640.38 158.46 633.0 158.76 632.52 159.06 633.0 160.02 640.38" xmlns:svgx="http://www.xml-cml.org/schema/svgx"/>
+   <line fill="#000000" stroke="black" stroke-width="0.0" svgx:z="1827" id="line.22" x1="158.76" y1="632.7" x2="158.76" y2="640.26" xmlns:svgx="http://www.xml-cml.org/schema/svgx"/>
+   <line fill="#000000" stroke="black" stroke-width="0.0" svgx:z="1833" id="line.23" x1="147.66" y1="634.95" x2="148.74" y2="634.95" xmlns:svgx="http://www.xml-cml.org/schema/svgx"/>
+   <line fill="#000000" stroke="black" stroke-width="0.0" svgx:z="1834" id="line.24" x1="147.9" y1="636.21" x2="148.5" y2="636.21" xmlns:svgx="http://www.xml-cml.org/schema/svgx"/>
+   <line fill="#000000" stroke="black" stroke-width="0.0" svgx:z="1801" id="line.25" x1="127.02" y1="638.64" x2="127.02" y2="650.82" xmlns:svgx="http://www.xml-cml.org/schema/svgx"/>
+   <line fill="#000000" stroke="black" stroke-width="0.0" svgx:z="1798" id="line.26" x1="148.2" y1="638.64" x2="148.2" y2="650.88" xmlns:svgx="http://www.xml-cml.org/schema/svgx"/>
+   <line fill="#000000" stroke="black" stroke-width="0.0" svgx:z="1813" id="line.27" x1="169.32" y1="638.64" x2="169.32" y2="646.56" xmlns:svgx="http://www.xml-cml.org/schema/svgx"/>
+   <line fill="#000000" stroke="black" stroke-width="0.0" svgx:z="1810" id="line.28" x1="189.36" y1="637.98" x2="189.36" y2="646.44" xmlns:svgx="http://www.xml-cml.org/schema/svgx"/>
+   <line fill="#000000" stroke="black" stroke-width="0.0" svgx:z="1809" id="line.29" x1="191.55" y1="637.98" x2="191.55" y2="646.44" xmlns:svgx="http://www.xml-cml.org/schema/svgx"/>
+   <line fill="#000000" stroke="black" stroke-width="0.0" svgx:z="1791" id="line.30" x1="127.02" y1="650.85" x2="116.43" y2="656.97" xmlns:svgx="http://www.xml-cml.org/schema/svgx"/>
+   <line fill="#000000" stroke="black" stroke-width="0.0" svgx:z="1790" id="line.31" x1="137.64" y1="656.97" x2="127.02" y2="650.85" xmlns:svgx="http://www.xml-cml.org/schema/svgx"/>
+   <line fill="#000000" stroke="black" stroke-width="0.0" svgx:z="1793" id="line.32" x1="137.64" y1="656.97" x2="148.2" y2="650.85" xmlns:svgx="http://www.xml-cml.org/schema/svgx"/>
+   <line fill="#000000" stroke="black" stroke-width="0.0" svgx:z="1794" id="line.33" x1="148.2" y1="650.85" x2="158.76" y2="656.97" xmlns:svgx="http://www.xml-cml.org/schema/svgx"/>
+   <line fill="#000000" stroke="black" stroke-width="0.0" svgx:z="1792" id="line.34" x1="127.02" y1="653.37" x2="118.62" y2="658.23" xmlns:svgx="http://www.xml-cml.org/schema/svgx"/>
+   <line fill="#000000" stroke="black" stroke-width="0.0" svgx:z="1795" id="line.35" x1="148.2" y1="653.4" x2="156.57" y2="658.23" xmlns:svgx="http://www.xml-cml.org/schema/svgx"/>
+   <line fill="#000000" stroke="black" stroke-width="0.0" svgx:z="1784" id="line.36" x1="116.43" y1="656.94" x2="116.43" y2="669.24" xmlns:svgx="http://www.xml-cml.org/schema/svgx"/>
+   <line fill="#000000" stroke="black" stroke-width="0.0" svgx:z="1788" id="line.37" x1="137.64" y1="656.94" x2="137.64" y2="669.24" xmlns:svgx="http://www.xml-cml.org/schema/svgx"/>
+   <line fill="#000000" stroke="black" stroke-width="0.0" svgx:z="1796" id="line.38" x1="158.76" y1="656.94" x2="158.76" y2="669.18" xmlns:svgx="http://www.xml-cml.org/schema/svgx"/>
+   <line fill="#000000" stroke="black" stroke-width="0.0" svgx:z="1789" id="line.39" x1="135.42" y1="658.26" x2="135.42" y2="667.92" xmlns:svgx="http://www.xml-cml.org/schema/svgx"/>
+   <line fill="#000000" stroke="black" stroke-width="0.0" svgx:z="1786" id="line.40" x1="118.62" y1="667.95" x2="127.02" y2="672.81" xmlns:svgx="http://www.xml-cml.org/schema/svgx"/>
+   <line fill="#000000" stroke="black" stroke-width="0.0" svgx:z="1785" id="line.41" x1="116.43" y1="669.21" x2="127.02" y2="675.33" xmlns:svgx="http://www.xml-cml.org/schema/svgx"/>
+   <line fill="#000000" stroke="black" stroke-width="0.0" svgx:z="1787" id="line.42" x1="127.02" y1="675.33" x2="137.64" y2="669.21" xmlns:svgx="http://www.xml-cml.org/schema/svgx"/>
+   <line fill="#000000" stroke="black" stroke-width="0.0" svgx:z="1797" id="line.43" x1="137.64" y1="669.21" x2="158.76" y2="669.18" xmlns:svgx="http://www.xml-cml.org/schema/svgx"/>
+  </g>
+  <g>
+   <text stroke="none" fill="#000000" svgx:fontName="CDPKAC+ArialMT" svgx:width="778.0" font-family="Helvetica" font-weight="normal" svgx:z="1821" x="185.16" y="614.88" font-size="8.58" xmlns:svgx="http://www.xml-cml.org/schema/svgx">O</text>
+   <text stroke="none" fill="#000000" svgx:fontName="CDPKAC+ArialMT" svgx:width="722.0" font-family="Helvetica" font-weight="normal" svgx:z="1816" x="155.7" y="623.4" font-size="8.58" xmlns:svgx="http://www.xml-cml.org/schema/svgx">N</text>
+   <text stroke="none" fill="#000000" svgx:fontName="CDPKAC+ArialMT" svgx:width="722.0" font-family="Helvetica" font-weight="normal" svgx:z="1829" x="145.14" y="629.46" font-size="8.58" xmlns:svgx="http://www.xml-cml.org/schema/svgx">H</text>
+   <text stroke="none" fill="#000000" svgx:fontName="CDPKAC+ArialMT" svgx:width="722.0" font-family="Helvetica" font-weight="normal" svgx:z="1826" x="155.7" y="647.88" font-size="8.58" xmlns:svgx="http://www.xml-cml.org/schema/svgx">H</text>
+   <text stroke="none" fill="#000000" svgx:fontName="CDPKAC+ArialMT" svgx:width="778.0" font-family="Helvetica" font-weight="normal" svgx:z="1811" x="165.96" y="654.06" font-size="8.58" xmlns:svgx="http://www.xml-cml.org/schema/svgx">O</text>
+   <text stroke="none" fill="#000000" svgx:fontName="CDPKAC+ArialMT" svgx:width="722.0" font-family="Helvetica" font-weight="normal" svgx:z="1812" x="172.561" y="654.06" font-size="8.58" xmlns:svgx="http://www.xml-cml.org/schema/svgx">H</text>
+   <text stroke="none" fill="#000000" svgx:fontName="CDPKAC+ArialMT" svgx:width="778.0" font-family="Helvetica" font-weight="normal" svgx:z="1808" x="187.08" y="654.06" font-size="8.58" xmlns:svgx="http://www.xml-cml.org/schema/svgx">O</text>
+   <text stroke="none" fill="#000000" svgx:fontName="CDPKAC+ArialMT" svgx:width="722.0" font-family="Helvetica" font-weight="normal" svgx:z="2073" x="125.52" y="687.72" font-size="8.58" xmlns:svgx="http://www.xml-cml.org/schema/svgx">C</text>
+   <text stroke="none" fill="#000000" svgx:fontName="CDPKAC+ArialMT" svgx:width="500.0" font-family="Helvetica" font-weight="normal" svgx:z="2074" x="131.639" y="687.72" font-size="8.58" xmlns:svgx="http://www.xml-cml.org/schema/svgx">y</text>
+   <text stroke="none" fill="#000000" svgx:fontName="CDPKAC+ArialMT" svgx:width="500.0" font-family="Helvetica" font-weight="normal" svgx:z="2075" x="135.894" y="687.72" font-size="8.58" xmlns:svgx="http://www.xml-cml.org/schema/svgx">c</text>
+   <text stroke="none" fill="#000000" svgx:fontName="CDPKAC+ArialMT" svgx:width="222.0" font-family="Helvetica" font-weight="normal" svgx:z="2076" x="140.15" y="687.72" font-size="8.58" xmlns:svgx="http://www.xml-cml.org/schema/svgx">l</text>
+   <text stroke="none" fill="#000000" svgx:fontName="CDPKAC+ArialMT" svgx:width="556.0" font-family="Helvetica" font-weight="normal" svgx:z="2077" x="142.021" y="687.72" font-size="8.58" xmlns:svgx="http://www.xml-cml.org/schema/svgx">o</text>
+   <text stroke="none" fill="#000000" svgx:fontName="CDPKAC+ArialMT" svgx:width="556.0" font-family="Helvetica" font-weight="normal" svgx:z="2078" x="146.699" y="687.72" font-size="8.58" xmlns:svgx="http://www.xml-cml.org/schema/svgx">p</text>
+   <text stroke="none" fill="#000000" svgx:fontName="CDPKAC+ArialMT" svgx:width="222.0" font-family="Helvetica" font-weight="normal" svgx:z="2079" x="151.438" y="687.72" font-size="8.58" xmlns:svgx="http://www.xml-cml.org/schema/svgx">i</text>
+   <text stroke="none" fill="#000000" svgx:fontName="CDPKAC+ArialMT" svgx:width="556.0" font-family="Helvetica" font-weight="normal" svgx:z="2080" x="153.308" y="687.72" font-size="8.58" xmlns:svgx="http://www.xml-cml.org/schema/svgx">a</text>
+   <text stroke="none" fill="#000000" svgx:fontName="CDPKAC+ArialMT" svgx:width="500.0" font-family="Helvetica" font-weight="normal" svgx:z="2081" x="158.045" y="687.72" font-size="8.58" xmlns:svgx="http://www.xml-cml.org/schema/svgx">z</text>
+   <text stroke="none" fill="#000000" svgx:fontName="CDPKAC+ArialMT" svgx:width="556.0" font-family="Helvetica" font-weight="normal" svgx:z="2082" x="162.3" y="687.72" font-size="8.58" xmlns:svgx="http://www.xml-cml.org/schema/svgx">o</text>
+   <text stroke="none" fill="#000000" svgx:fontName="CDPKAC+ArialMT" svgx:width="556.0" font-family="Helvetica" font-weight="normal" svgx:z="2083" x="166.979" y="687.72" font-size="8.58" xmlns:svgx="http://www.xml-cml.org/schema/svgx">n</text>
+   <text stroke="none" fill="#000000" svgx:fontName="CDPKAC+ArialMT" svgx:width="222.0" font-family="Helvetica" font-weight="normal" svgx:z="2084" x="171.715" y="687.72" font-size="8.58" xmlns:svgx="http://www.xml-cml.org/schema/svgx">i</text>
+   <text stroke="none" fill="#000000" svgx:fontName="CDPKAC+ArialMT" svgx:width="500.0" font-family="Helvetica" font-weight="normal" svgx:z="2085" x="173.586" y="687.72" font-size="8.58" xmlns:svgx="http://www.xml-cml.org/schema/svgx">c</text>
+   <text stroke="none" fill="#000000" svgx:fontName="CDPKAC+ArialMT" svgx:width="556.0" font-family="Helvetica" font-weight="normal" svgx:z="2086" x="180.185" y="687.72" font-size="8.58" xmlns:svgx="http://www.xml-cml.org/schema/svgx">a</text>
+   <text stroke="none" fill="#000000" svgx:fontName="CDPKAC+ArialMT" svgx:width="500.0" font-family="Helvetica" font-weight="normal" svgx:z="2087" x="184.924" y="687.72" font-size="8.58" xmlns:svgx="http://www.xml-cml.org/schema/svgx">c</text>
+   <text stroke="none" fill="#000000" svgx:fontName="CDPKAC+ArialMT" svgx:width="222.0" font-family="Helvetica" font-weight="normal" svgx:z="2088" x="189.124" y="687.72" font-size="8.58" xmlns:svgx="http://www.xml-cml.org/schema/svgx">i</text>
+   <text stroke="none" fill="#000000" svgx:fontName="CDPKAC+ArialMT" svgx:width="556.0" font-family="Helvetica" font-weight="normal" svgx:z="2089" x="191.042" y="687.72" font-size="8.58" xmlns:svgx="http://www.xml-cml.org/schema/svgx">d</text>
+  </g>
+ </g>
+</svg>

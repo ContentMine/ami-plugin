@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:svgx="http://www.xml-cml.org/schema/svgx"
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   height="800.0"
+   width="700.0"
+   id="svg3445"
+   version="1.1"
+   inkscape:version="0.48.1 "
+   sodipodi:docname="image.g.5.12.svg">
+  <metadata
+     id="metadata3674">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <defs
+     id="defs3672" />
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="640"
+     inkscape:window-height="480"
+     id="namedview3670"
+     showgrid="false"
+     inkscape:zoom="4.1153615"
+     inkscape:cx="130.23464"
+     inkscape:cy="751.67254"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="0"
+     inkscape:current-layer="svg3445" />
+  <g
+     title="org.xmlcml.svg2xml.page.MixedAnalyzer3"
+     id="g.5.12"
+     transform="matrix(1.0,0.0,0.0,1.0,-49.62,-711.36)">
+    <g
+       id="g3502">
+      <path
+         stroke="black"
+         fill="#000000"
+         stroke-width="0.0"
+         svgx:z="3004"
+         d="M186.3 741.9 L186.3 753.12 C186.3 753.3 186.24 753.36 186.12 753.36 C185.94 753.36 185.88 753.3 185.88 753.12 L185.88 741.9 C185.88 741.78 185.94 741.66 186.12 741.66 C186.24 741.66 186.3 741.78 186.3 741.9 "
+         id="path3606" />
+      <path
+         stroke="black"
+         fill="#000000"
+         stroke-width="0.0"
+         svgx:z="2999"
+         d="M186.24 753.36 L180.18 757.02 C180.06 757.08 179.88 757.08 179.82 756.96 C179.76 756.84 179.82 756.72 179.88 756.66 L186.0 752.94 C186.06 752.88 186.24 752.94 186.3 753.0 C186.36 753.12 186.3 753.3 186.24 753.36 "
+         id="path3630" />
+      <polygon
+         fill="#000000"
+         stroke="black"
+         stroke-width="0.0"
+         svgx:z="3006"
+         id="polygon.54"
+         points="187.26 768.78 186.12 769.02 184.92 768.78 185.82 753.6 186.12 753.12 186.3 753.12" />
+      <rect
+         fill="#000000"
+         stroke="black"
+         stroke-width="0.0"
+         svgx:z="3005"
+         id="rect.55"
+         x="186.06"
+         y="753.3"
+         height="15.6"
+         width="0.06" />
+      <path
+         stroke="black"
+         fill="#000000"
+         stroke-width="0.0"
+         svgx:z="3007"
+         d="M186.12 769.26 L170.28 769.26 C170.16 769.26 170.04 769.14 170.04 769.02 C170.04 768.9 170.16 768.78 170.28 768.78 L186.12 768.78 C186.24 768.78 186.3 768.9 186.3 769.02 C186.3 769.14 186.24 769.26 186.12 769.26 "
+         id="path3638" />
+      <path
+         stroke="black"
+         fill="#000000"
+         stroke-width="0.0"
+         svgx:z="3013"
+         d="M185.88 778.86 L185.88 769.02 C185.88 768.9 185.94 768.78 186.12 768.78 C186.24 768.78 186.3 768.9 186.3 769.02 L186.3 778.86 C186.3 778.98 186.24 779.1 186.12 779.1 C185.94 779.1 185.88 778.98 185.88 778.86 "
+         id="path3640" />
+      <path
+         stroke="black"
+         fill="#000000"
+         stroke-width="0.0"
+         svgx:z="3014"
+         d="M196.68 769.26 L186.12 769.26 C185.94 769.26 185.88 769.14 185.88 769.02 C185.88 768.9 185.94 768.78 186.12 768.78 L196.68 768.78 C196.8 768.78 196.92 768.9 196.92 769.02 C196.92 769.14 196.8 769.26 196.68 769.26 "
+         id="path3642" />
+    </g>
+  </g>
+</svg>

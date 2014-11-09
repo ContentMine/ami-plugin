@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<molecule xmlns="http://www.xml-cml.org/schema">
+<atomArray>
+<atom id="a1" elementType="C" x2="45.822" y2="64.818"/>
+<atom id="a2" elementType="C" x2="38.421" y2="62.982"/>
+<atom id="a3" elementType="C" x2="39.48" y2="62.37"/>
+<atom id="a4" elementType="C" x2="40.542" y2="62.982"/>
+<atom id="a5" elementType="C" x2="39.48" y2="64.818"/>
+<atom id="a6" elementType="C" x2="46.878" y2="64.206"/>
+<atom id="a7" elementType="R" x2="40.114" y2="65.931">
+  <label name="join">OH</label>
+</atom>
+<atom id="a8" elementType="C" x2="47.934" y2="64.818"/>
+<atom id="a9" elementType="O" x2="41.596" y2="64.707"/>
+<atom id="a10" elementType="C" x2="43.71" y2="64.691"/>
+<atom id="a11" elementType="C" x2="38.421" y2="64.206"/>
+<atom id="a12" elementType="C" x2="42.654" y2="62.982"/>
+<atom id="a13" elementType="C" x2="44.766" y2="64.206"/>
+<atom id="a14" elementType="C" x2="42.654" y2="64.206"/>
+<atom id="a15" elementType="C" x2="40.542" y2="64.206"/>
+<atom id="a16" elementType="C" x2="42.654" y2="65.43"/>
+<atom id="a17" elementType="R" x2="36.736" y2="62.259">
+  <label name="join">HO</label>
+</atom>
+</atomArray>
+<bondArray>
+<bond atomRefs2="a15 a9" order="S" id="a15_a9"/>
+<bond atomRefs2="a14 a16" order="S" id="a14_a16">
+  <bondStereo>W</bondStereo>
+</bond>
+<bond atomRefs2="a2 a17" order="S" id="a2_a17"/>
+<bond atomRefs2="a12 a14" order="S" id="a12_a14"/>
+<bond atomRefs2="a1 a6" order="D" id="a1_a6"/>
+<bond atomRefs2="a9 a14" order="S" id="a9_a14"/>
+<bond atomRefs2="a5 a7" order="S" id="a5_a7"/>
+<bond atomRefs2="a11 a5" order="S" id="a11_a5"/>
+<bond atomRefs2="a3 a2" order="S" id="a3_a2"/>
+<bond atomRefs2="a4 a3" order="D" id="a4_a3"/>
+<bond atomRefs2="a2 a11" order="D" id="a2_a11"/>
+<bond atomRefs2="a4 a15" order="S" id="a4_a15"/>
+<bond atomRefs2="a13 a1" order="S" id="a13_a1"/>
+<bond atomRefs2="a6 a8" order="S" id="a6_a8"/>
+<bond atomRefs2="a4 a12" order="S" id="a4_a12"/>
+<bond atomRefs2="a5 a15" order="D" id="a5_a15"/>
+<bond atomRefs2="a10 a13" order="D" id="a10_a13"/>
+<!-- added manually -->
+<bond atomRefs2="a10 a14" order="S" id="a10_a14"/>
+</bondArray>
+</molecule>

@@ -1,0 +1,456 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:svgx="http://www.xml-cml.org/schema/svgx"
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   id="svg3078"
+   version="1.1"
+   inkscape:version="0.48.1 "
+   width="100%"
+   height="100%"
+   sodipodi:docname="image.g.2.23.svg">
+  <metadata
+     id="metadata3177">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <defs
+     id="defs3175" />
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="640"
+     inkscape:window-height="480"
+     id="namedview3173"
+     showgrid="false"
+     inkscape:zoom="2.2121661"
+     inkscape:cx="289.73511"
+     inkscape:cy="294.5841"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="0"
+     inkscape:current-layer="g.2.23" />
+  <g
+     title="org.xmlcml.svg2xml.page.MixedAnalyzer2"
+     id="g.2.23">
+    <g
+       id="g3081">
+      <path
+         stroke="black"
+         fill="#000000"
+         stroke-width="0.0"
+         svgx:z="1952"
+         d="M258.959 728.58 L266.16 724.44 C266.28 724.38 266.4 724.38 266.46 724.5 C266.58 724.68 266.52 724.8 266.4 724.86 L259.26 729.0 C259.14 729.06 258.959 729.06 258.899 728.94 C258.839 728.82 258.839 728.64 258.959 728.58 "
+         id="path3083" />
+      <path
+         stroke="black"
+         fill="#000000"
+         stroke-width="0.0"
+         svgx:z="1950"
+         d="M260.1 729.66 L253.5 725.82 C253.38 725.76 253.32 725.58 253.38 725.46 C253.44 725.34 253.62 725.34 253.74 725.4 L260.339 729.18 C260.459 729.3 260.519 729.42 260.459 729.54 C260.339 729.66 260.22 729.72 260.1 729.66 "
+         id="path3085" />
+      <path
+         stroke="black"
+         fill="#000000"
+         stroke-width="0.0"
+         svgx:z="1953"
+         d="M260.1 730.5 L267.24 726.36 C267.36 726.24 267.54 726.3 267.6 726.42 C267.66 726.54 267.6 726.72 267.48 726.78 L260.339 730.92 C260.22 730.98 260.04 730.92 259.98 730.8 C259.92 730.68 259.98 730.56 260.1 730.5 "
+         id="path3087" />
+      <path
+         stroke="black"
+         fill="#000000"
+         stroke-width="0.0"
+         svgx:z="1947"
+         d="M259.98 741.66 L259.98 729.42 C259.98 729.3 260.1 729.18 260.22 729.18 C260.339 729.18 260.459 729.3 260.459 729.42 L260.459 741.66 C260.459 741.78 260.339 741.9 260.22 741.9 C260.1 741.9 259.98 741.78 259.98 741.66 "
+         id="path3089" />
+      <path
+         stroke="black"
+         fill="#000000"
+         stroke-width="0.0"
+         svgx:z="1942"
+         d="M237.72 742.26 L237.72 733.98 C237.72 733.86 237.84 733.74 237.96 733.74 C238.14 733.74 238.26 733.86 238.26 733.98 L238.26 742.26 C238.26 742.38 238.14 742.5 237.96 742.5 C237.84 742.5 237.72 742.38 237.72 742.26 "
+         id="path3091" />
+      <path
+         stroke="black"
+         fill="#000000"
+         stroke-width="0.0"
+         svgx:z="1943"
+         d="M239.94 742.26 L239.94 733.98 C239.94 733.86 240.06 733.74 240.18 733.74 C240.3 733.74 240.42 733.86 240.42 733.98 L240.42 742.26 C240.42 742.38 240.3 742.5 240.18 742.5 C240.06 742.5 239.94 742.38 239.94 742.26 "
+         id="path3093" />
+      <path
+         stroke="black"
+         fill="#000000"
+         stroke-width="0.0"
+         svgx:z="1972"
+         d="M323.34 741.66 L323.34 733.98 C323.34 733.86 323.46 733.74 323.58 733.74 C323.76 733.74 323.82 733.86 323.82 733.98 L323.82 741.66 C323.82 741.78 323.76 741.9 323.58 741.9 C323.46 741.9 323.34 741.78 323.34 741.66 "
+         id="path3095" />
+      <path
+         stroke="black"
+         fill="#000000"
+         stroke-width="0.0"
+         svgx:z="1938"
+         d="M232.14 745.32 L238.98 741.42 C239.1 741.36 239.22 741.36 239.28 741.48 C239.4 741.6 239.34 741.78 239.22 741.84 L232.38 745.8 C232.26 745.86 232.14 745.8 232.08 745.68 C231.96 745.56 232.02 745.44 232.14 745.32 "
+         id="path3097" />
+      <path
+         stroke="black"
+         fill="#000000"
+         stroke-width="0.0"
+         svgx:z="1939"
+         d="M239.22 741.42 L249.78 747.54 C249.9 747.6 249.96 747.72 249.84 747.84 C249.78 747.96 249.66 748.02 249.54 747.96 L238.98 741.84 C238.86 741.78 238.8 741.6 238.86 741.48 C238.92 741.36 239.1 741.36 239.22 741.42 "
+         id="path3099" />
+      <path
+         stroke="black"
+         fill="#000000"
+         stroke-width="0.0"
+         svgx:z="1940"
+         d="M249.54 747.54 L260.1 741.42 C260.22 741.36 260.339 741.36 260.459 741.48 C260.519 741.6 260.459 741.78 260.339 741.84 L249.78 747.96 C249.66 748.02 249.48 747.96 249.42 747.84 C249.36 747.72 249.42 747.6 249.54 747.54 "
+         id="path3101" />
+      <path
+         stroke="black"
+         fill="#000000"
+         stroke-width="0.0"
+         svgx:z="1946"
+         d="M260.339 741.42 L266.64 745.02 C266.76 745.14 266.76 745.26 266.7 745.38 C266.64 745.5 266.46 745.56 266.34 745.5 L260.1 741.84 C259.98 741.78 259.92 741.6 259.98 741.48 C260.04 741.36 260.22 741.36 260.339 741.42 "
+         id="path3103" />
+      <path
+         stroke="black"
+         fill="#000000"
+         stroke-width="0.0"
+         svgx:z="1954"
+         d="M274.86 745.08 L281.22 741.42 C281.34 741.36 281.46 741.36 281.58 741.48 C281.64 741.6 281.58 741.78 281.46 741.84 L275.1 745.5 C274.98 745.62 274.86 745.56 274.74 745.44 C274.68 745.32 274.74 745.14 274.86 745.08 "
+         id="path3105" />
+      <path
+         stroke="black"
+         fill="#000000"
+         stroke-width="0.0"
+         svgx:z="1955"
+         d="M281.46 741.42 L292.02 747.54 C292.14 747.6 292.2 747.72 292.14 747.84 C292.08 747.96 291.9 748.02 291.78 747.96 L281.22 741.84 C281.1 741.78 281.04 741.6 281.1 741.48 C281.16 741.36 281.34 741.36 281.46 741.42 "
+         id="path3107" />
+      <path
+         stroke="black"
+         fill="#000000"
+         stroke-width="0.0"
+         svgx:z="1967"
+         d="M312.9 747.54 L323.46 741.42 C323.58 741.36 323.76 741.36 323.82 741.48 C323.88 741.6 323.82 741.78 323.7 741.84 L313.14 747.96 C313.02 748.02 312.9 747.96 312.78 747.84 C312.72 747.72 312.78 747.6 312.9 747.54 "
+         id="path3109" />
+      <path
+         stroke="black"
+         fill="#000000"
+         stroke-width="0.0"
+         svgx:z="1968"
+         d="M323.7 741.42 L334.26 747.54 C334.38 747.6 334.44 747.72 334.38 747.84 C334.32 747.96 334.14 748.02 334.02 747.96 L323.46 741.84 C323.34 741.78 323.28 741.6 323.4 741.48 C323.46 741.36 323.58 741.36 323.7 741.42 "
+         id="path3111" />
+      <path
+         stroke="black"
+         fill="#000000"
+         stroke-width="0.0"
+         svgx:z="1974"
+         d="M332.94 746.88 L340.08 742.74 C340.2 742.68 340.38 742.74 340.44 742.86 C340.5 742.98 340.44 743.1 340.32 743.22 L333.18 747.3 C333.06 747.42 332.88 747.36 332.82 747.24 C332.76 747.12 332.82 746.94 332.94 746.88 "
+         id="path3113" />
+      <path
+         stroke="black"
+         fill="#000000"
+         stroke-width="0.0"
+         svgx:z="1958"
+         d="M291.78 747.54 L297.96 743.94 C298.08 743.88 298.26 743.88 298.32 744.0 C298.38 744.18 298.32 744.3 298.2 744.36 L292.02 747.96 C291.9 748.02 291.78 747.96 291.66 747.84 C291.6 747.72 291.66 747.6 291.78 747.54 "
+         id="path3115" />
+      <path
+         stroke="black"
+         fill="#000000"
+         stroke-width="0.0"
+         svgx:z="1966"
+         d="M306.9 743.88 L313.14 747.54 C313.26 747.6 313.32 747.72 313.26 747.84 C313.2 747.96 313.02 748.02 312.9 747.96 L306.66 744.36 C306.54 744.24 306.48 744.12 306.54 744.0 C306.6 743.88 306.78 743.82 306.9 743.88 "
+         id="path3117" />
+      <path
+         stroke="black"
+         fill="#000000"
+         stroke-width="0.0"
+         svgx:z="1975"
+         d="M334.02 748.8 L341.16 744.66 C341.28 744.6 341.46 744.6 341.52 744.72 C341.58 744.84 341.58 745.02 341.46 745.08 L334.26 749.22 C334.14 749.28 334.02 749.28 333.96 749.16 C333.84 749.04 333.9 748.86 334.02 748.8 "
+         id="path3119" />
+      <path
+         stroke="black"
+         fill="#000000"
+         stroke-width="0.0"
+         svgx:z="1959"
+         d="M292.14 747.72 L292.14 759.96 C292.14 760.08 292.02 760.2 291.9 760.2 C291.78 760.2 291.66 760.08 291.66 759.96 L291.66 747.72 C291.66 747.6 291.78 747.48 291.9 747.48 C292.02 747.48 292.14 747.6 292.14 747.72 "
+         id="path3121" />
+      <path
+         stroke="black"
+         fill="#000000"
+         stroke-width="0.0"
+         svgx:z="1978"
+         d="M334.44 747.72 L334.44 755.64 C334.44 755.76 334.32 755.88 334.14 755.88 C334.02 755.88 333.9 755.76 333.9 755.64 L333.9 747.72 C333.9 747.6 334.02 747.48 334.14 747.48 C334.32 747.48 334.44 747.6 334.44 747.72 "
+         id="path3123" />
+      <path
+         stroke="black"
+         fill="#000000"
+         stroke-width="0.0"
+         svgx:z="1961"
+         d="M292.02 758.46 L299.34 762.66 C299.46 762.78 299.52 762.9 299.46 763.02 C299.34 763.14 299.22 763.2 299.1 763.14 L291.78 758.88 C291.66 758.82 291.6 758.7 291.66 758.58 C291.78 758.46 291.9 758.4 292.02 758.46 "
+         id="path3125" />
+      <path
+         stroke="black"
+         fill="#000000"
+         stroke-width="0.0"
+         svgx:z="1965"
+         d="M292.02 760.14 L285.24 764.1 C285.12 764.16 285.0 764.1 284.94 763.98 C284.82 763.86 284.88 763.68 285.0 763.62 L291.78 759.72 C291.9 759.66 292.08 759.72 292.14 759.84 C292.2 759.96 292.14 760.08 292.02 760.14 "
+         id="path3127" />
+      <path
+         stroke="black"
+         fill="#000000"
+         stroke-width="0.0"
+         svgx:z="1962"
+         d="M290.94 760.38 L298.26 764.58 C298.38 764.64 298.44 764.82 298.32 764.94 C298.26 765.06 298.14 765.12 298.02 765.06 L290.7 760.8 C290.58 760.74 290.52 760.56 290.58 760.44 C290.64 760.32 290.82 760.32 290.94 760.38 "
+         id="path3129" />
+    </g>
+    <g
+       id="g3131">
+      <text
+         stroke="none"
+         fill="#000000"
+         svgx:fontName="CDPKAC+ArialMT"
+         svgx:width="722.0"
+         font-family="Helvetica"
+         font-weight="normal"
+         svgx:z="1948"
+         x="240.24"
+         y="726.48"
+         font-size="8.58"
+         id="text3133">H</text>
+      <text
+         stroke="none"
+         fill="#000000"
+         svgx:fontName="CDPKAC+ArialMT"
+         svgx:width="778.0"
+         font-family="Helvetica"
+         font-weight="normal"
+         svgx:z="1949"
+         x="246.358"
+         y="726.48"
+         font-size="8.58"
+         id="text3135">O</text>
+      <text
+         stroke="none"
+         fill="#000000"
+         svgx:fontName="CDPKAC+ArialMT"
+         svgx:width="778.0"
+         font-family="Helvetica"
+         font-weight="normal"
+         svgx:z="1951"
+         x="267.42"
+         y="726.48"
+         font-size="8.58"
+         id="text3137">O</text>
+      <text
+         stroke="none"
+         fill="#000000"
+         svgx:fontName="CDPKAC+ArialMT"
+         svgx:width="722.0"
+         font-family="Helvetica"
+         font-weight="normal"
+         svgx:z="1969"
+         x="320.52"
+         y="732.54"
+         font-size="8.58"
+         id="text3139">N</text>
+      <text
+         stroke="none"
+         fill="#000000"
+         svgx:fontName="CDPKAC+ArialMT"
+         svgx:width="722.0"
+         font-family="Helvetica"
+         font-weight="normal"
+         svgx:z="1970"
+         x="326.638"
+         y="732.54"
+         font-size="8.58"
+         id="text3141">H</text>
+      <text
+         stroke="none"
+         fill="#000000"
+         svgx:fontName="CDPKAC+ArialMT"
+         svgx:width="778.0"
+         font-family="Helvetica"
+         font-weight="normal"
+         svgx:z="1941"
+         x="235.74"
+         y="732.6"
+         font-size="8.58"
+         id="text3143">O</text>
+      <text
+         stroke="none"
+         fill="#000000"
+         svgx:fontName="CDPKAC+ArialMT"
+         svgx:width="556.0"
+         font-family="Helvetica"
+         font-weight="normal"
+         svgx:z="1971"
+         x="332.76"
+         y="734.4"
+         font-size="6.42"
+         id="text3145">2</text>
+      <text
+         stroke="none"
+         fill="#000000"
+         svgx:fontName="CDPKAC+ArialMT"
+         svgx:width="722.0"
+         font-family="Helvetica"
+         font-weight="normal"
+         svgx:z="1956"
+         x="299.4"
+         y="737.64"
+         font-size="8.58"
+         id="text3147">H</text>
+      <text
+         stroke="none"
+         fill="#000000"
+         svgx:fontName="CDPKAC+ArialMT"
+         svgx:width="722.0"
+         font-family="Helvetica"
+         font-weight="normal"
+         svgx:z="1957"
+         x="299.4"
+         y="744.72"
+         font-size="8.58"
+         id="text3149">N</text>
+      <text
+         stroke="none"
+         fill="#000000"
+         svgx:fontName="CDPKAC+ArialMT"
+         svgx:width="778.0"
+         font-family="Helvetica"
+         font-weight="normal"
+         svgx:z="1973"
+         x="341.4"
+         y="744.84"
+         font-size="8.58"
+         id="text3151">O</text>
+      <text
+         stroke="none"
+         fill="#000000"
+         svgx:fontName="CDPKAC+ArialMT"
+         svgx:width="722.0"
+         font-family="Helvetica"
+         font-weight="normal"
+         svgx:z="1944"
+         x="267.72"
+         y="750.84"
+         font-size="8.58"
+         id="text3153">N</text>
+      <text
+         stroke="none"
+         fill="#000000"
+         svgx:fontName="CDPKAC+ArialMT"
+         svgx:width="722.0"
+         font-family="Helvetica"
+         font-weight="normal"
+         svgx:z="1936"
+         x="219.06"
+         y="750.96"
+         font-size="8.58"
+         id="text3155">H</text>
+      <text
+         stroke="none"
+         fill="#000000"
+         svgx:fontName="CDPKAC+ArialMT"
+         svgx:width="778.0"
+         font-family="Helvetica"
+         font-weight="normal"
+         svgx:z="1937"
+         x="225.178"
+         y="750.96"
+         font-size="8.58"
+         id="text3157">O</text>
+      <text
+         stroke="none"
+         fill="#000000"
+         svgx:fontName="CDPKAC+ArialMT"
+         svgx:width="722.0"
+         font-family="Helvetica"
+         font-weight="normal"
+         svgx:z="1945"
+         x="267.72"
+         y="757.92"
+         font-size="8.58"
+         id="text3159">H</text>
+      <text
+         stroke="none"
+         fill="#000000"
+         svgx:fontName="CDPKAC+ArialMT"
+         svgx:width="778.0"
+         font-family="Helvetica"
+         font-weight="normal"
+         svgx:z="1976"
+         x="330.78"
+         y="763.14"
+         font-size="8.58"
+         id="text3161">O</text>
+      <text
+         stroke="none"
+         fill="#000000"
+         svgx:fontName="CDPKAC+ArialMT"
+         svgx:width="722.0"
+         font-family="Helvetica"
+         font-weight="normal"
+         svgx:z="1977"
+         x="337.381"
+         y="763.14"
+         font-size="8.58"
+         id="text3163">H</text>
+      <text
+         stroke="none"
+         fill="#000000"
+         svgx:fontName="CDPKAC+ArialMT"
+         svgx:width="722.0"
+         font-family="Helvetica"
+         font-weight="normal"
+         svgx:z="1963"
+         x="271.92"
+         y="769.26"
+         font-size="8.58"
+         id="text3165">H</text>
+      <text
+         stroke="none"
+         fill="#000000"
+         svgx:fontName="CDPKAC+ArialMT"
+         svgx:width="778.0"
+         font-family="Helvetica"
+         font-weight="normal"
+         svgx:z="1964"
+         x="278.038"
+         y="769.26"
+         font-size="8.58"
+         id="text3167">O</text>
+      <text
+         stroke="none"
+         fill="#000000"
+         svgx:fontName="CDPKAC+ArialMT"
+         svgx:width="778.0"
+         font-family="Helvetica"
+         font-weight="normal"
+         svgx:z="1960"
+         x="299.1"
+         y="769.26"
+         font-size="8.58"
+         id="text3169">O</text>
+    </g>
+  </g>
+</svg>

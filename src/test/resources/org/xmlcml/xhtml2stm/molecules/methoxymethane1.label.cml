@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<molecule xmlns="http://www.xml-cml.org/schema">
+  <atomArray>
+    <atom id="a1" elementType="R" x2="20.225" y2="11.616">
+      <label name="join">OMe</label>
+    </atom>
+    <atom id="a2" elementType="C" x2="8.469" y2="20.166"/>
+  </atomArray>
+  <bondArray>
+    <bond atomRefs2="a2 a1" order="S" id="a2_a1"/>
+  </bondArray>
+</molecule>
+

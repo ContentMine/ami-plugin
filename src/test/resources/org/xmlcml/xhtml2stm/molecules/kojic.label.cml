@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<molecule xmlns="http://www.xml-cml.org/schema">
+<atomArray>
+<atom id="a1" elementType="C" x2="40.599" y2="54.402"/>
+<atom id="a2" elementType="R" x2="39.914" y2="52.455">
+  <label name="join">HO</label>
+</atom>
+<atom id="a3" elementType="O" x2="41.656" y2="54.903"/>
+<atom id="a4" elementType="C" x2="42.72" y2="53.178"/>
+<atom id="a5" elementType="O" x2="41.656" y2="51.231"/>
+<atom id="a6" elementType="R" x2="45.466" y2="54.291">
+  <label name="join">OH</label>
+</atom>
+<atom id="a7" elementType="C" x2="40.599" y2="53.178"/>
+<atom id="a8" elementType="C" x2="41.658" y2="52.563"/>
+<atom id="a9" elementType="C" x2="43.776" y2="55.014"/>
+<atom id="a10" elementType="C" x2="42.72" y2="54.402"/>
+</atomArray>
+<bondArray>
+<bond atomRefs2="a1 a3" order="S" id="a1_a3"/>
+<bond atomRefs2="a8 a7" order="S" id="a8_a7"/>
+<bond atomRefs2="a7 a1" order="D" id="a7_a1"/>
+<bond atomRefs2="a5 a8" order="D" id="a5_a8"/>
+<bond atomRefs2="a7 a2" order="S" id="a7_a2"/>
+<bond atomRefs2="a4 a8" order="S" id="a4_a8"/>
+<bond atomRefs2="a4 a10" order="D" id="a4_a10"/>
+<bond atomRefs2="a9 a6" order="S" id="a9_a6"/>
+<bond atomRefs2="a3 a10" order="S" id="a3_a10"/>
+<bond atomRefs2="a10 a9" order="S" id="a10_a9"/>
+</bondArray>
+</molecule>

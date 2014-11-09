@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:svgx="http://www.xml-cml.org/schema/svgx"
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   height="800.0"
+   width="700.0"
+   id="svg2"
+   version="1.1"
+   inkscape:version="0.48.1 "
+   sodipodi:docname="image.g.2.11.svg">
+  <metadata
+     id="metadata37">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <defs
+     id="defs35" />
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="640"
+     inkscape:window-height="480"
+     id="namedview33"
+     showgrid="false"
+     inkscape:zoom="4.1153615"
+     inkscape:cx="267.46481"
+     inkscape:cy="274.61559"
+     inkscape:window-x="813"
+     inkscape:window-y="289"
+     inkscape:window-maximized="0"
+     inkscape:current-layer="g19" />
+  <g
+     title="org.xmlcml.svg2xml.page.MixedAnalyzer2"
+     id="g.2.11">
+    <g
+       id="g5">
+      <path
+         stroke="black"
+         fill="#000000"
+         stroke-width="0.0"
+         svgx:z="1761"
+         d="M270.96 528.96 L264.36 525.18 C264.24 525.12 264.18 524.94 264.24 524.82 C264.3 524.7 264.48 524.64 264.6 524.7 L271.2 528.54 C271.32 528.6 271.38 528.78 271.26 528.9 C271.2 529.02 271.08 529.02 270.96 528.96 "
+         id="path11" />
+    </g>
+    <g
+       id="g19">
+      <text
+         stroke="none"
+         fill="#000000"
+         svgx:fontName="CDPKAC+ArialMT"
+         svgx:width="722.0"
+         font-family="Helvetica"
+         font-weight="normal"
+         svgx:z="1759"
+         x="251.1"
+         y="525.84"
+         font-size="8.58"
+         id="text21">H</text>
+      <text
+         stroke="none"
+         fill="#000000"
+         svgx:fontName="CDPKAC+ArialMT"
+         svgx:width="778.0"
+         font-family="Helvetica"
+         font-weight="normal"
+         svgx:z="1760"
+         x="257.218"
+         y="525.84"
+         font-size="8.58"
+         id="text23">O</text>
+    </g>
+  </g>
+</svg>

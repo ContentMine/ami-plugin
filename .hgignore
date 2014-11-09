@@ -5,7 +5,6 @@ foo
 ^.classpath$
 ^.hgignore~$
 ^misc/.*
-src/test/resources/org/xmlcml/xhtml2stm/molecules/*
 src/test/resources/org/xmlcml/xhtml2stm1/
 ^target/.*
 /target/
