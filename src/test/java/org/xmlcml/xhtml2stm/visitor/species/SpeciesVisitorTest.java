@@ -72,6 +72,7 @@ public class SpeciesVisitorTest {
 	}
 
 	@Test
+	@Ignore // too many files
 	public void testSearchHtmlFiles() throws Exception {
 		AbstractVisitor speciesVisitor = new SpeciesVisitor();
 		HtmlVisitable htmlVisitable = new HtmlVisitable();
