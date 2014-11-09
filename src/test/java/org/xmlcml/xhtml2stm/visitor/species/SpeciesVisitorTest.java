@@ -363,6 +363,7 @@ public class SpeciesVisitorTest {
 	 * 
 	 * @throws Exception
 	 */
+	@Ignore // 
 	public void testExtractedPLOSExtracted1() throws Exception {
 		String[] args = new String[] {
 				"-i", "src/test/resources/org/xmlcml/xhtml2stm/plosone/2013-12-11/xml/",
