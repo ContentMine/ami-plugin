@@ -1,0 +1,1575 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:svgx="http://www.xml-cml.org/schema/svgx"
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   id="svg8275"
+   version="1.1"
+   inkscape:version="0.48.1 "
+   width="100%"
+   height="100%"
+   sodipodi:docname="wedgesreduced.svg">
+  <metadata
+     id="metadata10922">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <defs
+     id="defs10920" />
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="1026"
+     inkscape:window-height="810"
+     id="namedview10918"
+     showgrid="false"
+     inkscape:zoom="3.1284753"
+     inkscape:cx="24907.135"
+     inkscape:cy="1045.7544"
+     inkscape:window-x="90"
+     inkscape:window-y="66"
+     inkscape:window-maximized="0"
+     inkscape:current-layer="svg8275" />
+  <polyline
+     fill="#000000"
+     stroke="black"
+     stroke-width="0.0"
+     svgx:z="1815"
+     points="136.26 619.32 137.64 620.34 138.9 620.58 137.88 632.4 137.64 632.52 137.34 632.4 136.26 619.32"
+     id="polyline.68"
+     transform="matrix(1.0,0.0,0.0,1.0,-126.25999999999999,-619.32)" />
+  <polyline
+     fill="#000000"
+     stroke="black"
+     stroke-width="0.0"
+     svgx:z="1828"
+     points="160.02 640.38 157.5 640.38 158.46 633.0 158.76 632.52 159.06 633.0 160.02 640.38"
+     id="polyline.106"
+     transform="matrix(1.0,0.0,0.0,1.0,-134.85999999999999,-632.52)" />
+  <polyline
+     fill="#000000"
+     stroke="black"
+     stroke-width="0.0"
+     svgx:z="1888"
+     points="427.8 654.3 425.28 654.3 426.24 642.54 426.54 642.06 426.78 642.06 427.8 654.3"
+     id="polyline.125"
+     transform="matrix(1.0,0.0,0.0,1.0,-390.11999999999995,-642.06)" />
+  <polyline
+     fill="#000000"
+     stroke="black"
+     stroke-width="0.0"
+     svgx:z="2015"
+     points="449.04 749.28 443.88 749.76 437.1 745.74 436.86 745.32 436.92 745.08 449.04 749.28"
+     id="polyline.212"
+     transform="matrix(1.0,0.0,0.0,1.0,-364.0799999999999,-745.08)" />
+  <polyline
+     fill="#000000"
+     stroke="black"
+     stroke-width="0.0"
+     svgx:z="2020"
+     points="462.24 748.68 461.16 746.34 466.62 745.02 466.14 745.8 462.24 748.68"
+     id="polyline.213"
+     transform="matrix(1.0,0.0,0.0,1.0,-366.19999999999993,-745.02)" />
+  <polyline
+     fill="#000000"
+     stroke="black"
+     stroke-width="0.0"
+     svgx:z="2023"
+     points="438.12 765.42 435.54 765.42 436.56 757.8 436.86 757.56 437.1 757.56 438.12 765.42"
+     id="polyline.253"
+     transform="matrix(1.0,0.0,0.0,1.0,-325.12,-757.56)" />
+  <polyline
+     fill="#000000"
+     stroke="black"
+     stroke-width="0.0"
+     svgx:z="2564"
+     points="470.34 749.76 468.6 748.2 476.28 741.06 476.7 741.0 476.46 741.72 470.34 749.76"
+     id="polyline.274"
+     transform="matrix(1.0,0.0,0.0,1.0,-333.26,-741.0)" />
+  <polyline
+     fill="#000000"
+     stroke="black"
+     stroke-width="0.0"
+     svgx:z="2582"
+     points="517.2 767.76 516.059 768.0 514.86 767.76 515.76 752.52 516.059 752.1 516.299 752.1 517.2 767.76"
+     id="polyline.316"
+     transform="matrix(1.0,0.0,0.0,1.0,-361.4200000000001,-752.1)" />
+  <polyline
+     fill="#000000"
+     stroke="black"
+     stroke-width="0.0"
+     svgx:z="2588"
+     points="465.84 717.12 468.18 717.3 466.74 723.9 466.38 724.38 466.14 724.08 465.84 717.12"
+     id="polyline.173"
+     transform="matrix(1.0,0.0,0.0,1.0,-300.05999999999995,-717.12)" />
+  <polyline
+     fill="#000000"
+     stroke="black"
+     stroke-width="0.0"
+     svgx:z="2686"
+     points="468.84 640.32 467.52 638.4 474.66 634.56 475.2 634.56 474.96 635.1 468.84 640.32"
+     id="polyline.112"
+     transform="matrix(1.0,0.0,0.0,1.0,-289.4,-634.56)" />
+  <polyline
+     fill="#000000"
+     stroke="black"
+     stroke-width="0.0"
+     svgx:z="2700"
+     points="522.12 650.34 521.22 651.18 520.98 652.56 514.44 646.14 514.5 645.9 514.74 645.72 522.12 650.34"
+     id="polyline.146"
+     transform="matrix(1.0,0.0,0.0,1.0,-318.64,-645.72)" />
+  <polyline
+     fill="#000000"
+     stroke="black"
+     stroke-width="0.0"
+     svgx:z="2704"
+     points="464.46 611.94 466.8 612.24 465.3 617.1 464.88 617.58 464.64 617.28 464.46 611.94"
+     id="polyline.8"
+     transform="matrix(1.0,0.0,0.0,1.0,-250.98000000000002,-611.94)" />
+  <polyline
+     fill="#000000"
+     stroke="black"
+     stroke-width="0.0"
+     svgx:z="2785"
+     points="299.46 640.32 298.14 638.4 305.34 634.56 305.82 634.56 305.58 635.1 299.46 640.32"
+     id="polyline.108"
+     transform="matrix(1.0,0.0,0.0,1.0,-59.25999999999996,-634.56)" />
+  <polyline
+     fill="#000000"
+     stroke="black"
+     stroke-width="0.0"
+     svgx:z="2799"
+     points="352.74 650.34 351.84 651.18 351.6 652.56 345.06 646.14 345.12 645.9 345.36 645.72 352.74 650.34"
+     id="polyline.140"
+     transform="matrix(1.0,0.0,0.0,1.0,-88.49999999999997,-645.72)" />
+  <polyline
+     fill="#000000"
+     stroke="black"
+     stroke-width="0.0"
+     svgx:z="2803"
+     points="295.08 611.94 297.42 612.24 295.92 617.1 295.5 617.58 295.26 617.28 295.08 611.94"
+     id="polyline.6"
+     transform="matrix(1.0,0.0,0.0,1.0,-20.839999999999975,-611.94)" />
+  <polyline
+     fill="#000000"
+     stroke="black"
+     stroke-width="0.0"
+     svgx:z="2806"
+     points="348.6 630.6 349.92 632.52 345.36 634.56 345.12 634.44 345.06 634.14 348.6 630.6"
+     id="polyline.79"
+     transform="matrix(1.0,0.0,0.0,1.0,-58.47999999999996,-630.6)" />
+  <polyline
+     fill="#000000"
+     stroke="black"
+     stroke-width="0.0"
+     svgx:z="2856"
+     points="130.44 643.14 128.639 641.64 135.66 634.56 136.02 634.5 135.78 635.22 130.44 643.14"
+     id="polyline.105"
+     transform="matrix(1.0,0.0,0.0,1.0,185.86100000000005,-634.5)" />
+  <polyline
+     fill="#000000"
+     stroke="black"
+     stroke-width="0.0"
+     svgx:z="2871"
+     points="186.78 650.64 185.88 651.48 185.64 652.74 175.32 645.9 175.32 645.66 175.56 645.48 186.78 650.64"
+     id="polyline.132"
+     transform="matrix(1.0,0.0,0.0,1.0,156.5610000000001,-645.48)" />
+  <polyline
+     fill="#000000"
+     stroke="black"
+     stroke-width="0.0"
+     svgx:z="2875"
+     points="124.74 609.84 127.08 609.78 126.48 617.22 126.18 617.64 125.88 617.28 124.74 609.84"
+     id="polyline.0"
+     transform="matrix(1.0,0.0,0.0,1.0,228.6010000000001,-609.78)" />
+  <polyline
+     fill="#000000"
+     stroke="black"
+     stroke-width="0.0"
+     svgx:z="2895"
+     points="158.1 621.6 160.38 622.26 156.12 633.84 155.64 634.38 155.46 634.02 158.1 621.6"
+     id="polyline.30"
+     transform="matrix(1.0,0.0,0.0,1.0,210.22100000000015,-621.6)" />
+  <polyline
+     fill="#000000"
+     stroke="black"
+     stroke-width="0.0"
+     svgx:z="2919"
+     points="330.36 763.32 327.96 763.26 329.16 751.98 329.4 751.5 329.7 751.92 330.36 763.32"
+     id="polyline.306"
+     transform="matrix(1.0,0.0,0.0,1.0,52.64100000000013,-751.5)" />
+  <polyline
+     fill="#000000"
+     stroke="black"
+     stroke-width="0.0"
+     svgx:z="2929"
+     points="302.58 749.7 300.84 748.08 309.12 740.46 309.54 740.4 309.3 741.06 302.58 749.7"
+     id="polyline.260"
+     transform="matrix(1.0,0.0,0.0,1.0,92.16100000000017,-740.4)" />
+  <polyline
+     fill="#000000"
+     stroke="black"
+     stroke-width="0.0"
+     svgx:z="2948"
+     points="350.1 767.16 348.9 767.4 347.76 767.16 348.66 751.92 348.9 751.5 349.14 751.5 350.1 767.16"
+     id="polyline.308"
+     transform="matrix(1.0,0.0,0.0,1.0,63.9410000000002,-751.5)" />
+  <polyline
+     fill="#000000"
+     stroke="black"
+     stroke-width="0.0"
+     svgx:z="2954"
+     points="298.68 716.52 301.08 716.7 299.58 723.3 299.28 723.78 298.98 723.48 298.68 716.52"
+     id="polyline.168"
+     transform="matrix(1.0,0.0,0.0,1.0,125.36100000000022,-716.52)" />
+  <polyline
+     fill="#000000"
+     stroke="black"
+     stroke-width="0.0"
+     svgx:z="2979"
+     points="167.52 764.94 165.18 764.88 166.32 753.6 166.62 753.12 166.86 753.6 167.52 764.94"
+     id="polyline.320"
+     transform="matrix(1.0,0.0,0.0,1.0,271.2610000000002,-753.12)" />
+  <polyline
+     fill="#000000"
+     stroke="black"
+     stroke-width="0.0"
+     svgx:z="3012"
+     points="135.9 718.14 138.24 718.32 136.8 724.98 136.44 725.46 136.2 725.1 135.9 718.14"
+     id="polyline.175"
+     transform="matrix(1.0,0.0,0.0,1.0,343.32100000000025,-718.14)" />
+  <polyline
+     fill="#000000"
+     stroke="black"
+     stroke-width="0.0"
+     svgx:z="134"
+     points="424.86 131.94 427.26 133.08 426.36 142.86 426.06 143.28 425.82 142.86 424.86 131.94"
+     id="polyline.22"
+     transform="matrix(1.0,0.0,0.0,1.0,66.70100000000025,-131.94)" />
+  <polyline
+     fill="#000000"
+     stroke="black"
+     stroke-width="0.0"
+     svgx:z="145"
+     points="437.28 164.76 434.88 164.82 435.78 160.68 436.02 160.56 436.32 160.68 437.28 164.76"
+     id="polyline.87"
+     transform="matrix(1.0,0.0,0.0,1.0,69.08100000000024,-160.56)" />
+  <polyline
+     fill="#000000"
+     stroke="black"
+     stroke-width="0.0"
+     svgx:z="156"
+     points="411.24 169.86 408.84 169.14 415.74 160.62 416.1 160.56 416.28 160.74 411.24 169.86"
+     id="polyline.85"
+     transform="matrix(1.0,0.0,0.0,1.0,107.52100000000024,-160.56)" />
+  <polyline
+     fill="#000000"
+     stroke="black"
+     stroke-width="0.0"
+     svgx:z="183"
+     points="429.06 161.22 426.72 161.82 425.88 155.16 426.06 154.8 426.6 155.34 429.06 161.22"
+     id="polyline.75"
+     transform="matrix(1.0,0.0,0.0,1.0,107.92100000000016,-154.8)" />
+  <polyline
+     fill="#000000"
+     stroke="black"
+     stroke-width="0.0"
+     svgx:z="196"
+     points="290.58 131.94 292.98 133.08 292.14 142.86 291.84 143.28 291.6 142.86 290.58 131.94"
+     id="polyline.21"
+     transform="matrix(1.0,0.0,0.0,1.0,256.40100000000024,-131.94)" />
+  <polyline
+     fill="#000000"
+     stroke="black"
+     stroke-width="0.0"
+     svgx:z="218"
+     points="277.02 169.86 274.62 169.08 281.52 160.62 281.88 160.5 282.06 160.68 277.02 169.86"
+     id="polyline.81"
+     transform="matrix(1.0,0.0,0.0,1.0,297.1610000000003,-160.5)" />
+  <polyline
+     fill="#000000"
+     stroke="black"
+     stroke-width="0.0"
+     svgx:z="241"
+     points="293.04 162.12 290.64 162.12 291.54 155.22 291.84 154.8 292.14 155.22 293.04 162.12"
+     id="polyline.67"
+     transform="matrix(1.0,0.0,0.0,1.0,298.58100000000024,-154.8)" />
+  <polyline
+     fill="#000000"
+     stroke="black"
+     stroke-width="0.0"
+     svgx:z="295"
+     points="159.72 131.94 162.12 133.08 161.28 142.86 160.98 143.28 160.68 142.86 159.72 131.94"
+     id="polyline.20"
+     transform="matrix(1.0,0.0,0.0,1.0,441.9010000000003,-131.94)" />
+  <polyline
+     fill="#000000"
+     stroke="black"
+     stroke-width="0.0"
+     svgx:z="306"
+     points="172.2 164.76 169.8 164.76 170.7 160.68 170.94 160.5 171.24 160.62 172.2 164.76"
+     id="polyline8319"
+     transform="matrix(1.0,0.0,0.0,1.0,444.2210000000003,-160.5)" />
+  <polyline
+     fill="#000000"
+     stroke="black"
+     stroke-width="0.0"
+     svgx:z="317"
+     points="146.16 169.86 143.76 169.08 150.66 160.62 151.02 160.5 151.2 160.68 146.16 169.86"
+     id="polyline.77"
+     transform="matrix(1.0,0.0,0.0,1.0,482.6610000000003,-160.5)" />
+  <polyline
+     fill="#000000"
+     stroke="black"
+     stroke-width="0.0"
+     svgx:z="336"
+     points="163.92 161.1 161.58 161.7 160.8 155.16 160.98 154.8 161.46 155.34 163.92 161.1"
+     id="polyline.63"
+     transform="matrix(1.0,0.0,0.0,1.0,483.0610000000003,-154.8)" />
+  <polyline
+     fill="#000000"
+     stroke="black"
+     stroke-width="0.0"
+     svgx:z="1749"
+     points="384.0 470.64 385.8 468.42 391.68 480.9 391.5 481.08 391.26 481.08 384.0 470.64"
+     id="polyline.59"
+     transform="matrix(1.0,0.0,0.0,1.0,272.98100000000034,-468.42)" />
+  <polyline
+     fill="#000000"
+     stroke="black"
+     stroke-width="0.0"
+     svgx:z="1873"
+     points="117.66 638.34 117.42 636.9 116.28 635.94 128.759 630.06 128.94 630.24 128.94 630.54 117.66 638.34"
+     id="polyline.352"
+     transform="matrix(1.0,0.0,0.0,1.0,576.0610000000004,-630.06)" />
+  <polyline
+     fill="#000000"
+     stroke="black"
+     stroke-width="0.0"
+     svgx:z="2117"
+     points="119.64 753.6 117.42 751.8 129.9 745.86 130.08 746.04 130.08 746.34 119.64 753.6"
+     id="polyline.524"
+     transform="matrix(1.0,0.0,0.0,1.0,597.5810000000004,-745.86)" />
+  <polyline
+     fill="#000000"
+     stroke="black"
+     stroke-width="0.0"
+     svgx:z="426"
+     points="195.84 617.58 198.66 617.58 197.46 627.9 197.22 628.02 196.98 627.9 195.84 617.58"
+     id="polyline.530"
+     transform="matrix(1.0,0.0,0.0,1.0,541.8210000000003,-617.58)" />
+  <polyline
+     fill="#000000"
+     stroke="black"
+     stroke-width="0.0"
+     svgx:z="429"
+     points="186.48 646.44 183.66 646.44 184.86 635.16 185.1 635.04 185.34 635.16 186.48 646.44"
+     id="polyline.575"
+     transform="matrix(1.0,0.0,0.0,1.0,566.8210000000003,-635.04)" />
+  <polyline
+     fill="#000000"
+     stroke="black"
+     stroke-width="0.0"
+     svgx:z="708"
+     points="196.98 231.18 196.98 228.36 209.64 229.56 209.76 229.8 209.64 230.04 196.98 231.18"
+     id="polyline.39"
+     transform="matrix(1.0,0.0,0.0,1.0,566.3210000000001,-228.36)" />
+  <polyline
+     fill="#000000"
+     stroke="black"
+     stroke-width="0.0"
+     svgx:z="1280"
+     points="373.74 491.88 373.62 491.64 373.74 491.4 388.2 490.2 387.66 491.64 388.2 493.08 373.74 491.88"
+     id="polyline.380"
+     transform="matrix(1.0,0.0,0.0,1.0,645.0009999999999,-490.2)" />
+  <polyline
+     fill="#000000"
+     stroke="black"
+     stroke-width="0.0"
+     svgx:z="570"
+     points="505.86 237.24 508.86 237.24 507.66 252.12 507.36 252.24 507.12 252.12 505.86 237.24"
+     id="polyline.43"
+     transform="matrix(1.0,0.0,0.0,1.0,656.5809999999996,-237.24)" />
+  <polyline
+     fill="#000000"
+     stroke="black"
+     stroke-width="0.0"
+     svgx:z="1216"
+     points="332.16 672.18 333.48 669.84 342.54 676.32 342.54 676.62 342.3 676.74 332.16 672.18"
+     id="polyline.472"
+     transform="matrix(1.0,0.0,0.0,1.0,943.1809999999994,-669.84)" />
+  <polyline
+     fill="#000000"
+     stroke="black"
+     stroke-width="0.0"
+     svgx:z="1219"
+     points="352.98 656.7 355.74 655.62 354.54 669.66 354.3 669.78 354.06 669.66 352.98 656.7"
+     id="polyline.467"
+     transform="matrix(1.0,0.0,0.0,1.0,942.7409999999995,-655.62)" />
+  <polyline
+     fill="#000000"
+     stroke="black"
+     stroke-width="0.0"
+     svgx:z="1436"
+     points="116.94 609.6 117.18 609.6 117.48 610.02 118.74 625.2 117.18 624.6 115.62 625.2 116.94 609.6"
+     id="polyline.351"
+     transform="matrix(1.0,0.0,0.0,1.0,1207.4209999999994,-609.6)" />
+  <polyline
+     fill="#000000"
+     stroke="black"
+     stroke-width="0.0"
+     svgx:z="1454"
+     points="130.919 603.36 129.419 600.78 142.62 594.54 143.16 594.54 142.92 595.02 130.919 603.36"
+     id="polyline.305"
+     transform="matrix(1.0,0.0,0.0,1.0,1206.7419999999993,-594.54)" />
+  <polyline
+     fill="#000000"
+     stroke="black"
+     stroke-width="0.0"
+     svgx:z="1456"
+     points="134.34 552.3 136.98 550.8 143.34 564.36 143.16 564.54 142.8 564.48 134.34 552.3"
+     id="polyline.216"
+     transform="matrix(1.0,0.0,0.0,1.0,1225.5619999999994,-550.8)" />
+  <polyline
+     fill="#000000"
+     stroke="black"
+     stroke-width="0.0"
+     svgx:z="1458"
+     points="170.1 597.3 166.38 598.02 156.06 587.4 156.12 587.04 156.54 587.04 170.1 597.3"
+     id="polyline.292"
+     transform="matrix(1.0,0.0,0.0,1.0,1222.8419999999994,-587.04)" />
+  <polyline
+     fill="#000000"
+     stroke="black"
+     stroke-width="0.0"
+     svgx:z="1468"
+     points="202.44 580.92 202.44 583.92 187.62 582.72 187.44 582.42 187.56 582.18 202.44 580.92"
+     id="polyline.276"
+     transform="matrix(1.0,0.0,0.0,1.0,1215.5019999999993,-580.92)" />
+  <polyline
+     fill="#000000"
+     stroke="black"
+     stroke-width="0.0"
+     svgx:z="822"
+     points="215.28 407.82 217.86 407.82 216.78 418.14 216.54 418.26 216.36 418.14 215.28 407.82"
+     id="polyline.220"
+     transform="matrix(1.0,0.0,0.0,1.0,1598.3219999999994,-407.82)" />
+  <polyline
+     fill="#000000"
+     stroke="black"
+     stroke-width="0.0"
+     svgx:z="1086"
+     points="401.16 500.94 401.16 500.46 410.58 504.66 409.32 506.88 401.16 500.94"
+     id="polyline.338"
+     transform="matrix(1.0,0.0,0.0,1.0,1462.6419999999991,-500.46)" />
+  <polyline
+     fill="#000000"
+     stroke="black"
+     stroke-width="0.0"
+     svgx:z="1667"
+     points="467.22 731.16 469.26 729.66 474.24 738.24 474.24 738.66 473.82 738.54 467.22 731.16"
+     id="polyline.635"
+     transform="matrix(1.0,0.0,0.0,1.0,1447.1619999999991,-729.66)" />
+  <polyline
+     fill="#000000"
+     stroke="black"
+     stroke-width="0.06"
+     svgx:z="3030"
+     points="344.04 662.52 342.84 670.14 345.24 670.14 344.04 662.52"
+     id="polyline8400"
+     transform="matrix(1.0,0.0,0.0,1.0,1690.021999999999,-662.52)" />
+  <polyline
+     fill="#000000"
+     stroke="black"
+     stroke-width="0.06"
+     svgx:z="2401"
+     points="174.6 567.96 170.82 562.92 169.26 564.36 174.54 567.96 174.6 567.96"
+     id="polyline.101"
+     transform="matrix(1.0,0.0,0.0,1.0,2374.981999999998,-562.92)" />
+  <polyline
+     fill="#000000"
+     stroke="black"
+     stroke-width="0.06"
+     svgx:z="2601"
+     points="393.42 659.16 392.4 665.7 394.44 665.7 393.42 659.16"
+     id="polyline.181"
+     transform="matrix(1.0,0.0,0.0,1.0,2532.381999999999,-659.16)" />
+  <polyline
+     fill="#000000"
+     stroke="black"
+     stroke-width="0.06"
+     svgx:z="3492"
+     points="296.16 733.32 299.64 724.92 297.3 724.92 296.1 733.32 296.16 733.32"
+     id="polyline8488"
+     transform="matrix(1.0,0.0,0.0,1.0,3059.8220000000006,-724.92)" />
+  <polyline
+     fill="#000000"
+     stroke="black"
+     stroke-width="0.06"
+     svgx:z="3554"
+     points="188.34 739.5 187.2 746.94 189.54 746.94 188.34 739.5"
+     id="polyline8490"
+     transform="matrix(1.0,0.0,0.0,1.0,3182.2620000000006,-739.5)" />
+  <polyline
+     fill="#000000"
+     stroke="black"
+     stroke-width="0.06"
+     svgx:z="1915"
+     points="114.78 165.36 115.8 158.22 113.7 158.22 114.78 165.36"
+     id="polyline.31"
+     transform="matrix(1.0,0.0,0.0,1.0,3393.9220000000005,-158.22)" />
+  <polyline
+     fill="#000000"
+     stroke="black"
+     stroke-width="0.06"
+     svgx:z="2049"
+     points="217.2 218.52 216.42 211.92 214.26 211.92 217.2 218.52"
+     id="polyline8506"
+     transform="matrix(1.0,0.0,0.0,1.0,3364.8019999999997,-211.92)" />
+  <polyline
+     fill="#000000"
+     stroke="black"
+     stroke-width="0.06"
+     svgx:z="2110"
+     points="447.72 173.52 446.7 180.42 448.8 180.42 447.72 173.52"
+     id="polyline8523"
+     transform="matrix(1.0,0.0,0.0,1.0,3331.062,-173.52)" />
+  <polyline
+     fill="#000000"
+     stroke="black"
+     stroke-width="0.06"
+     svgx:z="2314"
+     points="467.7 618.54 466.8 624.0 468.54 624.0 467.7 618.54"
+     id="polyline.185"
+     transform="matrix(1.0,0.0,0.0,1.0,3550.5819999999994,-618.54)" />
+  <polyline
+     fill="#000000"
+     stroke="black"
+     stroke-width="0.06"
+     svgx:z="2326"
+     points="298.92 672.06 295.86 667.86 294.6 669.06 298.92 672.06"
+     id="polyline8542"
+     transform="matrix(1.0,0.0,0.0,1.0,3734.5219999999995,-667.86)" />
+  <polyline
+     fill="#000000"
+     stroke="black"
+     stroke-width="0.06"
+     svgx:z="2479"
+     points="202.44 638.88 201.6 644.28 203.28 644.28 202.44 638.88"
+     id="polyline.254"
+     transform="matrix(1.0,0.0,0.0,1.0,4053.9430000000007,-638.88)" />
+  <polyline
+     fill="#000000"
+     stroke="black"
+     stroke-width="0.06"
+     svgx:z="2616"
+     points="288.18 738.78 287.46 732.3 285.72 732.3 288.18 738.78"
+     id="polyline.392"
+     transform="matrix(1.0,0.0,0.0,1.0,4033.8230000000003,-732.3)" />
+  <polyline
+     fill="#000000"
+     stroke="black"
+     stroke-width="0.06"
+     svgx:z="2773"
+     points="354.84 367.8 352.26 364.32 351.24 365.28 354.78 367.8 354.84 367.8"
+     id="polyline.630"
+     transform="matrix(1.0,0.0,0.0,1.0,4687.642,-364.32)" />
+  <polyline
+     fill="#000000"
+     stroke="black"
+     stroke-width="0.06"
+     svgx:z="2798"
+     points="494.7 323.64 493.98 328.08 495.42 328.08 494.7 323.64"
+     id="polyline.497"
+     transform="matrix(1.0,0.0,0.0,1.0,4608.002,-323.64)" />
+  <polyline
+     fill="#000000"
+     stroke="black"
+     stroke-width="0.06"
+     svgx:z="3149"
+     points="70.32 316.32 69.84 311.58 68.4 311.58 70.32 316.32"
+     id="polyline8653"
+     transform="matrix(1.0,0.0,0.0,1.0,5634.761000000002,-311.58)" />
+  <polyline
+     fill="#000000"
+     stroke="black"
+     stroke-width="0.06"
+     svgx:z="3332"
+     points="219.06 200.7 218.4 205.14 219.78 205.14 219.06 200.7"
+     id="polyline8670"
+     transform="matrix(1.0,0.0,0.0,1.0,5655.121000000003,-200.7)" />
+  <polyline
+     fill="#000000"
+     stroke="black"
+     stroke-width="0.06"
+     svgx:z="3580"
+     points="293.58 190.02 296.64 186.06 295.26 186.06 293.58 190.02"
+     id="polyline8689"
+     transform="matrix(1.0,0.0,0.0,1.0,5797.301000000002,-186.06)" />
+  <polyline
+     fill="#000000"
+     stroke="black"
+     stroke-width="0.06"
+     svgx:z="3583"
+     points="331.56 210.12 330.96 205.02 329.58 205.02 331.56 210.12"
+     id="polyline.141"
+     transform="matrix(1.0,0.0,0.0,1.0,5774.361000000003,-205.02)" />
+  <polyline
+     fill="#000000"
+     stroke="black"
+     stroke-width="0.06"
+     svgx:z="3063"
+     points="200.04 333.96 199.08 340.2 201.06 340.2 200.04 333.96"
+     id="polyline.91"
+     transform="matrix(1.0,0.0,0.0,1.0,6404.621000000003,-333.96)" />
+  <polyline
+     fill="#000000"
+     stroke="black"
+     stroke-width="0.878"
+     svgx:z="1397"
+     points="185.7 452.1 184.14 465.54 187.26 465.54 185.7 452.1"
+     id="polyline.131"
+     transform="matrix(1.0,0.0,0.0,1.0,7328.001000000002,-452.1)" />
+  <polyline
+     fill="#000000"
+     stroke="black"
+     stroke-width="0.878"
+     svgx:z="1402"
+     points="154.5 452.1 141.54 457.8 142.38 459.12 143.28 460.44 154.5 452.1"
+     id="polyline8808"
+     transform="matrix(1.0,0.0,0.0,1.0,7383.721000000002,-452.1)" />
+  <polyline
+     fill="#000000"
+     stroke="black"
+     stroke-width="0.659"
+     svgx:z="1450"
+     points="354.96 462.9 349.02 470.58 351.66 471.9 354.96 462.9"
+     id="polyline.139"
+     transform="matrix(1.0,0.0,0.0,1.0,7199.201000000003,-462.9)" />
+  <polyline
+     fill="#000000"
+     stroke="black"
+     stroke-width="0.659"
+     svgx:z="1455"
+     points="370.56 453.42 373.2 463.74 375.84 462.42 370.56 453.42"
+     id="polyline.136"
+     transform="matrix(1.0,0.0,0.0,1.0,7193.6010000000015,-453.42)" />
+  <polyline
+     fill="#000000"
+     stroke="black"
+     stroke-width="0.06"
+     svgx:z="1094"
+     points="161.82 542.82 160.74 541.74 159.66 540.78 170.46 531.66 170.94 531.54 171.06 531.78 161.82 542.82"
+     id="polyline8879"
+     transform="matrix(1.0,0.0,0.0,1.0,7969.681000000001,-531.54)" />
+  <polyline
+     fill="#000000"
+     stroke="black"
+     stroke-width="0.06"
+     svgx:z="1100"
+     points="150.0 530.94 148.56 528.3 158.1 524.22 158.46 524.34 158.46 524.7 150.0 530.94"
+     id="polyline8881"
+     transform="matrix(1.0,0.0,0.0,1.0,8002.1810000000005,-524.22)" />
+  <polyline
+     fill="#000000"
+     stroke="black"
+     stroke-width="0.06"
+     svgx:z="1176"
+     points="184.86 531.42 181.86 531.42 182.94 524.94 183.42 524.34 183.78 524.94 184.86 531.42"
+     id="polyline.257"
+     transform="matrix(1.0,0.0,0.0,1.0,8110.2210000000005,-524.34)" />
+  <polyline
+     fill="#000000"
+     stroke="black"
+     stroke-width="0.0"
+     svgx:z="969"
+     points="88.44 383.4 86.88 380.7 100.2 374.46 100.5 374.64 100.56 375.0 88.44 383.4"
+     id="polyline8895"
+     transform="matrix(1.0,0.0,0.0,1.0,8257.201000000001,-374.46)" />
+  <polyline
+     fill="#000000"
+     stroke="black"
+     stroke-width="0.0"
+     svgx:z="973"
+     points="135.3 378.06 133.74 380.76 126.24 375.0 126.3 374.64 126.6 374.46 135.3 378.06"
+     id="polyline8897"
+     transform="matrix(1.0,0.0,0.0,1.0,8241.521,-374.46)" />
+  <polyline
+     fill="#000000"
+     stroke="black"
+     stroke-width="0.0"
+     svgx:z="1021"
+     points="288.84 396.42 285.72 396.42 286.92 381.72 287.28 381.54 287.58 381.72 288.84 396.42"
+     id="polyline8900"
+     transform="matrix(1.0,0.0,0.0,1.0,8120.160999999999,-381.54)" />
+  <polyline
+     fill="#000000"
+     stroke="black"
+     stroke-width="0.0"
+     svgx:z="1062"
+     points="504.12 305.7 506.4 307.8 495.9 317.58 495.66 317.4 495.54 317.04 504.12 305.7"
+     id="polyline8902"
+     transform="matrix(1.0,0.0,0.0,1.0,7923.461,-305.7)" />
+  <polyline
+     fill="#000000"
+     stroke="black"
+     stroke-width="0.0"
+     svgx:z="1089"
+     points="447.18 369.72 444.06 369.72 445.26 360.54 445.62 360.06 446.04 360.78 447.18 369.72"
+     id="polyline8904"
+     transform="matrix(1.0,0.0,0.0,1.0,7995.801,-360.06)" />
+  <polyline
+     fill="#000000"
+     stroke="black"
+     stroke-width="0.0"
+     svgx:z="1092"
+     points="481.26 340.2 480.48 343.2 472.38 339.84 471.78 339.3 472.38 339.06 481.26 340.2"
+     id="polyline8906"
+     transform="matrix(1.0,0.0,0.0,1.0,7981.201000000002,-339.06)" />
+  <polyline
+     fill="#000000"
+     stroke="black"
+     stroke-width="0.0"
+     svgx:z="1860"
+     points="355.44 648.9 353.4 646.8 359.4 642.36 360.06 642.18 360.24 642.42 355.44 648.9"
+     id="polyline8908"
+     transform="matrix(1.0,0.0,0.0,1.0,8119.0610000000015,-642.18)" />
+  <polyline
+     fill="#000000"
+     stroke="black"
+     stroke-width="0.0"
+     svgx:z="1221"
+     points="149.82 322.92 152.4 322.92 151.38 335.1 151.14 335.22 150.84 335.1 149.82 322.92"
+     id="polyline8917"
+     transform="matrix(1.0,0.0,0.0,1.0,8449.721000000003,-322.92)" />
+  <polyline
+     fill="#000000"
+     stroke="black"
+     stroke-width="0.0"
+     svgx:z="1227"
+     points="171.0 351.9 173.58 351.9 172.62 359.28 172.32 359.76 172.02 359.28 171.0 351.9"
+     id="polyline8919"
+     transform="matrix(1.0,0.0,0.0,1.0,8441.121000000003,-351.9)" />
+  <polyline
+     fill="#000000"
+     stroke="black"
+     stroke-width="0.0"
+     svgx:z="1230"
+     points="173.58 379.86 171.0 379.86 172.02 372.48 172.32 372.0 172.62 372.48 173.58 379.86"
+     id="polyline8921"
+     transform="matrix(1.0,0.0,0.0,1.0,8453.701000000003,-372.0)" />
+  <polyline
+     fill="#000000"
+     stroke="black"
+     stroke-width="0.0"
+     svgx:z="1262"
+     points="261.18 355.5 264.06 355.38 268.86 365.7 268.8 366.06 267.9 365.28 261.18 355.5"
+     id="polyline8925"
+     transform="matrix(1.0,0.0,0.0,1.0,8388.681000000002,-355.38)" />
+  <polyline
+     fill="#000000"
+     stroke="black"
+     stroke-width="0.0"
+     svgx:z="1264"
+     points="273.3 353.34 270.66 353.4 268.62 341.88 268.8 341.52 269.22 342.06 273.3 353.34"
+     id="polyline8927"
+     transform="matrix(1.0,0.0,0.0,1.0,8398.921000000002,-341.52)" />
+  <polyline
+     fill="#000000"
+     stroke="black"
+     stroke-width="0.0"
+     svgx:z="1270"
+     points="248.22 367.14 246.96 364.92 257.94 359.76 258.18 359.88 258.18 360.18 248.22 367.14"
+     id="polyline8929"
+     transform="matrix(1.0,0.0,0.0,1.0,8435.261000000004,-359.76)" />
+  <polyline
+     fill="#000000"
+     stroke="black"
+     stroke-width="0.0"
+     svgx:z="1273"
+     points="293.7 357.42 295.02 355.2 300.36 359.46 300.54 359.88 299.94 359.94 293.7 357.42"
+     id="polyline8931"
+     transform="matrix(1.0,0.0,0.0,1.0,8409.741000000002,-355.2)" />
+  <polyline
+     fill="#000000"
+     stroke="black"
+     stroke-width="0.0"
+     svgx:z="1293"
+     points="166.92 443.34 166.92 440.76 183.72 441.78 183.78 442.08 183.54 442.32 166.92 443.34"
+     id="polyline8933"
+     transform="matrix(1.0,0.0,0.0,1.0,8553.361000000003,-440.76)" />
+  <polyline
+     fill="#000000"
+     stroke="black"
+     stroke-width="0.0"
+     svgx:z="1324"
+     points="210.96 437.1 212.28 439.32 205.2 442.2 204.96 442.08 204.96 441.78 210.96 437.1"
+     id="polyline8935"
+     transform="matrix(1.0,0.0,0.0,1.0,8542.181000000004,-437.1)" />
+  <polyline
+     fill="#000000"
+     stroke="black"
+     stroke-width="0.0"
+     svgx:z="2110"
+     points="412.02 566.94 413.82 564.84 419.04 576.0 418.98 576.48 418.62 576.36 412.02 566.94"
+     id="polyline.183"
+     transform="matrix(1.0,0.0,0.0,1.0,8369.401000000002,-564.84)" />
+  <polyline
+     fill="#000000"
+     stroke="black"
+     stroke-width="0.0"
+     svgx:z="2117"
+     points="417.78 533.88 418.98 534.3 421.2 533.28 413.22 544.86 412.62 544.86 417.78 533.88"
+     id="polyline8940"
+     transform="matrix(1.0,0.0,0.0,1.0,8385.821000000002,-533.28)" />
+  <polyline
+     fill="#000000"
+     stroke="black"
+     stroke-width="0.0"
+     svgx:z="2142"
+     points="420.24 517.799 417.72 517.799 418.68 510.48 418.98 510.0 419.28 510.48 420.24 517.799"
+     id="polyline8942"
+     transform="matrix(1.0,0.0,0.0,1.0,8399.301000000003,-510.0)" />
+  <polyline
+     fill="#000000"
+     stroke="black"
+     stroke-width="0.0"
+     svgx:z="2159"
+     points="450.24 502.5 450.48 503.88 451.56 504.78 440.52 510.0 439.98 510.0 439.86 509.76 450.24 502.5"
+     id="polyline8944"
+     transform="matrix(1.0,0.0,0.0,1.0,8389.681000000002,-502.5)" />
+  <polyline
+     fill="#000000"
+     stroke="black"
+     stroke-width="0.0"
+     svgx:z="2240"
+     points="414.12 755.76 411.54 755.76 412.56 743.7 412.86 743.58 413.1 743.7 414.12 755.76"
+     id="polyline.364"
+     transform="matrix(1.0,0.0,0.0,1.0,8460.501000000002,-743.58)" />
+  <polyline
+     fill="#000000"
+     stroke="black"
+     stroke-width="0.0"
+     svgx:z="2249"
+     points="371.04 744.96 370.56 742.32 381.06 737.34 381.3 737.52 381.3 737.82 371.04 744.96"
+     id="polyline8949"
+     transform="matrix(1.0,0.0,0.0,1.0,8514.061000000003,-737.34)" />
+  <polyline
+     fill="#000000"
+     stroke="black"
+     stroke-width="0.0"
+     svgx:z="2349"
+     points="251.4 698.82 253.86 699.48 249.78 710.82 249.54 710.94 249.3 710.64 251.4 698.82"
+     id="polyline.272"
+     transform="matrix(1.0,0.0,0.0,1.0,8765.781000000003,-698.82)" />
+  <polyline
+     fill="#000000"
+     stroke="black"
+     stroke-width="0.0"
+     svgx:z="2531"
+     points="274.26 490.92 275.58 491.4 276.9 490.92 275.82 503.4 275.58 503.58 275.28 503.4 274.26 490.92"
+     id="polyline8974"
+     transform="matrix(1.0,0.0,0.0,1.0,8889.381000000003,-490.92)" />
+  <polyline
+     fill="#000000"
+     stroke="black"
+     stroke-width="0.0"
+     svgx:z="1778"
+     points="146.58 591.36 146.04 594.0 129.3 589.14 129.3 588.9 129.96 588.72 146.58 591.36"
+     id="polyline.191"
+     transform="matrix(1.0,0.0,0.0,1.0,9221.381000000003,-588.72)" />
+  <polyline
+     fill="#000000"
+     stroke="black"
+     stroke-width="0.0"
+     svgx:z="1816"
+     points="302.82 591.78 302.28 594.48 285.54 589.62 285.54 589.32 286.2 589.14 302.82 591.78"
+     id="polyline.194"
+     transform="matrix(1.0,0.0,0.0,1.0,9161.041000000001,-589.14)" />
+  <polyline
+     fill="#000000"
+     stroke="black"
+     stroke-width="0.0"
+     svgx:z="1822"
+     points="264.42 600.18 262.62 598.14 272.22 589.98 272.64 589.98 272.76 590.28 264.42 600.18"
+     id="polyline.197"
+     transform="matrix(1.0,0.0,0.0,1.0,9211.241000000002,-589.98)" />
+  <polyline
+     fill="#000000"
+     stroke="black"
+     stroke-width="0.0"
+     svgx:z="1840"
+     points="461.58 559.92 462.54 562.44 451.14 565.68 450.9 565.5 450.9 565.2 461.58 559.92"
+     id="polyline9005"
+     transform="matrix(1.0,0.0,0.0,1.0,9043.101000000002,-559.92)" />
+  <polyline
+     fill="#000000"
+     stroke="black"
+     stroke-width="0.0"
+     svgx:z="1854"
+     points="452.28 593.16 451.8 595.8 435.06 590.94 435.06 590.7 435.72 590.52 452.28 593.16"
+     id="polyline.206"
+     transform="matrix(1.0,0.0,0.0,1.0,9110.601000000002,-590.52)" />
+  <polyline
+     fill="#000000"
+     stroke="black"
+     stroke-width="0.0"
+     svgx:z="1879"
+     points="312.12 717.48 311.04 718.68 310.8 720.0 298.62 715.62 298.56 715.32 298.86 715.08 312.12 717.48"
+     id="polyline9011"
+     transform="matrix(1.0,0.0,0.0,1.0,9274.321000000002,-715.08)" />
+  <polyline
+     fill="#000000"
+     stroke="black"
+     stroke-width="0.0"
+     svgx:z="1894"
+     points="269.58 699.84 267.36 702.42 267.06 703.92 254.58 707.82 253.32 707.76 269.58 699.84"
+     id="polyline.222"
+     transform="matrix(1.0,0.0,0.0,1.0,9343.121000000001,-699.84)" />
+  <polyline
+     fill="#000000"
+     stroke="black"
+     stroke-width="0.0"
+     svgx:z="1896"
+     points="267.06 713.7 267.36 715.32 270.96 719.34 253.32 707.76 254.58 707.82 267.06 713.7"
+     id="polyline9014"
+     transform="matrix(1.0,0.0,0.0,1.0,9369.381000000001,-707.76)" />
+  <polyline
+     fill="#000000"
+     stroke="black"
+     stroke-width="0.0"
+     svgx:z="655"
+     points="459.12 245.4 456.06 244.38 457.26 230.64 457.56 230.46 457.86 230.64 459.12 245.4"
+     id="polyline9045"
+     transform="matrix(1.0,0.0,0.0,1.0,9478.361,-230.46)" />
+  <polyline
+     fill="#000000"
+     stroke="black"
+     stroke-width="0.0"
+     svgx:z="750"
+     points="171.0 264.6 172.5 261.959 183.9 269.88 184.2 270.48 184.02 270.72 171.0 264.6"
+     id="polyline9057"
+     transform="matrix(1.0,0.0,0.0,1.0,9847.121,-261.959)" />
+  <polyline
+     fill="#000000"
+     stroke="black"
+     stroke-width="0.0"
+     svgx:z="776"
+     points="437.1 505.44 437.7 508.68 425.94 515.28 425.7 515.1 425.7 514.679 437.1 505.44"
+     id="polyline9064"
+     transform="matrix(1.0,0.0,0.0,1.0,9664.821,-505.44)" />
+  <polyline
+     fill="#000000"
+     stroke="black"
+     stroke-width="0.0"
+     svgx:z="784"
+     points="453.42 482.7 454.44 485.52 450.54 485.76 449.88 485.52 449.94 485.16 453.42 482.7"
+     id="polyline9066"
+     transform="matrix(1.0,0.0,0.0,1.0,9662.641000000001,-482.7)" />
+  <polyline
+     fill="#000000"
+     stroke="black"
+     stroke-width="0.0"
+     svgx:z="786"
+     points="481.26 482.88 481.68 483.24 481.14 483.54 469.98 483.78 469.2 481.44 481.26 482.88"
+     id="polyline.357"
+     transform="matrix(1.0,0.0,0.0,1.0,9657.881,-481.44)" />
+  <polyline
+     fill="#000000"
+     stroke="black"
+     stroke-width="0.0"
+     svgx:z="797"
+     points="445.8 475.2 444.3 472.62 452.7 469.14 453.0 469.32 453.0 469.68 445.8 475.2"
+     id="polyline.341"
+     transform="matrix(1.0,0.0,0.0,1.0,9705.261,-469.14)" />
+  <polyline
+     fill="#000000"
+     stroke="black"
+     stroke-width="0.0"
+     svgx:z="995"
+     points="343.98 682.02 344.52 685.32 332.82 691.92 332.58 691.74 332.58 691.32 343.98 682.02"
+     id="polyline.503"
+     transform="matrix(1.0,0.0,0.0,1.0,9926.001,-682.02)" />
+  <polyline
+     fill="#000000"
+     stroke="black"
+     stroke-width="0.0"
+     svgx:z="1003"
+     points="357.96 658.56 360.18 660.6 357.18 662.22 356.7 662.16 356.64 661.62 357.96 658.56"
+     id="polyline.481"
+     transform="matrix(1.0,0.0,0.0,1.0,9923.881000000001,-658.56)" />
+  <polyline
+     fill="#000000"
+     stroke="black"
+     stroke-width="0.0"
+     svgx:z="1007"
+     points="388.08 659.46 388.5 659.88 388.02 660.06 373.68 657.9 374.04 655.62 388.08 659.46"
+     id="polyline.475"
+     transform="matrix(1.0,0.0,0.0,1.0,9932.361,-655.62)" />
+  <polyline
+     fill="#000000"
+     stroke="black"
+     stroke-width="0.0"
+     svgx:z="1042"
+     points="333.66 603.84 336.06 601.74 347.4 609.6 347.34 609.96 347.04 610.14 333.66 603.84"
+     id="polyline9086"
+     transform="matrix(1.0,0.0,0.0,1.0,10034.061000000002,-601.74)" />
+  <polyline
+     fill="#000000"
+     stroke="black"
+     stroke-width="0.0"
+     svgx:z="1084"
+     points="308.52 601.56 311.76 604.14 296.04 605.28 295.74 604.98 295.68 604.68 308.52 601.56"
+     id="polyline9088"
+     transform="matrix(1.0,0.0,0.0,1.0,10095.781,-601.56)" />
+  <polyline
+     fill="#000000"
+     stroke="black"
+     stroke-width="0.0"
+     svgx:z="1035"
+     points="183.24 334.62 185.88 333.66 184.8 346.56 184.5 346.68 184.26 346.56 183.24 334.62"
+     id="polyline9095"
+     transform="matrix(1.0,0.0,0.0,1.0,10276.421,-333.66)" />
+  <polyline
+     fill="#000000"
+     stroke="black"
+     stroke-width="0.0"
+     svgx:z="1066"
+     points="248.34 333.66 250.92 334.62 249.96 346.56 249.66 346.68 249.42 346.56 248.34 333.66"
+     id="polyline9097"
+     transform="matrix(1.0,0.0,0.0,1.0,10223.961,-333.66)" />
+  <polyline
+     fill="#000000"
+     stroke="black"
+     stroke-width="0.0"
+     svgx:z="383"
+     points="272.46 208.86 270.72 210.48 264.78 200.7 264.9 200.46 265.2 200.4 272.46 208.86"
+     id="polyline9101"
+     transform="matrix(1.0,0.0,0.0,1.0,10232.740999999998,-200.4)" />
+  <polyline
+     fill="#000000"
+     stroke="black"
+     stroke-width="0.0"
+     svgx:z="387"
+     points="199.02 237.06 197.82 234.96 204.48 232.26 204.72 232.38 204.78 232.68 199.02 237.06"
+     id="polyline9103"
+     transform="matrix(1.0,0.0,0.0,1.0,10317.381,-232.26)" />
+  <polyline
+     fill="#000000"
+     stroke="black"
+     stroke-width="0.0"
+     svgx:z="389"
+     points="223.26 209.64 225.66 209.64 224.76 220.56 224.46 221.04 224.22 220.56 223.26 209.64"
+     id="polyline9105"
+     transform="matrix(1.0,0.0,0.0,1.0,10308.900999999998,-209.64)" />
+  <polyline
+     fill="#000000"
+     stroke="black"
+     stroke-width="0.0"
+     svgx:z="398"
+     points="252.84 196.68 255.24 196.68 254.34 203.64 254.04 203.94 253.74 203.52 252.84 196.68"
+     id="polyline9111"
+     transform="matrix(1.0,0.0,0.0,1.0,10316.520999999997,-196.68)" />
+  <polyline
+     fill="#000000"
+     stroke="black"
+     stroke-width="0.0"
+     svgx:z="437"
+     points="270.84 269.16 269.64 271.2 263.94 266.82 263.94 266.52 264.18 266.34 270.84 269.16"
+     id="polyline9113"
+     transform="matrix(1.0,0.0,0.0,1.0,10317.820999999996,-266.34)" />
+  <polyline
+     fill="#000000"
+     stroke="black"
+     stroke-width="0.0"
+     svgx:z="440"
+     points="238.5 271.14 237.3 269.1 243.96 266.34 244.2 266.52 244.2 266.82 238.5 271.14"
+     id="polyline9115"
+     transform="matrix(1.0,0.0,0.0,1.0,10361.360999999997,-266.34)" />
+  <polyline
+     fill="#000000"
+     stroke="black"
+     stroke-width="0.0"
+     svgx:z="934"
+     points="366.84 424.62 369.24 426.36 368.34 436.8 368.1 436.98 367.86 436.8 366.84 424.62"
+     id="polyline9174"
+     transform="matrix(1.0,0.0,0.0,1.0,10769.060999999989,-424.62)" />
+  <polyline
+     fill="#000000"
+     stroke="black"
+     stroke-width="0.0"
+     svgx:z="1568"
+     points="398.76 425.88 396.12 427.56 397.2 414.78 397.5 414.36 397.8 414.78 398.76 425.88"
+     id="polyline9207"
+     transform="matrix(1.0,0.0,0.0,1.0,11051.620999999994,-414.36)" />
+  <polyline
+     fill="#000000"
+     stroke="black"
+     stroke-width="0.0"
+     svgx:z="1587"
+     points="280.44 423.3 280.2 421.92 280.92 420.78 296.88 426.36 297.48 426.84 297.48 427.14 280.44 423.3"
+     id="polyline9211"
+     transform="matrix(1.0,0.0,0.0,1.0,11194.020999999993,-420.78)" />
+  <polyline
+     fill="#000000"
+     stroke="black"
+     stroke-width="0.0"
+     svgx:z="1589"
+     points="263.58 425.7 262.74 426.84 261.839 427.92 253.68 411.54 253.86 411.24 254.4 411.66 263.58 425.7"
+     id="polyline9213"
+     transform="matrix(1.0,0.0,0.0,1.0,11247.820999999994,-411.24)" />
+  <polyline
+     fill="#000000"
+     stroke="black"
+     stroke-width="0.0"
+     svgx:z="1795"
+     points="375.78 493.38 376.98 494.1 378.66 493.38 373.44 505.8 373.14 505.86 372.96 505.62 375.78 493.38"
+     id="polyline9246"
+     transform="matrix(1.0,0.0,0.0,1.0,11413.30199999999,-493.38)" />
+  <polyline
+     fill="#000000"
+     stroke="black"
+     stroke-width="0.0"
+     svgx:z="1602"
+     points="237.78 508.68 235.08 510.6 236.22 497.16 236.52 496.98 236.76 497.16 237.78 508.68"
+     id="polyline.159"
+     transform="matrix(1.0,0.0,0.0,1.0,11782.04099999999,-496.98)" />
+  <polyline
+     fill="#000000"
+     stroke="black"
+     stroke-width="0.0"
+     svgx:z="1659"
+     points="179.46 537.9 179.46 538.32 179.16 538.44 171.84 531.72 173.22 531.24 174.12 530.22 179.46 537.9"
+     id="polyline9279"
+     transform="matrix(1.0,0.0,0.0,1.0,11904.36099999999,-530.22)" />
+  <polyline
+     fill="#000000"
+     stroke="black"
+     stroke-width="0.0"
+     svgx:z="1744"
+     points="248.1 463.8 246.72 466.2 238.44 455.94 239.1 455.82 248.1 463.8"
+     id="polyline9296"
+     transform="matrix(1.0,0.0,0.0,1.0,12012.900999999987,-455.82)" />
+  <polyline
+     fill="#000000"
+     stroke="black"
+     stroke-width="0.0"
+     svgx:z="1746"
+     points="259.56 467.64 259.68 467.94 259.5 468.18 246.72 466.2 248.1 463.8 259.56 467.64"
+     id="polyline9298"
+     transform="matrix(1.0,0.0,0.0,1.0,12024.280999999988,-463.8)" />
+  <polyline
+     fill="#000000"
+     stroke="black"
+     stroke-width="0.0"
+     svgx:z="1755"
+     points="220.08 433.8 220.8 436.32 216.24 436.5 216.18 436.26 216.6 435.72 220.08 433.8"
+     id="polyline9300"
+     transform="matrix(1.0,0.0,0.0,1.0,12077.780999999986,-433.8)" />
+  <polyline
+     fill="#000000"
+     stroke="black"
+     stroke-width="0.0"
+     svgx:z="1762"
+     points="239.94 427.86 240.36 427.5 240.6 427.8 238.74 437.64 237.3 438.3 236.34 437.16 239.94 427.86"
+     id="polyline9304"
+     transform="matrix(1.0,0.0,0.0,1.0,12090.400999999987,-427.5)" />
+  <polyline
+     fill="#000000"
+     stroke="black"
+     stroke-width="0.0"
+     svgx:z="1778"
+     points="202.68 414.96 203.4 412.44 206.82 414.36 207.24 414.9 207.0 415.14 202.68 414.96"
+     id="polyline9306"
+     transform="matrix(1.0,0.0,0.0,1.0,12138.320999999987,-412.44)" />
+  <polyline
+     fill="#000000"
+     stroke="black"
+     stroke-width="0.0"
+     svgx:z="1783"
+     points="182.82 406.26 183.06 406.14 183.48 406.5 187.08 415.8 186.12 416.94 184.56 415.74 182.82 406.26"
+     id="polyline9308"
+     transform="matrix(1.0,0.0,0.0,1.0,12172.740999999987,-406.14)" />
+  <polyline
+     fill="#000000"
+     stroke="black"
+     stroke-width="0.0"
+     svgx:z="1892"
+     points="456.42 502.2 457.14 504.72 452.58 504.9 452.52 504.66 452.94 504.12 456.42 502.2"
+     id="polyline9324"
+     transform="matrix(1.0,0.0,0.0,1.0,12054.780999999988,-502.2)" />
+  <polyline
+     fill="#000000"
+     stroke="black"
+     stroke-width="0.0"
+     svgx:z="1899"
+     points="476.28 496.26 477.0 495.6 475.08 506.04 473.64 506.7 472.68 505.56 476.28 496.26"
+     id="polyline.156"
+     transform="matrix(1.0,0.0,0.0,1.0,12067.400999999989,-495.6)" />
+  <polyline
+     fill="#000000"
+     stroke="black"
+     stroke-width="0.0"
+     svgx:z="2195"
+     points="160.86 614.4 161.46 615.66 160.26 617.7 150.84 622.14 150.24 622.14 150.12 621.84 160.86 614.4"
+     id="polyline9394"
+     transform="matrix(1.0,0.0,0.0,1.0,12961.68099999999,-614.4)" />
+  <polyline
+     svgx:z="2197"
+     points="160.26 617.7 161.46 615.66 162.84 615.54 161.7 628.56 161.46 628.56 161.16 628.08 160.26 617.7"
+     id="polyline9396"
+     transform="matrix(1.0,0.0,0.0,1.0,12972.88099999999,-615.54)"
+     stroke-width="0.0"
+     stroke="black"
+     fill="#000000" />
+  <polyline
+     fill="#000000"
+     stroke="black"
+     stroke-width="0.06"
+     svgx:z="1327"
+     points="296.52 196.02 298.62 197.04 296.1 200.34 295.2 200.34 296.52 196.02"
+     id="polyline9415"
+     transform="matrix(1.0,0.0,0.0,1.0,13002.260999999991,-196.02)" />
+  <polyline
+     fill="#000000"
+     stroke="black"
+     stroke-width="0.06"
+     svgx:z="1692"
+     points="235.32 150.0 236.7 148.08 241.8 152.76 241.8 153.06 240.72 153.06 235.32 150.0"
+     id="polyline9494"
+     transform="matrix(1.0,0.0,0.0,1.0,13832.94099999999,-148.08)" />
+  <polyline
+     fill="#000000"
+     stroke="black"
+     stroke-width="0.06"
+     svgx:z="1732"
+     points="389.58 148.08 392.04 148.08 391.26 152.76 390.78 153.06 390.36 152.76 389.58 148.08"
+     id="polyline9502"
+     transform="matrix(1.0,0.0,0.0,1.0,13750.42099999999,-148.08)" />
+  <polyline
+     fill="#000000"
+     stroke="black"
+     stroke-width="0.06"
+     svgx:z="1754"
+     points="332.94 148.08 335.34 148.08 334.44 152.76 334.14 153.06 333.66 152.76 332.94 148.08"
+     id="polyline9508"
+     transform="matrix(1.0,0.0,0.0,1.0,13855.780999999986,-148.08)" />
+  <polyline
+     fill="#000000"
+     stroke="black"
+     stroke-width="0.06"
+     svgx:z="1764"
+     points="231.9 151.2 234.3 151.2 234.3 156.78 233.7 157.56 233.22 157.08 231.9 151.2"
+     id="polyline9510"
+     transform="matrix(1.0,0.0,0.0,1.0,13969.220999999987,-151.2)" />
+  <polyline
+     fill="#000000"
+     stroke="black"
+     stroke-width="0.079"
+     svgx:z="2745"
+     points="299.52 152.22 296.52 150.84 299.7 145.98 301.02 145.26 301.68 145.56 299.52 152.22"
+     id="polyline9791"
+     transform="matrix(1.0,0.0,0.0,1.0,16824.443000000003,-145.26)" />
+  <polyline
+     fill="#000000"
+     stroke="black"
+     stroke-width="0.079"
+     svgx:z="2747"
+     points="295.62 150.78 292.68 152.22 290.52 145.56 291.12 145.26 292.44 145.98 295.62 150.78"
+     id="polyline9793"
+     transform="matrix(1.0,0.0,0.0,1.0,16845.603000000003,-145.26)" />
+  <polyline
+     fill="#000000"
+     stroke="black"
+     stroke-width="0.079"
+     svgx:z="2793"
+     points="273.3 214.08 270.3 212.64 273.48 207.78 275.76 206.34 273.3 214.08"
+     id="polyline.186"
+     transform="matrix(1.0,0.0,0.0,1.0,16957.183000000005,-206.34)" />
+  <polyline
+     fill="#000000"
+     stroke="black"
+     stroke-width="0.079"
+     svgx:z="2795"
+     points="269.4 212.58 266.46 214.02 263.94 206.34 266.22 207.78 269.4 212.58"
+     id="polyline9808"
+     transform="matrix(1.0,0.0,0.0,1.0,16979.003000000004,-206.34)" />
+  <polyline
+     svgx:z="2845"
+     points="270.12 246.06 273.06 244.62 274.86 250.56 273.6 251.16 270.12 246.06"
+     id="polyline9841"
+     transform="translate(17238.943,-296.62)"
+     style="fill:#000000;stroke:#000000;stroke-width:0.079" />
+  <polyline
+     svgx:z="2847"
+     points="265.5 244.62 268.5 246.06 265.02 251.16 263.76 250.56 265.5 244.62"
+     id="polyline9843"
+     transform="translate(17260.043,-296.62)"
+     style="fill:#000000;stroke:#000000;stroke-width:0.079" />
+  <polyline
+     svgx:z="2852"
+     points="297.18 307.02 300.12 305.58 301.92 311.52 300.66 312.12 297.18 307.02"
+     id="polyline9847"
+     transform="translate(17263.183,-357.58)"
+     style="fill:#000000;stroke:#000000;stroke-width:0.079" />
+  <polyline
+     svgx:z="2854"
+     points="292.56 305.58 295.56 307.02 292.08 312.12 290.76 311.52 292.56 305.58"
+     id="polyline9849"
+     transform="translate(17284.343,-357.58)"
+     style="fill:#000000;stroke:#000000;stroke-width:0.079" />
+  <polyline
+     fill="#000000"
+     stroke="black"
+     stroke-width="0.0"
+     svgx:z="2510.002"
+     points="202.92 381.12 199.02 379.14 202.92 377.16"
+     id="polyline9853"
+     transform="matrix(1.0,0.0,0.0,1.0,17412.702999999998,-377.16)" />
+  <polyline
+     fill="#000000"
+     stroke="black"
+     stroke-width="0.0"
+     svgx:z="2511.003"
+     points="163.8 365.46 165.78 361.56 167.7 365.46"
+     id="polyline9855"
+     transform="matrix(1.0,0.0,0.0,1.0,17461.823,-361.56)" />
+  <polyline
+     fill="#000000"
+     stroke="black"
+     stroke-width="0.0"
+     svgx:z="2512.003"
+     points="167.7 343.44 165.78 347.34 163.8 343.44"
+     id="polyline9857"
+     transform="matrix(1.0,0.0,0.0,1.0,17475.723,-343.44)" />
+  <polyline
+     fill="#000000"
+     stroke="black"
+     stroke-width="0.0"
+     svgx:z="2626.003"
+     points="336.84 306.3 338.82 302.34 340.8 306.3"
+     id="polyline9865"
+     transform="matrix(1.0,0.0,0.0,1.0,17358.823000000004,-302.34)" />
+  <polyline
+     fill="#000000"
+     stroke="black"
+     stroke-width="0.0"
+     svgx:z="2641.002"
+     points="367.68 291.6 371.58 293.58 367.68 295.5"
+     id="polyline9867"
+     transform="matrix(1.0,0.0,0.0,1.0,17341.943000000003,-291.6)" />
+  <polyline
+     fill="#000000"
+     stroke="black"
+     stroke-width="0.0"
+     svgx:z="2642.002"
+     points="294.3 402.42 295.8 406.5 291.6 405.24"
+     id="polyline.92"
+     transform="matrix(1.0,0.0,0.0,1.0,17431.923000000006,-402.42)" />
+  <polyline
+     fill="#000000"
+     stroke="black"
+     stroke-width="0.0"
+     svgx:z="2643.002"
+     points="255.48 405.24 251.34 406.5 252.84 402.42"
+     id="polyline9870"
+     transform="matrix(1.0,0.0,0.0,1.0,17486.383000000005,-402.42)" />
+  <polyline
+     fill="#000000"
+     stroke="black"
+     stroke-width="0.0"
+     svgx:z="2710.002"
+     points="325.14 483.3 321.24 481.32 325.14 479.4"
+     id="polyline9874"
+     transform="matrix(1.0,0.0,0.0,1.0,17444.463000000003,-479.4)" />
+  <polyline
+     fill="#000000"
+     stroke="black"
+     stroke-width="0.0"
+     svgx:z="2727.009"
+     points="325.26 403.02 325.8 401.28 324.12 402.12"
+     id="polyline9882"
+     transform="matrix(1.0,0.0,0.0,1.0,17497.72300000001,-401.28)" />
+  <polyline
+     fill="#000000"
+     stroke="black"
+     stroke-width="0.0"
+     svgx:z="2015.005"
+     points="319.86 455.82 319.2 457.86 320.58 457.8"
+     id="polyline9930"
+     transform="matrix(1.0,0.0,0.0,1.0,17836.483000000015,-455.82)" />
+  <polyline
+     fill="#000000"
+     stroke="black"
+     stroke-width="0.0"
+     svgx:z="2126"
+     points="438.06 610.56 440.16 614.1 424.98 620.82 424.86 620.52 425.16 619.86 438.06 610.56"
+     id="polyline9932"
+     transform="matrix(1.0,0.0,0.0,1.0,17742.203000000016,-610.56)" />
+  <polyline
+     fill="#000000"
+     stroke="black"
+     stroke-width="0.0"
+     svgx:z="2220"
+     points="122.22 609.54 124.32 613.14 109.8 619.56 109.02 619.5 109.38 618.84 122.22 609.54"
+     id="polyline9936"
+     transform="matrix(1.0,0.0,0.0,1.0,18108.643000000015,-609.54)" />
+  <polyline
+     fill="#000000"
+     stroke="black"
+     stroke-width="0.0"
+     svgx:z="1471"
+     points="172.24 439.57 169.841 437.47 183.29 431.12 183.49 431.369 183.591 431.669"
+     id="polyline9954"
+     transform="matrix(1.0,0.0,0.0,1.0,18210.80400000001,-431.12)" />
+  <polyline
+     fill="#000000"
+     stroke="black"
+     stroke-width="0.72"
+     svgx:z="290"
+     points="385.157 295.462 392.837 283.222 389.957 281.782 385.157 295.462"
+     id="polyline9997"
+     transform="matrix(1.0,0.0,0.0,1.0,18442.082000000017,-281.782)" />
+  <polyline
+     fill="#000000"
+     stroke="black"
+     stroke-width="0.054"
+     svgx:z="1874"
+     points="278.28 234.36 275.46 237.18 266.76 226.14 267.0 225.9 267.6 225.96 278.28 234.36"
+     id="polyline9999"
+     transform="matrix(1.0,0.0,0.0,1.0,18578.159000000018,-225.9)" />
+  <polyline
+     fill="#000000"
+     stroke="black"
+     stroke-width="0.032"
+     svgx:z="2855"
+     points="372.66 469.14 371.52 468.0 376.2 464.28 376.38 464.28 376.5 464.34 372.66 469.14"
+     id="polyline10001"
+     transform="matrix(1.0,0.0,0.0,1.0,18494.919000000016,-464.28)" />
+  <polyline
+     fill="#000000"
+     stroke="black"
+     stroke-width="0.0"
+     svgx:z="672"
+     points="246.63 274.102 249.323 274.058 248.268 277.849 248.022 277.961 247.753 277.849"
+     id="polyline10026"
+     transform="matrix(1.0,0.0,0.0,1.0,18789.471000000016,-274.058)" />
+  <polyline
+     fill="#000000"
+     stroke="black"
+     stroke-width="0.0"
+     svgx:z="1175"
+     points="444.627 432.489 447.297 432.333 446.377 434.978 446.13 435.113 445.839 435.002"
+     id="polyline10292"
+     transform="matrix(1.0,0.0,0.0,1.0,20544.771999999997,-432.333)" />
+  <polyline
+     fill="#000000"
+     stroke="black"
+     stroke-width="0.0"
+     svgx:z="1496"
+     points="174.575 247.997 175.847 246.967 179.001 249.458 179.001 249.612 178.874 249.7"
+     id="polyline10402"
+     transform="matrix(1.0,0.0,0.0,1.0,21563.36700000002,-246.967)" />
+  <polyline
+     fill="#000000"
+     stroke="black"
+     stroke-width="0.0"
+     svgx:z="1504"
+     points="183.503 259.249 181.978 259.249 182.6 256.159 182.74 256.083 182.88 256.159"
+     id="polyline10404"
+     transform="matrix(1.0,0.0,0.0,1.0,21570.39000000002,-256.083)" />
+  <polyline
+     fill="#000000"
+     stroke="black"
+     stroke-width="0.0"
+     svgx:z="689"
+     points="245.59 259.648 248.411 259.601 247.306 263.576 247.049 263.694 246.766 263.576"
+     id="polyline10461"
+     transform="matrix(1.0,0.0,0.0,1.0,21895.77400000002,-259.601)" />
+  <polyline
+     fill="#000000"
+     stroke="black"
+     stroke-width="0.0"
+     svgx:z="942"
+     points="276.109 356.556 278.907 356.249 278.107 359.495 277.848 359.636 277.566 359.543"
+     id="polyline10662"
+     transform="matrix(1.0,0.0,0.0,1.0,23321.033000000018,-356.249)" />
+  <polyline
+     fill="#000000"
+     stroke="black"
+     stroke-width="0.0"
+     svgx:z="983"
+     points="209.635 460.469 206.814 460.469 207.943 456.0 208.225 455.883 208.483 456.0"
+     id="polyline10688"
+     transform="matrix(1.0,0.0,0.0,1.0,23562.488000000027,-455.883)" />
+  <polyline
+     fill="#000000"
+     stroke="black"
+     stroke-width="0.0"
+     svgx:z="1188"
+     points="125.435 258.028 126.768 256.947 130.074 259.56 130.074 259.721 129.939 259.814"
+     id="polyline10808"
+     transform="matrix(1.0,0.0,0.0,1.0,24448.250000000004,-256.947)" />
+  <polyline
+     fill="#000000"
+     stroke="black"
+     stroke-width="0.0"
+     svgx:z="1196"
+     points="134.79 269.826 133.192 269.826 133.845 266.586 133.991 266.507 134.138 266.586"
+     id="polyline10810"
+     transform="matrix(1.0,0.0,0.0,1.0,24455.132000000005,-266.507)" />
+  <polyline
+     fill="#000000"
+     stroke="black"
+     stroke-width="0.25"
+     svgx:z="2306"
+     points="366.895 466.721 369.219 462.073 371.546 466.721"
+     id="polyline10869"
+     transform="matrix(1.0,0.0,0.0,1.0,24600.054000000004,-462.073)" />
+  <polyline
+     fill="#000000"
+     stroke="black"
+     stroke-width="0.0"
+     svgx:z="1422.002"
+     points="224.7 316.92 223.5 321.06 220.92 317.64"
+     id="polyline10873"
+     transform="matrix(1.0,0.0,0.0,1.0,24776.38000000001,-316.92)" />
+  <polyline
+     fill="#000000"
+     stroke="black"
+     stroke-width="0.0"
+     svgx:z="1431.002"
+     points="229.92 317.64 227.34 321.06 226.14 316.92"
+     id="polyline10875"
+     transform="matrix(1.0,0.0,0.0,1.0,24784.940000000006,-316.92)" />
+  <polyline
+     style="fill:#000000;stroke:#000000;stroke-width:2.61187005"
+     svgx:z="1493"
+     points="395.842 436.17 395.94 435.869 396.14 435.621 409.59 441.97 407.192 444.07"
+     id="polyline57645"
+     transform="translate(-372.06798,-392.83278)" />
+  <polyline
+     style="fill:#000000;stroke:#000000;stroke-width:2.61187005"
+     svgx:z="1495"
+     points="370.34 444.07 367.942 441.97 381.39 435.621 381.59 435.869 381.691 436.17"
+     id="polyline57649"
+     transform="translate(-296.06998,-392.83278)" />
+</svg>

@@ -1,0 +1,46 @@
+<compoundRegex title="phylotree">
+	<regex weight="1.0" url="books.google.co.uk/books?isbn=1118017862">ACCTRAN</regex>
+	<regex weight="0.5">align.*</regex>
+	<regex weight="0.6">apomorph.*</regex>
+	<regex weight="0.6">bayesian</regex>
+	<regex weight="0.6">bootstrap.*</regex>
+	<regex weight="0.8">branch\s+lengths?</regex>
+	<regex weight="1.0" url="DOI: 10.1111/j.1096-0031.1994.tb00179.x">Bremer\s+support</regex>
+	<regex weight="0.5">cladist.*</regex>
+	<regex weight="0.8">consistency\s+ind(?:ex|ices)</regex>
+	<regex weight="1.0" url="books.google.co.uk/books?isbn=1118017862">DELTRAN</regex>
+	<regex weight="0.4" url="http://datadryad.org/">DRYAD</regex>
+	<regex weight="0.8" url="https://www.nescent.org/wg_garli/Main_Page" case="required">GARLI</regex>
+	<regex weight="0.5" url="http://www.ncbi.nlm.nih.gov/genbank/">GenBank</regex>
+	<regex weight="0.8" url="http://www.cladistics.com/aboutTNT.html">Goloboff</regex>
+	<regex weight="0.9" url="Lectures on Mathematics in the Life Sciences (American Mathematical Society) 17: 57–86.">GTR</regex>
+	<regex weight="0.5" url="https://en.wikipedia.org/wiki/Willi_Hennig">Hennig</regex>
+	<regex weight="0.7">jackknif.*</regex>
+	<regex weight="0.5">maximum\s+likelihood</regex>
+	<regex weight="0.5">maximum\s+parsimony</regex>
+	<regex weight="0.7">character\s+matrix</regex>
+	<regex weight="0.7" url="">MEGA</regex>
+	<regex weight="1.0" url="">MrBayes</regex>
+	<regex weight="0.9" url="">MPT</regex>
+	<regex weight="0.8">multistate\s+characters?</regex>
+	<regex weight="0.5">neighbou?r\s+join.*</regex>
+	<regex weight="0.1">node</regex>
+	<regex weight="0.8" url="">nona</regex>
+	<regex weight="0.8">ordered\s+characters?</regex>
+	<regex weight="0.5">outgroup</regex>
+	<regex weight="0.5">parsimon.*</regex>
+	<regex weight="1.0" url="http://paup.csit.fsu.edu/" fields="version"
+	   title="Phylogenetic Analysis Using Parsimony">PAUP\*?\s*(\d+\.?\d*)</regex>
+	<regex weight="0.5" url="">PHYLIP</regex>
+	<regex weight="0.2">phylog.*</regex>
+	<regex weight="0.8" url="">PHYML</regex>
+	<regex weight="1.0" url="">POY</regex>
+	<regex weight="1.0" url="">RAxML</regex>
+	<regex weight="0.8" url="">Swofford</regex>
+	<regex weight="0.9" url="">TBR</regex>
+	<regex weight="0.8" url="http://www.cladistics.com/aboutTNT.html">TNT</regex>
+	<regex weight="0.6">phylogenetic\s+tree</regex>
+	<regex weight="0.8" url="">TreeBASE</regex>
+	<regex weight="0.5">unordered\s+characters?</regex>
+	<regex weight="1.0" url="">Winclada</regex>
+</compoundRegex>

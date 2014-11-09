@@ -1,0 +1,4 @@
+<compoundRegex title="pdb">
+	<regex weight="1.0" url="http://rcsb.org/" fields="pdbcode" 
+	   title="Protein Databank">\[pdb\:\s*(\d[A-Za-z][A-Za-z][A-Za-z])\]</regex>
+</compoundRegex>

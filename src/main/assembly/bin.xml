@@ -1,0 +1,57 @@
+<assembly
+	xmlns="http://maven.apache.org/plugins/maven-assembly-plugin/assembly/1.1.0"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/plugins/maven-assembly-plugin/assembly/1.1.0 http://maven.apache.org/xsd/assembly-1.1.0.xsd">
+
+	<id>bin</id>
+
+	<formats>
+		<!-- tar.gz maintains file permissions, hence can be executed -->
+		<format>tar.gz</format>
+		<format>zip</format>
+	</formats>
+
+	<fileSets>
+
+		<!-- http://ant.apache.org/manual/Types/fileset.html -->
+		<fileSet>
+			<directory>${project.build.directory}/appassembler</directory>
+			<outputDirectory>/</outputDirectory>
+			<excludes>
+				<exclude>/bin/**</exclude>
+			</excludes>
+		</fileSet>
+
+
+		<fileSet>
+			<directory>${project.build.directory}/appassembler/bin</directory>
+			<fileMode>0755</fileMode>
+			<directoryMode>0755</directoryMode>
+			<outputDirectory>/bin</outputDirectory>
+		</fileSet>
+
+	</fileSets>
+
+	<files>
+		<file>
+			<source>src/test/resources/org/xmlcml/xhtml2stm/html/multiple.312.html</source>
+			<outputDirectory>/exampleData/html</outputDirectory>
+		</file>
+		<file>
+			<source>src/test/resources/org/xmlcml/xhtml2stm/html/pb1.html</source>
+			<outputDirectory>/exampleData/html</outputDirectory>
+		</file>
+		<file>
+			<source>src/test/resources/org/xmlcml/xhtml2stm/species/journal.pone.0077058.xml</source>
+			<outputDirectory>/exampleData/species</outputDirectory>
+		</file>
+		<file>
+			<source>src/test/resources/org/xmlcml/xhtml2stm/pdf/multiple-1471-2148-11-312.pdf</source>
+			<outputDirectory>/exampleData/pdf</outputDirectory>
+		</file>
+		<file>
+			<source>src/test/resources/org/xmlcml/xhtml2stm/pdf/tree-1471-2148-11-313.pdf</source>
+			<outputDirectory>/exampleData/pdf</outputDirectory>
+		</file>
+	</files>
+</assembly>

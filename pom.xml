@@ -1,0 +1,359 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+
+	<modelVersion>4.0.0</modelVersion>
+	<groupId>org.xml-cml</groupId>
+	<artifactId>ami-core</artifactId>
+	<version>0.1-SNAPSHOT</version>
+	<description>Converts HTML, SVG and PNG to STM.</description>
+        <name>AMI-CORE</name>
+	<parent>
+		<groupId>uk.ac.cam.ch.wwmm</groupId>
+		<artifactId>wwmm-parent</artifactId>
+		<version>5-SNAPSHOT</version>
+	</parent>
+
+	<!--Remove <repositories> for releases to Maven central -->
+	<repositories>
+		<repository>
+			<id>ebi-repo</id>
+			<name>EBI Maven Repository</name>
+			<url>http://www.ebi.ac.uk/intact/maven/nexus/content/repositories/ebi-repo/</url>
+			<releases>
+				<enabled>true</enabled>
+				<updatePolicy>never</updatePolicy>
+			</releases>
+			<snapshots>
+				<enabled>false</enabled>
+			</snapshots>
+		</repository>
+		<repository>
+			<id>ebi-repo-snapshots</id>
+			<name>EBI Maven Snapshots Repository</name>
+			<url>http://www.ebi.ac.uk/intact/maven/nexus/content/repositories/ebi-repo-snapshots/</url>
+			<releases>
+				<enabled>false</enabled>
+			</releases>
+			<snapshots>
+				<enabled>true</enabled>
+				<updatePolicy>interval:7200</updatePolicy>
+			</snapshots>
+		</repository>
+		<repository>
+			<id>ebi-repo-3rd</id>
+			<name>EBI Maven Snapshots Repository</name>
+			<url>http://www.ebi.ac.uk/~maven/m2repo</url>
+			<releases>
+				<enabled>true</enabled>
+			</releases>
+			<snapshots>
+				<enabled>true</enabled>
+			</snapshots>
+		</repository>
+		<repository>
+			<id>ucc-repo</id>
+			<name>UCC Maven Repository</name>
+			<url>https://maven.ch.cam.ac.uk/m2repo</url>
+		</repository>
+	</repositories>
+
+	<prerequisites>
+		<maven>3.0.4</maven>
+	</prerequisites>
+
+
+	<build>
+		<plugins>
+
+			<plugin>
+				<groupId>org.codehaus.mojo</groupId>
+				<artifactId>appassembler-maven-plugin</artifactId>
+				<version>1.8.1</version>
+				<configuration>
+
+					<programs>
+						<program>
+							<mainClass>org.xmlcml.xhtml2stm.visitor.chem.ChemVisitor</mainClass>
+							<id>ami-chem</id>
+						</program>
+						<program>
+							<mainClass>org.xmlcml.xhtml2stm.visitor.regex.RegexVisitor</mainClass>
+							<id>ami-regex</id>
+						</program>
+						<program>
+							<mainClass>org.xmlcml.xhtml2stm.visitor.sequence.SequenceVisitor</mainClass>
+							<id>ami-sequence</id>
+						</program>
+						<program>
+							<mainClass>org.xmlcml.xhtml2stm.visitor.species.SpeciesVisitor</mainClass>
+							<id>ami-species</id>
+						</program>
+						<program>
+							<mainClass>org.xmlcml.xhtml2stm.visitor.tree.TreeVisitor</mainClass>
+							<id>ami-tree</id>
+						</program>
+
+					</programs>
+
+					<!-- Prevent long directories -->
+					<repositoryLayout>flat</repositoryLayout>
+
+				</configuration>
+
+				<executions>
+					<execution>
+						<id>assembly</id>
+						<phase>package</phase>
+						<goals>
+							<goal>assemble</goal>
+						</goals>
+					</execution>
+				</executions>
+
+			</plugin>
+
+			<plugin>
+				<!--Tool for building a Debian package (.deb) http://tech.ebuddy.com/2013/10/02/automating-debian-package-creation-and-management-with-mavenant/ 
+					https://github.com/brndkfr/xmppbot/blob/master/xmppbot/pom.xml -->
+				<artifactId>jdeb</artifactId>
+				<groupId>org.vafer</groupId>
+				<version>1.3</version>
+				<executions>
+					<execution>
+						<phase>package</phase>
+						<goals>
+							<goal>jdeb</goal>
+						</goals>
+					</execution>
+				</executions>
+				<configuration>
+					<dataSet>
+						<data>
+							<src>${project.build.directory}/appassembler/</src>
+							<type>directory</type>
+							<mapper>
+								<type>perm</type>
+								<filemode>555</filemode>
+								<prefix>/usr/share/xhtml2stm-repo</prefix>
+							</mapper>
+						</data>
+
+						<data>
+							<src>${basedir}/src/test/resources/org/xmlcml/xhtml2stm/html/multiple.312.html</src>
+							<type>file</type>
+							<mapper>
+								<type>perm</type>
+								<filemode>555</filemode>
+								<prefix>/usr/share/xhtml2stm-repo/exampleData/html</prefix>
+							</mapper>
+						</data>
+						<data>
+							<src>${basedir}/src/test/resources/org/xmlcml/xhtml2stm/html/pb1.html</src>
+							<type>file</type>
+							<mapper>
+								<type>perm</type>
+								<filemode>555</filemode>
+								<prefix>/usr/share/xhtml2stm-repo/exampleData/html</prefix>
+							</mapper>
+						</data>
+						<data>
+							<src>${basedir}/src/test/resources/org/xmlcml/xhtml2stm/species/journal.pone.0077058.xml</src>
+							<type>file</type>
+							<mapper>
+								<type>perm</type>
+								<filemode>555</filemode>
+								<prefix>/usr/share/xhtml2stm-repo/exampleData/species</prefix>
+							</mapper>
+						</data>
+						<data>
+							<src>${basedir}/src/test/resources/org/xmlcml/xhtml2stm/pdf/multiple-1471-2148-11-312.pdf</src>
+							<type>file</type>
+							<mapper>
+								<type>perm</type>
+								<filemode>555</filemode>
+								<prefix>/usr/share/xhtml2stm-repo/exampleData/pdf</prefix>
+							</mapper>
+						</data>
+						<data>
+							<src>${basedir}/src/test/resources/org/xmlcml/xhtml2stm/pdf/tree-1471-2148-11-313.pdf</src>
+							<type>file</type>
+							<mapper>
+								<type>perm</type>
+								<filemode>555</filemode>
+								<prefix>/usr/share/xhtml2stm-repo/exampleData/pdf</prefix>
+							</mapper>
+						</data>
+
+
+						<data>
+							<type>link</type>
+							<symlink>true</symlink>
+							<linkName>/usr/bin/ami-chem</linkName>
+							<linkTarget>/usr/share/xhtml2stm-repo/bin/ami-chem</linkTarget>
+						</data>
+						<data>
+							<type>link</type>
+							<symlink>true</symlink>
+							<linkName>/usr/bin/ami-regex</linkName>
+							<linkTarget>/usr/share/xhtml2stm-repo/bin/ami-regex</linkTarget>
+						</data>
+						<data>
+							<type>link</type>
+							<symlink>true</symlink>
+							<linkName>/usr/bin/ami-sequence</linkName>
+							<linkTarget>/usr/share/xhtml2stm-repo/bin/ami-sequence</linkTarget>
+						</data>
+						<data>
+							<type>link</type>
+							<symlink>true</symlink>
+							<linkName>/usr/bin/ami-species</linkName>
+							<linkTarget>/usr/share/xhtml2stm-repo/bin/ami-species</linkTarget>
+						</data>
+						<data>
+							<type>link</type>
+							<symlink>true</symlink>
+							<linkName>/usr/bin/ami-tree</linkName>
+							<linkTarget>/usr/share/xhtml2stm-repo/bin/ami-tree</linkTarget>
+						</data>
+
+					</dataSet>
+				</configuration>
+			</plugin>
+
+			<plugin>
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-assembly-plugin</artifactId>
+				<version>2.4.1</version>
+				<configuration>
+					<descriptor>src/main/assembly/bin.xml</descriptor>
+				</configuration>
+				<executions>
+					<execution>
+						<phase>package</phase>
+						<goals>
+							<goal>single</goal>
+						</goals>
+					</execution>
+				</executions>
+			</plugin>
+			<plugin>
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-surefire-plugin</artifactId>
+			</plugin>
+
+		</plugins>
+	</build>
+
+	<dependencies>
+		<dependency>
+			<groupId>org.apache.directory.studio</groupId>
+			<artifactId>org.apache.commons.io</artifactId>
+			<version>2.4</version>
+		</dependency>
+		<dependency>
+			<groupId>org.xml-cml</groupId>
+			<artifactId>javaocrnew</artifactId>
+			<version>0.1-SNAPSHOT</version>
+		</dependency>
+		<dependency>
+			<groupId>org.xml-cml</groupId>
+			<artifactId>svg2xml</artifactId>
+			<version>0.1-SNAPSHOT</version>
+		</dependency>
+		<dependency>
+			<groupId>org.xml-cml</groupId>
+			<artifactId>svgbuilder</artifactId>
+			<version>0.1-SNAPSHOT</version>
+		</dependency>
+		<dependency>
+			<groupId>org.xml-cml</groupId>
+			<artifactId>html</artifactId>
+			<version>0.2-SNAPSHOT</version>
+		</dependency>
+		<dependency>
+			<groupId>org.xml-cml</groupId>
+			<artifactId>jumbo</artifactId>
+			<version>6.1-SNAPSHOT</version>
+		</dependency>
+		<dependency>
+			<groupId>org.xml-cml</groupId>
+			<artifactId>diagramanalyzer</artifactId>
+			<version>0.1-SNAPSHOT</version>
+		</dependency>
+
+		<dependency>
+			<groupId>junit</groupId>
+			<artifactId>junit</artifactId>
+			<version>4.11</version>
+			<scope>test</scope>
+		</dependency>
+		<dependency>
+			<groupId>com.google.caliper</groupId>
+			<artifactId>caliper</artifactId>
+			<version>1.0-beta-1</version>
+			<scope>test</scope>
+		</dependency>
+
+		<dependency>
+			<groupId>org.apache.httpcomponents</groupId>
+			<artifactId>httpclient</artifactId>
+			<version>4.3.2</version>
+		</dependency>
+		<dependency>
+			<groupId>cml</groupId>
+			<artifactId>jumbo-converters-molecule</artifactId>
+			<version>0.3-SNAPSHOT</version>
+			<exclusions>
+				<exclusion>
+					<artifactId>cdk</artifactId>
+					<groupId>cdk</groupId>
+				</exclusion>
+			</exclusions>
+		</dependency>
+		<!--dependency> <groupId>cml</groupId> <artifactId>jumbo-converters-graphics</artifactId> 
+			<version>0.3-SNAPSHOT</version> </dependency -->
+		<dependency>
+			<groupId>org.openscience.cdk</groupId>
+			<artifactId>cdk-io</artifactId>
+			<version>1.5.7</version>
+		</dependency>
+		<dependency>
+			<groupId>org.openscience.cdk</groupId>
+			<artifactId>cdk-silent</artifactId>
+			<version>1.5.7</version>
+		</dependency>
+		<dependency>
+			<groupId>org.openscience.cdk</groupId>
+			<artifactId>cdk-render</artifactId>
+			<version>1.5.7</version>
+		</dependency>
+		<dependency>
+			<groupId>org.openscience.cdk</groupId>
+			<artifactId>cdk-renderawt</artifactId>
+			<version>1.5.7</version>
+		</dependency>
+		<dependency>
+			<groupId>org.openscience.cdk</groupId>
+			<artifactId>cdk-sdg</artifactId>
+			<version>1.5.7</version>
+		</dependency>
+		<dependency>
+			<groupId>uk.ac.cam.ch.ucc</groupId>
+			<artifactId>svggraphics2d</artifactId>
+			<version>0.0.1-SNAPSHOT</version>
+		</dependency>
+		<dependency>
+			<groupId>blogspot.software-and-algorithms</groupId>
+			<artifactId>stern-library</artifactId>
+			<version>0.1</version>
+		</dependency>
+		<dependency>
+			<groupId>org.vafer</groupId>
+			<artifactId>jdeb</artifactId>
+			<version>1.3</version>
+			<!-- Prevents jar bloat in final package -->
+			<scope>provided</scope>
+		</dependency>
+	</dependencies>
+
+</project>
