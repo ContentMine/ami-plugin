@@ -101,11 +101,11 @@ public class ElementInContext {
 	}
 
 	public List<String> getOrCreatePrecedingSiblingNodeStrings() {
-		if (preStrings == null) {
+//		if (preStrings == null) {
 			preStrings = new ArrayList<String>();
 			int charCount = 0;
 			for (int i = index - 1; i >= 0; i--) {
-				String value = parent.getChild(i).getValue();
+				String value = parent == null ? resultElement.getValue() : parent.getChild(i).getValue();
 				charCount += value.length();
 				int delta = charCount - maxChar;
 				if (delta > 0) {
@@ -115,16 +115,17 @@ public class ElementInContext {
 				preStrings.add(0, value);
 				if (delta > 0) break;
 			}
-		}
+//		}
 		return preStrings;
 	}
 
 	public List<String> getOrCreateFollowingSiblingNodeStrings() {
-		if (postStrings == null) {
+//		if (postStrings == null) {
 			postStrings = new ArrayList<String>();
 			int charCount = 0;
-			for (int i = index + 1; i < parent.getChildCount(); i++) {
-				String value = parent.getChild(i).getValue();
+			int count = parent == null ? 0 : parent.getChildCount();
+			for (int i = index + 1; i < count; i++) {
+				String value =  parent == null ? resultElement.getValue() : parent.getChild(i).getValue();
 				charCount += value.length();
 				int delta = charCount - maxChar;
 				if (delta > 0) {
@@ -134,7 +135,7 @@ public class ElementInContext {
 				postStrings.add(value);
 				if (delta > 0) break;
 			}
-		}
+//		}
 		return postStrings;
 	}
 
@@ -221,5 +222,9 @@ public class ElementInContext {
 //			}
 //		}
 		return attribute;
+	}
+
+	public void setResultValue(String value) {
+		this.resultValue = value;
 	}
 }

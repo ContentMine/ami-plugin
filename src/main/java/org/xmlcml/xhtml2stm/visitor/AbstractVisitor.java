@@ -79,7 +79,8 @@ public abstract class AbstractVisitor {
 	}
 	
 	protected final void doVisit(HtmlVisitable htmlVisitable) {
-		for (HtmlContainer htmlContainer : htmlVisitable.getHtmlContainerList()) {
+		List<HtmlContainer> htmlContainerList = htmlVisitable.getHtmlContainerList();
+		for (HtmlContainer htmlContainer : htmlContainerList) {
 			doSearchAndAddResults(htmlContainer);
 		}
 	}

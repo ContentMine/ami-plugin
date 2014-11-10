@@ -46,7 +46,10 @@ public class HtmlVisitable extends AbstractVisitable  {
 	
 	public List<HtmlContainer> getHtmlContainerList() {
 		ensureHtmlContainerList();
-		if (super.findFilesInDirectories() != null) {
+		if (htmlContainerList.size() > 0) {
+			LOG.debug("htmlContainers: "+htmlContainerList.size());
+			// explicit containers already
+		} else if (super.findFilesInDirectories() != null) {
 			htmlContainerList = createContainersFromFiles();
 		} 
 		return htmlContainerList;

@@ -137,7 +137,7 @@ public abstract class AbstractSearcher {
 	}
 
 	private List<ElementInContext> searchElementsWithRegexes(List<ElementInContext> eicList) {
-		LOG.trace("patternList : "+patternList.size());
+		LOG.debug("patternList : "+patternList.size());
 		List<ElementInContext> eicResultList = new ArrayList<ElementInContext>();
 		for (ElementInContext eic : eicList) {
 			for (Pattern pattern : patternList) {
@@ -157,7 +157,9 @@ public abstract class AbstractSearcher {
 	protected List<ElementInContext> applyXPathToGenerateElements(Element rawElement) {
 		List<ElementInContext> elementList = new ArrayList<ElementInContext>();
 		if (xPathList.size() == 0) {
-			elementList.add(new ElementInContext(rawElement, maxChar));
+			ElementInContext eic = new ElementInContext(rawElement, maxChar);
+			eic.setResultValue(rawElement.getValue());
+			elementList.add(eic);
 		} else {
 			for (String xPath : xPathList) {
 				LOG.trace("xpath: "+xPath);

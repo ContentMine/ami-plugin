@@ -16,6 +16,10 @@ public class SequenceSearcher extends AbstractSearcher {
 
 	private final static Logger LOG = Logger.getLogger(SequenceSearcher.class);
 
+	private static final String ALL_ELEMENTS_PATH = "//*";
+	private static final String ALL_PARA_PATH = "//*[local-name()='p']";
+	private static final String ALL_DIV_PATH = "//*[local-name()='div']";
+
 	public enum SequenceType implements Type {
 		MIXED,
 		CARBOHYDRATE,
@@ -39,7 +43,10 @@ public class SequenceSearcher extends AbstractSearcher {
 	}
 
 	private void setDefaults() {
-		this.setType(SequenceType.DNA);
+		this.setSequenceType(SequenceType.DNA);
+//		this.addXPath(ALL_ELEMENTS_PATH);
+//		this.addXPath(ALL_PARA_PATH); // doesn't work?
+//		this.addXPath(ALL_DIV_PATH); // doesn't work?
 	}
 	
 	void setSequenceType(SequenceType type) {

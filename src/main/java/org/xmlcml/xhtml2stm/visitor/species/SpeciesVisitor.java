@@ -28,7 +28,6 @@ public class SpeciesVisitor extends AbstractVisitor {
 
 	public AbstractSearcher createSearcher() {
 		AbstractSearcher searcher = new SpeciesSearcher(this);
-		searcher.addXPath(XMLVisitable.ITALIC);
 		return searcher;
 	}
 

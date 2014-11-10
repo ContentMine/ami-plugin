@@ -117,11 +117,11 @@ public class SequenceVisitorTest {
 	public void testCommandlineHtmlFile() throws Exception {
 		String userHome = System.getProperties().get("user.home").toString();
 		LOG.trace("user.home: "+userHome);
+		File outputFile = new File(Fixtures.AMI_OUT,"/sequences.xml");
 		String[] args = new String[] {
 				"-i",
 				Fixtures.MULTIPLE_SPECIES_312_HTML.toString(),
-				"-o",
-				new File(Fixtures.AMI_OUT,"/sequences.xml").toString(),
+				"-o", outputFile.toString(),
 		};
 		SequenceVisitor.main(args);
 	}

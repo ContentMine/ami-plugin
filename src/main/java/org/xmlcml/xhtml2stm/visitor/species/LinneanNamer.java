@@ -1,6 +1,7 @@
 package org.xmlcml.xhtml2stm.visitor.species;
 
 import java.util.ArrayList;
+import java.util.Collection;
 import java.util.List;
 
 import org.apache.log4j.Logger;
@@ -75,9 +76,13 @@ public class LinneanNamer {
 				if (binomial == null) {
 					LOG.debug("null binomial: "+keyword+" <"+result+">");
 				} else if (binomial.isSingleCharacterGenus()) {
+					
 					String genus = binomial.getGenus();
 					LOG.debug("genus: "+genus);
-					LinneanName fullLinnean = new ArrayList<LinneanName>(linneanNameByAbbreviationMap.get(genus)).get(0);
+					Collection<LinneanName> linneanNames = linneanNameByAbbreviationMap == null ? null :
+						linneanNameByAbbreviationMap.get(genus);
+					LinneanName fullLinnean = linneanNames == null || linneanNames.size() == 0 ? null :
+						new ArrayList<LinneanName>(linneanNames).get(0);
 					if (fullLinnean == null) {
 						LOG.error("Cannot resolve abbreviation: "+binomial);
 					} else {

@@ -9,6 +9,7 @@ import org.xmlcml.xhtml2stm.result.ResultList;
 import org.xmlcml.xhtml2stm.visitable.SourceElement;
 import org.xmlcml.xhtml2stm.visitable.html.HtmlContainer;
 import org.xmlcml.xhtml2stm.visitable.xml.XMLContainer;
+import org.xmlcml.xhtml2stm.visitable.xml.XMLVisitable;
 import org.xmlcml.xhtml2stm.visitor.AbstractSearcher;
 import org.xmlcml.xhtml2stm.visitor.AbstractVisitor;
 
@@ -35,6 +36,7 @@ public class SpeciesSearcher extends AbstractSearcher {
 
 	private void setDefaults() {
 		this.setSpeciesType(SpeciesType.BINOMIAL);
+		this.addXPath(XMLVisitable.ITALIC);
 	}
 
 	void setSpeciesType(SpeciesType type) {
