@@ -10,6 +10,7 @@ import org.junit.Test;
 import org.xmlcml.xhtml2stm.Fixtures;
 import org.xmlcml.xhtml2stm.visitable.html.HtmlVisitable;
 import org.xmlcml.xhtml2stm.visitor.AbstractVisitor;
+import org.xmlcml.xhtml2stm.visitor.VisitorOutput;
 
 public class RegexVisitorTest {
 	
@@ -58,10 +59,23 @@ public class RegexVisitorTest {
 	}
 
 	@Test
+	@Ignore
 	public void testSearchHtmlFilesPDB() throws Exception {
 		RegexVisitor regexVisitor = new RegexVisitor();
+		VisitorOutput visitorOutput = new VisitorOutput("target/regex/pdb.xml");
+		regexVisitor.setVisitorOutput(visitorOutput);
 		regexVisitor.addRegexFile("regex/pdb.xml");
 		visitFile(regexVisitor, Fixtures.BMC_SAMPLE);
+	}
+
+	@Test
+	public void testSearchXMLDOI() throws Exception {
+		String[] args = new String[] {
+				"-i", Fixtures.MULTIPLE_SPECIES_312_XML.toString(),
+				"-o", new File(Fixtures.AMI_OUT, "multiple1regexh.xml").toString(),
+				"-g", "regex/metadata.xml",
+		};
+		new RegexVisitor().processArgs(args);
 	}
 
 	@Test
@@ -72,6 +86,22 @@ public class RegexVisitorTest {
 	}
 
 	@Test
+	@Ignore // bad HTML
+	/** null output as no hits?
+	 * 
+	 * @throws Exception
+	 */
+	public void testCommandRegexHTML() throws Exception {
+
+		String[] args = new String[] {
+				"-i", Fixtures.MULTIPLE_312_HTML.toString(),
+				"-o", new File(Fixtures.AMI_OUT, "multiple1regexx.xml").toString(),
+				"-g", "regex/pdb.xml", "regex/phylotree.xml", "regex/metadata.xml",
+		};
+		RegexVisitor.main(args);
+	}
+
+	@Test
 	/** null output as no hits?
 	 * 
 	 * @throws Exception
@@ -79,9 +109,9 @@ public class RegexVisitorTest {
 	public void testCommandRegex() throws Exception {
 
 		String[] args = new String[] {
-				"-i", Fixtures.MULTIPLE_312_HTML.toString(),
-				"-o", new File(Fixtures.AMI_OUT, "multiple1.xml").toString(),
-				"-g", "regex/pdb.xml", "regex/phylotree.xml", "regex/metadata.xml",
+				"-i", Fixtures.MULTIPLE_SPECIES_312_XML.toString(),
+				"-o", new File(Fixtures.AMI_OUT, "multiple1regexh.xml").toString(),
+				"-g", "regex/pdb.xml", /*"regex/phylotree.xml", "regex/metadata.xml",*/
 		};
 		RegexVisitor.main(args);
 	}

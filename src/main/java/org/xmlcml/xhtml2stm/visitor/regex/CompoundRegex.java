@@ -132,7 +132,6 @@ public class CompoundRegex {
 		LOG.debug("Searching element with regexComponentList");
 		RegexResults regexResults = new RegexResults();
 		String value = element.getValue();
-//		String lowerValue = value.toLowerCase();
 		List<RegexComponent> regexComponentList = getRegexComponentList();
 		for (RegexComponent regexComponent : regexComponentList) {
 			LOG.debug("with: "+regexComponent);

@@ -156,12 +156,12 @@ public class RegexComponent {
 		List<String> groupList = extractGroupList(matcher);
 		if (groupList.size() > 0 || fieldList.size() > 0) {
 			if (groupList.size() != fieldList.size()) {
-				LOG.debug(this.toString());
+				LOG.debug("regComp: "+this.toString());
 				throw new RuntimeException("groupList ("+groupList.size()+") does not match fieldList ("+fieldList.size()+")");
 			} else {
 				for (int i = 0; i < groupList.size(); i++) {
 					NamedGroup namedGroup = new NamedGroup(fieldList.get(i), groupList.get(i));
-					LOG.trace(namedGroup);
+					LOG.debug("namedgroup "+namedGroup);
 					namedGroupList.add(namedGroup);
 				}
 			}

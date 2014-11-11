@@ -89,7 +89,9 @@ public class Fixtures {
 
 	// SPECIES
 	public static final File SPECIES_DIR = new File(XHTML2STM_DIR, "species");
-	public static final File MULTIPLE_SPECIES_312_HTML = new File(SPECIES_DIR, "multiple.species.312.html");
+//	public static final File MULTIPLE_SPECIES_312_HTML = new File(SPECIES_DIR, "multiple.species.312.html");
+	public static final File MULTIPLE_SPECIES_312_HTML = new File(SPECIES_DIR, "1471-2148-11-312.html");
+	public static final File MULTIPLE_SPECIES_312_XML = new File(SPECIES_DIR, "1471-2148-11-312.xml");
 	public static final File PASSERINES_313_HTML = new File(SPECIES_DIR, "passerines.313.html");
 	public static final File HADROSAUR_XML = new File(SPECIES_DIR, "journal.pone.0077058.xml");
 

@@ -112,15 +112,27 @@ public class SequenceVisitorTest {
 		ResultsElement results = sequenceVisitor.getResultsElement();
 		XMLUtil.debug(results, new FileOutputStream("target/hadrosaurResults.xml"), 1);
 	}
-	
+
+	// fails because of HTML file
 	@Test
 	public void testCommandlineHtmlFile() throws Exception {
 		String userHome = System.getProperties().get("user.home").toString();
 		LOG.trace("user.home: "+userHome);
 		File outputFile = new File(Fixtures.AMI_OUT,"/sequences.xml");
 		String[] args = new String[] {
-				"-i",
-				Fixtures.MULTIPLE_SPECIES_312_HTML.toString(),
+				"-i", Fixtures.MULTIPLE_SPECIES_312_HTML.toString(),
+				"-o", outputFile.toString(),
+		};
+		SequenceVisitor.main(args);
+	}
+
+	@Test
+	public void testCommandlineXMLFile() throws Exception {
+		String userHome = System.getProperties().get("user.home").toString();
+		LOG.trace("user.home: "+userHome);
+		File outputFile = new File(Fixtures.AMI_OUT,"/sequences.xml");
+		String[] args = new String[] {
+				"-i", Fixtures.MULTIPLE_SPECIES_312_XML.toString(),
 				"-o", outputFile.toString(),
 		};
 		SequenceVisitor.main(args);

@@ -6,6 +6,7 @@ import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
 import nu.xom.Element;
+import nu.xom.Nodes;
 
 import org.apache.log4j.Logger;
 import org.xmlcml.xhtml2stm.Type;
@@ -113,6 +114,7 @@ public abstract class AbstractSearcher {
 	// =============== SEARCH ============
 
 	public void search(VisitableContainer container) {
+//		LOG.debug("&&& "+((HtmlContainer)container).getElement().toXML());
 		resultList = this.searchXPathPatternAndCollectResults(container);
 		AbstractListElement listElement = createListElement(resultList);
 		sourceElement.appendChild(listElement);
@@ -132,8 +134,8 @@ public abstract class AbstractSearcher {
 		ensurePatternList();
 		ensureXpathList();
 		List<ElementInContext> eicList = applyXPathToGenerateElements(sourceElement);
-		List<ElementInContext> resultList = searchElementsWithRegexes(eicList);
-		return resultList;
+		List<ElementInContext> resultEICList = searchElementsWithRegexes(eicList);
+		return resultEICList;
 	}
 
 	private List<ElementInContext> searchElementsWithRegexes(List<ElementInContext> eicList) {
@@ -155,6 +157,7 @@ public abstract class AbstractSearcher {
 	}
 
 	protected List<ElementInContext> applyXPathToGenerateElements(Element rawElement) {
+		LOG.debug("!!!! "+rawElement.toXML().length());
 		List<ElementInContext> elementList = new ArrayList<ElementInContext>();
 		if (xPathList.size() == 0) {
 			ElementInContext eic = new ElementInContext(rawElement, maxChar);
@@ -162,8 +165,9 @@ public abstract class AbstractSearcher {
 			elementList.add(eic);
 		} else {
 			for (String xPath : xPathList) {
-				LOG.trace("xpath: "+xPath);
+				LOG.debug("xpath: "+xPath);
 				List<ElementInContext> xPathResults = applyXpath(rawElement, xPath);
+				LOG.debug("xpathResults: "+xPathResults.size());
 				elementList.addAll(xPathResults);
 			}
 		}
@@ -172,7 +176,9 @@ public abstract class AbstractSearcher {
 	
 	private static List<ElementInContext> findStrings(ElementInContext eic, Pattern pattern) {
 		List<ElementInContext> resultList = new ArrayList<ElementInContext>();
-		String value = eic.getResultValue();
+		Element eicelem = eic.getResultElement();
+		String value = eicelem.getLocalName()+":"+eicelem.getValue()+":"+eicelem.getChildCount();
+		LOG.debug("{"+value+"}");
 		Matcher matcher = pattern.matcher(value);
 		while (matcher.find()) {
 			ElementInContext newEic = ElementInContext.createNewElementInContext(eic, value, matcher.start(), matcher.end());
@@ -195,6 +201,7 @@ public abstract class AbstractSearcher {
 			ElementInContext eic = new ElementInContext(resultElement, maxChar);
 			eicList.add(eic);
 		}
+		LOG.debug("EIC: "+eicList.size());
 		return eicList;
 	}
 	

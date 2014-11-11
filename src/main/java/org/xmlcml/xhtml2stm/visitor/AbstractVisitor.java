@@ -86,6 +86,7 @@ public abstract class AbstractVisitor {
 	}
 
 	private void doSearchAndAddResults(VisitableContainer container) {
+		LOG.debug("doSearchAndAddResults "+container.getClass());
 		AbstractSearcher searcher = createSearcher();
 		searcher.search(container);
 		ensureResultsElement();

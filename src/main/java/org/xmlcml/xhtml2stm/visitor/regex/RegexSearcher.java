@@ -12,21 +12,16 @@ import nu.xom.Element;
 import org.apache.log4j.Logger;
 import org.xmlcml.xhtml2stm.result.AbstractListElement;
 import org.xmlcml.xhtml2stm.result.ResultList;
-import org.xmlcml.xhtml2stm.result.ResultsElement;
+import org.xmlcml.xhtml2stm.visitable.VisitableContainer;
 import org.xmlcml.xhtml2stm.visitable.html.HtmlContainer;
 import org.xmlcml.xhtml2stm.visitable.xml.XMLContainer;
-import org.xmlcml.xhtml2stm.visitable.xml.XMLVisitable;
-import org.xmlcml.xhtml2stm.visitor.AbstractVisitor;
-import org.xmlcml.xhtml2stm.visitor.ArgProcessor;
 import org.xmlcml.xhtml2stm.visitor.AbstractSearcher;
+import org.xmlcml.xhtml2stm.visitor.ArgProcessor;
 import org.xmlcml.xhtml2stm.visitor.SimpleListElement;
 
 public class RegexSearcher extends AbstractSearcher {
 
 	private final static Logger LOG = Logger.getLogger(RegexSearcher.class);
-	
-	private final static File REGEX_DIRECTORY_BASE = new File("src/main/resources/org/xmlcml/xhtml2stm/visitor/regex");
-	private final static String REGEX_SUFFIX = ".xml";
 	
 	private static final String G          = "-g";
 	private static final String REGEX      = "--regex";
@@ -34,34 +29,44 @@ public class RegexSearcher extends AbstractSearcher {
 	private Map<RegexComponent, Integer> totalCountMap;
 	private RegexContainer regexContainer;
 	private List<String> regexFiles;
+//	private List<RegexResults> regexResultsList;
 
-	public RegexSearcher(AbstractVisitor visitor) {
+	public RegexSearcher(RegexVisitor visitor) {
 		super(visitor);
 		setDefaults();
+		this.regexContainer = visitor.getRegexContainer();
 	}
-	
+
+	/** this subclassing seems messy...
+	 * 
+	 */
+	public void search(VisitableContainer container) {
+		if (container instanceof HtmlContainer) {
+			search((HtmlContainer) container);
+		} else if (container instanceof XMLContainer) {
+			search((XMLContainer) container);
+		} else {
+			LOG.debug("RegexSearcher cannot search class: "+container.getClass());
+		}
+	}
 	@Override
 	protected void search(HtmlContainer htmlContainer) {
+		LOG.debug("regex search html container");
 		searchXomElement(htmlContainer.getHtmlElement());
 		debugCountMap();
 	}
 
 	@Override
-	public void search(XMLContainer xmlContainer) {
+	protected void search(XMLContainer xmlContainer) {
+		LOG.debug("regex search xml container");
 		ensureRegexList();
-//		LOG.debug("visiting XML of "+xmlVisitable.getXMLContainerList().size() + " visitables");
-//		for (XMLContainer xmlContainer : xmlVisitable.getXMLContainerList()) {
-			LOG.debug("visiting container with  "+(regexContainer.getCompoundRegexList() == null ?
-					"null/zero" : regexContainer.getCompoundRegexList().size())+" compound regexes");
-			if (regexContainer.getCompoundRegexList() != null) {
-				searchXomElement(xmlContainer.getElement());
-				debugCountMap();
-			}
-//		}
-//		if (totalCountMap.size() > 0) {
-//			resultsElement = new ResultsElement();
-//			addCountMapToResults(totalCountMap);
-//		}
+		LOG.debug("visiting container with  "+(regexContainer.getCompoundRegexList() == null ?
+				"null/zero" : regexContainer.getCompoundRegexList().size())+" compound regexes");
+		if (regexContainer.getCompoundRegexList() != null) {
+			searchXomElement(xmlContainer.getElement());
+			debugCountMap();
+		}
+		return;
 	}
 
 	private void addCountMapToResults(Map<RegexComponent, Integer> countMap) {
@@ -69,10 +74,7 @@ public class RegexSearcher extends AbstractSearcher {
 			Element element = regexComponent.toXML();
 			resultsElement.appendChild(element);
 		}
-		
 	}
-
-
 
 	private void setDefaults() {
 		regexContainer = new RegexContainer();
@@ -87,17 +89,10 @@ public class RegexSearcher extends AbstractSearcher {
 		searchXomElement(xmlContainer.getElement());
 		debugCountMap();
 		if (totalCountMap.size() > 0) {
-			resultsElement = new ResultsElement();
 			addCountMapToResults(totalCountMap);
 		}
 	}
 
-//	private void addCountMapToResults(Map<RegexComponent, Integer> countMap) {
-//		for (RegexComponent regexComponent : countMap.keySet()) {
-//			Element element = regexComponent.toXML();
-//			resultsElement.appendChild(element);
-//		}
-//	}
 	public void addRegexFile(String string) {
 		// TODO Auto-generated method stub
 		
@@ -182,14 +177,16 @@ public class RegexSearcher extends AbstractSearcher {
 		LOG.debug("search XomElement with "+regexContainer.getCompoundRegexList().size()+" compoundRegexes");
 		for (CompoundRegex compoundRegex : regexContainer.getCompoundRegexList()) {
 			RegexResults regexResults = compoundRegex.searchWithRegexComponents(element);
-			//regexResults.debug();
+			regexResults.debug();
 			Map<RegexComponent, Integer> countMap = regexResults.getCountMap();
 			ensureTotalCountMap();
 			LOG.debug("Hits: "+countMap.keySet().size());
 			for (RegexComponent regexComponent : countMap.keySet()) {
+				LOG.debug("Hit: "+countMap.get(regexComponent));
 				recordResults(countMap, regexComponent);
 			}
 		}
+		return;
 	}
 
 	private void recordResults(Map<RegexComponent, Integer> countMap,
@@ -199,6 +196,9 @@ public class RegexSearcher extends AbstractSearcher {
 			Integer oldCount = totalCountMap.get(regexComponent);
 			oldCount = oldCount == null ? 0 : oldCount;
 			totalCountMap.put(regexComponent, oldCount + count);
+			Element xmlResult = regexComponent.toXML();
+			LOG.debug("xml result: "+xmlResult.toXML());
+			resultsElement.appendChild(xmlResult);
 		}
 	}
 

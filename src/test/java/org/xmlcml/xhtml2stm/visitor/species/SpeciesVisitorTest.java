@@ -165,6 +165,29 @@ public class SpeciesVisitorTest {
 		new SpeciesVisitor().processArgs(args);
 //		assertFileDetails(outputFile, 997); 
 	}
+	
+	/** search one HTML file and create corresponding output results.xml
+	 * 
+	 * @throws Exception
+	 */
+	@Test
+	public void testSearchHtmlSpeciesCommand() throws Exception {
+		File inputFile = new File(Fixtures.SPECIES_DIR, "ijs.005942.htm");
+//		assertFileDetails(inputFile, 78013);
+		File outputDir = new File("target/ijs.005942");
+		outputDir.delete();
+		String[] args = new String[] {
+				"-i", inputFile.toString(),
+				"-o", outputDir.toString(),
+		};
+		File outputFile = new File(outputDir, AbstractVisitor.RESULTS_XML);
+		LOG.debug("output: "+outputFile);
+		new SpeciesVisitor().processArgs(args);
+//		assertFileDetails(outputFile, 997); 
+	}
+	
+	
+
 
 	/** search directory with several XML files and create corresponding output results.xml
 	 * 

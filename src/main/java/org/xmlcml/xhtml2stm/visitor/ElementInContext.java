@@ -16,7 +16,6 @@ public class ElementInContext {
 
 	private static final String PRE = "[[";
 	private static final String POST = "]]";
-//	private static final String SEP = "|";
 	private static final String SEP = "";
 	private static final String DOTS = "...";
 	
@@ -41,11 +40,12 @@ public class ElementInContext {
 		preStrings = new ArrayList<String>();
 	}
 
-	public ElementInContext(Element resultElement, int maxChar) {
-		this.resultElement = resultElement;
-		parent = resultElement.getParent();
+	public ElementInContext(Element element, int maxChar) {
+		this.resultElement = element;
+		this.resultValue = element.getValue();
+		parent = element.getParent();
 		if (parent != null) {
-			index = parent.indexOf(resultElement);
+			index = parent.indexOf(element);
 			this.maxChar = maxChar;
 			computeStrings(); 
 			setXPath(getXPathOfResultElement());
@@ -69,6 +69,9 @@ public class ElementInContext {
 
 	/** used when EIC has been made by XPath and then there is further splitting.
 	 * 
+	 * Part of this is a copy constructor
+	 * 
+	 * // FIXME this is a mess - 
 	 * @param eic
 	 * @param value
 	 * @param start
@@ -78,15 +81,36 @@ public class ElementInContext {
 	public static ElementInContext createNewElementInContext(
 			ElementInContext eic, String value, int start, int end) {
 		ElementInContext newEic = new ElementInContext();
+		newEic.maxChar = eic.maxChar;
 		newEic.resultValue = value.substring(start, end);
 		newEic.preStrings = new ArrayList<String>(eic.preStrings);
-		newEic.preStrings.add(value.substring(0, start));
+		preTruncate(newEic.preStrings, eic.maxChar);
 		newEic.postStrings = new ArrayList<String>(eic.postStrings);
-		newEic.postStrings.add(value.substring(end));
+		postTruncate(newEic.postStrings, eic.maxChar);
 		newEic.xPath = eic.xPath;
 		newEic.resultElement = eic.resultElement;
 		LOG.trace("XP "+newEic.xPath);
 		return newEic;
+	}
+
+	private static void preTruncate(List<String> strings, int maxChar) {
+		for (int i = 0; i < strings.size(); i++) {
+			String s = strings.get(i);
+			if (s.length() > maxChar) {
+				s = DOTS+s.substring(s.length() - maxChar);
+				strings.set(i, s);
+			}
+		}
+	}
+
+	private static void postTruncate(List<String> strings, int maxChar) {
+		for (int i = 0; i < strings.size(); i++) {
+			String s = strings.get(i);
+			if (s.length() > maxChar) {
+				s = s.substring(0, maxChar) + DOTS;
+				strings.set(i, s);
+			}
+		}
 	}
 
 	public String getResultValue() {
@@ -96,12 +120,13 @@ public class ElementInContext {
 	private void computeStrings() {
 		StringBuilder sb = new StringBuilder();
 		getOrCreatePrecedingSiblingNodeStrings(); 
-		this.resultValue = this.resultElement.getValue();
+		this.resultValue = /*this.resultElement.getLocalName()+": "+*/this.resultElement.getValue();
 		getOrCreateFollowingSiblingNodeStrings();
 	}
 
 	public List<String> getOrCreatePrecedingSiblingNodeStrings() {
-//		if (preStrings == null) {
+		// these are cached because copies may not carry parent information 
+		if (preStrings == null) {
 			preStrings = new ArrayList<String>();
 			int charCount = 0;
 			for (int i = index - 1; i >= 0; i--) {
@@ -115,12 +140,13 @@ public class ElementInContext {
 				preStrings.add(0, value);
 				if (delta > 0) break;
 			}
-//		}
+			LOG.trace("PRE: "+preStrings);
+		}
 		return preStrings;
 	}
 
 	public List<String> getOrCreateFollowingSiblingNodeStrings() {
-//		if (postStrings == null) {
+		if (postStrings == null) {
 			postStrings = new ArrayList<String>();
 			int charCount = 0;
 			int count = parent == null ? 0 : parent.getChildCount();
@@ -135,7 +161,7 @@ public class ElementInContext {
 				postStrings.add(value);
 				if (delta > 0) break;
 			}
-//		}
+		}
 		return postStrings;
 	}
 
@@ -226,5 +252,9 @@ public class ElementInContext {
 
 	public void setResultValue(String value) {
 		this.resultValue = value;
+	}
+
+	public Element getResultElement() {
+		return resultElement;
 	}
 }

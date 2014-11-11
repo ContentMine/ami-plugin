@@ -16,7 +16,8 @@ public class SequenceSearcher extends AbstractSearcher {
 
 	private final static Logger LOG = Logger.getLogger(SequenceSearcher.class);
 
-	private static final String ALL_ELEMENTS_PATH = "//*";
+	private static final String ALL_TEXT_PATH = "//text()";
+	private static final String ALL_ELEMENTS_PATH = "//*[not(*)]";
 	private static final String ALL_PARA_PATH = "//*[local-name()='p']";
 	private static final String ALL_DIV_PATH = "//*[local-name()='div']";
 
@@ -44,18 +45,29 @@ public class SequenceSearcher extends AbstractSearcher {
 
 	private void setDefaults() {
 		this.setSequenceType(SequenceType.DNA);
-//		this.addXPath(ALL_ELEMENTS_PATH);
+//		this.addXPath(ALL_TEXT_PATH);
+        this.addXPath(ALL_ELEMENTS_PATH);
 //		this.addXPath(ALL_PARA_PATH); // doesn't work?
 //		this.addXPath(ALL_DIV_PATH); // doesn't work?
 	}
-	
+
+	/** sets sequenceType.
+	 * 
+	 * clears all previous ones.
+	 * 
+	 * @param type
+	 */
 	void setSequenceType(SequenceType type) {
 		this.patternList = new ArrayList<Pattern>();
-		addSequenceType(type);
+		addSequenceType0(type);
 	}
 
 	void addSequenceType(SequenceType type) {
 		ensurePatternList();
+		addSequenceType0(type);
+	}
+
+	private void addSequenceType0(SequenceType type) {
 		if (SequenceType.DNA.equals(type)) {
 			this.addPattern(DNA_PATTERN);
 		} else if (SequenceType.DNA.equals(type)) {
@@ -64,7 +76,6 @@ public class SequenceSearcher extends AbstractSearcher {
 			throw new RuntimeException("Type not supported: "+type);
 		}
 		this.sequenceType = (patternList.size() == 1) ? type : SequenceType.MIXED;
-
 	}
 
 	@Override

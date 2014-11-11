@@ -32,6 +32,7 @@ public class RegexVisitor extends AbstractVisitor {
 	private RegexContainer regexContainer;
 	private List<String> regexFiles;
 
+
 	public RegexVisitor() {
 		ensureAndFillRegexContainer();
 		LOG.trace("created... RegexContainer");
@@ -49,6 +50,13 @@ public class RegexVisitor extends AbstractVisitor {
 
 	public CompoundRegex getCompoundRegex(String title) {
 		return regexContainer.getCompoundRegexByTitle(title);
+	}
+
+	/**
+	 * @return the regexContainer
+	 */
+	public RegexContainer getRegexContainer() {
+		return regexContainer;
 	}
 
 	public void debug() {
@@ -70,6 +78,7 @@ public class RegexVisitor extends AbstractVisitor {
 	public void visit(XMLVisitable xmlVisitable) {
 		doVisit(xmlVisitable);
 	}
+
 
 	// =======================Called by Visitables===============
 
@@ -147,10 +156,6 @@ public class RegexVisitor extends AbstractVisitor {
 		}
 		return argList;
 	}
-
-//	private void ensureRegexList() {
-//		regexContainer.ensureCompoundRegexList();
-//	}
 
 	public void addRegexFile(String filename) {
 		File file = new File(filename);
