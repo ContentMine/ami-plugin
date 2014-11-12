@@ -45,7 +45,7 @@ public class RegexVisitorTest {
 		HtmlVisitable htmlVisitable = new HtmlVisitable();
 		htmlVisitable.setTopDirectory(Fixtures.TEST_DIRECTORIES_DIR);
 		regexVisitor.visit(htmlVisitable);
-		regexVisitor.debug();
+//		regexVisitor.debug();
 	}
 
 	@Test
@@ -54,7 +54,6 @@ public class RegexVisitorTest {
 	public void testSearchHtmlSample() throws Exception {
 		RegexVisitor regexVisitor = new RegexVisitor();
 		regexVisitor.addRegexFile("phylotree");
-
 		visitFile(regexVisitor, Fixtures.BMC_SAMPLE);
 	}
 
@@ -130,7 +129,6 @@ public class RegexVisitorTest {
 	 * @throws Exception
 	 */
 	public void testCommandRegexMetadataDOI() throws Exception {
-		LOG.debug(new File("./metadataRegex.xml").getAbsolutePath());
 		String[] args = new String[] {
 				"-i", "src/test/resources/org/xmlcml/xhtml2stm/species/journal.pone.0077058.xml",
 				"-o", new File("target/junk/").toString(),
@@ -140,6 +138,7 @@ public class RegexVisitorTest {
 	}
 	
 	@Test
+	@Ignore // FIXME QUICK
 	/** runs Genbank regex over single paper.
 	 * 
 	 * @throws Exception
@@ -154,6 +153,7 @@ public class RegexVisitorTest {
 	}
 	
 	@Test
+	@Ignore // FIXME QUICK
 	/** runs Genbank regex over single paper.
 	 * 
 	 * @throws Exception
@@ -178,7 +178,7 @@ public class RegexVisitorTest {
 			HtmlVisitable htmlVisitable = new HtmlVisitable();
 			htmlVisitable.setTopDirectory(file);
 			regexVisitor.visit(htmlVisitable);
-			regexVisitor.debug();
+//			regexVisitor.debug();
 		}
 	}
 

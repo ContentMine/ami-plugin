@@ -19,7 +19,6 @@ public abstract class AbstractListElement extends AbstractXHTML2STMElement {
 			resultElement.setType(type);
 			this.appendChild(resultElement);
 		}
-		LOG.debug("created resultList "+this.getChildElements().size());
 	}
 
 	/** must create its own subclassed ResultElement.

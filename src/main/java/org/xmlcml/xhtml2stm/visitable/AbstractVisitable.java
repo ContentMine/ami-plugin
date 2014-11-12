@@ -41,7 +41,7 @@ public abstract class AbstractVisitable {
 
     public List<File> findFilesInDirectories() {
     	if (topDirectory != null) {
-    		LOG.debug("Using Visitable :" + getClass().getName());
+    		LOG.trace("Using Visitable :" + getClass().getName());
     		Collection<File> files = FileUtils.listFiles(topDirectory, getExtensions(), recursiveVisit);
 
     		fileList = new ArrayList<File>(files);
@@ -83,7 +83,7 @@ public abstract class AbstractVisitable {
 
 	public void setTopDirectory(File topDir) {
 		 topDirectory = topDir;
-		 LOG.debug("topDirectory set to :" + topDirectory);
+		 LOG.trace("topDirectory set to :" + topDirectory);
     }
 	
 	/** every visitable should provide a way to add metadata if possible.

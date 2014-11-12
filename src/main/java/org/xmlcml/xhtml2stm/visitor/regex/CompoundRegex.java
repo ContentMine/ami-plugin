@@ -63,7 +63,7 @@ public class CompoundRegex {
 			if (regexComponentList.size() > 0) {
 				compoundRegex.add(regexComponentList);
 			}
-			LOG.debug("read Compound Regex: "+rootElement.getAttributeValue(TITLE)+"\n"+compoundRegex);
+			LOG.trace("read Compound Regex: "+rootElement.getAttributeValue(TITLE)+"\n"+compoundRegex);
 		}
 		return compoundRegex;
 	}
@@ -129,12 +129,12 @@ public class CompoundRegex {
 	}
 
 	RegexResults searchWithRegexComponents(Element element) {
-		LOG.debug("Searching element with regexComponentList");
+		LOG.trace("Searching element with regexComponentList");
 		RegexResults regexResults = new RegexResults();
 		String value = element.getValue();
 		List<RegexComponent> regexComponentList = getRegexComponentList();
 		for (RegexComponent regexComponent : regexComponentList) {
-			LOG.debug("with: "+regexComponent);
+			LOG.trace("with: "+regexComponent);
 			int count = regexComponent.searchWithPatterns(value);
 			if (count > 0) {
 				regexResults.put(regexComponent, count);

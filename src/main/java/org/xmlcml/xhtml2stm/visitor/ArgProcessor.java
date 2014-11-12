@@ -72,7 +72,6 @@ public class ArgProcessor {
 	private void processOutput(ListIterator<String> listIterator) {
 		checkHasNext(listIterator);
 		String output = listIterator.next();
-		LOG.debug("writing to output): "+output);
 		visitorOutput = new VisitorOutput(output);
 	}
 
@@ -83,7 +82,6 @@ public class ArgProcessor {
 	private void processXpath(ListIterator<String> listIterator) {
 		checkHasNext(listIterator);
 		String xpath = listIterator.next();
-		LOG.debug("XPath: "+xpath);
 		xPathProcessor = new XPathProcessor(xpath);
 	}
 

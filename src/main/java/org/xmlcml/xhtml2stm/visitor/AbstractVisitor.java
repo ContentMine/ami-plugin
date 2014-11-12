@@ -36,7 +36,7 @@ import org.xmlcml.xhtml2stm.visitable.xml.XMLVisitable;
  */
 public abstract class AbstractVisitor {
 
-	private final static Logger LOG = Logger.getLogger(AbstractVisitable.class);
+	private final static Logger LOG = Logger.getLogger(AbstractVisitor.class);
 
 	public static final String RESULTS_XML = "results.xml";
 	private static final String XML = "xml";
@@ -86,7 +86,7 @@ public abstract class AbstractVisitor {
 	}
 
 	private void doSearchAndAddResults(VisitableContainer container) {
-		LOG.debug("doSearchAndAddResults "+container.getClass());
+		LOG.trace("doSearchAndAddResults "+container.getClass());
 		AbstractSearcher searcher = createSearcher();
 		searcher.search(container);
 		ensureResultsElement();
@@ -256,8 +256,8 @@ public abstract class AbstractVisitor {
 		visitableInput.setExtensions(argProcessor.getExtensions());
 		visitableInput.setRecursive(argProcessor.isRecursive());
 		visitableInput.createVisitableList();
-		LOG.debug("visitable list: "+visitableInput.getVisitableList());
-		LOG.debug("in: " + visitableInput);
+		LOG.trace("visitable list: "+visitableInput.getVisitableList());
+		LOG.trace("in: " + visitableInput);
 	}
 
 	private void createVisitableOutputFromArgs() {
@@ -265,8 +265,6 @@ public abstract class AbstractVisitor {
 			setVisitorOutput(new VisitorOutput());
 		}
 		getOrCreateVisitorOutput().setVisitableInput(visitableInput);
-		
-		LOG.debug("outputLocation: " + getOrCreateVisitorOutput().getOutputLocation());
 		getOrCreateVisitorOutput().setExtension(XML);
 	}
 
@@ -386,9 +384,9 @@ public abstract class AbstractVisitor {
 		if (inputVisitableList.size() == 0) {
 			LOG.error("No visitable input list");
 		} else {
-			LOG.debug("InputVisitables " + inputVisitableList.size());
+			LOG.trace("InputVisitables " + inputVisitableList.size());
 			for (AbstractVisitable visitable : inputVisitableList) {
-				LOG.debug("input file List "+ visitable.getFileList().size());
+				LOG.trace("input file List "+ visitable.getFileList().size());
 				visit(visitable);
 				createAndWriteOutputFiles();
 			}
@@ -402,19 +400,17 @@ public abstract class AbstractVisitor {
 		if (resultsElement == null) {
 			LOG.error("***WARNING results element is null");
 		} else if (files.size() <= 1) {  // why not <= 0??
-			LOG.error("no visitableOutput fileList");
-			LOG.debug("creating output file "+resultsFile+" // "+resultsElement.toXML());
 			writeFile(resultsElement.toXML(), resultsFile);
 		} else {
 			LOG.error("visitableOutput fileList "+files.size());
 			for (File file : files) {
-				LOG.debug("making directory from file: " + file);
+				LOG.trace("making directory from file: " + file);
 				File ff = writeFile(outputDir, "about.txt", "created");
 				if (resultsElement == null) {
 					LOG.error("no results to write");
 				} else {
 					writeFile(outputDir, file.toString(), resultsElement.toXML());
-					LOG.debug("ACTUALLY writing to: " + resultsFile);
+					LOG.trace("ACTUALLY writing to: " + resultsFile);
 				}
 			}
 		}

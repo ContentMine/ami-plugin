@@ -51,20 +51,18 @@ public class RegexSearcher extends AbstractSearcher {
 	}
 	@Override
 	protected void search(HtmlContainer htmlContainer) {
-		LOG.debug("regex search html container");
 		searchXomElement(htmlContainer.getHtmlElement());
-		debugCountMap();
+//		debugCountMap();
 	}
 
 	@Override
 	protected void search(XMLContainer xmlContainer) {
-		LOG.debug("regex search xml container");
 		ensureRegexList();
-		LOG.debug("visiting container with  "+(regexContainer.getCompoundRegexList() == null ?
+		LOG.trace("visiting container with  "+(regexContainer.getCompoundRegexList() == null ?
 				"null/zero" : regexContainer.getCompoundRegexList().size())+" compound regexes");
 		if (regexContainer.getCompoundRegexList() != null) {
 			searchXomElement(xmlContainer.getElement());
-			debugCountMap();
+//			debugCountMap();
 		}
 		return;
 	}
@@ -87,7 +85,7 @@ public class RegexSearcher extends AbstractSearcher {
 	void searchContainer(XMLContainer xmlContainer) {
 		ensureRegexList();
 		searchXomElement(xmlContainer.getElement());
-		debugCountMap();
+//		debugCountMap();
 		if (totalCountMap.size() > 0) {
 			addCountMapToResults(totalCountMap);
 		}
@@ -111,7 +109,7 @@ public class RegexSearcher extends AbstractSearcher {
 		for (File regexFile : regexFiles) {
 			regexContainer.readCompoundRegexFile(regexFile);
 		}
-		LOG.debug("regex container "+regexContainer.getCompoundRegexList());
+		LOG.trace("regex container "+regexContainer.getCompoundRegexList());
 		return regexContainer;
 	}
 
@@ -135,7 +133,7 @@ public class RegexSearcher extends AbstractSearcher {
 
 	protected void searchContainer(HtmlContainer htmlContainer) {
 		this.searchXomElement(htmlContainer.getHtmlElement());
-		debugCountMap();
+//		debugCountMap();
 	}
 
 	// ====== args ========
@@ -174,15 +172,13 @@ public class RegexSearcher extends AbstractSearcher {
 	}
 
 	private void searchXomElement(Element element) {
-		LOG.debug("search XomElement with "+regexContainer.getCompoundRegexList().size()+" compoundRegexes");
+		LOG.trace("search XomElement with "+regexContainer.getCompoundRegexList().size()+" compoundRegexes");
 		for (CompoundRegex compoundRegex : regexContainer.getCompoundRegexList()) {
 			RegexResults regexResults = compoundRegex.searchWithRegexComponents(element);
-			regexResults.debug();
+//			regexResults.debug();
 			Map<RegexComponent, Integer> countMap = regexResults.getCountMap();
 			ensureTotalCountMap();
-			LOG.debug("Hits: "+countMap.keySet().size());
 			for (RegexComponent regexComponent : countMap.keySet()) {
-				LOG.debug("Hit: "+countMap.get(regexComponent));
 				recordResults(countMap, regexComponent);
 			}
 		}
@@ -197,7 +193,6 @@ public class RegexSearcher extends AbstractSearcher {
 			oldCount = oldCount == null ? 0 : oldCount;
 			totalCountMap.put(regexComponent, oldCount + count);
 			Element xmlResult = regexComponent.toXML();
-			LOG.debug("xml result: "+xmlResult.toXML());
 			resultsElement.appendChild(xmlResult);
 		}
 	}

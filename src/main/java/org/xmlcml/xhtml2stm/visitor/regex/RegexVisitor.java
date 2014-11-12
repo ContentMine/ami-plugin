@@ -62,7 +62,6 @@ public class RegexVisitor extends AbstractVisitor {
 	public void debug() {
 		LOG.debug("regex list "+regexContainer.getCompoundRegexList());
 		for (CompoundRegex compoundRegex : regexContainer.getCompoundRegexList()) {
-//			compoundRegex.debug();
 			LOG.debug(compoundRegex.getTitle()+"/"+compoundRegex.getRegexValues().size());
 		}
 	}
@@ -88,7 +87,6 @@ public class RegexVisitor extends AbstractVisitor {
 	}
 	
 	public static void main(String[] args) throws Exception {
-		LOG.debug("running RegexVisitor "+args.length);
 		RegexVisitor regexVisitor = new RegexVisitor();
 		regexVisitor.processArgs(args);
 	}
@@ -140,7 +138,7 @@ public class RegexVisitor extends AbstractVisitor {
 		for (File regexFile : regexFiles) {
 			regexContainer.readCompoundRegexFile(regexFile);
 		}
-		LOG.debug("regex container "+regexContainer.getCompoundRegexList());
+		LOG.trace("regex container "+regexContainer.getCompoundRegexList());
 		return regexContainer;
 	}
 

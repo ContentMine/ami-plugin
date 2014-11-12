@@ -68,7 +68,7 @@ public class TreeVisitor extends AbstractVisitor {
 		File inputFile = imageContainer.getFile();
 		treeAnalyzer.setInputFile(inputFile);
 		File outputFile = new File(new File("target/"), inputFile.getName()+".nwk");
-		LOG.debug("writing to output File: "+outputFile);
+		LOG.trace("writing to output File: "+outputFile);
 		treeAnalyzer.setNewickFile(outputFile);
 		treeAnalyzer.setImage(image);
 		treeAnalyzer.processImageIntoGraphsAndTrees();

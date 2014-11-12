@@ -114,7 +114,6 @@ public abstract class AbstractSearcher {
 	// =============== SEARCH ============
 
 	public void search(VisitableContainer container) {
-//		LOG.debug("&&& "+((HtmlContainer)container).getElement().toXML());
 		resultList = this.searchXPathPatternAndCollectResults(container);
 		AbstractListElement listElement = createListElement(resultList);
 		sourceElement.appendChild(listElement);
@@ -139,7 +138,6 @@ public abstract class AbstractSearcher {
 	}
 
 	private List<ElementInContext> searchElementsWithRegexes(List<ElementInContext> eicList) {
-		LOG.debug("patternList : "+patternList.size());
 		List<ElementInContext> eicResultList = new ArrayList<ElementInContext>();
 		for (ElementInContext eic : eicList) {
 			for (Pattern pattern : patternList) {
@@ -157,7 +155,6 @@ public abstract class AbstractSearcher {
 	}
 
 	protected List<ElementInContext> applyXPathToGenerateElements(Element rawElement) {
-		LOG.debug("!!!! "+rawElement.toXML().length());
 		List<ElementInContext> elementList = new ArrayList<ElementInContext>();
 		if (xPathList.size() == 0) {
 			ElementInContext eic = new ElementInContext(rawElement, maxChar);
@@ -165,9 +162,7 @@ public abstract class AbstractSearcher {
 			elementList.add(eic);
 		} else {
 			for (String xPath : xPathList) {
-				LOG.debug("xpath: "+xPath);
 				List<ElementInContext> xPathResults = applyXpath(rawElement, xPath);
-				LOG.debug("xpathResults: "+xPathResults.size());
 				elementList.addAll(xPathResults);
 			}
 		}
@@ -178,7 +173,6 @@ public abstract class AbstractSearcher {
 		List<ElementInContext> resultList = new ArrayList<ElementInContext>();
 		Element eicelem = eic.getResultElement();
 		String value = eicelem.getLocalName()+":"+eicelem.getValue()+":"+eicelem.getChildCount();
-		LOG.debug("{"+value+"}");
 		Matcher matcher = pattern.matcher(value);
 		while (matcher.find()) {
 			ElementInContext newEic = ElementInContext.createNewElementInContext(eic, value, matcher.start(), matcher.end());
@@ -201,7 +195,6 @@ public abstract class AbstractSearcher {
 			ElementInContext eic = new ElementInContext(resultElement, maxChar);
 			eicList.add(eic);
 		}
-		LOG.debug("EIC: "+eicList.size());
 		return eicList;
 	}
 	
