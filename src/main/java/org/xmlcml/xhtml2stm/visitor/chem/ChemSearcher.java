@@ -6,7 +6,7 @@ import java.util.List;
 import org.apache.log4j.Logger;
 import org.xmlcml.html.HtmlSub;
 import org.xmlcml.xhtml2stm.result.AbstractListElement;
-import org.xmlcml.xhtml2stm.result.ResultList;
+import org.xmlcml.xhtml2stm.result.SimpleResultList;
 import org.xmlcml.xhtml2stm.visitable.html.HtmlContainer;
 import org.xmlcml.xhtml2stm.visitable.svg.SVGContainer;
 import org.xmlcml.xhtml2stm.visitable.svg.SVGVisitable;
@@ -75,7 +75,7 @@ public class ChemSearcher extends AbstractSearcher {
 	}
 	
 	@Override
-	protected AbstractListElement createListElement(ResultList resultList) {
+	protected AbstractListElement createListElement(SimpleResultList resultList) {
 		AbstractListElement listElement = new ChemListElement(resultList);
 		return listElement;
 	}

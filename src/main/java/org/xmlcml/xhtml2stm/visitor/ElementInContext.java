@@ -9,6 +9,7 @@ import nu.xom.Node;
 import nu.xom.ParentNode;
 
 import org.apache.log4j.Logger;
+import org.xmlcml.xhtml2stm.util.AMIUtil;
 
 public class ElementInContext {
 	
@@ -18,6 +19,12 @@ public class ElementInContext {
 	private static final String POST = "]]";
 	private static final String SEP = "";
 	private static final String DOTS = "...";
+
+	private static final String POST_TAG = "post";
+	private static final String PRE_TAG = "pre";
+	public static final String VALUE_TAG = "value";
+
+	private static final int DEFAULT_MAX_CHAR = 50;
 	
 	private ParentNode parent;
 	private Element resultElement;
@@ -65,6 +72,14 @@ public class ElementInContext {
 	public ElementInContext(String resultValue) {
 		setDefaults();
 		this.resultValue = resultValue;
+	}
+
+	/** creates ElementInContext with default maxChar.
+	 * 
+	 * @param element
+	 */
+	public ElementInContext(Element element) {
+		this(element, DEFAULT_MAX_CHAR);
 	}
 
 	/** used when EIC has been made by XPath and then there is further splitting.
@@ -165,7 +180,7 @@ public class ElementInContext {
 		return postStrings;
 	}
 
-	public final static String getConcatenatedStrings(List<String> strings) {
+	public final String getConcatenatedStrings(List<String> strings) {
 		StringBuilder sb = new StringBuilder();
 		for (String s : strings) {
 			sb.append(s);
@@ -256,5 +271,40 @@ public class ElementInContext {
 
 	public Element getResultElement() {
 		return resultElement;
+	}
+
+	public String createPreConcatenatedString() {
+		return getConcatenatedStrings(getOrCreatePrecedingSiblingNodeStrings());
+	}
+
+	public String createPostConcatenatedString() {
+		return getConcatenatedStrings(getOrCreateFollowingSiblingNodeStrings());
+	}
+
+	public Element createPREElement() {
+		Element pre = new Element(PRE_TAG);
+		pre.appendChild(this.createPreConcatenatedString());
+		return pre;
+	}
+
+	public Element createPOSTElement() {
+		Element post = new Element(POST_TAG);
+		post.appendChild(this.createPostConcatenatedString());
+		return post;
+	}
+
+	public Element createVALUEElement() {
+		Element value = new Element(VALUE_TAG);
+		value.appendChild(resultValue);
+		return value;
+	}
+
+	public Element createElement() {
+		Element eic = new Element("eic");
+		eic.addAttribute(new Attribute(AMIUtil.XPATH, this.getXPathOfResultElement()));
+		eic.appendChild(createPREElement());
+		eic.appendChild(createVALUEElement());
+		eic.appendChild(createPOSTElement());
+		return eic;
 	}
 }

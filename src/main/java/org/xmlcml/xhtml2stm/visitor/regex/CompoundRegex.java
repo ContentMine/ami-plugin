@@ -9,6 +9,7 @@ import nu.xom.Document;
 import nu.xom.Element;
 
 import org.apache.log4j.Logger;
+import org.xmlcml.xhtml2stm.visitor.ElementInContext;
 
 /** Container for many smaller regexes.
  * 
@@ -126,21 +127,6 @@ public class CompoundRegex {
 
 	public String getTitle() {
 		return root == null ? null : root.getAttributeValue(TITLE);
-	}
-
-	RegexResults searchWithRegexComponents(Element element) {
-		LOG.trace("Searching element with regexComponentList");
-		RegexResults regexResults = new RegexResults();
-		String value = element.getValue();
-		List<RegexComponent> regexComponentList = getRegexComponentList();
-		for (RegexComponent regexComponent : regexComponentList) {
-			LOG.trace("with: "+regexComponent);
-			int count = regexComponent.searchWithPatterns(value);
-			if (count > 0) {
-				regexResults.put(regexComponent, count);
-			}
-		}
-		return regexResults;
 	}
 
 	@Override 

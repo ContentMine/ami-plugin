@@ -5,7 +5,7 @@ import java.util.regex.Pattern;
 
 import org.apache.log4j.Logger;
 import org.xmlcml.xhtml2stm.Type;
-import org.xmlcml.xhtml2stm.result.ResultList;
+import org.xmlcml.xhtml2stm.result.SimpleResultList;
 import org.xmlcml.xhtml2stm.visitable.SourceElement;
 import org.xmlcml.xhtml2stm.visitable.html.HtmlContainer;
 import org.xmlcml.xhtml2stm.visitable.xml.XMLContainer;
@@ -58,7 +58,7 @@ public class SpeciesSearcher extends AbstractSearcher {
 	}
 
 	@Override
-	protected SpeciesListElement createListElement(ResultList binomialSet) {
+	protected SpeciesListElement createListElement(SimpleResultList binomialSet) {
 		return new SpeciesListElement(speciesType, binomialSet);
 	}
 

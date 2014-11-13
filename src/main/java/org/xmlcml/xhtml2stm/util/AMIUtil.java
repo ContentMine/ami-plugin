@@ -7,7 +7,7 @@ import org.apache.commons.io.FilenameUtils;
  * @author pm286
  *
  */
-public class Util {
+public class AMIUtil {
 
 
 	public static final String DOI = "doi:";
@@ -17,6 +17,7 @@ public class Util {
 	public static final String PDF = "pdf";
 	public static final String SVG = "svg";
 	public static final String XML = "xml";
+	public static final String XPATH = "xpath";
 	
 	public static boolean endsWithSeparator(String filename) {
 		return filename != null && FilenameUtils.indexOfLastSeparator(filename) == filename.length()-1;

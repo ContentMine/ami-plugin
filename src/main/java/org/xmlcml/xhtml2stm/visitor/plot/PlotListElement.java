@@ -3,8 +3,8 @@ package org.xmlcml.xhtml2stm.visitor.plot;
 import org.apache.log4j.Logger;
 import org.xmlcml.xhtml2stm.result.AbstractListElement;
 import org.xmlcml.xhtml2stm.result.AbstractResultElement;
-import org.xmlcml.xhtml2stm.result.SimpleResult;
-import org.xmlcml.xhtml2stm.visitor.SimpleResultElement;
+import org.xmlcml.xhtml2stm.result.SimpleResultWrapper;
+import org.xmlcml.xhtml2stm.visitor.VisitorSimpleResultElement;
 import org.xmlcml.xhtml2stm.visitor.species.SpeciesListElement;
 
 public class PlotListElement extends AbstractListElement {
@@ -17,9 +17,9 @@ public class PlotListElement extends AbstractListElement {
 	}
 
 	@Override
-	protected AbstractResultElement createElement(SimpleResult simpleResult) {
+	protected AbstractResultElement createElement(SimpleResultWrapper simpleResult) {
 		// mayeb change this later
-		return new SimpleResultElement(simpleResult);
+		return new VisitorSimpleResultElement(simpleResult);
 	}
 
 }

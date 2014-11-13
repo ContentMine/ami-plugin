@@ -11,9 +11,9 @@ import nu.xom.Nodes;
 import org.apache.log4j.Logger;
 import org.xmlcml.xhtml2stm.Type;
 import org.xmlcml.xhtml2stm.result.AbstractListElement;
-import org.xmlcml.xhtml2stm.result.ResultList;
-import org.xmlcml.xhtml2stm.result.ResultsElement;
-import org.xmlcml.xhtml2stm.result.SimpleResult;
+import org.xmlcml.xhtml2stm.result.SimpleResultList;
+import org.xmlcml.xhtml2stm.result.ResultsListElement;
+import org.xmlcml.xhtml2stm.result.SimpleResultWrapper;
 import org.xmlcml.xhtml2stm.visitable.SourceElement;
 import org.xmlcml.xhtml2stm.visitable.VisitableContainer;
 import org.xmlcml.xhtml2stm.visitable.html.HtmlContainer;
@@ -35,9 +35,9 @@ public abstract class AbstractSearcher {
 	private List<String> xPathList;
 	private Type type;
 	protected AbstractVisitor visitor;
-	protected ResultsElement resultsElement;
+	protected ResultsListElement resultsElement;
 	protected SourceElement sourceElement;
-	protected ResultList resultList;
+	protected SimpleResultList resultList;
 	private int maxChar = 100; // maximum allowed by some publishers
 
 	private AbstractSearcher() {
@@ -113,17 +113,34 @@ public abstract class AbstractSearcher {
 	
 	// =============== SEARCH ============
 
+
+	/** this subclassing seems messy but probably necessary
+	 * 
+	 */
 	public void search(VisitableContainer container) {
+		ensureResultsElement();
+		sourceElement = new SourceElement(container);
+		resultsElement.appendChild(sourceElement);
+		if (container instanceof HtmlContainer) {
+			search((HtmlContainer) container);
+		} else if (container instanceof XMLContainer) {
+			search((XMLContainer) container);
+		} else {
+			LOG.debug("RegexSearcher cannot search class: "+container.getClass());
+		}
+	}
+
+	public void defaultSearch(VisitableContainer container) {
 		resultList = this.searchXPathPatternAndCollectResults(container);
 		AbstractListElement listElement = createListElement(resultList);
 		sourceElement.appendChild(listElement);
 	}
 
-	protected abstract AbstractListElement createListElement(ResultList resultList);
+	protected abstract AbstractListElement createListElement(SimpleResultList resultList);
 	
 	protected void ensureResultsElement() {
 		if (resultsElement == null) {
-			resultsElement = new ResultsElement();
+			resultsElement = new ResultsListElement();
 		}
 	}
 	
@@ -170,6 +187,7 @@ public abstract class AbstractSearcher {
 	}
 	
 	private static List<ElementInContext> findStrings(ElementInContext eic, Pattern pattern) {
+//		LOG.debug("findStrings");
 		List<ElementInContext> resultList = new ArrayList<ElementInContext>();
 		Element eicelem = eic.getResultElement();
 		String value = eicelem.getLocalName()+":"+eicelem.getValue()+":"+eicelem.getChildCount();
@@ -177,6 +195,7 @@ public abstract class AbstractSearcher {
 		while (matcher.find()) {
 			ElementInContext newEic = ElementInContext.createNewElementInContext(eic, value, matcher.start(), matcher.end());
 			resultList.add(newEic);
+			LOG.debug("matched species: "+newEic);
 		}
 		return resultList;
 	}
@@ -198,7 +217,7 @@ public abstract class AbstractSearcher {
 		return eicList;
 	}
 	
-	public ResultList searchXPathPatternAndCollectResults(VisitableContainer container) {
+	public SimpleResultList searchXPathPatternAndCollectResults(VisitableContainer container) {
 		ensureResultsElement();
 		sourceElement = new SourceElement(container);
 		resultsElement.appendChild(sourceElement);
@@ -211,17 +230,17 @@ public abstract class AbstractSearcher {
 	 * @param sourceElement
 	 * @return
 	 */
-	protected ResultList searchXPathPatternAndCollectResults(SourceElement sourceElement) {
+	protected SimpleResultList searchXPathPatternAndCollectResults(SourceElement sourceElement) {
 		List<ElementInContext> eicList = this.createEICListWithXpathsAndPatterns(sourceElement);
 		resultList = createResultListFromElementsInContext(eicList);
 		transformResultList();
 		return resultList;
 	}
 	
-	private ResultList createResultListFromElementsInContext(List<ElementInContext> eicList) {
-		ResultList resultList = new ResultList();
+	private SimpleResultList createResultListFromElementsInContext(List<ElementInContext> eicList) {
+		SimpleResultList resultList = new SimpleResultList(sourceElement);
 		for (ElementInContext eic : eicList) {
-			SimpleResult simpleResult = new SimpleResult(eic);
+			SimpleResultWrapper simpleResult = new SimpleResultWrapper(eic);
 			resultList.add(simpleResult);
 		}
 		return resultList;
@@ -234,7 +253,7 @@ public abstract class AbstractSearcher {
 		// No-op unless overridden
 	}
 
-	public ResultsElement getResultsElement() {
+	public ResultsListElement getResultsElement() {
 		ensureResultsElement();
 		return resultsElement;
 	}
@@ -244,11 +263,13 @@ public abstract class AbstractSearcher {
 	// SEARCH functionality
 	
 	protected void search(HtmlContainer htmlContainer) {
-		throw new RuntimeException("Must overide search(HtmlContainer)");
+		LOG.error("Must overide search(HtmlContainer), using defaultSearch");
+		defaultSearch(htmlContainer);
 	}
 
 	protected void search(XMLContainer xmlContainer) {
-		throw new RuntimeException("Must overide search(XMLContainer)");
+		LOG.error("Must overide search(XMLContainer), using defaultSearch");
+		defaultSearch(xmlContainer);
 	}
 
 	protected void search(SVGContainer svgContainer) {
@@ -258,12 +279,15 @@ public abstract class AbstractSearcher {
 	protected void search(ImageContainer imageContainer) {
 		throw new RuntimeException("Must overide image(SVGContainer)");
 	}
-
 //	protected ResultsElement createAndFillResultsElement() {
 //		ensureResultsElement();
 //		resultsElement.appendChild(createListElement(resultList));
 //		return resultsElement;
 //	}
+
+	public SimpleResultList getResultsList() {
+		return resultList;
+	}
 
 
 }

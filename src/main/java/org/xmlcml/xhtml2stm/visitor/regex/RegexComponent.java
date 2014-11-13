@@ -10,6 +10,7 @@ import nu.xom.Attribute;
 import nu.xom.Element;
 
 import org.apache.log4j.Logger;
+import org.xmlcml.xhtml2stm.visitor.ElementInContext;
 
 /** a component of a regular expression
  * 
@@ -21,8 +22,9 @@ import org.apache.log4j.Logger;
 public class RegexComponent {
 
 	private static final String RESULT = "result";
+	private static final String RESULTS = "results";
 
-	private static final Logger LOG = Logger.getLogger(RegexComponent.class);
+	static final Logger LOG = Logger.getLogger(RegexComponent.class);
 
 	private static final String WEIGHT = "weight";
 	private static final String CASE = "case";
@@ -133,56 +135,30 @@ public class RegexComponent {
 		return pattern;
 	}
 
-	int searchWithPatterns(String value) {
+	MatcherResult searchWithPatterns(ElementInContext eic) {
+		String value = eic == null ? null : eic.getResultValue();
+//		LOG.debug("EIC value "+value);
+		MatcherResult matcherResult =  value == null ? null : searchWithPatterns(value);
+		return matcherResult;
+	}
+
+	MatcherResult searchWithPatterns(String value) {
 		Pattern pattern = getPattern();
 		Matcher matcher = pattern.matcher(value);
 		int start = 0;
 		count = 0;
+		MatcherResult matcherResult = new MatcherResult(fieldList);
 		while (matcher.find(start)) {
-			captureGroups(matcher, getFieldList());
+			matcherResult.captureNextMatch(matcher);
 			start = matcher.end();
 			count++;
 		}
-		return count;
+		LOG.debug("finished searchWithPatterns(value)");
+		return matcherResult;
 	}
 	
 	public int getCount() {
 		return count;
-	}
-
-	private void captureGroups(Matcher matcher, List<String> fieldList) {
-		getFieldList();
-		ensureNamedGroupList();
-		List<String> groupList = extractGroupList(matcher);
-		if (groupList.size() > 0 || fieldList.size() > 0) {
-			if (groupList.size() != fieldList.size()) {
-				LOG.trace("regComp: "+this.toString());
-				throw new RuntimeException("groupList ("+groupList.size()+") does not match fieldList ("+fieldList.size()+")");
-			} else {
-				for (int i = 0; i < groupList.size(); i++) {
-					NamedGroup namedGroup = new NamedGroup(fieldList.get(i), groupList.get(i));
-					LOG.trace("namedgroup "+namedGroup);
-					namedGroupList.add(namedGroup);
-				}
-			}
-		}
-	}
-
-	private void ensureNamedGroupList() {
-		if (namedGroupList == null) {
-			namedGroupList = new ArrayList<NamedGroup>();
-		}
-	}
-
-	private List<String> extractGroupList(Matcher matcher) {
-		List<String> groupList = new ArrayList<String>();
-		if (matcher.groupCount() > 0) {
-			for (int i = 1; i <= matcher.groupCount(); i++) {
-				groupList.add(matcher.group(i));
-			}
-			LOG.trace(groupList);
-		}
-		return groupList;
 	}
 
 	/**
@@ -200,12 +176,47 @@ public class RegexComponent {
 		return sb.toString();
 	}
 
-	public Element toXML() {
-		Element result = new Element(RESULT);
-		for (NamedGroup namedGroup : namedGroupList) {
-			result.addAttribute(new Attribute(namedGroup.getName(), namedGroup.getGroup()));
+	public Element createElement() {
+		/**
+		private Element regexElement;
+		private Pattern pattern;
+		private Double weight = null;
+		private List<String> fieldList;
+		private List<NamedGroup> namedGroupList;
+		private Integer count;
+		*/
+		
+		Element regex = new Element("regex");
+		if (pattern != null) {
+			Element patternElement = new Element("pattern");
+			patternElement.appendChild(pattern.toString());
+			regex.appendChild(patternElement);
 		}
-		result.addAttribute(new Attribute("count", String.valueOf(count)));
-		return result;
+		if (weight != null) {
+			regex.addAttribute(new Attribute("weight", String.valueOf(weight)));
+		}
+		if (fieldList != null) {
+			regex.addAttribute(new Attribute("fields", String.valueOf(fieldList)));
+		}
+		return regex;
+
+	}
+	public Element toXMLOld() {
+		Element results = new Element(RESULTS);
+		LOG.debug("namedGroup size: "+namedGroupList.size());
+		for (NamedGroup namedGroup : namedGroupList) {
+			Element result = new Element(RESULT);
+			String namedGroupValue =namedGroup.getGroup();
+			if (namedGroupValue != null) { 
+				LOG.debug("named group value: "+namedGroup.getName()+"="+namedGroupValue);
+				result.addAttribute(new Attribute(namedGroup.getName(), namedGroupValue));
+				results.appendChild(result);
+			} else {
+				LOG.trace("null named group: "+namedGroup.getName());
+			}
+		}
+		results.addAttribute(new Attribute("count", String.valueOf(count)));
+//		XMLUtil.debug(results);
+		return results;
 	}
 }

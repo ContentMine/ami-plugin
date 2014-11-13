@@ -10,7 +10,7 @@ import java.util.List;
 import org.apache.commons.io.FileUtils;
 import org.apache.commons.io.FilenameUtils;
 import org.apache.log4j.Logger;
-import org.xmlcml.xhtml2stm.util.Util;
+import org.xmlcml.xhtml2stm.util.AMIUtil;
 import org.xmlcml.xhtml2stm.visitable.html.HtmlVisitable;
 import org.xmlcml.xhtml2stm.visitable.image.ImageVisitable;
 import org.xmlcml.xhtml2stm.visitable.pdf.PDFVisitable;
@@ -49,7 +49,7 @@ public class VisitableInput {
 	public List<AbstractVisitable> createVisitableList() {
 		String inputItem = inputArg;
 		inputFilenameExtension = FilenameUtils.getExtension(inputItem);
-		isDirectory = Util.endsWithSeparator(inputItem) || new File(inputItem).isDirectory() 
+		isDirectory = AMIUtil.endsWithSeparator(inputItem) || new File(inputItem).isDirectory() 
 				|| inputFilenameExtension == null || "".equals(inputItem)  ;
 		isUrl = inputItem.startsWith(HTTP);
 		ensureVisitableList();

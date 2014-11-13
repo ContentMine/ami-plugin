@@ -3,9 +3,9 @@ package org.xmlcml.xhtml2stm.visitor.metadata;
 import org.apache.log4j.Logger;
 import org.xmlcml.xhtml2stm.result.AbstractListElement;
 import org.xmlcml.xhtml2stm.result.AbstractResultElement;
-import org.xmlcml.xhtml2stm.result.ResultList;
-import org.xmlcml.xhtml2stm.result.SimpleResult;
-import org.xmlcml.xhtml2stm.visitor.SimpleResultElement;
+import org.xmlcml.xhtml2stm.result.SimpleResultList;
+import org.xmlcml.xhtml2stm.result.SimpleResultWrapper;
+import org.xmlcml.xhtml2stm.visitor.VisitorSimpleResultElement;
 import org.xmlcml.xhtml2stm.visitor.species.SpeciesListElement;
 
 public class MetadataListElement extends AbstractListElement {
@@ -17,14 +17,14 @@ public class MetadataListElement extends AbstractListElement {
 		super(TAG);
 	}
 
-	public MetadataListElement(ResultList resultList) {
+	public MetadataListElement(SimpleResultList resultList) {
 		this();
 		this.addResultList(resultList, null);
 	}
 
 	@Override
-	protected AbstractResultElement createElement(SimpleResult simpleResult) {
-		return new SimpleResultElement(simpleResult);
+	protected AbstractResultElement createElement(SimpleResultWrapper simpleResult) {
+		return new VisitorSimpleResultElement(simpleResult);
 	}
 
 }

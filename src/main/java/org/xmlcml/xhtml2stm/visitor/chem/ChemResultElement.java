@@ -2,7 +2,7 @@ package org.xmlcml.xhtml2stm.visitor.chem;
 
 import org.apache.log4j.Logger;
 import org.xmlcml.xhtml2stm.result.AbstractResultElement;
-import org.xmlcml.xhtml2stm.result.SimpleResult;
+import org.xmlcml.xhtml2stm.result.SimpleResultWrapper;
 
 import com.google.common.collect.Multiset.Entry;
 
@@ -23,12 +23,12 @@ public class ChemResultElement extends AbstractResultElement {
 		appendChild(value);
 	}
 	
-	public ChemResultElement(SimpleResult simpleResult) {
+	public ChemResultElement(SimpleResultWrapper simpleResult) {
 		this();
-		addEntry(simpleResult);
+		addSimpleResultAsXML(simpleResult);
 	}
 
-	protected ChemResultElement createElement(SimpleResult simpleResult) {
+	protected ChemResultElement createElement(SimpleResultWrapper simpleResult) {
 		return new ChemResultElement(simpleResult);
 	}
 

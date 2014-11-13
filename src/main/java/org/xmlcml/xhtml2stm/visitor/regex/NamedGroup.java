@@ -1,5 +1,7 @@
 package org.xmlcml.xhtml2stm.visitor.regex;
 
+import nu.xom.Attribute;
+
 /** holds a named captureGroup.
  * 
  * @author pm286
@@ -25,6 +27,10 @@ public class NamedGroup {
 	
 	public String toString() {
 		return name+" = "+group;
+	}
+
+	public Attribute createAttribute() {
+		return group == null ? null : new Attribute(name, group);
 	}
 
 }

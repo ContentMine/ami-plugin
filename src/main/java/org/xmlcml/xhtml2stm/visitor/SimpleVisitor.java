@@ -4,7 +4,7 @@ import java.awt.Container;
 import java.util.List;
 
 import org.apache.log4j.Logger;
-import org.xmlcml.xhtml2stm.result.SimpleResult;
+import org.xmlcml.xhtml2stm.result.SimpleResultWrapper;
 import org.xmlcml.xhtml2stm.visitable.VisitableContainer;
 import org.xmlcml.xhtml2stm.visitable.html.HtmlContainer;
 import org.xmlcml.xhtml2stm.visitable.html.HtmlVisitable;
@@ -79,8 +79,8 @@ public class SimpleVisitor extends AbstractVisitor {
 
 	}
 	
-	public Multiset<SimpleResult> searchXPathPatternAndCollectResults(Container container) {
-		Multiset<SimpleResult> resultSet = HashMultiset.create();
+	public Multiset<SimpleResultWrapper> searchXPathPatternAndCollectResults(Container container) {
+		Multiset<SimpleResultWrapper> resultSet = HashMultiset.create();
 		return resultSet;
 	}
 

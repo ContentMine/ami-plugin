@@ -16,6 +16,7 @@ import org.xmlcml.xhtml2stm.result.AbstractXHTML2STMElement;
 public class SourceElement extends AbstractXHTML2STMElement {
 
 	private final static Logger LOG = Logger.getLogger(SourceElement.class);
+	
 	public final static String TAG = "source";
 	private static final String DOCUMENT_ID = "documentId";
 	private static final String NAME = "name";

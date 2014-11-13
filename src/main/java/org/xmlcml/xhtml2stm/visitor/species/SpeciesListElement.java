@@ -3,8 +3,8 @@ package org.xmlcml.xhtml2stm.visitor.species;
 import org.apache.log4j.Logger;
 import org.xmlcml.xhtml2stm.result.AbstractListElement;
 import org.xmlcml.xhtml2stm.result.AbstractResultElement;
-import org.xmlcml.xhtml2stm.result.ResultList;
-import org.xmlcml.xhtml2stm.result.SimpleResult;
+import org.xmlcml.xhtml2stm.result.SimpleResultList;
+import org.xmlcml.xhtml2stm.result.SimpleResultWrapper;
 import org.xmlcml.xhtml2stm.visitor.AbstractVisitor;
 import org.xmlcml.xhtml2stm.visitor.species.SpeciesSearcher.SpeciesType;
 
@@ -20,7 +20,7 @@ public class SpeciesListElement extends AbstractListElement {
 		super(TAG);
 	}
 	
-	public SpeciesListElement(SpeciesType type, ResultList resultList) {
+	public SpeciesListElement(SpeciesType type, SimpleResultList resultList) {
 		this();
 		this.addResultList(resultList, type);
 	}
@@ -30,7 +30,7 @@ public class SpeciesListElement extends AbstractListElement {
 	}
 
 	@Override
-	protected AbstractResultElement createElement(SimpleResult simpleResult) {
+	protected AbstractResultElement createElement(SimpleResultWrapper simpleResult) {
 		return new SpeciesResultElement(simpleResult);
 	}
 	

@@ -8,7 +8,7 @@ import org.junit.Assert;
 import org.junit.Ignore;
 import org.junit.Test;
 import org.xmlcml.xhtml2stm.Fixtures;
-import org.xmlcml.xhtml2stm.result.ResultsElement;
+import org.xmlcml.xhtml2stm.result.ResultsListElement;
 import org.xmlcml.xhtml2stm.visitable.html.HtmlVisitable;
 import org.xmlcml.xhtml2stm.visitable.svg.SVGVisitable;
 import org.xmlcml.xhtml2stm.visitable.xml.XMLVisitable;
@@ -84,7 +84,7 @@ public class SequenceVisitorTest {
 		if (file.exists()) {
 			htmlVisitable.setTopDirectory(file);
 			sequenceVisitor.visit(htmlVisitable);
-			ResultsElement results = sequenceVisitor.getResultsElement();
+			ResultsListElement results = sequenceVisitor.getResultsElement();
 			XMLUtil.debug(results, new FileOutputStream("target/htmlSequenceSample.xml"), 1);
 		}
 	}
@@ -98,7 +98,7 @@ public class SequenceVisitorTest {
 		if (file.exists()) {
 			htmlVisitable.setTopDirectory(file);
 			sequenceVisitor.visit(htmlVisitable);
-			ResultsElement results = sequenceVisitor.getResultsElement();
+			ResultsListElement results = sequenceVisitor.getResultsElement();
 			XMLUtil.debug(results, new FileOutputStream("target/htmlSequenceAll.xml"), 1);
 		}
 	}
@@ -110,7 +110,7 @@ public class SequenceVisitorTest {
 		XMLVisitable xmlVisitable = new XMLVisitable();
 		xmlVisitable.addFile(Fixtures.HADROSAUR_XML);
 		sequenceVisitor.visit(xmlVisitable);
-		ResultsElement results = sequenceVisitor.getResultsElement();
+		ResultsListElement results = sequenceVisitor.getResultsElement();
 		XMLUtil.debug(results, new FileOutputStream("target/hadrosaurResults.xml"), 1);
 	}
 

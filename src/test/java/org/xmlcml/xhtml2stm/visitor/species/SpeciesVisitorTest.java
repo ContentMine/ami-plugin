@@ -6,6 +6,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 import nu.xom.Element;
+import nu.xom.Nodes;
 
 import org.apache.commons.io.FileUtils;
 import org.apache.log4j.Logger;
@@ -13,8 +14,9 @@ import org.junit.Assert;
 import org.junit.Ignore;
 import org.junit.Test;
 import org.xmlcml.xhtml2stm.Fixtures;
-import org.xmlcml.xhtml2stm.result.ResultsElement;
-import org.xmlcml.xhtml2stm.util.Util;
+import org.xmlcml.xhtml2stm.result.ResultsListElement;
+import org.xmlcml.xhtml2stm.util.AMITestUtil;
+import org.xmlcml.xhtml2stm.util.AMIUtil;
 import org.xmlcml.xhtml2stm.visitable.html.HtmlVisitable;
 import org.xmlcml.xhtml2stm.visitable.pdf.PDFVisitable;
 import org.xmlcml.xhtml2stm.visitable.svg.SVGVisitable;
@@ -36,7 +38,7 @@ public class SpeciesVisitorTest {
 		
 		AbstractVisitor speciesVisitor = new SpeciesVisitor();
 		speciesVisitor.searchContainer(htmlVisitable.getHtmlContainerList().get(0));
-		ResultsElement resultsElement = speciesVisitor.getResultsElement();
+		ResultsListElement resultsElement = speciesVisitor.getResultsElement();
 //		resultsElement.debug("results");
 	}
 
@@ -91,7 +93,7 @@ public class SpeciesVisitorTest {
 		if (file.exists()) {
 			htmlVisitable.setTopDirectory(file);
 			speciesVisitor.visit(htmlVisitable);
-			ResultsElement results = speciesVisitor.getResultsElement();
+			ResultsListElement results = speciesVisitor.getResultsElement();
 			XMLUtil.debug(results, new FileOutputStream("target/htmlSampleSpecies.xml"), 1);
 		}
 	}
@@ -104,7 +106,7 @@ public class SpeciesVisitorTest {
 		
 		AbstractVisitor speciesVisitor = new SpeciesVisitor();
 		speciesVisitor.visit(htmlVisitable);
-		ResultsElement resultsElement = speciesVisitor.getResultsElement();
+		ResultsListElement resultsElement = speciesVisitor.getResultsElement();
 //		resultsElement.debug("results");
 	}
 
@@ -129,7 +131,7 @@ public class SpeciesVisitorTest {
 		if (file.exists()) {
 			htmlVisitable.setTopDirectory(file);
 			speciesVisitor.visit(htmlVisitable);
-			ResultsElement results = speciesVisitor.getResultsElement();
+			ResultsListElement results = speciesVisitor.getResultsElement();
 			XMLUtil.debug(results, new FileOutputStream("target/htmlLargeSpecies.xml"), 1);
 		}
 	}
@@ -141,7 +143,7 @@ public class SpeciesVisitorTest {
 		XMLVisitable xmlVisitable = new XMLVisitable();
 		xmlVisitable.addFile(new File(Fixtures.SPECIES_DIR, "journal.pone.0077058.xml"));
 		speciesVisitor.visit(xmlVisitable);
-		ResultsElement results = speciesVisitor.getResultsElement();
+		ResultsListElement results = speciesVisitor.getResultsElement();
 		File outputFile = new File("target/0077058SpeciesResults.xml");
 		XMLUtil.debug(results, new FileOutputStream(outputFile), 1);
 		assertFileDetails(outputFile, /*1166*/ 1140); // depends on connections
@@ -149,13 +151,14 @@ public class SpeciesVisitorTest {
 
 	/** search one XML file and create corresponding output results.xml
 	 * 
+	 * 	// SHOWCASE
+	 * 
 	 * @throws Exception
 	 */
 	@Test
-//	@Ignore // FIXME NOW - no results
 	public void testSearchXmlFileCommand() throws Exception {
 		File inputFile = new File(Fixtures.SPECIES_DIR, "journal.pone.0077058.xml");
-		assertFileDetails(inputFile, 78013);
+		assertFileDetails(inputFile, 78013); //checks size of input
 		File outputDir = new File("target/journal.pone.0077058.xml");
 		outputDir.delete();
 		String[] args = new String[] {
@@ -165,7 +168,8 @@ public class SpeciesVisitorTest {
 		File outputFile = new File(outputDir, AbstractVisitor.RESULTS_XML);
 		LOG.debug("output: "+outputFile);
 		new SpeciesVisitor().processArgs(args);
-//		assertFileDetails(outputFile, 997); 
+		AMITestUtil.assertFileDetails(outputFile, 10832);  // fragile because of whitespace
+		AMITestUtil.assertNodeCount(outputFile, 34, "//*[local-name()='eic']");
 	}
 	
 	/** search one HTML file and create corresponding output results.xml
@@ -251,7 +255,7 @@ public class SpeciesVisitorTest {
 		String[] args = new String[] {
 				"-i", inputDir,                      // this is a directory
 				"-o", Fixtures.AMI_OUT.toString()+"/",
-				"-e", Util.XML                       // we need extensions
+				"-e", AMIUtil.XML                       // we need extensions
 		};
 		File resultsFile = new File("target/species.xml/results.xml");
 //		SpeciesVisitor.main(args);
@@ -284,7 +288,7 @@ public class SpeciesVisitorTest {
 		String[] args = new String[] {
 				"-i", inputDir,
 				"-o", new File(Fixtures.AMI_OUT,"/html/").toString(),
-				"-e", Util.HTM,	Util.HTML
+				"-e", AMIUtil.HTM,	AMIUtil.HTML
 		};
 		SpeciesVisitor.main(args);
 	}
@@ -296,7 +300,7 @@ public class SpeciesVisitorTest {
 		PDFVisitable pdfVisitable = new PDFVisitable();
 		pdfVisitable.addFile(Fixtures._329_PDF);
 		speciesVisitor.visit(pdfVisitable);
-		ResultsElement results = speciesVisitor.getResultsElement();
+		ResultsListElement results = speciesVisitor.getResultsElement();
 		XMLUtil.debug(results, new FileOutputStream("target/pdfResults.xml"), 1);
 	}
 	
@@ -307,7 +311,7 @@ public class SpeciesVisitorTest {
 		String[] args = new String[] {
 				"-i", Fixtures._329_PDF.toString(),
 				"-o", new File(Fixtures.AMI_OUT,"/pdf/").toString(),
-				"-e", Util.HTM,	Util.HTML
+				"-e", AMIUtil.HTM,	AMIUtil.HTML
 		};
 		SpeciesVisitor.main(args);
 	}
@@ -328,7 +332,7 @@ public class SpeciesVisitorTest {
 		String[] args = new String[] {
 				"-i", new File(Fixtures.XHTML2STM_DIR, "pdfsmall").toString()+"/",
 				"-o", new File(Fixtures.AMI_OUT,"/pdf/").toString(),
-				"-e", Util.PDF
+				"-e", AMIUtil.PDF
 		};
 		SpeciesVisitor.main(args);
 	}
@@ -344,7 +348,7 @@ public class SpeciesVisitorTest {
 	public void testBMCPDF() throws Exception {
 		String[] args = new String[] {
 				"-o", new File(Fixtures.AMI_OUT,"/pdf/1471-2148-13-250.xml").toString(),
-				"-e", Util.PDF
+				"-e", AMIUtil.PDF
 		};
 		SpeciesVisitor.main(args);
 	}
@@ -355,7 +359,7 @@ public class SpeciesVisitorTest {
 		String[] args = new String[] {
 				"-i", "http://www.biomedcentral.com/1471-2148/11/312",
 				"-o", new File(Fixtures.AMI_OUT,"/pdf/1471-2148-11-312.xml").toString(),
-				"-e", Util.HTML
+				"-e", AMIUtil.HTML
 		};
 		SpeciesVisitor.main(args);
 	}
@@ -366,7 +370,7 @@ public class SpeciesVisitorTest {
 		String[] args = new String[] {
 				"-i", "http://www.plosone.org/article/info%3Adoi%2F10.1371%2Fjournal.pone.0080753",
 				"-o", new File(Fixtures.AMI_OUT,"/xml/pone.0080753.xml").toString(),
-				"-e", Util.HTML
+				"-e", AMIUtil.HTML
 		};
 		SpeciesVisitor.main(args);
 	}
@@ -377,7 +381,7 @@ public class SpeciesVisitorTest {
 		String[] args = new String[] {
 				"-i", "src/test/resources/org/xmlcml/xhtml2stm/plosone/xml",
 				"-o", "target/plosone/species/",
-				"-e", Util.XML
+				"-e", AMIUtil.XML
 		};
 		SpeciesVisitor.main(args);
 		//File targetPlosoneSpecies = new File("target/plosone/species");
@@ -395,17 +399,32 @@ public class SpeciesVisitorTest {
 		String[] args = new String[] {
 				"-i", "src/test/resources/org/xmlcml/xhtml2stm/plosone/2013-12-11/xml/",
 				//"-o", "../extracted/plosone/species/2013-12-11/",
-				"-e", Util.XML
+				"-e", AMIUtil.XML
 		};
 		SpeciesVisitor.main(args);
 	}
 	
 	// ================================================
-	private static void assertFileDetails(File outputFile, int size0) {
+	/** checks file size in bytes .
+	 * 
+	 * fragile because of XML whitespace.
+	 * 
+	 * @param outputFile
+	 * @param size0
+	 */
+	private static void assertFileDetails(File outputFile, int size) {
 		LOG.debug("file: "+outputFile);
 		Assert.assertTrue("file should exist", outputFile.exists());
-		long size = FileUtils.sizeOf(outputFile);
-		Assert.assertEquals("size: "+size, size0, size);
+		long fileSize = FileUtils.sizeOf(outputFile);
+		Assert.assertEquals("size: "+size, size, fileSize);
+	}
+
+	private static void assertNodeCount(File outputFile, int count, String xpath) {
+		LOG.debug("file: "+outputFile);
+		Assert.assertTrue("file should exist", outputFile.exists());
+		Nodes nodes = XMLUtil.parseQuietlyToDocument(outputFile).query(xpath);
+		int nodeCount = nodes.size();
+		Assert.assertEquals("count: "+nodeCount, count, nodeCount);
 	}
 
 

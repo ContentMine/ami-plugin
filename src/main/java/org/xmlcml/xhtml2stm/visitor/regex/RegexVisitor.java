@@ -10,7 +10,7 @@ import java.util.Map;
 import nu.xom.Element;
 
 import org.apache.log4j.Logger;
-import org.xmlcml.xhtml2stm.result.ResultsElement;
+import org.xmlcml.xhtml2stm.result.ResultsListElement;
 import org.xmlcml.xhtml2stm.visitable.html.HtmlContainer;
 import org.xmlcml.xhtml2stm.visitable.html.HtmlVisitable;
 import org.xmlcml.xhtml2stm.visitable.xml.XMLContainer;

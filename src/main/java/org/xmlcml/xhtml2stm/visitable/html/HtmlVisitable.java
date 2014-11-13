@@ -8,14 +8,14 @@ import java.util.List;
 import org.apache.log4j.Logger;
 import org.xmlcml.html.HtmlElement;
 import org.xmlcml.html.util.HtmlUtil;
-import org.xmlcml.xhtml2stm.util.Util;
+import org.xmlcml.xhtml2stm.util.AMIUtil;
 import org.xmlcml.xhtml2stm.visitable.AbstractVisitable;
 
 public class HtmlVisitable extends AbstractVisitable  {
 
 	private final static Logger LOG = Logger.getLogger(HtmlVisitable.class);
 
-	private static final String[] extensions = {Util.HTM, Util.HTML};
+	private static final String[] extensions = {AMIUtil.HTM, AMIUtil.HTML};
 	public static final String ITALIC_XPATH = ".//*[local-name()='i']";
 	
 	private List<HtmlContainer> htmlContainerList;

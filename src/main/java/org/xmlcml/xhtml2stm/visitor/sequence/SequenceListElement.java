@@ -4,8 +4,8 @@ import org.apache.log4j.Logger;
 import org.xmlcml.xhtml2stm.Type;
 import org.xmlcml.xhtml2stm.result.AbstractListElement;
 import org.xmlcml.xhtml2stm.result.AbstractResultElement;
-import org.xmlcml.xhtml2stm.result.ResultList;
-import org.xmlcml.xhtml2stm.result.SimpleResult;
+import org.xmlcml.xhtml2stm.result.SimpleResultList;
+import org.xmlcml.xhtml2stm.result.SimpleResultWrapper;
 
 import com.google.common.collect.Multiset.Entry;
 
@@ -19,14 +19,13 @@ public class SequenceListElement extends AbstractListElement {
 		super(TAG);
 	}
 	
-	public SequenceListElement(Type type, ResultList resultSet) {
+	public SequenceListElement(Type type, SimpleResultList resultSet) {
 		this();
 		this.addResultList(resultSet, type);
 	}
 
-
 	@Override
-	protected AbstractResultElement createElement(SimpleResult resultElement) {
+	protected AbstractResultElement createElement(SimpleResultWrapper resultElement) {
 		return new SequenceResultElement(resultElement);
 	}
 	

@@ -3,8 +3,6 @@ package org.xmlcml.xhtml2stm.result;
 import org.apache.log4j.Logger;
 import org.xmlcml.xhtml2stm.Type;
 
-import com.google.common.collect.Multiset.Entry;
-
 public abstract class AbstractListElement extends AbstractXHTML2STMElement {
 
 	private final static Logger LOG = Logger.getLogger(AbstractListElement.class);
@@ -13,8 +11,8 @@ public abstract class AbstractListElement extends AbstractXHTML2STMElement {
 		super(tag);
 	}
 	
-	public void addResultList(ResultList resultList, Type type) {
-		for (SimpleResult result : resultList) {
+	public void addResultList(SimpleResultList resultList, Type type) {
+		for (SimpleResultWrapper result : resultList) {
 			AbstractResultElement resultElement = this.createElement(result);
 			resultElement.setType(type);
 			this.appendChild(resultElement);
@@ -26,6 +24,6 @@ public abstract class AbstractListElement extends AbstractXHTML2STMElement {
 	 * @param entry
 	 * @return
 	 */
-	protected abstract AbstractResultElement createElement(SimpleResult simpleResult);
+	protected abstract AbstractResultElement createElement(SimpleResultWrapper simpleResult);
 
 }

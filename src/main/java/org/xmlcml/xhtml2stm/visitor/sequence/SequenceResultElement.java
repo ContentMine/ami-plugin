@@ -2,7 +2,7 @@ package org.xmlcml.xhtml2stm.visitor.sequence;
 
 import org.apache.log4j.Logger;
 import org.xmlcml.xhtml2stm.result.AbstractResultElement;
-import org.xmlcml.xhtml2stm.result.SimpleResult;
+import org.xmlcml.xhtml2stm.result.SimpleResultWrapper;
 
 import com.google.common.collect.Multiset.Entry;
 
@@ -23,12 +23,12 @@ public class SequenceResultElement extends AbstractResultElement {
 		appendChild(value);
 	}
 	
-	public SequenceResultElement(SimpleResult simpleResult) {
+	public SequenceResultElement(SimpleResultWrapper simpleResult) {
 		this();
-		addEntry(simpleResult);
+		addSimpleResultAsXML(simpleResult);
 	}
 
-	protected SequenceResultElement createElement(SimpleResult simpleResult) {
+	protected SequenceResultElement createElement(SimpleResultWrapper simpleResult) {
 		return new SequenceResultElement(simpleResult);
 	}
 

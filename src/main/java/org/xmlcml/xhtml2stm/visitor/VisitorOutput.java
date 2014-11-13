@@ -4,7 +4,7 @@ import java.io.File;
 
 import org.apache.commons.io.FilenameUtils;
 import org.apache.log4j.Logger;
-import org.xmlcml.xhtml2stm.util.Util;
+import org.xmlcml.xhtml2stm.util.AMIUtil;
 import org.xmlcml.xhtml2stm.visitable.VisitableInput;
 
 /** manages the output.
@@ -60,10 +60,10 @@ public class VisitorOutput {
 	}
 	
 	private void generateOutputDirectoryName() {
-		if (outputLocation.startsWith(Util.HTTP)) {
+		if (outputLocation.startsWith(AMIUtil.HTTP)) {
 			throw new RuntimeException("Cannot output to URL: "+outputLocation);
 		}
-		if (outputLocation.startsWith(Util.DOI)) {
+		if (outputLocation.startsWith(AMIUtil.DOI)) {
 			throw new RuntimeException("Cannot output to DOI: "+outputLocation);
 		}
 		if (outputLocation == null) {
@@ -71,7 +71,7 @@ public class VisitorOutput {
 		} else {
 			outputLocation = FilenameUtils.normalize(new File(outputLocation).getAbsolutePath());
 			extension = FilenameUtils.getExtension(outputLocation);
-			isDirectory = Util.endsWithSeparator(outputLocation) || extension == null || extension.equals("");
+			isDirectory = AMIUtil.endsWithSeparator(outputLocation) || extension == null || extension.equals("");
 			outputDirectory = new File(outputLocation);
 		}
 	}

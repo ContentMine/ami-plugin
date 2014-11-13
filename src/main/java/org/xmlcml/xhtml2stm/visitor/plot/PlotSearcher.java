@@ -18,7 +18,7 @@ import org.xmlcml.graphics.svg.SVGLine;
 import org.xmlcml.graphics.svg.SVGPolyline;
 import org.xmlcml.graphics.svg.SVGSVG;
 import org.xmlcml.xhtml2stm.result.AbstractListElement;
-import org.xmlcml.xhtml2stm.result.ResultList;
+import org.xmlcml.xhtml2stm.result.SimpleResultList;
 import org.xmlcml.xhtml2stm.visitable.SourceElement;
 import org.xmlcml.xhtml2stm.visitable.html.HtmlContainer;
 import org.xmlcml.xhtml2stm.visitable.svg.SVGContainer;
@@ -39,7 +39,7 @@ public class PlotSearcher extends AbstractSearcher {
 	}
 
 	@Override
-	protected AbstractListElement createListElement(ResultList resultList) {
+	protected AbstractListElement createListElement(SimpleResultList resultList) {
 		// maybe change later
 		AbstractListElement listElement = new SimpleListElement(resultList);
 		return listElement;

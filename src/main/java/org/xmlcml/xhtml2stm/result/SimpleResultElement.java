@@ -12,7 +12,7 @@ public class SimpleResultElement extends AbstractResultElement {
 	/** returns null.
 	 * 
 	 */
-	protected AbstractResultElement createElement(SimpleResult simpleResult) {
+	protected AbstractResultElement createElement(SimpleResultWrapper simpleResult) {
 		return null;
 	}
 

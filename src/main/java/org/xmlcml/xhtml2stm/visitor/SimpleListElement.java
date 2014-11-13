@@ -4,8 +4,8 @@ import org.apache.log4j.Logger;
 
 import org.xmlcml.xhtml2stm.result.AbstractListElement;
 import org.xmlcml.xhtml2stm.result.AbstractResultElement;
-import org.xmlcml.xhtml2stm.result.ResultList;
-import org.xmlcml.xhtml2stm.result.SimpleResult;
+import org.xmlcml.xhtml2stm.result.SimpleResultList;
+import org.xmlcml.xhtml2stm.result.SimpleResultWrapper;
 
 import com.google.common.collect.Multiset.Entry;
 
@@ -19,17 +19,17 @@ public class SimpleListElement extends AbstractListElement {
 		super(TAG);
 	}
 
-	public SimpleListElement(ResultList resultList) {
+	public SimpleListElement(SimpleResultList resultList) {
 		this();
-		for (SimpleResult result : resultList) {
-			this.appendChild(new SimpleResultElement(result));
+		for (SimpleResultWrapper result : resultList) {
+			this.appendChild(new VisitorSimpleResultElement(result));
 		}
 	}
 
 
 	@Override
-	protected AbstractResultElement createElement(SimpleResult simpleResult) {
-		return new SimpleResultElement(simpleResult);
+	protected AbstractResultElement createElement(SimpleResultWrapper simpleResult) {
+		return new VisitorSimpleResultElement(simpleResult);
 	}
 	
 	

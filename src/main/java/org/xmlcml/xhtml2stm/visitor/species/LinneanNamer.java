@@ -5,8 +5,8 @@ import java.util.Collection;
 import java.util.List;
 
 import org.apache.log4j.Logger;
-import org.xmlcml.xhtml2stm.result.ResultList;
-import org.xmlcml.xhtml2stm.result.SimpleResult;
+import org.xmlcml.xhtml2stm.result.SimpleResultList;
+import org.xmlcml.xhtml2stm.result.SimpleResultWrapper;
 
 import com.google.common.collect.ArrayListMultimap;
 import com.google.common.collect.HashMultimap;
@@ -23,7 +23,7 @@ public class LinneanNamer {
 
 	private final static Logger LOG = Logger.getLogger(LinneanNamer.class);
 
-	private ResultList resultList; // input
+	private SimpleResultList resultList; // input
 	private Multimap<String, LinneanName> linneanNameByAbbreviationMap;
 	private Multimap<String, LinneanName> linneanNameBySpeciesMap;
 	private Multiset<LinneanName> linneanNameSet;
@@ -32,7 +32,7 @@ public class LinneanNamer {
 		
 	}
 	
-	public LinneanName createBinomial(SimpleResult element) {
+	public LinneanName createBinomial(SimpleResultWrapper element) {
 		String string = element == null ? null : element.toString();
 		return createBinomial(string);
 	}
@@ -56,7 +56,7 @@ public class LinneanNamer {
 		return binomial;
 	}
 
-	void createAbbreviationExpandedBinomialSet(ResultList resultList) {
+	void createAbbreviationExpandedBinomialSet(SimpleResultList resultList) {
 		this.resultList = resultList;
 		getOrCreateLinneanNameBySpeciesMap();
 		getOrCreateLinneanNameByAbbreviationMap();
@@ -70,7 +70,7 @@ public class LinneanNamer {
 	private void getOrCreateLinneanNameSetIncludingAbbreviationExpansion() {
 		if (linneanNameSet == null) {
 			linneanNameSet = HashMultiset.create();
-			for (SimpleResult result : resultList) {
+			for (SimpleResultWrapper result : resultList) {
 				String keyword = result.getKeyword();
 				LinneanName binomial = this.createBinomial(keyword);
 				if (binomial == null) {

@@ -2,7 +2,7 @@ package org.xmlcml.xhtml2stm.visitor.species;
 
 import org.apache.log4j.Logger;
 import org.xmlcml.xhtml2stm.result.AbstractResultElement;
-import org.xmlcml.xhtml2stm.result.SimpleResult;
+import org.xmlcml.xhtml2stm.result.SimpleResultWrapper;
 
 import com.google.common.collect.Multiset.Entry;
 
@@ -24,13 +24,13 @@ public class SpeciesResultElement extends AbstractResultElement {
 		this.appendChild(value);
 	}
 
-	public SpeciesResultElement(SimpleResult simpleResult) {
+	public SpeciesResultElement(SimpleResultWrapper simpleResult) {
 		this();
-		addEntry(simpleResult);
+		addSimpleResultAsXML(simpleResult);
 	}
 
 	@Override
-	protected AbstractResultElement createElement(SimpleResult simpleResult) {
+	protected AbstractResultElement createElement(SimpleResultWrapper simpleResult) {
 		return new SpeciesResultElement(simpleResult);
 	}
 

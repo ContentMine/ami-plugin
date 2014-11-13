@@ -1,10 +1,11 @@
 package org.xmlcml.xhtml2stm.visitor.regex;
 
-import java.util.HashMap;
-import java.util.Map;
+import java.util.ArrayList;
+import java.util.List;
 
 import org.apache.log4j.Logger;
 import org.xmlcml.euclid.Real;
+import org.xmlcml.xhtml2stm.result.SimpleResultWrapper;
 
 /** captures results of regex search.
  * 
@@ -13,41 +14,50 @@ import org.xmlcml.euclid.Real;
  * @author pm286
  *
  */
+@Deprecated // use a list of RegexResult's
 public class RegexResults {
 
 	private final static Logger LOG = Logger.getLogger(RegexResults.class);
-	private HashMap<RegexComponent, Integer> countMap;
+	private List<RegexComponent> regexComponentList;
 
+	public RegexResults() {
+		
+	}
 	
-	void put(RegexComponent regexComponent, int count) {
-		ensureCountMap();
-		countMap.put(regexComponent, count);
+	void add(RegexComponent regexComponent, MatcherResult matcherResult) {
+		ensureComponentList();
+		regexComponentList.add(regexComponent);
 	}
 
-	private void ensureCountMap() {
-		if (countMap == null) {
-			countMap = new HashMap<RegexComponent, Integer>();
+	private void ensureComponentList() {
+		if (regexComponentList == null) {
+			regexComponentList = new ArrayList<RegexComponent>();
 		}
 	}
 
-	protected Map<RegexComponent, Integer> getCountMap() {
-		ensureCountMap();
-		return countMap;
+	protected List<RegexComponent> getComponentList() {
+		ensureComponentList();
+		return regexComponentList;
 	}
 
 	public void debug() {
 		Double weightedCount = 0.0;
 		LOG.trace("results");
-		for (RegexComponent regexComponent : countMap.keySet()) {
-			Integer count = countMap.get(regexComponent);
-			if (count > 0) {
-				LOG.trace(regexComponent+": "+count);
-				weightedCount += ((double) count) * regexComponent.getWeight(); 
-			}
+		for (RegexComponent regexComponent : regexComponentList) {
+			weightedCount += regexComponent.getWeight(); 
 		}
 		if (weightedCount > 0.001) {
 			LOG.trace("weight: "+Real.normalize(weightedCount, 2));
 		}
+	}
+
+	public SimpleResultWrapper getSimpleResult() {
+		SimpleResultWrapper simpleResult = new SimpleResultWrapper();
+		for (RegexComponent regexComponent : regexComponentList) {
+			simpleResult.setResultString(regexComponent.toString());
+		}
+		LOG.debug("simpleResult: "+simpleResult);
+		return simpleResult;
 	}
 
 }

@@ -5,7 +5,7 @@ import java.util.regex.Pattern;
 
 import org.apache.log4j.Logger;
 import org.xmlcml.xhtml2stm.Type;
-import org.xmlcml.xhtml2stm.result.ResultList;
+import org.xmlcml.xhtml2stm.result.SimpleResultList;
 import org.xmlcml.xhtml2stm.visitable.SourceElement;
 import org.xmlcml.xhtml2stm.visitable.html.HtmlContainer;
 import org.xmlcml.xhtml2stm.visitable.xml.XMLContainer;
@@ -79,7 +79,7 @@ public class SequenceSearcher extends AbstractSearcher {
 	}
 
 	@Override
-	protected SequenceListElement createListElement(ResultList resultSet) {
+	protected SequenceListElement createListElement(SimpleResultList resultSet) {
 		return new SequenceListElement(sequenceType, resultSet);
 	}
 	

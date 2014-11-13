@@ -2,7 +2,8 @@ package org.xmlcml.xhtml2stm.visitor.chem;
 
 import org.junit.Ignore;
 import org.junit.Test;
-import org.xmlcml.xhtml2stm.util.Util;
+import org.xmlcml.xhtml2stm.util.AMITestUtil;
+import org.xmlcml.xhtml2stm.util.AMIUtil;
 import org.xmlcml.xhtml2stm.visitor.species.SpeciesVisitor;
 
 public class SuppdataTest {
@@ -14,7 +15,7 @@ public class SuppdataTest {
 		String[] args = new String[] {
 				"-i", "src/test/resources/org/xmlcml/xhtml2stm/pdf/spect.pdf",
 				"-o", "target/spect/",
-				"-e", Util.XML
+				"-e", AMIUtil.XML
 		};
 		SpeciesVisitor.main(args);
 	}
@@ -26,7 +27,7 @@ public class SuppdataTest {
 		String[] args = new String[] {
 				"-i", "src/test/resources/org/xmlcml/xhtml2stm/pdf/acs1.pdf",
 				"-o", "target/spect/",
-				"-e", Util.XML
+				"-e", AMIUtil.XML
 		};
 		SpeciesVisitor.main(args);
 	}
@@ -37,7 +38,7 @@ public class SuppdataTest {
 		String[] args = new String[] {
 				"-i", "src/test/resources/org/xmlcml/xhtml2stm/pdf/suspect_ol2015972_si_002.pdf",
 				"-o", "target/spect/",
-				"-e", Util.XML
+				"-e", AMIUtil.XML
 		};
 		SpeciesVisitor.main(args);
 	}

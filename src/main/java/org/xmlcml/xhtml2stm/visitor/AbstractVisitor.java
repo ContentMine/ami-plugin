@@ -5,11 +5,12 @@ import java.io.IOException;
 import java.util.List;
 import java.util.ListIterator;
 
+import nu.xom.Element;
+
 import org.apache.commons.io.FileUtils;
 import org.apache.log4j.Logger;
-import org.xmlcml.svg2xml.container.AbstractContainer;
-import org.xmlcml.xhtml2stm.result.ResultList;
-import org.xmlcml.xhtml2stm.result.ResultsElement;
+import org.xmlcml.xhtml2stm.result.ResultsListElement;
+import org.xmlcml.xhtml2stm.result.SimpleResultList;
 import org.xmlcml.xhtml2stm.visitable.AbstractVisitable;
 import org.xmlcml.xhtml2stm.visitable.SourceElement;
 import org.xmlcml.xhtml2stm.visitable.VisitableContainer;
@@ -42,7 +43,7 @@ public abstract class AbstractVisitor {
 	private static final String XML = "xml";
 	private static final String HTM = "htm";
 
-	protected ResultsElement resultsElement;
+	protected ResultsListElement resultsElement;
 	protected SourceElement sourceElement;
 	private VisitableInput visitableInput;
 	private VisitorOutput visitorOutput;
@@ -90,7 +91,11 @@ public abstract class AbstractVisitor {
 		AbstractSearcher searcher = createSearcher();
 		searcher.search(container);
 		ensureResultsElement();
-		resultsElement.appendChild(searcher.getResultsElement());
+		SimpleResultList resultsList = searcher.getResultsList();
+		if (resultsList != null) {
+			Element element = resultsList.createElement();
+			resultsElement.appendChild(element);
+		}
 	}
 
 	/**
@@ -316,7 +321,7 @@ public abstract class AbstractVisitor {
 		ensureResultsElement();
 		SourceElement sourceElement = new SourceElement(container);
 //		resultsElement.appendChild(sourceElement); // need to capture metadata somehow
-		ResultList resultList = searcher.searchXPathPatternAndCollectResults(sourceElement);
+		SimpleResultList resultList = searcher.searchXPathPatternAndCollectResults(sourceElement);
 		resultsElement.appendChild(searcher.createListElement(resultList));
 	}
 
@@ -357,11 +362,11 @@ public abstract class AbstractVisitor {
 	
 	protected void ensureResultsElement() {
 		if (resultsElement == null) {
-			resultsElement = new ResultsElement();
+			resultsElement = new ResultsListElement();
 		}
 	}
 
-	public ResultsElement getResultsElement() {
+	public ResultsListElement getResultsElement() {
 		ensureResultsElement();
 		return resultsElement;
 	}

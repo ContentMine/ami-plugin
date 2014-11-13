@@ -3,4 +3,6 @@
 	   title="genbank">\W(([A-Z]{2}\d{6})|([A-Z]\d{5}))\W</regex>
 	<regex weight="1.0" fields="lion" case="required"
 	   title="lion">\W(Panthera)\W</regex>
+	<regex weight="1.0" fields="abbrev value" case="required"
+	   title="abbrev">\W([^:]*):([^;]*);</regex>
 </compoundRegex>

@@ -3,6 +3,9 @@ package org.xmlcml.xhtml2stm.visitor.regex;
 import java.io.File;
 import java.util.List;
 
+import nu.xom.Element;
+
+import org.apache.commons.io.FileUtils;
 import org.apache.log4j.Logger;
 import org.junit.Assert;
 import org.junit.Ignore;
@@ -11,6 +14,7 @@ import org.xmlcml.xhtml2stm.Fixtures;
 import org.xmlcml.xhtml2stm.visitable.html.HtmlVisitable;
 import org.xmlcml.xhtml2stm.visitor.AbstractVisitor;
 import org.xmlcml.xhtml2stm.visitor.VisitorOutput;
+import org.xmlcml.xml.XMLUtil;
 
 public class RegexVisitorTest {
 	
@@ -138,33 +142,47 @@ public class RegexVisitorTest {
 	}
 	
 	@Test
-	@Ignore // FIXME QUICK
 	/** runs Genbank regex over single paper.
 	 * 
 	 * @throws Exception
 	 */
 	public void testCommandRegexGenbank0() throws Exception {
+		File output = new File("target/regex/genbank0/results.xml");
 		String[] args = new String[] {
 				"-i", "src/test/resources/org/xmlcml/xhtml2stm/regex/genbank0.xml",
-				"-o", new File("target/junk/").toString(),
+				"-o", output.toString(),
 				"-g", "regex/genbank.xml",
 		};
 		RegexVisitor.main(args);
+//		Assert.assertTrue(output.exists());
 	}
 	
 	@Test
-	@Ignore // FIXME QUICK
 	/** runs Genbank regex over single paper.
 	 * 
+	 * SHOWCASE example
+	 * 
+	 * // FIXME output filename is wrong
 	 * @throws Exception
 	 */
 	public void testCommandRegexGenbank() throws Exception {
+		File outputDir = new File("target/junk.xml");
+		File outputFile = new File(new File(outputDir.getParentFile(), "1471-2148-14-70.xml"), AbstractVisitor.RESULTS_XML);
+		FileUtils.deleteQuietly(outputFile);
+		Assert.assertFalse("should have deleted "+outputFile, outputFile.exists());
 		String[] args = new String[] {
 				"-i", "./docs/regex/1471-2148-14-70.xml",
-				"-o", new File("target/junk/").toString(),
-				"-g", "regex/genbank.xml",
+				"-o", outputDir.toString(),
+				"-g", "regex/general.xml",
 		};
 		RegexVisitor.main(args);
+		Assert.assertTrue("should have created: "+outputFile, outputFile.exists());
+		Element element = XMLUtil.parseQuietlyToDocument(outputFile).getRootElement();
+		XMLUtil.debug(element);
+		LOG.debug(outputFile);
+		List<Element> resultList = XMLUtil.getQueryElements(element, 
+				"/*[local-name()='results']/*[local-name()='results']/*[local-name()='result']");
+		Assert.assertEquals(0, resultList.size());
 	}
 	
 	// ============================

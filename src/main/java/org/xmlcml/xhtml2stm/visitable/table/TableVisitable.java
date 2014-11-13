@@ -6,7 +6,7 @@ import java.util.List;
 
 import org.xmlcml.html.HtmlTable;
 import org.xmlcml.svg2xml.page.PageAnalyzer;
-import org.xmlcml.xhtml2stm.util.Util;
+import org.xmlcml.xhtml2stm.util.AMIUtil;
 import org.xmlcml.xhtml2stm.visitable.AbstractVisitable;
 
 public class TableVisitable extends AbstractVisitable {
@@ -19,7 +19,7 @@ public class TableVisitable extends AbstractVisitable {
 
 	@Override
 	public String[] getExtensions() {
-		return new String[] {Util.HTM, Util.HTML};
+		return new String[] {AMIUtil.HTM, AMIUtil.HTML};
 	}
 	
 	@Override

@@ -6,7 +6,7 @@ import java.util.List;
 import java.util.ListIterator;
 
 import org.apache.log4j.Logger;
-import org.xmlcml.xhtml2stm.util.Util;
+import org.xmlcml.xhtml2stm.util.AMIUtil;
 import org.xmlcml.xhtml2stm.visitable.VisitableInput;
 
 /** 
@@ -28,7 +28,7 @@ public class ArgProcessor {
 	private static final String EXTENSIONS = "--extensions";
 	private static final String X          = "-x";
 	private static final String XPATH      = "--xpath";
-	private static final String[] DEFAULT_EXTENSIONS = {Util.HTM};
+	private static final String[] DEFAULT_EXTENSIONS = {AMIUtil.HTM};
 	
 	public static final String MINUS = "-";
 	

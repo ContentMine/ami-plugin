@@ -1,7 +1,7 @@
 package org.xmlcml.xhtml2stm.visitor.metadata;
 
 import org.xmlcml.xhtml2stm.result.AbstractListElement;
-import org.xmlcml.xhtml2stm.result.ResultList;
+import org.xmlcml.xhtml2stm.result.SimpleResultList;
 import org.xmlcml.xhtml2stm.visitable.html.HtmlVisitable;
 import org.xmlcml.xhtml2stm.visitable.image.ImageVisitable;
 import org.xmlcml.xhtml2stm.visitor.AbstractSearcher;
@@ -23,7 +23,7 @@ public class MetadataSearcher extends AbstractSearcher {
 	}
 	
 	@Override
-	protected AbstractListElement createListElement(ResultList resultList) {
+	protected AbstractListElement createListElement(SimpleResultList resultList) {
 		AbstractListElement listElement = new MetadataListElement(resultList);
 		return listElement;
 	}

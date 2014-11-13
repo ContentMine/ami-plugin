@@ -1,7 +1,7 @@
 package org.xmlcml.xhtml2stm.visitor;
 
 import org.xmlcml.xhtml2stm.result.AbstractListElement;
-import org.xmlcml.xhtml2stm.result.ResultList;
+import org.xmlcml.xhtml2stm.result.SimpleResultList;
 
 public class SimpleSearcher extends AbstractSearcher {
 
@@ -10,7 +10,7 @@ public class SimpleSearcher extends AbstractSearcher {
 	}
 
 	@Override
-	protected AbstractListElement createListElement(ResultList resultList) {
+	protected AbstractListElement createListElement(SimpleResultList resultList) {
 		AbstractListElement listElement = new SimpleListElement(resultList);
 		return listElement;
 	}
