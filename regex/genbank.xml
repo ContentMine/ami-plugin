@@ -1,0 +1,4 @@
+<compoundRegex title="regex">
+	<regex weight="1.0" url="http://contentmine.org/genbank" fields="genbank" case="required"
+	   title="genbank">\W([A-Z]{2}\d{6})[^0-9]\W</regex>
+</compoundRegex>

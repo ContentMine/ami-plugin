@@ -159,7 +159,6 @@ public class SpeciesVisitorTest {
 	@Test
 	public void testSearchXmlFileCommand() throws Exception {
 		File inputFile = new File(Fixtures.SPECIES_DIR, "journal.pone.0077058.xml");
-//		assertFileDetails(inputFile, 78013); //checks size of input
 		File outputDir = new File("target/journal.pone.0077058.xml");
 		outputDir.delete();
 		String[] args = new String[] {
@@ -170,7 +169,6 @@ public class SpeciesVisitorTest {
 		LOG.debug("output "+outputFile.getAbsolutePath());
 		LOG.debug("output: "+outputFile);
 		new SpeciesVisitor().processArgs(args);
-//		AMITestUtil.assertFileDetails(outputFile, 10832);  // fragile because of whitespace
 		AMITestUtil.assertNodeCount(outputFile, 42, "//*[local-name()='eic']");
 	}
 	

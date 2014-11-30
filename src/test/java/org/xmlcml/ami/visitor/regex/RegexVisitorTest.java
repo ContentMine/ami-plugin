@@ -176,7 +176,7 @@ public class RegexVisitorTest {
 		String[] args = new String[] {
 				"-i", "./docs/regex/1471-2148-14-70.xml",
 				"-o", outputDir.toString(),
-				"-g", "regex/general.xml",
+				"-g", "regex/genbank.xml",
 		};
 		RegexVisitor.main(args);
 		Assert.assertTrue("should have created: "+outputFile, outputFile.exists());
@@ -208,9 +208,6 @@ public class RegexVisitorTest {
 		Element element = XMLUtil.parseQuietlyToDocument(outputFile).getRootElement();
 		XMLUtil.debug(element);
 		LOG.debug(outputFile);
-//		List<Element> resultList = XMLUtil.getQueryElements(element, 
-//				"/*[local-name()='results']/*[local-name()='results']/*[local-name()='result']");
-//		Assert.assertEquals(0, resultList.size());
 	}
 	
 	@Test

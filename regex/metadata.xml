@@ -1,0 +1,4 @@
+<compoundRegex title="metadata">
+	<regex weight="1.0" url="http://contentmine.org/metadata" fields="doi" 
+	   title="doi">.*10\.1371/journal\.pone\.(\d{7}).*</regex>
+</compoundRegex>
