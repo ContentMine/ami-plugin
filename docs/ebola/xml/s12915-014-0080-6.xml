@@ -1,0 +1,819 @@
+<?xml version='1.0'?>
+<art>
+    <ui>s12915-014-0080-6</ui>
+    <ji>1741-7007</ji>
+    <fm>
+       <dochead>Opinion</dochead>
+       <bibl>
+          <title>
+             <p>Ebolavirus in West Africa, and the use of experimental therapies or vaccines</p>
+          </title>
+          <aug>
+             <au id="A1">
+                <snm>Hoenen</snm>
+                <fnm>Thomas</fnm>
+                <insr iid="I1"/>
+                <email>thomas.hoenen@nih.gov</email>
+             </au>
+             <au ca="yes" id="A2">
+                <snm>Feldmann</snm>
+                <fnm>Heinz</fnm>
+                <insr iid="I1"/>
+                <email>feldmannh@niaid.nih.gov</email>
+             </au>
+          </aug>
+          <insg>
+             <ins id="I1">
+                <p>Laboratory of Virology, Division of Intramural Research, NIAID, NIH, 903 S 4th St, Hamilton 59840, MT, USA</p>
+             </ins>
+          </insg>
+          <source>BMC Biology</source>
+          <issn>1741-7007</issn>
+          <pubdate>2014</pubdate>
+          <volume>12</volume>
+          <issue>1</issue>
+          <fpage>80</fpage>
+          <url>http://www.biomedcentral.com/1741-7007/12/80</url>
+          <xrefbib>
+             <pubidlist>
+                <pubid idtype="doi">10.1186/s12915-014-0080-6</pubid>
+                <pubid idtype="pmpid">25286348</pubid>
+             </pubidlist>
+          </xrefbib>
+       </bibl>
+       <history>
+          <rec>
+             <date>
+                <day>26</day>
+                <month>8</month>
+                <year>2014</year>
+             </date>
+          </rec>
+          <acc>
+             <date>
+                <day>19</day>
+                <month>9</month>
+                <year>2014</year>
+             </date>
+          </acc>
+          <pub>
+             <date>
+                <day>26</day>
+                <month>9</month>
+                <year>2014</year>
+             </date>
+          </pub>
+       </history>
+       <cpyrt>
+          <year>2014</year>
+          <collab>Hoenen and Feldmann; licensee BioMed Central Ltd.</collab>
+          <note>This is an Open Access article distributed under the terms of the Creative Commons Attribution License (<url>http://creativecommons.org/licenses/by/4.0</url>), which permits unrestricted use, distribution, and reproduction in any medium, provided the original work is properly credited. The Creative Commons Public Domain Dedication waiver (<url>http://creativecommons.org/publicdomain/zero/1.0/</url>) applies to the data made available in this article, unless otherwise stated.</note>
+       </cpyrt>
+       <abs>
+          <sec>
+             <st>
+                <p>Abstract</p>
+             </st>
+             <p>Response to the current ebolavirus outbreak based on traditional control measures has so far been insufficient to prevent the virus from spreading rapidly. This has led to urgent discussions on the use of experimental therapies and vaccines untested in humans and existing in limited quantities, raising political, strategic, technical and ethical questions.</p>
+          </sec>
+       </abs>
+    </fm>
+    <bdy>
+       <sec>
+          <st>
+             <p>1 Ebolavirus outbreaks and disease</p>
+          </st>
+          <p>The ongoing outbreak in West Africa of ebolavirus hemorrhagic fever (EHF) <abbrgrp>
+                <abbr bid="B1">1</abbr>
+             </abbrgrp>, lately also referred to as Ebola virus disease (EVD), has led to a surge in public interest and concern regarding this virus, which was first discovered in 1976 during simultaneous outbreaks in Zaire (now the Democratic Republic of the Congo) and Sudan <abbrgrp>
+                <abbr bid="B2">2</abbr>
+             </abbrgrp>. Humans initially contract the virus either through contact with the infected reservoir, which is thought to be fruit bats, or by hunting and butchering of infected wildlife, particularly great apes. Since their discovery, ebolaviruses have caused frequent outbreaks almost exclusively in Central Africa. However, the recent emergence of <it>Zaire ebolavirus</it> in West Africa, resulting in what is the largest outbreak to date (Figure&#160;<figr fid="F1">1</figr>), with 4,390 cases and 2,226 deaths as of 7 September 2014, shows that ebolaviruses are more widely distributed than previously thought. While EHF is commonly associated with high case fatality rates (up to 90% for <it>Zaire ebolavirus</it>, approximately 50% for <it>Sudan ebolavirus</it>, and approximately 35% for <it>Bundibugyo ebolavirus</it>), the pathogenicity of <it>Ta&#239; Forest ebolavirus</it>, which was discovered in the mid-1990s in Ivory Coast, is unknown because only a single case has been reported, and <it>Reston ebolavirus</it>, which is found in the Philippines, is considered apathogenic for humans. Outbreaks are usually driven by human-to-human transmission as a result of direct contact with live or deceased patients and their body fluids, mainly during patient management and care, and participation in traditional local burial practices. Basic hygiene measures and barrier nursing techniques are usually sufficient to disrupt ebolavirus transmission and spread in the community. Nevertheless, because of its high case fatality rate and the absence of licensed vaccines or treatments, this virus is considered of the highest biosafety concern, restricting work on infectious virus to a few maximum containment laboratories worldwide. Despite the restricted and highly regulated handling of the pathogen, there have been considerable scientific achievements over the past years; however, many challenges remain in the public health sector in relation to identifying and managing cases and interrupting virus spread.</p>
+          
+             <fig id="F1">
+                <title>
+                   <p>Figure 1</p>
+                </title>
+                <caption>
+                   <p>Map of the West African ebolavirus outbreak as of 7 September 2014.</p>
+                </caption>
+                <text>
+                   <p>
+                      <b>Map of the West African ebolavirus outbreak as of 7 September 2014.</b> Country and province borders according to the CIA World Factbook are indicated as black or grey lines, respectively. Provinces with no new cases in the 21&#160;days prior to 7<sup>th</sup> September 2014 (according to the WHO situation report from 12<sup>th</sup> September 2014) are highlighted in yellow, provinces with new cases in the 21&#160;days prior to 7<sup>th</sup> September in orange, and provinces showing cases for the first time in the 7&#160;days prior to 7<sup>th</sup> September are highlighted in red. Case numbers for each country are indicated, with each square representing 10 cases. Only countries with extensive person to person transmission are shown; Senegal and Nigeria are not shown. Inserts show a typical treatment and isolation facility set up as part of the international response to the outbreak, with the top insert showing the ELWA III treatment and isolation site, the middle insert showing the inside of a treatment tent, and the bottom insert showing a lab worker inactivating patient samples in a portable isolation chamber (pictures courtesy of Barry Fields (CDC Nairobi) and Dave Safronetz (NIH)).</p>
+                </text>
+                <graphic file="s12915-014-0080-6-1"/>
+             </fig>
+          
+       </sec>
+       <sec>
+          <st>
+             <p>2 Detecting and containing outbreaks</p>
+          </st>
+          <p>The first major challenge lies in outbreak recognition, as exemplified by the current EHF outbreak in West Africa, which took almost three months to recognize and even longer to appreciate as a major public health concern <abbrgrp>
+                <abbr bid="B1">1</abbr>
+             </abbrgrp>. Initial disease symptoms, which occur suddenly after an incubation period of up to 21&#160;days, are rather non-specific and include fever, malaise, headaches, muscle pain, nausea, vomiting and diarrhea <abbrgrp>
+                <abbr bid="B2">2</abbr>
+             </abbrgrp>,<abbrgrp>
+                <abbr bid="B3">3</abbr>
+             </abbrgrp>. More characteristic symptoms, such as hemorrhagic manifestations including vomiting of blood, nosebleed, bloody or tarry stool, and bleeding from injection sites, as well as a characteristic rash, appear later in the disease course, and are only obvious in about half of all patients. Pathogenesis involves a combination of immune suppression, vascular dysfunction, coagulopathy, and the dysregulation of cytokine responses similar to systemic inflammatory response syndrome (SIRS), ultimately resulting in multi-organ failure and death <abbrgrp>
+                <abbr bid="B2">2</abbr>
+             </abbrgrp>,<abbrgrp>
+                <abbr bid="B4">4</abbr>
+             </abbrgrp>. Importantly, similar symptoms, particularly in the initial stages of disease, can also be seen in patients infected with malaria and typhoid fever, as well as many other endemic infectious diseases <abbrgrp>
+                <abbr bid="B2">2</abbr>
+             </abbrgrp>,<abbrgrp>
+                <abbr bid="B3">3</abbr>
+             </abbrgrp> with which EHF can be confused. For non-endemic countries the fear of importation is justified, as demonstrated by past importations of ebolavirus into South Africa and the closely related marburgvirus into the USA and the Netherlands, although these remain rare events. However, the likelihood of importations has increased in association with the current outbreak in West Africa, where four capital cities that have multiple international travel connections are now affected, and with the evacuation of confirmed cases among foreign aid workers. Nevertheless, it is very important to realize that in most non-endemic countries ongoing person-to-person transmission, as we currently see in West Africa, is extremely unlikely, due to better access to professional health care, higher standards of hospital hygiene, patient management and diagnosis, safer burial practices, and the current high level of awareness among health care providers. Past experience has shown that even when diagnosis was delayed, secondary infections have not occurred during the rare incidences of imported infections, further indicating the critical importance of basic personal protection and hospital hygiene as key measures to control ebolavirus transmission.</p>
+          <p>Once an EHF outbreak is confirmed, rapid diagnosis based on quantitative real-time polymerase chain reaction (qRT-PCR) methodology, as well as serology and antigen detection, is available. However, given the remote locations in which outbreaks usually occur, this either involves time-consuming shipping of samples to more centrally located reference laboratories, or dispatching of mobile laboratories directly into the outbreak area <abbrgrp>
+                <abbr bid="B5">5</abbr>
+             </abbrgrp>. The main strategy for outbreak management focuses on the reduction of secondary transmission by isolating infected individuals, the implementation of safe burial practices, contact tracing to disrupt infection chains, and education of the local population regarding risk reduction <abbrgrp>
+                <abbr bid="B6">6</abbr>
+             </abbrgrp>. From a public health perspective, this strategy is paramount, and it has been successful in the past in controlling ebolavirus outbreaks; but it has so far had only limited effect on the current outbreak in West Africa. In terms of the individual patient, at this time, care is limited to supportive treatment to maintain vital function. The importance of providing the best possible care to patients is not only in helping to reduce case fatality rates, but also because it increases compliance with isolation procedures and, therefore, contributes to overall outbreak control.</p>
+          <p>To address the need for more rapid recognition of future EHF outbreaks, awareness among the medical community about EHF needs to remain high between outbreaks. Once cases are identified, a multidisciplinary approach, including the open and timely sharing of all relevant information, is imperative for a successful outbreak response.</p>
+       </sec>
+       <sec>
+          <st>
+             <p>3 Developing and deploying countermeasures</p>
+          </st>
+          <p>Currently no licensed vaccines or therapeutics are available for ebolaviruses. Over the past decade, however, funding has been made available for research into such countermeasures, resulting in encouraging progress on the preclinical level (Figure&#160;<figr fid="F2">2</figr>) <abbrgrp>
+                <abbr bid="B7">7</abbr>
+             </abbrgrp>. Further, reverse genetics technologies have generated non-infectious systems that allow modeling of the complete ebolavirus life cycle without the need for maximum containment laboratories. Together with reporter-expressing recombinant ebolaviruses, these systems have significantly improved our ability to identify new antivirals <abbrgrp>
+                <abbr bid="B8">8</abbr>
+             </abbrgrp>. The most promising antivirals at this point include the combinations of three monoclonal antibodies, which were protective in non-human primates (the most stringent disease model) up to two days after challenge, and when used in combination with interferon alpha were even protective if treatment was initiated three days after challenge, that is, after the onset of symptoms <abbrgrp>
+                <abbr bid="B9">9</abbr>
+             </abbrgrp>,<abbrgrp>
+                <abbr bid="B10">10</abbr>
+             </abbrgrp>. This approach is now further being developed as ZMapp, an improved antibody cocktail that is able to protect non-human primates with treatment starting as late as five days after challenge <abbrgrp>
+                <abbr bid="B11">11</abbr>
+             </abbrgrp>, and was recently administered to a small number of infected aid workers. Another very promising approach is the use of small interfering RNAs (siRNAs), which was also protective in non-human primates if given after exposure <abbrgrp>
+                <abbr bid="B12">12</abbr>
+             </abbrgrp>. This approach is currently being developed as a commercial drug called TKM-Ebola, and while a phase I clinical trial was put on hold by the FDA in July 2014, on 7 August 2014 this ban was partially lifted, enabling the potential use of this drug in EHF patients.</p>
+          
+             <fig id="F2">
+                <title>
+                   <p>Figure 2</p>
+                </title>
+                <caption>
+                   <p>Promising countermeasures against ebolaviruses.</p>
+                </caption>
+                <text>
+                   <p>
+                      <b>Promising countermeasures against ebolaviruses.</b> Listed are the most advanced countermeasures (based on the authors&#8217; judgment), all of which show 100% protection in non-human primates (NHPs). Vaccines are shown in blue and antivirals are shown in green. In the case of vaccines, only those that require a single vaccination are shown.</p>
+                </text>
+                <graphic file="s12915-014-0080-6-2"/>
+             </fig>
+          
+          <p>Similar progress has been made with vaccines, with several platforms being highly protective in nonhuman primate models <abbrgrp>
+                <abbr bid="B13">13</abbr>
+             </abbrgrp>. The furthest developed of these vaccines are based on viral vectors, since earlier attempts using inactivated vaccines were unsuccessful, and live-attenuated vaccines are generally considered too dangerous in the case of ebolaviruses. Viral vector-based vaccines are recombinant vaccines in which genes encoding proteins of a pathogenic virus such as ebolavirus are inserted into the genome of another virus that causes mild or no disease. The viruses mostly used in ebolavirus vaccines are either recombinant, replication-deficient adenoviruses (Ads) or attenuated vesicular stomatitis viruses (VSVs), both of which are not known to cause serious side effects in humans. The ebolavirus genes encode proteins that can be recognized by the immune system but do not cause disease. The adenovirus platform uses a non-replicating recombinant adenovirus carrying the genetic information for the ebolavirus surface glycoprotein (GP) or for both GP and the ebolavirus nucleoprotein. Vaccination with this virus leads to the production of these proteins in the vaccinated individual, resulting in the development of an adaptive immune response. Most studies were performed using the human Ad5 serotype, with which many people have been infected at some point in their life. While in non-human primate studies this vaccine confers complete protection if given four weeks prior to challenge, in humans there are significant problems with preexisting immunity against the Ad5 serotype, so that individuals who have been previously exposed to Ad5 fail to mount an immune response to the ebolavirus component of the vaccine. While the Ad5-based vaccine was safe and immunogenic in a phase I clinical trial, the immune response was likely insufficient to confer protection <abbrgrp>
+                <abbr bid="B14">14</abbr>
+             </abbrgrp>. The problem of preexisting immunity has been addressed by using different serotypes, including the rare human serotypes Ad26 and Ad35, chimpanzee Ad3, Ad7, and Ad63, as well as simian Ad21. Limited studies showed 100% protective efficacy in non-human primates after a single vaccination for the chimpanzee Ad3-based vaccine, although a booster immunization was required to achieve long-lasting immunity <abbrgrp>
+                <abbr bid="B15">15</abbr>
+             </abbrgrp>. A phase I clinical trial with this vaccine began in early September 2014.</p>
+          <p>The VSV platform uses an attenuated replication-competent recombinant VSV that contains the ebolavirus GP gene instead of its own glycoprotein gene, leading to the production of virus particles that incorporate the ebolavirus glycoprotein into the virus envelope, as well as the production of this protein in vaccinated individuals. In extensive studies this virus has been shown to protect 100% of non-human primates if given either three or four weeks prior to challenge <abbrgrp>
+                <abbr bid="B16">16</abbr>
+             </abbrgrp>, and surprisingly it also showed some potential in post-exposure use, with 50 to 100% survival of non-human primates if the vaccine was administered 20 to 30&#160;minutes after challenge, depending on the species of the challenge ebolavirus. This vaccine platform has not progressed into clinical trials yet, but it was shown to be safe in severely immunocompromised non-human primates, and also did not cause neural pathology even after intrathalamic administration to non-human primates <abbrgrp>
+                <abbr bid="B17">17</abbr>
+             </abbrgrp>,<abbrgrp>
+                <abbr bid="B18">18</abbr>
+             </abbrgrp>. This is important because although VSV is non-pathogenic in humans, it can be neurovirulent in mice, and the possibility of neural pathology in humans must be ruled out - especially since, in contrast to the adenovirus-based vaccine, the VSV-based vaccine remains replication-competent. There has been a single use of this vaccine as a potential post-exposure treatment after a needle-stick incident in a laboratory worker in Hamburg, Germany, with no side effects other than a transient fever <abbrgrp>
+                <abbr bid="B19">19</abbr>
+             </abbrgrp>. A first phase I clinical trial is planned for fall 2014.</p>
+          <p>One pressing and extremely difficult question is whether such experimental treatments and vaccines should be used in the current outbreak. The recent WHO declaration to ethically approve the use of experimental drugs and vaccines under certain circumstances is likely to improve current outbreak response strategies. However, one needs to remain realistic regarding what can be done during the current outbreak, given both the extremely limited amount of clinical grade material that is available and the lack of human safety data for any of the promising experimental drugs and vaccines. Clearly, improving the chances of survival of an infected patient is highly desirable. Improved survival might also help to change a perception in the population that the isolation wards are &#8216;death traps&#8217; rather than medical care facilities, which could lead in turn to improved compliance with conventional outbreak control measures. However, because of the general lack of human safety and efficacy data for these experimental drugs and vaccines there is a risk of adverse effects and/or ineffectiveness, which could result in the perception that developed countries are experimenting on African patients. The consequent deterioration in the relationship between the affected African population and foreign health care workers might decrease compliance with outbreak control measures and may even lead to aggression, ultimately resulting in further or even complete loss of outbreak control. This risk scenario applies in particular to the more recent demands for the testing of certain drugs approved/licensed for other medical applications, which counteract human host responses that have been implied in the pathogenesis of EHF, but without preclinical efficacy data for those drugs against EHF. Safety of a drug targeting a host response mechanism predicted to be relevant during ebolavirus infection seems too weak as a justification considering the potentially disastrous consequences of a failure in efficacy on the ground.</p>
+          <p>Implementation of any countermeasure needs a well designed strategy, and this is particularly the case when supplies are limited, as they are at the moment. In addition, different situations may call for the use of different countermeasures. For example, foreign health care workers may be best served by using a safe and effective vaccine approach, whereas confirmed patients will need a therapeutic approach such as an antiviral (for example ZMapp or TKM-Ebola). Local health care staff and family members may benefit from a ring vaccination approach (that is, vaccination of actual or potential contacts to infected individuals) using a fast-acting vaccine such as the recombinant VSV, or prophylactic treatment using an antiviral or therapeutic. If experimental countermeasures are used, clinical safety and efficacy data should certainly be collected whenever possible. The question, however, is how that can be integrated with currently ongoing outbreak control measures, and whether we can ethically justify control groups if the countermeasures have high prediction values for success. In addition, giving some patients and health care or aid workers priority for treatment or vaccination will certainly create discord among the affected population, aid organizations, and governments, as decisions are unlikely to be seen as politically, ethnically and ethically correct by all parties. Regardless, targeting of health care workers with vaccination might be one justified instance for the following reasons: first, they are at significant risk for acquiring EFH as an inherent part of their work; second, they are absolutely essential to the on-going management of the outbreak, and thus for public health; and third, they might be in a better position to give informed consent to receive an experimental countermeasure. Despite all of the complications, we should not forget that using countermeasures could have a tremendous positive impact on the current outbreak, and provide us with a great chance to gain experiences that can then be applied during the inevitable future outbreaks.</p>
+          <p>The decisions regarding whether to deploy experimental countermeasures, which countermeasure to deploy, and how to do so are extremely complex and difficult, and will have to involve a careful risk/benefit evaluation, not only on the level of an individual patient, but also for overall outbreak management. These decisions should be made jointly with all affected parties, including scientists and public health experts, the aid organizations involved in outbreak management, and most importantly representatives of the people directly affected by the outbreak. As a note of caution, any use of countermeasures should not affect strengthening the traditional public health response measures, which have a very successful track record and are likely to be successful in this outbreak if widely and rigorously applied.</p>
+       </sec>
+       <sec>
+          <st>
+             <p>4 Future directions</p>
+          </st>
+          <p>Research has made significant progress in combating ebolavirus infections. We now have to translate these scientific advances into tangible benefits for the people affected by this devastating disease. Events in the current outbreak are rapidly developing, and it is impossible for the authors to predict what measures will have been taken by the time this article is published. However, regardless of whether experimental countermeasures are eventually used in the current ebolavirus outbreak, it is clear that their use can only be considered a last resort and that the strengthening of traditional public health and outbreak response measures are of paramount importance. For the future, the major challenge lies in advancing the experimental treatments and vaccines towards licensing for human use. Further, deployment strategies have to be put into place both for delivering countermeasures into an outbreak area, and for their administration. It will also be necessary to consider the possibility that infections will be imported into countries in which infections with ebolaviruses do not normally occur, and to develop management plans. Again, overcoming this challenge will require collaboration between scientists, aid organizations, pharmaceutical companies, local communities, regulatory bodies, and governments. Noteworthy is the currently increasing interest in industry as well as in politics in ebolaviruses, something that has to be seen as a positive development <abbrgrp>
+                <abbr bid="B20">20</abbr>
+             </abbrgrp>. Finally, future efforts should not be restricted to ebolaviruses, but also include other communicable pathogens with the potential to cause devastating outbreaks, such as the closely related marburgviruses. Even once the current EHF outbreak in West Africa ceases, it is only a matter of time until the next outbreak strikes. One should wisely use this opportunity to be proactive.</p>
+       </sec>
+    </bdy>
+    <bm>
+       <ack>
+          <sec>
+             <st>
+                <p>Acknowledgements</p>
+             </st>
+             <p>The authors thank Allison Groseth for critical reading of the manuscript. This work was supported by the Intramural Research Program of the NIH, NIAID.</p>
+          </sec>
+       </ack>
+       <refgrp>
+          
+          <bibl id="B1">
+             <note>Baize S, Pannetier D, Oestereich L, Rieger T, Koivogui L, Magassouba N, Soropogui B, Sow MS, Ke&#239;ta S, De Clerck H, Tiffany A, Dominguez G, Loua M, Traor&#233; A, Koli&#233; M, Malano ER, Heleze E, Bocquin A, M&#233;ly S, Raoul H, Caro V, Cadar D, Gabriel M, Pahlmann M, Tappe D, Schmidt-Chanasit J, Impouma B, Diallo AK, Formenty P, Van Herp M, G&#252;nther S: <b>Emergence of Zaire Ebola Virus Disease in Guinea - Preliminary Report.</b>
+                <it>N Engl J Med</it> 2014, [Epub ahead of print].</note>
+          </bibl>
+          <bibl id="B2">
+             <title>
+                <p>Ebola haemorrhagic fever</p>
+             </title>
+             <aug>
+                <au>
+                   <snm>Feldmann</snm>
+                   <fnm>H</fnm>
+                </au>
+                <au>
+                   <snm>Geisbert</snm>
+                   <fnm>TW</fnm>
+                </au>
+             </aug>
+             <source>Lancet</source>
+             <pubdate>2011</pubdate>
+             <volume>377</volume>
+             <fpage>849</fpage>
+             <lpage>862</lpage>
+             <xrefbib>
+                <pubidlist>
+                   <pubid idtype="doi">10.1016/S0140-6736(10)60667-8</pubid>
+                   <pubid idtype="pmpid" link="fulltext">21084112</pubid>
+                </pubidlist>
+             </xrefbib>
+          </bibl>
+          <bibl id="B3">
+             <title>
+                <p>Basic clinical and laboratory features of filoviral hemorrhagic fever</p>
+             </title>
+             <aug>
+                <au>
+                   <snm>Kortepeter</snm>
+                   <fnm>MG</fnm>
+                </au>
+                <au>
+                   <snm>Bausch</snm>
+                   <fnm>DG</fnm>
+                </au>
+                <au>
+                   <snm>Bray</snm>
+                   <fnm>M</fnm>
+                </au>
+             </aug>
+             <source>J Infect Dis</source>
+             <pubdate>2011</pubdate>
+             <volume>204</volume>
+             <fpage>S810</fpage>
+             <lpage>S816</lpage>
+             <xrefbib>
+                <pubidlist>
+                   <pubid idtype="doi">10.1093/infdis/jir299</pubid>
+                   <pubid idtype="pmpid" link="fulltext">21987756</pubid>
+                </pubidlist>
+             </xrefbib>
+          </bibl>
+          <bibl id="B4">
+             <title>
+                <p>Ebola virus: unravelling pathogenesis to combat a deadly disease</p>
+             </title>
+             <aug>
+                <au>
+                   <snm>Hoenen</snm>
+                   <fnm>T</fnm>
+                </au>
+                <au>
+                   <snm>Groseth</snm>
+                   <fnm>A</fnm>
+                </au>
+                <au>
+                   <snm>Falzarano</snm>
+                   <fnm>D</fnm>
+                </au>
+                <au>
+                   <snm>Feldmann</snm>
+                   <fnm>H</fnm>
+                </au>
+             </aug>
+             <source>Trends Mol Med</source>
+             <pubdate>2006</pubdate>
+             <volume>12</volume>
+             <fpage>206</fpage>
+             <lpage>215</lpage>
+             <xrefbib>
+                <pubidlist>
+                   <pubid idtype="doi">10.1016/j.molmed.2006.03.006</pubid>
+                   <pubid idtype="pmpid" link="fulltext">16616875</pubid>
+                </pubidlist>
+             </xrefbib>
+          </bibl>
+          <bibl id="B5">
+             <title>
+                <p>Flexibility of mobile laboratory unit in support of patient management during the, Ebola-Zaire outbreak in the Democratic Republic of Congo</p>
+             </title>
+             <aug>
+                <au>
+                   <snm>Grolla</snm>
+                   <fnm>A</fnm>
+                </au>
+                <au>
+                   <snm>Jones</snm>
+                   <fnm>S</fnm>
+                </au>
+                <au>
+                   <snm>Kobinger</snm>
+                   <fnm>G</fnm>
+                </au>
+                <au>
+                   <snm>Sprecher</snm>
+                   <fnm>A</fnm>
+                </au>
+                <au>
+                   <snm>Girard</snm>
+                   <fnm>G</fnm>
+                </au>
+                <au>
+                   <snm>Yao</snm>
+                   <fnm>M</fnm>
+                </au>
+                <au>
+                   <snm>Roth</snm>
+                   <fnm>C</fnm>
+                </au>
+                <au>
+                   <snm>Artsob</snm>
+                   <fnm>H</fnm>
+                </au>
+                <au>
+                   <snm>Feldmann</snm>
+                   <fnm>H</fnm>
+                </au>
+                <au>
+                   <snm>Strong</snm>
+                   <fnm>JE</fnm>
+                </au>
+             </aug>
+             <source>Zoonoses Public Health</source>
+             <pubdate>2007</pubdate>
+             <volume>2012</volume>
+             <fpage>151</fpage>
+             <lpage>157</lpage>
+          </bibl>
+          <bibl id="B6">
+             <title>
+                <p>Filovirus hemorrhagic fever outbreak case management: a review of current and future treatment options</p>
+             </title>
+             <aug>
+                <au>
+                   <snm>Roddy</snm>
+                   <fnm>P</fnm>
+                </au>
+                <au>
+                   <snm>Colebunders</snm>
+                   <fnm>R</fnm>
+                </au>
+                <au>
+                   <snm>Jeffs</snm>
+                   <fnm>B</fnm>
+                </au>
+                <au>
+                   <snm>Palma</snm>
+                   <fnm>PP</fnm>
+                </au>
+                <au>
+                   <snm>Van Herp</snm>
+                   <fnm>M</fnm>
+                </au>
+                <au>
+                   <snm>Borchert</snm>
+                   <fnm>M</fnm>
+                </au>
+             </aug>
+             <source>J Infect Dis</source>
+             <pubdate>2011</pubdate>
+             <volume>204</volume>
+             <fpage>S791</fpage>
+             <lpage>S795</lpage>
+             <xrefbib>
+                <pubidlist>
+                   <pubid idtype="doi">10.1093/infdis/jir297</pubid>
+                   <pubid idtype="pmpid" link="fulltext">21987752</pubid>
+                </pubidlist>
+             </xrefbib>
+          </bibl>
+          <bibl id="B7">
+             <title>
+                <p>Post-exposure therapy of filovirus infections</p>
+             </title>
+             <aug>
+                <au>
+                   <snm>Wong</snm>
+                   <fnm>G</fnm>
+                </au>
+                <au>
+                   <snm>Qiu</snm>
+                   <fnm>X</fnm>
+                </au>
+                <au>
+                   <snm>Olinger</snm>
+                   <fnm>GG</fnm>
+                </au>
+                <au>
+                   <snm>Kobinger</snm>
+                   <fnm>GP</fnm>
+                </au>
+             </aug>
+             <source>Trends Microbiol</source>
+             <pubdate>2014</pubdate>
+             <volume>22</volume>
+             <fpage>456</fpage>
+             <lpage>463</lpage>
+             <xrefbib>
+                <pubidlist>
+                   <pubid idtype="doi">10.1016/j.tim.2014.04.002</pubid>
+                   <pubid idtype="pmpid" link="fulltext">24794572</pubid>
+                </pubidlist>
+             </xrefbib>
+          </bibl>
+          <bibl id="B8">
+             <title>
+                <p>Reverse genetics systems as tools for the development of novel therapies against filoviruses</p>
+             </title>
+             <aug>
+                <au>
+                   <snm>Hoenen</snm>
+                   <fnm>T</fnm>
+                </au>
+                <au>
+                   <snm>Feldmann</snm>
+                   <fnm>H</fnm>
+                </au>
+             </aug>
+             <source>Expert Rev Anti Infect Ther</source>
+             <pubdate>2014</pubdate>
+             <volume>12</volume>
+             <fpage>1253</fpage>
+             <lpage>1263</lpage>
+             <xrefbib>
+                <pubidlist>
+                   <pubid idtype="doi">10.1586/14787210.2014.948848</pubid>
+                   <pubid idtype="pmpid" link="fulltext">25169588</pubid>
+                </pubidlist>
+             </xrefbib>
+          </bibl>
+          <bibl id="B9">
+             <note>Qiu X, Wong G, Fernando L, Audet J, Bello A, Strong J, Alimonti JB, Kobinger GP: <b>mAbs and Ad-vectored IFN-alpha therapy rescue Ebola-infected nonhuman primates when administered after the detection of viremia and symptoms.</b>
+                <it>Sci Transl Med</it> 2013, <b>5:</b>207ra143.</note>
+          </bibl>
+          <bibl id="B10">
+             <note>Pettitt J, Zeitlin L, Kim Do H, Working C, Johnson JC, Bohorov O, Bratcher B, Hiatt E, Hume SD, Johnson AK, Morton J, Pauly MH, Whaley KJ, Ingram MF, Zovanyi A, Heinrich M, Piper A, Zelko J, Olinger GG: <b>Therapeutic intervention of Ebola virus infection in rhesus macaques with the MB-003 monoclonal antibody cocktail.</b>
+                <it>Sci Transl Med</it> 2013, <b>5:</b>199ra113.</note>
+          </bibl>
+          <bibl id="B11">
+             <note>Qiu X, Wong G, Audet J, Bello A, Fernando L, Alimonti JB, Fausther-Bovendo H, Wei H, Aviles J, Hiatt E, Johnson A, Morton J, Swope K, Bohorov O, Bohorova N, Goodman C, Kim D, Pauly MH, Velasco J, Pettitt J, Olinger GG, Whaley K, Xu B, Strong JE, Zeitlin L, Kobinger GP: <b>Reversion of advanced Ebola virus disease in nonhuman primates with ZMapp.</b>
+                <it>Nature</it> 2014. doi:10.1038/nature13777.</note>
+          </bibl>
+          <bibl id="B12">
+             <title>
+                <p>Postexposure protection of non-human primates against a lethal Ebola virus challenge with RNA interference: a proof-of-concept study</p>
+             </title>
+             <aug>
+                <au>
+                   <snm>Geisbert</snm>
+                   <fnm>TW</fnm>
+                </au>
+                <au>
+                   <snm>Lee</snm>
+                   <fnm>AC</fnm>
+                </au>
+                <au>
+                   <snm>Robbins</snm>
+                   <fnm>M</fnm>
+                </au>
+                <au>
+                   <snm>Geisbert</snm>
+                   <fnm>JB</fnm>
+                </au>
+                <au>
+                   <snm>Honko</snm>
+                   <fnm>AN</fnm>
+                </au>
+                <au>
+                   <snm>Sood</snm>
+                   <fnm>V</fnm>
+                </au>
+                <au>
+                   <snm>Johnson</snm>
+                   <fnm>JC</fnm>
+                </au>
+                <au>
+                   <snm>de Jong</snm>
+                   <fnm>S</fnm>
+                </au>
+                <au>
+                   <snm>Tavakoli</snm>
+                   <fnm>I</fnm>
+                </au>
+                <au>
+                   <snm>Judge</snm>
+                   <fnm>A</fnm>
+                </au>
+                <au>
+                   <snm>Hensley</snm>
+                   <fnm>LE</fnm>
+                </au>
+                <au>
+                   <snm>Maclachlan</snm>
+                   <fnm>I</fnm>
+                </au>
+             </aug>
+             <source>Lancet</source>
+             <pubdate>2010</pubdate>
+             <volume>375</volume>
+             <fpage>1896</fpage>
+             <lpage>1905</lpage>
+             <xrefbib>
+                <pubidlist>
+                   <pubid idtype="doi">10.1016/S0140-6736(10)60357-1</pubid>
+                   <pubid idtype="pmpid" link="fulltext">20511019</pubid>
+                </pubidlist>
+             </xrefbib>
+          </bibl>
+          <bibl id="B13">
+             <title>
+                <p>Potential vaccines and post-exposure treatments for filovirus infections</p>
+             </title>
+             <aug>
+                <au>
+                   <snm>Friedrich</snm>
+                   <fnm>BM</fnm>
+                </au>
+                <au>
+                   <snm>Trefry</snm>
+                   <fnm>JC</fnm>
+                </au>
+                <au>
+                   <snm>Biggins</snm>
+                   <fnm>JE</fnm>
+                </au>
+                <au>
+                   <snm>Hensley</snm>
+                   <fnm>LE</fnm>
+                </au>
+                <au>
+                   <snm>Honko</snm>
+                   <fnm>AN</fnm>
+                </au>
+                <au>
+                   <snm>Smith</snm>
+                   <fnm>DR</fnm>
+                </au>
+                <au>
+                   <snm>Olinger</snm>
+                   <fnm>GG</fnm>
+                </au>
+             </aug>
+             <source>Viruses</source>
+             <pubdate>2012</pubdate>
+             <volume>4</volume>
+             <fpage>1619</fpage>
+             <lpage>1650</lpage>
+             <xrefbib>
+                <pubidlist>
+                   <pubid idtype="doi">10.3390/v4091619</pubid>
+                   <pubid idtype="pmpid" link="fulltext">23170176</pubid>
+                </pubidlist>
+             </xrefbib>
+          </bibl>
+          <bibl id="B14">
+             <title>
+                <p>A replication defective recombinant Ad5 vaccine expressing Ebola virus GP is safe and immunogenic in healthy adults</p>
+             </title>
+             <aug>
+                <au>
+                   <snm>Ledgerwood</snm>
+                   <fnm>JE</fnm>
+                </au>
+                <au>
+                   <snm>Costner</snm>
+                   <fnm>P</fnm>
+                </au>
+                <au>
+                   <snm>Desai</snm>
+                   <fnm>N</fnm>
+                </au>
+                <au>
+                   <snm>Holman</snm>
+                   <fnm>L</fnm>
+                </au>
+                <au>
+                   <snm>Enama</snm>
+                   <fnm>ME</fnm>
+                </au>
+                <au>
+                   <snm>Yamshchikov</snm>
+                   <fnm>G</fnm>
+                </au>
+                <au>
+                   <snm>Mulangu</snm>
+                   <fnm>S</fnm>
+                </au>
+                <au>
+                   <snm>Hu</snm>
+                   <fnm>Z</fnm>
+                </au>
+                <au>
+                   <snm>Andrews</snm>
+                   <fnm>CA</fnm>
+                </au>
+                <au>
+                   <snm>Sheets</snm>
+                   <fnm>RA</fnm>
+                </au>
+                <au>
+                   <snm>Koup</snm>
+                   <fnm>RA</fnm>
+                </au>
+                <au>
+                   <snm>Roederer</snm>
+                   <fnm>M</fnm>
+                </au>
+                <au>
+                   <snm>Bailer</snm>
+                   <fnm>R</fnm>
+                </au>
+                <au>
+                   <snm>Mascola</snm>
+                   <fnm>JR</fnm>
+                </au>
+                <au>
+                   <snm>Pau</snm>
+                   <fnm>MG</fnm>
+                </au>
+                <au>
+                   <snm>Sullivan</snm>
+                   <fnm>NJ</fnm>
+                </au>
+                <au>
+                   <snm>Goudsmit</snm>
+                   <fnm>J</fnm>
+                </au>
+                <au>
+                   <snm>Nabel</snm>
+                   <fnm>GJ</fnm>
+                </au>
+                <au>
+                   <snm>Graham</snm>
+                   <fnm>BS</fnm>
+                </au>
+             </aug>
+             <source>Vaccine</source>
+             <pubdate>2010</pubdate>
+             <volume>29</volume>
+             <fpage>304</fpage>
+             <lpage>313</lpage>
+             <xrefbib>
+                <pubidlist>
+                   <pubid idtype="doi">10.1016/j.vaccine.2010.10.037</pubid>
+                   <pubid idtype="pmpid" link="fulltext">21034824</pubid>
+                </pubidlist>
+             </xrefbib>
+          </bibl>
+          <bibl id="B15">
+             <note>Stanley DA, Honko AN, Asiedu C, Trefry JC, Lau-Kilby AW, Johnson JC, Hensley L, Ammendola V, Abbate A, Grazioli F, Foulds KE, Cheng C, Wang L, Donaldson MM, Colloca S, Folgori A, Roederer M, Nabel GJ, Mascola J, Nicosia A, Cortese R, Koup RA, Sullivan NJ: <b>Chimpanzee adenovirus vaccine generates acute and durable protective immunity against ebolavirus challenge.</b>
+                <it>Nat Med</it> 2014. doi:10.1038/nm.3702.</note>
+          </bibl>
+          <bibl id="B16">
+             <title>
+                <p>Recombinant vesicular stomatitis virus-based vaccines against Ebola and Marburg virus infections</p>
+             </title>
+             <aug>
+                <au>
+                   <snm>Geisbert</snm>
+                   <fnm>TW</fnm>
+                </au>
+                <au>
+                   <snm>Feldmann</snm>
+                   <fnm>H</fnm>
+                </au>
+             </aug>
+             <source>J Infect Dis</source>
+             <pubdate>2011</pubdate>
+             <volume>204</volume>
+             <fpage>S1075</fpage>
+             <lpage>S1081</lpage>
+             <xrefbib>
+                <pubidlist>
+                   <pubid idtype="doi">10.1093/infdis/jir349</pubid>
+                   <pubid idtype="pmpid" link="fulltext">21987744</pubid>
+                </pubidlist>
+             </xrefbib>
+          </bibl>
+          <bibl id="B17">
+             <note>Geisbert TW, Daddario-Dicaprio KM, Lewis MG, Geisbert JB, Grolla A, Leung A, Paragas J, Matthias L, Smith MA, Jones SM, Hensley LE, Feldmann H, Jahrling PB: <b>Vesicular stomatitis virus-based ebola vaccine is well-tolerated and protects immunocompromised nonhuman primates.</b>
+                <it>PLoS Pathog</it> 2008, <b>4:</b>e1000225.</note>
+          </bibl>
+          <bibl id="B18">
+             <note>Mire CE, Miller AD, Carville A, Westmoreland SV, Geisbert JB, Mansfield KG, Feldmann H, Hensley LE, Geisbert TW: <b>Recombinant vesicular stomatitis virus vaccine vectors expressing filovirus glycoproteins lack neurovirulence in nonhuman primates.</b>
+                <it>PLoS Negl Trop Dis</it> 2012, <b>6:</b>e1567.</note>
+          </bibl>
+          <bibl id="B19">
+             <title>
+                <p>Management of accidental exposure to Ebola virus in the biosafety level 4 laboratory, Hamburg, Germany</p>
+             </title>
+             <aug>
+                <au>
+                   <snm>G&#252;nther</snm>
+                   <fnm>S</fnm>
+                </au>
+                <au>
+                   <snm>Feldmann</snm>
+                   <fnm>H</fnm>
+                </au>
+                <au>
+                   <snm>Geisbert</snm>
+                   <fnm>TW</fnm>
+                </au>
+                <au>
+                   <snm>Hensley</snm>
+                   <fnm>LE</fnm>
+                </au>
+                <au>
+                   <snm>Rollin</snm>
+                   <fnm>PE</fnm>
+                </au>
+                <au>
+                   <snm>Nichol</snm>
+                   <fnm>ST</fnm>
+                </au>
+                <au>
+                   <snm>Str&#246;her</snm>
+                   <fnm>U</fnm>
+                </au>
+                <au>
+                   <snm>Artsob</snm>
+                   <fnm>H</fnm>
+                </au>
+                <au>
+                   <snm>Peters</snm>
+                   <fnm>CJ</fnm>
+                </au>
+                <au>
+                   <snm>Ksiazek</snm>
+                   <fnm>TG</fnm>
+                </au>
+                <au>
+                   <snm>Becker</snm>
+                   <fnm>S</fnm>
+                </au>
+                <au>
+                   <snm>ter Meulen</snm>
+                   <fnm>J</fnm>
+                </au>
+                <au>
+                   <snm>Olschl&#228;ger</snm>
+                   <fnm>S</fnm>
+                </au>
+                <au>
+                   <snm>Schmidt-Chanasit</snm>
+                   <fnm>J</fnm>
+                </au>
+                <au>
+                   <snm>Sudeck</snm>
+                   <fnm>H</fnm>
+                </au>
+                <au>
+                   <snm>Burchard</snm>
+                   <fnm>GD</fnm>
+                </au>
+                <au>
+                   <snm>Schmiedel</snm>
+                   <fnm>S</fnm>
+                </au>
+             </aug>
+             <source>J Infect Dis</source>
+             <pubdate>2011</pubdate>
+             <volume>204</volume>
+             <fpage>S785</fpage>
+             <lpage>S790</lpage>
+             <xrefbib>
+                <pubidlist>
+                   <pubid idtype="doi">10.1093/infdis/jir298</pubid>
+                   <pubid idtype="pmpid" link="fulltext">21987751</pubid>
+                </pubidlist>
+             </xrefbib>
+          </bibl>
+          <bibl id="B20">
+             <title>
+                <p>Largest-ever outbreak of ebola virus disease thrusts experimental therapies, vaccines into spotlight</p>
+             </title>
+             <aug>
+                <au>
+                   <snm>Hampton</snm>
+                   <fnm>T</fnm>
+                </au>
+             </aug>
+             <source>JAMA</source>
+             <pubdate>2014</pubdate>
+             <volume>312</volume>
+             <fpage>987</fpage>
+             <lpage>989</lpage>
+             <xrefbib>
+                <pubidlist>
+                   <pubid idtype="doi">10.1001/jama.2014.11170</pubid>
+                   <pubid idtype="pmpid" link="fulltext">25162140</pubid>
+                </pubidlist>
+             </xrefbib>
+          </bibl>
+       </refgrp>
+    </bm>
+ </art>

@@ -73,23 +73,23 @@
 
 					<programs>
 						<program>
-							<mainClass>org.xmlcml.xhtml2stm.visitor.chem.ChemVisitor</mainClass>
+							<mainClass>org.xmlcml.ami.visitor.chem.ChemVisitor</mainClass>
 							<id>ami-chem</id>
 						</program>
 						<program>
-							<mainClass>org.xmlcml.xhtml2stm.visitor.regex.RegexVisitor</mainClass>
+							<mainClass>org.xmlcml.ami.visitor.regex.RegexVisitor</mainClass>
 							<id>ami-regex</id>
 						</program>
 						<program>
-							<mainClass>org.xmlcml.xhtml2stm.visitor.sequence.SequenceVisitor</mainClass>
+							<mainClass>org.xmlcml.ami.visitor.sequence.SequenceVisitor</mainClass>
 							<id>ami-sequence</id>
 						</program>
 						<program>
-							<mainClass>org.xmlcml.xhtml2stm.visitor.species.SpeciesVisitor</mainClass>
+							<mainClass>org.xmlcml.ami.visitor.species.SpeciesVisitor</mainClass>
 							<id>ami-species</id>
 						</program>
 						<program>
-							<mainClass>org.xmlcml.xhtml2stm.visitor.tree.TreeVisitor</mainClass>
+							<mainClass>org.xmlcml.ami.visitor.tree.TreeVisitor</mainClass>
 							<id>ami-tree</id>
 						</program>
 
@@ -134,53 +134,53 @@
 							<mapper>
 								<type>perm</type>
 								<filemode>555</filemode>
-								<prefix>/usr/share/xhtml2stm-repo</prefix>
+								<prefix>/usr/share/ami-repo</prefix>
 							</mapper>
 						</data>
 
 						<data>
-							<src>${basedir}/src/test/resources/org/xmlcml/xhtml2stm/html/multiple.312.html</src>
+							<src>${basedir}/src/test/resources/org/xmlcml/ami/html/multiple.312.html</src>
 							<type>file</type>
 							<mapper>
 								<type>perm</type>
 								<filemode>555</filemode>
-								<prefix>/usr/share/xhtml2stm-repo/exampleData/html</prefix>
+								<prefix>/usr/share/ami-repo/exampleData/html</prefix>
 							</mapper>
 						</data>
 						<data>
-							<src>${basedir}/src/test/resources/org/xmlcml/xhtml2stm/html/pb1.html</src>
+							<src>${basedir}/src/test/resources/org/xmlcml/ami/html/pb1.html</src>
 							<type>file</type>
 							<mapper>
 								<type>perm</type>
 								<filemode>555</filemode>
-								<prefix>/usr/share/xhtml2stm-repo/exampleData/html</prefix>
+								<prefix>/usr/share/ami-repo/exampleData/html</prefix>
 							</mapper>
 						</data>
 						<data>
-							<src>${basedir}/src/test/resources/org/xmlcml/xhtml2stm/species/journal.pone.0077058.xml</src>
+							<src>${basedir}/src/test/resources/org/xmlcml/ami/species/journal.pone.0077058.xml</src>
 							<type>file</type>
 							<mapper>
 								<type>perm</type>
 								<filemode>555</filemode>
-								<prefix>/usr/share/xhtml2stm-repo/exampleData/species</prefix>
+								<prefix>/usr/share/ami-repo/exampleData/species</prefix>
 							</mapper>
 						</data>
 						<data>
-							<src>${basedir}/src/test/resources/org/xmlcml/xhtml2stm/pdf/multiple-1471-2148-11-312.pdf</src>
+							<src>${basedir}/src/test/resources/org/xmlcml/ami/pdf/multiple-1471-2148-11-312.pdf</src>
 							<type>file</type>
 							<mapper>
 								<type>perm</type>
 								<filemode>555</filemode>
-								<prefix>/usr/share/xhtml2stm-repo/exampleData/pdf</prefix>
+								<prefix>/usr/share/ami-repo/exampleData/pdf</prefix>
 							</mapper>
 						</data>
 						<data>
-							<src>${basedir}/src/test/resources/org/xmlcml/xhtml2stm/pdf/tree-1471-2148-11-313.pdf</src>
+							<src>${basedir}/src/test/resources/org/xmlcml/ami/pdf/tree-1471-2148-11-313.pdf</src>
 							<type>file</type>
 							<mapper>
 								<type>perm</type>
 								<filemode>555</filemode>
-								<prefix>/usr/share/xhtml2stm-repo/exampleData/pdf</prefix>
+								<prefix>/usr/share/ami-repo/exampleData/pdf</prefix>
 							</mapper>
 						</data>
 
@@ -189,31 +189,31 @@
 							<type>link</type>
 							<symlink>true</symlink>
 							<linkName>/usr/bin/ami-chem</linkName>
-							<linkTarget>/usr/share/xhtml2stm-repo/bin/ami-chem</linkTarget>
+							<linkTarget>/usr/share/ami-repo/bin/ami-chem</linkTarget>
 						</data>
 						<data>
 							<type>link</type>
 							<symlink>true</symlink>
 							<linkName>/usr/bin/ami-regex</linkName>
-							<linkTarget>/usr/share/xhtml2stm-repo/bin/ami-regex</linkTarget>
+							<linkTarget>/usr/share/ami-repo/bin/ami-regex</linkTarget>
 						</data>
 						<data>
 							<type>link</type>
 							<symlink>true</symlink>
 							<linkName>/usr/bin/ami-sequence</linkName>
-							<linkTarget>/usr/share/xhtml2stm-repo/bin/ami-sequence</linkTarget>
+							<linkTarget>/usr/share/ami-repo/bin/ami-sequence</linkTarget>
 						</data>
 						<data>
 							<type>link</type>
 							<symlink>true</symlink>
 							<linkName>/usr/bin/ami-species</linkName>
-							<linkTarget>/usr/share/xhtml2stm-repo/bin/ami-species</linkTarget>
+							<linkTarget>/usr/share/ami-repo/bin/ami-species</linkTarget>
 						</data>
 						<data>
 							<type>link</type>
 							<symlink>true</symlink>
 							<linkName>/usr/bin/ami-tree</linkName>
-							<linkTarget>/usr/share/xhtml2stm-repo/bin/ami-tree</linkTarget>
+							<linkTarget>/usr/share/ami-repo/bin/ami-tree</linkTarget>
 						</data>
 
 					</dataSet>

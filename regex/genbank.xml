@@ -1,6 +1,0 @@
-<compoundRegex title="regex">
-	<regex weight="1.0" url="http://contentmine.org/genbank" fields="genbank g1 g2" case="required"
-	   title="genbank">\W(([A-Z]{2}\d{6})|([A-Z]\d{5}))\W</regex>
-	<regex weight="1.0" fields="lion" case="required"
-	   title="lion">\W(Panthera)\W</regex>
-</compoundRegex>

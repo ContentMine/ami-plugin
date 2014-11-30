@@ -1,0 +1,2932 @@
+<?xml version='1.0'?>
+<art>
+	<ui>1678-9199-20-44</ui>
+	<ji>1678-9199</ji>
+	<fm>
+		<dochead>Review</dochead>
+		<bibl>
+			<title>
+				<p>Outbreaks of Ebola virus disease in Africa: the beginnings of a tragic saga</p>
+			</title>
+			<aug>
+				<au ca="yes" id="A1"><snm>Chippaux</snm><fnm>Jean-Philippe</fnm><insr iid="I1"/><insr iid="I2"/><email>jean-philippe.chippaux@ird.fr</email></au>
+			</aug>
+			<insg>
+				<ins id="I1"><p>UMR 216, Mother and Child Facing Tropical Diseases, Institut de Recherche pour le D&#233;veloppement (IRD), Cotonou, B&#233;nin</p></ins>
+				<ins id="I2"><p>Universit&#233; Paris Descartes, Sorbonne Paris Cit&#233;, Facult&#233; de Pharmacie, Paris, France</p></ins>
+			</insg>
+			<source>Journal of Venomous Animals and Toxins including Tropical Diseases</source>
+			<section><title><p>Tropical Diseases</p></title></section><issn>1678-9199</issn>
+			<pubdate>2014</pubdate>
+			<volume>20</volume>
+			<issue>1</issue>
+			<fpage>44</fpage>
+			<url>http://www.jvat.org/content/20/1/44</url>
+			<xrefbib><pubidlist><pubid idtype="pmpid">25320574</pubid><pubid idtype="doi">10.1186/1678-9199-20-44</pubid></pubidlist></xrefbib>
+		</bibl>
+		<history><rec><date><day>26</day><month>8</month><year>2014</year></date></rec><acc><date><day>19</day><month>9</month><year>2014</year></date></acc><pub><date><day>3</day><month>10</month><year>2014</year></date></pub></history>
+		<cpyrt><year>2014</year><collab>Chippaux; licensee BioMed Central Ltd.</collab><note>This is an Open Access article distributed under the terms of the Creative Commons Attribution License (<url>http://creativecommons.org/licenses/by/4.0</url>), which permits unrestricted use, distribution, and reproduction in any medium, provided the original work is properly credited. The Creative Commons Public Domain Dedication waiver (<url>http://creativecommons.org/publicdomain/zero/1.0/</url>) applies to the data made available in this article, unless otherwise stated.</note></cpyrt>
+		<kwdg>
+			<kwd>Ebola</kwd>
+			<kwd>Outbreak</kwd>
+			<kwd>Virus</kwd>
+			<kwd>Hemorrhagic fever</kwd>
+			<kwd>Africa</kwd>
+		</kwdg>
+		<abs>
+			<sec>
+				<st>
+					<p>Abstract</p>
+				</st>
+				<p>The tremendous outbreak of Ebola virus disease occurring in West Africa since the end of 2013 surprises by its remoteness from previous epidemics and dramatic extent. This review aims to describe the 27 manifestations of Ebola virus that arose after its discovery in 1976. It provides an update on research on the ecology of Ebola viruses, modes of contamination and human transmission of the disease that are mainly linked to close contact with an infected animal or a patient suffering from the disease. The recommendations to contain the epidemic and challenges to achieve it are reminded.</p>
+			</sec>
+		</abs>
+	</fm>
+	<bdy>
+		<sec>
+			<st>
+				<p>Introduction</p>
+			</st>
+			<p>The outbreak of Ebola virus disease (EVD) occurring in West Africa since December 2013 will mark the history &#8211; however brief &#8211; of the viruses. Occurring for the first time outside its original home &#8211; the Central African rainforest &#8211; this epidemic of EVD appears as the deadliest and longest of all those known so far. At this time (August 15th, 2014), more than 1,250 deaths have been reported, <it>i.e.</it> five times more than during the worst previous outbreak. In addition, its rapid propagation has led the World Health Organization (WHO) to declare on August 8th that EVD represent a &#8220;Public Health Emergency of International Concern&#8221; and urged the international community to take action to stop the spread. Finally, for the first time, in response to the severity of the situation, WHO agreed the use of experimental treatment against the EVD.</p>
+		</sec>
+		<sec>
+			<st>
+				<p>Review</p>
+			</st>
+			<p>Discovered in 1976 during two inaugural epidemics, both in Sudan and Democratic Republic of Congo (DRC), the Ebola viruses were responsible for 27 occurrences in Africa before the current outbreak of Guinea. This review aims to remind the characteristics of the different epidemics of EVD that were reported between 1976 and 2013.</p>
+			<sec>
+				<st>
+					<p>Ebola viruses</p>
+				</st>
+				<p>The Ebola virus is, together with <it>Marburg marburgvirus</it>, native to East Africa, and belongs to the <it>Filoviridae</it> family (Table&#160;
+					<tblr tid="T1">1</tblr>), whose newest member is <it>Lloviu cuevavirus</it>, recently isolated in Spain from bats 
+					<abbrgrp>
+						<abbr bid="B1">1</abbr>
+						<abbr bid="B2">2</abbr>
+						<abbr bid="B3">3</abbr>
+					</abbrgrp>.</p>
+				<table id="T1">
+					<title>
+						<p>Table 1</p>
+					</title>
+					<caption>
+						<p>
+							<b><it>Filoviridae </it></b><b>virus occurrences in the world</b>
+						</p>
+					</caption>
+					<tgroup align="left" cols="7">
+						<colspec align="center" colname="c1" colnum="1" colwidth="1*"/>
+						<colspec align="center" colname="c2" colnum="2" colwidth="1*"/>
+						<colspec align="center" colname="c3" colnum="3" colwidth="1*"/>
+						<colspec align="center" colname="c4" colnum="4" colwidth="1*"/>
+						<colspec align="center" colname="c5" colnum="5" colwidth="1*"/>
+						<colspec align="center" colname="c6" colnum="6" colwidth="1*"/>
+						<colspec align="center" colname="c7" colnum="7" colwidth="1*"/>
+						<thead valign="top">
+							<row rowsep="1">
+								<entry align="center" colname="c1" valign="middle">
+									<p>
+										<b>Viral species</b>
+									</p>
+								</entry>
+								<entry align="center" colname="c2" valign="middle">
+									<p>
+										<b>Year of discovery</b>
+									</p>
+								</entry>
+								<entry align="center" colname="c3" valign="middle">
+									<p>
+										<b>Geographic origin</b>
+									</p>
+								</entry>
+								<entry align="center" colname="c4" valign="middle">
+									<p>
+										<b>Number of outbreaks</b>
+									</p>
+								</entry>
+								<entry align="center" colname="c5" valign="middle">
+									<p>
+										<b>Number of human cases</b>
+									</p>
+								</entry>
+								<entry align="center" colname="c6" valign="middle">
+									<p>
+										<b>Number of deaths (CFR)</b>
+									</p>
+								</entry>
+								<entry align="center" colname="c7" valign="middle">
+									<p>
+										<b>CFR (%)</b>
+									</p>
+								</entry>
+							</row>
+						</thead>
+						<tfoot>
+							<p>CFR: case fatality rate. *Excluding the current West African outbreak.</p>
+						</tfoot>
+						<tbody valign="top">
+							<row>
+								<entry align="center" colname="c1">
+									<p>
+										<it>Marburg marburgvirus</it>
+									</p>
+								</entry>
+								<entry align="center" colname="c2">
+									<p>1967</p>
+								</entry>
+								<entry align="center" colname="c3">
+									<p>Uganda</p>
+								</entry>
+								<entry align="center" colname="c4">
+									<p>4</p>
+								</entry>
+								<entry align="center" colname="c5">
+									<p>465</p>
+								</entry>
+								<entry align="center" colname="c6">
+									<p>145</p>
+								</entry>
+								<entry align="center" colname="c7">
+									<p>31</p>
+								</entry>
+							</row>
+							<row>
+								<entry align="center" colname="c1">
+									<p>
+										<it>Sudan ebolavirus</it>
+									</p>
+								</entry>
+								<entry align="center" colname="c2">
+									<p>1976</p>
+								</entry>
+								<entry align="center" colname="c3">
+									<p>Sudan</p>
+								</entry>
+								<entry align="center" colname="c4">
+									<p>6</p>
+								</entry>
+								<entry align="center" colname="c5">
+									<p>792</p>
+								</entry>
+								<entry align="center" colname="c6">
+									<p>426</p>
+								</entry>
+								<entry align="center" colname="c7">
+									<p>54</p>
+								</entry>
+							</row>
+							<row>
+								<entry align="center" colname="c1">
+									<p>
+										<it>Zaire ebolavirus</it>
+									</p>
+								</entry>
+								<entry align="center" colname="c2">
+									<p>1976</p>
+								</entry>
+								<entry align="center" colname="c3">
+									<p>DR Congo</p>
+								</entry>
+								<entry align="center" colname="c4">
+									<p>12</p>
+								</entry>
+								<entry align="center" colname="c5">
+									<p>1,388*</p>
+								</entry>
+								<entry align="center" colname="c6">
+									<p>1,100*</p>
+								</entry>
+								<entry align="center" colname="c7">
+									<p>79</p>
+								</entry>
+							</row>
+							<row>
+								<entry align="center" colname="c1">
+									<p>
+										<it>Reston ebolavirus</it>
+									</p>
+								</entry>
+								<entry align="center" colname="c2">
+									<p>1989</p>
+								</entry>
+								<entry align="center" colname="c3">
+									<p>Philippines</p>
+								</entry>
+								<entry align="center" colname="c4">
+									<p>0</p>
+								</entry>
+								<entry align="center" colname="c5">
+									<p>0</p>
+								</entry>
+								<entry align="center" colname="c6">
+									<p>0</p>
+								</entry>
+								<entry align="center" colname="c7">
+									<p>&#8211;</p>
+								</entry>
+							</row>
+							<row>
+								<entry align="center" colname="c1">
+									<p>
+										<it>Ta&#239; Forest ebolavirus</it>
+									</p>
+								</entry>
+								<entry align="center" colname="c2">
+									<p>1994</p>
+								</entry>
+								<entry align="center" colname="c3">
+									<p>C&#244;te d&#8217;Ivoire</p>
+								</entry>
+								<entry align="center" colname="c4">
+									<p>0</p>
+								</entry>
+								<entry align="center" colname="c5">
+									<p>1</p>
+								</entry>
+								<entry align="center" colname="c6">
+									<p>0</p>
+								</entry>
+								<entry align="center" colname="c7">
+									<p>&#8211;</p>
+								</entry>
+							</row>
+							<row>
+								<entry align="center" colname="c1">
+									<p>
+										<it>Bundibugyo ebolavirus</it>
+									</p>
+								</entry>
+								<entry align="center" colname="c2">
+									<p>2007</p>
+								</entry>
+								<entry align="center" colname="c3">
+									<p>Uganda</p>
+								</entry>
+								<entry align="center" colname="c4">
+									<p>2</p>
+								</entry>
+								<entry align="center" colname="c5">
+									<p>208</p>
+								</entry>
+								<entry align="center" colname="c6">
+									<p>78</p>
+								</entry>
+								<entry align="center" colname="c7">
+									<p>38</p>
+								</entry>
+							</row>
+							<row rowsep="1">
+								<entry align="center" colname="c1">
+									<p>
+										<it>Lloviu cuevavirus</it>
+									</p>
+								</entry>
+								<entry align="center" colname="c2">
+									<p>2010</p>
+								</entry>
+								<entry align="center" colname="c3">
+									<p>Spain</p>
+								</entry>
+								<entry align="center" colname="c4">
+									<p>0</p>
+								</entry>
+								<entry align="center" colname="c5">
+									<p>0</p>
+								</entry>
+								<entry align="center" colname="c6">
+									<p>0</p>
+								</entry>
+								<entry align="center" colname="c7">
+									<p>&#8211;</p>
+								</entry>
+							</row>
+						</tbody>
+					</tgroup>
+				</table>
+				<p>Ebola viruses are RNA viruses whose genome encodes seven proteins 
+					<abbrgrp>
+						<abbr bid="B4">4</abbr>
+						<abbr bid="B5">5</abbr>
+					</abbrgrp>. They are of filamentary form, sometimes branched, with a diameter of 80&#160;nm and a length of up to 14,000&#160;nm (Figure&#160;
+					<figr fid="F1">1</figr>). The protein shell encloses the tubular helical nucleocapsid. Surface transmembrane glycoproteins of the virion provide the binding and fusion with the cell membrane, and penetration into the cell. Glycoproteins are responsible for almost all the virulence, even though it does not explain all the pathogenicity 
+					<abbrgrp>
+						<abbr bid="B6">6</abbr>
+					</abbrgrp>. Monocytes, particularly macrophages, are the first cells infected, triggering apoptosis in lymphocytes 
+					<abbrgrp>
+						<abbr bid="B7">7</abbr>
+					</abbrgrp>. Within three days, the virions invade the endothelial system 
+					<abbrgrp>
+						<abbr bid="B4">4</abbr>
+						<abbr bid="B5">5</abbr>
+					</abbrgrp>. The inhibition of the immune response, including reduced production of interferon, favors the rapid spread of the virus in the body 
+					<abbrgrp>
+						<abbr bid="B8">8</abbr>
+						<abbr bid="B9">9</abbr>
+					</abbrgrp>.</p>
+				<fig id="F1"><title><p>Figure 1</p></title><caption><p>Ultrastructural morphology of Ebola virus virion (image by US Centers for Disease Control and Prevention and Cynthia Goldsmith)</p></caption><text>
+   <p>
+      <b>Ultrastructural morphology of Ebola virus virion (image by US Centers for Disease Control and Prevention and Cynthia Goldsmith).</b>
+   </p>
+</text><graphic file="1678-9199-20-44-1"/></fig>
+				<p>The genus Ebola comprises five species, including the four African species involved in human clinical cases 
+					<abbrgrp>
+						<abbr bid="B3">3</abbr>
+						<abbr bid="B10">10</abbr>
+					</abbrgrp>. Three of them were identified during Central African epidemics: first, <it>Sudan ebolavirus</it> and <it>Zaire ebolavirus</it>, both in 1976 respectively in Sudan and DRC, and more recently <it>Bundibugyo ebolavirus</it>, in 2007 in Uganda 
+					<abbrgrp>
+						<abbr bid="B11">11</abbr>
+						<abbr bid="B12">12</abbr>
+						<abbr bid="B13">13</abbr>
+						<abbr bid="B14">14</abbr>
+					</abbrgrp>. A fourth species, <it>Ta&#239; Forest ebolavirus</it>, was isolated from a primatologist who autopsied a chimpanzee in C&#244;te d&#8217;Ivoire and survived the disease 
+					<abbrgrp>
+						<abbr bid="B15">15</abbr>
+					</abbrgrp>. The last species, <it>Reston ebolavirus</it>, was isolated from monkeys native to Philippines farms 
+					<abbrgrp>
+						<abbr bid="B16">16</abbr>
+					</abbrgrp>. The disease is deadly to monkeys. However, no human cases have been reported to date despite the presence of antibodies proving the infection in pigs (also without clinical illness) and humans 
+					<abbrgrp>
+						<abbr bid="B17">17</abbr>
+					</abbrgrp>.</p>
+				<p>According to Carroll <it>et al</it>. 
+					<abbrgrp>
+						<abbr bid="B10">10</abbr>
+					</abbrgrp>, the nearest common ancestor of Marburg and Ebola viruses dates back to 1,300&#160;years. The separation of <it>Sudan ebolavirus</it> and other species of Ebola would have occurred soon after (about 1,200&#160;years). The other species would have been separated much later, probably in the last hundred years or less (Figure&#160;
+					<figr fid="F2">2</figr>).</p>
+				<fig id="F2"><title><p>Figure 2</p></title><caption><p>Tentative of <it>Filoviridae</it> phylogeny (scale on bottom left represents about 100&#160;years) <abbrgrp><abbr bid="B2">2</abbr><abbr bid="B10">10</abbr><abbr bid="B17">17</abbr><abbr bid="B18">18</abbr><abbr bid="B19">19</abbr><abbr bid="B20">20</abbr></abbrgrp></p></caption><text>
+   <p>
+      <b>Tentative of </b>
+      <b>
+         <it>Filoviridae </it>
+      </b>
+      <b>phylogeny (scale on bottom left represents about 100&#160;years) </b>
+      <abbrgrp>
+         <abbr bid="B2">2</abbr>
+         <abbr bid="B10">10</abbr>
+         <abbr bid="B17">17</abbr>
+         <abbr bid="B18">18</abbr>
+         <abbr bid="B19">19</abbr>
+         <abbr bid="B20">20</abbr>
+      </abbrgrp>
+      <b>.</b>
+   </p>
+</text><graphic file="1678-9199-20-44-2"/></fig>
+			</sec>
+			<sec>
+				<st>
+					<p>Clinical presentation</p>
+				</st>
+				<p>Incubation ranges from 3 to 21&#160;days 
+					<abbrgrp>
+						<abbr bid="B21">21</abbr>
+					</abbrgrp>. Eichner <it>et al</it>. 
+					<abbrgrp>
+						<abbr bid="B22">22</abbr>
+					</abbrgrp> determined that the incubation period was 12.7&#8201;&#177;&#8201;4.3&#160;days, which fixes the average time between two generations of patients. The epidemic is considered complete after an interval of at least twice the maximum incubation period, <it>i.e.</it> 42&#160;days after the death or recovery of the last confirmed case 
+					<abbrgrp>
+						<abbr bid="B23">23</abbr>
+					</abbrgrp>.</p>
+				<p>The disease lasts 5 to 15&#160;days 
+					<abbrgrp>
+						<abbr bid="B24">24</abbr>
+					</abbrgrp>. It begins suddenly with fever, headache, abdominal pain, arthralgia and myalgia, therefore the general picture resembles a flu syndrome 
+					<abbrgrp>
+						<abbr bid="B25">25</abbr>
+						<abbr bid="B26">26</abbr>
+						<abbr bid="B27">27</abbr>
+						<abbr bid="B28">28</abbr>
+						<abbr bid="B29">29</abbr>
+					</abbrgrp>. About half of patients complain of cough and sore throat with dysphagia. Digestive disorders (diarrhea, nausea, vomiting) follow in a variable proportion of patients. Hemorrhages occur in 30-80% of patients, mostly at the end of the illness, expressed by purpura, epistaxis, gingival bleeding, gastrointestinal bleeding or other, and appear to be associated with the severity of infection 
+					<abbrgrp>
+						<abbr bid="B24">24</abbr>
+						<abbr bid="B25">25</abbr>
+						<abbr bid="B26">26</abbr>
+						<abbr bid="B27">27</abbr>
+						<abbr bid="B28">28</abbr>
+						<abbr bid="B29">29</abbr>
+						<abbr bid="B30">30</abbr>
+					</abbrgrp>. The variation in prevalence of symptoms, especially bleeding, is related to the viral species or clinical description that is based, according to the studies, on either suspected or confirmed cases.</p>
+				<p>Mortality is always high, although pathogenicity varies from one species to another (Table&#160;
+					<tblr tid="T1">1</tblr>). In addition, some authors noted that mortality decreased during the epidemic. Several hypotheses have been advanced: loss of the virus virulence after successive generations, route of inoculation, viral load, improved management of cases and better enforcement of prophylaxis during the epidemic 
+					<abbrgrp>
+						<abbr bid="B24">24</abbr>
+						<abbr bid="B26">26</abbr>
+						<abbr bid="B30">30</abbr>
+						<abbr bid="B31">31</abbr>
+						<abbr bid="B32">32</abbr>
+						<abbr bid="B33">33</abbr>
+					</abbrgrp>. One cannot exclude that improving diagnosis in late epidemic reveals less severe cases.</p>
+			</sec>
+			<sec>
+				<st>
+					<p>Diagnosis</p>
+				</st>
+				<p>The clinical diagnosis is difficult at the beginning of the epidemics, because of the poor specificity of the symptoms 
+					<abbrgrp>
+						<abbr bid="B24">24</abbr>
+						<abbr bid="B27">27</abbr>
+						<abbr bid="B29">29</abbr>
+						<abbr bid="B30">30</abbr>
+						<abbr bid="B33">33</abbr>
+					</abbrgrp>. When the virus responsible for the outbreak is identified, all suspected cases should be considered as high risk and meet the case definition and exposure risks (Tables&#160;
+					<tblr tid="T2">2</tblr> and 
+					<tblr tid="T3">3</tblr>) for better management of the epidemic. There is no carrier state.Laboratory diagnosis can only be performed in a specialized laboratory. First, there is no commercial reagent and, secondly, the samples represent an extreme biohazard that must be handled under containment conditions of the highest level (biosafety level 4 &#8211; BSL-4; Figure&#160;
+					<figr fid="F3">3</figr>).</p>
+				<table id="T2">
+					<title>
+						<p>Table 2</p>
+					</title>
+					<caption>
+						<p>
+							<b>Case definition of Ebola Virus Disease (EVD) </b><abbrgrp><abbr bid="B23">23</abbr><abbr bid="B34">34</abbr></abbrgrp>
+						</p>
+					</caption>
+					<tgroup align="left" cols="2">
+						<colspec align="left" colname="c1" colnum="1" colwidth="1*"/>
+						<colspec align="left" colname="c2" colnum="2" colwidth="1*"/>
+						<thead valign="top">
+							<row rowsep="1">
+								<entry align="left" colname="c1">
+									<p>
+										<b>Name</b>
+									</p>
+								</entry>
+								<entry align="left" colname="c2">
+									<p>
+										<b>Definition</b>
+									</p>
+								</entry>
+							</row>
+						</thead>
+						<tbody valign="top">
+							<row>
+								<entry colname="c1">
+									<p>
+										<b>Index case</b>
+									</p>
+								</entry>
+								<entry colname="c2">
+									<p>Very first case (probable or confirmed, see below) found to be the origin of the outbreak</p>
+								</entry>
+							</row>
+							<row>
+								<entry colname="c1">
+									<p>
+										<b>Alert case</b>
+									</p>
+								</entry>
+								<entry colname="c2">
+									<p>Any person with sudden onset of high fever or sudden death or bleeding or bloody diarrhea or blood in urine</p>
+								</entry>
+							</row>
+							<row>
+								<entry colname="c1" morerows="1">
+									<p>
+										<b>Suspect case</b> (person under investigation)</p>
+								</entry>
+								<entry colname="c2">
+									<p>Any person, dead or alive, who present (or presented before the death):</p>
+								</entry>
+							</row>
+							<row>
+								<entry colname="c2">
+									<p>(i) fever (&gt;38.5&#176;C or 101.5 &#176;F) with additional symptoms (severe headache, muscle pain, vomiting, diarrhea, abdominal pain, or unexplained hemorrhage) and (ii) epidemiologic risk factors within the past 21 days before the onset of symptoms (close contact with body fluids of a suspect or probable case of EVD, or direct handling of bush animals from disease-endemic areas)</p>
+								</entry>
+							</row>
+							<row>
+								<entry colname="c1">
+									<p>
+										<b>Probable case</b>
+									</p>
+								</entry>
+								<entry colname="c2">
+									<p>Person with symptoms compatible with EVD, as evaluated by a clinician, or a dead person with an epidemiological link with a confirmed case</p>
+								</entry>
+							</row>
+							<row>
+								<entry colname="c1" morerows="1">
+									<p>
+										<b>Contacts</b>
+									</p>
+								</entry>
+								<entry colname="c2">
+									<p>Person without suggestive symptom of the disease, but who has been in contact with a suspect or probable case of EVD (living in the same house, provided care during the illness, participated in the burial rites etc.). It should be important to assess the risk level (see Table&#160;
+										<tblr tid="T3">3</tblr>).</p>
+								</entry>
+							</row>
+							<row>
+								<entry colname="c2">
+									<p>If laboratory samples are obtained at an appropriate time during the illness, the previous notification categories should be reclassified as &#8220;laboratory-confirmed&#8221; cases and &#8220;not a case&#8221;</p>
+								</entry>
+							</row>
+							<row>
+								<entry colname="c1">
+									<p>
+										<b>Confirmed case</b>
+									</p>
+								</entry>
+								<entry colname="c2">
+									<p>Case with positive laboratory response for either Ebola virus antigen or Ebola IgG antibody</p>
+								</entry>
+							</row>
+							<row rowsep="1">
+								<entry colname="c1">
+									<p>
+										<b>&#8220;Not a case&#8221;</b>
+									</p>
+								</entry>
+								<entry colname="c2">
+									<p>Person with no Ebola-specific detectable antibody or antigen</p>
+								</entry>
+							</row>
+						</tbody>
+					</tgroup>
+				</table>
+				<table id="T3">
+					<title>
+						<p>Table 3</p>
+					</title>
+					<caption>
+						<p>
+							<b>Definition and assessment of risk exposure </b><abbrgrp>
+								<abbr bid="B23">23</abbr>
+								<abbr bid="B34">34</abbr>
+								<abbr bid="B35">35</abbr>
+								<abbr bid="B36">36</abbr>
+							</abbrgrp>
+						</p>
+					</caption>
+					<tgroup align="left" cols="2">
+						<colspec align="center" colname="c1" colnum="1" colwidth="1*"/>
+						<colspec align="center" colname="c2" colnum="2" colwidth="1*"/>
+						<thead valign="top">
+							<row rowsep="1">
+								<entry align="left" colname="c1">
+									<p>
+										<b>Risk level</b>
+									</p>
+								</entry>
+								<entry align="left" colname="c2">
+									<p>
+										<b>Definition</b>
+									</p>
+								</entry>
+							</row>
+						</thead>
+						<tbody valign="top">
+							<row>
+								<entry colname="c1" morerows="3">
+									<p>
+										<b>High-risk exposure</b>
+									</p>
+								</entry>
+								<entry colname="c2">
+									<p>&#8226; Percutaneous injury, e.g. needlestick, or mucous membrane exposure to body fluids of an EVD patient</p>
+								</entry>
+							</row>
+							<row>
+								<entry colname="c2">
+									<p>&#8226; Direct care or exposure to body fluids of an EVD patient without appropriate personal protective equipment (PPE)</p>
+								</entry>
+							</row>
+							<row>
+								<entry colname="c2">
+									<p>&#8226; Laboratory worker processing body fluids of confirmed EVD patients without appropriate PPE or standard biosafety precautions</p>
+								</entry>
+							</row>
+							<row>
+								<entry colname="c2">
+									<p>&#8226; Participation in funeral rites that include direct contact with human remains in the geographic area where an outbreak is occurring without appropriate PPE</p>
+								</entry>
+							</row>
+							<row>
+								<entry colname="c1" morerows="1">
+									<p>
+										<b>Low-risk exposure</b>
+									</p>
+								</entry>
+								<entry colname="c2">
+									<p>&#8226; Household member or other casual contact<sup>1</sup> with an EVD patient</p>
+								</entry>
+							</row>
+							<row>
+								<entry colname="c2">
+									<p>&#8226; Providing patient care or casual contact<sup>1</sup> without high-risk exposure with EVD patients in health care facilities in EVD outbreak affected countries</p>
+								</entry>
+							</row>
+							<row>
+								<entry colname="c1" morerows="1" rowsep="1">
+									<p>
+										<b>No known exposure</b>
+									</p>
+								</entry>
+								<entry colname="c2">
+									<p>Persons with no known exposure were present in an EVD outbreak affected country in the past 21 days with no low-risk or high-risk exposures</p>
+								</entry>
+							</row>
+							<row rowsep="1">
+								<entry colname="c2">
+									<p>
+										<sup>1</sup>Casual contact is defined as (i) being within approximately 3 feet (1 meter) or within the room or care area for a prolonged period of time (e.g. healthcare personnel, household members) while not wearing recommended personal protective equipment; or (ii) having direct brief contact (e.g., shaking hands) with an EVD case while not wearing recommended personal protective equipment</p>
+								</entry>
+							</row>
+						</tbody>
+					</tgroup>
+				</table>
+				<fig id="F3"><title><p>Figure 3</p></title><caption><p>Study of Ebola virus in a high-security laboratory BSL-4 (photo by IRD, &#169;IRD)</p></caption><text>
+   <p>
+      <b>Study of Ebola virus in a high-security laboratory BSL-4 (photo by IRD, &#169;IRD).</b>
+   </p>
+</text><graphic file="1678-9199-20-44-3"/></fig>
+				<p>In patients, the diagnosis is carried out by the detection of viral antigens through ELISA, identification of nucleic acid by PCR, specific antibody titer, or virus isolation. Specific IgM and IgG antibodies appear during the second week following the first clinical signs (about 15 to 20&#160;days after the infection). IgM titers persist about two months whereas IgG titers remain several years after the end of the disease 
+					<abbrgrp>
+						<abbr bid="B37">37</abbr>
+					</abbrgrp>.</p>
+				<p>Virus isolation can be achieved by inoculation in mice, guinea pigs or non-human primates in whom the disease is very close to what is observed in humans. The virus grows on kidney cell lines from African green monkey <it>Cercopithecus aethiops</it>. The diagnosis is made by optical microscopy examination of cytopathic effects, visualization of the virions by electron microscopy, identification of specific proteins by ELISA, or RNA detection by PCR.</p>
+				<p>IgG titration allows retrospective diagnosis in convalescents or exposed persons, or epidemiological investigations even years after the epidemic.</p>
+			</sec>
+			<sec>
+				<st>
+					<p>Treatment</p>
+				</st>
+				<p>Antibodies acquired during the disease persist in survivors for more than ten years after the recovery. There is still no evidence that primary infection is protective in humans, apart from neutralization tests <it>in vitro</it> 
+					<abbrgrp>
+						<abbr bid="B38">38</abbr>
+					</abbrgrp>. Moreover, up to this moment, there is no vaccine or effective treatment.</p>
+				<p>Studies on preventive vaccines are in progress 
+					<abbrgrp>
+						<abbr bid="B39">39</abbr>
+						<abbr bid="B40">40</abbr>
+					</abbrgrp>. Some of them showed very good efficacy and are produced under good manufacturing practices conditions. Phase I trials demonstrated that the drug is safe for humans 
+					<abbrgrp>
+						<abbr bid="B40">40</abbr>
+					</abbrgrp>. However, vaccine development is hampered by limited commercial interests, even taking into account the risks of bioterrorism-related dispersion of such virus. The limited number of cases, despite the high mortality, adds to the complexity &#8211; and cost &#8211; of large-scale immunization of a scattered and often inaccessible population 
+					<abbrgrp>
+						<abbr bid="B41">41</abbr>
+					</abbrgrp>.</p>
+				<p>Post-exposure management should consider either passive immunotherapy, or administering drugs that block the action of the virus or its replication. Convalescent sera, thought to contain natural specific protective antibodies developed during the disease, have been used exceptionally, with some success 
+					<abbrgrp>
+						<abbr bid="B42">42</abbr>
+						<abbr bid="B43">43</abbr>
+					</abbrgrp>. It is noteworthy that these patients had also received better symptomatic treatments than regular patients, and were not representative. However, despite this indisputable bias, several experimental studies have confirmed, particularly in non-human primates, the effectiveness of such approach 
+					<abbrgrp>
+						<abbr bid="B44">44</abbr>
+					</abbrgrp>. The development of specific drugs is underway with some promising molecules, including monoclonal antibodies, which use is related to passive immunotherapy 
+					<abbrgrp>
+						<abbr bid="B45">45</abbr>
+					</abbrgrp>. Recently, Warren <it>et al</it>. 
+					<abbrgrp>
+						<abbr bid="B46">46</abbr>
+					</abbrgrp> showed that a new nucleoside analogue protects against infection with <it>Filoviridae</it> by inhibiting the viral polymerase in the <it>Macacus cynomolgus</it> model that, moreover, seems to tolerate well the treatment.</p>
+				<p>Symptomatic treatments are poorly documented because of the rarity of the disease (less than 2,500 known cases worldwide between 1976 and 2013) and the paucity of resources in endemic countries, which limits the choice of drugs 
+					<abbrgrp>
+						<abbr bid="B47">47</abbr>
+					</abbrgrp>. Administration of antihemorrhagic drugs, substitution treatments, including transfusions, plasmapheresis or dialysis, and resuscitation are anecdotal and concern very few patients 
+					<abbrgrp>
+						<abbr bid="B47">47</abbr>
+					</abbrgrp>. Although one of the main virus targets, interferon has not been an effective treatment, which confirms that the impairment of the immune system is deep 
+					<abbrgrp>
+						<abbr bid="B4">4</abbr>
+						<abbr bid="B5">5</abbr>
+						<abbr bid="B47">47</abbr>
+						<abbr bid="B48">48</abbr>
+					</abbrgrp>. Most often, palliative treatments are limited to rehydration with sugar solutions, preferably orally to avoid injections, analgesic, antipyretic, antiemetic, anti-diarrheal and sedatives or antipsychotic drugs to ease agitated and anxious patients.</p>
+			</sec>
+			<sec>
+				<st>
+					<p>Natural history of ebola viruses</p>
+				</st>
+				<p>The emergence, less than 50&#160;years ago, of Ebola virus remains an enigma. It is possible that sporadic cases or limited outbreaks occurred in the past and were unreported due to lack of epidemiological surveillance or appropriate diagnosis. Scattered and minor manifestations of EVD suggest that Ebola viruses circulate in a pathogen complex showing no (or few) contacts with human populations. Destruction of forests and human impact on broader areas could explain the increased frequency and severity of outbreaks 
+					<abbrgrp>
+						<abbr bid="B49">49</abbr>
+					</abbrgrp>. However, we cannot exclude a recent emergence of the virus that would spread rapidly in a susceptible population 
+					<abbrgrp>
+						<abbr bid="B50">50</abbr>
+					</abbrgrp>. According to Polonsky <it>et al</it>. 
+					<abbrgrp>
+						<abbr bid="B51">51</abbr>
+					</abbrgrp>, increasing frequency of epidemics may result from the combination of: improvement of monitoring and diagnostic capacities, increase of contact among humans and the natural reservoirs of the virus, and growth of the viral load and prevalence of the virus in reservoirs.</p>
+				<p>Several epidemiological investigations in Central and East Africa have shown circulation of Ebola virus in the human population at a significant rate, but that does not always entail the emergence of an epidemic 
+					<abbrgrp>
+						<abbr bid="B24">24</abbr>
+						<abbr bid="B52">52</abbr>
+						<abbr bid="B53">53</abbr>
+					</abbrgrp>.</p>
+				<p>The natural reservoir of the virus is not known with certainty. Extensive investigations made in small mammals, even sensitive to the Ebola viruses, were negative during the various epidemics in Central Africa 
+					<abbrgrp>
+						<abbr bid="B26">26</abbr>
+						<abbr bid="B54">54</abbr>
+						<abbr bid="B55">55</abbr>
+						<abbr bid="B56">56</abbr>
+					</abbrgrp>. Subsequent investigations continued outside epidemics. Although viral RNA and specific antibodies have been identified in small mammals, no potential natural host has been acknowledged until 2005 
+					<abbrgrp>
+						<abbr bid="B57">57</abbr>
+					</abbrgrp>. However, initially dismissed due to many negative samples, fruit bats (Figure&#160;
+					<figr fid="F4">4</figr>) were found with specific viral DNA and antibodies. These animals seem resistant to <it>Filoviridae</it> pathogenicity 
+					<abbrgrp>
+						<abbr bid="B18">18</abbr>
+						<abbr bid="B58">58</abbr>
+						<abbr bid="B59">59</abbr>
+						<abbr bid="B60">60</abbr>
+						<abbr bid="B61">61</abbr>
+						<abbr bid="B62">62</abbr>
+						<abbr bid="B63">63</abbr>
+					</abbrgrp>.</p>
+				<fig id="F4"><title><p>Figure 4</p></title><caption><p>Group of bats <it>Hypsignathus monstrosus</it> in a mango tree in Lambar&#233;n&#233;, Gabon (photo by Xavier Pourrut, &#169;IRD)</p></caption><text>
+   <p>
+      <b>Group of bats </b>
+      <b>
+         <it>Hypsignathus monstrosus </it>
+      </b>
+      <b>in a mango tree in Lambar&#233;n&#233;, Gabon (photo by Jean-Jacques Lemasson, &#169;IRD).</b>
+   </p>
+</text><graphic file="1678-9199-20-44-4"/></fig>
+				<p>The search for potential vectors, especially among arthropods, has always proved negative, including bedbugs (<it>Cimex hemipterus</it>) captured in the beds of infected persons 
+					<abbrgrp>
+						<abbr bid="B26">26</abbr>
+						<abbr bid="B54">54</abbr>
+						<abbr bid="B64">64</abbr>
+						<abbr bid="B65">65</abbr>
+					</abbrgrp>.</p>
+				<p>Deadly outbreaks of Ebola virus have been observed in non-human primates with high mortality 
+					<abbrgrp>
+						<abbr bid="B66">66</abbr>
+					</abbrgrp>. In addition to the contamination of the Swiss primatologist in Ivory Coast 
+					<abbrgrp>
+						<abbr bid="B15">15</abbr>
+					</abbrgrp>, the index case of several outbreaks have been more or less directly associated with hunting or consumption of bush meat, <it>i.e.</it> monkeys, antelopes, bats 
+					<abbrgrp>
+						<abbr bid="B26">26</abbr>
+						<abbr bid="B58">58</abbr>
+						<abbr bid="B65">65</abbr>
+						<abbr bid="B67">67</abbr>
+						<abbr bid="B68">68</abbr>
+						<abbr bid="B69">69</abbr>
+						<abbr bid="B70">70</abbr>
+						<abbr bid="B71">71</abbr>
+					</abbrgrp>. Natural infection of bats and sharing their narrow ecological niche with many species of non-human primates are strong arguments in favor of their role as a natural reservoir of the virus 
+					<abbrgrp>
+						<abbr bid="B58">58</abbr>
+						<abbr bid="B59">59</abbr>
+						<abbr bid="B60">60</abbr>
+						<abbr bid="B61">61</abbr>
+					</abbrgrp>. Some species, including <it>Eidolon helvum</it>, <it>Hypsignathus monstrosus</it>, <it>Myonycteris torquata</it> and <it>Epomops franqueti</it>, migrate long distances (&gt;2,500&#160;km), which could explain the multiple remote epidemic clusters 
+					<abbrgrp>
+						<abbr bid="B58">58</abbr>
+						<abbr bid="B72">72</abbr>
+						<abbr bid="B73">73</abbr>
+					</abbrgrp>.</p>
+				<p>Seasonal variation in mortality in chimpanzees of the Tai forest, Ivory Coast, and prevalence of specific antibodies against <it>Zaire ebolavirus</it> virus in febrile patients from East Africa suggests an influence of the climate in the occurrences of Ebola epidemics 
+					<abbrgrp>
+						<abbr bid="B66">66</abbr>
+						<abbr bid="B74">74</abbr>
+					</abbrgrp>. Pinzon <it>et al</it>. 
+					<abbrgrp>
+						<abbr bid="B75">75</abbr>
+					</abbrgrp> found a close relationship between the onset of epidemics and particularly dry conditions at the end of the rainy season, leading to a change in the behavior of fruit-eating mammals, particularly sensitive to weather changes, resulting in the increase of virus circulation or human contamination 
+					<abbrgrp>
+						<abbr bid="B76">76</abbr>
+					</abbrgrp>. The seasons punctuate migration of bats, which could explain the emergence of epidemics 
+					<abbrgrp>
+						<abbr bid="B58">58</abbr>
+						<abbr bid="B62">62</abbr>
+					</abbrgrp>.</p>
+			</sec>
+			<sec>
+				<st>
+					<p>Human transmission of Ebola viruses</p>
+				</st>
+				<p>The contamination of index cases is probably due to contact with an infected animal. Human transmission happens only through close contact with an ill or convalescent person, although at this stage the risk of infection is very small. Studies conducted during the various epidemics have shown that less than one fifth of the people (see Tables&#160;
+					<tblr tid="T2">2</tblr> and 
+					<tblr tid="T3">3</tblr>) living with a confirmed or probable primary patient have developed the disease 
+					<abbrgrp>
+						<abbr bid="B24">24</abbr>
+						<abbr bid="B25">25</abbr>
+						<abbr bid="B26">26</abbr>
+						<abbr bid="B35">35</abbr>
+					</abbrgrp>. All secondary cases were recorded among people with close contact with the patient and exposed to infected biological fluids. Conversely, people who had no contact with the patient were not sick. Such close contact with the patient throughout care occur mainly during the illness or burial preparation, including washing the body and funeral ritual that can be long and intimate 
+					<abbrgrp>
+						<abbr bid="B25">25</abbr>
+						<abbr bid="B26">26</abbr>
+						<abbr bid="B77">77</abbr>
+						<abbr bid="B78">78</abbr>
+						<abbr bid="B79">79</abbr>
+					</abbrgrp>. The risk greatly increases due to the delay in diagnosis and appropriate management 
+					<abbrgrp>
+						<abbr bid="B24">24</abbr>
+						<abbr bid="B27">27</abbr>
+						<abbr bid="B29">29</abbr>
+						<abbr bid="B30">30</abbr>
+						<abbr bid="B33">33</abbr>
+					</abbrgrp>.</p>
+				<p>Ebola viruses have been detected in most patient secretions. They are present in the blood, saliva, feces, breast milk, tears and genital secretions. They have not been isolated from vomit, sputum, sweat or urine. However, the number of tested samples was low 
+					<abbrgrp>
+						<abbr bid="B80">80</abbr>
+					</abbrgrp>. The virus persists in breast milk, genital secretions and glass during convalescence and up to 13&#160;weeks after recovery 
+					<abbrgrp>
+						<abbr bid="B27">27</abbr>
+						<abbr bid="B80">80</abbr>
+						<abbr bid="B81">81</abbr>
+					</abbrgrp>. Finally, the risk of transmission from fomites (towels, clothes and sheets from the patient), especially during convalescence, is low and basic protection measures are likely to be sufficient 
+					<abbrgrp>
+						<abbr bid="B80">80</abbr>
+					</abbrgrp>.</p>
+				<p>Nosocomial transmission is behind many hospital outbreaks 
+					<abbrgrp>
+						<abbr bid="B21">21</abbr>
+						<abbr bid="B24">24</abbr>
+						<abbr bid="B28">28</abbr>
+					</abbrgrp>. Injection materials reused without precaution or inadequately sterilized have been repeatedly denounced and remain a major cause of epidemic spread. This also applies to traditional healers whose practices are often septic 
+					<abbrgrp>
+						<abbr bid="B67">67</abbr>
+						<abbr bid="B82">82</abbr>
+					</abbrgrp>.</p>
+				<p>Finally, all the studies performed during the outbreaks of EVD showed that contamination occurs due to close contact with the blood or secretions of an infected patient through three ways 
+					<abbrgrp>
+						<abbr bid="B25">25</abbr>
+						<abbr bid="B26">26</abbr>
+						<abbr bid="B35">35</abbr>
+						<abbr bid="B36">36</abbr>
+					</abbrgrp>:</p>
+				<p indent="1">&#8226; Patient care &#8211; usually a family member takes care of the patient during the illness.</p>
+				<p indent="1">&#8226; Preparing the deceased for funeral before or during burial.</p>
+				<p indent="1">&#8226; Nosocomial transmission &#8211; reuse of medical equipment that has been previously used in a patient infected with Ebola virus.</p>
+				<p>There is no contamination by air or just handshake.</p>
+			</sec>
+			<sec>
+				<st>
+					<p>Manifestations of Ebola viruses in Africa (1976&#8211;2012)</p>
+				</st>
+				<p>Since their discovery in 1976, simultaneously in Sudan and DRC, and until 2012, <it>i.e.</it> the recent outbreaks observed in Uganda and again in the DRC, Ebola viruses were notified 27 times (Table&#160;
+					<tblr tid="T4">4</tblr>, Figure&#160;
+					<figr fid="F5">5</figr>), including in 22 epidemics. It is possible that sporadic cases or limited outbreaks have escaped any mention due to the remoteness and poverty of the concerned people.</p>
+				<table id="T4">
+					<title>
+						<p>Table 4</p>
+					</title>
+					<caption>
+						<p>
+							<b>Characteristics of the African manifestations of Ebola virus (bolded names indicate the place of first case occurrence)</b>
+						</p>
+					</caption>
+					<tgroup align="left" cols="11">
+						<colspec align="center" colname="c1" colnum="1" colwidth="1*"/>
+						<colspec align="center" colname="c2" colnum="2" colwidth="1*"/>
+						<colspec align="center" colname="c3" colnum="3" colwidth="1*"/>
+						<colspec align="center" colname="c4" colnum="4" colwidth="1*"/>
+						<colspec align="center" colname="c5" colnum="5" colwidth="1*"/>
+						<colspec align="center" colname="c6" colnum="6" colwidth="1*"/>
+						<colspec align="center" colname="c7" colnum="7" colwidth="1*"/>
+						<colspec align="center" colname="c8" colnum="8" colwidth="1*"/>
+						<colspec align="center" colname="c9" colnum="9" colwidth="1*"/>
+						<colspec align="center" colname="c10" colnum="10" colwidth="1*"/>
+						<colspec align="center" colname="c11" colnum="11" colwidth="1*"/>
+						<thead valign="top">
+							<row>
+								<entry align="center" colname="c1" morerows="1" rowsep="1" valign="middle">
+									<p>
+										<b>Year</b>
+									</p>
+								</entry>
+								<entry align="center" colname="c2" morerows="1" rowsep="1" valign="middle">
+									<p>
+										<b>Country</b>
+									</p>
+								</entry>
+								<entry align="center" colname="c3" morerows="1" rowsep="1" valign="middle">
+									<p>
+										<b>Districts</b>
+									</p>
+								</entry>
+								<entry align="center" colname="c4" morerows="1" rowsep="1" valign="middle">
+									<p>
+										<b>Ebola species</b>
+									</p>
+								</entry>
+								<entry align="center" colname="c5" morerows="1" rowsep="1" valign="middle">
+									<p>
+										<b>Length (weeks)</b>
+									</p>
+								</entry>
+								<entry align="center" colname="c6" nameend="c9" namest="c6" rowsep="1" valign="middle">
+									<p>
+										<b>Number of cases</b>
+									</p>
+								</entry>
+								<entry align="center" colname="c10" morerows="1" rowsep="1" valign="middle">
+									<p>
+										<b>Ways of transmission</b>
+									</p>
+								</entry>
+								<entry align="center" colname="c11" morerows="1" rowsep="1" valign="middle">
+									<p>
+										<b>References</b>
+									</p>
+								</entry>
+							</row>
+							<row rowsep="1">
+								<entry align="center" colname="c6" valign="middle">
+									<p>
+										<b>Presumed*</b>
+									</p>
+								</entry>
+								<entry align="center" colname="c7" valign="middle">
+									<p>
+										<b>Confirmed</b>
+									</p>
+								</entry>
+								<entry align="center" colname="c8" valign="middle">
+									<p>
+										<b>Deaths</b>
+									</p>
+								</entry>
+								<entry align="center" colname="c9" valign="middle">
+									<p>
+										<b>Total</b>
+									</p>
+								</entry>
+							</row>
+						</thead>
+						<tfoot>
+							<p>*Alert, suspected or probable case, <it>i.e.</it> diagnosis based on clinical and/or epidemiological criteria but not biological evidence (see Table&#160;
+								<tblr tid="T3">3</tblr>). In some outbreaks, case definition changed during the epidemics.</p>
+							<p>**Hospital transmission due to needle and syringe contamination, contact with patient&#8217;s blood, secretions or fomites.</p>
+						</tfoot>
+						<tbody valign="top">
+							<row>
+								<entry align="center" colname="c1">
+									<p>1976</p>
+								</entry>
+								<entry align="center" colname="c2">
+									<p>Sudan</p>
+								</entry>
+								<entry align="center" colname="c3">
+									<p>
+										<b>Nzara</b>, Maridi, Tembura, Juba</p>
+								</entry>
+								<entry align="center" colname="c4">
+									<p>Sudan</p>
+								</entry>
+								<entry align="center" colname="c5">
+									<p>22</p>
+								</entry>
+								<entry align="center" colname="c6">
+									<p>227</p>
+								</entry>
+								<entry align="center" colname="c7">
+									<p>57</p>
+								</entry>
+								<entry align="center" colname="c8">
+									<p>151</p>
+								</entry>
+								<entry align="center" colname="c9">
+									<p>284</p>
+								</entry>
+								<entry align="center" colname="c10">
+									<p>Nursing patient</p>
+								</entry>
+								<entry align="center" colname="c11">
+									<p>
+										<abbrgrp>
+											<abbr bid="B12">12</abbr>
+											<abbr bid="B25">25</abbr>
+										</abbrgrp>
+									</p>
+								</entry>
+							</row>
+							<row>
+								<entry align="center" colname="c1" morerows="2">
+									<p>1976</p>
+								</entry>
+								<entry align="center" colname="c2" morerows="2">
+									<p>DRC</p>
+								</entry>
+								<entry align="center" colname="c3" morerows="2">
+									<p>
+										<b>Yambuku</b>, Abumombazi, Kinshasa</p>
+								</entry>
+								<entry align="center" colname="c4" morerows="2">
+									<p>Za&#239;re</p>
+								</entry>
+								<entry align="center" colname="c5" morerows="2">
+									<p>9</p>
+								</entry>
+								<entry align="center" colname="c6" morerows="2">
+									<p>307</p>
+								</entry>
+								<entry align="center" colname="c7" morerows="2">
+									<p>11</p>
+								</entry>
+								<entry align="center" colname="c8" morerows="2">
+									<p>280</p>
+								</entry>
+								<entry align="center" colname="c9" morerows="2">
+									<p>318</p>
+								</entry>
+								<entry align="center" colname="c10">
+									<p>Nosocomial**</p>
+								</entry>
+								<entry align="center" colname="c11" morerows="2">
+									<p>
+										<abbrgrp>
+											<abbr bid="B11">11</abbr>
+											<abbr bid="B12">12</abbr>
+											<abbr bid="B13">13</abbr>
+											<abbr bid="B26">26</abbr>
+										</abbrgrp>
+									</p>
+								</entry>
+							</row>
+							<row>
+								<entry align="center" colname="c10">
+									<p>Nursing patient</p>
+								</entry>
+							</row>
+							<row>
+								<entry align="center" colname="c10">
+									<p>Funeral/burial ritual</p>
+								</entry>
+							</row>
+							<row>
+								<entry align="center" colname="c1">
+									<p>1977</p>
+								</entry>
+								<entry align="center" colname="c2">
+									<p>DRC</p>
+								</entry>
+								<entry align="center" colname="c3">
+									<p>Tandala</p>
+								</entry>
+								<entry align="center" colname="c4">
+									<p>Za&#239;re</p>
+								</entry>
+								<entry align="center" colname="c5">
+									<p>&#8211;</p>
+								</entry>
+								<entry align="center" colname="c6"/>
+								<entry align="center" colname="c7">
+									<p>1</p>
+								</entry>
+								<entry align="center" colname="c8">
+									<p>1</p>
+								</entry>
+								<entry align="center" colname="c9">
+									<p>1</p>
+								</entry>
+								<entry align="center" colname="c10"/>
+								<entry align="center" colname="c11">
+									<p>
+										<abbrgrp>
+											<abbr bid="B83">83</abbr>
+										</abbrgrp>
+									</p>
+								</entry>
+							</row>
+							<row>
+								<entry align="center" colname="c1">
+									<p>1979</p>
+								</entry>
+								<entry align="center" colname="c2">
+									<p>Sudan</p>
+								</entry>
+								<entry align="center" colname="c3">
+									<p>
+										<b>Nzara</b>, Yambio</p>
+								</entry>
+								<entry align="center" colname="c4">
+									<p>Sudan</p>
+								</entry>
+								<entry align="center" colname="c5">
+									<p>10</p>
+								</entry>
+								<entry align="center" colname="c6">
+									<p>24</p>
+								</entry>
+								<entry align="center" colname="c7">
+									<p>10</p>
+								</entry>
+								<entry align="center" colname="c8">
+									<p>22</p>
+								</entry>
+								<entry align="center" colname="c9">
+									<p>34</p>
+								</entry>
+								<entry align="center" colname="c10">
+									<p>Nursing patient</p>
+								</entry>
+								<entry align="center" colname="c11">
+									<p>
+										<abbrgrp>
+											<abbr bid="B24">24</abbr>
+										</abbrgrp>
+									</p>
+								</entry>
+							</row>
+							<row>
+								<entry align="center" colname="c1">
+									<p>1994</p>
+								</entry>
+								<entry align="center" colname="c2">
+									<p>Gabon</p>
+								</entry>
+								<entry align="center" colname="c3">
+									<p>
+										<b>Minkouka</b>, Andock, Mink&#233;b&#233;</p>
+								</entry>
+								<entry align="center" colname="c4">
+									<p>Za&#239;re</p>
+								</entry>
+								<entry align="center" colname="c5">
+									<p>13</p>
+								</entry>
+								<entry align="center" colname="c6">
+									<p>32</p>
+								</entry>
+								<entry align="center" colname="c7">
+									<p>19</p>
+								</entry>
+								<entry align="center" colname="c8">
+									<p>31</p>
+								</entry>
+								<entry align="center" colname="c9">
+									<p>51</p>
+								</entry>
+								<entry align="center" colname="c10">
+									<p>Nursing patient</p>
+								</entry>
+								<entry align="center" colname="c11">
+									<p>
+										<abbrgrp>
+											<abbr bid="B67">67</abbr>
+											<abbr bid="B82">82</abbr>
+											<abbr bid="B84">84</abbr>
+										</abbrgrp>
+									</p>
+								</entry>
+							</row>
+							<row>
+								<entry align="center" colname="c1">
+									<p>1994</p>
+								</entry>
+								<entry align="center" colname="c2">
+									<p>C&#244;te d&#8217;Ivoire</p>
+								</entry>
+								<entry align="center" colname="c3">
+									<p>Ta&#239;</p>
+								</entry>
+								<entry align="center" colname="c4">
+									<p>Ta&#239; Forest</p>
+								</entry>
+								<entry align="center" colname="c5">
+									<p>&#8211;</p>
+								</entry>
+								<entry align="center" colname="c6"/>
+								<entry align="center" colname="c7">
+									<p>1</p>
+								</entry>
+								<entry align="center" colname="c8">
+									<p>0</p>
+								</entry>
+								<entry align="center" colname="c9">
+									<p>1</p>
+								</entry>
+								<entry align="center" colname="c10"/>
+								<entry align="center" colname="c11">
+									<p>
+										<abbrgrp>
+											<abbr bid="B15">15</abbr>
+										</abbrgrp>
+									</p>
+								</entry>
+							</row>
+							<row>
+								<entry align="center" colname="c1">
+									<p>1995</p>
+								</entry>
+								<entry align="center" colname="c2">
+									<p>C&#244;te d&#8217;Ivoire /Liberia</p>
+								</entry>
+								<entry align="center" colname="c3">
+									<p>Gozon</p>
+								</entry>
+								<entry align="center" colname="c4">
+									<p>?</p>
+								</entry>
+								<entry align="center" colname="c5"/>
+								<entry align="center" colname="c6"/>
+								<entry align="center" colname="c7">
+									<p>1</p>
+								</entry>
+								<entry align="center" colname="c8">
+									<p>0</p>
+								</entry>
+								<entry align="center" colname="c9">
+									<p>1</p>
+								</entry>
+								<entry align="center" colname="c10"/>
+								<entry align="center" colname="c11">
+									<p>
+										<abbrgrp>
+											<abbr bid="B85">85</abbr>
+											<abbr bid="B86">86</abbr>
+										</abbrgrp>
+									</p>
+								</entry>
+							</row>
+							<row>
+								<entry align="center" colname="c1" morerows="2">
+									<p>1995</p>
+								</entry>
+								<entry align="center" colname="c2" morerows="2">
+									<p>DRC</p>
+								</entry>
+								<entry align="center" colname="c3" morerows="2">
+									<p>
+										<b>Kikwit</b>, Mosango (&#177;30 villages)</p>
+								</entry>
+								<entry align="center" colname="c4" morerows="2">
+									<p>Za&#239;re</p>
+								</entry>
+								<entry align="center" colname="c5" morerows="2">
+									<p>27</p>
+								</entry>
+								<entry align="center" colname="c6" morerows="2">
+									<p>233</p>
+								</entry>
+								<entry align="center" colname="c7" morerows="2">
+									<p>82</p>
+								</entry>
+								<entry align="center" colname="c8" morerows="2">
+									<p>255</p>
+								</entry>
+								<entry align="center" colname="c9" morerows="2">
+									<p>315</p>
+								</entry>
+								<entry align="center" colname="c10">
+									<p>Nosocomial**</p>
+								</entry>
+								<entry align="center" colname="c11" morerows="2">
+									<p>
+										<abbrgrp>
+											<abbr bid="B28">28</abbr>
+											<abbr bid="B87">87</abbr>
+										</abbrgrp>
+									</p>
+								</entry>
+							</row>
+							<row>
+								<entry align="center" colname="c10">
+									<p>Nursing patient</p>
+								</entry>
+							</row>
+							<row>
+								<entry align="center" colname="c10">
+									<p>Funeral/burial ritual</p>
+								</entry>
+							</row>
+							<row>
+								<entry align="center" colname="c1" morerows="1">
+									<p>1996</p>
+								</entry>
+								<entry align="center" colname="c2" morerows="1">
+									<p>Gabon</p>
+								</entry>
+								<entry align="center" colname="c3" morerows="1">
+									<p>Mayibout</p>
+								</entry>
+								<entry align="center" colname="c4" morerows="1">
+									<p>Za&#239;re</p>
+								</entry>
+								<entry align="center" colname="c5" morerows="1">
+									<p>12</p>
+								</entry>
+								<entry align="center" colname="c6" morerows="1">
+									<p>29</p>
+								</entry>
+								<entry align="center" colname="c7" morerows="1">
+									<p>2</p>
+								</entry>
+								<entry align="center" colname="c8" morerows="1">
+									<p>21</p>
+								</entry>
+								<entry align="center" colname="c9" morerows="1">
+									<p>31</p>
+								</entry>
+								<entry align="center" colname="c10">
+									<p>Eating bush meat</p>
+								</entry>
+								<entry align="center" colname="c11" morerows="1">
+									<p>
+										<abbrgrp>
+											<abbr bid="B67">67</abbr>
+											<abbr bid="B82">82</abbr>
+											<abbr bid="B88">88</abbr>
+										</abbrgrp>
+									</p>
+								</entry>
+							</row>
+							<row>
+								<entry align="center" colname="c10">
+									<p>Funeral/burial ritual</p>
+								</entry>
+							</row>
+							<row>
+								<entry align="center" colname="c1" morerows="1">
+									<p>1996</p>
+								</entry>
+								<entry align="center" colname="c2" morerows="1">
+									<p>Gabon</p>
+								</entry>
+								<entry align="center" colname="c3" morerows="1">
+									<p>
+										<b>Boou&#233;</b>, Balimba, Lastourville, Libreville</p>
+								</entry>
+								<entry align="center" colname="c4" morerows="1">
+									<p>Za&#239;re</p>
+								</entry>
+								<entry align="center" colname="c5" morerows="1">
+									<p>27</p>
+								</entry>
+								<entry align="center" colname="c6" morerows="1">
+									<p>56</p>
+								</entry>
+								<entry align="center" colname="c7" morerows="1">
+									<p>4</p>
+								</entry>
+								<entry align="center" colname="c8" morerows="1">
+									<p>45</p>
+								</entry>
+								<entry align="center" colname="c9" morerows="1">
+									<p>60</p>
+								</entry>
+								<entry align="center" colname="c10">
+									<p>Eating bush meat</p>
+								</entry>
+								<entry align="center" colname="c11" morerows="1">
+									<p>
+										<abbrgrp>
+											<abbr bid="B67">67</abbr>
+											<abbr bid="B82">82</abbr>
+											<abbr bid="B89">89</abbr>
+											<abbr bid="B90">90</abbr>
+											<abbr bid="B91">91</abbr>
+										</abbrgrp>
+									</p>
+								</entry>
+							</row>
+							<row>
+								<entry align="center" colname="c10">
+									<p>Nursing patient</p>
+								</entry>
+							</row>
+							<row>
+								<entry align="center" colname="c1">
+									<p>1996</p>
+								</entry>
+								<entry align="center" colname="c2">
+									<p>South Africa</p>
+								</entry>
+								<entry align="center" colname="c3">
+									<p>Johannesburg</p>
+								</entry>
+								<entry align="center" colname="c4">
+									<p>Za&#239;re</p>
+								</entry>
+								<entry align="center" colname="c5">
+									<p>&#8211;</p>
+								</entry>
+								<entry align="center" colname="c6">
+									<p>0</p>
+								</entry>
+								<entry align="center" colname="c7">
+									<p>2</p>
+								</entry>
+								<entry align="center" colname="c8">
+									<p>2</p>
+								</entry>
+								<entry align="center" colname="c9">
+									<p>2</p>
+								</entry>
+								<entry align="center" colname="c10"/>
+								<entry align="center" colname="c11">
+									<p>
+										<abbrgrp>
+											<abbr bid="B82">82</abbr>
+										</abbrgrp>
+									</p>
+								</entry>
+							</row>
+							<row>
+								<entry align="center" colname="c1" morerows="1">
+									<p>2000</p>
+								</entry>
+								<entry align="center" colname="c2" morerows="1">
+									<p>Uganda</p>
+								</entry>
+								<entry align="center" colname="c3" morerows="1">
+									<p>
+										<b>Gulu</b>, Masindi, Mbarara</p>
+								</entry>
+								<entry align="center" colname="c4" morerows="1">
+									<p>Sudan</p>
+								</entry>
+								<entry align="center" colname="c5" morerows="1">
+									<p>20</p>
+								</entry>
+								<entry align="center" colname="c6" morerows="1">
+									<p>230</p>
+								</entry>
+								<entry align="center" colname="c7" morerows="1">
+									<p>195</p>
+								</entry>
+								<entry align="center" colname="c8" morerows="1">
+									<p>224</p>
+								</entry>
+								<entry align="center" colname="c9" morerows="1">
+									<p>425</p>
+								</entry>
+								<entry align="center" colname="c10">
+									<p>Nosocomial**</p>
+								</entry>
+								<entry align="center" colname="c11" morerows="1">
+									<p>
+										<abbrgrp>
+											<abbr bid="B21">21</abbr>
+											<abbr bid="B31">31</abbr>
+										</abbrgrp>
+									</p>
+								</entry>
+							</row>
+							<row>
+								<entry align="center" colname="c10">
+									<p>Nursing patient</p>
+								</entry>
+							</row>
+							<row>
+								<entry align="center" colname="c1" morerows="2">
+									<p>2001-2002</p>
+								</entry>
+								<entry align="center" colname="c2" morerows="2">
+									<p>Gabon</p>
+								</entry>
+								<entry align="center" colname="c3" morerows="2">
+									<p>
+										<b>M&#233;kambo</b>
+										<ul>,</ul> Makokou, Franceville</p>
+								</entry>
+								<entry align="center" colname="c4" morerows="2">
+									<p>Za&#239;re</p>
+								</entry>
+								<entry align="center" colname="c5" morerows="2">
+									<p>21</p>
+								</entry>
+								<entry align="center" colname="c6" morerows="2">
+									<p>37</p>
+								</entry>
+								<entry align="center" colname="c7" morerows="2">
+									<p>28</p>
+								</entry>
+								<entry align="center" colname="c8" morerows="2">
+									<p>53</p>
+								</entry>
+								<entry align="center" colname="c9" morerows="2">
+									<p>65</p>
+								</entry>
+								<entry align="center" colname="c10">
+									<p>Nosocomial**</p>
+								</entry>
+								<entry align="center" colname="c11" morerows="2">
+									<p>
+										<abbrgrp>
+											<abbr bid="B69">69</abbr>
+											<abbr bid="B82">82</abbr>
+											<abbr bid="B34">34</abbr>
+										</abbrgrp>
+									</p>
+								</entry>
+							</row>
+							<row>
+								<entry align="center" colname="c10">
+									<p>Nursing patient</p>
+								</entry>
+							</row>
+							<row>
+								<entry align="center" colname="c10">
+									<p>Funeral/burial ritual</p>
+								</entry>
+							</row>
+							<row>
+								<entry align="center" colname="c1" morerows="2">
+									<p>2001-2002</p>
+								</entry>
+								<entry align="center" colname="c2" morerows="2">
+									<p>Congo</p>
+								</entry>
+								<entry align="center" colname="c3" morerows="2">
+									<p>Mbomo, Kell&#233;</p>
+								</entry>
+								<entry align="center" colname="c4" morerows="2">
+									<p>Za&#239;re</p>
+								</entry>
+								<entry align="center" colname="c5" morerows="2">
+									<p>20?</p>
+								</entry>
+								<entry align="center" colname="c6" morerows="2">
+									<p>50</p>
+								</entry>
+								<entry align="center" colname="c7" morerows="2">
+									<p>9</p>
+								</entry>
+								<entry align="center" colname="c8" morerows="2">
+									<p>44</p>
+								</entry>
+								<entry align="center" colname="c9" morerows="2">
+									<p>59</p>
+								</entry>
+								<entry align="center" colname="c10">
+									<p>Nosocomial**</p>
+								</entry>
+								<entry align="center" colname="c11" morerows="2">
+									<p>
+										<abbrgrp>
+											<abbr bid="B34">34</abbr>
+										</abbrgrp>
+									</p>
+								</entry>
+							</row>
+							<row>
+								<entry align="center" colname="c10">
+									<p>Nursing patient</p>
+								</entry>
+							</row>
+							<row>
+								<entry align="center" colname="c10">
+									<p>Funeral/burial ritual</p>
+								</entry>
+							</row>
+							<row>
+								<entry align="center" colname="c1">
+									<p>2002</p>
+								</entry>
+								<entry align="center" colname="c2">
+									<p>Congo</p>
+								</entry>
+								<entry align="center" colname="c3">
+									<p>Mbomo</p>
+								</entry>
+								<entry align="center" colname="c4">
+									<p>?</p>
+								</entry>
+								<entry align="center" colname="c5">
+									<p>10</p>
+								</entry>
+								<entry align="center" colname="c6">
+									<p>9</p>
+								</entry>
+								<entry align="center" colname="c7"/>
+								<entry align="center" colname="c8">
+									<p>8</p>
+								</entry>
+								<entry align="center" colname="c9">
+									<p>9</p>
+								</entry>
+								<entry align="center" colname="c10">
+									<p>?</p>
+								</entry>
+								<entry align="center" colname="c11">
+									<p>
+										<abbrgrp>
+											<abbr bid="B34">34</abbr>
+										</abbrgrp>
+									</p>
+								</entry>
+							</row>
+							<row>
+								<entry align="center" colname="c1">
+									<p>2002</p>
+								</entry>
+								<entry align="center" colname="c2">
+									<p>Gabon</p>
+								</entry>
+								<entry align="center" colname="c3">
+									<p>Ekata</p>
+								</entry>
+								<entry align="center" colname="c4">
+									<p>?</p>
+								</entry>
+								<entry align="center" colname="c5">
+									<p>10</p>
+								</entry>
+								<entry align="center" colname="c6">
+									<p>2</p>
+								</entry>
+								<entry align="center" colname="c7"/>
+								<entry align="center" colname="c8">
+									<p>2</p>
+								</entry>
+								<entry align="center" colname="c9">
+									<p>2</p>
+								</entry>
+								<entry align="center" colname="c10">
+									<p>?</p>
+								</entry>
+								<entry align="center" colname="c11">
+									<p>
+										<abbrgrp>
+											<abbr bid="B34">34</abbr>
+										</abbrgrp>
+									</p>
+								</entry>
+							</row>
+							<row>
+								<entry align="center" colname="c1" morerows="1">
+									<p>2002-2003</p>
+								</entry>
+								<entry align="center" colname="c2" morerows="1">
+									<p>Congo</p>
+								</entry>
+								<entry align="center" colname="c3" morerows="1">
+									<p>Mbomo, Kell&#233;</p>
+								</entry>
+								<entry align="center" colname="c4" morerows="1">
+									<p>Za&#239;re</p>
+								</entry>
+								<entry align="center" colname="c5" morerows="1">
+									<p>17</p>
+								</entry>
+								<entry align="center" colname="c6" morerows="1">
+									<p>130</p>
+								</entry>
+								<entry align="center" colname="c7" morerows="1">
+									<p>13</p>
+								</entry>
+								<entry align="center" colname="c8" morerows="1">
+									<p>128</p>
+								</entry>
+								<entry align="center" colname="c9" morerows="1">
+									<p>143</p>
+								</entry>
+								<entry align="center" colname="c10">
+									<p>Nursing patient</p>
+								</entry>
+								<entry align="center" colname="c11" morerows="1">
+									<p>
+										<abbrgrp>
+											<abbr bid="B71">71</abbr>
+										</abbrgrp>
+									</p>
+								</entry>
+							</row>
+							<row>
+								<entry align="center" colname="c10">
+									<p>Funeral/burial ritual</p>
+								</entry>
+							</row>
+							<row>
+								<entry align="center" colname="c1" morerows="1">
+									<p>2003</p>
+								</entry>
+								<entry align="center" colname="c2" morerows="1">
+									<p>Congo</p>
+								</entry>
+								<entry align="center" colname="c3" morerows="1">
+									<p>
+										<b>Mbomo</b>, Mbandza</p>
+								</entry>
+								<entry align="center" colname="c4" morerows="1">
+									<p>Za&#239;re</p>
+								</entry>
+								<entry align="center" colname="c5" morerows="1">
+									<p>7</p>
+								</entry>
+								<entry align="center" colname="c6" morerows="1">
+									<p>18</p>
+								</entry>
+								<entry align="center" colname="c7" morerows="1">
+									<p>17</p>
+								</entry>
+								<entry align="center" colname="c8" morerows="1">
+									<p>29</p>
+								</entry>
+								<entry align="center" colname="c9" morerows="1">
+									<p>35</p>
+								</entry>
+								<entry align="center" colname="c10">
+									<p>Nursing patient</p>
+								</entry>
+								<entry align="center" colname="c11" morerows="1">
+									<p>
+										<abbrgrp>
+											<abbr bid="B92">92</abbr>
+										</abbrgrp>
+									</p>
+								</entry>
+							</row>
+							<row>
+								<entry align="center" colname="c10">
+									<p>Funeral/burial ritual</p>
+								</entry>
+							</row>
+							<row>
+								<entry align="center" colname="c1" morerows="1">
+									<p>2004</p>
+								</entry>
+								<entry align="center" colname="c2" morerows="1">
+									<p>Sudan</p>
+								</entry>
+								<entry align="center" colname="c3" morerows="1">
+									<p>Yambio</p>
+								</entry>
+								<entry align="center" colname="c4" morerows="1">
+									<p>Sudan</p>
+								</entry>
+								<entry align="center" colname="c5" morerows="1">
+									<p>10</p>
+								</entry>
+								<entry align="center" colname="c6" morerows="1">
+									<p>4</p>
+								</entry>
+								<entry align="center" colname="c7" morerows="1">
+									<p>13</p>
+								</entry>
+								<entry align="center" colname="c8" morerows="1">
+									<p>7</p>
+								</entry>
+								<entry align="center" colname="c9" morerows="1">
+									<p>17</p>
+								</entry>
+								<entry align="center" colname="c10">
+									<p>Nursing patient</p>
+								</entry>
+								<entry align="center" colname="c11" morerows="1">
+									<p>
+										<abbrgrp>
+											<abbr bid="B93">93</abbr>
+										</abbrgrp>
+									</p>
+								</entry>
+							</row>
+							<row>
+								<entry align="center" colname="c10">
+									<p>Funeral/burial ritual</p>
+								</entry>
+							</row>
+							<row>
+								<entry align="center" colname="c1" morerows="1">
+									<p>2005</p>
+								</entry>
+								<entry align="center" colname="c2" morerows="1">
+									<p>Congo</p>
+								</entry>
+								<entry align="center" colname="c3" morerows="1">
+									<p>
+										<b>Etoumbi</b>, Mbomo</p>
+								</entry>
+								<entry align="center" colname="c4" morerows="1">
+									<p>Za&#239;re</p>
+								</entry>
+								<entry align="center" colname="c5" morerows="1">
+									<p>6</p>
+								</entry>
+								<entry align="center" colname="c6" morerows="1">
+									<p>11</p>
+								</entry>
+								<entry align="center" colname="c7" morerows="1">
+									<p>1</p>
+								</entry>
+								<entry align="center" colname="c8" morerows="1">
+									<p>10</p>
+								</entry>
+								<entry align="center" colname="c9" morerows="1">
+									<p>12</p>
+								</entry>
+								<entry align="center" colname="c10">
+									<p>Nursing patient</p>
+								</entry>
+								<entry align="center" colname="c11" morerows="1">
+									<p>
+										<abbrgrp>
+											<abbr bid="B70">70</abbr>
+										</abbrgrp>
+									</p>
+								</entry>
+							</row>
+							<row>
+								<entry align="center" colname="c10">
+									<p>Funeral/burial ritual</p>
+								</entry>
+							</row>
+							<row>
+								<entry align="center" colname="c1">
+									<p>2007</p>
+								</entry>
+								<entry align="center" colname="c2">
+									<p>DRC</p>
+								</entry>
+								<entry align="center" colname="c3">
+									<p>Luebo</p>
+								</entry>
+								<entry align="center" colname="c4">
+									<p>Za&#239;re</p>
+								</entry>
+								<entry align="center" colname="c5">
+									<p>17</p>
+								</entry>
+								<entry align="center" colname="c6">
+									<p>&#8804; 170</p>
+								</entry>
+								<entry align="center" colname="c7">
+									<p>&#8805; 17</p>
+								</entry>
+								<entry align="center" colname="c8">
+									<p>186</p>
+								</entry>
+								<entry align="center" colname="c9">
+									<p>264</p>
+								</entry>
+								<entry align="center" colname="c10">
+									<p>No data</p>
+								</entry>
+								<entry align="center" colname="c11">
+									<p>
+										<abbrgrp>
+											<abbr bid="B47">47</abbr>
+											<abbr bid="B19">19</abbr>
+										</abbrgrp>
+									</p>
+								</entry>
+							</row>
+							<row>
+								<entry align="center" colname="c1" morerows="1">
+									<p>2007</p>
+								</entry>
+								<entry align="center" colname="c2" morerows="1">
+									<p>Uganda</p>
+								</entry>
+								<entry align="center" colname="c3" morerows="1">
+									<p>
+										<b>Bundibugy</b>, Kikyo</p>
+								</entry>
+								<entry align="center" colname="c4" morerows="1">
+									<p>Bundibugyo</p>
+								</entry>
+								<entry align="center" colname="c5" morerows="1">
+									<p>20</p>
+								</entry>
+								<entry align="center" colname="c6" morerows="1">
+									<p>75</p>
+								</entry>
+								<entry align="center" colname="c7" morerows="1">
+									<p>56</p>
+								</entry>
+								<entry align="center" colname="c8" morerows="1">
+									<p>42</p>
+								</entry>
+								<entry align="center" colname="c9" morerows="1">
+									<p>131</p>
+								</entry>
+								<entry align="center" colname="c10">
+									<p>Nursing patient</p>
+								</entry>
+								<entry align="center" colname="c11" morerows="1">
+									<p>
+										<abbrgrp>
+											<abbr bid="B29">29</abbr>
+											<abbr bid="B30">30</abbr>
+											<abbr bid="B33">33</abbr>
+											<abbr bid="B94">94</abbr>
+										</abbrgrp>
+									</p>
+								</entry>
+							</row>
+							<row>
+								<entry align="center" colname="c10">
+									<p>Funeral/burial ritual</p>
+								</entry>
+							</row>
+							<row>
+								<entry align="center" colname="c1">
+									<p>2008</p>
+								</entry>
+								<entry align="center" colname="c2">
+									<p>DRC</p>
+								</entry>
+								<entry align="center" colname="c3">
+									<p>
+										<b>Luebo</b>, Mweka</p>
+								</entry>
+								<entry align="center" colname="c4">
+									<p>Za&#239;re</p>
+								</entry>
+								<entry align="center" colname="c5">
+									<p>5</p>
+								</entry>
+								<entry align="center" colname="c6">
+									<p>&#8804; 29</p>
+								</entry>
+								<entry align="center" colname="c7">
+									<p>&#8805; 3</p>
+								</entry>
+								<entry align="center" colname="c8">
+									<p>15</p>
+								</entry>
+								<entry align="center" colname="c9">
+									<p>32</p>
+								</entry>
+								<entry align="center" colname="c10">
+									<p>No data</p>
+								</entry>
+								<entry align="center" colname="c11">
+									<p>
+										<abbrgrp>
+											<abbr bid="B19">19</abbr>
+										</abbrgrp>
+									</p>
+								</entry>
+							</row>
+							<row>
+								<entry align="center" colname="c1">
+									<p>2011</p>
+								</entry>
+								<entry align="center" colname="c2">
+									<p>Uganda</p>
+								</entry>
+								<entry align="center" colname="c3">
+									<p>Luwero</p>
+								</entry>
+								<entry align="center" colname="c4">
+									<p>Sudan</p>
+								</entry>
+								<entry align="center" colname="c5"/>
+								<entry align="center" colname="c6"/>
+								<entry align="center" colname="c7">
+									<p>1</p>
+								</entry>
+								<entry align="center" colname="c8">
+									<p>1</p>
+								</entry>
+								<entry align="center" colname="c9">
+									<p>1</p>
+								</entry>
+								<entry align="center" colname="c10"/>
+								<entry align="center" colname="c11">
+									<p>
+										<abbrgrp>
+											<abbr bid="B95">95</abbr>
+										</abbrgrp>
+									</p>
+								</entry>
+							</row>
+							<row>
+								<entry align="center" colname="c1">
+									<p>2012</p>
+								</entry>
+								<entry align="center" colname="c2">
+									<p>Uganda</p>
+								</entry>
+								<entry align="center" colname="c3">
+									<p>Kibale</p>
+								</entry>
+								<entry align="center" colname="c4">
+									<p>Sudan</p>
+								</entry>
+								<entry align="center" colname="c5">
+									<p>11</p>
+								</entry>
+								<entry align="center" colname="c6">
+									<p>13</p>
+								</entry>
+								<entry align="center" colname="c7">
+									<p>11</p>
+								</entry>
+								<entry align="center" colname="c8">
+									<p>17</p>
+								</entry>
+								<entry align="center" colname="c9">
+									<p>24</p>
+								</entry>
+								<entry align="center" colname="c10">
+									<p>No data</p>
+								</entry>
+								<entry align="center" colname="c11">
+									<p>
+										<abbrgrp>
+											<abbr bid="B96">96</abbr>
+											<abbr bid="B97">97</abbr>
+										</abbrgrp>
+									</p>
+								</entry>
+							</row>
+							<row>
+								<entry align="center" colname="c1">
+									<p>2012</p>
+								</entry>
+								<entry align="center" colname="c2">
+									<p>Uganda</p>
+								</entry>
+								<entry align="center" colname="c3">
+									<p>
+										<b>Luwero</b>
+										<ul>,</ul> Kampala</p>
+								</entry>
+								<entry align="center" colname="c4">
+									<p>Sudan</p>
+								</entry>
+								<entry align="center" colname="c5">
+									<p>8</p>
+								</entry>
+								<entry align="center" colname="c6">
+									<p>3</p>
+								</entry>
+								<entry align="center" colname="c7">
+									<p>6</p>
+								</entry>
+								<entry align="center" colname="c8">
+									<p>4</p>
+								</entry>
+								<entry align="center" colname="c9">
+									<p>7</p>
+								</entry>
+								<entry align="center" colname="c10">
+									<p>No data</p>
+								</entry>
+								<entry align="center" colname="c11">
+									<p>
+										<abbrgrp>
+											<abbr bid="B97">97</abbr>
+											<abbr bid="B98">98</abbr>
+											<abbr bid="B99">99</abbr>
+										</abbrgrp>
+									</p>
+								</entry>
+							</row>
+							<row>
+								<entry align="center" colname="c1" morerows="1">
+									<p>2012</p>
+								</entry>
+								<entry align="center" colname="c2" morerows="1">
+									<p>DRC</p>
+								</entry>
+								<entry align="center" colname="c3" morerows="1">
+									<p>
+										<b>Isiro</b>, Pawa, Dungu</p>
+								</entry>
+								<entry align="center" colname="c4" morerows="1">
+									<p>Bundibugyo</p>
+								</entry>
+								<entry align="center" colname="c5" morerows="1">
+									<p>29</p>
+								</entry>
+								<entry align="center" colname="c6" morerows="1">
+									<p>41</p>
+								</entry>
+								<entry align="center" colname="c7" morerows="1">
+									<p>36</p>
+								</entry>
+								<entry align="center" colname="c8" morerows="1">
+									<p>36</p>
+								</entry>
+								<entry align="center" colname="c9" morerows="1">
+									<p>77</p>
+								</entry>
+								<entry align="center" colname="c10">
+									<p>Nosocomial**</p>
+								</entry>
+								<entry align="center" colname="c11" morerows="1">
+									<p>
+										<abbrgrp>
+											<abbr bid="B79">79</abbr>
+											<abbr bid="B100">100</abbr>
+										</abbrgrp>
+									</p>
+								</entry>
+							</row>
+							<row>
+								<entry align="center" colname="c10">
+									<p>Nursing patient</p>
+								</entry>
+							</row>
+							<row rowsep="1">
+								<entry colname="c1" nameend="c9" namest="c1"/>
+								<entry align="center" colname="c10">
+									<p>Funeral/burial ritual</p>
+								</entry>
+								<entry colname="c11"/>
+							</row>
+						</tbody>
+					</tgroup>
+				</table>
+				<fig id="F5"><title><p>Figure 5</p></title><caption><p>Geographical distribution of African manifestations of Ebola viruses (based on Google&#8482; Earth map)</p></caption><text>
+   <p>
+      <b>Geographical distribution of African manifestations of Ebola viruses (based on Google&#8482; Earth map).</b>
+   </p>
+</text><graphic file="1678-9199-20-44-5"/></fig>
+				<p>Some individual infections, such as those observed in Tandala (DRC) in 1977, Ta&#239; (C&#244;te d&#8217;Ivoire) in 1995, Luwero (Uganda) in 2011, indicate an occult but permanent circulation of Ebola viruses 
+					<abbrgrp>
+						<abbr bid="B15">15</abbr>
+						<abbr bid="B83">83</abbr>
+						<abbr bid="B95">95</abbr>
+					</abbrgrp>. The confirmed case in Gozon (C&#244;te d&#8217;Ivoire) in 1995, which may have come from Liberia, has not been completely documented and is not mentioned after the year 1999 
+					<abbrgrp>
+						<abbr bid="B85">85</abbr>
+						<abbr bid="B86">86</abbr>
+					</abbrgrp>. The index case in Johannesburg in 1996 was a patient infected in Gabon, where he was staying during the Ebola outbreak in that country 
+					<abbrgrp>
+						<abbr bid="B82">82</abbr>
+					</abbrgrp>. Finally, some epidemics may be the expression of successive waves of the same epidemic, as in Gabon in 1996, Gabon and Congo between 2000 and 2003, and Uganda in 2012, confirming the persistence of the Ebola virus.</p>
+				<p>Beyond the diversity of African outbreaks, particularly regarding the incidence and duration of the epidemics (Table&#160;
+					<tblr tid="T5">5</tblr>), we can notice that most of them presented only one source of infection accounting for the spread of the virus. As a result, it can be assumed that either the opportunities for human contact with the virus are rare, or the risk of contamination is limited. The period between the index case and the alert averages about two months. In addition, an equivalent period occurs between the alert and the last confirmed case (Figure&#160;
+					<figr fid="F6">6</figr>).</p>
+				<table id="T5">
+					<title>
+						<p>Table 5</p>
+					</title>
+					<caption>
+						<p>
+							<b>Length of African Ebola outbreaks</b>
+						</p>
+					</caption>
+					<tgroup align="left" cols="7">
+						<colspec align="left" colname="c1" colnum="1" colwidth="1*"/>
+						<colspec align="left" colname="c2" colnum="2" colwidth="1*"/>
+						<colspec align="left" colname="c3" colnum="3" colwidth="1*"/>
+						<colspec align="left" colname="c4" colnum="4" colwidth="1*"/>
+						<colspec align="left" colname="c5" colnum="5" colwidth="1*"/>
+						<colspec align="left" colname="c6" colnum="6" colwidth="1*"/>
+						<colspec align="left" colname="c7" colnum="7" colwidth="1*"/>
+						<thead valign="top">
+							<row rowsep="1">
+								<entry align="left" colname="c1" valign="middle">
+									<p>
+										<b>Outbreak</b>
+									</p>
+								</entry>
+								<entry align="left" colname="c2" valign="middle">
+									<p>
+										<b>Index case</b>
+									</p>
+								</entry>
+								<entry align="left" colname="c3" valign="middle">
+									<p>
+										<b>Alert</b>
+									</p>
+								</entry>
+								<entry align="left" colname="c4" valign="middle">
+									<p>
+										<b>Last case</b>
+									</p>
+								</entry>
+								<entry align="left" colname="c5" valign="middle">
+									<p>
+										<b>Length of outbreak*</b>
+									</p>
+								</entry>
+								<entry align="left" colname="c6" valign="middle">
+									<p>
+										<b>Number of outbreak sources</b>
+									</p>
+								</entry>
+								<entry align="left" colname="c7" valign="middle">
+									<p>
+										<b>References</b>
+									</p>
+								</entry>
+							</row>
+						</thead>
+						<tfoot>
+							<p>*Between the index case and recovery or death of the last case. <sup>1</sup>First reported as yellow fever 
+								<abbrgrp>
+									<abbr bid="B85">85</abbr>
+								</abbrgrp>. <sup>2</sup>Partial unconsolidated data. ND: not determined.</p>
+						</tfoot>
+						<tbody valign="top">
+							<row>
+								<entry colname="c1">
+									<p>Sudan 1976</p>
+								</entry>
+								<entry colname="c2">
+									<p>Jun. 27, 1976</p>
+								</entry>
+								<entry colname="c3">
+									<p>Sep. 15, 1976</p>
+								</entry>
+								<entry colname="c4">
+									<p>Nov. 25, 1976</p>
+								</entry>
+								<entry colname="c5">
+									<p>151&#160;days</p>
+								</entry>
+								<entry align="left" colname="c6">
+									<p>1</p>
+								</entry>
+								<entry align="left" colname="c7">
+									<p>
+										<abbrgrp>
+											<abbr bid="B25">25</abbr>
+											<abbr bid="B101">101</abbr>
+										</abbrgrp>
+									</p>
+								</entry>
+							</row>
+							<row>
+								<entry colname="c1">
+									<p>DRC 1976</p>
+								</entry>
+								<entry colname="c2">
+									<p>Sep. 1, 1976</p>
+								</entry>
+								<entry colname="c3">
+									<p>Sep. 21, 1976</p>
+								</entry>
+								<entry colname="c4">
+									<p>Nov. 5, 1976</p>
+								</entry>
+								<entry colname="c5">
+									<p>66&#160;days</p>
+								</entry>
+								<entry align="left" colname="c6">
+									<p>1</p>
+								</entry>
+								<entry align="left" colname="c7">
+									<p>
+										<abbrgrp>
+											<abbr bid="B26">26</abbr>
+											<abbr bid="B102">102</abbr>
+										</abbrgrp>
+									</p>
+								</entry>
+							</row>
+							<row>
+								<entry colname="c1">
+									<p>Sudan 1979</p>
+								</entry>
+								<entry colname="c2">
+									<p>Jul. 31, 1979</p>
+								</entry>
+								<entry colname="c3">
+									<p>Sep. 12, 1979</p>
+								</entry>
+								<entry colname="c4">
+									<p>Oct. 6, 1979</p>
+								</entry>
+								<entry colname="c5">
+									<p>67&#160;days</p>
+								</entry>
+								<entry align="left" colname="c6">
+									<p>1</p>
+								</entry>
+								<entry align="left" colname="c7">
+									<p>
+										<abbrgrp>
+											<abbr bid="B24">24</abbr>
+											<abbr bid="B103">103</abbr>
+										</abbrgrp>
+									</p>
+								</entry>
+							</row>
+							<row>
+								<entry colname="c1">
+									<p>Gabon 1994-5</p>
+								</entry>
+								<entry colname="c2">
+									<p>Nov. 13, 1994</p>
+								</entry>
+								<entry colname="c3">
+									<p>Dec. 18, 1994<sup>1</sup>
+									</p>
+								</entry>
+								<entry colname="c4">
+									<p>Feb. 9, 1995</p>
+								</entry>
+								<entry colname="c5">
+									<p>88&#160;days</p>
+								</entry>
+								<entry align="left" colname="c6">
+									<p>?</p>
+								</entry>
+								<entry align="left" colname="c7">
+									<p>
+										<abbrgrp>
+											<abbr bid="B67">67</abbr>
+											<abbr bid="B84">84</abbr>
+											<abbr bid="B104">104</abbr>
+										</abbrgrp>
+									</p>
+								</entry>
+							</row>
+							<row>
+								<entry colname="c1">
+									<p>DRC 1995</p>
+								</entry>
+								<entry colname="c2">
+									<p>Jan. 6, 1995</p>
+								</entry>
+								<entry colname="c3">
+									<p>May 1, 1995</p>
+								</entry>
+								<entry colname="c4">
+									<p>Jul. 16, 1995</p>
+								</entry>
+								<entry colname="c5">
+									<p>191&#160;days</p>
+								</entry>
+								<entry align="left" colname="c6">
+									<p>1</p>
+								</entry>
+								<entry align="left" colname="c7">
+									<p>
+										<abbrgrp>
+											<abbr bid="B28">28</abbr>
+											<abbr bid="B87">87</abbr>
+										</abbrgrp>
+									</p>
+								</entry>
+							</row>
+							<row>
+								<entry colname="c1">
+									<p>Gabon 1996</p>
+								</entry>
+								<entry colname="c2">
+									<p>Jan. 31, 1996</p>
+								</entry>
+								<entry colname="c3">
+									<p>Feb. 13, 1996</p>
+								</entry>
+								<entry colname="c4">
+									<p>Mar. 12, 1996</p>
+								</entry>
+								<entry colname="c5">
+									<p>83&#160;days</p>
+								</entry>
+								<entry align="left" colname="c6">
+									<p>1</p>
+								</entry>
+								<entry align="left" colname="c7">
+									<p>
+										<abbrgrp>
+											<abbr bid="B67">67</abbr>
+											<abbr bid="B88">88</abbr>
+											<abbr bid="B89">89</abbr>
+										</abbrgrp>
+									</p>
+								</entry>
+							</row>
+							<row>
+								<entry colname="c1">
+									<p>Gabon 1996-7</p>
+								</entry>
+								<entry colname="c2">
+									<p>Jul. 13, 1996</p>
+								</entry>
+								<entry colname="c3">
+									<p>Oct. 5, 1996</p>
+								</entry>
+								<entry colname="c4">
+									<p>Jan. 18, 1997</p>
+								</entry>
+								<entry colname="c5">
+									<p>189&#160;days</p>
+								</entry>
+								<entry align="left" colname="c6">
+									<p>?</p>
+								</entry>
+								<entry align="left" colname="c7">
+									<p>
+										<abbrgrp>
+											<abbr bid="B67">67</abbr>
+											<abbr bid="B90">90</abbr>
+											<abbr bid="B91">91</abbr>
+										</abbrgrp>
+									</p>
+								</entry>
+							</row>
+							<row>
+								<entry colname="c1">
+									<p>Uganda 2000-1</p>
+								</entry>
+								<entry colname="c2">
+									<p>Aug. 30, 2000</p>
+								</entry>
+								<entry colname="c3">
+									<p>Oct. 8, 2000</p>
+								</entry>
+								<entry colname="c4">
+									<p>Jan. 14, 2001</p>
+								</entry>
+								<entry colname="c5">
+									<p>137&#160;days</p>
+								</entry>
+								<entry align="left" colname="c6">
+									<p>1</p>
+								</entry>
+								<entry align="left" colname="c7">
+									<p>
+										<abbrgrp>
+											<abbr bid="B21">21</abbr>
+											<abbr bid="B105">105</abbr>
+										</abbrgrp>
+									</p>
+								</entry>
+							</row>
+							<row>
+								<entry colname="c1">
+									<p>Gabon 2001-2</p>
+								</entry>
+								<entry colname="c2">
+									<p>Oct. 25, 2001</p>
+								</entry>
+								<entry colname="c3">
+									<p>Nov. 17, 2001</p>
+								</entry>
+								<entry colname="c4">
+									<p>Mar. 22, 2002</p>
+								</entry>
+								<entry colname="c5">
+									<p>148&#160;days</p>
+								</entry>
+								<entry align="left" colname="c6">
+									<p>5</p>
+								</entry>
+								<entry align="left" colname="c7">
+									<p>
+										<abbrgrp>
+											<abbr bid="B69">69</abbr>
+											<abbr bid="B34">34</abbr>
+										</abbrgrp>
+									</p>
+								</entry>
+							</row>
+							<row>
+								<entry colname="c1">
+									<p>Congo 2001-2</p>
+								</entry>
+								<entry colname="c2">
+									<p>ND</p>
+								</entry>
+								<entry colname="c3">
+									<p>ND</p>
+								</entry>
+								<entry colname="c4">
+									<p>ND</p>
+								</entry>
+								<entry colname="c5">
+									<p>ND</p>
+								</entry>
+								<entry align="left" colname="c6">
+									<p>?</p>
+								</entry>
+								<entry align="left" colname="c7">
+									<p>
+										<abbrgrp>
+											<abbr bid="B34">34</abbr>
+										</abbrgrp>
+									</p>
+								</entry>
+							</row>
+							<row>
+								<entry colname="c1">
+									<p>Congo 2002</p>
+								</entry>
+								<entry colname="c2">
+									<p>May 17, 2002</p>
+								</entry>
+								<entry colname="c3">
+									<p>June 6, 2002</p>
+								</entry>
+								<entry colname="c4">
+									<p>Jul. 25, 2002</p>
+								</entry>
+								<entry colname="c5">
+									<p>69&#160;days</p>
+								</entry>
+								<entry align="left" colname="c6">
+									<p>1</p>
+								</entry>
+								<entry align="left" colname="c7">
+									<p>
+										<abbrgrp>
+											<abbr bid="B34">34</abbr>
+										</abbrgrp>
+									</p>
+								</entry>
+							</row>
+							<row>
+								<entry colname="c1">
+									<p>Gabon 2002</p>
+								</entry>
+								<entry colname="c2">
+									<p>May 17, 2002</p>
+								</entry>
+								<entry colname="c3">
+									<p>Jun. 21, 2002</p>
+								</entry>
+								<entry colname="c4">
+									<p>Jul. 25, 2002?</p>
+								</entry>
+								<entry colname="c5">
+									<p>69&#160;days?</p>
+								</entry>
+								<entry align="left" colname="c6">
+									<p>1</p>
+								</entry>
+								<entry align="left" colname="c7">
+									<p>
+										<abbrgrp>
+											<abbr bid="B34">34</abbr>
+										</abbrgrp>
+									</p>
+								</entry>
+							</row>
+							<row>
+								<entry colname="c1">
+									<p>Congo 2002-3</p>
+								</entry>
+								<entry colname="c2">
+									<p>Dec. 25, 2002</p>
+								</entry>
+								<entry colname="c3">
+									<p>Jan. 28, 2003</p>
+								</entry>
+								<entry colname="c4">
+									<p>Apr. 22, 2003</p>
+								</entry>
+								<entry colname="c5">
+									<p>118&#160;days</p>
+								</entry>
+								<entry align="left" colname="c6">
+									<p>3</p>
+								</entry>
+								<entry align="left" colname="c7">
+									<p>
+										<abbrgrp>
+											<abbr bid="B71">71</abbr>
+										</abbrgrp>
+									</p>
+								</entry>
+							</row>
+							<row>
+								<entry colname="c1">
+									<p>Congo 2003</p>
+								</entry>
+								<entry colname="c2">
+									<p>Oct. 11, 2003</p>
+								</entry>
+								<entry colname="c3">
+									<p>Oct. 24, 2003</p>
+								</entry>
+								<entry colname="c4">
+									<p>Dec. 2, 2003</p>
+								</entry>
+								<entry colname="c5">
+									<p>52&#160;days</p>
+								</entry>
+								<entry align="left" colname="c6">
+									<p>1</p>
+								</entry>
+								<entry align="left" colname="c7">
+									<p>
+										<abbrgrp>
+											<abbr bid="B92">92</abbr>
+										</abbrgrp>
+									</p>
+								</entry>
+							</row>
+							<row>
+								<entry colname="c1">
+									<p>Sudan 2004</p>
+								</entry>
+								<entry colname="c2">
+									<p>Apr. 15, 2004</p>
+								</entry>
+								<entry colname="c3">
+									<p>May 6, 2004</p>
+								</entry>
+								<entry colname="c4">
+									<p>June 26, 2004</p>
+								</entry>
+								<entry colname="c5">
+									<p>72&#160;days</p>
+								</entry>
+								<entry align="left" colname="c6">
+									<p>1</p>
+								</entry>
+								<entry align="left" colname="c7">
+									<p>
+										<abbrgrp>
+											<abbr bid="B93">93</abbr>
+										</abbrgrp>
+									</p>
+								</entry>
+							</row>
+							<row>
+								<entry colname="c1">
+									<p>Congo 2005</p>
+								</entry>
+								<entry colname="c2">
+									<p>Apr. 18, 2005</p>
+								</entry>
+								<entry colname="c3">
+									<p>Apr. 26, 2005</p>
+								</entry>
+								<entry colname="c4">
+									<p>May 27, 2005</p>
+								</entry>
+								<entry colname="c5">
+									<p>39&#160;days</p>
+								</entry>
+								<entry align="left" colname="c6">
+									<p>1</p>
+								</entry>
+								<entry align="left" colname="c7">
+									<p>
+										<abbrgrp>
+											<abbr bid="B70">70</abbr>
+										</abbrgrp>
+									</p>
+								</entry>
+							</row>
+							<row>
+								<entry colname="c1">
+									<p>DRC 2007</p>
+								</entry>
+								<entry colname="c2">
+									<p>Jun. 12, 2007</p>
+								</entry>
+								<entry colname="c3">
+									<p>Aug. 22, 2007</p>
+								</entry>
+								<entry colname="c4">
+									<p>Oct. 10, 2007</p>
+								</entry>
+								<entry colname="c5">
+									<p>120&#160;days</p>
+								</entry>
+								<entry align="left" colname="c6">
+									<p>1</p>
+								</entry>
+								<entry align="left" colname="c7">
+									<p>
+										<abbrgrp>
+											<abbr bid="B58">58</abbr>
+											<abbr bid="B19">19</abbr>
+										</abbrgrp>
+									</p>
+								</entry>
+							</row>
+							<row>
+								<entry colname="c1">
+									<p>Uganda 2007-8</p>
+								</entry>
+								<entry colname="c2">
+									<p>Aug. 20, 2007</p>
+								</entry>
+								<entry colname="c3">
+									<p>Sep. 15, 2007</p>
+								</entry>
+								<entry colname="c4">
+									<p>Jan. 8, 2008</p>
+								</entry>
+								<entry colname="c5">
+									<p>141&#160;days</p>
+								</entry>
+								<entry align="left" colname="c6">
+									<p>1</p>
+								</entry>
+								<entry align="left" colname="c7">
+									<p>
+										<abbrgrp>
+											<abbr bid="B30">30</abbr>
+											<abbr bid="B33">33</abbr>
+											<abbr bid="B94">94</abbr>
+										</abbrgrp>
+									</p>
+								</entry>
+							</row>
+							<row>
+								<entry colname="c1">
+									<p>DRC 2008-9</p>
+								</entry>
+								<entry colname="c2">
+									<p>Nov. 27, 2008</p>
+								</entry>
+								<entry colname="c3">
+									<p>Dec. 25, 2008</p>
+								</entry>
+								<entry colname="c4">
+									<p>Jan. 1, 2009</p>
+								</entry>
+								<entry colname="c5">
+									<p>34&#160;days</p>
+								</entry>
+								<entry align="left" colname="c6">
+									<p>1</p>
+								</entry>
+								<entry align="left" colname="c7">
+									<p>
+										<abbrgrp>
+											<abbr bid="B19">19</abbr>
+										</abbrgrp>
+									</p>
+								</entry>
+							</row>
+							<row>
+								<entry colname="c1">
+									<p>Uganda 2012<sup>2</sup>
+									</p>
+								</entry>
+								<entry colname="c2">
+									<p>Jun. 11, 2012</p>
+								</entry>
+								<entry colname="c3">
+									<p>Jul. 24, 2012</p>
+								</entry>
+								<entry colname="c4">
+									<p>Aug. 24, 2012</p>
+								</entry>
+								<entry colname="c5">
+									<p>74&#160;days</p>
+								</entry>
+								<entry align="left" colname="c6">
+									<p>1</p>
+								</entry>
+								<entry align="left" colname="c7">
+									<p>
+										<abbrgrp>
+											<abbr bid="B96">96</abbr>
+											<abbr bid="B97">97</abbr>
+										</abbrgrp>
+									</p>
+								</entry>
+							</row>
+							<row>
+								<entry colname="c1">
+									<p>Uganda 2012<sup>2</sup>
+									</p>
+								</entry>
+								<entry colname="c2">
+									<p>Oct. 13, 2012</p>
+								</entry>
+								<entry colname="c3">
+									<p>Nov. 14, 2012</p>
+								</entry>
+								<entry colname="c4">
+									<p>Dec. 5, 2012</p>
+								</entry>
+								<entry colname="c5">
+									<p>53&#160;days</p>
+								</entry>
+								<entry align="left" colname="c6">
+									<p>1</p>
+								</entry>
+								<entry align="left" colname="c7">
+									<p>
+										<abbrgrp>
+											<abbr bid="B97">97</abbr>
+											<abbr bid="B98">98</abbr>
+											<abbr bid="B99">99</abbr>
+										</abbrgrp>
+									</p>
+								</entry>
+							</row>
+							<row rowsep="1">
+								<entry colname="c1">
+									<p>DRC 2012<sup>2</sup>
+									</p>
+								</entry>
+								<entry colname="c2">
+									<p>Mar. 20, 2012</p>
+								</entry>
+								<entry colname="c3">
+									<p>Aug. 17, 2012</p>
+								</entry>
+								<entry colname="c4">
+									<p>Oct. 11, 2012</p>
+								</entry>
+								<entry colname="c5">
+									<p>206&#160;days</p>
+								</entry>
+								<entry align="left" colname="c6">
+									<p>?</p>
+								</entry>
+								<entry align="left" colname="c7">
+									<p>
+										<abbrgrp>
+											<abbr bid="B79">79</abbr>
+											<abbr bid="B100">100</abbr>
+										</abbrgrp>
+									</p>
+								</entry>
+							</row>
+						</tbody>
+					</tgroup>
+				</table>
+				<fig id="F6"><title><p>Figure 6</p></title><caption><p>Alert delay and duration of the African Ebola outbreaks</p></caption><text>
+   <p>
+      <b>Alert delay and duration of the African Ebola outbreaks.</b>
+   </p>
+</text><graphic file="1678-9199-20-44-6"/></fig>
+				<p>The origin of the disease and its management are not perceived the same way by different people 
+					<abbrgrp>
+						<abbr bid="B77">77</abbr>
+						<abbr bid="B78">78</abbr>
+						<abbr bid="B79">79</abbr>
+						<abbr bid="B82">82</abbr>
+					</abbrgrp>. At the beginning of epidemics, the disease is often confused with another endemic infection (such as malaria, dysentery, typhoid or yellow fever, influenza etc.), both by the general population and health personnel. When the incorrect causes are eliminated or diagnosis of EVD is confirmed, other explanations of cultural, religious, circumstantial or biomedical origins are proposed. It has been shown, in several epidemics, that affected people perceived the illness as divine punishment or evil spell, and even, sometimes, denied the disease itself 
+					<abbrgrp>
+						<abbr bid="B77">77</abbr>
+						<abbr bid="B78">78</abbr>
+						<abbr bid="B79">79</abbr>
+					</abbrgrp>. Hesitations about diagnosis and the diversity of explanatory anthropological models result in the delay of the alert and difficulties in the implementation of measures against epidemics 
+					<abbrgrp>
+						<abbr bid="B79">79</abbr>
+						<abbr bid="B82">82</abbr>
+						<abbr bid="B92">92</abbr>
+					</abbrgrp>.</p>
+				<p>Finally, health authorities, for economic and political reasons, take late measures that only aim at minimizing the stress provoked by epidemics and avoiding panic. This results in inadequate or contradictory information, which adds to the general stress. Moreover, some measures taken to demonstrate the determination of the authorities are useless and counterproductive. The ban of gatherings and travel, border closures, police cordons and other initiatives only reinforce distrust of people <it>vis-&#224;-vis</it> the authorities and health personnel.</p>
+			</sec>
+			<sec>
+				<st>
+					<p>Management of outbreaks</p>
+				</st>
+				<p>The delay in clinical diagnosis and epidemic alert represent a major issue because it exacerbates the spread of the virus.</p>
+				<p>In the absence of any vaccine or post-exposure treatments, it is essential to break the chain of transmission by acting directly on the causes and circumstances of outbreaks. All the precautions should be taken for patient care, management of dead bodies, burial and surveillance of contacts 
+					<abbrgrp>
+						<abbr bid="B106">106</abbr>
+					</abbrgrp>. The Centers for Disease Control and the World Health Organization provide a manual in English, French and Portuguese (<url>http://www.cdc.gov/vhf/abroad/vhf-manual.html</url>) enabling health authorities to prepare for EVD outbreak management. After the description of the standard precautions regarding care of all patients to prevent infections (a brief summary of Good Medical Practice), the manual details the techniques used to control epidemics of EVD with many simple and practical hints:</p>
+				<p indent="1">&#8226; Clinical diagnosis of the disease.</p>
+				<p indent="1">&#8226; Isolation of the patient and planning the isolation area.&#8226;Wearing appropriate clothing during treatment (Figure&#160;
+					<figr fid="F7">7</figr>).</p>
+				<fig id="F7"><title><p>Figure 7</p></title><caption><p>Protective clothing worn by healthcare personnel during the care and handling of a patient (photo by Jean-Paul Gonzalez, &#169;IRD)</p></caption><text>
+   <p>
+      <b>Protective clothing worn by healthcare personnel during the care and handling of a patient (photo by Jean-Paul Gonzalez, &#169;IRD).</b>
+   </p>
+</text><graphic file="1678-9199-20-44-7"/></fig>
+				<p indent="1">&#8226; Identification and monitoring of contacts.</p>
+				<p indent="1">&#8226; Disinfection and sterilization of equipment and facilities.</p>
+				<p indent="1">&#8226; Waste disposal.&#8226;Preparation of the body (Figure&#160;
+					<figr fid="F8">8</figr>).</p>
+				<fig id="F8"><title><p>Figure 8</p></title><caption><p>Wrapping of the body in a mortuary sac (photo by Jean-Paul Gonzalez, &#169;IRD)</p></caption><text>
+   <p>
+      <b>Wrapping of the body in a mortuary sac (photo by Jean-Paul Gonzalez, &#169;IRD).</b>
+   </p>
+</text><graphic file="1678-9199-20-44-8"/></fig>
+				<p indent="1">&#8226;Transportation to the place of burial (Figure&#160;
+					<figr fid="F9">9</figr>).</p>
+				<fig id="F9"><title><p>Figure 9</p></title><caption><p>Boarding of a corpse in the vehicle for transportation to the burial site (photo by Jean-Paul Gonzalez, &#169;IRD)</p></caption><text>
+   <p>
+      <b>Boarding of a corpse in the vehicle for transportation to the burial site (photo by Jean-Paul Gonzalez, &#169;IRD).</b>
+   </p>
+</text><graphic file="1678-9199-20-44-9"/></fig>
+				<p>However, the management of cases and now well-known procedures face many difficulties that arise quickly in most outbreaks. In addition to the virulence of Ebola viruses and usual customs, it should be taken into account the changes in behavior induced by the fear generated by the epidemic and associated rumors.</p>
+				<p>Traditional practices regarding patient care and burial rituals often involve high risk conducts, such as washing and preparation of the body for exposure for several days, during which family and friends pay tribute by stroking or hugging the deceased 
+					<abbrgrp>
+						<abbr bid="B77">77</abbr>
+						<abbr bid="B78">78</abbr>
+						<abbr bid="B79">79</abbr>
+						<abbr bid="B82">82</abbr>
+						<abbr bid="B92">92</abbr>
+					</abbrgrp>. Before appropriate measures are taken, which may take several weeks or months, the deceased persons are transported to their home community where people sometimes come from far away to attend the funeral and then go back home, which enables the spreading of the virus. The always frightening and often contradictory messages &#8211; and rumors &#8211; prompt patients to avoid going to the hospital due to fear of isolation and because of the lack of effective treatments. It becomes impossible to identify the cases, confirm diagnosis, protect and monitor contacts. Violent protests &#8211; with loss of life, involving sometimes the medical staff &#8211; have been reported in some outbreaks 
+					<abbrgrp>
+						<abbr bid="B71">71</abbr>
+						<abbr bid="B82">82</abbr>
+						<abbr bid="B92">92</abbr>
+					</abbrgrp>.</p>
+				<p>Other variables that hinder the adequate management of outbreaks include training of health workers who fail to immediately identify the disease, especially in areas where EVD has never been observed, either because of nonspecific clinical symptoms or lack of experience. Anyway, to date, there is no diagnostic test able to confirm an EVD suspicion. In addition, protective and disinfection equipment are usually absent and slow to become available in numerous health facilities 
+					<abbrgrp>
+						<abbr bid="B82">82</abbr>
+					</abbrgrp>. Nosocomial transmission through contaminated and poorly (or not) sterilized medical instruments is a major multiplication factor in most outbreaks. Such picture is worsened by the fact that they hit in remote and poor regions.</p>
+				<p>Social mobilization is a key component because all stakeholders should be involved to enable pooling resources and optimizing management of epidemics 
+					<abbrgrp>
+						<abbr bid="B71">71</abbr>
+					</abbrgrp>. The ethical aspects should not be overlooked. Isolation of patients, required to avoid contamination, should not be seen as segregation. The family should be able to see and talk to patients, even if they are prevented from touching them. Authorities and medical staff should comply with, as far as possible, funeral rites by providing body bags and coffins for the families 
+					<abbrgrp>
+						<abbr bid="B92">92</abbr>
+					</abbrgrp>. For instance, decontamination will be presented as ablutions that can be associated with the current ritual; deceased&#8217;s clothes will be buried in the grave rather than burned to prevent stigmatization etc. 
+					<abbrgrp>
+						<abbr bid="B71">71</abbr>
+						<abbr bid="B77">77</abbr>
+						<abbr bid="B78">78</abbr>
+						<abbr bid="B79">79</abbr>
+					</abbrgrp>.</p>
+				<p>After the epidemic, it is important to reseal the bonds of community through social, cultural and sporting activities.</p>
+			</sec>
+		</sec>
+		<sec>
+			<st>
+				<p>Conclusion</p>
+			</st>
+			<p>Recently discovered in Central Africa, the Ebola viruses caused limited, but high-mortality epidemics. Fruit bats are probably the reservoir of the virus. The initial human infection results from contact with infected bush meat, and usually takes place in poor and inaccessible areas. Secondary transmission occurs during patient care at home, funeral rites or hospital dissemination due to the lack of preventive measures and because of inadequate training of health personnel with good medical practice.</p>
+			<p>The difficult diagnosis, the resistance of the population and the reluctance of authorities explain the slow and limited response to outbreaks, and the rapid spread of the epidemic that becomes hard to control.</p>
+			<p>In the absence of effective treatment, the discovery of an Ebola outbreak demands breaking the transmission chain at community and hospital levels, while respecting the traditions as much as possible, and the legitimate wish of relatives to accompany their sick or deceased relatives, in order to restore people confidence.</p>
+		</sec>
+	</bdy>
+	<bm>
+		<refgrp><bibl id="B1"><title><p>Fatal human disease from vervet monkeys</p></title><aug><au><snm>Gordon Smith</snm><fnm>CE</fnm></au><au><snm>Simpson</snm><fnm>DI</fnm></au><au><snm>Bowen</snm><fnm>ET</fnm></au><au><snm>Zlotnik</snm><fnm>I</fnm></au></aug><source>Lancet</source><pubdate>1967</pubdate><volume>2</volume><issue>7526</issue><fpage>1119</fpage><lpage>1121</lpage><xrefbib><pubid idtype="pmpid" link="fulltext">4168558</pubid></xrefbib></bibl><bibl id="B2"><title><p>Discovery of an ebolavirus-like filovirus in Europe</p></title><aug><au><snm>Negredo</snm><fnm>A</fnm></au><au><snm>Palacios</snm><fnm>G</fnm></au><au><snm>V&#225;zquez-Mor&#243;n</snm><fnm>S</fnm></au><au><snm>Gonz&#225;lez</snm><fnm>F</fnm></au><au><snm>Dopazo</snm><fnm>H</fnm></au><au><snm>Molero</snm><fnm>F</fnm></au><au><snm>Juste</snm><fnm>J</fnm></au><au><snm>Quetglas</snm><fnm>J</fnm></au><au><snm>Savji</snm><fnm>N</fnm></au><au><snm>De La Cruz Mart&#237;nez</snm><fnm>M</fnm></au><au><snm>Herrera</snm><fnm>JE</fnm></au><au><snm>Pizarro</snm><fnm>M</fnm></au><au><snm>Hutchison</snm><fnm>SK</fnm></au><au><snm>Echevarr&#237;a</snm><fnm>JE</fnm></au><au><snm>Lipkin</snm><fnm>WI</fnm></au><au><snm>Tenorio</snm><fnm>A</fnm></au></aug><source>PLoS Pathog</source><pubdate>2011</pubdate><volume>7</volume><issue>10</issue><fpage>e1002304</fpage><xrefbib><pubidlist><pubid idtype="doi">10.1371/journal.ppat.1002304</pubid><pubid idtype="pmcid">3197594</pubid><pubid idtype="pmpid" link="fulltext">22039362</pubid></pubidlist></xrefbib></bibl><bibl id="B3"><title><p>Virus nomenclature below the species level: a standardized nomenclature for filovirus strains and variants rescued from cDNA</p></title><aug><au><snm>Kuhn</snm><fnm>JH</fnm></au><au><snm>B&#224;o</snm><fnm>Y</fnm></au><au><snm>Bavari</snm><fnm>S</fnm></au><au><snm>Becker</snm><fnm>S</fnm></au><au><snm>Bradfute</snm><fnm>S</fnm></au><au><snm>Brauburger</snm><fnm>K</fnm></au><au><snm>Rodney Brister</snm><fnm>J</fnm></au><au><snm>Bukreyev</snm><fnm>AA</fnm></au><au><snm>Ca&#236;</snm><fnm>Y</fnm></au><au><snm>Chandran</snm><fnm>K</fnm></au><au><snm>Davey</snm><fnm>RA</fnm></au><au><snm>Dolnik</snm><fnm>O</fnm></au><au><snm>Dye</snm><fnm>JM</fnm></au><au><snm>Enterlein</snm><fnm>S</fnm></au><au><snm>Gonzalez</snm><fnm>JP</fnm></au><au><snm>Formenty</snm><fnm>P</fnm></au><au><snm>Freiberg</snm><fnm>AN</fnm></au><au><snm>Hensley</snm><fnm>LE</fnm></au><au><snm>Hoenen</snm><fnm>T</fnm></au><au><snm>Honko</snm><fnm>AN</fnm></au><au><snm>Ignatyev</snm><fnm>GM</fnm></au><au><snm>Jahrling</snm><fnm>PB</fnm></au><au><snm>Johnson</snm><fnm>KM</fnm></au><au><snm>Klenk</snm><fnm>HD</fnm></au><au><snm>Kobinger</snm><fnm>G</fnm></au><au><snm>Lackemeyer</snm><fnm>MG</fnm></au><au><snm>Leroy</snm><fnm>EM</fnm></au><au><snm>Lever</snm><fnm>MS</fnm></au><au><snm>M&#252;hlberger</snm><fnm>E</fnm></au><au><snm>Netesov</snm><fnm>SV</fnm></au><etal/></aug><source>Arch Virol</source><pubdate>2014</pubdate><volume>159</volume><issue>5</issue><fpage>1229</fpage><lpage>1237</lpage><xrefbib><pubid idtype="pmpid" link="fulltext">24190508</pubid></xrefbib></bibl><bibl id="B4"><title><p>Ebolavirus and Marburgvirus: insight the Filoviridae family</p></title><aug><au><snm>Ascenzi</snm><fnm>P</fnm></au><au><snm>Bocedi</snm><fnm>A</fnm></au><au><snm>Heptonstall</snm><fnm>J</fnm></au><au><snm>Capobianchi</snm><fnm>MR</fnm></au><au><snm>Di Caro</snm><fnm>A</fnm></au><au><snm>Mastrangelo</snm><fnm>E</fnm></au><au><snm>Bolognesi</snm><fnm>M</fnm></au><au><snm>Ippolito</snm><fnm>G</fnm></au></aug><source>Mol Aspects Med</source><pubdate>2008</pubdate><volume>29</volume><issue>3</issue><fpage>151</fpage><lpage>185</lpage><xrefbib><pubidlist><pubid idtype="doi">10.1016/j.mam.2007.09.005</pubid><pubid idtype="pmpid" link="fulltext">18063023</pubid></pubidlist></xrefbib></bibl><bibl id="B5"><title><p>Ebola haemorrhagic fever</p></title><aug><au><snm>Feldmann</snm><fnm>H</fnm></au><au><snm>Geisbert</snm><fnm>TW</fnm></au></aug><source>Lancet</source><pubdate>2011</pubdate><volume>377</volume><issue>9768</issue><fpage>849</fpage><lpage>862</lpage><xrefbib><pubidlist><pubid idtype="doi">10.1016/S0140-6736(10)60667-8</pubid><pubid idtype="pmcid">3406178</pubid><pubid idtype="pmpid" link="fulltext">21084112</pubid></pubidlist></xrefbib></bibl><bibl id="B6"><title><p>The Ebola virus glycoprotein contributes to but is not sufficient for virulence in vivo</p></title><aug><au><snm>Groseth</snm><fnm>A</fnm></au><au><snm>Marzi</snm><fnm>A</fnm></au><au><snm>Hoenen</snm><fnm>T</fnm></au><au><snm>Herwig</snm><fnm>A</fnm></au><au><snm>Gardner</snm><fnm>D</fnm></au><au><snm>Becker</snm><fnm>S</fnm></au><au><snm>Ebihara</snm><fnm>H</fnm></au><au><snm>Feldmann</snm><fnm>H</fnm></au></aug><source>PLoS Pathog</source><pubdate>2012</pubdate><volume>8</volume><issue>8</issue><fpage>e1002847</fpage><xrefbib><pubidlist><pubid idtype="doi">10.1371/journal.ppat.1002847</pubid><pubid idtype="pmcid">3410889</pubid><pubid idtype="pmpid" link="fulltext">22876185</pubid></pubidlist></xrefbib></bibl><bibl id="B7"><title><p>Infection and activation of monocytes by Marburg and Ebola viruses</p></title><aug><au><snm>Str&#246;her</snm><fnm>U</fnm></au><au><snm>West</snm><fnm>E</fnm></au><au><snm>Bugany</snm><fnm>H</fnm></au><au><snm>Klenk</snm><fnm>HD</fnm></au><au><snm>Schnittler</snm><fnm>HJ</fnm></au><au><snm>Feldmann</snm><fnm>H</fnm></au></aug><source>J Virol</source><pubdate>2001</pubdate><volume>75</volume><issue>22</issue><fpage>11025</fpage><lpage>11033</lpage><xrefbib><pubidlist><pubid idtype="doi">10.1128/JVI.75.22.11025-11033.2001</pubid><pubid idtype="pmcid">114683</pubid><pubid idtype="pmpid" link="fulltext">11602743</pubid></pubidlist></xrefbib></bibl><bibl id="B8"><title><p>The Ebola virus VP35 protein functions as a type I IFN antagonist</p></title><aug><au><snm>Basler</snm><fnm>CF</fnm></au><au><snm>Wang</snm><fnm>X</fnm></au><au><snm>Muhlberger</snm><fnm>E</fnm></au><au><snm>Volchkov</snm><fnm>V</fnm></au><au><snm>Paragas</snm><fnm>J</fnm></au><au><snm>Klenk</snm><fnm>HD</fnm></au><au><snm>Garcia-Sastre</snm><fnm>A</fnm></au><au><snm>Palese</snm><fnm>P</fnm></au></aug><source>Proc Natl Acad Sci U S A</source><pubdate>2000</pubdate><volume>97</volume><issue>22</issue><fpage>12289</fpage><lpage>12294</lpage><xrefbib><pubidlist><pubid idtype="doi">10.1073/pnas.220398297</pubid><pubid idtype="pmcid">17334</pubid><pubid idtype="pmpid" link="fulltext">11027311</pubid></pubidlist></xrefbib></bibl><bibl id="B9"><title><p>How Ebola virus counters the interferon system</p></title><aug><au><snm>K&#252;hl</snm><fnm>A</fnm></au><au><snm>P&#246;hlmann</snm><fnm>S</fnm></au></aug><source>Zoonoses Public Health</source><pubdate>2012</pubdate><volume>59</volume><issue>Suppl 2</issue><fpage>116</fpage><lpage>131</lpage><xrefbib><pubid idtype="pmpid" link="fulltext">22958256</pubid></xrefbib></bibl><bibl id="B10"><title><p>Molecular evolution of viruses of the family Filoviridae based on 97 whole-genome sequences</p></title><aug><au><snm>Carroll</snm><fnm>SA</fnm></au><au><snm>Towner</snm><fnm>JS</fnm></au><au><snm>Sealy</snm><fnm>TK</fnm></au><au><snm>McMullan</snm><fnm>LK</fnm></au><au><snm>Khristova</snm><fnm>ML</fnm></au><au><snm>Burt</snm><fnm>FJ</fnm></au><au><snm>Swanepoel</snm><fnm>R</fnm></au><au><snm>Rollin</snm><fnm>PE</fnm></au><au><snm>Nichol</snm><fnm>ST</fnm></au></aug><source>J Virol</source><pubdate>2013</pubdate><volume>87</volume><issue>5</issue><fpage>2608</fpage><lpage>2616</lpage><xrefbib><pubidlist><pubid idtype="doi">10.1128/JVI.03118-12</pubid><pubid idtype="pmcid">3571414</pubid><pubid idtype="pmpid" link="fulltext">23255795</pubid></pubidlist></xrefbib></bibl><bibl id="B11"><title><p>Isolation and partial characterisation of a new virus causing acute haemorrhagic fever in Zaire</p></title><aug><au><snm>Johnson</snm><fnm>KM</fnm></au><au><snm>Lange</snm><fnm>JV</fnm></au><au><snm>Webb</snm><fnm>PA</fnm></au><au><snm>Murphy</snm><fnm>FA</fnm></au></aug><source>Lancet</source><pubdate>1977</pubdate><volume>1</volume><issue>8011</issue><fpage>569</fpage><lpage>571</lpage><xrefbib><pubid idtype="pmpid" link="fulltext">65661</pubid></xrefbib></bibl><bibl id="B12"><title><p>Viral haemorrhagic fever in southern Sudan and northern Zaire. Preliminary studies on the aetiological agent</p></title><aug><au><snm>Bowen</snm><fnm>ET</fnm></au><au><snm>Lloyd</snm><fnm>G</fnm></au><au><snm>Harris</snm><fnm>WJ</fnm></au><au><snm>Platt</snm><fnm>GS</fnm></au><au><snm>Baskerville</snm><fnm>A</fnm></au><au><snm>Vella</snm><fnm>EE</fnm></au></aug><source>Lancet</source><pubdate>1977</pubdate><volume>1</volume><issue>8011</issue><fpage>571</fpage><lpage>573</lpage><xrefbib><pubid idtype="pmpid" link="fulltext">65662</pubid></xrefbib></bibl><bibl id="B13"><title><p>Isolation of Marburg-like virus from a case of haemorrhagic fever in Zaire</p></title><aug><au><snm>Pattyn</snm><fnm>S</fnm></au><au><snm>van der Groen</snm><fnm>G</fnm></au><au><snm>Courteille</snm><fnm>G</fnm></au><au><snm>Jacob</snm><fnm>W</fnm></au><au><snm>Piot</snm><fnm>P</fnm></au></aug><source>Lancet</source><pubdate>1977</pubdate><volume>1</volume><issue>8011</issue><fpage>573</fpage><lpage>574</lpage><xrefbib><pubid idtype="pmpid" link="fulltext">65663</pubid></xrefbib></bibl><bibl id="B14"><title><p>Newly discovered Ebola virus associated with hemorrhagic fever outbreak in Uganda</p></title><aug><au><snm>Towner</snm><fnm>JS</fnm></au><au><snm>Sealy</snm><fnm>TK</fnm></au><au><snm>Khristova</snm><fnm>ML</fnm></au><au><snm>Albari&#241;o</snm><fnm>CG</fnm></au><au><snm>Conlan</snm><fnm>S</fnm></au><au><snm>Reeder</snm><fnm>SA</fnm></au><au><snm>Quan</snm><fnm>PL</fnm></au><au><snm>Lipkin</snm><fnm>WI</fnm></au><au><snm>Downing</snm><fnm>R</fnm></au><au><snm>Tappero</snm><fnm>JW</fnm></au><au><snm>Okware</snm><fnm>S</fnm></au><au><snm>Lutwama</snm><fnm>J</fnm></au><au><snm>Bakamutumaho</snm><fnm>B</fnm></au><au><snm>Kayiwa</snm><fnm>J</fnm></au><au><snm>Comer</snm><fnm>JA</fnm></au><au><snm>Rollin</snm><fnm>PE</fnm></au><au><snm>Ksiazek</snm><fnm>TG</fnm></au><au><snm>Nichol</snm><fnm>ST</fnm></au></aug><source>PLoS Pathog</source><pubdate>2008</pubdate><volume>4</volume><issue>11</issue><fpage>e1000212</fpage><xrefbib><pubidlist><pubid idtype="doi">10.1371/journal.ppat.1000212</pubid><pubid idtype="pmcid">2581435</pubid><pubid idtype="pmpid" link="fulltext">19023410</pubid></pubidlist></xrefbib></bibl><bibl id="B15"><title><p>Isolation and partial characterisation of a new strain of Ebola virus</p></title><aug><au><snm>Le Guenno</snm><fnm>B</fnm></au><au><snm>Formenty</snm><fnm>P</fnm></au><au><snm>Wyers</snm><fnm>M</fnm></au><au><snm>Gounon</snm><fnm>P</fnm></au><au><snm>Walker</snm><fnm>F</fnm></au><au><snm>Boesch</snm><fnm>C</fnm></au></aug><source>Lancet</source><pubdate>1995</pubdate><volume>345</volume><issue>8960</issue><fpage>1271</fpage><lpage>1274</lpage><xrefbib><pubidlist><pubid idtype="doi">10.1016/S0140-6736(95)90925-7</pubid><pubid idtype="pmpid">7746057</pubid></pubidlist></xrefbib></bibl><bibl id="B16"><title><p>Preliminary report: isolation of Ebola virus from monkeys imported to USA</p></title><aug><au><snm>Jahrling</snm><fnm>PB</fnm></au><au><snm>Geisbert</snm><fnm>TW</fnm></au><au><snm>Dalgard</snm><fnm>DW</fnm></au><au><snm>Johnson</snm><fnm>ED</fnm></au><au><snm>Ksiazek</snm><fnm>TG</fnm></au><au><snm>Hall</snm><fnm>WC</fnm></au><au><snm>Peters</snm><fnm>CJ</fnm></au></aug><source>Lancet</source><pubdate>1990</pubdate><volume>335</volume><issue>8688</issue><fpage>502</fpage><lpage>505</lpage><xrefbib><pubidlist><pubid idtype="doi">10.1016/0140-6736(90)90737-P</pubid><pubid idtype="pmpid">1968529</pubid></pubidlist></xrefbib></bibl><bibl id="B17"><title><p>Discovery of swine as a host for the <it>Reston ebolavirus</it></p></title><aug><au><snm>Barrette</snm><fnm>RW</fnm></au><au><snm>Metwally</snm><fnm>SA</fnm></au><au><snm>Rowland</snm><fnm>JM</fnm></au><au><snm>Xu</snm><fnm>L</fnm></au><au><snm>Zaki</snm><fnm>SR</fnm></au><au><snm>Nichol</snm><fnm>ST</fnm></au><au><snm>Rollin</snm><fnm>PE</fnm></au><au><snm>Towner</snm><fnm>JS</fnm></au><au><snm>Shieh</snm><fnm>WJ</fnm></au><au><snm>Batten</snm><fnm>B</fnm></au><au><snm>Sealy</snm><fnm>TK</fnm></au><au><snm>Carrillo</snm><fnm>C</fnm></au><au><snm>Moran</snm><fnm>KE</fnm></au><au><snm>Bracht</snm><fnm>AJ</fnm></au><au><snm>Mayr</snm><fnm>GA</fnm></au><au><snm>Sirios-Cruz</snm><fnm>M</fnm></au><au><snm>Catbagan</snm><fnm>DP</fnm></au><au><snm>Lautner</snm><fnm>EA</fnm></au><au><snm>Ksiazek</snm><fnm>TG</fnm></au><au><snm>White</snm><fnm>WR</fnm></au><au><snm>McIntosh</snm><fnm>MT</fnm></au></aug><source>Science</source><pubdate>2009</pubdate><volume>325</volume><issue>5937</issue><fpage>204</fpage><lpage>206</lpage><xrefbib><pubidlist><pubid idtype="doi">10.1126/science.1172705</pubid><pubid idtype="pmpid" link="fulltext">19590002</pubid></pubidlist></xrefbib></bibl><bibl id="B18"><title><p>Fruit bats as reservoirs of Ebola virus</p></title><aug><au><snm>Leroy</snm><fnm>EM</fnm></au><au><snm>Kumulungui</snm><fnm>B</fnm></au><au><snm>Pourrut</snm><fnm>X</fnm></au><au><snm>Rouquet</snm><fnm>P</fnm></au><au><snm>Hassanin</snm><fnm>A</fnm></au><au><snm>Yaba</snm><fnm>P</fnm></au><au><snm>D&#233;licat</snm><fnm>A</fnm></au><au><snm>Paweska</snm><fnm>JT</fnm></au><au><snm>Gonzalez</snm><fnm>JP</fnm></au><au><snm>Swanepoel</snm><fnm>R</fnm></au></aug><source>Nature</source><pubdate>2005</pubdate><volume>438</volume><issue>7068</issue><fpage>575</fpage><lpage>576</lpage><xrefbib><pubidlist><pubid idtype="doi">10.1038/438575a</pubid><pubid idtype="pmpid" link="fulltext">16319873</pubid></pubidlist></xrefbib></bibl><bibl id="B19"><title><p>Emergence of divergent Zaire ebola virus strains in Democratic Republic of the Congo in 2007 and 2008</p></title><aug><au><snm>Grard</snm><fnm>G</fnm></au><au><snm>Biek</snm><fnm>R</fnm></au><au><snm>Tamfum</snm><fnm>JJ</fnm></au><au><snm>Fair</snm><fnm>J</fnm></au><au><snm>Wolfe</snm><fnm>N</fnm></au><au><snm>Formenty</snm><fnm>P</fnm></au><au><snm>Paweska</snm><fnm>J</fnm></au><au><snm>Leroy</snm><fnm>E</fnm></au></aug><source>J Infect Dis</source><pubdate>2011</pubdate><volume>204</volume><issue>Suppl 3</issue><fpage>776</fpage><lpage>784</lpage><xrefbib><pubid idtype="doi">10.1093/infdis/jir364</pubid></xrefbib></bibl><bibl id="B20"><title><p>Current perspectives on the phylogeny of Filoviridae</p></title><aug><au><snm>Barrette</snm><fnm>RW</fnm></au><au><snm>Xu</snm><fnm>L</fnm></au><au><snm>Rowland</snm><fnm>JM</fnm></au><au><snm>McIntosh</snm><fnm>MT</fnm></au></aug><source>Infect Genet Evol</source><pubdate>2011</pubdate><volume>11</volume><issue>7</issue><fpage>1514</fpage><lpage>1519</lpage><xrefbib><pubidlist><pubid idtype="doi">10.1016/j.meegid.2011.06.017</pubid><pubid idtype="pmpid" link="fulltext">21742058</pubid></pubidlist></xrefbib></bibl><bibl id="B21"><title><p>An outbreak of Ebola in Uganda</p></title><aug><au><snm>Okware</snm><fnm>SI</fnm></au><au><snm>Omaswa</snm><fnm>FG</fnm></au><au><snm>Zaramba</snm><fnm>S</fnm></au><au><snm>Opio</snm><fnm>A</fnm></au><au><snm>Lutwama</snm><fnm>JJ</fnm></au><au><snm>Kamugisha</snm><fnm>J</fnm></au><au><snm>Rwaguma</snm><fnm>EB</fnm></au><au><snm>Kagwa</snm><fnm>P</fnm></au><au><snm>Lamunu</snm><fnm>M</fnm></au></aug><source>Trop Med Int Health</source><pubdate>2002</pubdate><volume>7</volume><issue>12</issue><fpage>1068</fpage><lpage>1075</lpage><xrefbib><pubidlist><pubid idtype="doi">10.1046/j.1365-3156.2002.00944.x</pubid><pubid idtype="pmpid" link="fulltext">12460399</pubid></pubidlist></xrefbib></bibl><bibl id="B22"><title><p>Incubation period of Ebola hemorrhagic virus subtype Zaire</p></title><aug><au><snm>Eichner</snm><fnm>M</fnm></au><au><snm>Dowell</snm><fnm>SF</fnm></au><au><snm>Firese</snm><fnm>N</fnm></au></aug><source>Osong Public Health Res Perspect</source><pubdate>2011</pubdate><volume>2</volume><issue>1</issue><fpage>3</fpage><lpage>7</lpage><xrefbib><pubidlist><pubid idtype="doi">10.1016/j.phrp.2011.04.001</pubid><pubid idtype="pmcid">3766904</pubid><pubid idtype="pmpid">24159443</pubid></pubidlist></xrefbib></bibl><bibl id="B23"><title><p>Ebola haemorrhagic fever: fact sheet revised in May 2004</p></title><aug><au><cnm>World Health Organization</cnm></au></aug><source>Wkly Epidemiol Rec</source><pubdate>2004</pubdate><volume>79</volume><issue>49</issue><fpage>435</fpage><lpage>439</lpage><xrefbib><pubid idtype="pmpid">15638356</pubid></xrefbib></bibl><bibl id="B24"><title><p>Ebola virus disease in southern Sudan: hospital dissemination and intrafamilial spread</p></title><aug><au><snm>Baron</snm><fnm>RC</fnm></au><au><snm>McCormick</snm><fnm>JB</fnm></au><au><snm>Zubeir</snm><fnm>OA</fnm></au></aug><source>Bull World Health Organ</source><pubdate>1983</pubdate><volume>61</volume><issue>6</issue><fpage>997</fpage><lpage>1003</lpage><xrefbib><pubidlist><pubid idtype="pmcid">2536233</pubid><pubid idtype="pmpid">6370486</pubid></pubidlist></xrefbib></bibl><bibl id="B25"><title><p>Ebola haemorrhagic fever in Sudan, 1976. Report of a WHO/International Study Team</p></title><aug><au><cnm>World Health Organization</cnm></au></aug><source>Bull World Health Organ</source><pubdate>1978</pubdate><volume>56</volume><issue>2</issue><fpage>247</fpage><lpage>270</lpage><xrefbib><pubidlist><pubid idtype="pmcid">2395561</pubid><pubid idtype="pmpid">307455</pubid></pubidlist></xrefbib></bibl><bibl id="B26"><title><p>Ebola haemorrhagic fever in Zaire, 1976</p></title><aug><au><cnm>Report of an International Commission</cnm></au></aug><source>Bull World Health Organ</source><pubdate>1978</pubdate><volume>56</volume><issue>2</issue><fpage>271</fpage><lpage>293</lpage><xrefbib><pubidlist><pubid idtype="pmcid">2395567</pubid><pubid idtype="pmpid">307456</pubid></pubidlist></xrefbib></bibl><bibl id="B27"><title><p>Ebola hemorrhagic fever in Kikwit, Democratic Republic of the Congo: clinical observations in 103 patients</p></title><aug><au><snm>Bwaka</snm><fnm>MA</fnm></au><au><snm>Bonnet</snm><fnm>MJ</fnm></au><au><snm>Calain</snm><fnm>P</fnm></au><au><snm>Colebunders</snm><fnm>R</fnm></au><au><snm>De Roo</snm><fnm>A</fnm></au><au><snm>Guimard</snm><fnm>Y</fnm></au><au><snm>Katwiki</snm><fnm>KR</fnm></au><au><snm>Kibadi</snm><fnm>K</fnm></au><au><snm>Kipasa</snm><fnm>MA</fnm></au><au><snm>Kuvula</snm><fnm>KJ</fnm></au><au><snm>Mapanda</snm><fnm>BB</fnm></au><au><snm>Massamba</snm><fnm>M</fnm></au><au><snm>Mupapa</snm><fnm>KD</fnm></au><au><snm>Muyembe-Tamfum</snm><fnm>JJ</fnm></au><au><snm>Ndaberey</snm><fnm>E</fnm></au><au><snm>Peters</snm><fnm>CJ</fnm></au><au><snm>Rollin</snm><fnm>PE</fnm></au><au><snm>Van den Enden</snm><fnm>E</fnm></au><au><snm>Van den Enden</snm><fnm>E</fnm></au></aug><source>J Infect Dis</source><pubdate>1999</pubdate><volume>179</volume><issue>Suppl 1</issue><fpage>1</fpage><lpage>7</lpage><xrefbib><pubid idtype="pmpid" link="fulltext">9841815</pubid></xrefbib></bibl><bibl id="B28"><title><p>The reemergence of Ebola hemorrhagic fever, Democratic Republic of the Congo, 1995. Commission de Lutte contre les Epid&#233;mies &#224; Kikwit</p></title><aug><au><snm>Khan</snm><fnm>AS</fnm></au><au><snm>Tshioko</snm><fnm>FK</fnm></au><au><snm>Heymann</snm><fnm>DL</fnm></au><au><snm>Le Guenno</snm><fnm>B</fnm></au><au><snm>Nabeth</snm><fnm>P</fnm></au><au><snm>Kersti&#235;ns</snm><fnm>B</fnm></au><au><snm>Fleerackers</snm><fnm>Y</fnm></au><au><snm>Kilmarx</snm><fnm>PH</fnm></au><au><snm>Rodier</snm><fnm>GR</fnm></au><au><snm>Nkuku</snm><fnm>O</fnm></au><au><snm>Rollin</snm><fnm>PE</fnm></au><au><snm>Sanchez</snm><fnm>A</fnm></au><au><snm>Zaki</snm><fnm>SR</fnm></au><au><snm>Swanepoel</snm><fnm>R</fnm></au><au><snm>Tomori</snm><fnm>O</fnm></au><au><snm>Nichol</snm><fnm>ST</fnm></au><au><snm>Peters</snm><fnm>CJ</fnm></au><au><snm>Muyembe-Tamfum</snm><fnm>JJ</fnm></au><au><snm>Ksiazek</snm><fnm>TG</fnm></au></aug><source>J Infect Dis</source><pubdate>1999</pubdate><volume>179</volume><issue>Suppl 1</issue><fpage>76</fpage><lpage>86</lpage></bibl><bibl id="B29"><title><p>Proportion of deaths and clinical features in Bundibugyo Ebola virus infection</p></title><aug><au><snm>MacNeil</snm><fnm>A</fnm></au><au><snm>Farnon</snm><fnm>EC</fnm></au><au><snm>Wamala</snm><fnm>J</fnm></au><au><snm>Okware</snm><fnm>S</fnm></au><au><snm>Cannon</snm><fnm>DL</fnm></au><au><snm>Reed</snm><fnm>Z</fnm></au><au><snm>Towner</snm><fnm>JS</fnm></au><au><snm>Tappero</snm><fnm>JW</fnm></au><au><snm>Lutwama</snm><fnm>J</fnm></au><au><snm>Downing</snm><fnm>R</fnm></au><au><snm>Nichol</snm><fnm>ST</fnm></au><au><snm>Ksiazek</snm><fnm>TG</fnm></au><au><snm>Rollin</snm><fnm>PE</fnm></au></aug><source>Uganda Emerg Infect Dis</source><pubdate>2010</pubdate><volume>16</volume><issue>12</issue><fpage>1969</fpage><lpage>1972</lpage><xrefbib><pubid idtype="doi">10.3201/eid1612.100627</pubid></xrefbib></bibl><bibl id="B30"><title><p>Clinical manifestations and case management of Ebola haemorrhagic fever caused by a newly identified virus strain, Bundibugyo, Uganda, 2007&#8211;2008</p></title><aug><au><snm>Roddy</snm><fnm>P</fnm></au><au><snm>Howard</snm><fnm>N</fnm></au><au><snm>Van Kerkhove</snm><fnm>MD</fnm></au><au><snm>Lutwama</snm><fnm>J</fnm></au><au><snm>Wamala</snm><fnm>J</fnm></au><au><snm>Yoti</snm><fnm>Z</fnm></au><au><snm>Colebunders</snm><fnm>R</fnm></au><au><snm>Palma</snm><fnm>PP</fnm></au><au><snm>Sterk</snm><fnm>E</fnm></au><au><snm>Jeffs</snm><fnm>B</fnm></au><au><snm>Van Herp</snm><fnm>M</fnm></au><au><snm>Borchert</snm><fnm>M</fnm></au></aug><source>PLoS One</source><pubdate>2012</pubdate><volume>7</volume><issue>12</issue><fpage>e52986</fpage><xrefbib><pubidlist><pubid idtype="doi">10.1371/journal.pone.0052986</pubid><pubid idtype="pmcid">3532309</pubid><pubid idtype="pmpid" link="fulltext">23285243</pubid></pubidlist></xrefbib></bibl><bibl id="B31"><title><p>Ebola haemorrhagic fever outbreak in Masindi District, Uganda: outbreak description and lessons learned</p></title><aug><au><snm>Borchert</snm><fnm>M</fnm></au><au><snm>Mutyaba</snm><fnm>I</fnm></au><au><snm>Van Kerkhove</snm><fnm>MD</fnm></au><au><snm>Lutwama</snm><fnm>J</fnm></au><au><snm>Luwaga</snm><fnm>H</fnm></au><au><snm>Bisoborwa</snm><fnm>G</fnm></au><au><snm>Turyagaruka</snm><fnm>J</fnm></au><au><snm>Pirard</snm><fnm>P</fnm></au><au><snm>Ndayimirije</snm><fnm>N</fnm></au><au><snm>Roddy</snm><fnm>P</fnm></au><au><snm>Van Der Stuyft</snm><fnm>P</fnm></au></aug><source>BMC Infect Dis</source><pubdate>2011</pubdate><volume>11</volume><fpage>357</fpage><xrefbib><pubidlist><pubid idtype="doi">10.1186/1471-2334-11-357</pubid><pubid idtype="pmcid">3276451</pubid><pubid idtype="pmpid" link="fulltext">22204600</pubid></pubidlist></xrefbib></bibl><bibl id="B32"><title><p>Rapid diagnosis of Ebola haemorrhagic fever by reverse transcription PCR in an outbreak setting and assessment of patient viral load as a predictor of outcome</p></title><aug><au><snm>Towner</snm><fnm>JS</fnm></au><au><snm>Rollin</snm><fnm>PE</fnm></au><au><snm>Bausch</snm><fnm>DG</fnm></au><au><snm>Sanchez</snm><fnm>A</fnm></au><au><snm>Crary</snm><fnm>S</fnm></au><au><snm>Vincent</snm><fnm>M</fnm></au><au><snm>Lee</snm><fnm>WF</fnm></au><au><snm>Spiropoulou</snm><fnm>CF</fnm></au><au><snm>Ksiazek</snm><fnm>TG</fnm></au><au><snm>Lukwiya</snm><fnm>M</fnm></au><au><snm>Kaducu</snm><fnm>F</fnm></au><au><snm>Downing</snm><fnm>R</fnm></au><au><snm>Nichol</snm><fnm>ST</fnm></au></aug><source>J Virol</source><pubdate>2004</pubdate><volume>78</volume><issue>8</issue><fpage>4330</fpage><lpage>4341</lpage><xrefbib><pubidlist><pubid idtype="doi">10.1128/JVI.78.8.4330-4341.2004</pubid><pubid idtype="pmcid">374287</pubid><pubid idtype="pmpid" link="fulltext">15047846</pubid></pubidlist></xrefbib></bibl><bibl id="B33"><title><p>Filovirus outbreak detection and surveillance: lessons from Bundibugyo</p></title><aug><au><snm>MacNeil</snm><fnm>A</fnm></au><au><snm>Farnon</snm><fnm>EC</fnm></au><au><snm>Morgan</snm><fnm>OW</fnm></au><au><snm>Gould</snm><fnm>P</fnm></au><au><snm>Boehmer</snm><fnm>TK</fnm></au><au><snm>Blaney</snm><fnm>DD</fnm></au><au><snm>Wiersma</snm><fnm>P</fnm></au><au><snm>Tappero</snm><fnm>JW</fnm></au><au><snm>Nichol</snm><fnm>ST</fnm></au><au><snm>Ksiazek</snm><fnm>TG</fnm></au><au><snm>Rollin</snm><fnm>PE</fnm></au></aug><source>J Infect Dis</source><pubdate>2011</pubdate><volume>204</volume><issue>Suppl 3</issue><fpage>761</fpage><lpage>767</lpage><xrefbib><pubidlist><pubid idtype="doi">10.1093/infdis/jir294</pubid><pubid idtype="pmcid">3156109</pubid><pubid idtype="pmpid" link="fulltext">21844302</pubid></pubidlist></xrefbib></bibl><bibl id="B34"><title><p>Outbreak(s) of Ebola haemorrhagic fever, Congo and Gabon, October 2001-July 2002</p></title><aug><au><cnm>World Health Organization</cnm></au></aug><source>Wkly Epidemiol Rec</source><pubdate>2003</pubdate><volume>78</volume><issue>26</issue><fpage>223</fpage><lpage>228</lpage><xrefbib><pubid idtype="pmpid">15571171</pubid></xrefbib></bibl><bibl id="B35"><title><p>Transmission of Ebola hemorrhagic fever: a study of risk factors in family members, Kikwit, Democratic Republic of the Congo, 1995. Commission de Lutte contre les Epid&#233;mies &#224; Kikwit</p></title><aug><au><snm>Dowell</snm><fnm>SF</fnm></au><au><snm>Mukunu</snm><fnm>R</fnm></au><au><snm>Ksiazek</snm><fnm>TG</fnm></au><au><snm>Khan</snm><fnm>AS</fnm></au><au><snm>Rollin</snm><fnm>PE</fnm></au><au><snm>Peters</snm><fnm>CJ</fnm></au></aug><source>J Infect Dis</source><pubdate>1999</pubdate><volume>179</volume><issue>Suppl 1</issue><fpage>87</fpage><lpage>91</lpage></bibl><bibl id="B36"><title><p>Ebola hemorrhagic fever</p></title><aug><au><cnm>Centers for Disease Control and Prevention [CDC]</cnm></au></aug><source>CDC</source><pubdate>2014</pubdate><note>
+   <url>http://www.cdc.gov/vhf/ebola/hcp/case-definition.html</url>
+</note></bibl><bibl id="B37"><title><p>Clinical virology of Ebola hemorrhagic fever (EHF): virus, virus antigen, and IgG and IgM antibody findings among EHF patients in Kikwit, Democratic Republic of the Congo, 1995</p></title><aug><au><snm>Ksiazek</snm><fnm>TG</fnm></au><au><snm>Rollin</snm><fnm>PE</fnm></au><au><snm>Williams</snm><fnm>AJ</fnm></au><au><snm>Bressler</snm><fnm>DS</fnm></au><au><snm>Martin</snm><fnm>ML</fnm></au><au><snm>Swanepoel</snm><fnm>R</fnm></au><au><snm>Burt</snm><fnm>FJ</fnm></au><au><snm>Leman</snm><fnm>PA</fnm></au><au><snm>Khan</snm><fnm>AS</fnm></au><au><snm>Rowe</snm><fnm>AK</fnm></au><au><snm>Mukunu</snm><fnm>R</fnm></au><au><snm>Sanchez</snm><fnm>A</fnm></au><au><snm>Peters</snm><fnm>CJ</fnm></au></aug><source>J Infect Dis</source><pubdate>1999</pubdate><volume>179</volume><issue>Suppl 1</issue><fpage>177</fpage><lpage>187</lpage></bibl><bibl id="B38"><title><p>Lobel: Persistent immune responses after Ebola virus infection</p></title><aug><au><snm>Sobarzo</snm><fnm>A</fnm></au><au><snm>Ochayon</snm><fnm>DE</fnm></au><au><snm>Lutwama</snm><fnm>JJ</fnm></au><au><snm>Balinandi</snm><fnm>S</fnm></au><au><snm>Guttman</snm><fnm>O</fnm></au><au><snm>Marks</snm><fnm>RS</fnm></au><au><snm>Kuehne</snm><fnm>AI</fnm></au><au><snm>Dye</snm><fnm>JM</fnm></au><au><snm>Yavelsky</snm><fnm>V</fnm></au><au><snm>Lewis</snm><fnm>EC</fnm></au></aug><source>N Engl J Med</source><pubdate>2013</pubdate><volume>369</volume><issue>5</issue><fpage>492</fpage><lpage>493</lpage><xrefbib><pubidlist><pubid idtype="doi">10.1056/NEJMc1300266</pubid><pubid idtype="pmpid" link="fulltext">23902512</pubid></pubidlist></xrefbib></bibl><bibl id="B39"><title><p>Ebolavirus vaccines for humans and apes</p></title><aug><au><snm>Fausther-Bovendo</snm><fnm>H</fnm></au><au><snm>Mulangu</snm><fnm>S</fnm></au><au><snm>Sullivan</snm><fnm>NJ</fnm></au></aug><source>Curr Opin Virol</source><pubdate>2012</pubdate><volume>2</volume><issue>3</issue><fpage>324</fpage><lpage>329</lpage><xrefbib><pubidlist><pubid idtype="doi">10.1016/j.coviro.2012.04.003</pubid><pubid idtype="pmcid">3397659</pubid><pubid idtype="pmpid" link="fulltext">22560007</pubid></pubidlist></xrefbib></bibl><bibl id="B40"><title><p>Current ebola vaccines</p></title><aug><au><snm>Hoenen</snm><fnm>T</fnm></au><au><snm>Groseth</snm><fnm>A</fnm></au><au><snm>Feldmann</snm><fnm>H</fnm></au></aug><source>Expert Opin Biol Ther</source><pubdate>2012</pubdate><volume>12</volume><issue>7</issue><fpage>859</fpage><lpage>872</lpage><xrefbib><pubidlist><pubid idtype="doi">10.1517/14712598.2012.685152</pubid><pubid idtype="pmcid">3422127</pubid><pubid idtype="pmpid" link="fulltext">22559078</pubid></pubidlist></xrefbib></bibl><bibl id="B41"><title><p>Ebola and Marburg hemorrhagic fevers: neglected tropical diseases?</p></title><aug><au><snm>MacNeil</snm><fnm>A</fnm></au><au><snm>Rollin</snm><fnm>PE</fnm></au></aug><source>PLoS Negl Trop Dis</source><pubdate>2012</pubdate><volume>6</volume><issue>6</issue><fpage>e1546</fpage><xrefbib><pubidlist><pubid idtype="doi">10.1371/journal.pntd.0001546</pubid><pubid idtype="pmcid">3385614</pubid><pubid idtype="pmpid" link="fulltext">22761967</pubid></pubidlist></xrefbib></bibl><bibl id="B42"><title><p>A case of Ebola virus infection</p></title><aug><au><snm>Emond</snm><fnm>RT</fnm></au><au><snm>Evans</snm><fnm>B</fnm></au><au><snm>Bowen</snm><fnm>ET</fnm></au><au><snm>Lloyd</snm><fnm>G</fnm></au></aug><source>Br Med J</source><pubdate>1977</pubdate><volume>2</volume><issue>6086</issue><fpage>541</fpage><lpage>544</lpage><xrefbib><pubidlist><pubid idtype="doi">10.1136/bmj.2.6086.541</pubid><pubid idtype="pmcid">1631428</pubid><pubid idtype="pmpid">890413</pubid></pubidlist></xrefbib></bibl><bibl id="B43"><title><p>Treatment of Ebola hemorrhagic fever with blood transfusions from convalescent patients. International Scientific and Technical Committee</p></title><aug><au><snm>Mupapa</snm><fnm>K</fnm></au><au><snm>Massamba</snm><fnm>M</fnm></au><au><snm>Kibadi</snm><fnm>K</fnm></au><au><snm>Kuvula</snm><fnm>K</fnm></au><au><snm>Bwaka</snm><fnm>A</fnm></au><au><snm>Kipasa</snm><fnm>M</fnm></au><au><snm>Colebunders</snm><fnm>R</fnm></au><au><snm>Muyembe-Tamfum</snm><fnm>JJ</fnm></au></aug><source>J Infect Dis</source><pubdate>1999</pubdate><volume>179</volume><issue>Suppl 1</issue><fpage>18</fpage><lpage>23</lpage></bibl><bibl id="B44"><title><p>Postexposure antibody prophylaxis protects nonhuman primates from filovirus disease</p></title><aug><au><snm>Dye</snm><fnm>JM</fnm></au><au><snm>Herbert</snm><fnm>AS</fnm></au><au><snm>Kuehne</snm><fnm>AI</fnm></au><au><snm>Barth</snm><fnm>JF</fnm></au><au><snm>Muhammad</snm><fnm>MA</fnm></au><au><snm>Zak</snm><fnm>SE</fnm></au><au><snm>Ortiz</snm><fnm>RA</fnm></au><au><snm>Prugar</snm><fnm>LI</fnm></au><au><snm>Pratt</snm><fnm>WD</fnm></au></aug><source>Proc Natl Acad Sci U S A</source><pubdate>2012</pubdate><volume>109</volume><issue>13</issue><fpage>5034</fpage><lpage>5039</lpage><xrefbib><pubidlist><pubid idtype="doi">10.1073/pnas.1200409109</pubid><pubid idtype="pmcid">3323977</pubid><pubid idtype="pmpid" link="fulltext">22411795</pubid></pubidlist></xrefbib></bibl><bibl id="B45"><title><p>Post-exposure therapy of filovirus infections</p></title><aug><au><snm>Wong</snm><fnm>G</fnm></au><au><snm>Qiu</snm><fnm>X</fnm></au><au><snm>Olinger</snm><fnm>GG</fnm></au><au><snm>Kobinger</snm><fnm>GP</fnm></au></aug><source>Trends Microbiol</source><pubdate>2014</pubdate><volume>22</volume><issue>8</issue><fpage>456</fpage><lpage>463</lpage><xrefbib><pubidlist><pubid idtype="doi">10.1016/j.tim.2014.04.002</pubid><pubid idtype="pmpid" link="fulltext">24794572</pubid></pubidlist></xrefbib></bibl><bibl id="B46"><title><p>Protection against filovirus diseases by a novel broad-spectrum nucleoside analogue BCX4430</p></title><aug><au><snm>Warren</snm><fnm>TK</fnm></au><au><snm>Wells</snm><fnm>J</fnm></au><au><snm>Panchal</snm><fnm>RG</fnm></au><au><snm>Stuthman</snm><fnm>KS</fnm></au><au><snm>Garza</snm><fnm>NL</fnm></au><au><snm>Van Tongeren</snm><fnm>SA</fnm></au><au><snm>Dong</snm><fnm>L</fnm></au><au><snm>Retterer</snm><fnm>CJ</fnm></au><au><snm>Eaton</snm><fnm>BP</fnm></au><au><snm>Pegoraro</snm><fnm>G</fnm></au><au><snm>Honnold</snm><fnm>S</fnm></au><au><snm>Bantia</snm><fnm>S</fnm></au><au><snm>Kotian</snm><fnm>P</fnm></au><au><snm>Chen</snm><fnm>X</fnm></au><au><snm>Taubenheim</snm><fnm>BR</fnm></au><au><snm>Welch</snm><fnm>LS</fnm></au><au><snm>Minning</snm><fnm>DM</fnm></au><au><snm>Babu</snm><fnm>YS</fnm></au><au><snm>Sheridan</snm><fnm>WP</fnm></au><au><snm>Bavari</snm><fnm>S</fnm></au></aug><source>Nature</source><pubdate>2014</pubdate><volume>508</volume><fpage>402</fpage><lpage>405</lpage><xrefbib><pubidlist><pubid idtype="doi">10.1038/nature13027</pubid><pubid idtype="pmpid" link="fulltext">24590073</pubid></pubidlist></xrefbib></bibl><bibl id="B47"><title><p>Clinical management of filovirus-infected patients</p></title><aug><au><snm>Clark</snm><fnm>DV</fnm></au><au><snm>Jahrling</snm><fnm>PB</fnm></au><au><snm>Lawler</snm><fnm>JV</fnm></au></aug><source>Viruses</source><pubdate>2012</pubdate><volume>4</volume><fpage>1668</fpage><lpage>1686</lpage><xrefbib><pubidlist><pubid idtype="doi">10.3390/v4091668</pubid><pubid idtype="pmcid">3499825</pubid><pubid idtype="pmpid" link="fulltext">23170178</pubid></pubidlist></xrefbib></bibl><bibl id="B48"><title><p>Evaluation of immune globulin and recombinant interferon-alpha2b for treatment of experimental Ebola virus infections</p></title><aug><au><snm>Jahrling</snm><fnm>PB</fnm></au><au><snm>Geisbert</snm><fnm>TW</fnm></au><au><snm>Geisbert</snm><fnm>JB</fnm></au><au><snm>Swearengen</snm><fnm>JR</fnm></au><au><snm>Bray</snm><fnm>M</fnm></au><au><snm>Jaax</snm><fnm>NK</fnm></au><au><snm>Huggins</snm><fnm>JW</fnm></au><au><snm>LeDuc</snm><fnm>JW</fnm></au><au><snm>Peters</snm><fnm>CJ</fnm></au></aug><source>J Infect Dis</source><pubdate>1999</pubdate><volume>179</volume><issue>Suppl 1</issue><fpage>224</fpage><lpage>234</lpage></bibl><bibl id="B49"><title><p>Ebola and Marburg virus diseases in Africa: increased risk of outbreaks in previously unaffected areas?</p></title><aug><au><snm>Changula</snm><fnm>K</fnm></au><au><snm>Kajihara</snm><fnm>M</fnm></au><au><snm>Mweene</snm><fnm>AS</fnm></au><au><snm>Takada</snm><fnm>A</fnm></au></aug><source>Microbiol Immunol</source><pubdate>2014</pubdate><volume>58</volume><issue>9</issue><fpage>483</fpage><lpage>491</lpage><xrefbib><pubidlist><pubid idtype="doi">10.1111/1348-0421.12181</pubid><pubid idtype="pmpid" link="fulltext">25040642</pubid></pubidlist></xrefbib></bibl><bibl id="B50"><title><p>The ecology of Ebola virus</p></title><aug><au><snm>Groseth</snm><fnm>A</fnm></au><au><snm>Feldmann</snm><fnm>H</fnm></au><au><snm>Strong</snm><fnm>JE</fnm></au></aug><source>Trends Microbiol</source><pubdate>2007</pubdate><volume>15</volume><issue>9</issue><fpage>408</fpage><lpage>416</lpage><xrefbib><pubidlist><pubid idtype="doi">10.1016/j.tim.2007.08.001</pubid><pubid idtype="pmpid" link="fulltext">17698361</pubid></pubidlist></xrefbib></bibl><bibl id="B51"><title><p>Emerging filoviral disease in Uganda: proposed explanations and research directions</p></title><aug><au><snm>Polonsky</snm><fnm>JA</fnm></au><au><snm>Wamala</snm><fnm>JF</fnm></au><au><snm>de Clerck</snm><fnm>H</fnm></au><au><snm>Van Herp</snm><fnm>M</fnm></au><au><snm>Sprecher</snm><fnm>A</fnm></au><au><snm>Porten</snm><fnm>K</fnm></au><au><snm>Shoemaker</snm><fnm>T</fnm></au></aug><source>Am J Trop Med Hyg</source><pubdate>2014</pubdate><volume>90</volume><issue>5</issue><fpage>790</fpage><lpage>793</lpage><xrefbib><pubidlist><pubid idtype="doi">10.4269/ajtmh.13-0374</pubid><pubid idtype="pmcid">4015565</pubid><pubid idtype="pmpid" link="fulltext">24515940</pubid></pubidlist></xrefbib></bibl><bibl id="B52"><title><p>Haemorrhagic fever in Gabon. I. incidence of Lassa, Ebola and Marburg viruses in Haut-Ogoou&#233;</p></title><aug><au><snm>Ivanoff</snm><fnm>B</fnm></au><au><snm>Duquesnoy</snm><fnm>P</fnm></au><au><snm>Languillat</snm><fnm>G</fnm></au><au><snm>Saluzzo</snm><fnm>JF</fnm></au><au><snm>Georges</snm><fnm>A</fnm></au><au><snm>Gonzalez</snm><fnm>JP</fnm></au><au><snm>McCormick</snm><fnm>J</fnm></au></aug><source>Trans R Soc Trop Med Hyg</source><pubdate>1982</pubdate><volume>76</volume><issue>6</issue><fpage>719</fpage><lpage>720</lpage><xrefbib><pubidlist><pubid idtype="doi">10.1016/0035-9203(82)90089-X</pubid><pubid idtype="pmpid">7164137</pubid></pubidlist></xrefbib></bibl><bibl id="B53"><title><p>Filovirus activity among selected ethnic groups inhabiting the tropical forest of equatorial Africa</p></title><aug><au><snm>Johnson</snm><fnm>ED</fnm></au><au><snm>Gonzalez</snm><fnm>JP</fnm></au><au><snm>Georges</snm><fnm>AJ</fnm></au></aug><source>Trans R Soc Trop Med Hyg</source><pubdate>1993</pubdate><volume>87</volume><issue>5</issue><fpage>536</fpage><lpage>538</lpage><xrefbib><pubidlist><pubid idtype="doi">10.1016/0035-9203(93)90077-4</pubid><pubid idtype="pmpid">8266403</pubid></pubidlist></xrefbib></bibl><bibl id="B54"><title><p>Collection of Mammals and Arthropods During the Epidemic of Haemorrhagic Fever in Zaire</p></title><aug><au><snm>Germain</snm><fnm>M</fnm></au></aug><source>Ebola Virus Haemorrhagic Fever</source><publisher>Amsterdam: Elsevier / North-Holland Biomedical Press</publisher><editor>Pattyn SR</editor><pubdate>1978</pubdate><fpage>131</fpage><lpage>133</lpage></bibl><bibl id="B55"><title><p>Approaches Towards Studies on Potential Reservoirs of Viral Haemorrhagic Fever in Southern Sudan (1977)</p></title><aug><au><snm>Arata</snm><fnm>AA</fnm></au><au><snm>Johnson</snm><fnm>B</fnm></au></aug><source>Ebola Virus Haemorrhagic Fever</source><publisher>Amsterdam: Elsevier / North-Holland Biomedical Press</publisher><editor>Pattyn SR</editor><pubdate>1978</pubdate><fpage>134</fpage><lpage>139</lpage></bibl><bibl id="B56"><title><p>Search for the Ebola virus reservoir in Kikwit, Democratic Republic of the Congo: reflections on a vertebrate collection</p></title><aug><au><snm>Leirs</snm><fnm>H</fnm></au><au><snm>Mills</snm><fnm>JN</fnm></au><au><snm>Krebs</snm><fnm>JW</fnm></au><au><snm>Childs</snm><fnm>JE</fnm></au><au><snm>Akaibe</snm><fnm>D</fnm></au><au><snm>Woollen</snm><fnm>N</fnm></au><au><snm>Ludwig</snm><fnm>G</fnm></au><au><snm>Peters</snm><fnm>CJ</fnm></au><au><snm>Ksiazek</snm><fnm>TG</fnm></au></aug><source>J Infect Dis</source><pubdate>1999</pubdate><volume>179</volume><issue>Suppl 1</issue><fpage>S155</fpage><lpage>S163</lpage><xrefbib><pubid idtype="pmpid" link="fulltext">9988179</pubid></xrefbib></bibl><bibl id="B57"><title><p>Identification of Ebola virus sequences present as RNA or DNA in organs of terrestrial small mammals of the Central African Republic</p></title><aug><au><snm>Morvan</snm><fnm>JM</fnm></au><au><snm>Deubel</snm><fnm>V</fnm></au><au><snm>Gounon</snm><fnm>P</fnm></au><au><snm>Nakoun&#233;</snm><fnm>E</fnm></au><au><snm>Barri&#232;re</snm><fnm>P</fnm></au><au><snm>Murri</snm><fnm>S</fnm></au><au><snm>Perp&#232;te</snm><fnm>O</fnm></au><au><snm>Selekon</snm><fnm>B</fnm></au><au><snm>Coudrier</snm><fnm>D</fnm></au><au><snm>Gautier-Hion</snm><fnm>A</fnm></au><au><snm>Colyn</snm><fnm>M</fnm></au><au><snm>Volehkov</snm><fnm>V</fnm></au></aug><source>Microbes Infect</source><pubdate>1999</pubdate><volume>1</volume><issue>14</issue><fpage>1193</fpage><lpage>1201</lpage><xrefbib><pubidlist><pubid idtype="doi">10.1016/S1286-4579(99)00242-7</pubid><pubid idtype="pmpid" link="fulltext">10580275</pubid></pubidlist></xrefbib></bibl><bibl id="B58"><title><p>Human Ebola outbreak resulting from direct exposure to fruit bats in Luebo, Democratic Republic of Congo, 2007</p></title><aug><au><snm>Leroy</snm><fnm>EM</fnm></au><au><snm>Epelboin</snm><fnm>A</fnm></au><au><snm>Mondonge</snm><fnm>V</fnm></au><au><snm>Pourrut</snm><fnm>X</fnm></au><au><snm>Gonzalez</snm><fnm>JP</fnm></au><au><snm>Muyembe-Tamfum</snm><fnm>JJ</fnm></au><au><snm>Formenty</snm><fnm>P</fnm></au></aug><source>Vector Borne Zoonotic Dis</source><pubdate>2009</pubdate><volume>9</volume><issue>6</issue><fpage>723</fpage><lpage>728</lpage><xrefbib><pubidlist><pubid idtype="doi">10.1089/vbz.2008.0167</pubid><pubid idtype="pmpid" link="fulltext">19323614</pubid></pubidlist></xrefbib></bibl><bibl id="B59"><title><p>The natural history of Ebola virus in Africa</p></title><aug><au><snm>Pourrut</snm><fnm>X</fnm></au><au><snm>Kumulungui</snm><fnm>B</fnm></au><au><snm>Wittmann</snm><fnm>T</fnm></au><au><snm>Moussavou</snm><fnm>G</fnm></au><au><snm>D&#233;licat</snm><fnm>A</fnm></au><au><snm>Yaba</snm><fnm>P</fnm></au><au><snm>Nkoghe</snm><fnm>D</fnm></au><au><snm>Gonzalez</snm><fnm>JP</fnm></au><au><snm>Leroy</snm><fnm>EM</fnm></au></aug><source>Microbes Infect</source><pubdate>2005</pubdate><volume>7</volume><issue>7&#8211;8</issue><fpage>1005</fpage><lpage>1014</lpage><xrefbib><pubid idtype="pmpid" link="fulltext">16002313</pubid></xrefbib></bibl><bibl id="B60"><title><p>Spatial and temporal patterns of Zaire ebolavirus antibody prevalence in the possible reservoir bat species</p></title><aug><au><snm>Pourrut</snm><fnm>X</fnm></au><au><snm>D&#233;licat</snm><fnm>A</fnm></au><au><snm>Rollin</snm><fnm>PE</fnm></au><au><snm>Ksiazek</snm><fnm>TG</fnm></au><au><snm>Gonzalez</snm><fnm>JP</fnm></au><au><snm>Leroy</snm><fnm>EM</fnm></au></aug><source>J Infect Dis</source><pubdate>2007</pubdate><volume>196</volume><issue>Suppl 2</issue><fpage>176</fpage><lpage>183</lpage><xrefbib><pubid idtype="pmpid" link="fulltext">17570102</pubid></xrefbib></bibl><bibl id="B61"><title><p>Large serological survey showing cocirculation of Ebola and Marburg viruses in Gabonese bat populations, and a high seroprevalence of both viruses in <it>Rousettus aegyptiacus</it></p></title><aug><au><snm>Pourrut</snm><fnm>X</fnm></au><au><snm>Souris</snm><fnm>M</fnm></au><au><snm>Towner</snm><fnm>JS</fnm></au><au><snm>Rollin</snm><fnm>PE</fnm></au><au><snm>Nichol</snm><fnm>ST</fnm></au><au><snm>Gonzalez</snm><fnm>JP</fnm></au><au><snm>Leroy</snm><fnm>E</fnm></au></aug><source>BMC Infect Dis</source><pubdate>2009</pubdate><volume>9</volume><fpage>159</fpage><xrefbib><pubidlist><pubid idtype="doi">10.1186/1471-2334-9-159</pubid><pubid idtype="pmcid">2761397</pubid><pubid idtype="pmpid" link="fulltext">19785757</pubid></pubidlist></xrefbib></bibl><bibl id="B62"><title><p>Long-term survival of an urban fruit bat seropositive for Ebola and Lagos batviruses</p></title><aug><au><snm>Hayman</snm><fnm>DTS</fnm></au><au><snm>Emmerich</snm><fnm>P</fnm></au><au><snm>Yu</snm><fnm>M</fnm></au><au><snm>Wang</snm><fnm>L-F</fnm></au><au><snm>Suu-Ire</snm><fnm>R</fnm></au><au><snm>Fooks</snm><fnm>AR</fnm></au><au><snm>Cunningham</snm><fnm>AA</fnm></au><au><snm>Wood</snm><fnm>JLN</fnm></au></aug><source>PLoS One</source><pubdate>2010</pubdate><volume>5</volume><issue>8</issue><fpage>e11978</fpage><xrefbib><pubidlist><pubid idtype="doi">10.1371/journal.pone.0011978</pubid><pubid idtype="pmcid">2915915</pubid><pubid idtype="pmpid" link="fulltext">20694141</pubid></pubidlist></xrefbib></bibl><bibl id="B63"><title><p>Ebola virus antibodies in fruit bats, Ghana</p></title><aug><au><snm>Hayman</snm><fnm>DT</fnm></au><au><snm>Yu</snm><fnm>M</fnm></au><au><snm>Crameri</snm><fnm>G</fnm></au><au><snm>Wang</snm><fnm>LF</fnm></au><au><snm>Suu-Ire</snm><fnm>R</fnm></au><au><snm>Wood</snm><fnm>JL</fnm></au><au><snm>Cunningham</snm><fnm>AA</fnm></au></aug><source>West Africa Emerg Infect Dis</source><pubdate>2012</pubdate><volume>18</volume><issue>7</issue><fpage>1207</fpage><lpage>1209</lpage><xrefbib><pubid idtype="doi">10.3201/eid1807.111654</pubid></xrefbib></bibl><bibl id="B64"><title><p>Field investigations of an outbreak of Ebola hemorrhagic fever, Kikwit, Democratic Republic of the Congo, 1995: arthropod studies</p></title><aug><au><snm>Reiter</snm><fnm>P</fnm></au><au><snm>Turell</snm><fnm>M</fnm></au><au><snm>Coleman</snm><fnm>R</fnm></au><au><snm>Miller</snm><fnm>B</fnm></au><au><snm>Maupin</snm><fnm>G</fnm></au><au><snm>Liz</snm><fnm>J</fnm></au><au><snm>Kuehne</snm><fnm>A</fnm></au><au><snm>Barth</snm><fnm>J</fnm></au><au><snm>Geisbert</snm><fnm>J</fnm></au><au><snm>Dohm</snm><fnm>D</fnm></au><au><snm>Glick</snm><fnm>J</fnm></au><au><snm>Pecor</snm><fnm>J</fnm></au><au><snm>Robbins</snm><fnm>R</fnm></au><au><snm>Jahrling</snm><fnm>P</fnm></au><au><snm>Peters</snm><fnm>C</fnm></au><au><snm>Ksiazek</snm><fnm>T</fnm></au></aug><source>J Infect Dis</source><pubdate>1999</pubdate><volume>179</volume><issue>Suppl 1</issue><fpage>S148</fpage><lpage>S154</lpage><xrefbib><pubid idtype="pmpid" link="fulltext">9988178</pubid></xrefbib></bibl><bibl id="B65"><title><p>Dead or alive: animal sampling during Ebola hemorrhagic fever outbreaks in humans</p></title><aug><au><snm>Olson</snm><fnm>SH</fnm></au><au><snm>Reed</snm><fnm>P</fnm></au><au><snm>Cameron</snm><fnm>KN</fnm></au><au><snm>Ssebide</snm><fnm>BJ</fnm></au><au><snm>Johnson</snm><fnm>CK</fnm></au><au><snm>Morse</snm><fnm>SS</fnm></au><au><snm>Karesh</snm><fnm>WB</fnm></au><au><snm>Mazet</snm><fnm>JA</fnm></au><au><snm>Joly</snm><fnm>DO</fnm></au></aug><source>Emerg Health Threats J</source><pubdate>2012</pubdate><volume>5</volume><note>doi: 10.3402/ehtj.v5i0.9134</note></bibl><bibl id="B66"><title><p>Ebola virus outbreak among wild chimpanzees living in a rain forest of C&#244;te d&#8217;Ivoire</p></title><aug><au><snm>Formenty</snm><fnm>P</fnm></au><au><snm>Boesch</snm><fnm>C</fnm></au><au><snm>Wyers</snm><fnm>M</fnm></au><au><snm>Steiner</snm><fnm>C</fnm></au><au><snm>Donati</snm><fnm>F</fnm></au><au><snm>Dind</snm><fnm>F</fnm></au><au><snm>Walker</snm><fnm>F</fnm></au><au><snm>Le Guenno</snm><fnm>B</fnm></au></aug><source>J Infect Dis</source><pubdate>1999</pubdate><volume>179</volume><issue>Suppl 1</issue><fpage>S120</fpage><lpage>S126</lpage><xrefbib><pubid idtype="pmpid" link="fulltext">9988175</pubid></xrefbib></bibl><bibl id="B67"><title><p>Ebola hemorrhagic fever outbreaks in Gabon, 1994&#8211;1997: epidemiologic and health control issues</p></title><aug><au><snm>Georges</snm><fnm>AJ</fnm></au><au><snm>Leroy</snm><fnm>EM</fnm></au><au><snm>Renaut</snm><fnm>AA</fnm></au><au><snm>Benissan</snm><fnm>CT</fnm></au><au><snm>Nabias</snm><fnm>RJ</fnm></au><au><snm>Ngoc</snm><fnm>MT</fnm></au><au><snm>Obiang</snm><fnm>PI</fnm></au><au><snm>Lepage</snm><fnm>JP</fnm></au><au><snm>Bertherat</snm><fnm>EJ</fnm></au><au><snm>B&#233;noni</snm><fnm>DD</fnm></au><au><snm>Wickings</snm><fnm>EJ</fnm></au><au><snm>Amblard</snm><fnm>JP</fnm></au><au><snm>Lansoud-Soukate</snm><fnm>JM</fnm></au><au><snm>Milleliri</snm><fnm>JM</fnm></au><au><snm>Baize</snm><fnm>S</fnm></au><au><snm>Georges-Courbot</snm><fnm>MC</fnm></au></aug><source>J Infect Dis</source><pubdate>1999</pubdate><volume>179</volume><issue>Suppl 1</issue><fpage>S65</fpage><lpage>S75</lpage><xrefbib><pubid idtype="pmpid" link="fulltext">9988167</pubid></xrefbib></bibl><bibl id="B68"><title><p>Ebola and great apes in Central Africa: current status and future needs</p></title><aug><au><snm>Karesh</snm><fnm>W</fnm></au><au><snm>Reed</snm><fnm>P</fnm></au></aug><source>Bull Soc Pathol Exot</source><pubdate>2005</pubdate><volume>98</volume><issue>3</issue><fpage>237</fpage><lpage>238</lpage><xrefbib><pubid idtype="pmpid">16267967</pubid></xrefbib></bibl><bibl id="B69"><title><p>Plusieurs &#233;pid&#233;mies de fi&#232;vre h&#233;morragique &#224; virus Ebola au Gabon, octobre 2001 &#224; avril 2002</p></title><aug><au><snm>Nkoghe</snm><fnm>D</fnm></au><au><snm>Formenty</snm><fnm>P</fnm></au><au><snm>Leroy</snm><fnm>EM</fnm></au><au><snm>Nnegue</snm><fnm>S</fnm></au><au><snm>Edou</snm><fnm>SY</fnm></au><au><snm>Ba</snm><fnm>JI</fnm></au><au><snm>Allarangar</snm><fnm>Y</fnm></au><au><snm>Cabore</snm><fnm>J</fnm></au><au><snm>Bachy</snm><fnm>C</fnm></au><au><snm>Andraghetti</snm><fnm>R</fnm></au><au><snm>de Benoist</snm><fnm>AC</fnm></au><au><snm>Galanis</snm><fnm>E</fnm></au><au><snm>Rose</snm><fnm>A</fnm></au><au><snm>Bausch</snm><fnm>D</fnm></au><au><snm>Reynolds</snm><fnm>M</fnm></au><au><snm>Rollin</snm><fnm>P</fnm></au><au><snm>Choueibou</snm><fnm>C</fnm></au><au><snm>Shongo</snm><fnm>R</fnm></au><au><snm>Gergonne</snm><fnm>B</fnm></au><au><snm>Kon&#233;</snm><fnm>LM</fnm></au><au><snm>Yada</snm><fnm>A</fnm></au><au><snm>Roth</snm><fnm>C</fnm></au><au><snm>Mve</snm><fnm>MT</fnm></au></aug><source>Bull Soc Pathol Exot</source><pubdate>2005</pubdate><volume>98</volume><issue>3</issue><fpage>224</fpage><lpage>229</lpage><xrefbib><pubid idtype="pmpid">16267965</pubid></xrefbib></bibl><bibl id="B70"><title><p>A limited outbreak of Ebola haemorrhagic fever in Etoumbi, Republic of Congo, 2005</p></title><aug><au><snm>Nkoghe</snm><fnm>D</fnm></au><au><snm>Kone</snm><fnm>ML</fnm></au><au><snm>Yada</snm><fnm>A</fnm></au><au><snm>Leroy</snm><fnm>E</fnm></au></aug><source>Trans R Soc Trop Med Hyg</source><pubdate>2011</pubdate><volume>105</volume><issue>8</issue><fpage>466</fpage><lpage>472</lpage><xrefbib><pubidlist><pubid idtype="doi">10.1016/j.trstmh.2011.04.011</pubid><pubid idtype="pmpid" link="fulltext">21605882</pubid></pubidlist></xrefbib></bibl><bibl id="B71"><title><p>La riposte &#224; l&#8217;&#233;pid&#233;mie de fi&#232;vre h&#233;morragique &#224; virus Ebola en R&#233;publique du Congo, 2003: une nouvelle strat&#233;gie?</p></title><aug><au><snm>Formenty</snm><fnm>P</fnm></au><au><snm>Libama</snm><fnm>F</fnm></au><au><snm>Epelboin</snm><fnm>A</fnm></au><au><snm>Allarangar</snm><fnm>Y</fnm></au><au><snm>Leroy</snm><fnm>E</fnm></au><au><snm>Moudzeo</snm><fnm>H</fnm></au><au><snm>Tarangonia</snm><fnm>P</fnm></au><au><snm>Molamou</snm><fnm>A</fnm></au><au><snm>Lenzi</snm><fnm>M</fnm></au><au><snm>Ait-Ikhlef</snm><fnm>K</fnm></au><au><snm>Hewlett</snm><fnm>B</fnm></au><au><snm>Roth</snm><fnm>C</fnm></au><au><snm>Grein</snm><fnm>T</fnm></au></aug><source>Med Trop</source><pubdate>2003</pubdate><volume>63</volume><fpage>291</fpage><lpage>295</lpage></bibl><bibl id="B72"><title><p>The annual migrations of three species of West African fruit bats (Chiroptera: Pteropodidae)</p></title><aug><au><snm>Thomas</snm><fnm>DW</fnm></au></aug><source>Can J Zoology</source><pubdate>1983</pubdate><volume>61</volume><issue>10</issue><fpage>2266</fpage><lpage>2272</lpage><xrefbib><pubid idtype="doi">10.1139/z83-299</pubid></xrefbib></bibl><bibl id="B73"><title><p>First application of satellite telemetry to track African straw-coloured fruit bat migration</p></title><aug><au><snm>Richter</snm><fnm>HV</fnm></au><au><snm>Cumming</snm><fnm>GS</fnm></au></aug><source>J Zool</source><pubdate>2008</pubdate><volume>275</volume><issue>2</issue><fpage>172</fpage><lpage>176</lpage><xrefbib><pubid idtype="doi">10.1111/j.1469-7998.2008.00425.x</pubid></xrefbib></bibl><bibl id="B74"><title><p>Seasonal variation in antibodies against Ebola virus in Kenyan fever patients</p></title><aug><au><snm>Johnson</snm><fnm>BK</fnm></au><au><snm>Wambui</snm><fnm>C</fnm></au><au><snm>Ocheng</snm><fnm>D</fnm></au><au><snm>Gichogo</snm><fnm>A</fnm></au><au><snm>Oogo</snm><fnm>S</fnm></au><au><snm>Libondo</snm><fnm>D</fnm></au><au><snm>Gitau</snm><fnm>LG</fnm></au><au><snm>Tukei</snm><fnm>PM</fnm></au><au><snm>Johnson</snm><fnm>ED</fnm></au></aug><source>Lancet</source><pubdate>1986</pubdate><volume>1</volume><issue>8490</issue><fpage>1160</fpage></bibl><bibl id="B75"><title><p>Trigger events: enviroclimatic coupling of Ebola hemorrhagic fever outbreaks</p></title><aug><au><snm>Pinzon</snm><fnm>JE</fnm></au><au><snm>Wilson</snm><fnm>JM</fnm></au><au><snm>Tucker</snm><fnm>CJ</fnm></au><au><snm>Arthur</snm><fnm>R</fnm></au><au><snm>Jahrling</snm><fnm>PB</fnm></au><au><snm>Formenty</snm><fnm>P</fnm></au></aug><source>Am J Trop Med Hyg</source><pubdate>2004</pubdate><volume>71</volume><issue>5</issue><fpage>664</fpage><lpage>674</lpage><xrefbib><pubid idtype="pmpid" link="fulltext">15569802</pubid></xrefbib></bibl><bibl id="B76"><title><p>Are figs always keystone resources for tropical frugivorous vertebrates? A test in Gabon</p></title><aug><au><snm>Gautier-Hion</snm><fnm>A</fnm></au><au><snm>Michaloud</snm><fnm>G</fnm></au></aug><source>Ecology</source><pubdate>1989</pubdate><volume>70</volume><issue>6</issue><fpage>1826</fpage><lpage>1833</lpage><xrefbib><pubid idtype="doi">10.2307/1938115</pubid></xrefbib></bibl><bibl id="B77"><title><p>Cultural contexts of Ebola in northern Uganda</p></title><aug><au><snm>Hewlett</snm><fnm>BS</fnm></au><au><snm>Amola</snm><fnm>RP</fnm></au></aug><source>Emerg Infect Dis</source><pubdate>2003</pubdate><volume>9</volume><issue>10</issue><fpage>1242</fpage><lpage>1248</lpage><xrefbib><pubidlist><pubid idtype="doi">10.3201/eid0910.020493</pubid><pubid idtype="pmcid">3033100</pubid><pubid idtype="pmpid">14609458</pubid></pubidlist></xrefbib></bibl><bibl id="B78"><title><p>Medical anthropology and Ebola in Congo: cultural models and humanistic care</p></title><aug><au><snm>Hewlett</snm><fnm>BS</fnm></au><au><snm>Epelboin</snm><fnm>A</fnm></au><au><snm>Hewlett</snm><fnm>BL</fnm></au><au><snm>Formenty</snm><fnm>P</fnm></au></aug><source>Bull Soc Pathol Exot</source><pubdate>2005</pubdate><volume>98</volume><issue>3</issue><fpage>230</fpage><lpage>236</lpage><xrefbib><pubid idtype="pmpid">16267966</pubid></xrefbib></bibl><bibl id="B79"><aug><au><snm>Epelboin</snm><fnm>A</fnm></au></aug><source>Rapport de mission anthropologique sur l&#8217;&#233;pid&#233;mie d&#8217;Ebola Isiro, R. D. Congo, 4 au 30 septembre 2012</source><publisher>France: CNRS-MNHN Paris &amp; OMS</publisher><pubdate>2012</pubdate><note>[download2.cerimes.fr/canalu/documents/smm/marburg.en.angola.uige.avril.2005.fun.railles.de.crise.le.tailleur.et.les.siens_13719/2012rdc.ebola.rapport.epelboinww.pdf]</note></bibl><bibl id="B80"><title><p>Assessment of the risk of Ebola virus transmission from bodily fluids and fomites</p></title><aug><au><snm>Bausch</snm><fnm>DG</fnm></au><au><snm>Towner</snm><fnm>JS</fnm></au><au><snm>Dowell</snm><fnm>SF</fnm></au><au><snm>Kaducu</snm><fnm>F</fnm></au><au><snm>Lukwiya</snm><fnm>M</fnm></au><au><snm>Sanchez</snm><fnm>A</fnm></au><au><snm>Nichol</snm><fnm>ST</fnm></au><au><snm>Ksiazek</snm><fnm>TG</fnm></au><au><snm>Rollin</snm><fnm>PE</fnm></au></aug><source>J Infect Dis</source><pubdate>2007</pubdate><volume>196</volume><issue>Suppl 2</issue><fpage>S142</fpage><lpage>S147</lpage><xrefbib><pubid idtype="pmpid" link="fulltext">17940942</pubid></xrefbib></bibl><bibl id="B81"><title><p>Late ophthalmologic manifestations in survivors of the 1995 Ebola virus epidemic in Kikwit, Democratic Republic of the Congo</p></title><aug><au><snm>Kibadi</snm><fnm>K</fnm></au><au><snm>Mupapa</snm><fnm>K</fnm></au><au><snm>Kuvula</snm><fnm>K</fnm></au><au><snm>Massamba</snm><fnm>M</fnm></au><au><snm>Ndaberey</snm><fnm>D</fnm></au><au><snm>Muyembe-Tamfum</snm><fnm>JJ</fnm></au><au><snm>Bwaka</snm><fnm>MA</fnm></au><au><snm>De Roo</snm><fnm>A</fnm></au><au><snm>Colebunders</snm><fnm>R</fnm></au></aug><source>J Infect Dis</source><pubdate>1999</pubdate><volume>179</volume><issue>Suppl 1</issue><fpage>S13</fpage><lpage>S14</lpage><xrefbib><pubid idtype="pmpid" link="fulltext">9988158</pubid></xrefbib></bibl><bibl id="B82"><title><p>&#201;pid&#233;mies de fi&#232;vre h&#233;morragique &#224; virus Ebola au Gabon (1994&#8211;2002): aspect &#233;pid&#233;miologiques et consid&#233;rations sur les mesures de contr&#244;le</p></title><aug><au><snm>Milleliri</snm><fnm>JM</fnm></au><au><snm>Tevi-Benissan</snm><fnm>C</fnm></au><au><snm>Baize</snm><fnm>S</fnm></au><au><snm>Leroy</snm><fnm>E</fnm></au><au><snm>Georges-Courbot</snm><fnm>MC</fnm></au></aug><source>Bull Soc Pathol Exot</source><pubdate>2004</pubdate><volume>97</volume><fpage>199</fpage><lpage>205</lpage><xrefbib><pubid idtype="pmpid">15462203</pubid></xrefbib></bibl><bibl id="B83"><title><p>Ebola hemorrhagic fever: Tandala, Zaire, 1977&#8211;1978</p></title><aug><au><snm>Heymann</snm><fnm>DL</fnm></au><au><snm>Weisfeld</snm><fnm>JS</fnm></au><au><snm>Webb</snm><fnm>PA</fnm></au><au><snm>Johnson</snm><fnm>KM</fnm></au><au><snm>Cairns</snm><fnm>T</fnm></au><au><snm>Berquist</snm><fnm>H</fnm></au></aug><source>J Infect Dis</source><pubdate>1980</pubdate><volume>142</volume><issue>3</issue><fpage>372</fpage><lpage>376</lpage><xrefbib><pubidlist><pubid idtype="doi">10.1093/infdis/142.3.372</pubid><pubid idtype="pmpid" link="fulltext">7441008</pubid></pubidlist></xrefbib></bibl><bibl id="B84"><title><p>Identification of the Ebola virus in Gabon in 1994</p></title><aug><au><snm>Amblard</snm><fnm>J</fnm></au><au><snm>Obiang</snm><fnm>P</fnm></au><au><snm>Edzang</snm><fnm>S</fnm></au><au><snm>Prehaud</snm><fnm>C</fnm></au><au><snm>Bouloy</snm><fnm>M</fnm></au><au><snm>Le Guenno</snm><fnm>B</fnm></au></aug><source>Lancet</source><pubdate>1997</pubdate><volume>349</volume><issue>9046</issue><fpage>181</fpage><lpage>182</lpage></bibl><bibl id="B85"><title><p>Ebola haemorrhagic fever: confirmed case in C&#244;te d&#8217;Ivoire and suspect cases in Liberia</p></title><aug><au><cnm>World Health Organization</cnm></au></aug><source>Wkly Epidemiol Rec</source><pubdate>1995</pubdate><volume>70</volume><issue>50</issue><fpage>359</fpage></bibl><bibl id="B86"><title><p>Ebola haemorrhagic fever in C&#244;te d&#8217;Ivoire</p></title><aug><au><cnm>World Health Organization</cnm></au></aug><source>Wkly Epidemiol Rec</source><pubdate>1995</pubdate><volume>70</volume><issue>21&#8211;52</issue><fpage>367</fpage></bibl><bibl id="B87"><title><p>Ebola haemorrhagic fever, Zaire</p></title><aug><au><cnm>World Health Organization</cnm></au></aug><source>Wkly Epidemiol Rec</source><pubdate>1995</pubdate><volume>70</volume><issue>34</issue><fpage>241</fpage><lpage>242</lpage><xrefbib><pubid idtype="pmpid">7547206</pubid></xrefbib></bibl><bibl id="B88"><title><p>Ebola haemorrhagic fever, Gabon</p></title><aug><au><cnm>World Health Organization</cnm></au></aug><source>Wkly Epidemiol Rec</source><pubdate>1996</pubdate><volume>71</volume><issue>9</issue><fpage>71</fpage></bibl><bibl id="B89"><title><p>Outbreak of Ebola haemorrhagic fever in Gabon officially declared over</p></title><aug><au><cnm>World Health Organization</cnm></au></aug><source>Wkly Epidemiol Rec</source><pubdate>1996</pubdate><volume>71</volume><issue>17</issue><fpage>125</fpage><lpage>126</lpage></bibl><bibl id="B90"><title><p>Ebola haemorrhagic fever: a summary of the outbreak in Gabon</p></title><aug><au><cnm>World Health Organization</cnm></au></aug><source>Wkly Epidemiol Rec</source><pubdate>1997</pubdate><volume>72</volume><issue>1&#8211;2</issue><fpage>342</fpage></bibl><bibl id="B91"><title><p>Isolation and partial molecular characterisation of a strain of Ebola virus during a recent epidemic of viral haemorrhagic fever in Gabon</p></title><aug><au><snm>Georges-Courbot</snm><fnm>MC</fnm></au><au><snm>Lu</snm><fnm>CY</fnm></au><au><snm>Lansoud-Soukate</snm><fnm>J</fnm></au><au><snm>Leroy</snm><fnm>E</fnm></au><au><snm>Baize</snm><fnm>S</fnm></au></aug><source>Lancet</source><pubdate>1997</pubdate><volume>349</volume><issue>9046</issue><fpage>181</fpage></bibl><bibl id="B92"><title><p>Prise en charge des malades et des d&#233;funts lors de l&#8217;&#233;pid&#233;mie de fi&#232;vre h&#233;morragique &#224; virus Ebola &#224; Mbandza et Mbomo d&#8217;octobre &#224; d&#233;cembre 2003 au Congo</p></title><aug><au><snm>Boumandouki</snm><fnm>P</fnm></au><au><snm>Formenty</snm><fnm>P</fnm></au><au><snm>Epelboin</snm><fnm>A</fnm></au><au><snm>Campbell</snm><fnm>P</fnm></au><au><snm>Atsangandoko</snm><fnm>C</fnm></au><au><snm>Allarangar</snm><fnm>Y</fnm></au><au><snm>Leroy</snm><fnm>EM</fnm></au><au><snm>Kone</snm><fnm>ML</fnm></au><au><snm>Molamou</snm><fnm>A</fnm></au><au><snm>Dinga-Longa</snm><fnm>O</fnm></au><au><snm>Salemo</snm><fnm>A</fnm></au><au><snm>Kounkou</snm><fnm>RY</fnm></au><au><snm>Mombouli</snm><fnm>V</fnm></au><au><snm>Ibara</snm><fnm>JR</fnm></au><au><snm>Gaturuku</snm><fnm>P</fnm></au><au><snm>Nkunku</snm><fnm>S</fnm></au></aug><source>Bull Soc Pathol Exot</source><pubdate>2005</pubdate><volume>98</volume><issue>3</issue><fpage>218</fpage><lpage>223</lpage><xrefbib><pubid idtype="pmpid">16267964</pubid></xrefbib></bibl><bibl id="B93"><title><p>Outbreak of Ebola haemorrhagic fever in Yambio, south Sudan, April - June 2004</p></title><aug><au><cnm>World Health Organization</cnm></au></aug><source>Wkly Epidemiol Rec</source><pubdate>2005</pubdate><volume>80</volume><issue>43</issue><fpage>370</fpage><lpage>375</lpage><xrefbib><pubid idtype="pmpid">16285261</pubid></xrefbib></bibl><bibl id="B94"><title><p>Ebola haemorrhagic fever, Uganda - end of the outbreak</p></title><aug><au><cnm>World Health Organization</cnm></au></aug><source>Wkly Epidemiol Rec</source><pubdate>2008</pubdate><volume>83</volume><issue>10</issue><fpage>89</fpage><lpage>90</lpage><xrefbib><pubid idtype="pmpid">18326109</pubid></xrefbib></bibl><bibl id="B95"><title><p>Ebola, Uganda</p></title><aug><au><cnm>World Health Organization</cnm></au></aug><source>Wkly Epidemiol Rec</source><pubdate>2011</pubdate><volume>86</volume><issue>22</issue><fpage>221</fpage><xrefbib><pubid idtype="pmpid">21661270</pubid></xrefbib></bibl><bibl id="B96"><title><p>Uganda: Ebola (situation as of 27 August 2012) 2012</p></title><aug><au><cnm>World Health Organization</cnm></au></aug><note>
+   <url>http://www.afro.who.int/en/clusters-a-programmes/dpc/epidemic-a-pandemic-alert-and-response/outbreak-news/3674-uganda--ebola-situation-as-of-27-august-2012-.html</url>
+</note></bibl><bibl id="B97"><title><p>Ebola outbreak response; experience and development of screening tools for viral haemorrhagic fever (VHF) in a HIV center of excellence near to VHF epicentres</p></title><aug><au><snm>Parkes-Ratanshi</snm><fnm>R</fnm></au><au><snm>Elbireer</snm><fnm>A</fnm></au><au><snm>Mbambu</snm><fnm>B</fnm></au><au><snm>Mayanja</snm><fnm>F</fnm></au><au><snm>Coutinho</snm><fnm>A</fnm></au><au><snm>Merry</snm><fnm>C</fnm></au></aug><source>PLoS One</source><pubdate>2014</pubdate><volume>9</volume><issue>7</issue><fpage>e100333</fpage><xrefbib><pubidlist><pubid idtype="doi">10.1371/journal.pone.0100333</pubid><pubid idtype="pmcid">4090118</pubid><pubid idtype="pmpid" link="fulltext">25007269</pubid></pubidlist></xrefbib></bibl><bibl id="B98"><title><p>Ebola haemorrhagic fever, Uganda - update</p></title><aug><au><cnm>World Health Organization</cnm></au></aug><source>Wkly Epidemiol Rec</source><pubdate>2012</pubdate><volume>87</volume><issue>49&#8211;50</issue><fpage>493</fpage><xrefbib><pubid idtype="pmpid">23311004</pubid></xrefbib></bibl><bibl id="B99"><title><p>DR Congo: Ebola</p></title><aug><au><cnm>World Health Organization Regional Office for Africa</cnm></au></aug><source>Bull World Health Organ</source><pubdate>2012</pubdate><volume>2</volume><fpage>8</fpage></bibl><bibl id="B100"><aug><au><snm>Mukwamba</snm><fnm>FKN</fnm></au></aug><source>D&#233;claration de la fin de l&#8217;&#233;pid&#233;mie de fi&#232;vre h&#233;morragique &#224; virus Ebola survenue dans le District Sanitaire du Haut-U&#233;l&#233; Ouest, Province Orientale, RD Congo</source><publisher>Government of the Democratic Republic of the Congo</publisher><pubdate>2012</pubdate><note>
+   <url>http://reliefweb.int/report/democratic-republic-congo/d%C3%A9claration-de-la-fin-de-l%E2%80%99%C3%A9pid%C3%A9mie-de-fi%C3%A8vre-h%C3%A9morragique-%C3%A0-virus</url>
+</note></bibl><bibl id="B101"><title><p>Suspected viral haemorrhagic fever outbreaks in Sudan and Zaire</p></title><aug><au><cnm>World Health Organization</cnm></au></aug><source>Wkly Epidemiol Rec</source><pubdate>1976</pubdate><volume>51</volume><issue>41</issue><fpage>321</fpage></bibl><bibl id="B102"><title><p>Viral haemorrhagic fever. Zaire</p></title><aug><au><cnm>World Health Organization</cnm></au></aug><source>Wkly Epidemiol Rec</source><pubdate>1977</pubdate><volume>52</volume><issue>1</issue><fpage>2</fpage></bibl><bibl id="B103"><title><p>Viral haemorrhagic fever. Sudan</p></title><aug><au><cnm>World Health Organization</cnm></au></aug><source>Wkly Epidemiol Rec</source><pubdate>1979</pubdate><volume>54</volume><issue>41</issue><fpage>319</fpage></bibl><bibl id="B104"><title><p>Yellow fever. Gabon</p></title><aug><au><cnm>World Health Organization</cnm></au></aug><source>Wkly Epidemiol Rec</source><pubdate>1995</pubdate><volume>70</volume><issue>9</issue><fpage>64</fpage></bibl><bibl id="B105"><title><p>Outbreak of Ebola hemorrhagic fever &#8211; Uganda, August 2000- January 2001</p></title><aug><au><cnm>Centers for Disease Control and Prevention</cnm></au></aug><source>Morb Mortal Wkly Rep</source><pubdate>2001</pubdate><volume>50</volume><issue>5</issue><fpage>73</fpage><lpage>77</lpage></bibl><bibl id="B106"><title><p>Ebola hemorrhagic fever: lessons from Kikwit, Democratic Republic of the Congo</p></title><aug><au><snm>Heymann</snm><fnm>DL</fnm></au><au><snm>Barakamfitiye</snm><fnm>D</fnm></au><au><snm>Szczeniowski</snm><fnm>M</fnm></au><au><snm>Muyembe-Tamfum</snm><fnm>JJ</fnm></au><au><snm>Bele</snm><fnm>O</fnm></au><au><snm>Rodier</snm><fnm>G</fnm></au></aug><source>J Infect Dis</source><pubdate>1999</pubdate><volume>179</volume><issue>Suppl 1</issue><fpage>S283</fpage><lpage>S286</lpage><xrefbib><pubid idtype="pmpid" link="fulltext">9988197</pubid></xrefbib></bibl></refgrp>
+	</bm>
+</art>

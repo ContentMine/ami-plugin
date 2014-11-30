@@ -34,23 +34,23 @@
 
 	<files>
 		<file>
-			<source>src/test/resources/org/xmlcml/xhtml2stm/html/multiple.312.html</source>
+			<source>src/test/resources/org/xmlcml/ami/html/multiple.312.html</source>
 			<outputDirectory>/exampleData/html</outputDirectory>
 		</file>
 		<file>
-			<source>src/test/resources/org/xmlcml/xhtml2stm/html/pb1.html</source>
+			<source>src/test/resources/org/xmlcml/ami/html/pb1.html</source>
 			<outputDirectory>/exampleData/html</outputDirectory>
 		</file>
 		<file>
-			<source>src/test/resources/org/xmlcml/xhtml2stm/species/journal.pone.0077058.xml</source>
+			<source>src/test/resources/org/xmlcml/ami/species/journal.pone.0077058.xml</source>
 			<outputDirectory>/exampleData/species</outputDirectory>
 		</file>
 		<file>
-			<source>src/test/resources/org/xmlcml/xhtml2stm/pdf/multiple-1471-2148-11-312.pdf</source>
+			<source>src/test/resources/org/xmlcml/ami/pdf/multiple-1471-2148-11-312.pdf</source>
 			<outputDirectory>/exampleData/pdf</outputDirectory>
 		</file>
 		<file>
-			<source>src/test/resources/org/xmlcml/xhtml2stm/pdf/tree-1471-2148-11-313.pdf</source>
+			<source>src/test/resources/org/xmlcml/ami/pdf/tree-1471-2148-11-313.pdf</source>
 			<outputDirectory>/exampleData/pdf</outputDirectory>
 		</file>
 	</files>

@@ -1,0 +1,17 @@
+<compoundRegex title="phylotree">
+	<regex weight="1.0" fields="ebola" case="">\W(Ebola)\W</regex>
+	<regex weight="1.0" fields="marburg">\W(Marburg)\W</regex>
+	<regex weight="1.0" fields="hemorrhagic_fever">\W([Hh]a?emorrhagic\s+fever)</regex>
+	<regex weight="0.8" fields="sudden_onset">(\W[Ss]udden\s+onset)</regex>
+	<regex weight="0.6" fields="vomiting_diarrhoea">(\W[Vv]omiting\s+diarrho?ea)</regex>
+	<regex weight="0.5" fields="guinea">(Guinea)</regex>
+	<regex weight="0.5" fields="sierra_leone">\W(Sierra\s+Leone)</regex>
+	<regex weight="0.5" fields="liberia">\W(Liberia)</regex>
+	<regex weight="0.5" fields="mali">\W(Mali)\W</regex>
+	<regex weight="0.6" fields="contact_tracing">\W([Cc]ontact\s+tracing)</regex>
+	<regex weight="0.5" fields="bat">\W([Bb]ats?)</regex>
+	<regex weight="0.5" fields="bushmeat">\W([Bb]ushmeat)</regex>
+	<regex weight="0.5" fields="drc">\W(Democratic Republic\s*(\s*of)?(\s*the)?\s*Congo)(DRC)</regex>
+	<regex weight="0.6" fields="safe_burial">\W([Ss]afe\s+burial\s+practice?s)</regex>
+	<regex weight="1.0" fields="etu">\W([Ee]bola\s+treatment\s+units?)(ETU)</regex>
+</compoundRegex>

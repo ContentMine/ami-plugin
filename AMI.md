@@ -2,10 +2,14 @@
 
 * AMI does not yet work with URLs but will RSN. Examples are provided, but download any additional files that you want to work with and put them in a directory (remember where it is, because you will need to tell AMI).
 * All exercises are from the commandline. By default this will be run from AMi's bin directory.https://bitbucket.org/petermr/ami/wiki/AMI_Tutorial
-* Suggest you work in pairs. The examples are biological, but don't worry. It may help slightly if one person is a bioscientist, so they can find examples.
-* find out whether your are running Windows or Mac/Unix. Also find out if you have a Java runtime. If not, find a partner who has. Windows people will use *.zip, the others *.tar.gz
+* The examples are biological, but don't worry. 
+* Windows people will use *.zip, the others *.tar.gz
+
+* ''This tutorial dates from 2013-11 and may be outdated in places''. The main site is now https://bitbucket.org/petermr/ami-core/
 
 ## installation
+
+OUTDATED (we now also use *.deb)
 
 find https://bitbucket.org/petermr/xhtml2stm-dev/downloads and download your file. 
 
@@ -18,7 +22,8 @@ Unzip/untar the file and navigate to
     
 # navigation
 
-    $ ls OR dir should show bin/ exampleData/ and (ignore) repo/ 
+    $ 'ls' OR 'dir' should show:
+	$             bin/ exampleData/ and (ignore) repo/ 
     $ cd exampleData
     $ ls OR dir should show html/ and pdf/ and maybe more
     $ cd pdf 
@@ -48,7 +53,8 @@ we are going to use species and sequence for most of the exercises.
 
 We suggest you run from within the bin/ directory. If you have extract files, put them in html/or pdf/
 
- Type:
+ Type: 
+ [Updated - normally '''ami-species''' etc.]
 
     $ species
 
@@ -65,4 +71,3 @@ Now you can vary the options in ami:
     $ **species** does Binomial names in italics (Genera coming soon)
     $ **sequence** works on DNA-containing text (it will be extended to use RNA, proteins, soon)
 
-Don't use these:
