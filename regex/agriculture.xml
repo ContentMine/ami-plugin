@@ -1,0 +1,18 @@
+<compoundRegex title="agriculture">
+<regex weight="1.0" fields="deeproot">([Dd]eep\s+[Rr]oot)</regex>
+<regex weight="1.0" fields="droughttol">([Dd]rought\s+[Tt]olerance)</regex>
+<regex weight="1.0" fields="amount sunshade">(([Ff]ull|[Pp]artial)\s+([Ss]hade|[Ss]un))</regex>
+<regex weight="1.0" fields="growingdegrees">([Gg]rowing\s+[Dd]egree\s+[Dd]ays\s+[Uu]ntil\s+([^\s]+))</regex>
+<regex weight="1.0" fields="growthrate">([Gg]rowth\s+[Rr]ate)</regex>
+<regex weight="1.0" fields="heightmaturity">([Hh]eight\s+[Aa]t\s+[Mm]aturity)</regex>
+<regex weight="1.0" fields="lifespan">([Ll]ifespan)</regex>
+<regex weight="1.0" fields="mintoltemp">([Mm]inimum\s+[Tt]olerated\s+[Tt]emperature)</regex>
+<regex weight="1.0" fields="nfix">([Nn]itrogen\s+[Ff]ix[^\s+]+)</regex>
+<regex weight="1.0" fields="rootdepth">([Rr]oot\s+[Dd]epth)</regex>
+<regex weight="1.0" fields="roottype">([Rr]oot\s+[Tt]ype)</regex>
+<regex weight="1.0" fields="shadecover">([Ss]hade\s+[Cc]over)</regex>
+<regex weight="1.0" fields="soilph">([Ss]oil\s+pH)</regex>
+<regex weight="1.0" fields="solitype">([Ss]oil\s+[Tt]ype)</regex>
+<regex weight="1.0" fields="taproot">([Tt]ap\s+[Rr]oot)</regex>
+<regex weight="1.0" fields="wateruse">([Ww]ater\s+[Uu]se)</regex>
+</compoundRegex>

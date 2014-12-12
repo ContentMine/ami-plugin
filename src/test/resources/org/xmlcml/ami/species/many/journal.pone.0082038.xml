@@ -1,0 +1,389 @@
+<article xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" article-type="research-article" dtd-version="3.0" xml:lang="en">
+<front>
+<journal-meta>
+<journal-id journal-id-type="nlm-ta">PLoS ONE</journal-id>
+<journal-id journal-id-type="publisher-id">plos</journal-id>
+<journal-id journal-id-type="pmc">plosone</journal-id><journal-title-group>
+<journal-title xml:lang="en">PLoS ONE</journal-title></journal-title-group>
+<issn pub-type="epub">1932-6203</issn>
+<publisher>
+<publisher-name>Public Library of Science</publisher-name>
+<publisher-loc>San Francisco, USA</publisher-loc></publisher>
+</journal-meta>
+<article-meta>
+<article-id pub-id-type="publisher-id">PONE-D-13-26131</article-id>
+<article-id pub-id-type="doi">10.1371/journal.pone.0082038</article-id>
+<article-categories><subj-group subj-group-type="heading"><subject>Research Article</subject></subj-group></article-categories>
+<title-group>
+<article-title>Structural Characterisation of the Nuclear Import Receptor Importin Alpha in Complex with the Bipartite NLS of Prp20</article-title>
+<alt-title alt-title-type="running-head">Structure of Imp Alpha in Complex with Prp20 NLS</alt-title>
+</title-group>
+<contrib-group>
+<contrib contrib-type="author" equal-contrib="yes" xlink:type="simple"><name name-style="western"><surname>Roman</surname><given-names>Noelia</given-names></name><xref ref-type="aff" rid="aff1"><sup>1</sup></xref></contrib>
+<contrib contrib-type="author" equal-contrib="yes" xlink:type="simple"><name name-style="western"><surname>Christie</surname><given-names>Mary</given-names></name><xref ref-type="aff" rid="aff2"><sup>2</sup></xref></contrib>
+<contrib contrib-type="author" xlink:type="simple"><name name-style="western"><surname>Swarbrick</surname><given-names>Crystall M. D.</given-names></name><xref ref-type="aff" rid="aff1"><sup>1</sup></xref></contrib>
+<contrib contrib-type="author" xlink:type="simple"><name name-style="western"><surname>Kobe</surname><given-names>Bostjan</given-names></name><xref ref-type="aff" rid="aff2"><sup>2</sup></xref></contrib>
+<contrib contrib-type="author" xlink:type="simple"><name name-style="western"><surname>Forwood</surname><given-names>Jade K.</given-names></name><xref ref-type="aff" rid="aff1"><sup>1</sup></xref><xref ref-type="corresp" rid="cor1"><sup>*</sup></xref></contrib>
+</contrib-group>
+<aff id="aff1"><label>1</label><addr-line>School of Biomedical Sciences, Charles Sturt University, Wagga Wagga, New South Wales, Australia</addr-line></aff>
+<aff id="aff2"><label>2</label><addr-line>School of Chemistry and Molecular Biosciences, Institute for Molecular Bioscience and Australian Infectious Diseases Research Centre, University of Queensland, Brisbane, Queensland, Australia</addr-line></aff>
+<contrib-group>
+<contrib contrib-type="editor" xlink:type="simple"><name name-style="western"><surname>Vertessy</surname><given-names>Beata G.</given-names></name>
+<role>Editor</role>
+<xref ref-type="aff" rid="edit1" /></contrib>
+</contrib-group>
+<aff id="edit1"><addr-line>Institute of Enzymology of the Hungarian Academy of Science, Hungary</addr-line></aff>
+<author-notes>
+<corresp id="cor1">* E-mail: <email xlink:type="simple">jforwood@csu.edu.au</email></corresp>
+<fn fn-type="conflict"><p>The authors have declared that no competing interests exist.</p></fn>
+<fn fn-type="con"><p>Conceived and designed the experiments: MC BK. Performed the experiments: MC. Analyzed the data: NR CMDS JKF. Contributed reagents/materials/analysis tools: MC BK. Wrote the paper: NR CMDS JFK.</p></fn>
+</author-notes>
+<pub-date pub-type="collection"><year>2013</year></pub-date>
+<pub-date pub-type="epub"><day>10</day><month>12</month><year>2013</year></pub-date>
+<volume>8</volume>
+<issue>12</issue>
+<elocation-id>e82038</elocation-id>
+<history>
+<date date-type="received"><day>24</day><month>6</month><year>2013</year></date>
+<date date-type="accepted"><day>20</day><month>10</month><year>2013</year></date>
+</history>
+<permissions>
+<copyright-year>2013</copyright-year>
+<copyright-holder>Roman et al</copyright-holder><license xlink:href="http://creativecommons.org/licenses/by/4.0/" xlink:type="simple"><license-p>This is an open-access article distributed under the terms of the <ext-link ext-link-type="uri" xlink:href="http://creativecommons.org/licenses/by/4.0/" xlink:type="simple">Creative Commons Attribution License</ext-link>, which permits unrestricted use, distribution, and reproduction in any medium, provided the original author and source are credited.</license-p></license></permissions>
+<abstract>
+<p>The translocation of macromolecules into the nucleus is a fundamental eukaryotic process, regulating gene expression, cell division and differentiation, but which is impaired in a range of significant diseases including cancer and viral infection. The import of proteins into the nucleus is generally initiated by a specific, high affinity interaction between nuclear localisation signals (NLSs) and nuclear import receptors in the cytoplasm, and terminated through the disassembly of these complexes in the nucleus. For classical NLSs (cNLSs), this import is mediated by the importin-α (IMPα) adaptor protein, which in turn binds to IMPβ to mediate translocation of nuclear cargo across the nuclear envelope. The interaction and disassembly of import receptor:cargo complexes is reliant on the differential localisation of nucleotide bound Ran across the envelope, maintained in its low affinity, GDP-bound form in the cytoplasm, and its high affinity, GTP-bound form in the nucleus. This in turn is maintained by the differential localisation of Ran regulating proteins, with RanGAP in the cytoplasm maintaining Ran in its GDP-bound form, and RanGEF (Prp20 in yeast) in the nucleus maintaining Ran in its GTP-bound form. Here, we describe the 2.1 Å resolution x-ray crystal structure of IMPα in complex with the NLS of Prp20. We observe 1,091 Å<sup>2</sup> of buried surface area mediated by an extensive array of contacts involving residues on armadillo repeats 2-7, utilising both the major and minor NLS binding sites of IMPα to contact bipartite NLS clusters <sup>17</sup>RAKKMSK<sup>23</sup> and <sup>3</sup>KR<sup>4</sup>, respectively. One notable feature of the major site is the insertion of Prp20NLS Ala<sup>18</sup> between the P0 and P1 NLS sites, noted in only a few classical bipartite NLSs. This study provides a detailed account of the binding mechanism enabling Prp20 interaction with the nuclear import receptor, and additional new information for the interaction between IMPα and cargo.</p>
+</abstract>
+<funding-group><funding-statement>Funding came from an ARC Federation Fellowship and an ARC Future Fellowship. The funders had no role in study design, data collection and analysis, decision to publish, or preparation of the manuscript.</funding-statement></funding-group><counts><page-count count="6" /></counts></article-meta>
+</front>
+<body><sec id="s1">
+<title>Introduction</title>
+<p>A distinguishing feature of all eukaryotic cells is the containment of their genetic material within a stable and segregated nuclear organelle. This in turn requires the active, bidirectional transport of proteins and RNA across the nuclear envelope, a central process to a range of important cellular events including DNA replication, cell differentiation, and diseases including cancer and viral replication. In the classical nucleocytoplasmic transport pathway, the nuclear import receptor importin-α (IMPα) recognises a nuclear localisation signal (NLS) displayed on a cargo protein, and this dimer, through interaction with importin-β (IMPβ), is docked and translocated across the nuclear pore complex through interaction with nucleoporins <xref ref-type="bibr" rid="pone.0082038-Chook1">[1]</xref>–<xref ref-type="bibr" rid="pone.0082038-Cingolani2">[3]</xref>. Once in the nucleus, the IMPα:IMPβ:cargo complex is dissociated by RanGTP, and the IMPs are recycled back to the cytoplasm for a further round of import <xref ref-type="bibr" rid="pone.0082038-Forwood1">[4]</xref>, <xref ref-type="bibr" rid="pone.0082038-Lonhienne1">[5]</xref>.</p>
+<p>The initial interaction of the nuclear import pathway between IMPα and the nuclear import cargo has been studied by a range of structural and functional approaches. IMPα, a large (529 residue) highly conserved macromolecule, is composed of 2 structural domains, a short basic 10 kDa N-terminal domain that binds importin-β (IBB domain), and a 50 kDa armadillo (ARM)-repeat NLS binding domain that recognises and binds NLSs of various cargo proteins <xref ref-type="bibr" rid="pone.0082038-Marfori1">[6]</xref>, <xref ref-type="bibr" rid="pone.0082038-Kobe1">[7]</xref>. Interaction with the NLS generally occurs at the concave face of the ARM domains, at locations that are typically driven by the type of NLS; monopartite NLSs (composed primarily of a single cluster of positively charged residues) bind at the major NLS-binding site, and bipartitite NLSs, comprised of two positively charged separated by a 10–12 residue linker, bind by spanning both the major and minor sites of IMPα <xref ref-type="bibr" rid="pone.0082038-Kobe1">[7]</xref>–<xref ref-type="bibr" rid="pone.0082038-Fontes1">[9]</xref>. The usual nomenclature for describing the interactions between IMPα and NLSs <xref ref-type="bibr" rid="pone.0082038-Chang1">[10]</xref>, <xref ref-type="bibr" rid="pone.0082038-Chang2">[11]</xref> designates residues binding in the minor site as P1′, P2′ etc., and residues binding the major site as P1, P2 etc. The consensus sequences correspond to K[K/R]X[K/R] (corresponding to positions P2–P5; [K/R] represents Lys or Arg, and X represents any amino acid) for monopartite and [K/R][K/R]X<sub>10–12</sub>[K/R]<sub>3/5</sub> (corresponding to positions P1′–P2′ for the N-terminal basic cluster) cNLSs) for bipartite NLSs <xref ref-type="bibr" rid="pone.0082038-Marfori1">[6]</xref>.</p>
+<p>The directionality of the nuclear transport process is governed by the differential localisation of Ran across the nuclear envelope (reviewed in <xref ref-type="bibr" rid="pone.0082038-Wozniak1">[12]</xref>–<xref ref-type="bibr" rid="pone.0082038-StrambioDeCastillia1">[14]</xref>). Specifically, the nucleotide bound state of Ran results in conformational changes in two surface loops of the protein, termed switch I and switch II, which in turn mediates its ability to dissociate importin:cargo complexes in the GTP-bound form <xref ref-type="bibr" rid="pone.0082038-Lonhienne1">[5]</xref>, <xref ref-type="bibr" rid="pone.0082038-Lee1">[15]</xref>. This is achieved through the asymmetric distribution of Ran regulatory proteins across the nuclear envelope, which modulate the nucleotide bound state of Ran; Ran guanidine exchange factor (RCC1/Prp20), predominately localised to the nucleus, maintains Ran in a GTP bound form that binds IMPs with high affinity and dissociates the complex upon nuclear entry; whilst RanGTPase activating protein (RanGAP), cytoplasmically located, maintains Ran in a GDP bound conformation. Thus, nuclear localisation of Prp20 plays a vital role in establishing the directionality of the nuclear localisation process.</p>
+<p>Previous studies have elucidated the region within Prp20 responsible for its nuclear localisation <xref ref-type="bibr" rid="pone.0082038-Hahn1">[16]</xref>–<xref ref-type="bibr" rid="pone.0082038-Fleischmann1">[18]</xref>, however the detailed mechanism of its import remained to be fully determined. The NLS region is contained within the N-terminal 25 residues, and interacts with IMPα. Here, using x-ray crystallography, we elucidate the binding interface between IMPα and the NLS region of Prp20, and provide a structural comparison to other known IMPα:NLS cargo interaction interfaces.</p>
+</sec><sec id="s2" sec-type="materials|methods">
+<title>Materials and Methods</title>
+<sec id="s2a">
+<title>Expression and Purification</title>
+<p>Mouse IMPαΔIBB (residues 70–529) was overexpressed using thio-β-D-galactose (IPTG) method as outlined in <xref ref-type="bibr" rid="pone.0082038-Teh1">[19]</xref>. The sample was purified using a nickel-nitrilotriacetic acid (Ni-NTA) column (GE Healthcare), where cells were lysed by freeze-thawing in the presence of 20 mg of lysozyme, and cleared bacterial cellular extract injected onto a 5 mL HisTrap HP column (GE Healthcare) in His Buffer A (50 mM phosphate buffer, 300 mM NaCl, 20 mM imidazole, pH 8; AKTApurifier FPLC (GE Healthcare)), washed, and eluted with His Buffer B (50 mM phosphate buffer, 300 mM NaCl, 500 mM imidazole, pH 8). Peak fractions were pooled and loaded onto a HiLoad 26/60 Superdex 200 column (GE Healthcare) containing 20 mM Tris pH 7.8, 125 mM NaCl, for size exclusion chromatography, where peak fractions were collected and added to a GST column loaded with GST-tagged Prp20 (<italic>S. cerevisiae</italic> RanGEF) NLS (residues 3–23, KRTVATNGDASGAHRAKKMSK<sup>23</sup>). Prp20 NLS was overexpressed as a GST-fusion protein using the autoinduction method as previously described in <xref ref-type="bibr" rid="pone.0082038-Marfori1">[6]</xref>. GST:Prp20 NLS was injected and immobilised on a GSTrap FF column (GE Healthcare), washed extensively in binding buffer containing 50 mM Tris pH 7.8, 125 mM NaCl. Purified IMPαΔIBB was then passed over the column containing GST:Prp20 NLS, washed, and eluted in binding buffer containing 10 mM glutathione. The GST-tag was removed by overnight treatment of thrombin at 4°C, and the complex purified by a further round of size exclusion chromatography. The complex, in 20 mM Tris pH 7.8, and 125 mM NaCl, was then concentrated to 20 mg/mL (Amicon, MWCO 10 kDa, Millipore), aliquoted, and flash-frozen in liquid nitrogen and stored at −80°C.</p>
+</sec><sec id="s2b">
+<title>Crystallization and Data Collection</title>
+<p>Single rod shaped crystals, measuring 200×50×50 µm, were obtained in 500 mM sodium citrate pH 6–8, 10 mM DTT after 2 d, harvested with a cryoprotectant composed of 80% mother liquid and 20% glycerol, and flash frozen with liquid nitrogen. Diffraction data was collected at the Australian Synchrotron (MX2) Beamline using BLU-ICE software <xref ref-type="bibr" rid="pone.0082038-McPhillips1">[20]</xref>. 180° of diffraction data (0.5° oscillations) were integrated, scaled, and converted to structure factors using MosFlm <xref ref-type="bibr" rid="pone.0082038-Battye1">[21]</xref>, Scala <xref ref-type="bibr" rid="pone.0082038-Evans1">[22]</xref> and Truncate <xref ref-type="bibr" rid="pone.0082038-Winn1">[23]</xref>.</p>
+</sec><sec id="s2c">
+<title>Structure Determination and Refinement</title>
+<p>Diffraction images were integrated and scaled to 2.1 Å resolution in iMOSFLM, with an Rmerge of 6.7% (data statistics are summarized in <xref ref-type="table" rid="pone-0082038-t001">Table 1</xref>). IMPα residues 72–497 from the nucleosplasmin NLS complex structure (PDB ID 3UL1) <xref ref-type="bibr" rid="pone.0082038-Marfori1">[6]</xref> were used as the search model for molecular replacement to generate phases and an initial electron density map, with the test set reflections transferred from the search model dataset. Both rigid body and restrained refinement were performed using Refmac. Prp20 backbone was built manually through iterative cycles of COOT and REFMAC <xref ref-type="bibr" rid="pone.0082038-Emsley1">[24]</xref>, <xref ref-type="bibr" rid="pone.0082038-Murshudov1">[25]</xref>.</p>
+<table-wrap id="pone-0082038-t001" position="float" orientation="portrait"><object-id pub-id-type="doi">10.1371/journal.pone.0082038.t001</object-id><label>Table 1</label><caption>
+<title>Crystallographic data.</title>
+</caption><alternatives><graphic id="pone-0082038-t001-1" position="float" mimetype="image" xlink:href="info:doi/10.1371/journal.pone.0082038.t001" xlink:type="simple" orientation="portrait" />
+<table><colgroup span="1"><col align="left" span="1" /><col align="center" span="1" /></colgroup>
+<tbody>
+<tr>
+<td align="left" rowspan="1" colspan="1"><bold>Data collection</bold></td>
+<td align="left" rowspan="1" colspan="1" />
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1">Space group</td>
+<td align="left" rowspan="1" colspan="1"><italic>P</italic> 2<sub>1</sub> 2<sub>1</sub> 2<sub>1</sub></td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1">Unit cell dimensions (Å)</td>
+<td align="left" rowspan="1" colspan="1"><italic>a</italic> = 78.91, <italic>b</italic> = 89.92, <italic>c</italic> = 99.70</td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1">Resolution range (Å)</td>
+<td align="left" rowspan="1" colspan="1">36.37–2.10 (2.16–2.10)<xref ref-type="table-fn" rid="nt101">a</xref></td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1">Total reflections</td>
+<td align="left" rowspan="1" colspan="1">294,256 (24,607)<xref ref-type="table-fn" rid="nt101">a</xref></td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1">Unique observations</td>
+<td align="left" rowspan="1" colspan="1">53,834 (3,413)<xref ref-type="table-fn" rid="nt101">a</xref></td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1">Completeness (%)</td>
+<td align="left" rowspan="1" colspan="1">100 (100)<xref ref-type="table-fn" rid="nt101">a</xref></td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1">Multiplicity</td>
+<td align="left" rowspan="1" colspan="1">7.0 (7.2)<xref ref-type="table-fn" rid="nt101">a</xref></td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1">R<sub>merge</sub> (%)<xref ref-type="table-fn" rid="nt102">b</xref></td>
+<td align="left" rowspan="1" colspan="1">0.07 (0.30)<xref ref-type="table-fn" rid="nt101">a</xref></td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1">Average I/σ (I)</td>
+<td align="left" rowspan="1" colspan="1">16.7 (6.0)<xref ref-type="table-fn" rid="nt101">a</xref></td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1">Mosaicity</td>
+<td align="left" rowspan="1" colspan="1">0.6</td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1"><bold>Refinement</bold></td>
+<td align="left" rowspan="1" colspan="1" />
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1">R<sub>cryst</sub>/R<sub>free</sub> (%)<xref ref-type="table-fn" rid="nt103">c</xref></td>
+<td align="left" rowspan="1" colspan="1">16.7 (18.9)/20.1(20.4)</td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1">Bond length RMSD (Å)</td>
+<td align="left" rowspan="1" colspan="1">0.022</td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1">Bond angle RMSD (°)</td>
+<td align="left" rowspan="1" colspan="1">2.09</td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1">Average B factor (Å<sup>2</sup>)</td>
+<td align="left" rowspan="1" colspan="1">34.80</td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1">Ramachandran plot (%)<xref ref-type="table-fn" rid="nt104">d</xref></td>
+<td align="left" rowspan="1" colspan="1" />
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1">Favoured</td>
+<td align="left" rowspan="1" colspan="1">99</td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1">Outliers<xref ref-type="table-fn" rid="nt105">e</xref></td>
+<td align="left" rowspan="1" colspan="1">0.23</td>
+</tr>
+</tbody>
+</table>
+</alternatives><table-wrap-foot><fn id="nt101"><p><sup>a</sup> Numbers in parenthesis are for the highest resolution shell.</p></fn><fn id="nt102"><p><sub>merge</sub> = ∑<sub>hkl</sub>(∑<sub>i</sub>(|I <sub>hkl</sub>,<sub>i</sub>−&lt;I <sub>hkl</sub> &gt;|))/∑<sub>hkl</sub>,<sub>i</sub> &lt;I <sub>hkl</sub>&gt;, where I <sub>hkl</sub>,<sub>i</sub> is the intensity of an individual measurement of the reflection with Miller indices h, k and l, and &lt;I<sub>hkl</sub>&gt; is the mean intensity of that reflection.<sup>b</sup> R</p></fn><fn id="nt103"><p><sub>cryst</sub> = ∑<sub>hkl</sub>(||Fobs<sub>hkl</sub>|−|Fcalc<sub>hkl</sub>||)/|Fobs<sub>hkl</sub>|, where |Fobs<sub>hkl</sub>| and |Fcalc<sub>hkl</sub>| are the observed and calculated structure factor amplitudes. R<sub>free</sub> is equivalent to R<sub>cryst</sub> but calculated with reflections (5%) omitted from the refinement process.<sup>c</sup> R</p></fn><fn id="nt104"><p><sup>d</sup> Calculated with the program PROCHECK</p></fn><fn id="nt105"><p>α structures<sup>e</sup> Asn239 is Ramachandran outlier in all IMP</p></fn></table-wrap-foot></table-wrap></sec></sec><sec id="s3">
+<title>Results and Discussion</title>
+<p>For Prp20 to maintain Ran in its nuclear, GTP bound state, it must first be translocated to the nucleus. The region within Prp20 responsible for directing this localisation has been clearly defined <xref ref-type="bibr" rid="pone.0082038-Hahn1">[16]</xref>, and shown to reside within residues 1–25. Using amino acid substitutions, the NLS was shown to be bipartite, consisting of residues KR<sup>4</sup>, a 12-residue spacer, and RAKKMSK<sup>23</sup>. The C-terminal cluster does not conform to the conventional NLS consensus. To elucidate the structural basis for the interaction between the nuclear import receptor IMPα and the NLS region of the nucleotide exchange factor Prp20, the domains previously demonstrated to mediate this interaction <xref ref-type="bibr" rid="pone.0082038-Hahn1">[16]</xref> were recombinantly expressed, purified to homogeneity, and isolated as an equimolar complex. Recombinant IMPαΔIBB (IMPα lacking the N-terminal IBB domain, thus preventing autoinhibition of the NLS binding site), consisting of 10 consecutive ARM repeat domains, was first purified by affinity and size exclusion chromatography, then applied to a column loaded with purified GST-tagged Prp20 NLS. Excess IMPαΔIBB<sup>70–529</sup> was removed through extensive column washing, and subsequent elution, affinity tag-cleavage, and size exclusion chromatography enabled efficient separation of IMPαΔIBB:Prp20 NLS complex (kDa of &gt;50 kDa) from excess Prp20 (&lt;5 kDa), thus isolating a homogenous complex of equimolar concentrations.</p>
+<p>Large, strongly diffracting crystals were grown in a citrate-containing solution, based on conditions as described in the Materials and Methods section. Using synchrotron radiation, crystals diffracted to 2.1 Å resolution and were resistant to radiation damage, permitting 180° of data to be collected from a single crystal without deterioration in diffraction quality (<xref ref-type="fig" rid="pone-0082038-g001">Fig. 1</xref>). Following rigid body refinement and simulated annealing, analysis of both 2F<sub>o</sub>–F<sub>c</sub> and simulated annealed omit maps revealed clear density in the major and minor NLS-binding sites of IMPα, enabling residues of the Prp20 NLS to be built (<xref ref-type="fig" rid="pone-0082038-g002">Fig. 2</xref>).</p>
+<fig id="pone-0082038-g001" position="float" orientation="portrait"><object-id pub-id-type="doi">10.1371/journal.pone.0082038.g001</object-id><label>Figure 1</label><caption>
+<title>Diffraction image (left) and Rmerge statistics across batches (right), demonstrating crystal resistance to radiation damage during data collection.</title>
+</caption><graphic mimetype="image" xlink:href="info:doi/10.1371/journal.pone.0082038.g001" position="float" xlink:type="simple" orientation="portrait" /></fig><fig id="pone-0082038-g002" position="float" orientation="portrait"><object-id pub-id-type="doi">10.1371/journal.pone.0082038.g002</object-id><label>Figure 2</label><caption>
+<title>Cartoon overview of the IMPα (in ribbon):Prp20 (stick model) complex structure (top), superimposed on the Fo-Fc annealed omit map (green; calculated using Phenix <xref ref-type="bibr" rid="pone.0082038-Adams1">[30]</xref>, contoured at 2.0 σ).</title>
+<p>Figures were produced using PyMOL (DeLano Scientific LLC).</p>
+</caption><graphic mimetype="image" xlink:href="info:doi/10.1371/journal.pone.0082038.g002" position="float" xlink:type="simple" orientation="portrait" /></fig>
+<p>A final structural model, comprised of IMPα residues 72 to 497, bound to Prp20 NLS residues KR<sup>4</sup> and RAKKMSK<sup>23</sup>, and 126 water molecules, with good stereochemistry has been deposited to the PDB (<xref ref-type="table" rid="pone-0082038-t001">Table 1</xref>). Residues 6–15 of Prp20 could not be discerned from the electron density, a common observation for bipartite NLSs with long linker regions <xref ref-type="bibr" rid="pone.0082038-Marfori1">[6]</xref> and these residues were omitted from the final model. The 425 residues comprising IMPαΔIBB are structured into 10 ARM repeats, with an overall arrangement similar to that of available IMPα structures (e.g. RMSD for the equivalent Cα residues from the structures with PDB IDs EJY, 1EJL, 1PJM are 0.28, 0.29, and 0.30 Å, respectively). The interaction between IMPα and the Prp20 NLS is made through an extensive array of contacts involving residues contained with ARM repeats 2 through 7, utilising both the major and minor NLS binding sites of IMPα to contact <sup>Prp20NLS</sup>RAKKMSK<sup>23</sup> and the canonical <sup>Prp20NLS</sup>KR<sup>4</sup> motif, respectively, and exhibiting a total of 1,091 Å<sup>2</sup> buried surface area. One notable feature of the major site is the insertion of <sup>Prp20NLS</sup>Ala<sup>18</sup> between the P0 and P1 NLS positions, noted in only a few classical bipartite NLSs. This results in hydrogen-bonding interactions between the <sup>Prp20NLS</sup>Ala<sup>18</sup>, and the side chains of Trp<sup>231</sup> and Arg<sup>238</sup> of IMPαΔIBB (<xref ref-type="fig" rid="pone-0082038-g003">Fig 3</xref>). The interaction at the P0-binding site is mediated by a salt bridge between the guanidinium side chain of <sup>Prp20NLS</sup>Arg<sup>17</sup> and the carboxylate side chain of Asp<sup>270</sup>, as well as hydrogen bonding between the main chain of <sup>Prp20NLS</sup>Arg<sup>17</sup> and the side chain of Arg<sup>238</sup>. At the P1-binding site, the main chain of <sup>Prp20NLS</sup>Lys<sup>19</sup> forms hydrogen bonds with the side chain of Asn<sup>235</sup> [ND2] (<xref ref-type="table" rid="pone-0082038-t002">Table 2</xref>). The prominent P2-binding site displays multiple interactions involving a salt bridge between the ammonium side chain of <sup>Prp20</sup>Lys<sup>20</sup> and the carboxyl side chain of Asp<sup>192</sup>, as well as hydrogen bonding between side chain of <sup>Prp20NLS</sup>Lys<sup>20</sup> and the oxygen of the side chain of Thr<sup>155</sup> and the main chain of Gly<sup>150</sup>. At the P3-binding site, hydrogen bonds and hydrophobic interactions are observed between the main chain of <sup>Prp20NLS</sup>Met<sup>21</sup> and side chains of Trp<sup>184</sup> and Asn<sup>188</sup>. At the P5-binding pocket, the main chain of <sup>Prp20NLS</sup>Lys<sup>23</sup> interacts with the side chains of Ser<sup>105</sup>, Trp<sup>142</sup>, and Asn<sup>146</sup>, while <sup>Prp20NLS</sup>Lys<sup>23</sup> main chain N is hydrogen-bonded with the side chain of Asn<sup>146</sup>.</p>
+<fig id="pone-0082038-g003" position="float" orientation="portrait"><object-id pub-id-type="doi">10.1371/journal.pone.0082038.g003</object-id><label>Figure 3</label><caption>
+<title>Structure of the complex between Prp20 NLS (grey sticks) and IMPα (grey cartoon backbone and black sticks), highlighting interactions at specific positions.</title>
+<p>The first two panels highlight the interactions at the minor site (NLS residues K<sup>3</sup> and R<sup>4</sup>), and the remaining binding sites highlight the interactions at the major site (NLS residues RAKKMSK<sup>23</sup>). Figures were produced using PyMOL (DeLano Scientific LLC).</p>
+</caption><graphic mimetype="image" xlink:href="info:doi/10.1371/journal.pone.0082038.g003" position="float" xlink:type="simple" orientation="portrait" /></fig><table-wrap id="pone-0082038-t002" position="float" orientation="portrait"><object-id pub-id-type="doi">10.1371/journal.pone.0082038.t002</object-id><label>Table 2</label><caption>
+<title>NLS binding to the major and minor sites of IMPα.</title>
+</caption><alternatives><graphic id="pone-0082038-t002-2" position="float" mimetype="image" xlink:href="info:doi/10.1371/journal.pone.0082038.t002" xlink:type="simple" orientation="portrait" />
+<table><colgroup span="1"><col align="left" span="1" /><col align="center" span="1" /><col align="center" span="1" /><col align="center" span="1" /><col align="center" span="1" /><col align="center" span="1" /><col align="center" span="1" /><col align="center" span="1" /><col align="center" span="1" /><col align="center" span="1" /><col align="center" span="1" /><col align="center" span="1" /></colgroup>
+<thead>
+<tr>
+<td align="left" rowspan="1" colspan="1">NLS</td>
+<td colspan="4" align="left" rowspan="1"><underline>Minor site</underline></td>
+<td align="left" rowspan="1" colspan="1">Linker*</td>
+<td colspan="5" align="left" rowspan="1"><underline>Major site</underline></td>
+<td align="left" rowspan="1" colspan="1">PDB ID</td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1" />
+<td align="left" rowspan="1" colspan="1">P1′</td>
+<td align="left" rowspan="1" colspan="1">P2′</td>
+<td align="left" rowspan="1" colspan="1">P3′</td>
+<td align="left" rowspan="1" colspan="1">P4′</td>
+<td align="left" rowspan="1" colspan="1" />
+<td align="left" rowspan="1" colspan="1">P1</td>
+<td align="left" rowspan="1" colspan="1">P2</td>
+<td align="left" rowspan="1" colspan="1">P3</td>
+<td align="left" rowspan="1" colspan="1">P4</td>
+<td align="left" rowspan="1" colspan="1">P5</td>
+<td align="left" rowspan="1" colspan="1" />
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left" rowspan="1" colspan="1">Prp20</td>
+<td align="left" rowspan="1" colspan="1">K</td>
+<td align="left" rowspan="1" colspan="1">R</td>
+<td align="left" rowspan="1" colspan="1">T</td>
+<td align="left" rowspan="1" colspan="1"><italic>V</italic></td>
+<td align="left" rowspan="1" colspan="1"><italic>ATNGDASGA</italic>HRA</td>
+<td align="left" rowspan="1" colspan="1">K</td>
+<td align="left" rowspan="1" colspan="1">K</td>
+<td align="left" rowspan="1" colspan="1">M</td>
+<td align="left" rowspan="1" colspan="1">S</td>
+<td align="left" rowspan="1" colspan="1">K</td>
+<td align="left" rowspan="1" colspan="1">This study</td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1">Bimax1</td>
+<td align="left" rowspan="1" colspan="1">K</td>
+<td align="left" rowspan="1" colspan="1">R</td>
+<td align="left" rowspan="1" colspan="1">P</td>
+<td align="left" rowspan="1" colspan="1">L</td>
+<td align="left" rowspan="1" colspan="1">EWDEDEEPP</td>
+<td align="left" rowspan="1" colspan="1">R</td>
+<td align="left" rowspan="1" colspan="1">K</td>
+<td align="left" rowspan="1" colspan="1">R</td>
+<td align="left" rowspan="1" colspan="1">K</td>
+<td align="left" rowspan="1" colspan="1">R</td>
+<td align="left" rowspan="1" colspan="1">3UKW</td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1">Rb</td>
+<td align="left" rowspan="1" colspan="1">K</td>
+<td align="left" rowspan="1" colspan="1">R</td>
+<td align="left" rowspan="1" colspan="1">S</td>
+<td align="left" rowspan="1" colspan="1">A</td>
+<td align="left" rowspan="1" colspan="1">EGSNPPKP</td>
+<td align="left" rowspan="1" colspan="1">L</td>
+<td align="left" rowspan="1" colspan="1">K</td>
+<td align="left" rowspan="1" colspan="1">K</td>
+<td align="left" rowspan="1" colspan="1">L</td>
+<td align="left" rowspan="1" colspan="1">R</td>
+<td align="left" rowspan="1" colspan="1">1PJM</td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1">NpI</td>
+<td align="left" rowspan="1" colspan="1">K</td>
+<td align="left" rowspan="1" colspan="1">R</td>
+<td align="left" rowspan="1" colspan="1">P</td>
+<td align="left" rowspan="1" colspan="1">A</td>
+<td align="left" rowspan="1" colspan="1">ATKKAGQ</td>
+<td align="left" rowspan="1" colspan="1">A</td>
+<td align="left" rowspan="1" colspan="1">K</td>
+<td align="left" rowspan="1" colspan="1">K</td>
+<td align="left" rowspan="1" colspan="1">K</td>
+<td align="left" rowspan="1" colspan="1">K</td>
+<td align="left" rowspan="1" colspan="1">1EE5</td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1">yCBP80</td>
+<td align="left" rowspan="1" colspan="1">K</td>
+<td align="left" rowspan="1" colspan="1">R</td>
+<td align="left" rowspan="1" colspan="1">R</td>
+<td align="left" rowspan="1" colspan="1">G</td>
+<td align="left" rowspan="1" colspan="1">D<italic>FDEDENYRDFRPR</italic>M</td>
+<td align="left" rowspan="1" colspan="1">P</td>
+<td align="left" rowspan="1" colspan="1">K</td>
+<td align="left" rowspan="1" colspan="1">R</td>
+<td align="left" rowspan="1" colspan="1">Q</td>
+<td align="left" rowspan="1" colspan="1">R</td>
+<td align="left" rowspan="1" colspan="1">3UKY</td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1">PB2</td>
+<td align="left" rowspan="1" colspan="1">K</td>
+<td align="left" rowspan="1" colspan="1">R</td>
+<td align="left" rowspan="1" colspan="1">D</td>
+<td align="left" rowspan="1" colspan="1">S</td>
+<td align="left" rowspan="1" colspan="1"><italic>SILTDS</italic>QTA</td>
+<td align="left" rowspan="1" colspan="1">T</td>
+<td align="left" rowspan="1" colspan="1">K</td>
+<td align="left" rowspan="1" colspan="1">R</td>
+<td align="left" rowspan="1" colspan="1">I</td>
+<td align="left" rowspan="1" colspan="1">R</td>
+<td align="left" rowspan="1" colspan="1">2JDQ</td>
+</tr>
+</tbody>
+</table>
+</alternatives><table-wrap-foot><fn id="nt106"><p><xref ref-type="bibr" rid="pone.0082038-Marfori1">[6]</xref> 1PJM <xref ref-type="bibr" rid="pone.0082038-Fontes1">[9]</xref>, 1EE5 <xref ref-type="bibr" rid="pone.0082038-Conti1">[28]</xref>, 3UKY <xref ref-type="bibr" rid="pone.0082038-Marfori1">[6]</xref>, 2JDQ <xref ref-type="bibr" rid="pone.0082038-Tarendeau1">[29]</xref>.<sup /> Italics indicate that the sequence could not be discerned from the electron density and was omitted from the model. References for PDB ID 3UKW </p></fn></table-wrap-foot></table-wrap>
+<p>The minor site involves hydrogen-bond interactions between the side chain of <sup>Prp20NLS</sup>Lys<sup>3</sup> with the side chain of Thr<sup>328</sup>, and main chain of Val<sup>321</sup> and Asn<sup>361</sup>, whilst the P2′-binding site shows multiple interactions involving a salt bridge between the guanidinium of <sup>Prp20NLS</sup>Arg<sup>4</sup> and the carboxylate of Glu<sup>396</sup>; and hydrogen bonding between the <sup>Prp20NLS</sup>Arg<sup>4</sup> side chain and the main chain of Ser<sup>360</sup>, and the main chain of <sup>Prp20NLS</sup>Arg<sup>4</sup> with the side chain of Asn<sup>361</sup>.</p>
+<p>The interface observed between IMPα and the Prp20 NLS side chain and main chain residues both consolidate known binding site information of IMPα, as well as provide additional new interactions previously not described <xref ref-type="bibr" rid="pone.0082038-Marfori1">[6]</xref>, <xref ref-type="bibr" rid="pone.0082038-Fontes1">[9]</xref>–<xref ref-type="bibr" rid="pone.0082038-Chang2">[11]</xref>, <xref ref-type="bibr" rid="pone.0082038-Fontes2">[26]</xref>, <xref ref-type="bibr" rid="pone.0082038-Marfori2">[27]</xref>. The P0-binding site, generally comprised of Asn<sup>235</sup>, Arg<sup>238</sup>, and involving hydrophobic interactions, in our structure involves the interaction with Arg<sup>238</sup>, however the interaction between Asn<sup>235</sup> is disrupted, and instead replaced by a strong salt interaction between Arg<sup>17</sup> and Asp<sup>270</sup>. Consistent with our structural observations, mutation of <sup>Prp20NLS</sup>Arg<sup>17</sup> to Thr resulted in reduced binding to IMPα <xref ref-type="bibr" rid="pone.0082038-Hahn1">[16]</xref>. The P1-binding pocket generally accommodates a long positively charged NLS side chain, despite the fact that the interaction generally involves only nonspecific interactions with the main chain of the NLS. Indeed, our structure is consistent with this general observation, with the <sup>Prp20NLS</sup>Lys<sup>19</sup> only interacting through its main chain with the side chain of Asn<sup>235</sup>. Analysis of IMPα bound to NLSs has previously revealed P2 as the most critical position in the NLS. The binding pocket is predominantly comprised of Gly<sup>150</sup>, Thr<sup>155</sup> and Asp<sup>192</sup> on IMPα, and the pocket appears best suited for binding a lysine residue; these structural observations have been confirmed through site-directed mutagenesis studies, where mutagenesis of the K to A at the P2 position not only abolished nuclear localisation of the protein, but also reduced the affinity for IMPα ∼300 fold. Consistently, substitution of <sup>Prp20NLS</sup>K<sup>20</sup> to Thr severely disrupts Prp20 interaction with IMPα to approximately 20% of that of the wild-type protein <xref ref-type="bibr" rid="pone.0082038-Hahn1">[16]</xref>. That the larger arginine side chain is less energetically favourable in the P2 position has also been demonstrated through a K128R substitution in the SV40 TAg cNLS, which resulted in a ∼3 kcal/mol decrease in binding free energy. This high conservation of P2 lysine is rationalized through the specific and extensive hydrogen-bonding interactions with IMPα; the terminal nitrogen atom of the lysine side chain coordinates with the main chain carbonyl group of Gly<sup>150</sup>, with the hydroxyl in the side chain of Thr<sup>155</sup>, and with the negatively charged side chain of Asp<sup>192</sup>. These precise interactions were also observed in our structure. Furthermore, <sup>Prp20NLS</sup>Met<sup>21</sup> occupies the P3 position in our structure, and interacts with the side chains of Trp<sup>184</sup> and Asn<sup>188</sup>. This is consistent with nuclear import assays in yeast, which showed no defects in Prp20 import when Met<sup>21</sup> was substituted to a Thr residue <xref ref-type="bibr" rid="pone.0082038-Hahn1">[16]</xref>. The P4-binding site exhibits a slight preference for arginine, because it is able to make the most favourable interactions with ARM repeats 1 and 2; however a greater tolerance within this binding pocket has been noted than for the P2 position, and consistently, the energy contribution from this pocket is ∼1/4 of the contribution of the P2 residue.</p>
+<p>The minor site P1′ and P2′ positions contain the ‘KR’ motif in nearly all IMPα:NLS structures solved to date, with the replacement to non-KR residues commonly resulting in cytoplasmic localisation of the protein. The P1′-binding pocket is generally defined by residues Thr<sup>328</sup> and Asp<sup>361</sup>, and whilst a lysine is preferred over arginine in this binding cavity (which was observed in our structure), because an arginine side chain at this position is too long to make optimal interactions with the IMPα side chains, arginine can still be accommodated, e.g. in the case of CBP80 <xref ref-type="bibr" rid="pone.0082038-Marfori1">[6]</xref>. The P2′-binding pocket is defined by residues Ser<sup>360</sup> and Glu<sup>396</sup> within ARM repeats 7 and 8. Conversely to P1′, whilst a lysine can be accommodated at this position, an arginine side chain is able to make more favourable contacts to the IMPα minor binding site, and the Prp20 NLS therefore contains the most favoured arrangement KR motif at P1′ and P2′ positions, forming both specific side chain salt bridges, and main chain hydrogen-bonding interactions. Mutations of these residues have shown a weaker interaction to IMPα and defects in nuclear localisation in yeast cells <xref ref-type="bibr" rid="pone.0082038-Hahn1">[16]</xref>.</p>
+<p>Overall, our structure defines the binding mechanism of the bipartite Prp20 NLS with the nuclear import receptor IMPα. This interaction has not been described previously, and importantly, provides new structural information relating the mechanism of IMPα NLS recognition. The linker region, separating the positively charged clusters within the bipartite NLS of Prp20, whilst longer than many bipartite NLS linkers, does not perturb the ability of these clusters to interact with the major and minor sites of IMPα in a manner characteristic of other bipartite NLSs. Whilst insertion of a residue between the classical P0 and P1 disrupted the classical binding observed at P0, this was compensated by additional binding observed in the close vicinity, and highlights both the flexibility of NLS recognition contained within IMPα, and difficulty in precisely predicting NLSs.</p>
+</sec></body>
+<back>
+<ack>
+<p>We thank the Australian Synchrotron for valuable assistance during data collection. BK is an NHMRC (National Health and Medical research Council) Research Fellow. JKF is an ARC (Australian Research Council) Future Fellow.</p>
+</ack>
+<ref-list>
+<title>References</title>
+<ref id="pone.0082038-Chook1"><label>1</label>
+<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Chook</surname><given-names>YM</given-names></name>, <name name-style="western"><surname>Suel</surname><given-names>KE</given-names></name> (<year>2010</year>) <article-title>Nuclear import by karyopherin-betas: recognition and inhibition</article-title>. <source>Biochim Biophys Acta</source> <volume>1813</volume>: <fpage>1593</fpage>–<lpage>1606</lpage>.</mixed-citation>
+</ref>
+<ref id="pone.0082038-Cingolani1"><label>2</label>
+<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Cingolani</surname><given-names>G</given-names></name>, <name name-style="western"><surname>Bednenko</surname><given-names>J</given-names></name>, <name name-style="western"><surname>Gillespie</surname><given-names>MT</given-names></name>, <name name-style="western"><surname>Gerace</surname><given-names>L</given-names></name> (<year>2002</year>) <article-title>Molecular basis for the recognition of a nonclassical nuclear localization signal by importin beta</article-title>. <source>Mol Cell</source> <volume>10</volume>: <fpage>1345</fpage>–<lpage>1353</lpage>.</mixed-citation>
+</ref>
+<ref id="pone.0082038-Cingolani2"><label>3</label>
+<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Cingolani</surname><given-names>G</given-names></name>, <name name-style="western"><surname>Petosa</surname><given-names>C</given-names></name>, <name name-style="western"><surname>Weis</surname><given-names>K</given-names></name>, <name name-style="western"><surname>Muller</surname><given-names>CW</given-names></name> (<year>1999</year>) <article-title>Structure of importin-beta bound to the IBB domain of importin-alpha</article-title>. <source>Nature</source> <volume>399</volume>: <fpage>221</fpage>–<lpage>229</lpage>.</mixed-citation>
+</ref>
+<ref id="pone.0082038-Forwood1"><label>4</label>
+<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Forwood</surname><given-names>JK</given-names></name>, <name name-style="western"><surname>Lonhienne</surname><given-names>TG</given-names></name>, <name name-style="western"><surname>Marfori</surname><given-names>M</given-names></name>, <name name-style="western"><surname>Robin</surname><given-names>G</given-names></name>, <name name-style="western"><surname>Meng</surname><given-names>W</given-names></name>, <etal>et al</etal>. (<year>2008</year>) <article-title>Kap95p binding induces the switch loops of RanGDP to adopt the GTP-bound conformation: implications for nuclear import complex assembly dynamics</article-title>. <source>J Mol Biol</source> <volume>383</volume>: <fpage>772</fpage>–<lpage>782</lpage>.</mixed-citation>
+</ref>
+<ref id="pone.0082038-Lonhienne1"><label>5</label>
+<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Lonhienne</surname><given-names>TG</given-names></name>, <name name-style="western"><surname>Forwood</surname><given-names>JK</given-names></name>, <name name-style="western"><surname>Marfori</surname><given-names>M</given-names></name>, <name name-style="western"><surname>Robin</surname><given-names>G</given-names></name>, <name name-style="western"><surname>Kobe</surname><given-names>B</given-names></name>, <etal>et al</etal>. (<year>2009</year>) <article-title>Importin-beta is a GDP-to-GTP exchange factor of Ran: implications for the mechanism of nuclear import</article-title>. <source>J Biol Chem</source> <volume>284</volume>: <fpage>22549</fpage>–<lpage>22558</lpage>.</mixed-citation>
+</ref>
+<ref id="pone.0082038-Marfori1"><label>6</label>
+<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Marfori</surname><given-names>M</given-names></name>, <name name-style="western"><surname>Lonhienne</surname><given-names>TG</given-names></name>, <name name-style="western"><surname>Forwood</surname><given-names>JK</given-names></name>, <name name-style="western"><surname>Kobe</surname><given-names>B</given-names></name> (<year>2012</year>) <article-title>Structural basis of high-affinity nuclear localization signal interactions with importin-alpha</article-title>. <source>Traffic</source> <volume>13</volume>: <fpage>532</fpage>–<lpage>548</lpage>.</mixed-citation>
+</ref>
+<ref id="pone.0082038-Kobe1"><label>7</label>
+<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Kobe</surname><given-names>B</given-names></name> (<year>1999</year>) <article-title>Autoinhibition by an internal nuclear localization signal revealed by the crystal structure of mammalian importin alpha</article-title>. <source>Nat Struct Biol</source> <volume>6</volume>: <fpage>388</fpage>–<lpage>397</lpage>.</mixed-citation>
+</ref>
+<ref id="pone.0082038-Romanelli1"><label>8</label>
+<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Romanelli</surname><given-names>MG</given-names></name>, <name name-style="western"><surname>Morandi</surname><given-names>C</given-names></name> (<year>2002</year>) <article-title>Importin alpha binds to an unusual bipartite nuclear localization signal in the heterogeneous ribonucleoprotein type I</article-title>. <source>Eur J Biochem</source> <volume>269</volume>: <fpage>2727</fpage>–<lpage>2734</lpage>.</mixed-citation>
+</ref>
+<ref id="pone.0082038-Fontes1"><label>9</label>
+<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Fontes</surname><given-names>MR</given-names></name>, <name name-style="western"><surname>Teh</surname><given-names>T</given-names></name>, <name name-style="western"><surname>Jans</surname><given-names>D</given-names></name>, <name name-style="western"><surname>Brinkworth</surname><given-names>RI</given-names></name>, <name name-style="western"><surname>Kobe</surname><given-names>B</given-names></name> (<year>2003</year>) <article-title>Structural basis for the specificity of bipartite nuclear localization sequence binding by importin-alpha</article-title>. <source>J Biol Chem</source> <volume>278</volume>: <fpage>27981</fpage>–<lpage>27987</lpage>.</mixed-citation>
+</ref>
+<ref id="pone.0082038-Chang1"><label>10</label>
+<mixed-citation publication-type="other" xlink:type="simple">Chang CW, Counago RM, Williams SJ, Boden M, Kobe B (2013) Distinctive Conformation of Minor Site-Specific Nuclear Localization Signals Bound to Importin-alpha. Traffic.</mixed-citation>
+</ref>
+<ref id="pone.0082038-Chang2"><label>11</label>
+<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Chang</surname><given-names>CW</given-names></name>, <name name-style="western"><surname>Counago</surname><given-names>RL</given-names></name>, <name name-style="western"><surname>Williams</surname><given-names>SJ</given-names></name>, <name name-style="western"><surname>Boden</surname><given-names>M</given-names></name>, <name name-style="western"><surname>Kobe</surname><given-names>B</given-names></name> (<year>2013</year>) <article-title>Crystal structure of rice importin-alpha and structural basis of its interaction with plant-specific nuclear localization signals</article-title>. <source>Plant Cell</source> <volume>24</volume>: <fpage>5074</fpage>–<lpage>5088</lpage>.</mixed-citation>
+</ref>
+<ref id="pone.0082038-Wozniak1"><label>12</label>
+<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Wozniak</surname><given-names>R</given-names></name>, <name name-style="western"><surname>Burke</surname><given-names>B</given-names></name>, <name name-style="western"><surname>Doye</surname><given-names>V</given-names></name> (<year>2010</year>) <article-title>Nuclear transport and the mitotic apparatus: an evolving relationship</article-title>. <source>Cell Mol Life Sci</source> <volume>67</volume>: <fpage>2215</fpage>–<lpage>2230</lpage>.</mixed-citation>
+</ref>
+<ref id="pone.0082038-Wagstaff1"><label>13</label>
+<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Wagstaff</surname><given-names>KM</given-names></name>, <name name-style="western"><surname>Jans</surname><given-names>DA</given-names></name> (<year>2009</year>) <article-title>Importins and beyond: non-conventional nuclear transport mechanisms</article-title>. <source>Traffic</source> <volume>10</volume>: <fpage>1188</fpage>–<lpage>1198</lpage>.</mixed-citation>
+</ref>
+<ref id="pone.0082038-StrambioDeCastillia1"><label>14</label>
+<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Strambio-De-Castillia</surname><given-names>C</given-names></name>, <name name-style="western"><surname>Niepel</surname><given-names>M</given-names></name>, <name name-style="western"><surname>Rout</surname><given-names>MP</given-names></name> (<year>2010</year>) <article-title>The nuclear pore complex: bridging nuclear transport and gene regulation</article-title>. <source>Nat Rev Mol Cell Biol</source> <volume>11</volume>: <fpage>490</fpage>–<lpage>501</lpage>.</mixed-citation>
+</ref>
+<ref id="pone.0082038-Lee1"><label>15</label>
+<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Lee</surname><given-names>SJ</given-names></name>, <name name-style="western"><surname>Matsuura</surname><given-names>Y</given-names></name>, <name name-style="western"><surname>Liu</surname><given-names>SM</given-names></name>, <name name-style="western"><surname>Stewart</surname><given-names>M</given-names></name> (<year>2005</year>) <article-title>Structural basis for nuclear import complex dissociation by RanGTP</article-title>. <source>Nature</source> <volume>435</volume>: <fpage>693</fpage>–<lpage>696</lpage>.</mixed-citation>
+</ref>
+<ref id="pone.0082038-Hahn1"><label>16</label>
+<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Hahn</surname><given-names>S</given-names></name>, <name name-style="western"><surname>Maurer</surname><given-names>P</given-names></name>, <name name-style="western"><surname>Caesar</surname><given-names>S</given-names></name>, <name name-style="western"><surname>Schlenstedt</surname><given-names>G</given-names></name> (<year>2008</year>) <article-title>Classical NLS proteins from Saccharomyces cerevisiae</article-title>. <source>J Mol Biol</source> <volume>379</volume>: <fpage>678</fpage>–<lpage>694</lpage>.</mixed-citation>
+</ref>
+<ref id="pone.0082038-Ryan1"><label>17</label>
+<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Ryan</surname><given-names>KJ</given-names></name>, <name name-style="western"><surname>McCaffery</surname><given-names>JM</given-names></name>, <name name-style="western"><surname>Wente</surname><given-names>SR</given-names></name> (<year>2003</year>) <article-title>The Ran GTPase cycle is required for yeast nuclear pore complex assembly</article-title>. <source>J Cell Biol</source> <volume>160</volume>: <fpage>1041</fpage>–<lpage>1053</lpage>.</mixed-citation>
+</ref>
+<ref id="pone.0082038-Fleischmann1"><label>18</label>
+<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Fleischmann</surname><given-names>M</given-names></name>, <name name-style="western"><surname>Clark</surname><given-names>MW</given-names></name>, <name name-style="western"><surname>Forrester</surname><given-names>W</given-names></name>, <name name-style="western"><surname>Wickens</surname><given-names>M</given-names></name>, <name name-style="western"><surname>Nishimoto</surname><given-names>T</given-names></name>, <etal>et al</etal>. (<year>1991</year>) <article-title>Analysis of yeast prp20 mutations and functional complementation by the human homologue RCC1, a protein involved in the control of chromosome condensation</article-title>. <source>Mol Gen Genet</source> <volume>227</volume>: <fpage>417</fpage>–<lpage>423</lpage>.</mixed-citation>
+</ref>
+<ref id="pone.0082038-Teh1"><label>19</label>
+<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Teh</surname><given-names>T</given-names></name>, <name name-style="western"><surname>Tiganis</surname><given-names>T</given-names></name>, <name name-style="western"><surname>Kobe</surname><given-names>B</given-names></name> (<year>1999</year>) <article-title>Crystallization of importin alpha, the nuclear-import receptor</article-title>. <source>Acta Crystallogr D Biol Crystallogr</source> <volume>55</volume>: <fpage>561</fpage>–<lpage>563</lpage>.</mixed-citation>
+</ref>
+<ref id="pone.0082038-McPhillips1"><label>20</label>
+<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>McPhillips</surname><given-names>TM</given-names></name>, <name name-style="western"><surname>McPhillips</surname><given-names>SE</given-names></name>, <name name-style="western"><surname>Chiu</surname><given-names>HJ</given-names></name>, <name name-style="western"><surname>Cohen</surname><given-names>AE</given-names></name>, <name name-style="western"><surname>Deacon</surname><given-names>AM</given-names></name>, <etal>et al</etal>. (<year>2002</year>) <article-title>Blu-Ice and the Distributed Control System: software for data acquisition and instrument control at macromolecular crystallography beamlines</article-title>. <source>J Syncrotron Radiation</source> <volume>9</volume>: <fpage>401</fpage>–<lpage>406</lpage>.</mixed-citation>
+</ref>
+<ref id="pone.0082038-Battye1"><label>21</label>
+<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Battye</surname><given-names>TG</given-names></name>, <name name-style="western"><surname>Kontogiannis</surname><given-names>L</given-names></name>, <name name-style="western"><surname>Johnson</surname><given-names>O</given-names></name>, <name name-style="western"><surname>Powell</surname><given-names>HR</given-names></name>, <name name-style="western"><surname>Leslie</surname><given-names>AG</given-names></name> (<year>2011</year>) <article-title>iMOSFLM: a new graphical interface for diffraction-image processing with MOSFLM</article-title>. <source>Acta Crystallogr D Biol Crystallogr</source> <volume>67</volume>: <fpage>271</fpage>–<lpage>281</lpage>.</mixed-citation>
+</ref>
+<ref id="pone.0082038-Evans1"><label>22</label>
+<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Evans</surname><given-names>PR</given-names></name> (<year>2011</year>) <article-title>An introduction to data reduction: space-group determination, scaling and intensity statistics</article-title>. <source>Acta Crystallogr D Biol Crystallogr</source> <volume>67</volume>: <fpage>282</fpage>–<lpage>292</lpage>.</mixed-citation>
+</ref>
+<ref id="pone.0082038-Winn1"><label>23</label>
+<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Winn</surname><given-names>MD</given-names></name>, <name name-style="western"><surname>Ballard</surname><given-names>CC</given-names></name>, <name name-style="western"><surname>Cowtan</surname><given-names>KD</given-names></name>, <name name-style="western"><surname>Dodson</surname><given-names>EJ</given-names></name>, <name name-style="western"><surname>Emsley</surname><given-names>P</given-names></name>, <etal>et al</etal>. (<year>2011</year>) <article-title>Overview of the CCP4 suite and current developments</article-title>. <source>Acta Crystallogr D Biol Crystallogr</source> <volume>67</volume>: <fpage>235</fpage>–<lpage>242</lpage>.</mixed-citation>
+</ref>
+<ref id="pone.0082038-Emsley1"><label>24</label>
+<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Emsley</surname><given-names>P</given-names></name>, <name name-style="western"><surname>Lohkamp</surname><given-names>B</given-names></name>, <name name-style="western"><surname>Scott</surname><given-names>WG</given-names></name>, <name name-style="western"><surname>Cowtan</surname><given-names>K</given-names></name> (<year>2010</year>) <article-title>Features and development of Coot</article-title>. <source>Acta Crystallogr D Biol Crystallogr</source> <volume>66</volume>: <fpage>486</fpage>–<lpage>501</lpage>.</mixed-citation>
+</ref>
+<ref id="pone.0082038-Murshudov1"><label>25</label>
+<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Murshudov</surname><given-names>GN</given-names></name>, <name name-style="western"><surname>Skubak</surname><given-names>P</given-names></name>, <name name-style="western"><surname>Lebedev</surname><given-names>AA</given-names></name>, <name name-style="western"><surname>Pannu</surname><given-names>NS</given-names></name>, <name name-style="western"><surname>Steiner</surname><given-names>RA</given-names></name>, <etal>et al</etal>. (<year>2011</year>) <article-title>REFMAC5 for the refinement of macromolecular crystal structures</article-title>. <source>Acta Crystallogr D Biol Crystallogr</source> <volume>67</volume>: <fpage>355</fpage>–<lpage>367</lpage>.</mixed-citation>
+</ref>
+<ref id="pone.0082038-Fontes2"><label>26</label>
+<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Fontes</surname><given-names>MR</given-names></name>, <name name-style="western"><surname>Teh</surname><given-names>T</given-names></name>, <name name-style="western"><surname>Kobe</surname><given-names>B</given-names></name> (<year>2000</year>) <article-title>Structural basis of recognition of monopartite and bipartite nuclear localization sequences by mammalian importin-alpha</article-title>. <source>J Mol Biol</source> <volume>297</volume>: <fpage>1183</fpage>–<lpage>1194</lpage>.</mixed-citation>
+</ref>
+<ref id="pone.0082038-Marfori2"><label>27</label>
+<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Marfori</surname><given-names>M</given-names></name>, <name name-style="western"><surname>Mynott</surname><given-names>A</given-names></name>, <name name-style="western"><surname>Ellis</surname><given-names>JJ</given-names></name>, <name name-style="western"><surname>Mehdi</surname><given-names>AM</given-names></name>, <name name-style="western"><surname>Saunders</surname><given-names>NF</given-names></name>, <etal>et al</etal>. (<year>2011</year>) <article-title>Molecular basis for specificity of nuclear import and prediction of nuclear localization</article-title>. <source>Biochim Biophys Acta</source> <volume>1813</volume>: <fpage>1562</fpage>–<lpage>1577</lpage>.</mixed-citation>
+</ref>
+<ref id="pone.0082038-Conti1"><label>28</label>
+<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Conti</surname><given-names>E</given-names></name>, <name name-style="western"><surname>Kuriyan</surname><given-names>J</given-names></name> (<year>2000</year>) <article-title>Crystallographic analysis of the specific yet versatile recognition of distinct nuclear localization signals by karyopherin alpha</article-title>. <source>Structure</source> <volume>8</volume>: <fpage>329</fpage>–<lpage>338</lpage>.</mixed-citation>
+</ref>
+<ref id="pone.0082038-Tarendeau1"><label>29</label>
+<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Tarendeau</surname><given-names>F</given-names></name>, <name name-style="western"><surname>Boudet</surname><given-names>J</given-names></name>, <name name-style="western"><surname>Guilligay</surname><given-names>D</given-names></name>, <name name-style="western"><surname>Mas</surname><given-names>PJ</given-names></name>, <name name-style="western"><surname>Bougault</surname><given-names>CM</given-names></name>, <etal>et al</etal>. (<year>2007</year>) <article-title>Structure and nuclear import function of the C-terminal domain of influenza virus polymerase PB2 subunit</article-title>. <source>Nat Struct Mol Biol</source> <volume>14</volume>: <fpage>229</fpage>–<lpage>233</lpage>.</mixed-citation>
+</ref>
+<ref id="pone.0082038-Adams1"><label>30</label>
+<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Adams</surname><given-names>PD</given-names></name>, <name name-style="western"><surname>Afonine</surname><given-names>PV</given-names></name>, <name name-style="western"><surname>Bunkoczi</surname><given-names>G</given-names></name>, <name name-style="western"><surname>Chen</surname><given-names>VB</given-names></name>, <name name-style="western"><surname>Davis</surname><given-names>IW</given-names></name>, <etal>et al</etal>. (<year>2010</year>) <article-title>PHENIX: a comprehensive Python-based system for macromolecular structure solution</article-title>. <source>Acta Crystallogr D Biol Crystallogr</source> <volume>66</volume>: <fpage>213</fpage>–<lpage>221</lpage>.</mixed-citation>
+</ref>
+</ref-list></back>
+</article>

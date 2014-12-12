@@ -67,11 +67,19 @@ public class SimpleResultWrapper {
 	
 	@Override
 	public String toString() {
-		return resultString != null ? resultString : elementInContext.toString();
+		StringBuilder sb = new StringBuilder();
+		if (resultElement != null) {
+			sb.append(resultElement.toString());
+		} else if (elementInContext == null) {
+			sb.append(elementInContext.toString());
+		} else {
+			sb.append(resultString);
+		}
+		return sb.toString();
 	}
 
 	public Element createElement() {
-		Element result = new Element(RESULT);
+		Element result = new ResultElement();
 		if (elementInContext != null) {
 			result.appendChild(elementInContext.createElement());
 		} else if (resultString != null) {

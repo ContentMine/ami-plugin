@@ -1,0 +1,786 @@
+<article xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" article-type="research-article" dtd-version="3.0" xml:lang="en">
+<front>
+<journal-meta>
+<journal-id journal-id-type="nlm-ta">PLoS ONE</journal-id>
+<journal-id journal-id-type="publisher-id">plos</journal-id>
+<journal-id journal-id-type="pmc">plosone</journal-id><journal-title-group>
+<journal-title xml:lang="en">PLoS ONE</journal-title></journal-title-group>
+<issn pub-type="epub">1932-6203</issn>
+<publisher>
+<publisher-name>Public Library of Science</publisher-name>
+<publisher-loc>San Francisco, USA</publisher-loc></publisher>
+</journal-meta>
+<article-meta>
+<article-id pub-id-type="publisher-id">PONE-D-13-21695</article-id>
+<article-id pub-id-type="doi">10.1371/journal.pone.0080888</article-id>
+<article-categories><subj-group subj-group-type="heading"><subject>Research Article</subject></subj-group></article-categories>
+<title-group>
+<article-title>Factors Affecting Regional Per-Capita Carbon Emissions in China Based on an LMDI Factor Decomposition Model</article-title>
+<alt-title alt-title-type="running-head">Influencing Factors of Per-Capita Carbon Emissions</alt-title>
+</title-group>
+<contrib-group>
+<contrib contrib-type="author" xlink:type="simple"><name name-style="western"><surname>Dong</surname><given-names>Feng</given-names></name><xref ref-type="aff" rid="aff1"><sup>1</sup></xref><xref ref-type="corresp" rid="cor1"><sup>*</sup></xref></contrib>
+<contrib contrib-type="author" xlink:type="simple"><name name-style="western"><surname>Long</surname><given-names>Ruyin</given-names></name><xref ref-type="aff" rid="aff1"><sup>1</sup></xref></contrib>
+<contrib contrib-type="author" xlink:type="simple"><name name-style="western"><surname>Chen</surname><given-names>Hong</given-names></name><xref ref-type="aff" rid="aff1"><sup>1</sup></xref></contrib>
+<contrib contrib-type="author" xlink:type="simple"><name name-style="western"><surname>Li</surname><given-names>Xiaohui</given-names></name><xref ref-type="aff" rid="aff2"><sup>2</sup></xref></contrib>
+<contrib contrib-type="author" xlink:type="simple"><name name-style="western"><surname>Yang</surname><given-names>Qingliang</given-names></name><xref ref-type="aff" rid="aff1"><sup>1</sup></xref></contrib>
+</contrib-group>
+<aff id="aff1"><label>1</label><addr-line>School of Management, China University of Mining and Technology, Xuzhou, Jiangsu, China</addr-line></aff>
+<aff id="aff2"><label>2</label><addr-line>School of Foreign Languages, Yantai University, Yantai, Shandong, China</addr-line></aff>
+<contrib-group>
+<contrib contrib-type="editor" xlink:type="simple"><name name-style="western"><surname>Montoya</surname><given-names>Alejandro Raul Hernandez</given-names></name>
+<role>Editor</role>
+<xref ref-type="aff" rid="edit1" /></contrib>
+</contrib-group>
+<aff id="edit1"><addr-line>Universidad Veracruzana, Mexico</addr-line></aff>
+<author-notes>
+<corresp id="cor1">* E-mail: <email xlink:type="simple">dongfeng2008@126.com</email></corresp>
+<fn fn-type="conflict"><p>The authors have declared that no competing interests exist.</p></fn>
+<fn fn-type="con"><p>Analyzed the data: FD RL HC XL QY. Wrote the paper: FD. Contributed analysis tools: FD.</p></fn>
+</author-notes>
+<pub-date pub-type="collection"><month>12</month><year>2013</year></pub-date>
+<pub-date pub-type="epub"><day>6</day><month>12</month><year>2013</year></pub-date>
+<volume>8</volume>
+<issue>12</issue>
+<elocation-id>e80888</elocation-id>
+<history>
+<date date-type="received"><day>25</day><month>5</month><year>2013</year></date>
+<date date-type="accepted"><day>7</day><month>10</month><year>2013</year></date>
+</history>
+<permissions>
+<copyright-year>2013</copyright-year>
+<copyright-holder>Dong et al</copyright-holder><license xlink:href="http://creativecommons.org/licenses/by/3.0/" xlink:type="simple"><license-p>This is an open-access article distributed under the terms of the <ext-link ext-link-type="uri" xlink:href="http://creativecommons.org/licenses/by/3.0/" xlink:type="simple">Creative Commons Attribution License</ext-link>, which permits unrestricted use, distribution, and reproduction in any medium, provided the original author and source are credited.</license-p></license></permissions>
+<abstract>
+<p>China is considered to be the main carbon producer in the world. The per-capita carbon emissions indicator is an important measure of the regional carbon emissions situation. This study used the LMDI factor decomposition model–panel co-integration test two-step method to analyze the factors that affect per-capita carbon emissions. The main results are as follows. (1) During 1997, Eastern China, Central China, and Western China ranked first, second, and third in the per-capita carbon emissions, while in 2009 the pecking order changed to Eastern China, Western China, and Central China. (2) According to the LMDI decomposition results, the key driver boosting the per-capita carbon emissions in the three economic regions of China between 1997 and 2009 was economic development, and the energy efficiency was much greater than the energy structure after considering their effect on restraining increased per-capita carbon emissions. (3) Based on the decomposition, the factors that affected per-capita carbon emissions in the panel co-integration test showed that Central China had the best energy structure elasticity in its regional per-capita carbon emissions. Thus, Central China was ranked first for energy efficiency elasticity, while Western China was ranked first for economic development elasticity.</p>
+</abstract>
+<funding-group><funding-statement>This work is supported by National Natural Science Foundation in China (41101569 and 71273258), China Postdoctoral Science Foundation funded project (2011M500965), Jiangsu Funds of Social Science (11EYC023), Doctoral Discipline New Teachers Fund (20110095120002), the Fundamental Research Funds for the Central Universities (2013W01), the Talent Introduction Funds of China University of Mining and Technology (CUMT), the Sail Plan Funds for Young Teachers of CUMT, and the High Level Thesis Foundation of the College of Management, CUMT. The Major Program of the National Social Science Foundation in China (12&amp;ZD062). The funders had no role in study design, data collection and analysis, decision to publish, or preparation of the manuscript.</funding-statement></funding-group><counts><page-count count="10" /></counts></article-meta>
+</front>
+<body><sec id="s1">
+<title>Introduction</title>
+<p>In the 15th Conference of the Contracting Parties under the “United Nations Framework Convention on Climate Change” and the 5th Conference for the Parties under the “Kyoto Protocol” held during December 2009 in Copenhagen, Denmark, the Chinese government solemnly promised that the carbon emissions per unit GDP would be decreased by 40–45% by 2020 from the 2005 levels. According to the “Kyoto Protocol” agreed at the climate conference held in Copenhagen, there was a consensus about how to reduce greenhouse gas emissions and to keep the atmospheric temperature at a reasonable level. China is believed to be the highest carbon producer in the world, so it feels that it is imperative to transform its current status by implementing technological and systematic innovation, fundamentally abandoning its old-fashioned economic development pattern, and adopting an energy saving and low-carbon economic development path to improve its energy efficiency, thereby rationalizing people’s lifestyles and consumption patterns.</p>
+<p>The “Tokyo Protocol” and “Copenhagen Annual Conference” declared clear and concrete constraints on all nations regarding their carbon emission reduction obligations, but these issues are still under discussion as to how to evaluate a nation or district’s carbon emissions, and which indicator should be utilized for scientific measurements. Many scholars and professionals have explored this issue in effective ways. Mielnik et al. proposed that the carbon dioxide emissions per energy unit could be used as the main evaluation criteria to address climate change and the economic development models of developing countries <xref ref-type="bibr" rid="pone.0080888-Mielnik1">[1]</xref>. Ang suggests that the change in the energy consumption per unit GDP could represent the regional carbon dioxide emission situation <xref ref-type="bibr" rid="pone.0080888-Ang1">[2]</xref>. Zhang et al. thought that up-to-date evaluation indexes such as the per-capita industrialized cumulative carbon emissions and carbon emissions per unit GDP would be more likely to adhere to scientific, fair, and reasonable principles <xref ref-type="bibr" rid="pone.0080888-Zhang1">[3]</xref>. Sun expressed the opinion that the carbon dioxide emissions per unit GDP would be a good index for comparing decarbonization among countries <xref ref-type="bibr" rid="pone.0080888-Sun1">[4]</xref>. In addition to the above indicators, the per-capita carbon emissions indicator is an important measure of regional carbon emissions level and strength. The per-capita carbon emissions indicator appears in many study domains because many scholars believe it is a better option that reflects regional fairness rules, thereby protecting the interests of developing countries. For example, Lin and Li estimated the actual mitigation effects of the five north European countries using the difference-in-difference (DID) method <xref ref-type="bibr" rid="pone.0080888-Lin1">[5]</xref>. Andrew et al. examined the regional and temporal differences in the statistical relationship between carbon dioxide emissions and population size <xref ref-type="bibr" rid="pone.0080888-Jorgenson1">[6]</xref>. Lanne et al. considered the per-capita carbon emissions trends in 16 early-developed countries for the period 1870–2028 using a multiple-break time series method <xref ref-type="bibr" rid="pone.0080888-Lanne1">[7]</xref>. Wang et al. calculated China’s per-capita carbon emissions in terms of its gravity center, as well as its variation trends, features, and explanations during 1995–2005 <xref ref-type="bibr" rid="pone.0080888-Wang1">[8]</xref>. Tian and Zhang calculated China’s per-capita factor analysis model for carbon emissions decomposition based on the Generalized Fisher Price Index method (GFI) <xref ref-type="bibr" rid="pone.0080888-Tian1">[9]</xref>. Rajaratnam and Kanthi developed a conditional equilibrium correction model (ECM) for quantifying the relationship between Australia’s per-capita GDP and per-capita carbon emissions <xref ref-type="bibr" rid="pone.0080888-Rajaratnam1">[10]</xref>. Lee and Chang used Panel Seemingly Unrelated Regressions Augmented Dickey–Fuller (SURADF) unit-root tests to determine whether the stochastic convergence and β-convergence of the per-capita carbon emissions were supported in OECD countries <xref ref-type="bibr" rid="pone.0080888-Lee1">[11]</xref>. By following the principle of regional fairness, the authors also employed per-capita carbon emissions as an indicator when measuring the carbon emissions situation of all provinces in China, which differ greatly in their economic and environmental status. In addition, Data Envelopment Analysis (DEA) has often been used to study the environmental or energy efficiency in recent years. For example, Zaim, Zofío, and Zhou evaluated the carbon dioxide emission performance of OECD countries and others regions at the macro-level using different DEA models <xref ref-type="bibr" rid="pone.0080888-Zaim1">[12]</xref>–<xref ref-type="bibr" rid="pone.0080888-Zhou1">[14]</xref>. Sebastian and Gutiérrez proposed a non-parametric frontier approach for modeling the relationships among populations, GDP, energy consumption, and carbon dioxide emissions <xref ref-type="bibr" rid="pone.0080888-Lozano1">[15]</xref>. Zhou et al. built MCPI model based on the Malmqusit index and used it to measure the carbon emission efficiency of 18 countries with the highest global carbon emissions <xref ref-type="bibr" rid="pone.0080888-Zhou2">[16]</xref>. Wang et al. set up the Malmquist index using a DEA model containing undesired outputs, which was used to study dynamic changes in the carbon emission performance in China <xref ref-type="bibr" rid="pone.0080888-Wang2">[17]</xref>.</p>
+<p>Decomposition analysis is often used in studies related to carbon emissions. For example, Fan et al. used the Adaptive Divisia Decomposition method (AWD) to divide the factors affecting China’s carbon intensity during 1980–2003 and showed out that the primary energy intensity had a significant effect on the carbon intensity <xref ref-type="bibr" rid="pone.0080888-Fan1">[18]</xref>. Zhang et al. analyzed the factors related to China’s total carbon emissions and carbon intensity using data from 1991 to 2006 with the complete decomposition method developed by Sun <xref ref-type="bibr" rid="pone.0080888-Sun2">[19]</xref>, which demonstrated that the energy intensity contributed most to the decline in the carbon emissions and carbon intensity <xref ref-type="bibr" rid="pone.0080888-Zhang2">[20]</xref>. The crux of decomposition analysis is the elimination of decomposed residuals. In 2008, Ang et al. introduced a Logarithmic Mean Divisia Index method (LMDI) to solve this problem. Ang compared this new method with three existing methods and summarized the respective decomposition formulae for various applications <xref ref-type="bibr" rid="pone.0080888-Ang2">[21]</xref>. Ang later proposed the improved LMDI decomposition method, which has been used widely to analyze factors in the field that affect carbon emissions. Chunbo, Tunc, and Claudia analyzed the main factors affecting carbon emission changes in China, Turkey, and Mexico by decomposing the carbon emissions and/or the carbon emission intensity using the LMDI approach <xref ref-type="bibr" rid="pone.0080888-Chunbo1">[22]</xref>–<xref ref-type="bibr" rid="pone.0080888-Claudia1">[24]</xref>. Ang discussed which was the “best” decomposition method and analyzed the consistency on the choice of decomposition methods in empirical studies about decomposition analysis for policymaking in energy <xref ref-type="bibr" rid="pone.0080888-Ang3">[25]</xref>. The LMDI approach has also been adopted for monitoring economy-wide energy efficiency trends. For example, Ang et al. proposed accounting frameworks for tracking energy efficiency trends based on the LMDI decomposition technique, which has a number of desirable properties <xref ref-type="bibr" rid="pone.0080888-Ang4">[26]</xref>. Dong and Wu established accounting frameworks for the energy performance index (EPI) based on the LMDI approach to analyze the energy consumption of Beijing <xref ref-type="bibr" rid="pone.0080888-Dong1">[27]</xref>. Using the LMDI approach, Baležentis et al. analyzed the energy intensity trends in the Lithuanian economy as a whole as well as in separate economic sectors <xref ref-type="bibr" rid="pone.0080888-Baleentis1">[28]</xref>.</p>
+<p>The LMDI approach is a type of index decomposition analysis (IDA), while another popular decomposition technique for energy and emissions is structural decomposition analysis (SDA). Three aggregation issues are inherent in SDA studies, namely sector aggregation, spatial aggregation and temporal aggregation <xref ref-type="bibr" rid="pone.0080888-Su1">[29]</xref>. Su and Ang examined new methodological developments in SDA and compared four SDA methods analytically and empirically by decomposing changes in China’s CO<sub>2</sub> emissions <xref ref-type="bibr" rid="pone.0080888-Su2">[30]</xref>. Su et al. investigated analytically the possible effects of sector aggregation, spatial aggregation and temporal aggregation on SDA and conducted empirical studies using the data of CO<sub>2</sub> emissions <xref ref-type="bibr" rid="pone.0080888-Su3">[31]</xref>, <xref ref-type="bibr" rid="pone.0080888-Su4">[32]</xref>, <xref ref-type="bibr" rid="pone.0080888-Su1">[29]</xref>. In recent years, many scholars have used the SDA approach for studying carbon emissions and reported many interesting findings and recommendations <xref ref-type="bibr" rid="pone.0080888-Wang3">[33]</xref>–<xref ref-type="bibr" rid="pone.0080888-Du1">[36]</xref>.</p>
+<p>The decomposition method is a relatively common method for the analysis of regional carbon emissions change. However, many studies merely decompose the carbon emissions into a number of factors without further exploration of the influential mechanisms and dynamic changes in these factors. Based on the results of factor decomposition for per-capita carbon emissions, we selected the Panel Co-integration Analysis method and conducted an in-depth exploration of the long-term and short-term dynamic changes, and the factors with strong effects on the per-capita carbon emissions.</p>
+<p>As mentioned above, the main indexes available for evaluating the regional carbon emissions situation include the total carbon emissions, per-capita carbon emissions, carbon emissions per unit GDP, and the carbon emissions performance based on the DEA model, while the per-capita carbon emissions indicator is very important for demonstrating the regional carbon emissions level. In summary, the LMDI decomposition approach proposed by Ang et al. is used more frequently for carbon emissions decomposition, besides the LMDI method has recently become popular in SDA studies related to energy and emissions. China’s regional carbon emissions vary greatly, i.e., there was an eightfold difference in the per-capita carbon emissions of the highest and the lowest provinces in 2009, so we used the LMDI factor decomposition model–panel co-integration test two-step method to study the main factors affecting the per-capita carbon emissions in Chinese provinces, and explore the influential mechanisms and dynamic changes in the per-capita carbon emissions, thereby facilitating a quantitative analysis of the emissions reduction strategy.</p>
+<p>This paper is organized as follows. Section 2 presents the results of the regional per-capita carbon emissions in Chinese provinces. Section 3 describes the LMDI approach used to decompose the per-capita carbon emissions and the decomposition results in China. Based on the factors decomposed in Section 3, the panel co-integration analysis of the factors that affect the regional per-capita carbon emissions is presented in Section 4. Finally, we conclude this study.</p>
+</sec><sec id="s2">
+<title>Calculation of Regional Per-capita Carbon Emissions</title>
+<p>This study analyzed the energy consumption of total coal, total oil, and natural gas, which were obtained from the China Energy Statistical Yearbook published by China’s National Bureau of Statistics (CNBSa) <xref ref-type="bibr" rid="pone.0080888-CNBSa1">[37]</xref>, to calculate carbon emissions for each area. In this study, total coal included various types of coal resources, such as raw coal, cleaned coal, and coke. Oil included crude oil, gasoline, kerosene, diesel oil, and other petroleum products. The formula used was as follows:<disp-formula id="pone.0080888.e001"><graphic position="anchor" xlink:href="info:doi/10.1371/journal.pone.0080888.e001" xlink:type="simple" orientation="portrait" /><label>(1)</label></disp-formula>Where, <inline-formula><inline-graphic xlink:href="info:doi/10.1371/journal.pone.0080888.e002" xlink:type="simple" /></inline-formula> is the i type carbon emission coefficient and <inline-formula><inline-graphic xlink:href="info:doi/10.1371/journal.pone.0080888.e003" xlink:type="simple" /></inline-formula> is the i-th energy consumption (standard coal). The carbon emission coefficients of the three types of energy are referred to in the research results presented by Xu, Hu et al., and an IPCC report <xref ref-type="bibr" rid="pone.0080888-Xu2">[38]</xref>–<xref ref-type="bibr" rid="pone.0080888-IPCC1">[40]</xref>. In addition, we calculated the per-capita carbon emissions from 1997 to 2009 by dividing the total population by the total carbon emissions. Eastern China has 11 provinces, i.e., Beijing, Tianjin, Hebei, Liaoning, Shanghai, Jiangsu, Zhejiang, Fujian, Shandong, Guangdong, and Hainan. Central China has eight regions, i.e., Shanxi, Jilin, Heilongjiang, Anhui, Jiangxi, Henan, Hubei, Hunan. Western China contains Inner Mongolia, Guangxi, Chongqing, Sichuan, Guizhou, Yunnan, Shaanxi, Gansu, Ningxia, Qinghai, and Xinjiang, i.e., 11 provinces in total (there are no energy consumption data for Tibet and Taiwan). For the regions mentioned above, their regional per-capita carbon emissions are shown in <xref ref-type="table" rid="pone-0080888-t001">Table 1</xref>.</p>
+<table-wrap id="pone-0080888-t001" position="float" orientation="portrait"><object-id pub-id-type="doi">10.1371/journal.pone.0080888.t001</object-id><label>Table 1</label><caption>
+<title>The regional per-capita carbon emissions (unit: tons per-capita) in China.</title>
+</caption><alternatives><graphic id="pone-0080888-t001-1" position="float" mimetype="image" xlink:href="info:doi/10.1371/journal.pone.0080888.t001" xlink:type="simple" orientation="portrait" />
+<table><colgroup span="1"><col align="left" span="1" /><col align="center" span="1" /><col align="center" span="1" /><col align="center" span="1" /><col align="center" span="1" /><col align="center" span="1" /><col align="center" span="1" /><col align="center" span="1" /></colgroup>
+<thead>
+<tr>
+<td align="left" rowspan="1" colspan="1">Region</td>
+<td align="left" rowspan="1" colspan="1">1997</td>
+<td align="left" rowspan="1" colspan="1">2009</td>
+<td align="left" rowspan="1" colspan="1">The mean</td>
+<td align="left" rowspan="1" colspan="1">Region</td>
+<td align="left" rowspan="1" colspan="1">1997</td>
+<td align="left" rowspan="1" colspan="1">2009</td>
+<td align="left" rowspan="1" colspan="1">The mean</td>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left" rowspan="1" colspan="1">Beijing</td>
+<td align="left" rowspan="1" colspan="1">5.6802</td>
+<td align="left" rowspan="1" colspan="1">6.0726</td>
+<td align="left" rowspan="1" colspan="1">5.9115</td>
+<td align="left" rowspan="1" colspan="1">Hunan</td>
+<td align="left" rowspan="1" colspan="1">1.5627</td>
+<td align="left" rowspan="1" colspan="1">3.7365</td>
+<td align="left" rowspan="1" colspan="1">2.2603</td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1">Tianjin</td>
+<td align="left" rowspan="1" colspan="1">6.2658</td>
+<td align="left" rowspan="1" colspan="1">8.9827</td>
+<td align="left" rowspan="1" colspan="1">7.8615</td>
+<td align="left" rowspan="1" colspan="1">Guangdong</td>
+<td align="left" rowspan="1" colspan="1">2.3462</td>
+<td align="left" rowspan="1" colspan="1">4.5819</td>
+<td align="left" rowspan="1" colspan="1">3.2994</td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1">Hebei</td>
+<td align="left" rowspan="1" colspan="1">3.6549</td>
+<td align="left" rowspan="1" colspan="1">7.7655</td>
+<td align="left" rowspan="1" colspan="1">5.1951</td>
+<td align="left" rowspan="1" colspan="1">Guangxi</td>
+<td align="left" rowspan="1" colspan="1">0.9932</td>
+<td align="left" rowspan="1" colspan="1">2.5300</td>
+<td align="left" rowspan="1" colspan="1">1.5772</td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1">Shanxi</td>
+<td align="left" rowspan="1" colspan="1">9.1547</td>
+<td align="left" rowspan="1" colspan="1">16.3462</td>
+<td align="left" rowspan="1" colspan="1">12.4616</td>
+<td align="left" rowspan="1" colspan="1">Hainan</td>
+<td align="left" rowspan="1" colspan="1">0.9161</td>
+<td align="left" rowspan="1" colspan="1">3.0314</td>
+<td align="left" rowspan="1" colspan="1">1.8501</td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1">Inner Mongolia</td>
+<td align="left" rowspan="1" colspan="1">5.0146</td>
+<td align="left" rowspan="1" colspan="1">20.7720</td>
+<td align="left" rowspan="1" colspan="1">9.9975</td>
+<td align="left" rowspan="1" colspan="1">Chongqing</td>
+<td align="left" rowspan="1" colspan="1">1.9780</td>
+<td align="left" rowspan="1" colspan="1">4.6769</td>
+<td align="left" rowspan="1" colspan="1">2.7046</td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1">Liaoning</td>
+<td align="left" rowspan="1" colspan="1">4.9356</td>
+<td align="left" rowspan="1" colspan="1">9.1021</td>
+<td align="left" rowspan="1" colspan="1">6.5527</td>
+<td align="left" rowspan="1" colspan="1">Sichuan</td>
+<td align="left" rowspan="1" colspan="1">1.5908</td>
+<td align="left" rowspan="1" colspan="1">3.6425</td>
+<td align="left" rowspan="1" colspan="1">2.1210</td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1">Jilin</td>
+<td align="left" rowspan="1" colspan="1">4.1991</td>
+<td align="left" rowspan="1" colspan="1">7.0579</td>
+<td align="left" rowspan="1" colspan="1">4.9820</td>
+<td align="left" rowspan="1" colspan="1">Guizhou</td>
+<td align="left" rowspan="1" colspan="1">2.8699</td>
+<td align="left" rowspan="1" colspan="1">5.8755</td>
+<td align="left" rowspan="1" colspan="1">3.9644</td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1">Heilongjiang</td>
+<td align="left" rowspan="1" colspan="1">4.3831</td>
+<td align="left" rowspan="1" colspan="1">7.0566</td>
+<td align="left" rowspan="1" colspan="1">5.0307</td>
+<td align="left" rowspan="1" colspan="1">Yunnan</td>
+<td align="left" rowspan="1" colspan="1">1.6772</td>
+<td align="left" rowspan="1" colspan="1">4.2044</td>
+<td align="left" rowspan="1" colspan="1">2.5374</td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1">Shanghai</td>
+<td align="left" rowspan="1" colspan="1">7.5084</td>
+<td align="left" rowspan="1" colspan="1">10.2739</td>
+<td align="left" rowspan="1" colspan="1">8.8732</td>
+<td align="left" rowspan="1" colspan="1">Shaanxi</td>
+<td align="left" rowspan="1" colspan="1">2.1953</td>
+<td align="left" rowspan="1" colspan="1">5.8814</td>
+<td align="left" rowspan="1" colspan="1">3.3198</td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1">Jiangsu</td>
+<td align="left" rowspan="1" colspan="1">2.7551</td>
+<td align="left" rowspan="1" colspan="1">6.4008</td>
+<td align="left" rowspan="1" colspan="1">4.1941</td>
+<td align="left" rowspan="1" colspan="1">Gansu</td>
+<td align="left" rowspan="1" colspan="1">2.2219</td>
+<td align="left" rowspan="1" colspan="1">4.0027</td>
+<td align="left" rowspan="1" colspan="1">2.9960</td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1">Zhejiang</td>
+<td align="left" rowspan="1" colspan="1">2.5917</td>
+<td align="left" rowspan="1" colspan="1">6.3191</td>
+<td align="left" rowspan="1" colspan="1">4.1964</td>
+<td align="left" rowspan="1" colspan="1">Qinghai</td>
+<td align="left" rowspan="1" colspan="1">2.5514</td>
+<td align="left" rowspan="1" colspan="1">6.1666</td>
+<td align="left" rowspan="1" colspan="1">3.7683</td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1">Anhui</td>
+<td align="left" rowspan="1" colspan="1">1.7384</td>
+<td align="left" rowspan="1" colspan="1">4.2912</td>
+<td align="left" rowspan="1" colspan="1">2.6286</td>
+<td align="left" rowspan="1" colspan="1">Ningxia</td>
+<td align="left" rowspan="1" colspan="1">4.3157</td>
+<td align="left" rowspan="1" colspan="1">15.9706</td>
+<td align="left" rowspan="1" colspan="1">9.4979</td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1">Fujian</td>
+<td align="left" rowspan="1" colspan="1">1.3519</td>
+<td align="left" rowspan="1" colspan="1">4.7129</td>
+<td align="left" rowspan="1" colspan="1">2.7021</td>
+<td align="left" rowspan="1" colspan="1">Xinjiang</td>
+<td align="left" rowspan="1" colspan="1">4.0555</td>
+<td align="left" rowspan="1" colspan="1">8.3971</td>
+<td align="left" rowspan="1" colspan="1">5.2403</td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1">Jiangxi</td>
+<td align="left" rowspan="1" colspan="1">1.3141</td>
+<td align="left" rowspan="1" colspan="1">2.6950</td>
+<td align="left" rowspan="1" colspan="1">1.8814</td>
+<td align="left" rowspan="1" colspan="1">Eastern China</td>
+<td align="left" rowspan="1" colspan="1">3.1543</td>
+<td align="left" rowspan="1" colspan="1">6.8472</td>
+<td align="left" rowspan="1" colspan="1">4.6294</td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1">Shandong</td>
+<td align="left" rowspan="1" colspan="1">2.6473</td>
+<td align="left" rowspan="1" colspan="1">8.4324</td>
+<td align="left" rowspan="1" colspan="1">4.8081</td>
+<td align="left" rowspan="1" colspan="1">Central China</td>
+<td align="left" rowspan="1" colspan="1">2.7278</td>
+<td align="left" rowspan="1" colspan="1">5.7547</td>
+<td align="left" rowspan="1" colspan="1">3.8522</td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1">Henan</td>
+<td align="left" rowspan="1" colspan="1">1.8228</td>
+<td align="left" rowspan="1" colspan="1">5.3546</td>
+<td align="left" rowspan="1" colspan="1">3.2417</td>
+<td align="left" rowspan="1" colspan="1">Western China</td>
+<td align="left" rowspan="1" colspan="1">2.1983</td>
+<td align="left" rowspan="1" colspan="1">5.8068</td>
+<td align="left" rowspan="1" colspan="1">3.3659</td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1">Hubei</td>
+<td align="left" rowspan="1" colspan="1">2.3130</td>
+<td align="left" rowspan="1" colspan="1">4.7763</td>
+<td align="left" rowspan="1" colspan="1">3.1608</td>
+<td align="left" rowspan="1" colspan="1">China</td>
+<td align="left" rowspan="1" colspan="1">2.7361</td>
+<td align="left" rowspan="1" colspan="1">6.2079</td>
+<td align="left" rowspan="1" colspan="1">4.0169</td>
+</tr>
+</tbody>
+</table>
+</alternatives><table-wrap-foot><fn id="nt101"><p> Note: In this study Eastern China comprises 10 provinces, Central China, eight provinces, and Western China, 11 provinces, China, 30 provinces.</p></fn></table-wrap-foot></table-wrap>
+<p><xref ref-type="table" rid="pone-0080888-t001">Table 1</xref> shows that in 1997, Eastern China, Central China, and Western China ranked first, second, and third in the per-capita carbon emissions, whereas in 2009, the ranking changed to Eastern China, Western China, and Central China. In addition, the per-capita carbon emissions in Western China exceeded those of Central China in 2009. In the ranking of the 13-year average per-capita carbon emissions, the top five provinces were Shanxi, Inner Mongolia, Ningxia, Shanghai, and Tianjin. Shanxi and two other provinces that ranked in the top three were affected by their large coal reserves, which led to greater energy consumption. However, this was not the case for Shanghai and Tianjin where the higher level of per-capita carbon emissions were closely related to their higher level of economic development. Finally, Guangxi, Hainan, Jiangxi, Sichuan, Hunan had comparatively low levels, which reflected their economic growth.</p>
+<p><xref ref-type="fig" rid="pone-0080888-g001">Figure 1</xref> shows that from 1997 to 2002, the three main economic regions grew slowly in terms of their per-capita carbon emissions, whereas they developed rapidly after 2002. In other words, 2002 was the turning point that corresponded to an anomalous increase in China’s energy consumption per unit GDP (2002–2005). Between 1997 and 2009, the average growth rates of the per-capita carbon emissions in Eastern China, Central China, and Western China were 6.67%, 6.42%, and 8.43%, respectively, where Western China was highest.</p>
+<fig id="pone-0080888-g001" position="float" orientation="portrait"><object-id pub-id-type="doi">10.1371/journal.pone.0080888.g001</object-id><label>Figure 1</label><caption>
+<title>Changes in the per-capita carbon emissions in the three major economic regions of China.</title>
+</caption><graphic mimetype="image" xlink:href="info:doi/10.1371/journal.pone.0080888.g001" position="float" xlink:type="simple" orientation="portrait" /></fig></sec><sec id="s3">
+<title>LMDI Factor Decomposition of the Regional Per-capita Carbon Emissions</title>
+<sec id="s3a">
+<title>1. LMDI factor decomposition model</title>
+<p>According to the Kaya Identity, the regional carbon emissions can be decomposed as follows:<disp-formula id="pone.0080888.e004"><graphic position="anchor" xlink:href="info:doi/10.1371/journal.pone.0080888.e004" xlink:type="simple" orientation="portrait" /><label>(2)</label></disp-formula></p>
+<p>Where, <inline-formula><inline-graphic xlink:href="info:doi/10.1371/journal.pone.0080888.e005" xlink:type="simple" /></inline-formula> is the regional total carbon emissions, <inline-formula><inline-graphic xlink:href="info:doi/10.1371/journal.pone.0080888.e006" xlink:type="simple" /></inline-formula> is the carbon emissions for the i-th energy, <inline-formula><inline-graphic xlink:href="info:doi/10.1371/journal.pone.0080888.e007" xlink:type="simple" /></inline-formula> is the primary energy consumption, <inline-formula><inline-graphic xlink:href="info:doi/10.1371/journal.pone.0080888.e008" xlink:type="simple" /></inline-formula> is the i-th energy consumption of standard coal, <inline-formula><inline-graphic xlink:href="info:doi/10.1371/journal.pone.0080888.e009" xlink:type="simple" /></inline-formula>is the regional GDP, and <inline-formula><inline-graphic xlink:href="info:doi/10.1371/journal.pone.0080888.e010" xlink:type="simple" /></inline-formula> is the total regional population. Furthermore, the carbon emissions are divided by the population to obtain the per-capita carbon emissions:<disp-formula id="pone.0080888.e011"><graphic position="anchor" xlink:href="info:doi/10.1371/journal.pone.0080888.e011" xlink:type="simple" orientation="portrait" /><label>(3)</label></disp-formula></p>
+<p>Eq. (3) shows that the regional per-capita carbon emissions are affected by four factors:</p>
+<list list-type="roman-lower"><list-item>
+<p>Energy structure (<inline-formula><inline-graphic xlink:href="info:doi/10.1371/journal.pone.0080888.e012" xlink:type="simple" /></inline-formula>), the share of the i-th primary energy relative to the total energy consumption;</p>
+</list-item><list-item>
+<p>Carbon emission coefficient (<inline-formula><inline-graphic xlink:href="info:doi/10.1371/journal.pone.0080888.e013" xlink:type="simple" /></inline-formula>), the carbon emissions of the i-th primary energy consumption;</p>
+</list-item><list-item>
+<p>Energy efficiency (<inline-formula><inline-graphic xlink:href="info:doi/10.1371/journal.pone.0080888.e014" xlink:type="simple" /></inline-formula>), the energy consumption required to generate the GDP per unit, which was measured based on the energy intensity;</p>
+</list-item><list-item>
+<p>Economic development (<inline-formula><inline-graphic xlink:href="info:doi/10.1371/journal.pone.0080888.e015" xlink:type="simple" /></inline-formula>), measured based on the regional per-capita GDP.</p>
+</list-item></list>
+<p>Therefore, the per-capita carbon emissions can be expressed as follows.<disp-formula id="pone.0080888.e016"><graphic position="anchor" xlink:href="info:doi/10.1371/journal.pone.0080888.e016" xlink:type="simple" orientation="portrait" /><label>(4)</label></disp-formula></p>
+<p>The change in the regional per-capita carbon emissions from year h to year t can be expressed as follows.<disp-formula id="pone.0080888.e017"><graphic position="anchor" xlink:href="info:doi/10.1371/journal.pone.0080888.e017" xlink:type="simple" orientation="portrait" /><label>(5)</label></disp-formula></p>
+<p>According to Eq. (5), the change in the regional per-capita carbon emissions can be decomposed into four factors:</p>
+<list list-type="roman-lower"><list-item>
+<p>Energy structure factor: <inline-formula><inline-graphic xlink:href="info:doi/10.1371/journal.pone.0080888.e018" xlink:type="simple" /></inline-formula>;</p>
+</list-item><list-item>
+<p>Carbon emission coefficient factor: <inline-formula><inline-graphic xlink:href="info:doi/10.1371/journal.pone.0080888.e019" xlink:type="simple" /></inline-formula>;</p>
+</list-item><list-item>
+<p>Energy efficiency factor: <inline-formula><inline-graphic xlink:href="info:doi/10.1371/journal.pone.0080888.e020" xlink:type="simple" /></inline-formula>;</p>
+</list-item><list-item>
+<p>Economic development factor: <inline-formula><inline-graphic xlink:href="info:doi/10.1371/journal.pone.0080888.e021" xlink:type="simple" /></inline-formula>.</p>
+</list-item></list>
+<p><inline-formula><inline-graphic xlink:href="info:doi/10.1371/journal.pone.0080888.e022" xlink:type="simple" /></inline-formula>, <inline-formula><inline-graphic xlink:href="info:doi/10.1371/journal.pone.0080888.e023" xlink:type="simple" /></inline-formula>, <inline-formula><inline-graphic xlink:href="info:doi/10.1371/journal.pone.0080888.e024" xlink:type="simple" /></inline-formula>, and <inline-formula><inline-graphic xlink:href="info:doi/10.1371/journal.pone.0080888.e025" xlink:type="simple" /></inline-formula> express the contributions of the changes in each factor as changes in the per-capita carbon emissions, while <inline-formula><inline-graphic xlink:href="info:doi/10.1371/journal.pone.0080888.e026" xlink:type="simple" /></inline-formula> denotes the decomposition residual.</p>
+<p>In this study, we used the LMDI decomposition method introduced by Ang et al. The decomposition factors are expressed as follows.<disp-formula id="pone.0080888.e027"><graphic position="anchor" xlink:href="info:doi/10.1371/journal.pone.0080888.e027" xlink:type="simple" orientation="portrait" /><label>(6)</label></disp-formula></p>
+<p>Where, <inline-formula><inline-graphic xlink:href="info:doi/10.1371/journal.pone.0080888.e028" xlink:type="simple" /></inline-formula></p>
+</sec><sec id="s3b">
+<title>2. The LMDI-based decomposition result of regional per-capita carbon emissions</title>
+<p>In Eq. (2), i represents the type of energy consumption, including total coal, total oil, and natural gas, which are all converted into standard coal. The data of the total coal, total oil, and natural gas for each region were taken from China Energy Statistical Yearbook <xref ref-type="bibr" rid="pone.0080888-CNBSa1">[37]</xref>. In CESY the original data are given for 42 sectors. According to Eq. (6) the change in the per-capita carbon emissions in the provincial area from 1997 to 2009 can be decomposed into the energy structure factor, carbon emissions coefficient factor, energy efficiency factor, and economic development factor. The carbon emissions coefficients based on the IPCC statistics will remain the same during a certain period so the decomposition result for the carbon emissions coefficient is zero. In addition, the decomposition value of each factor is divided by the total variation from 1997 to 2009, so the share of each decomposition factor can be obtained. The results are shown in <xref ref-type="table" rid="pone-0080888-t002">Table 2</xref>. The detailed decomposition results for each region and year can be seen in (Tables S1, S2, S3, S4, S5, S6, S7, S8, S9, S10, S11, S12 in <xref ref-type="supplementary-material" rid="pone.0080888.s001">Appendix S1</xref>).</p>
+<table-wrap id="pone-0080888-t002" position="float" orientation="portrait"><object-id pub-id-type="doi">10.1371/journal.pone.0080888.t002</object-id><label>Table 2</label><caption>
+<title>The LMDI-based decomposition results (1997–2009).</title>
+</caption><alternatives><graphic id="pone-0080888-t002-2" position="float" mimetype="image" xlink:href="info:doi/10.1371/journal.pone.0080888.t002" xlink:type="simple" orientation="portrait" />
+<table><colgroup span="1"><col align="left" span="1" /><col align="center" span="1" /><col align="center" span="1" /><col align="center" span="1" /><col align="center" span="1" /><col align="center" span="1" /><col align="center" span="1" /><col align="center" span="1" /></colgroup>
+<thead>
+<tr>
+<td align="left" rowspan="1" colspan="1">Region</td>
+<td align="left" rowspan="1" colspan="1">Share of the energystructure factor</td>
+<td align="left" rowspan="1" colspan="1">Share of the energyefficiency factor</td>
+<td align="left" rowspan="1" colspan="1">Share of the economic development factor</td>
+<td align="left" rowspan="1" colspan="1">Region</td>
+<td align="left" rowspan="1" colspan="1">Share of the energystructure factor</td>
+<td align="left" rowspan="1" colspan="1">Share of the energyefficiency factor</td>
+<td align="left" rowspan="1" colspan="1">Share of the economic development factor</td>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left" rowspan="1" colspan="1">Beijing</td>
+<td align="left" rowspan="1" colspan="1">−0.3534</td>
+<td align="left" rowspan="1" colspan="1">−8.1311</td>
+<td align="left" rowspan="1" colspan="1">9.4845</td>
+<td align="left" rowspan="1" colspan="1">Hunan</td>
+<td align="left" rowspan="1" colspan="1">−0.0041</td>
+<td align="left" rowspan="1" colspan="1">−0.2980</td>
+<td align="left" rowspan="1" colspan="1">1.3020</td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1">Tianjin</td>
+<td align="left" rowspan="1" colspan="1">−0.0198</td>
+<td align="left" rowspan="1" colspan="1">−2.2543</td>
+<td align="left" rowspan="1" colspan="1">3.2742</td>
+<td align="left" rowspan="1" colspan="1">Guangdong</td>
+<td align="left" rowspan="1" colspan="1">−0.0053</td>
+<td align="left" rowspan="1" colspan="1">−0.5168</td>
+<td align="left" rowspan="1" colspan="1">1.5222</td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1">Hebei</td>
+<td align="left" rowspan="1" colspan="1">0.0003</td>
+<td align="left" rowspan="1" colspan="1">−0.4099</td>
+<td align="left" rowspan="1" colspan="1">1.4095</td>
+<td align="left" rowspan="1" colspan="1">Guangxi</td>
+<td align="left" rowspan="1" colspan="1">−0.0092</td>
+<td align="left" rowspan="1" colspan="1">−0.1147</td>
+<td align="left" rowspan="1" colspan="1">1.1239</td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1">Shanxi</td>
+<td align="left" rowspan="1" colspan="1">−0.0069</td>
+<td align="left" rowspan="1" colspan="1">−1.0079</td>
+<td align="left" rowspan="1" colspan="1">2.0148</td>
+<td align="left" rowspan="1" colspan="1">Hainan</td>
+<td align="left" rowspan="1" colspan="1">−0.0040</td>
+<td align="left" rowspan="1" colspan="1">0.2491</td>
+<td align="left" rowspan="1" colspan="1">0.7549</td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1">Inner Mongolia</td>
+<td align="left" rowspan="1" colspan="1">−0.0038</td>
+<td align="left" rowspan="1" colspan="1">−0.2587</td>
+<td align="left" rowspan="1" colspan="1">1.2626</td>
+<td align="left" rowspan="1" colspan="1">Chongqing</td>
+<td align="left" rowspan="1" colspan="1">−0.0021</td>
+<td align="left" rowspan="1" colspan="1">−0.5020</td>
+<td align="left" rowspan="1" colspan="1">1.5040</td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1">Liaoning</td>
+<td align="left" rowspan="1" colspan="1">−0.0084</td>
+<td align="left" rowspan="1" colspan="1">−0.7521</td>
+<td align="left" rowspan="1" colspan="1">1.7605</td>
+<td align="left" rowspan="1" colspan="1">Sichuan</td>
+<td align="left" rowspan="1" colspan="1">−0.0114</td>
+<td align="left" rowspan="1" colspan="1">−0.3402</td>
+<td align="left" rowspan="1" colspan="1">1.3516</td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1">Jilin</td>
+<td align="left" rowspan="1" colspan="1">−0.0065</td>
+<td align="left" rowspan="1" colspan="1">−1.3563</td>
+<td align="left" rowspan="1" colspan="1">2.3628</td>
+<td align="left" rowspan="1" colspan="1">Guizhou</td>
+<td align="left" rowspan="1" colspan="1">−0.0016</td>
+<td align="left" rowspan="1" colspan="1">−0.6791</td>
+<td align="left" rowspan="1" colspan="1">1.6807</td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1">Heilongjiang</td>
+<td align="left" rowspan="1" colspan="1">0.0041</td>
+<td align="left" rowspan="1" colspan="1">−0.6905</td>
+<td align="left" rowspan="1" colspan="1">1.6865</td>
+<td align="left" rowspan="1" colspan="1">Yunnan</td>
+<td align="left" rowspan="1" colspan="1">−0.0010</td>
+<td align="left" rowspan="1" colspan="1">0.0511</td>
+<td align="left" rowspan="1" colspan="1">0.9499</td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1">Shanghai</td>
+<td align="left" rowspan="1" colspan="1">−0.0764</td>
+<td align="left" rowspan="1" colspan="1">−1.3801</td>
+<td align="left" rowspan="1" colspan="1">2.4564</td>
+<td align="left" rowspan="1" colspan="1">Shaanxi</td>
+<td align="left" rowspan="1" colspan="1">−0.0101</td>
+<td align="left" rowspan="1" colspan="1">−0.4037</td>
+<td align="left" rowspan="1" colspan="1">1.4138</td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1">Jiangsu</td>
+<td align="left" rowspan="1" colspan="1">−0.0033</td>
+<td align="left" rowspan="1" colspan="1">−0.4341</td>
+<td align="left" rowspan="1" colspan="1">1.4374</td>
+<td align="left" rowspan="1" colspan="1">Gansu</td>
+<td align="left" rowspan="1" colspan="1">−0.0061</td>
+<td align="left" rowspan="1" colspan="1">−0.8009</td>
+<td align="left" rowspan="1" colspan="1">1.8070</td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1">Zhejiang</td>
+<td align="left" rowspan="1" colspan="1">−0.0007</td>
+<td align="left" rowspan="1" colspan="1">−0.2353</td>
+<td align="left" rowspan="1" colspan="1">1.2360</td>
+<td align="left" rowspan="1" colspan="1">Qinghai</td>
+<td align="left" rowspan="1" colspan="1">−0.0276</td>
+<td align="left" rowspan="1" colspan="1">−0.2928</td>
+<td align="left" rowspan="1" colspan="1">1.3204</td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1">Anhui</td>
+<td align="left" rowspan="1" colspan="1">0.0020</td>
+<td align="left" rowspan="1" colspan="1">−0.0965</td>
+<td align="left" rowspan="1" colspan="1">1.0945</td>
+<td align="left" rowspan="1" colspan="1">Ningxia</td>
+<td align="left" rowspan="1" colspan="1">0.0005</td>
+<td align="left" rowspan="1" colspan="1">−0.0308</td>
+<td align="left" rowspan="1" colspan="1">1.0303</td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1">Fujian</td>
+<td align="left" rowspan="1" colspan="1">0.0082</td>
+<td align="left" rowspan="1" colspan="1">0.2126</td>
+<td align="left" rowspan="1" colspan="1">0.7793</td>
+<td align="left" rowspan="1" colspan="1">Xinjiang</td>
+<td align="left" rowspan="1" colspan="1">0.0100</td>
+<td align="left" rowspan="1" colspan="1">−0.1746</td>
+<td align="left" rowspan="1" colspan="1">1.1646</td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1">Jiangxi</td>
+<td align="left" rowspan="1" colspan="1">−0.0058</td>
+<td align="left" rowspan="1" colspan="1">−0.5021</td>
+<td align="left" rowspan="1" colspan="1">1.5079</td>
+<td align="left" rowspan="1" colspan="1">Eastern China</td>
+<td align="left" rowspan="1" colspan="1">−0.0067</td>
+<td align="left" rowspan="1" colspan="1">−0.4330</td>
+<td align="left" rowspan="1" colspan="1">1.4397</td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1">Shandong</td>
+<td align="left" rowspan="1" colspan="1">0.0022</td>
+<td align="left" rowspan="1" colspan="1">−0.0563</td>
+<td align="left" rowspan="1" colspan="1">1.0542</td>
+<td align="left" rowspan="1" colspan="1">Central China</td>
+<td align="left" rowspan="1" colspan="1">−0.0027</td>
+<td align="left" rowspan="1" colspan="1">−0.4424</td>
+<td align="left" rowspan="1" colspan="1">1.4451</td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1">Henan</td>
+<td align="left" rowspan="1" colspan="1">0.0013</td>
+<td align="left" rowspan="1" colspan="1">−0.1182</td>
+<td align="left" rowspan="1" colspan="1">1.1169</td>
+<td align="left" rowspan="1" colspan="1">Western China</td>
+<td align="left" rowspan="1" colspan="1">−0.0050</td>
+<td align="left" rowspan="1" colspan="1">−0.2332</td>
+<td align="left" rowspan="1" colspan="1">1.2382</td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1">Hubei</td>
+<td align="left" rowspan="1" colspan="1">−0.0107</td>
+<td align="left" rowspan="1" colspan="1">−0.3646</td>
+<td align="left" rowspan="1" colspan="1">1.3753</td>
+<td align="left" rowspan="1" colspan="1">China</td>
+<td align="left" rowspan="1" colspan="1">−0.0056</td>
+<td align="left" rowspan="1" colspan="1">−0.3885</td>
+<td align="left" rowspan="1" colspan="1">1.3940</td>
+</tr>
+</tbody>
+</table>
+</alternatives></table-wrap>
+<p>The decomposition results show that the most powerful driver of the per-capita carbon emissions in Eastern China, Central China, Western China, and China between 1997 and 2009 was economic development. Undoubtedly, China’s economy grew rapidly between 1997 and 2009, and the per-capita carbon emissions were closely associated with economic development. Thus, the rapid development of the economy led to vigorous growth in the per-capita carbon emissions, which was exemplified by the high average annual growth in China’s per-capita carbon emissions (7.1%) between 1997 and 2009. The main effect of economic growth on the per-capita carbon emissions in Eastern China was similar in Central China, but greater than that in Western China. The inhibitory effect of energy efficiency on the increase in the per-capita carbon emissions was much greater than that of the energy structure. The inhibitory effect of energy efficiency improvement on the per-capita carbon emissions in Eastern China was similar to that in Central China, but larger than that in Western China. Furthermore, the inhibitory effect of the energy structure change on the increased per-capita carbon emissions was very weak and the shares of the energy structure factor in Eastern China, Central China, and Western China were all less than 1%. Indeed, the coal-oriented energy structure in the three economic regions remained unchanged. The proportion of coal was &gt;70% and the only difference was a slight increase in the proportion of natural gas. The micro-adjustment of the energy structure had a limited effect on the change in the per-capita carbon emissions. For these provinces, the effect of economic growth on the per-capita carbon emissions was high in the top five provinces, i.e., Beijing, Tianjin, Shanghai, Jinlin, and Shanxi, which comprised three in Eastern China, one in Western China, and one in Central China. By contrast, the inhibitory effects of energy efficiency were highest in five other provinces: Beijing, Tianjin, Shanghai, Jinlin, and Shanxi, which comprised three in Eastern China, one in Central China, and one in Western China.</p>
+</sec></sec><sec id="s4">
+<title>Panel Co-integration Analysis of the Factors that Affected the Regional Per-capita Carbon Emissions</title>
+<sec id="s4a">
+<title>1. Panel co-integration analysis method</title>
+<p>The LMDI decomposition method was used to decompose the change in the per-capita carbon emissions between 1997 and 2009 into the energy structure factor, the energy efficiency factor, and the economic development factor. We also studied how these three factors affected the per-capita carbon emissions in Eastern China, Central China, and Western China using the panel co-integration test method. The basic idea of co-integration is to verify whether there is a long-term stable combined relationship between unstable variables. If this combination is also a stationary sequence, we can conclude that these variables have achieved co-integration relationship.</p>
+<sec id="s4a1">
+<title>1.1. Panel data unit-root test</title>
+<p>The difficulty of the unit-root test for Panel data is that we consider the heterogeneity of the cross-section, but we also construct a higher potential statistic. The Panel data unit root test method is not unified and the more commonly used methods are the LLC test, Breitung test, IPS test, Fisher ADF, Fisher PP test, and Hadri test. Of these, the LLC test, Breitung test, and Hadri test are the same-root test methods, whereas the IPS test, Fisher ADF, and Fisher PP test are different-root test methods. Moreover, the LLC test, Breitung test, IPS test, Fisher ADF, and Fisher PP test assume that the unit root exists, whereas the Hadri test assumes no unit root.</p>
+</sec><sec id="s4a2">
+<title>1.2. Panel data co-integration test</title>
+<p>There are two ways of performing the co-integration test with Panel data: one based on the maximum likelihood ratio, and another based on the residual. It is well known that the Johansen Fisher test focuses on the maximum likelihood ratio, whereas the Pedroni test and Kao test prefer to use the residual of the E–G two-step method. We used the Pedroni test.</p>
+<p>The Pedroni test is applied mainly to heterogeneous panels and it has seven co-integration statistics: four are interclass statistics (Panel V, Panel Rho, Panel PP, and Panel ADF) and three are group statistics (Group Rho, Group PP, and Group ADF). Panel V, Panel Rho, Panel PP, Group Rho, Group PP Phillips, and Perron statistics use nonparametric tests, whereas Panel ADF and Group ADF use the ADF test. The null hypothesis of the seven statistical tests is no co-integration relationship whereas the alternative hypothesis of the interclass statistic requires a uniform co-integration coefficient for every cross-section unit and the group statistic allows variation.</p>
+</sec></sec><sec id="s4b">
+<title>2. Indicators and Data</title>
+<p>In this study, the energy structure factor (ES) is denoted by the coal share of the total energy consumption, energy efficiency factors (energy intensity, IEC) are expressed as the energy consumption per unit GDP, and the economic development factors (RY) are represented by per-capita GDP. The data were derived from: (1) China Energy Statistical Yearbook published by China’s National Bureau of Statistics (CNBSa) <xref ref-type="bibr" rid="pone.0080888-CNBSa1">[37]</xref>; and (2) China Statistical Yearbook published by China’s National Bureau of Statistics (CNBSb) <xref ref-type="bibr" rid="pone.0080888-CNBSb1">[41]</xref>, which covered 1997 to 2009. The annual data were all converted into 2000 constant prices using the deflator index. Finally, to ensure the stability of the variables, we took the natural logarithm of each variable, which were denoted as LRC, LES, LIEC, and LRY.</p>
+</sec><sec id="s4c">
+<title>3. Co-integration Test Results</title>
+<sec id="s4c1">
+<title>3.1. Panel data unit-root test result</title>
+<p>Using the six methods mentioned above for the panel data unit-root test, unit-root tests of the four variables (LRC, LES, LIEC, and LRY) are carried out for Eastern China, Central China, and Western China. Due to the article length limit, we do not list the unit-root test results for the three economic regions. The Hadri test results were not obvious and in many cases the level value, the first-order difference value, and the second-order difference value were all significant. Therefore, the Hadri test results were excluded. As stated previously by Harris and Tzavalis <xref ref-type="bibr" rid="pone.0080888-Harris1">[42]</xref>, the LLC test is unreliable for a short time span, so we only determined the variables based on the Breitung test, IPS test, Fisher ADF test, and Fisher PP test. The test results for the four variables, i.e., LRC, LES, LIEC, and LRY, were all unstable. This comprehensive analysis showed that the four variables had unit-roots in the three economic regions.</p>
+</sec><sec id="s4c2">
+<title>3.2. Panel data co-integration test results</title>
+<p>The unit-root test results showed that the four variables, i.e., the regional per-capita carbon emissions, energy structure, energy efficiency, and economic development, were not stable. Therefore, we tested whether the four variables had a co-integration relationship prior to the panel data regression, which would have caused spurious regressions. In this study, we tested whether there was a co-integration relationship between the four variables using the seven statistics included in the Pedroni test methods. The test results are shown in <xref ref-type="table" rid="pone-0080888-t003">Table 3</xref>.</p>
+<table-wrap id="pone-0080888-t003" position="float" orientation="portrait"><object-id pub-id-type="doi">10.1371/journal.pone.0080888.t003</object-id><label>Table 3</label><caption>
+<title>Pedroni co-integration test results for LRC, LES, LIEC, and LRY.</title>
+</caption><alternatives><graphic id="pone-0080888-t003-3" position="float" mimetype="image" xlink:href="info:doi/10.1371/journal.pone.0080888.t003" xlink:type="simple" orientation="portrait" />
+<table><colgroup span="1"><col align="left" span="1" /><col align="center" span="1" /><col align="center" span="1" /><col align="center" span="1" /><col align="center" span="1" /><col align="center" span="1" /><col align="center" span="1" /><col align="center" span="1" /></colgroup>
+<thead>
+<tr>
+<td align="left" rowspan="1" colspan="1">Statistics</td>
+<td align="left" rowspan="1" colspan="1">Panel V</td>
+<td align="left" rowspan="1" colspan="1">Panel Rho</td>
+<td align="left" rowspan="1" colspan="1">Panel PP</td>
+<td align="left" rowspan="1" colspan="1">Panel ADF</td>
+<td align="left" rowspan="1" colspan="1">Group Rho</td>
+<td align="left" rowspan="1" colspan="1">Group PP</td>
+<td align="left" rowspan="1" colspan="1">Group ADF</td>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left" rowspan="1" colspan="1">Eastern China</td>
+<td align="left" rowspan="1" colspan="1">−1.436201 (0.9245)</td>
+<td align="left" rowspan="1" colspan="1">0.448341 (0.6730)</td>
+<td align="left" rowspan="1" colspan="1">−12.32185<xref ref-type="table-fn" rid="nt102">a</xref> (0.0000)</td>
+<td align="left" rowspan="1" colspan="1">−5.958716<xref ref-type="table-fn" rid="nt102">a</xref> (0.0000)</td>
+<td align="left" rowspan="1" colspan="1">2.321724 (0.9899)</td>
+<td align="left" rowspan="1" colspan="1">−7.967557<xref ref-type="table-fn" rid="nt102">a</xref> (0.0000)</td>
+<td align="left" rowspan="1" colspan="1">−3.468141<xref ref-type="table-fn" rid="nt102">a</xref> (0.0003)</td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1">Central China</td>
+<td align="left" rowspan="1" colspan="1">−3.290785 (0.9995)</td>
+<td align="left" rowspan="1" colspan="1">2.185328 (0.9856)</td>
+<td align="left" rowspan="1" colspan="1">−10.42988<xref ref-type="table-fn" rid="nt102">a</xref> (0.0000)</td>
+<td align="left" rowspan="1" colspan="1">−2.585709<xref ref-type="table-fn" rid="nt102">a</xref> (0.0049)</td>
+<td align="left" rowspan="1" colspan="1">2.965013 (0.9985)</td>
+<td align="left" rowspan="1" colspan="1">−13.74530<xref ref-type="table-fn" rid="nt102">a</xref> (0.0000)</td>
+<td align="left" rowspan="1" colspan="1">−2.191878<xref ref-type="table-fn" rid="nt103">b</xref> (0.0142)</td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1">Western China</td>
+<td align="left" rowspan="1" colspan="1">−1.671686 (0.9527)</td>
+<td align="left" rowspan="1" colspan="1">0.589782 (0.7223)</td>
+<td align="left" rowspan="1" colspan="1">−9.058999<xref ref-type="table-fn" rid="nt102">a</xref> (0.0000)</td>
+<td align="left" rowspan="1" colspan="1">−2.495073<xref ref-type="table-fn" rid="nt102">a</xref> (0.0063)</td>
+<td align="left" rowspan="1" colspan="1">1.874075 (0.9695)</td>
+<td align="left" rowspan="1" colspan="1">−16.11765<xref ref-type="table-fn" rid="nt102">a</xref> (0.0000)</td>
+<td align="left" rowspan="1" colspan="1">−2.276763<xref ref-type="table-fn" rid="nt103">b</xref> (0.0114)</td>
+</tr>
+</tbody>
+</table>
+</alternatives><table-wrap-foot><fn id="nt102"><p>% level.<sup>a</sup> Denotes significance at the 1</p></fn><fn id="nt103"><p>% level.<sup>b</sup> Denotes significance at the 5</p></fn></table-wrap-foot></table-wrap>
+<p>Like test results mentioned by Pedroni <xref ref-type="bibr" rid="pone.0080888-Pedroni1">[43]</xref>, the Panel ADF and Group ADF test results were the best, Panel V and Group Rho are the worst, while the rest are intermediate. When the test conclusions were inconsistent, we followed this order to determine the co-integration relationship. According to this criterion, the Panel ADF, Group ADF, Panel PP, and Group PP tests rejected the original assumptions that there was no co-integration relationship at the 1% significance level for Eastern China. The Panel ADF, Panel PP, and Group PP tests were significant at 1% significance level and the Group ADF test at the 5% significance level, so we rejected the original assumption that there was no co-integration relationship for Central China. The Panel ADF, Panel PP, and Group PP tests are significant at the 1% significance level and the Group ADF test at the 5% significance level, so we rejected the original hypothesis that there was no co-integration in Western China. This proved that the four variables, i.e., LIEC, LPTI, LSS, and LFTD, had co-integration relationships in the three regions.</p>
+</sec><sec id="s4c3">
+<title>3.3. Estimation model</title>
+<p>The co-integration test showed that there were co-integration relationships between the per-capita carbon emissions and the energy structure, energy efficiency, and economic development in each economic region. The long-term equilibrium model of the regional per-capita carbon emissions and its factors is as follows.<disp-formula id="pone.0080888.e029"><graphic position="anchor" xlink:href="info:doi/10.1371/journal.pone.0080888.e029" xlink:type="simple" orientation="portrait" /><label>(7)</label></disp-formula>where, j = 1, 2, 3, respectively, represent Eastern China, Central China, and Western China; i represents the cross-section of individuals; and t represents time. Thus, the regional estimation results were as follows.</p>
+<p>Eastern China:<disp-formula id="pone.0080888.e030"><graphic position="anchor" xlink:href="info:doi/10.1371/journal.pone.0080888.e030" xlink:type="simple" orientation="portrait" /><label>(8)</label></disp-formula></p>
+<p>Central China:<disp-formula id="pone.0080888.e031"><graphic position="anchor" xlink:href="info:doi/10.1371/journal.pone.0080888.e031" xlink:type="simple" orientation="portrait" /><label>(9)</label></disp-formula></p>
+<p>Western China:<disp-formula id="pone.0080888.e032"><graphic position="anchor" xlink:href="info:doi/10.1371/journal.pone.0080888.e032" xlink:type="simple" orientation="portrait" /><label>(10)</label></disp-formula></p>
+<p>Initially, for the energy structure elasticity involved with regional per-capita carbon emissions: Eastern China = 0.615, Central China = 0.767, and Western China = 0.765. Thus, Central China ranked first, Western China second, and Eastern China third. After considering the energy efficiency elasticity, the results for Eastern China, Central China, and Western China were 0.867, 0.983, and 0.971 respectively, with the highest in Central China, the second in Western China, and the lowest in Eastern China. Finally, after considering the economic development elasticity, the results were 0.974 in Eastern China, 0.998 in Central China, and 1.017 in Western China, i.e., Western China, Central China, and Eastern China in descending order.</p>
+<p>The energy structure is characterized as the coal proportion in the overall energy consumption and coal is the highest of all the carbon emission coefficients of primary energy, so the energy structure elasticities of the per-capita carbon emissions were positive in Eastern China, Central China, and Western China. As a result, the energy structures in Eastern China, Central China, and Western China were 68.0%, 89.5%, and 76.4%, respectively, in 1997, but 59.6%, 83.8%, and 76.5%, in 2009. The energy structure and energy structure elasticity of the per-capita carbon emissions shared identical sequences in Eastern China, Central China, and Western China so the higher coal reserves and production in Central China and Western China led to a higher coal proportion of the energy consumption and a rapid increase in carbon emissions and per-capita carbon emissions.</p>
+<p>In conclusion, a higher energy intensity (energy consumption per unit GDP) was linked to higher per-capita carbon emissions, which agreed with our theoretical expectations. The energy intensity was 1.475, 2.044, and 2.439 in Eastern China, Central China, and Western China, respectively, as tons of standard coal per million yuan in 1997, which changed to be 1.149, 1.543, and 1.855 in 2009, i.e., decreases of 22.1%, 24.5%, 23.9%, respectively. The extent of the reduction kept pace with the energy efficiency elasticity of the per-capita carbon emissions in the three regions.</p>
+<p>The per-capita GDPs in Eastern China, Central China, and Western China were 9,284 yuan, 4,957 yuan, and 3,883 yuan, respectively, in 1997, which soared to 28,678 yuan, 14,639 yuan, and 13,038 yuan in 2009, with an annual growth rate of the per-capita GDP from 1997 to 2009 of 9.9%, 9.4%, and 10.6%. In general, a higher economic development level led to higher individual consumption levels and more carbon emissions were generated. Western China’s per-capita GDP grew at the highest rate from 1997 to 2009. Due to the low level of economic development in Western China, its per-capita carbon emissions level ranked last among the three regions in 1997, whereas they exceeded those of Central China in 2009. Therefore, from 1997 to 2009, the economic development elasticity of the regional per-capita carbon emissions was highest in Western China but lowest in Eastern China, which experienced excessive per-capita carbon emissions accompanied by rapid economic development.</p>
+</sec><sec id="s4c4">
+<title>3.4. The Short-term Factors that Affected the Regional Per-capita Carbon Emissions (Error Correction Model)</title>
+<p>Traditionally, an econometric model is specified based on a particular economic theory or the recognition of economic behaviors, which help to clarify the theoretical relationship between the model variables. However, the co-integration and error correction model determined the variables and the relationships between them by referring to specific relationships derived from the data with respect to economic variables. We used the Engle-Granger two-step approach to establish the panel error correction model and to examine the short-term dynamics of changes in China’s per-capita carbon emissions. The model was as follows.<disp-formula id="pone.0080888.e033"><graphic position="anchor" xlink:href="info:doi/10.1371/journal.pone.0080888.e033" xlink:type="simple" orientation="portrait" /><label>(11)</label></disp-formula></p>
+<p>Variations in the regional per-capita carbon emissions can be divided into long-term equilibrium and short-term fluctuations. The error correction term in the model reflects the intensity of adjusting the per-capita carbon emissions that deviate from the long-terms equilibrium. Eq. (11) was used to estimate the regional error correction models, as shown in <xref ref-type="table" rid="pone-0080888-t004">Table 4</xref>.</p>
+<table-wrap id="pone-0080888-t004" position="float" orientation="portrait"><object-id pub-id-type="doi">10.1371/journal.pone.0080888.t004</object-id><label>Table 4</label><caption>
+<title>Results of the regional error correction model.</title>
+</caption><alternatives><graphic id="pone-0080888-t004-4" position="float" mimetype="image" xlink:href="info:doi/10.1371/journal.pone.0080888.t004" xlink:type="simple" orientation="portrait" />
+<table><colgroup span="1"><col align="left" span="1" /><col align="center" span="1" /><col align="center" span="1" /><col align="center" span="1" /></colgroup>
+<thead>
+<tr>
+<td align="left" rowspan="1" colspan="1">Variable</td>
+<td align="left" rowspan="1" colspan="1">Eastern China</td>
+<td align="left" rowspan="1" colspan="1">Central China</td>
+<td align="left" rowspan="1" colspan="1">Western China</td>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left" rowspan="1" colspan="1">Δ<italic>Ln(ES)</italic></td>
+<td align="left" rowspan="1" colspan="1">0.730269<xref ref-type="table-fn" rid="nt104">a</xref> (0.0000)</td>
+<td align="left" rowspan="1" colspan="1">0.788592<xref ref-type="table-fn" rid="nt104">a</xref> (0.0000)</td>
+<td align="left" rowspan="1" colspan="1">0.849344<xref ref-type="table-fn" rid="nt104">a</xref> (0.0000)</td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1">Δ<italic>Ln(IEC)</italic></td>
+<td align="left" rowspan="1" colspan="1">0.830839<xref ref-type="table-fn" rid="nt104">a</xref> (0.0000)</td>
+<td align="left" rowspan="1" colspan="1">0.902072<xref ref-type="table-fn" rid="nt104">a</xref> (0.0000)</td>
+<td align="left" rowspan="1" colspan="1">0.903627<xref ref-type="table-fn" rid="nt104">a</xref> (0.0000)</td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1">Δ<italic>Ln(RY)</italic></td>
+<td align="left" rowspan="1" colspan="1">0.762260<xref ref-type="table-fn" rid="nt104">a</xref> (0.0000)</td>
+<td align="left" rowspan="1" colspan="1">0.943951<xref ref-type="table-fn" rid="nt104">a</xref> (0.0000)</td>
+<td align="left" rowspan="1" colspan="1">0.955296<xref ref-type="table-fn" rid="nt104">a</xref> (0.0000)</td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1"><italic>ECM</italic>(−1)</td>
+<td align="left" rowspan="1" colspan="1">−0.032685 (0.2261)</td>
+<td align="left" rowspan="1" colspan="1">−0.088058<xref ref-type="table-fn" rid="nt105">b</xref> (0.0237)</td>
+<td align="left" rowspan="1" colspan="1">−0.170012<xref ref-type="table-fn" rid="nt104">a</xref> (0.0002)</td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1"><italic>Adj-R<sup>2</sup></italic></td>
+<td align="left" rowspan="1" colspan="1">0.750556</td>
+<td align="left" rowspan="1" colspan="1">0.924535</td>
+<td align="left" rowspan="1" colspan="1">0.919809</td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1"><italic>F</italic></td>
+<td align="left" rowspan="1" colspan="1">99.54208</td>
+<td align="left" rowspan="1" colspan="1">291.9669</td>
+<td align="left" rowspan="1" colspan="1">376.6519</td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1"><italic>DW</italic></td>
+<td align="left" rowspan="1" colspan="1">2.708426</td>
+<td align="left" rowspan="1" colspan="1">2.601132</td>
+<td align="left" rowspan="1" colspan="1">2.387377</td>
+</tr>
+</tbody>
+</table>
+</alternatives><table-wrap-foot><fn id="nt104"><p>% level.<sup>a</sup> Denotes significance at the 1</p></fn><fn id="nt105"><p>% level.<sup>b</sup> Denotes significance at the 5</p></fn></table-wrap-foot></table-wrap>
+<p>The error correction model demonstrates that in the short-term the effects of the regional energy structure, energy efficiency (energy intensity), and economic development on the per-capita carbon emissions Western China, Central China, and Eastern China ranked first, second, and third, respectively. In addition, each region’s error correction model (ECM) terms showed that the theoretical assumptions matched the reality. The ECM coefficients for Eastern China, Central China, and Western China were –0.0327, –0.0881, and –0.1700, respectively. Of these, Western China adjusted to the balanced state at the fastest rate, followed by Central China and Eastern China.</p>
+</sec></sec></sec><sec id="s5">
+<title>Conclusion and Suggestions</title>
+<p>The average annual growth of China’s per-capita carbon emissions was 7.1% between 1997 and 2009. In 1997, Eastern China, Central China, and Western China ranked first, second, and third in the per-capita carbon emissions, while in 2009 the ranking changed to Eastern China, Western China, and Central China, where Western China exceeded Central China. The LMDI decomposition results showed that economic growth stimulated the increase of per-capita carbon emissions in Eastern China, Central China, and Western China between 1997 and 2009. It is notable that the effects of economic growth on the per-capita carbon emissions in Eastern China were similar in Central China, but greater in Western China. In addition, the inhibitory effects of energy efficiency on the increased per-capita carbon emissions were much higher than those of the energy structure. Furthermore, the inhibitory effect of improved energy efficiency on the per-capita carbon emissions in Eastern China were similar to that in Central China, but larger than that in Western China. The inhibitory effect of the energy structure’s change on the increased per-capita carbon emissions was very weak, i.e., &lt;1% in Eastern China, Central China, and Western China. The analysis of the factors that affected the regional per-capita carbon emissions using a co-integration test indicated that for the energy structure elasticity involved with the regional per-capita carbon emissions, Central China ranked first, followed by Western China and Eastern China. After considering the energy efficiency elasticity, Central China was highest, followed by Western China and Eastern China. Finally, when the economic development elasticity was considered, Western China was highest, followed by Central China and Eastern China.</p>
+<p>The LMDI decomposition results showed that the continued growth of GDP per capita was the dominant factor that led to the growth of per-capita carbon emissions, while the stimulating effect of economic development on the carbon emissions per-capita in Central China was greater than that in Eastern China, and that in Eastern China was also greater than that in Western China. As a developing country, the growth of the economic development and GDP per-capita is necessary to meet the national needs and development requirements, and energy consumption is the basic input that maintains the normal operation of the economic system. Thus, an increased pressure on the environment is inevitable. China’s current stage of development means that the continued growth of China’s carbon emissions and per-capita carbon emissions are unavoidable in the future for a long period of time. Furthermore, according to the current international division of labor, China produces many high energy-consuming products for developed countries, which makes it more difficult for China to access the peak phase of carbon emissions than developed countries. The results of the LMDI decomposition and co-integration analysis showed that economic development was the most important factor that affects the growth of per- capita carbon emissions. However, economic growth will not lead to a reduction in carbon emissions immediately, and it need not lead to the growth of total carbon emissions. Thus, it is possible to slow the growth in the per- capita carbon emissions through government-led emission reduction measures, which can control the carbon emissions growth during the economic development process.</p>
+<p>First, it is necessary to strengthen efforts to optimize the industrial structure and promote the development of low-carbon industries. Based on administrative and economic measures, governments can facilitate resource integration in the high energy-consuming heavy industry to limit the development of high-carbon industry. There should be an aim to develop tertiary industry because the energy intensity per GDP in the tertiary industry is less than one-quarter of that in the secondary industry. In 2012, China’s tertiary industry accounted for 44.6% of the total, whereas it comprised two-thirds of the total in developed countries, so the development of China’s tertiary industry still has great potential. There should be a focus on actively developing a modern service industry and high-tech industries, and using financial measures to support the development of the information industry, eco-industries, new energy development, and other green industries.</p>
+<p>Second, there is a need to fundamentally change the high input, high energy consumption, high pollution, and low efficiency growth pattern, and adopt an intensive growth mode instead of an extensive one. The LMDI decomposition results showed that one-quarter of the per-capita carbon emissions growth caused by economic development was offset by an increase in the energy efficiency, so energy savings and energy efficiency improvement are the most effective ways to reduce emissions. According to a study of China’s Energy Development Strategy and Policy Research Group, the energy consumption per unit product in energy-intensive industries was 21% higher than that of the world’s advanced level, which shows that there is still great potential for China to slow the growth of per-capita carbon emissions by continuing to improve the energy efficiency and reducing the carbon emissions per unit of GDP in the future. China should actively encourage the development and application of low carbon technologies, transform the steel, cement, and other high-carbon industries using high-tech approaches, promote industrial innovation and upgrading within the industry, and focus on the promotion and application of advanced emission reduction technologies. China can also strengthen international cooperation, introduce advanced energy-saving technologies such as clean coal technology from developed countries and promote them, as well as encouraging the use of the Clean Development Mechanism (CDM), carbon capture, and storage technology (CSS) in related units. Moreover, China can strengthen energy management to improve energy efficiency in many ways. For example, relevant laws and regulations could be established and improved to promote the development of a low-carbon economy, by setting enforced carbon intensity standards for various industries and by encouraging families to adopt low-carbon lifestyles by economic incentives.</p>
+<p>Third, there is a need to optimize the energy consumption structure. The decomposition results showed that the energy structure could limitedly slow the growth of per-capita carbon emissions, but this is because the coal-dominated energy consumption structure has not changed significantly in the last decade. China’s coal-based energy consumption structure means that it is difficult to change rapidly. However, it is China’s long-term aim to improve the energy structure by actively increasing oil and gas imports, developing new energy and renewable energy, and gradually reducing the weighting of coal in the overall energy consumption. China has abundant hydropower, wind, and solar energy, but the main factors that restrict renewable energy development at present are the cost and technology. Therefore, governments need to respond by supporting new energy through loans, taxes, and other measures. The growth of per-capita carbon emissions can be slowed by the establishment of a new “low carbon” or even “zero carbon” energy system by developing and utilizing new energy and renewable energy sources.</p>
+<p>Finally, our results show that the current status and the trends in the per-capita carbon emissions in each region varied dramatically. Thus, efforts to narrow the gap in regional per-capita carbon emissions will help to lower their growth rate. To achieve the energy-saving objectives of China the circulation barriers should be eliminated, and low-carbon technologies could be shared within regions and resources to flow freely, thereby ensuring their optimal allocation.</p>
+</sec><sec id="s6">
+<title>Supporting Information</title>
+<supplementary-material id="pone.0080888.s001" mimetype="application/msword" xlink:href="info:doi/10.1371/journal.pone.0080888.s001" position="float" xlink:type="simple" orientation="portrait"><label>Appendix S1</label><caption>
+<p><bold>Supporting tables.</bold> Table S1, The LMDI-based decomposition results (1997–1998). Table S2, The LMDI-based decomposition results (1998–1999). Table S3, The LMDI-based decomposition results (1999–2000). Table S4, The LMDI-based decomposition results (2000–2001). Table S5, The LMDI-based decomposition results (2001–2002). Table S6, The LMDI-based decomposition results (2002–2003). Table S7, The LMDI-based decomposition results (2003–2004). Table S8, The LMDI-based decomposition results (2004–2005). Table S9, The LMDI-based decomposition results (2005–2006). Table S10, The LMDI-based decomposition results (2006–2007). Table S11, The LMDI-based decomposition results (2007–2008). Table S12, The LMDI-based decomposition results (2008–2009).</p>
+<p>(DOC)</p>
+</caption></supplementary-material></sec></body>
+<back>
+<ack>
+<p>The authors also would like to thank the anonymous reviewers for their helpful suggestions and corrections on the earlier draft of this paper, and upon which the content has been improved.</p>
+</ack>
+<ref-list>
+<title>References</title>
+<ref id="pone.0080888-Mielnik1"><label>1</label>
+<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Mielnik</surname><given-names>O</given-names></name>, <name name-style="western"><surname>Goldemberg</surname><given-names>J</given-names></name> (<year>1999</year>) <article-title>The evolution of the “carbonization index” in developing countries</article-title>. <source>Energy Policy</source> <volume>27</volume>: <fpage>307</fpage>–<lpage>308</lpage>.</mixed-citation>
+</ref>
+<ref id="pone.0080888-Ang1"><label>2</label>
+<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Ang</surname><given-names>BW</given-names></name> (<year>1999</year>) <article-title>Is the Energy intensity a less useful indicator than the carbon factor in the study of climate change</article-title>. <source>Energy Policy</source> <volume>27</volume>: <fpage>943</fpage>–<lpage>946</lpage>.</mixed-citation>
+</ref>
+<ref id="pone.0080888-Zhang1"><label>3</label>
+<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Zhang</surname><given-names>ZQ</given-names></name>, <name name-style="western"><surname>Qu</surname><given-names>JS</given-names></name>, <name name-style="western"><surname>Zeng</surname><given-names>JJ</given-names></name> (<year>2008</year>) <article-title>A quantitative comparison and analysis on the assessment indicators of greenhouse gases emission</article-title>. <source>Journal of Geographical Sciences</source> <volume>18</volume>: <fpage>397</fpage>–<lpage>399</lpage>.</mixed-citation>
+</ref>
+<ref id="pone.0080888-Sun1"><label>4</label>
+<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Sun</surname><given-names>JW</given-names></name> (<year>2005</year>) <article-title>The decrease of CO<sub>2</sub> emission intensity is decarbonization at national and global levels</article-title>. <source>Energy Policy</source> <volume>33</volume>: <fpage>975</fpage>–<lpage>978</lpage>.</mixed-citation>
+</ref>
+<ref id="pone.0080888-Lin1"><label>5</label>
+<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Lin</surname><given-names>BQ</given-names></name>, <name name-style="western"><surname>Li</surname><given-names>XH</given-names></name> (<year>2011</year>) <article-title>The effect of carbon tax on per capita CO<sub>2</sub> emissions</article-title>. <source>Energy Policy</source> <volume>39</volume>: <fpage>5137</fpage>–<lpage>5146</lpage>.</mixed-citation>
+</ref>
+<ref id="pone.0080888-Jorgenson1"><label>6</label>
+<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Jorgenson</surname><given-names>AK</given-names></name>, <name name-style="western"><surname>Clark</surname><given-names>B</given-names></name> (<year>2013</year>) <article-title>The relationship between national-level carbon dioxide emissions and population size: an assessment of regional and temporal variation, 1960–2005</article-title>. <source>PloS one</source> <volume>8</volume>: <fpage>e57107</fpage>.</mixed-citation>
+</ref>
+<ref id="pone.0080888-Lanne1"><label>7</label>
+<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Lanne</surname><given-names>M</given-names></name>, <name name-style="western"><surname>Liski</surname><given-names>M</given-names></name> (<year>2004</year>) <article-title>Trends and breaks in per-capita carbon dioxide emissions, 1870–2028</article-title>. <source>Energy Journal</source> <volume>25</volume>: <fpage>41</fpage>–<lpage>65</lpage>.</mixed-citation>
+</ref>
+<ref id="pone.0080888-Wang1"><label>8</label>
+<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Wang</surname><given-names>QQ</given-names></name>, <name name-style="western"><surname>Huang</surname><given-names>XJ</given-names></name>, <name name-style="western"><surname>Chen</surname><given-names>ZG</given-names></name>, <name name-style="western"><surname>Tan</surname><given-names>D</given-names></name>, <name name-style="western"><surname>Chuai</surname><given-names>XW</given-names></name> (<year>2009</year>) <article-title>Movement of the gravity of carbon emissions per capita and analysis of causes</article-title>. <source>Journal of Natural Resources</source> <volume>24</volume>: <fpage>833</fpage>–<lpage>841</lpage> (In Chinese with English abstract.)..</mixed-citation>
+</ref>
+<ref id="pone.0080888-Tian1"><label>9</label>
+<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Tian</surname><given-names>LX</given-names></name>, <name name-style="western"><surname>Zhang</surname><given-names>BB</given-names></name> (<year>2011</year>) <article-title>Factor decomposition analysis of carbon emissions change in China</article-title>. <source>China Population, Resources and Environment</source> <volume>21</volume>: <fpage>1</fpage>–<lpage>7</lpage> (In Chinese with English abstract.)..</mixed-citation>
+</ref>
+<ref id="pone.0080888-Rajaratnam1"><label>10</label>
+<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Rajaratnam</surname><given-names>S</given-names></name>, <name name-style="western"><surname>Kanthi</surname><given-names>P</given-names></name> (<year>2010</year>) <article-title>Is there a cointegrating relationship between Australia’s fossil-fuel based carbon dioxide emissions per capita and her GDP per capita?</article-title>. <source>Journal International Journal of Oil, Gas and Coal Technology</source> <volume>3</volume>: <fpage>1753</fpage>–<lpage>3309</lpage>.</mixed-citation>
+</ref>
+<ref id="pone.0080888-Lee1"><label>11</label>
+<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Lee</surname><given-names>CC</given-names></name>, <name name-style="western"><surname>Chang</surname><given-names>CP</given-names></name> (<year>2008</year>) <article-title>New evidence on the convergence of per capita carbon dioxide emissions from panel seemingly unrelated regressions augmented Dickey–Fuller tests</article-title>. <source>Energy</source> <volume>33</volume>: <fpage>1468</fpage>–<lpage>1475</lpage>.</mixed-citation>
+</ref>
+<ref id="pone.0080888-Zaim1"><label>12</label>
+<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Zaim</surname><given-names>O</given-names></name>, <name name-style="western"><surname>Taskin</surname><given-names>F</given-names></name> (<year>2000</year>) <article-title>Environmental efficiency in carbon dioxide emissions in the OECD: a non-parametric approach</article-title>. <source>Journal of Environmental Management</source> <volume>58</volume>: <fpage>95</fpage>–<lpage>107</lpage>.</mixed-citation>
+</ref>
+<ref id="pone.0080888-Zofo1"><label>13</label>
+<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Zofío</surname><given-names>JL</given-names></name>, <name name-style="western"><surname>Prieto</surname><given-names>AM</given-names></name> (<year>2001</year>) <article-title>Environmental efficiency and regulatory standards: the case of CO<sub>2</sub> emissions from OECD industries</article-title>. <source>Resource and Energy Economics</source> <volume>23</volume>: <fpage>63</fpage>–<lpage>83</lpage>.</mixed-citation>
+</ref>
+<ref id="pone.0080888-Zhou1"><label>14</label>
+<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Zhou</surname><given-names>P</given-names></name>, <name name-style="western"><surname>Ang</surname><given-names>BW</given-names></name>, <name name-style="western"><surname>Poh</surname><given-names>KL</given-names></name> (<year>2006</year>) <article-title>Slacks-based efficiency measures for modeling environmental performance</article-title>. <source>Ecological Economics</source> <volume>60</volume>: <fpage>111</fpage>–<lpage>118</lpage>.</mixed-citation>
+</ref>
+<ref id="pone.0080888-Lozano1"><label>15</label>
+<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Lozano</surname><given-names>S</given-names></name>, <name name-style="western"><surname>Gutiérrez</surname><given-names>E</given-names></name> (<year>2008</year>) <article-title>Non-parametric frontier approach to modelling the relationships among population, GDP, energy consumption and CO<sub>2</sub> emissions</article-title>. <source>Ecological Economics</source> <volume>66</volume>: <fpage>687</fpage>–<lpage>699</lpage>.</mixed-citation>
+</ref>
+<ref id="pone.0080888-Zhou2"><label>16</label>
+<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Zhou</surname><given-names>P</given-names></name>, <name name-style="western"><surname>Ang</surname><given-names>BW</given-names></name>, <name name-style="western"><surname>Han</surname><given-names>JY</given-names></name> (<year>2010</year>) <article-title>Total factor carbon emission performance: a Malmquist index analysis</article-title>. <source>Energy Economics</source> <volume>32</volume>: <fpage>194</fpage>–<lpage>291</lpage>.</mixed-citation>
+</ref>
+<ref id="pone.0080888-Wang2"><label>17</label>
+<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Wang</surname><given-names>QW</given-names></name>, <name name-style="western"><surname>Zhou</surname><given-names>P</given-names></name>, <name name-style="western"><surname>Zhou</surname><given-names>DQ</given-names></name> (<year>2012</year>) <article-title>Efficiency measurement with carbon dioxide emissions: the case of China</article-title>. <source>Applied Energy</source> <volume>90</volume>: <fpage>161</fpage>–<lpage>166</lpage>.</mixed-citation>
+</ref>
+<ref id="pone.0080888-Fan1"><label>18</label>
+<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Fan</surname><given-names>Y</given-names></name>, <name name-style="western"><surname>Liu</surname><given-names>LC</given-names></name>, <name name-style="western"><surname>Wu</surname><given-names>G</given-names></name>, <name name-style="western"><surname>Tsai</surname><given-names>HT</given-names></name>, <name name-style="western"><surname>Wei</surname><given-names>YM</given-names></name> (<year>2007</year>) <article-title>Changes in carbon intensity in China: Empirical findings from 1980–2003</article-title>. <source>Ecological Economics</source> <volume>62</volume>: <fpage>683</fpage>–<lpage>691</lpage>.</mixed-citation>
+</ref>
+<ref id="pone.0080888-Sun2"><label>19</label>
+<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Sun</surname><given-names>JW</given-names></name> (<year>1998</year>) <article-title>Accounting for energy use in China, 1980–94</article-title>. <source>Energy</source> <volume>23</volume>: <fpage>835</fpage>–<lpage>849</lpage>.</mixed-citation>
+</ref>
+<ref id="pone.0080888-Zhang2"><label>20</label>
+<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Zhang</surname><given-names>M</given-names></name>, <name name-style="western"><surname>Mu</surname><given-names>HL</given-names></name>, <name name-style="western"><surname>Ning</surname><given-names>YD</given-names></name> (<year>2009</year>) <article-title>Accounting for energy-related CO<sub>2</sub> emission In China, 1991–2006</article-title>. <source>Energy Policy</source> <volume>37</volume>: <fpage>767</fpage>–<lpage>773</lpage>.</mixed-citation>
+</ref>
+<ref id="pone.0080888-Ang2"><label>21</label>
+<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Ang</surname><given-names>BW</given-names></name>, <name name-style="western"><surname>Zhang</surname><given-names>FQ</given-names></name>, <name name-style="western"><surname>Choi</surname><given-names>KH</given-names></name> (<year>1998</year>) <article-title>Factorizing changes in energy and environmental indicators through decomposition</article-title>. <source>Energy</source> <volume>23</volume>: <fpage>489</fpage>–<lpage>495</lpage>.</mixed-citation>
+</ref>
+<ref id="pone.0080888-Chunbo1"><label>22</label>
+<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Chunbo</surname><given-names>M</given-names></name>, <name name-style="western"><surname>David</surname><given-names>IS</given-names></name> (<year>2008</year>) <article-title>China’s changing energy intensity trend: A decomposition analysis</article-title>. <source>Energy Economics</source> <volume>30</volume>: <fpage>1037</fpage>–<lpage>1053</lpage>.</mixed-citation>
+</ref>
+<ref id="pone.0080888-Tun1"><label>23</label>
+<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Tunç</surname><given-names>GI</given-names></name>, <name name-style="western"><surname>Serap</surname><given-names>TA</given-names></name>, <name name-style="western"><surname>Elif</surname><given-names>A</given-names></name> (<year>2009</year>) <article-title>A decomposition analysis of CO<sub>2</sub> emissions from energy use: Turkish case</article-title>. <source>Energy Policy</source> <volume>37</volume>: <fpage>4689</fpage>–<lpage>4699</lpage>.</mixed-citation>
+</ref>
+<ref id="pone.0080888-Claudia1"><label>24</label>
+<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Claudia</surname><given-names>S</given-names></name>, <name name-style="western"><surname>Leticia</surname><given-names>O</given-names></name>, <name name-style="western"><surname>Daniel</surname><given-names>C</given-names></name> (<year>2010</year>) <article-title>Using logarithmic mean Divisia index to analyze changes in energy use and carbon dioxide emissions in Mexico’ s iron and steel industry</article-title>. <source>Energy Economics</source> <volume>32</volume>: <fpage>1337</fpage>–<lpage>1344</lpage>.</mixed-citation>
+</ref>
+<ref id="pone.0080888-Ang3"><label>25</label>
+<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Ang</surname><given-names>BW</given-names></name> (<year>2004</year>) <article-title>Decomposition analysis for policy making in energy: which is the preferred method?</article-title>. <source>Energy Policy</source> <volume>32</volume>: <fpage>1131</fpage>–<lpage>1139</lpage>.</mixed-citation>
+</ref>
+<ref id="pone.0080888-Ang4"><label>26</label>
+<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Ang</surname><given-names>BW</given-names></name>, <name name-style="western"><surname>Mu</surname><given-names>AR</given-names></name>, <name name-style="western"><surname>Zhou</surname><given-names>P</given-names></name> (<year>2010</year>) <article-title>Accounting frameworks for tracking energy efficiency trends</article-title>. <source>Energy Economics</source> <volume>32</volume>: <fpage>1209</fpage>–<lpage>1219</lpage>.</mixed-citation>
+</ref>
+<ref id="pone.0080888-Dong1"><label>27</label>
+<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Dong</surname><given-names>J</given-names></name>, <name name-style="western"><surname>Wu</surname><given-names>M</given-names></name> (<year>2010</year>) <article-title>Energy performance index based on LMDI technique and decomposition analysis of Beijing’s energy consumption</article-title>. <source>Future Information Technology and Management Engineering (FITME), 2010 International Conference on IEEE</source> <volume>1</volume>: <fpage>246</fpage>–<lpage>249</lpage>.</mixed-citation>
+</ref>
+<ref id="pone.0080888-Baleentis1"><label>28</label>
+<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Baležentis</surname><given-names>A</given-names></name>, <name name-style="western"><surname>Baležentis</surname><given-names>T</given-names></name>, <name name-style="western"><surname>Streimikiene</surname><given-names>D</given-names></name> (<year>2011</year>) <article-title>The energy intensity in Lithuania during 1995–2009: a LMDI approach</article-title>. <source>Energy Policy</source> <volume>39</volume>: <fpage>7322</fpage>–<lpage>7334</lpage>.</mixed-citation>
+</ref>
+<ref id="pone.0080888-Su1"><label>29</label>
+<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Su</surname><given-names>B</given-names></name>, <name name-style="western"><surname>Ang</surname><given-names>BW</given-names></name> (<year>2012a</year>) <article-title>Structural decomposition analysis applied to energy and emissions: aggregation issues</article-title>. <source>Economic Systems Research</source> <volume>24</volume>: <fpage>299</fpage>–<lpage>317</lpage>.</mixed-citation>
+</ref>
+<ref id="pone.0080888-Su2"><label>30</label>
+<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Su</surname><given-names>B</given-names></name>, <name name-style="western"><surname>Ang</surname><given-names>BW</given-names></name> (<year>2012b</year>) <article-title>Structural decomposition analysis applied to energy and emissions: some methodological developments</article-title>. <source>Energy Economics</source> <volume>34</volume>: <fpage>177</fpage>–<lpage>188</lpage>.</mixed-citation>
+</ref>
+<ref id="pone.0080888-Su3"><label>31</label>
+<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Su</surname><given-names>B</given-names></name>, <name name-style="western"><surname>Huang</surname><given-names>HC</given-names></name>, <name name-style="western"><surname>Ang</surname><given-names>BW</given-names></name>, <name name-style="western"><surname>Zhou</surname><given-names>P</given-names></name> (<year>2010</year>) <article-title>Input–output analysis of CO<sub>2</sub> emissions embodied in trade: the effects of sector aggregation</article-title>. <source>Energy Economics</source> <volume>32</volume>: <fpage>166</fpage>–<lpage>175</lpage>.</mixed-citation>
+</ref>
+<ref id="pone.0080888-Su4"><label>32</label>
+<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Su</surname><given-names>B</given-names></name>, <name name-style="western"><surname>Ang</surname><given-names>BW</given-names></name> (<year>2010</year>) <article-title>Input–output analysis of CO<sub>2</sub> emissions embodied in trade: the effects of spatial aggregation</article-title>. <source>Ecological Economics</source> <volume>70</volume>: <fpage>10</fpage>–<lpage>18</lpage>.</mixed-citation>
+</ref>
+<ref id="pone.0080888-Wang3"><label>33</label>
+<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Wang</surname><given-names>Y</given-names></name>, <name name-style="western"><surname>Zhao</surname><given-names>HY</given-names></name>, <name name-style="western"><surname>Li</surname><given-names>LY</given-names></name>, <name name-style="western"><surname>Liu</surname><given-names>Z</given-names></name>, <name name-style="western"><surname>Liang</surname><given-names>S</given-names></name> (<year>2013</year>) <article-title>Carbon dioxide emission drivers for a typical metropolis using input–output structural decomposition analysis</article-title>. <source>Energy Policy</source> <volume>58</volume>: <fpage>312</fpage>–<lpage>318</lpage>.</mixed-citation>
+</ref>
+<ref id="pone.0080888-Feng1"><label>34</label>
+<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Feng</surname><given-names>KS</given-names></name>, <name name-style="western"><surname>Siu</surname><given-names>YL</given-names></name>, <name name-style="western"><surname>Guan</surname><given-names>D</given-names></name>, <name name-style="western"><surname>Hubacek</surname><given-names>K</given-names></name> (<year>2012</year>) <article-title>Analyzing drivers of regional carbon dioxide emissions for China</article-title>. <source>Journal of Industrial Ecology</source> <volume>16</volume>: <fpage>600</fpage>–<lpage>611</lpage>.</mixed-citation>
+</ref>
+<ref id="pone.0080888-Xu1"><label>35</label>
+<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Xu</surname><given-names>M</given-names></name>, <name name-style="western"><surname>Li</surname><given-names>R</given-names></name>, <name name-style="western"><surname>Crittenden</surname><given-names>JC</given-names></name>, <name name-style="western"><surname>Chen</surname><given-names>YS</given-names></name> (<year>2011</year>) <article-title>CO<sub>2</sub> emissions embodied in China’s exports from 2002 to 2008: a structural decomposition analysis</article-title>. <source>Energy Policy</source> <volume>39</volume>: <fpage>7381</fpage>–<lpage>7388</lpage>.</mixed-citation>
+</ref>
+<ref id="pone.0080888-Du1"><label>36</label>
+<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Du</surname><given-names>HB</given-names></name>, <name name-style="western"><surname>Guo</surname><given-names>JH</given-names></name>, <name name-style="western"><surname>Mao</surname><given-names>GZ</given-names></name>, <name name-style="western"><surname>Smith</surname><given-names>AM</given-names></name>, <name name-style="western"><surname>Wang</surname><given-names>XX</given-names></name>, <etal>et al</etal>. (<year>2011</year>) <article-title>CO<sub>2</sub> emissions embodied in China–US trade: Input–output analysis based on the emergy/dollar ratio</article-title>. <source>Energy Policy</source> <volume>39</volume>: <fpage>5980</fpage>–<lpage>5987</lpage>.</mixed-citation>
+</ref>
+<ref id="pone.0080888-CNBSa1"><label>37</label>
+<mixed-citation publication-type="other" xlink:type="simple">CNBSa (China’s National Bureau of Statistics) (2000, 2003, 2005, 2006, 2007, 2008, 2009, 2010, 2011) China Energy Statistic Yearbook 1997–1999, 2000–2002, 2004, 2005, 2006, 2007, 2008, 2009, 2010. Beijing: China Statistical Press (In Chinese).</mixed-citation>
+</ref>
+<ref id="pone.0080888-Xu2"><label>38</label>
+<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Xu</surname><given-names>GQ</given-names></name>, <name name-style="western"><surname>Liu</surname><given-names>ZY</given-names></name>, <name name-style="western"><surname>Jiang</surname><given-names>ZH</given-names></name> (<year>2006</year>) <article-title>Decomposition model and empirical study of carbon emissions for China, 1995–2004</article-title>. <source>China Population, Resources and Environment</source> <volume>16</volume>: <fpage>158</fpage>–<lpage>61</lpage> (In Chinese with English abstract.)..</mixed-citation>
+</ref>
+<ref id="pone.0080888-Hu1"><label>39</label>
+<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Hu</surname><given-names>C</given-names></name>, <name name-style="western"><surname>Huang</surname><given-names>XJ</given-names></name> (<year>2008</year>) <article-title>Characteristics of carbon emission in China and analysis on its cause</article-title>. <source>China Population, Resources and Environment</source> <volume>18</volume>: <fpage>38</fpage>–<lpage>42</lpage>.</mixed-citation>
+</ref>
+<ref id="pone.0080888-IPCC1"><label>40</label>
+<mixed-citation publication-type="other" xlink:type="simple">IPCC (2006) IPCC guidelines for national greenhouse gas inventories: Volume II [EB/OL].</mixed-citation>
+</ref>
+<ref id="pone.0080888-CNBSb1"><label>41</label>
+<mixed-citation publication-type="other" xlink:type="simple">CNBSb (China’s National Bureau of Statistics) (1999, 2000, 2001, 2002, 2003, 2004, 2005, 2006, 2007, 2008, 2009, 2010, 2011) China Statistic Yearbook 1998–2010. Beijing: China Statistical Press (In Chinese).</mixed-citation>
+</ref>
+<ref id="pone.0080888-Harris1"><label>42</label>
+<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Harris</surname><given-names>DF</given-names></name>, <name name-style="western"><surname>Tzavalis</surname><given-names>E</given-names></name> (<year>1999</year>) <article-title>Inference for Unit Roots In Dynamic Panels Where The Time Dimension Is Fixed</article-title>. <source>Journal of Econometrics</source> <volume>91</volume>: <fpage>201</fpage>–<lpage>226</lpage>.</mixed-citation>
+</ref>
+<ref id="pone.0080888-Pedroni1"><label>43</label>
+<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Pedroni</surname><given-names>P</given-names></name> (<year>1999</year>) <article-title>Critical Values for Cointegration Test In Heterogeneous Panels with Multiple Regressors</article-title>. <source>Oxford Bulletin of Economics and Statistics</source> <volume>61</volume>: <fpage>653</fpage>–<lpage>670</lpage>.</mixed-citation>
+</ref>
+</ref-list></back>
+</article>

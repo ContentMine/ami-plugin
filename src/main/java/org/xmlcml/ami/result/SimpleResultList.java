@@ -19,7 +19,6 @@ public class SimpleResultList implements Iterable<SimpleResultWrapper> {
 
 	private final static Logger LOG = Logger.getLogger(SimpleResultList.class);
 	
-	private static final String RESULTS_LIST = "results";
 	private List<SimpleResultWrapper> simpleResultList;
 	private SourceElement sourceElement;
 
@@ -74,7 +73,7 @@ public class SimpleResultList implements Iterable<SimpleResultWrapper> {
 	}
 
 	public Element createElement() {
-		Element resultList = new Element(RESULTS_LIST);
+		Element resultList = new ResultsElement();
 		if (sourceElement != null) {
 			resultList.appendChild(sourceElement.copy());
 		}
@@ -94,8 +93,8 @@ public class SimpleResultList implements Iterable<SimpleResultWrapper> {
 	public String toString() {
 		StringBuilder sb = new StringBuilder();
 		sb.append("hits: "+simpleResultList.size());
-		for (SimpleResultWrapper simpleResult : simpleResultList) {
-			sb.append("> "+simpleResult.toString()+"\n");
+		for (SimpleResultWrapper simpleResultWrapper : simpleResultList) {
+			sb.append("> "+simpleResultWrapper.toString()+"\n");
 			
 		}
 		return sb.toString();

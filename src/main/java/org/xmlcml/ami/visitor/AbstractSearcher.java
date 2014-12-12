@@ -127,7 +127,9 @@ public abstract class AbstractSearcher {
 		} else {
 			LOG.debug("RegexSearcher cannot search class: "+container.getClass());
 		}
-		this.resultList = this.documentFragment.getResultList();
+		if (resultList == null && documentFragment != null) {
+			this.resultList = this.documentFragment.getResultList();
+		}
 	}
 
 	public void defaultSearch(VisitableContainer container) {

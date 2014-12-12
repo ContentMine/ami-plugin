@@ -1,0 +1,572 @@
+<article xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" article-type="research-article" dtd-version="3.0" xml:lang="en">
+<front>
+<journal-meta>
+<journal-id journal-id-type="nlm-ta">PLoS ONE</journal-id>
+<journal-id journal-id-type="publisher-id">plos</journal-id>
+<journal-id journal-id-type="pmc">plosone</journal-id><journal-title-group>
+<journal-title xml:lang="en">PLoS ONE</journal-title></journal-title-group>
+<issn pub-type="epub">1932-6203</issn>
+<publisher>
+<publisher-name>Public Library of Science</publisher-name>
+<publisher-loc>San Francisco, USA</publisher-loc></publisher>
+</journal-meta>
+<article-meta>
+<article-id pub-id-type="publisher-id">PONE-D-13-22406</article-id>
+<article-id pub-id-type="doi">10.1371/journal.pone.0082071</article-id>
+<article-categories><subj-group subj-group-type="heading"><subject>Research Article</subject></subj-group></article-categories>
+<title-group>
+<article-title>Effective Classification and Gene Expression Profiling for the Facioscapulohumeral Muscular Dystrophy</article-title>
+<alt-title alt-title-type="running-head">Classification and Gene Expression for the FSHD</alt-title>
+</title-group>
+<contrib-group>
+<contrib contrib-type="author" xlink:type="simple"><name name-style="western"><surname>González-Navarro</surname><given-names>Félix F.</given-names></name><xref ref-type="aff" rid="aff1"><sup>1</sup></xref><xref ref-type="corresp" rid="cor1"><sup>*</sup></xref></contrib>
+<contrib contrib-type="author" xlink:type="simple"><name name-style="western"><surname>Belanche-Muñoz</surname><given-names>Lluís A.</given-names></name><xref ref-type="aff" rid="aff2"><sup>2</sup></xref></contrib>
+<contrib contrib-type="author" xlink:type="simple"><name name-style="western"><surname>Silva-Colón</surname><given-names>Karen A.</given-names></name><xref ref-type="aff" rid="aff1"><sup>1</sup></xref></contrib>
+</contrib-group>
+<aff id="aff1"><label>1</label><addr-line>Instituto de Ingeniería, Universidad Autónoma de Baja California, Mexicali, México</addr-line></aff>
+<aff id="aff2"><label>2</label><addr-line>Computer Science Faculty, Universitat Politècnica de Catalunya, Barcelona, Spain</addr-line></aff>
+<contrib-group>
+<contrib contrib-type="editor" xlink:type="simple"><name name-style="western"><surname>Artero</surname><given-names>Ruben</given-names></name>
+<role>Editor</role>
+<xref ref-type="aff" rid="edit1" /></contrib>
+</contrib-group>
+<aff id="edit1"><addr-line>University of Valencia, Spain</addr-line></aff>
+<author-notes>
+<corresp id="cor1">* E-mail: <email xlink:type="simple">fernando.gonzalez@uabc.edu.mx</email></corresp>
+<fn fn-type="conflict"><p>The authors have declared that no competing interests exist.</p></fn>
+<fn fn-type="con"><p>Conceived and designed the experiments: FFGN LABM. Performed the experiments: FFGN. Analyzed the data: FFGN LABM. Wrote the paper: FFGN LABM KASC.</p></fn>
+</author-notes>
+<pub-date pub-type="collection"><year>2013</year></pub-date>
+<pub-date pub-type="epub"><day>13</day><month>12</month><year>2013</year></pub-date>
+<volume>8</volume>
+<issue>12</issue>
+<elocation-id>e82071</elocation-id>
+<history>
+<date date-type="received"><day>25</day><month>4</month><year>2013</year></date>
+<date date-type="accepted"><day>21</day><month>10</month><year>2013</year></date>
+</history>
+<permissions>
+<copyright-year>2013</copyright-year>
+<copyright-holder>Gonzalez-Navarro et al</copyright-holder><license xlink:href="http://creativecommons.org/licenses/by/4.0/" xlink:type="simple"><license-p>This is an open-access article distributed under the terms of the <ext-link ext-link-type="uri" xlink:href="http://creativecommons.org/licenses/by/4.0/" xlink:type="simple">Creative Commons Attribution License</ext-link>, which permits unrestricted use, distribution, and reproduction in any medium, provided the original author and source are credited.</license-p></license></permissions>
+<abstract>
+<p>The Facioscapulohumeral Muscular Dystrophy (FSHD) is an autosomal dominant neuromuscular disorder whose incidence is estimated in about one in 400,000 to one in 20,000. No effective therapeutic strategies are known to halt progression or reverse muscle weakness and atrophy. It is known that the FSHD is caused by modifications located within a D4ZA repeat array in the chromosome 4q, while recent advances have linked these modifications to the <italic>DUX4</italic> gene. Unfortunately, the complete mechanisms responsible for the molecular pathogenesis and progressive muscle weakness still remain unknown. Although there are many studies addressing cancer databases from a machine learning perspective, there is no such precedent in the analysis of the FSHD. This study aims to fill this gap by analyzing two specific FSHD databases. A feature selection algorithm is used as the main engine to select genes promoting the highest possible classification capacity. The combination of feature selection and classification aims at obtaining simple models (in terms of very low numbers of genes) capable of good generalization, that may be associated with the disease. We show that the reported method is highly efficient in finding genes to discern between healthy cases (not affected by the FSHD) and FSHD cases, allowing the discovery of very parsimonious models that yield negligible repeated cross-validation error. These models in turn give rise to very simple decision procedures in the form of a decision tree. Current biological evidence regarding these genes shows that they are linked to skeletal muscle processes concerning specific human conditions.</p>
+</abstract>
+<funding-group><funding-statement>The authors gratefully acknowledge funding from the Universidad Autónoma de Baja California and Universitat Politècnica de Catalunya. The funders had no role in study design, data collection and analysis, decision to publish, or preparation of the manuscript.</funding-statement></funding-group><counts><page-count count="13" /></counts></article-meta>
+</front>
+<body><sec id="s1">
+<title>Introduction</title>
+<p>The Facioscapulohumeral Muscular Dystrophy (FSHD) is an autosomal dominant neuromuscular disorder and the third most common inherited muscular dystrophy <xref ref-type="bibr" rid="pone.0082071-Tawil1">[1]</xref>, <xref ref-type="bibr" rid="pone.0082071-Engel1">[2]</xref>. Its incidence may vary in different places and probably in different racial groups, but recent estimates account for one in about 400,000 to one in 20,000 <xref ref-type="bibr" rid="pone.0082071-MDC1">[3]</xref>. FSHD patients show progressive weakening and atrophy of the muscles in the face, slowly progressing to the shoulder, upper arm muscles and shoulder girdle, down to the stomach and lower limbs. Inability to flex the foot upward, foot weakness, and an onset of right/left asymmetry are also common symptoms <xref ref-type="bibr" rid="pone.0082071-vanderMaarel1">[4]</xref>, <xref ref-type="bibr" rid="pone.0082071-Tawil2">[5]</xref>.</p>
+<p>Although the FSHD is considered a relatively benign dystrophy, about 20% of the patients presenting this disorder are eventually restrained to a wheel chair. The age of onset is variable, being the second decade of life the most common stage where patients become symptomatic. In some cases, however, symptoms never develop even when the individual has the mutation associated with the FSHD.</p>
+<p>No effective therapeutic strategies are known to either halt progression or reverse muscle weakness and atrophy in the FSHD <xref ref-type="bibr" rid="pone.0082071-Rose1">[6]</xref>. However, there are a number of actions that can provide symptomatic and functional improvement in many patients. In particular, the use of assistive devices –such as braces, standing frames, or walkers– is of great help. Physical therapies like exercises in water, complemented by psychological support and speech therapy may also alleviate specially difficult life conditions.</p>
+<p>It is known that the FSHD is caused by deletion of a subset of D4Z4 macrosatellite repeat units in the subtelomere of chromosome 4q <xref ref-type="bibr" rid="pone.0082071-vanderMaarel2">[7]</xref>. D4Z4 modification needs to occur on a specific chromosomic background to cause the FSHD. More than 95% of patients with clinical FSHD have an associated D4Z4 deletion on the 4q35 chromosome. However, a small number of kindreds with clinically typical FSHD do not present this dynamic. A second FSHD locus has not yet been identified <xref ref-type="bibr" rid="pone.0082071-Tim1">[8]</xref>. Recent advances involve the <italic>DUX4</italic> gene, a retrogene sequence within D4Z4 that encodes a double homeodomain protein whose exact function is not entirely known. Although the proper mechanisms responsible for the progressive muscle weakness still remain unknown, the study of this gene could offer a possible therapeutic way <xref ref-type="bibr" rid="pone.0082071-vanderMaarel2">[7]</xref>.</p>
+<p>It is generally believed that the monitoring of expression levels for thousands of genes simultaneously may lead to a more complete understanding of the molecular variations among different cell conditions. In the literature on machine learning, contributions concerning the analysis of gene expression FSHD data are very scarce, probably because of unawareness towards the highly rare diseases. The situation is aggravated by the absence of scientific data outside purely medical domains, in order to attack the problem from a different point of view. In contrast, there is now a vast body of available datasets about microarray gene expression analysis when focused to <italic>cancer</italic> diseases. Specifically, microarray gene expression databases have been used to discriminate between tumours or tumour subtypes, and to study biological properties of tumours –see, e.g., <xref ref-type="bibr" rid="pone.0082071-VantVeer1">[9]</xref>.</p>
+<p>Over the last decade, Machine Learning (ML) has made significant inroads in the fields of bioinformatics and biomedicine <xref ref-type="bibr" rid="pone.0082071-Schlkopf1">[10]</xref>. Specifically, cancer research has applied a variety of ML algorithms for tumor prediction by associating expression patterns with clinical outcomes for patients with tumors <xref ref-type="bibr" rid="pone.0082071-Lukas1">[11]</xref>. The majority of this research has focused on building accurate classification models from reduced sets of features. Some of these analyses also aim to gain understanding of the differences between normal and malignant cells and to identify genes that are differentially regulated during cancer development. The importance of the validity and reproducibility of statistical analysis and reporting cannot be stressed enough <xref ref-type="bibr" rid="pone.0082071-Dupuy1">[12]</xref>.</p>
+<p>Typically, a gene expression data set may consist of dozens of samples but with thousands or even a few tens of thousands of genes (acting as <italic>features</italic>, using the ML terminology). Predictive model construction using this very high ratio between number of features and number of samples is a delicate undertaking, prone to obtain unreliable readings. As a result, dimensionality reduction and in particular <italic>feature selection</italic> techniques may be very useful, as a way to reduce the problem complexity and lighten medical expert diagnosis.</p>
+<p>Of special importance in a practical medical setting is the <italic>interpretability</italic> of the obtained solutions, something that limits the applicability of methods such as PCA or ICA (whose solutions involve weighted combinations of genes, instead of individual genes). Moreover, in a medical context, data visualization in a <italic>low-dimensional</italic> representation space may become extremely important, as it would help doctors to gain insights into this complex and highly sensitive domain. The development of predictive models able to discern between healthy and FSHD samples with minimal error rate and amenable to direct interpretation is thus a clear research goal. When predictive models use very low numbers of relevant genes, these genes are likely to be associated with the disease, and can be used as a starting mechanism for further dedicated study from a biological point of view.</p>
+<p>The present study addresses all these issues in two FSHD databases (named, just for reference in this paper, as FSHD-DB1 and FSHD-DB2) to discern between healthy and FSHD samples (clinical cases). We report experimental results supporting the practical advantage of combining robust feature selection and classification in the analyzed FSHD datasets. The described method is able to unveil two groups of genes that yield very low mean cross-validation error. These genes can be used to build very simple decision procedures in the form of a decision tree.</p>
+</sec><sec id="s2">
+<title>Results and Discussion</title>
+<sec id="s2a">
+<title>FSHD-DB1 Database</title>
+<p>The feature selection process in <bold>Algorithm 1</bold> comes to a final solution in the form of a subset with only three genes and a 100% of mean 5×5 cv accuracy. This final subset is presented in <xref ref-type="table" rid="pone-0082071-t001">Table 1</xref> including its gene IDs and full names. It will be hereafter referred as the FSHD-DB1 model. In comparison, PAMR delivers a 96.8% of mean 5×5 cv accuracy with 2 genes (<xref ref-type="table" rid="pone-0082071-t002">Table 2</xref>), and SVM-RFE delivers a comparable 99.4% mean 5×5 cv accuracy, using 5 genes (<xref ref-type="table" rid="pone-0082071-t003">Table 3</xref>). As a further comparison, if we consider the two genes signaled as most relevant in the literature (<italic>DUX4</italic> <xref ref-type="bibr" rid="pone.0082071-vanderMaarel2">[7]</xref> and <italic>FRG1</italic> <xref ref-type="bibr" rid="pone.0082071-Pistoni1">[13]</xref>), the corresponding mean 5×5 cv accuracy of these two genes (taken together) is 84.65%.</p>
+<table-wrap id="pone-0082071-t001" position="float" orientation="portrait"><object-id pub-id-type="doi">10.1371/journal.pone.0082071.t001</object-id><label>Table 1</label><caption>
+<title>Best gene subset found using the proposed method and LDA as performance measure in FSHD-DB1 (the FSHD-DB1 model).</title>
+</caption><alternatives><graphic id="pone-0082071-t001-1" position="float" mimetype="image" xlink:href="info:doi/10.1371/journal.pone.0082071.t001" xlink:type="simple" orientation="portrait" />
+<table><colgroup span="1"><col align="left" span="1" /><col align="center" span="1" /><col align="center" span="1" /></colgroup>
+<thead>
+<tr>
+<td align="left" rowspan="1" colspan="1">Probe set ID</td>
+<td align="left" rowspan="1" colspan="1">Gene</td>
+<td align="left" rowspan="1" colspan="1">Name</td>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left" rowspan="1" colspan="1">201088_<italic>at</italic></td>
+<td align="left" rowspan="1" colspan="1">KPNA2</td>
+<td align="left" rowspan="1" colspan="1">karyopherin alpha 2 (RAG cohort 1, importin alpha 1)</td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1">219746_<italic>at</italic></td>
+<td align="left" rowspan="1" colspan="1">DPF3</td>
+<td align="left" rowspan="1" colspan="1">D4, zinc and double PHD fingers, family 3</td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1">201552_<italic>at</italic></td>
+<td align="left" rowspan="1" colspan="1">LAMP1</td>
+<td align="left" rowspan="1" colspan="1">lysosomal-associated membrane protein 1</td>
+</tr>
+</tbody>
+</table>
+</alternatives></table-wrap><table-wrap id="pone-0082071-t002" position="float" orientation="portrait"><object-id pub-id-type="doi">10.1371/journal.pone.0082071.t002</object-id><label>Table 2</label><caption>
+<title>Best gene subset found using PAMR in FSHD-DB1.</title>
+</caption><alternatives><graphic id="pone-0082071-t002-2" position="float" mimetype="image" xlink:href="info:doi/10.1371/journal.pone.0082071.t002" xlink:type="simple" orientation="portrait" />
+<table><colgroup span="1"><col align="left" span="1" /><col align="center" span="1" /><col align="center" span="1" /></colgroup>
+<thead>
+<tr>
+<td align="left" rowspan="1" colspan="1">Probe set ID</td>
+<td align="left" rowspan="1" colspan="1">Gene</td>
+<td align="left" rowspan="1" colspan="1">Name</td>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left" rowspan="1" colspan="1">218959_<italic>at</italic></td>
+<td align="left" rowspan="1" colspan="1">HOXC10</td>
+<td align="left" rowspan="1" colspan="1">homeobox C10</td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1">215000_<italic>s</italic>_<italic>at</italic></td>
+<td align="left" rowspan="1" colspan="1">FEZ2</td>
+<td align="left" rowspan="1" colspan="1">fasciculation and elongation proteinzeta 2 (zygin II)</td>
+</tr>
+</tbody>
+</table>
+</alternatives></table-wrap><table-wrap id="pone-0082071-t003" position="float" orientation="portrait"><object-id pub-id-type="doi">10.1371/journal.pone.0082071.t003</object-id><label>Table 3</label><caption>
+<title>Best gene subset found using SVM-RFE in FSHD-DB1.</title>
+</caption><alternatives><graphic id="pone-0082071-t003-3" position="float" mimetype="image" xlink:href="info:doi/10.1371/journal.pone.0082071.t003" xlink:type="simple" orientation="portrait" />
+<table><colgroup span="1"><col align="left" span="1" /><col align="center" span="1" /><col align="center" span="1" /></colgroup>
+<thead>
+<tr>
+<td align="left" rowspan="1" colspan="1">Probe set ID</td>
+<td align="left" rowspan="1" colspan="1">Gene</td>
+<td align="left" rowspan="1" colspan="1">Name</td>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left" rowspan="1" colspan="1">202594_<italic>at</italic></td>
+<td align="left" rowspan="1" colspan="1">LEPROTL1</td>
+<td align="left" rowspan="1" colspan="1">leptin receptor overlapping transcript-like 1</td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1">208065_<italic>at</italic></td>
+<td align="left" rowspan="1" colspan="1">ST8SIA3</td>
+<td align="left" rowspan="1" colspan="1">ST8 alpha-N-acetyl-neuraminide alpha-2,8-sialyltransferase 3</td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1">209797_<italic>at</italic></td>
+<td align="left" rowspan="1" colspan="1">CNPY2</td>
+<td align="left" rowspan="1" colspan="1">canopy 2 homolog (zebrafish)</td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1">215000_<italic>s</italic>_<italic>at</italic></td>
+<td align="left" rowspan="1" colspan="1">FEZ2</td>
+<td align="left" rowspan="1" colspan="1">fasciculation and elongation protein zeta 2 (zygin II)</td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1">218959_<italic>at</italic></td>
+<td align="left" rowspan="1" colspan="1">HOXC10</td>
+<td align="left" rowspan="1" colspan="1">homeobox C10</td>
+</tr>
+</tbody>
+</table>
+</alternatives></table-wrap><sec id="s2a1">
+<title>Visualization</title>
+<p>Data visualization in a low-dimensional representation space is extremely important to gain a better understanding of the solution delivered by the process. To visualize the result, the data corresponding to the FSHD-DB1 model are plotted using the three selected genes as axes, without any pre-processing method or projection technique –<xref ref-type="fig" rid="pone-0082071-g001">Fig. 1</xref>. In addition, the LDA decision boundary fitted in the whole data set is shown. The FSHD group presents a less compact distribution, while the Healthy group is clustered around a specific region of the representation space given by the three genes found. It can be seen that the two conditions are neatly separated.</p>
+<fig id="pone-0082071-g001" position="float" orientation="portrait"><object-id pub-id-type="doi">10.1371/journal.pone.0082071.g001</object-id><label>Figure 1</label><caption>
+<title>LDA decision surface for the FSHD-DB1 model.</title>
+</caption><graphic mimetype="image" xlink:href="info:doi/10.1371/journal.pone.0082071.g001" position="float" xlink:type="simple" orientation="portrait" /></fig>
+<p><xref ref-type="fig" rid="pone-0082071-g002">Figure 2</xref> shows a box plot for each gene in the FSHD-DB1 model. <italic>LAMP1</italic> shows a mean value for FSHD samples of <inline-formula><inline-graphic xlink:href="info:doi/10.1371/journal.pone.0082071.e001" xlink:type="simple" /></inline-formula>, against Healthy with mean <inline-formula><inline-graphic xlink:href="info:doi/10.1371/journal.pone.0082071.e002" xlink:type="simple" /></inline-formula>; <italic>DPF3</italic> shows a more even expression level, FSHD with <inline-formula><inline-graphic xlink:href="info:doi/10.1371/journal.pone.0082071.e003" xlink:type="simple" /></inline-formula> and Healthy with <inline-formula><inline-graphic xlink:href="info:doi/10.1371/journal.pone.0082071.e004" xlink:type="simple" /></inline-formula>; <italic>KPNA2</italic> tends to up-regulate heavily in FSHD (mean <inline-formula><inline-graphic xlink:href="info:doi/10.1371/journal.pone.0082071.e005" xlink:type="simple" /></inline-formula>, compared to Healthy with <inline-formula><inline-graphic xlink:href="info:doi/10.1371/journal.pone.0082071.e006" xlink:type="simple" /></inline-formula>).</p>
+<fig id="pone-0082071-g002" position="float" orientation="portrait"><object-id pub-id-type="doi">10.1371/journal.pone.0082071.g002</object-id><label>Figure 2</label><caption>
+<title>Box plots for the expression levels of the genes in the FSHD-DB1 model.</title>
+</caption><graphic mimetype="image" xlink:href="info:doi/10.1371/journal.pone.0082071.g002" position="float" xlink:type="simple" orientation="portrait" /></fig>
+<p><xref ref-type="fig" rid="pone-0082071-g003">Figure 3</xref> depicts a dendrogram of cases and standardized gene expression levels for the FSHD-DB1 model. Each case is identified with an ID number, prefixed by a letter indicating class membership, <italic>H</italic> for Healthy and <italic>F</italic> for FSHD. It is apparent that <italic>LAMP1</italic> shows an up-regulation in most of the FSHD cases, as well as <italic>KPNA2</italic>; <italic>DPF3</italic> shows a slightly diffuse expression level.</p>
+<fig id="pone-0082071-g003" position="float" orientation="portrait"><object-id pub-id-type="doi">10.1371/journal.pone.0082071.g003</object-id><label>Figure 3</label><caption>
+<title>Clustering of the expression levels of the genes in the FSHD-DB1 model.</title>
+<p>Left: by genes; Top: by samples.</p>
+</caption><graphic mimetype="image" xlink:href="info:doi/10.1371/journal.pone.0082071.g003" position="float" xlink:type="simple" orientation="portrait" /></fig>
+<p>Nonetheless, it is noticed in <xref ref-type="fig" rid="pone-0082071-g003">Fig. 3</xref> that the natural clusters do not necessarily correspond to labeled samples, and thus supervised information is needed to create accurate prediction models, even in this low-dimensional representation. Three clusters are discovered: a first one (H1 to H17), in which most (but certainly not all) of the samples belong to Healthy class; a second group (H18 to H22), containing three Healthy and two FSHD samples; finally, a third group (from F23 on) which is completely messed up. This result –although is certainly dependent on the limitations of clustering methods– alerts against using unsupervised feature extraction methods like PCA.</p>
+<p>An interesting point to be emphasized in these graphic representations is that the FSHD-DB1 model clearly clusters the two conditions neatly –<xref ref-type="fig" rid="pone-0082071-g001">Fig. 1</xref>. We were therefore interested in ascertaining to what extent is this result stable and may thus constitute a good departing point for future studies. To this end, we performed two further investigations:</p>
+<list list-type="order"><list-item>
+<p>The first action was to change the resampling method to 10 times 10-fold cross validation (10×10 cv). This form of resampling entails a much higher computational cost; however, it has been suggested as adequate for small sample situations <xref ref-type="bibr" rid="pone.0082071-BragaNeto1">[14]</xref>.</p>
+</list-item><list-item>
+<p>The second action was to analyze the statistical differences between FSHD vs. Healthy samples in the expression levels for the genes in the model. In addition, we explored the possibility that a single gene is able to (almost) perfectly separate the two classes by mere chance.</p>
+</list-item></list>
+</sec><sec id="s2a2">
+<title>Statistical analysis</title>
+<p>We were interested in exploring the effect of changing the resampling method, keeping the <italic>same</italic> classifier (LDA in this case), in order to exclude this source of variation from the analysis. Remarkably, using 10×10 cv instead of 5×5 cv in <bold>Algorithm 1</bold>, it was found that the final result fully coincided with the FSHD-DB1 model.</p>
+<p>In order to assess statistical significance of expression levels, the Mann-Whitney U-test (MWU) was used in the comparison between FSHD vs. Healthy samples in the model. This is a non-parametric hypothesis test for assessing whether one of the two conditions (FSHD in this case) tends to have larger values than the other.</p>
+<p>For <italic>KPNA2</italic>, medians for the two groups Healthy and FSHD were <inline-formula><inline-graphic xlink:href="info:doi/10.1371/journal.pone.0082071.e007" xlink:type="simple" /></inline-formula> and <inline-formula><inline-graphic xlink:href="info:doi/10.1371/journal.pone.0082071.e008" xlink:type="simple" /></inline-formula>; the distributions in the two groups differed significantly (Mann-Whitney W = <inline-formula><inline-graphic xlink:href="info:doi/10.1371/journal.pone.0082071.e009" xlink:type="simple" /></inline-formula>, <inline-formula><inline-graphic xlink:href="info:doi/10.1371/journal.pone.0082071.e010" xlink:type="simple" /></inline-formula>-value <inline-formula><inline-graphic xlink:href="info:doi/10.1371/journal.pone.0082071.e011" xlink:type="simple" /></inline-formula>).</p>
+<p>For <italic>DPF3</italic>, medians for the two groups Healthy and FSHD were <inline-formula><inline-graphic xlink:href="info:doi/10.1371/journal.pone.0082071.e012" xlink:type="simple" /></inline-formula> and <inline-formula><inline-graphic xlink:href="info:doi/10.1371/journal.pone.0082071.e013" xlink:type="simple" /></inline-formula>; the distributions in the two groups did <italic>not</italic> differed significantly (Mann-Whitney W = <inline-formula><inline-graphic xlink:href="info:doi/10.1371/journal.pone.0082071.e014" xlink:type="simple" /></inline-formula>, <inline-formula><inline-graphic xlink:href="info:doi/10.1371/journal.pone.0082071.e015" xlink:type="simple" /></inline-formula>-value <inline-formula><inline-graphic xlink:href="info:doi/10.1371/journal.pone.0082071.e016" xlink:type="simple" /></inline-formula>).</p>
+<p>For <italic>LAMP1</italic>, medians for the two groups Healthy and FSHD were <inline-formula><inline-graphic xlink:href="info:doi/10.1371/journal.pone.0082071.e017" xlink:type="simple" /></inline-formula> and <inline-formula><inline-graphic xlink:href="info:doi/10.1371/journal.pone.0082071.e018" xlink:type="simple" /></inline-formula>; the distributions in the two groups differed significantly (Mann-Whitney W = <inline-formula><inline-graphic xlink:href="info:doi/10.1371/journal.pone.0082071.e019" xlink:type="simple" /></inline-formula>, <inline-formula><inline-graphic xlink:href="info:doi/10.1371/journal.pone.0082071.e020" xlink:type="simple" /></inline-formula>-value <inline-formula><inline-graphic xlink:href="info:doi/10.1371/journal.pone.0082071.e021" xlink:type="simple" /></inline-formula>).</p>
+<p>Therefore both <italic>KPNA2</italic> and <italic>LAMP1</italic> genes present high differences in the two conditions. Although these two genes are not equal, they present notable similarities. Spearman’s rank correlation coefficient is equal to <inline-formula><inline-graphic xlink:href="info:doi/10.1371/journal.pone.0082071.e022" xlink:type="simple" /></inline-formula>. This fact will be used to simplify the FSHD-DB1 model.</p>
+<p>One may still wonder about the probability of finding such a single gene like <italic>KPNA2</italic>–that separates the two conditions with one exception– by mere chance (<xref ref-type="fig" rid="pone-0082071-g002">Fig. 2</xref>). If a gene bears no relation with the disease, we could expect an arbitrary pattern for the distribution of the two conditions (healthy vs. FSHD cases) across the expressed values of the gene. The probability that <italic>one or more</italic> genes in 22,283 separates the two conditions (14 FSHD; 18 healthy) with only one exception is found to be around <inline-formula><inline-graphic xlink:href="info:doi/10.1371/journal.pone.0082071.e023" xlink:type="simple" /></inline-formula>.</p>
+</sec><sec id="s2a3">
+<title>A final interpretable model</title>
+<p>Even though the LDA decision boundary in <xref ref-type="fig" rid="pone-0082071-g001">Fig. 1</xref> depicts a clean separation between the two patient conditions, its application as a decision tool may not be straightforward. In this sense, decision trees are one of the preferred tools by experts in decision making processes. Moreover, the final selection of a gene subset may still provide few clues about the structure of the two conditions with respect to their expression levels. Some accuracy may be sacrificed for increased interpretability of the model.</p>
+<p><xref ref-type="fig" rid="pone-0082071-g004">Figure 4</xref> shows a CART decision tree <xref ref-type="bibr" rid="pone.0082071-Breiman1">[15]</xref> built with the FSHD-DB1 model. The main question is on the expression level of gene <italic>KPNA2</italic>: the right branch corresponds to 13 (all but one) of the FSHD patients; the left branch corresponds to all of the 18 healthy ones plus the remaining FSHD patient. Moreover, one may wonder if there is a second gene, expressed such that it separates this specific patient from the 18 healthy ones, and indeed there is one: precisely <italic>DPF3</italic>. Whether this last patient is an outlier in a medical sense we cannot know, but it deserves further clinical investigation. Therefore, despite <italic>LAMP1</italic> shows a markedly differential expression, it may be excluded from the decision flow.</p>
+<fig id="pone-0082071-g004" position="float" orientation="portrait"><object-id pub-id-type="doi">10.1371/journal.pone.0082071.g004</object-id><label>Figure 4</label><caption>
+<title>Classification tree for the simplified model in the FSHD-DB1 database.</title>
+<p>The boxes are leaves indicating the prediction, the numbers of cases for each condition, and the overall percentage of covered cases.</p>
+</caption><graphic mimetype="image" xlink:href="info:doi/10.1371/journal.pone.0082071.g004" position="float" xlink:type="simple" orientation="portrait" /></fig></sec><sec id="s2a4">
+<title>Biological evidence</title>
+<p>In this section, we compile scientific knowledge about the two genes in the final subset, including their known primary functions in cellular process.</p>
+</sec><sec id="s2a5">
+<title>KPNA2</title>
+<p><italic>KPNA2</italic> is Karyopherin alpha 2 (RAG cohort 1, importin alpha 1). It is known that muscle functions are dependent on spatial and temporal control of gene expressions in <italic>myofibers</italic>. These are multinucleated cells that contain hundreds of nuclei spread across the length of the cell in a common cytoplasm. Their very important role is to control the transcriptional activity of several nuclei in a common cytoplasm <xref ref-type="bibr" rid="pone.0082071-Hall1">[16]</xref>.</p>
+<p>Analyzing the role of karyopherin alpha (KPNA) and paralogs-specific roles of <italic>KPNA1</italic> and <italic>KPNA2</italic> during myogenesis, it has been found that these two genes do regulate myoblast proliferation. Particularly, <italic>KPNA2</italic> regulates myotube size and myocyte migration <xref ref-type="bibr" rid="pone.0082071-Hall2">[17]</xref>. Therefore, both may be involved in the nuclear transport of proteins <xref ref-type="bibr" rid="pone.0082071-GenCards1">[18]</xref>, which has a key role in controlling gene expression in skeletal muscles.</p>
+</sec><sec id="s2a6">
+<title>DPF3</title>
+<p><italic>DPF3</italic> is D4, zinc and double PHD fingers, family 3. This gene belongs to the neuron-specific chromatin remodeling complex (nBAF complex), acting as a tissue-specific anchor between histone acetylations and methylations and chromatin remodeling <xref ref-type="bibr" rid="pone.0082071-GenCards1">[18]</xref>, <xref ref-type="bibr" rid="pone.0082071-GeneAtlas1">[19]</xref>. Experiments in human cardiac samples and mouse embryonic and adult hearts showed that it plays a role in heart and skeletal muscle development <xref ref-type="bibr" rid="pone.0082071-Lange1">[20]</xref>. It also presents an up-regulated expression in patients with <italic>Tetralogy of Fallot</italic>, a congenital heart defect, partially characterized by muscular hypertrophy.</p>
+</sec></sec><sec id="s2b">
+<title>FSHD-DB2 Database</title>
+<p>The feature selection process in <bold>Algorithm 1</bold> comes to a final solution with six genes and 99.6% of mean 5×5 cv accuracy. This final subset is presented in <xref ref-type="table" rid="pone-0082071-t004">Table 4</xref> including its gene IDs and full names (of which two of them are yet unknown). It will be hereafter referred as the FSHD-DB2 model. In comparison, PAMR delivers a 70.4% of mean 5×5 cv accuracy with 3 genes (<xref ref-type="table" rid="pone-0082071-t005">Table 5</xref>), and SVM-RFE delivers 85.2% mean 5×5 cv accuracy, using 5 genes (<xref ref-type="table" rid="pone-0082071-t006">Table 6</xref>, of which three of them are unknown). This database contains <italic>DUX4</italic> entries, corresponding to 4 isoforms. If we consider the most informative model, including the 4 sequences of <italic>DUX4</italic> and <italic>FRG1</italic> together, the corresponding 5×5 cv accuracy is found to be a disappointing 39.60%.</p>
+<table-wrap id="pone-0082071-t004" position="float" orientation="portrait"><object-id pub-id-type="doi">10.1371/journal.pone.0082071.t004</object-id><label>Table 4</label><caption>
+<title>Best gene subset found using the proposed method and LDA as performance measure in FSHD-DB2 (the FSHD-DB2 model).</title>
+</caption><alternatives><graphic id="pone-0082071-t004-4" position="float" mimetype="image" xlink:href="info:doi/10.1371/journal.pone.0082071.t004" xlink:type="simple" orientation="portrait" />
+<table><colgroup span="1"><col align="left" span="1" /><col align="center" span="1" /><col align="center" span="1" /></colgroup>
+<thead>
+<tr>
+<td align="left" rowspan="1" colspan="1">Probe set ID</td>
+<td align="left" rowspan="1" colspan="1">Gene</td>
+<td align="left" rowspan="1" colspan="1">Name</td>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left" rowspan="1" colspan="1">7905039</td>
+<td align="left" rowspan="1" colspan="1">Unknown</td>
+<td align="left" rowspan="1" colspan="1" />
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1">8111670</td>
+<td align="left" rowspan="1" colspan="1">GDNF</td>
+<td align="left" rowspan="1" colspan="1">glial cell derived neurotrophic factor</td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1">7899075</td>
+<td align="left" rowspan="1" colspan="1">EXTL1</td>
+<td align="left" rowspan="1" colspan="1">exostoses (multiple)-like 1</td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1">7947152</td>
+<td align="left" rowspan="1" colspan="1">RPL36AP40</td>
+<td align="left" rowspan="1" colspan="1">ribosomal protein L36a pseudogene 40</td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1">7942073</td>
+<td align="left" rowspan="1" colspan="1">IGHMBP2</td>
+<td align="left" rowspan="1" colspan="1">immunoglobulin mu binding protein 2</td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1">8147750</td>
+<td align="left" rowspan="1" colspan="1">Unknown</td>
+<td align="left" rowspan="1" colspan="1" />
+</tr>
+</tbody>
+</table>
+</alternatives></table-wrap><table-wrap id="pone-0082071-t005" position="float" orientation="portrait"><object-id pub-id-type="doi">10.1371/journal.pone.0082071.t005</object-id><label>Table 5</label><caption>
+<title>Best gene subset found using PAMR in FSHD-DB2.</title>
+</caption><alternatives><graphic id="pone-0082071-t005-5" position="float" mimetype="image" xlink:href="info:doi/10.1371/journal.pone.0082071.t005" xlink:type="simple" orientation="portrait" />
+<table><colgroup span="1"><col align="left" span="1" /><col align="center" span="1" /><col align="center" span="1" /></colgroup>
+<thead>
+<tr>
+<td align="left" rowspan="1" colspan="1">Probe set ID</td>
+<td align="left" rowspan="1" colspan="1">Gene</td>
+<td align="left" rowspan="1" colspan="1">Name</td>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left" rowspan="1" colspan="1">8111892</td>
+<td align="left" rowspan="1" colspan="1">OXCT1</td>
+<td align="left" rowspan="1" colspan="1">3-oxoacid CoA transferase 1</td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1">8062461</td>
+<td align="left" rowspan="1" colspan="1">LBP</td>
+<td align="left" rowspan="1" colspan="1">lipopolysaccharide binding protein</td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1">8111670</td>
+<td align="left" rowspan="1" colspan="1">GDNF</td>
+<td align="left" rowspan="1" colspan="1">glial cell derived neurotrophic factor</td>
+</tr>
+</tbody>
+</table>
+</alternatives></table-wrap><table-wrap id="pone-0082071-t006" position="float" orientation="portrait"><object-id pub-id-type="doi">10.1371/journal.pone.0082071.t006</object-id><label>Table 6</label><caption>
+<title>Best gene subset found using SVM-RFE in FSHD-DB2.</title>
+</caption><alternatives><graphic id="pone-0082071-t006-6" position="float" mimetype="image" xlink:href="info:doi/10.1371/journal.pone.0082071.t006" xlink:type="simple" orientation="portrait" />
+<table><colgroup span="1"><col align="left" span="1" /><col align="center" span="1" /><col align="center" span="1" /></colgroup>
+<thead>
+<tr>
+<td align="left" rowspan="1" colspan="1">Probe set ID</td>
+<td align="left" rowspan="1" colspan="1">Gene</td>
+<td align="left" rowspan="1" colspan="1">Name</td>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left" rowspan="1" colspan="1">7893282</td>
+<td align="left" rowspan="1" colspan="1">Unknown</td>
+<td align="left" rowspan="1" colspan="1" />
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1">8129666</td>
+<td align="left" rowspan="1" colspan="1">SLC2A12</td>
+<td align="left" rowspan="1" colspan="1">solute carrier family 2 (facilitated glucose transporter), member 12</td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1">7926818</td>
+<td align="left" rowspan="1" colspan="1">Unknown</td>
+<td align="left" rowspan="1" colspan="1" />
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1">8094938</td>
+<td align="left" rowspan="1" colspan="1">NIPAL1</td>
+<td align="left" rowspan="1" colspan="1">NIPA-like domain containing 1</td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1">7938667</td>
+<td align="left" rowspan="1" colspan="1">Unknown</td>
+<td align="left" rowspan="1" colspan="1">glial cell derived neurotrophic factor</td>
+</tr>
+</tbody>
+</table>
+</alternatives></table-wrap><sec id="s2b1">
+<title>Visualization</title>
+<p><xref ref-type="fig" rid="pone-0082071-g005">Figure 5</xref> shows a box plot for each gene in the FSHD-DB2 model. The first three genes in the model (<italic>Unknown-7905039</italic>, <italic>GDNF</italic> and <italic>EXTL1</italic>) tend to up-regulate heavily, this time in Healthy samples. The other three seem to contain complementary information in the variance rather than in the central tendency. <xref ref-type="fig" rid="pone-0082071-g006">Figure 6</xref> depicts a dendrogram of cases and standardized gene expression levels for the FSHD-DB2 model. Each case is identified with an ID number, prefixed by a letter indicating class membership, <italic>H</italic> for Healthy and <italic>F</italic> for FSHD. It is apparent that the natural clusters are less homogeneous than those obtained for the FSHD-DB1 database. Nonetheless, the group of central clusters (formed only by Healthy cases, H4 to H36) is clearly identified by <italic>GDNF</italic> and <italic>EXTL1</italic>, both genes showing a definite up-regulation in all cases.</p>
+<fig id="pone-0082071-g005" position="float" orientation="portrait"><object-id pub-id-type="doi">10.1371/journal.pone.0082071.g005</object-id><label>Figure 5</label><caption>
+<title>Box plots for the expression levels of the genes in the FSHD-DB2 model.</title>
+</caption><graphic mimetype="image" xlink:href="info:doi/10.1371/journal.pone.0082071.g005" position="float" xlink:type="simple" orientation="portrait" /></fig><fig id="pone-0082071-g006" position="float" orientation="portrait"><object-id pub-id-type="doi">10.1371/journal.pone.0082071.g006</object-id><label>Figure 6</label><caption>
+<title>Clustering of the expression levels of the genes in the FSHD-DB2 model.</title>
+<p>Left: by genes; Top: by samples.</p>
+</caption><graphic mimetype="image" xlink:href="info:doi/10.1371/journal.pone.0082071.g006" position="float" xlink:type="simple" orientation="portrait" /></fig></sec><sec id="s2b2">
+<title>Statistical analysis</title>
+<p>Again, statistical significance of individual expression levels in the FSHD-DB2 model is assessed with a Mann-Whitney U-test (MWU) in the comparison between FSHD vs. Healthy samples.</p>
+<p>For <italic>Unknown-7905039</italic>, medians for the two groups (FSHD and Healthy) were <inline-formula><inline-graphic xlink:href="info:doi/10.1371/journal.pone.0082071.e024" xlink:type="simple" /></inline-formula> and <inline-formula><inline-graphic xlink:href="info:doi/10.1371/journal.pone.0082071.e025" xlink:type="simple" /></inline-formula>, resp.; the distributions in the two groups differed significantly (MannWhitney W = <inline-formula><inline-graphic xlink:href="info:doi/10.1371/journal.pone.0082071.e026" xlink:type="simple" /></inline-formula>, <inline-formula><inline-graphic xlink:href="info:doi/10.1371/journal.pone.0082071.e027" xlink:type="simple" /></inline-formula>-value <inline-formula><inline-graphic xlink:href="info:doi/10.1371/journal.pone.0082071.e028" xlink:type="simple" /></inline-formula>).</p>
+<p>For <italic>GDNF</italic>, medians for the two groups (FSHD and Healthy) were <inline-formula><inline-graphic xlink:href="info:doi/10.1371/journal.pone.0082071.e029" xlink:type="simple" /></inline-formula> and <inline-formula><inline-graphic xlink:href="info:doi/10.1371/journal.pone.0082071.e030" xlink:type="simple" /></inline-formula>, resp.; the distributions in the two groups differed significantly (MannWhitney W = <inline-formula><inline-graphic xlink:href="info:doi/10.1371/journal.pone.0082071.e031" xlink:type="simple" /></inline-formula>, <inline-formula><inline-graphic xlink:href="info:doi/10.1371/journal.pone.0082071.e032" xlink:type="simple" /></inline-formula>-value <inline-formula><inline-graphic xlink:href="info:doi/10.1371/journal.pone.0082071.e033" xlink:type="simple" /></inline-formula>).</p>
+<p>For <italic>EXTL1</italic>, medians for the two groups (FSHD and Healthy) were <inline-formula><inline-graphic xlink:href="info:doi/10.1371/journal.pone.0082071.e034" xlink:type="simple" /></inline-formula> and <inline-formula><inline-graphic xlink:href="info:doi/10.1371/journal.pone.0082071.e035" xlink:type="simple" /></inline-formula>, resp.; the distributions in the two groups differed significantly (MannWhitney W = <inline-formula><inline-graphic xlink:href="info:doi/10.1371/journal.pone.0082071.e036" xlink:type="simple" /></inline-formula>, <inline-formula><inline-graphic xlink:href="info:doi/10.1371/journal.pone.0082071.e037" xlink:type="simple" /></inline-formula>-value <inline-formula><inline-graphic xlink:href="info:doi/10.1371/journal.pone.0082071.e038" xlink:type="simple" /></inline-formula>).</p>
+<p>For the other three genes, the medians for the two groups are very close and the test is non-significant at the 95% level. This seems to confirm the previous interpretation of a first subgroup of three genes (<italic>Unknown-7905039</italic>, <italic>GDNF</italic> and <italic>EXTL1</italic>) that contain highly discriminant information in their means (or medians) and a second subgroup of another three genes (<italic>RPL36AP40</italic>, <italic>IGHMBP2</italic> and <italic>Unknown-8147750</italic>) that complement the first group. Interestingly, this split fully coincides with the order in which the genes were discovered by the feature selection process in <bold>Algorithm 1</bold>. The second-ranked gene, <italic>GDNF</italic>, is also chosen by the PAMR method (<xref ref-type="table" rid="pone-0082071-t005">Table 5</xref>).</p>
+<p>In contrast to the previous database, the genes in the FSHD-DB2 model seem quite different and, this time, no single gene can separate the two conditions neatly; rather, they collaborate to reach a very high classification accuracy. Indeeed, the absolute value of Spearman’s rank correlation coefficient is lower than 0.5 in all cases, and specially low in the first subgroup of relevant genes.</p>
+</sec><sec id="s2b3">
+<title>A final interpretable model</title>
+<p>As for the previous database, accuracy may be sacrificed for increased interpretability of the model. <xref ref-type="fig" rid="pone-0082071-g007">Figure 7</xref> shows a CART decision tree built with the FSHD-DB2 model. The interpretation of the tree is as follows: patients showing a value of <italic>GDNF</italic> lower than 6.8 are all classified (correctly) as having the FSHD condition, and this group constitutes 28% of the total; patients showing a value of <italic>GDNF</italic> greater than 6.8 and a value of <italic>EXTL1</italic> greater than 7.2 are all classified (correctly) as <italic>not</italic> having the FSHD condition, and this group constitutes 34% of the total; for the final group (38% of the total), 12 patients are correctly identified as having the FSHD condition, and the remaining 7 are incorrectly identified as having the FSHD condition; thus the tree makes 7 false positives and no false negatives.</p>
+<fig id="pone-0082071-g007" position="float" orientation="portrait"><object-id pub-id-type="doi">10.1371/journal.pone.0082071.g007</object-id><label>Figure 7</label><caption>
+<title>Classification tree for the simplified model in the FSHD-DB2 database.</title>
+<p>The boxes are leaves indicating the prediction, the numbers of cases for each condition, and the overall percentage of covered cases.</p>
+</caption><graphic mimetype="image" xlink:href="info:doi/10.1371/journal.pone.0082071.g007" position="float" xlink:type="simple" orientation="portrait" /></fig></sec><sec id="s2b4">
+<title>Biological evidence</title>
+<p>In this section, we compile scientific knowledge about the two genes in the final subset, including their known primary functions in cellular process.</p>
+</sec><sec id="s2b5">
+<title>GDNF</title>
+<p><italic>GDNF</italic> is <italic>glial cell derived neurotrophic factor</italic>: a gene encoding a highly conserved neurotrophic factor. The recombinant form of the protein has been shown to promote the survival and differentiation of dopaminergic neurons in culture, and is able to prevent apoptosis of motor neurons induced by axotomy <xref ref-type="bibr" rid="pone.0082071-GenCards1">[18]</xref>. GDNF is also associated to the Hirschsprung disease (HSCR), a congenital disorder typically characterised by a part or all of the large intestine having no nerves and intestinal obstruction, due to an absence of intramural ganglia along the intestine <xref ref-type="bibr" rid="pone.0082071-Hofstra1">[21]</xref>.</p>
+</sec><sec id="s2b6">
+<title>EXTL1</title>
+<p><italic>EXTL1</italic> is <italic>exostoses (multiple)-like 1</italic>. This gene is a member of the multiple exostoses (EXT) family of glycosyltransferases. The encoded protein is involved in chain elongation of some acidic complex polysaccharides found on the cell surface and in the extracellular matrix <xref ref-type="bibr" rid="pone.0082071-GenCards1">[18]</xref>. Mutation in EXT1 is associated with hereditary multiple exostoses, a human disorder characterized by the formation of cartilage-capped bony outgrowths at the epiphyseal growth plates <xref ref-type="bibr" rid="pone.0082071-Busse1">[22]</xref>.</p>
+</sec></sec></sec><sec id="s3">
+<title>Concluding Remarks</title>
+<p>The Facioscapulohumeral Muscular Dystrophy, or FSHD, is a highly rare muscle disease for which there is no known cure nowadays. Two databases presenting samples of both healthy and FSHD patients have been analyzed with machine learning (ML) methods. There is hardly any precedent in the literature addressing this disease with these techniques.</p>
+<p>The fact that the FSHD data analyzed in this study are scarce and of high dimensionality makes their computer-based automated classification a difficult undertaking. Most importantly, this high dimensionality precludes a straightforward interpretation of the obtained results, limiting their usability in a practical medical setting. In this vein, computational solutions like the one reported here should reckon the need of reporting not only highly accurate models: they should also represent low complexity and interpretable solutions amenable to further analysis by experts.</p>
+<p>We have devised an approach to prediction of the FSHD condition from gene expression profiling, comprising an effective algorithm for gene selection enhanced with a mechanism for tie-breaking and based on a fairly standard classifier. To demonstrate its effectiveness, we show that the method was highly efficient in identifying two subsets of genes that best characterize each class. In both cases, the discrimination process is shown very conveniently as a two-question decision tree. We have also provided evidence for the statistical significance and stability of the result. Our method delivers highly interpretable solutions that are more accurate than competing methods. The technique is general and could be used in other similar scenarios.</p>
+<p>However, in small sample scenarios, there is a high risk of overfitting the data: small samples will appropriately support only simple models with few parameters (acting as the coefficients of the features). Moreover, the use of a classifier having one or more hyper-parameters (these are parameters that the classifier cannot determine in its training process, and must be determined externally) is unaffordable, since this would require an additional resampling loop, for which there would almost be no data left. As a consequence, the determination of these parameters would be subject to a very high degree of uncertainty. We have selected Linear Discriminant Analysis (LDA) as the target classifier, using equal-covariance Gaussians to approximate class conditional probability densities. This choice corresponds to a linear, stable and parameter-free classifier. The LDA recognition rate was resampled using 5 times 5-fold cross validation.</p>
+<p>One should bear in mind that the excellent reported results do not –by themselves– entail a medical solution to the disease, a situation that is faced by all statistical and ML solutions. On the contrary, a main goal of exploratory studies of this kind should be aimed towards understanding how the variables selected by the model fit in relation to prior knowledge from the medical domain.</p>
+</sec><sec id="s4" sec-type="materials|methods">
+<title>Materials and Methods</title>
+<sec id="s4a">
+<title>The FSHD Databases</title>
+<p>The first database used in this contribution was obtained from the EMBL-EBI repository of the European Bioinformatics Institute <xref ref-type="bibr" rid="pone.0082071-NCBI1">[23]</xref>. Specifically, the <italic>Experiment E-GEOD-3307</italic> uses the Affymetrix GeneChip Human Genome HG-133A and HG-U133B designs to analyse a range of muscle diseases for gene expression comparative profiling purposes. A total of 121 muscle samples of 11 muscle pathologies (plus several healthy samples) integrate the data: acute quadriplegic myopathy, juvenile dermatomyositis, amyotophic lateral sclerosis, spastic paraplegia, fascioscapulohumeral muscular dystrophy, Emery Dreifuss muscular dystrophy, Becker muscular dystrophy, Duchenne muscular dystrophy, calpain 3, dysferlin, and the FKRP using U133A and U133B array design. These are diseases with a extremely low incidence rate in the general population. The Facioscapulohumeral Muscular Dystrophy (FSHD), the targeted group in this work, consists of 14 FSHD samples and 18 healthy samples described by 22,283 genes or features (HG-133A version).</p>
+<p>The second database was obtained from the GEO (Gene Expression Omnibus) repository, a publicly available site in the National Center for Biotechnology Information (NCBI). The <italic>Experiment GSE36398</italic>, “Transcriptional profiling in facioscapulohumeral muscular dystrophy to identify candidate biomarkers” is a very recent database containing FSHD information only. Using the Affymetrix Human Gene 1.0 ST Array, the experiment analyses RNA extracted from both biceps and deltoids of FSHD subjects (26 samples) and unaffected first-degree relatives (24 samples), rendering a dataset that consists of 50 samples, described by 33,297 genes or features <xref ref-type="bibr" rid="pone.0082071-Rahimov1">[24]</xref>.</p>
+<p>There are no missing data in any of the two datasets; and both contain a mixture of positive and negative examples, necessary for learning. Moreover, in both cases the whole datasets were used.</p>
+</sec><sec id="s4b">
+<title>Linear Discriminant Analysis</title>
+<p>Linear and quadratic discriminant analyses or LDA/QDA (Duda et al. 2001) are widely used parametric methods which assume that the class distributions are multivariate Gaussians. With LDA, all classes are assumed to have the same covariance matrix. QDA does not need such an assumption; however, the number of parameters to be estimated from the data available for each class is much higher, entailing lower statistical significance.</p>
+<p>In both methods, classification is achieved by assigning an example to the class for which the posterior probability <inline-formula><inline-graphic xlink:href="info:doi/10.1371/journal.pone.0082071.e039" xlink:type="simple" /></inline-formula> is greater, or equivalently for which <inline-formula><inline-graphic xlink:href="info:doi/10.1371/journal.pone.0082071.e040" xlink:type="simple" /></inline-formula> is greater.</p>
+<p>These methods are attractive because they need no parameter tuning, and their limited complexity (quadratic at most) may be a solid guard against overfitting the data. Moreover, for LDA fast updating procedures exist for the computation of certain forms of the cross-validation error <xref ref-type="bibr" rid="pone.0082071-Ripley1">[25]</xref>. The <italic>discriminant function</italic> for class <inline-formula><inline-graphic xlink:href="info:doi/10.1371/journal.pone.0082071.e041" xlink:type="simple" /></inline-formula> is expressed as:<disp-formula id="pone.0082071.e042"><graphic position="anchor" xlink:href="info:doi/10.1371/journal.pone.0082071.e042" xlink:type="simple" orientation="portrait" /></disp-formula><disp-formula id="pone.0082071.e043"><graphic position="anchor" xlink:href="info:doi/10.1371/journal.pone.0082071.e043" xlink:type="simple" orientation="portrait" /></disp-formula>which simplifies to:<disp-formula id="pone.0082071.e044"><graphic position="anchor" xlink:href="info:doi/10.1371/journal.pone.0082071.e044" xlink:type="simple" orientation="portrait" /></disp-formula></p>
+<p>If we assume that all class-conditional distributions <inline-formula><inline-graphic xlink:href="info:doi/10.1371/journal.pone.0082071.e045" xlink:type="simple" /></inline-formula> have the <italic>same</italic> covariance matrix <inline-formula><inline-graphic xlink:href="info:doi/10.1371/journal.pone.0082071.e046" xlink:type="simple" /></inline-formula>, we get:<disp-formula id="pone.0082071.e047"><graphic position="anchor" xlink:href="info:doi/10.1371/journal.pone.0082071.e047" xlink:type="simple" orientation="portrait" /></disp-formula></p>
+<p>These are <bold>linear discriminant functions</bold> (linear in <inline-formula><inline-graphic xlink:href="info:doi/10.1371/journal.pone.0082071.e048" xlink:type="simple" /></inline-formula>) and the <bold>decision boundaries</bold> <inline-formula><inline-graphic xlink:href="info:doi/10.1371/journal.pone.0082071.e049" xlink:type="simple" /></inline-formula> are hyperplanes in <inline-formula><inline-graphic xlink:href="info:doi/10.1371/journal.pone.0082071.e050" xlink:type="simple" /></inline-formula>-dimensional space.</p>
+<p>In practical situations, only an i.i.d data sample <inline-formula><inline-graphic xlink:href="info:doi/10.1371/journal.pone.0082071.e051" xlink:type="simple" /></inline-formula> is available. When means, covariances and priors for every class are not available, maximum-likelihood estimates on <inline-formula><inline-graphic xlink:href="info:doi/10.1371/journal.pone.0082071.e052" xlink:type="simple" /></inline-formula> can be used, although in this case the Bayesian optimality properties are no longer valid. Let <inline-formula><inline-graphic xlink:href="info:doi/10.1371/journal.pone.0082071.e053" xlink:type="simple" /></inline-formula> be the subset of samples known to belong to class <inline-formula><inline-graphic xlink:href="info:doi/10.1371/journal.pone.0082071.e054" xlink:type="simple" /></inline-formula>. Then <inline-formula><inline-graphic xlink:href="info:doi/10.1371/journal.pone.0082071.e055" xlink:type="simple" /></inline-formula> is a partition of <inline-formula><inline-graphic xlink:href="info:doi/10.1371/journal.pone.0082071.e056" xlink:type="simple" /></inline-formula>. Unbiased estimates for the vector means and for the class priors can be obtained as:<disp-formula id="pone.0082071.e057"><graphic position="anchor" xlink:href="info:doi/10.1371/journal.pone.0082071.e057" xlink:type="simple" orientation="portrait" /></disp-formula></p>
+<p>The following <italic>pooled</italic> covariance matrix is then used:<disp-formula id="pone.0082071.e058"><graphic position="anchor" xlink:href="info:doi/10.1371/journal.pone.0082071.e058" xlink:type="simple" orientation="portrait" /></disp-formula>where<disp-formula id="pone.0082071.e059"><graphic position="anchor" xlink:href="info:doi/10.1371/journal.pone.0082071.e059" xlink:type="simple" orientation="portrait" /></disp-formula></p>
+</sec><sec id="s4c">
+<title>Linear Support Vector Machines</title>
+<p>The support vector machine (SVM) is a machine learning method solidly based on statistical learning theory <xref ref-type="bibr" rid="pone.0082071-Vapnik1">[26]</xref>. Intuitively, given a set of examples labeled into one of two classes, the linear SVM finds their optimal linear separation: this is the hyperplane that maximizes the minimum orthogonal distance to a point of either class (this distance is called <italic>margin</italic> of the separation).</p>
+<p>Consider again an i.i.d data sample <inline-formula><inline-graphic xlink:href="info:doi/10.1371/journal.pone.0082071.e060" xlink:type="simple" /></inline-formula> of training patterns (in <inline-formula><inline-graphic xlink:href="info:doi/10.1371/journal.pone.0082071.e061" xlink:type="simple" /></inline-formula> dimensions), labelled into two classes <inline-formula><inline-graphic xlink:href="info:doi/10.1371/journal.pone.0082071.e062" xlink:type="simple" /></inline-formula> by <inline-formula><inline-graphic xlink:href="info:doi/10.1371/journal.pone.0082071.e063" xlink:type="simple" /></inline-formula>, with <inline-formula><inline-graphic xlink:href="info:doi/10.1371/journal.pone.0082071.e064" xlink:type="simple" /></inline-formula> if <inline-formula><inline-graphic xlink:href="info:doi/10.1371/journal.pone.0082071.e065" xlink:type="simple" /></inline-formula> and <inline-formula><inline-graphic xlink:href="info:doi/10.1371/journal.pone.0082071.e066" xlink:type="simple" /></inline-formula> if <inline-formula><inline-graphic xlink:href="info:doi/10.1371/journal.pone.0082071.e067" xlink:type="simple" /></inline-formula>. If we set up an affine function <inline-formula><inline-graphic xlink:href="info:doi/10.1371/journal.pone.0082071.e068" xlink:type="simple" /></inline-formula>, then we have a linear discriminant as <inline-formula><inline-graphic xlink:href="info:doi/10.1371/journal.pone.0082071.e069" xlink:type="simple" /></inline-formula>, for which we would like:<disp-formula id="pone.0082071.e070"><graphic position="anchor" xlink:href="info:doi/10.1371/journal.pone.0082071.e070" xlink:type="simple" orientation="portrait" /></disp-formula><disp-formula id="pone.0082071.e071"><graphic position="anchor" xlink:href="info:doi/10.1371/journal.pone.0082071.e071" xlink:type="simple" orientation="portrait" /></disp-formula></p>
+<p>In short, <inline-formula><inline-graphic xlink:href="info:doi/10.1371/journal.pone.0082071.e072" xlink:type="simple" /></inline-formula>, or <inline-formula><inline-graphic xlink:href="info:doi/10.1371/journal.pone.0082071.e073" xlink:type="simple" /></inline-formula>, for all <inline-formula><inline-graphic xlink:href="info:doi/10.1371/journal.pone.0082071.e074" xlink:type="simple" /></inline-formula>. Given the hyperplane <inline-formula><inline-graphic xlink:href="info:doi/10.1371/journal.pone.0082071.e075" xlink:type="simple" /></inline-formula>, the perpendicular distance from <inline-formula><inline-graphic xlink:href="info:doi/10.1371/journal.pone.0082071.e076" xlink:type="simple" /></inline-formula> to <inline-formula><inline-graphic xlink:href="info:doi/10.1371/journal.pone.0082071.e077" xlink:type="simple" /></inline-formula> is <inline-formula><inline-graphic xlink:href="info:doi/10.1371/journal.pone.0082071.e078" xlink:type="simple" /></inline-formula>. The <italic>support vectors</italic> are those <inline-formula><inline-graphic xlink:href="info:doi/10.1371/journal.pone.0082071.e079" xlink:type="simple" /></inline-formula> closest to the hyperplane. Rescaling <inline-formula><inline-graphic xlink:href="info:doi/10.1371/journal.pone.0082071.e080" xlink:type="simple" /></inline-formula> such that <inline-formula><inline-graphic xlink:href="info:doi/10.1371/journal.pone.0082071.e081" xlink:type="simple" /></inline-formula> for these closest points, one obtains <inline-formula><inline-graphic xlink:href="info:doi/10.1371/journal.pone.0082071.e082" xlink:type="simple" /></inline-formula>. The <italic>support vectors</italic> are now those <inline-formula><inline-graphic xlink:href="info:doi/10.1371/journal.pone.0082071.e083" xlink:type="simple" /></inline-formula>.</p>
+<p>The <italic>margin</italic> <inline-formula><inline-graphic xlink:href="info:doi/10.1371/journal.pone.0082071.e084" xlink:type="simple" /></inline-formula> of a plane <inline-formula><inline-graphic xlink:href="info:doi/10.1371/journal.pone.0082071.e085" xlink:type="simple" /></inline-formula> can now be written as twice its distance of any support vector: <inline-formula><inline-graphic xlink:href="info:doi/10.1371/journal.pone.0082071.e086" xlink:type="simple" /></inline-formula>, where <inline-formula><inline-graphic xlink:href="info:doi/10.1371/journal.pone.0082071.e087" xlink:type="simple" /></inline-formula>. To maximize the margin, we should minimize <inline-formula><inline-graphic xlink:href="info:doi/10.1371/journal.pone.0082071.e088" xlink:type="simple" /></inline-formula> subject to <inline-formula><inline-graphic xlink:href="info:doi/10.1371/journal.pone.0082071.e089" xlink:type="simple" /></inline-formula>, for all <inline-formula><inline-graphic xlink:href="info:doi/10.1371/journal.pone.0082071.e090" xlink:type="simple" /></inline-formula>.</p>
+<p>In the case where an hyperplane does not exist that can separate correctly the points in the data sample, a set of non-negative <italic>slack</italic> variables are introduced to allow for small <italic>margin violations</italic>, leading to a <italic>soft margin</italic>:<disp-formula id="pone.0082071.e091"><graphic position="anchor" xlink:href="info:doi/10.1371/journal.pone.0082071.e091" xlink:type="simple" orientation="portrait" /><label>(1)</label></disp-formula>where <inline-formula><inline-graphic xlink:href="info:doi/10.1371/journal.pone.0082071.e092" xlink:type="simple" /></inline-formula>. For an error to occur, the corresponding <inline-formula><inline-graphic xlink:href="info:doi/10.1371/journal.pone.0082071.e093" xlink:type="simple" /></inline-formula> must exceed unity, and so <inline-formula><inline-graphic xlink:href="info:doi/10.1371/journal.pone.0082071.e094" xlink:type="simple" /></inline-formula> is an upper bound on the number of <italic>training</italic> errors. The optimal separating hyperplane can be found as the solution of the 1-norm Quadratic Programming problem:<disp-formula id="pone.0082071.e095"><graphic position="anchor" xlink:href="info:doi/10.1371/journal.pone.0082071.e095" xlink:type="simple" orientation="portrait" /></disp-formula><disp-formula id="pone.0082071.e096"><graphic position="anchor" xlink:href="info:doi/10.1371/journal.pone.0082071.e096" xlink:type="simple" orientation="portrait" /></disp-formula></p>
+<p>The solution to this optimization problem corresponds to the saddle point of its associated Lagrangian:<disp-formula id="pone.0082071.e097"><graphic position="anchor" xlink:href="info:doi/10.1371/journal.pone.0082071.e097" xlink:type="simple" orientation="portrait" /></disp-formula>where <inline-formula><inline-graphic xlink:href="info:doi/10.1371/journal.pone.0082071.e098" xlink:type="simple" /></inline-formula> for <inline-formula><inline-graphic xlink:href="info:doi/10.1371/journal.pone.0082071.e099" xlink:type="simple" /></inline-formula>.</p>
+<p>Once this QP problem is solved, the solution vector <inline-formula><inline-graphic xlink:href="info:doi/10.1371/journal.pone.0082071.e100" xlink:type="simple" /></inline-formula> can be expressed as a linear expansion over the support vectors:<disp-formula id="pone.0082071.e101"><graphic position="anchor" xlink:href="info:doi/10.1371/journal.pone.0082071.e101" xlink:type="simple" orientation="portrait" /><label>(2)</label></disp-formula></p>
+<p>The support vectors are precisely those <inline-formula><inline-graphic xlink:href="info:doi/10.1371/journal.pone.0082071.e102" xlink:type="simple" /></inline-formula> for which <inline-formula><inline-graphic xlink:href="info:doi/10.1371/journal.pone.0082071.e103" xlink:type="simple" /></inline-formula>.</p>
+</sec><sec id="s4d">
+<title>Resampling Methods</title>
+<p>Model selection is concerned with the process of finding the optimal model for a set of samples among a set of candidate models. Resampling methods aim at making a better use of the available data. These methods are very useful for assessing how a predictive model that can be the result of a complex modeling process will perform in practice.</p>
+<p>The generic goal of cross-validation (CV) is to estimate the expected error of a model in a data set that is independent of the data that were used to train the model. One round of <inline-formula><inline-graphic xlink:href="info:doi/10.1371/journal.pone.0082071.e104" xlink:type="simple" /></inline-formula>-fold CV (or <inline-formula><inline-graphic xlink:href="info:doi/10.1371/journal.pone.0082071.e105" xlink:type="simple" /></inline-formula>-CV) involves partitioning the sample into <inline-formula><inline-graphic xlink:href="info:doi/10.1371/journal.pone.0082071.e106" xlink:type="simple" /></inline-formula> complementary subsets, systematically performing the modeling on the union of <inline-formula><inline-graphic xlink:href="info:doi/10.1371/journal.pone.0082071.e107" xlink:type="simple" /></inline-formula> such subsets and checking the obtained model on the remaining subset (acting as a validation set). The result of <inline-formula><inline-graphic xlink:href="info:doi/10.1371/journal.pone.0082071.e108" xlink:type="simple" /></inline-formula>-CV is an estimation of the error if only a fraction <inline-formula><inline-graphic xlink:href="info:doi/10.1371/journal.pone.0082071.e109" xlink:type="simple" /></inline-formula> of the available data is used. This error is expected to be conservative (larger than the error obtained if the entire sample was used). To reduce variability, multiple rounds can be performed using different partitions, and the results averaged over the rounds.</p>
+</sec><sec id="s4e">
+<title>The Feature Selection Algorithm</title>
+<p>Feature selection can be seen as a search problem, where each state in the search space corresponds to a subset of the features. In the ML literature, a wide family of suboptimal algorithms depart from an initial solution and iteratively add or delete features by locally optimizing the error function. In <italic>forward selection</italic>, features are progressively incorporated into larger subsets; in <italic>backward selection</italic> (or elimination) one starts with the full set of features and progressively eliminates elements from it.</p>
+<p>Wrappers are often criticized because they are computationally very expensive. Moreover, feature selection is badly affected by small sample sizes, producing overly optimistic results and introducing an excess of variance in the readings. This is aggravated in the presence of very sophisticated search algorithms <xref ref-type="bibr" rid="pone.0082071-Reunanen1">[27]</xref>. On the other hand, greedy search strategies seem to be particularly computationally advantageous and may alleviate the problem of overfitting <xref ref-type="bibr" rid="pone.0082071-Guyon1">[28]</xref>. Nevertheless, traditional pure forwardd selection and backward elimination search algorithms are ill-advised in that they cannot rectify their decisions and may end up delivering poor solutions both in terms of quality and size.</p>
+<p>To reduce the number of genes and obtain small subsets of highly relevant genes, we use a simple but effective forward-backward feature selection algorithm. This algorithm follows the wrapper idea, <italic>i.e.</italic>, the feature selection algorithm uses a learner as a subroutine in the search for good subsets <xref ref-type="bibr" rid="pone.0082071-John1">[29]</xref>. In this general setting, when features are added or removed from the current subset the algorithm resorts to some performance measure –commonly the resampled rate of recognition.</p>
+<p>An interleaved forward-backward search is developed looking for the improvement in performance of the chosen performance measure. The algorithm is described as the listing <bold>Algorithm 1</bold>. Given a performance measure <inline-formula><inline-graphic xlink:href="info:doi/10.1371/journal.pone.0082071.e110" xlink:type="simple" /></inline-formula> to be maximized (in this case, the resampled evaluation of a classifier in a data sample), the algorithm searches the space of subsets by adding/removing features in a hill-climbing fashion.</p>
+<p>Specifically, in every iteration of the outer loop, one feature is added to the current best solution <inline-formula><inline-graphic xlink:href="info:doi/10.1371/journal.pone.0082071.e111" xlink:type="simple" /></inline-formula>, as long as this step improves on current performance <inline-formula><inline-graphic xlink:href="info:doi/10.1371/journal.pone.0082071.e112" xlink:type="simple" /></inline-formula>. Then a variable number of feature removal steps is carried out, inasmuch the same condition of improved performance is met. This scheme is oriented to favour solutions with low numbers of features. The outer iteration also ends when no further improvement is observed. This strategy bears some resemblances with a floating search algorithm in its forward version <xref ref-type="bibr" rid="pone.0082071-Pudil1">[30]</xref>. However, it has a far lower computational cost given that discarded features are not considered again for another inclusion round. Note also that current subset performance is not compared specifically against the best performance achieved for the <italic>same</italic> size of the current subset (as floating methods do). It should be mentioned that the algorithm itself needs no parameter specification, although the chosen performance measure could have.</p>
+<p><bold>Algorithm 1</bold> Forward-Backward gene feature selection.</p>
+<p>1: Input: <inline-formula><inline-graphic xlink:href="info:doi/10.1371/journal.pone.0082071.e113" xlink:type="simple" /></inline-formula>: Full feature set;</p>
+<p><inline-formula><inline-graphic xlink:href="info:doi/10.1371/journal.pone.0082071.e114" xlink:type="simple" /></inline-formula>: Class feature (Healthy, FSHD)</p>
+<p><inline-formula><inline-graphic xlink:href="info:doi/10.1371/journal.pone.0082071.e115" xlink:type="simple" /></inline-formula>: performance measure, to be maximized</p>
+<p>2: <inline-formula><inline-graphic xlink:href="info:doi/10.1371/journal.pone.0082071.e116" xlink:type="simple" /></inline-formula></p>
+<p>3: <inline-formula><inline-graphic xlink:href="info:doi/10.1371/journal.pone.0082071.e117" xlink:type="simple" /></inline-formula></p>
+<p>4: <inline-formula><inline-graphic xlink:href="info:doi/10.1371/journal.pone.0082071.e118" xlink:type="simple" /></inline-formula></p>
+<p>5: repeat</p>
+<p>6: ***Forward Stage***</p>
+<p>7: <inline-formula><inline-graphic xlink:href="info:doi/10.1371/journal.pone.0082071.e119" xlink:type="simple" /></inline-formula></p>
+<p>8: <inline-formula><inline-graphic xlink:href="info:doi/10.1371/journal.pone.0082071.e120" xlink:type="simple" /></inline-formula></p>
+<p>9: <bold>if</bold> <inline-formula><inline-graphic xlink:href="info:doi/10.1371/journal.pone.0082071.e121" xlink:type="simple" /></inline-formula> <bold>then.</bold></p>
+<p>10: <inline-formula><inline-graphic xlink:href="info:doi/10.1371/journal.pone.0082071.e122" xlink:type="simple" /></inline-formula></p>
+<p>11: <inline-formula><inline-graphic xlink:href="info:doi/10.1371/journal.pone.0082071.e123" xlink:type="simple" /></inline-formula></p>
+<p>12: <inline-formula><inline-graphic xlink:href="info:doi/10.1371/journal.pone.0082071.e124" xlink:type="simple" /></inline-formula></p>
+<p>13: <bold>end if</bold></p>
+<p>14: ***Backward Stage***</p>
+<p>15: repeat</p>
+<p>16: <inline-formula><inline-graphic xlink:href="info:doi/10.1371/journal.pone.0082071.e125" xlink:type="simple" /></inline-formula></p>
+<p>17: <inline-formula><inline-graphic xlink:href="info:doi/10.1371/journal.pone.0082071.e126" xlink:type="simple" /></inline-formula></p>
+<p>18: <bold>if</bold> <inline-formula><inline-graphic xlink:href="info:doi/10.1371/journal.pone.0082071.e127" xlink:type="simple" /></inline-formula> <bold>then</bold></p>
+<p>19: <inline-formula><inline-graphic xlink:href="info:doi/10.1371/journal.pone.0082071.e128" xlink:type="simple" /></inline-formula></p>
+<p>20: <inline-formula><inline-graphic xlink:href="info:doi/10.1371/journal.pone.0082071.e129" xlink:type="simple" /></inline-formula></p>
+<p>21: <bold>end if</bold></p>
+<p>22: <bold>until</bold> <italic>BEST</italic> <bold>does not change</bold></p>
+<p>23: <bold>until</bold> <italic>BEST</italic> <bold>does not change</bold></p>
+<p>24: <bold>Output</bold>: <italic>BEST</italic>: <bold>Optimized feature subset</bold></p>
+<p>As explained in the introduction, we are interested in a solution that combines high predictive performance, very small size (<italic>i.e.</italic>, a very low number of useful genes), admits visualization and interpretation, and hopefully may bear biological relevance.</p>
+<p>To this end, we explicit now how the methods previously described glue together. The performance measure <inline-formula><inline-graphic xlink:href="info:doi/10.1371/journal.pone.0082071.e130" xlink:type="simple" /></inline-formula> to be maximized in <bold>Algorithm 1</bold> is the accuracy rate of LDA. This recognition rate is resampled using 5 times 5-fold cross validation (5×5 cv for short), following common practices in the literature <xref ref-type="bibr" rid="pone.0082071-Hastie1">[31]</xref>.</p>
+<p>Due to the low number of samples, ties among the performance measure can happen easily. As a consequence, the gene subset selection process will end up in different final solutions, something that is not desirable in general <xref ref-type="bibr" rid="pone.0082071-Zhou1">[32]</xref>. How these ties are broken is non-trivial and should be addressed specifically and explicitly. However, the literature does not seem to offer any formal solution or procedure. Univariate methods as entropy-based measures <xref ref-type="bibr" rid="pone.0082071-Bell1">[33]</xref>, <xref ref-type="bibr" rid="pone.0082071-Furlanello1">[34]</xref>, the Fisher Score <xref ref-type="bibr" rid="pone.0082071-Duda1">[35]</xref>, or some other statistical measures could be those preferred for their simplicity –see <italic>e.g.</italic> <xref ref-type="bibr" rid="pone.0082071-Liu1">[36]</xref>, <xref ref-type="bibr" rid="pone.0082071-Liu2">[37]</xref>. Instead, a <italic>multivariate</italic> feature ranking method seems much more adequate to measure the relevance of a group of tied features.</p>
+<p>As explained above, linear support vector machines (SVMs) can be seen as linear discriminant classifiers. Indeed, the numbers <inline-formula><inline-graphic xlink:href="info:doi/10.1371/journal.pone.0082071.e131" xlink:type="simple" /></inline-formula> in eq. (2) have been used as a surrogate for the relevance of the <inline-formula><inline-graphic xlink:href="info:doi/10.1371/journal.pone.0082071.e132" xlink:type="simple" /></inline-formula>-th gene since the pioneering work of <xref ref-type="bibr" rid="pone.0082071-Guyon2">[38]</xref>. Notice that our approach is different in that predictive performance is the main criterion for optimization. Only in case of ties is the magnitude of the SVM weight vector being used. This is because the relation between this magnitude and final performance is rather indirect. This margin-based <italic>tie-breaking</italic> procedure has been incorporated into the feature selection algorithm. It is used every time an evaluation of the performance measure may incur on one or more ties –lines 2,7 and 16 in <bold>Algorithm 1</bold>.</p>
+</sec><sec id="s4f">
+<title>Other Methods</title>
+<sec id="s4f1">
+<title>Prediction analysis for microarrays</title>
+<p>PAMR (Prediction Analysis for Microarrays) performs sample classification from gene expression data, via the nearest shrunken centroid method <xref ref-type="bibr" rid="pone.0082071-Tibshirani1">[39]</xref>. Similarly to the proposed method, PAMR estimates prediction error via cross-validation and provides a list of significant genes whose expression characterizes each diagnostic class.</p>
+</sec><sec id="s4f2">
+<title>Support vector machine for recursive feature elimination</title>
+<p>SVM-RFE (Support Vector Machine - Recursive Feature Elimination) <xref ref-type="bibr" rid="pone.0082071-Guyon2">[38]</xref> has been used widely with great success in microarray data analysis, particularly for disease gene finding. It largely eliminates redundant genes and usually yields very compact gene subsets. The genes are eliminated according to a ranking related to weight magnitude in the SVM solution. This is the same criterion for tie-breaking described in the previous section.</p>
+</sec></sec><sec id="s4g">
+<title>Software Implementation</title>
+<p><bold>Algorithm 1</bold> was implemented entirely in MATLAB language, version 2012a. The computer codes were run on an Ubuntu Linux server version 11.10 with an Intel(R) Xeon(R) CPU E5620 @ 2.40 GHz and 8 cores. The deployed solution to <bold>Algorithm 1</bold> takes advantage of the possibility to parallelize parts of the code, particularly lines 2, 7 and 16. In an 8-core scenario, eight genes or features can be evaluated at the same time. The complete software and instructions to reproduce the experiments described in this paper (or to conduct new ones) is available at <ext-link ext-link-type="uri" xlink:href="http://nova.mxl.uabc.mx/fernando/PO/for" xlink:type="simple">http://nova.mxl.uabc.mx/fernando/PO/for</ext-link> the interested reader.</p>
+<p>The LDA classification algorithm and the resampling methods implied in <bold>Algorithm 1</bold> are developed using already existing MATLAB functions. The only part that uses an external toolbox is in the tie-breaking procedure –eq. (2). The well-known Steve Gunn’s MATLAB Support Vector Machine Toolbox <xref ref-type="bibr" rid="pone.0082071-Gunn1">[40]</xref> was used for this purpose. Full specification of parameters is described in the url link given above.</p>
+<p>It is important to clarify that the data sets were used without any pre-processing step. The learning algorithms and the complete experimental setting were fed with the original downloaded E-GEOD-3307 and GSE36398 data. Complete details about the E-GEOD-3307 data set can be found at <ext-link ext-link-type="uri" xlink:href="http://www.ebi.ac.uk/arrayexpress/experiments/E-GEOD-3307/and" xlink:type="simple">http://www.ebi.ac.uk/arrayexpress/experiments/E-GEOD-3307/and</ext-link> for GSE36398 data set, the location is <ext-link ext-link-type="uri" xlink:href="http://0-www.ncbi.nlm.nih.gov.elis.tmu.edu.tw/sites/GDSbrowser?acc=GDS4404" xlink:type="simple">http://0-www.ncbi.nlm.nih.gov.elis.tmu.edu.tw/sites/GDSbrowser?acc=GDS4404</ext-link>. The two datasets differ in the number of columns given that they correspond to different technologies or gene chip versions. Although it is possible to map genes from one technology to another, this process requires a considerable effort that goes beyond the scope of this paper.</p>
+<p>The PAMR experiments were conducted through a specific R implementation <xref ref-type="bibr" rid="pone.0082071-Tibshirani1">[39]</xref> and run on the same Ubuntu Linux server described above. Specifically, the Nearest Shrunken Centroid classification algorithm works by shrinking each of the class centroids toward the overall centroid by a certain amount called the <italic>threshold</italic>. We used an adaptive computation of this value as provided in the PAMR package.</p>
+<p>The SVM-RFE experiments were implemented with the Spider v1.7 software, a MATLAB Machine Learning package popular for feature selection tasks –see <ext-link ext-link-type="uri" xlink:href="http://people.kyb.tuebingen.mpg.de/spider/main.html" xlink:type="simple">http://people.kyb.tuebingen.mpg.de/spider/main.html</ext-link>.</p>
+</sec></sec></body>
+<back><ref-list>
+<title>References</title>
+<ref id="pone.0082071-Tawil1"><label>1</label>
+<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Tawil</surname><given-names>R</given-names></name> (<year>2008</year>) <article-title>Facioscapulohumeral muscular dystrophy</article-title>. <source>Neurotherapeutics</source> <volume>5</volume>: <fpage>601</fpage>–<lpage>606</lpage>.</mixed-citation>
+</ref>
+<ref id="pone.0082071-Engel1"><label>2</label>
+<mixed-citation publication-type="other" xlink:type="simple">Engel A, Franzini-Armstrong C (2004) Myology, McGraw Hill, chapter Facioscapulohumeral Muscular Dystrophy and Scapuloperoneal Disorders. 1123–1133.</mixed-citation>
+</ref>
+<ref id="pone.0082071-MDC1"><label>3</label>
+<mixed-citation publication-type="other" xlink:type="simple">MDC. Muscular dystrophy campaign. Available: <ext-link ext-link-type="uri" xlink:href="http://www.muscular-dystrophy.org/" xlink:type="simple">http://www.muscular-dystrophy.org/</ext-link>. Accessed 2012 Apr 4.</mixed-citation>
+</ref>
+<ref id="pone.0082071-vanderMaarel1"><label>4</label>
+<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>van der Maarel</surname><given-names>S</given-names></name>, <name name-style="western"><surname>Frants</surname><given-names>R</given-names></name>, <name name-style="western"><surname>Padberg</surname><given-names>G</given-names></name> (<year>2007</year>) <article-title>Facioscapulohumeral muscular dystrophy</article-title>. <source>Biochimica et Biophysica Acta (BBA) - Molecular Basis of Disease</source> <volume>1772</volume>: <fpage>186</fpage>–<lpage>194</lpage>.</mixed-citation>
+</ref>
+<ref id="pone.0082071-Tawil2"><label>5</label>
+<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Tawil</surname><given-names>R</given-names></name>, <name name-style="western"><surname>Figlewicz</surname><given-names>D</given-names></name>, <name name-style="western"><surname>Griggs</surname><given-names>R</given-names></name>, <name name-style="western"><surname>Weiffenbach</surname><given-names>B</given-names></name> (<year>1998</year>) <article-title>Facioscapulohumeral dystrophy: A distinct regional myopathy with a novel molecular pathogenesis</article-title>. <source>Annals of Neurology</source> <volume>43</volume>: <fpage>279</fpage>–<lpage>282</lpage>.</mixed-citation>
+</ref>
+<ref id="pone.0082071-Rose1"><label>6</label>
+<mixed-citation publication-type="other" xlink:type="simple">Rose M, Tawil R (2004) Drug treatment for facioscapulohumeral muscular dystrophy. Cochrane Database of Systematic Reviews 2.</mixed-citation>
+</ref>
+<ref id="pone.0082071-vanderMaarel2"><label>7</label>
+<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>van der Maarel</surname><given-names>S</given-names></name>, <name name-style="western"><surname>Tawil</surname><given-names>R</given-names></name>, <name name-style="western"><surname>Tapscott</surname><given-names>SJ</given-names></name> (<year>2011</year>) <article-title>Facioscapulohumeral muscular dystrophy and dux4: breaking the silence</article-title>. <source>Trends in Molecular Medicine</source> <volume>7</volume>: <fpage>252</fpage>–<lpage>258</lpage>.</mixed-citation>
+</ref>
+<ref id="pone.0082071-Tim1"><label>8</label>
+<mixed-citation publication-type="other" xlink:type="simple">Tim R, Gilbert J, Stajich J, Rampersaud E, Viles K, <etal>et al</etal>.. (2001) Clinical studies in nonchromosome 4-linked facioscapulohumeral muscular dystrophy. Journal of Clinical Neuromuscular Disease 3.</mixed-citation>
+</ref>
+<ref id="pone.0082071-VantVeer1"><label>9</label>
+<mixed-citation publication-type="other" xlink:type="simple">Vant’Veer L, Dai H, Vijver M, He Y, Hart A, <etal>et al</etal>.. (2002) Gene expression profiling predicts clinical outcome of breast cancer. Nature: 530–536.</mixed-citation>
+</ref>
+<ref id="pone.0082071-Schlkopf1"><label>10</label>
+<mixed-citation publication-type="other" xlink:type="simple">Schölkopf B, Tsuda K, Vert JP (2004) Kernel methods in computational biology. Cambridge, Mass.: MIT Press.</mixed-citation>
+</ref>
+<ref id="pone.0082071-Lukas1"><label>11</label>
+<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Lukas</surname><given-names>L</given-names></name>, <name name-style="western"><surname>Devos</surname><given-names>A</given-names></name>, <name name-style="western"><surname>Suykens</surname><given-names>J</given-names></name>, <name name-style="western"><surname>Vanhamme</surname><given-names>L</given-names></name>, <name name-style="western"><surname>Howe</surname><given-names>F</given-names></name>, <etal>et al</etal>. (<year>2004</year>) <article-title>Brain tumor classification based on long echo proton mrs signals</article-title>. <source>Artificial Intelligence in Medicine</source> <volume>31</volume>: <fpage>73</fpage>–<lpage>89</lpage>.</mixed-citation>
+</ref>
+<ref id="pone.0082071-Dupuy1"><label>12</label>
+<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Dupuy</surname><given-names>A</given-names></name>, <name name-style="western"><surname>Simon</surname><given-names>RM</given-names></name> (<year>2007</year>) <article-title>Critical review of published microarray studies for cancer outcome and guidelines on statistical analysis and reporting</article-title>. <source>Journal of the National Cancer Institute</source> <volume>99</volume>: <fpage>147</fpage>–<lpage>157</lpage>.</mixed-citation>
+</ref>
+<ref id="pone.0082071-Pistoni1"><label>13</label>
+<mixed-citation publication-type="other" xlink:type="simple">Pistoni M, Shiue L, Cline MS, Bortolanza S, Neguembor MV, <etal>et al</etal>.. (2013) Rbfox1 downregulation and altered calpain 3 splicing by frg1 in a mouse model of facioscapulohumeral muscular dystrophy (FSHD). PLoS Genet 9(1).</mixed-citation>
+</ref>
+<ref id="pone.0082071-BragaNeto1"><label>14</label>
+<mixed-citation publication-type="other" xlink:type="simple">Braga-Neto UM, Dougherty ER (2004) Is cross-validation valid for small-sample microarray classification? Bioinformatics 20(3).</mixed-citation>
+</ref>
+<ref id="pone.0082071-Breiman1"><label>15</label>
+<mixed-citation publication-type="other" xlink:type="simple">Breiman L, Friedman J, Olshen R, Stone C (1984) Classification and Regression Trees. CRC Press.</mixed-citation>
+</ref>
+<ref id="pone.0082071-Hall1"><label>16</label>
+<mixed-citation publication-type="other" xlink:type="simple">Hall M, Corbett A, Pavlath G (2011) Myogenesis, Elsevier, chapter Regulation of Nucleocytoplasmic Transport in Skeletal Muscle. 274–293.</mixed-citation>
+</ref>
+<ref id="pone.0082071-Hall2"><label>17</label>
+<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Hall</surname><given-names>MN</given-names></name>, <name name-style="western"><surname>Griffin</surname><given-names>CA</given-names></name>, <name name-style="western"><surname>Simionescu</surname><given-names>A</given-names></name>, <name name-style="western"><surname>Corbett</surname><given-names>AH</given-names></name>, <name name-style="western"><surname>Pavlath</surname><given-names>GK</given-names></name> (<year>2011</year>) <article-title>Distinct roles for classical nuclear import receptors in the growth of multinucleated muscle cells</article-title>. <source>Developmental Biology</source> <volume>357</volume>: <fpage>248</fpage>–<lpage>258</lpage>.</mixed-citation>
+</ref>
+<ref id="pone.0082071-GenCards1"><label>18</label>
+<mixed-citation publication-type="other" xlink:type="simple">GenCards. Weizmann Institute of Science. Available: <ext-link ext-link-type="uri" xlink:href="http://www.genecards.org/" xlink:type="simple">http://www.genecards.org/</ext-link>. Accessed 2012 Jun.</mixed-citation>
+</ref>
+<ref id="pone.0082071-GeneAtlas1"><label>19</label>
+<mixed-citation publication-type="other" xlink:type="simple">GeneAtlas. Université René Descartes - Paris. Available: <ext-link ext-link-type="uri" xlink:href="http://www.dsi.univ-paris5.fr/genatlas/" xlink:type="simple">http://www.dsi.univ-paris5.fr/genatlas/</ext-link>. Accessed 2012 Jun.</mixed-citation>
+</ref>
+<ref id="pone.0082071-Lange1"><label>20</label>
+<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Lange</surname><given-names>M</given-names></name>, <name name-style="western"><surname>Kaynak</surname><given-names>B</given-names></name>, <name name-style="western"><surname>Forster</surname><given-names>UB</given-names></name>, <name name-style="western"><surname>Tönjes</surname><given-names>M</given-names></name>, <name name-style="western"><surname>Fischer</surname><given-names>JJ</given-names></name>, <etal>et al</etal>. (<year>2008</year>) <article-title>Regulation of muscle development by DPF3, a novel histone acetylation and methylation reader of the BAF chromatin remodeling complex</article-title>. <source>Genes &amp; Development</source> <volume>22</volume>: <fpage>2370</fpage>–<lpage>2384</lpage>.</mixed-citation>
+</ref>
+<ref id="pone.0082071-Hofstra1"><label>21</label>
+<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Hofstra</surname><given-names>RM</given-names></name>, <name name-style="western"><surname>Wu</surname><given-names>Y</given-names></name>, <name name-style="western"><surname>Stulp</surname><given-names>RP</given-names></name>, <name name-style="western"><surname>Elfferich</surname><given-names>P</given-names></name>, <name name-style="western"><surname>Osinga</surname><given-names>J</given-names></name>, <etal>et al</etal>. (<year>2000</year>) <article-title>Ret and gdnf gene scanning in hirschsprung patients using two dual denaturing gel systems</article-title>. <source>Human Mutation</source> <volume>15</volume>: <fpage>418</fpage>–<lpage>429</lpage>.</mixed-citation>
+</ref>
+<ref id="pone.0082071-Busse1"><label>22</label>
+<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Busse</surname><given-names>M</given-names></name>, <name name-style="western"><surname>Feta</surname><given-names>A</given-names></name>, <name name-style="western"><surname>Presto</surname><given-names>J</given-names></name>, <name name-style="western"><surname>Wil</surname><given-names>M</given-names></name>, <name name-style="western"><surname>Grnning</surname><given-names>M</given-names></name>, <etal>et al</etal>. (<year>2007</year>) <article-title>Contribution of ext1, ext2, and extl3 to heparan sulfate chain elongation</article-title>. <source>Journal of Biological Chemistry</source> <volume>282</volume>: <fpage>32802</fpage>–<lpage>32810</lpage>.</mixed-citation>
+</ref>
+<ref id="pone.0082071-NCBI1"><label>23</label>
+<mixed-citation publication-type="other" xlink:type="simple">NCBI (2012). National Center of Biothecnology Information. Available: <ext-link ext-link-type="uri" xlink:href="http://www.ncbi.nlm" xlink:type="simple">http://www.ncbi.nlm</ext-link>. nih.gov/. Accessed 2012 Aug.</mixed-citation>
+</ref>
+<ref id="pone.0082071-Rahimov1"><label>24</label>
+<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Rahimov</surname><given-names>F</given-names></name>, <name name-style="western"><surname>King</surname><given-names>O</given-names></name>, <name name-style="western"><surname>Leung</surname><given-names>D</given-names></name>, <name name-style="western"><surname>Bibat</surname><given-names>G</given-names></name>, <name name-style="western"><surname>Emerson</surname><given-names>C</given-names></name>, <etal>et al</etal>. (<year>2012</year>) <article-title>Transcriptional profiling in facioscapulohumeral muscular dystrophy to identify candidate biomarkers</article-title>. <source>Proceedings of the National Academy of Sciences</source> <volume>109</volume>: <fpage>16234</fpage>–<lpage>16239</lpage>.</mixed-citation>
+</ref>
+<ref id="pone.0082071-Ripley1"><label>25</label>
+<mixed-citation publication-type="other" xlink:type="simple">Ripley BD (1996) Pattern Recognition and Neural Networks. Cambridge University Press.</mixed-citation>
+</ref>
+<ref id="pone.0082071-Vapnik1"><label>26</label>
+<mixed-citation publication-type="other" xlink:type="simple">Vapnik V (1998) Statistical Learning Theory. John Wiley and Sons.</mixed-citation>
+</ref>
+<ref id="pone.0082071-Reunanen1"><label>27</label>
+<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Reunanen</surname><given-names>J</given-names></name>, <name name-style="western"><surname>Guyon</surname><given-names>I</given-names></name>, <name name-style="western"><surname>Elisseeff</surname><given-names>A</given-names></name> (<year>2003</year>) <article-title>Overfitting in making comparisons between variable selection methods</article-title>. <source>Journal of Machine Learning Research</source> <volume>3</volume>: <fpage>1371</fpage>–<lpage>1382</lpage>.</mixed-citation>
+</ref>
+<ref id="pone.0082071-Guyon1"><label>28</label>
+<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Guyon</surname><given-names>I</given-names></name>, <name name-style="western"><surname>Elisseeff</surname><given-names>A</given-names></name> (<year>2003</year>) <article-title>An introduction to variable and feature selection</article-title>. <source>Journal of Machine Learning Research</source> <volume>3</volume>: <fpage>1157</fpage>–<lpage>1182</lpage>.</mixed-citation>
+</ref>
+<ref id="pone.0082071-John1"><label>29</label>
+<mixed-citation publication-type="other" xlink:type="simple">John G, Kohavi R, Peger K (1994) Irrelevant features and the subset selection problem. In: Proceedings of the International Conference on Machine Learning.</mixed-citation>
+</ref>
+<ref id="pone.0082071-Pudil1"><label>30</label>
+<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Pudil</surname><given-names>P</given-names></name>, <name name-style="western"><surname>Ferri</surname><given-names>F</given-names></name>, <name name-style="western"><surname>Novovicova</surname><given-names>J</given-names></name>, <name name-style="western"><surname>Kittler</surname><given-names>J</given-names></name> (<year>1994</year>) <article-title>Floating search methods for feature selection</article-title>. <source>Pattern recognition letters</source> <volume>15</volume>: <fpage>1119</fpage>–<lpage>1125</lpage>.</mixed-citation>
+</ref>
+<ref id="pone.0082071-Hastie1"><label>31</label>
+<mixed-citation publication-type="other" xlink:type="simple">Hastie T, Tibshirani R, Friedman JH (2001) The Elements of Statistical Learning. Springer-Verlag, New York.</mixed-citation>
+</ref>
+<ref id="pone.0082071-Zhou1"><label>32</label>
+<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Zhou</surname><given-names>X</given-names></name>, <name name-style="western"><surname>Mao</surname><given-names>KZ</given-names></name> (<year>2006</year>) <article-title>The ties problem resulting from counting-based error estimators and its impact on gene selection algorithms</article-title>. <source>Bioinformatics</source> <volume>22</volume>: <fpage>2507</fpage>–<lpage>2515</lpage>.</mixed-citation>
+</ref>
+<ref id="pone.0082071-Bell1"><label>33</label>
+<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Bell</surname><given-names>DA</given-names></name>, <name name-style="western"><surname>Wang</surname><given-names>H</given-names></name> (<year>2000</year>) <article-title>A formalism for relevance and its application in feature subset selection</article-title>. <source>Machine Learning</source> <volume>41</volume>: <fpage>175</fpage>–<lpage>195</lpage>.</mixed-citation>
+</ref>
+<ref id="pone.0082071-Furlanello1"><label>34</label>
+<mixed-citation publication-type="other" xlink:type="simple">Furlanello C, Serafini M, Merler S, Jurman G (2003) Entropy-based gene ranking without selection bias for the predictive classification of microarray data. BMC Bioinformatics 4.</mixed-citation>
+</ref>
+<ref id="pone.0082071-Duda1"><label>35</label>
+<mixed-citation publication-type="other" xlink:type="simple">Duda R, Hart P (2001) Pattern Recognition and Scene Analysis. John Wiley and Sons.</mixed-citation>
+</ref>
+<ref id="pone.0082071-Liu1"><label>36</label>
+<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Liu</surname><given-names>H</given-names></name>, <name name-style="western"><surname>Li</surname><given-names>J</given-names></name>, <name name-style="western"><surname>Wong</surname><given-names>L</given-names></name> (<year>2002</year>) <article-title>A comparative study on feature selection and classification methods using gene expression profiles and proteomic patterns</article-title>. <source>Genome Informatics</source> <volume>13</volume>: <fpage>51</fpage>–<lpage>60</lpage>.</mixed-citation>
+</ref>
+<ref id="pone.0082071-Liu2"><label>37</label>
+<mixed-citation publication-type="other" xlink:type="simple">Liu H, Motoda H (1998) Feature extraction, construction and selection. A data mining perspective. Kluwer Academic Publishers.</mixed-citation>
+</ref>
+<ref id="pone.0082071-Guyon2"><label>38</label>
+<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Guyon</surname><given-names>I</given-names></name>, <name name-style="western"><surname>Weston</surname><given-names>J</given-names></name>, <name name-style="western"><surname>Barhill</surname><given-names>S</given-names></name>, <name name-style="western"><surname>Vapnik</surname><given-names>V</given-names></name> (<year>2002</year>) <article-title>Gene selection for cancer classification using support vector machines</article-title>. <source>Machine Learning</source> <volume>46</volume>: <fpage>389</fpage>–<lpage>422</lpage>.</mixed-citation>
+</ref>
+<ref id="pone.0082071-Tibshirani1"><label>39</label>
+<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Tibshirani</surname><given-names>R</given-names></name>, <name name-style="western"><surname>Hastie</surname><given-names>T</given-names></name>, <name name-style="western"><surname>Narasimhan</surname><given-names>B</given-names></name>, <name name-style="western"><surname>Chu</surname><given-names>G</given-names></name> (<year>2002</year>) <article-title>Diagnosis of multiple cancer types by shrunken centroids of gene expression</article-title>. <source>Proceedings of the National Academy of Sciences</source> <volume>99</volume>: <fpage>6567</fpage>–<lpage>6572</lpage>.</mixed-citation>
+</ref>
+<ref id="pone.0082071-Gunn1"><label>40</label>
+<mixed-citation publication-type="other" xlink:type="simple">Gunn SR (1997) Support vector machines for classification and regression. Technical report, Image Speech and Intelligent Systems Research Group, University of Southampton.</mixed-citation>
+</ref>
+</ref-list></back>
+</article>

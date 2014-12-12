@@ -1,0 +1,1428 @@
+<article xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" article-type="research-article" dtd-version="3.0" xml:lang="en">
+	<front>
+		<journal-meta>
+    <journal-id journal-id-type="nlm-ta">PLoS ONE</journal-id>
+    <journal-id journal-id-type="publisher-id">plos</journal-id>
+    <journal-id journal-id-type="pmc">plosone</journal-id>
+    <journal-title-group><journal-title xml:lang="en">PLoS ONE</journal-title></journal-title-group>
+    <issn pub-type="epub">1932-6203</issn>
+    <publisher><publisher-name>Public Library of Science</publisher-name>
+    <publisher-loc>San Francisco, USA</publisher-loc></publisher>
+    </journal-meta><article-meta>
+			<article-id pub-id-type="publisher-id">PONE-D-13-21181</article-id><article-id pub-id-type="doi">10.1371/journal.pone.0083843</article-id><article-categories><subj-group subj-group-type="heading">
+    <subject>Research Article</subject></subj-group></article-categories><title-group>
+				<article-title>Vitamin D Receptor Gene Polymorphisms on the Risk of Tuberculosis, a Meta-Analysis of 29 Case-Control Studies</article-title>
+			<alt-title alt-title-type="running-head">Vitamin D Receptor Gene Variants and Tuberculosis</alt-title>
+      </title-group>
+			<contrib-group>
+				<contrib xlink:type="simple" contrib-type="author">
+					<name name-style="western">
+						<surname>Chen</surname>
+						<given-names>Cheng</given-names>
+					</name>
+					<xref ref-type="aff" rid="aff1" />
+				</contrib>
+				<contrib xlink:type="simple" contrib-type="author">
+					<name name-style="western">
+						<surname>Liu</surname>
+						<given-names>Qiao</given-names>
+					</name>
+					<xref ref-type="aff" rid="aff1" />
+				</contrib>
+				<contrib xlink:type="simple" contrib-type="author">
+					<name name-style="western">
+						<surname>Zhu</surname>
+						<given-names>Limei</given-names>
+					</name>
+					<xref ref-type="aff" rid="aff1" />
+				</contrib>
+				<contrib xlink:type="simple" contrib-type="author">
+					<name name-style="western">
+						<surname>Yang</surname>
+						<given-names>Haitao</given-names>
+					</name>
+					<xref ref-type="aff" rid="aff1" />
+				</contrib>
+				<contrib xlink:type="simple" contrib-type="author">
+					<name name-style="western">
+						<surname>Lu</surname>
+						<given-names>Wei</given-names>
+					</name>
+					<xref ref-type="corresp" rid="cor1"><sup>*</sup></xref>
+					<xref ref-type="aff" rid="aff1" />
+				</contrib>
+			</contrib-group>
+			<aff id="aff1"><addr-line>Department of Chronic Communicable Disease, Center for Disease Control and Prevention of Jiangsu Province, Nanjing, China</addr-line></aff>
+			<contrib-group><contrib contrib-type="editor" xlink:type="simple">
+          <name name-style="western">
+            <surname>van Boven</surname>
+            <given-names>Michiel</given-names>
+          </name>
+          <role>Editor</role>
+          <xref ref-type="aff" rid="edit1" />
+        </contrib>
+        </contrib-group><aff id="edit1"><addr-line>National Institute for Public Health and the Environment, Netherlands</addr-line></aff><author-notes>
+				<corresp id="cor1">* E-mail: <email xlink:type="simple">lwjscdc@gmail.com</email></corresp>
+			<fn fn-type="conflict"><p>The authors have declared that no competing interests exist.</p></fn><fn fn-type="con"><p>Conceived and designed the experiments: CC WL. Analyzed the data: CC QL LMZ HTY. Wrote the manuscript: CC. </p></fn></author-notes>
+			<pub-date pub-type="collection"><year>2013</year></pub-date><pub-date pub-type="epub">
+        <day>13</day>
+        <month>12</month>
+        <year>2013</year>
+      </pub-date>
+      <volume>8</volume><issue>12</issue><elocation-id>e83843</elocation-id><history><date date-type="received">
+          <day>23</day>
+          <month>5</month>
+          <year>2013</year>
+        </date>
+        <date date-type="accepted">
+          <day>17</day>
+          <month>11</month>
+          <year>2013</year>
+        </date>
+      </history><permissions>
+    <copyright-year>2013</copyright-year><copyright-holder>Chen et al</copyright-holder><license xlink:type="simple" xlink:href="http://creativecommons.org/licenses/by/4.0/"><license-p>This is an open-access article distributed under the terms of the <ext-link ext-link-type="uri" xlink:href="http://creativecommons.org/licenses/by/4.0/" xlink:type="simple">Creative Commons Attribution License</ext-link>, which permits unrestricted use, distribution, and reproduction in any medium, provided the original author and source are credited.</license-p></license>
+    </permissions><abstract>
+				<p>The relationship of four potentially functional polymorphisms of the vitamin D receptor (VDR) gene, ApaI, BsmI, FokI and TaqI , with tuberculosis susceptibility were considered. The aim of this meta-analysis was to explore the association between the four polymorphisms and tuberculosis risk in different ethnic backgrounds. Eligible case-control studies that were catalogued before April 1<sup>st</sup> 2013 were enrolled, and the heterogeneity between the studies was evaluated using a χ<sup>2</sup> based <italic>Q</italic>-test. Fixed and random effect models were built to evaluate the association of the four polymorphisms with the risk of tuberculosis, and the association between the four polymorphisms and tuberculosis was expressed as the odds ratio (OR) and 95% confidence interval (CI). Finally, twenty nine qualified studies were enrolled for this meta-analysis that included 6179 tuberculosis cases and 6585 healthy controls. The variant homozygote genotype of the FokI polymorphism was associated with a significantly increased risk of tuberculosis when compared to the heterozygote and wild type homozygote genotypes in the Chinese population (ff vs. Ff+FF: OR<sub><italic>recessive</italic></sub>=1.97, 95%CI: 1.32-2.93, <italic>P</italic><sub><italic>bonferroni</italic></sub>=0.0032; heterogeneity test: χ<sup>2</sup>=0.24, <italic>P</italic>=0.62). For European subjects, the homozygote and heterozygote genotypes of the BsmI polymorphism were associated with a significantly decreased risk of tuberculosis when compared to the wild type homozygote (bb+Bb vs. BB: OR<sub><italic>dominant</italic></sub>=0.41, 95%CI, 0.22-0.76, <italic>P</italic><sub><italic>bonferroni</italic></sub>=0.02; heterogeneity test: χ<sup>2</sup>=2.59, <italic>P</italic>=0.11). Based on the above results, we conclude that variants of the VDR gene that are homozygous for the FokI polymorphism might be more susceptible to tuberculosis in Chinese. Furthermore, larger sample studies are warranted to confirm the protective effects of BsmI variants on tuberculosis in the Europeans.</p>
+			</abstract>
+		<funding-group><funding-statement>This study was supported by project of Jiangsu preventive medicine (Y201030) and research funds of Ministry of Health (W201208). The funders had no role in study design, data collection and analysis, decision to publish, or preparation of the manuscript.</funding-statement></funding-group></article-meta>
+	</front>
+	<body>
+		<sec id="s1" sec-type="introduction">
+			<title>Introduction</title>
+			<p>Several studies have revealed that a deficiency of vitamin D would increase the risk of tuberculosis [<xref ref-type="bibr" rid="B1">1</xref>,<xref ref-type="bibr" rid="B2">2</xref>], and vitamin D from food or exposure to sunlight would benefit the treatment of tuberculosis [<xref ref-type="bibr" rid="B3">3</xref>-<xref ref-type="bibr" rid="B5">5</xref>]. 1,25-dihydroxyvitamin D<sub>3</sub>, which is the active form of vitamin D, was activated by 1α-hydoxylase that was expressed by macrophages and other immune cells and bind to the vitamin D receptor (VDR) for to modulate the immune system in fighting with <italic>Mycobacterium</italic> infection [<xref ref-type="bibr" rid="B6">6</xref>]. </p>
+			<p>In recent years, the anti-bacteria effects of Vitamin D in the human immune system have been explored extensively [<xref ref-type="bibr" rid="B7">7</xref>]. Meanwhile, host-genetic susceptibility was considered contribute to the risk of tuberculosis development. The VDR gene is located in the chromosomal 12q13 region, and, in the last decade, studies have focused on the association between genetic variants of the VDR gene and tuberculosis risk based on the hypothesis that genetic alterations of the VDR gene might lead to important defects in gene activation, that could affect immune function. For instance, deleterious mutations in the VDR gene cause 1, -25-dihydroxivitamin D resistant rickets, a rare monogenetic disease [<xref ref-type="bibr" rid="B8">8</xref>]. Four potentially functional single nucleotide polymorphisms (SNPs) of the VDR gene (ApaI, SNP ID: rs7975232; BsmI, SNP ID: rs1544410; FokI, SNP ID: rs2228570; and TaqI, SNP ID: rs731236) have been main focus in relation to the risk of tuberculosis compared to other SNPs. Changes in the amino acid sequence or transcriptional activity might be induced by these four mutations; therefore, these mutations could affect an individual’s susceptibility to tuberculosis.</p>
+			<p>Due to underpowered design or small study sample size, previous studies have not reached a consensus regarding the association between the VDR gene variants and tuberculosis risk [<xref ref-type="bibr" rid="B9">9</xref>-<xref ref-type="bibr" rid="B11">11</xref>]. A previous meta-analysis conducted by Gao et al reported marginal, significant associations of the ApaI and TaqI polymorphisms with tuberculosis risk [<xref ref-type="bibr" rid="B12">12</xref>], but this finding needs to be validated in a larger pooled sample size. After the results reported by Gao et al, nearly ten research studies were conducted to elucidate the relationship between the VDR gene polymorphisms and tuberculosis risk, and their results were also inconsistent. Additionally, studies of European ethnicity [<xref ref-type="bibr" rid="B13">13</xref>,<xref ref-type="bibr" rid="B14">14</xref>] were not included in the analysis in the previous meta-report. Thus, because previous results were inconsistent and more ethnic background needed to be added, it was necessary to carry out this meta-analysis on the relationship between hot spot variants of the VDR gene and the risk of tuberculosis.</p>
+		</sec>
+		<sec id="s2" sec-type="methods">
+			<title>Methods</title>
+			<sec id="s2.1">
+				<title>Search protocol and eligibility of enrolled studies</title>
+				<p>We searched two databases for association studies of VDR gene polymorphisms and tuberculosis: PubMed and Web of Science. We conducted the search from March 18<sup>th</sup> 2013 to April 1<sup>st</sup> 2013, and all the searched results were finally updated on April 1<sup>st</sup> 2013. All articles catalogued before April 1<sup>st</sup> 2013 were considered. Two medical subject headings (Mesh), “Tuberculosis” and “Vitamin D receptor”, were used to search for related articles, and qualified articles were included according to the following criteria: (1) the original articles were published in English; (2) the studies had a case-control design and were conducted in human beings; and (3) the articles contained available genotyping information on VDR gene polymorphisms (ApaI, BsmI, FokI and TaqI were the four SNPs that were analyzed in this article). Two independent investigators were employed to search the related articles according to the above criteria.</p>
+			</sec>
+			<sec id="s2.2">
+				<title>Data extraction</title>
+				<p>The two investigators independently extracted data and reached a consensus on all of the items. If the two investigators generated different results, they would check the data again and finally reach a consensus. An expert would be invited to the discussion if they could not reach an agreement. Data extracted from the selected articles included the first author’s name, year of publication, country of origin, ethnicity, number of cases and controls, diagnosis method of cases and the selection of controls. </p>
+			</sec>
+			<sec id="s2.3">
+				<title>Statistical analysis</title>
+				<p>The association between the four polymorphisms and risk of tuberculosis for each study was estimated by the odds ratio (OR) and 95% confidence interval (CI). A χ<sup>2</sup>-test-based <italic>Q</italic> statistic test was performed to assess the between study heterogeneity, and <italic>P</italic>&lt;0.05 was considered a significant level. A fixed-effect model by the Mantel–Haenszel method and a random-effect model by the DerSimonian and Laird method were adopted for combining data. When the P value of heterogeneity was &lt;0.05, then a random-effect model was employed. Otherwise, the fixed-effect model was adopted throughout the analyses. These two models provided similar results when heterogeneity between studies was absent; otherwise, a random-effect model was more appropriate. Bonferroni correction was adopted for multiple comparisons.</p>
+				<p>Heterozygote and variant homozygote of each SNP was compared with the wild-type homozygote to estimate the risk of tuberculosis. Then, a dominant model, that combined variant homozygote and heterozygote genotypes, was established to calculate the risk of tuberculosis, versus the wild-type homozygote. Meanwhile, heterozygote and wild-type homozygote genotypes of each SNP were also combined as a recessive model to evaluate the risk of tuberculosis, versus the variant homozygote.</p>
+				<p>Stratification analyses were performed based on ethnicity and region, and a meta regression was used to illustrate the potential reasons for heterogeneity between the studies. Inverted funnel plots, an Egger’s test and a Horbold-Egger’s test were used to assess publication bias [<xref ref-type="bibr" rid="B15">15</xref>]. Meta-analysis was carried out using Review Manager (V5.2, The Cochrane Collaboration, Oxford, UK); meanwhile, Egger’s test for publication bias was conducted using Stata software (V10.0, Stata, College Station, TX, USA), and evaluations were made assuming a two-sided test with a significance level of 0.05.</p>
+			</sec>
+		</sec>
+		<sec id="s3" sec-type="results">
+			<title>Results</title>
+			<sec id="s3.1">
+				<title>Characteristics of enrolled studies</title>
+				<p>A flow chart of the inclusion and exclusion procedures of the articles is shown in <xref ref-type="fig" rid="pone-0083843-g001">Figure 1</xref>. According to the inclusion criteria, twenty nine qualified case-control studies were included in the final analysis [<xref ref-type="bibr" rid="B10">10</xref>,<xref ref-type="bibr" rid="B11">11</xref>,<xref ref-type="bibr" rid="B13">13</xref>,<xref ref-type="bibr" rid="B14">14</xref>,<xref ref-type="bibr" rid="B16">16</xref>-<xref ref-type="bibr" rid="B40">40</xref>]. Seventeen studies were conducted in Asia, seven in Africa and the remaining five were conducted in Europe and America. The basic information of the enrolled studies was listed in <xref ref-type="table" rid="pone-0083843-t001">Table 1</xref>. A total of 6179 tuberculosis cases were obtained in the twenty nine studies, including 5306 (85.9%) with pulmonary tuberculosis, 383 (6.2%) with extra pulmonary tuberculosis, and 490 with (7.9%) tuberculosis without a specific disease origination part of the body. The corresponding controls for the tuberculosis cases were 6585. Meanwhile, the HIV (Human Immunodeficiency Virus) status was not available in eleven (37.9%) studies. In this meta-analysis, SNPs (ApaI and BsmI) near the 3′ untranslated region (UTR) and SNPs (FokI and TaqI) in the coding region were evaluated. The TaqI polymorphism was the most evaluated SNP in the twenty five case-control studies, while FokI was found in twenty three studies, BsmI was found in eighteen studies and ApaI was found in fifteen studies.</p>
+				<fig id="pone-0083843-g001" position="float" orientation="portrait">
+					<object-id pub-id-type="doi">10.1371/journal.pone.0083843.g001</object-id><label>Figure 1</label>
+					<caption>
+						<title>Flow chart of study inclusion.</title>
+					</caption>
+					<graphic xlink:type="simple" position="float" xlink:href="info:doi/10.1371/journal.pone.0083843.g001" orientation="portrait" />
+				</fig>
+				<table-wrap id="pone-0083843-t001" position="float" orientation="portrait">
+					<object-id pub-id-type="doi">10.1371/journal.pone.0083843.t001</object-id><label>Table 1</label>
+					<caption>
+						<title>Basic information of qualified cases-control studies on vitamin D receptor gene polymorphisms for tuberculosis.</title>
+					</caption>
+					<table>
+						<colgroup span="1"><col span="1" /><col span="1" /><col span="1" /><col span="1" /><col span="1" /><col span="1" /><col span="1" /><col span="1" /><col span="1" /><col span="1" /><col span="1" /></colgroup>
+						<thead>
+							<tr>
+								<th rowspan="1" colspan="1">Year</th>
+								<th rowspan="1" colspan="1">First Author  </th>
+								<th rowspan="1" colspan="1">Country</th>
+								<th rowspan="1" colspan="1">Ethnicity</th>
+								<th rowspan="1" colspan="1">Tuberculosis</th>
+								<th rowspan="1" colspan="1" />
+								<th rowspan="1" colspan="1" />
+								<th rowspan="1" colspan="1">Controls</th>
+								<th rowspan="1" colspan="1" />
+								<th rowspan="1" colspan="1">HIV status</th>
+								<th rowspan="1" colspan="1">SNPs</th>
+							</tr>
+							<tr>
+								<th rowspan="1" colspan="1" />
+								<th rowspan="1" colspan="1" />
+								<th rowspan="1" colspan="1" />
+								<th rowspan="1" colspan="1" />
+								<th rowspan="1" colspan="1">Part of the body</th>
+								<th rowspan="1" colspan="1">Sample size</th>
+								<th rowspan="1" colspan="1">Diagnosis method</th>
+								<th rowspan="1" colspan="1" />
+								<th rowspan="1" colspan="1">Sample size</th>
+								<th rowspan="1" colspan="1" />
+								<th rowspan="1" colspan="1" />
+							</tr>
+						</thead>
+						<tbody>							
+							<tr>
+								<td rowspan="1" colspan="1">1999</td>
+								<td rowspan="1" colspan="1">Bellamy</td>
+								<td rowspan="1" colspan="1">Gambia</td>
+								<td rowspan="1" colspan="1">African</td>
+								<td rowspan="1" colspan="1">Pulmonary tuberculosis</td>
+								<td rowspan="1" colspan="1">408</td>
+								<td rowspan="1" colspan="1">AFB smear</td>
+								<td rowspan="1" colspan="1">Male donors</td>
+								<td rowspan="1" colspan="1">414</td>
+								<td rowspan="1" colspan="1">All tested negative</td>
+								<td rowspan="1" colspan="1">TaqI</td>
+							</tr>
+							<tr>
+								<td rowspan="1" colspan="1">2000</td>
+								<td rowspan="1" colspan="1">Selvaraj</td>
+								<td rowspan="1" colspan="1">India</td>
+								<td rowspan="1" colspan="1">Asian</td>
+								<td rowspan="1" colspan="1">Spinal tuberculosis</td>
+								<td rowspan="1" colspan="1">66</td>
+								<td rowspan="1" colspan="1">Culture and X-ray  </td>
+								<td rowspan="1" colspan="1">Spouses of TB contacts</td>
+								<td rowspan="1" colspan="1">80</td>
+								<td rowspan="1" colspan="1">Not available</td>
+								<td rowspan="1" colspan="1">TaqI</td>
+							</tr>
+							<tr>
+								<td rowspan="1" colspan="1">2000</td>
+								<td rowspan="1" colspan="1">Wilkinson</td>
+								<td rowspan="1" colspan="1">India</td>
+								<td rowspan="1" colspan="1">Asian</td>
+								<td rowspan="1" colspan="1">Pulmonary tuberculosis(27) and military tuberculosis (64)</td>
+								<td rowspan="1" colspan="1">91</td>
+								<td rowspan="1" colspan="1">Biopsy or culture</td>
+								<td rowspan="1" colspan="1">Tuberculosis contacts with no TB</td>
+								<td rowspan="1" colspan="1">116</td>
+								<td rowspan="1" colspan="1">All tested negative</td>
+								<td rowspan="1" colspan="1">FokI, TaqI</td>
+							</tr>
+							<tr>
+								<td rowspan="1" colspan="1">2002</td>
+								<td rowspan="1" colspan="1">Delgado</td>
+								<td rowspan="1" colspan="1">Cambodia</td>
+								<td rowspan="1" colspan="1">Asian</td>
+								<td rowspan="1" colspan="1">Pulmonary tuberculosis</td>
+								<td rowspan="1" colspan="1">358</td>
+								<td rowspan="1" colspan="1">AFB smear</td>
+								<td rowspan="1" colspan="1">Control with no signs or symptoms  of TB</td>
+								<td rowspan="1" colspan="1">106</td>
+								<td rowspan="1" colspan="1">All tested negative</td>
+								<td rowspan="1" colspan="1">TaqI</td>
+							</tr>
+							<tr>
+								<td rowspan="1" colspan="1">2002</td>
+								<td rowspan="1" colspan="1">Fibla</td>
+								<td rowspan="1" colspan="1">Spain</td>
+								<td rowspan="1" colspan="1">European</td>
+								<td rowspan="1" colspan="1">Pulmonary tuberculosis(48) and extra pulmonary tuberculosis (18)</td>
+								<td rowspan="1" colspan="1">66</td>
+								<td rowspan="1" colspan="1">Culture and X-ray  </td>
+								<td rowspan="1" colspan="1">Healthy persons</td>
+								<td rowspan="1" colspan="1">136</td>
+								<td rowspan="1" colspan="1">Cases positive, Controls negative</td>
+								<td rowspan="1" colspan="1">BsmI</td>
+							</tr>
+							<tr>
+								<td rowspan="1" colspan="1">2003</td>
+								<td rowspan="1" colspan="1">Selvaraj</td>
+								<td rowspan="1" colspan="1">India</td>
+								<td rowspan="1" colspan="1">Asian</td>
+								<td rowspan="1" colspan="1">Pulmonary tuberculosis</td>
+								<td rowspan="1" colspan="1">120</td>
+								<td rowspan="1" colspan="1">Culture</td>
+								<td rowspan="1" colspan="1">patient contacts</td>
+								<td rowspan="1" colspan="1">80</td>
+								<td rowspan="1" colspan="1">Not available</td>
+								<td rowspan="1" colspan="1">FokI, ApaI, BsmI</td>
+							</tr>
+							<tr>
+								<td rowspan="1" colspan="1">2004</td>
+								<td rowspan="1" colspan="1">Bornman</td>
+								<td rowspan="1" colspan="1">Gambia, Guinea-Bissau, Guinea</td>
+								<td rowspan="1" colspan="1">African</td>
+								<td rowspan="1" colspan="1">Pulmonary tuberculosis</td>
+								<td rowspan="1" colspan="1">417</td>
+								<td rowspan="1" colspan="1">AFB or culture</td>
+								<td rowspan="1" colspan="1">healthy community control subjects</td>
+								<td rowspan="1" colspan="1">722</td>
+								<td rowspan="1" colspan="1">Cases (12.5%),controls(6.8%)</td>
+								<td rowspan="1" colspan="1">FokI, ApaI, TaqI, BsmI</td>
+							</tr>
+							<tr>
+								<td rowspan="1" colspan="1">2004</td>
+								<td rowspan="1" colspan="1">Fitness</td>
+								<td rowspan="1" colspan="1">Malawi</td>
+								<td rowspan="1" colspan="1">African</td>
+								<td rowspan="1" colspan="1">Tuberculosis</td>
+								<td rowspan="1" colspan="1">386</td>
+								<td rowspan="1" colspan="1">AFB smear, culture and histology</td>
+								<td rowspan="1" colspan="1">age, sex and area of residence matched with cases</td>
+								<td rowspan="1" colspan="1">624</td>
+								<td rowspan="1" colspan="1">HIV positive in 67.6% cases and 13.1% controls</td>
+								<td rowspan="1" colspan="1">ApaI, TaqI, BsmI</td>
+							</tr>
+							<tr>
+								<td rowspan="1" colspan="1">2004</td>
+								<td rowspan="1" colspan="1">Liu</td>
+								<td rowspan="1" colspan="1">China</td>
+								<td rowspan="1" colspan="1">Asian</td>
+								<td rowspan="1" colspan="1">Pulmonary tuberculosis</td>
+								<td rowspan="1" colspan="1">120</td>
+								<td rowspan="1" colspan="1">AFB smear, culture and X-ray</td>
+								<td rowspan="1" colspan="1">normal controls</td>
+								<td rowspan="1" colspan="1">240</td>
+								<td rowspan="1" colspan="1">All reported negative</td>
+								<td rowspan="1" colspan="1">FokI, TaqI</td>
+							</tr>
+							<tr>
+								<td rowspan="1" colspan="1">2004</td>
+								<td rowspan="1" colspan="1">Roth</td>
+								<td rowspan="1" colspan="1">Peru</td>
+								<td rowspan="1" colspan="1">American</td>
+								<td rowspan="1" colspan="1">Pulmonary tuberculosis</td>
+								<td rowspan="1" colspan="1">103</td>
+								<td rowspan="1" colspan="1">AFB smear</td>
+								<td rowspan="1" colspan="1">Two healthy controls,1PPD+ and 1PPD-</td>
+								<td rowspan="1" colspan="1">206</td>
+								<td rowspan="1" colspan="1">All reported negative</td>
+								<td rowspan="1" colspan="1">FokI, TaqI</td>
+							</tr>
+							<tr>
+								<td rowspan="1" colspan="1">2004</td>
+								<td rowspan="1" colspan="1">Selvaraj</td>
+								<td rowspan="1" colspan="1">India</td>
+								<td rowspan="1" colspan="1">Asian</td>
+								<td rowspan="1" colspan="1">Spinal tuberculosis patients</td>
+								<td rowspan="1" colspan="1">64</td>
+								<td rowspan="1" colspan="1">X-ray and Clinical criteria</td>
+								<td rowspan="1" colspan="1">Normal healthy controls</td>
+								<td rowspan="1" colspan="1">103</td>
+								<td rowspan="1" colspan="1">Not available</td>
+								<td rowspan="1" colspan="1">FokI, ApaI, TaqI, BsmI</td>
+							</tr>
+							<tr>
+								<td rowspan="1" colspan="1">2006</td>
+								<td rowspan="1" colspan="1">Lombard</td>
+								<td rowspan="1" colspan="1">Venda</td>
+								<td rowspan="1" colspan="1">African</td>
+								<td rowspan="1" colspan="1">Pulmonary and meningeal tuberculosis</td>
+								<td rowspan="1" colspan="1">104</td>
+								<td rowspan="1" colspan="1">AFB smear</td>
+								<td rowspan="1" colspan="1">Healthy controls with no history of TB</td>
+								<td rowspan="1" colspan="1">117</td>
+								<td rowspan="1" colspan="1">All reported negative</td>
+								<td rowspan="1" colspan="1">FokI, ApaI, TaqI, BsmI</td>
+							</tr>
+							<tr>
+								<td rowspan="1" colspan="1">2007</td>
+								<td rowspan="1" colspan="1">Babb</td>
+								<td rowspan="1" colspan="1">South Africa</td>
+								<td rowspan="1" colspan="1">African</td>
+								<td rowspan="1" colspan="1">Pulmonary tuberculosis</td>
+								<td rowspan="1" colspan="1">249</td>
+								<td rowspan="1" colspan="1">AFB smear and X-Ray</td>
+								<td rowspan="1" colspan="1">No clinical history or symptoms of TB</td>
+								<td rowspan="1" colspan="1">352</td>
+								<td rowspan="1" colspan="1">All reported negative</td>
+								<td rowspan="1" colspan="1">FokI, ApaI, TaqI</td>
+							</tr>
+							<tr>
+								<td rowspan="1" colspan="1">2007</td>
+								<td rowspan="1" colspan="1"><underline>Olesen</underline></td>
+								<td rowspan="1" colspan="1">Guinea-Bissau</td>
+								<td rowspan="1" colspan="1">African</td>
+								<td rowspan="1" colspan="1">Pulmonary tuberculosis</td>
+								<td rowspan="1" colspan="1">321</td>
+								<td rowspan="1" colspan="1">AFB smear and clinical critiera</td>
+								<td rowspan="1" colspan="1">Healthy controls</td>
+								<td rowspan="1" colspan="1">347</td>
+								<td rowspan="1" colspan="1">HIV positive in 33% cases and negative in controls</td>
+								<td rowspan="1" colspan="1">FokI, ApaI, TaqI, BsmI</td>
+							</tr>
+							<tr>
+								<td rowspan="1" colspan="1">2007</td>
+								<td rowspan="1" colspan="1">Soborg</td>
+								<td rowspan="1" colspan="1">Tanzanian</td>
+								<td rowspan="1" colspan="1">African</td>
+								<td rowspan="1" colspan="1">Pulmonary tuberculosis</td>
+								<td rowspan="1" colspan="1">443</td>
+								<td rowspan="1" colspan="1">Culture</td>
+								<td rowspan="1" colspan="1">Culture negative</td>
+								<td rowspan="1" colspan="1">426</td>
+								<td rowspan="1" colspan="1">HIV positive in 44% cases and 18% controls</td>
+								<td rowspan="1" colspan="1">FokI, ApaI, TaqI</td>
+							</tr>
+							<tr>
+								<td rowspan="1" colspan="1">2007</td>
+								<td rowspan="1" colspan="1">Wilbur</td>
+								<td rowspan="1" colspan="1">Paraguay</td>
+								<td rowspan="1" colspan="1">American</td>
+								<td rowspan="1" colspan="1">Pulmonary tuberculosis</td>
+								<td rowspan="1" colspan="1">54</td>
+								<td rowspan="1" colspan="1">Clinical symptoms, PPD test</td>
+								<td rowspan="1" colspan="1">No symptoms</td>
+								<td rowspan="1" colspan="1">124</td>
+								<td rowspan="1" colspan="1">Not available</td>
+								<td rowspan="1" colspan="1">FokI, TaqI</td>
+							</tr>
+							<tr>
+								<td rowspan="1" colspan="1">2008</td>
+								<td rowspan="1" colspan="1">Selvaraj</td>
+								<td rowspan="1" colspan="1">India</td>
+								<td rowspan="1" colspan="1">Asian</td>
+								<td rowspan="1" colspan="1">Pulmonary tuberculosis</td>
+								<td rowspan="1" colspan="1">51</td>
+								<td rowspan="1" colspan="1">AFB smear and culture</td>
+								<td rowspan="1" colspan="1">Normal healthy subjects</td>
+								<td rowspan="1" colspan="1">60</td>
+								<td rowspan="1" colspan="1">All reported negative</td>
+								<td rowspan="1" colspan="1">FokI, ApaI, TaqI, BsmI</td>
+							</tr>
+							<tr>
+								<td rowspan="1" colspan="1">2009</td>
+								<td rowspan="1" colspan="1">Alagarasu</td>
+								<td rowspan="1" colspan="1">India</td>
+								<td rowspan="1" colspan="1">Asian</td>
+								<td rowspan="1" colspan="1">Pulmonary (190) and extra pulmonary tuberculosis (31)</td>
+								<td rowspan="1" colspan="1">221</td>
+								<td rowspan="1" colspan="1">AFB smear, clinical criteria and X-ray</td>
+								<td rowspan="1" colspan="1">Healthy controls</td>
+								<td rowspan="1" colspan="1">146</td>
+								<td rowspan="1" colspan="1">Cases(51%),Controls(0)</td>
+								<td rowspan="1" colspan="1">FokI, ApaI, TaqI, BsmI</td>
+							</tr>
+							<tr>
+								<td rowspan="1" colspan="1">2009</td>
+								<td rowspan="1" colspan="1">Merza</td>
+								<td rowspan="1" colspan="1">Iran</td>
+								<td rowspan="1" colspan="1">Asian</td>
+								<td rowspan="1" colspan="1">Pulmonary Tuberculosis</td>
+								<td rowspan="1" colspan="1">117</td>
+								<td rowspan="1" colspan="1">AFB smear and X-ray</td>
+								<td rowspan="1" colspan="1">Healthy individuals</td>
+								<td rowspan="1" colspan="1">60</td>
+								<td rowspan="1" colspan="1">Not available</td>
+								<td rowspan="1" colspan="1">FokI, BsmI</td>
+							</tr>
+							<tr>
+								<td rowspan="1" colspan="1">2009</td>
+								<td rowspan="1" colspan="1">Selvaraj</td>
+								<td rowspan="1" colspan="1">India</td>
+								<td rowspan="1" colspan="1">Asian</td>
+								<td rowspan="1" colspan="1">Pulmonary tuberculosis</td>
+								<td rowspan="1" colspan="1">65</td>
+								<td rowspan="1" colspan="1">Clinical symptom, AFB smear and culture</td>
+								<td rowspan="1" colspan="1">Healthy subjects</td>
+								<td rowspan="1" colspan="1">60</td>
+								<td rowspan="1" colspan="1">All reported negative</td>
+								<td rowspan="1" colspan="1">FokI, ApaI, TaqI, BsmI</td>
+							</tr>
+							<tr>
+								<td rowspan="1" colspan="1">2009</td>
+								<td rowspan="1" colspan="1">Vidyarani</td>
+								<td rowspan="1" colspan="1">India</td>
+								<td rowspan="1" colspan="1">Asian</td>
+								<td rowspan="1" colspan="1">Pulmonary tuberculosis</td>
+								<td rowspan="1" colspan="1">40</td>
+								<td rowspan="1" colspan="1">AFB smear and culture</td>
+								<td rowspan="1" colspan="1">Normal healthy subjects</td>
+								<td rowspan="1" colspan="1">49</td>
+								<td rowspan="1" colspan="1">Not available</td>
+								<td rowspan="1" colspan="1">FokI, ApaI, TaqI, BsmI</td>
+							</tr>
+							<tr>
+								<td rowspan="1" colspan="1">2010</td>
+								<td rowspan="1" colspan="1">Banoei</td>
+								<td rowspan="1" colspan="1">Iran</td>
+								<td rowspan="1" colspan="1">Asian</td>
+								<td rowspan="1" colspan="1">Pulmonary tuberculosis</td>
+								<td rowspan="1" colspan="1">60</td>
+								<td rowspan="1" colspan="1">Confirmed in Massih Daneshvari Hospital</td>
+								<td rowspan="1" colspan="1">Healthy subjects</td>
+								<td rowspan="1" colspan="1">62</td>
+								<td rowspan="1" colspan="1">All reported negative</td>
+								<td rowspan="1" colspan="1">FokI, TaqI, BsmI</td>
+							</tr>
+							<tr>
+								<td rowspan="1" colspan="1">2010</td>
+								<td rowspan="1" colspan="1">Marashian</td>
+								<td rowspan="1" colspan="1">Iran</td>
+								<td rowspan="1" colspan="1">Asian</td>
+								<td rowspan="1" colspan="1">Pulmonary tuberculosis</td>
+								<td rowspan="1" colspan="1">164</td>
+								<td rowspan="1" colspan="1">AFB smear and X-ray</td>
+								<td rowspan="1" colspan="1">Healthy People</td>
+								<td rowspan="1" colspan="1">50</td>
+								<td rowspan="1" colspan="1">Not available</td>
+								<td rowspan="1" colspan="1">FokI, ApaI, TaqI, BsmI</td>
+							</tr>
+							<tr>
+								<td rowspan="1" colspan="1">2010</td>
+								<td rowspan="1" colspan="1">Zhang</td>
+								<td rowspan="1" colspan="1">China</td>
+								<td rowspan="1" colspan="1">Asian</td>
+								<td rowspan="1" colspan="1">Spinal tuberculosis</td>
+								<td rowspan="1" colspan="1">110</td>
+								<td rowspan="1" colspan="1">Postoperative pathology</td>
+								<td rowspan="1" colspan="1">Healthy subjects</td>
+								<td rowspan="1" colspan="1">102</td>
+								<td rowspan="1" colspan="1">All reported negative</td>
+								<td rowspan="1" colspan="1">FokI</td>
+							</tr>
+							<tr>
+								<td rowspan="1" colspan="1">2011</td>
+								<td rowspan="1" colspan="1">Ates</td>
+								<td rowspan="1" colspan="1">Turkey</td>
+								<td rowspan="1" colspan="1">European</td>
+								<td rowspan="1" colspan="1">Pulmonary (98) and extra pulmonary tuberculosis (30)</td>
+								<td rowspan="1" colspan="1">128</td>
+								<td rowspan="1" colspan="1">AFB and Culture</td>
+								<td rowspan="1" colspan="1">Healthy subjects</td>
+								<td rowspan="1" colspan="1">80</td>
+								<td rowspan="1" colspan="1">Not available</td>
+								<td rowspan="1" colspan="1">FokI, TaqI, BsmI</td>
+							</tr>
+							<tr>
+								<td rowspan="1" colspan="1">2011</td>
+								<td rowspan="1" colspan="1">Sharma</td>
+								<td rowspan="1" colspan="1">India</td>
+								<td rowspan="1" colspan="1">Asian</td>
+								<td rowspan="1" colspan="1">Pulmonary tuberculosis</td>
+								<td rowspan="1" colspan="1">992</td>
+								<td rowspan="1" colspan="1">AFB smear and Culture</td>
+								<td rowspan="1" colspan="1">Healthy subjects</td>
+								<td rowspan="1" colspan="1">1183</td>
+								<td rowspan="1" colspan="1">Not available</td>
+								<td rowspan="1" colspan="1">FokI, ApaI, TaqI, BsmI</td>
+							</tr>
+							<tr>
+								<td rowspan="1" colspan="1">2011</td>
+								<td rowspan="1" colspan="1">Singh</td>
+								<td rowspan="1" colspan="1">India</td>
+								<td rowspan="1" colspan="1">Asian</td>
+								<td rowspan="1" colspan="1">Pulmonary tuberculosis</td>
+								<td rowspan="1" colspan="1">101</td>
+								<td rowspan="1" colspan="1">AFB smear or culture</td>
+								<td rowspan="1" colspan="1">healthy controls</td>
+								<td rowspan="1" colspan="1">225</td>
+								<td rowspan="1" colspan="1">All reported negative</td>
+								<td rowspan="1" colspan="1">FokI, TaqI, BsmI</td>
+							</tr>
+							<tr>
+								<td rowspan="1" colspan="1">2012</td>
+								<td rowspan="1" colspan="1">Rathored</td>
+								<td rowspan="1" colspan="1">India</td>
+								<td rowspan="1" colspan="1">Asian</td>
+								<td rowspan="1" colspan="1">MDR tuberculosis and drug sensitive pulmonary tuberculosis</td>
+								<td rowspan="1" colspan="1">692</td>
+								<td rowspan="1" colspan="1">AFB smear and culture</td>
+								<td rowspan="1" colspan="1">healthy volunteers</td>
+								<td rowspan="1" colspan="1">205</td>
+								<td rowspan="1" colspan="1">Not available</td>
+								<td rowspan="1" colspan="1">FokI, TaqI, BsmI</td>
+							</tr>
+							<tr>
+								<td rowspan="1" colspan="1">2013</td>
+								<td rowspan="1" colspan="1">Alexandra</td>
+								<td rowspan="1" colspan="1">Romania</td>
+								<td rowspan="1" colspan="1">European</td>
+								<td rowspan="1" colspan="1">Pulmonary tuberculosis</td>
+								<td rowspan="1" colspan="1">68</td>
+								<td rowspan="1" colspan="1">Not available</td>
+								<td rowspan="1" colspan="1">unrelated healthy individuals</td>
+								<td rowspan="1" colspan="1">110</td>
+								<td rowspan="1" colspan="1">Not available</td>
+								<td rowspan="1" colspan="1">ApaI, TaqI</td>
+							</tr>
+						</tbody>
+					</table>
+					<table-wrap-foot>
+						<fn id="ngtab1.u1">							
+							<p><sup>a</sup> AFB, Acid-fast bacilli; HIV, human immunodeficiency virus; MDR, multi-drug resistance for isoniazide and rifampicin; PPD, purified protein derivative; SNPs, single nucleotide polymorphism; TB, tuberculosis.</p>
+						</fn>
+					</table-wrap-foot>
+				</table-wrap>
+			</sec>
+			<sec id="s3.2">
+				<title>Quantitative synthesis</title>
+				<p>In <xref ref-type="table" rid="pone-0083843-t002">Table 2</xref>, four SNPs and their relationship to the risk of tuberculosis were evaluated by four types of comparisons: (1), heterozygote genotype versus wild-type homozygote genotype; (2), variant homozygote genotype versus wild-type homozygote genotype; (3), dominant model: variant homozygote genotype combined with a heterozygote genotype versus wild-type homozygote genotype; and (4), recessive model: variant homozygote genotype versus heterozygote and wild-type homozygote genotypes). As shown in <xref ref-type="table" rid="pone-0083843-t002">Table 2</xref>, when the P value of the heterogeneity test between the studies was less than 0.05, a random-effect model was used to calculate the odds ratios and 95% confidence interval. Otherwise, a fixed-effect model was adopted. </p>
+				<table-wrap id="pone-0083843-t002" position="float" orientation="portrait">
+					<object-id pub-id-type="doi">10.1371/journal.pone.0083843.t002</object-id><label>Table 2</label>
+					<caption>
+						<title>Summary of VDR gene genotypes on the risk of tuberculosis in different ethnicities.</title>
+					</caption>
+					<table>
+						<colgroup span="1"><col span="1" /><col span="1" /><col span="1" /><col span="1" /><col span="1" /><col span="1" /><col span="1" /><col span="1" /><col span="1" /><col span="1" /><col span="1" /><col span="1" /><col span="1" /><col span="1" /><col span="1" /><col span="1" /></colgroup>
+						<thead>
+							<tr>
+								<th rowspan="1" colspan="1">SNP</th>
+								<th rowspan="1" colspan="1">Ethnicity</th>
+								<th rowspan="1" colspan="1">Cases</th>
+								<th rowspan="1" colspan="1" />
+								<th rowspan="1" colspan="1" />
+								<th rowspan="1" colspan="1">Controls</th>
+								<th rowspan="1" colspan="1" />
+								<th rowspan="1" colspan="1" />
+								<th rowspan="1" colspan="1">HT vs. WT Homo</th>
+								<th rowspan="1" colspan="1"><sup><xref ref-type="table-fn" rid="ngtab2.1">e</xref></sup><italic>P</italic>-value</th>
+								<th rowspan="1" colspan="1">VR homo vs. WT Homo</th>
+								<th rowspan="1" colspan="1"><sup><xref ref-type="table-fn" rid="ngtab2.1">e</xref></sup><italic>P</italic>-value</th>
+								<th rowspan="1" colspan="1">Dominant model<sup><xref ref-type="table-fn" rid="ngtab2.2">a</xref></sup></th>
+								<th rowspan="1" colspan="1"><sup><xref ref-type="table-fn" rid="ngtab2.1">e</xref></sup><italic>P</italic>-value</th>
+								<th rowspan="1" colspan="1">Recessive model<sup><xref ref-type="table-fn" rid="ngtab2.3">b</xref></sup></th>
+								<th rowspan="1" colspan="1"><sup><xref ref-type="table-fn" rid="ngtab2.1">e</xref></sup><italic>P</italic>-value</th>
+							</tr>
+							<tr>
+								<th rowspan="1" colspan="1" />
+								<th rowspan="1" colspan="1" />
+								<th rowspan="1" colspan="1">WT Homo n(%)</th>
+								<th rowspan="1" colspan="1">HT n(%)</th>
+								<th rowspan="1" colspan="1">VR Homo n(%)</th>
+								<th rowspan="1" colspan="1">WT Homo n(%)</th>
+								<th rowspan="1" colspan="1">HT n(%)</th>
+								<th rowspan="1" colspan="1">VR Homo n(%)</th>
+								<th rowspan="1" colspan="1">OR(95%CI)</th>
+								<th rowspan="1" colspan="1" />
+								<th rowspan="1" colspan="1">OR(95%CI)</th>
+								<th rowspan="1" colspan="1" />
+								<th rowspan="1" colspan="1">OR(95%CI)</th>
+								<th rowspan="1" colspan="1" />
+								<th rowspan="1" colspan="1">OR(95%CI)</th>
+								<th rowspan="1" colspan="1" />
+							</tr>
+						</thead>
+						<tbody>							
+							<tr>
+								<td rowspan="1" colspan="1">ApaI</td>
+								<td rowspan="1" colspan="1" />
+								<td rowspan="1" colspan="1">AA</td>
+								<td rowspan="1" colspan="1">Aa</td>
+								<td rowspan="1" colspan="1">aa</td>
+								<td rowspan="1" colspan="1">AA</td>
+								<td rowspan="1" colspan="1">Aa</td>
+								<td rowspan="1" colspan="1">aa</td>
+								<td rowspan="1" colspan="1" />
+								<td rowspan="1" colspan="1" />
+								<td rowspan="1" colspan="1" />
+								<td rowspan="1" colspan="1" />
+								<td rowspan="1" colspan="1" />
+								<td rowspan="1" colspan="1" />
+								<td rowspan="1" colspan="1" />
+								<td rowspan="1" colspan="1" />
+							</tr>
+							<tr>
+								<td rowspan="1" colspan="1" />
+								<td rowspan="1" colspan="1">Total</td>
+								<td rowspan="1" colspan="1"><bold>1028</bold></td>
+								<td rowspan="1" colspan="1"><bold>1423</bold></td>
+								<td rowspan="1" colspan="1"><bold>540</bold></td>
+								<td rowspan="1" colspan="1"><bold>1265</bold></td>
+								<td rowspan="1" colspan="1"><bold>1720</bold></td>
+								<td rowspan="1" colspan="1"><bold>646</bold></td>
+								<td rowspan="1" colspan="1">1.00 [0.84, 1.20] <sup><xref ref-type="table-fn" rid="ngtab2.4">c</xref></sup></td>
+								<td rowspan="1" colspan="1">1</td>
+								<td rowspan="1" colspan="1">0.88 [0.65, 1.19] <sup><xref ref-type="table-fn" rid="ngtab2.4">c</xref></sup></td>
+								<td rowspan="1" colspan="1">1</td>
+								<td rowspan="1" colspan="1">0.97 [0.81, 1.16] <sup><xref ref-type="table-fn" rid="ngtab2.4">c</xref></sup></td>
+								<td rowspan="1" colspan="1">1</td>
+								<td rowspan="1" colspan="1">0.89 [0.78, 1.02]</td>
+								<td rowspan="1" colspan="1">0.4</td>
+							</tr>
+							<tr>
+								<td rowspan="1" colspan="1" />
+								<td rowspan="1" colspan="1">ES Asians</td>
+								<td rowspan="1" colspan="1">0</td>
+								<td rowspan="1" colspan="1">0</td>
+								<td rowspan="1" colspan="1">0</td>
+								<td rowspan="1" colspan="1">0</td>
+								<td rowspan="1" colspan="1">0</td>
+								<td rowspan="1" colspan="1">0</td>
+								<td rowspan="1" colspan="1">NA</td>
+								<td rowspan="1" colspan="1" />
+								<td rowspan="1" colspan="1">NA</td>
+								<td rowspan="1" colspan="1" />
+								<td rowspan="1" colspan="1">NA</td>
+								<td rowspan="1" colspan="1" />
+								<td rowspan="1" colspan="1">NA</td>
+								<td rowspan="1" colspan="1" />
+							</tr>
+							<tr>
+								<td rowspan="1" colspan="1" />
+								<td rowspan="1" colspan="1">SW Asians</td>
+								<td rowspan="1" colspan="1">461</td>
+								<td rowspan="1" colspan="1">530</td>
+								<td rowspan="1" colspan="1">137</td>
+								<td rowspan="1" colspan="1">425</td>
+								<td rowspan="1" colspan="1">567</td>
+								<td rowspan="1" colspan="1">120</td>
+								<td rowspan="1" colspan="1">0.91 [0.67, 1.25] <sup><xref ref-type="table-fn" rid="ngtab2.4">c</xref></sup></td>
+								<td rowspan="1" colspan="1">1</td>
+								<td rowspan="1" colspan="1">0.94 [0.71, 1.26]</td>
+								<td rowspan="1" colspan="1">1</td>
+								<td rowspan="1" colspan="1">0.92 [0.69, 1.24] <sup><xref ref-type="table-fn" rid="ngtab2.4">c</xref></sup></td>
+								<td rowspan="1" colspan="1">1</td>
+								<td rowspan="1" colspan="1">1.01 [0.77, 1.32]</td>
+								<td rowspan="1" colspan="1">1</td>
+							</tr>
+							<tr>
+								<td rowspan="1" colspan="1" />
+								<td rowspan="1" colspan="1">Africans</td>
+								<td rowspan="1" colspan="1">548</td>
+								<td rowspan="1" colspan="1">844</td>
+								<td rowspan="1" colspan="1">403</td>
+								<td rowspan="1" colspan="1">813</td>
+								<td rowspan="1" colspan="1">1095</td>
+								<td rowspan="1" colspan="1">501</td>
+								<td rowspan="1" colspan="1">1.06 [0.82, 1.36] <sup><xref ref-type="table-fn" rid="ngtab2.4">c</xref></sup></td>
+								<td rowspan="1" colspan="1">1</td>
+								<td rowspan="1" colspan="1">0.92 [0.64, 1.32] <sup><xref ref-type="table-fn" rid="ngtab2.4">c</xref></sup></td>
+								<td rowspan="1" colspan="1">1</td>
+								<td rowspan="1" colspan="1">1.03 [0.79, 1.34] <sup><xref ref-type="table-fn" rid="ngtab2.4">c</xref></sup></td>
+								<td rowspan="1" colspan="1">1</td>
+								<td rowspan="1" colspan="1">0.91 [0.77, 1.07]</td>
+								<td rowspan="1" colspan="1">0.92</td>
+							</tr>
+							<tr>
+								<td rowspan="1" colspan="1" />
+								<td rowspan="1" colspan="1">Americans</td>
+								<td rowspan="1" colspan="1">0</td>
+								<td rowspan="1" colspan="1">0</td>
+								<td rowspan="1" colspan="1">0</td>
+								<td rowspan="1" colspan="1">0</td>
+								<td rowspan="1" colspan="1">0</td>
+								<td rowspan="1" colspan="1">0</td>
+								<td rowspan="1" colspan="1">NA</td>
+								<td rowspan="1" colspan="1" />
+								<td rowspan="1" colspan="1">NA</td>
+								<td rowspan="1" colspan="1" />
+								<td rowspan="1" colspan="1">NA</td>
+								<td rowspan="1" colspan="1" />
+								<td rowspan="1" colspan="1">NA</td>
+								<td rowspan="1" colspan="1" />
+							</tr>
+							<tr>
+								<td rowspan="1" colspan="1" />
+								<td rowspan="1" colspan="1">Europeans</td>
+								<td rowspan="1" colspan="1">19</td>
+								<td rowspan="1" colspan="1">49</td>
+								<td rowspan="1" colspan="1">0</td>
+								<td rowspan="1" colspan="1">27</td>
+								<td rowspan="1" colspan="1">58</td>
+								<td rowspan="1" colspan="1">25</td>
+								<td rowspan="1" colspan="1">1.20 [0.60, 2.42]<sup><xref ref-type="table-fn" rid="ngtab2.5">d</xref></sup></td>
+								<td rowspan="1" colspan="1">1</td>
+								<td rowspan="1" colspan="1">0.00 [0.00, 0.06]<sup><xref ref-type="table-fn" rid="ngtab2.5">d</xref></sup></td>
+								<td rowspan="1" colspan="1">0.0004</td>
+								<td rowspan="1" colspan="1">0.84 [0.42, 1.66]<sup><xref ref-type="table-fn" rid="ngtab2.5">d</xref></sup></td>
+								<td rowspan="1" colspan="1">1</td>
+								<td rowspan="1" colspan="1">0.02 [0.00, 0.41]<sup><xref ref-type="table-fn" rid="ngtab2.5">d</xref></sup></td>
+								<td rowspan="1" colspan="1">0.04</td>
+							</tr>
+							<tr>
+								<td rowspan="1" colspan="1">BsmI</td>
+								<td rowspan="1" colspan="1" />
+								<td rowspan="1" colspan="1">BB</td>
+								<td rowspan="1" colspan="1">Bb</td>
+								<td rowspan="1" colspan="1">bb</td>
+								<td rowspan="1" colspan="1">BB</td>
+								<td rowspan="1" colspan="1">Bb</td>
+								<td rowspan="1" colspan="1">bb</td>
+								<td rowspan="1" colspan="1" />
+								<td rowspan="1" colspan="1" />
+								<td rowspan="1" colspan="1" />
+								<td rowspan="1" colspan="1" />
+								<td rowspan="1" colspan="1" />
+								<td rowspan="1" colspan="1" />
+								<td rowspan="1" colspan="1" />
+								<td rowspan="1" colspan="1" />
+							</tr>
+							<tr>
+								<td rowspan="1" colspan="1" />
+								<td rowspan="1" colspan="1">Total</td>
+								<td rowspan="1" colspan="1"><bold>647</bold></td>
+								<td rowspan="1" colspan="1"><bold>1449</bold></td>
+								<td rowspan="1" colspan="1"><bold>1163</bold></td>
+								<td rowspan="1" colspan="1"><bold>583</bold></td>
+								<td rowspan="1" colspan="1"><bold>1428</bold></td>
+								<td rowspan="1" colspan="1"><bold>1426</bold></td>
+								<td rowspan="1" colspan="1">1.07 [0.82, 1.41] <sup><xref ref-type="table-fn" rid="ngtab2.4">c</xref></sup></td>
+								<td rowspan="1" colspan="1">1</td>
+								<td rowspan="1" colspan="1">0.90 [0.64, 1.26] <sup><xref ref-type="table-fn" rid="ngtab2.4">c</xref></sup></td>
+								<td rowspan="1" colspan="1">1</td>
+								<td rowspan="1" colspan="1">0.99 [0.75, 1.31] <sup><xref ref-type="table-fn" rid="ngtab2.4">c</xref></sup></td>
+								<td rowspan="1" colspan="1">1</td>
+								<td rowspan="1" colspan="1">0.86 [0.72, 1.03] <sup><xref ref-type="table-fn" rid="ngtab2.4">c</xref></sup></td>
+								<td rowspan="1" colspan="1">0.36</td>
+							</tr>
+							<tr>
+								<td rowspan="1" colspan="1" />
+								<td rowspan="1" colspan="1">ES Asians</td>
+								<td rowspan="1" colspan="1">0</td>
+								<td rowspan="1" colspan="1">0</td>
+								<td rowspan="1" colspan="1">0</td>
+								<td rowspan="1" colspan="1">0</td>
+								<td rowspan="1" colspan="1">0</td>
+								<td rowspan="1" colspan="1">0</td>
+								<td rowspan="1" colspan="1">NA</td>
+								<td rowspan="1" colspan="1" />
+								<td rowspan="1" colspan="1">NA</td>
+								<td rowspan="1" colspan="1" />
+								<td rowspan="1" colspan="1">NA</td>
+								<td rowspan="1" colspan="1" />
+								<td rowspan="1" colspan="1">NA</td>
+								<td rowspan="1" colspan="1" />
+							</tr>
+							<tr>
+								<td rowspan="1" colspan="1" />
+								<td rowspan="1" colspan="1">SW Asians</td>
+								<td rowspan="1" colspan="1">540</td>
+								<td rowspan="1" colspan="1">935</td>
+								<td rowspan="1" colspan="1">478</td>
+								<td rowspan="1" colspan="1">438</td>
+								<td rowspan="1" colspan="1">726</td>
+								<td rowspan="1" colspan="1">419</td>
+								<td rowspan="1" colspan="1">1.09 [0.77, 1.53] <sup><xref ref-type="table-fn" rid="ngtab2.4">c</xref></sup></td>
+								<td rowspan="1" colspan="1">1</td>
+								<td rowspan="1" colspan="1">0.88 [0.58, 1.33] <sup><xref ref-type="table-fn" rid="ngtab2.4">c</xref></sup></td>
+								<td rowspan="1" colspan="1">1</td>
+								<td rowspan="1" colspan="1">0.99 [0.70, 1.40] <sup><xref ref-type="table-fn" rid="ngtab2.4">c</xref></sup></td>
+								<td rowspan="1" colspan="1">1</td>
+								<td rowspan="1" colspan="1">0.82 [0.63, 1.06] <sup><xref ref-type="table-fn" rid="ngtab2.4">c</xref></sup></td>
+								<td rowspan="1" colspan="1">0.48</td>
+							</tr>
+							<tr>
+								<td rowspan="1" colspan="1" />
+								<td rowspan="1" colspan="1">Africans</td>
+								<td rowspan="1" colspan="1">69</td>
+								<td rowspan="1" colspan="1">410</td>
+								<td rowspan="1" colspan="1">633</td>
+								<td rowspan="1" colspan="1">125</td>
+								<td rowspan="1" colspan="1">584</td>
+								<td rowspan="1" colspan="1">929</td>
+								<td rowspan="1" colspan="1">1.33 [0.96, 1.84]</td>
+								<td rowspan="1" colspan="1">0.32</td>
+								<td rowspan="1" colspan="1">1.35 [0.98, 1.86]</td>
+								<td rowspan="1" colspan="1">0.24</td>
+								<td rowspan="1" colspan="1">1.34 [0.98, 1.82]</td>
+								<td rowspan="1" colspan="1">0.28</td>
+								<td rowspan="1" colspan="1">1.06 [0.91, 1.24]</td>
+								<td rowspan="1" colspan="1">1</td>
+							</tr>
+							<tr>
+								<td rowspan="1" colspan="1" />
+								<td rowspan="1" colspan="1">Americans</td>
+								<td rowspan="1" colspan="1">0</td>
+								<td rowspan="1" colspan="1">0</td>
+								<td rowspan="1" colspan="1">0</td>
+								<td rowspan="1" colspan="1">0</td>
+								<td rowspan="1" colspan="1">0</td>
+								<td rowspan="1" colspan="1">0</td>
+								<td rowspan="1" colspan="1">NA</td>
+								<td rowspan="1" colspan="1" />
+								<td rowspan="1" colspan="1">NA</td>
+								<td rowspan="1" colspan="1" />
+								<td rowspan="1" colspan="1">NA</td>
+								<td rowspan="1" colspan="1" />
+								<td rowspan="1" colspan="1">NA</td>
+								<td rowspan="1" colspan="1" />
+							</tr>
+							<tr>
+								<td rowspan="1" colspan="1" />
+								<td rowspan="1" colspan="1">Europeans</td>
+								<td rowspan="1" colspan="1">38</td>
+								<td rowspan="1" colspan="1">104</td>
+								<td rowspan="1" colspan="1">52</td>
+								<td rowspan="1" colspan="1">20</td>
+								<td rowspan="1" colspan="1">118</td>
+								<td rowspan="1" colspan="1">78</td>
+								<td rowspan="1" colspan="1">0.47 [0.24, 0.91]</td>
+								<td rowspan="1" colspan="1">0.08</td>
+								<td rowspan="1" colspan="1">0.34 [0.07, 1.58] <sup><xref ref-type="table-fn" rid="ngtab2.4">c</xref></sup></td>
+								<td rowspan="1" colspan="1">0.68</td>
+								<td rowspan="1" colspan="1">0.41 [0.22, 0.76]</td>
+								<td rowspan="1" colspan="1">0.02</td>
+								<td rowspan="1" colspan="1">0.62 [0.24, 1.58] <sup><xref ref-type="table-fn" rid="ngtab2.4">c</xref></sup></td>
+								<td rowspan="1" colspan="1">1</td>
+							</tr>
+							<tr>
+								<td rowspan="1" colspan="1">FokI</td>
+								<td rowspan="1" colspan="1" />
+								<td rowspan="1" colspan="1">FF</td>
+								<td rowspan="1" colspan="1">Ff</td>
+								<td rowspan="1" colspan="1">ff</td>
+								<td rowspan="1" colspan="1">FF</td>
+								<td rowspan="1" colspan="1">Ff</td>
+								<td rowspan="1" colspan="1">Ff</td>
+								<td rowspan="1" colspan="1" />
+								<td rowspan="1" colspan="1" />
+								<td rowspan="1" colspan="1" />
+								<td rowspan="1" colspan="1" />
+								<td rowspan="1" colspan="1" />
+								<td rowspan="1" colspan="1" />
+								<td rowspan="1" colspan="1" />
+								<td rowspan="1" colspan="1" />
+							</tr>
+							<tr>
+								<td rowspan="1" colspan="1" />
+								<td rowspan="1" colspan="1">Total</td>
+								<td rowspan="1" colspan="1"><bold>2116</bold></td>
+								<td rowspan="1" colspan="1"><bold>1433</bold></td>
+								<td rowspan="1" colspan="1"><bold>369</bold></td>
+								<td rowspan="1" colspan="1"><bold>2160</bold></td>
+								<td rowspan="1" colspan="1"><bold>1566</bold></td>
+								<td rowspan="1" colspan="1"><bold>337</bold></td>
+								<td rowspan="1" colspan="1">0.89 [0.76, 1.05] <sup><xref ref-type="table-fn" rid="ngtab2.4">c</xref></sup></td>
+								<td rowspan="1" colspan="1">0.64</td>
+								<td rowspan="1" colspan="1">1.24 [0.91, 1.70] <sup><xref ref-type="table-fn" rid="ngtab2.4">c</xref></sup></td>
+								<td rowspan="1" colspan="1">0.68</td>
+								<td rowspan="1" colspan="1">0.94 [0.79, 1.11] <sup><xref ref-type="table-fn" rid="ngtab2.4">c</xref></sup></td>
+								<td rowspan="1" colspan="1">1</td>
+								<td rowspan="1" colspan="1">1.36 [1.14, 1.62]</td>
+								<td rowspan="1" colspan="1">0.0028</td>
+							</tr>
+							<tr>
+								<td rowspan="1" colspan="1" />
+								<td rowspan="1" colspan="1"><sup><xref ref-type="table-fn" rid="ngtab2.6">f</xref></sup>ES Asians</td>
+								<td rowspan="1" colspan="1">45</td>
+								<td rowspan="1" colspan="1">106</td>
+								<td rowspan="1" colspan="1">79</td>
+								<td rowspan="1" colspan="1">111</td>
+								<td rowspan="1" colspan="1">167</td>
+								<td rowspan="1" colspan="1">64</td>
+								<td rowspan="1" colspan="1">1.52 [0.99, 2.33] </td>
+								<td rowspan="1" colspan="1">0.20</td>
+								<td rowspan="1" colspan="1">2.55 [1.55, 4.19] </td>
+								<td rowspan="1" colspan="1">0.0008</td>
+								<td rowspan="1" colspan="1">1.81 [1.21, 2.71] </td>
+								<td rowspan="1" colspan="1">0.016</td>
+								<td rowspan="1" colspan="1">1.97 [1.32, 2.93]</td>
+								<td rowspan="1" colspan="1">0.0032</td>
+							</tr>
+							<tr>
+								<td rowspan="1" colspan="1" />
+								<td rowspan="1" colspan="1">SW Asians</td>
+								<td rowspan="1" colspan="1">1025</td>
+								<td rowspan="1" colspan="1">707</td>
+								<td rowspan="1" colspan="1">150</td>
+								<td rowspan="1" colspan="1">708</td>
+								<td rowspan="1" colspan="1">601</td>
+								<td rowspan="1" colspan="1">60</td>
+								<td rowspan="1" colspan="1">0.71 [0.55, 0.93] <sup><xref ref-type="table-fn" rid="ngtab2.4">c</xref></sup></td>
+								<td rowspan="1" colspan="1">0.04</td>
+								<td rowspan="1" colspan="1">1.37 [0.74, 2.51]</td>
+								<td rowspan="1" colspan="1">1</td>
+								<td rowspan="1" colspan="1">0.77 [0.58, 1.01] <sup><xref ref-type="table-fn" rid="ngtab2.4">c</xref></sup></td>
+								<td rowspan="1" colspan="1">0.24</td>
+								<td rowspan="1" colspan="1">1.58 [0.94, 2.65] <sup><xref ref-type="table-fn" rid="ngtab2.4">c</xref></sup></td>
+								<td rowspan="1" colspan="1">0.32</td>
+							</tr>
+							<tr>
+								<td rowspan="1" colspan="1" />
+								<td rowspan="1" colspan="1">Africans</td>
+								<td rowspan="1" colspan="1">944</td>
+								<td rowspan="1" colspan="1">509</td>
+								<td rowspan="1" colspan="1">71</td>
+								<td rowspan="1" colspan="1">1211</td>
+								<td rowspan="1" colspan="1">641</td>
+								<td rowspan="1" colspan="1">95</td>
+								<td rowspan="1" colspan="1">1.04 [0.90, 1.20]</td>
+								<td rowspan="1" colspan="1">1</td>
+								<td rowspan="1" colspan="1">0.96 [0.70, 1.33]</td>
+								<td rowspan="1" colspan="1">1</td>
+								<td rowspan="1" colspan="1">1.03 [0.89, 1.18]</td>
+								<td rowspan="1" colspan="1">1</td>
+								<td rowspan="1" colspan="1">0.95 [0.69, 1.31]</td>
+								<td rowspan="1" colspan="1">1</td>
+							</tr>
+							<tr>
+								<td rowspan="1" colspan="1" />
+								<td rowspan="1" colspan="1">Americans</td>
+								<td rowspan="1" colspan="1">44</td>
+								<td rowspan="1" colspan="1">51</td>
+								<td rowspan="1" colspan="1">59</td>
+								<td rowspan="1" colspan="1">95</td>
+								<td rowspan="1" colspan="1">120</td>
+								<td rowspan="1" colspan="1">110</td>
+								<td rowspan="1" colspan="1">0.89 [0.51, 1.54]</td>
+								<td rowspan="1" colspan="1">1</td>
+								<td rowspan="1" colspan="1">0.84 [0.35, 1.98]</td>
+								<td rowspan="1" colspan="1">1</td>
+								<td rowspan="1" colspan="1">0.92 [0.54, 1.56]</td>
+								<td rowspan="1" colspan="1">1</td>
+								<td rowspan="1" colspan="1">1.20 [0.74, 1.94]</td>
+								<td rowspan="1" colspan="1">1</td>
+							</tr>
+							<tr>
+								<td rowspan="1" colspan="1" />
+								<td rowspan="1" colspan="1">Europeans</td>
+								<td rowspan="1" colspan="1">58</td>
+								<td rowspan="1" colspan="1">60</td>
+								<td rowspan="1" colspan="1">10</td>
+								<td rowspan="1" colspan="1">35</td>
+								<td rowspan="1" colspan="1">37</td>
+								<td rowspan="1" colspan="1">8</td>
+								<td rowspan="1" colspan="1">0.98 [0.54, 1.76] <sup><xref ref-type="table-fn" rid="ngtab2.5">d</xref></sup></td>
+								<td rowspan="1" colspan="1">1</td>
+								<td rowspan="1" colspan="1">0.75 [0.27, 2.09] <sup><xref ref-type="table-fn" rid="ngtab2.5">d</xref></sup></td>
+								<td rowspan="1" colspan="1">1</td>
+								<td rowspan="1" colspan="1">0.94 [0.53, 1.65] <sup><xref ref-type="table-fn" rid="ngtab2.5">d</xref></sup></td>
+								<td rowspan="1" colspan="1">1</td>
+								<td rowspan="1" colspan="1">0.76 [0.29, 2.02] <sup><xref ref-type="table-fn" rid="ngtab2.5">d</xref></sup></td>
+								<td rowspan="1" colspan="1">1</td>
+							</tr>
+							<tr>
+								<td rowspan="1" colspan="1">TaqI</td>
+								<td rowspan="1" colspan="1" />
+								<td rowspan="1" colspan="1">TT</td>
+								<td rowspan="1" colspan="1">Tt</td>
+								<td rowspan="1" colspan="1">tt</td>
+								<td rowspan="1" colspan="1">TT</td>
+								<td rowspan="1" colspan="1">Tt</td>
+								<td rowspan="1" colspan="1">tt</td>
+								<td rowspan="1" colspan="1" />
+								<td rowspan="1" colspan="1" />
+								<td rowspan="1" colspan="1" />
+								<td rowspan="1" colspan="1" />
+								<td rowspan="1" colspan="1" />
+								<td rowspan="1" colspan="1" />
+								<td rowspan="1" colspan="1" />
+								<td rowspan="1" colspan="1" />
+							</tr>
+							<tr>
+								<td rowspan="1" colspan="1" />
+								<td rowspan="1" colspan="1">Total</td>
+								<td rowspan="1" colspan="1"><bold>2553</bold></td>
+								<td rowspan="1" colspan="1"><bold>1842</bold></td>
+								<td rowspan="1" colspan="1"><bold>412</bold></td>
+								<td rowspan="1" colspan="1"><bold>2864</bold></td>
+								<td rowspan="1" colspan="1"><bold>2082</bold></td>
+								<td rowspan="1" colspan="1"><bold>471</bold></td>
+								<td rowspan="1" colspan="1">1.05 [0.91, 1.20] <sup><xref ref-type="table-fn" rid="ngtab2.4">c</xref></sup></td>
+								<td rowspan="1" colspan="1">1</td>
+								<td rowspan="1" colspan="1">1.03 [0.77, 1.37] <sup><xref ref-type="table-fn" rid="ngtab2.4">c</xref></sup></td>
+								<td rowspan="1" colspan="1">1</td>
+								<td rowspan="1" colspan="1">1.04 [0.90, 1.21] <sup><xref ref-type="table-fn" rid="ngtab2.4">c</xref></sup></td>
+								<td rowspan="1" colspan="1">1</td>
+								<td rowspan="1" colspan="1">0.97 [0.76, 1.24] <sup><xref ref-type="table-fn" rid="ngtab2.4">c</xref></sup></td>
+								<td rowspan="1" colspan="1">1</td>
+							</tr>
+							<tr>
+								<td rowspan="1" colspan="1" />
+								<td rowspan="1" colspan="1">ES Asians</td>
+								<td rowspan="1" colspan="1">430</td>
+								<td rowspan="1" colspan="1">42</td>
+								<td rowspan="1" colspan="1">6</td>
+								<td rowspan="1" colspan="1">299</td>
+								<td rowspan="1" colspan="1">42</td>
+								<td rowspan="1" colspan="1">5</td>
+								<td rowspan="1" colspan="1">0.79 [0.48, 1.32]</td>
+								<td rowspan="1" colspan="1">1</td>
+								<td rowspan="1" colspan="1">1.33 [0.37, 4.76]</td>
+								<td rowspan="1" colspan="1">1</td>
+								<td rowspan="1" colspan="1">0.86 [0.53, 1.39]</td>
+								<td rowspan="1" colspan="1">1</td>
+								<td rowspan="1" colspan="1">1.37 [0.38, 4.91]</td>
+								<td rowspan="1" colspan="1">1</td>
+							</tr>
+							<tr>
+								<td rowspan="1" colspan="1" />
+								<td rowspan="1" colspan="1">SW Asians</td>
+								<td rowspan="1" colspan="1">712</td>
+								<td rowspan="1" colspan="1">735</td>
+								<td rowspan="1" colspan="1">233</td>
+								<td rowspan="1" colspan="1">710</td>
+								<td rowspan="1" colspan="1">592</td>
+								<td rowspan="1" colspan="1">197</td>
+								<td rowspan="1" colspan="1">1.23 [0.97, 1.57] <sup><xref ref-type="table-fn" rid="ngtab2.4">c</xref></sup></td>
+								<td rowspan="1" colspan="1">0.36</td>
+								<td rowspan="1" colspan="1">1.27 [0.76, 2.10] <sup><xref ref-type="table-fn" rid="ngtab2.4">c</xref></sup></td>
+								<td rowspan="1" colspan="1">1</td>
+								<td rowspan="1" colspan="1">1.26 [0.95, 1.67] <sup><xref ref-type="table-fn" rid="ngtab2.4">c</xref></sup></td>
+								<td rowspan="1" colspan="1">0.44</td>
+								<td rowspan="1" colspan="1">1.08 [0.73, 1.60] <sup><xref ref-type="table-fn" rid="ngtab2.4">c</xref></sup></td>
+								<td rowspan="1" colspan="1">1</td>
+							</tr>
+							<tr>
+								<td rowspan="1" colspan="1" />
+								<td rowspan="1" colspan="1">Africans</td>
+								<td rowspan="1" colspan="1">1234</td>
+								<td rowspan="1" colspan="1">910</td>
+								<td rowspan="1" colspan="1">155</td>
+								<td rowspan="1" colspan="1">1554</td>
+								<td rowspan="1" colspan="1">1272</td>
+								<td rowspan="1" colspan="1">233</td>
+								<td rowspan="1" colspan="1">0.89 [0.79, 1.00]</td>
+								<td rowspan="1" colspan="1">0.2</td>
+								<td rowspan="1" colspan="1">0.86 [0.59, 1.24] <bold><sup><xref ref-type="table-fn" rid="ngtab2.4">c</xref></sup></bold></td>
+								<td rowspan="1" colspan="1">1</td>
+								<td rowspan="1" colspan="1">0.88 [0.79, 0.98]</td>
+								<td rowspan="1" colspan="1">0.12</td>
+								<td rowspan="1" colspan="1">0.89 [0.62, 1.27] <bold><sup><xref ref-type="table-fn" rid="ngtab2.4">c</xref></sup></bold></td>
+								<td rowspan="1" colspan="1">1</td>
+							</tr>
+							<tr>
+								<td rowspan="1" colspan="1" />
+								<td rowspan="1" colspan="1">Americans</td>
+								<td rowspan="1" colspan="1">112</td>
+								<td rowspan="1" colspan="1">38</td>
+								<td rowspan="1" colspan="1">4</td>
+								<td rowspan="1" colspan="1">228</td>
+								<td rowspan="1" colspan="1">89</td>
+								<td rowspan="1" colspan="1">6</td>
+								<td rowspan="1" colspan="1">0.92 [0.56, 1.49]</td>
+								<td rowspan="1" colspan="1">1</td>
+								<td rowspan="1" colspan="1">1.69 [0.48, 5.96]</td>
+								<td rowspan="1" colspan="1">1</td>
+								<td rowspan="1" colspan="1">0.94 [0.58, 1.51]</td>
+								<td rowspan="1" colspan="1">1</td>
+								<td rowspan="1" colspan="1">1.56 [0.46, 5.33] </td>
+								<td rowspan="1" colspan="1">1</td>
+							</tr>
+							<tr>
+								<td rowspan="1" colspan="1" />
+								<td rowspan="1" colspan="1">Europeans</td>
+								<td rowspan="1" colspan="1">65</td>
+								<td rowspan="1" colspan="1">117</td>
+								<td rowspan="1" colspan="1">14</td>
+								<td rowspan="1" colspan="1">73</td>
+								<td rowspan="1" colspan="1">87</td>
+								<td rowspan="1" colspan="1">30</td>
+								<td rowspan="1" colspan="1">1.70 [0.61, 4.74] <bold><sup><xref ref-type="table-fn" rid="ngtab2.4">c</xref></sup></bold></td>
+								<td rowspan="1" colspan="1">1</td>
+								<td rowspan="1" colspan="1">0.47 [0.21, 1.04]</td>
+								<td rowspan="1" colspan="1">0.24</td>
+								<td rowspan="1" colspan="1">1.35 [0.87, 2.07]</td>
+								<td rowspan="1" colspan="1">0.72</td>
+								<td rowspan="1" colspan="1">0.20 [0.01, 6.66] <bold><sup><xref ref-type="table-fn" rid="ngtab2.4">c</xref></sup></bold></td>
+								<td rowspan="1" colspan="1">1</td>
+							</tr>
+						</tbody>
+					</table>
+					<table-wrap-foot>
+						<fn id="ngtab2.2">							
+							<p><sup>a</sup> Dominant model: the combination of variant homozygote genotype and heterozygote genotype versus the wild-type homozygote.</p>
+						</fn>
+						<fn id="ngtab2.3">
+							
+							<p><sup>b</sup> Recessive model: variant homozygote versus the combination of heterozygote genotype and wild-type homozygote genotype.</p>
+						</fn>
+						<fn id="ngtab2.4">
+							
+							<p><sup>c</sup> Random-effect model was used because of the <italic>P</italic>-value for the heterogeneity test was &lt;0.05.</p>
+						</fn>
+						<fn id="ngtab2.5">
+							
+							<p><sup>d</sup> Heterogeneity can not be calculated due to one study.</p>
+						</fn>
+						<fn id="ngtab2.1">
+							
+							<p><sup>e</sup> <italic>P</italic>-value was adjusted by Bonferroni correction, as multiple comparison was done at four times for each SNPs and in subgroups of different ethnicities. </p>
+						</fn>
+						<fn id="ngtab2.6">
+							
+							<p><sup>f</sup> Data were available from two Chinese studies.</p>
+						</fn>
+						<fn>
+							<p>Abbreviations: CI, confidence interval; ES, East and Southeast; Ht, heterozygote; OR, odds ratio; NA, not available; SNP, single-nucleotide polymorphism; SW, South and West; VDR, vitamin D receptor; VR Homo, variant homozygote; WT Homo, wide-type homozygote.</p>
+						</fn>
+					</table-wrap-foot>
+				</table-wrap>
+				<p>Of the seventeen studies that were conducted in Asia, two were form China, one was from Cambodia, and the remainder originated from India and Iran. Because the geographical differences might contribute to the genetic diversity, we classified the studies into two groups: East and Southeast Asia (China and Cambodia) and South and West Asia (India and Iran). Additionally, seven African studies were conducted in the sub-Saharan region. As a result, we classified the enrolled studies into five subgroups based on ethnicity and region for the subgroup analysis. The five subgroups included East and Southeast Asians, South and West Asians, Africans, Europeans and Americans.</p>
+				<p>Of the four types of comparisons, we found that only the variant homozygous genotype of FokI polymorphism was associated with a significantly increased risk of tuberculosis when compared to the heterozygous and wild type homozygous genotypes (OR<sub><italic>recessive</italic></sub>=1.36, 95%CI: 1.14-1.62, <italic>P</italic><sub><italic>bonferroni</italic></sub>=0.0028; heterogeneity test: χ<sup>2</sup>=33.28, <italic>P</italic>=0.06) (<xref ref-type="fig" rid="pone-0083843-g002">Figure 2</xref>). Furthermore, when stratifying the different ethnicities (there were only two Chinese studies conducted in East and Southeast Asians), a significant association of recessive model was only found in Chinese (OR<sub><italic>recessive</italic></sub>=1.97, 95%CI: 1.32-2.93, <italic>P</italic><sub><italic>bonferroni</italic></sub>=0.0032; heterogeneity test: χ<sup>2</sup>=0.24, <italic>P</italic>=0.62) (<xref ref-type="fig" rid="pone-0083843-g003">Figure 3</xref>). Also in the same stratification, the variant homozygote of the FokI polymorphism significantly increased the risk of tuberculosis by 1.55 fold when compared to the wild type (OR=2.55, 95%CI: 1.55-4.19, <italic>P</italic><sub><italic>bonferroni</italic></sub>=0.0008; heterogeneity test: χ<sup>2</sup>=0.15, <italic>P</italic>=0.70), and the dominant model of the FokI polymorphism was also significantly increased tuberculosis risk by 0.81 fold (OR<sub><italic>dominat</italic></sub>=1.81, 95%CI: 1.21-2.71, <italic>P</italic><sub><italic>bonferroni</italic></sub>=0.016; heterogeneity test: χ<sup>2</sup>=0.13, <italic>P</italic>=0.72). The protective effect of heterozygote of the FokI polymorphism was in marginal significance in South and West Asians (<italic>P</italic>=0.04). The forest plots of the VDR gene FokI polymorphism (recessive model) in South and West Asians, Africans and Americans showed no significant associations (<xref ref-type="fig" rid="pone-0083843-g004">Figure 4</xref>, <xref ref-type="fig" rid="pone-0083843-g005">5</xref> and <xref ref-type="fig" rid="pone-0083843-g006">6</xref>). Because only one study was found for FokI in Europe, that forest plot was not implemented.</p>
+				<fig id="pone-0083843-g002" position="float" orientation="portrait">
+					<object-id pub-id-type="doi">10.1371/journal.pone.0083843.g002</object-id><label>Figure 2</label>
+					<caption>
+						<title>Forest plot of the recessive model of the VDR gene FokI polymorphism on the risk of tuberculosis.</title></caption>
+					<graphic xlink:type="simple" position="float" xlink:href="info:doi/10.1371/journal.pone.0083843.g002" orientation="portrait" />
+				</fig>
+				<fig id="pone-0083843-g003" position="float" orientation="portrait">
+					<object-id pub-id-type="doi">10.1371/journal.pone.0083843.g003</object-id><label>Figure 3</label>
+					<caption>
+						<title>Forest plot of the recessive model of the VDR gene FokI polymorphism on the risk of tuberculosis in Chinese.</title>
+					</caption>
+					<graphic xlink:type="simple" position="float" xlink:href="info:doi/10.1371/journal.pone.0083843.g003" orientation="portrait" />
+				</fig>
+				<fig id="pone-0083843-g004" position="float" orientation="portrait">
+					<object-id pub-id-type="doi">10.1371/journal.pone.0083843.g004</object-id><label>Figure 4</label>
+					<caption>
+						<title>Forest plot of the recessive model of the VDR gene FokI polymorphism on the risk of tuberculosis in Indians and Iranians.</title>
+					</caption>
+					<graphic xlink:type="simple" position="float" xlink:href="info:doi/10.1371/journal.pone.0083843.g004" orientation="portrait" />
+				</fig>
+				<fig id="pone-0083843-g005" position="float" orientation="portrait">
+					<object-id pub-id-type="doi">10.1371/journal.pone.0083843.g005</object-id><label>Figure 5</label>
+					<caption>
+						<title>Forest plot of the recessive model of the VDR gene FokI polymorphism on the risk of tuberculosis in Africans.</title>
+					</caption>
+					<graphic xlink:type="simple" position="float" xlink:href="info:doi/10.1371/journal.pone.0083843.g005" orientation="portrait" />
+				</fig>
+				<fig id="pone-0083843-g006" position="float" orientation="portrait">
+					<object-id pub-id-type="doi">10.1371/journal.pone.0083843.g006</object-id><label>Figure 6</label>
+					<caption>
+						<title>Forest plot of the recessive model of the VDR gene FokI polymorphism on the risk of tuberculosis in Americans.</title>
+					</caption>
+					<graphic xlink:type="simple" position="float" xlink:href="info:doi/10.1371/journal.pone.0083843.g006" orientation="portrait" />
+				</fig>
+				<p>The other three SNPs of the VDR gene showed no notable associations with tuberculosis risk in the pooled samples. However, stratification of ethnicities revealed some evidence of tuberculosis risk for the other three SNPs. </p>
+				<p>For the BsmI polymorphism in the European population, the variant homozygote and heterozygote genotypes were associated with a significantly decreased risk of tuberculosis when compared to the wild type homozygote (OR<sub><italic>dominant</italic></sub>=0.41, 95%CI: 0.22-0.76, <italic>P</italic><sub><italic>bonferroni</italic></sub>=0.02; heterogeneity test: χ<sup>2</sup>=2.59, <italic>P</italic>=0.11). Although the heterozygote of the BsmI polymorphism decreased the risk of tuberculosis by 0.53-fold when compared to the wild type homozygote (OR=0.47, 95%CI: 0.24-0.91; <italic>P</italic><sub><italic>bonferroni</italic></sub>=0.08; heterogeneity test: χ<sup>2</sup>=1.17, <italic>P</italic>=0.28), the Bonferroni correction showed no significance. </p>
+				<p>For the TaqI polymorphism in the African population, the variant homozygote and heterozygote genotypes reduced the risk of tuberculosis when compared to the wild type homozygote by marginal significance (OR<sub><italic>dominant</italic></sub>=0.88, 95%CI: 0.79-0.98, <italic>P</italic><sub><italic>bonferroni</italic></sub>=0.12; heterogeneity test: χ<sup>2</sup>=8.51, <italic>P</italic>=0.20). Also, the heterozygote of the TaqI polymorphism reduced the risk of tuberculosis by 0.11 fold when compared to the wild type homozygote (OR=0.89, 95%CI: 0.79-1.00; <italic>P</italic><sub><italic>bonferroni</italic></sub>=0.2; heterogeneity test: χ<sup>2</sup>=1.17, <italic>P</italic>=0.28). However, the adjusted <italic>P</italic>-values of the above results showed no significance by Bonferroni correction.</p>
+				<p>Because only one study was conducted in the European population for the ApaI polymorphism, the heterogeneity and pooled ORs could not be calculated. </p>
+				<p>Meta regression was adopted to illustrate the potential reasons for heterogeneity between the studies if the <italic>P</italic>-value of that heterogeneity was less than 0.05. However, the <italic>P</italic>-value of the heterogeneity test for the significant association (recessive model of FokI polymorphism) exceeded 0.05. Therefore, we did not perform further meta-regression.</p>
+			</sec>
+			<sec id="s3.3">
+				<title>Publication bias</title>
+				<p>In this meta-analysis, a Funnel plot, Egger’s test and Horbold-Egger’s test was used to evaluate the potential publication bias of the enrolled studies. For the significant result of the FokI recessive model, the Egger’s test (<italic>t</italic>=0.51, <italic>P</italic>=0.614) showed no evidence of publication bias. However, the funnel plot of the FokI recessive model suggested some asymmetry that might be induced by small sample sizes (<xref ref-type="fig" rid="pone-0083843-g007">Figure 7</xref>). However, the Horbold-Egger’s test supported the result of Egger’s test that suggested that the publication bias induced by small sample sizes was limited (<italic>t</italic>=0.48, <italic>P</italic>=0.633).</p>
+				<fig id="pone-0083843-g007" position="float" orientation="portrait">
+					<object-id pub-id-type="doi">10.1371/journal.pone.0083843.g007</object-id><label>Figure 7</label>
+					<caption>
+						<title>Funnel plot of the recessive model of the VDR gene FokI polymorphism on the risk of tuberculosis, Egger's Test: <italic>t</italic>=0.51, <italic>P</italic>=0.614.</title><p>log, logarithms; SE, standard error.</p>
+					</caption>
+					<graphic xlink:type="simple" position="float" xlink:href="info:doi/10.1371/journal.pone.0083843.g007" orientation="portrait" />
+				</fig>
+			</sec>
+		</sec>
+		<sec id="s4" sec-type="discussion">
+			<title>Discussion</title>
+			<p>In this meta-analysis of the relationship between the VDR gene polymorphisms and the risk of tuberculosis, we found that the FokI SNP in the recessive model (ff vs. Ff/FF) significantly increased the risk of tuberculosis, and the risk effect was found in the Chinese population. The other three SNPs variants were not linked to any significant risk or protective effect on tuberculosis in the total population. However, in the stratification of different ethnicities, we found that the dominant model of BsmI SNP generated a protective effect on tuberculosis in the European population. </p>
+			<p>Because the frequency of minor alleles of each SNP of VDR gene was commonly more than 0.01 in the different populations based on the HapMap data (<ext-link ext-link-type="uri" xlink:href="http://hapmap.ncbi.nlm.nih.gov/" xlink:type="simple"><underline>http://hapmap.ncbi.nlm.nih.gov/</underline></ext-link>), the four SNPs are valuable for tuberculosis susceptibility research in different ethnic backgrounds. Genetic alterations of the VDR gene may lead to changes in gene activation or in VDR protein structure, and these changes could affect the cellular function of 1,25-dihydroxyvitamin D3. Additionally, VDR gene polymorphisms could be linked to each other and to other unidentified genes, which could also be important for tuberculosis risk.</p>
+			<p>The FokI SNP was located within the exon 2 of the VDR gene, and evidence of FokI functionality has already been obtained [<xref ref-type="bibr" rid="B41">41</xref>]. Results from transcriptional activation studies in transfected HeLa cells using a reporter construct under the control of a short portion of the rat 24-hydroxylase gene promoter region (-291-+9) containing a vitamin D responsive element (VDRE) suggested that the short 424 amino acid VDR protein variant (corresponding with the C-allele or ‘‘big F’’ allele) would be more active than the long 427 aa variant. Because the luciferase activities of transfected HeLa cells that containing different variants of FokI increased by 19.5- (ff) and 11.2-fold (FF), respectively. Thus, a 1.7-fold relative difference was observed between the two variants. Thus, the f allele of FokI might decrease the activity of the VDR protein and deter the binding of active vitamin D and VDR. Our results on the FokI polymorphism were in accordance with a previously conducted meta-analysis which indicated that the f allele in a recessive model would increase the risk of tuberculosis, and the same effect was found in the Chinese population but not for other ethnicities [<xref ref-type="bibr" rid="B12">12</xref>]. The allele frequencies might be different in various ethnicities; therefore, the risk genotype would be changeable in different ethnicities. The risk effect of the f allele of FokI was not found in the African population, which may be explained by the different f allele frequency in this population (0.192), while the f allele frequency of FokI was 0.442 in Asia (<ext-link ext-link-type="uri" xlink:href="http://hapmap.ncbi.nlm.nih.gov/" xlink:type="simple"><underline>http://hapmap.ncbi.nlm.nih.gov/</underline></ext-link>). Also, due to the small sample size, the analysis of the effect of the FokI polymorphism on tuberculosis was underpowered.</p>
+			<p>The ApaI and BsmI polymorphisms were located in the intron region between exon 8 and exon 9 of the VDR gene. Although the nucleotide changes of the ApaI and BsmI polymorphisms generated no changes in the amino acid or the structure of the expressed VDR protein, they might be in linkage disequilibrium with other functional polymorphisms which regulated VDR gene expression. Earlier studies have provided evidence of differential luciferase activity for the two 3' UTR variants that were linked to the most frequent haplotypes [<xref ref-type="bibr" rid="B42">42</xref>]. In this meta-analysis, homozygote for the variant allele of the ApaI polymorphism ad heterozygote for the BsmI polymorphism both appeared to have a protective role on tuberculosis development in European population. However, due to the small sample size of the enrolled studies, this result needed to be validated in a larger European population.</p>
+			<p>The allele changes of the TaqI SNP would not generate an amino acid transformation. The t allele of the TaqI SNP seemed to be protective for tuberculosis in the African population, although the results were only marginally significant. This different might be explained by different ethnic backgrounds. The t allele frequency (HapMap data) of TaqI was 0.012 in the Chinese population and 0.118 in the Japanese population, 0.288 in the African population and 0.438 in the European population. Meanwhile, It has been suggested that the mRNA coded from the TaqI t allele of the VDR gene would be more stable than the mRNA from the T allele of the VDR gene [<xref ref-type="bibr" rid="B43">43</xref>], and a previous study revealed that the TaqI SNP in exon 9 near 3′ UTR was in linkage disequilibrium with the ApaI and BsmI polymorphisms [<xref ref-type="bibr" rid="B44">44</xref>], which may explain the same protective effect by the two variant alleles of the TaqI and BsmI polymorphisms on tuberculosis. </p>
+			<p>Finally, some limitations of this study need to be addressed. First, HIV status might influence tuberculosis incidence; so, the stratification of HIV status would further reveal the relationship between VDR gene SNPs and tuberculosis. However, HIV status was not reported in one-third of the enrolled studies. Therefore, it was not possible to apply stratification according to HIV status. Second, subgroup analysis with a small number of studies would reduce the statistical power of the analysis. Third, the main method for tuberculosis diagnosis was based on bacteriology. However, these bacteriological methods could not distinguish between <italic>Mycobacterium tuberculosis</italic> and <italic>non-tuberculosis Mycobacterium</italic> (<italic>non-tuberculosis Mycobacterium</italic> constituted a small portion of the clinical cases), which might exert a   confounding effect.</p>
+			<p>In conclusion, this meta-analysis study evaluated the relationship between the VDR gene hot spot SNPs and the risk of tuberculosis in twenty-nine case-control studies, and provided evidence that the FokI SNP might increase the risk of tuberculosis in a recessive model. Thus, host genetic susceptibility might be involved in tuberculosis development. However, due to the small sample sizes, conclusions could not be drawn regarding the putative protective effect of the BsmI variant allele in the European population. Studies with larger sample sizes studies are warranted to be undertaken.</p>
+		</sec>
+		<sec sec-type="supplementary-material">
+			<title>Supporting Information</title>
+			<supplementary-material xlink:type="simple" position="float" id="pone.0083843.s001" xlink:href="info:doi/10.1371/journal.pone.0083843.s001" mimetype="application/msword" orientation="portrait">
+				<label>Checklist S1</label>
+				<caption>
+					<p><bold>PRISMA Checklist.</bold>
+				</p><p>(DOC)</p></caption>
+				</supplementary-material>
+			<supplementary-material xlink:type="simple" position="float" id="pone.0083843.s002" xlink:href="info:doi/10.1371/journal.pone.0083843.s002" mimetype="application/pdf" orientation="portrait">
+				<label>Figure S1</label>
+				<caption>
+					<p><bold>Forest plot of the dominant model of VDR gene ApaI polymorphism.</bold>
+				</p><p>(PDF)</p></caption>
+				</supplementary-material>
+			<supplementary-material xlink:type="simple" position="float" id="pone.0083843.s003" xlink:href="info:doi/10.1371/journal.pone.0083843.s003" mimetype="application/pdf" orientation="portrait">
+				<label>Figure S2</label>
+				<caption>
+					<p><bold>Forest plot of the recessive model of VDR gene ApaI polymorphism.</bold>
+				</p><p>(PDF)</p></caption>
+				</supplementary-material>
+			<supplementary-material xlink:type="simple" position="float" id="pone.0083843.s004" xlink:href="info:doi/10.1371/journal.pone.0083843.s004" mimetype="application/pdf" orientation="portrait">
+				<label>Figure S3</label>
+				<caption>
+					<p><bold>Forest plot of the dominant model of VDR gene BsmI polymorphism.</bold>
+				</p><p>(PDF)</p></caption>
+				</supplementary-material>
+			<supplementary-material xlink:type="simple" position="float" id="pone.0083843.s005" xlink:href="info:doi/10.1371/journal.pone.0083843.s005" mimetype="application/pdf" orientation="portrait">
+				<label>Figure S4</label>
+				<caption>
+					<p><bold>Forest plot of the recessive model of VDR gene BsmIpolymorphism.</bold>
+				</p><p>(PDF)</p></caption>
+				</supplementary-material>
+			<supplementary-material xlink:type="simple" position="float" id="pone.0083843.s006" xlink:href="info:doi/10.1371/journal.pone.0083843.s006" mimetype="application/pdf" orientation="portrait">
+				<label>Figure S5</label>
+				<caption>
+					<p><bold>Forest plot of the dominant model of VDR gene FokIpolymorphism.</bold>
+				</p><p>(PDF)</p></caption>
+				</supplementary-material>
+			<supplementary-material xlink:type="simple" position="float" id="pone.0083843.s007" xlink:href="info:doi/10.1371/journal.pone.0083843.s007" mimetype="application/pdf" orientation="portrait">
+				<label>Figure S6</label>
+				<caption>
+					<p><bold>Forest plot of the dominant model of VDR gene TaqI polymorphism.</bold>
+				</p><p>(PDF)</p></caption>
+				</supplementary-material>
+			<supplementary-material xlink:type="simple" position="float" id="pone.0083843.s008" xlink:href="info:doi/10.1371/journal.pone.0083843.s008" mimetype="application/pdf" orientation="portrait">
+				<label>Figure S7</label>
+				<caption>
+					<p><bold>Forest plot of the recessive model of VDR gene TaqI polymorphism.</bold>
+				</p><p>(PDF)</p></caption>
+				</supplementary-material>
+		</sec>
+	</body>
+	<back>
+		<ref-list>
+			<title>References</title>
+			<ref id="B1">
+				<label>1</label>
+				<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Talat</surname><given-names>N</given-names></name>, <name name-style="western"><surname>Perry</surname><given-names>S</given-names></name>, <name name-style="western"><surname>Parsonnet</surname><given-names>J</given-names></name>, <name name-style="western"><surname>Dawood</surname><given-names>G</given-names></name>, <name name-style="western"><surname>Hussain</surname><given-names>R</given-names></name> (<year>2010</year>) <article-title>Vitamin d deficiency and tuberculosis progression</article-title>. <source>Emerg Infect Dis</source> <volume>16</volume>: <fpage>853</fpage>-<lpage>855</lpage>. doi:<ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.3201/eid1605.091693" xlink:type="simple">10.3201/eid1605.091693</ext-link>. PubMed: <ext-link ext-link-type="uri" xlink:href="http://www.ncbi.nlm.nih.gov/pubmed/20409383" xlink:type="simple">20409383</ext-link>.</mixed-citation>
+			</ref>
+			<ref id="B2">
+				<label>2</label>
+				<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Gibney</surname><given-names>KB</given-names></name>, <name name-style="western"><surname>MacGregor</surname><given-names>L</given-names></name>, <name name-style="western"><surname>Leder</surname><given-names>K</given-names></name>, <name name-style="western"><surname>Torresi</surname><given-names>J</given-names></name>, <name name-style="western"><surname>Marshall</surname><given-names>C</given-names></name> <etal>et al.</etal> (<year>2009</year>) <article-title>Vitamin D deficiency is associated with tuberculosis and latent tuberculosis infection in immigrants from sub-Saharan</article-title>. <source>Africa - Clin Infect Dis</source> <volume>46</volume>: <fpage>443</fpage>-<lpage>446</lpage>.</mixed-citation>
+			</ref>
+			<ref id="B3">
+				<label>3</label>
+				<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Desai</surname><given-names>NS</given-names></name>, <name name-style="western"><surname>Tukvadze</surname><given-names>N</given-names></name>, <name name-style="western"><surname>Frediani</surname><given-names>JK</given-names></name>, <name name-style="western"><surname>Kipiani</surname><given-names>M</given-names></name>, <name name-style="western"><surname>Sanikidze</surname><given-names>E</given-names></name> <etal>et al.</etal> (<year>2012</year>) <article-title>Effects of sunlight and diet on vitamin D status of pulmonary tuberculosis patients in Tbilisi, Georgia</article-title>. <source>Nutrition</source> <volume>28</volume>: <fpage>362</fpage>-<lpage>366</lpage>. doi:<ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1016/j.nut.2011.08.012" xlink:type="simple">10.1016/j.nut.2011.08.012</ext-link>. PubMed: <ext-link ext-link-type="uri" xlink:href="http://www.ncbi.nlm.nih.gov/pubmed/22304856" xlink:type="simple">22304856</ext-link>.</mixed-citation>
+			</ref>
+			<ref id="B4">
+				<label>4</label>
+				<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Sato</surname><given-names>S</given-names></name>, <name name-style="western"><surname>Tanino</surname><given-names>Y</given-names></name>, <name name-style="western"><surname>Saito</surname><given-names>J</given-names></name>, <name name-style="western"><surname>Nikaido</surname><given-names>T</given-names></name>, <name name-style="western"><surname>Inokoshi</surname><given-names>Y</given-names></name> <etal>et al.</etal> (<year>2012</year>) <article-title>The relationship between 25-hydroxyvitamin D levels and treatment course of pulmonary tuberculosis</article-title>. <source>Respir Investig</source> <volume>50</volume>: <fpage>40</fpage>-<lpage>45</lpage>. doi:<ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1016/j.resinv.2012.05.002" xlink:type="simple">10.1016/j.resinv.2012.05.002</ext-link>. PubMed: <ext-link ext-link-type="uri" xlink:href="http://www.ncbi.nlm.nih.gov/pubmed/22749249" xlink:type="simple">22749249</ext-link>.</mixed-citation>
+			</ref>
+			<ref id="B5">
+				<label>5</label>
+				<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Luong</surname><given-names>Kv</given-names></name>, <name name-style="western"><surname>Nguyen</surname><given-names>LT</given-names></name> (<year>2011</year>) <article-title>Impact of vitamin D in the treatment of tuberculosis</article-title>. <source>Am J Med Sci</source> <volume>341</volume>: <fpage>493</fpage>-<lpage>498</lpage>. doi:<ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1097/MAJ.0b013e3182070f47" xlink:type="simple">10.1097/MAJ.0b013e3182070f47</ext-link>. PubMed: <ext-link ext-link-type="uri" xlink:href="http://www.ncbi.nlm.nih.gov/pubmed/21289501" xlink:type="simple">21289501</ext-link>.</mixed-citation>
+			</ref>
+			<ref id="B6">
+				<label>6</label>
+				<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Liu</surname><given-names>PT</given-names></name>, <name name-style="western"><surname>Stenger</surname><given-names>S</given-names></name>, <name name-style="western"><surname>Li</surname><given-names>H</given-names></name>, <name name-style="western"><surname>Wenzel</surname><given-names>L</given-names></name>, <name name-style="western"><surname>Tan</surname><given-names>BH</given-names></name> <etal>et al.</etal> (<year>2006</year>) <article-title>Toll-like receptor triggering of a vitamin D-mediated human antimicrobial response</article-title>. <source>Science</source> <volume>311</volume>: <fpage>1770</fpage>-<lpage>1773</lpage>. doi:<ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1126/science.1123933" xlink:type="simple">10.1126/science.1123933</ext-link>. PubMed: <ext-link ext-link-type="uri" xlink:href="http://www.ncbi.nlm.nih.gov/pubmed/16497887" xlink:type="simple">16497887</ext-link>.</mixed-citation>
+			</ref>
+			<ref id="B7">
+				<label>7</label>
+				<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Zasloff</surname><given-names>M</given-names></name> (<year>2006</year>) <article-title>Fighting infections with vitamin D</article-title>. <source>Nat Med</source> <volume>12</volume>: <fpage>388</fpage>-<lpage>390</lpage>. doi:<ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1038/nm0406-388" xlink:type="simple">10.1038/nm0406-388</ext-link>. PubMed: <ext-link ext-link-type="uri" xlink:href="http://www.ncbi.nlm.nih.gov/pubmed/16598282" xlink:type="simple">16598282</ext-link>.</mixed-citation>
+			</ref>
+			<ref id="B8">
+				<label>8</label>
+				<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Harrison</surname><given-names>JR</given-names></name>, <name name-style="western"><surname>Lorenzo</surname><given-names>JA</given-names></name>, <name name-style="western"><surname>Kawaguchi</surname><given-names>H</given-names></name>, <name name-style="western"><surname>Raisz</surname><given-names>LG</given-names></name>, <name name-style="western"><surname>Pilbeam</surname><given-names>C</given-names></name> (<year>1994</year>) <article-title>Stimulation of prostaglandin E2 production by interleukin-1 alpha and transforming growth factor alpha in osteoblastic MC3T3-E1 cells</article-title>. <source>J Bone Miner Res</source> <volume>9</volume>: <fpage>817</fpage>-<lpage>823</lpage>. PubMed: <ext-link ext-link-type="uri" xlink:href="http://www.ncbi.nlm.nih.gov/pubmed/8079657" xlink:type="simple">8079657</ext-link>.</mixed-citation>
+			</ref>
+			<ref id="B9">
+				<label>9</label>
+				<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Lewis</surname><given-names>SJ</given-names></name>, <name name-style="western"><surname>Baker</surname><given-names>I</given-names></name>, <name name-style="western"><surname>Smith</surname><given-names>GD</given-names></name> (<year>2005</year>) <article-title>Meta-analysis of vitamin D receptor polymorphisms and pulmonary tuberculosis risk</article-title>. <source>International Journal of Tuberculosis and Lung Disease</source> <volume>9</volume>: <fpage>1174</fpage>-<lpage>1177</lpage>. PubMed: <ext-link ext-link-type="uri" xlink:href="http://www.ncbi.nlm.nih.gov/pubmed/16229232" xlink:type="simple">16229232</ext-link>.</mixed-citation>
+			</ref>
+			<ref id="B10">
+				<label>10</label>
+				<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Marashian</surname><given-names>SM</given-names></name>, <name name-style="western"><surname>Farnia</surname><given-names>P</given-names></name>, <name name-style="western"><surname>Seyf</surname><given-names>S</given-names></name>, <name name-style="western"><surname>Anoosheh</surname><given-names>S</given-names></name>, <name name-style="western"><surname>Velayati</surname><given-names>AA</given-names></name> (<year>2010</year>) <article-title>Evaluating the role of vitamin D receptor polymorphisms on susceptibility to tuberculosis among iranian patients: a case-control study</article-title>. <source>Tuberk Toraks</source> <volume>58</volume>: <fpage>147</fpage>-<lpage>153</lpage>. PubMed: <ext-link ext-link-type="uri" xlink:href="http://www.ncbi.nlm.nih.gov/pubmed/20865567" xlink:type="simple">20865567</ext-link>.</mixed-citation>
+			</ref>
+			<ref id="B11">
+				<label>11</label>
+				<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Zhang</surname><given-names>HQ</given-names></name>, <name name-style="western"><surname>Deng</surname><given-names>A</given-names></name>, <name name-style="western"><surname>Guo</surname><given-names>CF</given-names></name>, <name name-style="western"><surname>Wang</surname><given-names>YX</given-names></name>, <name name-style="western"><surname>Chen</surname><given-names>LQ</given-names></name> <etal>et al.</etal> (<year>2010</year>) <article-title>Association between Fold Polymorphism in Vitamin D Receptor Gene and Susceptibility to Spinal Tuberculosis in Chinese Han</article-title>. <source>Population - Archives of Medical Research</source> <volume>41</volume>: <fpage>46</fpage>-<lpage>49</lpage>. doi:<ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1016/j.arcmed.2009.12.004" xlink:type="simple">10.1016/j.arcmed.2009.12.004</ext-link>.</mixed-citation>
+			</ref>
+			<ref id="B12">
+				<label>12</label>
+				<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Gao</surname><given-names>L</given-names></name>, <name name-style="western"><surname>Tao</surname><given-names>Y</given-names></name>, <name name-style="western"><surname>Zhang</surname><given-names>L</given-names></name>, <name name-style="western"><surname>Jin</surname><given-names>Q</given-names></name> (<year>2010</year>) <article-title>Vitamin D receptor genetic polymorphisms and tuberculosis: updated systematic review and meta-analysis</article-title>. <source>Int J Tuberc Lung Dis</source> <volume>14</volume>: <fpage>15</fpage>-<lpage>23</lpage>. PubMed: <ext-link ext-link-type="uri" xlink:href="http://www.ncbi.nlm.nih.gov/pubmed/20003690" xlink:type="simple">20003690</ext-link>.</mixed-citation>
+			</ref>
+			<ref id="B13">
+				<label>13</label>
+				<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Ates</surname><given-names>O</given-names></name>, <name name-style="western"><surname>Dolek</surname><given-names>B</given-names></name>, <name name-style="western"><surname>Dalyan</surname><given-names>L</given-names></name>, <name name-style="western"><surname>Musellim</surname><given-names>B</given-names></name>, <name name-style="western"><surname>Ongen</surname><given-names>G</given-names></name> <etal>et al.</etal> (<year>2011</year>) <article-title>The association between BsmI variant of vitamin D receptor gene and susceptibility to tuberculosis</article-title>. <source>Mol Biol Rep</source> <volume>38</volume>: <fpage>2633</fpage>-<lpage>2636</lpage>. doi:<ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1007/s11033-010-0404-8" xlink:type="simple">10.1007/s11033-010-0404-8</ext-link>. PubMed: <ext-link ext-link-type="uri" xlink:href="http://www.ncbi.nlm.nih.gov/pubmed/21104028" xlink:type="simple">21104028</ext-link>.</mixed-citation>
+			</ref>
+			<ref id="B14">
+				<label>14</label>
+				<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Alexandra</surname><given-names>SG</given-names></name>, <name name-style="western"><surname>Georgiana</surname><given-names>DC</given-names></name>, <name name-style="western"><surname>Nicoleta</surname><given-names>C</given-names></name>, <name name-style="western"><surname>Daniela</surname><given-names>PM</given-names></name>, <name name-style="western"><surname>Traian</surname><given-names>S</given-names></name> <etal>et al.</etal> (<year>2013</year>) <article-title>Apa I and Taq I polymorphisms of VDR (vitamin D receptor) gene in association with susceptibility to tuberculosis in the Romanian population</article-title>. <source>Romanian Biotechnological Letters</source> <volume>18</volume>: <fpage>7956</fpage>-<lpage>7962</lpage>.</mixed-citation>
+			</ref>
+			<ref id="B15">
+				<label>15</label>
+				<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Egger</surname><given-names>M</given-names></name>, <name name-style="western"><surname>Smith</surname><given-names>GD</given-names></name>, <name name-style="western"><surname>Phillips</surname><given-names>AN</given-names></name> (<year>1997</year>) <article-title>Meta-analysis: principles and procedures</article-title>. <source>BMJ</source> <volume>315</volume>: <fpage>1533</fpage>-<lpage>1537</lpage>. doi:<ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1136/bmj.315.7121.1533" xlink:type="simple">10.1136/bmj.315.7121.1533</ext-link>. PubMed: <ext-link ext-link-type="uri" xlink:href="http://www.ncbi.nlm.nih.gov/pubmed/9432252" xlink:type="simple">9432252</ext-link>.</mixed-citation>
+			</ref>
+			<ref id="B16">
+				<label>16</label>
+				<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Bellamy</surname><given-names>R</given-names></name>, <name name-style="western"><surname>Ruwende</surname><given-names>C</given-names></name>, <name name-style="western"><surname>Corrah</surname><given-names>T</given-names></name>, <name name-style="western"><surname>McAdam</surname><given-names>KP</given-names></name>, <name name-style="western"><surname>Thursz</surname><given-names>M</given-names></name> <etal>et al.</etal> (<year>1999</year>) <article-title>Tuberculosis and chronic hepatitis B virus infection in Africans and variation in the vitamin D receptor gene</article-title>. <source>J Infect Dis</source> <volume>179</volume>: <fpage>721</fpage>-<lpage>724</lpage>. doi:<ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1086/314614" xlink:type="simple">10.1086/314614</ext-link>. PubMed: <ext-link ext-link-type="uri" xlink:href="http://www.ncbi.nlm.nih.gov/pubmed/9952386" xlink:type="simple">9952386</ext-link>.</mixed-citation>
+			</ref>
+			<ref id="B17">
+				<label>17</label>
+				<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Selvaraj</surname><given-names>PS</given-names></name>, <name name-style="western"><surname>Kurian</surname><given-names>SM</given-names></name>, <name name-style="western"><surname>Reetha</surname><given-names>AM</given-names></name>, <name name-style="western"><surname>Charles</surname><given-names>N</given-names></name>, <name name-style="western"><surname>Narayanan</surname><given-names>PR</given-names></name> <etal>et al.</etal> (<year>2000</year>) <article-title>Vitamin D receptor and interleukin-1 receptor antagonist gene polymorphism in spinal tuberculosis</article-title>. <source>Current Science</source> <volume>79</volume>: <fpage>986</fpage>-<lpage>989</lpage>.</mixed-citation>
+			</ref>
+			<ref id="B18">
+				<label>18</label>
+				<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Wilkinson</surname><given-names>RJ</given-names></name>, <name name-style="western"><surname>Llewelyn</surname><given-names>M</given-names></name>, <name name-style="western"><surname>Toossi</surname><given-names>Z</given-names></name>, <name name-style="western"><surname>Patel</surname><given-names>P</given-names></name>, <name name-style="western"><surname>Pasvol</surname><given-names>G</given-names></name> <etal>et al.</etal> (<year>2000</year>) <article-title>Influence of vitamin D deficiency and vitamin D receptor polymorphisms on tuberculosis among Gujarati Asians in west London: a case-control study</article-title>. <source>Lancet</source> <volume>355</volume>: <fpage>618</fpage>-<lpage>621</lpage>. doi:<ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1016/S0140-6736(99)02301-6" xlink:type="simple">10.1016/S0140-6736(99)02301-6</ext-link>. PubMed: <ext-link ext-link-type="uri" xlink:href="http://www.ncbi.nlm.nih.gov/pubmed/10696983" xlink:type="simple">10696983</ext-link>.</mixed-citation>
+			</ref>
+			<ref id="B19">
+				<label>19</label>
+				<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Delgado</surname><given-names>JC</given-names></name>, <name name-style="western"><surname>Baena</surname><given-names>A</given-names></name>, <name name-style="western"><surname>Thim</surname><given-names>S</given-names></name>, <name name-style="western"><surname>Goldfeld</surname><given-names>AE</given-names></name> (<year>2002</year>) <article-title>Ethnic-specific genetic associations with pulmonary tuberculosis</article-title>. <source>J Infect Dis</source> <volume>186</volume>: <fpage>1463</fpage>-<lpage>1468</lpage>. doi:<ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1086/344891" xlink:type="simple">10.1086/344891</ext-link>. PubMed: <ext-link ext-link-type="uri" xlink:href="http://www.ncbi.nlm.nih.gov/pubmed/12404162" xlink:type="simple">12404162</ext-link>.</mixed-citation>
+			</ref>
+			<ref id="B20">
+				<label>20</label>
+				<mixed-citation publication-type="confproc" xlink:type="simple"><name name-style="western"><surname>Fibla</surname><given-names>J</given-names></name>, <name name-style="western"><surname>Barber</surname><given-names>Y</given-names></name>, <name name-style="western"><surname>Nieto</surname><given-names>G</given-names></name>, <name name-style="western"><surname>Velasco</surname><given-names>A</given-names></name>, <name name-style="western"><surname>Rubio</surname><given-names>MC</given-names></name> <etal>et al.</etal> (<year>2002</year>) <article-title>Involvement of vitamin D receptor gene polymorphisms in tuberculosis infection of HIV-1 seropositive patients</article-title>. <source>14<sup>th</sup> International Aids Conference: Basic Sciences</source>. pp. <fpage>87</fpage>-<lpage>91</lpage>.</mixed-citation>
+			</ref>
+			<ref id="B21">
+				<label>21</label>
+				<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Selvaraj</surname><given-names>P</given-names></name>, <name name-style="western"><surname>Chandra</surname><given-names>G</given-names></name>, <name name-style="western"><surname>Kurian</surname><given-names>SM</given-names></name>, <name name-style="western"><surname>Reetha</surname><given-names>AM</given-names></name>, <name name-style="western"><surname>Narayanan</surname><given-names>PR</given-names></name> (<year>2003</year>) <article-title>Association of vitamin D receptor gene variants of BsmI, ApaI and FokI polymorphisms with susceptibility or resistance to pulmonary tuberculosis</article-title>. <source>Current Science</source> <volume>84</volume>: <fpage>1564</fpage>-<lpage>1568</lpage>.</mixed-citation>
+			</ref>
+			<ref id="B22">
+				<label>22</label>
+				<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Bornman</surname><given-names>L</given-names></name>, <name name-style="western"><surname>Campbell</surname><given-names>SJ</given-names></name>, <name name-style="western"><surname>Fielding</surname><given-names>K</given-names></name>, <name name-style="western"><surname>Bah</surname><given-names>B</given-names></name>, <name name-style="western"><surname>Sillah</surname><given-names>J</given-names></name> <etal>et al.</etal> (<year>2004</year>) <article-title>Vitamin D receptor polymorphisms and susceptibility to tuberculosis in West Africa: A case-control and family study</article-title>. <source>J Infect Dis</source> <volume>190</volume>: <fpage>1631</fpage>-<lpage>1641</lpage>. doi:<ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1086/424462" xlink:type="simple">10.1086/424462</ext-link>. PubMed: <ext-link ext-link-type="uri" xlink:href="http://www.ncbi.nlm.nih.gov/pubmed/15478069" xlink:type="simple">15478069</ext-link>.</mixed-citation>
+			</ref>
+			<ref id="B23">
+				<label>23</label>
+				<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Fitness</surname><given-names>J</given-names></name>, <name name-style="western"><surname>Floyd</surname><given-names>S</given-names></name>, <name name-style="western"><surname>Warndorff</surname><given-names>DK</given-names></name>, <name name-style="western"><surname>Sichali</surname><given-names>L</given-names></name>, <name name-style="western"><surname>Malema</surname><given-names>S</given-names></name> <etal>et al.</etal> (<year>2004</year>) <article-title>Large-scale candidate gene study of tuberculosis susceptibility in the Karonga district of northern Malawi</article-title>. <source>Am J Trop Med Hyg</source> <volume>71</volume>: <fpage>341</fpage>-<lpage>349</lpage>. PubMed: <ext-link ext-link-type="uri" xlink:href="http://www.ncbi.nlm.nih.gov/pubmed/15381817" xlink:type="simple">15381817</ext-link>.</mixed-citation>
+			</ref>
+			<ref id="B24">
+				<label>24</label>
+				<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Liu</surname><given-names>W</given-names></name>, <name name-style="western"><surname>Cao</surname><given-names>WC</given-names></name>, <name name-style="western"><surname>Zhang</surname><given-names>CY</given-names></name>, <name name-style="western"><surname>Tian</surname><given-names>L</given-names></name>, <name name-style="western"><surname>Wu</surname><given-names>XM</given-names></name> <etal>et al.</etal> (<year>2004</year>) <article-title>VDR and NRAMP1 gene polymorphisms in susceptibility to pulmonary tuberculosis among the Chinese Han population: a case-control study</article-title>. <source>Int J Tuberc Lung Dis</source> <volume>8</volume>: <fpage>428</fpage>-<lpage>434</lpage>. PubMed: <ext-link ext-link-type="uri" xlink:href="http://www.ncbi.nlm.nih.gov/pubmed/15141734" xlink:type="simple">15141734</ext-link>.</mixed-citation>
+			</ref>
+			<ref id="B25">
+				<label>25</label>
+				<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Roth</surname><given-names>DE</given-names></name>, <name name-style="western"><surname>Soto</surname><given-names>G</given-names></name>, <name name-style="western"><surname>Arenas</surname><given-names>F</given-names></name>, <name name-style="western"><surname>Bautista</surname><given-names>CT</given-names></name>, <name name-style="western"><surname>Ortiz</surname><given-names>J</given-names></name> <etal>et al.</etal> (<year>2004</year>) <article-title>Association between vitamin D receptor gene polymorphisms and response to treatment of pulmonary tuberculosis</article-title>. <source>J Infect Dis</source> <volume>190</volume>: <fpage>920</fpage>-<lpage>927</lpage>. doi:<ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1086/423212" xlink:type="simple">10.1086/423212</ext-link>. PubMed: <ext-link ext-link-type="uri" xlink:href="http://www.ncbi.nlm.nih.gov/pubmed/15295697" xlink:type="simple">15295697</ext-link>.</mixed-citation>
+			</ref>
+			<ref id="B26">
+				<label>26</label>
+				<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Selvaraj</surname><given-names>P</given-names></name>, <name name-style="western"><surname>Kurian</surname><given-names>SM</given-names></name>, <name name-style="western"><surname>Chandra</surname><given-names>G</given-names></name>, <name name-style="western"><surname>Reetha</surname><given-names>AM</given-names></name>, <name name-style="western"><surname>Charles</surname><given-names>N</given-names></name> <etal>et al.</etal> (<year>2004</year>) <article-title>Vitamin D receptor gene variants of BsmI, ApaI, TaqI, and FokI polymorphisms in spinal tuberculosis</article-title>. <source>Clin Genet</source> <volume>65</volume>: <fpage>73</fpage>-<lpage>76</lpage>. PubMed: <ext-link ext-link-type="uri" xlink:href="http://www.ncbi.nlm.nih.gov/pubmed/15032981" xlink:type="simple">15032981</ext-link>.</mixed-citation>
+			</ref>
+			<ref id="B27">
+				<label>27</label>
+				<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Lombard</surname><given-names>Z</given-names></name>, <name name-style="western"><surname>Dalton</surname><given-names>DL</given-names></name>, <name name-style="western"><surname>Venter</surname><given-names>PA</given-names></name>, <name name-style="western"><surname>Williams</surname><given-names>RC</given-names></name>, <name name-style="western"><surname>Bornman</surname><given-names>L</given-names></name> (<year>2006</year>) <article-title>Association of HLA-DR, -DQ, and vitamin D receptor alleles and haplotypes with tuberculosis in the Venda of South Africa</article-title>. <source>Hum Immunol</source> <volume>67</volume>: <fpage>643</fpage>-<lpage>654</lpage>. doi:<ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1016/j.humimm.2006.04.008" xlink:type="simple">10.1016/j.humimm.2006.04.008</ext-link>. PubMed: <ext-link ext-link-type="uri" xlink:href="http://www.ncbi.nlm.nih.gov/pubmed/16916662" xlink:type="simple">16916662</ext-link>.</mixed-citation>
+			</ref>
+			<ref id="B28">
+				<label>28</label>
+				<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Babb</surname><given-names>C</given-names></name>, <name name-style="western"><surname>van der Merwe</surname><given-names>L</given-names></name>, <name name-style="western"><surname>Beyers</surname><given-names>N</given-names></name>, <name name-style="western"><surname>Pheiffer</surname><given-names>C</given-names></name>, <name name-style="western"><surname>Walzl</surname><given-names>G</given-names></name> <etal>et al.</etal> (<year>2007</year>) <article-title>Vitamin D receptor gene polymorphisms and sputum conversion time in pulmonary tuberculosis patients</article-title>. <source>Tuberculosis (Edinb)</source> <volume>87</volume>: <fpage>295</fpage>-<lpage>302</lpage>. doi:<ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1016/j.tube.2007.03.001" xlink:type="simple">10.1016/j.tube.2007.03.001</ext-link>. PubMed: <ext-link ext-link-type="uri" xlink:href="http://www.ncbi.nlm.nih.gov/pubmed/17449323" xlink:type="simple">17449323</ext-link>.</mixed-citation>
+			</ref>
+			<ref id="B29">
+				<label>29</label>
+				<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Olesen</surname><given-names>R</given-names></name>, <name name-style="western"><surname>Wejse</surname><given-names>C</given-names></name>, <name name-style="western"><surname>Velez</surname><given-names>DR</given-names></name>, <name name-style="western"><surname>Bisseye</surname><given-names>C</given-names></name>, <name name-style="western"><surname>Sodemann</surname><given-names>M</given-names></name> <etal>et al.</etal> (<year>2007</year>) <article-title>DC-SIGN (CD209), pentraxin 3 and vitamin D receptor gene variants associate with pulmonary tuberculosis risk in West Africans</article-title>. <source>Genes Immun</source> <volume>8</volume>: <fpage>456</fpage>-<lpage>467</lpage>. doi:<ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1038/sj.gene.6364410" xlink:type="simple">10.1038/sj.gene.6364410</ext-link>. PubMed: <ext-link ext-link-type="uri" xlink:href="http://www.ncbi.nlm.nih.gov/pubmed/17611589" xlink:type="simple">17611589</ext-link>.</mixed-citation>
+			</ref>
+			<ref id="B30">
+				<label>30</label>
+				<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Søborg</surname><given-names>C</given-names></name>, <name name-style="western"><surname>Andersen</surname><given-names>AB</given-names></name>, <name name-style="western"><surname>Range</surname><given-names>N</given-names></name>, <name name-style="western"><surname>Malenganisho</surname><given-names>W</given-names></name>, <name name-style="western"><surname>Friis</surname><given-names>H</given-names></name> <etal>et al.</etal> (<year>2007</year>) <article-title>Influence of candidate susceptibility genes on tuberculosis in a high endemic region</article-title>. <source>Mol Immunol</source> <volume>44</volume>: <fpage>2213</fpage>-<lpage>2220</lpage>. doi:<ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1016/j.molimm.2006.11.002" xlink:type="simple">10.1016/j.molimm.2006.11.002</ext-link>. PubMed: <ext-link ext-link-type="uri" xlink:href="http://www.ncbi.nlm.nih.gov/pubmed/17157384" xlink:type="simple">17157384</ext-link>.</mixed-citation>
+			</ref>
+			<ref id="B31">
+				<label>31</label>
+				<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Wilbur</surname><given-names>AK</given-names></name>, <name name-style="western"><surname>Kubatko</surname><given-names>LS</given-names></name>, <name name-style="western"><surname>Hurtado</surname><given-names>AM</given-names></name>, <name name-style="western"><surname>Hill</surname><given-names>KR</given-names></name>, <name name-style="western"><surname>Stone</surname><given-names>AC</given-names></name> (<year>2007</year>) <article-title>Vitamin D receptor gene polymorphisms and susceptibility M. tuberculosis in native Paraguayans</article-title>. <source>Tuberculosis (Edinb)</source> <volume>87</volume>: <fpage>329</fpage>-<lpage>337</lpage>. doi:<ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1016/j.tube.2007.01.001" xlink:type="simple">10.1016/j.tube.2007.01.001</ext-link>. PubMed: <ext-link ext-link-type="uri" xlink:href="http://www.ncbi.nlm.nih.gov/pubmed/17337247" xlink:type="simple">17337247</ext-link>.</mixed-citation>
+			</ref>
+			<ref id="B32">
+				<label>32</label>
+				<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Selvaraj</surname><given-names>P</given-names></name>, <name name-style="western"><surname>Vidyarani</surname><given-names>M</given-names></name>, <name name-style="western"><surname>Alagarasu</surname><given-names>K</given-names></name>, <name name-style="western"><surname>Prabhu Anand</surname><given-names>S</given-names></name>, <name name-style="western"><surname>Narayanan</surname><given-names>PR</given-names></name> (<year>2008</year>) <article-title>Regulatory role of promoter and 3' UTR variants of vitamin D receptor gene on cytokine response in pulmonary tuberculosis</article-title>. <source>J Clin Immunol</source> <volume>28</volume>: <fpage>306</fpage>-<lpage>313</lpage>. doi:<ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1007/s10875-007-9152-5" xlink:type="simple">10.1007/s10875-007-9152-5</ext-link>. PubMed: <ext-link ext-link-type="uri" xlink:href="http://www.ncbi.nlm.nih.gov/pubmed/18231846" xlink:type="simple">18231846</ext-link>.</mixed-citation>
+			</ref>
+			<ref id="B33">
+				<label>33</label>
+				<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Alagarasu</surname><given-names>K</given-names></name>, <name name-style="western"><surname>Selvaraj</surname><given-names>P</given-names></name>, <name name-style="western"><surname>Swaminathan</surname><given-names>S</given-names></name>, <name name-style="western"><surname>Narendran</surname><given-names>G</given-names></name>, <name name-style="western"><surname>Narayanan</surname><given-names>PR</given-names></name> (<year>2009</year>) <article-title>5' Regulatory and 3' Untranslated Region Polymorphisms of Vitamin D Receptor Gene in South Indian HIV and HIV-TB Patients</article-title>. <source>J Clin Immunol</source> <volume>29</volume>: <fpage>196</fpage>-<lpage>204</lpage>. doi:<ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1007/s10875-008-9234-z" xlink:type="simple">10.1007/s10875-008-9234-z</ext-link>. PubMed: <ext-link ext-link-type="uri" xlink:href="http://www.ncbi.nlm.nih.gov/pubmed/18712587" xlink:type="simple">18712587</ext-link>.</mixed-citation>
+			</ref>
+			<ref id="B34">
+				<label>34</label>
+				<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Merza</surname><given-names>M</given-names></name>, <name name-style="western"><surname>Farnia</surname><given-names>P</given-names></name>, <name name-style="western"><surname>Anoosheh</surname><given-names>S</given-names></name>, <name name-style="western"><surname>Varahram</surname><given-names>M</given-names></name>, <name name-style="western"><surname>Kazampour</surname><given-names>M</given-names></name> <etal>et al.</etal> (<year>2009</year>) <article-title>The NRAMPI, VDR and TNF-alpha gene polymorphisms in Iranian tuberculosis patients: the study on host susceptibility</article-title>. <source>Braz J Infect Dis</source> <volume>13</volume>: <fpage>252</fpage>-<lpage>256</lpage>. PubMed: <ext-link ext-link-type="uri" xlink:href="http://www.ncbi.nlm.nih.gov/pubmed/20231985" xlink:type="simple">20231985</ext-link>.</mixed-citation>
+			</ref>
+			<ref id="B35">
+				<label>35</label>
+				<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Selvaraj</surname><given-names>P</given-names></name>, <name name-style="western"><surname>Prabhu Anand</surname><given-names>S</given-names></name>, <name name-style="western"><surname>Harishankar</surname><given-names>M</given-names></name>, <name name-style="western"><surname>Alagarasu</surname><given-names>K</given-names></name> (<year>2009</year>) <article-title>Plasma 1,25 dihydroxy vitamin D3 level and expression of vitamin d receptor and cathelicidin in pulmonary tuberculosis</article-title>. <source>J Clin Immunol</source> <volume>29</volume>: <fpage>470</fpage>-<lpage>478</lpage>. doi:<ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1007/s10875-009-9277-9" xlink:type="simple">10.1007/s10875-009-9277-9</ext-link>. PubMed: <ext-link ext-link-type="uri" xlink:href="http://www.ncbi.nlm.nih.gov/pubmed/19219539" xlink:type="simple">19219539</ext-link>.</mixed-citation>
+			</ref>
+			<ref id="B36">
+				<label>36</label>
+				<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Vidyarani</surname><given-names>M</given-names></name>, <name name-style="western"><surname>Selvaraj</surname><given-names>P</given-names></name>, <name name-style="western"><surname>Raghavan</surname><given-names>S</given-names></name>, <name name-style="western"><surname>Narayanan</surname><given-names>PR</given-names></name> (<year>2009</year>) <article-title>Regulatory role of 1, 25-dihydroxyvitamin D3 and vitamin D receptor gene variants on intracellular granzyme A expression in pulmonary tuberculosis</article-title>. <source>Exp Mol Pathol</source> <volume>86</volume>: <fpage>69</fpage>-<lpage>73</lpage>. doi:<ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1016/j.yexmp.2008.10.002" xlink:type="simple">10.1016/j.yexmp.2008.10.002</ext-link>. PubMed: <ext-link ext-link-type="uri" xlink:href="http://www.ncbi.nlm.nih.gov/pubmed/19014932" xlink:type="simple">19014932</ext-link>.</mixed-citation>
+			</ref>
+			<ref id="B37">
+				<label>37</label>
+				<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Banoei</surname><given-names>MM</given-names></name>, <name name-style="western"><surname>Mirsaeidi</surname><given-names>MS</given-names></name>, <name name-style="western"><surname>Houshmand</surname><given-names>M</given-names></name>, <name name-style="western"><surname>Tabarsi</surname><given-names>P</given-names></name>, <name name-style="western"><surname>Ebrahimi</surname><given-names>G</given-names></name> <etal>et al.</etal> (<year>2010</year>) <article-title>Vitamin D receptor homozygote mutant tt and bb are associated with susceptibility to pulmonary tuberculosis in the Iranian population</article-title>. <source>International Journal of Infectious Diseases</source> <volume>14</volume>: <fpage>E84</fpage>-<lpage>E85</lpage>. doi:<ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1016/j.ijid.2009.05.001" xlink:type="simple">10.1016/j.ijid.2009.05.001</ext-link>. PubMed: <ext-link ext-link-type="uri" xlink:href="http://www.ncbi.nlm.nih.gov/pubmed/19482503" xlink:type="simple">19482503</ext-link>.</mixed-citation>
+			</ref>
+			<ref id="B38">
+				<label>38</label>
+				<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Sharma</surname><given-names>PR</given-names></name>, <name name-style="western"><surname>Singh</surname><given-names>S</given-names></name>, <name name-style="western"><surname>Jena</surname><given-names>M</given-names></name>, <name name-style="western"><surname>Mishra</surname><given-names>G</given-names></name>, <name name-style="western"><surname>Prakash</surname><given-names>R</given-names></name> <etal>et al.</etal> (<year>2011</year>) <article-title>Coding and non-coding polymorphisms in VDR gene and susceptibility to pulmonary tuberculosis in tribes, castes and Muslims of Central India</article-title>. <source>Infect Genet Evol</source> <volume>11</volume>: <fpage>1456</fpage>-<lpage>1461</lpage>. doi:<ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1016/j.meegid.2011.05.019" xlink:type="simple">10.1016/j.meegid.2011.05.019</ext-link>. PubMed: <ext-link ext-link-type="uri" xlink:href="http://www.ncbi.nlm.nih.gov/pubmed/21645645" xlink:type="simple">21645645</ext-link>.</mixed-citation>
+			</ref>
+			<ref id="B39">
+				<label>39</label>
+				<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Singh</surname><given-names>A</given-names></name>, <name name-style="western"><surname>Gaughan</surname><given-names>JP</given-names></name>, <name name-style="western"><surname>Kashyap</surname><given-names>VK</given-names></name> (<year>2011</year>) <article-title>SLC11A1 and VDR gene variants and susceptibility to tuberculosis and disease progression in East India</article-title>. <source>Int J Tuberc Lung Dis</source> <volume>15</volume>: <fpage>1468</fpage>-<lpage>1474</lpage>. doi:<ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.5588/ijtld.11.0089" xlink:type="simple">10.5588/ijtld.11.0089</ext-link>. PubMed: <ext-link ext-link-type="uri" xlink:href="http://www.ncbi.nlm.nih.gov/pubmed/22008758" xlink:type="simple">22008758</ext-link>.</mixed-citation>
+			</ref>
+			<ref id="B40">
+				<label>40</label>
+				<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Rathored</surname><given-names>J</given-names></name>, <name name-style="western"><surname>Sharma</surname><given-names>SK</given-names></name>, <name name-style="western"><surname>Singh</surname><given-names>B</given-names></name>, <name name-style="western"><surname>Banavaliker</surname><given-names>JN</given-names></name>, <name name-style="western"><surname>Sreenivas</surname><given-names>V</given-names></name> <etal>et al.</etal> (<year>2012</year>) <article-title>Risk and outcome of multidrug-resistant tuberculosis: vitamin D receptor polymorphisms and serum 25(OH)D</article-title>. <source>Int J Tuberc Lung Dis</source> <volume>16</volume>: <fpage>1522</fpage>-<lpage>1528</lpage>. doi:<ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.5588/ijtld.12.0122" xlink:type="simple">10.5588/ijtld.12.0122</ext-link>. PubMed: <ext-link ext-link-type="uri" xlink:href="http://www.ncbi.nlm.nih.gov/pubmed/22990231" xlink:type="simple">22990231</ext-link>.</mixed-citation>
+			</ref>
+			<ref id="B41">
+				<label>41</label>
+				<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Arai</surname><given-names>H</given-names></name>, <name name-style="western"><surname>Miyamoto</surname><given-names>K</given-names></name>, <name name-style="western"><surname>Taketani</surname><given-names>Y</given-names></name>, <name name-style="western"><surname>Yamamoto</surname><given-names>H</given-names></name>, <name name-style="western"><surname>Iemori</surname><given-names>Y</given-names></name> <etal>et al.</etal> (<year>1997</year>) <article-title>A vitamin D receptor gene polymorphism in the translation initiation codon: effect on protein activity and relation to bone mineral density in Japanese women</article-title>. <source>J Bone Miner Res</source> <volume>12</volume>: <fpage>915</fpage>-<lpage>921</lpage>. doi:<ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1359/jbmr.1997.12.6.915" xlink:type="simple">10.1359/jbmr.1997.12.6.915</ext-link>. PubMed: <ext-link ext-link-type="uri" xlink:href="http://www.ncbi.nlm.nih.gov/pubmed/9169350" xlink:type="simple">9169350</ext-link>.</mixed-citation>
+			</ref>
+			<ref id="B42">
+				<label>42</label>
+				<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Morrison</surname><given-names>NA</given-names></name>, <name name-style="western"><surname>Qi</surname><given-names>JC</given-names></name>, <name name-style="western"><surname>Tokita</surname><given-names>A</given-names></name>, <name name-style="western"><surname>Kelly</surname><given-names>PJ</given-names></name>, <name name-style="western"><surname>Crofts</surname><given-names>L</given-names></name> <etal>et al.</etal> (<year>1994</year>) <article-title>Prediction of bone density from vitamin D receptor alleles</article-title>. <source>Nature</source> <volume>367</volume>: <fpage>284</fpage>-<lpage>287</lpage>. doi:<ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1038/367284a0" xlink:type="simple">10.1038/367284a0</ext-link>. PubMed: <ext-link ext-link-type="uri" xlink:href="http://www.ncbi.nlm.nih.gov/pubmed/8161378" xlink:type="simple">8161378</ext-link>.</mixed-citation>
+			</ref>
+			<ref id="B43">
+				<label>43</label>
+				<mixed-citation publication-type="other" xlink:type="simple"><name name-style="western"><surname>Selvaraj</surname><given-names>P</given-names></name>, <name name-style="western"><surname>Chandra</surname><given-names>G</given-names></name>, <name name-style="western"><surname>Jawahar</surname><given-names>MS</given-names></name>, <name name-style="western"><surname>Rani</surname><given-names>MV</given-names></name>, <name name-style="western"><surname>Rajeshwari</surname><given-names>DN</given-names></name> <etal>et al.</etal> (<year>2004</year>) <article-title>Regulatory role of vitamin D receptor gene variants of Bsm I</article-title>, <comment>Apa I, Taq I, and Fok I polymorphisms on macrophage phagocytosis and lymphoproliferative response to mycobacterium tuberculosis antigen in pulmonary tuberculosis. <italic>J</italic> <italic>Clin</italic> <italic>Immunol</italic> 24: 523-532</comment></mixed-citation>
+			</ref>
+			<ref id="B44">
+				<label>44</label>
+				<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Uitterlinden</surname><given-names>AG</given-names></name>, <name name-style="western"><surname>Fang</surname><given-names>Y</given-names></name>, <name name-style="western"><surname>Van Meurs</surname><given-names>JB</given-names></name>, <name name-style="western"><surname>Pols</surname><given-names>HA</given-names></name>, <name name-style="western"><surname>Van Leeuwen</surname><given-names>JP</given-names></name> (<year>2004</year>) <article-title>Genetics and biology of vitamin D receptor polymorphisms</article-title>. <source>Gene</source> <volume>338</volume>: <fpage>143</fpage>-<lpage>156</lpage>. doi:<ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1016/j.gene.2004.05.014" xlink:type="simple">10.1016/j.gene.2004.05.014</ext-link>. PubMed: <ext-link ext-link-type="uri" xlink:href="http://www.ncbi.nlm.nih.gov/pubmed/15315818" xlink:type="simple">15315818</ext-link>.</mixed-citation>
+			</ref>
+		</ref-list>
+	</back>
+</article>

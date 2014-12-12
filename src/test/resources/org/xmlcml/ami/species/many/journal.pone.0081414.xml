@@ -1,0 +1,773 @@
+<article xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" article-type="research-article" dtd-version="3.0" xml:lang="en">
+<front>
+<journal-meta>
+<journal-id journal-id-type="nlm-ta">PLoS ONE</journal-id>
+<journal-id journal-id-type="publisher-id">plos</journal-id>
+<journal-id journal-id-type="pmc">plosone</journal-id><journal-title-group>
+<journal-title xml:lang="en">PLoS ONE</journal-title></journal-title-group>
+<issn pub-type="epub">1932-6203</issn>
+<publisher>
+<publisher-name>Public Library of Science</publisher-name>
+<publisher-loc>San Francisco, USA</publisher-loc></publisher>
+</journal-meta>
+<article-meta>
+<article-id pub-id-type="publisher-id">PONE-D-13-23805</article-id>
+<article-id pub-id-type="doi">10.1371/journal.pone.0081414</article-id>
+<article-categories><subj-group subj-group-type="heading"><subject>Research Article</subject></subj-group></article-categories>
+<title-group>
+<article-title>SRComp: Short Read Sequence Compression Using Burstsort and Elias Omega Coding</article-title>
+<alt-title alt-title-type="running-head">Compression of Short Read Sequences</alt-title>
+</title-group>
+<contrib-group>
+<contrib contrib-type="author" xlink:type="simple"><name name-style="western"><surname>Selva</surname><given-names>Jeremy John</given-names></name><xref ref-type="aff" rid="aff1" /></contrib>
+<contrib contrib-type="author" xlink:type="simple"><name name-style="western"><surname>Chen</surname><given-names>Xin</given-names></name><xref ref-type="aff" rid="aff1" /><xref ref-type="corresp" rid="cor1"><sup>*</sup></xref></contrib>
+</contrib-group>
+<aff id="aff1"><addr-line>Division of Mathematical Sciences, School of Physical and Mathematical Sciences, Nanyang Technological University, Singapore, Singapore</addr-line></aff>
+<contrib-group>
+<contrib contrib-type="editor" xlink:type="simple"><name name-style="western"><surname>Nelson</surname><given-names>James C.</given-names></name>
+<role>Editor</role>
+<xref ref-type="aff" rid="edit1" /></contrib>
+</contrib-group>
+<aff id="edit1"><addr-line>Kansas State University, United States of America</addr-line></aff>
+<author-notes>
+<corresp id="cor1">* E-mail: <email xlink:type="simple">chenxin@ntu.edu.sg</email></corresp>
+<fn fn-type="conflict"><p>The authors have declared that no competing interests exist.</p></fn>
+<fn fn-type="con"><p>Conceived and designed the experiments: XC. Performed the experiments: JJS XC. Analyzed the data: JJS XC. Wrote the paper: JJS XC.</p></fn>
+</author-notes>
+<pub-date pub-type="collection"><year>2013</year></pub-date>
+<pub-date pub-type="epub"><day>13</day><month>12</month><year>2013</year></pub-date>
+<volume>8</volume>
+<issue>12</issue>
+<elocation-id>e81414</elocation-id>
+<history>
+<date date-type="received"><day>9</day><month>6</month><year>2013</year></date>
+<date date-type="accepted"><day>13</day><month>10</month><year>2013</year></date>
+</history>
+<permissions>
+<copyright-year>2013</copyright-year>
+<copyright-holder>Selva, Chen</copyright-holder><license xlink:href="http://creativecommons.org/licenses/by/4.0/" xlink:type="simple"><license-p>This is an open-access article distributed under the terms of the <ext-link ext-link-type="uri" xlink:href="http://creativecommons.org/licenses/by/4.0/" xlink:type="simple">Creative Commons Attribution License</ext-link>, which permits unrestricted use, distribution, and reproduction in any medium, provided the original author and source are credited.</license-p></license></permissions>
+<abstract>
+<p>Next-generation sequencing (NGS) technologies permit the rapid production of vast amounts of data at low cost. Economical data storage and transmission hence becomes an increasingly important challenge for NGS experiments. In this paper, we introduce a new non-reference based read sequence compression tool called SRComp. It works by first employing a fast string-sorting algorithm called burstsort to sort read sequences in lexicographical order and then Elias omega-based integer coding to encode the sorted read sequences. SRComp has been benchmarked on four large NGS datasets, where experimental results show that it can run 5–35 times faster than current state-of-the-art read sequence compression tools such as BEETL and SCALCE, while retaining comparable compression efficiency for large collections of short read sequences. SRComp is a read sequence compression tool that is particularly valuable in certain applications where compression time is of major concern.</p>
+</abstract>
+<funding-group><funding-statement>This work was supported in part by the Singapore Ministry of Education Academic Research Fund (MOE2012-T2-1-055), National Medical Research Council grant (CBRG11nov091), and a fund from Nanyang Technological University under the Undergraduate Research Experience on CAmpus (URECA) programme. The funders had no role in study design, data collection and analysis, decision to publish, or preparation of the manuscript.</funding-statement></funding-group><counts><page-count count="7" /></counts></article-meta>
+</front>
+<body><sec id="s1">
+<title>Introduction</title>
+<p>Next-generation sequencing (NGS) technologies are gradually replacing Sanger sequencing as the dominant sequencing technologies and are yielding a revolutionary impact on genetics and biomedical research. These technologies can rapidly sequence DNA on the gigabase scale in a single run, thus generating hundreds or even thousands of gigabases in just a few days. Management, storage and analysis of such large amounts of sequencing data, however, pose many daunting bioinformatics challenges. For example, as NGS data output continues to grow exponentially, there is a pressing need for a fast and efficient approach to compressing NGS read sequences for economical data storage and transmission <xref ref-type="bibr" rid="pone.0081414-Kahn1">[1]</xref>.</p>
+<p>A number of tools have been developed to compress NGS data in recent years <xref ref-type="bibr" rid="pone.0081414-Bonfield1">[2]</xref>–<xref ref-type="bibr" rid="pone.0081414-Wan1">[10]</xref>. Most of them are aimed at compression of data files in the FASTQ format, which is the most-used data format for NGS data. Although read DNA sequences are mixed with their associated quality scores in FASTQ files, they are usually processed separately and compressed using different approaches. For example, a reference-based approach is often used to compress read DNA sequences. This approach first aligns reads to a known reference genome sequence and then encodes reads compactly as genomic positions and any aligning differences <xref ref-type="bibr" rid="pone.0081414-Fritz1">[5]</xref>, <xref ref-type="bibr" rid="pone.0081414-Jones1">[7]</xref>, <xref ref-type="bibr" rid="pone.0081414-Kozanitis1">[8]</xref>, <xref ref-type="bibr" rid="pone.0081414-Pinho1">[11]</xref>, <xref ref-type="bibr" rid="pone.0081414-Popitsch1">[12]</xref>. While highly efficient, it is inapplicable to datasets for which no appropriate reference genome sequences are available (e.g., in metagenomic or <italic>de novo</italic> sequencing). Furthermore, the reference-based compressed data are at high risk of being inaccessible once the reference genome sequence used for compression is lost <xref ref-type="bibr" rid="pone.0081414-Yanovsky1">[13]</xref>.</p>
+<p>There also exist many methods to compress read sequences without the help of a reference genome <xref ref-type="bibr" rid="pone.0081414-Cox1">[3]</xref>, <xref ref-type="bibr" rid="pone.0081414-Deorowicz1">[4]</xref>, <xref ref-type="bibr" rid="pone.0081414-Hach1">[6]</xref>, <xref ref-type="bibr" rid="pone.0081414-Wan1">[10]</xref>, <xref ref-type="bibr" rid="pone.0081414-Yanovsky1">[13]</xref>. Interestingly, most of the efficient methods adopt a common compression strategy; that is, the input reads are first reorganized to maximize locality of redundancy and then passed to a general-purpose compressor such as gzip (J. Gailly and M. Adler, <ext-link ext-link-type="uri" xlink:href="http://www.gzip.org" xlink:type="simple">http://www.gzip.org</ext-link>) or bzip2 (J. Seward, <ext-link ext-link-type="uri" xlink:href="http://www.bzip.org" xlink:type="simple">http://www.bzip.org</ext-link>). A variety of specific techniques have been explored to reorganize reads. Wan and Asai first showed that sorting reads in lexicographical order can improve compression efficiency <xref ref-type="bibr" rid="pone.0081414-Wan1">[10]</xref>. ReCoil aimed to group together read sequences that share many <inline-formula><inline-graphic xlink:href="info:doi/10.1371/journal.pone.0081414.e001" xlink:type="simple" /></inline-formula>-mers <xref ref-type="bibr" rid="pone.0081414-Yanovsky1">[13]</xref>. BEETL instead permuted the read sequences by using the Burrows-Wheeler transform (BWT) <xref ref-type="bibr" rid="pone.0081414-Cox1">[3]</xref>. In a recent method, SCALCE tried to group together the reads that share common string ‘signatures’, i.e., the core substrings that are derived from the locally consistent parsing (LCP) <xref ref-type="bibr" rid="pone.0081414-Hach1">[6]</xref>. All the above methods assume that the order of reads is not important, and so there is no need to preserve it.</p>
+<p>In this paper, we introduce a new approach for non-reference based compression of read DNA sequences. It works in a similar way to the method proposed in <xref ref-type="bibr" rid="pone.0081414-Wan1">[10]</xref>, in which reads are first sorted in lexicographical order and then encoded. In order to further increase compression speed and efficiency, we make improvements in the following two ways. First, we use a fast string-sorting algorithm called burstsort <xref ref-type="bibr" rid="pone.0081414-Sinha1">[14]</xref> to sort read sequences. In contrast, radix sort and quicksort were used in <xref ref-type="bibr" rid="pone.0081414-Wan1">[10]</xref>. Second, we apply Elias omega-based integer coding <xref ref-type="bibr" rid="pone.0081414-Elias1">[15]</xref> to the sorted read sequences rather than using the general-purpose compressors gzip or bzip2 as in <xref ref-type="bibr" rid="pone.0081414-Wan1">[10]</xref>. Our approach is implemented in a software tool called SRComp, and has been benchmarked on four NGS datasets of sizes up to 7 GB. The experimental results show that SRComp can run 5–35 times faster than current state-of-the-art read sequence compression tools, such as BEETL and SCALCE, while retaining comparable compression efficiency.</p>
+</sec><sec id="s2" sec-type="methods">
+<title>Methods</title>
+<p>In this section, we introduce the algorithms burstsort and Elias omega-based integer coding in detail. They constitute the two major components of our new read sequence compression approach.</p>
+<sec id="s2a">
+<title>Sorting reads</title>
+<p>Before sorting reads, we first convert every occurrence of the ambiguous base N in the read sequences into the (randomly selected) base G. Consequently, the read sequences to be sorted below are made of only four bases {A, C, G, T}.</p>
+<p>As every read to be sorted is represented as a string over an alphabet of four letters {A, C, G, T}, the first aim in this study is to find a fast string-sorting algorithm that can sort a large collection of reads in lexicographic order. Many sorting algorithms have been proposed in the literature such as insertion sort, mergesort and quicksort. Although these algorithms can be directly applied to sort strings, their computing efficiency and performance vary significantly. In the previous study of <xref ref-type="bibr" rid="pone.0081414-Wan1">[10]</xref>, radix sort and quicksort were used to sort reads and the experimental results showed that sorting time made up a substantial proportion of the total read compression time. Thus, a faster string-sorting algorithm is highly desired to speed up the whole read compression process, especially when hundreds of millions of reads are handled.</p>
+<p>For fast sorting of read sequences, we choose a cache-conscious string-sorting algorithm called burstsort. Burstsort was introduced by Sinha and Zobel in 2004, and has been demonstrated to be around twice as fast as the best of the other string-sorting algorithms <xref ref-type="bibr" rid="pone.0081414-Sinha1">[14]</xref>. To sort a collection of read sequences, burstsort starts with inserting each read sequence into a burst trie – a variant of trie in which sufficiently small subtrees are represented as buckets (see <xref ref-type="fig" rid="pone-0081414-g001">Figure 1</xref>). Specifically, read sequences are retrieved from the main memory in a sequential manner. Once a read sequence is retrieved, it is inspected one base after another until it can be assigned to a bucket. Buckets that have reached the maximum capacity are then burst into new subtries, leading to more buckets created at depth of one level deeper. To output read sequences in lexicographical order, the read sequences within each bucket are first sorted using a method that is efficient for sorting small datasets (e.g., insertion sort or quicksort), and then the constructed burst trie is traversed depth-first and from left to right in each trie node. As all the read sequences within a bucket share the same prefix, their comparisons during sorting can simply start from the base position <inline-formula><inline-graphic xlink:href="info:doi/10.1371/journal.pone.0081414.e002" xlink:type="simple" /></inline-formula> if the bucket is at depth <inline-formula><inline-graphic xlink:href="info:doi/10.1371/journal.pone.0081414.e003" xlink:type="simple" /></inline-formula>.</p>
+<fig id="pone-0081414-g001" position="float" orientation="portrait"><object-id pub-id-type="doi">10.1371/journal.pone.0081414.g001</object-id><label>Figure 1</label><caption>
+<title>A burst trie built from ten read sequences.</title>
+<p>The ten read sequences used are {CGCA, CAAG, TGCT, CGTG, CGTT, GACG, CACT, TGCT, CAAT, CGTG}. This burst trie has three trie nodes and five buckets. The maximum capacity of a bucket is assumed to be three read sequences.</p>
+</caption><graphic mimetype="image" xlink:href="info:doi/10.1371/journal.pone.0081414.g001" position="float" xlink:type="simple" orientation="portrait" /></fig>
+<p>Burstsort is a cache-oblivious string-sorting algorithm, as it takes advantage of the cache system of a CPU (i.e., the local memory of frequently accessed data) to avoid expensive memory access operations and thus to improve efficiency. It is faster at sorting primarily due to a very low rate of cache misses. First, burstsort accesses read sequences serially and inserts them into buckets one after another, which means that a read sequence is fully processed before proceeding to the next. By contrast, radix sort proceeds by inspecting the first base of every read sequence before the second base of any read sequence, so that each read sequence needs to be re-fetched from main memory for each base. Thus, it can be seen that burstsort allows memory access much more localized than radix sort, leading to significantly fewer cache misses. Second, burstsort bursts a bucket into new subtries whenever it is full, so every bucket is maintained at a small size. As a result, the read sequences within each bucket can be fully sorted inside fast cache memory, which do not incur any unnecessary L2 cache misses.</p>
+<p>There exist two variants of burstsort, one using linked lists to represent buckets and the other using dynamic arrays <xref ref-type="bibr" rid="pone.0081414-Sinha1">[14]</xref>. Implementations of these two variants can be found at <ext-link ext-link-type="uri" xlink:href="http://www.cs.mu.oz.au/rsinha/resources/source/sort/allsorts/allsorts.zip" xlink:type="simple">http://www.cs.mu.oz.au/rsinha/resources/source/sort/allsorts/allsorts.zip</ext-link>.</p>
+</sec><sec id="s2b">
+<title>Sorting large collections of reads</title>
+<p>We have assumed until now that the whole collection of reads can be resident in main memory for sorting and encoding. However, today's NGS data output, even from a single experiment, often far exceeds the amount of main memory available in our computing environment. Thus, a critical issue is how to sort a large collection of read sequences that cannot fully reside in main memory.</p>
+<p>To solve this issue, we choose a simple approach which can be divided into two phases. In the first phase, we create a number of temporary files on the local hard disk and allocate each input read into one of the temporary files based on its first few bases (in a way similar to the most significant digit (MSD) radix sort). The number of temporary files to be created is carefully determined to ensure that every temporary file is small enough to fit in main memory for read sorting. During the second phase, read sequences in each temporary file are fetched to main memory and sorted with the burstsort algorithm as described above. The sorted read sequences are then encoded (see the next subsection) and the encoded bitstreams are written to the final compressed file before proceeding to the next temporary file. As these temporary files are sorted and encoded independently, the above two-phase approach additionally allows for easy implementations of parallel compression and decompression.</p>
+</sec><sec id="s2c">
+<title>Encoding a collection of sorted reads</title>
+<p>After the sorting step presented above, we now have a collection of read sequences in lexicographical order. Our second aim in this study is to find a fast and efficient algorithm to encode these sorted read sequences. In the previous study of <xref ref-type="bibr" rid="pone.0081414-Wan1">[10]</xref>, the general-purpose compression tools gzip and bzip2 were tested. These tools, however, were not originally developed to capture the intrinsic sequence pattern of a collection of sorted reads. Thus, a significant improvement in compression efficiency could be achieved with a domain-specific encoding algorithm.</p>
+<p>To this end, we propose a read-encoding algorithm based on a method of encoding a monotone sequence of integers (see <xref ref-type="fig" rid="pone-0081414-g002">Figure 2B</xref>). Firstly, each read sequence is converted into an integer by a trivial two-bit coding of four bases: A<inline-formula><inline-graphic xlink:href="info:doi/10.1371/journal.pone.0081414.e004" xlink:type="simple" /></inline-formula>00, C<inline-formula><inline-graphic xlink:href="info:doi/10.1371/journal.pone.0081414.e005" xlink:type="simple" /></inline-formula>01, G<inline-formula><inline-graphic xlink:href="info:doi/10.1371/journal.pone.0081414.e006" xlink:type="simple" /></inline-formula>10, and T<inline-formula><inline-graphic xlink:href="info:doi/10.1371/journal.pone.0081414.e007" xlink:type="simple" /></inline-formula>11. Consequently, a collection of <inline-formula><inline-graphic xlink:href="info:doi/10.1371/journal.pone.0081414.e008" xlink:type="simple" /></inline-formula> reads will give rise to a sequence of integers <inline-formula><inline-graphic xlink:href="info:doi/10.1371/journal.pone.0081414.e009" xlink:type="simple" /></inline-formula>. As the input reads are sorted in lexicographical order, these integers are not decreasing; that is, <inline-formula><inline-graphic xlink:href="info:doi/10.1371/journal.pone.0081414.e010" xlink:type="simple" /></inline-formula> holds true for <inline-formula><inline-graphic xlink:href="info:doi/10.1371/journal.pone.0081414.e011" xlink:type="simple" /></inline-formula>. Meanwhile, it is worth noting that every read sequence can be unambiguously recovered from its integer representation provided that the read length is known.</p>
+<fig id="pone-0081414-g002" position="float" orientation="portrait"><object-id pub-id-type="doi">10.1371/journal.pone.0081414.g002</object-id><label>Figure 2</label><caption>
+<title>The algorithm overview for compression.</title>
+<p>(A) After five input read sequences are loaded in memory, we build two arrays of pointers. The first array (upper) contains pointers each of which points to a read sequence, whereas the second array (lower) contains pointers each of which points to an occurrence of the ambiguous base N. (B) Before burstsort starts, all the ambiguous bases are substituted with base G. During sorting, read sequences remain at the same physical place in memory and only their respective pointers in the first array are moved into sort order. At the end, read sequences are retrieved in order via the first pointer array. (C) Once the encoding of ordered read sequences is completed, all the ambiguous bases are substituted back via the second pointer array, which enables finding the location of every ambiguous base within the collection of sorted read sequences.</p>
+</caption><graphic mimetype="image" xlink:href="info:doi/10.1371/journal.pone.0081414.g002" position="float" xlink:type="simple" orientation="portrait" /></fig>
+<p>Next, we convert the above non-decreasing sequence of integers into another sequence of integers <inline-formula><inline-graphic xlink:href="info:doi/10.1371/journal.pone.0081414.e012" xlink:type="simple" /></inline-formula>, where <inline-formula><inline-graphic xlink:href="info:doi/10.1371/journal.pone.0081414.e013" xlink:type="simple" /></inline-formula> and <inline-formula><inline-graphic xlink:href="info:doi/10.1371/journal.pone.0081414.e014" xlink:type="simple" /></inline-formula> for <inline-formula><inline-graphic xlink:href="info:doi/10.1371/journal.pone.0081414.e015" xlink:type="simple" /></inline-formula>. That is, each <inline-formula><inline-graphic xlink:href="info:doi/10.1371/journal.pone.0081414.e016" xlink:type="simple" /></inline-formula> is the difference between two consecutive elements of <inline-formula><inline-graphic xlink:href="info:doi/10.1371/journal.pone.0081414.e017" xlink:type="simple" /></inline-formula> plus one. Since <inline-formula><inline-graphic xlink:href="info:doi/10.1371/journal.pone.0081414.e018" xlink:type="simple" /></inline-formula> is a non-decreasing sequence with the first element <inline-formula><inline-graphic xlink:href="info:doi/10.1371/journal.pone.0081414.e019" xlink:type="simple" /></inline-formula> being a non-negative integer, every <inline-formula><inline-graphic xlink:href="info:doi/10.1371/journal.pone.0081414.e020" xlink:type="simple" /></inline-formula> shall take on a positive integer. Note that these two sequences of integers are equivalent in the sense that one sequence can be unambiguously recovered from the other. We added one to every difference in the above just because there is no Elias omega code for the integer zero (see the next paragraph for Elias omega coding).</p>
+<p>In the last step, we encode the sequence of positive integers <inline-formula><inline-graphic xlink:href="info:doi/10.1371/journal.pone.0081414.e021" xlink:type="simple" /></inline-formula> by using Elias omega coding. Elias omega coding is a universal code developed by Peter Elias <xref ref-type="bibr" rid="pone.0081414-Elias1">[15]</xref>, which represents a positive integer by a variable-length self-delimiting bitstream. Encoding a positive integer <inline-formula><inline-graphic xlink:href="info:doi/10.1371/journal.pone.0081414.e022" xlink:type="simple" /></inline-formula> is done recursively in the following steps:</p>
+<list list-type="order"><list-item>
+<p>Initialize the bitstream to a single bit 0.</p>
+</list-item><list-item>
+<p>If <inline-formula><inline-graphic xlink:href="info:doi/10.1371/journal.pone.0081414.e023" xlink:type="simple" /></inline-formula> equals 1, stop; otherwise, prefix the bitstream with the least significant <inline-formula><inline-graphic xlink:href="info:doi/10.1371/journal.pone.0081414.e024" xlink:type="simple" /></inline-formula> bits of the binary representation of <inline-formula><inline-graphic xlink:href="info:doi/10.1371/journal.pone.0081414.e025" xlink:type="simple" /></inline-formula>.</p>
+</list-item>
+<list-item>
+<p>Let <inline-formula><inline-graphic xlink:href="info:doi/10.1371/journal.pone.0081414.e026" xlink:type="simple" /></inline-formula>, and then go to step 2 again.</p>
+</list-item></list>
+<p>For example, if we encode the integer 17 with Elias omega coding, the resulting bitstream is 10100100010, using a total of 11 bits. To decode an Elias omega-coded bitstream back to the integer <inline-formula><inline-graphic xlink:href="info:doi/10.1371/journal.pone.0081414.e027" xlink:type="simple" /></inline-formula>, we may use the following steps:</p>
+<list list-type="order"><list-item>
+<p>Initialize <inline-formula><inline-graphic xlink:href="info:doi/10.1371/journal.pone.0081414.e028" xlink:type="simple" /></inline-formula> to 1.</p>
+</list-item><list-item>
+<p>Read the next bit from the given Elias omega-coded bitstream. If it is 0, stop; otherwise, read <inline-formula><inline-graphic xlink:href="info:doi/10.1371/journal.pone.0081414.e029" xlink:type="simple" /></inline-formula> more bits.</p>
+</list-item><list-item>
+<p>Let <inline-formula><inline-graphic xlink:href="info:doi/10.1371/journal.pone.0081414.e030" xlink:type="simple" /></inline-formula> be the integer such that the least significant <inline-formula><inline-graphic xlink:href="info:doi/10.1371/journal.pone.0081414.e031" xlink:type="simple" /></inline-formula> bits of the binary representation of <inline-formula><inline-graphic xlink:href="info:doi/10.1371/journal.pone.0081414.e032" xlink:type="simple" /></inline-formula> are the same as the <inline-formula><inline-graphic xlink:href="info:doi/10.1371/journal.pone.0081414.e033" xlink:type="simple" /></inline-formula> bits just read in step 2.</p>
+</list-item>
+<list-item>
+<p>Let <inline-formula><inline-graphic xlink:href="info:doi/10.1371/journal.pone.0081414.e034" xlink:type="simple" /></inline-formula>, and then go to step 2 again.</p>
+</list-item></list>
+<p>For example, if the input Elias omega-coded bitstream is 10100100010, then <inline-formula><inline-graphic xlink:href="info:doi/10.1371/journal.pone.0081414.e035" xlink:type="simple" /></inline-formula> will take on three different values of 1, 2 and 17 successively during the execution of the above steps. At the end, the decoded integer is 17.</p>
+<p>In general, Elias omega coding requires only a few bits to encode small integers. As the integer value increases, more and more bits would be needed. Indeed, the distribution of integers in the sequence <inline-formula><inline-graphic xlink:href="info:doi/10.1371/journal.pone.0081414.e036" xlink:type="simple" /></inline-formula> tends to be skewed towards smaller integers, being particularly true when compared to the sequence <inline-formula><inline-graphic xlink:href="info:doi/10.1371/journal.pone.0081414.e037" xlink:type="simple" /></inline-formula>, as we show in <xref ref-type="supplementary-material" rid="pone.0081414.s001">Figure S1</xref>. Therefore, better data compression is expected when we choose to encode the sequence <inline-formula><inline-graphic xlink:href="info:doi/10.1371/journal.pone.0081414.e038" xlink:type="simple" /></inline-formula> instead of the sequence <inline-formula><inline-graphic xlink:href="info:doi/10.1371/journal.pone.0081414.e039" xlink:type="simple" /></inline-formula>.</p>
+</sec><sec id="s2d">
+<title>Encoding ambiguous bases</title>
+<p>The primary aim of this study is to develop a lossless compression approach for a large collection of short read sequences. Hence, it is also necessary to encode all the occurrences of the ambiguous base N of read sequences into the final compressed file.</p>
+<p>Recall that we substituted the base G for every ambiguous base N before the sorting of reads. In order to undo these substitutions at the decompression stage, we keep track of all the ambiguous bases and record where their substituted base Gs are within the collection of sorted reads (see <xref ref-type="fig" rid="pone-0081414-g002">Figure 2C</xref>). Then, we obtain a sequence of integers <inline-formula><inline-graphic xlink:href="info:doi/10.1371/journal.pone.0081414.e040" xlink:type="simple" /></inline-formula>, where <inline-formula><inline-graphic xlink:href="info:doi/10.1371/journal.pone.0081414.e041" xlink:type="simple" /></inline-formula> is the total number of ambiguous bases and each <inline-formula><inline-graphic xlink:href="info:doi/10.1371/journal.pone.0081414.e042" xlink:type="simple" /></inline-formula> (<inline-formula><inline-graphic xlink:href="info:doi/10.1371/journal.pone.0081414.e043" xlink:type="simple" /></inline-formula>) indicates that the <inline-formula><inline-graphic xlink:href="info:doi/10.1371/journal.pone.0081414.e044" xlink:type="simple" /></inline-formula>-th base G within the collection of sorted reads originally comes from an ambiguous base N. It is obvious that <inline-formula><inline-graphic xlink:href="info:doi/10.1371/journal.pone.0081414.e045" xlink:type="simple" /></inline-formula> is an increasing sequence of positive integers; that is, we have <inline-formula><inline-graphic xlink:href="info:doi/10.1371/journal.pone.0081414.e046" xlink:type="simple" /></inline-formula> for <inline-formula><inline-graphic xlink:href="info:doi/10.1371/journal.pone.0081414.e047" xlink:type="simple" /></inline-formula>.</p>
+<p>We encode the sequence of integers <inline-formula><inline-graphic xlink:href="info:doi/10.1371/journal.pone.0081414.e048" xlink:type="simple" /></inline-formula> in a similar way to the sequence <inline-formula><inline-graphic xlink:href="info:doi/10.1371/journal.pone.0081414.e049" xlink:type="simple" /></inline-formula>. First, <inline-formula><inline-graphic xlink:href="info:doi/10.1371/journal.pone.0081414.e050" xlink:type="simple" /></inline-formula> is converted into another sequence of integers <inline-formula><inline-graphic xlink:href="info:doi/10.1371/journal.pone.0081414.e051" xlink:type="simple" /></inline-formula> such that <inline-formula><inline-graphic xlink:href="info:doi/10.1371/journal.pone.0081414.e052" xlink:type="simple" /></inline-formula> and <inline-formula><inline-graphic xlink:href="info:doi/10.1371/journal.pone.0081414.e053" xlink:type="simple" /></inline-formula> for <inline-formula><inline-graphic xlink:href="info:doi/10.1371/journal.pone.0081414.e054" xlink:type="simple" /></inline-formula>. Then, we encode <inline-formula><inline-graphic xlink:href="info:doi/10.1371/journal.pone.0081414.e055" xlink:type="simple" /></inline-formula> by using Elias omega coding. At the decompression stage, after the collection of <italic>sorted</italic> reads and the sequence of integers <inline-formula><inline-graphic xlink:href="info:doi/10.1371/journal.pone.0081414.e056" xlink:type="simple" /></inline-formula> are decoded, the <inline-formula><inline-graphic xlink:href="info:doi/10.1371/journal.pone.0081414.e057" xlink:type="simple" /></inline-formula>-th base G within the collection of sorted reads is finally substituted back by an ambiguous base N.</p>
+</sec></sec><sec id="s3">
+<title>Results</title>
+<p>We implemented the read sequence compression approach described above in a software tool called SRComp, which is freely available at <ext-link ext-link-type="uri" xlink:href="http://www1.spms.ntu.edu.sg/~chenxin/SRComp" xlink:type="simple">http://www1.spms.ntu.edu.sg/~chenxin/SRComp</ext-link>. For the implementation of burstsort, we have made use of the source code from <ext-link ext-link-type="uri" xlink:href="http://www.cs.mu.oz.au/~rsinha/resources/source/sort/allsorts/allsorts.zip" xlink:type="simple">http://www.cs.mu.oz.au/~rsinha/resources/source/sort/allsorts/allsorts.zip</ext-link>. The bucket capacity used is 8192 pointers of strings.</p>
+<sec id="s3a">
+<title>Datasets</title>
+<p>To evaluate the performance of SRComp in compressing short read sequences, we carried out comparative experiments on four different datasets downloaded from the DDBJ Sequence Read Archive (SRA). Their respective accession IDs are SRR014437, SRX001540, SRX006998 and SRX011353 (see <xref ref-type="supplementary-material" rid="pone.0081414.s002">Table S1</xref>). Among these four datasets, the first two datasets, as well as one run from the fourth dataset (i.e., SRR027520), were already employed in several previous studies to test a variety of read sequence compression tools <xref ref-type="bibr" rid="pone.0081414-Bonfield1">[2]</xref>, <xref ref-type="bibr" rid="pone.0081414-Cox1">[3]</xref>, <xref ref-type="bibr" rid="pone.0081414-Wan1">[10]</xref>, <xref ref-type="bibr" rid="pone.0081414-Yanovsky1">[13]</xref>. <xref ref-type="table" rid="pone-0081414-t001">Table 1</xref> gives some basic statistics for these datasets. One might notice that read length is fixed for each dataset. This is because SRComp, as well as BEETL and SCALCE, is not applicable to reads of variable length.</p>
+<table-wrap id="pone-0081414-t001" position="float" orientation="portrait"><object-id pub-id-type="doi">10.1371/journal.pone.0081414.t001</object-id><label>Table 1</label><caption>
+<title>Some basic statistics for datasets used in the experiments.</title>
+</caption><alternatives><graphic id="pone-0081414-t001-1" position="float" mimetype="image" xlink:href="info:doi/10.1371/journal.pone.0081414.t001" xlink:type="simple" orientation="portrait" />
+<table><colgroup span="1"><col align="left" span="1" /><col align="center" span="1" /><col align="center" span="1" /><col align="center" span="1" /><col align="center" span="1" /><col align="center" span="1" /></colgroup>
+<thead>
+<tr>
+<td align="left" rowspan="1" colspan="1">accession ID</td>
+<td align="left" rowspan="1" colspan="1">species</td>
+<td align="left" rowspan="1" colspan="1">read length</td>
+<td align="left" rowspan="1" colspan="1">read count</td>
+<td align="left" rowspan="1" colspan="1">ambiguous base count</td>
+<td align="left" rowspan="1" colspan="1">file size</td>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left" rowspan="1" colspan="1">SRR014437</td>
+<td align="left" rowspan="1" colspan="1">S. cerevisiae</td>
+<td align="left" rowspan="1" colspan="1">28</td>
+<td align="left" rowspan="1" colspan="1">11,759,238</td>
+<td align="left" rowspan="1" colspan="1">2,875,210</td>
+<td align="left" rowspan="1" colspan="1">341,017,902</td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1">SRX001540</td>
+<td align="left" rowspan="1" colspan="1">H. sapiens</td>
+<td align="left" rowspan="1" colspan="1">36</td>
+<td align="left" rowspan="1" colspan="1">192,132,426</td>
+<td align="left" rowspan="1" colspan="1">13,697,303</td>
+<td align="left" rowspan="1" colspan="1">7,108,899,762</td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1">SRX006998</td>
+<td align="left" rowspan="1" colspan="1">A. melanoleuca</td>
+<td align="left" rowspan="1" colspan="1">45</td>
+<td align="left" rowspan="1" colspan="1">162,714,366</td>
+<td align="left" rowspan="1" colspan="1">764,334</td>
+<td align="left" rowspan="1" colspan="1">7,484,860,836</td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1">SRX011353</td>
+<td align="left" rowspan="1" colspan="1">H. sapiens</td>
+<td align="left" rowspan="1" colspan="1">76</td>
+<td align="left" rowspan="1" colspan="1">91,299,128</td>
+<td align="left" rowspan="1" colspan="1">20,532,746</td>
+<td align="left" rowspan="1" colspan="1">7,030,032,856</td>
+</tr>
+</tbody>
+</table>
+</alternatives><table-wrap-foot><fn id="nt101"><p>As the paired-end reads from the experiment SRX006998 are of different length, we include in this dataset only reads from one end.</p></fn></table-wrap-foot></table-wrap>
+<p>All experiments were conducted on a cluster of Intel Xeon X5355 machines with 2.66 GHz CPU and 10 GB RAM. As SRComp currently does not support multi-threading, it can be run only using a single thread. In contrast, SCALCE can make use of multi-cores and multi-threads. Therefore, to measure each program's running time we used the Linux command time to report the amount of CPU time consumed (i.e., the user time plus the sys time) instead of the elapsed wall clock time. Times are averaged over five runs for each test.</p>
+</sec><sec id="s3b">
+<title>Sorting large collections of reads</title>
+<p>In the first experiment, we demonstrate how fast the burstsort algorithm can sort a large collection of short reads and also compare its performance with other well-known string-sorting algorithms. In total, seven algorithms are compared, including three variants of radix sort, two variants of quicksort and two variants of burstsort. Details of these algorithms can be found in <xref ref-type="bibr" rid="pone.0081414-Sinha1">[14]</xref>. The two variants of burstsort differ only by their data structures used to represent buckets (i.e., one using linked lists and the other using dynamic arrays).</p>
+<p><xref ref-type="table" rid="pone-0081414-t002">Table 2</xref> shows the sorting times for the above seven algorithms. We can see that burstsort using dynamic arrays is the fastest for all of the datasets tested. It is typically more than twice as fast as MSD radix sort and the conventional quicksort. Multikey quicksort was the second fastest, but by a significant margin (22–31%) is still slower than burstsort using dynamic arrays. Based on these observations, we choose burstsort using dynamic arrays as the read sorting algorithm implemented in our software SRComp.</p>
+<table-wrap id="pone-0081414-t002" position="float" orientation="portrait"><object-id pub-id-type="doi">10.1371/journal.pone.0081414.t002</object-id><label>Table 2</label><caption>
+<title>Comparison of CPU time needed to sort large collections of reads.</title>
+</caption><alternatives><graphic id="pone-0081414-t002-2" position="float" mimetype="image" xlink:href="info:doi/10.1371/journal.pone.0081414.t002" xlink:type="simple" orientation="portrait" />
+<table><colgroup span="1"><col align="left" span="1" /><col align="center" span="1" /><col align="center" span="1" /><col align="center" span="1" /><col align="center" span="1" /><col align="center" span="1" /><col align="center" span="1" /><col align="center" span="1" /></colgroup>
+<thead>
+<tr>
+<td align="left" rowspan="1" colspan="1" />
+<td colspan="3" align="left" rowspan="1">radix sort</td>
+<td colspan="2" align="left" rowspan="1">quicksort</td>
+<td colspan="2" align="left" rowspan="1">burstsort</td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1">accession ID</td>
+<td align="left" rowspan="1" colspan="1">MBM</td>
+<td align="left" rowspan="1" colspan="1">MSD</td>
+<td align="left" rowspan="1" colspan="1">Adaptive</td>
+<td align="left" rowspan="1" colspan="1">Quicksort</td>
+<td align="left" rowspan="1" colspan="1">Multikey</td>
+<td align="left" rowspan="1" colspan="1">List</td>
+<td align="left" rowspan="1" colspan="1">Array</td>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left" rowspan="1" colspan="1">SRR014437</td>
+<td align="left" rowspan="1" colspan="1">14.0s</td>
+<td align="left" rowspan="1" colspan="1">15.3s</td>
+<td align="left" rowspan="1" colspan="1">12.0s</td>
+<td align="left" rowspan="1" colspan="1">17.7s</td>
+<td align="left" rowspan="1" colspan="1">8.2s</td>
+<td align="left" rowspan="1" colspan="1">8.8s</td>
+<td align="left" rowspan="1" colspan="1">6.4s</td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1">SRX001540</td>
+<td align="left" rowspan="1" colspan="1">5m20s</td>
+<td align="left" rowspan="1" colspan="1">5m23s</td>
+<td align="left" rowspan="1" colspan="1">4m06s</td>
+<td align="left" rowspan="1" colspan="1">6m54s</td>
+<td align="left" rowspan="1" colspan="1">3m03s</td>
+<td align="left" rowspan="1" colspan="1">3m05s</td>
+<td align="left" rowspan="1" colspan="1">2m19s</td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1">SRX006998</td>
+<td align="left" rowspan="1" colspan="1">4m42s</td>
+<td align="left" rowspan="1" colspan="1">4m38s</td>
+<td align="left" rowspan="1" colspan="1">3m36s</td>
+<td align="left" rowspan="1" colspan="1">6m00s</td>
+<td align="left" rowspan="1" colspan="1">2m46s</td>
+<td align="left" rowspan="1" colspan="1">2m46s</td>
+<td align="left" rowspan="1" colspan="1">2m09s</td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1">SRX011353</td>
+<td align="left" rowspan="1" colspan="1">3m01s</td>
+<td align="left" rowspan="1" colspan="1">2m52s</td>
+<td align="left" rowspan="1" colspan="1">2m20s</td>
+<td align="left" rowspan="1" colspan="1">3m38s</td>
+<td align="left" rowspan="1" colspan="1">1m55s</td>
+<td align="left" rowspan="1" colspan="1">1m53s</td>
+<td align="left" rowspan="1" colspan="1">1m34s</td>
+</tr>
+</tbody>
+</table>
+</alternatives><table-wrap-foot><fn id="nt102"><p>Designations of these algorithm variants can be found in <xref ref-type="bibr" rid="pone.0081414-Sinha1">[14]</xref>. Times are averaged over five runs.</p></fn></table-wrap-foot></table-wrap></sec><sec id="s3c">
+<title>Encoding large collections of sorted reads</title>
+<p>In the second experiment, we test the efficiency of Elias omega-based integer coding to encode a collection of read sequences which are already sorted in lexicographical order. In particular, we investigate whether Elias omega coding could achieve better compression than gzip and bzip2, since the latter two were previously employed in <xref ref-type="bibr" rid="pone.0081414-Wan1">[10]</xref> for the same task.</p>
+<p>Our experimental results are summarized in <xref ref-type="table" rid="pone-0081414-t003">Table 3</xref>, where the compression rate is quantified as bits encoded per base (bpb). As we can see, both gzip and bzip2 can obtain better compression than the trivial 2-bit encoding method, which is in agreement with the previous observations in <xref ref-type="bibr" rid="pone.0081414-Wan1">[10]</xref>. In comparison, Elias omega coding can still make significant improvements, achieving substantial reduction of compression bit rates by as much as 12–31%. Moreover, Elias omega coding can run around four times faster than gzip and bzip2. These results indicate that Elias omega coding is a fast and efficient approach to encoding a large collection of sorted read sequences.</p>
+<table-wrap id="pone-0081414-t003" position="float" orientation="portrait"><object-id pub-id-type="doi">10.1371/journal.pone.0081414.t003</object-id><label>Table 3</label><caption>
+<title>Comparison of compression CPU time and bit rates of Elias omega coding to gzip and bzip2 on sorted read sequences.</title>
+</caption><alternatives><graphic id="pone-0081414-t003-3" position="float" mimetype="image" xlink:href="info:doi/10.1371/journal.pone.0081414.t003" xlink:type="simple" orientation="portrait" />
+<table><colgroup span="1"><col align="left" span="1" /><col align="center" span="1" /><col align="center" span="1" /><col align="center" span="1" /><col align="center" span="1" /><col align="center" span="1" /><col align="center" span="1" /></colgroup>
+<thead>
+<tr>
+<td align="left" rowspan="1" colspan="1" />
+<td colspan="2" align="left" rowspan="1">gzip</td>
+<td colspan="2" align="left" rowspan="1">bzip2</td>
+<td colspan="2" align="left" rowspan="1">Elias omega coding</td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1">accession ID</td>
+<td align="left" rowspan="1" colspan="1">c-time</td>
+<td align="left" rowspan="1" colspan="1">bpb</td>
+<td align="left" rowspan="1" colspan="1">c-time</td>
+<td align="left" rowspan="1" colspan="1">bpb</td>
+<td align="left" rowspan="1" colspan="1">c-time</td>
+<td align="left" rowspan="1" colspan="1">bpb</td>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left" rowspan="1" colspan="1">SRR014437</td>
+<td align="left" rowspan="1" colspan="1">49.3s</td>
+<td align="left" rowspan="1" colspan="1">1.50</td>
+<td align="left" rowspan="1" colspan="1">3m28s</td>
+<td align="left" rowspan="1" colspan="1">1.63</td>
+<td align="left" rowspan="1" colspan="1">14.2s</td>
+<td align="left" rowspan="1" colspan="1">1.12</td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1">SRX001540</td>
+<td align="left" rowspan="1" colspan="1">18m47s</td>
+<td align="left" rowspan="1" colspan="1">1.61</td>
+<td align="left" rowspan="1" colspan="1">24m20s</td>
+<td align="left" rowspan="1" colspan="1">1.72</td>
+<td align="left" rowspan="1" colspan="1">5m14s</td>
+<td align="left" rowspan="1" colspan="1">1.21</td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1">SRX006998</td>
+<td align="left" rowspan="1" colspan="1">24m10s</td>
+<td align="left" rowspan="1" colspan="1">1.87</td>
+<td align="left" rowspan="1" colspan="1">25m20s</td>
+<td align="left" rowspan="1" colspan="1">1.86</td>
+<td align="left" rowspan="1" colspan="1">6m00s</td>
+<td align="left" rowspan="1" colspan="1">1.45</td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1">SRX011353</td>
+<td align="left" rowspan="1" colspan="1">24m21s</td>
+<td align="left" rowspan="1" colspan="1">1.99</td>
+<td align="left" rowspan="1" colspan="1">19m02s</td>
+<td align="left" rowspan="1" colspan="1">1.91</td>
+<td align="left" rowspan="1" colspan="1">5m57s</td>
+<td align="left" rowspan="1" colspan="1">1.68</td>
+</tr>
+</tbody>
+</table>
+</alternatives><table-wrap-foot><fn id="nt103"><p>In the above, c-time means compression CPU time and bpb denotes bits per base. Times are averaged over five runs.</p></fn></table-wrap-foot></table-wrap></sec><sec id="s3d">
+<title>Comparison to previous read sequence compression tools</title>
+<p>In this last experiment, we evaluate the overall performance of SRComp in compression efficiency and speed. Besides the two general-purpose compressors, gzip and bzip2, we also carry out tests on two recently developed state-of-the-art read sequence compression tools, BEETL <xref ref-type="bibr" rid="pone.0081414-Cox1">[3]</xref> and SCALCE <xref ref-type="bibr" rid="pone.0081414-Hach1">[6]</xref>, for a comprehensive comparative study.</p>
+<p>Like SRComp, both BEETL and SCALCE adopt a two-stage procedure for read sequence compression. In brief, BEETL first computes the Burrows-Wheeler Transform (BWT) for a collection of read sequences and then passes the resulting permuted sequences to a standard text compressor such as gzip or PPM (Prediction by Partial Matching). PPM is an adaptive statistical data compression technique based on context modeling and prediction <xref ref-type="bibr" rid="pone.0081414-Cleary1">[16]</xref>. In our experiments below, a variant called PPMd is actually used with BEETL, because it is more efficient than gzip for compressing BWT-permuted sequences as demonstrated in <xref ref-type="bibr" rid="pone.0081414-Cox1">[3]</xref>.</p>
+<p>In comparison, SCALCE first groups read sequences that share the same ‘core’ substrings and then passes the reads in each group to a standard text compressor. The core substrings are identified by using a combinatorial pattern matching technique called <italic>locally consistent parsing</italic> (LCP), which aims to identify the ‘building blocks’ of strings. SCALCE is designed primarily for compressing FASTQ files, which include not only read sequences, but also read names and quality scores. With a proper option setting, however, it can be tuned to compress read sequences alone. In addition, SCALCE uses gzip as the default text compressor, which is also used in our experiments below.</p>
+<p><xref ref-type="table" rid="pone-0081414-t004">Table 4</xref> shows the running times and compression bit rates achieved by a variety of read sequence compression tools. A remarkable result that can be clearly seen is that SRComp can run very fast. For compression, it is around twice as fast as the best of the other tools tested, 5–8 times faster than SCALCE and 19–35 times faster than BEETL. Specifically, it takes SRComp only about 8 minutes to compress a dataset of 7 gigabases while SCALCE and BEETL need up to 50 minutes and 4 hours, respectively. It is not surprising that BEETL is the slowest among these tools because it relies on a computationally demanding transform (i.e., Burrows-Wheeler transform) and moreover, it works on external memory with frequent access to files held on disk. To compare decompression time, SRComp is inferior only to gzip, but still about 3–4 times faster than SCALCE. In terms of compression efficiency, SRComp performs the best for the first two datasets, but worse than BEETL and SCALCE by a relatively small margin for the third and forth datasets. As expected, the compression bit rates of gzip and bzip2 are all far above 2 bpb, indicating that the general-purpose text compressors are not suited for compressing read sequences. BEETL appears more efficient than SCALCE for all the datasets tested here, which is, however, opposite to a previous observation in <xref ref-type="bibr" rid="pone.0081414-Hach1">[6]</xref>. One reason for this discrepancy might be that BEETL was tested in combination with bzip2 in <xref ref-type="bibr" rid="pone.0081414-Hach1">[6]</xref> instead of PPMd which we used here. These results show that SRComp can retain state-of-the-art compression efficiency using substantially less CPU computing time.</p>
+<table-wrap id="pone-0081414-t004" position="float" orientation="portrait"><object-id pub-id-type="doi">10.1371/journal.pone.0081414.t004</object-id><label>Table 4</label><caption>
+<title>Comparison of compression performance of SRComp to gzip, bzip2, BEETL and SCALCE.</title>
+</caption><alternatives><graphic id="pone-0081414-t004-4" position="float" mimetype="image" xlink:href="info:doi/10.1371/journal.pone.0081414.t004" xlink:type="simple" orientation="portrait" />
+<table><colgroup span="1"><col align="left" span="1" /><col align="center" span="1" /><col align="center" span="1" /><col align="center" span="1" /><col align="center" span="1" /><col align="center" span="1" /></colgroup>
+<thead>
+<tr>
+<td align="left" rowspan="1" colspan="1">accession ID</td>
+<td align="left" rowspan="1" colspan="1">software</td>
+<td align="left" rowspan="1" colspan="1">c-time</td>
+<td align="left" rowspan="1" colspan="1">bpb</td>
+<td align="left" rowspan="1" colspan="1">d-time</td>
+<td align="left" rowspan="1" colspan="1">p-mem</td>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left" rowspan="1" colspan="1">SRR014437</td>
+<td align="left" rowspan="1" colspan="1">gzip</td>
+<td align="left" rowspan="1" colspan="1">1m36s</td>
+<td align="left" rowspan="1" colspan="1">2.56</td>
+<td align="left" rowspan="1" colspan="1">3.4s</td>
+<td align="left" rowspan="1" colspan="1">2.6</td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1" />
+<td align="left" rowspan="1" colspan="1">bzip2</td>
+<td align="left" rowspan="1" colspan="1">52.0s</td>
+<td align="left" rowspan="1" colspan="1">2.31</td>
+<td align="left" rowspan="1" colspan="1">19.0s</td>
+<td align="left" rowspan="1" colspan="1">28.4</td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1" />
+<td align="left" rowspan="1" colspan="1">BEETL</td>
+<td align="left" rowspan="1" colspan="1">6m39s</td>
+<td align="left" rowspan="1" colspan="1">1.18</td>
+<td align="left" rowspan="1" colspan="1">47m29</td>
+<td align="left" rowspan="1" colspan="1">36.8</td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1" />
+<td align="left" rowspan="1" colspan="1">SCALCE</td>
+<td align="left" rowspan="1" colspan="1">2m47s</td>
+<td align="left" rowspan="1" colspan="1">1.25</td>
+<td align="left" rowspan="1" colspan="1">46.2s</td>
+<td align="left" rowspan="1" colspan="1">7604</td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1" />
+<td align="left" rowspan="1" colspan="1">SRComp</td>
+<td align="left" rowspan="1" colspan="1">20.6s</td>
+<td align="left" rowspan="1" colspan="1">1.12</td>
+<td align="left" rowspan="1" colspan="1">9.5s</td>
+<td align="left" rowspan="1" colspan="1">2310</td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1">SRX001540</td>
+<td align="left" rowspan="1" colspan="1">gzip</td>
+<td align="left" rowspan="1" colspan="1">32m15s</td>
+<td align="left" rowspan="1" colspan="1">2.51</td>
+<td align="left" rowspan="1" colspan="1">1m18s</td>
+<td align="left" rowspan="1" colspan="1">2.6</td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1" />
+<td align="left" rowspan="1" colspan="1">bzip2</td>
+<td align="left" rowspan="1" colspan="1">18m21s</td>
+<td align="left" rowspan="1" colspan="1">2.31</td>
+<td align="left" rowspan="1" colspan="1">6m45s</td>
+<td align="left" rowspan="1" colspan="1">28.5</td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1" />
+<td align="left" rowspan="1" colspan="1">BEETL</td>
+<td align="left" rowspan="1" colspan="1">2h49m10s</td>
+<td align="left" rowspan="1" colspan="1">1.25</td>
+<td align="left" rowspan="1" colspan="1">12h54m5s</td>
+<td align="left" rowspan="1" colspan="1">35.3</td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1" />
+<td align="left" rowspan="1" colspan="1">SCALCE</td>
+<td align="left" rowspan="1" colspan="1">51m50s</td>
+<td align="left" rowspan="1" colspan="1">1.26</td>
+<td align="left" rowspan="1" colspan="1">15m0s</td>
+<td align="left" rowspan="1" colspan="1">21915</td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1" />
+<td align="left" rowspan="1" colspan="1">SRComp</td>
+<td align="left" rowspan="1" colspan="1">7m33s</td>
+<td align="left" rowspan="1" colspan="1">1.21</td>
+<td align="left" rowspan="1" colspan="1">3m43s</td>
+<td align="left" rowspan="1" colspan="1">6992</td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1">SRX006998</td>
+<td align="left" rowspan="1" colspan="1">gzip</td>
+<td align="left" rowspan="1" colspan="1">34m31s</td>
+<td align="left" rowspan="1" colspan="1">2.47</td>
+<td align="left" rowspan="1" colspan="1">1m17s</td>
+<td align="left" rowspan="1" colspan="1">2.6</td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1" />
+<td align="left" rowspan="1" colspan="1">bzip2</td>
+<td align="left" rowspan="1" colspan="1">18m55s</td>
+<td align="left" rowspan="1" colspan="1">2.28</td>
+<td align="left" rowspan="1" colspan="1">6m57s</td>
+<td align="left" rowspan="1" colspan="1">28.5</td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1" />
+<td align="left" rowspan="1" colspan="1">BEETL</td>
+<td align="left" rowspan="1" colspan="1">3h26m48s</td>
+<td align="left" rowspan="1" colspan="1">1.38</td>
+<td align="left" rowspan="1" colspan="1">16h40m27s</td>
+<td align="left" rowspan="1" colspan="1">33.4</td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1" />
+<td align="left" rowspan="1" colspan="1">SCALCE</td>
+<td align="left" rowspan="1" colspan="1">49m04s</td>
+<td align="left" rowspan="1" colspan="1">1.40</td>
+<td align="left" rowspan="1" colspan="1">15m25s</td>
+<td align="left" rowspan="1" colspan="1">21842</td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1" />
+<td align="left" rowspan="1" colspan="1">SRComp</td>
+<td align="left" rowspan="1" colspan="1">8m09s</td>
+<td align="left" rowspan="1" colspan="1">1.45</td>
+<td align="left" rowspan="1" colspan="1">4m32s</td>
+<td align="left" rowspan="1" colspan="1">6842</td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1">SRX011353</td>
+<td align="left" rowspan="1" colspan="1">gzip</td>
+<td align="left" rowspan="1" colspan="1">30m33s</td>
+<td align="left" rowspan="1" colspan="1">2.44</td>
+<td align="left" rowspan="1" colspan="1">1m18s</td>
+<td align="left" rowspan="1" colspan="1">2.6</td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1" />
+<td align="left" rowspan="1" colspan="1">bzip2</td>
+<td align="left" rowspan="1" colspan="1">17m52s</td>
+<td align="left" rowspan="1" colspan="1">2.24</td>
+<td align="left" rowspan="1" colspan="1">6m39s</td>
+<td align="left" rowspan="1" colspan="1">28.5</td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1" />
+<td align="left" rowspan="1" colspan="1">BEETL</td>
+<td align="left" rowspan="1" colspan="1">4h22m47s</td>
+<td align="left" rowspan="1" colspan="1">1.45</td>
+<td align="left" rowspan="1" colspan="1">12h13m34s</td>
+<td align="left" rowspan="1" colspan="1">40.0</td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1" />
+<td align="left" rowspan="1" colspan="1">SCALCE</td>
+<td align="left" rowspan="1" colspan="1">37m01s</td>
+<td align="left" rowspan="1" colspan="1">1.47</td>
+<td align="left" rowspan="1" colspan="1">13m55s</td>
+<td align="left" rowspan="1" colspan="1">21767</td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1" />
+<td align="left" rowspan="1" colspan="1">SRComp</td>
+<td align="left" rowspan="1" colspan="1">7m31s</td>
+<td align="left" rowspan="1" colspan="1">1.68</td>
+<td align="left" rowspan="1" colspan="1">4m56s</td>
+<td align="left" rowspan="1" colspan="1">7244</td>
+</tr>
+</tbody>
+</table>
+</alternatives><table-wrap-foot><fn id="nt104"><p>BEETL is run in combination with PPMd, and SCALCE in combination with gzip. In the above, p-mem and d-time denote the compression peak memory usage (megabytes) and decompression CPU time, respectively. Times are averaged over five runs.</p></fn></table-wrap-foot></table-wrap></sec><sec id="s3e">
+<title>Evaluation on various simulated datasets</title>
+<p>To extensively test our approach, we generated six simulated datasets of varying read lengths and varying coverage depths for the NA18507 human genome (see <xref ref-type="table" rid="pone-0081414-t005">Table 5</xref>). The initial read dataset is from the experiment SRX016231, which contains a total of 1.4 billion 100 bp reads from 37 runs corresponding to 44<inline-formula><inline-graphic xlink:href="info:doi/10.1371/journal.pone.0081414.e066" xlink:type="simple" /></inline-formula> genome coverage. To obtain the first simulated dataset, we took the first 35 bases of every read in the initial read dataset to form a new read sequence, thereby resulting in 1.4 billion 35 bp reads and 15<inline-formula><inline-graphic xlink:href="info:doi/10.1371/journal.pone.0081414.e067" xlink:type="simple" /></inline-formula> genome coverage. For the second simulated dataset, we used not only the first 35 bases but also the next 35 bases of the initial 100 bp reads to form reads of length 35 bp, resulting in 2.8 billion 35 bp reads and 31<inline-formula><inline-graphic xlink:href="info:doi/10.1371/journal.pone.0081414.e068" xlink:type="simple" /></inline-formula> genome coverage. Similarly, we generated the other four datasets for reads of length 50 bp, 75 bp and 100 bp, respectively.</p>
+<table-wrap id="pone-0081414-t005" position="float" orientation="portrait"><object-id pub-id-type="doi">10.1371/journal.pone.0081414.t005</object-id><label>Table 5</label><caption>
+<title>Evaluation of SRComp on simulated datasets of varying read lengths and genome coverage depths.</title>
+</caption><alternatives><graphic id="pone-0081414-t005-5" position="float" mimetype="image" xlink:href="info:doi/10.1371/journal.pone.0081414.t005" xlink:type="simple" orientation="portrait" />
+<table><colgroup span="1"><col align="left" span="1" /><col align="center" span="1" /><col align="center" span="1" /><col align="center" span="1" /><col align="center" span="1" /><col align="center" span="1" /></colgroup>
+<thead>
+<tr>
+<td align="left" rowspan="1" colspan="1">dataset</td>
+<td align="left" rowspan="1" colspan="1">software</td>
+<td align="left" rowspan="1" colspan="1">c-time</td>
+<td align="left" rowspan="1" colspan="1">bpb</td>
+<td align="left" rowspan="1" colspan="1">d-time</td>
+<td align="left" rowspan="1" colspan="1">p-mem</td>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left" rowspan="1" colspan="1">35 bp reads</td>
+<td align="left" rowspan="1" colspan="1">gzip</td>
+<td align="left" rowspan="1" colspan="1">3h50m9s</td>
+<td align="left" rowspan="1" colspan="1">2.53</td>
+<td align="left" rowspan="1" colspan="1">10m14s</td>
+<td align="left" rowspan="1" colspan="1">2.6</td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1">(15<inline-formula><inline-graphic xlink:href="info:doi/10.1371/journal.pone.0081414.e058" xlink:type="simple" /></inline-formula> coverage)</td>
+<td align="left" rowspan="1" colspan="1">bzip2</td>
+<td align="left" rowspan="1" colspan="1">2h10m31s</td>
+<td align="left" rowspan="1" colspan="1">2.32</td>
+<td align="left" rowspan="1" colspan="1">49m38s</td>
+<td align="left" rowspan="1" colspan="1">28.4</td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1" />
+<td align="left" rowspan="1" colspan="1">SCALCE</td>
+<td align="left" rowspan="1" colspan="1">6h11m3s</td>
+<td align="left" rowspan="1" colspan="1">1.14</td>
+<td align="left" rowspan="1" colspan="1">1h48m41s</td>
+<td align="left" rowspan="1" colspan="1">22013</td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1" />
+<td align="left" rowspan="1" colspan="1">SRComp</td>
+<td align="left" rowspan="1" colspan="1">54m47s</td>
+<td align="left" rowspan="1" colspan="1">1.06</td>
+<td align="left" rowspan="1" colspan="1">23m21s</td>
+<td align="left" rowspan="1" colspan="1">19432</td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1">35 bp reads</td>
+<td align="left" rowspan="1" colspan="1">gzip</td>
+<td align="left" rowspan="1" colspan="1">7h37m34s</td>
+<td align="left" rowspan="1" colspan="1">2.53</td>
+<td align="left" rowspan="1" colspan="1">19m51s</td>
+<td align="left" rowspan="1" colspan="1">2.6</td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1">(31<inline-formula><inline-graphic xlink:href="info:doi/10.1371/journal.pone.0081414.e059" xlink:type="simple" /></inline-formula> coverage)</td>
+<td align="left" rowspan="1" colspan="1">bzip2</td>
+<td align="left" rowspan="1" colspan="1">4h18m49s</td>
+<td align="left" rowspan="1" colspan="1">2.33</td>
+<td align="left" rowspan="1" colspan="1">1h36m22s</td>
+<td align="left" rowspan="1" colspan="1">32.0</td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1" />
+<td align="left" rowspan="1" colspan="1">SCALCE</td>
+<td align="left" rowspan="1" colspan="1">12h8m55s</td>
+<td align="left" rowspan="1" colspan="1">1.10</td>
+<td align="left" rowspan="1" colspan="1">–</td>
+<td align="left" rowspan="1" colspan="1">22047</td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1" />
+<td align="left" rowspan="1" colspan="1">SRComp</td>
+<td align="left" rowspan="1" colspan="1">1h47m22s</td>
+<td align="left" rowspan="1" colspan="1">0.97</td>
+<td align="left" rowspan="1" colspan="1">44m18s</td>
+<td align="left" rowspan="1" colspan="1">25939</td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1">50 bp reads</td>
+<td align="left" rowspan="1" colspan="1">gzip</td>
+<td align="left" rowspan="1" colspan="1">5h17m14s</td>
+<td align="left" rowspan="1" colspan="1">2.47</td>
+<td align="left" rowspan="1" colspan="1">13m26s</td>
+<td align="left" rowspan="1" colspan="1">2.6</td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1">(22<inline-formula><inline-graphic xlink:href="info:doi/10.1371/journal.pone.0081414.e060" xlink:type="simple" /></inline-formula> coverage)</td>
+<td align="left" rowspan="1" colspan="1">bzip2</td>
+<td align="left" rowspan="1" colspan="1">3h3m54s</td>
+<td align="left" rowspan="1" colspan="1">2.27</td>
+<td align="left" rowspan="1" colspan="1">1h9m28s</td>
+<td align="left" rowspan="1" colspan="1">28.4</td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1" />
+<td align="left" rowspan="1" colspan="1">SCALCE</td>
+<td align="left" rowspan="1" colspan="1">7h16m15s</td>
+<td align="left" rowspan="1" colspan="1">1.05</td>
+<td align="left" rowspan="1" colspan="1">2h28m8s</td>
+<td align="left" rowspan="1" colspan="1">21883</td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1" />
+<td align="left" rowspan="1" colspan="1">SRComp</td>
+<td align="left" rowspan="1" colspan="1">1h12m41s</td>
+<td align="left" rowspan="1" colspan="1">1.25</td>
+<td align="left" rowspan="1" colspan="1">38m22s</td>
+<td align="left" rowspan="1" colspan="1">17708</td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1">50 bp reads</td>
+<td align="left" rowspan="1" colspan="1">gzip</td>
+<td align="left" rowspan="1" colspan="1">10h34m15s</td>
+<td align="left" rowspan="1" colspan="1">2.48</td>
+<td align="left" rowspan="1" colspan="1">29m16s</td>
+<td align="left" rowspan="1" colspan="1">2.6</td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1">(44<inline-formula><inline-graphic xlink:href="info:doi/10.1371/journal.pone.0081414.e061" xlink:type="simple" /></inline-formula> coverage)</td>
+<td align="left" rowspan="1" colspan="1">bzip2</td>
+<td align="left" rowspan="1" colspan="1">6h4m46s</td>
+<td align="left" rowspan="1" colspan="1">2.29</td>
+<td align="left" rowspan="1" colspan="1">2h17m11s</td>
+<td align="left" rowspan="1" colspan="1">32.0</td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1" />
+<td align="left" rowspan="1" colspan="1">SCALCE</td>
+<td align="left" rowspan="1" colspan="1">14h17m4s</td>
+<td align="left" rowspan="1" colspan="1">1.07</td>
+<td align="left" rowspan="1" colspan="1">–</td>
+<td align="left" rowspan="1" colspan="1">21977</td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1" />
+<td align="left" rowspan="1" colspan="1">SRComp</td>
+<td align="left" rowspan="1" colspan="1">2h23m35s</td>
+<td align="left" rowspan="1" colspan="1">1.19</td>
+<td align="left" rowspan="1" colspan="1">1h16m53s</td>
+<td align="left" rowspan="1" colspan="1">30011</td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1">75 bp reads</td>
+<td align="left" rowspan="1" colspan="1">gzip</td>
+<td align="left" rowspan="1" colspan="1">7h46m1s</td>
+<td align="left" rowspan="1" colspan="1">2.43</td>
+<td align="left" rowspan="1" colspan="1">19m59s</td>
+<td align="left" rowspan="1" colspan="1">2.6</td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1">(33<inline-formula><inline-graphic xlink:href="info:doi/10.1371/journal.pone.0081414.e062" xlink:type="simple" /></inline-formula> coverage)</td>
+<td align="left" rowspan="1" colspan="1">bzip2</td>
+<td align="left" rowspan="1" colspan="1">4h31m47s</td>
+<td align="left" rowspan="1" colspan="1">2.23</td>
+<td align="left" rowspan="1" colspan="1">1h44m40s</td>
+<td align="left" rowspan="1" colspan="1">28.5</td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1" />
+<td align="left" rowspan="1" colspan="1">SCALCE</td>
+<td align="left" rowspan="1" colspan="1">9h20m1s</td>
+<td align="left" rowspan="1" colspan="1">0.97</td>
+<td align="left" rowspan="1" colspan="1">3h32m22s</td>
+<td align="left" rowspan="1" colspan="1">21893</td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1" />
+<td align="left" rowspan="1" colspan="1">SRComp</td>
+<td align="left" rowspan="1" colspan="1">1h45m18s</td>
+<td align="left" rowspan="1" colspan="1">1.41</td>
+<td align="left" rowspan="1" colspan="1">1h4m8s</td>
+<td align="left" rowspan="1" colspan="1">16762</td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1">100 bp reads</td>
+<td align="left" rowspan="1" colspan="1">gzip</td>
+<td align="left" rowspan="1" colspan="1">10h18m54s</td>
+<td align="left" rowspan="1" colspan="1">2.40</td>
+<td align="left" rowspan="1" colspan="1">26m45s</td>
+<td align="left" rowspan="1" colspan="1">2.6</td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1">(44<inline-formula><inline-graphic xlink:href="info:doi/10.1371/journal.pone.0081414.e063" xlink:type="simple" /></inline-formula> coverage)</td>
+<td align="left" rowspan="1" colspan="1">bzip2</td>
+<td align="left" rowspan="1" colspan="1">5h57m42s</td>
+<td align="left" rowspan="1" colspan="1">2.21</td>
+<td align="left" rowspan="1" colspan="1">2h12m40s</td>
+<td align="left" rowspan="1" colspan="1">28.5</td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1" />
+<td align="left" rowspan="1" colspan="1">SCALCE</td>
+<td align="left" rowspan="1" colspan="1">11h26m48s</td>
+<td align="left" rowspan="1" colspan="1">0.97</td>
+<td align="left" rowspan="1" colspan="1">4h40m40s</td>
+<td align="left" rowspan="1" colspan="1">21905</td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1" />
+<td align="left" rowspan="1" colspan="1">SRComp</td>
+<td align="left" rowspan="1" colspan="1">2h20m31s</td>
+<td align="left" rowspan="1" colspan="1">1.52</td>
+<td align="left" rowspan="1" colspan="1">1m29m37s</td>
+<td align="left" rowspan="1" colspan="1">21503</td>
+</tr>
+</tbody>
+</table>
+</alternatives><table-wrap-foot><fn id="nt105"><p>SCALCE's decompression crashed on two datasets tested, one consisting of 35 bp reads at 31 <inline-formula><inline-graphic xlink:href="info:doi/10.1371/journal.pone.0081414.e064" xlink:type="simple" /></inline-formula> coverage and the other consisting of 50 bp reads at 44<inline-formula><inline-graphic xlink:href="info:doi/10.1371/journal.pone.0081414.e065" xlink:type="simple" /></inline-formula> coverage. Hence, their corresponding decompression times are indicated by a hyphen mark (−) in the above table. Times are averaged over five runs.</p></fn></table-wrap-foot></table-wrap>
+<p>We ran gzip, bzip2, SCALCE and SRComp on these simulated datasets, and summarized the experimental results in <xref ref-type="table" rid="pone-0081414-t005">Table 5</xref>. BEETL is excluded from our tests here because it is expected to run extremely slow for such large datasets of size up to 140 gigabases. From <xref ref-type="table" rid="pone-0081414-t005">Table 5</xref>, we can see similar performance of these tools to our previous experiments. First, SRComp can compress consistently more efficiently than gzip and bzip2. Compared to SCALCE, SRComp is more efficient for short reads but less efficient for long reads. Second, SRComp can run very fast in both compression and decompression. It is around 5–6 times faster than SCALCE for compression and also 3–5 times faster for decompression. Furthermore, SRComp remains substantially faster than gzip and bzip2 to compress any dataset tested.</p>
+</sec></sec><sec id="s4">
+<title>Discussion</title>
+<p>While sequencing reads tend to be longer, the most widely published and adopted next-generation sequencing platform Genome Analyzer IIx is still producing very short reads that are 35, 50 and 75 bases long. Another platform, HiSeq 2000, is designed to generate reads for only three different lengths: 36, 50 and 100 bases. Indeed, short reads are sometimes preferred over long reads (of length <inline-formula><inline-graphic xlink:href="info:doi/10.1371/journal.pone.0081414.e069" xlink:type="simple" /></inline-formula>100 bp) because short reads typically have higher data quality than long reads due to their relatively lower sequencing error rates. Therefore, a fast and efficient compression approach is desired to address the pressing issue of storing and transmitting an unprecedented amount of short reads.</p>
+<p>In this paper, we presented a new read sequence compression tool called SRComp, which was designed especially for short read sequences. It works with a simple two-stage procedure: it first employs burstsort to sort reads in lexicographical order and then applies Elias omega-based integer coding to the sorted read sequences. In addition, it was implemented in a way that can handle a large volume of data that does not fit in main memory. This is an increasingly important feature as NGS data output continues to grow at an accelerated rate.</p>
+<p>A distinguishing advantage of SRComp over other read sequence compression tools is its substantially lower compression time requirement. As shown in our experiments on four real NGS datasets, it can run 4–5 times faster than gzip, 5–8 times faster than SCALCE, and 19–35 times faster than BEETL. We attribute this mainly to the following two reasons. First, burstsort was used to sort read sequences. Burstsort is a cache-conscious algorithm designed specifically for sorting strings. It has been shown to run substantially faster than quicksort on large datasets <xref ref-type="bibr" rid="pone.0081414-Sinha1">[14]</xref>, which is the case for NGS datasets. Second, Elias omega-based integer coding was used to encode reads. To encode a read, only its preceding read (of length <inline-formula><inline-graphic xlink:href="info:doi/10.1371/journal.pone.0081414.e070" xlink:type="simple" /></inline-formula>100 bp in our experiments) needs to be accessed and compared to compute a relative integer value. In comparison, dictionary-based coding, which is used in many general-purpose text compressors such as gzip, typically needs to access the last 32K bases prior to a read (i.e., a sliding window) and search for matches. Therefore, it is not hard to see that dictionary-based coding is much more time consuming than Elias omega-based integer coding to encode a read sequence.</p>
+<p>While running faster than BEETL and SCALCE by several factors, SRComp can still offer high compression efficiency for short read sequences. In terms of compression bit rates achieved for the four datasets tested above, SRComp performed only 3.80% and 1.49% worse than BEETL and SCALCE, respectively. If compared to the sorting-based method in <xref ref-type="bibr" rid="pone.0081414-Wan1">[10]</xref>, SRComp actually improved compression efficiency by a significant margin, that is, 21.7% and 23.3% for gzip and bzip2, respectively (see <xref ref-type="table" rid="pone-0081414-t003">Table 3</xref>). We believe that SRComp achieved such high compression efficiency mainly by taking advantage of two characteristics of short reads. First, reads are sorted in lexicographical order, so they can be translated to a monotonic sequence of integers (i.e., <inline-formula><inline-graphic xlink:href="info:doi/10.1371/journal.pone.0081414.e071" xlink:type="simple" /></inline-formula> in the <xref ref-type="sec" rid="s2">Methods</xref> section). Second, the NGS data throughput is ultra-high, which implies that a substantially large number of reads have been sampled from a relatively constrained read space when the read length is short. These two characteristics together hence give rise to a sequence of integers (i.e., <inline-formula><inline-graphic xlink:href="info:doi/10.1371/journal.pone.0081414.e072" xlink:type="simple" /></inline-formula> in the <xref ref-type="sec" rid="s2">Methods</xref> section) whose distribution is skewed towards smaller integers (see <xref ref-type="supplementary-material" rid="pone.0081414.s001">Figure S1</xref>), so that Elias omega coding becomes very efficient for encoding them. In addition, NGS often produces quite a number of identical reads due to enzyme biases, the PCR effect, or the presence of highly repeated sequences in the library (e.g., when highly expressed genes are sequenced at great depth). Compression of these identical reads by Elias omega coding is particularly efficient, requiring only two bits per read.</p>
+<p>It should be noticed that the second characteristic mentioned above will gradually disappear as the reads become longer. As a result, SRComp becomes much less efficient with longer reads than other state-of-the-art compression tools such as BEETL and SCALCE, although it remains at high compression speed (see <xref ref-type="table" rid="pone-0081414-t004">Table 4</xref>). A specific reason for this, in comparison to BEETL and SCALCE, is that SRComp basically does not exploit the similarity among reads that are far apart after being lexicographically sorted, e.g., the similarity that occurs between the end of a read sequence and the beginning of another read sequence <xref ref-type="bibr" rid="pone.0081414-Wan1">[10]</xref>. This is a limitation of SRComp, limiting its applicability to NGS datasets of long reads especially when high compression efficiency is mainly sought. Nevertheless, SRComp remains more efficient than general-purpose compressors such as gzip and bzip2, which are still the <italic>de-facto</italic> standard for archiving NGS data today.</p>
+<p>In conclusion, SRComp is a read sequence compression tool that can run very fast, while for large collections of short read sequences, retaining high compression efficiency achieved by other state-of-the-art read sequence compression tools. It is particularly valuable in certain applications where compression time is of major concern. In future work, we will explore an efficient approach to compressing read quality scores and also implement a multi-threaded version of SRComp.</p>
+</sec><sec id="s5">
+<title>Supporting Information</title>
+<supplementary-material id="pone.0081414.s001" mimetype="application/pdf" xlink:href="info:doi/10.1371/journal.pone.0081414.s001" position="float" xlink:type="simple" orientation="portrait"><label>Figure S1</label><caption>
+<p><bold>The frequency distribution of integer numbers used to encode read sequences.</bold></p>
+<p>(PDF)</p>
+</caption></supplementary-material><supplementary-material id="pone.0081414.s002" mimetype="application/pdf" xlink:href="info:doi/10.1371/journal.pone.0081414.s002" position="float" xlink:type="simple" orientation="portrait"><label>Table S1</label><caption>
+<p><bold>The run accession numbers of each test dataset.</bold></p>
+<p>(PDF)</p>
+</caption></supplementary-material></sec></body>
+<back>
+<ack>
+<p>We would like to thank Dr. Ranjan Sinha for making the source code of burstsort available online, and the anonymous reviewers for many valuable suggestions.</p>
+</ack>
+<ref-list>
+<title>References</title>
+<ref id="pone.0081414-Kahn1"><label>1</label>
+<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Kahn</surname><given-names>SD</given-names></name> (<year>2011</year>) <article-title>On the future of genomic data</article-title>. <source>Science</source> <volume>331</volume>: <fpage>728</fpage>–<lpage>729</lpage>.</mixed-citation>
+</ref>
+<ref id="pone.0081414-Bonfield1"><label>2</label>
+<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Bonfield</surname><given-names>JK</given-names></name>, <name name-style="western"><surname>Mahoney</surname><given-names>MV</given-names></name> (<year>2013</year>) <article-title>Compression of FASTQ and SAM format sequencing data</article-title>. <source>PLoS One</source> <volume>8</volume>: <fpage>e59190</fpage>.</mixed-citation>
+</ref>
+<ref id="pone.0081414-Cox1"><label>3</label>
+<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Cox</surname><given-names>AJ</given-names></name>, <name name-style="western"><surname>Bauer</surname><given-names>MJ</given-names></name>, <name name-style="western"><surname>Jakobi</surname><given-names>T</given-names></name>, <name name-style="western"><surname>Rosone</surname><given-names>G</given-names></name> (<year>2012</year>) <article-title>Large-scale compression of genomic sequence databases with the Burrows-Wheeler transform</article-title>. <source>Bioinformatics</source> <volume>28</volume>: <fpage>1415</fpage>–<lpage>9</lpage>.</mixed-citation>
+</ref>
+<ref id="pone.0081414-Deorowicz1"><label>4</label>
+<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Deorowicz</surname><given-names>S</given-names></name>, <name name-style="western"><surname>Grabowski</surname><given-names>S</given-names></name> (<year>2011</year>) <article-title>Compression of DNA sequence reads in FASTQ format</article-title>. <source>Bioinformatics</source> <volume>27</volume>: <fpage>860</fpage>–<lpage>2</lpage>.</mixed-citation>
+</ref>
+<ref id="pone.0081414-Fritz1"><label>5</label>
+<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Fritz</surname><given-names>MHY</given-names></name>, <name name-style="western"><surname>Leinonen</surname><given-names>R</given-names></name>, <name name-style="western"><surname>Cochrane</surname><given-names>G</given-names></name>, <name name-style="western"><surname>Birney</surname><given-names>E</given-names></name> (<year>2011</year>) <article-title>Efficient storage of high throughput dna sequencing data using reference-based compression</article-title>. <source>Genome Research</source> <volume>21</volume>: <fpage>734</fpage>–<lpage>740</lpage>.</mixed-citation>
+</ref>
+<ref id="pone.0081414-Hach1"><label>6</label>
+<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Hach</surname><given-names>F</given-names></name>, <name name-style="western"><surname>Numanagic</surname><given-names>I</given-names></name>, <name name-style="western"><surname>Alkan</surname><given-names>C</given-names></name>, <name name-style="western"><surname>Sahinalp</surname><given-names>SC</given-names></name> (<year>2012</year>) <article-title>SCALCE: boosting sequence compression algorithms using locally consistent encoding</article-title>. <source>Bioinformatics</source> <volume>28</volume>: <fpage>3051</fpage>–<lpage>7</lpage>.</mixed-citation>
+</ref>
+<ref id="pone.0081414-Jones1"><label>7</label>
+<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Jones</surname><given-names>DC</given-names></name>, <name name-style="western"><surname>Ruzzo</surname><given-names>WL</given-names></name>, <name name-style="western"><surname>Peng</surname><given-names>X</given-names></name>, <name name-style="western"><surname>Katze</surname><given-names>MG</given-names></name> (<year>2012</year>) <article-title>Compression of next-generation sequencing reads aided by highly efficient de novo assembly</article-title>. <source>Nucleic Acids Res</source> <volume>40</volume>: <fpage>e171</fpage>.</mixed-citation>
+</ref>
+<ref id="pone.0081414-Kozanitis1"><label>8</label>
+<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Kozanitis</surname><given-names>C</given-names></name>, <name name-style="western"><surname>Saunders</surname><given-names>C</given-names></name>, <name name-style="western"><surname>Kruglyak</surname><given-names>S</given-names></name>, <name name-style="western"><surname>Bafna</surname><given-names>V</given-names></name>, <name name-style="western"><surname>Varghese</surname><given-names>G</given-names></name> (<year>2011</year>) <article-title>Compressing genomic sequence fragments using SlimGene</article-title>. <source>J Comput Biol</source> <volume>18</volume>: <fpage>401</fpage>–<lpage>13</lpage>.</mixed-citation>
+</ref>
+<ref id="pone.0081414-Tembe1"><label>9</label>
+<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Tembe</surname><given-names>W</given-names></name>, <name name-style="western"><surname>Lowey</surname><given-names>J</given-names></name>, <name name-style="western"><surname>Suh</surname><given-names>E</given-names></name> (<year>2010</year>) <article-title>G-SQZ: compact encoding of genomic sequence and quality data</article-title>. <source>Bioinformatics</source> <volume>26</volume>: <fpage>2192</fpage>–<lpage>4</lpage>.</mixed-citation>
+</ref>
+<ref id="pone.0081414-Wan1"><label>10</label>
+<mixed-citation publication-type="other" xlink:type="simple">Wan R, Asai K (2010) Sorting next generation sequencing data improves compression effectiveness. In: IEEE International Conference on Bioinformatics and Biomedicine Workshops. Hong Kong: IEEE Computer Society, 567–572.</mixed-citation>
+</ref>
+<ref id="pone.0081414-Pinho1"><label>11</label>
+<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Pinho</surname><given-names>AJ</given-names></name>, <name name-style="western"><surname>Pratas</surname><given-names>D</given-names></name>, <name name-style="western"><surname>Garcia</surname><given-names>SP</given-names></name> (<year>2012</year>) <article-title>GReEn: a tool for efficient compression of genome resequencing data</article-title>. <source>Nucleic Acids Res</source> <volume>40</volume>: <fpage>e27</fpage>.</mixed-citation>
+</ref>
+<ref id="pone.0081414-Popitsch1"><label>12</label>
+<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Popitsch</surname><given-names>N</given-names></name>, <name name-style="western"><surname>von Haeseler</surname><given-names>A</given-names></name> (<year>2013</year>) <article-title>NGC: lossless and lossy compression of aligned high-throughput sequencing data</article-title>. <source>Nucleic Acids Res</source> <volume>41</volume>: <fpage>e27</fpage>.</mixed-citation>
+</ref>
+<ref id="pone.0081414-Yanovsky1"><label>13</label>
+<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Yanovsky</surname><given-names>V</given-names></name> (<year>2011</year>) <article-title>ReCoil – an algorithm for compression of extremely large datasets of DNA data</article-title>. <source>Algorithms Mol Biol</source> <volume>6</volume>: <fpage>23</fpage>.</mixed-citation>
+</ref>
+<ref id="pone.0081414-Sinha1"><label>14</label>
+<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Sinha</surname><given-names>R</given-names></name>, <name name-style="western"><surname>Zobel</surname><given-names>J</given-names></name> (<year>2004</year>) <article-title>Cache-conscious sorting of large sets of strings with dynamic tries</article-title>. <source>ACM Journal of Experimental Alogirthmics</source> <volume>9</volume>: <fpage>1</fpage>–<lpage>31</lpage>.</mixed-citation>
+</ref>
+<ref id="pone.0081414-Elias1"><label>15</label>
+<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Elias</surname><given-names>P</given-names></name> (<year>1975</year>) <article-title>Universal codeword sets and representations of integers</article-title>. <source>IEEE Transactions on Information Theory</source> <volume>21</volume>: <fpage>194</fpage>–<lpage>203</lpage>.</mixed-citation>
+</ref>
+<ref id="pone.0081414-Cleary1"><label>16</label>
+<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Cleary</surname><given-names>JG</given-names></name>, <name name-style="western"><surname>Witten</surname><given-names>IH</given-names></name> (<year>1984</year>) <article-title>Data compression using adaptive coding and partial string matching</article-title>. <source>IEEE Transactions on Communications</source> <volume>32</volume>: <fpage>396</fpage>–<lpage>402</lpage>.</mixed-citation>
+</ref>
+</ref-list></back>
+</article>

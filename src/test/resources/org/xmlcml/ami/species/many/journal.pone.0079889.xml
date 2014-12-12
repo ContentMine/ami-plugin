@@ -1,0 +1,426 @@
+<article xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" article-type="research-article" dtd-version="3.0" xml:lang="en">
+<front>
+<journal-meta>
+<journal-id journal-id-type="nlm-ta">PLoS ONE</journal-id>
+<journal-id journal-id-type="publisher-id">plos</journal-id>
+<journal-id journal-id-type="pmc">plosone</journal-id><journal-title-group>
+<journal-title xml:lang="en">PLoS ONE</journal-title></journal-title-group>
+<issn pub-type="epub">1932-6203</issn>
+<publisher>
+<publisher-name>Public Library of Science</publisher-name>
+<publisher-loc>San Francisco, USA</publisher-loc></publisher>
+</journal-meta>
+<article-meta>
+<article-id pub-id-type="publisher-id">PONE-D-13-26737</article-id>
+<article-id pub-id-type="doi">10.1371/journal.pone.0079889</article-id>
+<article-categories><subj-group subj-group-type="heading"><subject>Research Article</subject></subj-group></article-categories>
+<title-group>
+<article-title>Cumulative Human Impacts on Mediterranean and Black Sea Marine Ecosystems: Assessing Current Pressures and Opportunities</article-title>
+<alt-title alt-title-type="running-head">Cumulative Impacts on the Mediterranean Sea</alt-title>
+</title-group>
+<contrib-group>
+<contrib contrib-type="author" xlink:type="simple"><name name-style="western"><surname>Micheli</surname><given-names>Fiorenza</given-names></name><xref ref-type="aff" rid="aff1"><sup>1</sup></xref><xref ref-type="corresp" rid="cor1"><sup>*</sup></xref></contrib>
+<contrib contrib-type="author" xlink:type="simple"><name name-style="western"><surname>Halpern</surname><given-names>Benjamin S.</given-names></name><xref ref-type="aff" rid="aff2"><sup>2</sup></xref></contrib>
+<contrib contrib-type="author" xlink:type="simple"><name name-style="western"><surname>Walbridge</surname><given-names>Shaun</given-names></name><xref ref-type="aff" rid="aff3"><sup>3</sup></xref></contrib>
+<contrib contrib-type="author" xlink:type="simple"><name name-style="western"><surname>Ciriaco</surname><given-names>Saul</given-names></name><xref ref-type="aff" rid="aff4"><sup>4</sup></xref></contrib>
+<contrib contrib-type="author" xlink:type="simple"><name name-style="western"><surname>Ferretti</surname><given-names>Francesco</given-names></name><xref ref-type="aff" rid="aff1"><sup>1</sup></xref></contrib>
+<contrib contrib-type="author" xlink:type="simple"><name name-style="western"><surname>Fraschetti</surname><given-names>Simonetta</given-names></name><xref ref-type="aff" rid="aff5"><sup>5</sup></xref></contrib>
+<contrib contrib-type="author" xlink:type="simple"><name name-style="western"><surname>Lewison</surname><given-names>Rebecca</given-names></name><xref ref-type="aff" rid="aff6"><sup>6</sup></xref></contrib>
+<contrib contrib-type="author" xlink:type="simple"><name name-style="western"><surname>Nykjaer</surname><given-names>Leo</given-names></name><xref ref-type="aff" rid="aff7"><sup>7</sup></xref></contrib>
+<contrib contrib-type="author" xlink:type="simple"><name name-style="western"><surname>Rosenberg</surname><given-names>Andrew A.</given-names></name><xref ref-type="aff" rid="aff8"><sup>8</sup></xref></contrib>
+</contrib-group>
+<aff id="aff1"><label>1</label><addr-line>Hopkins Marine Station, Stanford University, Pacific Grove, California, United States of America</addr-line></aff>
+<aff id="aff2"><label>2</label><addr-line>National Center for Ecological Analysis and Synthesis, Santa Barbara, California, United States of America, and the Center for Marine Assessment and Planning, University of California Santa Barbara, Santa Barbara, California, United States of America</addr-line></aff>
+<aff id="aff3"><label>3</label><addr-line>ESRI, Redlands, California, United States of America</addr-line></aff>
+<aff id="aff4"><label>4</label><addr-line>Miramare Marine Protected Area, Trieste, Italy</addr-line></aff>
+<aff id="aff5"><label>5</label><addr-line>Laboratory of Marine Biology, Università del Salento, Lecce, Italy</addr-line></aff>
+<aff id="aff6"><label>6</label><addr-line>Coastal and Marine Institute Laboratory, San Diego State University, San Diego, California, United States of America</addr-line></aff>
+<aff id="aff7"><label>7</label><addr-line>European Commission, Joint Research Centre, Institute for Environment and Sustainability, Ispra, Italy</addr-line></aff>
+<aff id="aff8"><label>8</label><addr-line>Union of Concerned Scientists, Cambridge, Massachusetts, United States of America</addr-line></aff>
+<contrib-group>
+<contrib contrib-type="editor" xlink:type="simple"><name name-style="western"><surname>Meador</surname><given-names>James P.</given-names></name>
+<role>Editor</role>
+<xref ref-type="aff" rid="edit1" /></contrib>
+</contrib-group>
+<aff id="edit1"><addr-line>Northwest Fisheries Science Center, NOAA Fisheries, United States of America</addr-line></aff>
+<author-notes>
+<corresp id="cor1">* E-mail: <email xlink:type="simple">micheli@stanford.edu</email></corresp>
+<fn fn-type="conflict"><p>One of the co-authors' (SW) affiliation with a commercial company (ESRI) does not alter the authors' adherence to all the PLOS ONE policies on sharing data and materials.</p></fn>
+<fn fn-type="con"><p>Conceived and designed the experiments: FM BH. Analyzed the data: SW FM. Contributed reagents/materials/analysis tools: SW BH FM SC LN RL. Wrote the paper: FM BH SW FF SF RL LN AR.</p></fn>
+</author-notes>
+<pub-date pub-type="collection"><year>2013</year></pub-date>
+<pub-date pub-type="epub"><day>4</day><month>12</month><year>2013</year></pub-date>
+<volume>8</volume>
+<issue>12</issue>
+<elocation-id>e79889</elocation-id>
+<history>
+<date date-type="received"><day>27</day><month>6</month><year>2013</year></date>
+<date date-type="accepted"><day>5</day><month>10</month><year>2013</year></date>
+</history>
+<permissions>
+<copyright-year>2013</copyright-year>
+<copyright-holder>Micheli et al</copyright-holder><license xlink:href="http://creativecommons.org/licenses/by/3.0/" xlink:type="simple"><license-p>This is an open-access article distributed under the terms of the <ext-link ext-link-type="uri" xlink:href="http://creativecommons.org/licenses/by/3.0/" xlink:type="simple">Creative Commons Attribution License</ext-link>, which permits unrestricted use, distribution, and reproduction in any medium, provided the original author and source are credited.</license-p></license></permissions>
+<abstract>
+<p>Management of marine ecosystems requires spatial information on current impacts. In several marine regions, including the Mediterranean and Black Sea, legal mandates and agreements to implement ecosystem-based management and spatial plans provide new opportunities to balance uses and protection of marine ecosystems. Analyses of the intensity and distribution of cumulative impacts of human activities directly connected to the ecological goals of these policy efforts are critically needed. Quantification and mapping of the cumulative impact of 22 drivers to 17 marine ecosystems reveals that 20% of the entire basin and 60–99% of the territorial waters of EU member states are heavily impacted, with high human impact occurring in all ecoregions and territorial waters. Less than 1% of these regions are relatively unaffected. This high impact results from multiple drivers, rather than one individual use or stressor, with climatic drivers (increasing temperature and UV, and acidification), demersal fishing, ship traffic, and, in coastal areas, pollution from land accounting for a majority of cumulative impacts. These results show that coordinated management of key areas and activities could significantly improve the condition of these marine ecosystems.</p>
+</abstract>
+<funding-group><funding-statement>This work was supported by the Oak Foundation and the Pew Charitable Trust. SF was also supported by the European Community's 7th Framework Programme (FP7/2007–2013) under Grant Agreement No. 287844 for the project ‘Towards COast to Coast NETworks of marine protected areas (from the shore to the high and deep sea), coupled with sea-based wind energy potential (COCONET)’. The funders had no role in study design, data collection and analysis, decision to publish, or preparation of the manuscript.</funding-statement></funding-group><counts><page-count count="10" /></counts></article-meta>
+</front>
+<body><sec id="s1">
+<title>Introduction</title>
+<p>Ecosystem-based management (EBM) and Marine Spatial Planning (MSP) are widely being pursued as strategies to achieve the sustainable flow of marine ecosystem services <xref ref-type="bibr" rid="pone.0079889-Crowder1">[1]</xref>, <xref ref-type="bibr" rid="pone.0079889-Ruckelshaus1">[2]</xref>. These comprehensive marine management frameworks are now mandated in some nations around the world <xref ref-type="bibr" rid="pone.0079889-Rosenberg1">[3]</xref>, including Canada (Canada's Ocean Act of 1996), the USA (The National Ocean Policy of 2010), and Australia (<ext-link ext-link-type="uri" xlink:href="http://www.gbrmpa.gov.au/zoning-permits-and-plans/zoning" xlink:type="simple">http://www.gbrmpa.gov.au/zoning-permits-and-plans/zoning</ext-link>).</p>
+<p>Member states of the European Union (EU) are also committed to adopting an ecosystem approach to marine management, including marine spatial planning. As mandated by the EU Marine Strategy Framework Directive (MSFD 2008), all European states should assess the environmental status of their territorial waters by July 2014, and develop strategies to achieve “good environmental status” by 2020 (GES, <ext-link ext-link-type="uri" xlink:href="http://ec.europa.eu/environment/water/marine/es.htm" xlink:type="simple">http://ec.europa.eu/environment/water/marine/es.htm</ext-link>). Marine spatial planning is also part of the EU Integrated Maritime Policy (IMP) of 2011 (<ext-link ext-link-type="uri" xlink:href="http://ec.europa.eu/maritimeaffairs/policy/" xlink:type="simple">http://ec.europa.eu/maritimeaffairs/policy/</ext-link>). At the regional scale, all the 21 Mediterranean nations have ratified the UNEP's Mediterranean Action Plan (MAP) to move Mediterranean marine management towards an ecosystem approach (ECAP), and to expand into non-EU Mediterranean waters the same conservation and management measures implemented in EU waters.</p>
+<p>The Mediterranean and Black Sea ecosystems have been threatened by historical and current pressures e.g <xref ref-type="bibr" rid="pone.0079889-Lotze1">[4]</xref>, <xref ref-type="bibr" rid="pone.0079889-Lejeusne1">[5]</xref>, <xref ref-type="bibr" rid="pone.0079889-Coll1">[6]</xref> which have led to major shifts in marine ecosystems and widespread conflict among marine users <xref ref-type="bibr" rid="pone.0079889-Airoldi1">[7]</xref>, <xref ref-type="bibr" rid="pone.0079889-Abdulla1">[8]</xref>, <xref ref-type="bibr" rid="pone.0079889-Ferretti1">[9]</xref>, <xref ref-type="bibr" rid="pone.0079889-Claudet1">[10]</xref>. Because of such intense pressure from multiple uses and stressors, the Mediterranean is characterized as a sea “under siege” <xref ref-type="bibr" rid="pone.0079889-Coll1">[6]</xref>, <xref ref-type="bibr" rid="pone.0079889-Galil1">[11]</xref>, and here, as in other intensely used ocean areas, an EBM approach has been recommended as a better management alternative to current sectoral management <xref ref-type="bibr" rid="pone.0079889-Crowder1">[1]</xref>.</p>
+<p>MAP ECAP, the EU MSFD and IMP provide an unprecedented opportunity to implement comprehensive and coordinated management of multiple uses and activities affecting the Mediterranean and Black Seas. These initiatives have no formal links, but a common timeline has recently been agreed upon <xref ref-type="bibr" rid="pone.0079889-UNEP1">[12]</xref>. It is expected that the implementation of the MAP ECAP will provide a platform for harmonization of national marine strategies of all Mediterranean countries (EU and non-EU) on a regional scale.</p>
+<p>The development of basin-wide plans requires information on current impacts that can inform effective marine policy over the next years. Some relevant research has been conducted in this region. Coll et al. <xref ref-type="bibr" rid="pone.0079889-Coll1">[6]</xref> have mapped cumulative impacts to key taxa and this assessment highlighted several areas of concern. However, a comprehensive analysis focused on whole ecosystems is lacking and quantification of the intensity and distribution of cumulative impacts in the whole Mediterranean and Black Sea that directly connects to ecosystem goals and priorities is critically needed.</p>
+<p>We apply an approach developed to assess and map cumulative human impacts <xref ref-type="bibr" rid="pone.0079889-Halpern1">[13]</xref> that was previously applied to other marine regions, including the US EEZ e.g <xref ref-type="bibr" rid="pone.0079889-Halpern2">[14]</xref>, <xref ref-type="bibr" rid="pone.0079889-Selkoe1">[15]</xref>, western Canada <xref ref-type="bibr" rid="pone.0079889-Ban1">[16]</xref>, and the North (<ext-link ext-link-type="uri" xlink:href="http://harmony.dmu.dk/" xlink:type="simple">http://harmony.dmu.dk/</ext-link>) and Baltic Seas <xref ref-type="bibr" rid="pone.0079889-Korpinen1">[17]</xref>. Our goals are to: (1) quantify and map cumulative impacts to the entire Mediterranean and Black Sea to provide the data needed to guide and inform the development of effective marine policy; and (2) propose and apply a tool for assessing the environmental status of the territorial waters of EU member states. In particular, we identify the most and least impacted ecoregions and ecosystems within the Mediterranean and Black Sea, the top threats affecting EU territorial waters and the entire basin, and the areas that represent top priorities for EBM and conservation efforts. These analyses are aimed at supporting coordinated and comprehensive actions across the basins, ensuring GES consider all impacts and are relevant at both the national and the regional scales.</p>
+</sec><sec id="s2" sec-type="methods">
+<title>Methods</title>
+<p>We used a cumulative impact model that follows a 4-step process <xref ref-type="bibr" rid="pone.0079889-Halpern1">[13]</xref>. We first assembled spatial datasets for <italic>n</italic> = 22 anthropogenic drivers (<italic>D<sub>i</sub></italic>) and <italic>m</italic> = 17 ecosystems (<italic>E<sub>j</sub></italic>) (Table S1 and Figs. S2–S11 in <xref ref-type="supplementary-material" rid="pone.0079889.s001">File SI</xref>). All but the climatic drivers have direct correspondence with the MSFD's good environmental status (GES) descriptors (Table S2 in <xref ref-type="supplementary-material" rid="pone.0079889.s001">File SI</xref>). Second, we log[X+1]-transformed and rescaled between 0–1 each driver layer to put them on a single, unitless scale that allows direct comparison, and converted ecosystem data into 1 km<sup>2</sup> presence/absence layers. Third, we calculated cumulative impact scores (<italic>I<sub>C</sub></italic>) for each 1 km<sup>2</sup> pixel as <inline-formula><inline-graphic xlink:href="info:doi/10.1371/journal.pone.0079889.e001" xlink:type="simple" /></inline-formula>, where <italic>μ<sub>i,j</sub></italic> is the impact weight for anthropogenic driver <italic>i</italic> and ecosystem <italic>j</italic>, and <italic>1/m</italic> produces an average impact score across ecosystems <xref ref-type="bibr" rid="pone.0079889-Halpern1">[13]</xref>. Impact weights were estimated using expert judgment to quantify vulnerability of ecosystems to human drivers of ecological change <xref ref-type="bibr" rid="pone.0079889-Halpern3">[18]</xref>. Although these weights are not specific to the Mediterranean, regional experts were included in those analyses, and weights have proven fairly consistent for other regional assessments <xref ref-type="bibr" rid="pone.0079889-Teck1">[19]</xref>, <xref ref-type="bibr" rid="pone.0079889-Kappel1">[20]</xref>. The use of expert judgment instead of direct empirical assessments to calculate impact weights greatly increases uncertainty of our impact scores. Empirical quantification of the ecological impacts of a suite of drivers is currently unavailable and filling this gap is a critical need within the Mediterranean and other regions <xref ref-type="bibr" rid="pone.0079889-Claudet1">[10]</xref>, <xref ref-type="bibr" rid="pone.0079889-Halpern3">[18]</xref>. Despite these limitations, there is a long history in the decision sciences of assessing how to set priorities (e.g., rank threats) by using the best available scientific judgments when data are scarce and uncertainty exists. Teck et al. <xref ref-type="bibr" rid="pone.0079889-Teck1">[19]</xref> critically examined uncertainties associated with expert judgment and showed the robustness of our approach to eliciting expert opinions for informing cumulative impact assessments for the California Current. Based on these results, we used the same approach and vulnerability weights here. Regardless, it is critical that uncertainties associated with a lack of empirical data on ecosystem vulnerability are communicated clearly, especially when integrating cumulative impact mapping into decision making <xref ref-type="bibr" rid="pone.0079889-Halpern4">[21]</xref>.</p>
+<p>Cumulative impact to individual ecosystems (<italic>I<sub>E</sub></italic>) was calculated as, <inline-formula><inline-graphic xlink:href="info:doi/10.1371/journal.pone.0079889.e002" xlink:type="simple" /></inline-formula> and impact of individual drivers across all ecosystem types (<italic>I<sub>D</sub></italic>) was calculated as <inline-formula><inline-graphic xlink:href="info:doi/10.1371/journal.pone.0079889.e003" xlink:type="simple" /></inline-formula>. Finally, we used the same thresholds used in Halpern et al. <xref ref-type="bibr" rid="pone.0079889-Halpern1">[13]</xref> to designate ecologically meaningful categories of the cumulative impact scores, i.e. ecosystems that are subject to: very high (<italic>Ic</italic>&gt;15.52); high (12–15.52); medium high (8.47–12); medium (4.95–8.47); low (1.4–4.95); and very low impact (&lt;1.4). These thresholds were based on empirical data on the condition of ecosystems containing coral reefs, seagrass beds, mangroves and surrounding matrix of soft bottom habitats <xref ref-type="bibr" rid="pone.0079889-Halpern1">[13]</xref>. In Halpern et al. <xref ref-type="bibr" rid="pone.0079889-Halpern1">[13]</xref>, cumulative impact scores were translated into estimates of ocean condition by using linear regression to compare estimates of the current condition of 16 regions containing coral reefs from around the world <xref ref-type="bibr" rid="pone.0079889-Pandolfi1">[23]</xref> to the average cumulative impact score for all cells containing coral reefs in those regions. The statistically significant linear regression equation was then used to translate impact scores into categories of ocean condition. We used these bins of cumulative impact scores for describing the condition of Mediterranean marine ecosystems and for color-coding all figures. Categorization of cumulative impact scores in very low to very high impact classes does not imply a value judgment, but is aimed instead at enabling analyses and visual display of results.</p>
+<p>We used these thresholds for categorizing level of threat, even though they were derived in different regions and ecosystem types, because a similar in-situ verification of the Mediterranean ecosystem condition currently does not exist. The sensitivity of our results to key steps in this process and further details on the validation method were analyzed in previous articles and results were shown to be robust to variation in weights and thresholds <xref ref-type="bibr" rid="pone.0079889-Halpern1">[13]</xref>, <xref ref-type="bibr" rid="pone.0079889-Teck1">[19]</xref>. However, the assumption that thresholds derived from tropical coastal ecosystems apply to Mediterranean habitats and to offshore and deep ecosystems was not directly validated. Empirical ground-truthing of the relationship between cumulative impact scores and ecosystem condition remains a top priority within the Mediterranean and worldwide <xref ref-type="bibr" rid="pone.0079889-Halpern1">[13]</xref>, <xref ref-type="bibr" rid="pone.0079889-Halpern2">[14]</xref>, <xref ref-type="bibr" rid="pone.0079889-Halpern4">[21]</xref>.</p>
+<p>We first calculated and mapped <italic>Ic</italic> over the entire Mediterranean and Black Sea basins. We also calculated impact scores separately for each ecoregion, sensu <xref ref-type="bibr" rid="pone.0079889-Spalding1">[22]</xref> (see <xref ref-type="table" rid="pone-0079889-t001">Table 1</xref>), and for each of four categories of drivers: climatic (temperature and UV increase, and acidification), land-based (nutrient input, organic pollution, urban runoff, risk of hypoxia and coastal population density), sea-based (commercial shipping, invasive species, oil spills and oil rigs), and fishing (all fishing gears and types) (Table S1 in <xref ref-type="supplementary-material" rid="pone.0079889.s001">File SI</xref>).</p>
+<table-wrap id="pone-0079889-t001" position="float" orientation="portrait"><object-id pub-id-type="doi">10.1371/journal.pone.0079889.t001</object-id><label>Table 1</label><caption>
+<title>Average, maximum, SD and CV of the cumulative impact scores within the seven Mediterranean ecoregions and the Black Sea.</title>
+</caption><alternatives><graphic id="pone-0079889-t001-1" position="float" mimetype="image" xlink:href="info:doi/10.1371/journal.pone.0079889.t001" xlink:type="simple" orientation="portrait" />
+<table><colgroup span="1"><col align="left" span="1" /><col align="center" span="1" /><col align="center" span="1" /><col align="center" span="1" /><col align="center" span="1" /></colgroup>
+<thead>
+<tr>
+<td align="left" rowspan="1" colspan="1">Ecoregion</td>
+<td align="left" rowspan="1" colspan="1">avg. <italic>Ic</italic></td>
+<td align="left" rowspan="1" colspan="1">max <italic>Ic</italic></td>
+<td align="left" rowspan="1" colspan="1">SD</td>
+<td align="left" rowspan="1" colspan="1">CV</td>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left" rowspan="1" colspan="1">Alboran Sea</td>
+<td align="left" rowspan="1" colspan="1">9.1</td>
+<td align="left" rowspan="1" colspan="1">20.2</td>
+<td align="left" rowspan="1" colspan="1">2.0</td>
+<td align="left" rowspan="1" colspan="1">22.4</td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1">Levantine Sea</td>
+<td align="left" rowspan="1" colspan="1">8.9</td>
+<td align="left" rowspan="1" colspan="1">19.2</td>
+<td align="left" rowspan="1" colspan="1">2.5</td>
+<td align="left" rowspan="1" colspan="1">27.8</td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1">Aegean Sea</td>
+<td align="left" rowspan="1" colspan="1">8.6</td>
+<td align="left" rowspan="1" colspan="1">18.5</td>
+<td align="left" rowspan="1" colspan="1">2.6</td>
+<td align="left" rowspan="1" colspan="1">29.9</td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1">Adriatic Sea</td>
+<td align="left" rowspan="1" colspan="1">8.4</td>
+<td align="left" rowspan="1" colspan="1">19.0</td>
+<td align="left" rowspan="1" colspan="1">3.4</td>
+<td align="left" rowspan="1" colspan="1">40.9</td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1">Tunisian Plateau/Gulf of Sidra</td>
+<td align="left" rowspan="1" colspan="1">8.3</td>
+<td align="left" rowspan="1" colspan="1">21.0</td>
+<td align="left" rowspan="1" colspan="1">2.6</td>
+<td align="left" rowspan="1" colspan="1">31.1</td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1">Ionian Sea</td>
+<td align="left" rowspan="1" colspan="1">8.3</td>
+<td align="left" rowspan="1" colspan="1">24.5</td>
+<td align="left" rowspan="1" colspan="1">1.7</td>
+<td align="left" rowspan="1" colspan="1">20.4</td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1">Western Mediterranean</td>
+<td align="left" rowspan="1" colspan="1">7.7</td>
+<td align="left" rowspan="1" colspan="1">22.4</td>
+<td align="left" rowspan="1" colspan="1">1.9</td>
+<td align="left" rowspan="1" colspan="1">24.7</td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1">Black Sea</td>
+<td align="left" rowspan="1" colspan="1">6.1</td>
+<td align="left" rowspan="1" colspan="1">16.4</td>
+<td align="left" rowspan="1" colspan="1">2.2</td>
+<td align="left" rowspan="1" colspan="1">35.9</td>
+</tr>
+</tbody>
+</table>
+</alternatives></table-wrap>
+<p>Secondly, we calculated and mapped <italic>Ic</italic> only for the territorial waters of the EU member states, (up to 12 nm from the coastline) where more data are available. Analyses were conducted at two different spatial scales – only for EU member states and for the entire Mediterranean and Black Sea – to account for the spatial scale of available data layers. All 22 drivers were used in the EU analysis but only 18 in the Mediterranean and Black Sea-wide analysis because data on coastal erosion, renourishment, engineering, and urbanization trends were available only for EU member states (Table S1 in <xref ref-type="supplementary-material" rid="pone.0079889.s001">File SI</xref>). Per-pixel <italic>Ic</italic> scores ranged between 0–24.5 in the Mediterranean-wide analysis, and 0.2–97.3 for the EU analysis. Sources and methods used to develop each data layer are detailed in the SOM (Text S1 in <xref ref-type="supplementary-material" rid="pone.0079889.s001">File SI</xref>).</p>
+</sec><sec id="s3">
+<title>Results</title>
+<sec id="s3a">
+<title>Mediterranean and Black Sea</title>
+<p>The map of cumulative human impacts highlights the widespread distribution of drivers, and resulting impacts, throughout the Mediterranean and Black Sea (<xref ref-type="fig" rid="pone-0079889-g001">Fig. 1</xref>). Regions of medium-high to very high impact (20.5% of the total area) are found within the Alboran Sea, the Gulf of Lyons, the Sicily Channel and Tunisian Plateau, the Adriatic Sea, off the coasts of Egypt and Israel, along the coasts of Turkey, and within the Marmara and Black Sea (<xref ref-type="fig" rid="pone-0079889-g001">Fig. 1</xref>). Areas of very-low to low impact account for a total 13.6% of the total surface area, and are present within the central Tyrrhenian Sea, parts of the northern and central Adriatic Sea, the southern Levantine Sea, and the eastern and western sides of the Black Sea (<xref ref-type="fig" rid="pone-0079889-g001">Fig. 1</xref>). A majority (65.9%) of the Mediterranean and Black Sea are subject to medium cumulative impact.</p>
+<fig id="pone-0079889-g001" position="float" orientation="portrait"><object-id pub-id-type="doi">10.1371/journal.pone.0079889.g001</object-id><label>Figure 1</label><caption>
+<title>Spatial distribution of cumulative impacts to marine ecosystems of the Mediterranean and Black Sea.</title>
+<p>Inserts at the bottom show larger views of the Alboran (left), Northern Tyrrhenian (center), and Aegean Sea (right). Colors correspond to the different impact categories listed in the legend.</p>
+</caption><graphic mimetype="image" xlink:href="info:doi/10.1371/journal.pone.0079889.g001" position="float" xlink:type="simple" orientation="portrait" /></fig>
+<p>When analyzed by ecoregion, the Alboran and Levantine ecoregions have the highest average cumulative impact, the western Mediterranean and Black Sea the lowest (<xref ref-type="table" rid="pone-0079889-t001">Table 1</xref>), although areas of high impact exist even within these ecoregions (<xref ref-type="fig" rid="pone-0079889-g001">Fig. 1</xref>). In fact, the greatest per-pixel <italic>Ic</italic> scores were seen within the western Mediterranean and in the Ionian Sea, and the Adriatic and Black Seas exhibited the greatest variability in impact scores (<xref ref-type="table" rid="pone-0079889-t001">Table 1</xref>), comprising areas of both very high and low impact (<xref ref-type="fig" rid="pone-0079889-g001">Fig. 1</xref>).</p>
+<p>Pelagic and benthic offshore ecosystems have the greatest average cumulative impact (<italic>I<sub>E</sub></italic>; Table S3 in <xref ref-type="supplementary-material" rid="pone.0079889.s001">File SI</xref>). However, this is partly driven by their large extent: the maximum pixel-level values of the <italic>I<sub>E</sub></italic> scores, indicative of locally high impacts, are observed in intertidal habitats (particularly salt marshes, suspension-feeding reefs, rocky shores and mud flats), and in nearshore sublittoral and continental shelf hard bottoms that are affected by both sea-based and land-based drivers (Table S3 in <xref ref-type="supplementary-material" rid="pone.0079889.s001">File SI</xref>).</p>
+</sec><sec id="s3b">
+<title>EU member states</title>
+<p>Quantification of the percent of national waters of EU member states in different impact categories (<xref ref-type="table" rid="pone-0079889-t002">Table 2</xref>) reveals that a majority (60–99%) of waters within 12 nm of the coastline are subject to medium-high to very high impact. 0–20% of national waters are subject to low or very low impact, and this percent is less than 10% for a majority of nations (<xref ref-type="table" rid="pone-0079889-t002">Table 2</xref>). Average <italic>Ic</italic> (averaged by nation) range from 6.2–15.3, corresponding to medium to high impact (Table S4 in <xref ref-type="supplementary-material" rid="pone.0079889.s001">File SI</xref>), and show no correlation with the area of national waters (<italic>R<sup>2</sup></italic> = 0.0005, NS).</p>
+<table-wrap id="pone-0079889-t002" position="float" orientation="portrait"><object-id pub-id-type="doi">10.1371/journal.pone.0079889.t002</object-id><label>Table 2</label><caption>
+<title>Percent of national territorial waters of Mediterranean and Black Sea EU member states within different impact categories: very high impact (<italic>I<sub>c</sub></italic>&gt;15.52); high impact (12–15.52); medium-high impact (8.47–12); medium impact (4.95–8.47); low impact (1.4–4.95); and very low impact (&lt;1.4).</title>
+</caption><alternatives><graphic id="pone-0079889-t002-2" position="float" mimetype="image" xlink:href="info:doi/10.1371/journal.pone.0079889.t002" xlink:type="simple" orientation="portrait" />
+<table><colgroup span="1"><col align="left" span="1" /><col align="center" span="1" /><col align="center" span="1" /><col align="center" span="1" /><col align="center" span="1" /><col align="center" span="1" /><col align="center" span="1" /><col align="center" span="1" /></colgroup>
+<thead>
+<tr>
+<td align="left" rowspan="1" colspan="1">Country</td>
+<td align="left" rowspan="1" colspan="1">area (km<sup>2</sup>)</td>
+<td align="left" rowspan="1" colspan="1">very low</td>
+<td align="left" rowspan="1" colspan="1">low</td>
+<td align="left" rowspan="1" colspan="1">med</td>
+<td align="left" rowspan="1" colspan="1">med-high</td>
+<td align="left" rowspan="1" colspan="1">high</td>
+<td align="left" rowspan="1" colspan="1">very high</td>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left" rowspan="1" colspan="1">Slovenia</td>
+<td align="left" rowspan="1" colspan="1">266.2</td>
+<td align="left" rowspan="1" colspan="1">0.0</td>
+<td align="left" rowspan="1" colspan="1">10.2</td>
+<td align="left" rowspan="1" colspan="1">22.7</td>
+<td align="left" rowspan="1" colspan="1">0.0</td>
+<td align="left" rowspan="1" colspan="1">0.8</td>
+<td align="left" rowspan="1" colspan="1">66.3</td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1">Cyprus</td>
+<td align="left" rowspan="1" colspan="1">95,833.6</td>
+<td align="left" rowspan="1" colspan="1">1.8</td>
+<td align="left" rowspan="1" colspan="1">4.4</td>
+<td align="left" rowspan="1" colspan="1">0.7</td>
+<td align="left" rowspan="1" colspan="1">12.2</td>
+<td align="left" rowspan="1" colspan="1">63.3</td>
+<td align="left" rowspan="1" colspan="1">17.6</td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1">France</td>
+<td align="left" rowspan="1" colspan="1">480,103.7</td>
+<td align="left" rowspan="1" colspan="1">0.4</td>
+<td align="left" rowspan="1" colspan="1">4.1</td>
+<td align="left" rowspan="1" colspan="1">26.2</td>
+<td align="left" rowspan="1" colspan="1">26.7</td>
+<td align="left" rowspan="1" colspan="1">27.6</td>
+<td align="left" rowspan="1" colspan="1">14.9</td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1">Italy</td>
+<td align="left" rowspan="1" colspan="1">700,184.6</td>
+<td align="left" rowspan="1" colspan="1">0.0</td>
+<td align="left" rowspan="1" colspan="1">6.3</td>
+<td align="left" rowspan="1" colspan="1">14.0</td>
+<td align="left" rowspan="1" colspan="1">44.6</td>
+<td align="left" rowspan="1" colspan="1">21.4</td>
+<td align="left" rowspan="1" colspan="1">13.7</td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1">Spain</td>
+<td align="left" rowspan="1" colspan="1">744,352.6</td>
+<td align="left" rowspan="1" colspan="1">0.0</td>
+<td align="left" rowspan="1" colspan="1">6.6</td>
+<td align="left" rowspan="1" colspan="1">7.2</td>
+<td align="left" rowspan="1" colspan="1">40.0</td>
+<td align="left" rowspan="1" colspan="1">33.9</td>
+<td align="left" rowspan="1" colspan="1">12.2</td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1">Bulgaria</td>
+<td align="left" rowspan="1" colspan="1">48.050.1</td>
+<td align="left" rowspan="1" colspan="1">5.3</td>
+<td align="left" rowspan="1" colspan="1">14.9</td>
+<td align="left" rowspan="1" colspan="1">15.7</td>
+<td align="left" rowspan="1" colspan="1">33.6</td>
+<td align="left" rowspan="1" colspan="1">22.5</td>
+<td align="left" rowspan="1" colspan="1">8.0</td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1">Greece</td>
+<td align="left" rowspan="1" colspan="1">615,025.4</td>
+<td align="left" rowspan="1" colspan="1">0.8</td>
+<td align="left" rowspan="1" colspan="1">9.0</td>
+<td align="left" rowspan="1" colspan="1">9.7</td>
+<td align="left" rowspan="1" colspan="1">51.3</td>
+<td align="left" rowspan="1" colspan="1">21.3</td>
+<td align="left" rowspan="1" colspan="1">7.9</td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1">Monaco</td>
+<td align="left" rowspan="1" colspan="1">390.6</td>
+<td align="left" rowspan="1" colspan="1">0.0</td>
+<td align="left" rowspan="1" colspan="1">0.0</td>
+<td align="left" rowspan="1" colspan="1">0.8</td>
+<td align="left" rowspan="1" colspan="1">60.2</td>
+<td align="left" rowspan="1" colspan="1">32.8</td>
+<td align="left" rowspan="1" colspan="1">6.3</td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1">Malta</td>
+<td align="left" rowspan="1" colspan="1">68,240.6</td>
+<td align="left" rowspan="1" colspan="1">0.9</td>
+<td align="left" rowspan="1" colspan="1">2.9</td>
+<td align="left" rowspan="1" colspan="1">37.5</td>
+<td align="left" rowspan="1" colspan="1">34.8</td>
+<td align="left" rowspan="1" colspan="1">19.0</td>
+<td align="left" rowspan="1" colspan="1">4.8</td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1">Romania</td>
+<td align="left" rowspan="1" colspan="1">41,509.7</td>
+<td align="left" rowspan="1" colspan="1">1.4</td>
+<td align="left" rowspan="1" colspan="1">16.5</td>
+<td align="left" rowspan="1" colspan="1">20.5</td>
+<td align="left" rowspan="1" colspan="1">47.5</td>
+<td align="left" rowspan="1" colspan="1">12.8</td>
+<td align="left" rowspan="1" colspan="1">1.2</td>
+</tr>
+</tbody>
+</table>
+</alternatives></table-wrap>
+<p>Cumulative impact maps show high spatial variation in impact scores, with heavily impacted systems (in red) found within the waters of all nations, and small areas with relatively low impact (in blue or green) along the coasts of most nations (<xref ref-type="fig" rid="pone-0079889-g002">Fig. 2</xref>). The addition of four coastal drivers to this analysis (coastal erosion, renourishment, engineering, and urbanization trends) results in greater <italic>Ic</italic> scores in most locations compared to the Mediterranean-wide map (<xref ref-type="fig" rid="pone-0079889-g001">Figs. 1</xref>–<xref ref-type="fig" rid="pone-0079889-g002">2</xref>).</p>
+<fig id="pone-0079889-g002" position="float" orientation="portrait"><object-id pub-id-type="doi">10.1371/journal.pone.0079889.g002</object-id><label>Figure 2</label><caption>
+<title>Spatial distribution of cumulative impacts to the territorial waters of EU member states.</title>
+<p>Inserts at the bottom show larger views of the Alboran (left), Northern Tyrrhenian (center), and Aegean Seas (right). Colors correspond to the different impact categories listed in the legend. Territorial waters extend 12 nm from the coastline.</p>
+</caption><graphic mimetype="image" xlink:href="info:doi/10.1371/journal.pone.0079889.g002" position="float" xlink:type="simple" orientation="portrait" /></fig></sec><sec id="s3c">
+<title>Relative contribution and spatial distribution of drivers</title>
+<p>Drivers associated with climate change (SST and UV increase, and acidification), demersal fishing, and shipping result in the greatest average impact on Mediterranean and Black Sea ecosystems (<xref ref-type="fig" rid="pone-0079889-g003">Fig. 3a</xref>). These drivers, along with coastal hypoxia, were found to exert the greatest impact within territorial waters of the EU nations (<xref ref-type="fig" rid="pone-0079889-g003">Fig. 3b</xref>), followed by coastal population density, invasive species, land-based pollution (inorganic pollution, pesticide and fertilizer runoff) and modification of the coastline (through coastal erosion and engineering). The lowest estimated impacts, both within EU waters and for the whole basin, are associated with oil spills and rigs (<xref ref-type="fig" rid="pone-0079889-g003">Fig. 3</xref>).</p>
+<fig id="pone-0079889-g003" position="float" orientation="portrait"><object-id pub-id-type="doi">10.1371/journal.pone.0079889.g003</object-id><label>Figure 3</label><caption>
+<title>Average Impact scores of drivers.</title>
+<p>Average impact scores for each driver are reported within (a) the entire Mediterranean and Black Sea, and (b) the territorial waters of EU member states.</p>
+</caption><graphic mimetype="image" xlink:href="info:doi/10.1371/journal.pone.0079889.g003" position="float" xlink:type="simple" orientation="portrait" /></fig>
+<p>Driver categories differ in their distribution across the Mediterranean and Black Sea (<xref ref-type="fig" rid="pone-0079889-g004">Fig. 4</xref>; Table S1 in <xref ref-type="supplementary-material" rid="pone.0079889.s001">File SI</xref>). Climatic drivers are broadly distributed but have the greatest impact scores in the eastern Mediterranean. Fishing affects all coastal areas, as well as most of the Sicily Channel and the Alboran, Adriatic, and Aegean Sea. Sea-based activities result in the highest scores in the western and southern regions, and land-based activities broadly affect coastal areas, as well as large portions of the Adriatic and Black Sea.</p>
+<fig id="pone-0079889-g004" position="float" orientation="portrait"><object-id pub-id-type="doi">10.1371/journal.pone.0079889.g004</object-id><label>Figure 4</label><caption>
+<title>Spatial distribution of cumulative impact of driver categories.</title>
+<p>Driver categories are: climate (i.e. the combined cumulative impact of temperature and UV increase, and acidification; top left), fishing (all fishing types combined; top right), sea-based drivers (commercial shipping, invasive species, oil spills and oil rigs; bottom left) and land-based drivers (nutrient input, organic pollution, urban runoff, risk of hypoxia and coastal population density; bottom right). Color scales correspond to highest (red) to lowest (blue) cumulative impact, within each panel. Different scales were used in each panel to better highlight spatial patterns for each driver category.</p>
+</caption><graphic mimetype="image" xlink:href="info:doi/10.1371/journal.pone.0079889.g004" position="float" xlink:type="simple" orientation="portrait" /></fig>
+<p>All ecoregions are affected by multiple drivers, but the relative importance of different drivers varies among ecoregions (<xref ref-type="fig" rid="pone-0079889-g005">Fig. 5</xref>). Climatic drivers have the greatest contribution to the average cumulative impact score of all ecoregions, though this contribution is lower for the Alboran and Adriatic Seas (<xref ref-type="fig" rid="pone-0079889-g005">Fig. 5a</xref>). When climatic drivers are not included (<xref ref-type="fig" rid="pone-0079889-g005">Fig. 5b</xref>), demersal fishing, hypoxia and pollution from land-based activities are major contributors to high cumulative impacts to the Adriatic and Black Sea, and demersal fishing and shipping are major contributors in the other ecoregions.</p>
+<fig id="pone-0079889-g005" position="float" orientation="portrait"><object-id pub-id-type="doi">10.1371/journal.pone.0079889.g005</object-id><label>Figure 5</label><caption>
+<title>Percent contribution of different drivers to the average cumulative impact score of each ecoregion.</title>
+<p>Percent contributions are reported with (a) and without (b) climatic drivers. Some drivers (different demersal and pelagic fisheries, and different types of pollution from land) are aggregated to show relative contributions more clearly.</p>
+</caption><graphic mimetype="image" xlink:href="info:doi/10.1371/journal.pone.0079889.g005" position="float" xlink:type="simple" orientation="portrait" /></fig></sec></sec><sec id="s4">
+<title>Discussion</title>
+<p>Our analysis highlights that 20% of the entire Mediterranean and Black Sea and 60–99% of the territorial waters of EU member states are subject to high impact, while less than 20% has low impact and very few areas, less than 1%, remain relatively unaffected by human activities. Cumulative impact varies greatly across and within ecoregions and countries. Highly impacted areas are found in the Alboran Sea, the Gulf of Lyons, the Sicily Channel and Tunisian Plateau, the Adriatic Sea, off the coasts of Egypt and Israel, along the coasts of Turkey, and within the Marmara and Black Sea (<xref ref-type="fig" rid="pone-0079889-g001">Figs. 1</xref> and <xref ref-type="fig" rid="pone-0079889-g002">2</xref>). Contemporarily, we highlight areas characterized by low cumulative human impacts off Croatia, Albania, Italy, Tunisia and Egypt, in offshore areas of the central Tyrrhenian and Black Sea, and in several small areas along the coasts of most countries (<xref ref-type="fig" rid="pone-0079889-g001">Figs. 1</xref> and <xref ref-type="fig" rid="pone-0079889-g002">2</xref>). These areas represent important opportunities for conservation aimed at preventing future degradation.</p>
+<p>Some of the highly impacted areas we identified in this analysis coincide with the areas of conservation concern identified by Coll et al. <xref ref-type="bibr" rid="pone.0079889-Coll1">[6]</xref>, including portions of the Northern Adriatic Sea, the Sicily Channel, the inner Ionian Sea, the Aegean Sea, and the Gulf of Lyons. These areas emerge as clear priorities for future management action and protection. However, our analyses highlight additional highly impacted areas where multiple drivers overlap with vulnerable habitats, e.g. in the central Adriatic Sea, the Alboran Sea, the Tunisian Plateau, and in the southern Levantine Sea. These areas may also represent high priorities for management and conservation action. By using habitats as proxies for biodiversity instead of species data, our approach allows for the identification of areas of conservation concern in relatively data poor regions, such as the southern and eastern Mediterranean Sea, where species data are still scarce <xref ref-type="bibr" rid="pone.0079889-Coll1">[6]</xref>. Taken together, results from Coll et al.'s <xref ref-type="bibr" rid="pone.0079889-Coll1">[6]</xref> and our study show how multiple, complementary approaches are needed to assess cumulative impact and to direct research and management efforts to the areas that most urgently need them.</p>
+<p>High cumulative impact scores were always associated with multiple drivers, supporting the need for coordinated, comprehensive plans addressing all drivers of ecosystem change across the Mediterranean and Black Sea. However, our results also highlight opportunities for a major reduction of cumulative impact by prioritizing a subset of the drivers for policy action. Demersal fisheries, ship traffic, and, in some coastal areas, fertilizer run-off and resulting hypoxia are major contributors to the cumulative impacts we have analyzed. While it is well known that these activities are important pressures on ecosystems worldwide, this analysis shows that reducing the effects of trawling, ship traffic and nutrient loading from some land-based activities could lead to large reduction in cumulative impact, relative to addressing other drivers. Furthermore, different management policies will be most effective in different regions. For example, in the Sicily Channel and Alboran Sea, a better environmental status could be achieved by focusing on spatial plans for fisheries and commercial shipping, and in the northern Adriatic Sea and the Black Sea on fisheries and pollution from land. In all regions, high spatial variability in the distribution of human pressures and vulnerable ecosystems provide opportunities to reduce cumulative impact through spatial planning of current and emerging activities.</p>
+<p>In accord with previous global and regional impacts research <xref ref-type="bibr" rid="pone.0079889-Halpern1">[13]</xref>–<xref ref-type="bibr" rid="pone.0079889-Selkoe1">[15]</xref> climatic drivers (temperature and UV increase, and ocean acidification) were found to cause the largest potential impacts. While climatic drivers cannot be removed through local management action, their spatial distribution highlights the areas where climate mitigation and adaptation is most critical, e.g., in the eastern Mediterranean Sea.</p>
+<p>The estimated high impacts of major climatic and human drivers are influenced by both their widespread distribution (particularly climatic stressors), and the high vulnerability of multiple ecosystem types to these pressures e.g., <xref ref-type="bibr" rid="pone.0079889-Halpern3">[18]</xref>. In contrast, oil spills and rigs had the lowest estimated impacts, both within EU waters and for the whole basin. These highly harmful marine stressors showed in the Mediterranean a smaller effect because of their limited current spatial extent overlapping with habitats relatively resistant to oil-associated threats. Episodic and unpredictable, oil spills do not represent a chronic stressor to these ocean regions although a large-scale spill would clearly be catastrophic and damaging for these ecosystems.</p>
+<p>Cumulative impact analyses and mapping can help inform policy reform and management plans by highlighting top priorities and possible opportunities for initiating EBM and MSP, and by providing imagery to facilitate communication of issues and opportunities to policy makers, environmental managers, conservationists, businesses and the public. However, several issues require attention when interpreting results from our analyses. First, major sources of uncertainty remain to be addressed in future empirical studies and modeling efforts <xref ref-type="bibr" rid="pone.0079889-Halpern1">[13]</xref>, <xref ref-type="bibr" rid="pone.0079889-Ban1">[16]</xref>, <xref ref-type="bibr" rid="pone.0079889-Halpern4">[21]</xref>. Empirical information on how ecosystems change in response to different combinations and intensities of drivers is still scarce <xref ref-type="bibr" rid="pone.0079889-Claudet1">[10]</xref>. A better understanding of if or where ecosystems experience non-linear responses to cumulative impact and thresholds of resistance would be particularly valuable for setting management targets or limits. At present, non-linearities are difficult to anticipate and interpret and adaptive management responses that are robust to unexpected outcomes are needed. Data on the consequences of non-linear behaviors have never been included in Mediterranean analyses and rarely in extra Mediterranean areas <xref ref-type="bibr" rid="pone.0079889-Brown1">[24]</xref>–<xref ref-type="bibr" rid="pone.0079889-Plaganyi1">[26]</xref>. Direct empirical assessments of the vulnerability of different ecosystems, in addition to expert judgments, and of the relationship between cumulative impact scores and ecosystem conditions are critically needed. Second, the quality of available data is widely variable, with a great need for improved spatial information on the distribution of different ecosystems, direct measures of fishing effort, and the distribution and effects of important drivers such as marine litter, bycatch, and aquaculture. The effects of data gaps can be seen by comparing the Mediterranean wide and EU analyses (<xref ref-type="fig" rid="pone-0079889-g001">Figs. 1</xref>–<xref ref-type="fig" rid="pone-0079889-g002">2</xref>): addition of only four data layers in the latter analysis results in greater cumulative impact to coastal areas, indicating that impact is underestimated in the broader analysis. As additional spatial data e.g., <xref ref-type="bibr" rid="pone.0079889-Trujillo1">[27]</xref> become available, they could be incorporated in new iterations of these analyses. It will be especially important to perform even more detailed analyses using all locally available information in the top priority areas highlighted here. Third, our use of fisheries catch data <xref ref-type="bibr" rid="pone.0079889-Halpern1">[13]</xref> (Fig. S1 in <xref ref-type="supplementary-material" rid="pone.0079889.s001">File SI</xref>) instead of effort may lead to overestimation of impact in highly productive regions (e.g., the Alboran Sea) and underestimation in regions, such as parts of the Adriatic Sea, subject to intense historical fishing pressure and thus currently depleted <xref ref-type="bibr" rid="pone.0079889-Lotze1">[4]</xref>, <xref ref-type="bibr" rid="pone.0079889-Ferretti2">[28]</xref>. Improved access to effort data is a key priority: despite the Mediterranean Sea is a public trust resource and fishery-related data are collected with public funding, much of these data remain confidential. When spatially-explicit effort data become available they can and should be incorporated into future assessments. Fourth, our approach results in a static view of impact. Analyses of trajectories of change <xref ref-type="bibr" rid="pone.0079889-Ferretti1">[9]</xref>, <xref ref-type="bibr" rid="pone.0079889-Ferretti2">[28]</xref> and tools such as InVEST (<ext-link ext-link-type="uri" xlink:href="http://www.naturalcapitalproject.org" xlink:type="simple">http://www.naturalcapitalproject.org</ext-link>) that simulate consequences of different management actions into the future would improve management plans and MSP at local and regional scales. Our analysis serves as a baseline against which future actions can be measured. Finally, and most critically, institutions and social processes play a key role in advancing marine management that no amount of data and technical sophistication can replace. Securing social and political acceptance of conservation and management initiatives and establishing effective processes for their implementation is critical <xref ref-type="bibr" rid="pone.0079889-Portman1">[29]</xref>. Direct engagement of scientists and conservation practicioners in the planning process, analysis of social and economic costs and benefits of different management options, and involvement of diverse stakeholders will be essential to the successful implementation of marine spatial plans. Advancing marine conservation and management will require these fundamental participatory processes <xref ref-type="bibr" rid="pone.0079889-Portman1">[29]</xref>.</p>
+<p>Achieving the environmental goals that nations have committed to, within the Mediterranean region and worldwide, will require ongoing and comprehensive monitoring of impacts in conjunction with new policies that balance biodiversity protection with human uses. Within the EU the European Commission has stimulated the development of MSP among the EU member states, and the debate is ongoing on how to implement the key principles of MSP <xref ref-type="bibr" rid="pone.0079889-Commission1">[30]</xref>, <xref ref-type="bibr" rid="pone.0079889-Barale1">[31]</xref>. In parallel to these efforts, MAP is striving to expand the development of MSP into non-EU Mediterranean waters.</p>
+<p>The impact assessment approach described here allows for a transparent, repeatable and updatable synthesis and integration of disparate information, facilitating communication and discussion of policy options and alternatives at different spatial scales. Cumulative impact assessment highlights that coordinated management of key areas and activities could significantly enhance the environmental condition of intensely used marine regions. Therefore cumulative impact assessment could be considered as one of the valuable tools for achieving the objectives of the EU maritime policy and MAP.</p>
+</sec><sec id="s5">
+<title>Supporting Information</title>
+<supplementary-material id="pone.0079889.s001" mimetype="application/pdf" xlink:href="info:doi/10.1371/journal.pone.0079889.s001" position="float" xlink:type="simple" orientation="portrait"><label>File SI</label><caption>
+<p><bold>Detailed description of methods and spatial data layers, additional summary statistics of cumulative impact scores, and comparison of individual impact data layers from the global cumulative impact analysis </bold><xref ref-type="bibr" rid="pone.0079889-Halpern1">[<bold>13</bold>]</xref><bold> with the new layers included in this analysis.</bold> <bold>Text S1.</bold> Methods; <bold>Table S1.</bold> List and characteristics of spatial datalayers; <bold>Table S2.</bold> Correspondence between descriptors of Good Environmental Status and the data layers used in this analysis; <bold>Table S3.</bold> Summary statistics of cumulative impact score for individual ecosystems; <bold>Table S4.</bold> Summary statistics of cumulative impact scores within territorial waters of Mediterranean and Black Sea EU member states; <bold>Figure S1.</bold> Correlation between fishing effort and catch for pelagic longlines; <bold>Figure S2.</bold> Modeled distribution of marine invasive species from Halpern et al. (2008); <bold>Figure S3.</bold> New data layer on the distribution of harmful invasive species in Mediterranean coastal waters; <bold>Figure S4.</bold> Modeled pollution at sea layer (Halpern et al. 2008); <bold>Figure S5.</bold> Occurrence and magnitude of accidents resulting in oil release; <bold>Figure S6.</bold> Frequency of positive temperature anomalies (Halpern et al. 2008); <bold>Figure S7.</bold> Annual average rate of increase in SST; <bold>Figure S8.</bold> Risk of hypoxia; <bold>Figure S9.</bold> Coastal erosion and aggradation along the coastlines of Mediterranean EU countries; <bold>Figure S10.</bold> Coastal armoring along the coastlines of Mediterranean EU countries; <bold>Figure S11.</bold> Urbanization trends within Mediterranean EU countries.</p>
+<p>(PDF)</p>
+</caption></supplementary-material></sec></body>
+<back>
+<ack>
+<p>We thank P. Christy, A. Stips, F. Briand, M. Orbach, N. Hoepffner, A. White, G. Notarbartolo di Sciara, T. Agardy, D. Hyrenbach, B. Galil, C. Osio, P. Guidetti, A. Zenetos, A. Vella, J. O'Leary, S. Sokolow, K. Nickols, G. De Leo, and five anonymous reviewers for useful comments and suggestions, and D. Maldini for helping with data mining.</p>
+</ack>
+<ref-list>
+<title>References</title>
+<ref id="pone.0079889-Crowder1"><label>1</label>
+<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Crowder</surname><given-names>LB</given-names></name>, <name name-style="western"><surname>Norse</surname><given-names>EA</given-names></name> (<year>2008</year>) <article-title>Essential ecological insights for marine ecosystem-based management and marine spatial planning</article-title>. <source>Marine Policy</source> <volume>32</volume><supplement>(5)</supplement>: <fpage>772</fpage>–<lpage>778</lpage>.</mixed-citation>
+</ref>
+<ref id="pone.0079889-Ruckelshaus1"><label>2</label>
+<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Ruckelshaus</surname><given-names>M</given-names></name>, <name name-style="western"><surname>Klinger</surname><given-names>T</given-names></name>, <name name-style="western"><surname>Knowlton</surname><given-names>N</given-names></name>, <name name-style="western"><surname>DeMaster</surname><given-names>DP</given-names></name> (<year>2008</year>) <article-title>Marine Ecosystem-based Management in Practice: Scientific and Governance Challenges</article-title>. <source>BioScience</source> <volume>58</volume>: <fpage>53</fpage>–<lpage>63</lpage>.</mixed-citation>
+</ref>
+<ref id="pone.0079889-Rosenberg1"><label>3</label>
+<mixed-citation publication-type="book" xlink:type="simple">Rosenberg AA, Mooney-Seus M, Kiessling I, Mogensen CB, O'Boyle R, <etal>et al</etal>.. (2009) Lessons from national level implementation in North America and beyond. In: McLeod KO, Leslie H, editors. Ecosystem-based management of the ocean. Washington DC: Island Press. 392p.</mixed-citation>
+</ref>
+<ref id="pone.0079889-Lotze1"><label>4</label>
+<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Lotze</surname><given-names>HK</given-names></name>, <name name-style="western"><surname>Lenihan</surname><given-names>HS</given-names></name>, <name name-style="western"><surname>Borque</surname><given-names>BJ</given-names></name>, <name name-style="western"><surname>Bradbury</surname><given-names>RH</given-names></name>, <name name-style="western"><surname>Cooke</surname><given-names>RG</given-names></name>, <etal>et al</etal>. (<year>2006</year>) <article-title>Depletion, Degradation, and Recovery Potential of Estuaries and Coastal Seas</article-title>. <source>Science</source> <volume>312</volume>: <fpage>1806</fpage>–<lpage>1809</lpage>.</mixed-citation>
+</ref>
+<ref id="pone.0079889-Lejeusne1"><label>5</label>
+<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Lejeusne</surname><given-names>C</given-names></name>, <name name-style="western"><surname>Chevaldonne'</surname><given-names>P</given-names></name>, <name name-style="western"><surname>Pergent-Martini</surname><given-names>C</given-names></name>, <name name-style="western"><surname>Boudouresque</surname><given-names>CF</given-names></name>, <name name-style="western"><surname>Perez</surname><given-names>T</given-names></name> (<year>2010</year>) <article-title>Climate change effects on a miniature ocean: the highly diverse, highly impacted Mediterranean Sea</article-title>. <source>Trends in Ecology &amp; Evolution</source> <volume>25</volume><supplement>(4)</supplement>: <fpage>250</fpage>–<lpage>60</lpage>.</mixed-citation>
+</ref>
+<ref id="pone.0079889-Coll1"><label>6</label>
+<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Coll</surname><given-names>M</given-names></name>, <name name-style="western"><surname>Piroddi</surname><given-names>C</given-names></name>, <name name-style="western"><surname>Albouy</surname><given-names>C</given-names></name>, <name name-style="western"><surname>Ben Rais Lasram</surname><given-names>F</given-names></name>, <name name-style="western"><surname>Cheung</surname><given-names>WWL</given-names></name>, <etal>et al</etal>. (<year>2011</year>) <article-title>The Mediterranean Sea under siege: spatial overlap between marine biodiversity, cumulative threats and marine reserves</article-title>. <source>Global Ecology and Biogeography</source> <volume>21</volume><supplement>(4)</supplement>: <fpage>465</fpage>–<lpage>480</lpage>.</mixed-citation>
+</ref>
+<ref id="pone.0079889-Airoldi1"><label>7</label>
+<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Airoldi</surname><given-names>L</given-names></name>, <name name-style="western"><surname>Beck</surname><given-names>MW</given-names></name> (<year>2007</year>) <article-title>Loss, status and trends for coastal marine habitats of Europe</article-title>. <source>Oceanography and Marine Biology: An Annual Review</source> <volume>45</volume>: <fpage>345</fpage>–<lpage>405</lpage>.</mixed-citation>
+</ref>
+<ref id="pone.0079889-Abdulla1"><label>8</label>
+<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Abdulla</surname><given-names>A</given-names></name>, <name name-style="western"><surname>Gomei</surname><given-names>M</given-names></name>, <name name-style="western"><surname>Hyrenbach</surname><given-names>D</given-names></name>, <name name-style="western"><surname>Notarbartolo di Sciara</surname><given-names>G</given-names></name>, <name name-style="western"><surname>Agardy</surname><given-names>T</given-names></name> (<year>2008</year>) <article-title>Challenges facing a network of representative marine protected areas in the Mediterranean: prioritizing the protection of underrepresented habitats</article-title>. <source>ICES Journal of Marine Science</source> <volume>66</volume><supplement>(1)</supplement>: <fpage>22</fpage>–<lpage>28</lpage>.</mixed-citation>
+</ref>
+<ref id="pone.0079889-Ferretti1"><label>9</label>
+<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Ferretti</surname><given-names>F</given-names></name>, <name name-style="western"><surname>Myers</surname><given-names>RA</given-names></name>, <name name-style="western"><surname>Serena</surname><given-names>F</given-names></name>, <name name-style="western"><surname>Lotze</surname><given-names>H</given-names></name> (<year>2008</year>) <article-title>Loss of large predatory sharks from the Mediterranean Sea</article-title>. <source>Conservation Biology</source> <volume>22</volume>: <fpage>952</fpage>–<lpage>964</lpage>.</mixed-citation>
+</ref>
+<ref id="pone.0079889-Claudet1"><label>10</label>
+<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Claudet</surname><given-names>J</given-names></name>, <name name-style="western"><surname>Fraschetti</surname><given-names>S</given-names></name> (<year>2010</year>) <article-title>Human-driven impacts on marine habitats: a regional meta-analysis in the Mediterranean Sea</article-title>. <source>Biological Conservation</source> <volume>143</volume><supplement>(9)</supplement>: <fpage>2195</fpage>–<lpage>2206</lpage>.</mixed-citation>
+</ref>
+<ref id="pone.0079889-Galil1"><label>11</label>
+<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Galil</surname><given-names>BS</given-names></name> (<year>2008</year>) <article-title>Alien species in the Mediterranean Sea - which, when, where, why?</article-title> <source>Hydrobiologia</source> <volume>597</volume><supplement>(1)</supplement>: <fpage>105</fpage>–<lpage>116</lpage>.</mixed-citation>
+</ref>
+<ref id="pone.0079889-UNEP1"><label>12</label>
+<mixed-citation publication-type="other" xlink:type="simple">UNEP (2012) Support to the Barcelona Convention for the implementation of the ecosystem approach, including the establishment of MPAs in open seas areas, including deep sea. Contribution Agreement N°21.0401/2008/519114/SUB/D2. FINAL REPORT – April 2012. 50pp.</mixed-citation>
+</ref>
+<ref id="pone.0079889-Halpern1"><label>13</label>
+<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Halpern</surname><given-names>BS</given-names></name>, <name name-style="western"><surname>Walbridge</surname><given-names>S</given-names></name>, <name name-style="western"><surname>Selkoe</surname><given-names>KA</given-names></name>, <name name-style="western"><surname>Kappel</surname><given-names>CV</given-names></name>, <name name-style="western"><surname>Micheli</surname><given-names>F</given-names></name>, <etal>et al</etal>. (<year>2008</year>) <article-title>A global map of human impact on marine ecosystems</article-title>. <source>Science</source> <volume>319</volume>: <fpage>948</fpage>–<lpage>952</lpage>.</mixed-citation>
+</ref>
+<ref id="pone.0079889-Halpern2"><label>14</label>
+<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Halpern</surname><given-names>BS</given-names></name>, <name name-style="western"><surname>Kappel</surname><given-names>CV</given-names></name>, <name name-style="western"><surname>Selkoe</surname><given-names>KA</given-names></name>, <name name-style="western"><surname>Micheli</surname><given-names>F</given-names></name>, <name name-style="western"><surname>Ebert</surname><given-names>CM</given-names></name>, <etal>et al</etal>. (<year>2009</year>) <article-title>Mapping cumulative human impacts to California Current marine ecosystems</article-title>. <source>Conservation Letters</source> <volume>2</volume><supplement>(3)</supplement>: <fpage>138</fpage>–<lpage>148</lpage>.</mixed-citation>
+</ref>
+<ref id="pone.0079889-Selkoe1"><label>15</label>
+<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Selkoe</surname><given-names>KA</given-names></name>, <name name-style="western"><surname>Halpern</surname><given-names>BS</given-names></name>, <name name-style="western"><surname>Ebert</surname><given-names>CM</given-names></name>, <name name-style="western"><surname>Franklin</surname><given-names>EC</given-names></name>, <name name-style="western"><surname>Selig</surname><given-names>ER</given-names></name>, <etal>et al</etal>. (<year>2009</year>) <article-title>A map of human impacts to a “pristine” coral reef ecosystem, the Papahanaumokuakea Marine National Monument</article-title>. <source>Coral Reefs</source> <volume>28</volume>: <fpage>635</fpage>–<lpage>650</lpage>.</mixed-citation>
+</ref>
+<ref id="pone.0079889-Ban1"><label>16</label>
+<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Ban</surname><given-names>NC</given-names></name>, <name name-style="western"><surname>Alidina</surname><given-names>HM</given-names></name>, <name name-style="western"><surname>Ardron</surname><given-names>JA</given-names></name> (<year>2010</year>) <article-title>Cumulative impact mapping: Advance, relevance and limitations to marine management and conservation, using Canada's Pacific waters as a case study</article-title>. <source>Marine Policy</source> <volume>34</volume>: <fpage>876</fpage>–<lpage>886</lpage>.</mixed-citation>
+</ref>
+<ref id="pone.0079889-Korpinen1"><label>17</label>
+<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Korpinen</surname><given-names>S</given-names></name>, <name name-style="western"><surname>Meski</surname><given-names>L</given-names></name>, <name name-style="western"><surname>Andersen</surname><given-names>JH</given-names></name>, <name name-style="western"><surname>Laamanen</surname><given-names>M</given-names></name> (<year>2011</year>) <article-title>Human pressures and their potential impact on the Baltic Sea ecosystem</article-title>. <source>Ecological Indicators</source> <volume>15</volume>: <fpage>105</fpage>–<lpage>114</lpage>.</mixed-citation>
+</ref>
+<ref id="pone.0079889-Halpern3"><label>18</label>
+<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Halpern</surname><given-names>BS</given-names></name>, <name name-style="western"><surname>Selkoe</surname><given-names>KA</given-names></name>, <name name-style="western"><surname>Micheli</surname><given-names>F</given-names></name>, <name name-style="western"><surname>Kappel</surname><given-names>CV</given-names></name> (<year>2007</year>) <article-title>Evaluating and ranking the vulnerability of global marine ecosystems to anthropogenic threats</article-title>. <source>Conservation Biology</source> <volume>21</volume>: <fpage>1301</fpage>–<lpage>1315</lpage>.</mixed-citation>
+</ref>
+<ref id="pone.0079889-Teck1"><label>19</label>
+<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Teck</surname><given-names>SJ</given-names></name>, <name name-style="western"><surname>Halpern</surname><given-names>BS</given-names></name>, <name name-style="western"><surname>Kappel</surname><given-names>CV</given-names></name>, <name name-style="western"><surname>Micheli</surname><given-names>F</given-names></name>, <name name-style="western"><surname>Selkoe</surname><given-names>KA</given-names></name>, <etal>et al</etal>. (<year>2010</year>) <article-title>Using expert judgment to estimate marine ecosystem vulnerability in the California Current</article-title>. <source>Ecological Applications</source> <volume>20</volume><supplement>(5)</supplement>: <fpage>1402</fpage>–<lpage>1416</lpage>.</mixed-citation>
+</ref>
+<ref id="pone.0079889-Kappel1"><label>20</label>
+<mixed-citation publication-type="book" xlink:type="simple">Kappel CV, Halpern BS, Selkoe KA, Cooke RM (2011) Eliciting expert knowledge of ecosystem vulnerability to human stressors to support comprehensive ocean management. In: Perera AH, Drew CA, Johnson CJ, editors. Expert knowledge and its application in landscape ecology. New York: Springer. 307pp.</mixed-citation>
+</ref>
+<ref id="pone.0079889-Halpern4"><label>21</label>
+<mixed-citation publication-type="other" xlink:type="simple">Halpern HS, Fujita R (2013) Assumptions, challenges, and future directions in cumulative impact analysis. Ecosphere, in press.</mixed-citation>
+</ref>
+<ref id="pone.0079889-Spalding1"><label>22</label>
+<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Spalding</surname><given-names>MD</given-names></name>, <name name-style="western"><surname>Fox</surname><given-names>HE</given-names></name>, <name name-style="western"><surname>Allen</surname><given-names>GR</given-names></name>, <name name-style="western"><surname>Davidson</surname><given-names>N</given-names></name>, <name name-style="western"><surname>Ferdana</surname><given-names>ZA</given-names></name>, <etal>et al</etal>. (<year>2007</year>) <article-title>Marine ecoregions of the world: a bioregionalization of coastal and shelf areas</article-title>. <source>BioScience</source> <volume>57</volume>: <fpage>573</fpage>–<lpage>583</lpage>.</mixed-citation>
+</ref>
+<ref id="pone.0079889-Pandolfi1"><label>23</label>
+<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Pandolfi</surname><given-names>JM</given-names></name>, <name name-style="western"><surname>Bradbury</surname><given-names>RH</given-names></name>, <name name-style="western"><surname>Sala</surname><given-names>E</given-names></name>, <name name-style="western"><surname>Hughes</surname><given-names>TP</given-names></name>, <name name-style="western"><surname>Bjorndal</surname><given-names>KA</given-names></name>, <etal>et al</etal>. (<year>2005</year>) <article-title>Global Trajectories of the Long-Term Decline of Coral Reef Ecosystems</article-title>. <source>Science</source> <volume>301</volume>: <fpage>955</fpage>–<lpage>958</lpage>.</mixed-citation>
+</ref>
+<ref id="pone.0079889-Brown1"><label>24</label>
+<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Brown</surname><given-names>CJ</given-names></name>, <name name-style="western"><surname>Saunders</surname><given-names>MI</given-names></name>, <name name-style="western"><surname>Possingham</surname><given-names>HP</given-names></name>, <name name-style="western"><surname>Richardson</surname><given-names>AJ</given-names></name> (<year>2013</year>) <article-title>Managing for interactions between local and global stressors of ecosystems</article-title>. <source>PLOS ONE</source> <volume>8</volume>: <fpage>e65765</fpage>.</mixed-citation>
+</ref>
+<ref id="pone.0079889-Large1"><label>25</label>
+<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Large</surname><given-names>SI</given-names></name>, <name name-style="western"><surname>Fay</surname><given-names>G</given-names></name>, <name name-style="western"><surname>Friedland</surname><given-names>KD</given-names></name>, <name name-style="western"><surname>Link</surname><given-names>JS</given-names></name> (<year>2013</year>) <article-title>Defining trends and thresholds in responses of ecological indicators to fishing and environmental pressures</article-title>. <source>Ices Journal of Marine Science</source> <volume>70</volume>: <fpage>755</fpage>–<lpage>767</lpage>.</mixed-citation>
+</ref>
+<ref id="pone.0079889-Plaganyi1"><label>26</label>
+<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Plaganyi</surname><given-names>EE</given-names></name>, <name name-style="western"><surname>Bell</surname><given-names>JD</given-names></name>, <name name-style="western"><surname>Bustamante</surname><given-names>RH</given-names></name>, <name name-style="western"><surname>Dambacher</surname><given-names>JM</given-names></name>, <name name-style="western"><surname>Dennis</surname><given-names>DM</given-names></name>, <etal>et al</etal>. (<year>2011</year>) <article-title>Modelling climate-change effects on Australian and Pacific aquatic ecosystems: a review of analytical tools and management implications</article-title>. <source>Marine and Freshwater Research</source> <volume>62</volume>: <fpage>1132</fpage>–<lpage>1147</lpage>.</mixed-citation>
+</ref>
+<ref id="pone.0079889-Trujillo1"><label>27</label>
+<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Trujillo</surname><given-names>P</given-names></name>, <name name-style="western"><surname>Piroddi</surname><given-names>C</given-names></name>, <name name-style="western"><surname>Jacquet</surname><given-names>J</given-names></name> (<year>2012</year>) <article-title>Fish Farms at Sea: The Ground Truth from Google Earth</article-title>. <source>PLoS ONE</source> <volume>7</volume>: <fpage>30546</fpage>.</mixed-citation>
+</ref>
+<ref id="pone.0079889-Ferretti2"><label>28</label>
+<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Ferretti</surname><given-names>F</given-names></name>, <name name-style="western"><surname>Osio</surname><given-names>GC</given-names></name>, <name name-style="western"><surname>Jenkins</surname><given-names>CJ</given-names></name>, <name name-style="western"><surname>Rosenberg</surname><given-names>A</given-names></name>, <name name-style="western"><surname>Lotze</surname><given-names>HK</given-names></name> (<year>2013</year>) <article-title>Long-term change in a meso-predator community in response to prolonged and heterogeneous human impact</article-title>. <source>Sci Rep</source> <volume>3</volume>: <fpage>1057</fpage> <comment>doi:<ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1038/srep01057" xlink:type="simple">10.1038/srep01057</ext-link></comment></mixed-citation>
+</ref>
+<ref id="pone.0079889-Portman1"><label>29</label>
+<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Portman</surname><given-names>ME</given-names></name>, <name name-style="western"><surname>Notarbartolo di Sciara</surname><given-names>G</given-names></name>, <name name-style="western"><surname>Agardy</surname><given-names>T</given-names></name>, <name name-style="western"><surname>Katsanevakis</surname><given-names>S</given-names></name>, <name name-style="western"><surname>Possingham</surname><given-names>HP</given-names></name>, <etal>et al</etal>. (<year>2013</year>) <article-title>He who hesitates is lost: Why conservation in the Mediterranean Sea is necessary and possible now</article-title>. <source>Marine Policy</source> <volume>4</volume>: <fpage>270</fpage>–<lpage>279</lpage>.</mixed-citation>
+</ref>
+<ref id="pone.0079889-Commission1"><label>30</label>
+<mixed-citation publication-type="other" xlink:type="simple">Commission of the European Communities (2008) Roadmap for maritime spatial planning: achieving common principles in the EU. COM 2008 791.</mixed-citation>
+</ref>
+<ref id="pone.0079889-Barale1"><label>31</label>
+<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Barale</surname><given-names>V</given-names></name>, <name name-style="western"><surname>Schaefer</surname><given-names>NJ</given-names></name> (<year>2011</year>) <article-title>Maritime spatial planning: opportunities &amp; challenges in the framework of the EU integrated maritime policy</article-title>. <source>Journal of Coastal Conservation</source> <volume>15</volume>: <fpage>237</fpage>–<lpage>245</lpage>.</mixed-citation>
+</ref>
+</ref-list></back>
+</article>

@@ -1,0 +1,1402 @@
+<article xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" article-type="research-article" dtd-version="3.0" xml:lang="en">
+<front>
+<journal-meta>
+<journal-id journal-id-type="nlm-ta">PLoS ONE</journal-id>
+<journal-id journal-id-type="publisher-id">plos</journal-id>
+<journal-id journal-id-type="pmc">plosone</journal-id><journal-title-group>
+<journal-title xml:lang="en">PLoS ONE</journal-title></journal-title-group>
+<issn pub-type="epub">1932-6203</issn>
+<publisher>
+<publisher-name>Public Library of Science</publisher-name>
+<publisher-loc>San Francisco, USA</publisher-loc></publisher>
+</journal-meta>
+<article-meta>
+<article-id pub-id-type="publisher-id">PONE-D-13-21116</article-id>
+<article-id pub-id-type="doi">10.1371/journal.pone.0080978</article-id>
+<article-categories><subj-group subj-group-type="heading"><subject>Research Article</subject></subj-group></article-categories>
+<title-group>
+<article-title>Health Insurance Utilization and Its Impact: Observations from the Middle-Aged and Elderly in China</article-title>
+<alt-title alt-title-type="running-head">Health Insurance Utilization and Its Impact</alt-title>
+</title-group>
+<contrib-group>
+<contrib contrib-type="author" equal-contrib="yes" xlink:type="simple"><name name-style="western"><surname>Wang</surname><given-names>Yu</given-names></name><xref ref-type="aff" rid="aff1"><sup>1</sup></xref><xref ref-type="aff" rid="aff2"><sup>2</sup></xref></contrib>
+<contrib contrib-type="author" equal-contrib="yes" xlink:type="simple"><name name-style="western"><surname>Jiang</surname><given-names>Yan</given-names></name><xref ref-type="aff" rid="aff1"><sup>1</sup></xref></contrib>
+<contrib contrib-type="author" xlink:type="simple"><name name-style="western"><surname>Li</surname><given-names>Yang</given-names></name><xref ref-type="aff" rid="aff1"><sup>1</sup></xref></contrib>
+<contrib contrib-type="author" xlink:type="simple"><name name-style="western"><surname>Wang</surname><given-names>Xiaojun</given-names></name><xref ref-type="aff" rid="aff1"><sup>1</sup></xref></contrib>
+<contrib contrib-type="author" xlink:type="simple"><name name-style="western"><surname>Ma</surname><given-names>Chi</given-names></name><xref ref-type="aff" rid="aff3"><sup>3</sup></xref></contrib>
+<contrib contrib-type="author" xlink:type="simple"><name name-style="western"><surname>Ma</surname><given-names>Shuangge</given-names></name><xref ref-type="aff" rid="aff1"><sup>1</sup></xref><xref ref-type="aff" rid="aff2"><sup>2</sup></xref><xref ref-type="corresp" rid="cor1"><sup>*</sup></xref></contrib>
+</contrib-group>
+<aff id="aff1"><label>1</label><addr-line>School of Statistics and The Center for Applied Statistics, Renmin University of China, Beijing, China</addr-line></aff>
+<aff id="aff2"><label>2</label><addr-line>School of Public Health, Yale University, New Haven Connecticut, United States of America</addr-line></aff>
+<aff id="aff3"><label>3</label><addr-line>Humanities and Social Science College, Beijing Institute of Petrochemical Technology, Beijing, China</addr-line></aff>
+<contrib-group>
+<contrib contrib-type="editor" xlink:type="simple"><name name-style="western"><surname>Beck</surname><given-names>Eduard J.</given-names></name>
+<role>Editor</role>
+<xref ref-type="aff" rid="edit1" /></contrib>
+</contrib-group>
+<aff id="edit1"><addr-line>UNAIDS, Trinidad And Tobago</addr-line></aff>
+<author-notes>
+<corresp id="cor1">* E-mail: <email xlink:type="simple">shuangge.ma@yale.edu</email></corresp>
+<fn fn-type="conflict"><p>The authors have declared that no competing interests exist.</p></fn>
+<fn fn-type="con"><p>Conceived and designed the experiments: YW YJ XW SM. Performed the experiments: YW YJ YL XW SM. Analyzed the data: YW. Wrote the paper: YW CM SM.</p></fn>
+</author-notes>
+<pub-date pub-type="collection"><year>2013</year></pub-date>
+<pub-date pub-type="epub"><day>6</day><month>12</month><year>2013</year></pub-date>
+<volume>8</volume>
+<issue>12</issue>
+<elocation-id>e80978</elocation-id>
+<history>
+<date date-type="received"><day>22</day><month>5</month><year>2013</year></date>
+<date date-type="accepted"><day>15</day><month>10</month><year>2013</year></date>
+</history>
+<permissions>
+<copyright-year>2013</copyright-year>
+<copyright-holder>Wang et al</copyright-holder><license xlink:href="http://creativecommons.org/licenses/by/3.0/" xlink:type="simple"><license-p>This is an open-access article distributed under the terms of the <ext-link ext-link-type="uri" xlink:href="http://creativecommons.org/licenses/by/3.0/" xlink:type="simple">Creative Commons Attribution License</ext-link>, which permits unrestricted use, distribution, and reproduction in any medium, provided the original author and source are credited.</license-p></license></permissions>
+<abstract><sec>
+<title>Objective</title>
+<p>In China, despite a high coverage rate, health insurance is not used for all illness episodes. Our goal is to identify subjects’ characteristics associated with insurance utilization and the association between utilization and medical expenditure.</p>
+</sec><sec>
+<title>Methods</title>
+<p>A survey was conducted in January and February of 2012. 2093 middle-aged and elderly subjects (45 years old and above) were surveyed.</p>
+</sec><sec>
+<title>Results</title>
+<p>Heath insurance was not utilized for 12.6% (inpatient), 53.3% (outpatient), and 72.6% (self-treatment) of disease episodes. Subjects’ characteristics were associated with insurance utilization. Inpatient and outpatient treatments were expensive. In the multivariate analysis of outpatient treatment expenditure, insurance utilization was significantly associated with higher treatment cost, lost income, and gross total cost.</p>
+</sec><sec>
+<title>Conclusion</title>
+<p>Utilization of health insurance may need to be improved. Insurance utilization can reduce out-of-pocket medical expenditure. However, the amount paid by the insured is still high. Policy intervention is needed to further improve the effectiveness of health insurance.</p>
+</sec></abstract>
+<funding-group><funding-statement>This study has been supported by Renmin University of China Scientific Research Project Funding: Policy Evaluation of Pension and Medical and Social Security in China (12XNI003) and Yale MacMillan Center Faculty Research Grant. The funders had no role in study design, data collection and analysis, decision to publish, or preparation of the manuscript.</funding-statement></funding-group><counts><page-count count="9" /></counts></article-meta>
+</front>
+<body><sec id="s1">
+<title>Introduction</title>
+<p>In the recent years, China has experienced significant development in healthcare. In 2009, the Chinese government committed $125 billion to healthcare reform. This reform has affected multiple facets of health care delivery, including health insurance, primary care, hospital management, medication, and public health <xref ref-type="bibr" rid="pone.0080978-SussmuthDyckerhoff1">[1]</xref>. This article is focused on health insurance utilization and its association with medical expenditure.</p>
+<p>China is approaching fast the goal of providing universal health insurance coverage by 2020. The current insurance system is composed of basic and commercial insurance. The basic health insurance consists of three schemes for different populations and takes different forms in rural and urban areas. In principle, every citizen is covered by one basic insurance scheme. In the rural area, the new rural cooperative medical care system (NCMS) is a mutual-help and risk-pooling health protection system <xref ref-type="bibr" rid="pone.0080978-You1">[2]</xref>. By 2010, the number of NCMS participants had reached 835 million, accounting for 96.3% of the total rural population <xref ref-type="bibr" rid="pone.0080978-Zhang1">[3]</xref>. In the urban area, there are two schemes. The urban employee basic medical insurance for urban employed (UEBMI) requires the enrollment of all urban employees. The urban resident basic medical insurance for urban residents (URBMI) covers urban residents who are not employed as well as children <xref ref-type="bibr" rid="pone.0080978-Dong1">[4]</xref>. It is estimated that over 90% of China’s population are now covered by basic health insurance. In comparison, commercial health insurance is less developed. It mainly targets the upper class, complementing basic health insurance <xref ref-type="bibr" rid="pone.0080978-Dong1">[4]</xref>. It now serves about 7% of China’s population and has grown about 27% annually over the past decade.</p>
+<p>A large number of studies have been conducted on China’s health insurance. Barber and Yao <xref ref-type="bibr" rid="pone.0080978-Barber1">[5]</xref> conducted a comprehensive review and discussed problems including reliance on local government capacity, reimbursement ceilings and rates, incentive for unnecessary care, and waste in the design of programs. A survey study conducted in 2011 in three large cities and their surrounding rural areas showed that smaller households, higher income, lower expense, presence of at least one inpatient treatment, and living in rural areas were significantly associated with a lower coverage rate <xref ref-type="bibr" rid="pone.0080978-Fang1">[6]</xref>. Chen and Yan <xref ref-type="bibr" rid="pone.0080978-Chen1">[7]</xref> investigated the demand for URBMI and identified the associated factors including income, health condition, age, and health risk behaviors. Wang and others <xref ref-type="bibr" rid="pone.0080978-Wang1">[8]</xref> conducted a survey in six villages and identified income and health condition as important factors for pursuing health insurance (participating in basic health insurance or purchasing commercial insurance) and utilizing services. The relationship between health insurance coverage and medical expenditure and their impacts on households’ overall wellbeing have also attracted extensive attention. It has been shown that although the overall health insurance coverage depth – scope and percentage of expense reimbursement – has been increasing over the years, it is still insufficient and varies significantly <xref ref-type="bibr" rid="pone.0080978-SussmuthDyckerhoff1">[1]</xref>. In addition, copayments and deductibles remain high. As a result, the Chinese are paying 40% or more of all health costs as either premiums or OOP (out of pocket) payments. A recent study found that households participated in the NCMS were less likely to become impoverished <xref ref-type="bibr" rid="pone.0080978-Jing1">[9]</xref>. Fang and others <xref ref-type="bibr" rid="pone.0080978-Fang1">[6]</xref> suggested that even for households with insurance coverage, there was considerable OOP cost, particularly for those with inpatient treatments and/or chronic diseases. Li and others <xref ref-type="bibr" rid="pone.0080978-Li1">[10]</xref> found that families enrolled in URBMI or UEBMI had lower rates of catastrophic health expenditure than those enrolled in NCMS. A few other aspects of health insurance have also been studied. For example, Lei and Lin <xref ref-type="bibr" rid="pone.0080978-Lei1">[11]</xref> investigated the service and health outcomes of NCMS. Qiu and others <xref ref-type="bibr" rid="pone.0080978-Qiu1">[12]</xref> studied the rural to urban migration and its impact on NCMS. Wang and others <xref ref-type="bibr" rid="pone.0080978-Wang2">[13]</xref> identified an adverse selection problem in an early voluntary form of NCMS.</p>
+<p>This study has been motivated by the following considerations. First, in the literature, there are many studies on insurance coverage. However, research on utilization, that is whether insurance is actually used for a specific disease episode, remains limited. Utilization provides a more effective and more direct measure of effectiveness than coverage. In a study recently conducted in Vietnam, Nguyen and others <xref ref-type="bibr" rid="pone.0080978-Nguyen1">[14]</xref> showed that people that had but did not use insurance behaved significantly differently from those that used insurance. With a close-to-perfect insurance coverage rate in China, the study of utilization can be informative to insurance agencies and the insured. Second, the existing studies can also be limited in that they often focus on a specific type of insurance, for example NCMS only. To provide a more comprehensive description, multiple types of health insurance need to considered together. Third, when investigating the association between health insurance and medical expenditure, many studies have focused on the total cost. Investigating each category of cost (treatment, transportation, medicine, etc; more details are provided below in the Data Collection section) may provide insights beyond total cost. Fourth, many studies have used various census data published by the central and local governments <xref ref-type="bibr" rid="pone.0080978-Li1">[10]</xref>, <xref ref-type="bibr" rid="pone.0080978-You2">[15]</xref>. Such data may have two limitations. One is that there is usually insufficient information on personal behaviors and outcomes. In addition, Yip and others <xref ref-type="bibr" rid="pone.0080978-Yip1">[16]</xref> argued that “… independent, outcome-based monitoring and evaluation by a third-party are essential … to make officials and providers accountable.”. Last, with the fast development and system-wide reform started in 2009, observations made in early studies may not hold <xref ref-type="bibr" rid="pone.0080978-Cao1">[17]</xref>. There is a need for an updated description.</p>
+<p>This study has two main objectives. The first is to identify subjects’ characteristics associated with insurance utilization. The second is to investigate whether insurance utilization is associated with the amount of each category of medical expenditure. For both objectives, analysis is conducted for inpatient, outpatient, and self-treatment separately. To this end, we conducted a survey, and collected and analyzed detailed micro data. This study is among the few that focuses on insurance utilization in China and may provide valuable insights beyond the existing studies.</p>
+</sec><sec id="s2" sec-type="methods">
+<title>Methods</title>
+<sec id="s2a">
+<title>Data Collection</title>
+<p>An in-house survey was conducted in January and February of 2012. The study was approved by a research ethics review committee at Renmin University of China (RUC).</p>
+<p>Joint with other RUC researchers, we have been conducting large-scale, longitudinal survey studies on the wellbeing and medical and social security of the middle-aged and elderly (45 years old and above). This age group can be more vulnerable to illness conditions and in more need of health insurance protection <xref ref-type="bibr" rid="pone.0080978-Wang3">[18]</xref>. Samples of the existing studies have been randomly selected, covering the majority of municipalities and provinces in mainland China. Samples of this study were randomly selected from the existing samples, due to convenience and cost considerations. In sample selection, stratification by area, region, and GDP level was considered in an attempt to achieve representativeness. The resulted samples were from 152 cities of 25 provinces and municipalities. The following provinces and municipality were not included because of resource limitations: Shanghai, Guangxi, Hainan, Xizang, Qinghai, and Ningxia.</p>
+<p>At the beginning of each survey, the interviewer introduced the purpose of survey, the nature of questions to be asked, and how the collected information would be used. Each interviewee was asked to sign an informed consent form. Basic information was collected to determine inclusion. An interviewee would be excluded if he/she had not participated in the existing medical and social security studies, or was younger than 45, or could not provide reliable information on illness conditions and expenditure. Less than ten interviewed subjects were excluded because of not being in the existing studies or younger than 45. The survey response rate was 86%. The main reasons for refusal included “not comfortable with providing certain information”, “too busy to complete the survey”, and “concerns over how the survey results will be presented”.</p>
+<p>Some questions reflected the status at the time of survey (such as age, gender, marital status, education, and occupation), whereas others described the “accumulation” over a period of twelve months prior to survey (such as illness conditions, income, and medical expense). Two categories of data were collected. The first included demographic and personal characteristics, such as gender, age, marital status, education, occupation, household income, personal income, general physical condition, area, region, and access to health facility. Urban or rural area was defined by “Hukou”, a household registration issued by the central government. The whole surveyed region was classified into eastern, western, and central. The eastern region is in general more developed and has a higher economic status than the western and central regions. The second category of data described illness conditions. Detailed information, including grade of hospital used, whether insurance was used, and medical expense, was collected on inpatient treatment, outpatient treatment, and self-treatment separately. A person was considered ill if he/she was diagnosed by a healthcare professional, experienced discomfort, or was unable to pursue usual activities. Inpatient treatment was defined as an appointment, procedure and/or treatment requiring an overnight stay in a health facility. Outpatient treatment was defined similarly but without an overnight stay. Self-treatment was defined as the scenario where an individual used unprescribed drugs or other medical approaches to treat untreated and often undiagnosed medical conditions. It remains an important and common health-seeking behavior in China <xref ref-type="bibr" rid="pone.0080978-Wen1">[19]</xref>, <xref ref-type="bibr" rid="pone.0080978-Liu1">[20]</xref>. Hospital-based healthcare services are of better quality, whereas self-treatment is more affordable in terms of money and time.</p>
+<p>Information on whether a subject was covered by at least one type of health insurance was collected. In addition, we collected information on whether insurance was actually used for illness episodes. For inpatient and outpatient treatments, insurance can cover partial cost of examination, treatment, medicine, and others. For self-treatment, insurance can pay over-the-counter medicine. For medical expense, data collected included the cost of treatment, transportation, food and accommodation, medicine/supplies, unofficial gift (to employees of health facilities, escorts, and caretakers), and lost income. This study differs from some of the existing ones by accounting for unofficial gift and lost income, which are direct consequences of illness conditions.</p>
+</sec><sec id="s2b">
+<title>Data Analysis</title>
+<p>Initial analyses were performed on all persons surveyed. As the main interest in this paper is on the impact of health insurance utilization, subsequent analyses were only performed on persons who had health insurance coverage and at least one disease episode. This analysis strategy is in line with Nguyen et al. <xref ref-type="bibr" rid="pone.0080978-Nguyen1">[14]</xref> and others.</p>
+<p>Due to consideration on resource, we had sampled multiple members from the same families, if they were all included in the existing survey studies. Frailty models were used to accommodate within-family correlations. In the univariate analysis of subjects’ characteristics and medical expenditure, we compared disease episodes that used insurance against those that did not. P-values were computed from Chi-squared tests for categorical variables and t tests for continuous variables. Multivariate analysis was then conducted, accounting for confounding effects. As there are only a moderate number of variables and a large sample size, all variables, no matter significant or not in univariate analysis, were included in multivariate analysis. In the first set of analysis, we searched for factors associated with insurance utilization. Here the response variable was the binary insurance utilization status. Logistic regression analysis was conducted, and the adjusted odds ratios (aOR) and p-values were computed. In the second set of analysis, we regressed medical expense (each category, gross total, and OOP) on insurance utilization, adjusting for confounding effects. Linear regression was conducted. The estimated regression coefficients and their significance level were computed. Analysis was conducted using S-Plus Version 8.2 (TIBCO Software Inc.).</p>
+<p>The full dataset is now password-protected and securely stored at RUC. The questionnaire and a subset of deidentified data are available at <ext-link ext-link-type="uri" xlink:href="http://stat.ruc.edu.cn/a/kexueyanjiu/keyanchangyongwenjian/2013/0827/618.html" xlink:type="simple">http://stat.ruc.edu.cn/a/kexueyanjiu/keyanchangyongwenjian/2013/0827/618.html</ext-link>. Per funding regulations, the complete deidentified data will be publicly available on July 1<sup>st</sup>, 2014. Prior to that date, access to the data needs to be applied and approved on a case-by-case basis.</p>
+</sec></sec><sec id="s3">
+<title>Results</title>
+<sec id="s3a">
+<title>Characteristics of the Whole Cohort</title>
+<p>2,093 subjects from 711 urban and 441 rural households were surveyed. There were 1,059, 515, and 518 subjects from the eastern, central, and western regions, respectively. Among them, 1,053 were male. The mean age was 57.0. 1,928 subjects were covered by at least one type of insurance and had at least one disease episode. During a period of twelve months, there were 373 (inpatient), 1,308 (outpatient), and 1,568 (self) treatments, among which 47 (inpatient, 12.6%), 697 (outpatient, 53.3%), and 1,139 (self, 72.6%) did not use insurance.</p>
+</sec><sec id="s3b">
+<title>Characteristics of Disease Episodes</title>
+<p>Subjects’ characteristics for disease episodes that used and did not use insurance were summarized in <xref ref-type="table" rid="pone-0080978-t001">Table 1</xref>. For patients that did not use insurance for inpatient treatments, 61.7% were female; however, the gender difference was not significant (p-value 0.086). The gender differences were even smaller for outpatient and self-treatments. For inpatient treatment, patients that used insurance were older (p-value 0.026). The association was reversed for self-treatment, although it was only borderline-significant (p-value 0.053). No association was observed for marital status. The associations between education level and insurance utilization for outpatient and self-treatments were significant. For occupation, the p-values were 0.069, &lt;0.001, and &lt;0.001 for the three types of treatments, respectively. For outpatient treatment, income level had significant associations, with a higher income corresponding to a higher probability of using insurance. Physical condition did not have a significant association. Compared to eastern, subjects in the central and western regions were less likely to use insurance for outpatient treatment. For outpatient and self-treatments, urban residents were more likely to use insurance. For outpatient treatment, the type of hospital used for treatment also had a significant association (p-value&lt;0.001). In particular, those who used grade III hospitals were more likely to use insurance. The survey also collected information (distance, type, and travel time) on the nearest hospital, which may partly measure the access to healthcare <xref ref-type="bibr" rid="pone.0080978-Nguyen1">[14]</xref>. It is noted that the nearest hospital was not necessarily the one used for treatment. For outpatient and self-treatments, the associations for the type of the nearest hospital and travel time were significant.</p>
+<table-wrap id="pone-0080978-t001" position="float" orientation="portrait"><object-id pub-id-type="doi">10.1371/journal.pone.0080978.t001</object-id><label>Table 1</label><caption>
+<title>Summary statistics on disease treatments with different insurance utilization status.</title>
+</caption><alternatives><graphic id="pone-0080978-t001-1" position="float" mimetype="image" xlink:href="info:doi/10.1371/journal.pone.0080978.t001" xlink:type="simple" orientation="portrait" />
+<table><colgroup span="1"><col align="left" span="1" /><col align="center" span="1" /><col align="center" span="1" /><col align="center" span="1" /><col align="center" span="1" /><col align="center" span="1" /><col align="center" span="1" /></colgroup>
+<thead>
+<tr>
+<td align="left" rowspan="1" colspan="1" />
+<td colspan="2" align="left" rowspan="1">Inpatient</td>
+<td colspan="2" align="left" rowspan="1">Outpatient</td>
+<td colspan="2" align="left" rowspan="1">Self-treatment</td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1">Insurance utilization</td>
+<td align="left" rowspan="1" colspan="1">Yes</td>
+<td align="left" rowspan="1" colspan="1">No</td>
+<td align="left" rowspan="1" colspan="1">Yes</td>
+<td align="left" rowspan="1" colspan="1">No</td>
+<td align="left" rowspan="1" colspan="1">Yes</td>
+<td align="left" rowspan="1" colspan="1">No</td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1">Sample size</td>
+<td align="left" rowspan="1" colspan="1">326</td>
+<td align="left" rowspan="1" colspan="1">47</td>
+<td align="left" rowspan="1" colspan="1">611</td>
+<td align="left" rowspan="1" colspan="1">697</td>
+<td align="left" rowspan="1" colspan="1">429</td>
+<td align="left" rowspan="1" colspan="1">1139</td>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left" rowspan="1" colspan="1"><bold>Gender</bold></td>
+<td align="left" rowspan="1" colspan="1" />
+<td align="left" rowspan="1" colspan="1" />
+<td align="left" rowspan="1" colspan="1" />
+<td align="left" rowspan="1" colspan="1" />
+<td align="left" rowspan="1" colspan="1" />
+<td align="left" rowspan="1" colspan="1" />
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1">Female</td>
+<td align="left" rowspan="1" colspan="1">157 (48.3)</td>
+<td align="left" rowspan="1" colspan="1">29 (61.7)</td>
+<td align="left" rowspan="1" colspan="1">314 (51.5)</td>
+<td align="left" rowspan="1" colspan="1">361(51.8)</td>
+<td align="left" rowspan="1" colspan="1">223 (52.0)</td>
+<td align="left" rowspan="1" colspan="1">574 (50.4)</td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1">Male</td>
+<td align="left" rowspan="1" colspan="1">168 (51.7)</td>
+<td align="left" rowspan="1" colspan="1">18 (38.3)</td>
+<td align="left" rowspan="1" colspan="1">296 (48.5)</td>
+<td align="left" rowspan="1" colspan="1">336(48.2)</td>
+<td align="left" rowspan="1" colspan="1">206 (48.0)</td>
+<td align="left" rowspan="1" colspan="1">564 (49.6)</td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1" />
+<td colspan="2" align="left" rowspan="1">P = 0.086</td>
+<td colspan="2" align="left" rowspan="1">P = 0.909</td>
+<td colspan="2" align="left" rowspan="1">P = 0.586</td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1"><bold>Age</bold></td>
+<td align="left" rowspan="1" colspan="1">63.14±12.12</td>
+<td align="left" rowspan="1" colspan="1">58.98±10.76</td>
+<td align="left" rowspan="1" colspan="1">57.9±10.5</td>
+<td align="left" rowspan="1" colspan="1">57.8±10.7</td>
+<td align="left" rowspan="1" colspan="1">55.9±9.9</td>
+<td align="left" rowspan="1" colspan="1">57.0±10.4</td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1" />
+<td colspan="2" align="left" rowspan="1">P = 0.026</td>
+<td colspan="2" align="left" rowspan="1">P = 0.872</td>
+<td colspan="2" align="left" rowspan="1">P = 0.053</td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1"><bold>Marital status</bold></td>
+<td align="left" rowspan="1" colspan="1" />
+<td align="left" rowspan="1" colspan="1" />
+<td align="left" rowspan="1" colspan="1" />
+<td align="left" rowspan="1" colspan="1" />
+<td align="left" rowspan="1" colspan="1" />
+<td align="left" rowspan="1" colspan="1" />
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1">Single/Divorced/Widowed</td>
+<td align="left" rowspan="1" colspan="1">49 (15.1)</td>
+<td align="left" rowspan="1" colspan="1">4 (8.5)</td>
+<td align="left" rowspan="1" colspan="1">68 (11.1)</td>
+<td align="left" rowspan="1" colspan="1">70 (10.1)</td>
+<td align="left" rowspan="1" colspan="1">43 (10.0)</td>
+<td align="left" rowspan="1" colspan="1">123 (10.8)</td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1">Married</td>
+<td align="left" rowspan="1" colspan="1">276 (84.9)</td>
+<td align="left" rowspan="1" colspan="1">43 (91.5)</td>
+<td align="left" rowspan="1" colspan="1">542 (88.9)</td>
+<td align="left" rowspan="1" colspan="1">626(89.9)</td>
+<td align="left" rowspan="1" colspan="1">385 (90.0)</td>
+<td align="left" rowspan="1" colspan="1">1016(89.2)</td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1" />
+<td colspan="2" align="left" rowspan="1">P = 0.229</td>
+<td colspan="2" align="left" rowspan="1">P = 0.523</td>
+<td colspan="2" align="left" rowspan="1">P = 0.666</td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1"><bold>Education</bold></td>
+<td align="left" rowspan="1" colspan="1" />
+<td align="left" rowspan="1" colspan="1" />
+<td align="left" rowspan="1" colspan="1" />
+<td align="left" rowspan="1" colspan="1" />
+<td align="left" rowspan="1" colspan="1" />
+<td align="left" rowspan="1" colspan="1" />
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1">No schooling</td>
+<td align="left" rowspan="1" colspan="1">36 (11.1)</td>
+<td align="left" rowspan="1" colspan="1">10 (21.3)</td>
+<td align="left" rowspan="1" colspan="1">34 (5.6)</td>
+<td align="left" rowspan="1" colspan="1">82 (11.8)</td>
+<td align="left" rowspan="1" colspan="1">18 (4.2)</td>
+<td align="left" rowspan="1" colspan="1">113 (10.0)</td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1">Primary</td>
+<td align="left" rowspan="1" colspan="1">84 (26.0)</td>
+<td align="left" rowspan="1" colspan="1">9 (19.1)</td>
+<td align="left" rowspan="1" colspan="1">94 (15.5)</td>
+<td align="left" rowspan="1" colspan="1">136(19.6)</td>
+<td align="left" rowspan="1" colspan="1">53 (12.5)</td>
+<td align="left" rowspan="1" colspan="1">213 (18.8)</td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1">Junior high</td>
+<td align="left" rowspan="1" colspan="1">76 (23.5)</td>
+<td align="left" rowspan="1" colspan="1">9 (19.1)</td>
+<td align="left" rowspan="1" colspan="1">152 (25.1)</td>
+<td align="left" rowspan="1" colspan="1">179(25.8)</td>
+<td align="left" rowspan="1" colspan="1">85 (20.0)</td>
+<td align="left" rowspan="1" colspan="1">295 (26.0)</td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1">Senior high</td>
+<td align="left" rowspan="1" colspan="1">63 (19.5)</td>
+<td align="left" rowspan="1" colspan="1">9 (19.1)</td>
+<td align="left" rowspan="1" colspan="1">109 (18.0)</td>
+<td align="left" rowspan="1" colspan="1">146(21.1)</td>
+<td align="left" rowspan="1" colspan="1">91 (21.4)</td>
+<td align="left" rowspan="1" colspan="1">216 (19.0)</td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1">Junior college and more</td>
+<td align="left" rowspan="1" colspan="1">64 (19.8)</td>
+<td align="left" rowspan="1" colspan="1">10 (21.3)</td>
+<td align="left" rowspan="1" colspan="1">217 (35.8)</td>
+<td align="left" rowspan="1" colspan="1">150(21.6)</td>
+<td align="left" rowspan="1" colspan="1">178 (41.9)</td>
+<td align="left" rowspan="1" colspan="1">297 (26.2)</td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1" />
+<td colspan="2" align="left" rowspan="1">P = 0.337</td>
+<td colspan="2" align="left" rowspan="1">P&lt;0.001</td>
+<td colspan="2" align="left" rowspan="1">P&lt;0.001</td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1"><bold>Occupation</bold></td>
+<td align="left" rowspan="1" colspan="1" />
+<td align="left" rowspan="1" colspan="1" />
+<td align="left" rowspan="1" colspan="1" />
+<td align="left" rowspan="1" colspan="1" />
+<td align="left" rowspan="1" colspan="1" />
+<td align="left" rowspan="1" colspan="1" />
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1">Governments</td>
+<td align="left" rowspan="1" colspan="1">39 (12.1)</td>
+<td align="left" rowspan="1" colspan="1">4 (8.5)</td>
+<td align="left" rowspan="1" colspan="1">133 (22.1)</td>
+<td align="left" rowspan="1" colspan="1">85 (12.4)</td>
+<td align="left" rowspan="1" colspan="1">126 (29.8)</td>
+<td align="left" rowspan="1" colspan="1">153 (13.6)</td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1">Enterprises</td>
+<td align="left" rowspan="1" colspan="1">36 (11.2)</td>
+<td align="left" rowspan="1" colspan="1">4 (8.5)</td>
+<td align="left" rowspan="1" colspan="1">98 (16.3)</td>
+<td align="left" rowspan="1" colspan="1">105(15.3)</td>
+<td align="left" rowspan="1" colspan="1">99 (23.4)</td>
+<td align="left" rowspan="1" colspan="1">192 (17.1)</td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1">Farmers</td>
+<td align="left" rowspan="1" colspan="1">58 (18.0)</td>
+<td align="left" rowspan="1" colspan="1">10 (21.3)</td>
+<td align="left" rowspan="1" colspan="1">111 (18.4)</td>
+<td align="left" rowspan="1" colspan="1">169(24.6)</td>
+<td align="left" rowspan="1" colspan="1">45 (10.6)</td>
+<td align="left" rowspan="1" colspan="1">265 (23.6)</td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1">Small private business</td>
+<td align="left" rowspan="1" colspan="1">9 (2.8)</td>
+<td align="left" rowspan="1" colspan="1">5 (10.6)</td>
+<td align="left" rowspan="1" colspan="1">19 (3.2)</td>
+<td align="left" rowspan="1" colspan="1">53 (7.7)</td>
+<td align="left" rowspan="1" colspan="1">20 (4.7)</td>
+<td align="left" rowspan="1" colspan="1">87 (7.7)</td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1">Others</td>
+<td align="left" rowspan="1" colspan="1">25 (7.8)</td>
+<td align="left" rowspan="1" colspan="1">4 (8.5)</td>
+<td align="left" rowspan="1" colspan="1">33 (5.5)</td>
+<td align="left" rowspan="1" colspan="1">61 (8.9)</td>
+<td align="left" rowspan="1" colspan="1">20 (4.7)</td>
+<td align="left" rowspan="1" colspan="1">108 (9.6)</td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1">Retired</td>
+<td align="left" rowspan="1" colspan="1">112 (34.8)</td>
+<td align="left" rowspan="1" colspan="1">10 (21.3)</td>
+<td align="left" rowspan="1" colspan="1">163 (27.0)</td>
+<td align="left" rowspan="1" colspan="1">116(16.9)</td>
+<td align="left" rowspan="1" colspan="1">92 (21.7)</td>
+<td align="left" rowspan="1" colspan="1">174 (15.5)</td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1">Unemployed</td>
+<td align="left" rowspan="1" colspan="1">43 (13.4)</td>
+<td align="left" rowspan="1" colspan="1">10 (21.3)</td>
+<td align="left" rowspan="1" colspan="1">46 (7.6)</td>
+<td align="left" rowspan="1" colspan="1">98 (14.3)</td>
+<td align="left" rowspan="1" colspan="1">21 (5.0)</td>
+<td align="left" rowspan="1" colspan="1">145 (12.9)</td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1" />
+<td colspan="2" align="left" rowspan="1">P = 0.069</td>
+<td colspan="2" align="left" rowspan="1">P&lt;0.001</td>
+<td colspan="2" align="left" rowspan="1">P&lt;0.001</td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1"><bold>Per capita income (K RMB)</bold></td>
+<td align="left" rowspan="1" colspan="1">32.5±67.4</td>
+<td align="left" rowspan="1" colspan="1">23.0±16.0</td>
+<td align="left" rowspan="1" colspan="1">39.9±72.3</td>
+<td align="left" rowspan="1" colspan="1">25.2±28.9</td>
+<td align="left" rowspan="1" colspan="1">35.2±54.4</td>
+<td align="left" rowspan="1" colspan="1">30.0±47.4</td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1" />
+<td colspan="2" align="left" rowspan="1">P = 0.352</td>
+<td colspan="2" align="left" rowspan="1">P&lt;0.001</td>
+<td colspan="2" align="left" rowspan="1">P = 0.068</td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1"><bold>Household income(K RMB)</bold></td>
+<td align="left" rowspan="1" colspan="1">91.1±200.4</td>
+<td align="left" rowspan="1" colspan="1">73.5±53.9</td>
+<td align="left" rowspan="1" colspan="1">114.8±207.0</td>
+<td align="left" rowspan="1" colspan="1">78.2±86.3</td>
+<td align="left" rowspan="1" colspan="1">99.7±156.4</td>
+<td align="left" rowspan="1" colspan="1">89.3±120.6</td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1" />
+<td colspan="2" align="left" rowspan="1">P = 0.559</td>
+<td colspan="2" align="left" rowspan="1">P&lt;0.001</td>
+<td colspan="2" align="left" rowspan="1">P = 0.172</td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1"><bold>Physical condition</bold></td>
+<td align="left" rowspan="1" colspan="1" />
+<td align="left" rowspan="1" colspan="1" />
+<td align="left" rowspan="1" colspan="1" />
+<td align="left" rowspan="1" colspan="1" />
+<td align="left" rowspan="1" colspan="1" />
+<td align="left" rowspan="1" colspan="1" />
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1">Healthy</td>
+<td align="left" rowspan="1" colspan="1">46 (14.1)</td>
+<td align="left" rowspan="1" colspan="1">8 (17.0)</td>
+<td align="left" rowspan="1" colspan="1">208 (34.0)</td>
+<td align="left" rowspan="1" colspan="1">223(32.0)</td>
+<td align="left" rowspan="1" colspan="1">189 (44.1)</td>
+<td align="left" rowspan="1" colspan="1">451 (39.6)</td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1">Just so-so</td>
+<td align="left" rowspan="1" colspan="1">110 (33.7)</td>
+<td align="left" rowspan="1" colspan="1">23 (48.9)</td>
+<td align="left" rowspan="1" colspan="1">258 (42.2)</td>
+<td align="left" rowspan="1" colspan="1">319(45.8)</td>
+<td align="left" rowspan="1" colspan="1">170 (39.6)</td>
+<td align="left" rowspan="1" colspan="1">480 (42.1)</td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1">Slightly sick</td>
+<td align="left" rowspan="1" colspan="1">84 (25.8)</td>
+<td align="left" rowspan="1" colspan="1">11 (23.4)</td>
+<td align="left" rowspan="1" colspan="1">83 (13.6)</td>
+<td align="left" rowspan="1" colspan="1">101(14.5)</td>
+<td align="left" rowspan="1" colspan="1">49 (11.4)</td>
+<td align="left" rowspan="1" colspan="1">132 (11.6)</td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1">Sick</td>
+<td align="left" rowspan="1" colspan="1">59 (18.1)</td>
+<td align="left" rowspan="1" colspan="1">3 (6.4)</td>
+<td align="left" rowspan="1" colspan="1">49 (8.0)</td>
+<td align="left" rowspan="1" colspan="1">37 (5.3)</td>
+<td align="left" rowspan="1" colspan="1">17 (4.0)</td>
+<td align="left" rowspan="1" colspan="1">53 (4.7)</td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1">Seriously sick</td>
+<td align="left" rowspan="1" colspan="1">27 (8.3)</td>
+<td align="left" rowspan="1" colspan="1">2 (4.3)</td>
+<td align="left" rowspan="1" colspan="1">13 (2.1)</td>
+<td align="left" rowspan="1" colspan="1">17 (2.4)</td>
+<td align="left" rowspan="1" colspan="1">4 (0.9)</td>
+<td align="left" rowspan="1" colspan="1">23 (2.0)</td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1" />
+<td colspan="2" align="left" rowspan="1">P = 0.124</td>
+<td colspan="2" align="left" rowspan="1">P = 0.257</td>
+<td colspan="2" align="left" rowspan="1">P = 0.346</td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1"><bold>Region</bold></td>
+<td align="left" rowspan="1" colspan="1" />
+<td align="left" rowspan="1" colspan="1" />
+<td align="left" rowspan="1" colspan="1" />
+<td align="left" rowspan="1" colspan="1" />
+<td align="left" rowspan="1" colspan="1" />
+<td align="left" rowspan="1" colspan="1" />
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1">Eastern</td>
+<td align="left" rowspan="1" colspan="1">161 (49.4)</td>
+<td align="left" rowspan="1" colspan="1">22 (46.8)</td>
+<td align="left" rowspan="1" colspan="1">396 (64.8)</td>
+<td align="left" rowspan="1" colspan="1">313(44.9)</td>
+<td align="left" rowspan="1" colspan="1">208 (48.5)</td>
+<td align="left" rowspan="1" colspan="1">549 (48.2)</td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1">Central</td>
+<td align="left" rowspan="1" colspan="1">69 (21.2)</td>
+<td align="left" rowspan="1" colspan="1">13 (27.7)</td>
+<td align="left" rowspan="1" colspan="1">99 (16.2)</td>
+<td align="left" rowspan="1" colspan="1">176(25.3)</td>
+<td align="left" rowspan="1" colspan="1">104 (24.2)</td>
+<td align="left" rowspan="1" colspan="1">291 (25.5)</td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1">Western</td>
+<td align="left" rowspan="1" colspan="1">96 (29.4)</td>
+<td align="left" rowspan="1" colspan="1">12 (25.5)</td>
+<td align="left" rowspan="1" colspan="1">116 (19.0)</td>
+<td align="left" rowspan="1" colspan="1">208(29.8)</td>
+<td align="left" rowspan="1" colspan="1">117 (27.3)</td>
+<td align="left" rowspan="1" colspan="1">299 (26.3)</td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1" />
+<td colspan="2" align="left" rowspan="1">P = 0.588</td>
+<td colspan="2" align="left" rowspan="1">P&lt;0.001</td>
+<td colspan="2" align="left" rowspan="1">P = 0.844</td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1"><bold>Area</bold></td>
+<td align="left" rowspan="1" colspan="1" />
+<td align="left" rowspan="1" colspan="1" />
+<td align="left" rowspan="1" colspan="1" />
+<td align="left" rowspan="1" colspan="1" />
+<td align="left" rowspan="1" colspan="1" />
+<td align="left" rowspan="1" colspan="1" />
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1">Rural</td>
+<td align="left" rowspan="1" colspan="1">128 (39.4)</td>
+<td align="left" rowspan="1" colspan="1">21 (44.7)</td>
+<td align="left" rowspan="1" colspan="1">186 (30.4)</td>
+<td align="left" rowspan="1" colspan="1">342(49.1)</td>
+<td align="left" rowspan="1" colspan="1">76 (17.7)</td>
+<td align="left" rowspan="1" colspan="1">527 (46.3)</td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1">Urban</td>
+<td align="left" rowspan="1" colspan="1">197 (60.6)</td>
+<td align="left" rowspan="1" colspan="1">26 (55.3)</td>
+<td align="left" rowspan="1" colspan="1">425 (69.6)</td>
+<td align="left" rowspan="1" colspan="1">354(50.9)</td>
+<td align="left" rowspan="1" colspan="1">353 (82.3)</td>
+<td align="left" rowspan="1" colspan="1">611 (53.7)</td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1" />
+<td colspan="2" align="left" rowspan="1">P = 0.489</td>
+<td colspan="2" align="left" rowspan="1">P&lt;0.001</td>
+<td colspan="2" align="left" rowspan="1">P&lt;0.001</td>
+</tr>
+<tr>
+<td colspan="2" align="left" rowspan="1"><bold>Type of hospital used for treatment</bold></td>
+<td align="left" rowspan="1" colspan="1" />
+<td align="left" rowspan="1" colspan="1" />
+<td align="left" rowspan="1" colspan="1" />
+<td align="left" rowspan="1" colspan="1" />
+<td align="left" rowspan="1" colspan="1" />
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1">Grade I</td>
+<td align="left" rowspan="1" colspan="1">47 (14.6)</td>
+<td align="left" rowspan="1" colspan="1">4 (8.7)</td>
+<td align="left" rowspan="1" colspan="1">192 (33.4)</td>
+<td align="left" rowspan="1" colspan="1">228(34.7)</td>
+<td align="left" rowspan="1" colspan="1">–</td>
+<td align="left" rowspan="1" colspan="1">–</td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1">Grade II</td>
+<td align="left" rowspan="1" colspan="1">105 (32.5)</td>
+<td align="left" rowspan="1" colspan="1">18 (39.1)</td>
+<td align="left" rowspan="1" colspan="1">134 (23.3)</td>
+<td align="left" rowspan="1" colspan="1">173(26.3)</td>
+<td align="left" rowspan="1" colspan="1">–</td>
+<td align="left" rowspan="1" colspan="1">–</td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1">Grade III</td>
+<td align="left" rowspan="1" colspan="1">165 (51.1)</td>
+<td align="left" rowspan="1" colspan="1">22 (47.8)</td>
+<td align="left" rowspan="1" colspan="1">231 (40.2)</td>
+<td align="left" rowspan="1" colspan="1">192(29.2)</td>
+<td align="left" rowspan="1" colspan="1">–</td>
+<td align="left" rowspan="1" colspan="1">–</td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1">Private</td>
+<td align="left" rowspan="1" colspan="1">6 (1.9)</td>
+<td align="left" rowspan="1" colspan="1">2 (4.3)</td>
+<td align="left" rowspan="1" colspan="1">18 (3.1)</td>
+<td align="left" rowspan="1" colspan="1">65 (9.9)</td>
+<td align="left" rowspan="1" colspan="1">–</td>
+<td align="left" rowspan="1" colspan="1">–</td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1" />
+<td colspan="2" align="left" rowspan="1">P = 0.429</td>
+<td colspan="2" align="left" rowspan="1">P&lt;0.001</td>
+<td align="left" rowspan="1" colspan="1" />
+<td align="left" rowspan="1" colspan="1" />
+</tr>
+<tr>
+<td colspan="3" align="left" rowspan="1"><bold>Distance to the nearest hospital (meters)</bold></td>
+<td align="left" rowspan="1" colspan="1" />
+<td align="left" rowspan="1" colspan="1" />
+<td align="left" rowspan="1" colspan="1" />
+<td align="left" rowspan="1" colspan="1" />
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1">&lt; = 1000</td>
+<td align="left" rowspan="1" colspan="1">256 (78.8)</td>
+<td align="left" rowspan="1" colspan="1">34 (72.3)</td>
+<td align="left" rowspan="1" colspan="1">474 (77.6)</td>
+<td align="left" rowspan="1" colspan="1">509(73.3)</td>
+<td align="left" rowspan="1" colspan="1">324 (75.5)</td>
+<td align="left" rowspan="1" colspan="1">823 (72.4)</td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1">1001–5000</td>
+<td align="left" rowspan="1" colspan="1">64 (19.7)</td>
+<td align="left" rowspan="1" colspan="1">10 (21.3)</td>
+<td align="left" rowspan="1" colspan="1">125 (20.5)</td>
+<td align="left" rowspan="1" colspan="1">176(25.4)</td>
+<td align="left" rowspan="1" colspan="1">99 (23.1)</td>
+<td align="left" rowspan="1" colspan="1">297 (26.1)</td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1">&gt; = 5001</td>
+<td align="left" rowspan="1" colspan="1">5 (1.5)</td>
+<td align="left" rowspan="1" colspan="1">3 (6.4)</td>
+<td align="left" rowspan="1" colspan="1">12 (2.0)</td>
+<td align="left" rowspan="1" colspan="1">9 (1.3)</td>
+<td align="left" rowspan="1" colspan="1">6 (1.4)</td>
+<td align="left" rowspan="1" colspan="1">17 (1.5)</td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1" />
+<td colspan="2" align="left" rowspan="1">P = 0.093</td>
+<td colspan="2" align="left" rowspan="1">P = 0.080</td>
+<td colspan="2" align="left" rowspan="1">P = 0.454</td>
+</tr>
+<tr>
+<td colspan="7" align="left" rowspan="1"><bold>Type of the nearest hospital</bold></td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1">Grade I</td>
+<td align="left" rowspan="1" colspan="1">131 (40.3)</td>
+<td align="left" rowspan="1" colspan="1">15 (31.9)</td>
+<td align="left" rowspan="1" colspan="1">272 (44.7)</td>
+<td align="left" rowspan="1" colspan="1">322(46.2)</td>
+<td align="left" rowspan="1" colspan="1">149 (34.7)</td>
+<td align="left" rowspan="1" colspan="1">515 (45.3)</td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1">Grade II</td>
+<td align="left" rowspan="1" colspan="1">68 (20.9)</td>
+<td align="left" rowspan="1" colspan="1">8 (17.0)</td>
+<td align="left" rowspan="1" colspan="1">118 (19.4)</td>
+<td align="left" rowspan="1" colspan="1">109(15.6)</td>
+<td align="left" rowspan="1" colspan="1">90 (21.0)</td>
+<td align="left" rowspan="1" colspan="1">217 (19.1)</td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1">Grade III</td>
+<td align="left" rowspan="1" colspan="1">65 (20.0)</td>
+<td align="left" rowspan="1" colspan="1">16 (34.0)</td>
+<td align="left" rowspan="1" colspan="1">136 (22.3)</td>
+<td align="left" rowspan="1" colspan="1">134(19.2)</td>
+<td align="left" rowspan="1" colspan="1">126 (29.4)</td>
+<td align="left" rowspan="1" colspan="1">208 (18.3)</td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1">Private</td>
+<td align="left" rowspan="1" colspan="1">38 (11.7)</td>
+<td align="left" rowspan="1" colspan="1">7 (14.9)</td>
+<td align="left" rowspan="1" colspan="1">41 (6.7)</td>
+<td align="left" rowspan="1" colspan="1">83 (11.9)</td>
+<td align="left" rowspan="1" colspan="1">40 (9.3)</td>
+<td align="left" rowspan="1" colspan="1">108 (9.5)</td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1">Others</td>
+<td align="left" rowspan="1" colspan="1">23 (7.1)</td>
+<td align="left" rowspan="1" colspan="1">1 (2.1)</td>
+<td align="left" rowspan="1" colspan="1">42 (6.9)</td>
+<td align="left" rowspan="1" colspan="1">49 (7.0)</td>
+<td align="left" rowspan="1" colspan="1">24 (5.6)</td>
+<td align="left" rowspan="1" colspan="1">89 (7.8)</td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1" />
+<td colspan="2" align="left" rowspan="1">P = 0.154</td>
+<td colspan="2" align="left" rowspan="1">P = 0.009</td>
+<td colspan="2" align="left" rowspan="1">P&lt;0.001</td>
+</tr>
+<tr>
+<td colspan="3" align="left" rowspan="1"><bold>Travel time to the nearest hospital (minutes)</bold></td>
+<td align="left" rowspan="1" colspan="1" />
+<td align="left" rowspan="1" colspan="1" />
+<td align="left" rowspan="1" colspan="1" />
+<td align="left" rowspan="1" colspan="1" />
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1">&lt; = 5</td>
+<td align="left" rowspan="1" colspan="1">139 (42.9)</td>
+<td align="left" rowspan="1" colspan="1">20 (42.6)</td>
+<td align="left" rowspan="1" colspan="1">293 (48.2)</td>
+<td align="left" rowspan="1" colspan="1">295(42.4)</td>
+<td align="left" rowspan="1" colspan="1">212 (49.4)</td>
+<td align="left" rowspan="1" colspan="1">496 (43.7)</td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1">6–10</td>
+<td align="left" rowspan="1" colspan="1">111 (34.3)</td>
+<td align="left" rowspan="1" colspan="1">16 (34.0)</td>
+<td align="left" rowspan="1" colspan="1">199 (32.7)</td>
+<td align="left" rowspan="1" colspan="1">216(31.1)</td>
+<td align="left" rowspan="1" colspan="1">139 (32.4)</td>
+<td align="left" rowspan="1" colspan="1">356 (31.3)</td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1">11–30</td>
+<td align="left" rowspan="1" colspan="1">69 (21.3)</td>
+<td align="left" rowspan="1" colspan="1">10 (21.3)</td>
+<td align="left" rowspan="1" colspan="1">111 (18.3)</td>
+<td align="left" rowspan="1" colspan="1">176(25.3)</td>
+<td align="left" rowspan="1" colspan="1">78 (18.2)</td>
+<td align="left" rowspan="1" colspan="1">269 (23.7)</td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1">&gt; = 31</td>
+<td align="left" rowspan="1" colspan="1">5 (1.5)</td>
+<td align="left" rowspan="1" colspan="1">1 (2.1)</td>
+<td align="left" rowspan="1" colspan="1">5 (0.8)</td>
+<td align="left" rowspan="1" colspan="1">8 (1.2)</td>
+<td align="left" rowspan="1" colspan="1">0</td>
+<td align="left" rowspan="1" colspan="1">15 (1.3)</td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1" />
+<td colspan="2" align="left" rowspan="1">P = 0.993</td>
+<td colspan="2" align="left" rowspan="1">P = 0.016</td>
+<td colspan="2" align="left" rowspan="1">P = 0.006</td>
+</tr>
+</tbody>
+</table>
+</alternatives><table-wrap-foot><fn id="nt101"><label /><p>For a categorical variable, count (percentage); For a continuous variable, mean ± standard deviation.</p></fn></table-wrap-foot></table-wrap></sec><sec id="s3c">
+<title>Characteristics of Medical Expenditure</title>
+<p><xref ref-type="table" rid="pone-0080978-t002">Table 2</xref> summarizes medical expense for episodes that used and did not use insurance. For inpatient and outpatient treatments, those that used insurance have a higher treatment cost. The mean differences are 7033.9RMB (p-value 0.036) and 1203.3RMB (p-value&lt;0.001), respectively (1RMB = 0.16US$). In addition, for inpatient and outpatient treatments, the gross total cost is also significantly associated with insurance utilization. A closer examination of <xref ref-type="table" rid="pone-0080978-t002">Table 2</xref> suggests that such differences are mainly driven by the differences in treatment cost. After adjusting for insurance payment, the OOP costs for the two insurance utilization groups are not significantly different.</p>
+<table-wrap id="pone-0080978-t002" position="float" orientation="portrait"><object-id pub-id-type="doi">10.1371/journal.pone.0080978.t002</object-id><label>Table 2</label><caption>
+<title>Medical expenditure (in RMB) for disease treatments with different insurance utilization status.</title>
+</caption><alternatives><graphic id="pone-0080978-t002-2" position="float" mimetype="image" xlink:href="info:doi/10.1371/journal.pone.0080978.t002" xlink:type="simple" orientation="portrait" />
+<table><colgroup span="1"><col align="left" span="1" /><col align="center" span="1" /><col align="center" span="1" /><col align="center" span="1" /><col align="center" span="1" /><col align="center" span="1" /><col align="center" span="1" /></colgroup>
+<thead>
+<tr>
+<td align="left" rowspan="1" colspan="1" />
+<td colspan="2" align="left" rowspan="1">Inpatient</td>
+<td colspan="2" align="left" rowspan="1">Outpatient</td>
+<td colspan="2" align="left" rowspan="1">Self-treatment</td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1">Insurance utilization</td>
+<td align="left" rowspan="1" colspan="1">Yes</td>
+<td align="left" rowspan="1" colspan="1">No</td>
+<td align="left" rowspan="1" colspan="1">Yes</td>
+<td align="left" rowspan="1" colspan="1">No</td>
+<td align="left" rowspan="1" colspan="1">Yes</td>
+<td align="left" rowspan="1" colspan="1">No</td>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left" rowspan="1" colspan="1"><bold>Treatment</bold></td>
+<td align="left" rowspan="1" colspan="1">19237.1±41266.8</td>
+<td align="left" rowspan="1" colspan="1">12203.2±16569.1</td>
+<td align="left" rowspan="1" colspan="1">2461.8±4950.7</td>
+<td align="left" rowspan="1" colspan="1">1258.5±3285.6</td>
+<td align="left" rowspan="1" colspan="1">815.0±1646.1</td>
+<td align="left" rowspan="1" colspan="1">666.1±1443.6</td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1" />
+<td colspan="2" align="left" rowspan="1">P = 0.036</td>
+<td colspan="2" align="left" rowspan="1">P&lt;0.001</td>
+<td colspan="2" align="left" rowspan="1">P = 0.086</td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1"><bold>Transportation, food,</bold><bold>accommodation</bold></td>
+<td align="left" rowspan="1" colspan="1">2632.9±10911.4</td>
+<td align="left" rowspan="1" colspan="1">2400.0±3869.8</td>
+<td align="left" rowspan="1" colspan="1">244.8±2743.1</td>
+<td align="left" rowspan="1" colspan="1">77.2±266.1</td>
+<td align="left" rowspan="1" colspan="1">–</td>
+<td align="left" rowspan="1" colspan="1">–</td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1" />
+<td colspan="2" align="left" rowspan="1">P = 0.885</td>
+<td colspan="2" align="left" rowspan="1">P = 0.139</td>
+<td align="left" rowspan="1" colspan="1" />
+<td align="left" rowspan="1" colspan="1" />
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1"><bold>Medicine/supplies</bold></td>
+<td align="left" rowspan="1" colspan="1">1652.7±11468.4</td>
+<td align="left" rowspan="1" colspan="1">1393.6±3829.4</td>
+<td align="left" rowspan="1" colspan="1">428.2±1219.4</td>
+<td align="left" rowspan="1" colspan="1">425.8±1634.9</td>
+<td align="left" rowspan="1" colspan="1">–</td>
+<td align="left" rowspan="1" colspan="1">–</td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1" />
+<td colspan="2" align="left" rowspan="1">P = 0.887</td>
+<td colspan="2" align="left" rowspan="1">P = 0.976</td>
+<td align="left" rowspan="1" colspan="1" />
+<td align="left" rowspan="1" colspan="1" />
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1"><bold>Unofficial gifts</bold></td>
+<td align="left" rowspan="1" colspan="1">438.0±2259.8</td>
+<td align="left" rowspan="1" colspan="1">497.8±1675.5</td>
+<td align="left" rowspan="1" colspan="1">41.1±312.2</td>
+<td align="left" rowspan="1" colspan="1">34.7±470.9</td>
+<td align="left" rowspan="1" colspan="1">–</td>
+<td align="left" rowspan="1" colspan="1">–</td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1" />
+<td colspan="2" align="left" rowspan="1">P = 0.863</td>
+<td colspan="2" align="left" rowspan="1">P = 0.783</td>
+<td align="left" rowspan="1" colspan="1" />
+<td align="left" rowspan="1" colspan="1" />
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1"><bold>Lost income</bold></td>
+<td align="left" rowspan="1" colspan="1">2183.9±17248.7</td>
+<td align="left" rowspan="1" colspan="1">2184.1±4590.1</td>
+<td align="left" rowspan="1" colspan="1">195.4±775.5</td>
+<td align="left" rowspan="1" colspan="1">204.6±924.7</td>
+<td align="left" rowspan="1" colspan="1">121.0±566.0</td>
+<td align="left" rowspan="1" colspan="1">147.3±964.0</td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1" />
+<td colspan="2" align="left" rowspan="1">P&gt;0.999</td>
+<td colspan="2" align="left" rowspan="1">P = 0.851</td>
+<td colspan="2" align="left" rowspan="1">P = 0.611</td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1"><bold>Gross total cost</bold></td>
+<td align="left" rowspan="1" colspan="1">23364.5±43412.8</td>
+<td align="left" rowspan="1" colspan="1">15667.4±14381.0</td>
+<td align="left" rowspan="1" colspan="1">3509.9±7379.4</td>
+<td align="left" rowspan="1" colspan="1">2022.5±5335.8</td>
+<td align="left" rowspan="1" colspan="1">907.7±1758.8</td>
+<td align="left" rowspan="1" colspan="1">779.6±1590.9</td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1" />
+<td colspan="2" align="left" rowspan="1">P = 0.022</td>
+<td colspan="2" align="left" rowspan="1">P&lt;0.001</td>
+<td colspan="2" align="left" rowspan="1">P = 0.194</td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1"><bold>Paid by insurance</bold></td>
+<td align="left" rowspan="1" colspan="1">13863.0±34507.8</td>
+<td align="left" rowspan="1" colspan="1">0</td>
+<td align="left" rowspan="1" colspan="1">1811.8±4010.3</td>
+<td align="left" rowspan="1" colspan="1">0</td>
+<td align="left" rowspan="1" colspan="1">492.5±758.2</td>
+<td align="left" rowspan="1" colspan="1">0</td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1"><bold>Out-of-pocket cost</bold></td>
+<td align="left" rowspan="1" colspan="1">12499.1±30653.4</td>
+<td align="left" rowspan="1" colspan="1">15667.4±14381.0</td>
+<td align="left" rowspan="1" colspan="1">1880.4±5561.0</td>
+<td align="left" rowspan="1" colspan="1">2025.3±5339.4</td>
+<td align="left" rowspan="1" colspan="1">785.8±1878.9</td>
+<td align="left" rowspan="1" colspan="1">796.7±1604.0</td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1" />
+<td colspan="2" align="left" rowspan="1">P = 0.511</td>
+<td colspan="2" align="left" rowspan="1">P = 0.647</td>
+<td colspan="2" align="left" rowspan="1">P = 0.933</td>
+</tr>
+</tbody>
+</table>
+</alternatives><table-wrap-foot><fn id="nt102"><label /><p>In each cell, mean ± standard deviation.</p></fn></table-wrap-foot></table-wrap>
+<p>Another observation is that, even with insurance, illness is still expensive. This observation is in line with the literature <xref ref-type="bibr" rid="pone.0080978-Liu2">[21]</xref>. On average, the OOP cost for inpatient treatment is 12,499RMB (insurance used) and 15,667RMB (insurance not used). The OOP cost for outpatient treatment is 1,880RMB (insurance used) and 2,025RMB (insurance not used). For the surveyed urban and rural subjects respectively, the mean annual income is 41.4K and 16.8K RMB. The inpatient and outpatient treatment costs make up a considerable percentage of the total income <xref ref-type="bibr" rid="pone.0080978-Fang2">[22]</xref>.</p>
+</sec><sec id="s3d">
+<title>Multivariate Regression Analysis of Insurance Utilization</title>
+<p>Results are presented in <xref ref-type="table" rid="pone-0080978-t003">Table 3</xref>. For inpatient treatment, education was significantly associated with insurance utilization. Specifically, with no school as the baseline, primary and junior high were significantly more likely to use insurance (odds ratios 4.635 and 6.586, respectively). The other two categories also have odds ratios greater than 1, although not significant at the 0.05 level. With government as the baseline for occupation, small private business had an odds ratio of 0.179 (p-value 0.055). With healthy as the baseline for physical condition, sick had an odds ratio of 4.102 (p-value 0.071).</p>
+<table-wrap id="pone-0080978-t003" position="float" orientation="portrait"><object-id pub-id-type="doi">10.1371/journal.pone.0080978.t003</object-id><label>Table 3</label><caption>
+<title>Multivariate logistic regression analysis of the prevalence of insurance utilization for inpatient, outpatient, and self-treatments.</title>
+</caption><alternatives><graphic id="pone-0080978-t003-3" position="float" mimetype="image" xlink:href="info:doi/10.1371/journal.pone.0080978.t003" xlink:type="simple" orientation="portrait" />
+<table><colgroup span="1"><col align="left" span="1" /><col align="center" span="1" /><col align="center" span="1" /><col align="center" span="1" /><col align="center" span="1" /><col align="center" span="1" /><col align="center" span="1" /></colgroup>
+<thead>
+<tr>
+<td align="left" rowspan="1" colspan="1" />
+<td colspan="2" align="left" rowspan="1">Inpatient</td>
+<td colspan="2" align="left" rowspan="1">Outpatient</td>
+<td colspan="2" align="left" rowspan="1">Self-treatment</td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1" />
+<td align="left" rowspan="1" colspan="1">aOR</td>
+<td align="left" rowspan="1" colspan="1"><italic>P</italic></td>
+<td align="left" rowspan="1" colspan="1">aOR</td>
+<td align="left" rowspan="1" colspan="1"><italic>P</italic></td>
+<td align="left" rowspan="1" colspan="1">aOR</td>
+<td align="left" rowspan="1" colspan="1"><italic>P</italic></td>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left" rowspan="1" colspan="1"><bold>Gender (baseline: female)</bold></td>
+<td align="left" rowspan="1" colspan="1" />
+<td align="left" rowspan="1" colspan="1" />
+<td align="left" rowspan="1" colspan="1" />
+<td align="left" rowspan="1" colspan="1" />
+<td align="left" rowspan="1" colspan="1" />
+<td align="left" rowspan="1" colspan="1" />
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1">Male</td>
+<td align="left" rowspan="1" colspan="1">1.099</td>
+<td align="left" rowspan="1" colspan="1">0.813</td>
+<td align="left" rowspan="1" colspan="1">0.851</td>
+<td align="left" rowspan="1" colspan="1">0.250</td>
+<td align="left" rowspan="1" colspan="1">0.821</td>
+<td align="left" rowspan="1" colspan="1">0.134</td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1"><bold>Age (baseline: 45–50)</bold></td>
+<td align="left" rowspan="1" colspan="1" />
+<td align="left" rowspan="1" colspan="1" />
+<td align="left" rowspan="1" colspan="1" />
+<td align="left" rowspan="1" colspan="1" />
+<td align="left" rowspan="1" colspan="1" />
+<td align="left" rowspan="1" colspan="1" />
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1">51–60</td>
+<td align="left" rowspan="1" colspan="1">1.374</td>
+<td align="left" rowspan="1" colspan="1">0.527</td>
+<td align="left" rowspan="1" colspan="1">1.228</td>
+<td align="left" rowspan="1" colspan="1">0.214</td>
+<td align="left" rowspan="1" colspan="1">0.835</td>
+<td align="left" rowspan="1" colspan="1">0.242</td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1">61–70</td>
+<td align="left" rowspan="1" colspan="1">2.029</td>
+<td align="left" rowspan="1" colspan="1">0.274</td>
+<td align="left" rowspan="1" colspan="1">1.089</td>
+<td align="left" rowspan="1" colspan="1">0.707</td>
+<td align="left" rowspan="1" colspan="1">1.046</td>
+<td align="left" rowspan="1" colspan="1">0.849</td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1">&gt;70</td>
+<td align="left" rowspan="1" colspan="1">3.157</td>
+<td align="left" rowspan="1" colspan="1">0.106</td>
+<td align="left" rowspan="1" colspan="1">0.936</td>
+<td align="left" rowspan="1" colspan="1">0.805</td>
+<td align="left" rowspan="1" colspan="1">0.760</td>
+<td align="left" rowspan="1" colspan="1">0.308</td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1"><bold>Marital status (baseline: single, divorced, widowed)</bold></td>
+<td align="left" rowspan="1" colspan="1" />
+<td align="left" rowspan="1" colspan="1" />
+<td align="left" rowspan="1" colspan="1" />
+<td align="left" rowspan="1" colspan="1" />
+<td align="left" rowspan="1" colspan="1" />
+<td align="left" rowspan="1" colspan="1" />
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1">Married</td>
+<td align="left" rowspan="1" colspan="1">0.355</td>
+<td align="left" rowspan="1" colspan="1">0.140</td>
+<td align="left" rowspan="1" colspan="1">0.749</td>
+<td align="left" rowspan="1" colspan="1">0.218</td>
+<td align="left" rowspan="1" colspan="1">0.927</td>
+<td align="left" rowspan="1" colspan="1">0.738</td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1"><bold>Education (baseline: no school)</bold></td>
+<td align="left" rowspan="1" colspan="1" />
+<td align="left" rowspan="1" colspan="1" />
+<td align="left" rowspan="1" colspan="1" />
+<td align="left" rowspan="1" colspan="1" />
+<td align="left" rowspan="1" colspan="1" />
+<td align="left" rowspan="1" colspan="1" />
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1">Primary</td>
+<td align="left" rowspan="1" colspan="1">4.635</td>
+<td align="left" rowspan="1" colspan="1">0.016</td>
+<td align="left" rowspan="1" colspan="1">1.722</td>
+<td align="left" rowspan="1" colspan="1">0.068</td>
+<td align="left" rowspan="1" colspan="1">1.292</td>
+<td align="left" rowspan="1" colspan="1">0.428</td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1">Junior high</td>
+<td align="left" rowspan="1" colspan="1">6.586</td>
+<td align="left" rowspan="1" colspan="1">0.007</td>
+<td align="left" rowspan="1" colspan="1">2.273</td>
+<td align="left" rowspan="1" colspan="1">0.007</td>
+<td align="left" rowspan="1" colspan="1">1.052</td>
+<td align="left" rowspan="1" colspan="1">0.876</td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1">Senior high</td>
+<td align="left" rowspan="1" colspan="1">3.986</td>
+<td align="left" rowspan="1" colspan="1">0.064</td>
+<td align="left" rowspan="1" colspan="1">1.698</td>
+<td align="left" rowspan="1" colspan="1">0.108</td>
+<td align="left" rowspan="1" colspan="1">1.214</td>
+<td align="left" rowspan="1" colspan="1">0.568</td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1">Junior college and more</td>
+<td align="left" rowspan="1" colspan="1">4.323</td>
+<td align="left" rowspan="1" colspan="1">0.095</td>
+<td align="left" rowspan="1" colspan="1">2.146</td>
+<td align="left" rowspan="1" colspan="1">0.032</td>
+<td align="left" rowspan="1" colspan="1">1.047</td>
+<td align="left" rowspan="1" colspan="1">0.897</td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1"><bold>Occupation(baseline: government)</bold></td>
+<td align="left" rowspan="1" colspan="1" />
+<td align="left" rowspan="1" colspan="1" />
+<td align="left" rowspan="1" colspan="1" />
+<td align="left" rowspan="1" colspan="1" />
+<td align="left" rowspan="1" colspan="1" />
+<td align="left" rowspan="1" colspan="1" />
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1">Enterprises</td>
+<td align="left" rowspan="1" colspan="1">1.205</td>
+<td align="left" rowspan="1" colspan="1">0.817</td>
+<td align="left" rowspan="1" colspan="1">0.591</td>
+<td align="left" rowspan="1" colspan="1">0.023</td>
+<td align="left" rowspan="1" colspan="1">0.637</td>
+<td align="left" rowspan="1" colspan="1">0.016</td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1">Farmers</td>
+<td align="left" rowspan="1" colspan="1">0.508</td>
+<td align="left" rowspan="1" colspan="1">0.486</td>
+<td align="left" rowspan="1" colspan="1">0.794</td>
+<td align="left" rowspan="1" colspan="1">0.453</td>
+<td align="left" rowspan="1" colspan="1">0.430</td>
+<td align="left" rowspan="1" colspan="1">0.005</td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1">Small private business</td>
+<td align="left" rowspan="1" colspan="1">0.179</td>
+<td align="left" rowspan="1" colspan="1">0.055</td>
+<td align="left" rowspan="1" colspan="1">0.272</td>
+<td align="left" rowspan="1" colspan="1">0.000</td>
+<td align="left" rowspan="1" colspan="1">0.368</td>
+<td align="left" rowspan="1" colspan="1">0.001</td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1">Others</td>
+<td align="left" rowspan="1" colspan="1">1.271</td>
+<td align="left" rowspan="1" colspan="1">0.822</td>
+<td align="left" rowspan="1" colspan="1">0.564</td>
+<td align="left" rowspan="1" colspan="1">0.090</td>
+<td align="left" rowspan="1" colspan="1">0.339</td>
+<td align="left" rowspan="1" colspan="1">0.001</td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1">Retired</td>
+<td align="left" rowspan="1" colspan="1">1.060</td>
+<td align="left" rowspan="1" colspan="1">0.943</td>
+<td align="left" rowspan="1" colspan="1">0.893</td>
+<td align="left" rowspan="1" colspan="1">0.664</td>
+<td align="left" rowspan="1" colspan="1">0.622</td>
+<td align="left" rowspan="1" colspan="1">0.042</td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1">Unemployed</td>
+<td align="left" rowspan="1" colspan="1">0.290</td>
+<td align="left" rowspan="1" colspan="1">0.179</td>
+<td align="left" rowspan="1" colspan="1">0.405</td>
+<td align="left" rowspan="1" colspan="1">0.005</td>
+<td align="left" rowspan="1" colspan="1">0.245</td>
+<td align="left" rowspan="1" colspan="1">0.000</td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1"><bold>Areas (baseline: rural)</bold></td>
+<td align="left" rowspan="1" colspan="1" />
+<td align="left" rowspan="1" colspan="1" />
+<td align="left" rowspan="1" colspan="1" />
+<td align="left" rowspan="1" colspan="1" />
+<td align="left" rowspan="1" colspan="1" />
+<td align="left" rowspan="1" colspan="1" />
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1">Urban areas</td>
+<td align="left" rowspan="1" colspan="1">0.652</td>
+<td align="left" rowspan="1" colspan="1">0.470</td>
+<td align="left" rowspan="1" colspan="1">1.635</td>
+<td align="left" rowspan="1" colspan="1">0.021</td>
+<td align="left" rowspan="1" colspan="1">3.048</td>
+<td align="left" rowspan="1" colspan="1">0.000</td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1"><bold>Regions (baseline: eastern)</bold></td>
+<td align="left" rowspan="1" colspan="1" />
+<td align="left" rowspan="1" colspan="1" />
+<td align="left" rowspan="1" colspan="1" />
+<td align="left" rowspan="1" colspan="1" />
+<td align="left" rowspan="1" colspan="1" />
+<td align="left" rowspan="1" colspan="1" />
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1">Central</td>
+<td align="left" rowspan="1" colspan="1">1.095</td>
+<td align="left" rowspan="1" colspan="1">0.835</td>
+<td align="left" rowspan="1" colspan="1">0.407</td>
+<td align="left" rowspan="1" colspan="1">0.000</td>
+<td align="left" rowspan="1" colspan="1">0.973</td>
+<td align="left" rowspan="1" colspan="1">0.861</td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1">Western</td>
+<td align="left" rowspan="1" colspan="1">1.843</td>
+<td align="left" rowspan="1" colspan="1">0.201</td>
+<td align="left" rowspan="1" colspan="1">0.467</td>
+<td align="left" rowspan="1" colspan="1">0.000</td>
+<td align="left" rowspan="1" colspan="1">1.216</td>
+<td align="left" rowspan="1" colspan="1">0.201</td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1"><bold>Household income (K RMB)</bold></td>
+<td align="left" rowspan="1" colspan="1">1.002</td>
+<td align="left" rowspan="1" colspan="1">0.589</td>
+<td align="left" rowspan="1" colspan="1">1.001</td>
+<td align="left" rowspan="1" colspan="1">0.359</td>
+<td align="left" rowspan="1" colspan="1">1.000</td>
+<td align="left" rowspan="1" colspan="1">0.513</td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1"><bold>Personal income (K RMB)</bold></td>
+<td align="left" rowspan="1" colspan="1">1.003</td>
+<td align="left" rowspan="1" colspan="1">0.639</td>
+<td align="left" rowspan="1" colspan="1">1.003</td>
+<td align="left" rowspan="1" colspan="1">0.092</td>
+<td align="left" rowspan="1" colspan="1">0.997</td>
+<td align="left" rowspan="1" colspan="1">0.065</td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1"><bold>Physical condition (baseline: healthy)</bold></td>
+<td align="left" rowspan="1" colspan="1" />
+<td align="left" rowspan="1" colspan="1" />
+<td align="left" rowspan="1" colspan="1" />
+<td align="left" rowspan="1" colspan="1" />
+<td align="left" rowspan="1" colspan="1" />
+<td align="left" rowspan="1" colspan="1" />
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1">Just so-so</td>
+<td align="left" rowspan="1" colspan="1">0.964</td>
+<td align="left" rowspan="1" colspan="1">0.944</td>
+<td align="left" rowspan="1" colspan="1">0.786</td>
+<td align="left" rowspan="1" colspan="1">0.112</td>
+<td align="left" rowspan="1" colspan="1">0.935</td>
+<td align="left" rowspan="1" colspan="1">0.628</td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1">Slightly sick</td>
+<td align="left" rowspan="1" colspan="1">1.696</td>
+<td align="left" rowspan="1" colspan="1">0.384</td>
+<td align="left" rowspan="1" colspan="1">1.065</td>
+<td align="left" rowspan="1" colspan="1">0.769</td>
+<td align="left" rowspan="1" colspan="1">1.079</td>
+<td align="left" rowspan="1" colspan="1">0.728</td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1">Sick</td>
+<td align="left" rowspan="1" colspan="1">4.102</td>
+<td align="left" rowspan="1" colspan="1">0.071</td>
+<td align="left" rowspan="1" colspan="1">1.901</td>
+<td align="left" rowspan="1" colspan="1">0.025</td>
+<td align="left" rowspan="1" colspan="1">0.892</td>
+<td align="left" rowspan="1" colspan="1">0.725</td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1">Seriously sick</td>
+<td align="left" rowspan="1" colspan="1">2.502</td>
+<td align="left" rowspan="1" colspan="1">0.331</td>
+<td align="left" rowspan="1" colspan="1">0.809</td>
+<td align="left" rowspan="1" colspan="1">0.663</td>
+<td align="left" rowspan="1" colspan="1">0.532</td>
+<td align="left" rowspan="1" colspan="1">0.288</td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1"><bold>Hospital used (baseline: grade I)</bold></td>
+<td align="left" rowspan="1" colspan="1" />
+<td align="left" rowspan="1" colspan="1" />
+<td align="left" rowspan="1" colspan="1" />
+<td align="left" rowspan="1" colspan="1" />
+<td align="left" rowspan="1" colspan="1" />
+<td align="left" rowspan="1" colspan="1" />
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1">Grade II hospital</td>
+<td align="left" rowspan="1" colspan="1">0.462</td>
+<td align="left" rowspan="1" colspan="1">0.224</td>
+<td align="left" rowspan="1" colspan="1">0.788</td>
+<td align="left" rowspan="1" colspan="1">0.195</td>
+<td align="left" rowspan="1" colspan="1">–</td>
+<td align="left" rowspan="1" colspan="1">–</td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1">Grade III hospital</td>
+<td align="left" rowspan="1" colspan="1">0.596</td>
+<td align="left" rowspan="1" colspan="1">0.410</td>
+<td align="left" rowspan="1" colspan="1">0.972</td>
+<td align="left" rowspan="1" colspan="1">0.872</td>
+<td align="left" rowspan="1" colspan="1">–</td>
+<td align="left" rowspan="1" colspan="1">–</td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1">Private hospital</td>
+<td align="left" rowspan="1" colspan="1">0.149</td>
+<td align="left" rowspan="1" colspan="1">0.110</td>
+<td align="left" rowspan="1" colspan="1">0.307</td>
+<td align="left" rowspan="1" colspan="1">0.000</td>
+<td align="left" rowspan="1" colspan="1">–</td>
+<td align="left" rowspan="1" colspan="1">–</td>
+</tr>
+</tbody>
+</table>
+</alternatives><table-wrap-foot><fn id="nt103"><label /><p>aOR: adjusted odds ratio; P: p-value.</p></fn></table-wrap-foot></table-wrap>
+<p>For outpatient treatment, more factors are significantly associated with insurance utilization. With no school as the baseline, junior high and junior college and more were significant more likely to use insurance (odds ratios 2.273 and 2.146, respectively). The other two categories also had odds ratios greater than 1 (1.722 and 1.698, respectively), however, not significant. With government as the baseline, enterprise, small private business, and unemployed had lower probabilities of using insurance (odds ratios 0.591, 0.272, and 0.405, respectively). Urban subjects were more likely to use insurance (odds ratio 1.635). Subjects living in the central and western regions were less likely to use insurance (odds ratios 0.407 and 0.467, respectively). Personal income (in K RMB) had an odds ratio of 1.003 (p-value 0.092). Sick subjects were more likely to use insurance. In addition, subjects treated in private hospitals were less likely to use insurance (odds ratio 0.307).</p>
+<p>For self-treatment, two factors were found significant. With government as the baseline, subjects with the other occupations were less likely to use insurance. The unemployed were the least likely to use insurance (odds ratio 0.245, p-value &lt;0.001). In addition, urban subjects were more likely to use insurance (odds ratio 3.048).</p>
+</sec><sec id="s3e">
+<title>Multivariate Regression Analysis of Medical Expenditure</title>
+<p>Detailed results are provided in <xref ref-type="supplementary-material" rid="pone.0080978.s001">Tables S1</xref>–<xref ref-type="supplementary-material" rid="pone.0080978.s003">S3</xref>. Multiple demographic and personal characteristics are found as significantly associated with the amount of medical expenditure. In <xref ref-type="table" rid="pone-0080978-t004">Table 4</xref>, we provide the estimated coefficients and their p-values for insurance utilization. For inpatient treatment, the effect of insurance utilization is not significant for any individual expense category or overall. For outpatient treatment, after adjusting for the confounding effects, those that used insurance had significantly higher treatment cost (estimated difference 756.9RMB, p-value 0.005), higher lost income (estimated difference 92.5RMB, p-value 0.044), and higher gross total (estimated difference 1241.1RMB, p-value 0.002). For self-treatment, after adjusting for confounders, the effect of insurance utilization is not significant.</p>
+<table-wrap id="pone-0080978-t004" position="float" orientation="portrait"><object-id pub-id-type="doi">10.1371/journal.pone.0080978.t004</object-id><label>Table 4</label><caption>
+<title>Multivariate linear regression of medical expenditure (in RMB).</title>
+</caption><alternatives><graphic id="pone-0080978-t004-4" position="float" mimetype="image" xlink:href="info:doi/10.1371/journal.pone.0080978.t004" xlink:type="simple" orientation="portrait" />
+<table><colgroup span="1"><col align="left" span="1" /><col align="center" span="1" /><col align="center" span="1" /><col align="center" span="1" /><col align="center" span="1" /><col align="center" span="1" /><col align="center" span="1" /></colgroup>
+<thead>
+<tr>
+<td align="left" rowspan="1" colspan="1" />
+<td colspan="2" align="left" rowspan="1">Inpatient</td>
+<td colspan="2" align="left" rowspan="1">Outpatient</td>
+<td colspan="2" align="left" rowspan="1">Self-treatment</td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1" />
+<td align="left" rowspan="1" colspan="1">B</td>
+<td align="left" rowspan="1" colspan="1">P</td>
+<td align="left" rowspan="1" colspan="1">B</td>
+<td align="left" rowspan="1" colspan="1">P</td>
+<td align="left" rowspan="1" colspan="1">B</td>
+<td align="left" rowspan="1" colspan="1">P</td>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left" rowspan="1" colspan="1"><bold>Treatment</bold></td>
+<td align="left" rowspan="1" colspan="1">2965.9</td>
+<td align="left" rowspan="1" colspan="1">0.637</td>
+<td align="left" rowspan="1" colspan="1">756.9</td>
+<td align="left" rowspan="1" colspan="1">0.005</td>
+<td align="left" rowspan="1" colspan="1">49.4</td>
+<td align="left" rowspan="1" colspan="1">0.597</td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1"><bold>Transportation, food, accommodation</bold></td>
+<td align="left" rowspan="1" colspan="1">−211.4</td>
+<td align="left" rowspan="1" colspan="1">0.904</td>
+<td align="left" rowspan="1" colspan="1">167.9</td>
+<td align="left" rowspan="1" colspan="1">0.197</td>
+<td align="left" rowspan="1" colspan="1" />
+<td align="left" rowspan="1" colspan="1" />
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1"><bold>Medicine/supplies</bold></td>
+<td align="left" rowspan="1" colspan="1">−467.6</td>
+<td align="left" rowspan="1" colspan="1">0.803</td>
+<td align="left" rowspan="1" colspan="1">−67.4</td>
+<td align="left" rowspan="1" colspan="1">0.440</td>
+<td align="left" rowspan="1" colspan="1" />
+<td align="left" rowspan="1" colspan="1" />
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1"><bold>Unofficial gift</bold></td>
+<td align="left" rowspan="1" colspan="1">116.0</td>
+<td align="left" rowspan="1" colspan="1">0.770</td>
+<td align="left" rowspan="1" colspan="1">−9.9</td>
+<td align="left" rowspan="1" colspan="1">0.727</td>
+<td align="left" rowspan="1" colspan="1" />
+<td align="left" rowspan="1" colspan="1" />
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1"><bold>Lost income</bold></td>
+<td align="left" rowspan="1" colspan="1">−28.5</td>
+<td align="left" rowspan="1" colspan="1">0.992</td>
+<td align="left" rowspan="1" colspan="1">92.5</td>
+<td align="left" rowspan="1" colspan="1">0.044</td>
+<td align="left" rowspan="1" colspan="1">28.5</td>
+<td align="left" rowspan="1" colspan="1">0.410</td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1"><bold>Gross Total cost</bold></td>
+<td align="left" rowspan="1" colspan="1">4280.5</td>
+<td align="left" rowspan="1" colspan="1">0.550</td>
+<td align="left" rowspan="1" colspan="1">1241.1</td>
+<td align="left" rowspan="1" colspan="1">0.002</td>
+<td align="left" rowspan="1" colspan="1">51.1</td>
+<td align="left" rowspan="1" colspan="1">0.632</td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1"><bold>Out of pocket cost</bold></td>
+<td align="left" rowspan="1" colspan="1">−4590.8</td>
+<td align="left" rowspan="1" colspan="1">0.387</td>
+<td align="left" rowspan="1" colspan="1">−135.0</td>
+<td align="left" rowspan="1" colspan="1">0.692</td>
+<td align="left" rowspan="1" colspan="1">−141.9</td>
+<td align="left" rowspan="1" colspan="1">0.287</td>
+</tr>
+</tbody>
+</table>
+</alternatives><table-wrap-foot><fn id="nt104"><label /><p>B: regression coefficient for “insurance utilization = Yes”; P: p-value.</p></fn></table-wrap-foot></table-wrap></sec></sec><sec id="s4">
+<title>Discussion</title>
+<sec id="s4a">
+<title>Main Findings and Possible Interpretations</title>
+<p>Among the surveyed subjects, 1,928 (92.1%) had at least one illness episode and were covered by at least one type of insurance. As the three types of treatments were considered for a period of twelve months, and as the surveyed subjects were middle-aged and elderly, it is not surprising that such a high proportion had illness episodes. It has been reported that nation-wide, over 90% of the population are covered by basic health insurance. As both basic and commercial insurance are considered in this study, the observed high coverage rate is also reasonable.</p>
+<p>In the survey, 12.6% of the inpatient treatments and the majority of outpatient and self-treatments did not use insurance. A large number of factors may contribute to the status of insurance utilization. Our preliminary literature review did not suggest any regulation or circumstance that might prevent the utilization of health insurance. Conceptually, there is no benefit not utilizing insurance. Thus, the survey had been designed to identify subjects’ characteristics associated with utilization. Compared with outpatient and self-treatments, inpatient treatments are more expensive but less frequent. Thus patients can be more motivated to use insurance for inpatient treatments. Under the current healthcare system in China, utilizing insurance is not “automatic”. The reimbursement process can be lengthy and complicated, which may prevent patients from using insurance for some treatments. Multivariate regression analysis suggests that certain groups are less likely to use insurance, including for example subjects with no education, living in rural area, living in the central and western regions, and with lower income. In terms of socioeconomic status, these groups are less-advantaged. The association between education and insurance utilization has been noted in the literature <xref ref-type="bibr" rid="pone.0080978-Nguyen1">[14]</xref>, which suggested that failing to understand the insurance system and the complexity of reimbursement process could prevent the less-educated from using insurance. Occupation can be correlated with several other factors, particularly including socioeconomic status, education level, and income level. In addition, some occupations, in particular government, have supplementary health insurance, leading to an overall superior package. Small private businesses are mainly located in urban areas and in the eastern region. Compared with the rural areas and the western and central regions, the urban areas and eastern region are in general more developed, with people having higher income and education levels. The observed differences in utilization that are associated with socioeconomic status are in line with those made in a study conducted in the Gansu and Zhejiang provinces <xref ref-type="bibr" rid="pone.0080978-Wang3">[18]</xref>, which focused on the inequality caused by income and advocated that “China will need to reduce the unequal distribution of income and expand the coverage of its health insurance schemes”. The basic health insurance policies are relatively uniform across regions. However, the actual implementation may still differ. In addition, URBMI and NCMS are funded by the central government as well as local governments and the insured. The amount that local governments contribute to URBMI and NCMS and the quality of service may depend on the local economic conditions, which may also explain the observed regional differences. For physical condition, the “sick” category corresponds to serious diseases but not too serious to go through the utilization/reimbursement process. A higher cost would be expected from a more serious disease, providing a stronger motivation to use insurance.</p>
+<p>The ultimate goal of health insurance is to improve the wellbeing of all insured. The identified group with less insurance utilization is potentially more vulnerable to the consequences of illness. The development of policy interventions, such as education and outreach programs, is needed to boost insurance utilization among that group. Compared to inpatient treatment, insurance is much less used for outpatient and self-treatments. Each episode of outpatient and self-treatment is less expensive (which partly explains why insurance is less used). However, they are more frequent, leading to a considerable total cost. In the literature, much attention has been paid to inpatient treatment. Our survey suggests that insurance utilization for outpatient and self-treatments deserves equal attention.</p>
+<p>The observed medical expenditure is considerably higher than that in You and Kobayashi <xref ref-type="bibr" rid="pone.0080978-You2">[15]</xref>, which analyzed the 2004 China Health and Nutrition Survey and reported an average OOP expenditure of 502RMB. Such a difference can be explained by the fact that this study focused on the middle-aged and elderly who have higher medical expenses and by the fast economic growth that has caused medical expenditure to grow significantly. <xref ref-type="table" rid="pone-0080978-t002">Table 2</xref> shows high OOP costs, even for those that used insurance. Multiple factors contribute to this observation. First, some expenses such as transportation, food, accommodation, unofficial gifts, and lost income are not covered by insurance. Second, the insurance system is not sufficiently effective. Copayments and deductibles are still high. In addition, there are reimbursement ceilings. Our observation is in line which that in Liu <xref ref-type="bibr" rid="pone.0080978-Liu2">[21]</xref>, which reported that the average reimbursement rate of inpatient expense was as low as 48% for urban residents and 44% for rural residents. High OOP costs were also observed by Fang and others <xref ref-type="bibr" rid="pone.0080978-Fang1">[6]</xref>. The high OOP cost poses a serious problem to the insured, in particular those with a low socioeconomic status. Data analysis suggests that insurance utilization is not statistically significantly associated with the cost of inpatient and self-treatment. Such a result differs from that in Nguyen et al. <xref ref-type="bibr" rid="pone.0080978-Nguyen1">[14]</xref>, which found that insurance can significantly lower medical cost. Many factors may have contributed to this difference, in particular the regional differences between China and Vietnam. In addition, examining data suggests that the observed medical cost have high variations. Thus although the actual cost for those used insurance and did not use insurance are quite different, the estimates are not statistically significant. There are a number of subjects with drastically high medical cost. Ideally, stratified analysis should be conducted, investigating the different behaviors for different illness conditions and medical cost groups. However, with a limited sample size, such an effort is not pursued. For self-treatment, the average cost is low, which may also contribute to the lack of significance. For outpatient treatment, insurance utilization is found to be significantly associated with higher treatment cost, higher lost income, and higher gross total cost. It should be noted that such observations do not mean insurance utilization causes higher costs. Patients with more serious diseases may expect higher costs, and hence are more likely to use insurance. Disease severity is likely to be the underlying driving factor for both higher cost and insurance utilization, causing them to be significantly associated.</p>
+</sec><sec id="s4b">
+<title>Limitations</title>
+<p>The survey collected information for a period of twelve months. For a subject, illness conditions, particularly inpatient treatment, may vary from year to year. Although it was possible to collect information for a longer period, such an effort was not pursued because of the concern on recall error. The survey collected cross-sectional observational data. With such data, only association, not causality, can be inferred. Many published studies share the same limitation <xref ref-type="bibr" rid="pone.0080978-Fang1">[6]</xref>, <xref ref-type="bibr" rid="pone.0080978-Wang1">[8]</xref>, <xref ref-type="bibr" rid="pone.0080978-Nguyen1">[14]</xref>. The nature of survey inevitably led to certain drawbacks, including limited information, possible recall bias, and others <xref ref-type="bibr" rid="pone.0080978-Lu1">[23]</xref>. For example, the survey only collected information on whether insurance was used. There was no followup question on why insurance was not used. As discussed above and in the literature, possible reasons include misunderstanding of the insurance system, barriers in the reimbursement process, limited coverage depth, and others. However, without collecting additional information, we are not able to draw affirmative conclusions. This study collected data on inpatient, outpatient, and self-treatment separately, and can be more informative than those that measure illness and cost as a whole. However, a limitation is that there is no detailed information on disease. For example, it will be interesting to see if the associations observed in <xref ref-type="table" rid="pone-0080978-t003">Table 3</xref> still exist after adjusting for disease severity. This study may also be limited by having a moderate sample size, especially considering that the subjects were from 152 cities and that China has significant regional variations. All subjects were 45 years old or above. To provide a comprehensive description of the whole population, the younger cohort may be studied in the future.</p>
+</sec></sec><sec id="s5">
+<title>Conclusions</title>
+<p>Research on China’s health insurance has attracted tremendous attention. In this study, we report empirical observations made in a survey recently conducted on insurance utilization and its impact. Demographic and personal characteristics are found as associated with insurance utilization. The findings may have important implications and can assist the development of intervention programs to further increase utilization and effectiveness. The analysis of medical expenditure leads to two main observations. The first is that insurance utilization is associated with some types of expenditure. More detailed investigations are needed to fully understand the mechanisms underlying such associations. In addition, it is found that even with health insurance utilization, the OOP cost is still high. High OOP cost may have a profound and long-term impact on a household’s wellbeing. More effective strategies are needed to improve coverage depth and reduce financial burden caused by illness.</p>
+</sec><sec id="s6">
+<title>Supporting Information</title>
+<supplementary-material id="pone.0080978.s001" mimetype="application/vnd.openxmlformats-officedocument.wordprocessingml.document" xlink:href="info:doi/10.1371/journal.pone.0080978.s001" position="float" xlink:type="simple" orientation="portrait"><label>Table S1</label><caption>
+<p><bold>Linear regression analysis of medical expenditure for inpatient treatment episodes.</bold></p>
+<p>(DOCX)</p>
+</caption></supplementary-material><supplementary-material id="pone.0080978.s002" mimetype="application/vnd.openxmlformats-officedocument.wordprocessingml.document" xlink:href="info:doi/10.1371/journal.pone.0080978.s002" position="float" xlink:type="simple" orientation="portrait"><label>Table S2</label><caption>
+<p><bold>Linear regression analysis of medical expenditure for outpatient treatment episodes.</bold></p>
+<p>(DOCX)</p>
+</caption></supplementary-material><supplementary-material id="pone.0080978.s003" mimetype="application/vnd.openxmlformats-officedocument.wordprocessingml.document" xlink:href="info:doi/10.1371/journal.pone.0080978.s003" position="float" xlink:type="simple" orientation="portrait"><label>Table S3</label><caption>
+<p><bold>Linear regression analysis of medical expenditure for self-treatment episodes.</bold></p>
+<p>(DOCX)</p>
+</caption></supplementary-material></sec></body>
+<back>
+<ack>
+<p>We thank all survey participants for their contributions. We also thank the associate editor and two reviewers for careful review and insightful comments, which have led to a significant improvement of the manuscript.</p>
+</ack>
+<ref-list>
+<title>References</title>
+<ref id="pone.0080978-SussmuthDyckerhoff1"><label>1</label>
+<mixed-citation publication-type="other" xlink:type="simple">Sussmuth-Dyckerhoff C, Wang J (2010) China’s health care reforms. McKinsey China. Available : <ext-link ext-link-type="uri" xlink:href="http://www.mckinseychina.com/2010/09/20/chinas-health-care-reforms/" xlink:type="simple">http://www.mckinseychina.com/2010/09/20/chinas-health-care-reforms/</ext-link>. Accessed 2013 Jan 27.</mixed-citation>
+</ref>
+<ref id="pone.0080978-You1"><label>2</label>
+<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>You</surname><given-names>X</given-names></name>, <name name-style="western"><surname>Kobayashi</surname><given-names>Y</given-names></name> (<year>2009</year>) <article-title>The new cooperative medical scheme in China. Health policy</article-title>. <volume>91(1)</volume>: <fpage>1</fpage>–<lpage>9</lpage>.</mixed-citation>
+</ref>
+<ref id="pone.0080978-Zhang1"><label>3</label>
+<mixed-citation publication-type="other" xlink:type="simple">Zhang L (2011) China’s basic medical insurance system has covered more than 1.25 billion people. Network in China. Available at <ext-link ext-link-type="uri" xlink:href="http://www.3abc.net/?p=11493" xlink:type="simple">http://www.3abc.net/?p=11493</ext-link>. Accessed 2012 May 24.</mixed-citation>
+</ref>
+<ref id="pone.0080978-Dong1"><label>4</label>
+<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Dong</surname><given-names>K</given-names></name> (<year>2009</year>) <article-title>Medical insurance system evolution in China</article-title>. <source>China Economic Review</source> <volume>20</volume>: <fpage>591</fpage>–<lpage>597</lpage>.</mixed-citation>
+</ref>
+<ref id="pone.0080978-Barber1"><label>5</label>
+<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Barber</surname><given-names>SL</given-names></name>, <name name-style="western"><surname>Yao</surname><given-names>L</given-names></name> (<year>2011</year>) <article-title>Development and status of health insurance systems in China. The International Journal of Health Planning and Management</article-title>. <volume>26</volume>: <fpage>339</fpage>–<lpage>356</lpage>.</mixed-citation>
+</ref>
+<ref id="pone.0080978-Fang1"><label>6</label>
+<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Fang</surname><given-names>K</given-names></name>, <name name-style="western"><surname>Shia</surname><given-names>B</given-names></name>, <name name-style="western"><surname>Ma</surname><given-names>S</given-names></name> (<year>2012</year>) <article-title>Health insurance coverage and impact: a survey in three cities in China. PLOS One</article-title>. <volume>7(6)</volume>: <fpage>e39157</fpage>.</mixed-citation>
+</ref>
+<ref id="pone.0080978-Chen1"><label>7</label>
+<mixed-citation publication-type="other" xlink:type="simple">Chen G, Yan X (2012) Demand for voluntary basic medical insurance in urban China: panel evidence from the Urban Resident Basic Medical Insurance scheme. Health Policy and Planning. 1–11.</mixed-citation>
+</ref>
+<ref id="pone.0080978-Wang1"><label>8</label>
+<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Wang</surname><given-names>H</given-names></name>, <name name-style="western"><surname>Yip</surname><given-names>W</given-names></name>, <name name-style="western"><surname>Zhang</surname><given-names>L</given-names></name>, <name name-style="western"><surname>Wang</surname><given-names>L</given-names></name>, <name name-style="western"><surname>Hsiao</surname><given-names>W</given-names></name> (<year>2005</year>) <article-title>Community-based health insurance in poor rural China: the distribution of net benefits. Health Policy and Planning</article-title>. <volume>20</volume>: <fpage>366</fpage>–<lpage>374</lpage>.</mixed-citation>
+</ref>
+<ref id="pone.0080978-Jing1"><label>9</label>
+<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Jing</surname><given-names>S</given-names></name>, <name name-style="western"><surname>Yin</surname><given-names>A</given-names></name>, <name name-style="western"><surname>Shi</surname><given-names>L</given-names></name>, <name name-style="western"><surname>Liu</surname><given-names>J</given-names></name> (<year>2013</year>) <article-title>Whether new cooperative medical schemes reduce the economic burden of chronic disease in rural China. PLoS One</article-title>. <volume>8(1)</volume>: <fpage>e53062</fpage>.</mixed-citation>
+</ref>
+<ref id="pone.0080978-Li1"><label>10</label>
+<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Li</surname><given-names>Y</given-names></name>, <name name-style="western"><surname>Wu</surname><given-names>Q</given-names></name>, <name name-style="western"><surname>Xu</surname><given-names>L</given-names></name>, <name name-style="western"><surname>Legge</surname><given-names>D</given-names></name>, <name name-style="western"><surname>Hao</surname><given-names>Y</given-names></name>, <etal>et al</etal>. (<year>2012</year>) <article-title>Factors affecting catastrophic health expenditure and impoverishment from medical expenses in China: policy implications of universal health insurance. Bull World Health Organ</article-title>. <volume>90</volume>: <fpage>664</fpage>–<lpage>671</lpage>.</mixed-citation>
+</ref>
+<ref id="pone.0080978-Lei1"><label>11</label>
+<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Lei</surname><given-names>X</given-names></name>, <name name-style="western"><surname>Lin</surname><given-names>W</given-names></name> (<year>2009</year>) <article-title>The New Cooperative Medical Scheme in Rural China: Does More Coverage Mean More Service and Better Health?</article-title> <source>Health Economics</source> <volume>18</volume>: <fpage>S25</fpage>–<lpage>S46</lpage>.</mixed-citation>
+</ref>
+<ref id="pone.0080978-Qiu1"><label>12</label>
+<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Qiu</surname><given-names>P</given-names></name>, <name name-style="western"><surname>Yang</surname><given-names>Y</given-names></name>, <name name-style="western"><surname>Zhang</surname><given-names>J</given-names></name>, <name name-style="western"><surname>Ma</surname><given-names>X</given-names></name> (<year>2011</year>) <article-title>Rural-to-urban migration and its implication for new cooperative medical scheme coverage and utilization in China</article-title>. <source>BMC Public Health</source> <volume>11</volume>: <fpage>520</fpage>.</mixed-citation>
+</ref>
+<ref id="pone.0080978-Wang2"><label>13</label>
+<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Wang</surname><given-names>H</given-names></name>, <name name-style="western"><surname>Zhang</surname><given-names>L</given-names></name>, <name name-style="western"><surname>Yip</surname><given-names>W</given-names></name>, <name name-style="western"><surname>Hsiao</surname><given-names>W</given-names></name> (<year>2006</year>) <article-title>Adverse selection in a voluntary Rural Mutual Health Care health insurance scheme in China</article-title>. <source>Social Science &amp; Medicine</source> <volume>63</volume>: <fpage>1236</fpage>–<lpage>1245</lpage>.</mixed-citation>
+</ref>
+<ref id="pone.0080978-Nguyen1"><label>14</label>
+<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Nguyen</surname><given-names>KT</given-names></name>, <name name-style="western"><surname>Khuat</surname><given-names>OTH</given-names></name>, <name name-style="western"><surname>Ma</surname><given-names>S</given-names></name>, <name name-style="western"><surname>Pham</surname><given-names>DC</given-names></name>, <name name-style="western"><surname>Khuat</surname><given-names>GTH</given-names></name>, <etal>et al</etal>. (<year>2012</year>) <article-title>Impact of health insurance on health care treatment and cost in Vietnam: a health capability approach to financial protection. American Journal of Public Health</article-title>. <volume>102(8)</volume>: <fpage>1450</fpage>–<lpage>1461</lpage>.</mixed-citation>
+</ref>
+<ref id="pone.0080978-You2"><label>15</label>
+<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>You</surname><given-names>D</given-names></name>, <name name-style="western"><surname>Kobayashi</surname><given-names>Y</given-names></name> (<year>2011</year>) <article-title>Determinants of out-of-pocket health expenditure in China-Analysis using China Health Survey data. Appl Health Econ Health Policy</article-title>. <volume>9(1)</volume>: <fpage>39</fpage>–<lpage>49</lpage>.</mixed-citation>
+</ref>
+<ref id="pone.0080978-Yip1"><label>16</label>
+<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Yip</surname><given-names>WC</given-names></name>, <name name-style="western"><surname>Hsiao</surname><given-names>WC</given-names></name>, <name name-style="western"><surname>Chen</surname><given-names>W</given-names></name>, <name name-style="western"><surname>Hu</surname><given-names>S</given-names></name>, <name name-style="western"><surname>Ma</surname><given-names>J</given-names></name>, <etal>et al</etal>. (<year>2012</year>) <article-title>Early appraisal of China’s huge and complex health-care reforms. Lancet</article-title>. <volume>379</volume>: <fpage>833</fpage>–<lpage>842</lpage>.</mixed-citation>
+</ref>
+<ref id="pone.0080978-Cao1"><label>17</label>
+<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Cao</surname><given-names>Q</given-names></name>, <name name-style="western"><surname>Shi</surname><given-names>L</given-names></name>, <name name-style="western"><surname>Wang</surname><given-names>H</given-names></name>, <name name-style="western"><surname>Dong</surname><given-names>K</given-names></name> (<year>2012</year>) <article-title>Report from China: health insurance in China – evolution, current status, and challenges. International Journal of Health Services: Planning, Administration, Evaluation</article-title>. <volume>42</volume>: <fpage>177</fpage>–<lpage>195</lpage>.</mixed-citation>
+</ref>
+<ref id="pone.0080978-Wang3"><label>18</label>
+<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Wang</surname><given-names>Y</given-names></name>, <name name-style="western"><surname>Wang</surname><given-names>J</given-names></name>, <name name-style="western"><surname>Maitland</surname><given-names>E</given-names></name>, <name name-style="western"><surname>Zhao</surname><given-names>Y</given-names></name>, <name name-style="western"><surname>Nicholas</surname><given-names>S</given-names></name>, <etal>et al</etal>. (<year>2012</year>) <article-title>Growing old before growing rich: inequality in health service utilization among the mid-aged and elderly in Gansu and Zhejiang Provinces, China. BMC Health Services Research</article-title>. <volume>12</volume>: <fpage>302</fpage>.</mixed-citation>
+</ref>
+<ref id="pone.0080978-Wen1"><label>19</label>
+<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Wen</surname><given-names>Y</given-names></name>, <name name-style="western"><surname>Lieber</surname><given-names>E</given-names></name>, <name name-style="western"><surname>Wan</surname><given-names>D</given-names></name>, <name name-style="western"><surname>Hong</surname><given-names>Y</given-names></name> (<year>2011</year>) <collab xlink:type="simple">NIMH Collaborative HIV/STD Prevention Trial Group</collab> (<year>2011</year>) <article-title>A qualitative study about self-medication in the community among marker vendors in Fuzhou, China. Health and Social Care in the Community</article-title>. <volume>19</volume>: <fpage>504</fpage>–<lpage>513</lpage>.</mixed-citation>
+</ref>
+<ref id="pone.0080978-Liu1"><label>20</label>
+<mixed-citation publication-type="other" xlink:type="simple">Liu H, Zhao Z (2012) Impact of China’s Urban Resident Basic Medical Insurance on health care utilization and expenditure. IZA Discussion Paper No.6768.</mixed-citation>
+</ref>
+<ref id="pone.0080978-Liu2"><label>21</label>
+<mixed-citation publication-type="other" xlink:type="simple">Liu Y (2011) Great progress, but more is needed. The New York Times. The Opinion Pages. Room for Debate. Available: <ext-link ext-link-type="uri" xlink:href="http://www.nytimes.com/roomfordebate/2011/11/01/is-china-facing-a-health-care-crisis/chinas-health-care-reform-far-from-sufficient" xlink:type="simple">http://www.nytimes.com/roomfordebate/2011/11/01/is-china-facing-a-health-care-crisis/chinas-health-care-reform-far-from-sufficient</ext-link> Accessed on 2013 Jan 27.</mixed-citation>
+</ref>
+<ref id="pone.0080978-Fang2"><label>22</label>
+<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Fang</surname><given-names>K</given-names></name>, <name name-style="western"><surname>Jiang</surname><given-names>Y</given-names></name>, <name name-style="western"><surname>Shia</surname><given-names>B</given-names></name>, <name name-style="western"><surname>Ma</surname><given-names>S</given-names></name> (<year>2012b</year>) <article-title>Impact of illness and medical expenditure on household consumptions: a survey in western China. PLoS One</article-title>. <volume>7(12)</volume>: <fpage>e52928</fpage>.</mixed-citation>
+</ref>
+<ref id="pone.0080978-Lu1"><label>23</label>
+<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Lu</surname><given-names>C</given-names></name>, <name name-style="western"><surname>Chin</surname><given-names>B</given-names></name>, <name name-style="western"><surname>Li</surname><given-names>G</given-names></name>, <name name-style="western"><surname>Murray</surname><given-names>CJL</given-names></name> (<year>2009</year>) <article-title>Limitations of methods for measuring out of pocket and catastrophic private health expenditures</article-title>. <source>Bull World Health Organization</source> <volume>87</volume>: <fpage>238</fpage>–<lpage>244</lpage>.</mixed-citation>
+</ref>
+</ref-list></back>
+</article>

@@ -1,6 +1,5 @@
 package org.xmlcml.ami.result;
 
-import nu.xom.Element;
 
 public class SimpleResultElement extends AbstractResultElement {
 

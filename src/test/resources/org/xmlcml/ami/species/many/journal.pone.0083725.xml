@@ -1,0 +1,920 @@
+<article xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" article-type="research-article" dtd-version="3.0" xml:lang="en">
+	<front>
+		<journal-meta>
+    <journal-id journal-id-type="nlm-ta">PLoS ONE</journal-id>
+    <journal-id journal-id-type="publisher-id">plos</journal-id>
+    <journal-id journal-id-type="pmc">plosone</journal-id>
+    <journal-title-group><journal-title xml:lang="en">PLoS ONE</journal-title></journal-title-group>
+    <issn pub-type="epub">1932-6203</issn>
+    <publisher><publisher-name>Public Library of Science</publisher-name>
+    <publisher-loc>San Francisco, USA</publisher-loc></publisher>
+    </journal-meta><article-meta>
+			<article-id pub-id-type="publisher-id">PONE-D-13-29355</article-id><article-id pub-id-type="doi">10.1371/journal.pone.0083725</article-id><article-categories><subj-group subj-group-type="heading">
+    <subject>Research Article</subject></subj-group></article-categories><title-group>
+				<article-title>A Lower Level of Forced Expiratory Volume in 1 Second Is a Risk Factor for All-Cause and Cardiovascular Mortality in a Japanese Population: The Takahata Study</article-title>
+    	<alt-title alt-title-type="running-head">Low FEV<sup>1</sup> Is a Risk for Cardiovascular Death</alt-title>
+      </title-group>
+			<contrib-group>
+				<contrib xlink:type="simple" contrib-type="author">
+					<name name-style="western">
+						<surname>Shibata</surname>
+						<given-names>Yoko</given-names>
+					</name>
+					<xref ref-type="aff" rid="aff1"><sup>1</sup></xref>
+					<xref ref-type="corresp" rid="cor1"><sup>*</sup></xref>
+				</contrib>
+				<contrib xlink:type="simple" contrib-type="author">
+					<name name-style="western">
+						<surname>Inoue</surname>
+						<given-names>Sumito</given-names>
+					</name>
+					<xref ref-type="aff" rid="aff1"><sup>1</sup></xref>
+				</contrib>
+				<contrib xlink:type="simple" contrib-type="author">
+					<name name-style="western">
+						<surname>Igarashi</surname>
+						<given-names>Akira</given-names>
+					</name>
+					<xref ref-type="aff" rid="aff1"><sup>1</sup></xref>
+				</contrib>
+				<contrib xlink:type="simple" contrib-type="author">
+					<name name-style="western">
+						<surname>Yamauchi</surname>
+						<given-names>Keiko</given-names>
+					</name>
+					<xref ref-type="aff" rid="aff1"><sup>1</sup></xref>
+				</contrib>
+				<contrib xlink:type="simple" contrib-type="author">
+					<name name-style="western">
+						<surname>Abe</surname>
+						<given-names>Shuichi</given-names>
+					</name>
+					<xref ref-type="aff" rid="aff1"><sup>1</sup></xref>
+				</contrib>
+				<contrib xlink:type="simple" contrib-type="author">
+					<name name-style="western">
+						<surname>Aida</surname>
+						<given-names>Yasuko</given-names>
+					</name>
+					<xref ref-type="aff" rid="aff1"><sup>1</sup></xref>
+				</contrib>
+				<contrib xlink:type="simple" contrib-type="author">
+					<name name-style="western">
+						<surname>Nunomiya</surname>
+						<given-names>Keiko</given-names>
+					</name>
+					<xref ref-type="aff" rid="aff1"><sup>1</sup></xref>
+				</contrib>
+				<contrib xlink:type="simple" contrib-type="author">
+					<name name-style="western">
+						<surname>Sato</surname>
+						<given-names>Masamichi</given-names>
+					</name>
+					<xref ref-type="aff" rid="aff1"><sup>1</sup></xref>
+				</contrib>
+				<contrib xlink:type="simple" contrib-type="author">
+					<name name-style="western">
+						<surname>Nakano</surname>
+						<given-names>Hiroshi</given-names>
+					</name>
+					<xref ref-type="aff" rid="aff1"><sup>1</sup></xref>
+				</contrib>
+				<contrib xlink:type="simple" contrib-type="author">
+					<name name-style="western">
+						<surname>Sato</surname>
+						<given-names>Kento</given-names>
+					</name>
+					<xref ref-type="aff" rid="aff1"><sup>1</sup></xref>
+				</contrib>
+				<contrib xlink:type="simple" contrib-type="author">
+					<name name-style="western">
+						<surname>Nemoto</surname>
+						<given-names>Takako</given-names>
+					</name>
+					<xref ref-type="aff" rid="aff1"><sup>1</sup></xref>
+				</contrib>
+				<contrib xlink:type="simple" contrib-type="author">
+					<name name-style="western">
+						<surname>Kimura</surname>
+						<given-names>Tomomi</given-names>
+					</name>
+					<xref ref-type="aff" rid="aff1"><sup>1</sup></xref>
+				</contrib>
+				<contrib xlink:type="simple" contrib-type="author">
+					<name name-style="western">
+						<surname>Watanabe</surname>
+						<given-names>Tetsu</given-names>
+					</name>
+					<xref ref-type="aff" rid="aff1"><sup>1</sup></xref>
+				</contrib>
+				<contrib xlink:type="simple" contrib-type="author">
+					<name name-style="western">
+						<surname>Konta</surname>
+						<given-names>Tsuneo</given-names>
+					</name>
+					<xref ref-type="aff" rid="aff1"><sup>1</sup></xref>
+				</contrib>
+				<contrib xlink:type="simple" contrib-type="author">
+					<name name-style="western">
+						<surname>Daimon</surname>
+						<given-names>Makoto</given-names>
+					</name>
+					<xref ref-type="aff" rid="aff2"><sup>2</sup></xref>
+				</contrib>
+				<contrib xlink:type="simple" contrib-type="author">
+					<name name-style="western">
+						<surname>Ueno</surname>
+						<given-names>Yoshiyuki</given-names>
+					</name>
+					<xref ref-type="aff" rid="aff2"><sup>2</sup></xref>
+				</contrib>
+				<contrib xlink:type="simple" contrib-type="author">
+					<name name-style="western">
+						<surname>Kato</surname>
+						<given-names>Takeo</given-names>
+					</name>
+					<xref ref-type="aff" rid="aff2"><sup>2</sup></xref>
+				</contrib>
+				<contrib xlink:type="simple" contrib-type="author">
+					<name name-style="western">
+						<surname>Kayama</surname>
+						<given-names>Takamasa</given-names>
+					</name>
+					<xref ref-type="aff" rid="aff2"><sup>2</sup></xref>
+				</contrib>
+				<contrib xlink:type="simple" contrib-type="author">
+					<name name-style="western">
+						<surname>Kubota</surname>
+						<given-names>Isao</given-names>
+					</name>
+					<xref ref-type="aff" rid="aff1"><sup>1</sup></xref>
+				</contrib>
+			</contrib-group>
+			<aff id="aff1"><label>1</label> <addr-line>Department of Cardiology, Pulmonology and Nephrology, School of Medicine, Yamagata University, Yamagata City, Yamagata, Japan</addr-line> </aff>
+			<aff id="aff2"><label>2</label> <addr-line>Global Center of Excellence Program Study Group, School of Medicine, Yamagata University, Yamagata City, Yamagata, Japan</addr-line></aff>
+			<contrib-group><contrib contrib-type="editor" xlink:type="simple">
+          <name name-style="western">
+            <surname>Schnabel</surname>
+            <given-names>Renate B</given-names>
+          </name>
+          <role>Editor</role>
+          <xref ref-type="aff" rid="edit1" />
+        </contrib>
+        </contrib-group><aff id="edit1"><addr-line>University Heart Center, Germany</addr-line></aff><author-notes>
+				<corresp id="cor1">* E-mail: <email xlink:type="simple">shibata@med.id.yamagata-u.ac.jp</email></corresp>
+			<fn fn-type="conflict"><p>The authors have declared that no competing interests exist.</p></fn><fn fn-type="con"><p>Conceived and designed the experiments: YS MD TW T. Konta. Performed the experiments: YS SI AI KY SA YA KN MS HN KS TN T. Kimura. Analyzed the data: YS SI AI SA. Contributed reagents/materials/analysis tools: YU T. Kato T. Kayama IK. Wrote the manuscript: YS. </p></fn></author-notes>
+			<pub-date pub-type="collection"><year>2013</year></pub-date><pub-date pub-type="epub">
+        <day>13</day>
+        <month>12</month>
+        <year>2013</year>
+      </pub-date>
+      <volume>8</volume><issue>12</issue><elocation-id>e83725</elocation-id><history><date date-type="received">
+          <day>17</day>
+          <month>7</month>
+          <year>2013</year>
+        </date>
+        <date date-type="accepted">
+          <day>6</day>
+          <month>11</month>
+          <year>2013</year>
+        </date>
+      </history><permissions>
+    <copyright-year>2013</copyright-year><copyright-holder>Shibata et al</copyright-holder><license xlink:type="simple" xlink:href="http://creativecommons.org/licenses/by/4.0/"><license-p>This is an open-access article distributed under the terms of the <ext-link ext-link-type="uri" xlink:href="http://creativecommons.org/licenses/by/4.0/" xlink:type="simple">Creative Commons Attribution License</ext-link>, which permits unrestricted use, distribution, and reproduction in any medium, provided the original author and source are credited.</license-p></license>
+    </permissions><abstract>
+				<p>Chronic obstructive pulmonary disease is a known risk factor for cardiovascular death in Western countries. Because Japan has a low cardiovascular death rate, the association between a lower level of forced expiratory volume in 1 s (FEV<sub>1</sub>) and mortality in Japan’s general population is unknown. To clarify this, we conducted a community-based longitudinal study. This study included 3253 subjects, who received spirometry from 2004 to 2006 in Takahata, with a 7-year follow-up. The causes of death were assessed on the basis of the death certificate. In 338 subjects, airflow obstruction was observed by spirometry. A total of 127 subjects died. Cardiovascular death was the second highest cause of death in this population. The pulmonary functions of the deceased subjects were significantly lower than those of the subjects who were alive at the end of follow-up. The relative risk of death by all causes, respiratory failure, lung cancer, and cardiovascular disease was significantly increased with airflow obstruction. The Kaplan–Meier analysis showed that all-cause and cardiovascular mortality significantly increased with a worsening severity of airflow obstruction. After adjusting for possible factors that could influence prognosis, a Cox proportional hazard model analysis revealed that a lower level of FEV<sub>1</sub> was an independent risk factor for all-cause and cardiovascular mortality (per 10% increase; hazard ratio [HR], 0.89; 95% confidence interval [CI], 0.82–0.98; and HR, 0.72; 95% CI, 0.61–0.86, respectively). In conclusion, airflow obstruction is an independent risk factor for all-cause and cardiovascular death in the Japanese general population. Spirometry might be a useful test to evaluate the risk of cardiovascular death and detect the risk of respiratory death by lung cancer or respiratory failure in healthy Japanese individuals.</p>
+			</abstract>
+		<funding-group><funding-statement>This study was supported by a Grant-in-aid from the Global COE program of the Japan Society for the Promotion of Science. The funders had no role in study design, data collection and analysis, decision to publish, or preparation of the manuscript.</funding-statement></funding-group></article-meta>
+	</front>
+	<body>
+		<sec id="s1" sec-type="introduction">
+			<title>Introduction</title>
+			<p>The significant association of chronic obstructive pulmonary disease (COPD) on all-cause and cardiovascular death has been reported, and a lower level of forced expiratory volume in 1 s (FEV<sub>1</sub>) has been reported as a risk for all-cause and cardiovascular mortality in Western countries [<xref ref-type="bibr" rid="B1">1</xref>-<xref ref-type="bibr" rid="B3">3</xref>]. COPD and cardiovascular disease share the same risk factors such as cigarette smoking, systemic inflammation, and aging. Therefore, cardiovascular disease is a representative comorbidity in patients with COPD [<xref ref-type="bibr" rid="B4">4</xref>].</p>
+			<p>In Japan, the prevalence of COPD is estimated to be at least 8.6% in the general population aged ≥40 years [<xref ref-type="bibr" rid="B5">5</xref>]. Because the prevalence of COPD in other countries was reported to be approximately 10%, there seems to be no great difference regarding to the prevalence of COPD among different ethnicities [<xref ref-type="bibr" rid="B4">4</xref>]. However, for Japanese COPD patients, their cardiovascular death rate was estimated to be not as high as that of patients in Western countries. In fact, as Japanese people generally have a healthy lifestyle such as a habitual intake of low calorie foods, the Japanese population is usually leaner and has a lower risk of cardiovascular events than that of Western countries [<xref ref-type="bibr" rid="B6">6</xref>]. </p>
+			<p>Recently, a high prevalence of COPD among Japanese patients in cardiology clinics [<xref ref-type="bibr" rid="B7">7</xref>] and the development of atherosclerosis in Japanese COPD patients [<xref ref-type="bibr" rid="B8">8</xref>] have been reported. These suggest that even for the Japanese, cardiovascular disease is a significant comorbidity in COPD patients. Moreover, the number of COPD patients in Japan is estimated to be 5 million [<xref ref-type="bibr" rid="B5">5</xref>]. However, only 170 thousand are diagnosed with and treated for COPD [<xref ref-type="bibr" rid="B9">9</xref>]. Therefore, the true cause of death in Japanese COPD patients including undiagnosed individuals has not been assessed, and the association between airflow obstruction and cardiovascular death has not been elucidated in ethnicities with a low cardiovascular death rate, such as the Japanese. To assess these issues, analyses regarding the cause of death among subjects with airflow obstruction, mainly consisting of COPD patients, in the Japanese general population cohort should be useful [<xref ref-type="bibr" rid="B10">10</xref>-<xref ref-type="bibr" rid="B16">16</xref>].</p>
+			<p>We hypothesized that subjects with airflow obstruction in the general Japanese population have a higher cardiovascular death rate and that a lower level of FEV<sub>1</sub> is a risk factor for a cardiovascular death. The aim of this study was to evaluate the cause of death in subjects with airflow obstruction and the association of a lower level of FEV<sub>1</sub> with cardiovascular death in a Japanese population that participated in an annual health check in the town of Takahata, Yamagata, Japan.</p>
+		</sec>
+		<sec id="s2" sec-type="methods">
+			<title>Methods</title>
+			<sec id="s2.1">
+				<title>Study population</title>
+				<p>This study was part of the Molecular Epidemiological Study utilizing the Regional Characteristics of 21<sup>st</sup> Century Centers of Excellence (COE) Program and the Global COE Program in Japan [<xref ref-type="bibr" rid="B13">13</xref>,<xref ref-type="bibr" rid="B15">15</xref>]. The ethics committee of the Yamagata University School of Medicine approved the study, and all participants provided written informed consent.</p>
+				<p>The study was based on an annual community health check, in which all residents aged 40 years or older in the northern Japanese town of Takahata were invited to participate. From 2004 to 2006, 1579 men and 1941 women (a total of 3520 subjects) were enrolled in this study. A total of 267 subjects were excluded from the analysis because of insufficient spirometry data or objection to follow-up. The data for a total of 3253 subjects (1500 men; 1753 women) were entered into the final statistical analysis [<xref ref-type="bibr" rid="B13">13</xref>,<xref ref-type="bibr" rid="B15">15</xref>]. Subjects used a self-reported questionnaire to document their medical history, smoking habits, current medication use, and clinical symptoms. Eleven men and 10 women were receiving therapy for pulmonary diseases. However, information on the precise diagnosis of their diseases and prescription usage was not available in the database. The lifetime consumption of cigarette smoke was assessed using pack-years (daily number of cigarette packs × years). To investigate the association between spirometric values and prognosis, a follow-up survey was performed annually until the end of 2010 [<xref ref-type="bibr" rid="B17">17</xref>,<xref ref-type="bibr" rid="B18">18</xref>]. The median follow-up period was 6.2 years. During this follow-up period, 127 subjects died. Subjects who moved during the follow-up period were identified by residence transfer documents (n = 37). The cause of death was determined by reviewing death certificates through the end of 2010. The death code (International Classification of Diseases, 10<sup>th</sup> Revision) and the date and place of death were reviewed [<xref ref-type="bibr" rid="B17">17</xref>,<xref ref-type="bibr" rid="B18">18</xref>].</p>
+			</sec>
+			<sec id="s2.2">
+				<title>Measurements</title>
+				<p>Blood pressure (systolic and diastolic) was measured using a mercury sphygmomanometer. Blood samples were taken from the antecubital vein of subjects who had been fasting, and the samples were immediately transferred to chilled tubes. Spirometric parameters (forced vital capacity [FVC] and FEV<sub>1</sub>) were measured using standard techniques, with subjects performing FVC maneuvers on a CHESTAC-25 part II EX instrument (Chest Corp, Tokyo, Japan), according to the guidelines of the Japanese Respiratory Society (JRS) [<xref ref-type="bibr" rid="B19">19</xref>]. A bronchodilator was not administered prior to spirometry. The highest value from at least 3 FVC maneuvers from each subject was used for the analysis. After excluding those subjects with inadequate data, the results were assessed by 2 pulmonary physicians who visually inspected the flow-volume curves, as defined by the JRS criteria [<xref ref-type="bibr" rid="B19">19</xref>]. An airflow obstruction was defined as FEV<sub>1</sub>/FVC &lt; 0.70, instead of FEV<sub>1</sub>/VC &lt; 5<sup>th</sup> percentile of the predicted value [<xref ref-type="bibr" rid="B20">20</xref>], because FEV<sub>1</sub>/FVC &lt; 0.7 is more common. Of 2095 never-smokers and 1158 current/past smokers, 127 (6.1%) and 211 (18.2%) subjects had airflow obstruction, respectively.</p>
+			</sec>
+			<sec id="s2.3">
+				<title>Statistical analysis</title>
+				<p>For continuous variables, data are presented as mean values (SD). Student’s <italic>t</italic> test for parametric data and the Mann–Whitney <italic>U</italic> test for non-parametric data were used to analyze the differences between the 2 groups. The χ<sup>2</sup> test was performed to evaluate the differences in proportion. A Kaplan–Meier method with log-rank test was performed to examine the relationship between airflow obstruction and all-cause and cardiovascular mortality. Cox proportional hazard analyses were performed to assess if the FEV<sub>1</sub>% predicted or the tertiles of FEV<sub>1</sub>% predicted were associated with the all-cause and cardiovascular mortality, independent of the other possible confounding factors. The results of the Cox proportional hazard analyses are presented as hazard ratios (HR) with 95% confidence intervals (CI). A statistical significance was inferred for two-sided <italic>P</italic> values &lt; 0.05. For the evaluation of the goodness of fit, the overall model fit for sequential models was compared using the Akaike information criterion (AIC), which takes into account both the statistical goodness of fit and the number of parameters required to achieve this particular degree of fit, by imposing a penalty for increasing the number of parameters. AIC values were obtained by using the following formula: AIC = -2 × (maximum log likelihood) + 2 × (number of parameters) [<xref ref-type="bibr" rid="B21">21</xref>,<xref ref-type="bibr" rid="B22">22</xref>]. Lower AIC values indicate better models. In practice, the difference in an AIC of 1 or greater between the models means a superior fit for the model that has a lower AIC [<xref ref-type="bibr" rid="B23">23</xref>-<xref ref-type="bibr" rid="B25">25</xref>]. A receiver operator characteristics (ROC) curve analysis, as well as area under the curve (AUC) was used as a measure of the predictive accuracy of FEV<sub>1</sub> on all-cause death and cardiovascular death. In addition, we calculated the net reclassification improvement (NRI) and the integrated discrimination improvement (IDI) in order to measure the quantity of improvement for the correct reclassification and sensitivity according to the addition of FEV<sub>1</sub> to the model [<xref ref-type="bibr" rid="B26">26</xref>]. Statistical analyses were performed using JMP version 9 software (SAS Institute Inc, Cary, NC) or R 3.0.2 with additional packages (Rcmdr, Epi, pROC and PredictABEL).</p>
+			</sec>
+		</sec>
+		<sec id="s3" sec-type="results">
+			<title>Results</title>
+			<sec id="s3.1">
+				<title>Comparison of characteristics between subjects who were alive and subjects who had died by the end of the study follow-up</title>
+				<p>During the median 6.2-year follow-up, 127 subjects died. The differences in age, sex, body mass index (BMI), smoking status, and pulmonary functions, as well as the proportion receiving therapy for respiratory diseases, hypertension, cardiac diseases, stroke, and dyslipidemia, between the subjects who had died and those who were alive at the end of the follow-up period, are summarized in <xref ref-type="table" rid="pone-0083725-t001">Table 1</xref>. </p>
+				<table-wrap id="pone-0083725-t001" position="float" orientation="portrait">
+					<object-id pub-id-type="doi">10.1371/journal.pone.0083725.t001</object-id><label>Table 1</label>
+					<caption>
+						<title>Comparison of characteristics between subjects who were alive and subjects who had died by the end of the study follow-up.</title>
+					</caption>
+					<table>
+						<colgroup span="1"><col span="1" /><col span="1" /><col span="1" /><col span="1" /></colgroup>
+						<thead>
+							<tr>
+								<th rowspan="1" colspan="1" />
+								<th rowspan="1" colspan="1">subjects who were alive at the end of follow-up period (n = 3126)</th>
+								<th rowspan="1" colspan="1">subjects who had died by the end of follow-up period (n = 127)</th>
+								<th rowspan="1" colspan="1"><italic>P</italic></th>
+							</tr>
+						</thead>
+						<tbody>
+							<tr>
+								<td rowspan="1" colspan="1">age</td>
+								<td rowspan="1" colspan="1">61.9 (10.3)</td>
+								<td rowspan="1" colspan="1">71.6 (8.2)</td>
+								<td rowspan="1" colspan="1">&lt;0.0001</td>
+							</tr>
+							<tr>
+								<td rowspan="1" colspan="1">male</td>
+								<td rowspan="1" colspan="1">45.1%</td>
+								<td rowspan="1" colspan="1">71.7%</td>
+								<td rowspan="1" colspan="1">&lt;0.0001</td>
+							</tr>
+							<tr>
+								<td rowspan="1" colspan="1">BMI</td>
+								<td rowspan="1" colspan="1">23.5 (3.2)</td>
+								<td rowspan="1" colspan="1">22.6 (3.5)</td>
+								<td rowspan="1" colspan="1">0.001</td>
+							</tr>
+							<tr>
+								<td rowspan="1" colspan="1">Smoking status, %, never/current/past</td>
+								<td rowspan="1" colspan="1">64.8/18.9/16.3</td>
+								<td rowspan="1" colspan="1">52.8/23.6/23.6</td>
+								<td rowspan="1" colspan="1">0.017</td>
+							</tr>
+							<tr>
+								<td rowspan="1" colspan="1">Pack-years #</td>
+								<td rowspan="1" colspan="1">9.5 (19.1)</td>
+								<td rowspan="1" colspan="1">16.5 (25.7)</td>
+								<td rowspan="1" colspan="1">0.0002</td>
+							</tr>
+							<tr>
+								<td rowspan="1" colspan="1">FVC% predicted </td>
+								<td rowspan="1" colspan="1">98.8 (14.4)</td>
+								<td rowspan="1" colspan="1">95.1 (19.3)</td>
+								<td rowspan="1" colspan="1">0.0051</td>
+							</tr>
+							<tr>
+								<td rowspan="1" colspan="1">FEV<sub>1</sub>% predicted </td>
+								<td rowspan="1" colspan="1">98.0 (16.2)</td>
+								<td rowspan="1" colspan="1">92.0 (23.2)</td>
+								<td rowspan="1" colspan="1">&lt;0.0001</td>
+							</tr>
+							<tr>
+								<td rowspan="1" colspan="1">FEV<sub>1</sub>/FVC </td>
+								<td rowspan="1" colspan="1">78.7 (7.6)</td>
+								<td rowspan="1" colspan="1">75.0 (11.0)</td>
+								<td rowspan="1" colspan="1">&lt;0.0001</td>
+							</tr>
+							<tr>
+								<td rowspan="1" colspan="1">airflow obstruction</td>
+								<td rowspan="1" colspan="1">9.80%</td>
+								<td rowspan="1" colspan="1">24.40%</td>
+								<td rowspan="1" colspan="1">&lt;0.0001</td>
+							</tr>
+							<tr>
+								<td rowspan="1" colspan="1">respiratory disease therapy</td>
+								<td rowspan="1" colspan="1">0.64%</td>
+								<td rowspan="1" colspan="1">0.79%</td>
+								<td rowspan="1" colspan="1">0.843</td>
+							</tr>
+							<tr>
+								<td rowspan="1" colspan="1">hypertension therapy</td>
+								<td rowspan="1" colspan="1">34.4%</td>
+								<td rowspan="1" colspan="1">48.0%</td>
+								<td rowspan="1" colspan="1">0.002</td>
+							</tr>
+							<tr>
+								<td rowspan="1" colspan="1">cardiac disease therapy</td>
+								<td rowspan="1" colspan="1">7.4%</td>
+								<td rowspan="1" colspan="1">14.2%</td>
+								<td rowspan="1" colspan="1">0.011</td>
+							</tr>
+							<tr>
+								<td rowspan="1" colspan="1">stroke therapy</td>
+								<td rowspan="1" colspan="1">1.76%</td>
+								<td rowspan="1" colspan="1">4.72%</td>
+								<td rowspan="1" colspan="1">0.041</td>
+							</tr>
+							<tr>
+								<td rowspan="1" colspan="1">dyslipidemia therapy</td>
+								<td rowspan="1" colspan="1">12.2%</td>
+								<td rowspan="1" colspan="1">3.9%</td>
+								<td rowspan="1" colspan="1">0.001</td>
+							</tr>
+						</tbody>
+					</table>
+					<table-wrap-foot>
+						<fn id="ngtab1.u1">
+							<p>#Pack-years were available for 2811 of those subjects who were alive and 113 of those who had died.</p>
+						</fn>
+						<fn>
+							<p>Data are expressed as mean (SD) or percentage.</p>
+						</fn>
+						<fn>
+							<p>FVC, forced vital capacity; FEV<sub>1</sub>, forced expiratory volume in 1 s.</p>
+						</fn>
+					</table-wrap-foot>
+				</table-wrap>
+				<p>At the end of the follow-up period, the subjects who had died were significantly older, more likely male, less obese, and more likely a current or past smoker, as well as had more cigarette smoke exposure, than that of those subjects who were alive. The FVC, FEV<sub>1</sub>, and FEV<sub>1</sub>/FVC were significantly lower and the percentage of airflow obstruction was higher in the subjects who had died than that of those who were alive. In addition, the subjects who had died during the follow-up period were receiving more hypertension, cardiac disease, and stroke treatments and less dyslipidemia treatments, compared to that of the subjects were alive at the end of the study. Respiratory disease therapies were not administered to many subjects in this study population. There was no difference regarding the proportion of subjects receiving respiratory therapy between those who were alive and those who had died during the follow-up period.</p>
+			</sec>
+			<sec id="s3.2">
+				<title>Cause of death for the subjects with and without airflow obstruction</title><p>As summarized in <xref ref-type="table" rid="pone-0083725-t002">Table 2</xref>, in this study group, the top 3 causes of death were neoplasms (total, 35.4%; lung cancer, 9.4%; and other organ neoplasm, 26.0%), cardiovascular disease (26.8%), and respiratory failure (21.2%). Of the total 3253 subjects, 338 subjects had airflow obstruction. In subjects without airflow obstruction, the top 3 causes of death were neoplasms (total, 32.3%; lung cancer, 2.1%; and other organ neoplasms, 30.2%), cardiovascular disease (26.0%), and respiratory failure (22.9%), while the top 3 causes in subjects with airflow obstruction were respiratory failure (32.3%), neoplasms (total, 29.0%; lung cancer, 16.1%; and other organ neoplasms, 12.9%), and cardiovascular disease (29.0%). With cardiovascular disease, 16 deaths were related to myocardial infarction, specifically, 9 subjects without airflow obstruction and 7 with airflow obstruction. In this study population, in total, all-cause death rates were 3.90%, with 3.29% for subjects without airflow obstruction and 9.17% for subjects with airflow obstruction. Death rates related to all causes, respiratory failure, lung cancer, and cardiovascular disease were significantly higher for subjects with airflow obstruction than those without (<xref ref-type="table" rid="pone-0083725-t002">Table 2</xref>). The myocardial infarction death rate was 0.49% in total; the myocardial infarction death rate for subjects with airflow obstruction (2.07%) was higher than that of subjects without airflow obstruction (0.31%). As shown in <xref ref-type="table" rid="pone-0083725-t003">Table 3</xref>, relative risks of death from all causes, respiratory failure, lung cancer, and cardiovascular disease, in particular, myocardial infarction, were significantly elevated with the presence of airflow obstruction.</p>
+				<table-wrap id="pone-0083725-t002" position="float" orientation="portrait">
+					<object-id pub-id-type="doi">10.1371/journal.pone.0083725.t002</object-id><label>Table 2</label>
+					<caption>
+						<title>Cause of death relative to airflow obstruction in this study.</title>
+					</caption>
+					<table>
+						<colgroup span="1"><col span="1" /><col span="1" /><col span="1" /><col span="1" /></colgroup>
+						<thead>
+							<tr>
+								<th rowspan="1" colspan="1">Cause of death</th>
+								<th rowspan="1" colspan="1">all subjects (n = 3253)</th>
+								<th rowspan="1" colspan="1">subjects without airflow obstruction (n = 2915)</th>
+								<th rowspan="1" colspan="1">subjects with airflow obstruction (n = 338)</th>
+							</tr>
+						</thead>
+						<tbody>
+							<tr>
+								<td rowspan="1" colspan="1">Respiratory failure</td>
+								<td rowspan="1" colspan="1">27 (21.2%, 0.83%)</td>
+								<td rowspan="1" colspan="1">17 (17.7%, 0.58%)</td>
+								<td rowspan="1" colspan="1">10 (32.3%, 2.96%<xref ref-type="table-fn" rid="ngtab2.1">*</xref>)</td>
+							</tr>
+							<tr>
+								<td rowspan="1" colspan="1">Lung cancer</td>
+								<td rowspan="1" colspan="1">12 (9.4%, 0.37%)</td>
+								<td rowspan="1" colspan="1">7 (2.1%, 0.07%)</td>
+								<td rowspan="1" colspan="1">5 (16.1%, 1.48%<xref ref-type="table-fn" rid="ngtab2.1">*</xref>)</td>
+							</tr>
+							<tr>
+								<td rowspan="1" colspan="1">Cardiovascular disease</td>
+								<td rowspan="1" colspan="1">34 (26.8%, 1.05%)</td>
+								<td rowspan="1" colspan="1">25 (26.0%, 0.86%)</td>
+								<td rowspan="1" colspan="1">9 (29.0%, 2.66%<xref ref-type="table-fn" rid="ngtab2.1">*</xref>)</td>
+							</tr>
+							<tr>
+								<td rowspan="1" colspan="1">Other organ neoplasms</td>
+								<td rowspan="1" colspan="1">33 (26.0%, 1.01%)</td>
+								<td rowspan="1" colspan="1">29 (30.2%, 0.99%)</td>
+								<td rowspan="1" colspan="1">4 (12.9%, 1.18%)</td>
+							</tr>
+							<tr>
+								<td rowspan="1" colspan="1">Others<hr /></td>
+								<td rowspan="1" colspan="1">21 (16.5%, 0.65%)<hr /></td>
+								<td rowspan="1" colspan="1">18 (18.8%, 0.62%)<hr /></td>
+								<td rowspan="1" colspan="1">3 (9.7%, 0.89%)<hr /></td>
+							</tr>
+							<tr>
+								<td rowspan="1" colspan="1">All causes </td>
+								<td rowspan="1" colspan="1">127 (100%, 3.90%)</td>
+								<td rowspan="1" colspan="1">96 (100%, 3.29%)</td>
+								<td rowspan="1" colspan="1">31 (100%, 9.17%<xref ref-type="table-fn" rid="ngtab2.1">*</xref>)</td>
+							</tr>
+						</tbody>
+					</table>
+					<table-wrap-foot>
+						<fn id="ngtab2.1">
+							<label>*</label>
+							<p>: P &lt; 0.05 versus subjects without airflow obstruction (χ<sup>2</sup> test)</p>
+						</fn>
+						<fn>
+							<p>Data are expressed as number of deaths (percentage for the number of all-cause deaths in each category and the percentage for the total number of subjects in each category).</p>
+						</fn>
+					</table-wrap-foot>
+				</table-wrap>
+				<table-wrap id="pone-0083725-t003" position="float" orientation="portrait">
+					<object-id pub-id-type="doi">10.1371/journal.pone.0083725.t003</object-id><label>Table 3</label>
+					<caption>
+						<title>Increase in relative risk of death with airflow obstruction.</title>
+					</caption>
+					<table>
+						<colgroup span="1"><col span="1" /><col span="1" /><col span="1" /><col span="1" /></colgroup>
+						<thead>
+							<tr>
+								<th rowspan="1" colspan="1">Cause of death</th>
+								<th rowspan="1" colspan="1">relative risk</th>
+								<th rowspan="1" colspan="1">95% confidence interval</th>
+								<th rowspan="1" colspan="1"><italic>P</italic></th>
+							</tr>
+						</thead>
+						<tbody>
+							<tr>
+								<td rowspan="1" colspan="1">All causes</td>
+								<td rowspan="1" colspan="1">2.78</td>
+								<td rowspan="1" colspan="1">1.89–4.11</td>
+								<td rowspan="1" colspan="1">&lt;0.0001</td>
+							</tr>
+							<tr>
+								<td rowspan="1" colspan="1">Respiratory failure</td>
+								<td rowspan="1" colspan="1">5.07</td>
+								<td rowspan="1" colspan="1">2.34–10.99</td>
+								<td rowspan="1" colspan="1">&lt;0.0001</td>
+							</tr>
+							<tr>
+								<td rowspan="1" colspan="1">Lung cancer</td>
+								<td rowspan="1" colspan="1">6.16</td>
+								<td rowspan="1" colspan="1">1.97–19.30</td>
+								<td rowspan="1" colspan="1">0.0004</td>
+							</tr>
+							<tr>
+								<td rowspan="1" colspan="1">Cardiovascular disease</td>
+								<td rowspan="1" colspan="1">3.10</td>
+								<td rowspan="1" colspan="1">1.46–6.60</td>
+								<td rowspan="1" colspan="1">0.002</td>
+							</tr>
+							<tr>
+								<td rowspan="1" colspan="1">Myocardial infarction</td>
+								<td rowspan="1" colspan="1">6.70</td>
+								<td rowspan="1" colspan="1">2.51 - 17.90</td>
+								<td rowspan="1" colspan="1">&lt;0.0001</td>
+							</tr>
+						</tbody>
+					</table>
+					<table-wrap-foot>
+						<fn>
+							<p>References were the mortality risk of the subjects without airflow obstruction.</p>
+						</fn>
+					</table-wrap-foot>
+				</table-wrap>
+			</sec>
+			<sec id="s3.3">
+				<title>Kaplan–Meier and Cox proportional hazard analyses</title>
+				<p><xref ref-type="fig" rid="pone-0083725-g001">Figure 1A and 1B</xref> show the survival rates for all-cause and cardiovascular mortality according to the severity of airflow obstruction. The survival rate was significantly reduced with a worsening severity of airflow obstruction. Because the subjects with airflow obstruction in this study were older and more likely male and had more cigarette-smoke exposure than that of subjects without obstruction, a Cox proportional hazard analysis was performed to adjust for possible confounding factors (<xref ref-type="table" rid="pone-0083725-t004">Table 4</xref>). We applied representative variates that could influence the prognosis of the subjects, such as age, gender, body mass index (BMI), lifetime cigarette consumption (pack-years), hypertension (systolic blood pressure), liver function (alanine aminotransferase), renal function (serum creatinine), diabetes (hemoglobin A1c), and dyslipidemia (triglyceride and total cholesterol) to this analysis. A lower level of FEV<sub>1</sub>% predicted was a significant risk factor for all-cause mortality, independent of the other possible confounding factors (<xref ref-type="table" rid="pone-0083725-t004">Table 4</xref>). In univariate Cox proportional hazard analyses, a lower level of FEV<sub>1</sub> was a risk factor for mortality of cardiovascular disease and respiratory failure but not for death by lung cancer (<xref ref-type="table" rid="pone-0083725-t005">Table 5</xref>). In multivariate Cox proportional hazard analyses, a lower level of FEV<sub>1</sub>% predicted was a significant risk factor for cardiovascular mortality but not for death by lung cancer or respiratory failure, independent of the other possible confounding factors (<xref ref-type="table" rid="pone-0083725-t006">Table 6</xref>). As shown in <xref ref-type="fig" rid="pone-0083725-g002">Figure 2</xref>, the relationship between the tertiles of FEV<sub>1</sub>% predicted and the logarithmically transformed value of those hazard ratios was linear. In order to examine whether model fit and discrimination improves with the addition of FEV<sub>1</sub> to the basic predictors, age and sex, we evaluated the difference between AIC and AUC in the ROC curves, as well as the improvement of NRI and IDI between two models with or without FEV1% predicted as a predictive parameter (<xref ref-type="table" rid="pone-0083725-t007">Tables 7</xref> and <xref ref-type="table" rid="pone-0083725-t008">8</xref>). The differences in AIC with the Cox proportional analyses between the two models were 3.0 and 14.7 for all-cause (<xref ref-type="table" rid="pone-0083725-t007">Table 7</xref>) and cardiovascular mortality (<xref ref-type="table" rid="pone-0083725-t008">Table 8</xref>), respectively. The AUC in the ROC curve for cardiovascular mortality was significantly greater in the model including FEV<sub>1</sub>% predicted than those not including it, while the AUC in the ROC curve for all-cause mortality in the model including FEV<sub>1</sub>% predicted did not significantly differ from those not including it. Furthermore, the inclusion of FEV<sub>1</sub>% predicted in the model with age and sex for the prediction of cardiovascular death improved the NRI and IDI values, suggesting effective reclassification and discrimination, although the inclusion of FEV<sub>1</sub>% predicted in the model with age and sex for all-cause death prediction did not.</p>
+				<fig id="pone-0083725-g001" position="float" orientation="portrait">
+					<object-id pub-id-type="doi">10.1371/journal.pone.0083725.g001</object-id><label>Figure 1</label>
+					<caption>
+						<title>Kaplan–Meier survival curve for all-cause and cardiovascular mortality according to the severity of airflow obstruction using the cutoff of FEV<sub>1</sub>% predicted 50%.</title>
+					</caption>
+					<graphic xlink:type="simple" position="float" xlink:href="info:doi/10.1371/journal.pone.0083725.g001" orientation="portrait" />
+				</fig>
+				<table-wrap id="pone-0083725-t004" position="float" orientation="portrait">
+					<object-id pub-id-type="doi">10.1371/journal.pone.0083725.t004</object-id><label>Table 4</label>
+					<caption>
+						<title>A lower level of FEV<sub>1</sub> is an independent risk factor for all-cause mortality.</title>
+					</caption>
+					<table>
+						<colgroup span="1"><col span="1" /><col span="1" /><col span="1" /><col span="1" /></colgroup>
+						<thead>
+							<tr>
+								<th rowspan="1" colspan="1" />
+								<th rowspan="1" colspan="1">HR</th>
+								<th rowspan="1" colspan="1">95% CI</th>
+								<th rowspan="1" colspan="1"><italic>P</italic></th>
+							</tr>
+						</thead>
+						<tbody>
+							<tr>
+								<td rowspan="1" colspan="1">age (per 1-year increase)</td>
+								<td rowspan="1" colspan="1">1.11</td>
+								<td rowspan="1" colspan="1">1.08–1.14</td>
+								<td rowspan="1" colspan="1">&lt;0.0001</td>
+							</tr>
+							<tr>
+								<td rowspan="1" colspan="1">male (versus female)</td>
+								<td rowspan="1" colspan="1">2.25</td>
+								<td rowspan="1" colspan="1">1.42–3.61</td>
+								<td rowspan="1" colspan="1">0.0006</td>
+							</tr>
+							<tr>
+								<td rowspan="1" colspan="1">BMI (per 1 kg/m<sup>2</sup> increase)</td>
+								<td rowspan="1" colspan="1">0.95</td>
+								<td rowspan="1" colspan="1">0.89–1.01</td>
+								<td rowspan="1" colspan="1">0.09</td>
+							</tr>
+							<tr>
+								<td rowspan="1" colspan="1">pack-years (per 1 pack-year increase)</td>
+								<td rowspan="1" colspan="1">1.00</td>
+								<td rowspan="1" colspan="1">0.99–1.01</td>
+								<td rowspan="1" colspan="1">0.493</td>
+							</tr>
+							<tr>
+								<td rowspan="1" colspan="1">systolic BP (per 1-mmHg increase)</td>
+								<td rowspan="1" colspan="1">1.00</td>
+								<td rowspan="1" colspan="1">0.98–1.01</td>
+								<td rowspan="1" colspan="1">0.681</td>
+							</tr>
+							<tr>
+								<td rowspan="1" colspan="1">ALT (per 1 IU/L increase)</td>
+								<td rowspan="1" colspan="1">1.01</td>
+								<td rowspan="1" colspan="1">0.99–1.02</td>
+								<td rowspan="1" colspan="1">0.334</td>
+							</tr>
+							<tr>
+								<td rowspan="1" colspan="1">sCr (per 1 mg/dL increase)</td>
+								<td rowspan="1" colspan="1">1.18</td>
+								<td rowspan="1" colspan="1"> 0.56–1.76</td>
+								<td rowspan="1" colspan="1">0.576</td>
+							</tr>
+							<tr>
+								<td rowspan="1" colspan="1">HbA1c (per 1% increase)</td>
+								<td rowspan="1" colspan="1">1.04</td>
+								<td rowspan="1" colspan="1">0.79–1.29</td>
+								<td rowspan="1" colspan="1">0.773</td>
+							</tr>
+							<tr>
+								<td rowspan="1" colspan="1">TG (per 1 mg/dL increase)</td>
+								<td rowspan="1" colspan="1">1.00</td>
+								<td rowspan="1" colspan="1">1.00–1.00</td>
+								<td rowspan="1" colspan="1">0.989</td>
+							</tr>
+							<tr>
+								<td rowspan="1" colspan="1">TC (per 1 mg/dL increase)</td>
+								<td rowspan="1" colspan="1">1.00</td>
+								<td rowspan="1" colspan="1">0.99–1.00</td>
+								<td rowspan="1" colspan="1">0.415</td>
+							</tr>
+							<tr>
+								<td rowspan="1" colspan="1">FEV<sub>1</sub>% predicted (per 10% increase)</td>
+								<td rowspan="1" colspan="1">0.89</td>
+								<td rowspan="1" colspan="1">0.82–0.98</td>
+								<td rowspan="1" colspan="1">0.019</td>
+							</tr>
+						</tbody>
+					</table>
+					<table-wrap-foot>
+						<fn>
+							<p>Cox proportional hazard analysis.</p>
+						</fn>
+						<fn>
+							<p>ALT, alanine aminotransferase; BMI, body mass index; BP, blood pressure; CI, confidence interval; Cig., cigarette; FEV<sub>1</sub>, forced expiratory volume in 1 s; HbA1c, hemoglobin A1c; HR, hazard ratio; sCr, serum creatinine; TC, total cholesterol; TG, triglyceride.</p>
+						</fn>
+					</table-wrap-foot>
+				</table-wrap>
+				<table-wrap id="pone-0083725-t005" position="float" orientation="portrait">
+					<object-id pub-id-type="doi">10.1371/journal.pone.0083725.t005</object-id><label>Table 5</label>
+					<caption>
+						<title>A lower level of FEV<sub>1</sub> is a risk factor for mortality of cardiovascular disease and respiratory failure but not for death by lung cancer.</title>
+					</caption>
+					<table>
+						<colgroup span="1"><col span="1" /><col span="1" /><col span="1" /><col span="1" /></colgroup>
+						<thead>
+							<tr>
+								<th rowspan="1" colspan="1">cause of mortality</th>
+								<th rowspan="1" colspan="1">HR</th>
+								<th rowspan="1" colspan="1">95% CI</th>
+								<th rowspan="1" colspan="1"><italic>P</italic></th>
+							</tr>
+						</thead>
+						<tbody>
+							<tr>
+								<td rowspan="1" colspan="1">cardiovascular disease</td>
+								<td rowspan="1" colspan="1">0.63</td>
+								<td rowspan="1" colspan="1">0.54–0.74</td>
+								<td rowspan="1" colspan="1">&lt;0.0001</td>
+							</tr>
+							<tr>
+								<td rowspan="1" colspan="1">lung cancer</td>
+								<td rowspan="1" colspan="1">1.01</td>
+								<td rowspan="1" colspan="1">0.73–1.44</td>
+								<td rowspan="1" colspan="1">0.956</td>
+							</tr>
+							<tr>
+								<td rowspan="1" colspan="1">respiratory failure</td>
+								<td rowspan="1" colspan="1">0.74</td>
+								<td rowspan="1" colspan="1">0.61–0.90</td>
+								<td rowspan="1" colspan="1">0.0038</td>
+							</tr>
+						</tbody>
+					</table>
+					<table-wrap-foot>
+						<fn>
+							<p>Cox proportional hazard analysis (unadjusted). HRs for per 10% increase in FEV<sub>1</sub>% predicted are shown.</p>
+						</fn>
+						<fn>
+							<p>CI, confidence interval; FEV1, forced expiratory volume in 1 s; HR, hazard ratio</p>
+						</fn>
+					</table-wrap-foot>
+				</table-wrap>
+				<table-wrap id="pone-0083725-t006" position="float" orientation="portrait">
+					<object-id pub-id-type="doi">10.1371/journal.pone.0083725.t006</object-id><label>Table 6</label>
+					<caption>
+						<title>A lower level of FEV<sub>1</sub> is an independent risk factor for cardiovascular mortality but not for death by lung cancer or respiratory failure.</title>
+					</caption>
+					<table>
+						<colgroup span="1"><col span="1" /><col span="1" /><col span="1" /><col span="1" /></colgroup>
+						<thead>
+							<tr>
+								<th rowspan="1" colspan="1">cause of mortality</th>
+								<th rowspan="1" colspan="1">HR</th>
+								<th rowspan="1" colspan="1">95% CI</th>
+								<th rowspan="1" colspan="1"><italic>P</italic></th>
+							</tr>
+						</thead>
+						<tbody>
+							<tr>
+								<td rowspan="1" colspan="1">cardiovascular disease</td>
+								<td rowspan="1" colspan="1">0.72</td>
+								<td rowspan="1" colspan="1">0.61–0.86</td>
+								<td rowspan="1" colspan="1">0.0002</td>
+							</tr>
+							<tr>
+								<td rowspan="1" colspan="1">lung cancer</td>
+								<td rowspan="1" colspan="1">1.07</td>
+								<td rowspan="1" colspan="1">0.78–1.51</td>
+								<td rowspan="1" colspan="1">0.700</td>
+							</tr>
+							<tr>
+								<td rowspan="1" colspan="1">respiratory failure</td>
+								<td rowspan="1" colspan="1">0.83</td>
+								<td rowspan="1" colspan="1">0.69–1.01</td>
+								<td rowspan="1" colspan="1">0.066</td>
+							</tr>
+						</tbody>
+					</table>
+					<table-wrap-foot>
+						<fn>
+							<p>Cox proportional hazard analysis (multivariate). Data were adjusted for age, gender, BMI, pack-years, systolic BP, ALT, sCr, HbA1c, TG, and TC. HRs for per 10% increase in FEV<sub>1</sub>% predicted are shown.</p>
+						</fn>
+						<fn>
+							<p>CI, confidence interval; FEV<sub>1</sub>, forced expiratory volume in 1 s; HR, hazard ratio.</p>
+						</fn>
+					</table-wrap-foot>
+				</table-wrap>
+				<table-wrap id="pone-0083725-t007" position="float" orientation="portrait">
+					<object-id pub-id-type="doi">10.1371/journal.pone.0083725.t007</object-id><label>Table 7</label>
+					<caption>
+						<title>Statistics for model fit and improvement with the addition of FEV<sub>1</sub>% predicted on the prediction of all-cause mortality.</title>
+					</caption>
+					<table>
+						<colgroup span="1"><col span="1" /><col span="1" /><col span="1" /><col span="1" /><col span="1" /></colgroup>
+						<thead>
+							<tr>
+								<th rowspan="1" colspan="1" />
+								<th rowspan="1" colspan="1">Age + Sex</th>
+								<th rowspan="1" colspan="1">Age + Sex + FEV<sub>1</sub>% predicted</th>
+								<th rowspan="1" colspan="1"><italic>P</italic></th>
+								<th rowspan="1" colspan="1">Difference</th>
+							</tr>
+						</thead>
+						<tbody>
+							<tr>
+								<td rowspan="1" colspan="1">AIC</td>
+								<td rowspan="1" colspan="1">1875.4</td>
+								<td rowspan="1" colspan="1">1872.4</td>
+								<td rowspan="1" colspan="1">—</td>
+								<td rowspan="1" colspan="1">3.0</td>
+							</tr>
+							<tr>
+								<td rowspan="1" colspan="1"> AUC of ROC curve</td>
+								<td rowspan="1" colspan="1">0.794</td>
+								<td rowspan="1" colspan="1">0.779</td>
+								<td rowspan="1" colspan="1">0.2455</td>
+								<td rowspan="1" colspan="1">—</td>
+							</tr>
+							<tr>
+								<td rowspan="1" colspan="1">NRI (95% CI)</td>
+								<td rowspan="1" colspan="1">—</td>
+								<td rowspan="1" colspan="1">0.11 (-0.07 to 0.28)</td>
+								<td rowspan="1" colspan="1">0.2265</td>
+								<td rowspan="1" colspan="1">—</td>
+							</tr>
+							<tr>
+								<td rowspan="1" colspan="1">IDI (95% CI)</td>
+								<td rowspan="1" colspan="1">—</td>
+								<td rowspan="1" colspan="1">0.003 (-0.002 to 0.008)</td>
+								<td rowspan="1" colspan="1">0.2517</td>
+								<td rowspan="1" colspan="1">—</td>
+							</tr>
+						</tbody>
+					</table>
+					<table-wrap-foot>
+						<fn>
+							<p>AIC, Akaike information criterion; AUC, area under the curve; CI, confidence interval; FEV<sub>1</sub>, forced expiratory volume in 1 s; IDI, integrated discrimination improvement; NRI, net reclassification improvement; ROC, receiver operator characteristics.</p>
+						</fn>
+					</table-wrap-foot>
+				</table-wrap>
+				<table-wrap id="pone-0083725-t008" position="float" orientation="portrait">
+					<object-id pub-id-type="doi">10.1371/journal.pone.0083725.t008</object-id><label>Table 8</label>
+					<caption>
+						<title>Statistics for model fit and improvement with the addition of FEV<sub>1</sub>% predicted on the prediction of cardiovascular mortality.</title>
+					</caption>
+					<table>
+						<colgroup span="1"><col span="1" /><col span="1" /><col span="1" /><col span="1" /><col span="1" /></colgroup>
+						<thead>
+							<tr>
+								<th rowspan="1" colspan="1" />
+								<th rowspan="1" colspan="1">Age + Sex</th>
+								<th rowspan="1" colspan="1">Age + Sex + FEV<sub>1</sub>% predicted</th>
+								<th rowspan="1" colspan="1"><italic>P</italic></th>
+								<th rowspan="1" colspan="1">Difference</th>
+							</tr>
+						</thead>
+						<tbody>
+							<tr>
+								<td rowspan="1" colspan="1">AIC</td>
+								<td rowspan="1" colspan="1">505.8</td>
+								<td rowspan="1" colspan="1">491.2</td>
+								<td rowspan="1" colspan="1">—</td>
+								<td rowspan="1" colspan="1">14.7</td>
+							</tr>
+							<tr>
+								<td rowspan="1" colspan="1"> AUC of ROC curve</td>
+								<td rowspan="1" colspan="1">0.773</td>
+								<td rowspan="1" colspan="1">0.794</td>
+								<td rowspan="1" colspan="1">0.0019</td>
+								<td rowspan="1" colspan="1">—</td>
+							</tr>
+							<tr>
+								<td rowspan="1" colspan="1">NRI (95% CI)</td>
+								<td rowspan="1" colspan="1">—</td>
+								<td rowspan="1" colspan="1">0.342 (0.01 to 0.68)</td>
+								<td rowspan="1" colspan="1">0.0455</td>
+								<td rowspan="1" colspan="1">—</td>
+							</tr>
+							<tr>
+								<td rowspan="1" colspan="1">IDI (95% CI)</td>
+								<td rowspan="1" colspan="1">—</td>
+								<td rowspan="1" colspan="1">0.019 (0.002 to 0.04)</td>
+								<td rowspan="1" colspan="1">0.0329</td>
+								<td rowspan="1" colspan="1">—</td>
+							</tr>
+						</tbody>
+					</table>
+					<table-wrap-foot>
+						<fn>
+							<p>AIC, Akaike information criterion; AUC, area under the curve; CI, confidence interval; FEV<sub>1</sub>, forced expiratory volume in 1 s; IDI, integrated discrimination improvement; NRI, net reclassification improvement; ROC, receiver operator characteristics</p>
+						</fn>
+					</table-wrap-foot>
+				</table-wrap>
+				<p>Graphs show the survival curve in all-cause (A) and cardiovascular (B) mortality relative to the severity of airflow obstruction using the cutoff of FEV<sub>1</sub>% predicted 50%. The red curve indicates the survival rate of subjects without airflow obstruction. The green indicates an FEV<sub>1</sub>% predicted ≥ 50 airflow obstruction. The blue indicates an FEV<sub>1</sub>% predicted &lt; 50 airflow obstruction. The survival rate was significantly reduced according to the elevation of severity of airflow obstruction.</p>
+				<fig id="pone-0083725-g002" position="float" orientation="portrait">
+					<object-id pub-id-type="doi">10.1371/journal.pone.0083725.g002</object-id><label>Figure 2</label>
+					<caption>
+						<title>Linear elevation of the hazard ratio for all-cause mortality and cardiovascular mortality relative to the tertiles of FEV<sub>1</sub> % predicted.</title>
+						<p>The graphs show the linear elevation of the hazard ratio (HR) for all-cause (upper) and cardiovascular (lower) mortality according to a decrease in FEV<sub>1</sub>% predicted. Because the hazard ratio is an exponential value of a coefficient of the regression analyses, linearity of the coefficient could be assessed by a natural-log (LN) HR. First tertile (n = 1072; all-cause death = 33; cardiovascular death = 5), FEV<sub>1</sub>% predicted &gt; 104.7%; second tertile (n = 1105; all-cause death = 34; cardiovascular death = 9), FEV<sub>1</sub>% predicted of ≤ 104.7% and &gt;92.0%; and third tertile (n = 1076; all-cause death = 60; cardiovascular death = 20), FEV<sub>1</sub>% predicted ≤ 92.0%. Data were adjusted for age, sex, body mass index, pack-years, systolic blood pressure, alanine aminotransferase, serum creatinine, hemoglobin A1c, triglyceride, and total cholesterol.</p>
+					</caption>
+					<disp-formula id="fig2"><break /></disp-formula>
+					<p>*; <italic>P</italic> &lt; 0.05 versus 1<sup>st</sup> tertile.</p>
+					<graphic xlink:type="simple" position="float" xlink:href="info:doi/10.1371/journal.pone.0083725.g002" orientation="portrait" />
+				</fig>
+				<p>A lower level of FEV<sub>1</sub>% predicted was not an independent risk factor for death by lung cancer or respiratory failure with the other confounding factors (<xref ref-type="table" rid="pone-0083725-t006">Table 6</xref>). The lung cancer deaths for subjects with mild (n = 138; FEV<sub>1</sub>% predicted ≥ 80), moderate (n = 164; 50 ≤ FEV<sub>1</sub>% predicted &lt; 80), and severe (n = 36; FEV<sub>1</sub>% predicted &lt; 50) airflow obstruction were 3 (2.17%), 2 (1.22%), and 0 (0.00%), respectively. Even though smoking status was included in the analyses of <xref ref-type="table" rid="pone-0083725-t004">Tables 4</xref> and <xref ref-type="table" rid="pone-0083725-t006">6</xref>, smoking status was not a significant variate for all-cause, cardiovascular, lung cancer or respiratory failure mortality, and the inclusion of smoking status as a variate in these analyses did not change the significance of FEV<sub>1</sub> for all-cause and cardiovascular mortality (data not shown).</p>
+			</sec>
+		</sec>
+		<sec id="s4" sec-type="discussion">
+			<title>Discussion</title>
+			<p>In this study, we demonstrated that mortalities by all causes, cardiovascular, respiratory failure, and lung cancer were significantly increased in subjects with airflow obstruction, compared to those without airflow obstruction in the Japanese general population. The Kaplan–Meier method and the Cox proportional hazard analyses revealed that a lower level of FEV<sub>1</sub> was a significant risk factor for all-cause and cardiovascular mortality in this population. Because the AIC in the model of the Cox proportional hazard analysis, including age, sex, and FEV<sub>1</sub>% predicted as parameters, was lower than that of model not including FEV<sub>1</sub>% predicted and because the difference in the AICs between the two models was greater than 1, the addition of FEV<sub>1</sub> to the parameters seemed to improve the fitness of the model [<xref ref-type="bibr" rid="B21">21</xref>,<xref ref-type="bibr" rid="B22">22</xref>,<xref ref-type="bibr" rid="B25">25</xref>]. Further analyses revealed that the inclusion of FEV<sub>1</sub> to the basic predictors, age and sex, significantly improved the prediction of cardiovascular death, but not all-cause death, with the model (<xref ref-type="table" rid="pone-0083725-t007">Tables 7</xref> and <xref ref-type="table" rid="pone-0083725-t008">8</xref>).</p>
+			<p>The reports from Western countries have demonstrated a significant association between a lower level of pulmonary function and all-cause and cardiovascular mortality. In the Copenhagen City Heart Study (662 males and 2048 females, from 1976 through 1986), a lower level of FEV<sub>1</sub>% predicted, FVC% predicted, and FEV<sub>1</sub>/FVC were significant risk factors of mortality for never-smokers in a general population, independent of age, sex, BMI, alcohol consumption, school education, diabetes, heart disease, and bronchial asthma [<xref ref-type="bibr" rid="B2">2</xref>]. In the Renfrew and Paisley prospective population study (7058 men and 8353 women, from the year 1972 through 1991), significant trends of increasing risk with a diminishing FEV<sub>1</sub> for all causes of death were observed in both sexes after adjustment for age, cigarette smoking, diastolic BP, cholesterol concentration, BMI, and social class [<xref ref-type="bibr" rid="B1">1</xref>]. Corresponding relative hazard ratios of mortality from ischemic heart disease for the lowest fifth of the FEV<sub>1</sub> distribution were 1.56 (1.26–1.92) in men and 1.88 (1.44–2.47) in women. In the National Health and Nutrition Examination Survey Epidemiologic Follow-up Study (n = 1861, from 1971 through 1992), individuals with the lowest FEV<sub>1</sub> quintile had the highest risk of cardiovascular death (relative risk, 5.65; 95% CI, 2.26–14.13) [<xref ref-type="bibr" rid="B3">3</xref>]. To our knowledge, a lower level of FEV<sub>1</sub> has not been demonstrated as a risk for all-cause and cardiovascular mortality among an Asian population. Compared to individuals in Western countries, Japanese individuals are generally thinner, and the prevalence of ischemic heart disease is lower [<xref ref-type="bibr" rid="B6">6</xref>]. In addition, the surveys demonstrating the association between pulmonary function and cardiovascular mortality were performed over 20 years ago. Due to the differences in ethnicities and the recent advanced therapies for hypertension and dyslipidemia, such as statins and angiotensin receptor blockers, this association has not yet been established for Japanese individuals. The current 7-year study showed that a lower level of FEV<sub>1</sub> was an independent risk factor for all-cause and cardiovascular mortality in the Japanese general population. Our findings confirmed the significance of pulmonary function on prognosis, similar to past studies in a Western population.</p>
+			<p>In the Lung Health Study, subjects with mild-to-moderate airflow obstruction (n = 5887) were followed for 14.5 years; for 23%, the cause of death was a cardiovascular disease [<xref ref-type="bibr" rid="B27">27</xref>]. In the Hokkaido COPD Cohort Study (n = 279), Nishimura and their colleagues reported that 1.8% of COPD patients have cardiovascular comorbidity, and for 12%, the cause of death was a cardiovascular disease during the 5-year follow-up [<xref ref-type="bibr" rid="B28">28</xref>]. In the present study, the proportion of cardiovascular deaths for all-cause mortality (29%) seemed to be higher than that of the Hokkaido COPD Cohort Study. In the Hokkaido COPD Cohort Study, the enrolled subjects were definitely diagnosed in medical institutions and may be optimally treated, including for cardiovascular event risk factors, such as hypertension, diabetes, and dyslipidemia. However, many undiagnosed COPD patients in the general population are unaware of their condition until they develop some symptoms such as shortness of breath. In the present study, most subjects were healthy and had no apparent respiratory symptoms because this cohort was based on the study of an annual health check in a general population. Initially, less than 1% of the subjects in this study population were receiving therapy for respiratory diseases. Even after spirometric examination in the present study, most subjects with airflow obstruction may not have received optimal treatment for their respiratory illness because of a lack of airway symptoms. </p>
+			<p>The Evaluation of COPD Longitudinally to Identify Predictive Surrogate Endpoints (ECLIPSE) study demonstrated that the prevalence of cardiovascular diseases was increased in COPD patients, independent of the severity of airflow obstruction [<xref ref-type="bibr" rid="B29">29</xref>]. In the present study, the cardiovascular death was highly skewed in the subjects with severe airflow obstruction (<xref ref-type="fig" rid="pone-0083725-g001">Figure 1</xref>). In the Understanding Potential Long-Term Impacts on Function with Tiotropium (UPLIFT) study, the use of tiotropium reduced the adverse events of cardiovascular diseases, such as congestive heart failure and myocardial infarction, suggesting that optimal treatment for COPD may reduce cardiovascular events [<xref ref-type="bibr" rid="B30">30</xref>]. The higher rate of cardiovascular death in this study may be related to the low proportion of subjects receiving treatment for a respiratory illness, as compared with a hospital-based cohort (Hokkaido COPD Cohort).</p>
+			<p>Interestingly, this study demonstrated the importance of lung function for the evaluation of the prognosis of subjects who received an annual health check. As shown in <xref ref-type="table" rid="pone-0083725-t004">Table 4</xref>, the Cox proportional hazard analysis demonstrated that the all-cause mortality was more influenced by impaired pulmonary function than that of hypertension, diabetic status, dyslipidemia, and liver and kidney dysfunction in this study population. For cardiovascular death, other confounding factors such as gender, BMI, pack-years, systolic blood pressure, ALT, sCr, HbA1c, TG, and TC were not independent risk factors (data not shown). Therefore, spirometry should be considered and performed for Japanese individuals, along with other routine examinations including BP measurements or other clinical parameters, such as blood glucose and blood lipids.</p>
+			<p>It is widely known that COPD is a risk for lung cancer. However, the Cox proportional hazard analysis failed to show that a lower level of FEV<sub>1</sub> is an independent risk for lung cancer death, although the crude death rate of lung cancer was higher for the subjects with airflow obstruction. In this study, lung cancer deaths were not observed in the subjects with severe airflow obstruction (see the <italic>Results</italic> section). In the BODE COPD observational study, 215 of the 2507 patients with COPD developed lung cancer, and the lung cancer incidence was lower in patients with a high severity of airflow obstruction [<xref ref-type="bibr" rid="B31">31</xref>]. As Cosio and Saetta reviewed, smokers who evade the development of severe COPD by immune system suppression would have a higher incidence of lung cancer than that of smokers who develop severe COPD [<xref ref-type="bibr" rid="B32">32</xref>].</p>
+			<p>As shown in <xref ref-type="table" rid="pone-0083725-t004">Tables 4</xref> and <xref ref-type="table" rid="pone-0083725-t006">6</xref>, cigarette smoking was not an independent risk factor for all-cause and cardiovascular mortality in this study population. It is well known that a lower respiratory function is associated with cigarette smoking, and cigarette smoking is a major risk factor for many diseases including cardiovascular diseases. In this study, information regarding cigarette smoking was obtained from a self-reported questionnaire, and some former smokers may have incorrectly answered their smoking history as never-smokers. However, we could not know how accurate this information regarding their smoking history was. In addition, among 338 subjects with airflow obstruction, 127 subjects (37.6%) were never-smokers. This number of never-smokers with airflow obstruction cannot be ignored and may create difficulty with respect to smoking habit or pack-years as a significant risk factor for all-cause and cardiovascular mortality in this study.</p>
+			<p>This study had several limitations. First, this study collected the baseline information with a 1-time measurement; laboratory and spirometric data usually show day-to-day variation. Second, nonfatal events were not included in this study; that omission might underestimate the association between a lower level of pulmonary function and outcome. Third, information on a final diagnosis of airflow obstruction was not available. In a Japanese adult population, the prevalence of COPD and bronchial asthma was estimated to be about 8.6% and 3%, respectively. These 2 are suggested as the major causes of airflow obstruction in this population. Fourth, sampling bias may exist because employees of public institutions and many companies did not participate in this research because those individuals are annually followed in different health programs. We cannot deny the possibility that differences in jobs or lifestyles between participants and non-participants may have affected the results of this research. Finally, post-bronchodilator spirometric values were not measured in this study. Because sufficient medicines and usual medical devices could not be prepared outside the hospital where the health-checks were performed, bronchodilator use was difficult to assess in the present study. Using post-bronchodilator spirometry substantially reduce the prevalence of subjects with persistent airflow obstruction such as COPD. Although the airflow obstruction observed in the present study may not always persistent, the results obtained in this study indicated that a pre-bronchodilator FEV<sub>1</sub> at a lower level was associated with an increased risk of all-cause and cardiovascular mortality.</p>
+			<p>In conclusion, a lower level of FEV<sub>1</sub> was a significant risk factor for all-cause and cardiovascular mortality in the Japanese general population. Even in ethnicities with a low cardiovascular event rate such as the Japanese, cardiovascular disease is an important comorbidity in subjects with airflow obstruction, namely undiagnosed COPD. In Japan, the recent diffusion rate for spirometry in clinic was less than 20% because of its complicated procedure for general physicians [<xref ref-type="bibr" rid="B33">33</xref>]. If spirometry were widely used by not only respiratory physicians, but also many other physicians including cardiologists, FEV<sub>1</sub> could be a useful indicator for the early detection of high-risk subjects and the prevention of premature death by cardiovascular events.</p>
+		</sec>
+	</body>
+	<back>
+		<ack>
+			<p>We thank Taiko Aita, Emiko Nakamura, Eiji Tsuchida (Yamagata University), Michiko Nishiwaki (Saiseikan Yamagata City Hospital, Yamagata, Japan), Toshihiro Wada (Saiseikan Yamagata City Hospital, Yamagata, Japan), Jun-Ichi Machiya (Nihonkai General Hospital, Sakata, Japan), Noriyuki Hirama (NHO Yamagata National Hospital, Yamagata, Japan), Noriaki Takabatake (Tohoku Central Hospital, Yamagata, Japan), and Makoto Sata (National Cerebral and Cardiovascular Center, Osaka, Japan) for their contribution and excellent assistance. We also thank Toshiro Tango (Center for Medical Statistics, Tokyo, Japan) for evaluating the statistical analyses.</p>
+		</ack>
+		<ref-list>
+			<title>References</title>
+			<ref id="B1">
+				<label>1</label>
+				<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Hole</surname><given-names>DJ</given-names></name>, <name name-style="western"><surname>Watt</surname><given-names>GC</given-names></name>, <name name-style="western"><surname>Davey-Smith</surname><given-names>G</given-names></name>, <name name-style="western"><surname>Hart</surname><given-names>CL</given-names></name>, <name name-style="western"><surname>Gillis</surname><given-names>CR</given-names></name> <etal>et al.</etal> (<year>1996</year>) <article-title>Impaired lung function and mortality risk in men and women: findings from the Renfrew and Paisley prospective population study</article-title>. <source>BMJ</source> <volume>313</volume>: <fpage>711</fpage>-<lpage>716</lpage>; discussion: <ext-link ext-link-type="uri" xlink:href="http://www.ncbi.nlm.nih.gov/pubmed/8819439" xlink:type="simple">8819439</ext-link>.</mixed-citation>
+			</ref>
+			<ref id="B2">
+				<label>2</label>
+				<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Lange</surname><given-names>P</given-names></name>, <name name-style="western"><surname>Nyboe</surname><given-names>J</given-names></name>, <name name-style="western"><surname>Appleyard</surname><given-names>M</given-names></name>, <name name-style="western"><surname>Jensen</surname><given-names>G</given-names></name>, <name name-style="western"><surname>Schnohr</surname><given-names>P</given-names></name> (<year>1990</year>) <article-title>Spirometric findings and mortality in never-smokers</article-title>. <source>J Clin Epidemiol</source> <volume>43</volume>: <fpage>867</fpage>-<lpage>873</lpage>. doi:<ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1016/0895-4356(90)90070-6" xlink:type="simple">10.1016/0895-4356(90)90070-6</ext-link>. PubMed: <ext-link ext-link-type="uri" xlink:href="http://www.ncbi.nlm.nih.gov/pubmed/2213076" xlink:type="simple">2213076</ext-link>.</mixed-citation>
+			</ref>
+			<ref id="B3">
+				<label>3</label>
+				<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Sin</surname><given-names>DD</given-names></name>, <name name-style="western"><surname>Wu</surname><given-names>L</given-names></name>, <name name-style="western"><surname>Man</surname><given-names>SF</given-names></name> (<year>2005</year>) <article-title>The relationship between reduced lung function and cardiovascular mortality: a population-based study and a systematic review of the literature</article-title>. <source>Chest</source> <volume>127</volume>: <fpage>1952</fpage>-<lpage>1959</lpage>. doi:<ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1378/chest.127.6.1952" xlink:type="simple">10.1378/chest.127.6.1952</ext-link>. PubMed: <ext-link ext-link-type="uri" xlink:href="http://www.ncbi.nlm.nih.gov/pubmed/15947307" xlink:type="simple">15947307</ext-link>.</mixed-citation>
+			</ref>
+			<ref id="B4">
+				<label>4</label>
+				<mixed-citation publication-type="book" xlink:type="simple"><collab xlink:type="simple">GOLD Global Initiative for Chronic</collab>. <source>Obstructive Lung Disease. Global Strategy for the Diagnosis, Management and Prevention of Chronic Obstructive Pulmonary Disease</source>  (updated <year>2011</year>).</mixed-citation>
+			</ref>
+			<ref id="B5">
+				<label>5</label>
+				<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Fukuchi</surname><given-names>Y</given-names></name>, <name name-style="western"><surname>Nishimura</surname><given-names>M</given-names></name>, <name name-style="western"><surname>Ichinose</surname><given-names>M</given-names></name>, <name name-style="western"><surname>Adachi</surname><given-names>M</given-names></name>, <name name-style="western"><surname>Nagai</surname><given-names>A</given-names></name> <etal>et al.</etal> (<year>2004</year>) <article-title>COPD in Japan: the Nippon COPD Epidemiology study</article-title>. <source>Respirology</source> <volume>9</volume>: <fpage>458</fpage>-<lpage>465</lpage>. doi:<ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1111/j.1440-1843.2004.00637.x" xlink:type="simple">10.1111/j.1440-1843.2004.00637.x</ext-link>. PubMed: <ext-link ext-link-type="uri" xlink:href="http://www.ncbi.nlm.nih.gov/pubmed/15612956" xlink:type="simple">15612956</ext-link>.</mixed-citation>
+			</ref>
+			<ref id="B6">
+				<label>6</label>
+				<mixed-citation publication-type="journal" xlink:type="simple"><collab xlink:type="simple">WHO</collab> (<year>2007</year>) <article-title>World Health</article-title>. <source>Statistics</source>.</mixed-citation>
+			</ref>
+			<ref id="B7">
+				<label>7</label>
+				<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Wada</surname><given-names>H</given-names></name>, <name name-style="western"><surname>Nakano</surname><given-names>Y</given-names></name>, <name name-style="western"><surname>Nagao</surname><given-names>T</given-names></name>, <name name-style="western"><surname>Osawa</surname><given-names>M</given-names></name>, <name name-style="western"><surname>Yamada</surname><given-names>H</given-names></name> <etal>et al.</etal> (<year>2010</year>) <article-title>Detection and prevalence of chronic obstructive pulmonary disease in a cardiovascular clinic: evaluation using a hand held FEV(1)/FEV(6) meter and questionnaire</article-title>. <source>Respirology</source> <volume>15</volume>: <fpage>1252</fpage>-<lpage>1258</lpage>. doi:<ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1111/j.1440-1843.2010.01854.x" xlink:type="simple">10.1111/j.1440-1843.2010.01854.x</ext-link>. PubMed: <ext-link ext-link-type="uri" xlink:href="http://www.ncbi.nlm.nih.gov/pubmed/20920134" xlink:type="simple">20920134</ext-link>.</mixed-citation>
+			</ref>
+			<ref id="B8">
+				<label>8</label>
+				<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Iwamoto</surname><given-names>H</given-names></name>, <name name-style="western"><surname>Yokoyama</surname><given-names>A</given-names></name>, <name name-style="western"><surname>Kitahara</surname><given-names>Y</given-names></name>, <name name-style="western"><surname>Ishikawa</surname><given-names>N</given-names></name>, <name name-style="western"><surname>Haruta</surname><given-names>Y</given-names></name> <etal>et al.</etal> (<year>2009</year>) <article-title>Airflow limitation in smokers is associated with subclinical atherosclerosis</article-title>. <source>Am J Respir Crit Care Med</source> <volume>179</volume>: <fpage>35</fpage>-<lpage>40</lpage>. doi:<ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1164/rccm.200804-560OC" xlink:type="simple">10.1164/rccm.200804-560OC</ext-link>. PubMed: <ext-link ext-link-type="uri" xlink:href="http://www.ncbi.nlm.nih.gov/pubmed/18931335" xlink:type="simple">18931335</ext-link>.</mixed-citation>
+			</ref>
+			<ref id="B9">
+				<label>9</label>
+				<mixed-citation publication-type="book" xlink:type="simple"><name name-style="western"><surname>Nagai</surname><given-names>A</given-names></name> (<year>2013</year>) <source>Epidemiology and Socie-economic burden</source>. <publisher-loc>Tokyo</publisher-loc>: <publisher-name>Medical Review co., ltd.</publisher-name> <fpage>161</fpage> pp.</mixed-citation>
+			</ref>
+			<ref id="B10">
+				<label>10</label>
+				<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Aida</surname><given-names>Y</given-names></name>, <name name-style="western"><surname>Shibata</surname><given-names>Y</given-names></name>, <name name-style="western"><surname>Osaka</surname><given-names>D</given-names></name>, <name name-style="western"><surname>Abe</surname><given-names>S</given-names></name>, <name name-style="western"><surname>Inoue</surname><given-names>S</given-names></name> <etal>et al.</etal> (<year>2011</year>) <article-title>The relationship between serum uric acid and spirometric values in participants in a health check: the Takahata study</article-title>. <source>Int J Med Sci</source> <volume>8</volume>: <fpage>470</fpage>-<lpage>478</lpage>. PubMed: <ext-link ext-link-type="uri" xlink:href="http://www.ncbi.nlm.nih.gov/pubmed/21850198" xlink:type="simple">21850198</ext-link>.</mixed-citation>
+			</ref>
+			<ref id="B11">
+				<label>11</label>
+				<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Kishi</surname><given-names>H</given-names></name>, <name name-style="western"><surname>Shibata</surname><given-names>Y</given-names></name>, <name name-style="western"><surname>Osaka</surname><given-names>D</given-names></name>, <name name-style="western"><surname>Abe</surname><given-names>S</given-names></name>, <name name-style="western"><surname>Inoue</surname><given-names>S</given-names></name> <etal>et al.</etal> (<year>2011</year>) <article-title>FEV6 and FEV1/FEV6 in Japanese participants of the community-based annual health check: the Takahata study</article-title>. <source>Intern Med</source> <volume>50</volume>: <fpage>87</fpage>-<lpage>93</lpage>. doi:<ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.2169/internalmedicine.50.4276" xlink:type="simple">10.2169/internalmedicine.50.4276</ext-link>. PubMed: <ext-link ext-link-type="uri" xlink:href="http://www.ncbi.nlm.nih.gov/pubmed/21245630" xlink:type="simple">21245630</ext-link>.</mixed-citation>
+			</ref>
+			<ref id="B12">
+				<label>12</label>
+				<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Nemoto</surname><given-names>T</given-names></name>, <name name-style="western"><surname>Shibata</surname><given-names>Y</given-names></name>, <name name-style="western"><surname>Osaka</surname><given-names>D</given-names></name>, <name name-style="western"><surname>Abe</surname><given-names>S</given-names></name>, <name name-style="western"><surname>Inoue</surname><given-names>S</given-names></name> <etal>et al.</etal> (<year>2011</year>) <article-title>Impact of cigarette smoking on maximal expiratory flows in a general population: the Takahata study</article-title>. <source>Intern Med</source> <volume>50</volume>: <fpage>2547</fpage>-<lpage>2555</lpage>. doi:<ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.2169/internalmedicine.50.5948" xlink:type="simple">10.2169/internalmedicine.50.5948</ext-link>. PubMed: <ext-link ext-link-type="uri" xlink:href="http://www.ncbi.nlm.nih.gov/pubmed/22041355" xlink:type="simple">22041355</ext-link>.</mixed-citation>
+			</ref>
+			<ref id="B13">
+				<label>13</label>
+				<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Nunomiya</surname><given-names>K</given-names></name>, <name name-style="western"><surname>Shibata</surname><given-names>Y</given-names></name>, <name name-style="western"><surname>Abe</surname><given-names>S</given-names></name>, <name name-style="western"><surname>Inoue</surname><given-names>S</given-names></name>, <name name-style="western"><surname>Igarashi</surname><given-names>A</given-names></name> <etal>et al.</etal> (<year>2013</year>) <article-title>Hyperhomocysteinaemia predicts the decline in pulmonary function in healthy male smokers</article-title>. <source>Eur Respir J</source> <volume>42</volume>: <fpage>18</fpage>-<lpage>27</lpage>. doi:<ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1183/09031936.00066212" xlink:type="simple">10.1183/09031936.00066212</ext-link>. PubMed: <ext-link ext-link-type="uri" xlink:href="http://www.ncbi.nlm.nih.gov/pubmed/23143543" xlink:type="simple">23143543</ext-link>.</mixed-citation>
+			</ref>
+			<ref id="B14">
+				<label>14</label>
+				<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Osaka</surname><given-names>D</given-names></name>, <name name-style="western"><surname>Shibata</surname><given-names>Y</given-names></name>, <name name-style="western"><surname>Abe</surname><given-names>S</given-names></name>, <name name-style="western"><surname>Inoue</surname><given-names>S</given-names></name>, <name name-style="western"><surname>Tokairin</surname><given-names>Y</given-names></name> <etal>et al.</etal> (<year>2010</year>) <article-title>Relationship between habit of cigarette smoking and airflow limitation in healthy Japanese individuals: the Takahata study</article-title>. <source>Intern Med</source> <volume>49</volume>: <fpage>1489</fpage>-<lpage>1499</lpage>. doi:<ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.2169/internalmedicine.49.3364" xlink:type="simple">10.2169/internalmedicine.49.3364</ext-link>. PubMed: <ext-link ext-link-type="uri" xlink:href="http://www.ncbi.nlm.nih.gov/pubmed/20686279" xlink:type="simple">20686279</ext-link>.</mixed-citation>
+			</ref>
+			<ref id="B15">
+				<label>15</label>
+				<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Sato</surname><given-names>M</given-names></name>, <name name-style="western"><surname>Shibata</surname><given-names>Y</given-names></name>, <name name-style="western"><surname>Abe</surname><given-names>S</given-names></name>, <name name-style="western"><surname>Inoue</surname><given-names>S</given-names></name>, <name name-style="western"><surname>Igarashi</surname><given-names>A</given-names></name> <etal>et al.</etal> (<year>2013</year>) <article-title>Retrospective analysis of the relationship between decline in FEV1 and abdominal circumference in male smokers: The Takahata Study</article-title>. <source>Int J Med Sci</source> <volume>10</volume>: <fpage>1</fpage>-<lpage>7</lpage>. doi:<ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.7150/ijms.5003" xlink:type="simple">10.7150/ijms.5003</ext-link>. PubMed: <ext-link ext-link-type="uri" xlink:href="http://www.ncbi.nlm.nih.gov/pubmed/23288999" xlink:type="simple">23288999</ext-link>.</mixed-citation>
+			</ref>
+			<ref id="B16">
+				<label>16</label>
+				<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Shibata</surname><given-names>Y</given-names></name>, <name name-style="western"><surname>Watanabe</surname><given-names>T</given-names></name>, <name name-style="western"><surname>Osaka</surname><given-names>D</given-names></name>, <name name-style="western"><surname>Abe</surname><given-names>S</given-names></name>, <name name-style="western"><surname>Inoue</surname><given-names>S</given-names></name> <etal>et al.</etal> (<year>2011</year>) <article-title>Impairment of pulmonary function is an independent risk factor for atrial fibrillation: the Takahata study</article-title>. <source>Int J Med Sci</source> <volume>8</volume>: <fpage>514</fpage>-<lpage>522</lpage>. PubMed: <ext-link ext-link-type="uri" xlink:href="http://www.ncbi.nlm.nih.gov/pubmed/21897765" xlink:type="simple">21897765</ext-link>.</mixed-citation>
+			</ref>
+			<ref id="B17">
+				<label>17</label>
+				<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Daimon</surname><given-names>M</given-names></name>, <name name-style="western"><surname>Konta</surname><given-names>T</given-names></name>, <name name-style="western"><surname>Oizumi</surname><given-names>T</given-names></name>, <name name-style="western"><surname>Karasawa</surname><given-names>S</given-names></name>, <name name-style="western"><surname>Kaino</surname><given-names>W</given-names></name> <etal>et al.</etal> (<year>2012</year>) <article-title>Higher plasma renin activity is a risk factor for total mortality in older Japanese individuals: the Takahata study</article-title>. <source>Metabolism</source> <volume>61</volume>: <fpage>504</fpage>-<lpage>511</lpage>. doi:<ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1016/j.metabol.2011.08.004" xlink:type="simple">10.1016/j.metabol.2011.08.004</ext-link>. PubMed: <ext-link ext-link-type="uri" xlink:href="http://www.ncbi.nlm.nih.gov/pubmed/22001336" xlink:type="simple">22001336</ext-link>.</mixed-citation>
+			</ref>
+			<ref id="B18">
+				<label>18</label>
+				<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Konta</surname><given-names>T</given-names></name>, <name name-style="western"><surname>Kudo</surname><given-names>K</given-names></name>, <name name-style="western"><surname>Sato</surname><given-names>H</given-names></name>, <name name-style="western"><surname>Ichikawa</surname><given-names>K</given-names></name>, <name name-style="western"><surname>Ikeda</surname><given-names>A</given-names></name> <etal>et al.</etal> (<year>2013</year>) <article-title>Albuminuria is an independent predictor of all-cause and cardiovascular mortality in the Japanese population: the Takahata study</article-title>. <source>Clin Exp Nephrol</source>: <comment>([MedlinePgn:])</comment> PubMed: <ext-link ext-link-type="uri" xlink:href="http://www.ncbi.nlm.nih.gov/pubmed/23345069" xlink:type="simple">23345069</ext-link>.</mixed-citation>
+			</ref>
+			<ref id="B19">
+				<label>19</label>
+				<mixed-citation publication-type="book" xlink:type="simple"><collab xlink:type="simple">The Committee of Pulmonary Physiology JRS</collab> (<year>2004</year>) <source>Guidelines for Pulmonary Function Tests: Spirometry, flow-volume curve, diffusion capacity of the lung</source>. <publisher-loc>Tokyo</publisher-loc>: <publisher-name>Medical Review Co., Ltd.</publisher-name>. p. <fpage>56</fpage>.</mixed-citation>
+			</ref>
+			<ref id="B20">
+				<label>20</label>
+				<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Pellegrino</surname><given-names>R</given-names></name>, <name name-style="western"><surname>Viegi</surname><given-names>G</given-names></name>, <name name-style="western"><surname>Brusasco</surname><given-names>V</given-names></name>, <name name-style="western"><surname>Crapo</surname><given-names>RO</given-names></name>, <name name-style="western"><surname>Burgos</surname><given-names>F</given-names></name> <etal>et al.</etal> (<year>2005</year>) <article-title>Interpretative strategies for lung function tests</article-title>. <source>Eur Respir J</source> <volume>26</volume>: <fpage>948</fpage>-<lpage>968</lpage>. doi:<ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1183/09031936.05.00035205" xlink:type="simple">10.1183/09031936.05.00035205</ext-link>. PubMed: <ext-link ext-link-type="uri" xlink:href="http://www.ncbi.nlm.nih.gov/pubmed/16264058" xlink:type="simple">16264058</ext-link>.</mixed-citation>
+			</ref>
+			<ref id="B21">
+				<label>21</label>
+				<mixed-citation publication-type="book" xlink:type="simple"><name name-style="western"><surname>Steyerberg</surname><given-names>E</given-names></name> (<year>2009</year>) <source>Clinical Prediction Models: A Practical Approach to Development, Validation and Updating</source>. <publisher-loc>New York</publisher-loc>: <publisher-name>Springer</publisher-name>.</mixed-citation>
+			</ref>
+			<ref id="B22">
+				<label>22</label>
+				<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Tangri</surname><given-names>N</given-names></name>, <name name-style="western"><surname>Stevens</surname><given-names>LA</given-names></name>, <name name-style="western"><surname>Griffith</surname><given-names>J</given-names></name>, <name name-style="western"><surname>Tighiouart</surname><given-names>H</given-names></name>, <name name-style="western"><surname>Djurdjev</surname><given-names>O</given-names></name> <etal>et al.</etal> (<year>2011</year>) <article-title>A predictive model for progression of chronic kidney disease to kidney failure</article-title>. <source>JAMA</source> <volume>305</volume>: <fpage>1553</fpage>-<lpage>1559</lpage>. doi:<ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1001/jama.2011.451" xlink:type="simple">10.1001/jama.2011.451</ext-link>. PubMed: <ext-link ext-link-type="uri" xlink:href="http://www.ncbi.nlm.nih.gov/pubmed/21482743" xlink:type="simple">21482743</ext-link>.</mixed-citation>
+			</ref>
+			<ref id="B23">
+				<label>23</label>
+				<mixed-citation publication-type="book" xlink:type="simple"><name name-style="western"><surname>Burnham</surname><given-names>K</given-names></name>, <name name-style="western"><surname>Anderson</surname><given-names>DR</given-names></name> (<year>2002</year>) <source>Model Selection and Multimodel Inference: A Practical Information-Theoretic Approach</source>. <publisher-loc>New York</publisher-loc>: <publisher-name>Springer</publisher-name>.</mixed-citation>
+			</ref>
+			<ref id="B24">
+				<label>24</label>
+				<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Wagenmakers</surname><given-names>EJ</given-names></name>, <name name-style="western"><surname>Farrell</surname><given-names>S</given-names></name> (<year>2004</year>) <article-title>AIC model selection using Akaike weights</article-title>. <source>Psychon Bull Rev</source> <volume>11</volume>: <fpage>192</fpage>-<lpage>196</lpage>. doi:<ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.3758/BF03206482" xlink:type="simple">10.3758/BF03206482</ext-link>. PubMed: <ext-link ext-link-type="uri" xlink:href="http://www.ncbi.nlm.nih.gov/pubmed/15117008" xlink:type="simple">15117008</ext-link>.</mixed-citation>
+			</ref>
+			<ref id="B25">
+				<label>25</label>
+				<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Yamaoka</surname><given-names>K</given-names></name>, <name name-style="western"><surname>Nakagawa</surname><given-names>T</given-names></name>, <name name-style="western"><surname>Uno</surname><given-names>T</given-names></name> (<year>1978</year>) <article-title>Application of Akaike's information criterion (AIC) in the evaluation of linear pharmacokinetic equations</article-title>. <source>J Pharmacokinet Biopharm</source> <volume>6</volume>: <fpage>165</fpage>-<lpage>175</lpage>. PubMed: <ext-link ext-link-type="uri" xlink:href="http://www.ncbi.nlm.nih.gov/pubmed/671222" xlink:type="simple">671222</ext-link>.</mixed-citation>
+			</ref>
+			<ref id="B26">
+				<label>26</label>
+				<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Pencina</surname><given-names>MJ</given-names></name>, <name name-style="western"><surname>D'Agostino</surname><given-names>RB</given-names><suffix>Sr.</suffix></name>, <name name-style="western"><surname>D'Agostino</surname><given-names>RB</given-names><suffix>Jr.</suffix></name>, <name name-style="western"><surname>Vasan</surname><given-names>RS</given-names></name> (<year>2008</year>) <article-title>Evaluating the added predictive ability of a new marker: from area under the ROC curve to reclassification and beyond</article-title>. <source>Stat Med</source> <volume>27</volume>: <fpage>157</fpage>-<lpage>212</lpage>; discussion: <ext-link ext-link-type="uri" xlink:href="http://www.ncbi.nlm.nih.gov/pubmed/17569110" xlink:type="simple">17569110</ext-link>.</mixed-citation>
+			</ref>
+			<ref id="B27">
+				<label>27</label>
+				<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Anthonisen</surname><given-names>NR</given-names></name>, <name name-style="western"><surname>Skeans</surname><given-names>MA</given-names></name>, <name name-style="western"><surname>Wise</surname><given-names>RA</given-names></name>, <name name-style="western"><surname>Manfreda</surname><given-names>J</given-names></name>, <name name-style="western"><surname>Kanner</surname><given-names>RE</given-names></name> <etal>et al.</etal> (<year>2005</year>) <article-title>The effects of a smoking cessation intervention on 14.5-year mortality: a randomized clinical trial</article-title>. <source>Ann Intern Med</source> <volume>142</volume>: <fpage>233</fpage>-<lpage>239</lpage>. doi:<ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.7326/0003-4819-142-4-200502150-00005" xlink:type="simple">10.7326/0003-4819-142-4-200502150-00005</ext-link>. PubMed: <ext-link ext-link-type="uri" xlink:href="http://www.ncbi.nlm.nih.gov/pubmed/15710956" xlink:type="simple">15710956</ext-link>.</mixed-citation>
+			</ref>
+			<ref id="B28">
+				<label>28</label>
+				<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Nishimura</surname><given-names>M</given-names></name>, <name name-style="western"><surname>Makita</surname><given-names>H</given-names></name>, <name name-style="western"><surname>Nagai</surname><given-names>K</given-names></name>, <name name-style="western"><surname>Konno</surname><given-names>S</given-names></name>, <name name-style="western"><surname>Nasuhara</surname><given-names>Y</given-names></name> <etal>et al.</etal> (<year>2012</year>) <article-title>Annual change in pulmonary function and clinical phenotype in chronic obstructive pulmonary disease</article-title>. <source>Am J Respir Crit Care Med</source> <volume>185</volume>: <fpage>44</fpage>-<lpage>52</lpage>. doi:<ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1164/rccm.201106-0992OC" xlink:type="simple">10.1164/rccm.201106-0992OC</ext-link>. PubMed: <ext-link ext-link-type="uri" xlink:href="http://www.ncbi.nlm.nih.gov/pubmed/22016444" xlink:type="simple">22016444</ext-link>.</mixed-citation>
+			</ref>
+			<ref id="B29">
+				<label>29</label>
+				<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Agusti</surname><given-names>A</given-names></name>, <name name-style="western"><surname>Calverley</surname><given-names>PM</given-names></name>, <name name-style="western"><surname>Celli</surname><given-names>B</given-names></name>, <name name-style="western"><surname>Coxson</surname><given-names>HO</given-names></name>, <name name-style="western"><surname>Edwards</surname><given-names>LD</given-names></name> <etal>et al.</etal> (<year>2010</year>) <article-title>Characterisation of COPD heterogeneity in the ECLIPSE cohort</article-title>. <source>Respir Res</source> <volume>11</volume>: <fpage>122</fpage>. PubMed: <ext-link ext-link-type="uri" xlink:href="http://www.ncbi.nlm.nih.gov/pubmed/20831787" xlink:type="simple">20831787</ext-link>.</mixed-citation>
+			</ref>
+			<ref id="B30">
+				<label>30</label>
+				<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Tashkin</surname><given-names>DP</given-names></name>, <name name-style="western"><surname>Celli</surname><given-names>B</given-names></name>, <name name-style="western"><surname>Senn</surname><given-names>S</given-names></name>, <name name-style="western"><surname>Burkhart</surname><given-names>D</given-names></name>, <name name-style="western"><surname>Kesten</surname><given-names>S</given-names></name> <etal>et al.</etal> (<year>2008</year>) <article-title>A 4-year trial of tiotropium in chronic obstructive pulmonary disease</article-title>. <source>N Engl J Med</source> <volume>359</volume>: <fpage>1543</fpage>-<lpage>1554</lpage>. doi:<ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1056/NEJMoa0805800" xlink:type="simple">10.1056/NEJMoa0805800</ext-link>. PubMed: <ext-link ext-link-type="uri" xlink:href="http://www.ncbi.nlm.nih.gov/pubmed/18836213" xlink:type="simple">18836213</ext-link>.</mixed-citation>
+			</ref>
+			<ref id="B31">
+				<label>31</label>
+				<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>de Torres</surname><given-names>JP</given-names></name>, <name name-style="western"><surname>Marín</surname><given-names>JM</given-names></name>, <name name-style="western"><surname>Casanova</surname><given-names>C</given-names></name>, <name name-style="western"><surname>Cote</surname><given-names>C</given-names></name>, <name name-style="western"><surname>Carrizo</surname><given-names>S</given-names></name> <etal>et al.</etal> (<year>2011</year>) <article-title>Lung cancer in patients with chronic obstructive pulmonary disease-- incidence and predicting factors</article-title>. <source>Am J Respir Crit Care Med</source> <volume>184</volume>: <fpage>913</fpage>-<lpage>919</lpage>. doi:<ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1164/rccm.201103-0430OC" xlink:type="simple">10.1164/rccm.201103-0430OC</ext-link>. PubMed: <ext-link ext-link-type="uri" xlink:href="http://www.ncbi.nlm.nih.gov/pubmed/21799072" xlink:type="simple">21799072</ext-link>.</mixed-citation>
+			</ref>
+			<ref id="B32">
+				<label>32</label>
+				<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Cosio</surname><given-names>MG</given-names></name>, <name name-style="western"><surname>Saetta</surname><given-names>M</given-names></name> (<year>2012</year>) <article-title>Evasion of COPD in smokers: at what price?</article-title> <source>Eur Respir J</source> <volume>39</volume>: <fpage>1298</fpage>-<lpage>1303</lpage>. doi:<ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1183/09031936.00135711" xlink:type="simple">10.1183/09031936.00135711</ext-link>. PubMed: <ext-link ext-link-type="uri" xlink:href="http://www.ncbi.nlm.nih.gov/pubmed/22005915" xlink:type="simple">22005915</ext-link>.</mixed-citation>
+			</ref>
+			<ref id="B33">
+				<label>33</label>
+				<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Suwabe</surname><given-names>A</given-names></name> (<year>2008</year>) <article-title>Respiratory diseases (in Japanese)</article-title>. <source>J Jpn Soc Int Med</source> <volume>97</volume>: <fpage>2927</fpage>-<lpage>2935</lpage>.</mixed-citation>
+			</ref>
+		</ref-list>
+	</back>
+</article>

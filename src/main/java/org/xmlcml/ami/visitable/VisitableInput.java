@@ -20,6 +20,9 @@ import org.xmlcml.ami.visitable.xml.XMLVisitable;
 
 public class VisitableInput {
 
+	private static final String HTM = "htm";
+	private static final String XML = "xml";
+
 	private static final Logger LOG = Logger.getLogger(VisitableInput.class);
 	
 	private static final String HTTP = "http://";
@@ -45,7 +48,6 @@ public class VisitableInput {
 
 	public VisitableInput(String arg) {
 		this.inputArg = arg;
-		//createVisitableList();
 	}
 	
 	public List<AbstractVisitable> createVisitableList() {
@@ -58,10 +60,10 @@ public class VisitableInput {
 		if (isDirectory) {
 			addFilesToVisitableList(inputItem);
 		} else if (isUrl){
-			//FIXME awful kludge
-			//if ("".equals(filenameExtension)) {
-			inputFilenameExtension = "htm";
-			//}
+			//FIXME awful kludge // but how do we know it's HTML? maybe force extension
+			if (!(XML.equals(inputFilenameExtension))) { 	
+				inputFilenameExtension = HTM;
+			}
 			addURLToVisitableList(inputItem);
 		} else {
 			addFileToVisitableList(inputItem);
@@ -122,9 +124,9 @@ public class VisitableInput {
 	}
 
 	public AbstractVisitable createVisitable(URL url) throws Exception {
-		AbstractVisitable visitable = getVisitableFromExtension(inputFilenameExtension);
+		AbstractVisitable visitable = createNewSubclassedVisitableFromExtension(inputFilenameExtension);
 		if (visitable != null) {
-			visitable.addURL(url);
+			visitable.readURLconvertToObjectAndAddtoVisitable(url);
 		}
 		return visitable;
 	}
@@ -147,7 +149,7 @@ public class VisitableInput {
 		return visitable;
 	}
 	
-	private static AbstractVisitable getVisitableFromExtension(String extension) {
+	private static AbstractVisitable createNewSubclassedVisitableFromExtension(String extension) {
 		AbstractVisitable visitable = null;
 		if (isExtensionIn(extension, HTML_VISITABLE.getExtensions())) {
 			visitable = new HtmlVisitable();

@@ -1,0 +1,979 @@
+<article xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" article-type="research-article" dtd-version="3.0" xml:lang="en">
+<front>
+<journal-meta>
+<journal-id journal-id-type="nlm-ta">PLoS ONE</journal-id>
+<journal-id journal-id-type="publisher-id">plos</journal-id>
+<journal-id journal-id-type="pmc">plosone</journal-id><journal-title-group>
+<journal-title xml:lang="en">PLoS ONE</journal-title></journal-title-group>
+<issn pub-type="epub">1932-6203</issn>
+<publisher>
+<publisher-name>Public Library of Science</publisher-name>
+<publisher-loc>San Francisco, USA</publisher-loc></publisher>
+</journal-meta>
+<article-meta>
+<article-id pub-id-type="publisher-id">PONE-D-13-17450</article-id>
+<article-id pub-id-type="doi">10.1371/journal.pone.0080563</article-id>
+<article-categories><subj-group subj-group-type="heading"><subject>Research Article</subject></subj-group></article-categories>
+<title-group>
+<article-title>Cryptic Speciation Patterns in Iranian Rock Lizards Uncovered by Integrative Taxonomy</article-title>
+<alt-title alt-title-type="running-head">Speciation Patterns in Iranian Rock Lizards</alt-title>
+</title-group>
+<contrib-group>
+<contrib contrib-type="author" xlink:type="simple"><name name-style="western"><surname>Ahmadzadeh</surname><given-names>Faraham</given-names></name><xref ref-type="aff" rid="aff1"><sup>1</sup></xref><xref ref-type="aff" rid="aff2"><sup>2</sup></xref><xref ref-type="corresp" rid="cor1"><sup>*</sup></xref></contrib>
+<contrib contrib-type="author" xlink:type="simple"><name name-style="western"><surname>Flecks</surname><given-names>Morris</given-names></name><xref ref-type="aff" rid="aff2"><sup>2</sup></xref></contrib>
+<contrib contrib-type="author" xlink:type="simple"><name name-style="western"><surname>Carretero</surname><given-names>Miguel A.</given-names></name><xref ref-type="aff" rid="aff3"><sup>3</sup></xref></contrib>
+<contrib contrib-type="author" xlink:type="simple"><name name-style="western"><surname>Mozaffari</surname><given-names>Omid</given-names></name><xref ref-type="aff" rid="aff4"><sup>4</sup></xref></contrib>
+<contrib contrib-type="author" xlink:type="simple"><name name-style="western"><surname>Böhme</surname><given-names>Wolfgang</given-names></name><xref ref-type="aff" rid="aff2"><sup>2</sup></xref></contrib>
+<contrib contrib-type="author" xlink:type="simple"><name name-style="western"><surname>Harris</surname><given-names>D. James</given-names></name><xref ref-type="aff" rid="aff3"><sup>3</sup></xref></contrib>
+<contrib contrib-type="author" xlink:type="simple"><name name-style="western"><surname>Freitas</surname><given-names>Susana</given-names></name><xref ref-type="aff" rid="aff3"><sup>3</sup></xref></contrib>
+<contrib contrib-type="author" xlink:type="simple"><name name-style="western"><surname>Rödder</surname><given-names>Dennis</given-names></name><xref ref-type="aff" rid="aff2"><sup>2</sup></xref></contrib>
+</contrib-group>
+<aff id="aff1"><label>1</label><addr-line>Department of Biodiversity and Ecosystem Management, Environmental Sciences Research Institute, Shahid Beheshti University, Tehran, Iran</addr-line></aff>
+<aff id="aff2"><label>2</label><addr-line>Zoologisches Forschungsmuseum Alexander Koenig, Bonn, Germany</addr-line></aff>
+<aff id="aff3"><label>3</label><addr-line>Centro de Investigação em Biodiversidade e Recursos Genéticos, Universidade do Porto, Vairão, Porto, Portugal</addr-line></aff>
+<aff id="aff4"><label>4</label><addr-line>Aria Herpetological Institute, Tehran, Iran</addr-line></aff>
+<contrib-group>
+<contrib contrib-type="editor" xlink:type="simple"><name name-style="western"><surname>Joger</surname><given-names>Ulrich</given-names></name>
+<role>Editor</role>
+<xref ref-type="aff" rid="edit1" /></contrib>
+</contrib-group>
+<aff id="edit1"><addr-line>State Natural History Museum, Germany</addr-line></aff>
+<author-notes>
+<corresp id="cor1">* E-mail: <email xlink:type="simple">Fahmadza@uni-bonn.de</email></corresp>
+<fn fn-type="conflict"><p>The authors have declared that no competing interests exist.</p></fn>
+<fn fn-type="con"><p>Conceived and designed the experiments: FA DR MAC MF WB. Performed the experiments: FA DR MF MAC DJH SF. Analyzed the data: FA MF DR MAC. Contributed reagents/materials/analysis tools: FA OM SF WB. Wrote the paper: FA DR MAC MF DJH.</p></fn>
+</author-notes>
+<pub-date pub-type="collection"><year>2013</year></pub-date>
+<pub-date pub-type="epub"><day>4</day><month>12</month><year>2013</year></pub-date>
+<volume>8</volume>
+<issue>12</issue>
+<elocation-id>e80563</elocation-id>
+<history>
+<date date-type="received"><day>23</day><month>4</month><year>2013</year></date>
+<date date-type="accepted"><day>4</day><month>10</month><year>2013</year></date>
+</history>
+<permissions>
+<copyright-year>2013</copyright-year>
+<copyright-holder>Ahmadzadeh et al</copyright-holder><license xlink:href="http://creativecommons.org/licenses/by/3.0/" xlink:type="simple"><license-p>This is an open-access article distributed under the terms of the <ext-link ext-link-type="uri" xlink:href="http://creativecommons.org/licenses/by/3.0/" xlink:type="simple">Creative Commons Attribution License</ext-link>, which permits unrestricted use, distribution, and reproduction in any medium, provided the original author and source are credited.</license-p></license></permissions>
+<abstract>
+<p>While traditionally species recognition has been based solely on morphological differences either typological or quantitative, several newly developed methods can be used for a more objective and integrative approach on species delimitation. This may be especially relevant when dealing with cryptic species or species complexes, where high overall resemblance between species is coupled with comparatively high morphological variation within populations. Rock lizards, genus <italic>Darevskia</italic>, are such an example, as many of its members offer few diagnostic morphological features. Herein, we use a combination of genetic, morphological and ecological criteria to delimit cryptic species within two species complexes, <italic>D. chlorogaster</italic> and <italic>D. defilippii</italic>, both distributed in northern Iran. Our analyses are based on molecular information from two nuclear and two mitochondrial genes, morphological data (15 morphometric, 16 meristic and four categorical characters) and eleven newly calculated spatial environmental predictors. The phylogeny inferred for <italic>Darevskia</italic> confirmed monophyly of each species complex, with each of them comprising several highly divergent clades, especially when compared to other congeners. We identified seven candidate species within each complex, of which three and four species were supported by Bayesian species delimitation within <italic>D. chlorogaster</italic> and <italic>D. defilippii</italic>, respectively. Trained with genetically determined clades, Ecological Niche Modeling provided additional support for these cryptic species. Especially those within the <italic>D. defilippii</italic>-complex exhibit well-differentiated niches. Due to overall morphological resemblance, in a first approach PCA with mixed variables only showed the separation between the two complexes. However, MANCOVA and subsequent Discriminant Analysis performed separately for both complexes allowed for distinction of the species when sample size was large enough, namely within the <italic>D. chlorogaster</italic>-complex. In conclusion, the results support four new species, which are described herein.</p>
+</abstract>
+<funding-group><funding-statement>Research of FA was supported by the Iranian Ministry of Sciences, Research and Technology. The study was supported of the projects PTDC/BIA-BEC/101256/2008 funded by Fundação para a Ciência e a Tecnologia (Portugal) and “Preserving Armenian biodiversity: Joint Portuguese-Armenian program for training in modern conservation biology” funded by the Gulbenkian Foundation (Portugal). The traveling costs were partly funded by Alexander Koenig Gesellschaft (AKG). The funders had no role in study design, data collection and analysis, decision to publish, or preparation of the manuscript.</funding-statement></funding-group><counts><page-count count="17" /></counts></article-meta>
+</front>
+<body><sec id="s1">
+<title>Introduction</title>
+<p>Systematics is the biological science that addresses the fundamental patterns and processes associated with biological diversity and diversification <xref ref-type="bibr" rid="pone.0080563-Mayr1">[1]</xref>, <xref ref-type="bibr" rid="pone.0080563-Lomolino1">[2]</xref>, whose main goals are the discovery and description of (new) species and the determination of the phylogenetic relationships between them <xref ref-type="bibr" rid="pone.0080563-Wiens1">[3]</xref>. The fundamental unit in biology is the species, which plays a central role in research on ecology, evolution, conservation and biogeography <xref ref-type="bibr" rid="pone.0080563-Mayr2">[4]</xref>–<xref ref-type="bibr" rid="pone.0080563-deQueiroz1">[6]</xref>. Species concepts and species delimitation have been a matter of controversy since the early days of systematic biology <xref ref-type="bibr" rid="pone.0080563-Coyne1">[7]</xref>, <xref ref-type="bibr" rid="pone.0080563-Hawlitschek1">[8]</xref>. Traditionally, species recognition was based on morphological differences, either typological or quantitative, which still are considered primary evidence by many biologists <xref ref-type="bibr" rid="pone.0080563-Bauer1">[9]</xref>. However, several recently developed methods for species delimitation offer the possibility to supplement each other <xref ref-type="bibr" rid="pone.0080563-Templeton1">[10]</xref>–<xref ref-type="bibr" rid="pone.0080563-Fujita1">[14]</xref>, facilitating the call for an integrative taxonomy <xref ref-type="bibr" rid="pone.0080563-Padial1">[15]</xref>. Furthermore, morphological differences between populations may not necessarily be correlated with species boundaries and therefore might not always be useful in discriminating species. For example, evolution under similar selective pressures or severe environmental extremes can limit changes in morphology and, therefore, lead to similar morphotypes <xref ref-type="bibr" rid="pone.0080563-Nevo1">[16]</xref>. Many morphological characters may vary locally as a result of short-term adaptation selected by local conditions <xref ref-type="bibr" rid="pone.0080563-Kaliontzopoulou1">[17]</xref> or simply due to phenotypic plasticity <xref ref-type="bibr" rid="pone.0080563-Zhdanova1">[18]</xref>. The general problem is the lack of unequivocal correspondence between morphotype and genotype <xref ref-type="bibr" rid="pone.0080563-Kaliontzopoulou2">[19]</xref>. It is also acknowledged that most cryptic species result from recent speciation so that morphological or other diagnosable traits have not yet evolved or become manifested <xref ref-type="bibr" rid="pone.0080563-Saez1">[20]</xref>.</p>
+<p>The emergence of molecular and genomic data sets has opened a new window on systematics <xref ref-type="bibr" rid="pone.0080563-Sites1">[21]</xref>. In those cases where distinct evolutionary lineages cannot be identified by morphological data alone, molecular analyses can help biologists to discover substantial amounts of unique cryptic diversity <xref ref-type="bibr" rid="pone.0080563-Bickford1">[22]</xref>. Over the past two decades, the detection rate of such cryptic species has exponentially increased and phylogeographic analyses have led to the discovery of considerable levels of phylogenetic diversity <xref ref-type="bibr" rid="pone.0080563-Gomez1">[23]</xref>–<xref ref-type="bibr" rid="pone.0080563-Carranza1">[25]</xref>. The accelerated rate of detection of cryptic species when using DNA sequencing suggests that molecular data should be incorporated in alpha taxonomy whenever possible. Ultimately, the taxonomic status of candidate species might be best addressed in an integrative fashion, that is, by additionally searching for concordant changes in both morphological and ecological data <xref ref-type="bibr" rid="pone.0080563-Padial1">[15]</xref>, <xref ref-type="bibr" rid="pone.0080563-Miralles1">[26]</xref>, <xref ref-type="bibr" rid="pone.0080563-Vasconcelos1">[27]</xref>. An extensive example of such an integrative approach concerns Malagasy frogs, for which the number of species increased from 244 to a minimum of 373 and up to 465 using combined morphological, bioacoustical, and genetic data <xref ref-type="bibr" rid="pone.0080563-Vieites1">[28]</xref>.</p>
+<p>One of the important stages in the process of speciation is ecological divergence <xref ref-type="bibr" rid="pone.0080563-Funk1">[29]</xref>. Some authors have defined species as groups of individuals occupying the same niche or adaptive zone <xref ref-type="bibr" rid="pone.0080563-VanValen1">[30]</xref>, <xref ref-type="bibr" rid="pone.0080563-Andersson1">[31]</xref>. In this view, every species occupies a specific geographic range, and the geological, ecological and evolutionary processes that limit the geographic range may be crucial for generating new species, particularly allopatric species <xref ref-type="bibr" rid="pone.0080563-Wiens2">[32]</xref>. Assuming that each species has its own particular fundamental niche defined by its physiological tolerance, which is partly expressed in its realized niche in geographic space, ecological features might also help to delimit species <xref ref-type="bibr" rid="pone.0080563-Rissler1">[33]</xref>. In the past, accurate measurements of realized niche characters have been problematic. However, more recently developed methods such as Ecological Niche Modeling (ENM), which makes use of environmental data and species distribution records to derive the species’ potential distribution, and the increasing availability of gridded environmental data now allows approximation of them <xref ref-type="bibr" rid="pone.0080563-Elith1">[34]</xref>. Currently, the utility of ENMs is widely accepted <xref ref-type="bibr" rid="pone.0080563-Sobern1">[35]</xref>, <xref ref-type="bibr" rid="pone.0080563-Sobern2">[36]</xref>. Providing information on a species’ potential geographic distribution and the spatial position of potential dispersal barriers, ENM predictions can be combined with genetic information forming a powerful tool for species delimitation <xref ref-type="bibr" rid="pone.0080563-Rissler1">[33]</xref>, <xref ref-type="bibr" rid="pone.0080563-Murienne1">[37]</xref>. For example, these techniques have recently been successfully applied to solve taxonomic problems within Malagasy day geckos <xref ref-type="bibr" rid="pone.0080563-Raxworthy1">[38]</xref> and also to delimit new cryptic beetle species <xref ref-type="bibr" rid="pone.0080563-Hawlitschek1">[8]</xref>. Recently, Broennimann et al. <xref ref-type="bibr" rid="pone.0080563-Broennimann1">[39]</xref> introduced a new multivariate approach to measure niche overlaps from occurrence and spatial environmental data that provides a very accurate method for studying the niche divergence and niche conservatism hypotheses <xref ref-type="bibr" rid="pone.0080563-Ahmadzadeh1">[40]</xref>.</p>
+<p>The lacertid genus <italic>Darevskia</italic> currently comprises 27 lizard species <xref ref-type="bibr" rid="pone.0080563-Arnold1">[41]</xref> distributed in western Asia and southeastern Europe. Attempts to reliably distinguish some members of the genus have evoked confusion due to a high overall resemblance between congeners coupled with comparatively high morphological variation within populations <xref ref-type="bibr" rid="pone.0080563-Darevsky1">[42]</xref>–<xref ref-type="bibr" rid="pone.0080563-Tuniyev1">[44]</xref>, which provides little diagnostic information. Delimitation of species is further complicated by their limited, widely overlapping ranges and habitats <xref ref-type="bibr" rid="pone.0080563-Darevsky1">[42]</xref>, <xref ref-type="bibr" rid="pone.0080563-Eiselt1">[45]</xref>. The ranges of two currently recognized species, <italic>D. chlorogaster</italic> and <italic>D. defilippii</italic>, span the southern coast of the Caspian Sea. The first is distributed from southeastern Azerbaijan to northeastern Iran, where it inhabits the Hyrcanian forest (subtropical mixed deciduous forest) from sea level up to 1500 m asl, dwelling on tree trunks and on the forest floor <xref ref-type="bibr" rid="pone.0080563-Eiselt1">[45]</xref>, <xref ref-type="bibr" rid="pone.0080563-Anderson1">[46]</xref>. The humid coastal forest strip is bordered by the Alborz mountain range to the south, which forms a barrier to the arid regions of central Iran. The rock-dwelling <italic>D. defilippii</italic> occurs on northern and southern slopes of the Alborz mountains and an isolated population is known from the Kopet Dagh range of Iran and Turkmenistan. It is found in grassy alpine vegetation, rocky outcrops and loose scree at higher altitudes up to 3355 m asl <xref ref-type="bibr" rid="pone.0080563-Darevsky1">[42]</xref>, <xref ref-type="bibr" rid="pone.0080563-Anderson1">[46]</xref>. The ranges of both species overlap in some regions, but as they are always segregated by their different habitat preferences this might be an example of small-scale parapatry rather than true sympatry. This raises some key biogeographic questions, namely what were the drivers for shaping such a parallel and non-overlapping pattern and whether this is reflected by their phylogeny. Furthermore, the presence of cryptic species is likely when considering their relatively wide distributions. If populations have been repeatedly isolated during past climate fluctuations, as observed in other members of the genus <xref ref-type="bibr" rid="pone.0080563-Tarkhnishvili1">[43]</xref>, this should have led to restrictions in gene flow promoting genetic divergence and possibly speciation. Nevertheless, such restrictions have been probably temporal (in the interglacials such as the present). Indeed, niche shift may have also contributed to speciation. Especially in the mountainous <italic>D. defilippii</italic>, one would expect high levels of genetic diversity due to a complex landscape in contrast to the continuous lowland habitat of <italic>D. chlorogaster</italic>. More recently, <italic>D. steineri</italic> has been described and suggested to be the sister taxon of <italic>D. defilippii</italic> based on morphology <xref ref-type="bibr" rid="pone.0080563-Eiselt1">[45]</xref>. Interestingly, <italic>D. steineri</italic> resembles <italic>D. chlorogaster</italic> in terms of coloration and is found in sympatry with this species, sharing the same forest habitats in northeastern Iran. Phylogeographic evidence is completely lacking for Iranian <italic>Darevskia</italic> as well as a clear picture of their phylogenetic position within the genus <xref ref-type="bibr" rid="pone.0080563-Arnold1">[41]</xref>, <xref ref-type="bibr" rid="pone.0080563-Fu1">[47]</xref>–<xref ref-type="bibr" rid="pone.0080563-Pavlicev1">[51]</xref>.</p>
+<p>Herein, we intend to objectively delimit species of Iranian rock lizards by combining three different approaches including multi-locus genetic information, morphological data, and assessment of habitat preferences through ENMs informed by satellite imagery with extensive sampling. We investigate (1) whether the currently recognized species include genetically distinct lineages and whether such lineages are morphologically cryptic or can be distinguished quantitatively, (2) what the phylogenetic relationships among the putative species are, and finally (3) which subjacent processes shaped the past and current biogeographic patterns responsible for such diversification.</p>
+</sec><sec id="s2" sec-type="materials|methods">
+<title>Materials and Methods</title>
+<sec id="s2a">
+<title>Ethics Statement</title>
+<p>The research was conducted under IACUC number 42/5-35755/2009.07.15 issued by the Iranian Ministry of Sciences, Research and Technology. Collected voucher specimens were euthanized with ethyl ether before preservation in ethanol to minimize suffering. Additional tissue samples from living specimens were taken by clipping tail tips before the animals were released.</p>
+</sec><sec id="s2b">
+<title>Genetic Sampling and Sequence Processing</title>
+<p>Total genomic DNA from 63 individuals assigned to <italic>Darevskia chlorogaster</italic>, <italic>D. defilippii</italic> and <italic>D. steineri</italic> was extracted using standard saline methods <xref ref-type="bibr" rid="pone.0080563-Sambrook1">[52]</xref>. The primers Gludg/Peil, ND4/LEU, MC1R F/MC1R R and LSC1/LSC2 <xref ref-type="bibr" rid="pone.0080563-Arevalo1">[53]</xref>–<xref ref-type="bibr" rid="pone.0080563-Pinho1">[55]</xref> were used to amplify two mitochondrial genes, cytochrome b (cytb) and NADH dehydrogenase 4 (ND4), and two nuclear protein-coding genes, melanocortin 1 receptor (MC1R) and oocyte maturation factor Mos (c-mos), respectively. PCR cycling conditions are described in Ahmadzadeh et al. <xref ref-type="bibr" rid="pone.0080563-Ahmadzadeh2">[56]</xref>. Purified products were sequenced by a commercial company (Macrogen, Korea). Sequences were checked with the original chromatograph data using the program CodonCode (CodonCode Corporation, Dedham, MA, USA) and subsequently aligned with the MUSCLE algorithm <xref ref-type="bibr" rid="pone.0080563-Edgar1">[57]</xref>. Heterozygous sequences were phased using the program PHASE 2.1.1 <xref ref-type="bibr" rid="pone.0080563-Stephens1">[58]</xref> and the most likely haplotypes where chosen for each individual.</p>
+<p>Taking into account the lack of any comprehensive and well-resolved phylogeny for <italic>Darevskia</italic> that includes the three taxa studied herein and, therefore, to some extent, an uncertainty regarding the monophyly of these, we supplemented our data for the mitochondrial cytochrome b with sequences of all bisexual species of the genus <xref ref-type="bibr" rid="pone.0080563-Fu2">[59]</xref>, <xref ref-type="bibr" rid="pone.0080563-Fu3">[60]</xref>, <xref ref-type="bibr" rid="pone.0080563-Fu4">[61]</xref>. Specimens used in this study, GenBank accession numbers and respective localities are provided in the supplementary information (<xref ref-type="supplementary-material" rid="pone.0080563.s003">Table S1</xref>.1 in <xref ref-type="supplementary-material" rid="pone.0080563.s004">File S1</xref>).</p>
+</sec><sec id="s2c">
+<title>Gene Tree and Species Tree Inference</title>
+<p>Phylogenetic relationships and genetic divergence within the study taxa were further assessed by producing separate alignments for <italic>D. chlorogaster</italic> and <italic>D. defilippii</italic> (the latter including <italic>D. steineri</italic>, based on results of the generic phylogeny). Models of nucleotide substitution were chosen by the Akaike’s information criterion using MrModeltest 2.2 <xref ref-type="bibr" rid="pone.0080563-Nylander1">[62]</xref> for each gene separately. Trees were inferred with BEAST v1.7.2 <xref ref-type="bibr" rid="pone.0080563-Drummond1">[63]</xref> implementing a strict clock with a rate of 1.0 (which gives substitutions per site rather than substitutions per site per time) and a coalescent tree prior with a random starting tree. Two independent runs with 3*10<sup>6</sup> generations each were performed and sampled every 1000. The initial 10% of the trees were discarded as burn-in and remaining trees were used to build a consensus. Analyses were conducted for each single gene, as well as for mitochondrial and nuclear markers concatenated. Data set properties and used substitution models are available as supplementary information (<xref ref-type="supplementary-material" rid="pone.0080563.s003">Table S1</xref>.2 in <xref ref-type="supplementary-material" rid="pone.0080563.s004">File S1</xref>). Maximum likelihood (ML) gene trees were inferred with RAxML version 7.2.X using the concatenated mitochondrial and nuclear data set and bootstrap values (1000 replicates) were calculated.</p>
+<p>Separate species trees were calculated for the two species complexes using the Bayesian model as implemented in *BEAST v1.7.2 <xref ref-type="bibr" rid="pone.0080563-Heled1">[64]</xref>. We treated the lineages identified by the gene tree analyses (i.e., groups that are characterized by deep divergences in the trees inferred from the mitochondrial data) as candidate species, thus a seven species model was applied to each complex. Analyses were run with the concatenated, phased datasets comprising all four genes, but with unlinked substitution model and clock model parameters (same settings as for gene tree analyses). The Yule process was used as the species tree prior, while gene tree priors are automatically specified by the multispecies coalescent. Two independent runs with a MCMC chain length of 5*10<sup>6</sup> each were conducted, sampling every 1000. Convergence and effective sample sizes (ESS) were assessed with Tracer v1.5 <xref ref-type="bibr" rid="pone.0080563-Rambaut1">[65]</xref> before producing a consensus tree with a burn-in of 10%.</p>
+</sec><sec id="s2d">
+<title>Bayesian Species Delimitation</title>
+<p>Bayesian species delimitation as implemented in BP&amp;P v2.1b <xref ref-type="bibr" rid="pone.0080563-Yang1">[66]</xref> uses reversible-jump Markov Chain Monte Carlo (rjMCMC) to estimate the posterior distribution for species delimitation models. We used algorithm 0 with the fine-tuning parameter ε = 5 to adjust the reversible-jump algorithm <xref ref-type="bibr" rid="pone.0080563-Yang1">[66]</xref> and ran 1*10<sup>6</sup> generations with a sampling interval of 5 and a burn-in of 10%. BP&amp;P assumes a fixed tree topology to estimate the posterior distribution for species delimitation models, which are all in accordance with the topology, but differ in the number of species. We used the species trees obtained in the previous step as guide trees to assess the candidate species in each complex (<xref ref-type="fig" rid="pone-0080563-g001">Figure 1</xref>). Supplied sequence data included the nuclear loci only, in order to test species limits within the nuclear data on the topology derived from the complete data set. By summarizing the probabilities for all models that support a particular speciation event in the guide tree, posterior probabilities of speciation for each node can be estimated (i.e. speciation probabilities, <xref ref-type="bibr" rid="pone.0080563-Leach1">[67]</xref>). Speciation probability values ≥0.95 are considered as strong support for a speciation event <xref ref-type="bibr" rid="pone.0080563-Leach1">[67]</xref>.</p>
+<fig id="pone-0080563-g001" position="float" orientation="portrait"><object-id pub-id-type="doi">10.1371/journal.pone.0080563.g001</object-id><label>Figure 1</label><caption>
+<title>The seven candidate species models for the <italic>Darevskia chlorogaster</italic>-complex (A) and the <italic>D. defilippii</italic>-complex (B) inferred with *BEAST using combined mitochondrial and nuclear DNA.</title>
+<p>Values above branches are posterior probabilities, below branches are ML bootstrap values (support values below 0.95 and 50, respectively, are not shown). Bayesian species delimitation infers a speciation event at nodes marked by a solid circle and none at nodes with empty circles, numbers in parentheses refer to <xref ref-type="table" rid="pone-0080563-t001">table 1</xref> where detailed information on delimitation results is given. The geographic distribution of each candidate is shown in the maps, large points represent genetic sampling localities and small points are additional localities used for niche modeling. Supported species are encompassed by dashed lines.</p>
+</caption><graphic mimetype="image" xlink:href="info:doi/10.1371/journal.pone.0080563.g001" position="float" xlink:type="simple" orientation="portrait" /></fig>
+<p>Two parameters that can have a strong impact on speciation probabilities are ancestral population size (θ, product of effective population size and mutation rate per site per generation) and root divergence time (τ, measured by the expected number of mutations). Large values for θ and small values for τ result in conservative models with generally lower speciation probabilities <xref ref-type="bibr" rid="pone.0080563-Yang1">[66]</xref>, though changes of the τ prior should have a smaller impact <xref ref-type="bibr" rid="pone.0080563-Leach1">[67]</xref>. Therefore, we repeated the analyses under varying prior settings (given as gamma distributions) for these parameters, using three different combinations: relatively large ancestral population size and shallow divergences (θ = G(2,10), τ = G(2,2000)), relatively large ancestral population size and deep divergences (θ = G(2,10), τ = G(2,10)), and relatively small ancestral population size and shallow divergences (θ = G(2,2000), τ = G(2,2000)) (see <xref ref-type="table" rid="pone-0080563-t001">Table 1</xref>). The latter prior combination might be prone to overestimate the number of species, while the other combinations should result in models supporting less speciation events, i.e. containing fewer proposed species. Furthermore, assuming relatively large ancestral population sizes might be more appropriate for the studied taxa. A cumulative approach was used at nodes where models showed incongruence, which means only speciation events supported by all models were accepted. Although quite conservative, in our opinion this is the most objective way to interpret the results.</p>
+<table-wrap id="pone-0080563-t001" position="float" orientation="portrait"><object-id pub-id-type="doi">10.1371/journal.pone.0080563.t001</object-id><label>Table 1</label><caption>
+<title>Bayesian species delimitation results under varying prior settings.</title>
+</caption><alternatives><graphic id="pone-0080563-t001-1" position="float" mimetype="image" xlink:href="info:doi/10.1371/journal.pone.0080563.t001" xlink:type="simple" orientation="portrait" />
+<table><colgroup span="1"><col align="left" span="1" /><col align="center" span="1" /><col align="center" span="1" /><col align="center" span="1" /><col align="center" span="1" /><col align="center" span="1" /><col align="center" span="1" /><col align="center" span="1" /><col align="center" span="1" /><col align="center" span="1" /><col align="center" span="1" /><col align="center" span="1" /><col align="center" span="1" /></colgroup>
+<thead>
+<tr>
+<td align="left" rowspan="1" colspan="1">prior means</td>
+<td colspan="6" align="left" rowspan="1"><italic>Darevskia chlorogaster</italic>-complex</td>
+<td colspan="6" align="left" rowspan="1"><italic>Darevskia defilippii</italic>-complex</td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1" />
+<td align="left" rowspan="1" colspan="1">node 1</td>
+<td align="left" rowspan="1" colspan="1">node 2</td>
+<td align="left" rowspan="1" colspan="1">node 3</td>
+<td align="left" rowspan="1" colspan="1">node 4</td>
+<td align="left" rowspan="1" colspan="1">node 5</td>
+<td align="left" rowspan="1" colspan="1">node 6</td>
+<td align="left" rowspan="1" colspan="1">node 1</td>
+<td align="left" rowspan="1" colspan="1">node 2</td>
+<td align="left" rowspan="1" colspan="1">node 3</td>
+<td align="left" rowspan="1" colspan="1">node 4</td>
+<td align="left" rowspan="1" colspan="1">node 5</td>
+<td align="left" rowspan="1" colspan="1">node 6</td>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left" rowspan="1" colspan="1">θ = 0.2, τ = 0.001</td>
+<td align="left" rowspan="1" colspan="1"><bold>1.000</bold></td>
+<td align="left" rowspan="1" colspan="1"><bold>1.000</bold></td>
+<td align="left" rowspan="1" colspan="1">0.908</td>
+<td align="left" rowspan="1" colspan="1">0.118</td>
+<td align="left" rowspan="1" colspan="1">0.000</td>
+<td align="left" rowspan="1" colspan="1">0.388</td>
+<td align="left" rowspan="1" colspan="1"><bold>1.000</bold></td>
+<td align="left" rowspan="1" colspan="1"><bold>1.000</bold></td>
+<td align="left" rowspan="1" colspan="1"><bold>1.000</bold></td>
+<td align="left" rowspan="1" colspan="1">0.125</td>
+<td align="left" rowspan="1" colspan="1">0.004</td>
+<td align="left" rowspan="1" colspan="1">0.008</td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1">θ = 0.2, τ = 0.2</td>
+<td align="left" rowspan="1" colspan="1"><bold>1.000</bold></td>
+<td align="left" rowspan="1" colspan="1"><bold>1.000</bold></td>
+<td align="left" rowspan="1" colspan="1">0.918</td>
+<td align="left" rowspan="1" colspan="1">0.170</td>
+<td align="left" rowspan="1" colspan="1">0.000</td>
+<td align="left" rowspan="1" colspan="1">0.385</td>
+<td align="left" rowspan="1" colspan="1"><bold>1.000</bold></td>
+<td align="left" rowspan="1" colspan="1"><bold>1.000</bold></td>
+<td align="left" rowspan="1" colspan="1"><bold>1.000</bold></td>
+<td align="left" rowspan="1" colspan="1">0.104</td>
+<td align="left" rowspan="1" colspan="1">0.003</td>
+<td align="left" rowspan="1" colspan="1">0.005</td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1">θ = 0.001, τ = 0.001</td>
+<td align="left" rowspan="1" colspan="1"><bold>1.000</bold></td>
+<td align="left" rowspan="1" colspan="1"><bold>1.000</bold></td>
+<td align="left" rowspan="1" colspan="1"><bold>1.000</bold></td>
+<td align="left" rowspan="1" colspan="1"><bold>0.972</bold></td>
+<td align="left" rowspan="1" colspan="1">0.287</td>
+<td align="left" rowspan="1" colspan="1">0.606</td>
+<td align="left" rowspan="1" colspan="1"><bold>1.000</bold></td>
+<td align="left" rowspan="1" colspan="1"><bold>1.000</bold></td>
+<td align="left" rowspan="1" colspan="1"><bold>1.000</bold></td>
+<td align="left" rowspan="1" colspan="1">0.872</td>
+<td align="left" rowspan="1" colspan="1">0.274</td>
+<td align="left" rowspan="1" colspan="1">0.487</td>
+</tr>
+</tbody>
+</table>
+</alternatives><table-wrap-foot><fn id="nt101"><label /><p>Bold values (i.e. speciation probabilities ≥0.95) are considered to indicate a speciation event at the respective node. Node numbers refer to <xref ref-type="fig" rid="pone-0080563-g001">Figure 1</xref>.</p></fn></table-wrap-foot></table-wrap></sec><sec id="s2e">
+<title>Morphological Analyses</title>
+<p>A total of 131 adult specimens identified as <italic>Darevskia chlorogaster</italic>, <italic>D. defilippii</italic> and <italic>D. steineri</italic> were examined for 15 morphometric, 16 meristic and four categorical characters. Bilateral characters were obtained from the right side of specimens, and, if this was not measurable, replaced by the corresponding left side measurements. Sexing of specimens was based on sexual secondary characters (i.e. relative head size and presence vs. absence of active femoral pores and hemipenal bulges). Morphometric measurements were taken with a digital calliper to the nearest 0.1 mm by the same person (FA) and include: snout-vent length, from tip of the snout to cloaca (svl); trunk length, between limb insertions (trl); head length, ventrally from tip of the snout to posterior margin of collar (hl); pileus length, dorsally from tip of the snout to posterior margin of parietal and occipital scales (pl); head width immediately before the ear opening (hw); head height immediately behind the orbit (hh); mouth opening, laterally from tip of the snout to corner of the mouth (mo); humerus length, from shoulder to elbow (hul); radius length, from elbow to wrist (rl); front foot length, from wrist to tip of the fourth toe (f4t); total fore limb length, from shoulder to tip of the fourth toe (ffl); femur length, from pelvis to knee (fl); tibia length, from knee to ankle (tbl); hind foot length, from ankle to tip of the fourth toe (h4t); and total hind limb length, from pelvis to tip of the fourth toe (hfl). Meristic characters were counted as follows: number of dorsal scales across mid of trunk (dors); number of ventral scales along middle line (vent); number of ventral and chest scales along middle line (ventf); number of scales on collar (coll); number of gular scales between maxillar scales and collar (gul); number of scales between ear openings along fold (fold); number of femoral pores (fpor); number of scales under fourth toe of hind limb (4toe); number of supraciliar scales (scs); number of supraciliar granules (scg); number of scales between supratemporal and masseteric shields (sm); number of scales between masseteric and tympanic (mt); number of enlarged preanal scales (pa); number of posttemporal scales (ptm); number of dorsal scales along edge of tenth ventral scale (1v); and number of ventral scale rows between femoral pores and outer row of enlarged femoral scales (femur). Supraciliar granules (separated vs. not separated, Xscg); masseteric shield (present vs. fragmented, Xmt); dorsal scales (keeled vs. smooth, Xdk); and collar (serrated vs. smooth, Xcs) constitute the categorical characters examined. All specimens are stored in the herpetological collection of the Zoologisches Forschungsmuseum Alexander Koenig, Bonn, Germany (ZFMK).</p>
+<p>We conducted a multivariate analysis with mixed variables (PCA-MIX) as implemented in the <italic>ade4</italic> package for Cran R. The advantage of this method compared to a normal principal component analysis is its ability to handle quantitative and categorical variables as well as factors. Sex was chosen as a factor since lacertids show intersexual variation in most characters <xref ref-type="bibr" rid="pone.0080563-Kaliontzopoulou2">[19]</xref>, <xref ref-type="bibr" rid="pone.0080563-Bruschi1">[68]</xref>. To avoid size dependent intercorrelation effects in the morphometric dataset, regression residuals on log-transformed morphometric variables were calculated using snout-vent length as a covariable. Discriminant Analyses (DA) using the forward stepwise procedure (tolerance = 0.005) were conducted for each complex separately to evaluate if species were separated in the morphospace and which where the morphological and/or morphometric characters involved in such separation. A matrix of squared Mahalanobis distances was derived to compare differences between species. Multiple analysis of covariance (MANCOVA) was conducted to compare overall morphological variation between species using species and sex as factors with svl as a covariate in order to correct for size <xref ref-type="bibr" rid="pone.0080563-Carretero1">[69]</xref>.</p>
+</sec><sec id="s2f">
+<title>Ecological Niche Models and Environmental Predictors</title>
+<p>For creating ENMs, species records have been compiled from our own and other herpetologists’ field work, publications, as well as specimens stored in the collection of the Zoologisches Forschungsmuseum Alexander Koenig (ZFMK) and specimen data made accessible in the Global Biodiversity Information Facility (<ext-link ext-link-type="uri" xlink:href="http://www.gbif.org" xlink:type="simple">http://www.gbif.org</ext-link>) and HerpNet (<ext-link ext-link-type="uri" xlink:href="http://www.herpnet.org" xlink:type="simple">http://www.herpnet.org</ext-link>) databases. In those cases where no coordinates but exact locality names were available, records have been georeferenced using the global gazetteer version 2.1 (<ext-link ext-link-type="uri" xlink:href="http://www.fallingrain.com/world" xlink:type="simple">http://www.fallingrain.com/world</ext-link>). Reliability of all records was assessed by mapping them in DIVA-GIS 7.5 <xref ref-type="bibr" rid="pone.0080563-Hijmans1">[70]</xref>. The final data set comprises 84 records for <italic>D. chlorogaster</italic> and 73 records for <italic>D. defilippii</italic> and <italic>D. steineri</italic>, covering their entire distributional range. Subsequently, the available records were assigned to the species identified by the Bayesian species delimitation approach. The locality data assignment to a species complex were made according to the morphological characters distinguishing both complexes, which are also easily retrievable in the literature sources in case records were not obtained from own data. Records not represented by genetic sampling where assigned to a clade by geographic proximity with regards to possible geographic barriers. Although this might not represent the ideal method of choice, it was the only way to incorporate unsampled localities. However, most records are our own data and we can confidently assign (as presented in <xref ref-type="fig" rid="pone-0080563-g001">figure 1</xref>) these to clades (especially when referring to the finally supported species that were used for the SDMs) and, as pointed out, most ranges are embraced by genetically sampled localities.</p>
+<p>As spatial environmental predictors, we used a set of pre-processed monthly remote sensing variables derived from MODIS sensors of two NASA satellites with a spatial resolution of 30 arc seconds and a temporal resolution of 8-day averages (MOD11A2) and 16-day averages (MCD43B4) of the original products (for details see <xref ref-type="bibr" rid="pone.0080563-Mu1">[71]</xref>, <xref ref-type="bibr" rid="pone.0080563-Scharlemann1">[72]</xref>). Original predictors comprised monthly averages over the time period 2001–2005 covering the following channels: middle infra-red (MIR; quantifying the water content of the surface; <xref ref-type="bibr" rid="pone.0080563-Jensen1">[73]</xref>), daytime and night time land surface temperature, normalized difference vegetation index (NDVI; <xref ref-type="bibr" rid="pone.0080563-Tucker1">[74]</xref>), enhanced vegetation index (EVI; <xref ref-type="bibr" rid="pone.0080563-Huete1">[75]</xref>), as well as terrain slope and roughness. Based on these 62 single layers, we computed a new set of variables describing annual seasonal variations analogue to bioclimatic predictors using the relevant functions of the <italic>dismo</italic> and <italic>raster</italic> packages <xref ref-type="bibr" rid="pone.0080563-Hijmans2">[76]</xref>, <xref ref-type="bibr" rid="pone.0080563-Hijmans3">[77]</xref> for Cran R, which are thought to be more useful than monthly variables <xref ref-type="bibr" rid="pone.0080563-Beaumont1">[78]</xref>. For temperature related variables, a comprehensive set of 19 bioclimatic variables were computed based on monthly average daytime and nighttime land surface temperatures using the <italic>biovars</italic> function of the <italic>dismo</italic> package. For NDVI and EVI, which are correlates of vegetation productivity and biomass <xref ref-type="bibr" rid="pone.0080563-Pettorelli1">[79]</xref>, only a subset was computed excluding those bioclimatic variables with interactions with others (e.g. such as “precipitation of the warmest month”). The new set of variables comprised 32 predictors, which were clipped to the extent of the study area. Since multi-collinearity of predictors may hamper successful model building, we computed pair-wise coefficients of determinations and chose only one predictor in those pairs where R<sup>2</sup> exceeded 0.75. The final set of predictors including their biological interpretation is provided in <xref ref-type="table" rid="pone-0080563-t002">Table 2</xref>.</p>
+<table-wrap id="pone-0080563-t002" position="float" orientation="portrait"><object-id pub-id-type="doi">10.1371/journal.pone.0080563.t002</object-id><label>Table 2</label><caption>
+<title>Variables, abbreviations, meaning of satellites variables, meaning of bioclims variables, and meaning of newly derived variables.</title>
+</caption><alternatives><graphic id="pone-0080563-t002-2" position="float" mimetype="image" xlink:href="info:doi/10.1371/journal.pone.0080563.t002" xlink:type="simple" orientation="portrait" />
+<table><colgroup span="1"><col align="left" span="1" /><col align="center" span="1" /><col align="center" span="1" /><col align="center" span="1" /><col align="center" span="1" /></colgroup>
+<thead>
+<tr>
+<td align="left" rowspan="1" colspan="1">Variable</td>
+<td align="left" rowspan="1" colspan="1">Abbreviation</td>
+<td align="left" rowspan="1" colspan="1">Meaning Sat Variable</td>
+<td align="left" rowspan="1" colspan="1">Meaning Bioclim</td>
+<td align="left" rowspan="1" colspan="1">Meaning derived Variable</td>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left" rowspan="1" colspan="1">X01</td>
+<td align="left" rowspan="1" colspan="1">ED1503_bio6</td>
+<td align="left" rowspan="1" colspan="1">MODIS V4 Band 03 Synoptic Months: Middle Infra-Red</td>
+<td align="left" rowspan="1" colspan="1">BIO6 = Min Temperature of Coldest Month</td>
+<td align="left" rowspan="1" colspan="1">Min of Monthly Middle Infra-Red</td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1">X02</td>
+<td align="left" rowspan="1" colspan="1">ED1503_bio7</td>
+<td align="left" rowspan="1" colspan="1">MODIS V4 Band 03 Synoptic Months: Middle Infra-Red</td>
+<td align="left" rowspan="1" colspan="1">BIO7 = Temperature Annual Range (BIO5-BIO6)</td>
+<td align="left" rowspan="1" colspan="1">Annual Range of Middle Infra-Red</td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1">X03</td>
+<td align="left" rowspan="1" colspan="1">ED1514_bio11</td>
+<td align="left" rowspan="1" colspan="1">MODIS V4 Band 14 Synoptic Months: Normalised Difference Vegetation Index</td>
+<td align="left" rowspan="1" colspan="1">BIO11 = Mean Temperature of Coldest Quarter</td>
+<td align="left" rowspan="1" colspan="1">Mean NDVI of Lowest Quarter</td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1">X04</td>
+<td align="left" rowspan="1" colspan="1">ED1515_bio6</td>
+<td align="left" rowspan="1" colspan="1">MODIS V4 Band 15 Synoptic Months: Enhanced Vegetation Index</td>
+<td align="left" rowspan="1" colspan="1">BIO6 = Min Temperature of Coldest Month</td>
+<td align="left" rowspan="1" colspan="1">Min of Monthly EVI</td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1">X05</td>
+<td align="left" rowspan="1" colspan="1">ED1515_bio7</td>
+<td align="left" rowspan="1" colspan="1">MODIS V4 Band 15 Synoptic Months: Enhanced Vegetation Index</td>
+<td align="left" rowspan="1" colspan="1">BIO7 = Temperature Annual Range (BIO5-BIO6)</td>
+<td align="left" rowspan="1" colspan="1">Annual Range of EVI</td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1">X06</td>
+<td align="left" rowspan="1" colspan="1">ED1515_bio10</td>
+<td align="left" rowspan="1" colspan="1">MODIS V4 Band 15 Synoptic Months: Enhanced Vegetation Index</td>
+<td align="left" rowspan="1" colspan="1">BIO10 = Mean Temperature of Warmest Quarter</td>
+<td align="left" rowspan="1" colspan="1">Mean EVI of Highest Quarter</td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1">X07</td>
+<td align="left" rowspan="1" colspan="1">ED150708_bio3</td>
+<td align="left" rowspan="1" colspan="1">MODIS V4 Band 07+08 Synoptic Months: Day-+Night-time Land Surface Temperature</td>
+<td align="left" rowspan="1" colspan="1">BIO3 = Isothermality (BIO2/BIO7) (* 100)</td>
+<td align="left" rowspan="1" colspan="1">Isothermality (BIO2/BIO7) (* 100)</td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1">X08</td>
+<td align="left" rowspan="1" colspan="1">ED150708_bio6</td>
+<td align="left" rowspan="1" colspan="1">MODIS V4 Band 07+08 Synoptic Months: Day-+Night-time Land Surface Temperature</td>
+<td align="left" rowspan="1" colspan="1">BIO6 = Min Temperature of Coldest Month</td>
+<td align="left" rowspan="1" colspan="1">Min Temperature of Coldest Month</td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1">X09</td>
+<td align="left" rowspan="1" colspan="1">ED150708_bio7</td>
+<td align="left" rowspan="1" colspan="1">MODIS V4 Band 07+08 Synoptic Months: Day-+Night-time Land Surface Temperature</td>
+<td align="left" rowspan="1" colspan="1">BIO7 = Temperature Annual Range (BIO5-BIO6)</td>
+<td align="left" rowspan="1" colspan="1">Temperature Annual Range (BIO5-BIO6)</td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1">X10</td>
+<td align="left" rowspan="1" colspan="1">ED150708_bio10</td>
+<td align="left" rowspan="1" colspan="1">MODIS V4 Band 07+08 Synoptic Months: Day-+Night-time Land Surface Temperature</td>
+<td align="left" rowspan="1" colspan="1">BIO10 = Mean Temperature of Warmest Quarter</td>
+<td align="left" rowspan="1" colspan="1">Mean Temperature of Warmest Quarter</td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1">X11</td>
+<td align="left" rowspan="1" colspan="1">Edslope</td>
+<td align="left" rowspan="1" colspan="1">Slope</td>
+<td align="left" rowspan="1" colspan="1">Slope</td>
+<td align="left" rowspan="1" colspan="1">Slope</td>
+</tr>
+</tbody>
+</table>
+</alternatives></table-wrap>
+<p>To assess the potential distribution of the taxa, we performed 100 Maxent models per species <xref ref-type="bibr" rid="pone.0080563-Phillips1">[80]</xref>, which were trained using a randomly selected 70% subset of the species records. The remaining 30% of the species records were used for model evaluation applying the receiver operating characteristic curve (AUC) <xref ref-type="bibr" rid="pone.0080563-Swets1">[81]</xref>. Based on all ENMs per clade, total consensus maps were produced. Areas prone to extrapolation of the SDMs beyond their training range were subsequently highlighted (identified by Multivariate Environmental Similarity Surfaces, MESS; Elith et al. 2011).</p>
+</sec><sec id="s2g">
+<title>Niche Overlaps, Similarity and Equivalency</title>
+<p>We used the <italic>sm.density.compare</italic> function of the <italic>sm</italic> package <xref ref-type="bibr" rid="pone.0080563-Bowman1">[82]</xref> for Cran R 15.2 to compare density profiles of univariate environmental niche overlaps among taxa. Multivariate climatic niche overlaps between the clades were computed following the ‘PCA-env’ approach proposed by Broennimann et al. <xref ref-type="bibr" rid="pone.0080563-Broennimann1">[39]</xref> accounting for the availability of specific environmental conditions within the area accessible to the clade (defined as the area enclosed by a buffer with a 50 km radius around the specific records). Among several alternative approaches, this method has been shown to be the most suitable to assess niche overlaps and is described in more detail in Broennimann et al. <xref ref-type="bibr" rid="pone.0080563-Broennimann1">[39]</xref> and Petitpierre et al. <xref ref-type="bibr" rid="pone.0080563-Petitpierre1">[83]</xref>. As a metric, the PCA-env approach employs Schoeneŕs <italic>D</italic> <xref ref-type="bibr" rid="pone.0080563-Schoener1">[84]</xref>, which has been previously proposed as a suitable measure <xref ref-type="bibr" rid="pone.0080563-Warren1">[85]</xref>, <xref ref-type="bibr" rid="pone.0080563-Rdder1">[86]</xref> and ranges between 0 (no overlap) and 1 (complete overlap).</p>
+<p>Significance of the PCA-env results was tested applying both randomization tests of niche equivalency and niche similarity proposed by Warren et al. <xref ref-type="bibr" rid="pone.0080563-Warren1">[85]</xref> as modified by Broennimann et al. <xref ref-type="bibr" rid="pone.0080563-Broennimann1">[39]</xref>. Both tests have been frequently applied in the past and are described in more detail elsewhere <xref ref-type="bibr" rid="pone.0080563-Broennimann1">[39]</xref>, <xref ref-type="bibr" rid="pone.0080563-Rdder1">[86]</xref>. The niche equivalency test assesses whether the environmental niches derived from two sets of species records are actually indistinguishable by comparing the observed overlap with confidence interval derived from a null distribution (95% CI) in a one-tailed test. The niche similarity test assesses whether the observed overlap can be attributed to the general environmental condition which are available within the accessible area of one species. It is a two-tailed test which is therefore computed for each species separately (CI: 0.025–0.975). All tests were performed in R 2.15.2 (R Development Core Team, 2011) using customized scripts provided by Broennimann et al. <xref ref-type="bibr" rid="pone.0080563-Broennimann1">[39]</xref>.</p>
+</sec><sec id="s2h">
+<title>Nomenclatural Acts</title>
+<p>The electronic edition of this article conforms to the requirements of the amended International Code of Zoological Nomenclature, and hence the new names contained herein are available under that Code from the electronic edition of this article. This published work and the nomenclatural acts it contains have been registered in ZooBank, the online registration system for the ICZN. The ZooBank LSIDs (Life Science Identifiers) can be resolved and the associated information viewed through any standard web browser by appending the LSID to the prefix “<ext-link ext-link-type="uri" xlink:href="http://zoobank.org/" xlink:type="simple">http://zoobank.org/</ext-link>”. The LSID for this publication is: urn:lsid:zoobank.org:pub:CF9D1616-4E95-4710-8810-0ED86D48FFC0. The electronic edition of this work was published in a journal with an ISSN, and has been archived and is available from the following digital repositories: PubMed Central, LOCKSS, Zoologisches Forschungsmuseum Alexander Koenig, and Zoologische Staatssammlung München.</p>
+</sec></sec><sec id="s3">
+<title>Results</title>
+<sec id="s3a">
+<title>Phylogeny and Bayesian Species Delimitation</title>
+<p>Our estimate of the phylogeny of <italic>Darevskia</italic> derived from cytochrome b data supports monophyly of <italic>D. chlorogaster</italic>. In contrast, <italic>D. defilippii</italic> is paraphyletic with respect to <italic>D. steineri</italic>. Nevertheless, both clades show remarkably high intraspecific divergences in this mitochondrial gene, exceeding interspecific divergences between many congeners (<xref ref-type="supplementary-material" rid="pone.0080563.s001">Figure S1</xref>.1 in <xref ref-type="supplementary-material" rid="pone.0080563.s004">File S1</xref>). This strongly suggests treating them as species complexes, with <italic>D. steineri</italic> included within the <italic>D. defilippii</italic>-complex. The complex-specific analyses of the concatenated multi-locus data resulted in seven distinct and well-supported lineages within each of the two complexes. Nearly all sampled populations feature unique mitochondrial haplotypes. Although there is less genetic diversity found within the nuclear loci, the structure of clades in general is congruent with mitochondrial results. However, incomplete lineage sorting does occur, e.g. individuals of Central Hyrcanian <italic>D. chlorogaster</italic>-clade cluster partially within the Western and Eastern Hyrcanian clades (<xref ref-type="supplementary-material" rid="pone.0080563.s001">Figure S1</xref>.2 in <xref ref-type="supplementary-material" rid="pone.0080563.s004">File S1</xref>).</p>
+<p>Bayesian species delimitation supports three species within the <italic>D. chlorogaster</italic>-complex and four species within the <italic>D. defilippii</italic>-complex (<xref ref-type="fig" rid="pone-0080563-g001">Figure 1</xref>) when applying both the 95% threshold and the cumulative approach described above. As expected, large values for the θ prior and small values for the τ prior produced more conservative models with less speciation events (i.e. speciation probabilities of nodes were below the 95% threshold). In each complex the supported nodes correspond to the most basal or oldest splits (<xref ref-type="fig" rid="pone-0080563-g001">Figure 1</xref>) and were recovered by every species delimitation model in the posterior distribution (i.e. speciation probability = 1) under every prior combination. In all remaining nodes, models collapsed the two candidate species descending from that bifurcation to one species under at least two of the three prior combinations (<xref ref-type="table" rid="pone-0080563-t001">Table 1</xref>). Only the prior assuming low ancestral population size resulted in more species.</p>
+</sec><sec id="s3b">
+<title>Morphology</title>
+<p>In a first approach, PCA-MIX shows limited evidence of grouping in the specimens analyzed. Namely, only a separation of the two complexes on axes 1 and 2 can be observed (<xref ref-type="fig" rid="pone-0080563-g002">Figure 2</xref>), while axis 5 separates samples of <italic>D. steineri</italic> from all of the remaining specimens (<xref ref-type="supplementary-material" rid="pone.0080563.s001">Figure S1</xref>). The two complexes can be also distinguished from each other by two qualitative characters: a serrated collar and keeled dorsal scales in the <italic>D. chlorogaster</italic>-complex versus a non-serrated collar and smooth granular dorsal scales in the <italic>D. defilippii</italic>-complex. Because of the high intraspecific variation in other morphological characters no diagnostic features to the species within each complex are present. An exception is <italic>D. steineri</italic>, which is placed in the <italic>D. defilippii</italic>-complex based on morphometrics and scalation, but resembles <italic>D. chlorogaster</italic> in terms of coloration (e.g., a greenish ventral coloration).</p>
+<fig id="pone-0080563-g002" position="float" orientation="portrait"><object-id pub-id-type="doi">10.1371/journal.pone.0080563.g002</object-id><label>Figure 2</label><caption>
+<title>The first two axes with largest explanatory power of the mixed variables PCA.</title>
+<p>Multivariate analysis of specimens of the <italic>Darevskia chlorogaster</italic>- (empty symbols) and <italic>D. defilippii</italic>- (solid symbols) complexes was able to separate the two complexes, but not the species. <italic>Darevskia chlorogaster</italic> (squares); <italic>D. kamii</italic> <bold>sp. n.</bold> (diamonds); <italic>D. caspica</italic> <bold>sp. n.</bold> (circles); <italic>D. defilippii</italic> (solid squares); <italic>D. kopetdaghica</italic> <bold>sp. n.</bold> (upward triangles); <italic>D. schaekeli</italic> <bold>sp. n.</bold> (solid circles); and <italic>D. steineri</italic> (downward triangles).</p>
+</caption><graphic mimetype="image" xlink:href="info:doi/10.1371/journal.pone.0080563.g002" position="float" xlink:type="simple" orientation="portrait" /></fig>
+<p>Species can be successfully separated, once sex is taken into account, using an adequate sample size on the basis of quantitative traits by means of a discriminant function (<xref ref-type="fig" rid="pone-0080563-g003">Figure 3</xref>). Multivariate comparisons using size-corrected variables revealed an overall variation between species and sexes within the <italic>D. chlorogaster</italic>-complex (MANCOVA, species Wilks’ λ<sub>60,100</sub> = 0.15, p&lt;0.001; sex Wilks’ λ<sub>30,50</sub> = 0.22, p&lt;0.001). Fourteen (males) and nine (females) variables were included in the forward stepwise procedure of the DA (Tables S3.1 and S3.2 in <xref ref-type="supplementary-material" rid="pone.0080563.s005">File S2</xref>). In both sexes, variation between species is significantly different (<xref ref-type="table" rid="pone-0080563-t003">Table 3</xref>). Percentages of correct classification of the DA were high in both sexes (93% from W Hyrcania, 85% from C Hyrcania, 75% from E Hyrcania in males; 92% from W Hyrcania, 100% from C Hyrcania, 89% from E Hyrcania in females).</p>
+<fig id="pone-0080563-g003" position="float" orientation="portrait"><object-id pub-id-type="doi">10.1371/journal.pone.0080563.g003</object-id><label>Figure 3</label><caption>
+<title>Results of the Discriminant Analyses based on canonical scores for the <italic>Darevskia chlorogaster</italic>-complex performed separately for each sex.</title>
+<p>Grouping according to genetically identified species: <italic>Darevskia chlorogaster</italic> (squares), <italic>D. caspica</italic> sp. n. (circles) and <italic>D. kamii</italic> sp. n. (diamonds).</p>
+</caption><graphic mimetype="image" xlink:href="info:doi/10.1371/journal.pone.0080563.g003" position="float" xlink:type="simple" orientation="portrait" /></fig><table-wrap id="pone-0080563-t003" position="float" orientation="portrait"><object-id pub-id-type="doi">10.1371/journal.pone.0080563.t003</object-id><label>Table 3</label><caption>
+<title>Morphological differences (size corrected) of the species within the <italic>Darevskia chlorogaster</italic>-complex; values given are squared Mahalanobis distance, F-value (males df = 14.31, females df = 9.26) and p-value.</title>
+</caption><alternatives><graphic id="pone-0080563-t003-3" position="float" mimetype="image" xlink:href="info:doi/10.1371/journal.pone.0080563.t003" xlink:type="simple" orientation="portrait" />
+<table><colgroup span="1"><col align="left" span="1" /><col align="center" span="1" /><col align="center" span="1" /><col align="center" span="1" /></colgroup>
+<thead>
+<tr>
+<td align="left" rowspan="1" colspan="1" />
+<td align="left" rowspan="1" colspan="1">D<sup>2</sup></td>
+<td align="left" rowspan="1" colspan="1">F</td>
+<td align="left" rowspan="1" colspan="1"><italic>p</italic></td>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left" rowspan="1" colspan="1"><bold>males:</bold></td>
+<td align="left" rowspan="1" colspan="1" />
+<td align="left" rowspan="1" colspan="1" />
+<td align="left" rowspan="1" colspan="1" />
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1"><italic>caspica-chlorogaster</italic></td>
+<td align="left" rowspan="1" colspan="1">13.37</td>
+<td align="left" rowspan="1" colspan="1">5.77</td>
+<td align="left" rowspan="1" colspan="1">&lt;0.001</td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1"><italic>caspica-kamii</italic></td>
+<td align="left" rowspan="1" colspan="1">4.26</td>
+<td align="left" rowspan="1" colspan="1">1.61</td>
+<td align="left" rowspan="1" colspan="1">0.132</td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1"><italic>kamii-chlorogaster</italic></td>
+<td align="left" rowspan="1" colspan="1">17.92</td>
+<td align="left" rowspan="1" colspan="1">6.01</td>
+<td align="left" rowspan="1" colspan="1">&lt;0.001</td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1"><bold>females:</bold></td>
+<td align="left" rowspan="1" colspan="1" />
+<td align="left" rowspan="1" colspan="1" />
+<td align="left" rowspan="1" colspan="1" />
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1"><italic>caspica-chlorogaster</italic></td>
+<td align="left" rowspan="1" colspan="1">12.23</td>
+<td align="left" rowspan="1" colspan="1">7.12</td>
+<td align="left" rowspan="1" colspan="1">&lt;0.001</td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1"><italic>caspica-kamii</italic></td>
+<td align="left" rowspan="1" colspan="1">13.92</td>
+<td align="left" rowspan="1" colspan="1">6.81</td>
+<td align="left" rowspan="1" colspan="1">&lt;0.001</td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1"><italic>kamii-chlorogaster</italic></td>
+<td align="left" rowspan="1" colspan="1">14.63</td>
+<td align="left" rowspan="1" colspan="1">6.39</td>
+<td align="left" rowspan="1" colspan="1">&lt;0.001</td>
+</tr>
+</tbody>
+</table>
+</alternatives></table-wrap>
+<p>Species and sexes within the <italic>D. defilippi</italic>-complex also showed an overall variation (species Wilks’ λ<sub>90,37</sub> = 0.003, p = 0.001; sex Wilks’ λ<sub>30,12</sub> = 0.05, p&lt;0.001). Due to low sample sizes per species, DA could not be performed for this complex.</p>
+</sec><sec id="s3c">
+<title>Species Distribution Modeling</title>
+<p>AUC values for our Maxent ENMs range from 0.89 (Eastern Alborz <italic>D. defilippii</italic>-clade) to 0.98 (<italic>D. steineri</italic>). According to previous classifications <xref ref-type="bibr" rid="pone.0080563-Swets1">[81]</xref>, <xref ref-type="bibr" rid="pone.0080563-Arajo1">[88]</xref> our results indicate a good discrimination ability of the ENMs. The variable with the most contribution to SDMs of all species belonging to the <italic>D. chlorogaster</italic>-complex and also <italic>D. steineri</italic> is X02 (annual range of the middle infra-red). For the remaining species of the <italic>D. defilippii</italic>-complex different variables are training the models and have highest contribution levels. X10 and X05 have an equally high contribution to the model of Kopet Dagh <italic>D. defilippii</italic>-clade, while the model of Eastern Alborz <italic>D. defilippii</italic>-clade only shows a significant contribution (70%) of X10 and the model of Western Alborz <italic>D. defilippii</italic>-clade is mainly trained by X11 and X08, contributing 33% and 29%, respectively (<xref ref-type="supplementary-material" rid="pone.0080563.s003">Table S1</xref>).</p>
+<p>The potential distributions predicted show almost non-overlapping ranges for the two species complexes, except in the area where <italic>D. steineri</italic> is occurring (<xref ref-type="fig" rid="pone-0080563-g004">Figure 4</xref>). In contrast to the other species in the complex, which are restricted to higher altitudes (<xref ref-type="fig" rid="pone-0080563-g004">Figure 4</xref> E-G), <italic>D. steineri</italic> has a very distinctive and narrow potential distribution in forested areas (<xref ref-type="fig" rid="pone-0080563-g004">Figure 4</xref> H) that partially overlaps with those found in the <italic>D. chlorogaster</italic>-complex. Especially in the latter, predicted ranges of single species are largely congruent with the range of the whole complex and are restricted to the lower altitude forested regions between the Alborz mountains and the Caspian Sea (<xref ref-type="fig" rid="pone-0080563-g004">Figure 4</xref> B-D). However, differences in the distribution of areas with the highest occurrence probabilities can be observed, e.g. the Central Hyrcanian <italic>D. chlorogaster</italic>-clade (<xref ref-type="fig" rid="pone-0080563-g004">Figure 4</xref> C) is less likely to find suitable environment in the eastern and northwestern parts of the range of the complex than the Eastern (<xref ref-type="fig" rid="pone-0080563-g004">Figure 4</xref> D) and Western Hyrcanian (<xref ref-type="fig" rid="pone-0080563-g004">Figure 4</xref> B) clades, respectively.</p>
+<fig id="pone-0080563-g004" position="float" orientation="portrait"><object-id pub-id-type="doi">10.1371/journal.pone.0080563.g004</object-id><label>Figure 4</label><caption>
+<title>Altitude of the study region (A) and ecological niche models for <italic>Darevskia chlorogaster</italic> (B), <italic>D. caspica</italic> sp. n. (C) and <italic>D. kamii</italic> sp. n. (D), <italic>D. defilippii</italic> (E), <italic>D. schaekeli</italic> sp. n. (F), <italic>D. kopetdaghica</italic> sp. n. (G) and <italic>D. steineri</italic> (H).</title>
+<p>Predicted environmental suitability is indicated by colors, ranging from blue (i.e. areas with low predicted probabilities of occurrence) to red (i.e. areas with high predicted probabilities of occurrence), while dark gray shaded areas feature non-analogous environmental conditions (MESS).</p>
+</caption><graphic mimetype="image" xlink:href="info:doi/10.1371/journal.pone.0080563.g004" position="float" xlink:type="simple" orientation="portrait" /></fig>
+<p>Besides the above mentioned <italic>D. steineri</italic>, members of the <italic>D. defilippii</italic>-complex are predicted to be restricted to mountainous areas of the Alborz and adjacent mountain ranges (<xref ref-type="fig" rid="pone-0080563-g004">Figure 4</xref> E–G). Similar to <italic>D. chlorogaster</italic>, the ranges of the potential distributions of Western and Eastern Alborz <italic>D. defilippii</italic>-clades overlap, but areas with highest occurrence probabilities are less congruent. Although potentially occurring within the actual range of the Eastern Alborz clade, respective probabilities of occurrence for the Western Alborz clade are relatively low in that area (<xref ref-type="fig" rid="pone-0080563-g004">Figure 4</xref> F). The model of the Kopet Dagh clade only partially predicts areas suitable for the other two clades of <italic>D. defilippii</italic>. The areas with the highest occurrence probabilities for Western and Eastern Alborz clades (i.e. high altitudes of the Alborz) fall outside of its training range as does the lower altitude forested regions (<xref ref-type="fig" rid="pone-0080563-g004">Figure 4</xref> G).</p>
+</sec><sec id="s3d">
+<title>Niche Overlaps</title>
+<p>Univariate comparisons of environmental niche overlaps within each complex, using density profiles separately for each bioclimatic niche axis are shown in <xref ref-type="supplementary-material" rid="pone.0080563.s002">figure S2</xref>. Pairwise niche overlap values in terms of <italic>D</italic>, niche similarity p-values and equivalency p-values via randomization test are presented in <xref ref-type="table" rid="pone-0080563-t004">table 4</xref> (see <xref ref-type="supplementary-material" rid="pone.0080563.s006">File S3</xref> for detailed results). In general, observed niche overlaps between the studied species are relatively low (i.e. <italic>D</italic> &lt;0.5). In the <italic>D. defilippii</italic>-complex, the minimum and maximum overlap is observed between <italic>D. steineri</italic> and the Kopet Dagh <italic>D. defilippii</italic>-clade (<italic>D</italic> = 0.001) and Western and Eastern Alborz <italic>D. defilippii</italic>-clades (<italic>D</italic> = 0.337). Overlaps between clades in the <italic>D. chlorogaster</italic>-complex are higher, with <italic>D</italic> ranging from 0.383 (between Western and Eastern Hyrcanian clades) to 0.438 (between Western and Central Hyrcanian clades). The niche equivalency hypothesis was rejected for all pairs indicating that niches of sister species are significantly distinct (niche equivalency test: p&lt;0.01; <xref ref-type="table" rid="pone-0080563-t004">Table 4</xref>). Niche similarity tests were significant in 11 of the 18 comparisons indicating that the observed niche overlaps cannot be explained by a background effect, but are attributable to the two compared species (<italic>P</italic>&lt;0.05; <xref ref-type="table" rid="pone-0080563-t004">Table 4</xref>).</p>
+<table-wrap id="pone-0080563-t004" position="float" orientation="portrait"><object-id pub-id-type="doi">10.1371/journal.pone.0080563.t004</object-id><label>Table 4</label><caption>
+<title>Pairwise niche overlap values in terms of <italic>D</italic>, niche similarity p-values and equivalency p-values via randomization test (chl = <italic>Darevskia chlorogaster</italic>; kam = <italic>D. kamii</italic> sp. n.; cas = <italic>D. caspica</italic> sp. n.; def<italic> = D. defilippii</italic>; kop = <italic>D. kopetdaghica</italic> sp. n.; sch<italic> = D. schaekeli</italic> sp. n.; ste = <italic>D. steineri</italic>).</title>
+</caption><alternatives><graphic id="pone-0080563-t004-4" position="float" mimetype="image" xlink:href="info:doi/10.1371/journal.pone.0080563.t004" xlink:type="simple" orientation="portrait" />
+<table><colgroup span="1"><col align="left" span="1" /><col align="center" span="1" /><col align="center" span="1" /><col align="center" span="1" /><col align="center" span="1" /></colgroup>
+<thead>
+<tr>
+<td align="left" rowspan="1" colspan="1">Comparison x-y</td>
+<td align="left" rowspan="1" colspan="1">Niche overlap (<italic>D</italic>)</td>
+<td align="left" rowspan="1" colspan="1">Equivalency</td>
+<td align="left" rowspan="1" colspan="1">Similarity y-&gt;x</td>
+<td align="left" rowspan="1" colspan="1">Similarity x-&gt;y</td>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left" rowspan="1" colspan="1">chl-kam</td>
+<td align="left" rowspan="1" colspan="1">0.383</td>
+<td align="left" rowspan="1" colspan="1"><bold><italic>P</italic></bold><bold>&lt;0.01</bold></td>
+<td align="left" rowspan="1" colspan="1"><bold>0.01</bold></td>
+<td align="left" rowspan="1" colspan="1"><bold>0.01</bold></td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1">chl-cas</td>
+<td align="left" rowspan="1" colspan="1">0.438</td>
+<td align="left" rowspan="1" colspan="1"><bold><italic>P</italic></bold><bold>&lt;0.01</bold></td>
+<td align="left" rowspan="1" colspan="1"><bold>0.01</bold></td>
+<td align="left" rowspan="1" colspan="1"><bold>0.01</bold></td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1">cas-kam</td>
+<td align="left" rowspan="1" colspan="1">0.425</td>
+<td align="left" rowspan="1" colspan="1"><bold><italic>P</italic></bold><bold>&lt;0.01</bold></td>
+<td align="left" rowspan="1" colspan="1"><bold>0.01</bold></td>
+<td align="left" rowspan="1" colspan="1"><bold>0.01</bold></td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1">def-kop</td>
+<td align="left" rowspan="1" colspan="1">0.195</td>
+<td align="left" rowspan="1" colspan="1"><bold><italic>P</italic></bold><bold>&lt;0.01</bold></td>
+<td align="left" rowspan="1" colspan="1"><bold>0.01</bold></td>
+<td align="left" rowspan="1" colspan="1">0.21</td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1">def-sch</td>
+<td align="left" rowspan="1" colspan="1">0.337</td>
+<td align="left" rowspan="1" colspan="1"><bold><italic>P</italic></bold><bold>&lt;0.01</bold></td>
+<td align="left" rowspan="1" colspan="1"><bold>0.01</bold></td>
+<td align="left" rowspan="1" colspan="1"><bold>0.01</bold></td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1">def-ste</td>
+<td align="left" rowspan="1" colspan="1">0.050</td>
+<td align="left" rowspan="1" colspan="1"><bold><italic>P</italic></bold><bold>&lt;0.01</bold></td>
+<td align="left" rowspan="1" colspan="1"><bold>0.97</bold></td>
+<td align="left" rowspan="1" colspan="1">0.33</td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1">sch-kop</td>
+<td align="left" rowspan="1" colspan="1">0.224</td>
+<td align="left" rowspan="1" colspan="1"><bold><italic>P</italic></bold><bold>&lt;0.01</bold></td>
+<td align="left" rowspan="1" colspan="1"><bold>0.01</bold></td>
+<td align="left" rowspan="1" colspan="1">0.05</td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1">sch-ste</td>
+<td align="left" rowspan="1" colspan="1">0.059</td>
+<td align="left" rowspan="1" colspan="1"><bold><italic>P</italic></bold><bold>&lt;0.01</bold></td>
+<td align="left" rowspan="1" colspan="1">0.27</td>
+<td align="left" rowspan="1" colspan="1">0.51</td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1">ste-kop</td>
+<td align="left" rowspan="1" colspan="1">0.001</td>
+<td align="left" rowspan="1" colspan="1"><bold><italic>P</italic></bold><bold>&lt;0.01</bold></td>
+<td align="left" rowspan="1" colspan="1">NA*</td>
+<td align="left" rowspan="1" colspan="1">0.49</td>
+</tr>
+</tbody>
+</table>
+</alternatives><table-wrap-foot><fn id="nt102"><label /><p>Significant values are shown in bold. The asterisk indicates that the test was not applicable due to limited sample size.</p></fn></table-wrap-foot></table-wrap></sec></sec><sec id="s4">
+<title>Taxonomy</title>
+<p>Based on combined genetic, ecological and morphological evidence, we are able to delimit seven different species within the currently recognized <italic>Darevskia chlorogaster</italic>, <italic>D. defilippii</italic> and <italic>D. steineri</italic>. The type locality of <italic>D. chlorogaster</italic> (Boulenger, 1908) falls within the range of the Western Hyrcanian species, as does the junior synonym <italic>Lacerta boettgeri</italic> Méhelÿ, 1909. The type material of this species was examined and a lectotype is designated below. <italic>Lacerta muralis fusca</italic> var. <italic>persica</italic> Bedriaga, 1886 is considered a junior synonym of <italic>D. defilippii</italic> (Camerano, 1877), which is restricted to the Western Alborz populations. Type material of <italic>D. defilippii</italic> and <italic>D. steineri</italic> was not available for examination, but topotypic samples of both corroborate our nomenclatorial actions. Another available name is <italic>Lacerta mostoufi</italic> Baloutch, 1976, whose original description is not sufficient to attribute this species to any <italic>Darevskia</italic> with certainty. Furthermore, its type locality in the Dasht-e Lut desert is most probably in error <xref ref-type="bibr" rid="pone.0080563-Anderson1">[46]</xref> and since its holotype is lost and the only available paratype was identified as a juvenile <italic>D. praticola</italic> (Eversmann, 1834) <xref ref-type="bibr" rid="pone.0080563-indenBosch1">[89]</xref>, we regard this name to be a <italic>nomen dubium</italic>. Accordingly, the Central Hyrcanian and Eastern Hyrcanian populations of the <italic>D. chlorogaster</italic>-complex and the Eastern Alborz and Kopet Dagh populations of the <italic>D. defilippi</italic>-complex require formal description.</p>
+<p>Institutional abbreviations are: BMNH (Natural History Museum, London, Great Britain); MSNTO (Museo Regionale di Scienze Naturali di Torino, Italy); NMW (Naturhistorisches Museum Wien, Austria); ZFMK (Zoologisches Forschungsmuseum Alexander Koenig, Bonn, Germany).</p>
+<sec id="s4a">
+<title><italic>Darevskia caspica</italic> sp. n</title>
+<p>urn:lsid:zoobank.org:act:7BF453EE-91EA-4AE2-AE2E-3A34A5EC0890.</p>
+<p><xref ref-type="fig" rid="pone-0080563-g005">Fig. 5A</xref>.</p>
+<fig id="pone-0080563-g005" position="float" orientation="portrait"><object-id pub-id-type="doi">10.1371/journal.pone.0080563.g005</object-id><label>Figure 5</label><caption>
+<title>Studied species of <italic>Darevskia</italic> in life: <italic>D. caspica</italic> sp. n. (A; photo by N. Moradi); <italic>D. chlorogaster</italic> (B; photo by M. Auer); <italic>D. kamii</italic> sp. n. (C; photo by O. Mozaffari); <italic>D. defilippii</italic> (D; photo by A. Shahrdari) <italic>D. kopetdaghica</italic> sp. n. (E; photo by O. Mozaffari); <italic>D. schaekeli</italic> sp. n. (F; photo by Barbod Safaei Mahroo); and <italic>D. steineri</italic> (G; photo by O. Mozaffari).</title>
+</caption><graphic mimetype="image" xlink:href="info:doi/10.1371/journal.pone.0080563.g005" position="float" xlink:type="simple" orientation="portrait" /></fig><sec id="s4a1">
+<title>Holotype</title>
+<p>Adult male, Iran, Mazandaran Province, Amol, Beliroon, (36° 23′ 38″ N, 52° 25′ 1.48″ E, 130 m asl), 30 May 2010, F. Ahmadzadeh (ZFMK 94109).</p>
+</sec><sec id="s4a2">
+<title>Paratypes</title>
+<p>2 males, 6 females: same data as holotype (ZFMK 94105–94108, 94110–94112, 94161); 1 female: Iran, Mazandaran Province, Amol, Beliroon, 20 September 2012, O. Mozaffari (ZFMK 94113); 7 males, 3 females: Iran, Mazandaran Province, Joybar, 30 May 2010, F. Ahmadzadeh (ZFMK 94114–94116, 94165–94171); 1 male: Iran, Mazandaran Province, Kiasar, Langar, 20 September 2012, O. Mozaffari (ZFMK 94117); 4 males, 4 females: Iran, Mazandaran Province, Savasraeh, 30 May 2010, F. Ahmadzadeh (ZFMK 94153–94160); 5 males, 2 females: Iran, Mazandaran Province, Noshahr, Khyrod, 29 May 2010, F. Ahmadzadeh (ZFMK 94162–94164, 94214–94217).</p>
+</sec><sec id="s4a3">
+<title>Etymology</title>
+<p>Named after its occurrence along the coast of the Caspian Sea.</p>
+</sec><sec id="s4a4">
+<title>Diagnosis</title>
+<p>A member of the <italic>D. chlorogaster</italic>-complex with a serrated collar and keeled dorsal scales, comprising all individuals belonging to the Central Hyrcanian clade. It is characterized by the combination of rectangular ventral plates with rectilinear posterior margins in 20–26 transversal and 6 longitudinal rows; 43–51 dorsal scales across middle of back; 6–12 collar scales; 19–25 gular scales from the angle between the maxillar scales to the collar; 29–37 small scales along fold among ears; 13–18 femoral pores; 24–30 scales under fourth toe; 5–7 supraciliar scales; 5–15 supraciliar granules; 0–2 scales between masseteric and supratemporal shields; 2–4 scales between masseteric and tympanic shields; 2–3 large preanal scales; rostral touches nostril; single postnasal. The maximum snout-vent length is 66.0 mm in males and 67.4 mm in females.</p>
+</sec><sec id="s4a5">
+<title>Description of holotype</title>
+<p>Snout-vent length 59.9 mm; tail complete and 120 mm long. Head depressed; rostral touches nostril; rostral touches frontonasal; length of frontonasal less than its width; sutures between the prefrontal and frontal more or less straight; postnasal fragmented; supranasal separated from anterior loreal scale; series of granules between supraoculars and supraciliars incomplete (11 on each side); 4 supralabials on each side; first supratemporal large and 3 small posttemporals present on each side; a large masseteric shield present on both sides; 1–2 (left and right side, respectively) diminutive scales between masseteric and tympanic shields; 3 tiny scales between masseteric shield and supratemporal on each side; 45 dorsal scales transversely at mid-body; dorsal scales keeled, scales are bigger and keels are sharper towards the tail; 7 collar scales; 21 gular scales; 32 small scales among ears along fold; ventral plates in 26 transversal rows; 2 large symmetrical preanal scales; 15 femoral pores on each side; 29 scales under fourth toe. Flanks with whitish ocelli bearing a black margin; dorsum greyish olive intermixed with darker dots forming a paravertebral line from hind margin of occiput towards tail base; belly light blue in ethanol (<xref ref-type="fig" rid="pone-0080563-g006">Figure 6</xref>).</p>
+<fig id="pone-0080563-g006" position="float" orientation="portrait"><object-id pub-id-type="doi">10.1371/journal.pone.0080563.g006</object-id><label>Figure 6</label><caption>
+<title>Dorsal view of the heads of the holotypes of the newly described <italic>Darevskia</italic> species (from left to right): <italic>D. caspica</italic> sp. n.; <italic>D. kamii</italic> sp. n.; <italic>D. kopetdaghica</italic> sp. n.; and <italic>D. schaekeli</italic> sp. n. Scale bar represents 5 mm.</title>
+</caption><graphic mimetype="image" xlink:href="info:doi/10.1371/journal.pone.0080563.g006" position="float" xlink:type="simple" orientation="portrait" /></fig></sec><sec id="s4a6">
+<title>Variation in paratypes</title>
+<p>See table S7.1 in <xref ref-type="supplementary-material" rid="pone.0080563.s007">file S4</xref>.</p>
+</sec><sec id="s4a7">
+<title>Distribution</title>
+<p>Central part of the Hyrcanian forest in the Mazandaran Province of Iran (<xref ref-type="fig" rid="pone-0080563-g001">Figure 1</xref>).</p>
+</sec><sec id="s4a8">
+<title>Habitat</title>
+<p>Tree trunks and forest floor within the Hyrcanian forest.</p>
+</sec></sec><sec id="s4b">
+<title><italic>Darevskia chlorogaster</italic> (Boulenger, 1908)</title>
+<p><xref ref-type="fig" rid="pone-0080563-g005">Fig. 5B</xref>.</p>
+<sec id="s4b1">
+<title>Lectotype</title>
+<p>Adult male, Iran, Gilan Province, Bandar-e Anzali, H.N. Rabino (BMNH 1946.9.2.29), hereby designated as lectotype. Measurements and scale counts of this specimen are in accordance with the one illustrated in the original description.</p>
+</sec><sec id="s4b2">
+<title>Paralectotypes</title>
+<p>The remaining syntypes are consequently designated paralectotypes. 2 males: same locality data as lectoype, R.B. Woosnam (BMNH 1946.9.1.87–88); 5 males, 1 female: same data as lectotype (BMNH 1946.9.2.28, 1946.9.2.30–33), 1 skeleton, same data as lectotype (BMNH 1946.9.2.34).</p>
+</sec><sec id="s4b3">
+<title>Material examined</title>
+<p>7 males, 9 females: Iran, Gilan Province, Astara (ZFMK 94126–94141); 3 males: Iran; Gilan Province, Asalem (ZFMK 94142–94144); 4 males, 2 females: Iran, Gilan Province, Lonak (ZFMK 94145–94150); 1 male, 1 female: Iran, Mazandaran Province, Tonkabon, Dohezar (ZFMK 94151–94152).</p>
+</sec><sec id="s4b4">
+<title>Diagnosis</title>
+<p>Boulenger (1908) defined the species by featuring a serrated collar composed of 7–9 scales; strongly keeled hexagonal dorsal scales, which are smooth towards the ventrals and a little smaller than the dorsals; 20–27 gular scales, 3 or 4 corresponding to the length of a ventral plate; ventrals in 6 longitudinal series; 44–50 scales across mid-body; 27–30 lamellar scales under fourth toe; and 14–18 femoral pores. We further restrict this species to comprise all individuals belonging to the Western Hyrcanian clade featuring a combination of rectangular ventral plates with rectilinear posterior margins in 19–25 transversal and 6 longitudinal rows; 43–51 dorsal scales across middle of back; 6 to 10 collar scales; 20–25 gular scales from angle between maxillar scales to collar; 27–37 small scales along fold among ears; 13–17 femoral pores; 26–33 scales under fourth toe; 4–8 superaciliar scales; 3–16 supraciliar granules; 1–3 scales between masseteric and supratemporal shields; 2–4 scales between masseteric and tympanic shields; 2–3 large preanal scales; rostral touches nostril; single postnasal. The maximum snout-vent length is 63.9 mm in males and 66.0 mm in females.</p>
+</sec><sec id="s4b5">
+<title>Distribution</title>
+<p>Restricted to the eastern part of the Hyrcanian forest in the southern Republic of Azerbaijan and northwestern Iran (<xref ref-type="fig" rid="pone-0080563-g001">Figure 1</xref>).</p>
+</sec><sec id="s4b6">
+<title>Habitat</title>
+<p>Tree trunks and forest floor within the Hyrcanian forest.</p>
+</sec></sec><sec id="s4c">
+<title><italic>Darevskia kamii</italic> sp. n</title>
+<p>urn:lsid:zoobank.org:act:AD51E23D-940E-415D-9C0F-9D15FE13F7B5.</p>
+<p><xref ref-type="fig" rid="pone-0080563-g005">Fig. 5C</xref>.</p>
+<sec id="s4c1">
+<title>Holotype</title>
+<p>Adult male, Golestan Province, Gorgan, Naharkhoran Forest (36° 46′ 33.61″ N, 54° 27′ 48.01″ E, 450 m asl), 21 September 2012, O. Mozaffari (ZFMK 94118).</p>
+</sec><sec id="s4c2">
+<title>Paratypes</title>
+<p>2 males: Iran, Golestan Province, Aliabad Katol, 1978, J.M. Mangen (ZFMK 27143, 29255); 2 males, 1 female: Iran, Golestan Province, Gorgan, Kurdmichale (ZFMK 27364–27366); 3 males, 5 females: Iran, Golestan Province, Gorgan, Naharkhoran, 1999–2000, J. Farkac (ZFMK 71545–71547, 74677–74678, 74680, 74682, 74683); 3 males: same data as holotype (ZFMK 94119–94120, 94172); 1 male, 2 females: Iran, Golestan Province, Loweh, 28 May 2010, F. Ahmadzadeh (ZFMK 94121–94122, 94212); 1 female: Iran, Golestan Province, Tangrah, 28 May 2010, F. Ahmadzadeh (ZFMK 94123).</p>
+</sec><sec id="s4c3">
+<title>Etymology</title>
+<p>Dedicated to Dr. Haji Goli Kami (Golestan University of Gorgan, Iran), in honor of his indefatigable work and contributions to the knowledge of the Persian herpetofauna.</p>
+</sec><sec id="s4c4">
+<title>Diagnosis</title>
+<p>A member of the <italic>D. chlorogaster</italic>-complex with a serrated collar and keeled dorsal scales, comprising all individuals belonging to the Eastern Hyrcanian clade. It is characterized by the combination rectangular ventral plates with rectilinear posterior margins in 21–27 transversal and 6 longitudinal rows; 41–50 dorsal scales across middle of back; 6–9 collar scales; 20–24 gular scales from angle between maxillar scales to collar; 26–36 small scales along fold among ears; 14–17 femoral pores; 24–32 scales under fourth toe; 4–7 supraciliar scales; 5–12 supraciliar granules; 1–4 scales between masseteric and supratemporal shields; 1–4 scales between masseteric and tympanic shields; 2–4 large preanal scales; rostral touches nostril; single postnasal. The maximum snout-vent length is 69.4 mm in males and 64.0 mm in females.</p>
+</sec><sec id="s4c5">
+<title>Description of holotype</title>
+<p>Snout-vent length is 69.4 mm; tail regenerated. Head depressed; rostral touches nostril; rostral separated from frontonasal; length of frontonasal less than its width; sutures between prefrontal and frontal curved; supranasal contacts anterior loreal on left side; series of granules between supraoculars and supraciliars incomplete (6 on right and 7 on left side); 4 supralabials on each side; first supratemporal large and 3 small posttemporals present on each side; a large masseteric shield exists on both sides; 1–2 (right and left side, respectively) diminutive scales between masseteric and tympanic shields; 2 tiny scales between masseteric shield and supratemporal on each side; 45 dorsal scales transversely at mid-body; dorsal scales keeled, scales bigger and keels sharper towards tail; 9 collar scales; 23 gular scales; 33 small scales along fold among ears; ventral plates in 25 transversal rows; 2 large symmetrical preanal scales; 16 femoral pores on each side; 28 scales under the fourth toe. Flanks dark grey with a distinct median row of whitish ocelli; a dark paravertebral stripe dissolved into irregular cross bars; ground coloration greyish olive; belly bright bluish in ethanol (<xref ref-type="fig" rid="pone-0080563-g006">Figure 6</xref>).</p>
+</sec><sec id="s4c6">
+<title>Variation in paratypes</title>
+<p>See table S7.1 in <xref ref-type="supplementary-material" rid="pone.0080563.s007">file S4</xref>.</p>
+</sec><sec id="s4c7">
+<title>Distribution</title>
+<p>Western part of the Hyrcanian forest in the Golestan Province of Iran (<xref ref-type="fig" rid="pone-0080563-g001">Figure 1</xref>).</p>
+</sec><sec id="s4c8">
+<title>Habitat</title>
+<p>Tree trunks and forest floor within the Hyrcanian forest.</p>
+</sec></sec><sec id="s4d">
+<title><italic>Darevskia defilippii</italic> (Camerano, 1877)</title>
+<p><xref ref-type="fig" rid="pone-0080563-g005">Fig. 5D</xref>.</p>
+<sec id="s4d1">
+<title>Syntypes</title>
+<p>3 specimens: Iran, Tehran Province, Lar Valley, F. De Filippi (MSNTO R2713); 3 specimens: Iran, Tehran Province, Damavand, F. De Filippi (MSNTO R2734).</p>
+</sec><sec id="s4d2">
+<title>Material examined</title>
+<p>3 males, 3 females: Iran, Tehran Province, Lar (ZFMK 94189–94194); 3 males, 4 females: Iran, Gilan Province, Eshkavarat (ZFMK 94173–94179); 6 males, 3 females: Iran, Mazandaran Province, Baladeh (ZFMK 94180–94188); 3 males, 2 females: Iran, Mazandaran Province, Tonkabon, Dohezar (ZFMK 94195–94199).</p>
+</sec><sec id="s4d3">
+<title>Diagnosis</title>
+<p>Camerano (1877) distinguishes this species from <italic>Podarcis muralis</italic> by a more flattened and proportionally shorter head; narrower parietal plates, external sides bordered by a series of small horizontal plates; temporal region covered with numerous small scales; masseteric shield sometimes missing and located much nearer to tympanum than to posterior angle of the eye; 6–8 much smaller and shorter supralabials; relatively smaller tympanum; dorsal scales not keeled, rounded and not imbricate (i.e., smooth); ventral plates in 6 longitudinal rows. We further restrict this species to comprise all individuals belonging to the Western Alborz clade featuring a combination of ventral plates with nearly rectilinear posterior margins in 19–26 transversal and 6 longitudinal rows; 44–55 dorsal scales across middle of back; 7–14 collar scales; 30–42 small scales along fold among ears; 21–30 gular scales from angle between maxillar scales to collar; 14–20 femoral pores; 25–30 scales under fourth toe; 5–7 supraciliar scales; 6–19 supraciliar granules; 0–4 scales between masseteric and supratemporal shields; 1–6 scales between masseteric and tympanic shields; 2 large preanal scales; rostral separated from nostril. The maximum snout-vent length is 54.8 mm in males and 54.3 mm in females.</p>
+</sec><sec id="s4d4">
+<title>Distribution</title>
+<p>Restricted to the western part of the Alborz mountains in northern Iran (<xref ref-type="fig" rid="pone-0080563-g001">Figure 1</xref>).</p>
+</sec><sec id="s4d5">
+<title>Habitat</title>
+<p>Rocky outcrops at the upper margin of the Hyrcanian forest at elevations from 750 m to 2071 m asl.</p>
+</sec></sec><sec id="s4e">
+<title><italic>Darevskia kopetdaghica</italic> sp. n</title>
+<p>urn:lsid:zoobank.org:act:C6C0C7E4-7CF8-46EC-BBF6-A5D56E2EF90C.</p>
+<p><xref ref-type="fig" rid="pone-0080563-g005">Fig. 5E</xref>.</p>
+<sec id="s4e1">
+<title>Holotype</title>
+<p>Adult male, Iran, Northern Khorasan Province, Kopet Dagh, Sarani Protected Area (37°44′ 4.96″ N, 58°5′ 25.09″ E, 2159 m asl), 27 May 2010, F. Ahmadzadeh (ZFMK 94124).</p>
+</sec><sec id="s4e2">
+<title>Paratypes</title>
+<p>1 male: Turkmenistan, Ahal Province, Kopet Dagh, Bol’shiye Karanki, 1978, Chomustjenko (ZFMK29897); 1 male: Iran, Northern Khorasan Province, Kopet Dagh, Sarani Protected Area, Golool Dam, 22 September 2012, O. Mozaffari (ZFMK 94125).</p>
+</sec><sec id="s4e3">
+<title>Etymology</title>
+<p>Named after its exclusive occurrence in the Kopet Dagh range.</p>
+</sec><sec id="s4e4">
+<title>Diagnosis</title>
+<p>A member of the <italic>D. defilippii</italic>-complex with a non-serrated collar and smooth dorsal scales, comprising all individuals belonging to the Kopet Dagh clade. It is characterized by the combination of ventral plates with nearly rectilinear posterior margins in 22–23 transversal and 6 longitudinal rows; 45–50 dorsal scales across middle of back; 10–11 collar scales; 31–34 small scales along fold among ears; 23–26 gular scales from angle between maxillar scales to collar; 16–20 femoral pores; 30 scales under fourth toe; 6 supraciliar scales; 10 supraciliar granules; 2–3 scales between masseteric and supratemporal shield; 4 scales between masseteric and tympanic shield; 2 large preanal scales; rostral separated from nostril. The maximum snout-vent length of males is 57.2 mm. All specimens exhibit a reddish colored snout tip and mental region, which is absent in the other species.</p>
+</sec><sec id="s4e5">
+<title>Description of holotype</title>
+<p>Snout-vent length is 57.2 mm; tail regenerated. Head flattened; rostral separated from nostril; rostral separated from frontonasal; length of frontonasal less than its width; sutures between prefrontal and frontal straight; supranasal contacts anterior loreal on right side; series of granules between the supraoculars and the supraciliars complete (10 on each side); 4 supralabials on each side; first supratemporal large and 3 small posttemporals present on each side; a small masseteric shield exists on both sides; 2 diminutive scales between masseteric and tympanic shield on each side; 6 tiny scales between masseteric and supratemporal shield on each side; 46 dorsal scales across mid-body; dorsal scales granular and smooth, bigger towards the tail; 10 collar scales; 26 gular scales; 34 small scales along fold among ears; ventral plates in 27 transversal rows; 2 large symmetrical preanal scales; 19 femoral pores on each side; 29 scales under fourth toe. Flanks brownish, intermixed with blurred ocelli bearing dark brown margins; dorsum fawnish brown scattered with irregular dark brown small blotches, continuing on tail base; ventral plates reddish brown, outermost ventrals each bearing a bright blue spot; mental region reddish (<xref ref-type="fig" rid="pone-0080563-g006">Figure 6</xref>).</p>
+</sec><sec id="s4e6">
+<title>Variation in paratypes</title>
+<p>See table S7.2 in <xref ref-type="supplementary-material" rid="pone.0080563.s007">file S4</xref>.</p>
+</sec><sec id="s4e7">
+<title>Distribution</title>
+<p>Endemic to the Kopet Dagh range in the border region of Iran and Turkmenistan (<xref ref-type="fig" rid="pone-0080563-g001">Figure 1</xref>).</p>
+</sec><sec id="s4e8">
+<title>Habitat</title>
+<p>Grassy alpine vegetation (e.g., <italic>Acantholimon</italic> and <italic>Astragalus</italic>) and rocky outcrops.</p>
+</sec></sec><sec id="s4f">
+<title><italic>Darevskia schaekeli</italic> sp. n</title>
+<p>urn:lsid:zoobank.org:act:05D6A8EA-3316-462E-BE9F-601AB25D631F.</p>
+<p><xref ref-type="fig" rid="pone-0080563-g005">Fig. 5F</xref>.</p>
+<sec id="s4f1">
+<title>Holotype</title>
+<p>Adult male, Iran, Tehran Province, Firouzkooh (35°44′ 54.56″ E, 52° 44′ 48.58″ N, 2200 m asl), 1 June 2010, F. Ahmadzadeh (ZFMK 94200).</p>
+</sec><sec id="s4f2">
+<title>Paratypes</title>
+<p>1 female: Iran, Mazandaran Province, Kiasar, 18 July 2011, F. Ahmadzadeh (ZFMK 94100); 2 males, 6 females: same data as holotype (ZFMK 94100–94103, 94201–94205); 1 female: Iran, Golestan Province, Toskestan, 19 July 2011, F. Ahmadzadeh (ZFMK 94104).</p>
+</sec><sec id="s4f3">
+<title>Etymology</title>
+<p>Named in honor of Dr. Uwe Schäkel, who has supported the research activities of the ZFMK in Bonn for many years in his function of president of the Alexander Koenig Society, as well as with his personal commitment.</p>
+</sec><sec id="s4f4">
+<title>Diagnosis</title>
+<p>A member of the <italic>D. defilippii</italic>-complex with a non-serrated collar and smooth dorsal scales, comprising all individuals belonging to the Eastern Alborz clade. It is characterized by the combination of ventral plates with nearly rectilinear posterior margins in 21–25 transversal and 6 longitudinal rows; 49–54 dorsal scales across middle of back; 9–11 collar scales; 36–39 small scales along fold among ears; 23–29 gular scales from angle between maxillar scales to collar; 16–19 femoral pores; 26–30 scales under fourth toe; 6–8 supraciliar scales; 7–15 supraciliar granules; 1–4 scales between masseteric and supratemporal shield; 2–6 scales between masseteric and tympanic shield; 2 large preanal scales; rostral separated from nostril. The maximum snout-vent length is 54.8 mm in males and 56.2 mm in females.</p>
+</sec><sec id="s4f5">
+<title>Description of holotype</title>
+<p>Snout-vent length is 54.8 mm; tail regenerated. Head flattened; rostral separated from nostril; rostral separated from frontonasal; length of frontonasal less than its width; sutures between prefrontal and frontal more-or-less straight; supranasal separated from anterior loreal scale; series of granules between supraoculars and supraciliars complete (11 on each side); 4 supralabials on each side; first supratemporal large and 4 small posttemporals present on each side; masseteric shield is fragmented on both sides; 4 diminutive scales between biggest scale in the masseteric region and tympanic shield on each side; 3 tiny scales between biggest scale in the masseteric region and supratemporal shield on each side; 54 dorsal scales across mid-body; dorsal scales smooth and granular, bigger towards the tail; 10 collar scales; 25 gular scales; 41 small scales along fold among ears; ventral plates in 26 transversal rows; 2 large symmetrical preanal scales; 17 femoral pores on each side; 28 scales under fourth toe. Flanks with a broad but indistinct brownish grey dorsolateral stripe, lightening up towards ventral plates; stripe scattered with small irregular light spots; dorsum fawnish grey, scattered with tiny blurred dark blotches; belly bluish white, shifting to reddish orange on the two outermost ventral plates; some irregular blue spots present on the outer edge of the most lateral ventral plates; orange coloration also present on ventral surfaces of limbs and tail base (<xref ref-type="fig" rid="pone-0080563-g006">Figure 6</xref>).</p>
+</sec><sec id="s4f6">
+<title>Variation in paratypes</title>
+<p>See table S7.2 in <xref ref-type="supplementary-material" rid="pone.0080563.s007">file S4</xref>.</p>
+</sec><sec id="s4f7">
+<title>Distribution</title>
+<p>Eastern part of the Alborz mountains in northern Iran (<xref ref-type="fig" rid="pone-0080563-g001">Figure 1</xref>).</p>
+</sec><sec id="s4f8">
+<title>Habitat</title>
+<p>Alpine vegetation, rocky outcrops and loose scree at elevations from 1720 m to 2198 m asl.</p>
+</sec></sec><sec id="s4g">
+<title><italic>Darevskia steineri</italic> (Eiselt 1995)</title>
+<p><xref ref-type="fig" rid="pone-0080563-g005">Fig. 5G</xref>.</p>
+<sec id="s4g1">
+<title>Holotype</title>
+<p>Adult male, Iran, Golestan Province, Gole Loweh near Minou-dasht, H. Steiner (NMW 33715).</p>
+</sec><sec id="s4g2">
+<title>Paratypes</title>
+<p>6 males, 1 female: same data as holotype (NMW 33716∶1–7).</p>
+</sec><sec id="s4g3">
+<title>Specimens examined</title>
+<p>3 males, 1 female: Iran, Golestan Province, Loweh (ZFMK 94206–94208, 94211); 2 females: Iran, Golestan Province, Tangrah (ZFMK 94209–94210).</p>
+</sec><sec id="s4g4">
+<title>Diagnosis</title>
+<p>A member of the <italic>D. defilippii</italic>-complex with a non-serrated collar and smooth dorsal scales. According to Eiselt <xref ref-type="bibr" rid="pone.0080563-Eiselt1">[45]</xref> distinguished from <italic>D. chlorogaster</italic> and <italic>D. defilippii</italic> by a relatively longer pileus; a very small massetericum; the higher number of dorsals, small tibials and small temporals between masseteric and tympanic/supratemporal shield; compared to <italic>D. defilippii</italic> a lower number of small femoralia and marginalia. We further characterize this species by the combination of ventral plates with nearly rectilinear posterior margins in 21–25 transversal and 6 longitudinal rows; 50–60 dorsal scales across middle of back; 7–10 collar scales; 36–49 small scales along fold among ears; 23–30 gular scales from angle between maxillar scales to collar; 15–21 femoral pores; 28–33 scales under fourth toe; 5–6 supraciliar scales; 10–12 supraciliar granules; 2–3 scales between masseteric and supratemporal shield; 2–4 scales between masseteric and tympanic shield; 2 large preanal scales; rostral separated from nostril. The maximum snout-vent length in our material is 56.6 mm in males and 60.9 mm in females, while Eiselt’s largest specimen measured 71 mm. In contrast to all other species within this complex, which are characterized by a reddish coloration on the belly, <italic>D. steineri</italic> has a greenish ventral coloration.</p>
+</sec><sec id="s4g5">
+<title>Distribution</title>
+<p>Only known from a few localities in the eastern Hyrcanian forest (<xref ref-type="fig" rid="pone-0080563-g001">Figure 1</xref>), where it occurs in sympatry with <italic>D. kamii</italic> <bold>sp. n.</bold></p>
+</sec><sec id="s4g6">
+<title>Habitat</title>
+<p>Tree trunks and forest floor within the Hyrcanian forest.</p>
+</sec></sec></sec><sec id="s5">
+<title>Discussion</title>
+<p>It has been suggested <xref ref-type="bibr" rid="pone.0080563-Murphy1">[49]</xref>, <xref ref-type="bibr" rid="pone.0080563-Tarkhnishvili1">[43]</xref> that cryptic species are awaiting recognition in the genus <italic>Darevskia</italic>, which is corroborated by our detailed analyses of variation within <italic>D. chlorogaster</italic>, <italic>D. defilippii</italic> and <italic>D. steineri</italic>. Although there are a high levels of genetic diversity found within species of <italic>Darevskia</italic>, most of the species occur in similar habitat types, and, at a first glance, their external morphology is quite similar. Each of the two complexes studied herein, <italic>D. defilippii</italic> (including <italic>D. steineri</italic>) and <italic>D. chlorogaster</italic>, involves several deeply divergent lineages with uncorrected p-distances of up to 13.2% and 10.5% in the mitochondrial cytochrome b gene, respectively. These results are comparable with previous studies of genetic diversity between lacertid species <xref ref-type="bibr" rid="pone.0080563-Arribas1">[90]</xref>–<xref ref-type="bibr" rid="pone.0080563-Harris2">[92]</xref>. Nevertheless, these thresholds for setting species boundaries remain highly subjective. In contrast to distance- or topology-based delimitation of species, which merely rely on interpretation, Bayesian methods provide a more objective and repeatable practice to detect species <xref ref-type="bibr" rid="pone.0080563-Fujita1">[14]</xref>, <xref ref-type="bibr" rid="pone.0080563-Leach1">[67]</xref>. However, taxonomic actions, such as description of new species, should not solely base on the coalescent models, but incorporate distinct characters <xref ref-type="bibr" rid="pone.0080563-Bauer1">[9]</xref>. Furthermore, several taxonomic revisions of the genus led to multiple status changes for individual taxa, indicating a high level of uncertainty in the morphology-based taxonomy of <italic>Darevskia</italic> <xref ref-type="bibr" rid="pone.0080563-Tarkhnishvili1">[43]</xref>. For example, <italic>D. defilippii</italic> was initially considered as a subspecies of and later as the sister species of <italic>D. raddei</italic> based on morphological characters <xref ref-type="bibr" rid="pone.0080563-Anderson1">[46]</xref>, but our molecular phylogeny demonstrates that the two taxa are not even closely related within the genus (<xref ref-type="supplementary-material" rid="pone.0080563.s001">Figure S1</xref>.1 in <xref ref-type="supplementary-material" rid="pone.0080563.s004">File S1</xref>) and each of them constitutes a complex of several species (<xref ref-type="fig" rid="pone-0080563-g001">Figure 1</xref>). Taking into account the notable progress in developing new methods for species delimitation, an integrative approach might provide a solution for resolving taxonomic questions, especially in such cryptic species complexes.</p>
+<p>Herein we showed how coalescent models for species delimitation can be used within an integrative framework incorporating occurrence information, spatial environmental data and morphological traits. Definition of the two species complexes and assignment of specimens to them is well supported by both results of molecular phylogenetic inference and PCA-based analyses of morphological data (PCA-MIX). Because of the overall morphological resemblance of species coupled with a high intra-specific variation, analyses of the morphological data did not identify all the genetically diverged groups, at least in case of the <italic>D. defilippi</italic>-complex, where insufficient sample size hampered discriminant methods.</p>
+<p>Regarding the morphological diagnoses of the species, it is important to distinguish qualitative from quantitative characters. The first are virtually lacking within each species complex (except for <italic>D. steineri</italic> and <italic>D. kopetdaghica</italic> <bold>sp. n.</bold> which differ in coloration), suggesting that these cryptic species cannot be identified based on univariate qualitative morphological differences. However, if quantitative characters overlap but differ quantitatively and statistical inference can be done (i.e. MANCOVA and discriminant analysis as done herein), then these species are diagnosable. This diagnosis is not deterministic but probabilistic, since it is based on populations rather than individuals and usually incorporates a combination of characters rather than a single distinct character or qualitative features. While this allows distinguishing species within a complex and actually makes them not completely “cryptic”, it has one huge drawback: a single individual might remain indeterminable. However, from an evolutionary biologist’s point of view, we consider these species to be more robust than for example, species described based on single specimens without any knowledge of intra- and interspecific variation.</p>
+<p>The distribution of nuclear and mitochondrial genetic variation within <italic>D. chlorogaster</italic>, <italic>D. defilippii</italic> and <italic>D. steineri</italic> revealed a non-parallel phylogeographic history for both species complexes. Non-overlapping geographic distributions and strong association of both nuclear and mitochondrial genetic diversity with geographic patterns suggests a history of allopatric divergence within each species complex, which however have taken place in different areas. Considering the diversification and splitting model suggested by Tarkhnishvili <xref ref-type="bibr" rid="pone.0080563-Tarkhnishvili1">[43]</xref>, as well as the phylogenetic patterns, isolation and fragmentation of the ancestral populations of <italic>D. defilippii</italic>, such a split seems to coincide with the Messinian Salinity Crisis, a dry period around 5.5 My ago <xref ref-type="bibr" rid="pone.0080563-Tarkhnishvili1">[43]</xref>, <xref ref-type="bibr" rid="pone.0080563-Hs1">[93]</xref>. Simultaneously, <italic>D. chlorogaster</italic> might have separated from the <italic>mixta</italic> group. Intraspecific diversification of <italic>D. chlorogaster</italic> likely started in the late Pliocene or Pre-Pleistocene, because it shows less differentiation in comparison to <italic>D. defilippii</italic>. At the same time, with a deep geographic break within the Eastern clade of <italic>D. defilippii,</italic> the Kopet Dagh population became isolated from the populations referable to <italic>D. steineri</italic> and <italic>D. schaekeli</italic> <bold>sp. n.</bold> Therefore, all splits within these species complexes predate the Pleistocene climate fluctuations, and are likely associated with major geological events within this area <xref ref-type="bibr" rid="pone.0080563-Kehl1">[94]</xref>.</p>
+<p>The uplift of the three major mountain chains, the Lesser Caucasus, Alborz Range and the Kopet Dagh and Balkhan Mountains, started around 5 million years ago, caused by the collision of the Indian and Arabian plates with Eurasia <xref ref-type="bibr" rid="pone.0080563-Sborshchikov1">[95]</xref>. Macey et al. <xref ref-type="bibr" rid="pone.0080563-Macey1">[96]</xref>, <xref ref-type="bibr" rid="pone.0080563-Macey2">[97]</xref> proposed an east to west fragmentation of populations of the Agamid lizard <italic>Paralaudakia caucasia</italic> complex along the northern margin of the Iranian Plateau during this same period. They concluded that vicariant splitting events in a strictly east to west pattern could not explain the species’ phylogenetic relationships. Instead the current distribution patterns of the species were shaped as a result of shifts in tectonic activity on the Iranian Plateau through the last 10 million years. A sharp uplifting of the eastern Kopet Dagh separated <italic>Paralaudakia erythrogastra</italic> 3–4 Mya ago and other uplifting in the Lesser Caucasus and Alborz mountains isolated Caucasian populations from the eastern populations approximately 2–3 Mya ago. However, none of the <italic>Darevskia</italic> species groups from this region shows such a phylogeographic pattern. Of the three main populations of <italic>D. chlorogaster</italic>, two of them belong to west and central regions of Hyrcanian forest, isolated from the Golestan populations occurring in the east. Taking into account that <italic>D. chlorogaster</italic> does not occur in mountains but is a ground dweller occurring at low elevations, the explanation of its phylogeographic pattern does not seem equivalent to that within <italic>P. caucasia</italic> that mostly has been shaped as result of the process of mountain uplifting. Rather it seems that this species followed the forest regression as result of climate oscillations.</p>
+<p>The <italic>D. defilippii</italic>-complex also shows more confusing phylogeographic patterns that cannot be explained by the hypotheses proposed by Macey et al. <xref ref-type="bibr" rid="pone.0080563-Macey2">[97]</xref>. The main break within the <italic>defilippii</italic>-complex occurs in the central Alborz and the younger, closely related lineages are nested within the eastern clade. Following the pattern observed in <italic>P. caucasia</italic>, the eastern lineages in the Kopet Dagh mountains should be older (3–4 Mya) whereas the western populations, the restricted <italic>D. defilippii</italic> would have separated earlier from the eastern populations. Similarly, the Kopet Dagh population would have become isolated from the two other remaining lineages in Eastern Alborz much later. However, the <italic>defilippii</italic>-complex first started to separate in the central Alborz Mountains and then further splits took place within the eastern clade starting from east to west, which is in concordance with the earlier hypothesis <xref ref-type="bibr" rid="pone.0080563-Macey1">[96]</xref>. The restricted populations of <italic>D. defilippii</italic> are distributed between Sepid-Rud Vallay in Gilan in the west and Firouzkooh in the East where the main split took place. Conversely, this lineage shows a west-to-east splitting pattern.</p>
+<p>Therefore, the phylogeography of both species complexes occurring within the area uncovered complicated patterns. Each complex has its own particular phylogeographic distribution pattern, which has been shaped under the waves of tectonic activities that happened in different regions in different times and by stochastic processes. However, the valley of Firouzkooh-Sari that separated two main clades of the <italic>D. defilippii</italic>-complex also plays an important role in the division of the Mazandaran populations (central clade) of the <italic>D. chlorogaster</italic>-complex. However, this phylogeographic break is not as deep as that between the two main <italic>“defilippii”</italic> clades. Possibly, this north-to-south valley isolated populations in both species complexes, but the taxa of the <italic>D. chlorogaster</italic>-complex in the lowlands were able to migrate and have a higher degree of gene flow. Alternatively, the Messinian Salinity Crisis <xref ref-type="bibr" rid="pone.0080563-Hs1">[93]</xref>, <xref ref-type="bibr" rid="pone.0080563-Krijgsman1">[98]</xref>, and uplifting Alborz Mountains in the northern margin of the Iranian Plateau <xref ref-type="bibr" rid="pone.0080563-Kehl1">[94]</xref> took place approximately at the same time. During this period, these two climate and geological events may have caused the early separation of the common ancestor of <italic>Darevskia</italic> into distinct clades in the area. First the “<italic>defilippii</italic>” clade split from “<italic>mixta-chlorogaster</italic>” and later on the ancestor of “<italic>chlorogaster</italic>” separated from the “<italic>mixta</italic>” clade.</p>
+<p>Following our combined approach, ecological niche modeling provides additional support for species delimitation in both complexes. The two species complexes largely differ in their realized ecological niches, each species grouping with the other members of its own complex but occupying still distinct realized niches. The only exception is <italic>D. steineri</italic>, which has a more similar realized niche to the members of the <italic>D. chlorogaster</italic>-complex (<xref ref-type="supplementary-material" rid="pone.0080563.s002">Figure S2</xref>).</p>
+<p>The narrow, elongated potential distributions of the species belonging to the <italic>D</italic>. <italic>chlorogaster</italic>-complex suggest very restricted habitat preferences covering the forested areas with similar spatial patterns for the members of this species complex (<xref ref-type="fig" rid="pone-0080563-g004">Figure 4</xref>). Our results indicate that the water content of the vegetation as reflected in the annual range of the middle infra-red plays an important role in explaining the potential distribution of the members of the <italic>D. chlorogaster</italic>-complex (<xref ref-type="supplementary-material" rid="pone.0080563.s003">Table S1</xref>) and particularly the potential distribution of <italic>D. caspica</italic> <bold>sp. n.</bold> can be mainly explained by this variable. The mean of normalized difference vegetation index (NDVI) in winter also contributes to the potential distribution of <italic>D. caspica</italic> <bold>sp. n</bold> and <italic>D. kamii</italic> <bold>sp. n</bold> in the central and western parts of the Hyrcanian forest. The potential distribution of <italic>D. chlorogaster</italic> in western Hyrcania is best explained by the temperature annual range (X09), differing from the potential distributions of the two other new species. <italic>Darevskia caspica</italic> <bold>sp. n.</bold> lives in lowlands and occupies habitats with shallower slopes compared to <italic>D. kamii</italic> <bold>sp. n.</bold> and <italic>D. chlorogaster.</italic> The annual range of enhanced vegetation index (EVI) steadily increases from west to east as Golestan province, which has more vegetation cover in terms of forest – the second most important variable explaining the distribution of <italic>D. kamii</italic> <bold>sp. n.</bold></p>
+<p>The taxa of the <italic>D. defilippii</italic>-complex display four different potential distributions, which are largely disjunct (<xref ref-type="fig" rid="pone-0080563-g004">Figure 4</xref> and <xref ref-type="supplementary-material" rid="pone.0080563.s003">Table S1</xref>). Similar to the taxa of the <italic>D. chlorogaster</italic>-complex, the driving variable best explaining the potential distribution of <italic>D. steineri</italic> is the annual mean of normalized difference vegetation index (NDVI), which is less important in the other members of the complex. The summer temperature (X10) has the highest explanative power in the SDM developed for <italic>D. schaekeli</italic> <bold>sp. n.</bold> This variable is also important in the SDM developed for <italic>D. kopetdaghica</italic> <bold>sp. n.,</bold> where the annual range of enhanced vegetation index (EVI) is also important. The potential distribution of <italic>D. defilippii</italic> strongly differs from those of <italic>D. kopetdaghica</italic> <bold>sp. n.</bold> and <italic>D. schaekeli</italic> <bold>sp. n.</bold> being characterized by habitats on sharp slopes and much colder winters within the Central Alborz Mountains, namely Damavand.</p>
+<p>When interpreting the results of the ENMs, it is important to distinguish between the species’ known realized distributions as indicated by the species records and their potential distribution as suggested by the models. The latter identifies all habitats which meet the ecological properties at the species records, but does neither account for biotic interactions nor for dispersal limitations. Being allopatric dispersal barriers such as valleys and rivers may prevent a complete filling of the potential distributions and have likely played a key role shaping the diversity of the group. For example this is evident in most cases shown <xref ref-type="fig" rid="pone-0080563-g004">Figure 4</xref>. Although the environmental conditions might be suitable across most parts of the mountain ranges, the specific taxa occupy only smaller fractions of their potential distributions isolated from other parts by areas with unsuitable conditions. Furthermore, the ENMs may not be too reliable when projected on non-analogous environmental conditions, i.e. conditions which not available within the realized range of the taxa. Areas prone to this type of uncertainty are indicated in <xref ref-type="fig" rid="pone-0080563-g004">Figure 4</xref> and may be extensive as evident in 4G.</p>
+<p>Within each complex, the overall niche overlap in terms of Schoeneŕs <italic>D</italic> is moderate between the clades and their realized niches are significantly different, indicating extensive differentiation in the realized niche spaces among the clades. The similarity tests, however, show pronounced niche conservatism within the <italic>D. chlorogaster</italic>-complex but more divergent niches within the <italic>D. defilippii</italic>-complex.</p>
+<p><italic>Darevskia steineri</italic> reveals an interesting evolutionary history and its evolution could provide a model to investigate the role of parallel convergent evolution of morphological characters in these lizards. This species is, in fact, one of the subclades of the <italic>defilippii</italic>-complex occurring in the easternmost part of the Hyrcanian forest in syntopy with members of the <italic>chlorogaster</italic>-complex, although it differs from these by occupying completely different habitats, since they are inhabitants of rocky areas. <italic>Darevskia steineri</italic> shows a similar color pattern evolution to the members of the <italic>D</italic>. <italic>chlorogaster</italic>-complex particularly in the yellowish or greenish color of the belly, whereas the other populations of the <italic>D. defilippii</italic>-complex have red bellies and are appropriately adapted to the rocky substrate. As similar belly color patterns (yellowish, bluish or greenish-white) do exist in the <italic>D. raddei</italic> complex as well <xref ref-type="bibr" rid="pone.0080563-Darevsky1">[42]</xref>, it seems that evolution of color pattern shows a parallel convergent evolution in these complexes of lizard affected by habitat types. Although sometimes <italic>D. raddei</italic> can be found on rocky areas similar to those occupied by <italic>D. defilippii</italic>, the habitats where the <italic>D. raddei</italic> is found are completely covered with dense and bushy vegetation. <italic>Darevskia chlorogaster</italic>, unlike the two other species, has dorsally keeled scales and a serrated collar. Arnold <xref ref-type="bibr" rid="pone.0080563-Arnold2">[99]</xref>, <xref ref-type="bibr" rid="pone.0080563-Arnold3">[100]</xref> hypothesized that those lacertid species which occur in forest habitats typically possess dorsally keeled scales, which would lead to the question of why <italic>D. steineri</italic> does not show keeled dorsal scales? Furthermore, <italic>D. chlorogaster</italic> is phylogenetically more closely related to <italic>D. raddei</italic>, which has smooth dorsal scales similar to <italic>D. steineri</italic> and other populations of the <italic>D. defilippii</italic>-complex. All of these character states provide evidence that these lizards are morphologically highly homoplastic. It appears that habitat types play an important role in the evolution of these lizards. Subsequently, those populations that are living in similar habitats experience similar selective pressures and are morphologically similar. This might explain why there are only few morphological differences between the species (but high intraspecific variation) in spite of having deep genetic divergence, and provides further reasons why a taxonomic classification based on these morphological characters does not lead to reliable results.</p>
+<p>From a historical point of view, it was suggested that the Alborz Mountains and southern parts of the Caspian Sea were refugia for various taxa during the last glaciations <xref ref-type="bibr" rid="pone.0080563-Veith1">[101]</xref> and this appears to be the case for <italic>Darevskia</italic>. The current potential distribution maps show that post glacial expansion could not be very extensive. The lack of genetic divergence within the restricted <italic>D. chlorogaster</italic> indicates that they recently recolonized much of their range, probably all from the same refuge. The other clades (within both complexes) reveal considerable intra-clade genetic variability indicating they were separated during the Pleistocene and probably recolonized their current range from several refugia. Their current distribution indicates that there are some possible contact zones between clades, but how much they can hybridize and thus permit gene flow needs further investigations. Although the restricted <italic>D. defilippii</italic> clade has the widest potential distribution of the group it does not show a significant intra-clade genetic variability compared to the clade occurring in Eastern Alborz. From west to east, the only current possible contact zone is between <italic>D. defilippii</italic> (sensu stricto) and <italic>D. schaekeli</italic> <bold>sp. n.</bold> <italic>D. kopetdaghica</italic> <bold>sp. n.</bold> is completely geographically isolated, but there is no evidence for a contact zone between the distributional ranges of <italic>D. steineri</italic> and <italic>D. schaekeli</italic> <bold>sp. n.</bold> Furthermore, considering their highly divergent habitat preferences, it would be highly unlikely. The question remains how and why <italic>D. steineri</italic> has evolved to occupy a new environment. One possibility would be a classic allopatric speciation mode via habitat fragmentation and subsequent genetic drift.</p>
+<p>Concluding, it becomes evident that the previous taxonomic arrangement in the three species <italic>D. chlorogaster</italic>, <italic>D. defilippii</italic> and <italic>D. steineri</italic> was completely unsatisfactory since it did not reflect the evolutionary patterns and processes. The taxonomic changes proposed herein are based on genetic, morphological (to a lesser extent in the <italic>D. defilippii</italic>-complex) and ecological (to a lesser extent in the <italic>D. chlorogaster</italic>-complex) evidence. Apparently, both species complexes tend to exhibit conservative morphological evolution and the application of an integrative approach is particularly important in such cases. The cryptic diversity of the group might be explained by accessibility of the suitable habitats, a fast radiation and subsequent ecological shift to novel habitats. Our approach allowed the identification and description of four new species, which also have important implications for conservation and natural resource management. Integrated assessments of other herpetofaunal elements from the region are clearly needed to fully understand the biodiversity of this rich but complex region.</p>
+</sec><sec id="s6">
+<title>Supporting Information</title>
+<supplementary-material id="pone.0080563.s001" mimetype="application/pdf" xlink:href="info:doi/10.1371/journal.pone.0080563.s001" position="float" xlink:type="simple" orientation="portrait"><label>Figure S1</label><caption>
+<p><bold>Results of multivariate analysis of morphological characters.</bold></p>
+<p>(PDF)</p>
+</caption></supplementary-material><supplementary-material id="pone.0080563.s002" mimetype="application/pdf" xlink:href="info:doi/10.1371/journal.pone.0080563.s002" position="float" xlink:type="simple" orientation="portrait"><label>Figure S2</label><caption>
+<p><bold>Density plots for each bioclimatic variable of species within the </bold><bold><italic>D. chlorogaster</italic></bold><bold>- and </bold><bold><italic>D. defilippii</italic></bold><bold>-complexes.</bold></p>
+<p>(PDF)</p>
+</caption></supplementary-material><supplementary-material id="pone.0080563.s003" mimetype="text/csv" xlink:href="info:doi/10.1371/journal.pone.0080563.s003" position="float" xlink:type="simple" orientation="portrait"><label>Table S1</label><caption>
+<p><bold>Summary of the predictive performance, variable contributions and specific thresholds of the Maxent analyses per clade.</bold></p>
+<p>(CSV)</p>
+</caption></supplementary-material><supplementary-material id="pone.0080563.s004" mimetype="application/pdf" xlink:href="info:doi/10.1371/journal.pone.0080563.s004" position="float" xlink:type="simple" orientation="portrait"><label>File S1</label><caption>
+<p><bold>Taxa used for phylogenetic analyses, phylogeny of the genus </bold><bold><italic>Darevskia</italic></bold><bold> and single gene trees.</bold></p>
+<p>(PDF)</p>
+</caption></supplementary-material><supplementary-material id="pone.0080563.s005" mimetype="application/pdf" xlink:href="info:doi/10.1371/journal.pone.0080563.s005" position="float" xlink:type="simple" orientation="portrait"><label>File S2</label><caption>
+<p><bold>Summary of the Discriminant function Analyses of morphological variables of the </bold><bold><italic>Darevskia chlorogaster</italic></bold><bold>-complex.</bold></p>
+<p>(PDF)</p>
+</caption></supplementary-material><supplementary-material id="pone.0080563.s006" mimetype="application/pdf" xlink:href="info:doi/10.1371/journal.pone.0080563.s006" position="float" xlink:type="simple" orientation="portrait"><label>File S3</label><caption>
+<p><bold>Pairwise comparison of niches in climatic space (PCA-env).</bold></p>
+<p>(PDF)</p>
+</caption></supplementary-material><supplementary-material id="pone.0080563.s007" mimetype="application/pdf" xlink:href="info:doi/10.1371/journal.pone.0080563.s007" position="float" xlink:type="simple" orientation="portrait"><label>File S4</label><caption>
+<p><bold>Summary statistics and raw measurements of morphologically examined specimens.</bold></p>
+<p>(PDF)</p>
+</caption></supplementary-material></sec></body>
+<back>
+<ack>
+<p>We would like to thank those many people who have assisted this study by fieldwork, preparing the specimens, providing lizard tissue, and occurrence data: Malek Abbaspour, Sahib Achmadov, Hadi Asadi, Markus Auer, Ursula Bott, Peter Geissler; Jalal Javadi, Kamran Kamali, Farzaneh Khanjani, Tom Kirschey, Mohammad Reza Mahdavi, Barbod Safei Mahroo, Naeim Moradi, Alireza Shahrdari, and Mahmoud Soufi. We are grateful to Patrick Campbell (Natural History Museum, London), who gave access to the type series of <italic>D. chlorogaster</italic> and Flora Ihlow for providing photographs of these specimens. We further thank Salvador Carranza and an anonymous reviewer, whose comments contributed to improve the manuscript.</p>
+</ack>
+<ref-list>
+<title>References</title>
+<ref id="pone.0080563-Mayr1"><label>1</label>
+<mixed-citation publication-type="other" xlink:type="simple">Mayr E (1942) Systematics and the origin of species. New York: Columbia University Press.</mixed-citation>
+</ref>
+<ref id="pone.0080563-Lomolino1"><label>2</label>
+<mixed-citation publication-type="other" xlink:type="simple">Lomolino MV, Riddle BR, Brown JH (2006) Biogeography. Third edition. Sunderland, MA: Sinauer.</mixed-citation>
+</ref>
+<ref id="pone.0080563-Wiens1"><label>3</label>
+<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Wiens</surname><given-names>JJ</given-names></name> (<year>2007</year>) <article-title>Species delimitations: New approaches for discovering diversity</article-title>. <source>Syst Biol</source> <volume>56</volume>: <fpage>875</fpage>–<lpage>878</lpage>.</mixed-citation>
+</ref>
+<ref id="pone.0080563-Mayr2"><label>4</label>
+<mixed-citation publication-type="other" xlink:type="simple">Mayr E (1969) Principles of systematic zoology. New York: McGraw-Hill.</mixed-citation>
+</ref>
+<ref id="pone.0080563-Agapow1"><label>5</label>
+<mixed-citation publication-type="other" xlink:type="simple">Agapow M (2005) Species: demarcation and diversity. In Phylogeny and Conservation (eds A. Purvis, J. L. Gittleman &amp; T. Brooks), 57–75. Cambridge: Cambridge University Press.</mixed-citation>
+</ref>
+<ref id="pone.0080563-deQueiroz1"><label>6</label>
+<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>de Queiroz</surname><given-names>K</given-names></name> (<year>2005</year>) <article-title>Ernst Mayr and the modern concept of species</article-title>. <source>Proc Natl Acad Sci USA</source> <volume>102</volume>: <fpage>6600</fpage>–<lpage>6607</lpage>.</mixed-citation>
+</ref>
+<ref id="pone.0080563-Coyne1"><label>7</label>
+<mixed-citation publication-type="other" xlink:type="simple">Coyne JA, Orr HA (2004) Speciation. Sunderland, MA: Sinauer.</mixed-citation>
+</ref>
+<ref id="pone.0080563-Hawlitschek1"><label>8</label>
+<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Hawlitschek</surname><given-names>O</given-names></name>, <name name-style="western"><surname>Porch</surname><given-names>N</given-names></name>, <name name-style="western"><surname>Hendrich</surname><given-names>L</given-names></name>, <name name-style="western"><surname>Balke</surname><given-names>M</given-names></name> (<year>2011</year>) <article-title>Ecological niche modelling and nDNA sequencing support a new, morphologically cryptic beetle species unveiled by DNA barcoding</article-title>. <source>PLoS ONE</source> <volume>6(2)</volume>: <fpage>e16662</fpage> <comment>doi:<ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1371/journal.pone.0016662" xlink:type="simple">10.1371/journal.pone.0016662</ext-link></comment></mixed-citation>
+</ref>
+<ref id="pone.0080563-Bauer1"><label>9</label>
+<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Bauer</surname><given-names>AM</given-names></name>, <name name-style="western"><surname>Parham</surname><given-names>JF</given-names></name>, <name name-style="western"><surname>Brown</surname><given-names>RM</given-names></name>, <name name-style="western"><surname>Stuart</surname><given-names>BL</given-names></name>, <name name-style="western"><surname>Grismer</surname><given-names>L</given-names></name>, <etal>et al</etal>. (<year>2010</year>) <article-title>Availability of new Bayesian-delimited gecko names and the importance of character-based species descriptions</article-title>. <source>Proc R Soc B</source> <volume>278</volume>: <fpage>490</fpage>–<lpage>492</lpage>.</mixed-citation>
+</ref>
+<ref id="pone.0080563-Templeton1"><label>10</label>
+<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Templeton</surname><given-names>AR</given-names></name> (<year>2001</year>) <article-title>Using phylogeographic analyses of gene trees to test species status and processes</article-title>. <source>Mol Ecol</source> <volume>10</volume>: <fpage>779</fpage>–<lpage>791</lpage>.</mixed-citation>
+</ref>
+<ref id="pone.0080563-Morando1"><label>11</label>
+<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Morando</surname><given-names>M</given-names></name>, <name name-style="western"><surname>Avila</surname><given-names>LJ</given-names></name>, <name name-style="western"><surname>Sites</surname><given-names>JW</given-names><suffix>Jr</suffix></name> (<year>2003</year>) <article-title>Sampling strategies for delimiting species: Genes, individuals, and populations in the <italic>Liolaemus elongatus-kriegi</italic> complex (Squamata: Liolaemidae) in Andean-Patagonian South America</article-title>. <source>Syst Biol</source> <volume>52</volume>: <fpage>159</fpage>–<lpage>185</lpage>.</mixed-citation>
+</ref>
+<ref id="pone.0080563-Pons1"><label>12</label>
+<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Pons</surname><given-names>J</given-names></name>, <name name-style="western"><surname>Barraclough</surname><given-names>TG</given-names></name>, <name name-style="western"><surname>Gomez-Zurita</surname><given-names>J</given-names></name>, <name name-style="western"><surname>Cardoso</surname><given-names>A</given-names></name>, <name name-style="western"><surname>Duran</surname><given-names>DP</given-names></name>, <etal>et al</etal>. (<year>2006</year>) <article-title>Sequence-based species delimitation for the DNA taxonomy of undescribed insects</article-title>. <source>Syst Biol</source> <volume>55</volume>: <fpage>595</fpage>–<lpage>609</lpage>.</mixed-citation>
+</ref>
+<ref id="pone.0080563-OMeara1"><label>13</label>
+<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>O’Meara</surname><given-names>BC</given-names></name> (<year>2010</year>) <article-title>New heuristic methods for joint species delimitation and species tree inferences</article-title>. <source>Syst Biol</source> <volume>59</volume>: <fpage>59</fpage>–<lpage>73</lpage>.</mixed-citation>
+</ref>
+<ref id="pone.0080563-Fujita1"><label>14</label>
+<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Fujita</surname><given-names>MK</given-names></name>, <name name-style="western"><surname>Leaché</surname><given-names>AD</given-names></name>, <name name-style="western"><surname>Burbrink</surname><given-names>FT</given-names></name>, <name name-style="western"><surname>McGuire</surname><given-names>JA</given-names></name>, <name name-style="western"><surname>Moritz</surname><given-names>C</given-names></name> (<year>2012</year>) <article-title>Coalescent-based species delimitation in an integrative taxonomy</article-title>. <source>Trends Ecol Evol</source> <volume>27</volume>: <fpage>480</fpage>–<lpage>488</lpage>.</mixed-citation>
+</ref>
+<ref id="pone.0080563-Padial1"><label>15</label>
+<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Padial</surname><given-names>JM</given-names></name>, <name name-style="western"><surname>Miralles</surname><given-names>A</given-names></name>, <name name-style="western"><surname>De la Riva</surname><given-names>I</given-names></name>, <name name-style="western"><surname>Vences</surname><given-names>M</given-names></name> (<year>2010</year>) <article-title>The integrative future of taxonomy</article-title>. <source>Front Zool</source> <volume>7</volume>: <fpage>16</fpage>.</mixed-citation>
+</ref>
+<ref id="pone.0080563-Nevo1"><label>16</label>
+<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Nevo</surname><given-names>E</given-names></name> (<year>2001</year>) <article-title>Evolution of genome-phenome diversity under environmental stress</article-title>. <source>Proc Natl Acad Sci USA</source> <volume>98</volume>: <fpage>6233</fpage>–<lpage>6240</lpage>.</mixed-citation>
+</ref>
+<ref id="pone.0080563-Kaliontzopoulou1"><label>17</label>
+<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Kaliontzopoulou</surname><given-names>A</given-names></name>, <name name-style="western"><surname>Carretero</surname><given-names>MA</given-names></name>, <name name-style="western"><surname>Sillero</surname><given-names>N</given-names></name> (<year>2010</year>) <article-title>Geographic patterns of morphological variation in the lizard <italic>Podarcis carbonelli</italic>, a species with fragmented distribution</article-title>. <source>Herpetol J</source> <volume>20</volume>: <fpage>41</fpage>–<lpage>50</lpage>.</mixed-citation>
+</ref>
+<ref id="pone.0080563-Zhdanova1"><label>18</label>
+<mixed-citation publication-type="other" xlink:type="simple">Zhdanova NP, Zakhariv VM (2006) Developmental stability of sand lizard (<italic>Lacerta agilis</italic> L.) under optimal and non-optimal conditions. 209–218, in: Corti, C.; Lo Cascio, P. &amp; Biaggini M. (eds.) Mainland and insular lacertid lizards: a Mediterranean perspective. Florence: Firenze University Press.</mixed-citation>
+</ref>
+<ref id="pone.0080563-Kaliontzopoulou2"><label>19</label>
+<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Kaliontzopoulou</surname><given-names>A</given-names></name>, <name name-style="western"><surname>Carretero</surname><given-names>MA</given-names></name>, <name name-style="western"><surname>Llorente</surname><given-names>GA</given-names></name> (<year>2012</year>) <article-title>Morphology of the <italic>Podarcis</italic> wall lizards (Squamata: Lacertidae) from the Iberian Peninsula and North Africa: patterns of variation in a putative cryptic species complex</article-title>. <source>Zool J Linn Soc</source> <volume>164</volume>: <fpage>173</fpage>–<lpage>193</lpage>.</mixed-citation>
+</ref>
+<ref id="pone.0080563-Saez1"><label>20</label>
+<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Saez</surname><given-names>AG</given-names></name>, <name name-style="western"><surname>Lozano</surname><given-names>E</given-names></name> (<year>2005</year>) <article-title>Body doubles</article-title>. <source>Nature</source> <volume>433</volume>: <fpage>111</fpage>.</mixed-citation>
+</ref>
+<ref id="pone.0080563-Sites1"><label>21</label>
+<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Sites</surname><given-names>JW</given-names><suffix>Jr</suffix></name>, <name name-style="western"><surname>Marshall</surname><given-names>JC</given-names></name> (<year>2003</year>) <article-title>Delimiting species: a Renaissance issue in systematic biology</article-title>. <source>Trends Ecol Evol</source> <volume>18</volume>: <fpage>462</fpage>–<lpage>420</lpage>.</mixed-citation>
+</ref>
+<ref id="pone.0080563-Bickford1"><label>22</label>
+<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Bickford</surname><given-names>D</given-names></name>, <name name-style="western"><surname>Lohman</surname><given-names>DJ</given-names></name>, <name name-style="western"><surname>Sodhi</surname><given-names>NS</given-names></name>, <name name-style="western"><surname>Ng</surname><given-names>PK</given-names></name>, <name name-style="western"><surname>Meier</surname><given-names>R</given-names></name>, <etal>et al</etal>. (<year>2007</year>) <article-title>Cryptic species as a window on diversity and conservation</article-title>. <source>Trends Ecol Evol</source> <volume>22</volume>: <fpage>148</fpage>–<lpage>155</lpage>.</mixed-citation>
+</ref>
+<ref id="pone.0080563-Gomez1"><label>23</label>
+<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Gomez</surname><given-names>A</given-names></name>, <name name-style="western"><surname>Serra</surname><given-names>M</given-names></name>, <name name-style="western"><surname>Carvalho</surname><given-names>GR</given-names></name>, <name name-style="western"><surname>Lunt</surname><given-names>DH</given-names></name> (<year>2002</year>) <article-title>Speciation in ancient cryptic species complexes: evidence from the molecular phylogeny of <italic>Brachionus plicatilis</italic> (Rotifera)</article-title>. <source>Evolution</source> <volume>56</volume>: <fpage>1431</fpage>–<lpage>1444</lpage>.</mixed-citation>
+</ref>
+<ref id="pone.0080563-Pfenninger1"><label>24</label>
+<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Pfenninger</surname><given-names>M</given-names></name>, <name name-style="western"><surname>Schwenk</surname><given-names>K</given-names></name> (<year>2007</year>) <article-title>Cryptic animal species are homogeneously distributed among taxa and biogeographical regions</article-title>. <source>BMC Evol Biol</source> <volume>7</volume>: <fpage>121</fpage>.</mixed-citation>
+</ref>
+<ref id="pone.0080563-Carranza1"><label>25</label>
+<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Carranza</surname><given-names>S</given-names></name>, <name name-style="western"><surname>Arnold</surname><given-names>EN</given-names></name> (<year>2012</year>) <article-title>A review of the geckos of the genus <italic>Hemidactylus</italic> (Squamata: Gekkonidae) from Oman based on morphology, mitochondrial and nuclear data, with descriptions of eight new species</article-title>. <source>Zootaxa</source> <volume>3378</volume>: <fpage>1</fpage>–<lpage>95</lpage>.</mixed-citation>
+</ref>
+<ref id="pone.0080563-Miralles1"><label>26</label>
+<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Miralles</surname><given-names>A</given-names></name>, <name name-style="western"><surname>Vasconcelos</surname><given-names>R</given-names></name>, <name name-style="western"><surname>Perera</surname><given-names>A</given-names></name>, <name name-style="western"><surname>Harris</surname><given-names>DJ</given-names></name>, <name name-style="western"><surname>Carranza</surname><given-names>S</given-names></name> (<year>2010</year>) <article-title>An integrative taxonomic revision of the Cape Verdean skinks (Squamata, Scincidae)</article-title>. <source>Zoologica Scripta</source> <volume>40</volume>: <fpage>16</fpage>–<lpage>44</lpage>.</mixed-citation>
+</ref>
+<ref id="pone.0080563-Vasconcelos1"><label>27</label>
+<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Vasconcelos</surname><given-names>R</given-names></name>, <name name-style="western"><surname>Perera</surname><given-names>A</given-names></name>, <name name-style="western"><surname>Geniez</surname><given-names>P</given-names></name>, <name name-style="western"><surname>Harris</surname><given-names>DJ</given-names></name>, <name name-style="western"><surname>Carranza</surname><given-names>S</given-names></name> (<year>2012</year>) <article-title>An integrative taxonomic revision of the <italic>Tarentola</italic> geckos (Squamata, Phyllodactylidae) of the Cape Verde Islands</article-title>. <source>Zool J Linn Soc</source> <volume>164</volume>: <fpage>328</fpage>–<lpage>360</lpage>.</mixed-citation>
+</ref>
+<ref id="pone.0080563-Vieites1"><label>28</label>
+<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Vieites</surname><given-names>DR</given-names></name>, <name name-style="western"><surname>Wollenberg</surname><given-names>KC</given-names></name>, <name name-style="western"><surname>Andreone</surname><given-names>F</given-names></name>, <name name-style="western"><surname>Köhler</surname><given-names>J</given-names></name>, <name name-style="western"><surname>Glaw</surname><given-names>F</given-names></name>, <etal>et al</etal>. (<year>2009</year>) <article-title>Vast underestimation of Madagascar’s biodiversity evidenced by an integrative amphibian inventory</article-title>. <source>Proc Natl Acad Sci USA</source> <volume>106</volume>: <fpage>8267</fpage>–<lpage>8272</lpage>.</mixed-citation>
+</ref>
+<ref id="pone.0080563-Funk1"><label>29</label>
+<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Funk</surname><given-names>DJ</given-names></name>, <name name-style="western"><surname>Nosil</surname><given-names>P</given-names></name>, <name name-style="western"><surname>Etges</surname><given-names>WJ</given-names></name> (<year>2006</year>) <article-title>Ecological divergence exhibits consistently positive associations with reproductive isolation across disparate taxa</article-title>. <source>Proc Natl Acad Sci USA</source> <volume>103</volume>: <fpage>3209</fpage>–<lpage>3213</lpage>.</mixed-citation>
+</ref>
+<ref id="pone.0080563-VanValen1"><label>30</label>
+<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Van Valen</surname><given-names>L</given-names></name> (<year>1976</year>) <article-title>Ecological species, multispecies and oaks</article-title>. <source>Taxon</source> <volume>25</volume>: <fpage>233</fpage>–<lpage>239</lpage>.</mixed-citation>
+</ref>
+<ref id="pone.0080563-Andersson1"><label>31</label>
+<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Andersson</surname><given-names>L</given-names></name> (<year>1990</year>) <article-title>The driving force: Species concepts and ecology</article-title>. <source>Taxon</source> <volume>39</volume>: <fpage>375</fpage>–<lpage>382</lpage>.</mixed-citation>
+</ref>
+<ref id="pone.0080563-Wiens2"><label>32</label>
+<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Wiens</surname><given-names>JJ</given-names></name>, <name name-style="western"><surname>Graham</surname><given-names>CH</given-names></name> (<year>2005</year>) <article-title>Niche conservatism: integrating evolution, ecology, and conservation biology</article-title>. <source>Ann Rev Ecol Evol Syst</source> <volume>36</volume>: <fpage>519</fpage>–<lpage>539</lpage>.</mixed-citation>
+</ref>
+<ref id="pone.0080563-Rissler1"><label>33</label>
+<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Rissler</surname><given-names>LJ</given-names></name>, <name name-style="western"><surname>Apodaca</surname><given-names>JJ</given-names></name> (<year>2007</year>) <article-title>Adding more ecology into species delimitation: ecological niche models and phylogeography help define cryptic species in the black salamander (<italic>Aneides flavipunctatus</italic>)</article-title>. <source>Syst Biol</source> <volume>56</volume>: <fpage>924</fpage>–<lpage>942</lpage>.</mixed-citation>
+</ref>
+<ref id="pone.0080563-Elith1"><label>34</label>
+<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Elith</surname><given-names>J</given-names></name>, <name name-style="western"><surname>Leathwick</surname><given-names>J</given-names></name> (<year>2009</year>) <article-title>Species distribution models: Ecological explanation and prediction across space and time</article-title>. <source>Ann Rev Ecol Evol S</source> <volume>40</volume>: <fpage>677</fpage>–<lpage>697</lpage>.</mixed-citation>
+</ref>
+<ref id="pone.0080563-Sobern1"><label>35</label>
+<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Soberón</surname><given-names>J</given-names></name>, <name name-style="western"><surname>Peterson</surname><given-names>AT</given-names></name> (<year>2005</year>) <article-title>Interpretation of models of fundamental ecological niches and species’ distributional areas</article-title>. <source>Biodivers Informatics</source> <volume>2</volume>: <fpage>1</fpage>–<lpage>10</lpage>.</mixed-citation>
+</ref>
+<ref id="pone.0080563-Sobern2"><label>36</label>
+<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Soberón</surname><given-names>J</given-names></name> (<year>2007</year>) <article-title>Grinnellian and Eltonian niches and geographic distributions of species</article-title>. <source>Ecol Lett</source> <volume>10</volume>: <fpage>1115</fpage>–<lpage>1123</lpage>.</mixed-citation>
+</ref>
+<ref id="pone.0080563-Murienne1"><label>37</label>
+<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Murienne</surname><given-names>J</given-names></name>, <name name-style="western"><surname>Guilbert</surname><given-names>E</given-names></name>, <name name-style="western"><surname>Grandcolas</surname><given-names>P</given-names></name> (<year>2009</year>) <article-title>Species’ diversity in the New Caledonian endemic genera <italic>Cephalidiosus</italic> and <italic>Nobarnus</italic> (Insecta: Heteroptera: Tingidae), and approach using phylogeny and species’ distribution modelling</article-title>. <source>Biol J Linn Soc</source> <volume>97</volume>: <fpage>177</fpage>–<lpage>184</lpage>.</mixed-citation>
+</ref>
+<ref id="pone.0080563-Raxworthy1"><label>38</label>
+<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Raxworthy</surname><given-names>CJ</given-names></name>, <name name-style="western"><surname>Ingram</surname><given-names>CM</given-names></name>, <name name-style="western"><surname>Rabibisoa</surname><given-names>N</given-names></name>, <name name-style="western"><surname>Pearson</surname><given-names>RG</given-names></name> (<year>2007</year>) <article-title>Applications of ecological niche modelling for species delimitation: a review and empirical evaluation using day geckos (<italic>Phelsuma</italic>) from Madagascar</article-title>. <source>Syst Biol</source> <volume>56</volume>: <fpage>907</fpage>–<lpage>923</lpage>.</mixed-citation>
+</ref>
+<ref id="pone.0080563-Broennimann1"><label>39</label>
+<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Broennimann</surname><given-names>O</given-names></name>, <name name-style="western"><surname>Fitzpatrick</surname><given-names>MC</given-names></name>, <name name-style="western"><surname>Pearman</surname><given-names>PB</given-names></name>, <name name-style="western"><surname>Petitpierre</surname><given-names>B</given-names></name>, <name name-style="western"><surname>Pellissier</surname><given-names>L</given-names></name>, <etal>et al</etal>. (<year>2012</year>) <article-title>Measuring ecological niche overlap from occurrence and spatial environmental data</article-title>. <source>Global Ecol Biogeogr</source> <volume>21</volume>: <fpage>481</fpage>–<lpage>497</lpage>.</mixed-citation>
+</ref>
+<ref id="pone.0080563-Ahmadzadeh1"><label>40</label>
+<mixed-citation publication-type="other" xlink:type="simple">Ahmadzadeh F, Flecks M, Carretero MA, Böhme W, Engler J <etal>et al</etal>.. (2013) Rapid Lizard radiation lacking niche conservatism: Phylogeny and ecological diversification within a complex landscape. J Biogeogr (in press).</mixed-citation>
+</ref>
+<ref id="pone.0080563-Arnold1"><label>41</label>
+<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Arnold</surname><given-names>EN</given-names></name>, <name name-style="western"><surname>Arribas</surname><given-names>O</given-names></name>, <name name-style="western"><surname>Carranza</surname><given-names>S</given-names></name> (<year>2007</year>) <article-title>Systematics of the Palearctic and oriental lizard tribe Lacertini (Squamata: Lacertidae: Lacertinae), with description of eight new genera</article-title>. <source>Zootaxa</source> <volume>1430</volume>: <fpage>1</fpage>–<lpage>86</lpage>.</mixed-citation>
+</ref>
+<ref id="pone.0080563-Darevsky1"><label>42</label>
+<mixed-citation publication-type="other" xlink:type="simple">Darevsky IS (1967) Rock lizards of the Caucasus: systematics, ecology and phylogeny of the polymorphic groups of Caucasian rock lizards of the subgenus <italic>Archaeolacerta</italic>. Leningrad: Nauka (in Russian: English translation published by the Indian National Scientific Documentation Centre, New Delhi, 1978).</mixed-citation>
+</ref>
+<ref id="pone.0080563-Tarkhnishvili1"><label>43</label>
+<mixed-citation publication-type="other" xlink:type="simple">Tarkhnishvili DN (2012) Evolutionary history, habitats, diversification, and speciation in Caucasian rock lizards. In: Advances in Zoology Research. Volume 2 (ed. Jenkins OP), Nova Science Publishers, Hauppauge (NY), p.79–120.</mixed-citation>
+</ref>
+<ref id="pone.0080563-Tuniyev1"><label>44</label>
+<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Tuniyev</surname><given-names>SB</given-names></name>, <name name-style="western"><surname>Doronin</surname><given-names>IA</given-names></name>, <name name-style="western"><surname>Kidov</surname><given-names>AA</given-names></name>, <name name-style="western"><surname>Tuniyev</surname><given-names>BS</given-names></name> (<year>2011</year>) <article-title>Systematic and geographical variability of meadow lizard, <italic>Darevskia praticola</italic> (Reptilia: Sauria) in the Caucasus</article-title>. <source>Russ J Herpetol</source> <volume>18</volume>: <fpage>295</fpage>–<lpage>316</lpage>.</mixed-citation>
+</ref>
+<ref id="pone.0080563-Eiselt1"><label>45</label>
+<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Eiselt</surname><given-names>J</given-names></name> (<year>1995</year>) <article-title>Ein Beitrag zur Kenntnis der Archaeolacerten (sensu Mehely, 1909) des Iran (Squamata: Sauria: Lacertidae)</article-title>. <source>Herpetozoa</source> <volume>8</volume>: <fpage>59</fpage>–<lpage>72</lpage>.</mixed-citation>
+</ref>
+<ref id="pone.0080563-Anderson1"><label>46</label>
+<mixed-citation publication-type="other" xlink:type="simple">Anderson SC (1999) The lizards of Iran. Ithaca, NY: Society for the Study of Amphibians and Reptiles.</mixed-citation>
+</ref>
+<ref id="pone.0080563-Fu1"><label>47</label>
+<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Fu</surname><given-names>J</given-names></name>, <name name-style="western"><surname>Murphy</surname><given-names>RW</given-names></name>, <name name-style="western"><surname>Darevsky</surname><given-names>IS</given-names></name> (<year>1997</year>) <article-title>Toward the phylogeny of Caucasian rock lizards: implications from mitochondrial DNA gene sequences (Reptilia: Lacertidae)</article-title>. <source>Zool J Linn Soc</source> <volume>120</volume>: <fpage>463</fpage>–<lpage>477</lpage>.</mixed-citation>
+</ref>
+<ref id="pone.0080563-Harris1"><label>48</label>
+<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Harris</surname><given-names>DJ</given-names></name>, <name name-style="western"><surname>Arnold</surname><given-names>EN</given-names></name>, <name name-style="western"><surname>Thomas</surname><given-names>RH</given-names></name> (<year>1998</year>) <article-title>Relationships of lacertid lizards (Reptilia: Lacertidae) estimated from mitochondrial DNA sequences and morphology</article-title>. <source>Proc R Soc Lond B</source> <volume>265</volume>: <fpage>1939</fpage>–<lpage>1948</lpage>.</mixed-citation>
+</ref>
+<ref id="pone.0080563-Murphy1"><label>49</label>
+<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Murphy</surname><given-names>RW</given-names></name>, <name name-style="western"><surname>Fu</surname><given-names>J</given-names></name>, <name name-style="western"><surname>MacCulloch</surname><given-names>RD</given-names></name>, <name name-style="western"><surname>Darevsky</surname><given-names>IS</given-names></name>, <name name-style="western"><surname>Kupriyanova</surname><given-names>LA</given-names></name> (<year>2000</year>) <article-title>A fine line between sex and unisexuality: the phylogenetic constraints on parthenogenesis in lacertid lizards</article-title>. <source>Zool J Linn Soc</source> <volume>130</volume>: <fpage>527</fpage>–<lpage>549</lpage>.</mixed-citation>
+</ref>
+<ref id="pone.0080563-Grechko1"><label>50</label>
+<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Grechko</surname><given-names>VV</given-names></name>, <name name-style="western"><surname>Bannikova</surname><given-names>AA</given-names></name>, <name name-style="western"><surname>Kosushkin</surname><given-names>SA</given-names></name>, <name name-style="western"><surname>Ryabinina</surname><given-names>NL</given-names></name>, <name name-style="western"><surname>Milto</surname><given-names>KD</given-names></name>, <etal>et al</etal>. (<year>2007</year>) <article-title>Molecular Genetic Diversification of the Lizard Complex <italic>Darevskia raddei</italic> (Sauria: Lacertidae): Early stages of speciation</article-title>. <source>Mol Biol</source> <volume>41</volume>: <fpage>764</fpage>–<lpage>775</lpage>.</mixed-citation>
+</ref>
+<ref id="pone.0080563-Pavlicev1"><label>51</label>
+<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Pavlicev</surname><given-names>M</given-names></name>, <name name-style="western"><surname>Mayer</surname><given-names>W</given-names></name> (<year>2009</year>) <article-title>Fast radiation of the subfamily Lacertinae (Reptilia: Lacertidae): history or methodological artifact?</article-title> <source>Mol Phylogenet Evol</source> <volume>52</volume>: <fpage>727</fpage>–<lpage>734</lpage>.</mixed-citation>
+</ref>
+<ref id="pone.0080563-Sambrook1"><label>52</label>
+<mixed-citation publication-type="other" xlink:type="simple">Sambrook J, Fritsch EF, Maniatis T (1989) Molecular cloning: A laboratory manual. New York: Cold Spring Harbour Press.</mixed-citation>
+</ref>
+<ref id="pone.0080563-Arevalo1"><label>53</label>
+<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Arevalo</surname><given-names>E</given-names></name>, <name name-style="western"><surname>Davis</surname><given-names>SK</given-names></name>, <name name-style="western"><surname>Sites</surname><given-names>JW</given-names></name> (<year>1994</year>) <article-title>Mitochondrial DNA sequence divergence and phylogenetic relationships among eight chromosome races of the <italic>Sceloporus Grammicus</italic> complex (Phrynosomatidae) in Central Mexico</article-title>. <source>Syst Biol</source> <volume>43</volume>: <fpage>387</fpage>–<lpage>418</lpage>.</mixed-citation>
+</ref>
+<ref id="pone.0080563-Godinho1"><label>54</label>
+<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Godinho</surname><given-names>R</given-names></name>, <name name-style="western"><surname>Crespo</surname><given-names>EG</given-names></name>, <name name-style="western"><surname>Ferrand</surname><given-names>N</given-names></name>, <name name-style="western"><surname>Harris</surname><given-names>DJ</given-names></name> (<year>2005</year>) <article-title>Phylogeny and evolution of the green lizards, <italic>Lacerta</italic> spp. (Squamata: Lacertidae) based on mitochondrial and nuclear DNA sequences</article-title>. <source>Amphibia-Reptilia</source> <volume>26</volume>: <fpage>271</fpage>–<lpage>285</lpage>.</mixed-citation>
+</ref>
+<ref id="pone.0080563-Pinho1"><label>55</label>
+<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Pinho</surname><given-names>C</given-names></name>, <name name-style="western"><surname>Rocha</surname><given-names>S</given-names></name>, <name name-style="western"><surname>Carvalho</surname><given-names>BM</given-names></name>, <name name-style="western"><surname>Lopes</surname><given-names>S</given-names></name>, <name name-style="western"><surname>Mourão</surname><given-names>S</given-names></name>, <etal>et al</etal>. (<year>2010</year>) <article-title>New primers for the amplification and sequencing of nuclear loci in a taxonomically wide set of reptiles and amphibians</article-title>. <source>Conserv Genet Resour</source> <volume>2</volume>: <fpage>181</fpage>–<lpage>185</lpage>.</mixed-citation>
+</ref>
+<ref id="pone.0080563-Ahmadzadeh2"><label>56</label>
+<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Ahmadzadeh</surname><given-names>F</given-names></name>, <name name-style="western"><surname>Carretero</surname><given-names>MA</given-names></name>, <name name-style="western"><surname>Harris</surname><given-names>DJ</given-names></name>, <name name-style="western"><surname>Perera</surname><given-names>A</given-names></name>, <name name-style="western"><surname>Böhme</surname><given-names>W</given-names></name> (<year>2012</year>) <article-title>A molecular phylogeny of the eastern group of ocellated lizard genus <italic>Timon</italic> (Sauria: Lacertidae) based on mitochondrial and nuclear DNA sequences</article-title>. <source>Amphibia-Reptilia</source> <volume>33</volume>: <fpage>1</fpage>–<lpage>10</lpage>.</mixed-citation>
+</ref>
+<ref id="pone.0080563-Edgar1"><label>57</label>
+<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Edgar</surname><given-names>RC</given-names></name> (<year>2004</year>) <article-title>MUSCLE: multiple sequence alignment with high accuracy and high throughput</article-title>. <source>Nucleic Acids Res</source> <volume>32</volume>: <fpage>1792</fpage>–<lpage>1797</lpage>.</mixed-citation>
+</ref>
+<ref id="pone.0080563-Stephens1"><label>58</label>
+<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Stephens</surname><given-names>M</given-names></name>, <name name-style="western"><surname>Donnelly</surname><given-names>P</given-names></name> (<year>2003</year>) <article-title>A comparison of Bayesian methods for haplotype reconstruction</article-title>. <source>Am J Hum Genet</source> <volume>73</volume>: <fpage>1162</fpage>–<lpage>1169</lpage>.</mixed-citation>
+</ref>
+<ref id="pone.0080563-Fu2"><label>59</label>
+<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Fu</surname><given-names>J</given-names></name>, <name name-style="western"><surname>Murphy</surname><given-names>RW</given-names></name>, <name name-style="western"><surname>Darevsky</surname><given-names>IS</given-names></name> (<year>1997</year>) <article-title>Toward the phylogeny of Caucasian rock lizards: Implications from mitochondrial DNA gene sequences (Reptilia: Lacertidae)</article-title>. <source>Zool J Linn Soc</source> <volume>121</volume>: <fpage>463</fpage>–<lpage>477</lpage>.</mixed-citation>
+</ref>
+<ref id="pone.0080563-Fu3"><label>60</label>
+<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Fu</surname><given-names>J</given-names></name>, <name name-style="western"><surname>Murphy</surname><given-names>RW</given-names></name>, <name name-style="western"><surname>Darevsky</surname><given-names>IS</given-names></name> (<year>1999</year>) <article-title>Limited genetic variation in <italic>Lacerta mixta</italic> and its parthenogenetic daughter species: evidence from cytochrome b and ATPase 6 gene DNA sequences</article-title>. <source>Genetica</source> <volume>105</volume>: <fpage>227</fpage>–<lpage>231</lpage>.</mixed-citation>
+</ref>
+<ref id="pone.0080563-Fu4"><label>61</label>
+<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Fu</surname><given-names>J</given-names></name>, <name name-style="western"><surname>Murphy</surname><given-names>RW</given-names></name>, <name name-style="western"><surname>Darevsky</surname><given-names>IS</given-names></name> (<year>2000</year>) <article-title>Divergence of the cytochrome b gene in the <italic>Lacerta raddei</italic> complex and its parthenogenetic daughter species: evidence for recent multiple origins</article-title>. <source>Copeia</source> <volume>2000</volume>: <fpage>432</fpage>–<lpage>440</lpage>.</mixed-citation>
+</ref>
+<ref id="pone.0080563-Nylander1"><label>62</label>
+<mixed-citation publication-type="other" xlink:type="simple">Nylander JAA (2004) MrModeltest v2. Program distributed by the author. Evolutionary Biology Centre, Uppsala University.</mixed-citation>
+</ref>
+<ref id="pone.0080563-Drummond1"><label>63</label>
+<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Drummond</surname><given-names>AJ</given-names></name>, <name name-style="western"><surname>Rambaut</surname><given-names>A</given-names></name> (<year>2007</year>) <article-title>BEAST: Bayesian evolutionary analysis by sampling trees</article-title>. <source>BMC Evol Biol</source> <volume>7</volume>: <fpage>214</fpage>.</mixed-citation>
+</ref>
+<ref id="pone.0080563-Heled1"><label>64</label>
+<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Heled</surname><given-names>J</given-names></name>, <name name-style="western"><surname>Drummond</surname><given-names>AJ</given-names></name> (<year>2010</year>) <article-title>Bayesian inference of species trees from multilocus data</article-title>. <source>Mol Biol Evol</source> <volume>27</volume>: <fpage>570</fpage>–<lpage>580</lpage>.</mixed-citation>
+</ref>
+<ref id="pone.0080563-Rambaut1"><label>65</label>
+<mixed-citation publication-type="other" xlink:type="simple">Rambaut A, Drummond AJ (2009) TRACER: MCMC Trace Analysis Tool Version v1.5.0. University of Oxford, Oxford.</mixed-citation>
+</ref>
+<ref id="pone.0080563-Yang1"><label>66</label>
+<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Yang</surname><given-names>Z</given-names></name>, <name name-style="western"><surname>Rannala</surname><given-names>B</given-names></name> (<year>2010</year>) <article-title>Bayesian species delimitation using multilocus sequence data</article-title>. <source>Proc Natl Acad Sci USA</source> <volume>107</volume>: <fpage>9264</fpage>–<lpage>9269</lpage>.</mixed-citation>
+</ref>
+<ref id="pone.0080563-Leach1"><label>67</label>
+<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Leaché</surname><given-names>AD</given-names></name>, <name name-style="western"><surname>Fujita</surname><given-names>MK</given-names></name> (<year>2010</year>) <article-title>Bayesian species delimitation in West African forest geckos (<italic>Hemidactylus fasciatus</italic>)</article-title>. <source>Proc R Soc B</source> <volume>277</volume>: <fpage>3071</fpage>–<lpage>3077</lpage>.</mixed-citation>
+</ref>
+<ref id="pone.0080563-Bruschi1"><label>68</label>
+<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Bruschi</surname><given-names>S</given-names></name>, <name name-style="western"><surname>Corti</surname><given-names>C</given-names></name>, <name name-style="western"><surname>Carretero</surname><given-names>MA</given-names></name>, <name name-style="western"><surname>Harris</surname><given-names>DJ</given-names></name>, <name name-style="western"><surname>Lanza</surname><given-names>B</given-names></name>, <etal>et al</etal>. (<year>2006</year>) <article-title>Comments on the Status of the Sardinian-Corsican Lacertid Lizard <italic>Podarcis tiliguerta</italic></article-title>. <source>Proc Cal Acad Sci</source> <volume>57</volume>: <fpage>215</fpage>–<lpage>236</lpage>.</mixed-citation>
+</ref>
+<ref id="pone.0080563-Carretero1"><label>69</label>
+<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Carretero</surname><given-names>MA</given-names></name>, <name name-style="western"><surname>Znari</surname><given-names>M</given-names></name>, <name name-style="western"><surname>Harris</surname><given-names>DJ</given-names></name>, <name name-style="western"><surname>Macé</surname><given-names>JC</given-names></name> (<year>2005</year>) <article-title>Morphological divergence among populations of <italic>Testudo graeca</italic> from west-central Morocco</article-title>. <source>Animal Biology</source> <volume>55</volume>: <fpage>259</fpage>–<lpage>279</lpage>.</mixed-citation>
+</ref>
+<ref id="pone.0080563-Hijmans1"><label>70</label>
+<mixed-citation publication-type="other" xlink:type="simple">Hijmans RJ, Guarino L, Jarvis AO, Brien R, Mathur P <etal>et al</etal>.. (2005) DIVA-GIS Version 5.2 Manual.</mixed-citation>
+</ref>
+<ref id="pone.0080563-Mu1"><label>71</label>
+<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Mu</surname><given-names>Q</given-names></name>, <name name-style="western"><surname>Heinsch</surname><given-names>FA</given-names></name>, <name name-style="western"><surname>Zhao</surname><given-names>M</given-names></name>, <name name-style="western"><surname>Running</surname><given-names>SW</given-names></name> (<year>2007</year>) <article-title>Development of a global evapotranspiration algorithm based on MODIS and global meteorology data</article-title>. <source>Remote Sens Environ</source> <volume>111</volume>: <fpage>519</fpage>–<lpage>536</lpage>.</mixed-citation>
+</ref>
+<ref id="pone.0080563-Scharlemann1"><label>72</label>
+<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Scharlemann</surname><given-names>JPW</given-names></name>, <name name-style="western"><surname>Benz</surname><given-names>D</given-names></name>, <name name-style="western"><surname>Hay</surname><given-names>SI</given-names></name>, <name name-style="western"><surname>Purse</surname><given-names>BV</given-names></name>, <name name-style="western"><surname>Tatem</surname><given-names>AJ</given-names></name>, <etal>et al</etal>. (<year>2008</year>) <article-title>Global data for ecology and epidemiology: a novel algorithm for temporal fourier processing MODIS data</article-title>. <source>PLoS ONE</source> <volume>3(1)</volume>: <fpage>e1408</fpage> <comment>doi:<ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1371/journal.pone.0001408" xlink:type="simple">10.1371/journal.pone.0001408</ext-link></comment></mixed-citation>
+</ref>
+<ref id="pone.0080563-Jensen1"><label>73</label>
+<mixed-citation publication-type="other" xlink:type="simple">Jensen J (2007) Remote sensing of the environment: An earth resource perspective. New York: Pearson Education.</mixed-citation>
+</ref>
+<ref id="pone.0080563-Tucker1"><label>74</label>
+<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Tucker</surname><given-names>CJ</given-names></name> (<year>1979</year>) <article-title>Red and Photographic Infrared Linear Combinations for Monitoring Vegetation</article-title>. <source>Remote Sens Environ</source> <volume>8</volume>: <fpage>127</fpage>–<lpage>150</lpage>.</mixed-citation>
+</ref>
+<ref id="pone.0080563-Huete1"><label>75</label>
+<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Huete</surname><given-names>AR</given-names></name>, <name name-style="western"><surname>Liu</surname><given-names>H</given-names></name>, <name name-style="western"><surname>Batchily</surname><given-names>K</given-names></name>, <name name-style="western"><surname>van Leeuwen</surname><given-names>W</given-names></name> (<year>1997</year>) <article-title>A comparison of vegetation indices over a global set of TM images for EOS-MODIS</article-title>. <source>Remote Sens Environ</source> <volume>59</volume>: <fpage>440</fpage>–<lpage>451</lpage>.</mixed-citation>
+</ref>
+<ref id="pone.0080563-Hijmans2"><label>76</label>
+<mixed-citation publication-type="other" xlink:type="simple">Hijmans RJ, van Etten J (2012) raster: Geographic analysis and modeling with raster data. R package version 2.0–12, <ext-link ext-link-type="uri" xlink:href="http://CRAN.R-project.org/package=raster" xlink:type="simple">http://CRAN.R-project.org/package=raster</ext-link>.</mixed-citation>
+</ref>
+<ref id="pone.0080563-Hijmans3"><label>77</label>
+<mixed-citation publication-type="other" xlink:type="simple">Hijmans RJ, Phillips S, Leathwick J, Elith J (2012) dismo: Species distribution modeling. R package version 0.7–23, <ext-link ext-link-type="uri" xlink:href="http://CRAN.R-project.org/package=dismo" xlink:type="simple">http://CRAN.R-project.org/package=dismo</ext-link>.</mixed-citation>
+</ref>
+<ref id="pone.0080563-Beaumont1"><label>78</label>
+<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Beaumont</surname><given-names>LJ</given-names></name>, <name name-style="western"><surname>Hughes</surname><given-names>L</given-names></name>, <name name-style="western"><surname>Poulsen</surname><given-names>M</given-names></name> (<year>2005</year>) <article-title>Predicting species distributions: use of climatic parameters in BIOCLIM and its impact on predictions of species current and future distributions</article-title>. <source>Ecol Model</source> <volume>186</volume>: <fpage>250</fpage>–<lpage>269</lpage>.</mixed-citation>
+</ref>
+<ref id="pone.0080563-Pettorelli1"><label>79</label>
+<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Pettorelli</surname><given-names>N</given-names></name>, <name name-style="western"><surname>Vik</surname><given-names>JO</given-names></name>, <name name-style="western"><surname>Mysterud</surname><given-names>A</given-names></name>, <name name-style="western"><surname>Gaillard</surname><given-names>JM</given-names></name>, <name name-style="western"><surname>Tucker</surname><given-names>CJ</given-names></name>, <etal>et al</etal>. (<year>2005</year>) <article-title>Using the satellite-derived NDVI to assess ecological responses to environmental change</article-title>. <source>Trends Ecol Evol</source> <volume>20</volume>: <fpage>503</fpage>–<lpage>510</lpage>.</mixed-citation>
+</ref>
+<ref id="pone.0080563-Phillips1"><label>80</label>
+<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Phillips</surname><given-names>SJ</given-names></name>, <name name-style="western"><surname>Anderson</surname><given-names>RP</given-names></name>, <name name-style="western"><surname>Schapire</surname><given-names>RE</given-names></name> (<year>2006</year>) <article-title>Maximum entropy modeling of species geographic distributions</article-title>. <source>Ecol Model</source> <volume>190</volume>: <fpage>231</fpage>–<lpage>259</lpage>.</mixed-citation>
+</ref>
+<ref id="pone.0080563-Swets1"><label>81</label>
+<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Swets</surname><given-names>JA</given-names></name> (<year>1988</year>) <article-title>Measuring the accuracy of diagnostic systems</article-title>. <source>Science</source> <volume>240</volume>: <fpage>1285</fpage>–<lpage>1293</lpage>.</mixed-citation>
+</ref>
+<ref id="pone.0080563-Bowman1"><label>82</label>
+<mixed-citation publication-type="other" xlink:type="simple">Bowman AW, Azzalini A (1997) Applied Smoothing Techniques for Data Analysis: the Kernel Approach with S-Plus Illustrations. Oxford: Oxford University Press.</mixed-citation>
+</ref>
+<ref id="pone.0080563-Petitpierre1"><label>83</label>
+<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Petitpierre</surname><given-names>B</given-names></name>, <name name-style="western"><surname>Kueffer</surname><given-names>C</given-names></name>, <name name-style="western"><surname>Broennimann</surname><given-names>O</given-names></name>, <name name-style="western"><surname>Randin</surname><given-names>C</given-names></name>, <name name-style="western"><surname>Daehler</surname><given-names>C</given-names></name>, <etal>et al</etal>. (<year>2012</year>) <article-title>Climatic niche shifts are rare among terrestrial plant invaders</article-title>. <source>Science</source> <volume>335</volume>: <fpage>1344</fpage>–<lpage>1348</lpage>.</mixed-citation>
+</ref>
+<ref id="pone.0080563-Schoener1"><label>84</label>
+<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Schoener</surname><given-names>TW</given-names></name> (<year>1970</year>) <article-title>Nonsynchronous spatial overlap of lizards in patchy habitats</article-title>. <source>Ecology</source> <volume>51</volume>: <fpage>408</fpage>–<lpage>418</lpage>.</mixed-citation>
+</ref>
+<ref id="pone.0080563-Warren1"><label>85</label>
+<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Warren</surname><given-names>DL</given-names></name>, <name name-style="western"><surname>Glor</surname><given-names>RE</given-names></name>, <name name-style="western"><surname>Turelli</surname><given-names>M</given-names></name> (<year>2008</year>) <article-title>Environmental niche equivalency versus conservatism: quantitative approaches to niche evolution</article-title>. <source>Evolution</source> <volume>62</volume>: <fpage>2868</fpage>–<lpage>2883</lpage>.</mixed-citation>
+</ref>
+<ref id="pone.0080563-Rdder1"><label>86</label>
+<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Rödder</surname><given-names>D</given-names></name>, <name name-style="western"><surname>Engler</surname><given-names>JO</given-names></name> (<year>2011</year>) <article-title>Quantitative metrics of overlaps in Grinnellian niches: advances and possible drawbacks</article-title>. <source>Global Ecol Biogeogr</source> <volume>20</volume>: <fpage>915</fpage>–<lpage>927</lpage>.</mixed-citation>
+</ref>
+<ref id="pone.0080563-Wielstra1"><label>87</label>
+<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Wielstra</surname><given-names>B</given-names></name>, <name name-style="western"><surname>Beukema</surname><given-names>W</given-names></name>, <name name-style="western"><surname>Arntzen</surname><given-names>JW</given-names></name>, <name name-style="western"><surname>Skidmore</surname><given-names>AK</given-names></name>, <name name-style="western"><surname>Toxopeus</surname><given-names>AG</given-names></name>, <etal>et al</etal>. (<year>2012</year>) <article-title>Corresponding Mitochondrial DNA and Niche Divergence for Crested Newt Candidate Species</article-title>. <source>PLoS ONE</source> <volume>7(9)</volume>: <fpage>e46671</fpage> <comment>doi:<ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1371/journal.pone.0046671" xlink:type="simple">10.1371/journal.pone.0046671</ext-link></comment></mixed-citation>
+</ref>
+<ref id="pone.0080563-Arajo1"><label>88</label>
+<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Araújo</surname><given-names>MB</given-names></name>, <name name-style="western"><surname>New</surname><given-names>M</given-names></name> (<year>2007</year>) <article-title>Ensemble forecasting of species distributions</article-title>. <source>Trends Ecol Evol</source> <volume>22</volume>: <fpage>42</fpage>–<lpage>47</lpage>.</mixed-citation>
+</ref>
+<ref id="pone.0080563-indenBosch1"><label>89</label>
+<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>in den Bosch</surname><given-names>H</given-names></name> (<year>1999</year>) <article-title>The status of <italic>Lacerta mostoufi</italic> Baloutch, 1977 (Reptilia: Lacertidae)</article-title>. <source>Zool Middle East</source> <volume>19</volume>: <fpage>13</fpage>–<lpage>15</lpage>.</mixed-citation>
+</ref>
+<ref id="pone.0080563-Arribas1"><label>90</label>
+<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Arribas</surname><given-names>O</given-names></name>, <name name-style="western"><surname>Carranza</surname><given-names>S</given-names></name>, <name name-style="western"><surname>Odierna</surname><given-names>G</given-names></name> (<year>2006</year>) <article-title>Description of a new endemic species of mountain lizard from Northwestern Spain: <italic>Iberolacerta galani</italic> sp. nov. (Squamata: Lacertidae)</article-title>. <source>Z<italic>ootaxa</italic></source> <volume>1240</volume>: <fpage>1</fpage>–<lpage>55</lpage>.</mixed-citation>
+</ref>
+<ref id="pone.0080563-Arribas2"><label>91</label>
+<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Arribas</surname><given-names>O</given-names></name>, <name name-style="western"><surname>Carranza</surname><given-names>S</given-names></name> (<year>2004</year>) <article-title>Morphological and genetic evidence of the full species status of <italic>Iberolacerta martinezricai</italic> (Arribas, 1996)</article-title>. <source>Zootaxa</source> <volume>634</volume>: <fpage>1</fpage>–<lpage>24</lpage>.</mixed-citation>
+</ref>
+<ref id="pone.0080563-Harris2"><label>92</label>
+<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Harris</surname><given-names>DJ</given-names></name> (<year>2002</year>) <article-title>Reassessment of comparative genetic distance in reptiles from the mitochondrial cytochrome b gene</article-title>. <source>Herpetol J</source> <volume>12</volume>: <fpage>85</fpage>–<lpage>87</lpage>.</mixed-citation>
+</ref>
+<ref id="pone.0080563-Hs1"><label>93</label>
+<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Hsü</surname><given-names>KJ</given-names></name>, <name name-style="western"><surname>Ryan</surname><given-names>WBF</given-names></name>, <name name-style="western"><surname>Cita</surname><given-names>MB</given-names></name> (<year>1973</year>) <article-title>Late Miocene desiccation of the Mediterranean</article-title>. <source>Nature</source> <volume>242</volume>: <fpage>240</fpage>–<lpage>244</lpage>.</mixed-citation>
+</ref>
+<ref id="pone.0080563-Kehl1"><label>94</label>
+<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Kehl</surname><given-names>M</given-names></name> (<year>2009</year>) <article-title>Quaternary climate change in Iran – the state of knowledge</article-title>. <source>Erdkunde</source> <volume>63</volume>: <fpage>1</fpage>–<lpage>17</lpage>.</mixed-citation>
+</ref>
+<ref id="pone.0080563-Sborshchikov1"><label>95</label>
+<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Sborshchikov</surname><given-names>IM</given-names></name>, <name name-style="western"><surname>Savostin</surname><given-names>LA</given-names></name>, <name name-style="western"><surname>Zonenshan</surname><given-names>LP</given-names></name> (<year>1981</year>) <article-title>Present plate tectonics between Turkey and Tibet</article-title>. <source>Tectonophysics</source> <volume>79</volume>: <fpage>45</fpage>–<lpage>73</lpage>.</mixed-citation>
+</ref>
+<ref id="pone.0080563-Macey1"><label>96</label>
+<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Macey</surname><given-names>JR</given-names></name>, <name name-style="western"><surname>Shulte</surname><given-names>JA</given-names></name>, <name name-style="western"><surname>Ananjeva</surname><given-names>NB</given-names></name>, <name name-style="western"><surname>Larson</surname><given-names>A</given-names></name>, <name name-style="western"><surname>Rastegar-Pouyani</surname><given-names>N</given-names></name>, <etal>et al</etal>. (<year>1998</year>) <article-title>Phylogenetic relationship among agamid lizards of the <italic>Laudakia caucasia</italic> species group: testing the hypotheses of biogeographic fragmentation and an area caldogram for the Iranian Plateau</article-title>. <source>Mol Phylogenet Evol</source> <volume>10</volume>: <fpage>118</fpage>–<lpage>131</lpage>.</mixed-citation>
+</ref>
+<ref id="pone.0080563-Macey2"><label>97</label>
+<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Macey</surname><given-names>JR</given-names></name>, <name name-style="western"><surname>Schulte</surname><given-names>JA</given-names></name>, <name name-style="western"><surname>Larson</surname><given-names>A</given-names></name>, <name name-style="western"><surname>Ananjeva</surname><given-names>NB</given-names></name>, <name name-style="western"><surname>Wang</surname><given-names>Y</given-names></name>, <etal>et al</etal>. (<year>2000</year>) <article-title>Evaluating trans-Tethys migration: an example using acrodont lizard phylogenetics</article-title>. <source>Syst Biol</source> <volume>49</volume>: <fpage>233</fpage>–<lpage>256</lpage>.</mixed-citation>
+</ref>
+<ref id="pone.0080563-Krijgsman1"><label>98</label>
+<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Krijgsman</surname><given-names>W</given-names></name>, <name name-style="western"><surname>Hilgen</surname><given-names>FJ</given-names></name>, <name name-style="western"><surname>Raffi</surname><given-names>I</given-names></name>, <name name-style="western"><surname>Sierro</surname><given-names>FJ</given-names></name>, <name name-style="western"><surname>Wilson</surname><given-names>DS</given-names></name> (<year>1999</year>) <article-title>Chronology, causes and progression of the Messinian salinity crisis</article-title>. <source>Nature</source> <volume>400</volume>: <fpage>652</fpage>–<lpage>655</lpage>.</mixed-citation>
+</ref>
+<ref id="pone.0080563-Arnold2"><label>99</label>
+<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Arnold</surname><given-names>EN</given-names></name> (<year>1989</year>) <article-title>Towards a phylogeny and biogeography of the Lacertidae: relationships within an old-world family of lizards derived from morphology</article-title>. <source>Bull Br Mus Nat Hist Zool</source> <volume>55</volume>: <fpage>209</fpage>–<lpage>257</lpage>.</mixed-citation>
+</ref>
+<ref id="pone.0080563-Arnold3"><label>100</label>
+<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Arnold</surname><given-names>EN</given-names></name> (<year>2002</year>) <article-title>History and function of scale microornamentation in lacertid lizards</article-title>. <source>J Morphol</source> <volume>252</volume>: <fpage>145</fpage>–<lpage>169</lpage>.</mixed-citation>
+</ref>
+<ref id="pone.0080563-Veith1"><label>101</label>
+<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Veith</surname><given-names>M</given-names></name>, <name name-style="western"><surname>Schmidtler</surname><given-names>JF</given-names></name>, <name name-style="western"><surname>Kosuch</surname><given-names>J</given-names></name>, <name name-style="western"><surname>Baran</surname><given-names>I</given-names></name>, <name name-style="western"><surname>Seitz</surname><given-names>A</given-names></name> (<year>2003</year>) <article-title>Palaeoclimatic changes explain Anatolian mountain frog evolution: A test for alternating vicariance and dispersal events</article-title>. <source>Mol Ecol</source> <volume>12</volume>: <fpage>185</fpage>–<lpage>199</lpage>.</mixed-citation>
+</ref>
+</ref-list></back>
+</article>

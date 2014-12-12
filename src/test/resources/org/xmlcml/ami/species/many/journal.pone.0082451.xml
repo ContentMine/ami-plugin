@@ -1,0 +1,642 @@
+<article xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" article-type="research-article" dtd-version="3.0" xml:lang="en">
+<front>
+<journal-meta>
+<journal-id journal-id-type="nlm-ta">PLoS ONE</journal-id>
+<journal-id journal-id-type="publisher-id">plos</journal-id>
+<journal-id journal-id-type="pmc">plosone</journal-id><journal-title-group>
+<journal-title xml:lang="en">PLoS ONE</journal-title></journal-title-group>
+<issn pub-type="epub">1932-6203</issn>
+<publisher>
+<publisher-name>Public Library of Science</publisher-name>
+<publisher-loc>San Francisco, USA</publisher-loc></publisher>
+</journal-meta>
+<article-meta>
+<article-id pub-id-type="publisher-id">PONE-D-13-32631</article-id>
+<article-id pub-id-type="doi">10.1371/journal.pone.0082451</article-id>
+<article-categories><subj-group subj-group-type="heading"><subject>Research Article</subject></subj-group></article-categories>
+<title-group>
+<article-title>A Decline in HIV and Syphilis Epidemics in Chinese Female Sex Workers (2000–2011): A Systematic Review and Meta-Analysis</article-title>
+<alt-title alt-title-type="running-head">Decline in HIV and Syphilis in Chinese FSWs</alt-title>
+</title-group>
+<contrib-group>
+<contrib contrib-type="author" xlink:type="simple"><name name-style="western"><surname>Yang</surname><given-names>Zongxing</given-names></name><xref ref-type="aff" rid="aff1" /></contrib>
+<contrib contrib-type="author" xlink:type="simple"><name name-style="western"><surname>Su</surname><given-names>Junwei</given-names></name><xref ref-type="aff" rid="aff1" /></contrib>
+<contrib contrib-type="author" xlink:type="simple"><name name-style="western"><surname>Peng</surname><given-names>Xiaorong</given-names></name><xref ref-type="aff" rid="aff1" /></contrib>
+<contrib contrib-type="author" xlink:type="simple"><name name-style="western"><surname>Wu</surname><given-names>Nanping</given-names></name><xref ref-type="aff" rid="aff1" /><xref ref-type="corresp" rid="cor1"><sup>*</sup></xref></contrib>
+</contrib-group>
+<aff id="aff1"><addr-line>State Key Laboratory for Diagnosis and Treatment of Infectious Diseases, the First Affiliated Hospital, School of Medicine, Zhejiang University, Hangzhou, Zhejiang Province, China</addr-line></aff>
+<contrib-group>
+<contrib contrib-type="editor" xlink:type="simple"><name name-style="western"><surname>Gao</surname><given-names>Shou-Jiang</given-names></name>
+<role>Editor</role>
+<xref ref-type="aff" rid="edit1" /></contrib>
+</contrib-group>
+<aff id="edit1"><addr-line>University of Southern California Keck School of Medicine, United States of America</addr-line></aff>
+<author-notes>
+<corresp id="cor1">* E-mail: <email xlink:type="simple">flwnp2013@163.com</email></corresp>
+<fn fn-type="conflict"><p>The authors have declared that no competing interests exist.</p></fn>
+<fn fn-type="con"><p>Conceived and designed the experiments: ZXY NPW. Performed the experiments: ZXY JWS XRP. Analyzed the data: ZXY NPW. Contributed reagents/materials/analysis tools: ZXY NPW. Wrote the paper: ZXY NPW.</p></fn>
+</author-notes>
+<pub-date pub-type="collection"><year>2013</year></pub-date>
+<pub-date pub-type="epub"><day>13</day><month>12</month><year>2013</year></pub-date>
+<volume>8</volume>
+<issue>12</issue>
+<elocation-id>e82451</elocation-id>
+<history>
+<date date-type="received"><day>8</day><month>8</month><year>2013</year></date>
+<date date-type="accepted"><day>1</day><month>11</month><year>2013</year></date>
+</history>
+<permissions>
+<copyright-year>2013</copyright-year>
+<copyright-holder>Yang et al</copyright-holder><license xlink:href="http://creativecommons.org/licenses/by/4.0/" xlink:type="simple"><license-p>This is an open-access article distributed under the terms of the <ext-link ext-link-type="uri" xlink:href="http://creativecommons.org/licenses/by/4.0/" xlink:type="simple">Creative Commons Attribution License</ext-link>, which permits unrestricted use, distribution, and reproduction in any medium, provided the original author and source are credited.</license-p></license></permissions>
+<abstract><sec>
+<title>Background</title>
+<p>Female sex workers (FSWs) play an important role in transmitting HIV and syphilis from high-risk groups to the general population. However, the trends in HIV and syphilis epidemics in Chinese FSWs in the period after 2000 are unclear to date.</p>
+</sec><sec>
+<title>Methods</title>
+<p>The Preferred Reporting Items for Systematic Reviews and Meta-Analyses Statement was followed. Seven databases were searched for published peer-reviewed articles. The incidence of HIV and syphilis in FSWs in different time periods, provinces and workplaces in China were separately pooled by meta-analysis. Correlation analysis was conducted between HIV and syphilis incidence and study time, respectively.</p>
+</sec><sec>
+<title>Results</title>
+<p>After 1,662 articles were screened, 190 published papers were included in the final analysis. Estimated HIV prevalence was 0.284% (95% CI: 0.080–0.488%) in the period 2000–2002, 0.211% (95% CI: 0.149–0.273%) in 2003–2005, 0.242% (95% CI: 0.190–0.294%) in 2006–2008 and 0.041% (95% CI: 0.024–0.058%) in 2009–2011. The corresponding syphilis prevalence was 9.669% (95% CI: 7.810–11.529%), 4.970% (95% CI: 4.384–5.556%), 4.404% (95% CI: 4.032–4.775%) and 3.169% (95% CI: 2.738–3.600%), respectively. Spearman rank correlation coefficients were −0.165 (<italic>p</italic> = 0.002) between HIV prevalence and study time, and −0.209 (<italic>p</italic> = 0.000) between syphilis prevalence and study time. The combined HIV prevalence was 0.318% (95% CI: 0.156–0.479%) in medium and high-tier workplaces and 0.393% (95% CI: 0.176–0.610%) in low-tier workplaces. The corresponding syphilis prevalence was 3.216% (95% CI: 2.192–4.240%) and 13.817% (95% CI: 10.589–17.044%), respectively.</p>
+</sec><sec>
+<title>Conclusions</title>
+<p>Our data suggested a decline in HIV and syphilis epidemics in FSWs in China on a national level during the study period (2000–2011). FSWs in low-tier workplaces should be given more attention in the future to ensure they are included in prevention programs for HIV and sexually transmitted diseases.</p>
+</sec></abstract>
+<funding-group><funding-statement>This work was supported by National Major Scientific and Technological Special Project by China Ministry of Science and Technology (2013ZX10004904-001 to NPW). The funders had no role in study design, data collection and analysis, decision to publish, or preparation of the manuscript.</funding-statement></funding-group><counts><page-count count="9" /></counts></article-meta>
+</front>
+<body><sec id="s1">
+<title>Introduction</title>
+<p>The Joint United Nations Programme on HIV/AIDS (UNAIDS) estimated that in 33 countries HIV incidence had declined by more than 25% in the past decade, and epidemiological surveillance showed a decline in the rate of spread of HIV between 2002 and 2010 <xref ref-type="bibr" rid="pone.0082451-UNAIDS1">[1]</xref>, <xref ref-type="bibr" rid="pone.0082451-UNAIDS2">[2]</xref>. In China, since the first AIDS case was reported in 1985, HIV epidemics have gone through four phases: the sporadic phase (1985–1988), the localized epidemic phase (1989–1993), the spreading phase (1994–2000), and the fourth phase (2001–) <xref ref-type="bibr" rid="pone.0082451-Sheng1">[3]</xref>. At the end of 2011, the estimated number of people living with HIV/AIDS in China (PLHIV) was 0.78 million. They remained concentrated in several high-risk populations: commercial sex workers, injecting drug users (IDUs), former plasma donors (FPDs) and men who have sex with men <xref ref-type="bibr" rid="pone.0082451-China1">[4]</xref>. Another important sexually transmitted disease (STD) in China – syphilis, can greatly increase the efficiency of HIV transmission <xref ref-type="bibr" rid="pone.0082451-Galvin1">[5]</xref>. China's national surveillance, in which active surveillance and passive surveillance are combined, showed that the incidence of syphilis was 32.04/100,000 per year in 2011, an increase of 10.89% compared to 2010, and it was among the first three Chinese notifiable diseases <xref ref-type="bibr" rid="pone.0082451-Gong1">[6]</xref>.</p>
+<p>In China, female sex workers (FSWs) play an important bridging role in the transmission of HIV/STD from high-risk groups to the general population, given the importance of heterosexual transmission as the primary driver of HIV epidemics in China since 2007 and the reemergence and flourishing of commercial sex following the reform and opening-up policy <xref ref-type="bibr" rid="pone.0082451-China1">[4]</xref>, <xref ref-type="bibr" rid="pone.0082451-Poon1">[7]</xref>. Meta-analysis suggested a high-risk of HIV infection (OR = 50) in Chinese FSWs compared to women of reproductive age or those aged 15–49 years <xref ref-type="bibr" rid="pone.0082451-Baral1">[8]</xref>. However, the chronological trends in HIV and syphilis prevalence in Chinese FSWs since 2000 have not been investigated at a national level. The main objective of our study was to explore the epidemiological trends in HIV and syphilis infection in FSWs in China in the period from 2000 to 2011.</p>
+</sec><sec id="s2" sec-type="materials|methods">
+<title>Materials and Methods</title>
+<p>We conducted and reported this systematic review according to the Preferred Reporting Items for Systematic Reviews and Meta-Analyses (PRISMA) Statement <xref ref-type="bibr" rid="pone.0082451-Liberati1">[9]</xref> (<xref ref-type="supplementary-material" rid="pone.0082451.s001">Table S1</xref>).</p>
+<sec id="s2a">
+<title>Search strategy</title>
+<p>Seven databases, including the Cochrane Library, PubMed, Chinese Biomedical Literature Service System (SinoMed), Wanfang Data, Chinese Scientific Journals Fulltext Database (CQVIP), China National Knowledge Infrastructure (CNKI) and Web of Knowledge, were searched by two investigators (Z.Y. and X.P.) for published peer-reviewed articles. The following terms were used in our search: (“commercial sex worker” OR “female sex worker” OR “sex work*”) AND (“HIV” OR “AIDS”) AND (“sexually transmitted diseases” OR “STD” OR “sexually transmitted infection” OR “syphilis”) AND “China”. We have submitted the detailed search strategy for PubMed in <xref ref-type="supplementary-material" rid="pone.0082451.s002">Table S2</xref>. In addition, the reference lists of published articles were scanned. The most recent search was carried out on August 2, 2012.</p>
+</sec><sec id="s2b">
+<title>Study selection and quality assessment</title>
+<p>Titles and abstracts of all the searched articles were first screened, and then the full texts were screened by two independent reviewers (Z.Y. and J.S.). Disagreements between reviewers were resolved by discussion.</p>
+<p>Articles were included if they met the following eligibility criteria: (1) HIV and syphilis prevalence among FSWs in mainland China (geopolitical area under the jurisdiction of the People's Republic of China but not including Hong Kong, Taiwan and Macau) were both reported; (2) the diagnosis of HIV and syphilis infection was based on positive serological tests and, for syphilis, results of either nontreponemal tests or treponemal tests were all included in our study; (3) study design, sample size, study period and study location were all reported; (4) peer-reviewed journal articles; (5) articles published in Chinese or English; (6) studies conducted between 2000 and 2011.</p>
+<p>We excluded case reports, studies conducted before 2000 or after 2011, reviews, PhD or Master's theses, conference abstracts, studies not conducted in mainland China, studies with repeated data and reports that were not peer-reviewed. Additionally, studies with diagnosis based on oral fluid, urine or other non-serological tests were excluded. If the same data was published in both Chinese and English, we excluded the Chinese articles.</p>
+<p>We considered studies to be of high quality according to the following criteria: (1) studies using probability sampling, especially those reporting detailed sampling methods; (2) studies with a sample size greater than 200; (3) the exact serological testing methods for the diagnosis of HIV and syphilis infection were reported; (4) two or more testing methods (including confirmatory tests) were used to diagnose HIV or syphilis infection; (5) cross-sectional studies without repetition or cohort studies; (6) studies with a loss rate of less than 10% or studies with a response rate of more than 90%. The closer the above criteria were adhered to, the higher the quality of the study.</p>
+</sec><sec id="s2c">
+<title>Data extraction</title>
+<p>Two authors (Z.Y. and X.P.) independently extracted the data. Disagreements were resolved by discussion between them; if no agreement could be reached, a third author (N.W.) made the decision.</p>
+<p>We extracted the following information from each study included: (1) first author, year of publication, language of publication, study period and province(s) where the study was conducted; (2) study design, study location (entertainment venues, reeducation centers or others) and sampling methods; (3) sample size, and the corresponding HIV and syphilis prevalence; (4) workplaces, and the corresponding sample size and HIV and syphilis prevalence; (5) testing methods for HIV and syphilis infection; (6) for the intervention studies and cohort studies, in particular, we only extracted the baseline data.</p>
+<p>We categorized the studies by geographical location into seven groups (North China, Northeast, East China, Central China, South China, Southwest and Northwest) according to the provinces where the studies were conducted. We also categorized the studies into four three-year periods: 2000–2002, 2003–2005, 2006–2008 and 2009–2011, according to the periods when the study was carried out. We categorized testing methods for syphilis and HIV infection into three groups each. For syphilis infection, these were: treponemal tests (<italic>Treponema pallidum</italic> particle agglutination assay – TPPA, enzyme-linked immunosorbent assay – ELISA, <italic>Treponema pallidum</italic> hemagglutination assay – TPHA, immunocolloidal gold); nontreponemal tests (rapid plasma reagin – RPR, toluidine red unheated serum test – TRUST, unheated serum reagin – USR); and unspecified (exact methods not presented although diagnosis of syphilis infection was based on positive serological tests). For HIV infection the three groups were: confirmatory tests (ELISA + Western blot, ELISA-1 + ELISA-2, ELISA-1 + ELISA-2 + Western blot, immunocolloidal gold + Western blot, ELISA + immunocolloidal gold + Western blot); single method (single ELISA); and unspecified (exact methods not presented although diagnosis of HIV infection was based on positive serological tests).</p>
+<p>In addition, we divided the studies into two groups based on the FSW's workplaces: medium and high-tier (with FSWs working in establishments such as hotels, Karaoke halls, salons, leisure centers, massage parlors, night clubs, dancing halls, bars, bath centers and footbath rooms); and low-tier (with FSWs working in the streets, rental houses, inns, lanes- narrow streets or alleys with poor housing conditions and a low house rent, lakefronts and rural entertainment venues).</p>
+</sec><sec id="s2d">
+<title>Statistical analysis</title>
+<p>The estimates of HIV and syphilis prevalence and 95% CI were calculated using the random effect models (Q test <italic>p</italic>&lt;0.10) or with the fixed effect models (Q test <italic>p</italic>&gt;0.10). The Q test and <italic>I</italic><sup>2</sup> statistic were used to test heterogeneity between studies. Subgroup analysis and meta-regression were performed to investigate potential sources of heterogeneity for all studies included. Spearman rank correlation coefficients (<italic>r<sub>s</sub></italic>) were calculated to assess the relationship between HIV prevalence and syphilis prevalence, HIV prevalence and study time, and syphilis prevalence and study time, respectively. STATA (version 12) was used to perform meta-analysis, and a standard correction of 0.5 was added to all zero cells. Spearman rank correlation coefficients were calculated with SPSS (version 18.0). The significance levels were 0.10 for the Q test and 0.05 for the other tests.</p>
+</sec></sec><sec id="s3">
+<title>Results</title>
+<sec id="s3a">
+<title>Flow of included studies</title>
+<p>As illustrated in <xref ref-type="fig" rid="pone-0082451-g001">Figure 1</xref>, we identified 1,630 articles from seven electronic databases using the search strategy, and 32 additional articles from the reference lists of identified articles. Once 446 duplicated articles had been discarded, the remaining 1,216 article titles and abstracts were screened. In this screening process 804 articles were excluded, as 697 articles clearly did not meet the criteria from the titles and 107 articles were judged to be ineligible by their abstracts. Four hundred and twelve articles were included in the full text screening and, of these, 222 articles were excluded with reasons illustrated in <xref ref-type="fig" rid="pone-0082451-g001">Figure 1</xref>. Finally, 190 articles were included in the quantitative synthesis; of these, 17 articles reported data from different workplaces and one of the 17 articles reported only HIV prevalence in different workplaces, although data on syphilis was collected simultaneously.</p>
+<fig id="pone-0082451-g001" position="float" orientation="portrait"><object-id pub-id-type="doi">10.1371/journal.pone.0082451.g001</object-id><label>Figure 1</label><caption>
+<title>Diagram showing the selection of studies for meta-analysis.</title>
+</caption><graphic mimetype="image" xlink:href="info:doi/10.1371/journal.pone.0082451.g001" position="float" xlink:type="simple" orientation="portrait" /></fig></sec><sec id="s3b">
+<title>Study characteristics</title>
+<p>The 190 articles included covered all 31 provinces in mainland China except two (Tibet and Qinghai Province). Among the 190 articles included, 181 were cross-sectional studies and the other nine comprised eight intervention studies and one cohort study. In total, 341 records were collected (<xref ref-type="supplementary-material" rid="pone.0082451.s003">Table S3</xref>). Study periods covered every year from 2000 to 2011. Publication dates were between 2002 and 2012, and 179 articles were published in Chinese and 11 in English. Sample size ranged from 49 to 6,705 (median 363). One hundred and fifty studies were conducted in entertainment venues, 26 in reeducation centers and 14 in other locations. Fifty-one studies were performed with multistage sampling, four with respondent-driven sampling (RDS) or snowball sampling and 135 with convenience sampling.</p>
+<p>In addition, 17 out of 190 articles reported the workplaces of the FSWs; these were published between 2005 and 2012. From the 17 articles, 40 records of HIV prevalence (medium and high-tier, 21, and low-tier, 19) and 37 records of syphilis prevalence (medium and high-tier, 19, and low-tier, 18) were collected (<xref ref-type="supplementary-material" rid="pone.0082451.s004">Table S4</xref>).</p>
+</sec><sec id="s3c">
+<title>Epidemic trends and regional discrepancies</title>
+<p>HIV prevalence was 0.284% (95% CI: 0.080–0.488%) in the period 2000–2002, 0.211% (95% CI: 0.149–0.273%) in 2003–2005, 0.242% (95% CI: 0.190–0.294%) in 2006–2008 and 0.041% (95% CI: 0.024–0.058%) in 2009–2011 (<xref ref-type="fig" rid="pone-0082451-g002">Figure 2</xref>). The overall estimated HIV prevalence was 0.203% (95% CI: 0.172–0.233%). <italic>r<sub>s</sub></italic> between HIV prevalence and study time was −0.165 (<italic>p</italic> = 0.002, 2-tailed). The highest HIV prevalence was observed in Yunnan province (4.793%, 95% CI: 3.348–6.238%), and the other six provinces with an HIV prevalence above 0.2% were Chongqing (0.982%, 95% CI: 0.036–1.928%), Guangxi (0.450%, 95% CI: 0.311–0.590%), Sichuan (0.426%, 95%CI: 0.196–0.657%), Xinjiang (0.358%, 95% CI: 0.179–0.537%), Zhejiang (0.218%, 95% CI: 0.101–0.336%) and Hainan (0.215%, 95% CI: 0.058–0.372%), as can be seen in <xref ref-type="table" rid="pone-0082451-t001">Table 1</xref>.</p>
+<fig id="pone-0082451-g002" position="float" orientation="portrait"><object-id pub-id-type="doi">10.1371/journal.pone.0082451.g002</object-id><label>Figure 2</label><caption>
+<title>Estimated HIV and syphilis prevalence among Chinese female sex workers over the study period.</title>
+<p>The study period was divided into four three-year periods: 2000–2002, 2003–2005, 2006–2008 and 2009–2011. Each column represents the pooled estimate from meta-analysis of all studies over the corresponding time period. The error bars represent 95% confidence intervals of the percentages.</p>
+</caption><graphic mimetype="image" xlink:href="info:doi/10.1371/journal.pone.0082451.g002" position="float" xlink:type="simple" orientation="portrait" /></fig><table-wrap id="pone-0082451-t001" position="float" orientation="portrait"><object-id pub-id-type="doi">10.1371/journal.pone.0082451.t001</object-id><label>Table 1</label><caption>
+<title>Estimated prevalence of syphilis and HIV infection in female sex workers in 29 provinces in mainland China based on data from 2000 to 2011.</title>
+</caption><alternatives><graphic id="pone-0082451-t001-1" position="float" mimetype="image" xlink:href="info:doi/10.1371/journal.pone.0082451.t001" xlink:type="simple" orientation="portrait" />
+<table><colgroup span="1"><col align="left" span="1" /><col align="center" span="1" /><col align="center" span="1" /><col align="center" span="1" /></colgroup>
+<thead>
+<tr>
+<td align="left" rowspan="1" colspan="1">Province (No. of datasets)</td>
+<td align="left" rowspan="1" colspan="1">Syphilis prevalence % (95% CI) <xref ref-type="table-fn" rid="nt101">*</xref></td>
+<td align="left" rowspan="1" colspan="1">Province (No. of datasets)</td>
+<td align="left" rowspan="1" colspan="1">HIV prevalence % (95% CI)<xref ref-type="table-fn" rid="nt101">*</xref></td>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left" rowspan="1" colspan="1">Hainan (14)</td>
+<td align="left" rowspan="1" colspan="1">18.754 (13.409, 24.100)</td>
+<td align="left" rowspan="1" colspan="1">Yunnan (21)</td>
+<td align="left" rowspan="1" colspan="1">4.793 (3.348, 6.238)</td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1">Guizhou (2)</td>
+<td align="left" rowspan="1" colspan="1">10.872 (6.419, 15.234)</td>
+<td align="left" rowspan="1" colspan="1">Chongqing (4)</td>
+<td align="left" rowspan="1" colspan="1">0.982 (0.036, 1.928)</td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1">Shanghai (12)</td>
+<td align="left" rowspan="1" colspan="1">10.612 (7.252, 13.937)</td>
+<td align="left" rowspan="1" colspan="1">Guangxi (30)</td>
+<td align="left" rowspan="1" colspan="1">0.450 (0.311, 0.590)</td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1">Fujian (9)</td>
+<td align="left" rowspan="1" colspan="1">10.359 (5.423, 15.295)</td>
+<td align="left" rowspan="1" colspan="1">Sichuan (12)</td>
+<td align="left" rowspan="1" colspan="1">0.426 (0.196, 0.657)</td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1">Zhejiang (19)</td>
+<td align="left" rowspan="1" colspan="1">9.143 (6.734, 11.552)</td>
+<td align="left" rowspan="1" colspan="1">Xinjiang (15)</td>
+<td align="left" rowspan="1" colspan="1">0.358 (0.179, 0.537)</td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1">Gansu (1)</td>
+<td align="left" rowspan="1" colspan="1">9.000 (7.381, 10.619)</td>
+<td align="left" rowspan="1" colspan="1">Zhejiang (19)</td>
+<td align="left" rowspan="1" colspan="1">0.218 (0.101, 0.336)</td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1">Anhui (21)</td>
+<td align="left" rowspan="1" colspan="1">7.772 (6.137, 9.371)</td>
+<td align="left" rowspan="1" colspan="1">Hainan (14)</td>
+<td align="left" rowspan="1" colspan="1">0.215 (0.058, 0.372)</td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1">Inner Mongolia (3)</td>
+<td align="left" rowspan="1" colspan="1">6.438 (3.518, 9.359)</td>
+<td align="left" rowspan="1" colspan="1">Guizhou<xref ref-type="table-fn" rid="nt102">†</xref> (2)</td>
+<td align="left" rowspan="1" colspan="1">0.204 (−0.138, 0.547)</td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1">Tianjin (13)</td>
+<td align="left" rowspan="1" colspan="1">6.349 (5.474, 7.224)</td>
+<td align="left" rowspan="1" colspan="1">Hebei<xref ref-type="table-fn" rid="nt102">†</xref> (1)</td>
+<td align="left" rowspan="1" colspan="1">0.200 (−0.354, 0.754)</td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1">Guangdong (32)</td>
+<td align="left" rowspan="1" colspan="1">5.204 (4.190, 6.218)</td>
+<td align="left" rowspan="1" colspan="1">Henan<xref ref-type="table-fn" rid="nt102">†</xref> (5)</td>
+<td align="left" rowspan="1" colspan="1">0.194 (−0.016, 0.405)</td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1">Sichuan (12)</td>
+<td align="left" rowspan="1" colspan="1">5.051 (3.674, 6.428)</td>
+<td align="left" rowspan="1" colspan="1">Guangdong (32)</td>
+<td align="left" rowspan="1" colspan="1">0.183 (0.115, 0.251)</td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1">Guangxi (30)</td>
+<td align="left" rowspan="1" colspan="1">4.778 (3.796, 5.760)</td>
+<td align="left" rowspan="1" colspan="1">Fujian (9)</td>
+<td align="left" rowspan="1" colspan="1">0.169 (0.011, 0.327)</td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1">Yunnan (21)</td>
+<td align="left" rowspan="1" colspan="1">4.751 (3.318, 6.183)</td>
+<td align="left" rowspan="1" colspan="1">Ningxia<xref ref-type="table-fn" rid="nt102">†</xref> (6)</td>
+<td align="left" rowspan="1" colspan="1">0.154 (−0.019, 0.326)</td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1">Jiangsu (20)</td>
+<td align="left" rowspan="1" colspan="1">4.589 (3.204, 5.974)</td>
+<td align="left" rowspan="1" colspan="1">Shanghai (12)</td>
+<td align="left" rowspan="1" colspan="1">0.150 (0.028, 0.273)</td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1">Hebei (1)</td>
+<td align="left" rowspan="1" colspan="1">3.200 (1.018, 5.382)</td>
+<td align="left" rowspan="1" colspan="1">Shanxi (17)</td>
+<td align="left" rowspan="1" colspan="1">0.141 (0.044, 0.238)</td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1">Hubei (12)</td>
+<td align="left" rowspan="1" colspan="1">3.192 (2.373, 4.010)</td>
+<td align="left" rowspan="1" colspan="1">Jilin<xref ref-type="table-fn" rid="nt102">†</xref> (6)</td>
+<td align="left" rowspan="1" colspan="1">0.137 (−0.021, 0.296)</td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1">Xinjiang (15)</td>
+<td align="left" rowspan="1" colspan="1">3.130 (2.607, 4.193)</td>
+<td align="left" rowspan="1" colspan="1">Tianjin (13)</td>
+<td align="left" rowspan="1" colspan="1">0.134 (0.036, 0.231)</td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1">Beijing (20)</td>
+<td align="left" rowspan="1" colspan="1">2.782 (2.092, 3.472)</td>
+<td align="left" rowspan="1" colspan="1">Jiangsu (20)</td>
+<td align="left" rowspan="1" colspan="1">0.129 (0.054, 0.205)</td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1">Chongqing (4)</td>
+<td align="left" rowspan="1" colspan="1">2.464 (0.629, 4.299)</td>
+<td align="left" rowspan="1" colspan="1">Shaanxi<xref ref-type="table-fn" rid="nt102">†</xref> (3)</td>
+<td align="left" rowspan="1" colspan="1">0.126 (−0.075, 0.327)</td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1">Heilongjiang (5)</td>
+<td align="left" rowspan="1" colspan="1">2.436 (1.548, 3.324)</td>
+<td align="left" rowspan="1" colspan="1">Liaoning<xref ref-type="table-fn" rid="nt102">†</xref> (7)</td>
+<td align="left" rowspan="1" colspan="1">0.120 (−0.013, 0.253)</td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1">Hunan (8)</td>
+<td align="left" rowspan="1" colspan="1">2.170 (1.024, 3.316)</td>
+<td align="left" rowspan="1" colspan="1">Heilongjiang<xref ref-type="table-fn" rid="nt102">†</xref> (5)</td>
+<td align="left" rowspan="1" colspan="1">0.115 (−0.280, 0.258)</td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1">Shandong (18)</td>
+<td align="left" rowspan="1" colspan="1">1.859 (1.399, 2.319)</td>
+<td align="left" rowspan="1" colspan="1">Hubei (12)</td>
+<td align="left" rowspan="1" colspan="1">0.113 (0.019, 0.207)</td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1">Shaanxi<xref ref-type="table-fn" rid="nt102">†</xref> (3)</td>
+<td align="left" rowspan="1" colspan="1">1.519 (−0.099, 3.138)</td>
+<td align="left" rowspan="1" colspan="1">Inner Mongolia<xref ref-type="table-fn" rid="nt102">†</xref> (3)</td>
+<td align="left" rowspan="1" colspan="1">0.109 (−0.059, 0.276)</td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1">Ningxia (6)</td>
+<td align="left" rowspan="1" colspan="1">1.451 (0.329, 2.573)</td>
+<td align="left" rowspan="1" colspan="1">Hunan<xref ref-type="table-fn" rid="nt102">†</xref> (8)</td>
+<td align="left" rowspan="1" colspan="1">0.106 (−0.003, 0.245)</td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1">Henan (5)</td>
+<td align="left" rowspan="1" colspan="1">1.223 (0.698, 1.748)</td>
+<td align="left" rowspan="1" colspan="1">Anhui (21)</td>
+<td align="left" rowspan="1" colspan="1">0.044 (0.007, 0.082)</td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1">Shanxi (17)</td>
+<td align="left" rowspan="1" colspan="1">1.036 (0.621, 1.452)</td>
+<td align="left" rowspan="1" colspan="1">Jiangxi (5)</td>
+<td align="left" rowspan="1" colspan="1">0.043 (0.003, 0.084)</td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1">Jiangxi (5)</td>
+<td align="left" rowspan="1" colspan="1">1.010 (0.362, 1.657)</td>
+<td align="left" rowspan="1" colspan="1">Gansu<xref ref-type="table-fn" rid="nt102">†</xref> (1)</td>
+<td align="left" rowspan="1" colspan="1">0.042 (−0.074, 0.157)</td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1">Jilin (6)</td>
+<td align="left" rowspan="1" colspan="1">0.668 (0.321, 1.016)</td>
+<td align="left" rowspan="1" colspan="1">Beijing (20)</td>
+<td align="left" rowspan="1" colspan="1">0.036 (0.005, 0.068)</td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1">Liaoning (7)</td>
+<td align="left" rowspan="1" colspan="1">0.504 (0.043, 0.964)</td>
+<td align="left" rowspan="1" colspan="1">Shandong<xref ref-type="table-fn" rid="nt102">†</xref> (18)</td>
+<td align="left" rowspan="1" colspan="1">0.015 (−0.001, 0.030)</td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1">Overall (341)</td>
+<td align="left" rowspan="1" colspan="1">4.475 (4.125, 4.735)</td>
+<td align="left" rowspan="1" colspan="1">Overall (341)</td>
+<td align="left" rowspan="1" colspan="1">0.203 (0.172, 0.233)</td>
+</tr>
+</tbody>
+</table>
+</alternatives><table-wrap-foot><fn id="nt101"><p>*Prevalence in descending order.<sup /></p></fn><fn id="nt102"><label>†</label><p><italic>p</italic>&gt;0.05.</p></fn></table-wrap-foot></table-wrap>
+<p>Syphilis prevalence decreased from 9.669% (95% CI: 7.81–11.529%) in the period 2000–2002 to 4.970% (95% CI: 4.384–5.556%) in 2003–2005, to 4.404% (95% CI: 4.032–4.775%) in 2006–2008, and to 3.169% (95% CI: 2.738–3.600%) in 2009–2011 (<xref ref-type="fig" rid="pone-0082451-g002">Figure 2</xref>), with an overall combined prevalence of 4.475% (95% CI: 4.125–4.735%). <italic>r<sub>s</sub></italic> was −0.209 (<italic>p</italic> = 0.000, 2-tailed) between syphilis prevalence and study time. The highest combined syphilis prevalence was in Hainan (18.754%, 95% CI: 13.409–24.100%). Syphilis prevalence above 10% was observed in three provinces: Guizhou (10.872%, 95% CI: 6.419–15.234%), Shanghai (10.612%, 95% CI: 7.252–13.937%) and Fujian (10.359%, 95% CI: 5.423–15.295%), as can be seen in <xref ref-type="table" rid="pone-0082451-t001">Table 1</xref>.</p>
+<p>In addition, <italic>r<sub>s</sub></italic> between HIV prevalence and syphilis prevalence was 0.263 (<italic>p</italic> = 0.000, 2-tailed).</p>
+</sec><sec id="s3d">
+<title>Heterogeneity between studies, subgroup analysis, and meta-regression analysis</title>
+<p>For datasets reporting HIV prevalence, heterogeneity (Q test <italic>p</italic> = 0.000, <italic>I</italic><sup>2</sup> = 65.000%) were observed. Meta-regression suggested that the language of publication (<italic>p</italic>-value from meta-regression of English: 0.002), sample size (<italic>p</italic>-value from meta-regression of studies with a sample size ≥400: 0.016) and geographical location (<italic>p</italic>-value from meta-regression of South and Southwest China: 0.001 and 0.000, respectively) might be the sources of heterogeneity (<xref ref-type="supplementary-material" rid="pone.0082451.s005">Table S5</xref>).</p>
+<p>For datasets reporting syphilis prevalence, heterogeneity (Q test <italic>p</italic> = 0.000, <italic>I</italic><sup>2</sup> = 94.100%) were also observed. Meta-regression suggested that study location (<italic>p</italic>-value from meta-regression of reeducation centers: 0.000) and geographical location (<italic>p</italic>-value from meta-regression of North China: 0.011) might have caused the heterogeneity (<xref ref-type="supplementary-material" rid="pone.0082451.s005">Table S5</xref>).</p>
+<p>Subgroup analysis showed discrepancies between subgroups for both HIV prevalence and syphilis prevalence (<xref ref-type="supplementary-material" rid="pone.0082451.s005">Table S5</xref>). To control the confounders between subgroups we pooled HIV and syphilis prevalence by subgroups among the four three-year periods (<xref ref-type="supplementary-material" rid="pone.0082451.s006">Table S6</xref>) and calculated the Spearman rank correlation coefficients (<italic>r<sub>s</sub></italic>) between HIV/syphilis prevalence and study time (2000–2011) for each subgroup (<xref ref-type="table" rid="pone-0082451-t002">Table 2</xref>). As <xref ref-type="table" rid="pone-0082451-t002">Table 2</xref> shows, all the <italic>r<sub>s</sub></italic> which were statistically significant suggested a downward trend in HIV or syphilis epidemics over the study periods in the corresponding subgroups. Furthermore, we analyzed the distribution of the 341 datasets and total sample sizes in the subgroups (Language, Sample size, Study location, Geographical location, Study design, Sampling methods, HIV testing methods and Syphilis testing methods) and the four three-year periods, to observe whether an unbalanced distribution of datasets and sample sizes in different subgroups between the four study periods contributed to the downward trend in HIV and syphilis epidemics (<xref ref-type="supplementary-material" rid="pone.0082451.s007">Table S7</xref>). As <xref ref-type="supplementary-material" rid="pone.0082451.s007">Table S7</xref> shows, there were more datasets and greater sample sizes in the 2006–2008 and 2009–2011 study periods.</p>
+<table-wrap id="pone-0082451-t002" position="float" orientation="portrait"><object-id pub-id-type="doi">10.1371/journal.pone.0082451.t002</object-id><label>Table 2</label><caption>
+<title>Spearman rank correlation coefficients (<italic>r<sub>s</sub></italic>) between HIV/syphilis prevalence and study time (2000–2011) in each subgroup.</title>
+</caption><alternatives><graphic id="pone-0082451-t002-2" position="float" mimetype="image" xlink:href="info:doi/10.1371/journal.pone.0082451.t002" xlink:type="simple" orientation="portrait" />
+<table><colgroup span="1"><col align="left" span="1" /><col align="center" span="1" /><col align="center" span="1" /><col align="center" span="1" /><col align="center" span="1" /></colgroup>
+<thead>
+<tr>
+<td align="left" rowspan="1" colspan="1" />
+<td colspan="2" align="left" rowspan="1">HIV</td>
+<td colspan="2" align="left" rowspan="1">Syphilis</td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1">Subgroup</td>
+<td align="left" rowspan="1" colspan="1"><italic>r<sub>s</sub></italic></td>
+<td align="left" rowspan="1" colspan="1"><italic>p</italic>-value</td>
+<td align="left" rowspan="1" colspan="1"><italic>r<sub>s</sub></italic></td>
+<td align="left" rowspan="1" colspan="1"><italic>p</italic>-value</td>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td colspan="5" align="left" rowspan="1"><bold>Language</bold></td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1">Chinese</td>
+<td align="left" rowspan="1" colspan="1">−0.137</td>
+<td align="left" rowspan="1" colspan="1"><bold>0.013</bold></td>
+<td align="left" rowspan="1" colspan="1">−0.194</td>
+<td align="left" rowspan="1" colspan="1"><bold>0.000</bold></td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1">English</td>
+<td align="left" rowspan="1" colspan="1">−0.747</td>
+<td align="left" rowspan="1" colspan="1"><bold>0.003</bold></td>
+<td align="left" rowspan="1" colspan="1">−0.896</td>
+<td align="left" rowspan="1" colspan="1"><bold>0.000</bold></td>
+</tr>
+<tr>
+<td colspan="5" align="left" rowspan="1"><bold>Sample size</bold></td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1">&lt;200</td>
+<td align="left" rowspan="1" colspan="1">0.165</td>
+<td align="left" rowspan="1" colspan="1">0.197</td>
+<td align="left" rowspan="1" colspan="1">−0.160</td>
+<td align="left" rowspan="1" colspan="1">0.209</td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1">200–400</td>
+<td align="left" rowspan="1" colspan="1">−0.133</td>
+<td align="left" rowspan="1" colspan="1">0.086</td>
+<td align="left" rowspan="1" colspan="1">−0.153</td>
+<td align="left" rowspan="1" colspan="1"><bold>0.048</bold></td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1">≥400</td>
+<td align="left" rowspan="1" colspan="1">−0.139</td>
+<td align="left" rowspan="1" colspan="1">0.148</td>
+<td align="left" rowspan="1" colspan="1">−0.242</td>
+<td align="left" rowspan="1" colspan="1"><bold>0.011</bold></td>
+</tr>
+<tr>
+<td colspan="5" align="left" rowspan="1"><bold>Study location</bold></td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1">Entertainment Venues</td>
+<td align="left" rowspan="1" colspan="1">−0.144</td>
+<td align="left" rowspan="1" colspan="1"><bold>0.020</bold></td>
+<td align="left" rowspan="1" colspan="1">0.035</td>
+<td align="left" rowspan="1" colspan="1">0.570</td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1">Reeducation Centers</td>
+<td align="left" rowspan="1" colspan="1">0.190</td>
+<td align="left" rowspan="1" colspan="1">0.124</td>
+<td align="left" rowspan="1" colspan="1">0.075</td>
+<td align="left" rowspan="1" colspan="1">0.548</td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1">Others<xref ref-type="table-fn" rid="nt103">*</xref></td>
+<td align="left" rowspan="1" colspan="1">−0.489</td>
+<td align="left" rowspan="1" colspan="1">0.064</td>
+<td align="left" rowspan="1" colspan="1">−0.652</td>
+<td align="left" rowspan="1" colspan="1"><bold>0.008</bold></td>
+</tr>
+<tr>
+<td colspan="5" align="left" rowspan="1"><bold>Geographical location</bold></td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1">East China</td>
+<td align="left" rowspan="1" colspan="1">−0.264</td>
+<td align="left" rowspan="1" colspan="1"><bold>0.007</bold></td>
+<td align="left" rowspan="1" colspan="1">−0.235</td>
+<td align="left" rowspan="1" colspan="1"><bold>0.016</bold></td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1">South China</td>
+<td align="left" rowspan="1" colspan="1">0.015</td>
+<td align="left" rowspan="1" colspan="1">0.898</td>
+<td align="left" rowspan="1" colspan="1">−0.422</td>
+<td align="left" rowspan="1" colspan="1"><bold>0.000</bold></td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1">Southwest</td>
+<td align="left" rowspan="1" colspan="1">−0.314</td>
+<td align="left" rowspan="1" colspan="1">0.052</td>
+<td align="left" rowspan="1" colspan="1">−0.472</td>
+<td align="left" rowspan="1" colspan="1"><bold>0.002</bold></td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1">Central China</td>
+<td align="left" rowspan="1" colspan="1">−0.114</td>
+<td align="left" rowspan="1" colspan="1">0.558</td>
+<td align="left" rowspan="1" colspan="1">0.009</td>
+<td align="left" rowspan="1" colspan="1">0.968</td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1">Northeast</td>
+<td align="left" rowspan="1" colspan="1">−0.645</td>
+<td align="left" rowspan="1" colspan="1"><bold>0.004</bold></td>
+<td align="left" rowspan="1" colspan="1">0.324</td>
+<td align="left" rowspan="1" colspan="1">0.190</td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1">Northwest</td>
+<td align="left" rowspan="1" colspan="1">−0.553</td>
+<td align="left" rowspan="1" colspan="1"><bold>0.004</bold></td>
+<td align="left" rowspan="1" colspan="1">−0.297</td>
+<td align="left" rowspan="1" colspan="1">0.149</td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1">North China</td>
+<td align="left" rowspan="1" colspan="1">0.333</td>
+<td align="left" rowspan="1" colspan="1">0.811</td>
+<td align="left" rowspan="1" colspan="1">−0.116</td>
+<td align="left" rowspan="1" colspan="1">0.403</td>
+</tr>
+<tr>
+<td colspan="5" align="left" rowspan="1"><bold>Study design</bold></td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1">Cross-sectional studies</td>
+<td align="left" rowspan="1" colspan="1">−0.176</td>
+<td align="left" rowspan="1" colspan="1"><bold>0.001</bold></td>
+<td align="left" rowspan="1" colspan="1">−0.210</td>
+<td align="left" rowspan="1" colspan="1"><bold>0.000</bold></td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1">Others<xref ref-type="table-fn" rid="nt104">†</xref></td>
+<td align="left" rowspan="1" colspan="1">0.094</td>
+<td align="left" rowspan="1" colspan="1">0.810</td>
+<td align="left" rowspan="1" colspan="1">−0.034</td>
+<td align="left" rowspan="1" colspan="1">0.930</td>
+</tr>
+<tr>
+<td colspan="5" align="left" rowspan="1"><bold>Sampling methods</bold></td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1">Multistage sampling</td>
+<td align="left" rowspan="1" colspan="1">−0.222</td>
+<td align="left" rowspan="1" colspan="1">0.094</td>
+<td align="left" rowspan="1" colspan="1">−0.205</td>
+<td align="left" rowspan="1" colspan="1">0.122</td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1">Convenience sampling</td>
+<td align="left" rowspan="1" colspan="1">−0.121</td>
+<td align="left" rowspan="1" colspan="1"><bold>0.043</bold></td>
+<td align="left" rowspan="1" colspan="1">−0.195</td>
+<td align="left" rowspan="1" colspan="1"><bold>0.001</bold></td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1">RDS/snowball sampling<xref ref-type="table-fn" rid="nt105">‡</xref></td>
+<td align="left" rowspan="1" colspan="1">−0.900</td>
+<td align="left" rowspan="1" colspan="1"><bold>0.037</bold></td>
+<td align="left" rowspan="1" colspan="1">−0.900</td>
+<td align="left" rowspan="1" colspan="1"><bold>0.037</bold></td>
+</tr>
+<tr>
+<td colspan="5" align="left" rowspan="1"><bold>HIV testing methods</bold><xref ref-type="table-fn" rid="nt106">§</xref></td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1">Confirmatory test</td>
+<td align="left" rowspan="1" colspan="1">−0.172</td>
+<td align="left" rowspan="1" colspan="1"><bold>0.004</bold></td>
+<td align="left" rowspan="1" colspan="1">-</td>
+<td align="left" rowspan="1" colspan="1">-</td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1">Single method</td>
+<td align="left" rowspan="1" colspan="1">−0.266</td>
+<td align="left" rowspan="1" colspan="1">0.208</td>
+<td align="left" rowspan="1" colspan="1">-</td>
+<td align="left" rowspan="1" colspan="1">-</td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1">Unspecified</td>
+<td align="left" rowspan="1" colspan="1">−0.182</td>
+<td align="left" rowspan="1" colspan="1">0.274</td>
+<td align="left" rowspan="1" colspan="1">-</td>
+<td align="left" rowspan="1" colspan="1">-</td>
+</tr>
+<tr>
+<td colspan="5" align="left" rowspan="1"><bold>Syphilis testing methods</bold><xref ref-type="table-fn" rid="nt107">||</xref></td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1">Treponemal tests</td>
+<td align="left" rowspan="1" colspan="1">-</td>
+<td align="left" rowspan="1" colspan="1">-</td>
+<td align="left" rowspan="1" colspan="1">−0.396</td>
+<td align="left" rowspan="1" colspan="1"><bold>0.000</bold></td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1">Nontreponemal tests</td>
+<td align="left" rowspan="1" colspan="1">-</td>
+<td align="left" rowspan="1" colspan="1">-</td>
+<td align="left" rowspan="1" colspan="1">−0.024</td>
+<td align="left" rowspan="1" colspan="1">0.770</td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1">Unspecified</td>
+<td align="left" rowspan="1" colspan="1">-</td>
+<td align="left" rowspan="1" colspan="1">-</td>
+<td align="left" rowspan="1" colspan="1">−0.263</td>
+<td align="left" rowspan="1" colspan="1">0.176</td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1"><bold>Overall</bold></td>
+<td align="left" rowspan="1" colspan="1">−0.165</td>
+<td align="left" rowspan="1" colspan="1"><bold>0.002</bold></td>
+<td align="left" rowspan="1" colspan="1">−0.209</td>
+<td align="left" rowspan="1" colspan="1"><bold>0.000</bold></td>
+</tr>
+</tbody>
+</table>
+</alternatives><table-wrap-foot><fn id="nt103"><label /><p>*Comprising “Unspecified (6), Entertainment Venues and Reeducation Centers (6), Medical Institutions (1), Reeducation Centers and STD Clinics (1) and STD Clinics (1)”.</p></fn><fn id="nt104"><label>†</label><p>Comprising “Cohort Study (1) and Intervention Study (8)”.</p></fn><fn id="nt105"><label>‡</label><p>RDS: Respondent Driven Sampling.</p></fn><fn id="nt106"><label>§</label><p>Sorted into three groups: Confirmatory tests (ELISA + Western blot, ELISA-1 + ELISA-2, ELISA-1 + ELISA-2 + Western blot, Immunocolloidal gold + Western blot, ELISA + Immunocolloidal gold + Western blot); Single method (single ELISA); and Unspecified (exact methods not presented although diagnosis of HIV infection based on positive serological tests).</p></fn><fn id="nt107"><label>||</label><p>Sorted into three groups: Treponemal tests (<italic>Treponema pallidum</italic> particle agglutination assay – TPPA, Enzyme-Linked Immuno Sorbent Assay – ELISA, <italic>Treponema pallidum</italic> hemagglutination assay – TPHA, Immunocolloidal gold); Nontreponemal tests (Rapid plasma reagin – RPR, Toluidine red unheated serum test – TRUST, Unheated serum reagin – USR); and Unspecified (exact methods not presented although diagnosis of syphilis infection based on positive serological tests).</p></fn></table-wrap-foot></table-wrap></sec><sec id="s3e">
+<title>Estimated prevalence of HIV and syphilis infection in different workplaces</title>
+<p>The estimated HIV prevalence in the medium and high-tier, and low-tier workplaces was 0.318% (95% CI: 0.156–0.479%) and 0.393% (95% CI: 0.176–0.610%), respectively (<xref ref-type="fig" rid="pone-0082451-g003">Figure 3</xref>). There was no heterogeneity for the studies reporting HIV prevalence (Q test <italic>p</italic> = 1.000, <italic>I</italic><sup>2</sup> = 0.000%). The estimated syphilis prevalence was 3.216% (95% CI: 2.192–4.240%) in medium and high-tier workplaces, and 13.817% (95% CI: 10.589–17.044%) in low-tier workplaces (<xref ref-type="fig" rid="pone-0082451-g004">Figure 4</xref>). And heterogeneity (Q test <italic>p</italic> = 0.000, <italic>I</italic><sup>2</sup> = 92.900%) were observed.</p>
+<fig id="pone-0082451-g003" position="float" orientation="portrait"><object-id pub-id-type="doi">10.1371/journal.pone.0082451.g003</object-id><label>Figure 3</label><caption>
+<title>Forest plot showing estimated HIV prevalence in Chinese female sex workers in different workplaces.</title>
+<p>Workplaces were categorized into two grades: Medium and high-tier (Hotels, Karaoke halls, Salons, Leisure centers, Massage parlors, Night clubs, Dancing halls, Bars, Bath centers and Footbath rooms) and Low-tier (Street-based, Rental houses, Inns, Lanes, Lakefront and Rural entertainment venues).</p>
+</caption><graphic mimetype="image" xlink:href="info:doi/10.1371/journal.pone.0082451.g003" position="float" xlink:type="simple" orientation="portrait" /></fig><fig id="pone-0082451-g004" position="float" orientation="portrait"><object-id pub-id-type="doi">10.1371/journal.pone.0082451.g004</object-id><label>Figure 4</label><caption>
+<title>Forest plot showing estimated syphilis prevalence in Chinese female sex workers in different workplaces.</title>
+<p>Workplaces were categorized into two grades: Medium and high-tier (Hotels, Karaoke halls, Salons, Leisure centers, Massage parlors, Night clubs, Dancing halls, Bars, Bath centers and Footbath rooms) and Low-tier (Street-based, Rental houses, Inns, Lanes, Lakefront and Rural entertainment venues).</p>
+</caption><graphic mimetype="image" xlink:href="info:doi/10.1371/journal.pone.0082451.g004" position="float" xlink:type="simple" orientation="portrait" /></fig></sec></sec><sec id="s4">
+<title>Discussion</title>
+<p>Data from our study suggested a decline in HIV and syphilis epidemics during the period from 2000 to 2011 in Chinese FSWs on a national level. Both HIV and syphilis prevalence showed regional discrepancies. FSWs in low-tier workplaces may be at higher risk of HIV and syphilis infection than those in high-tier workplaces. To the best of our knowledge, our study is the first to explore the chronological epidemic trends and regional and workplace discrepancies in HIV and syphilis infection among FSWs in mainland China by systematic review and meta-analysis.</p>
+<p>China's epidemiological surveillance showed an evident upward trend in HIV epidemics in FSWs before 2001, but there were significant fluctuations between 2001 and 2009 <xref ref-type="bibr" rid="pone.0082451-Fu1">[10]</xref>. One reason for the difficulty in ascertaining any trends in HIV epidemics in Chinese FSWs is that HIV prevalence in this population has been relatively low and stable in China <xref ref-type="bibr" rid="pone.0082451-Poon1">[7]</xref>. By meta-analysis and further by correlation analysis, we were able to demonstrate a downward trend in HIV prevalence between 2000 and 2011 in FSWs on a national level. However, our most recent estimated HIV prevalence was 0.041% (2009–2011), lower than the estimated HIV prevalence of 3.000% (2007–2011) in another meta-analysis <xref ref-type="bibr" rid="pone.0082451-Baral1">[8]</xref>. A possible explanation is that the meta-analysis conducted by Doctor Baral and colleagues only included articles from China published in English (not in Chinese); there were 12 studies included in their meta-analysis (Yunnan, 6, Guangxi, 1, Guangdong, 2, Zhejiang, 1, Hong Kong, 1, and Henan, 1), among which five studies were also included in our research (Guangxi, 1, Yunnan, 2, Zhejiang, 1, and Guangdong, 1); and the 12 studies in Doctor Baral and colleagues' meta-analysis were mainly from provinces (Yunnan, Guangxi, Guangdong and Zhejiang) which had a higher pooled HIV prevalence in our study. In our meta-analysis the pooled HIV prevalence of studies published in Chinese and English was 0.171% and 2.430%, respectively, revealing national and international variation as discussed by Baral et al.</p>
+<p>In addition, surveillance data showed median syphilis prevalence in FSWs fluctuated between 0.5% and 1.8% from 2004 to 2008 within 15 cities in different provinces of China <xref ref-type="bibr" rid="pone.0082451-Wang1">[11]</xref>. Much information can be lost by estimating prevalence through medians. The most recent estimated syphilis prevalence in our study was 3.169% (95% CI: 2.738–3.600%) in the period from 2009 to 2011. Longitudinal studies on syphilis infection among FSWs in China have seldom been undertaken. A few studies showed a decline in syphilis prevalence in FSWs in different Chinese regions, such as Guangzhou, between 2002 and 2005 <xref ref-type="bibr" rid="pone.0082451-Liang1">[12]</xref>. Another systematic review conducted in 2005 suggested syphilis prevalence increased at a rate of 1.4% per year among incarcerated FSWs during the period from 2000 to 2005 <xref ref-type="bibr" rid="pone.0082451-Lin1">[13]</xref>. Coincidently, our data suggested an upward trend in syphilis prevalence in FSWs in Reeducation Centers that were places where female sex workers were administratively detained for moral and political “re-education” and vocational training (as shown in <xref ref-type="supplementary-material" rid="pone.0082451.s006">Table S6</xref>, although <xref ref-type="table" rid="pone-0082451-t002">Table 2</xref> shows that <italic>r<sub>s</sub></italic> was not statistically significant). However, downward trends were seen in the other two subgroups, Entertainment venues and Others (mainly from medical institutions and STD clinics), that were under the health surveillance system. In China, tests for STDs in incarcerated FSWs or those in reeducation centers are obligatory. These facts suggested that the health surveillance system might not cover the very high-risk FSWs, or that some FSWs with STDs might intentionally avoid health surveillance because of fear of humiliation or for other reasons.</p>
+<p>Heterosexual transmission as the main driver of HIV infection rates in China seems contradictory to the decline in HIV prevalence in FSWs. Several possible reasons for this are evident from a previous report <xref ref-type="bibr" rid="pone.0082451-Wang2">[14]</xref>. Firstly, among all individuals infected with HIV through heterosexual transmission, about one-third were infected by their spouses and two-thirds were not, and in the latter group some were infected through non-commercial sexual behaviors (sexual behaviors without the direct purpose of money, such as extramarital affairs, “one-night stands” and having many sexual partners before marriage). Non-commercial sexual behaviors may therefore be an important route for heterosexual HIV transmission in China. Secondly, due to various limitations such as simple sampling methods and the FSWs' avoidance from surveillance, the system of surveillance might not cover the very high-risk FSWs who transmitted HIV. Thirdly, the working time of Chinese FSWs in the sex industry was about 5–6 years, meaning that about one-fifth of all FSWs were replaced every year. This turnover diluted HIV prevalence in FSWs.</p>
+<p>A specific epidemiological character of HIV epidemics is the presence of regional disparities based on the different routes of transmission in China. Border regions (Yunnan, Guangxi and Xinjiang) had a higher HIV incidence among IDUs, in coastal areas (Guangdong and Fujian) most HIV infections were sexually transmitted, and in central China (Henan, Anhui, Hubei and Shanxi) HIV-infected people were mainly FPDs <xref ref-type="bibr" rid="pone.0082451-Xien1">[15]</xref>. Studies from Guangzhou and Yunnan showed that 45% to 100% of HIV-infected FSWs reported a history of intravenous drug use and 12% to 49% of FSWs who were IDUs were HIV positive <xref ref-type="bibr" rid="pone.0082451-Poon1">[7]</xref>. Meanwhile, FSWs in these provinces might also have had more clients who were drug users. So the fact that some FSWs are also IDUs may have contributed to larger differences between HIV and syphilis prevalence in some provinces, such as Yunnan, than in others.</p>
+<p>Data on FSWs in lower-tier work settings were limited because of the difficulties in approaching them. For this reason, and also the low HIV prevalence among Chinese FSWs, our data suggested minor differences in HIV prevalence in different workplaces, although they showed evident differences in syphilis prevalence. FSWs in lower-tier work settings may be older, more illiterate and less aware of HIV/STD, may have worked for much longer in the sex industry, and may have a much lower economic status, more high-risk sexual behaviors and more clients of low income compared to those in higher tier work settings <xref ref-type="bibr" rid="pone.0082451-Pan1">[16]</xref>, <xref ref-type="bibr" rid="pone.0082451-Li1">[17]</xref>. More efforts and studies are needed in this group to find more effective ways of investigation and intervention, to reveal the very HIV/STD epidemic condition, and to enhance their awareness of HIV/STD. And this group is also an important focus for the future, in order to ensure they are included in the overall HIV/STD prevention and control strategies in China.</p>
+<p>Several limitations should be noted in our study. Studies using nontreponemal or treponemal tests to diagnose syphilis infection were all included in our meta-analysis, which as a result, might have overestimated the current prevalence of syphilis, but underestimated the extent of decline in syphilis prevalence over time. Given the downward trend in syphilis prevalence shown in our study and others <xref ref-type="bibr" rid="pone.0082451-Liang1">[12]</xref>, the actual extent to which syphilis is declining may be greater. In the subgroup analysis (<xref ref-type="table" rid="pone-0082451-t002">Table 2</xref> and <xref ref-type="supplementary-material" rid="pone.0082451.s006">Table S6</xref>) our data further suggested a downward trend in syphilis epidemics in all three subgroups (the Treponemal tests group, the Nontreponemal tests group, and the Unspecified group). Secondly, there was a possibility of some selection bias. To assess the relationship between HIV and syphilis prevalence, we only included studies testing HIV and syphilis in the same cohorts, so information in the excluded studies only targeting either HIV or syphilis was missing. We only included peer-reviewed journal articles and so some unpublished data or reports from non-governmental organizations were missing, which is also likely to have contributed to selection bias. Thirdly, an unbalanced distribution of datasets and sample sizes between different subgroups over the study period (2000–2011) might be an important confounder in the investigation of HIV/syphilis epidemic trends, since subgroup analysis suggested discrepancies between subgroups (<xref ref-type="supplementary-material" rid="pone.0082451.s005">Table S5</xref>). Because of the complexity within the included studies (too many stratified factors and relatively limited datasets) we did not use a completely stratified analysis. Instead we investigated the HIV/syphilis epidemic trends in each subgroup (<xref ref-type="table" rid="pone-0082451-t002">Table 2</xref> and <xref ref-type="supplementary-material" rid="pone.0082451.s006">Table S6</xref>) and the distribution of the datasets and sample size among subgroups and study time periods (<xref ref-type="supplementary-material" rid="pone.0082451.s007">Table S7</xref>). <xref ref-type="table" rid="pone-0082451-t002">Table 2</xref> shows that all the <italic>r<sub>s</sub></italic> that were statistically significant suggested a downward trend in HIV/syphilis epidemics. <xref ref-type="supplementary-material" rid="pone.0082451.s007">Table S7</xref> shows that the higher numbers of datasets and greater sample sizes in the subgroups with a higher pooled prevalence of HIV (such as Language – English, Sample size &lt;200, Geographical location – Southwest, and Sampling methods – Convenience sampling) and syphilis (such as Language – English, Sample size &lt;200, Geographical location – South China and East China, and Syphilis testing methods – Treponemal tests) occurred mainly in the later period (2006–2011). These supplementary data therefore also suggested a downward trend in HIV and syphilis epidemics over the study period. Fourthly, different testing methods have different sensitivity and specificity. As can be seen in <xref ref-type="supplementary-material" rid="pone.0082451.s006">Table S6</xref>, combined rate from different testing methods were variable, for both HIV and syphilis. So pooling rate from different testing methods might bring bias. A single protocol using testing methods with high sensitivity and specificity is suggested in the future studies and surveillance systems.</p>
+<p>In China, HIV/STD is not only a public health but also a socio-economic and political issue. Guided by information from the national surveillance system, China's HIV/STD policies were developed, including “Four Frees and One Care” (free anti-retroviral drugs to AIDS patients who are rural residents or people without insurance in urban areas; free voluntary counselling and testing; free anti-retroviral drugs to HIV-infected pregnant women, and HIV testing of newborn babies; free schooling for AIDS orphans and children from HIV infected families; and care and economic assistance to the households of PLHIV), 5-year action plans, and HIV/AIDS regulation, which were the landmark national level policies that have had a major impact on China's HIV/AIDS response. These national policies contained comprehensive measures in response to HIV/STD epidemics, including prevention and education policies, trearment measures and policies, care policies, and so on. The decline in HIV and syphilis prevalence in Chinese FSWs between 2000 and 2011 suggested in our study indicates the achievements not only in the 2000s, but also in the 1990s, given that the effects of the plans might only be apparent after several years. However, it does not mean that HIV and syphilis epidemics are now under control in China and there remain some challenges such as discrimination hindering the effective prevention and control of HIV/STD, limitations in the healthcare system with insufficient coverage of testing, treatment and prevention services and limited financial support. Thus funding and attention is still needed in the future. And strong commitment and a problem solving-oriented approach will allow China to better address and cope with these challenges.</p>
+</sec><sec id="s5">
+<title>Supporting Information</title>
+<supplementary-material id="pone.0082451.s001" mimetype="application/msword" xlink:href="info:doi/10.1371/journal.pone.0082451.s001" position="float" xlink:type="simple" orientation="portrait"><label>Table S1</label><caption>
+<p><bold>PRISMA 2009 checklist.</bold></p>
+<p>(DOC)</p>
+</caption></supplementary-material><supplementary-material id="pone.0082451.s002" mimetype="application/msword" xlink:href="info:doi/10.1371/journal.pone.0082451.s002" position="float" xlink:type="simple" orientation="portrait"><label>Table S2</label><caption>
+<p><bold>Search strategy for PubMed search.</bold></p>
+<p>(DOC)</p>
+</caption></supplementary-material><supplementary-material id="pone.0082451.s003" mimetype="application/msword" xlink:href="info:doi/10.1371/journal.pone.0082451.s003" position="float" xlink:type="simple" orientation="portrait"><label>Table S3</label><caption>
+<p><bold>Data extraction table of 190 included studies with 341 records.</bold></p>
+<p>(DOC)</p>
+</caption></supplementary-material><supplementary-material id="pone.0082451.s004" mimetype="application/msword" xlink:href="info:doi/10.1371/journal.pone.0082451.s004" position="float" xlink:type="simple" orientation="portrait"><label>Table S4</label><caption>
+<p><bold>Data extraction table of Chinese female sex workers in different workplaces.</bold></p>
+<p>(DOC)</p>
+</caption></supplementary-material><supplementary-material id="pone.0082451.s005" mimetype="application/msword" xlink:href="info:doi/10.1371/journal.pone.0082451.s005" position="float" xlink:type="simple" orientation="portrait"><label>Table S5</label><caption>
+<p><bold>Results of subgroup analysis and meta-regression.</bold></p>
+<p>(DOC)</p>
+</caption></supplementary-material><supplementary-material id="pone.0082451.s006" mimetype="application/msword" xlink:href="info:doi/10.1371/journal.pone.0082451.s006" position="float" xlink:type="simple" orientation="portrait"><label>Table S6</label><caption>
+<p><bold>HIV and syphilis epidemic trends by subgroup in each three-year study period.</bold></p>
+<p>(DOC)</p>
+</caption></supplementary-material><supplementary-material id="pone.0082451.s007" mimetype="application/msword" xlink:href="info:doi/10.1371/journal.pone.0082451.s007" position="float" xlink:type="simple" orientation="portrait"><label>Table S7</label><caption>
+<p><bold>Distribution of HIV/syphilis prevalence datasets and sample sizes between subgroups and the four three-year study periods.</bold></p>
+<p>(DOC)</p>
+</caption></supplementary-material></sec></body>
+<back><ref-list>
+<title>References</title>
+<ref id="pone.0082451-UNAIDS1"><label>1</label>
+<mixed-citation publication-type="other" xlink:type="simple">UNAIDS (2011) Global HIV/AIDS Response: epidemic update and health sector progress towards universal access. Geneva: United Nations.</mixed-citation>
+</ref>
+<ref id="pone.0082451-UNAIDS2"><label>2</label>
+<mixed-citation publication-type="other" xlink:type="simple">UNAIDS (2010) UNAIDS report on the global AIDS epidemic: 2010. Geneva: United Nations.</mixed-citation>
+</ref>
+<ref id="pone.0082451-Sheng1"><label>3</label>
+<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Sheng</surname><given-names>L</given-names></name>, <name name-style="western"><surname>Cao</surname><given-names>WK</given-names></name> (<year>2008</year>) <article-title>HIV/AIDS epidemiology and prevention in China</article-title>. <source>Chin Med J (Engl)</source> <volume>121</volume>: <fpage>1230</fpage>–<lpage>1236</lpage>.</mixed-citation>
+</ref>
+<ref id="pone.0082451-China1"><label>4</label>
+<mixed-citation publication-type="other" xlink:type="simple">China MoHo, UNAIDS WHO (2011) Report of Epidemic Situation of AIDS in China, 2011. National Center for AIDS/STD Control and Prevention, China CDC.</mixed-citation>
+</ref>
+<ref id="pone.0082451-Galvin1"><label>5</label>
+<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Galvin</surname><given-names>SR</given-names></name>, <name name-style="western"><surname>Cohen</surname><given-names>MS</given-names></name> (<year>2004</year>) <article-title>The role of sexually transmitted diseases in HIV transmission</article-title>. <source>Nature Reviews Microbiology</source> <volume>2</volume>: <fpage>33</fpage>–<lpage>42</lpage>.</mixed-citation>
+</ref>
+<ref id="pone.0082451-Gong1"><label>6</label>
+<mixed-citation publication-type="other" xlink:type="simple">Gong XD, Yue XL, Teng F, Jiang N (2012) Report of Epidemic Situation of Syphilis and Gonorrhoea in China, 2011. National Center for STD Control, China CDC.</mixed-citation>
+</ref>
+<ref id="pone.0082451-Poon1"><label>7</label>
+<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Poon</surname><given-names>AN</given-names></name>, <name name-style="western"><surname>Li</surname><given-names>Z</given-names></name>, <name name-style="western"><surname>Wang</surname><given-names>N</given-names></name>, <name name-style="western"><surname>Hong</surname><given-names>Y</given-names></name> (<year>2011</year>) <article-title>Review of HIV and other sexually transmitted infections among female sex workers in China</article-title>. <source>AIDS Care</source> <volume>23</volume> Suppl 1<fpage>5</fpage>–<lpage>25</lpage>.</mixed-citation>
+</ref>
+<ref id="pone.0082451-Baral1"><label>8</label>
+<mixed-citation publication-type="other" xlink:type="simple">Baral S, Beyrer C, Muessig K, Poteat T, Wirtz AL, <etal>et al</etal>.. (2012) Burden of HIV among female sex workers in low-income and middle-income countries: a systematic review and meta-analysis. The Lancet Infectious Diseases.</mixed-citation>
+</ref>
+<ref id="pone.0082451-Liberati1"><label>9</label>
+<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Liberati</surname><given-names>A</given-names></name>, <name name-style="western"><surname>Altman</surname><given-names>DG</given-names></name>, <name name-style="western"><surname>Tetzlaff</surname><given-names>J</given-names></name>, <name name-style="western"><surname>Mulrow</surname><given-names>C</given-names></name>, <name name-style="western"><surname>Gøtzsche</surname><given-names>PC</given-names></name>, <etal>et al</etal>. (<year>2009</year>) <article-title>The PRISMA statement for reporting systematic reviews and meta-analyses of studies that evaluate health care interventions: explanation and elaboration</article-title>. <source>PLoS Medicine</source> <volume>6</volume>: <fpage>e1000100</fpage>.</mixed-citation>
+</ref>
+<ref id="pone.0082451-Fu1"><label>10</label>
+<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Fu</surname><given-names>SG</given-names></name>, <name name-style="western"><surname>Sun</surname><given-names>LN</given-names></name>, <name name-style="western"><surname>Meng</surname><given-names>XJ</given-names></name>, <name name-style="western"><surname>Ding</surname><given-names>ZW</given-names></name>, <name name-style="western"><surname>Wang</surname><given-names>L</given-names></name> (<year>2010</year>) <article-title>Surveillance of AIDS among female sex workers in China, 1995–2009</article-title>. <source>DISEASE SURVEILLANCE</source> <volume>25</volume>: <fpage>850</fpage>–<lpage>853</lpage>.</mixed-citation>
+</ref>
+<ref id="pone.0082451-Wang1"><label>11</label>
+<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Wang</surname><given-names>L</given-names></name>, <name name-style="western"><surname>Ding</surname><given-names>ZW</given-names></name>, <name name-style="western"><surname>Ding</surname><given-names>GW</given-names></name>, <name name-style="western"><surname>Guo</surname><given-names>W</given-names></name>, <name name-style="western"><surname>Qin</surname><given-names>QQ</given-names></name>, <etal>et al</etal>. (<year>2009</year>) <article-title>Data analysis of national HIV comprehensive surveillance sites among female sex workers from 2004 to 2008</article-title>. <source>Zhonghua Yu Fang Yi Xue Za Zhi</source> <volume>43</volume>: <fpage>1009</fpage>–<lpage>1015</lpage>.</mixed-citation>
+</ref>
+<ref id="pone.0082451-Liang1"><label>12</label>
+<mixed-citation publication-type="other" xlink:type="simple">Liang BH, Ye XD, Yang AC, Tan XY (2008) Analysis Of Epidemiological Trend And Infection Status Of Std/Aids Among Sex Workers During 2002 To 2005 In Guangzhou. Modern Preventive Medicine <volume>35</volume>..</mixed-citation>
+</ref>
+<ref id="pone.0082451-Lin1"><label>13</label>
+<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Lin</surname><given-names>CC</given-names></name>, <name name-style="western"><surname>Gao</surname><given-names>X</given-names></name>, <name name-style="western"><surname>Chen</surname><given-names>XS</given-names></name>, <name name-style="western"><surname>Chen</surname><given-names>Q</given-names></name>, <name name-style="western"><surname>Cohen</surname><given-names>MS</given-names></name> (<year>2006</year>) <article-title>China's syphilis epidemic: a systematic review of seroprevalence studies</article-title>. <source>Sex Transm Dis</source> <volume>33</volume>: <fpage>726</fpage>–<lpage>736</lpage>.</mixed-citation>
+</ref>
+<ref id="pone.0082451-Wang2"><label>14</label>
+<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Wang</surname><given-names>L</given-names></name>, <name name-style="western"><surname>Wang</surname><given-names>L</given-names></name>, <name name-style="western"><surname>Ding</surname><given-names>ZW</given-names></name>, <name name-style="western"><surname>Yan</surname><given-names>RX</given-names></name>, <name name-style="western"><surname>Li</surname><given-names>DM</given-names></name>, <etal>et al</etal>. (<year>2011</year>) <article-title>HIV prevalence among populations at risk, using sentinel surveillance data from 1995 to 2009 in China</article-title>. <source>Chin J Epidemiol</source> <volume>32</volume>: <fpage>20</fpage>–<lpage>24</lpage>.</mixed-citation>
+</ref>
+<ref id="pone.0082451-Xien1"><label>15</label>
+<mixed-citation publication-type="other" xlink:type="simple">Xien G, Ke Z (2008) AIDS in China. Emerging Infections in Asia: 143–159.</mixed-citation>
+</ref>
+<ref id="pone.0082451-Pan1"><label>16</label>
+<mixed-citation publication-type="other" xlink:type="simple">Pan GL, Jin Y, Dong XJ (2012) A Survey of Sexually Transmitted Diseases Infection State among 617 Female Sex Workers. Zhejiang Preventive Medicine <volume>24</volume>..</mixed-citation>
+</ref>
+<ref id="pone.0082451-Li1"><label>17</label>
+<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Li</surname><given-names>Y</given-names></name>, <name name-style="western"><surname>Detels</surname><given-names>R</given-names></name>, <name name-style="western"><surname>Lin</surname><given-names>P</given-names></name>, <name name-style="western"><surname>Fu</surname><given-names>X</given-names></name>, <name name-style="western"><surname>Deng</surname><given-names>Z</given-names></name>, <etal>et al</etal>. (<year>2012</year>) <article-title>Difference in risk behaviors and STD prevalence between street-based and establishment-based FSWs in Guangdong Province, China</article-title>. <source>AIDS Behav</source> <volume>16</volume>: <fpage>943</fpage>–<lpage>951</lpage>.</mixed-citation>
+</ref>
+</ref-list></back>
+</article>

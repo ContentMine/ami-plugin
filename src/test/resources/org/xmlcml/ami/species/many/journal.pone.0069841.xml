@@ -1,0 +1,358 @@
+<article xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" article-type="research-article" dtd-version="3.0" xml:lang="en">
+<front>
+<journal-meta>
+<journal-id journal-id-type="nlm-ta">PLoS ONE</journal-id>
+<journal-id journal-id-type="publisher-id">plos</journal-id>
+<journal-id journal-id-type="pmc">plosone</journal-id><journal-title-group>
+<journal-title xml:lang="en">PLoS ONE</journal-title></journal-title-group>
+<issn pub-type="epub">1932-6203</issn>
+<publisher>
+<publisher-name>Public Library of Science</publisher-name>
+<publisher-loc>San Francisco, USA</publisher-loc></publisher>
+</journal-meta>
+<article-meta>
+<article-id pub-id-type="publisher-id">PONE-D-13-04754</article-id>
+<article-id pub-id-type="doi">10.1371/journal.pone.0069841</article-id>
+<article-categories><subj-group subj-group-type="heading"><subject>Research Article</subject></subj-group><subj-group subj-group-type="Discipline-v2"><subject>Medicine</subject><subj-group><subject>Mental health</subject><subj-group><subject>Psychology</subject><subj-group><subject>Behavior</subject><subj-group><subject>Emotions</subject></subj-group></subj-group><subj-group><subject>Social psychology</subject></subj-group></subj-group></subj-group><subj-group><subject>Non-clinical medicine</subject><subj-group><subject>Health care policy</subject><subj-group><subject>Psychological and psychosocial issues</subject></subj-group></subj-group></subj-group><subj-group><subject>Public health</subject><subj-group><subject>Behavioral and social aspects of health</subject></subj-group></subj-group></subj-group><subj-group subj-group-type="Discipline-v2"><subject>Social and behavioral sciences</subject><subj-group><subject>Psychology</subject><subj-group><subject>Behavior</subject><subj-group><subject>Emotions</subject></subj-group></subj-group><subj-group><subject>Human relations</subject><subject>Personality</subject><subject>Psychological stress</subject><subject>Social psychology</subject></subj-group></subj-group><subj-group><subject>Sociology</subject><subj-group><subject>Social networks</subject></subj-group></subj-group></subj-group></article-categories>
+<title-group>
+<article-title>Facebook Use Predicts Declines in Subjective Well-Being in Young Adults</article-title>
+<alt-title alt-title-type="running-head">Facebook Use Predicts Declines in Well-Being</alt-title>
+</title-group>
+<contrib-group>
+<contrib contrib-type="author" xlink:type="simple"><name name-style="western"><surname>Kross</surname><given-names>Ethan</given-names></name><xref ref-type="aff" rid="aff1"><sup>1</sup></xref><xref ref-type="corresp" rid="cor1"><sup>*</sup></xref></contrib>
+<contrib contrib-type="author" xlink:type="simple"><name name-style="western"><surname>Verduyn</surname><given-names>Philippe</given-names></name><xref ref-type="aff" rid="aff2"><sup>2</sup></xref></contrib>
+<contrib contrib-type="author" xlink:type="simple"><name name-style="western"><surname>Demiralp</surname><given-names>Emre</given-names></name><xref ref-type="aff" rid="aff1"><sup>1</sup></xref></contrib>
+<contrib contrib-type="author" xlink:type="simple"><name name-style="western"><surname>Park</surname><given-names>Jiyoung</given-names></name><xref ref-type="aff" rid="aff1"><sup>1</sup></xref></contrib>
+<contrib contrib-type="author" xlink:type="simple"><name name-style="western"><surname>Lee</surname><given-names>David Seungjae</given-names></name><xref ref-type="aff" rid="aff1"><sup>1</sup></xref></contrib>
+<contrib contrib-type="author" xlink:type="simple"><name name-style="western"><surname>Lin</surname><given-names>Natalie</given-names></name><xref ref-type="aff" rid="aff1"><sup>1</sup></xref></contrib>
+<contrib contrib-type="author" xlink:type="simple"><name name-style="western"><surname>Shablack</surname><given-names>Holly</given-names></name><xref ref-type="aff" rid="aff1"><sup>1</sup></xref></contrib>
+<contrib contrib-type="author" xlink:type="simple"><name name-style="western"><surname>Jonides</surname><given-names>John</given-names></name><xref ref-type="aff" rid="aff1"><sup>1</sup></xref></contrib>
+<contrib contrib-type="author" xlink:type="simple"><name name-style="western"><surname>Ybarra</surname><given-names>Oscar</given-names></name><xref ref-type="aff" rid="aff1"><sup>1</sup></xref></contrib>
+</contrib-group>
+<aff id="aff1"><label>1</label><addr-line>Psychology Department, University of Michigan, Ann Arbor, Michigan, United States of America</addr-line></aff>
+<aff id="aff2"><label>2</label><addr-line>Psychology Department, University of Leuven, Leuven, Belgium</addr-line></aff>
+<contrib-group>
+<contrib contrib-type="editor" xlink:type="simple"><name name-style="western"><surname>Sueur</surname><given-names>Cédric</given-names></name>
+<role>Editor</role>
+<xref ref-type="aff" rid="edit1" /></contrib>
+</contrib-group>
+<aff id="edit1"><addr-line>Institut Pluridisciplinaire Hubert Curien, France</addr-line></aff>
+<author-notes>
+<corresp id="cor1">* E-mail: <email xlink:type="simple">ekross@umich.edu</email></corresp>
+<fn fn-type="conflict"><p>The authors have declared that no competing interests exist.</p></fn>
+<fn fn-type="con"><p>Conceived and designed the experiments: EK ED JP DSL NL JJ OY. Performed the experiments: HS NL. Analyzed the data: PV ED. Wrote the paper: EK ED PV JJ OY. Discussed the results and commented on the manuscript: EK PV ED JP DSL NL HS JJ OY.</p></fn>
+</author-notes>
+<pub-date pub-type="collection"><year>2013</year></pub-date>
+<pub-date pub-type="epub"><day>14</day><month>8</month><year>2013</year></pub-date>
+<volume>8</volume>
+<issue>8</issue>
+<elocation-id>e69841</elocation-id>
+<history>
+<date date-type="received"><day>31</day><month>1</month><year>2013</year></date>
+<date date-type="accepted"><day>12</day><month>6</month><year>2013</year></date>
+</history>
+<permissions>
+<copyright-year>2013</copyright-year>
+<copyright-holder>Kross et al</copyright-holder><license xlink:type="simple"><license-p>This is an open-access article distributed under the terms of the Creative Commons Attribution License, which permits unrestricted use, distribution, and reproduction in any medium, provided the original author and source are credited.</license-p></license></permissions>
+<abstract>
+<p>Over 500 million people interact daily with Facebook. Yet, whether Facebook use influences subjective well-being over time is unknown. We addressed this issue using experience-sampling, the most reliable method for measuring in-vivo behavior and psychological experience. We text-messaged people five times per day for two-weeks to examine how Facebook use influences the two components of subjective well-being: how people feel moment-to-moment and how satisfied they are with their lives. Our results indicate that Facebook use predicts negative shifts on both of these variables over time. The more people used Facebook at one time point, the worse they felt the next time we text-messaged them; the more they used Facebook over two-weeks, the more their life satisfaction levels declined over time. Interacting with other people “directly” did not predict these negative outcomes. They were also not moderated by the size of people's Facebook networks, their perceived supportiveness, motivation for using Facebook, gender, loneliness, self-esteem, or depression. On the surface, Facebook provides an invaluable resource for fulfilling the basic human need for social connection. Rather than enhancing well-being, however, these findings suggest that Facebook may undermine it.</p>
+</abstract>
+<funding-group><funding-statement>The authors have no support or funding to report.</funding-statement></funding-group><counts><page-count count="6" /></counts></article-meta>
+</front>
+<body><sec id="s1">
+<title>Introduction</title>
+<p>Online social networks are rapidly changing the way human beings interact. Over a billion people belong to Facebook, the world's largest online social network, and over half of them log in daily <xref ref-type="bibr" rid="pone.0069841-FacebookInformation1">[1]</xref>. Yet, no research has examined how interacting with Facebook influences subjective well-being over time. Indeed, a recent article that examined every peer-reviewed publication and conference proceeding on Facebook between 1/2005 and 1/2012 (412 in total) did not reveal a single study that examined how using this technology influences subjective well-being over time (<xref ref-type="supplementary-material" rid="pone.0069841.s001">Text S1</xref>) <xref ref-type="bibr" rid="pone.0069841-Wilson1">[2]</xref>.</p>
+<p>Subjective well-being is one of the most highly studied variables in the behavioral sciences. Although significant in its own right, it also predicts a range of consequential benefits including enhanced health and longevity <xref ref-type="bibr" rid="pone.0069841-Steptoe1">[3]</xref>–<xref ref-type="bibr" rid="pone.0069841-Diener1">[5]</xref>. Given the frequency of Facebook usage, identifying how interacting with this technology influences subjective well-being represents a basic research challenge that has important practical implications.</p>
+<p>This issue is particularly vexing because prior research provides mixed clues about how Facebook use should influence subjective well-being. Whereas some cross-sectional research reveals positive associations between online social network use (in particular Facebook) and well-being <xref ref-type="bibr" rid="pone.0069841-Valenzuela1">[6]</xref>, other work reveals the opposite <xref ref-type="bibr" rid="pone.0069841-Huang1">[7]</xref>, <xref ref-type="bibr" rid="pone.0069841-Chou1">[8]</xref>. Still other work suggests that the relationship between Facebook use and well-being may be more nuanced and potentially influenced by multiple factors including number of Facebook friends, perceived supportiveness of one's online network, depressive symptomatology, loneliness, and self-esteem <xref ref-type="bibr" rid="pone.0069841-Forest1">[9]</xref>, <xref ref-type="bibr" rid="pone.0069841-Manago1">[10]</xref>, <xref ref-type="bibr" rid="pone.0069841-Kim1">[11]</xref>.</p>
+<p>So, how does Facebook usage influence subjective well-being over time? The cross-sectional approach used in previous studies makes it impossible to know. We addressed this issue by using experience-sampling, the most reliable method for measuring in-vivo behavior and psychological experience over time <xref ref-type="bibr" rid="pone.0069841-Kahneman1">[12]</xref>. We text-messaged participants five times per day for 14-days. Each text-message contained a link to an online survey, which participants completed using their smartphones. We performed lagged analyses on participants' responses, as well as their answers to the Satisfaction With Life Questionnaire (SWLS) <xref ref-type="bibr" rid="pone.0069841-Diener2">[13]</xref>, which they completed before and immediately following the 14-day experience-sampling period, to examine how interacting with Facebook influences the two components of subjective well-being: how people feel (“affective” well-being) and how satisfied they are with their lives (“cognitive” well-being) <xref ref-type="bibr" rid="pone.0069841-Kahneman2">[14]</xref>, <xref ref-type="bibr" rid="pone.0069841-Diener3">[15]</xref>. This approach allowed us to take advantage of the relative timing of participants' natural Facebook behavior and psychological states to draw inferences about their likely causal sequence <xref ref-type="bibr" rid="pone.0069841-Hofmann1">[16]</xref>–<xref ref-type="bibr" rid="pone.0069841-Killingsworth1">[19]</xref>.</p>
+</sec><sec id="s2" sec-type="methods">
+<title>Methods</title>
+<sec id="s2a">
+<title>Participants</title>
+<p>Eighty-two people (<italic>M</italic><sub>age</sub> = 19.52, <italic>SD</italic><sub>age</sub> = 2.17; 53 females; 60.5% European American, 28.4% Asian, 6.2% African American, and 4.9% other) were recruited for a study on Facebook through flyers posted around Ann Arbor, Michigan. Participants needed a Facebook account and a touch-screen smartphone to qualify for the study. They received $20 and were entered into a raffle to receive an iPad2 for participating.</p>
+</sec><sec id="s2b">
+<title>Ethics Statement</title>
+<p>The University of Michigan Institutional Review Board approved this study. Informed written consent was obtained from all participants prior to participation.</p>
+</sec><sec id="s2c">
+<title>Materials and Procedure</title>
+<sec id="s2c1">
+<title>Phase 1</title>
+<p>Participants completed a set of questionnaires, which included the SWLS (<italic>M</italic> = 4.96, <italic>SD</italic> = 1.17), Beck Depression Inventory <xref ref-type="bibr" rid="pone.0069841-Beck1">[20]</xref> (<italic>M</italic> = 9.02, <italic>SD</italic> = 7.20), the Rosenberg Self-Esteem Scale <xref ref-type="bibr" rid="pone.0069841-Rosenberg1">[21]</xref> (<italic>M</italic> = 30.40, <italic>SD</italic> = 4.96), and the Social Provision Scale <xref ref-type="bibr" rid="pone.0069841-Cutrona1">[22]</xref> (<italic>M</italic> = 3.55, <italic>SD</italic> = .34), which we modified to assess perceptions of Facebook support. We also assessed participants' motivation for using Facebook by asking them to indicate whether they use Facebook “to keep in touch with friends (98% answered yes),” “to find new friends (23% answered yes),” “to share good things with friends (78% answered yes),” “to share bad things with friends (36% answered yes),” “to obtain new information (62% answered yes),” or “other: please explain (17% answered yes).” Examples of other reasons included chatting with others, keeping in touch with family, and facilitating schoolwork and business.</p>
+</sec><sec id="s2c2">
+<title>Phase 2</title>
+<p>Participants were text-messaged 5 times per day between 10am and midnight over 14-days. Text-messages occurred at random times within 168-minute windows per day. Each text-message contained a link to an online survey, which asked participants to answer five questions using a slider scale: (1) How do you feel right now? (<italic>very positive</italic> [0] to <italic>very negative</italic> [100]; <italic>M</italic> = 37.47, <italic>SD</italic> = 25.88); (2) How worried are you right now? (<italic>not at all</italic> [0] to <italic>a lot</italic> [100]; <italic>M</italic> = 44.04, <italic>SD</italic> = 30.42); (3) How lonely do you feel right now? (<italic>not at all</italic> [0] to <italic>a lot</italic> [100]; <italic>M</italic> = 27.61, <italic>SD</italic> = 26.13); (4) How much have you used Facebook since the last time we asked? (<italic>not at all</italic> [0] to <italic>a lot</italic> [100]; <italic>M</italic> = 33.90, <italic>SD</italic> = 30.48); (5) How much have you interacted with other people “directly” since the last time we asked? (<italic>not at all</italic> [0]to <italic>a lot</italic> [100]; <italic>M</italic> = 64.26, <italic>SD</italic> = 31.11). When the protocol for answering these questions was explained, interacting with other people “directly” was defined as face-to-face or phone interactions. An experimenter carefully walked participants through this protocol to ensure that they understood how to answer each question and fulfill the study requirements.</p>
+<p>Participants always answered the affect question first. Next the worry and loneliness questions were presented in random order. The Facebook use and direct social interaction questions were always administered last, again in random order. Our analyses focused primarily on affect (rather than worry and loneliness) because this affect question is the way “affective well-being” is typically operationalized.</p>
+</sec><sec id="s2c3">
+<title>Phase 3</title>
+<p>Participants returned to the laboratory following Phase 2 to complete another set of questionnaires, which included the SWLS (<italic>M</italic> = 5.13, <italic>SD</italic> = 1.26) and the Revised UCLA Loneliness Scale <xref ref-type="bibr" rid="pone.0069841-Russell1">[23]</xref> (<italic>M</italic> = 1.69, <italic>SD</italic> = .46). Participants' number of Facebook friends (<italic>M</italic> = 664.25, <italic>SD</italic> = 383.64) was also recorded during this session from participants' Facebook accounts (<xref ref-type="supplementary-material" rid="pone.0069841.s002">Text S2</xref>).</p>
+</sec></sec></sec><sec id="s3">
+<title>Results</title>
+<sec id="s3a">
+<title>Attrition and compliance</title>
+<p>Three participants did not complete the study. As the methods section notes, participants received a text message directing them to complete a block of five questions once every 168 minutes on average (the text message was delivered randomly within this 168-minute window). A response to any question within a block was considered “compliant” if it was answered <italic>before</italic> participants received a subsequent text-message directing them to complete the next block of questions. Participants responded to an average of 83.6% of text-messages (range: 18.6%–100%). Following prior research <xref ref-type="bibr" rid="pone.0069841-Moberly1">[24]</xref>, we pruned the data by excluding all of the data from two participants who responded to &lt;33% of the texts, resulting in 4,589 total observations. The results did not change substantively when additional cutoff rates were used.</p>
+</sec><sec id="s3b">
+<title>Analyses overview</title>
+<p>We examined the relationship between Facebook use and affect using multilevel analyses to account for the nested data structure. Specifically, we examined whether T<sub>2</sub> affect (i.e., How do you feel <italic>right now?</italic>) was predicted by T<sub>1–2</sub> Facebook use (i.e., How much have you used Facebook <italic>since the last time we asked?</italic>), controlling for T<sub>1</sub> affect at level-1 of the model (between-day lags were excluded). Note that although this analysis assesses Facebook use at T<sub>2</sub>, the question refers to usage between T<sub>1</sub> and T<sub>2</sub> (hence the notationT<sub>1–2</sub>). This analysis allowed us to explore whether Facebook use during the time period separating T<sub>1</sub> and T<sub>2</sub> predicted changes in affect over this time span.</p>
+<p>When non-compliant cases were observed, we used participants' responses to the last text message they answered to examine the lagged effect of Facebook use on well-being to maximize power. So, if we were interested in examining whether T<sub>2–3</sub> Facebook use predicted T<sub>3</sub> Affect controlling for T<sub>2</sub> Affect, but did not have data on T<sub>2</sub> Affect, then we used T<sub>1</sub> Affect instead. Excluding trials in which participants did not respond to the previous texts (rather than following the aforementioned analytical scheme) did not substantively alter any of the results we report.</p>
+<p>Significance testing of fixed effects was performed using chi-squared distributed (df = 1) Wald-tests. All level-1 predictors were group-mean centered, and intercepts and slopes were allowed to vary randomly across participants (see <xref ref-type="table" rid="pone-0069841-t001">Table 1</xref> for zero-order correlations). We tested for moderation by examining whether each moderator variable was related to the slope of T<sub>1–2</sub> Facebook use when predicting T<sub>2</sub> affect, controlling for T<sub>1</sub> affect.</p>
+<table-wrap id="pone-0069841-t001" position="float" orientation="portrait"><object-id pub-id-type="doi">10.1371/journal.pone.0069841.t001</object-id><label>Table 1</label><caption>
+<title>Within-person and between-person zero-order correlations.</title>
+</caption><alternatives><graphic id="pone-0069841-t001-1" position="float" mimetype="image" xlink:href="info:doi/10.1371/journal.pone.0069841.t001" xlink:type="simple" orientation="portrait" />
+<table><colgroup span="1"><col align="left" span="1" /><col align="center" span="1" /><col align="center" span="1" /><col align="center" span="1" /><col align="center" span="1" /><col align="center" span="1" /><col align="center" span="1" /><col align="center" span="1" /></colgroup>
+<thead>
+<tr>
+<td align="left" rowspan="1" colspan="1" />
+<td colspan="5" align="left" rowspan="1">Experience-sampled variables</td>
+<td colspan="2" align="left" rowspan="1">Pre/post experience sampling</td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1" />
+<td align="left" rowspan="1" colspan="1">Affect</td>
+<td align="left" rowspan="1" colspan="1">Worry</td>
+<td align="left" rowspan="1" colspan="1">Loneliness</td>
+<td align="left" rowspan="1" colspan="1">Facebook use</td>
+<td align="left" rowspan="1" colspan="1">Direct contact</td>
+<td align="left" rowspan="1" colspan="1">Pre life satisfaction</td>
+<td align="left" rowspan="1" colspan="1">Post life satisfaction</td>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left" rowspan="1" colspan="1">Affect</td>
+<td align="left" rowspan="1" colspan="1">–</td>
+<td align="left" rowspan="1" colspan="1">.53<xref ref-type="table-fn" rid="nt104">***</xref></td>
+<td align="left" rowspan="1" colspan="1">.50<xref ref-type="table-fn" rid="nt104">***</xref></td>
+<td align="left" rowspan="1" colspan="1">.14<xref ref-type="table-fn" rid="nt104">***</xref></td>
+<td align="left" rowspan="1" colspan="1">−.29<xref ref-type="table-fn" rid="nt104">***</xref></td>
+<td align="left" rowspan="1" colspan="1">–</td>
+<td align="left" rowspan="1" colspan="1">–</td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1">Worry</td>
+<td align="left" rowspan="1" colspan="1">.77<xref ref-type="table-fn" rid="nt104">***</xref></td>
+<td align="left" rowspan="1" colspan="1">–</td>
+<td align="left" rowspan="1" colspan="1">.37<xref ref-type="table-fn" rid="nt104">***</xref></td>
+<td align="left" rowspan="1" colspan="1">.17<xref ref-type="table-fn" rid="nt104">***</xref></td>
+<td align="left" rowspan="1" colspan="1">−.23<xref ref-type="table-fn" rid="nt104">***</xref></td>
+<td align="left" rowspan="1" colspan="1">–</td>
+<td align="left" rowspan="1" colspan="1">–</td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1">Loneliness</td>
+<td align="left" rowspan="1" colspan="1">.68<xref ref-type="table-fn" rid="nt104">***</xref></td>
+<td align="left" rowspan="1" colspan="1">.66<xref ref-type="table-fn" rid="nt104">***</xref></td>
+<td align="left" rowspan="1" colspan="1">–</td>
+<td align="left" rowspan="1" colspan="1">.22<xref ref-type="table-fn" rid="nt104">***</xref></td>
+<td align="left" rowspan="1" colspan="1">−.40<xref ref-type="table-fn" rid="nt104">***</xref></td>
+<td align="left" rowspan="1" colspan="1">–</td>
+<td align="left" rowspan="1" colspan="1">–</td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1">Facebook Use</td>
+<td align="left" rowspan="1" colspan="1">.07</td>
+<td align="left" rowspan="1" colspan="1">.13</td>
+<td align="left" rowspan="1" colspan="1">.22<xref ref-type="table-fn" rid="nt102">*</xref></td>
+<td align="left" rowspan="1" colspan="1">–</td>
+<td align="left" rowspan="1" colspan="1">−.24<xref ref-type="table-fn" rid="nt104">***</xref></td>
+<td align="left" rowspan="1" colspan="1">–</td>
+<td align="left" rowspan="1" colspan="1">–</td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1">Direct Contact</td>
+<td align="left" rowspan="1" colspan="1">−.28<xref ref-type="table-fn" rid="nt102">*</xref></td>
+<td align="left" rowspan="1" colspan="1">−.09</td>
+<td align="left" rowspan="1" colspan="1">−.39<xref ref-type="table-fn" rid="nt104">***</xref></td>
+<td align="left" rowspan="1" colspan="1">.26<xref ref-type="table-fn" rid="nt102">*</xref></td>
+<td align="left" rowspan="1" colspan="1">–</td>
+<td align="left" rowspan="1" colspan="1">–</td>
+<td align="left" rowspan="1" colspan="1">–</td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1">Pre Life Satisfaction</td>
+<td align="left" rowspan="1" colspan="1">−.55<xref ref-type="table-fn" rid="nt104">***</xref></td>
+<td align="left" rowspan="1" colspan="1">−.41<xref ref-type="table-fn" rid="nt104">***</xref></td>
+<td align="left" rowspan="1" colspan="1">−.40<xref ref-type="table-fn" rid="nt104">***</xref></td>
+<td align="left" rowspan="1" colspan="1">−.05</td>
+<td align="left" rowspan="1" colspan="1">.29<xref ref-type="table-fn" rid="nt103">**</xref></td>
+<td align="left" rowspan="1" colspan="1">–</td>
+<td align="left" rowspan="1" colspan="1">–</td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1">Post Life Satisfaction</td>
+<td align="left" rowspan="1" colspan="1">−.66<xref ref-type="table-fn" rid="nt104">***</xref></td>
+<td align="left" rowspan="1" colspan="1">−.51<xref ref-type="table-fn" rid="nt104">***</xref></td>
+<td align="left" rowspan="1" colspan="1">−.48<xref ref-type="table-fn" rid="nt104">***</xref></td>
+<td align="left" rowspan="1" colspan="1">−.18</td>
+<td align="left" rowspan="1" colspan="1">.23<xref ref-type="table-fn" rid="nt102">*</xref></td>
+<td align="left" rowspan="1" colspan="1">.86<xref ref-type="table-fn" rid="nt104">***</xref></td>
+<td align="left" rowspan="1" colspan="1">–</td>
+</tr>
+</tbody>
+</table>
+</alternatives><table-wrap-foot><fn id="nt101"><label /><p><italic>Note</italic>. Correlations above the dashed diagonal line represent within-person correlations obtained from multi-level analyses. Correlations below the dashed diagonal line represent between-person correlations.</p></fn><fn id="nt102"><label>*</label><p><italic>p</italic>&lt;.05.</p></fn><fn id="nt103"><label>**</label><p><italic>p</italic>&lt;.01.</p></fn><fn id="nt104"><label>***</label><p><italic>p</italic>&lt;.001.</p></fn></table-wrap-foot></table-wrap>
+<p>Data from one person who scored 4SDs above the sample mean on the BDI were excluded from the BDI moderation analyses; data from one person who scored 4SDs above the sample mean on number of Facebook friends were excluded from the moderation analyses based on Facebook friends.</p>
+<p>The relationship between mean Facebook use and life satisfaction was assessed using OLS regressions because these data were not nested. Both unstandardized (<italic>B</italic>) and standardized (<italic>β</italic>) OLS regression coefficients are reported (see <xref ref-type="supplementary-material" rid="pone.0069841.s003">Text S3</xref>).</p>
+</sec><sec id="s3c">
+<title>Facebook use and well-being</title>
+<sec id="s3c1">
+<title>Affective well-being</title>
+<p>We examined whether people's tendency to interact with Facebook during the time period separating two text messages influenced how they felt at T<sub>2</sub>, controlling for how they felt at T<sub>1</sub>. Nested time-lag analyses indicated that the more people used Facebook the worse they subsequently felt, <italic>B</italic> = .08, <italic>χ<sup>2</sup></italic> = 28.90, <italic>p</italic>&lt;.0001, (see <xref ref-type="fig" rid="pone-0069841-g001">Figure 1</xref>, top). The reverse pathway (T<sub>1</sub> Affect predicting T<sub>1–2</sub> Facebook use, controlling for T<sub>0–1</sub> Facebook use) was not significant, <italic>B</italic> = −.005, <italic>χ<sup>2</sup></italic> = .05, <italic>p</italic> = .82, indicating that people do not use Facebook more or less depending on how they feel (see <xref ref-type="supplementary-material" rid="pone.0069841.s004">Text S4</xref>, <xref ref-type="supplementary-material" rid="pone.0069841.s005">S5</xref>).</p>
+<fig id="pone-0069841-g001" position="float" orientation="portrait"><object-id pub-id-type="doi">10.1371/journal.pone.0069841.g001</object-id><label>Figure 1</label><caption>
+<title>Facebook use predicts declines in affect and life satisfaction over time.</title>
+<p>Interacting with Facebook during one time period (Time<sub>1–2</sub>) leads people to feel worse later on during the same day (T<sub>2</sub>) controlling for how they felt initially (T<sub>1</sub>); values are regression weights from multilevel analyses (Panel A). Average Facebook use over the course of the 14-day experience-sampling period predicts decreases in life satisfaction over time; values are standardized regression weights from OLS regression analysis (Panel B). *<italic>p</italic>&lt;.05, ** <italic>p</italic>&lt;.01, ***<italic>p</italic>&lt;.001.</p>
+</caption><graphic mimetype="image" xlink:href="info:doi/10.1371/journal.pone.0069841.g001" position="float" xlink:type="simple" orientation="portrait" /></fig></sec><sec id="s3c2">
+<title>Cognitive well-being</title>
+<p>To examine how Facebook use influenced “cognitive well-being,” we analyzed whether people's average Facebook use over the 14-day period predicted their life satisfaction at the end of the study, controlling for baseline life satisfaction and average emotion levels over the 14-day period. The more participants used Facebook, the more their life satisfaction levels declined over time, <italic>B</italic> = −.012, <italic>β</italic> = −.124, <italic>t</italic>(73) = −2.39, <italic>p</italic> = .02, (see <xref ref-type="fig" rid="pone-0069841-g001">Figure 1</xref>, bottom).</p>
+</sec><sec id="s3c3">
+<title>Alternative explanations</title>
+<p>An alternative explanation for these results is that any form of social interaction undermines well-being. Because we also asked people to indicate how frequently they interacted with other people “directly” since the last time we text messaged them, we were able to test this idea. Specifically, we repeated each of the aforementioned analyses substituting “direct” social interaction for Facebook use. In contrast to Facebook use, “direct” social interaction did not predict changes in cognitive well-being, <italic>B</italic> = −.006, <italic>β</italic> = −.059, <italic>t</italic>(73) = 1.04, <italic>p</italic> = .30, and predicted <italic>increases</italic> (not decreases) in affective well-being, <italic>B</italic> = −.15, <italic>χ<sup>2</sup></italic> = 65.30, <italic>p</italic>&lt;.0001. Controlling for direct social interaction did not substantively alter the significant relationship between Facebook use and affective well-being, <italic>B</italic> = .05, <italic>χ<sup>2</sup></italic> = 10.78, <italic>p</italic>&lt;.01.</p>
+<p>Another alternative explanation for these results is that people use Facebook when they feel bad (i.e., when they are bored lonely, worried or otherwise distressed), and feeling bad leads to declines in well-being rather than Facebook use per se. The analyses we reported earlier partially address this issue by demonstrating that affect does not predict changes in Facebook use over time and Facebook use continues to significantly predict declines in life satisfaction over time when controlling for affect. However, because participants also rated how lonely and worried they felt each time we text messaged them, we were able to test this proposal further.</p>
+<p>We first examined whether worry or loneliness predicted changes in Facebook use over time (i.e., T<sub>1</sub> worry [or T<sub>1</sub> loneliness] predicting T<sub>1–2</sub> Facebook use, controlling for T<sub>0–1</sub> Facebook use). Worry did not predict changes in Facebook use, <italic>B</italic> = .04, <italic>χ<sup>2</sup></italic> = 2.37, <italic>p</italic> = .12, but loneliness did, <italic>B</italic> = .07, <italic>χ<sup>2</sup></italic> = 8.54, <italic>p</italic>&lt;.01. The more lonely people felt at one time point, the more people used Facebook over time. Given this significant relationship, we next examined whether controlling for loneliness renders the relationship between Facebook use and changes in affective and cognitive well-being non-significant—what one would predict if Facebook use is a proxy for loneliness. This was not the case. Facebook use continued to predict declines in affective well-being, <italic>B</italic> = .08, <italic>χ<sup>2</sup></italic> = 27.87, <italic>p</italic>&lt;.0001, and cognitive well-being, <italic>B</italic> = −.012, <italic>β</italic> = −.126, <italic>t</italic>(72) = 2.34, <italic>p</italic> = .02, when loneliness was controlled for in each analysis. Neither worry nor loneliness interacted significantly with Facebook use to predict changes in affective or cognitive well-being (<italic>p</italic>s&gt;.44).</p>
+</sec><sec id="s3c4">
+<title>Moderation</title>
+<p>Next, we examined whether a number of theoretically relevant individual-difference variables including participants' number of Facebook Friends, their perceptions of their Facebook network support, depressive symptoms, loneliness, gender, self-esteem, time of study participation, and motivation for using Facebook (e.g., to find new friends, to share good or bad things, to obtain new information) interacted with Facebook use to predict changes in affective or cognitive well-being (<xref ref-type="supplementary-material" rid="pone.0069841.s006">Text S6</xref>). In no case did we observe any significant interactions (<italic>p</italic>s&gt;.16).</p>
+</sec><sec id="s3c5">
+<title>Exploratory analyses</title>
+<p>Although we did not have <italic>a priori</italic> predictions about whether Facebook use and direct social contact would interact to predict changes in affective and cognitive well-being, we nevertheless explored this issue in our final set of analyses. The results of these analyses indicated that Facebook use and direct social contact interacted significantly to predict changes in affective well-being, <italic>B</italic> = .002, <italic>χ<sup>2</sup></italic> = 19.55, <italic>p</italic>&lt;.0001, but not changes in cognitive well-being, <italic>B</italic> = .000, <italic>β</italic> = .129, <italic>t</italic>(71) = .39, <italic>p</italic> = .70. To understand the meaning of the former interaction, we performed simple slope analyses. These analyses indicated that the relationship between Facebook use and declines in affective well-being increased linearly with direct social contact. Specifically, whereas Facebook use did not predict significant declines in affective well-being when participants experienced low levels of direct social contact (i.e., 1 standard deviation below the sample mean for direct social contact; B = .00, χ<sup>2</sup> = .04, p = .84), it did predict significant declines in well-being when participants experienced moderate levels of direct social contact (i.e., at the sample mean for direct social contact; B = .05, χ<sup>2</sup> = 11.21, p&lt;.001) and high levels of direct social contact (i.e., 1 standard deviation above the sample mean for direct social contact; B = .10, χ<sup>2</sup> = 28.82, p&lt;.0001).</p>
+</sec></sec></sec><sec id="s4">
+<title>Discussion</title>
+<p>Within a relatively short timespan, Facebook has revolutionized the way people interact. Yet, whether using Facebook predicts changes in subjective well-being over time is unknown. We addressed this issue by performing lagged analyses on experience sampled data, an approach that allowed us to take advantage of the relative timing of participants' naturally occurring behaviors and psychological states to draw inferences about their likely causal sequence <xref ref-type="bibr" rid="pone.0069841-Bolger1">[17]</xref>, <xref ref-type="bibr" rid="pone.0069841-Adam1">[18]</xref>. These analyses indicated that Facebook use predicts declines in the two components of subjective well-being: how people feel moment to moment and how satisfied they are with their lives.</p>
+<p>Critically, we found no evidence to support two plausible alternative interpretations of these results. First, interacting with other people “directly” did not predict declines in well-being. In fact, direct social network interactions led people to feel <italic>better</italic> over time. This suggests that Facebook use may constitute a unique form of social network interaction that predicts impoverished well-being. Second, multiple types of evidence indicated that it was not the case that Facebook use led to declines in well-being because people are more likely to use Facebook when they feel bad—neither affect nor worry predicted Facebook use and Facebook use continued to predict significant declines in well-being when controlling for loneliness (which did predict increases in Facebook use and reductions in emotional well-being).</p>
+<p>Would engaging in any solitary activity similarly predict declines in well-being? We suspect that they would not because people often derive pleasure from engaging in some solitary activities (e.g., exercising, reading). Supporting this view, a number of recent studies indicate that people's <italic>perceptions</italic> of social isolation (i.e., how lonely they feel)—a variable that we assessed in this study, which did not influence our results—are a more powerful determinant of well-being than <italic>objective</italic> social isolation <xref ref-type="bibr" rid="pone.0069841-Cacioppo1">[25]</xref>. A related question concerns whether engaging in any Internet activity (e.g., email, web surfing) would likewise predict well-being declines. Here too prior research suggests that it would not. A number of studies indicate that whether interacting with the Internet predicts changes in well-being depends on how you use it (i.e., what sites you visit) and who you interact with <xref ref-type="bibr" rid="pone.0069841-Bessire1">[26]</xref>.</p>
+<sec id="s4a">
+<title>Future research</title>
+<p>Although these findings raise numerous future research questions, four stand out as most pressing. First, do these findings generalize? We concentrated on young adults in this study because they represent a core Facebook user demographic. However, examining whether these findings generalize to additional age groups is important. Future research should also examine whether these findings generalize to other online social networks. As a recent review of the Facebook literature indicated <xref ref-type="bibr" rid="pone.0069841-Wilson1">[2]</xref> “[different online social networks] have varied histories and are associated with different patterns of use, user characteristics, and social functions (p. 205).” Therefore, it is possible that the current findings may not neatly generalize to other online social networks.</p>
+<p>Second, what mechanisms underlie the deleterious effects of Facebook usage on well-being? Some researchers have speculated that online social networking may interfere with physical activity, which has cognitive and emotional replenishing effects <xref ref-type="bibr" rid="pone.0069841-Kaplan1">[27]</xref> or trigger damaging social comparisons <xref ref-type="bibr" rid="pone.0069841-Chou1">[8]</xref>, <xref ref-type="bibr" rid="pone.0069841-Haferkamp1">[28]</xref>. The latter idea is particularly interesting in light of the significant interaction we observed between direct social contact and Facebook use in this study—i.e., the more people interacted with other people directly, the more strongly Facebook use predicted declines in their affective well-being. If harmful social comparisons explain how Facebook use predicts declines in affective well-being, it is possible that interacting with other people directly either enhances the frequency of such comparisons or magnifies their emotional impact. Examining whether these or other mechanisms explain the relationship between Facebook usage and well-being is important both from a basic science and practical perspective.</p>
+<p>Finally, although the analytic approach we used in this study is useful for drawing inferences about the likely causal ordering of associations between naturally occurring variables, experiments that manipulate Facebook use in daily life are needed to corroborate these findings and establish definitive causal relations. Though potentially challenging to perform—Facebook use prevalence, its centrality to young adult daily social interactions, and addictive properties may make it a difficult intervention target—such studies are important for extending this work and informing future interventions.</p>
+</sec><sec id="s4b">
+<title>Caveats</title>
+<p>Two caveats are in order before concluding. First, although we observed statistically significant associations between Facebook usage and well-being, the sizes of these effects were relatively “small.” This should not, however, undermine their practical significance <xref ref-type="bibr" rid="pone.0069841-Prentice1">[29]</xref>. Subjective well-being is a multiply determined outcome—it is unrealistic to expect any single factor to powerfully influence it. Moreover, in addition to being consequential in its own right, subjective well-being predicts an array of mental and physical health consequences. Therefore, identifying any factor that systematically influences it is important, especially when that factor is likely to accumulate over time among large numbers of people. Facebook usage would seem to fit both of these criteria.</p>
+<p>Second, some research suggests that asking people to indicate how good or bad they feel using a single bipolar scale, as we did in this study, can obscure interesting differences regarding whether a variable leads people to feel less positive, more negative or both less positive and more negative. Future research should administer two unipolar affect questions to assess positive and negative affect separately to address this issue.</p>
+</sec></sec><sec id="s5">
+<title>Concluding Comment</title>
+<p>The human need for social connection is well established, as are the benefits that people derive from such connections <xref ref-type="bibr" rid="pone.0069841-Baumeister1">[30]</xref>–<xref ref-type="bibr" rid="pone.0069841-Ybarra1">[34]</xref>. On the surface, Facebook provides an invaluable resource for fulfilling such needs by allowing people to instantly connect. Rather than enhancing well-being, as frequent interactions with supportive “offline” social networks powerfully do, the current findings demonstrate that interacting with Facebook may predict the opposite result for young adults—it may undermine it.</p>
+</sec><sec id="s6">
+<title>Supporting Information</title>
+<supplementary-material id="pone.0069841.s001" mimetype="application/vnd.openxmlformats-officedocument.wordprocessingml.document" xlink:href="info:doi/10.1371/journal.pone.0069841.s001" position="float" xlink:type="simple" orientation="portrait"><label>Text S1</label><caption>
+<p>(DOCX)</p>
+</caption></supplementary-material><supplementary-material id="pone.0069841.s002" mimetype="application/vnd.openxmlformats-officedocument.wordprocessingml.document" xlink:href="info:doi/10.1371/journal.pone.0069841.s002" position="float" xlink:type="simple" orientation="portrait"><label>Text S2</label><caption>
+<p>(DOCX)</p>
+</caption></supplementary-material><supplementary-material id="pone.0069841.s003" mimetype="application/vnd.openxmlformats-officedocument.wordprocessingml.document" xlink:href="info:doi/10.1371/journal.pone.0069841.s003" position="float" xlink:type="simple" orientation="portrait"><label>Text S3</label><caption>
+<p>(DOCX)</p>
+</caption></supplementary-material><supplementary-material id="pone.0069841.s004" mimetype="application/vnd.openxmlformats-officedocument.wordprocessingml.document" xlink:href="info:doi/10.1371/journal.pone.0069841.s004" position="float" xlink:type="simple" orientation="portrait"><label>Text S4</label><caption>
+<p>(DOCX)</p>
+</caption></supplementary-material><supplementary-material id="pone.0069841.s005" mimetype="application/vnd.openxmlformats-officedocument.wordprocessingml.document" xlink:href="info:doi/10.1371/journal.pone.0069841.s005" position="float" xlink:type="simple" orientation="portrait"><label>Text S5</label><caption>
+<p>(DOCX)</p>
+</caption></supplementary-material><supplementary-material id="pone.0069841.s006" mimetype="application/vnd.openxmlformats-officedocument.wordprocessingml.document" xlink:href="info:doi/10.1371/journal.pone.0069841.s006" position="float" xlink:type="simple" orientation="portrait"><label>Text S6</label><caption>
+<p>(DOCX)</p>
+</caption></supplementary-material></sec></body>
+<back>
+<ack>
+<p>We thank Emily Kean for her assistance running the study and Ozlem Ayduk and Phoebe Ellsworth for their feedback.</p>
+</ack>
+<ref-list>
+<title>References</title>
+<ref id="pone.0069841-FacebookInformation1"><label>1</label>
+<mixed-citation publication-type="other" xlink:type="simple">Facebook_Information (2012) Facebook Newsroom Website. Available: <ext-link ext-link-type="uri" xlink:href="http://newsroom.fb.com/content/default.aspx?NewsAreaId=22" xlink:type="simple">http://newsroom.fb.com/content/default.aspx?NewsAreaId=22</ext-link>. Accessed 2012 April 23.</mixed-citation>
+</ref>
+<ref id="pone.0069841-Wilson1"><label>2</label>
+<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Wilson</surname><given-names>RE</given-names></name>, <name name-style="western"><surname>Gosling</surname><given-names>SD</given-names></name>, <name name-style="western"><surname>Graham</surname><given-names>LT</given-names></name> (<year>2012</year>) <article-title>A Review of Facebook Research in the Social Sciences</article-title>. <source>Perspect Psychol Sci</source> <volume>7</volume>: <fpage>203</fpage>–<lpage>220</lpage>.</mixed-citation>
+</ref>
+<ref id="pone.0069841-Steptoe1"><label>3</label>
+<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Steptoe</surname><given-names>A</given-names></name>, <name name-style="western"><surname>Wardle</surname><given-names>J</given-names></name> (<year>2011</year>) <article-title>Positive affect measured using ecological momentary assessment and survival in older men and women</article-title>. <source>Proc Natl Acad Sci USA</source> <volume>108</volume>: <fpage>18244</fpage>–<lpage>18248</lpage>.</mixed-citation>
+</ref>
+<ref id="pone.0069841-Boehm1"><label>4</label>
+<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Boehm</surname><given-names>JK</given-names></name>, <name name-style="western"><surname>Peterson</surname><given-names>C</given-names></name>, <name name-style="western"><surname>Kivimaki</surname><given-names>M</given-names></name>, <name name-style="western"><surname>Kubzansky</surname><given-names>L</given-names></name> (<year>2011</year>) <article-title>A prospective study of positive psychological well-being and coronary heart disease</article-title>. <source>Health Psychol</source> <volume>30</volume>: <fpage>259</fpage>–<lpage>267</lpage>.</mixed-citation>
+</ref>
+<ref id="pone.0069841-Diener1"><label>5</label>
+<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Diener</surname><given-names>E</given-names></name> (<year>2011</year>) <article-title>Happy people live longer: Subjective well-being contributes to health and longevity</article-title>. <source>Appl Psychol Health Well Being</source> <volume>3</volume>: <fpage>1</fpage>–<lpage>43</lpage>.</mixed-citation>
+</ref>
+<ref id="pone.0069841-Valenzuela1"><label>6</label>
+<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Valenzuela</surname><given-names>S</given-names></name>, <name name-style="western"><surname>Park</surname><given-names>N</given-names></name>, <name name-style="western"><surname>Kee</surname><given-names>KF</given-names></name> (<year>2009</year>) <article-title>Is There Social Capital in a Social Network Site?: Facebook Use and College Students' Life Satisfaction, Trust, and Participation</article-title>. <source>J Comput Mediat Commun</source> <volume>14</volume>: <fpage>875</fpage>–<lpage>901</lpage>.</mixed-citation>
+</ref>
+<ref id="pone.0069841-Huang1"><label>7</label>
+<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Huang</surname><given-names>C</given-names></name> (<year>2010</year>) <article-title>Internet use and psychological well-being: A meta-analysis</article-title>. <source>Cyberpsychol Behav Soc Netw</source> <volume>13</volume>: <fpage>241</fpage>–<lpage>248</lpage>.</mixed-citation>
+</ref>
+<ref id="pone.0069841-Chou1"><label>8</label>
+<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Chou</surname><given-names>H</given-names></name>, <name name-style="western"><surname>Edge</surname><given-names>N</given-names></name> (<year>2012</year>) <article-title>‘They are happier and having better lives than I am': The impact of using Facebook on perceptions of others’ lives</article-title>. <source>Cyberpsychol Behav Soc Netw</source> <volume>15</volume>: <fpage>117</fpage>–<lpage>120</lpage>.</mixed-citation>
+</ref>
+<ref id="pone.0069841-Forest1"><label>9</label>
+<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Forest</surname><given-names>AL</given-names></name>, <name name-style="western"><surname>Wood</surname><given-names>JV</given-names></name> (<year>2012</year>) <article-title>When Social Networking Is Not Working: Individuals With Low Self-Esteem Recognize but Do Not Reap the Benefits of Self-Disclosure on Facebook</article-title>. <source>Psychol Sci</source> <volume>23</volume>: <fpage>295</fpage>–<lpage>302</lpage>.</mixed-citation>
+</ref>
+<ref id="pone.0069841-Manago1"><label>10</label>
+<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Manago</surname><given-names>AM</given-names></name>, <name name-style="western"><surname>Taylor</surname><given-names>T</given-names></name>, <name name-style="western"><surname>Greenfield</surname><given-names>PM</given-names></name> (<year>2012</year>) <article-title>Me and my 400 friends: The anatomy of college students' Facebook networks, their communication patterns, and well-being</article-title>. <source>Dev Psychol</source> <volume>48</volume>: <fpage>369</fpage>–<lpage>380</lpage>.</mixed-citation>
+</ref>
+<ref id="pone.0069841-Kim1"><label>11</label>
+<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Kim</surname><given-names>J</given-names></name>, <name name-style="western"><surname>LaRose</surname><given-names>R</given-names></name>, <name name-style="western"><surname>Peng</surname><given-names>W</given-names></name> (<year>2009</year>) <article-title>Loneliness as the cause and the effect of problematic Internet use: the relationship between Internet use and psychological well-being</article-title>. <source>Cyberpsychology &amp; behavior : the impact of the Internet, multimedia and virtual reality on behavior and society</source> <volume>12</volume>: <fpage>451</fpage>–<lpage>455</lpage>.</mixed-citation>
+</ref>
+<ref id="pone.0069841-Kahneman1"><label>12</label>
+<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Kahneman</surname><given-names>D</given-names></name>, <name name-style="western"><surname>Krueger</surname><given-names>AB</given-names></name>, <name name-style="western"><surname>Schkade</surname><given-names>DA</given-names></name>, <name name-style="western"><surname>Schwarz</surname><given-names>N</given-names></name>, <name name-style="western"><surname>Stone</surname><given-names>AA</given-names></name> (<year>2004</year>) <article-title>A survey method for characterizing daily life experience: The day reconstruction method</article-title>. <source>Science</source> <volume>306</volume>: <fpage>1776</fpage>–<lpage>1780</lpage>.</mixed-citation>
+</ref>
+<ref id="pone.0069841-Diener2"><label>13</label>
+<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Diener</surname><given-names>E</given-names></name>, <name name-style="western"><surname>Emmons</surname><given-names>RA</given-names></name>, <name name-style="western"><surname>Larsen</surname><given-names>RJ</given-names></name>, <name name-style="western"><surname>Griffin</surname><given-names>S</given-names></name> (<year>1985</year>) <article-title>The Satisfaction with Life Scale</article-title>. <source>J Pers Assess</source> <volume>49</volume>: <fpage>71</fpage>–<lpage>74</lpage>.</mixed-citation>
+</ref>
+<ref id="pone.0069841-Kahneman2"><label>14</label>
+<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Kahneman</surname><given-names>D</given-names></name>, <name name-style="western"><surname>Deaton</surname><given-names>A</given-names></name> (<year>2010</year>) <article-title>High income improves evaluation of life but not emotional well-being</article-title>. <source>Proc Natl Acad Sci USA</source> <volume>107</volume>: <fpage>16489</fpage>–<lpage>16493</lpage>.</mixed-citation>
+</ref>
+<ref id="pone.0069841-Diener3"><label>15</label>
+<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Diener</surname><given-names>E</given-names></name> (<year>1984</year>) <article-title>Subjective Well-Being</article-title>. <source>Psychol Bull</source> <volume>95</volume>: <fpage>542</fpage>–<lpage>575</lpage>.</mixed-citation>
+</ref>
+<ref id="pone.0069841-Hofmann1"><label>16</label>
+<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Hofmann</surname><given-names>W</given-names></name>, <name name-style="western"><surname>Vohs</surname><given-names>KD</given-names></name>, <name name-style="western"><surname>Baumeister</surname><given-names>RF</given-names></name> (<year>2012</year>) <article-title>What people desire, feel conflicted about, and try to resist in everyday life</article-title>. <source>Psychol Sci</source></mixed-citation>
+</ref>
+<ref id="pone.0069841-Bolger1"><label>17</label>
+<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Bolger</surname><given-names>N</given-names></name>, <name name-style="western"><surname>Davis</surname><given-names>A</given-names></name>, <name name-style="western"><surname>Rafaeli</surname><given-names>E</given-names></name> (<year>2003</year>) <article-title>Diary methods: Capturing life as it is lived</article-title>. <source>Annu Rev Psychol</source> <volume>54</volume>: <fpage>579</fpage>–<lpage>616</lpage>.</mixed-citation>
+</ref>
+<ref id="pone.0069841-Adam1"><label>18</label>
+<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Adam</surname><given-names>EK</given-names></name>, <name name-style="western"><surname>Hawkley</surname><given-names>LC</given-names></name>, <name name-style="western"><surname>Kudielka</surname><given-names>BM</given-names></name>, <name name-style="western"><surname>Cacioppo</surname><given-names>JT</given-names></name> (<year>2006</year>) <article-title>Day-to-day dynamics of experience–cortisol associations in a population-based sample of older adults</article-title>. <source>Proc Natl Acad Sci USA</source> <volume>103</volume>: <fpage>17058</fpage>–<lpage>17063</lpage>.</mixed-citation>
+</ref>
+<ref id="pone.0069841-Killingsworth1"><label>19</label>
+<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Killingsworth</surname><given-names>MA</given-names></name>, <name name-style="western"><surname>Gilbert</surname><given-names>DT</given-names></name> (<year>2010</year>) <article-title>A Wandering Mind Is an Unhappy Mind</article-title>. <source>Science</source> <volume>330</volume>: <fpage>932</fpage>–<lpage>932</lpage>.</mixed-citation>
+</ref>
+<ref id="pone.0069841-Beck1"><label>20</label>
+<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Beck</surname><given-names>AT</given-names></name>, <name name-style="western"><surname>Steer</surname><given-names>RA</given-names></name>, <name name-style="western"><surname>Brown</surname><given-names>GK</given-names></name> (<year>1996</year>) <article-title>BDI-II Manual San Antonio: Harcourt Brace &amp; Company</article-title>.</mixed-citation>
+</ref>
+<ref id="pone.0069841-Rosenberg1"><label>21</label>
+<mixed-citation publication-type="other" xlink:type="simple">Rosenberg M (1965) Society and the adolescent self-image. Princeton: Princeton University Press.</mixed-citation>
+</ref>
+<ref id="pone.0069841-Cutrona1"><label>22</label>
+<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Cutrona</surname><given-names>CE</given-names></name> (<year>1989</year>) <article-title>Ratings of social support by adolescents and adult informants: Degree of correspondence and prediction of depressive symptoms</article-title>. <source>Journal of Personality and Social Psychology</source> <volume>57</volume>: <fpage>723</fpage>–<lpage>730</lpage>.</mixed-citation>
+</ref>
+<ref id="pone.0069841-Russell1"><label>23</label>
+<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Russell</surname><given-names>D</given-names></name>, <name name-style="western"><surname>Peplau</surname><given-names>LA</given-names></name>, <name name-style="western"><surname>Cutrona</surname><given-names>CE</given-names></name> (<year>1980</year>) <article-title>The revised UCLA Loneliness Scale: Concurrent and discriminant validity evidence</article-title>. <source>J Pers Soc Psychol</source> <volume>39</volume>: <fpage>472</fpage>–<lpage>480</lpage>.</mixed-citation>
+</ref>
+<ref id="pone.0069841-Moberly1"><label>24</label>
+<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Moberly</surname><given-names>NJ</given-names></name>, <name name-style="western"><surname>Watkins</surname><given-names>ER</given-names></name> (<year>2008</year>) <article-title>Ruminative self-focus, negative life events, and negative affect</article-title>. <source>Behav Res Ther</source> <volume>46</volume>: <fpage>1034</fpage>–<lpage>1039</lpage>.</mixed-citation>
+</ref>
+<ref id="pone.0069841-Cacioppo1"><label>25</label>
+<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Cacioppo</surname><given-names>JT</given-names></name>, <name name-style="western"><surname>Hawkley</surname><given-names>LC</given-names></name>, <name name-style="western"><surname>Norman</surname><given-names>GJ</given-names></name>, <name name-style="western"><surname>Berntson</surname><given-names>GG</given-names></name> (<year>2011</year>) <article-title>Social isolation</article-title>. <source>Ann N Y Acad Sci</source> <volume>1231</volume>: <fpage>17</fpage>–<lpage>22</lpage>.</mixed-citation>
+</ref>
+<ref id="pone.0069841-Bessire1"><label>26</label>
+<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Bessiére</surname><given-names>K</given-names></name>, <name name-style="western"><surname>Kiesler</surname><given-names>S</given-names></name>, <name name-style="western"><surname>Kraut</surname><given-names>R</given-names></name>, <name name-style="western"><surname>Boneva</surname><given-names>BS</given-names></name> (<year>2008</year>) <article-title>Effects of Internet use and social resources on changes in depression</article-title>. <source>Information, Communication, and Society</source> <volume>11</volume>: <fpage>47</fpage>–<lpage>70</lpage>.</mixed-citation>
+</ref>
+<ref id="pone.0069841-Kaplan1"><label>27</label>
+<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Kaplan</surname><given-names>S</given-names></name>, <name name-style="western"><surname>Berman</surname><given-names>MG</given-names></name> (<year>2010</year>) <article-title>Directed Attention as a Common Resource for Executive Functioning and Self-Regulation</article-title>. <source>Perspect Psychol Sci</source> <volume>5</volume>: <fpage>43</fpage>–<lpage>57</lpage>.</mixed-citation>
+</ref>
+<ref id="pone.0069841-Haferkamp1"><label>28</label>
+<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Haferkamp</surname><given-names>N</given-names></name>, <name name-style="western"><surname>Kramer</surname><given-names>NC</given-names></name> (<year>2011</year>) <article-title>Social Comparison 2.0: Examining the Effects of Online Profiles on Social-Networking Sites</article-title>. <source>Cyberpsychol Behav Soc Netw</source> <volume>14</volume>: <fpage>309</fpage>–<lpage>314</lpage>.</mixed-citation>
+</ref>
+<ref id="pone.0069841-Prentice1"><label>29</label>
+<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Prentice</surname><given-names>DA</given-names></name>, <name name-style="western"><surname>Miller</surname><given-names>DT</given-names></name> (<year>1992</year>) <article-title>When small effects are impressive</article-title>. <source>Psychological Bulletin</source> <volume>112</volume>: <fpage>160</fpage>–<lpage>164</lpage>.</mixed-citation>
+</ref>
+<ref id="pone.0069841-Baumeister1"><label>30</label>
+<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Baumeister</surname><given-names>RF</given-names></name>, <name name-style="western"><surname>Leary</surname><given-names>MR</given-names></name> (<year>1995</year>) <article-title>The need to belong: desire for interpersonal attachments as a fundamental human motivation</article-title>. <source>Psychol Bull</source> <volume>117</volume>: <fpage>497</fpage>–<lpage>529</lpage>.</mixed-citation>
+</ref>
+<ref id="pone.0069841-Kross1"><label>31</label>
+<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Kross</surname><given-names>E</given-names></name>, <name name-style="western"><surname>Berman</surname><given-names>MG</given-names></name>, <name name-style="western"><surname>Mischel</surname><given-names>W</given-names></name>, <name name-style="western"><surname>Smith</surname><given-names>EE</given-names></name>, <name name-style="western"><surname>Wager</surname><given-names>TD</given-names></name> (<year>2011</year>) <article-title>Social rejection shares somatosensory representations with physical pain</article-title>. <source>Proc Natl Acad Sci USA</source> <volume>108</volume>: <fpage>6270</fpage>–<lpage>6275</lpage>.</mixed-citation>
+</ref>
+<ref id="pone.0069841-Eisenberger1"><label>32</label>
+<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Eisenberger</surname><given-names>NI</given-names></name>, <name name-style="western"><surname>Cole</surname><given-names>SW</given-names></name> (<year>2012</year>) <article-title>Social neuroscience and health: neurophysiological mechanisms linking social ties with physical health</article-title>. <source>Nat Neurosci</source> <volume>15</volume>: <fpage>669</fpage>–<lpage>674</lpage>.</mixed-citation>
+</ref>
+<ref id="pone.0069841-House1"><label>33</label>
+<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>House</surname><given-names>JS</given-names></name>, <name name-style="western"><surname>Landis</surname><given-names>KR</given-names></name>, <name name-style="western"><surname>Umberson</surname><given-names>D</given-names></name> (<year>1988</year>) <article-title>Social relationships and health</article-title>. <source>Science</source> <volume>241</volume>: <fpage>540</fpage>–<lpage>545</lpage>.</mixed-citation>
+</ref>
+<ref id="pone.0069841-Ybarra1"><label>34</label>
+<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Ybarra</surname><given-names>O</given-names></name>, <name name-style="western"><surname>Burnstein</surname><given-names>E</given-names></name>, <name name-style="western"><surname>Winkielman</surname><given-names>P</given-names></name>, <name name-style="western"><surname>Keller</surname><given-names>MC</given-names></name>, <name name-style="western"><surname>Chan</surname><given-names>E</given-names></name>, <etal>et al</etal>. (<year>2008</year>) <article-title>Mental exercising through simple socializing: Social interaction promotes general cognitive functioning</article-title>. <source>Pers Soc Psychol Bull Pers Soc Psychol Bull</source> <volume>34</volume>: <fpage>248</fpage>–<lpage>259</lpage>.</mixed-citation>
+</ref>
+</ref-list></back>
+</article>

@@ -37,7 +37,8 @@ public class HtmlVisitable extends AbstractVisitable  {
 	}
 
 	@Override
-	public void addURL(URL url) throws Exception {
+	public void readURLconvertToObjectAndAddtoVisitable(URL url) throws Exception {
+		super.addURL(url);
 		ensureHtmlContainerList();
 		HtmlContainer htmlContainer = new HtmlContainer(url, HtmlUtil.readAndCreateElement(url));
 		htmlContainerList.add(htmlContainer);

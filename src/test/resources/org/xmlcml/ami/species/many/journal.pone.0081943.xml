@@ -1,0 +1,967 @@
+<article xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" article-type="research-article" dtd-version="3.0" xml:lang="en">
+<front>
+<journal-meta>
+<journal-id journal-id-type="nlm-ta">PLoS ONE</journal-id>
+<journal-id journal-id-type="publisher-id">plos</journal-id>
+<journal-id journal-id-type="pmc">plosone</journal-id><journal-title-group>
+<journal-title xml:lang="en">PLoS ONE</journal-title></journal-title-group>
+<issn pub-type="epub">1932-6203</issn>
+<publisher>
+<publisher-name>Public Library of Science</publisher-name>
+<publisher-loc>San Francisco, USA</publisher-loc></publisher>
+</journal-meta>
+<article-meta>
+<article-id pub-id-type="publisher-id">PONE-D-13-26453</article-id>
+<article-id pub-id-type="doi">10.1371/journal.pone.0081943</article-id>
+<article-categories><subj-group subj-group-type="heading"><subject>Research Article</subject></subj-group></article-categories>
+<title-group>
+<article-title>Functionally Different Pads on the Same Foot Allow Control of Attachment: Stick Insects Have Load-Sensitive “Heel” Pads for Friction and Shear-Sensitive “Toe” Pads for Adhesion</article-title>
+<alt-title alt-title-type="running-head">Control of Attachment in Stick Insects</alt-title>
+</title-group>
+<contrib-group>
+<contrib contrib-type="author" xlink:type="simple"><name name-style="western"><surname>Labonte</surname><given-names>David</given-names></name><xref ref-type="aff" rid="aff1" /><xref ref-type="corresp" rid="cor1"><sup>*</sup></xref></contrib>
+<contrib contrib-type="author" xlink:type="simple"><name name-style="western"><surname>Federle</surname><given-names>Walter</given-names></name><xref ref-type="aff" rid="aff1" /></contrib>
+</contrib-group>
+<aff id="aff1"><addr-line>Department of Zoology, University of Cambridge, Cambridge, United Kingdom</addr-line></aff>
+<contrib-group>
+<contrib contrib-type="editor" xlink:type="simple"><name name-style="western"><surname>Ivanenko</surname><given-names>Yuri P.</given-names></name>
+<role>Editor</role>
+<xref ref-type="aff" rid="edit1" /></contrib>
+</contrib-group>
+<aff id="edit1"><addr-line>Scientific Institute Foundation Santa Lucia, Italy</addr-line></aff>
+<author-notes>
+<corresp id="cor1">* E-mail: <email xlink:type="simple">dl416@cam.ac.uk</email></corresp>
+<fn fn-type="conflict"><p>The authors have declared that no competing interests exist.</p></fn>
+<fn fn-type="con"><p>Conceived and designed the experiments: DL WF. Performed the experiments: DL. Analyzed the data: DL. Contributed reagents/materials/analysis tools: DL WF. Wrote the paper: DL WF.</p></fn>
+</author-notes>
+<pub-date pub-type="collection"><year>2013</year></pub-date>
+<pub-date pub-type="epub"><day>11</day><month>12</month><year>2013</year></pub-date>
+<volume>8</volume>
+<issue>12</issue>
+<elocation-id>e81943</elocation-id>
+<history>
+<date date-type="received"><day>26</day><month>6</month><year>2013</year></date>
+<date date-type="accepted"><day>18</day><month>10</month><year>2013</year></date>
+</history>
+<permissions>
+<copyright-year>2013</copyright-year>
+<copyright-holder>Labonte, Federle</copyright-holder><license xlink:href="http://creativecommons.org/licenses/by/4.0/" xlink:type="simple"><license-p>This is an open-access article distributed under the terms of the <ext-link ext-link-type="uri" xlink:href="http://creativecommons.org/licenses/by/4.0/" xlink:type="simple">Creative Commons Attribution License</ext-link>, which permits unrestricted use, distribution, and reproduction in any medium, provided the original author and source are credited.</license-p></license></permissions>
+<abstract>
+<p>Stick insects (<italic>Carausius morosus</italic>) have two distinct types of attachment pad per leg, tarsal “heel” pads (euplantulae) and a pre-tarsal “toe” pad (arolium). Here we show that these two pad types are specialised for fundamentally different functions. When standing upright, stick insects rested on their proximal euplantulae, while arolia were the only pads in surface contact when hanging upside down. Single-pad force measurements showed that the adhesion of euplantulae was extremely small, but friction forces strongly increased with normal load and coefficients of friction were <inline-formula><inline-graphic xlink:href="info:doi/10.1371/journal.pone.0081943.e001" xlink:type="simple" /></inline-formula> 1. The pre-tarsal arolium, in contrast, generated adhesion that strongly increased with pulling forces, allowing adhesion to be activated and deactivated by shear forces, which can be produced actively, or passively as a result of the insects' sprawled posture. The shear-sensitivity of the arolium was present even when corrected for contact area, and was independent of normal preloads covering nearly an order of magnitude. Attachment of both heel and toe pads is thus activated partly by the forces that arise passively in the situations in which they are used by the insects, ensuring safe attachment. Our results suggest that stick insect euplantulae are specialised “friction pads” that produce traction when pressed against the substrate, while arolia are “true” adhesive pads that stick to the substrate when activated by pulling forces.</p>
+</abstract>
+<funding-group><funding-statement>This study was funded by a scholarship from the Cusanuswerk to D.L., as well as by research grants from the Biotechnology and Biological Sciences Research Council (BB/I008667/1) and the Human Frontier Science Program (RGP0034/2012). The funders had no role in study design, data collection and analysis, decision to publish, or preparation of the manuscript.</funding-statement></funding-group><counts><page-count count="11" /></counts></article-meta>
+</front>
+<body><sec id="s1">
+<title>Introduction</title>
+<p>Many insects are fast runners and skilful climbers <xref ref-type="bibr" rid="pone.0081943-Roth1">[1]</xref>–<xref ref-type="bibr" rid="pone.0081943-Goldman1">[4]</xref>. In order to allow climbing insects to forage efficiently and to escape rapidly from predators, conflicting demands must be met: attachment forces must be firm and reliable, but voluntary detachment should be fast and require little energy. On coarse rough surfaces, insects can grip with their claws, allowing strong and reversible attachment. If surface asperities are smaller than the claw tip diameter, however, claws cannot interlock <xref ref-type="bibr" rid="pone.0081943-Dai1">[5]</xref>, <xref ref-type="bibr" rid="pone.0081943-Asbeck1">[6]</xref> and insects have to use specialized footpads to generate sufficient attachment forces <xref ref-type="bibr" rid="pone.0081943-Beutel1">[7]</xref>.</p>
+<p>Numerous insects possess two types of attachment pads on the same leg: tarsal “heel” pads and pre-tarsal “toe” pads (e.g. representatives of Blattodea, Heteroptera, Hymenoptera, Orthoptera, Phasmatodea and Plecoptera, see <xref ref-type="bibr" rid="pone.0081943-Beutel1">[7]</xref>). Although the presence and absence of different attachment pads and their anatomy have been considered in morphological, evolutionary and phylogenetic studies <xref ref-type="bibr" rid="pone.0081943-Beutel1">[7]</xref>–<xref ref-type="bibr" rid="pone.0081943-Beutel3">[14]</xref>), the detailed function of these pad types during locomotion is still unclear (but see <xref ref-type="bibr" rid="pone.0081943-Roth1">[1]</xref>, <xref ref-type="bibr" rid="pone.0081943-Clemente1">[15]</xref>, <xref ref-type="bibr" rid="pone.0081943-Bullock1">[16]</xref>). Variation of attachment structures within insect orders might represent adaptations for climbing in different natural environments <xref ref-type="bibr" rid="pone.0081943-Roth1">[1]</xref>, <xref ref-type="bibr" rid="pone.0081943-Arnold1">[8]</xref>, <xref ref-type="bibr" rid="pone.0081943-Betz1">[17]</xref>). For example, only cockroach species with prominent “toe” (arolia) <italic>and</italic> “heel” pads (euplantulae) were able to climb on smooth surfaces <xref ref-type="bibr" rid="pone.0081943-Roth1">[1]</xref>, <xref ref-type="bibr" rid="pone.0081943-Arnold1">[8]</xref>. Only recently, <xref ref-type="bibr" rid="pone.0081943-Clemente1">[15]</xref> showed for <italic>Nauphoeta cinerea</italic> cockroaches that a division of labour occurs between euplantulae and arolia. Attachment forces of arolia were maximal when pulled towards the body, while euplantulae generated maximum forces when pushed away from it <xref ref-type="bibr" rid="pone.0081943-Clemente1">[15]</xref>, <xref ref-type="bibr" rid="pone.0081943-Clemente2">[18]</xref>. Accordingly, legs above the centre of mass of vertically climbing cockroaches pulled using only the arolia whereas legs below the centre of mass pushed with the euplantulae in contact <xref ref-type="bibr" rid="pone.0081943-Clemente1">[15]</xref>.</p>
+<p>The division of labour between the two pad types may not be limited to pushing and pulling. Cockroaches and mantophasmids keep their arolium conspicuously off the surface when no adhesive force is required <xref ref-type="bibr" rid="pone.0081943-Roth1">[1]</xref>, <xref ref-type="bibr" rid="pone.0081943-Arnold1">[8]</xref>, <xref ref-type="bibr" rid="pone.0081943-Beutel2">[13]</xref>, <xref ref-type="bibr" rid="pone.0081943-Clemente1">[15]</xref>, <xref ref-type="bibr" rid="pone.0081943-Frazier1">[19]</xref>, <xref ref-type="bibr" rid="pone.0081943-Eberhard1">[20]</xref>. Instead, their arolia are used primarily during vertical and inverted climbing, and in other situations where adhesion is required, e. g. to withstand sudden detachment forces caused by wind gusts or raindrops <xref ref-type="bibr" rid="pone.0081943-Roth1">[1]</xref>, <xref ref-type="bibr" rid="pone.0081943-Arnold1">[8]</xref>, <xref ref-type="bibr" rid="pone.0081943-Eberhard1">[20]</xref>. Accordingly, cockroaches and mantophasmids without arolia are unable to move upside down on a smooth surface <xref ref-type="bibr" rid="pone.0081943-Roth1">[1]</xref>, <xref ref-type="bibr" rid="pone.0081943-Eberhard1">[20]</xref>. Keeping the arolium away from the surface may help to reduce the conflict between attachment and locomotion: As arolia in adhesive surface contact can hamper running, it may be beneficial to minimise their use in situations where no adhesive force is needed in order to reduce pad wear and the costs associated with detachment, e.g. during level walking. The tarsal euplantulae of cockroaches, in contrast, are used mostly in compression (when the foot is pressing onto the substrate). Therefore, they serve as “friction pads” that mainly provide high traction and pushing forces when pressed onto the surface during locomotion <xref ref-type="bibr" rid="pone.0081943-Clemente1">[15]</xref>, <xref ref-type="bibr" rid="pone.0081943-Clemente2">[18]</xref>. It is still unclear whether this division of labour between proximal and distal tarsal structures is widespread and whether it is also found in insects with other tarsal pad morphologies.</p>
+<p>Here, we study the functional divergence between “toe” and “heel” pads by comparing pad use and attachment performance in Indian stick insects (<italic>Carausius morosus</italic>, Sinety, 1901). We investigate the following questions: (i) how do unrestrained insects use both pad types? (ii) to what extent do attachment forces respond to normal and shear forces for both types of pad? and (iii) what is the biological function of the two pad types?</p>
+</sec><sec id="s2" sec-type="materials|methods">
+<title>Materials and Methods</title>
+<sec id="s2a">
+<title>Study animals</title>
+<p>Adult stick insects, (<italic>Carausius morosus</italic>, Phasmatidae; body mass: 0.58 <inline-formula><inline-graphic xlink:href="info:doi/10.1371/journal.pone.0081943.e002" xlink:type="simple" /></inline-formula> 0.12 g, mean <inline-formula><inline-graphic xlink:href="info:doi/10.1371/journal.pone.0081943.e003" xlink:type="simple" /></inline-formula> standard deviation, n = 18) were taken from a laboratory colony fed with ivy and water <italic>ad libitum</italic>.</p>
+</sec><sec id="s2b">
+<title>Morphology</title>
+<p>The morphology of the tarsal pads was studied using scanning electron microscopy (SEM). Legs were taken from adult stick insects and directly transferred into a solution of 4% glutaraldehyde in 0.1 M PIPES buffer at pH 7.4, <inline-formula><inline-graphic xlink:href="info:doi/10.1371/journal.pone.0081943.e004" xlink:type="simple" /></inline-formula> C, for fixation. After 48h, the legs were taken out, washed in de-ionized water, dehydrated in an ascending series of ethanol concentrations, and stored in 100% ethanol in a freezer at <inline-formula><inline-graphic xlink:href="info:doi/10.1371/journal.pone.0081943.e005" xlink:type="simple" /></inline-formula> C. Dried legs were mounted on SEM stubs, sputter-coated at 65 mA for 15 s to prevent charging (approx. 5 nm thick layer of gold, K575X turbo-pump sputter, Quorum Technologies, Sussex, UK) and examined with a field emission gun-SEM at a beam voltage of 5 kV (Leo Gemini 1530VP, Carl-Zeiss NTS GmbH, Oberkochen, Germany).</p>
+</sec><sec id="s2c">
+<title>Use of attachment organs in unrestrained stick insects</title>
+<p>In order to investigate the natural use of “heel” and “toe” pads, unrestrained stick insects were observed standing upright as well as upside down on a smooth petridish (n = 10 for both conditions). Pictures of individual legs were taken from the side using either a Phantom V7.1 camera (Vision Research Co. Ltd., Wayne, NJ, USA) or an USB-Microscope (VMS-004D, Veho, Southampton, UK). Simultaneously, the contact area of the attachment pads of individual legs was observed with an inverted microscope for upright stick insects (DMIRE2, Leica Microsystems Ltd., Heidelberg, Germany, connected to a Phantom V7.1 camera), and an upright microscope for stick insects that were hanging upside down (Leica DRM, connected to a QICAM 10-bit monochrome camera, Qimaging, Burnaby, BC, Canada).</p>
+</sec><sec id="s2d">
+<title>Single-pad force measurements</title>
+<p>In order to study the effects of normal and shear forces on attachment performance, friction and adhesion of individual pads were measured. Live stick insects were enclosed in glass cylinders, so that the two front legs protruded (There is no evidence for a difference in the general footpad morphology between front, middle and hind legs, <xref ref-type="bibr" rid="pone.0081943-Scholz1">[21]</xref>, <xref ref-type="bibr" rid="pone.0081943-Buhardt1">[22]</xref>). The dorsal side of a front leg was attached to a piece of soldering wire mounted on the glass cylinder, using vinyl polysiloxane impression material (Elite HD+ light body, Zhermack, Badia Polesine, Italy). Legs were mounted so that the highest point was the contact zone of either the arolium or the pair of euplantulae on the second or third tarsomere. For mounted arolia, the sclerotized tips of the claws were cut with micro-scissors to prevent them from touching the surface.</p>
+<p>Forces of individual pads were measured as described in <xref ref-type="bibr" rid="pone.0081943-Drechsler1">[23]</xref>, using a self-built 2D-force transducer equipped with 350 <inline-formula><inline-graphic xlink:href="info:doi/10.1371/journal.pone.0081943.e006" xlink:type="simple" /></inline-formula> foil strain gauges (1-LY13-3/350, Vishay, Malvern, PA, USA), mounted on a 3D motor positioning stage (M-126PD, Physik Instrumente, Karlsruhe, Germany, <xref ref-type="fig" rid="pone-0081943-g001">Fig. 1</xref>). A custom-made LabVIEW programme (National Instruments, Austin, TX, USA) allowed the stage to be controlled with user-defined movement patterns. The output of the force transducer was amplified (GSV1T8, ME-Mesysteme, Henningsdorf, Germany) and recorded to a data acquisition board (PCI-6035E, National Instruments) with a sampling frequency of 50 Hz. The noise amplitude for both channels of the force transducer was <inline-formula><inline-graphic xlink:href="info:doi/10.1371/journal.pone.0081943.e007" xlink:type="simple" /></inline-formula> 0.05 mN, corresponding to less than 1% of the insect's mean body weight. Contact area of the pads was recorded synchronously with a TTL-triggered B/W camera (A602f, Basler Vision Technologies, Ahrensburg, Germany), mounted on a stereo-microscope with coaxial illumination (Wild M3C, Leica, Wetzlar, Germany).</p>
+<fig id="pone-0081943-g001" position="float" orientation="portrait"><object-id pub-id-type="doi">10.1371/journal.pone.0081943.g001</object-id><label>Figure 1</label><caption>
+<title>Experimental set-up and morphology of arolium and euplantulae.</title>
+<p>(A) Set-up for measuring adhesion, friction and contact area of single attachment pads. (B) Scanning electron micrograph (SEM) of the arolium of <italic>Carausius morosus</italic>. The dotted line indicates the adhesive contact zone. (C) Contact area of arolium, as recorded during a force measurement. (D) Image of (C) after binary conversion with the fuzzy threshold algorithm <xref ref-type="bibr" rid="pone.0081943-Huang1">[29]</xref>. (E) SEM of the euplantulae (second tarsal segment). (F) Contact area of euplantulae during a force measurement (second tarsal segment). (G) Polygon drawn around the contact area for measuring the projected contact area. Scale bars are 200 <inline-formula><inline-graphic xlink:href="info:doi/10.1371/journal.pone.0081943.e008" xlink:type="simple" /></inline-formula> (B–C) and 100 <inline-formula><inline-graphic xlink:href="info:doi/10.1371/journal.pone.0081943.e009" xlink:type="simple" /></inline-formula> (D–F).</p>
+</caption><graphic mimetype="image" xlink:href="info:doi/10.1371/journal.pone.0081943.g001" position="float" xlink:type="simple" orientation="portrait" /></fig>
+<p>Adhesion and friction of the pads were measured for defined shear and normal loads, respectively, using a 50 Hz “force-feedback” mechanism included in the LabVIEW software. In a 50 Hz feedback loop, the program calculates the difference between the target and the actual force and then computes a displacement which would compensate the mismatch, using a discrete proportional-integral-derivative (PID) control algorithm. The mean force-feedback error was less than 1% for the control of both shear and normal loads (average difference between actual and target force for 113 separate measurements at the different levels of shear and normal loads used in this study).</p>
+<p>All measurements were performed on glass coverslips (18mm <inline-formula><inline-graphic xlink:href="info:doi/10.1371/journal.pone.0081943.e010" xlink:type="simple" /></inline-formula> 18 mm <inline-formula><inline-graphic xlink:href="info:doi/10.1371/journal.pone.0081943.e011" xlink:type="simple" /></inline-formula> 0.14 mm), attached to the strain-gauge force transducer. Prior to measurements, glass plates were degreased with acetone and isopropanol (Fisher Scientific, Loughborough, UK) in an ultrasonic bath (FB 15051, Fisher Scientific) for 10 min, respectively, rinsed with de-ionized water and blow-dried with nitrogen. As both humidity and temperature can influence the attachment performance of insect pads <xref ref-type="bibr" rid="pone.0081943-Federle2">[24]</xref>, <xref ref-type="bibr" rid="pone.0081943-Voigt1">[25]</xref>, all measurements were performed at <inline-formula><inline-graphic xlink:href="info:doi/10.1371/journal.pone.0081943.e012" xlink:type="simple" /></inline-formula> C, 40–55% relative humidity. In order to control for possible effects of fluid accumulation and depletion <xref ref-type="bibr" rid="pone.0081943-Drechsler1">[23]</xref>, <xref ref-type="bibr" rid="pone.0081943-Bullock2">[26]</xref>, <xref ref-type="bibr" rid="pone.0081943-Dirks1">[27]</xref>, the order of trials was randomized and all measurements were performed at “fesh” positions of the glass plate. In all measurements, the substrate was moved in the distal direction, equivalent to a pull of the leg towards the body <xref ref-type="bibr" rid="pone.0081943-Clemente1">[15]</xref>.</p>
+<p>Throughout this manuscript, we use “load” to refer to a normal force that is set experimentally. “Normal preload” is used when we refer to adhesion measurements, where normal load is only applied before the measurement. In analogy to “load”, we use “shear” or “pulling force” to refer to experimental treatments involving set shear forces, and “friction” for a measured shear force. We use “pulling force” when the effect is likely to depend on the direction of the applied shear force <xref ref-type="bibr" rid="pone.0081943-Bullock2">[26]</xref>.</p>
+</sec><sec id="s2e">
+<title>Adhesion measurements</title>
+<p>In order to investigate the dependence of adhesive force on pulling forces, we measured the force required to detach the pads after defined pulling forces were applied (see below, <xref ref-type="fig" rid="pone-0081943-g002">Fig. 2A</xref>)). Before each adhesion measurement, pads were brought into contact with the glass plate for 5 s with a normal preload of 2 mN. This force approximately corresponds to the load on a single leg during upright tripod locomotion for a 600 mg stick insect. A constant pulling force was subsequently applied for 3 s, at a constant normal load of 2 mN, followed by a perpendicular pull-off with a velocity of <inline-formula><inline-graphic xlink:href="info:doi/10.1371/journal.pone.0081943.e013" xlink:type="simple" /></inline-formula>. The peak force during this perpendicular pull-off was measured as adhesive force (<xref ref-type="fig" rid="pone-0081943-g002">Fig. 2A</xref>). Adhesion of arolia was measured for seven different pulling forces (0, 0.5, 1, 2, 4, 6 and 8 mN, <xref ref-type="fig" rid="pone-0081943-g002">Fig. 2A</xref>). For euplantulae, the two highest pulling forces could not be achieved as the fast sliding of the pads did not allow the feedback mechanism to maintain a constant pulling force. Thus, adhesion was only measured for 0, 0.5, 1, 2 and 4 mN pulling force. For euplantulae, the adhesion results for 0 mN pulling force were excluded from the analysis, as in 8 out of 10 cases the values were below the noise level of the force transducer (0.05 mN). The pause between consecutive measurements was 8 s.</p>
+<fig id="pone-0081943-g002" position="float" orientation="portrait"><object-id pub-id-type="doi">10.1371/journal.pone.0081943.g002</object-id><label>Figure 2</label><caption>
+<title>Example force curves for adhesion and friction measurements.</title>
+<p>(A) Adhesion was measured at seven different levels of pulling force for arolia, and at five levels for euplantulae. (B) Pulling forces of the pads were measured for three different normal preloads (all n = 10). Thin, dashed lines show the experimentally controlled force, and thick lines the measured force of interest.</p>
+</caption><graphic mimetype="image" xlink:href="info:doi/10.1371/journal.pone.0081943.g002" position="float" xlink:type="simple" orientation="portrait" /></fig>
+<p>Another series of experiments was performed to investigate whether the duration of the acting normal and shear force influences adhesion, and how adhesion depends on pulling force. First, arolia were pressed down with 0.5, 1, 2 and 4 mN normal preload, and adhesion was measured as described above, with pulling forces of 0, 2 and 6 mN for each normal preload level (each combination repeated for n = 10 arolia). Second, adhesion measurements were performed as described above for another set of arolia (n = 5), but with the shear force applied twice as long (6 s instead of 3 s).</p>
+<p>In order to test whether the effect of pulling force on adhesion is reversible, arolia were brought into surface contact with 2 mN normal load. After 5 s of contact, a pulling displacement of 0.5 mm was applied, and the pulling force was then brought back to 0 mN via the force-feedback mechanism. After 3 s, the pads were pulled off with a velocity of <inline-formula><inline-graphic xlink:href="info:doi/10.1371/journal.pone.0081943.e014" xlink:type="simple" /></inline-formula> (n = 15).</p>
+</sec><sec id="s2f">
+<title>Friction measurements</title>
+<p>In order to measure the pads' kinetic friction, pads were brought into contact as above. Kinetic friction of the pads was then measured as the peak friction during a 20 s slide at 0.1 mm s<inline-formula><inline-graphic xlink:href="info:doi/10.1371/journal.pone.0081943.e015" xlink:type="simple" /></inline-formula> sliding velocity. These slides were performed in randomized order for three different normal loads (1, 2 or 4 mN), corresponding to approximately 1/6, 1/3 and 2/3 of the insect's body weight (<xref ref-type="fig" rid="pone-0081943-g002">Fig. 2B</xref>). The pause between two consecutive slides was 30 s.</p>
+</sec><sec id="s2g">
+<title>Data analysis and statistics</title>
+<p>Force-time curves were analysed using a self-written R script <xref ref-type="bibr" rid="pone.0081943-R1">[28]</xref>. Contact areas were measured from the video frames corresponding to the measured force values. The arolium contact area was measured by converting single frames into binary images using the “fuzzy threshold” algorithm as described by <xref ref-type="bibr" rid="pone.0081943-Huang1">[29]</xref>. For euplantulae, the resolution of the stereo microscope did not allow a direct measurement of the real contact area. Instead, “projected” contact area was measured, i.e. the pad area in which acanthae were seen to come into contact (<xref ref-type="fig" rid="pone-0081943-g001">Fig 1D</xref>). To obtain a proxy of the real contact area, the contrast C of the euplantula contact area was measured as <disp-formula id="pone.0081943.e016"><graphic position="anchor" xlink:href="info:doi/10.1371/journal.pone.0081943.e016" xlink:type="simple" orientation="portrait" /><label>(1)</label></disp-formula></p>
+<p>where <inline-formula><inline-graphic xlink:href="info:doi/10.1371/journal.pone.0081943.e017" xlink:type="simple" /></inline-formula> and <inline-formula><inline-graphic xlink:href="info:doi/10.1371/journal.pone.0081943.e018" xlink:type="simple" /></inline-formula> are the mean gray values of the pad contact area and background, respectively. The contrast of the contact area of euplantulae was measured from the video recordings of the force measurements during (i) static contact in the absence of any shear force and (ii) at the time of the peak friction force, for each of the three normal load levels. All image analysis was performed using ImageJv1.46a <xref ref-type="bibr" rid="pone.0081943-Schneider1">[30]</xref>.</p>
+<p>Non-parametric data was tested for trends using Page's trend test <xref ref-type="bibr" rid="pone.0081943-Page1">[31]</xref>, where the indices <inline-formula><inline-graphic xlink:href="info:doi/10.1371/journal.pone.0081943.e019" xlink:type="simple" /></inline-formula> indicate the number of conditions (m) and the sample size (n), respectively. Effects were considered significant if p<inline-formula><inline-graphic xlink:href="info:doi/10.1371/journal.pone.0081943.e020" xlink:type="simple" /></inline-formula>0.05. If not stated otherwise, values given in the text are means standard deviation. Boxplots show the median and the 25%/75% quartiles; whiskers indicate 1.5<inline-formula><inline-graphic xlink:href="info:doi/10.1371/journal.pone.0081943.e021" xlink:type="simple" /></inline-formula> the interquartile range.</p>
+<p>All statistical analysis was performed using R v2.14.1 <xref ref-type="bibr" rid="pone.0081943-R1">[28]</xref>. Raw data are available on request from the authors.</p>
+</sec></sec><sec id="s3">
+<title>Results</title>
+<sec id="s3a">
+<title>Morphology</title>
+<p>As described for representatives of Blattodea, Mantophasmatodea and Orthoptera <xref ref-type="bibr" rid="pone.0081943-Roth1">[1]</xref>, <xref ref-type="bibr" rid="pone.0081943-Beutel1">[7]</xref>, <xref ref-type="bibr" rid="pone.0081943-Arnold1">[8]</xref>, <xref ref-type="bibr" rid="pone.0081943-Frazier1">[19]</xref>, <xref ref-type="bibr" rid="pone.0081943-Eberhard1">[20]</xref>, the tarsus of <italic>C. morosus</italic> consists of five segments (see also <xref ref-type="bibr" rid="pone.0081943-Buhardt1">[22]</xref>, <xref ref-type="bibr" rid="pone.0081943-Bullock2">[26]</xref>). The distal pre-tarsus bears an adhesive pad (arolium) located between a pair of claws (<xref ref-type="fig" rid="pone-0081943-g003">Fig. 3A</xref>). The kidney-shaped contact zone of the arolium adjoins the manubrium on the dorsal and the planta on the ventral, proximal side (<xref ref-type="fig" rid="pone-0081943-g003">Fig. 3A</xref>). The arolium surface appears smooth under low magnification, but SEM revealed the presence of fine folds (grooves) running mainly along the proximal-distal axis of the pad (<xref ref-type="fig" rid="pone-0081943-g003">Fig. 3B</xref> and <xref ref-type="bibr" rid="pone.0081943-Scholz1">[21]</xref>, <xref ref-type="bibr" rid="pone.0081943-Dirks2">[32]</xref>). When brought into surface contact with a normal load of 2 mN, the maximum width and length of the arolium contact area were 588.6 <inline-formula><inline-graphic xlink:href="info:doi/10.1371/journal.pone.0081943.e022" xlink:type="simple" /></inline-formula> 50.2 <inline-formula><inline-graphic xlink:href="info:doi/10.1371/journal.pone.0081943.e023" xlink:type="simple" /></inline-formula> and 198.4 <inline-formula><inline-graphic xlink:href="info:doi/10.1371/journal.pone.0081943.e024" xlink:type="simple" /></inline-formula> 41.1<inline-formula><inline-graphic xlink:href="info:doi/10.1371/journal.pone.0081943.e025" xlink:type="simple" /></inline-formula>, respectively (n = 10).</p>
+<fig id="pone-0081943-g003" position="float" orientation="portrait"><object-id pub-id-type="doi">10.1371/journal.pone.0081943.g003</object-id><label>Figure 3</label><caption>
+<title>Morphology of the tarsus of <italic>Carausius morosus</italic>.</title>
+<p>(A) pre-tarsus with adhesive pad (arolium) between the pair of claws. (B) surface of the arolium contact area with folds running along the proximal-distal axis. (C) pair of euplantulae on the ventral side of the tarsus (second tarsal segment). (D)–(F) acanthae on the surface of the euplantulae. AR arolium, CL claw, EU euplantulae. Scale bars are (A) 200 <inline-formula><inline-graphic xlink:href="info:doi/10.1371/journal.pone.0081943.e026" xlink:type="simple" /></inline-formula>, (B) 4 <inline-formula><inline-graphic xlink:href="info:doi/10.1371/journal.pone.0081943.e027" xlink:type="simple" /></inline-formula> (C) 100 m, (D) 20 <inline-formula><inline-graphic xlink:href="info:doi/10.1371/journal.pone.0081943.e028" xlink:type="simple" /></inline-formula>, (E) 1 <inline-formula><inline-graphic xlink:href="info:doi/10.1371/journal.pone.0081943.e029" xlink:type="simple" /></inline-formula>, (F) 10 <inline-formula><inline-graphic xlink:href="info:doi/10.1371/journal.pone.0081943.e030" xlink:type="simple" /></inline-formula>.</p>
+</caption><graphic mimetype="image" xlink:href="info:doi/10.1371/journal.pone.0081943.g003" position="float" xlink:type="simple" orientation="portrait" /></fig>
+<p>The first four tarsomeres each bear a pair of soft pads (euplantulae) on their ventral side, with a mean width of 160.5 <inline-formula><inline-graphic xlink:href="info:doi/10.1371/journal.pone.0081943.e031" xlink:type="simple" /></inline-formula> 23.5 <inline-formula><inline-graphic xlink:href="info:doi/10.1371/journal.pone.0081943.e032" xlink:type="simple" /></inline-formula>m and length of 314.0 <inline-formula><inline-graphic xlink:href="info:doi/10.1371/journal.pone.0081943.e033" xlink:type="simple" /></inline-formula> 71.2 <inline-formula><inline-graphic xlink:href="info:doi/10.1371/journal.pone.0081943.e034" xlink:type="simple" /></inline-formula>m (n = 3, measured at the widest and longest points of a single euplantula, respectively; <xref ref-type="fig" rid="pone-0081943-g003">Fig. 3C</xref>). The euplantulae are covered by a dense, hexagonal array of cuticular outgrowths that are oriented approximately perpendicular to the pad surface (<xref ref-type="fig" rid="pone-0081943-g003">Fig. 3D, E</xref>). These structures are conical with a base width of 1.59 <inline-formula><inline-graphic xlink:href="info:doi/10.1371/journal.pone.0081943.e035" xlink:type="simple" /></inline-formula> 0.21 <inline-formula><inline-graphic xlink:href="info:doi/10.1371/journal.pone.0081943.e036" xlink:type="simple" /></inline-formula>m, a length of 4.50 <inline-formula><inline-graphic xlink:href="info:doi/10.1371/journal.pone.0081943.e037" xlink:type="simple" /></inline-formula> 0.59 <inline-formula><inline-graphic xlink:href="info:doi/10.1371/journal.pone.0081943.e038" xlink:type="simple" /></inline-formula>m and a tip diameter of 0.47 <inline-formula><inline-graphic xlink:href="info:doi/10.1371/journal.pone.0081943.e039" xlink:type="simple" /></inline-formula> 0.11<inline-formula><inline-graphic xlink:href="info:doi/10.1371/journal.pone.0081943.e040" xlink:type="simple" /></inline-formula>m, leading to a tapering angle of 7.25 <inline-formula><inline-graphic xlink:href="info:doi/10.1371/journal.pone.0081943.e041" xlink:type="simple" /></inline-formula> 1.87<inline-formula><inline-graphic xlink:href="info:doi/10.1371/journal.pone.0081943.e042" xlink:type="simple" /></inline-formula> (N = 10 for three different individuals, see <xref ref-type="fig" rid="pone-0081943-g003">Fig. 3E, F</xref>). The tips are approximately hemispherical with a radius of curvature of 0.24 <inline-formula><inline-graphic xlink:href="info:doi/10.1371/journal.pone.0081943.e043" xlink:type="simple" /></inline-formula> 0.03 <inline-formula><inline-graphic xlink:href="info:doi/10.1371/journal.pone.0081943.e044" xlink:type="simple" /></inline-formula>m (N = 44, n = 3; measured by fitting circles to side views of tips) and their density is 0.19 <inline-formula><inline-graphic xlink:href="info:doi/10.1371/journal.pone.0081943.e045" xlink:type="simple" /></inline-formula> 0.03 <inline-formula><inline-graphic xlink:href="info:doi/10.1371/journal.pone.0081943.e046" xlink:type="simple" /></inline-formula>m<inline-formula><inline-graphic xlink:href="info:doi/10.1371/journal.pone.0081943.e047" xlink:type="simple" /></inline-formula> (n = 4 stick insects). As the developmental origin of these structures is still unknown, it is unclear whether they represent “acanthae” (one outgrowth per epidermal cell) or “microtrichia” (multiple outgrowths per cell,<xref ref-type="bibr" rid="pone.0081943-Richards1">[33]</xref>). However, as the area density is comparable to that of acanthae on the pulvilli of flies <xref ref-type="bibr" rid="pone.0081943-Peattie1">[34]</xref>, where a single-celled origin has been demonstrated <xref ref-type="bibr" rid="pone.0081943-Whitten1">[35]</xref>, we use the term “acanthae” in this paper, consistent with previous authors <xref ref-type="bibr" rid="pone.0081943-Beutel2">[13]</xref>, <xref ref-type="bibr" rid="pone.0081943-Eberhard1">[20]</xref>.</p>
+</sec><sec id="s3b">
+<title>Use of attachment organs in unrestrained stick insects</title>
+<p>All stick insects were resting on the proximal part of their tarsi when standing upright, with either the first or the first two pairs of euplantulae in surface contact (<xref ref-type="fig" rid="pone-0081943-g004">Fig. 4A</xref>, n = 10). The fifth tarsal segment was bent upwards, and the pretarsus was pointing downwards, resulting in some surface contact of the arolium (<xref ref-type="fig" rid="pone-0081943-g004">Fig. 4A</xref>). In one case, no attachment pad was in adhesive surface contact and the insect appeared to rest solely on the distal part of the tibia. In contrast, when insects were hanging upside down, the arolium was always the only part of the leg in visible surface contact (<xref ref-type="fig" rid="pone-0081943-g004">Fig. 4B</xref>, n = 10).</p>
+<fig id="pone-0081943-g004" position="float" orientation="portrait"><object-id pub-id-type="doi">10.1371/journal.pone.0081943.g004</object-id><label>Figure 4</label><caption>
+<title>Use of attachment organs in unrestrained stick insects (<italic>Carausius morosus</italic>) (A) standing upright and (B) hanging upside down on a smooth petridish.</title>
+<p>Insects were filmed from the side and the contact area of individual pads was recorded using reflected-light microscopy (see insets). Note that euplantulae were never in surface contact when insects were hanging upside down. Scale bars are 200 <inline-formula><inline-graphic xlink:href="info:doi/10.1371/journal.pone.0081943.e048" xlink:type="simple" /></inline-formula> for insets and 1 mm for side views.</p>
+</caption><graphic mimetype="image" xlink:href="info:doi/10.1371/journal.pone.0081943.g004" position="float" xlink:type="simple" orientation="portrait" /></fig></sec><sec id="s3c">
+<title>Effect of pulling force and normal preload on adhesion</title>
+<sec id="s3c1">
+<title>Arolia</title>
+<p>Arolium adhesion increased significantly with the applied pulling force (see <xref ref-type="table" rid="pone-0081943-t001">Table 1</xref>, Page's trend test, <inline-formula><inline-graphic xlink:href="info:doi/10.1371/journal.pone.0081943.e049" xlink:type="simple" /></inline-formula>, <inline-formula><inline-graphic xlink:href="info:doi/10.1371/journal.pone.0081943.e050" xlink:type="simple" /></inline-formula>, n = 10). Adhesive force corresponded to less than 5% of the body weight at zero pulling force, and to ca. 80% at 8 mN pull (<xref ref-type="fig" rid="pone-0081943-g005">Fig. 5A</xref>). In contrast, contact area did not vary significantly for the different pulling forces (<xref ref-type="table" rid="pone-0081943-t001">Tables 1</xref>). Consequently, there was a highly significant increase of adhesive stress with pulling force (Page's trend test, <inline-formula><inline-graphic xlink:href="info:doi/10.1371/journal.pone.0081943.e051" xlink:type="simple" /></inline-formula>, p <inline-formula><inline-graphic xlink:href="info:doi/10.1371/journal.pone.0081943.e052" xlink:type="simple" /></inline-formula> 0.001, n = 10). Normal preload had a weak tendency to reduce arolium adhesion, but this trend was not significant for any level of applied pulling force – pulling force explained most of the variation of arolium adhesion (see <xref ref-type="table" rid="pone-0081943-t002">Table 2</xref> for results and <xref ref-type="table" rid="pone-0081943-t003">Table 3</xref> for statistics). Likewise, duration of shear force-feedback did not significantly influence the relationship between shear force and adhesion (repeated measures Ancova, <inline-formula><inline-graphic xlink:href="info:doi/10.1371/journal.pone.0081943.e053" xlink:type="simple" /></inline-formula> = 0.196, p = 0.66, n = 5, see Fig. 8 in SI).</p>
+<fig id="pone-0081943-g005" position="float" orientation="portrait"><object-id pub-id-type="doi">10.1371/journal.pone.0081943.g005</object-id><label>Figure 5</label><caption>
+<title>Influence of pulling force on adhesion for (A) euplantulae and (B) arolia of <italic>Carausius morosus</italic>.</title>
+<p>Adhesion of both types of pad was significantly influenced by pulling force, even when corrected for projected contact area (n = 10 for each level, see text for details). The two upper dotted horizontal lines in each plot show the adhesive force needed to support the body weight, for three or six pads in contact, assuming that each pad generates the same adhesive force.</p>
+</caption><graphic mimetype="image" xlink:href="info:doi/10.1371/journal.pone.0081943.g005" position="float" xlink:type="simple" orientation="portrait" /></fig><table-wrap id="pone-0081943-t001" position="float" orientation="portrait"><object-id pub-id-type="doi">10.1371/journal.pone.0081943.t001</object-id><label>Table 1</label><caption>
+<title>Results of single pad adhesion measurements at different pulling forces for arolia and euplantulae of <italic>Carausius morosus</italic>, all performed with a preload of 2 mN (n = 10 for each condition; mean<inline-formula><inline-graphic xlink:href="info:doi/10.1371/journal.pone.0081943.e054" xlink:type="simple" /></inline-formula>sd).</title>
+</caption><alternatives><graphic id="pone-0081943-t001-1" position="float" mimetype="image" xlink:href="info:doi/10.1371/journal.pone.0081943.t001" xlink:type="simple" orientation="portrait" />
+<table><colgroup span="1"><col align="left" span="1" /><col align="center" span="1" /><col align="center" span="1" /><col align="center" span="1" /><col align="center" span="1" /><col align="center" span="1" /><col align="center" span="1" /><col align="center" span="1" /><col align="center" span="1" /></colgroup>
+<thead>
+<tr>
+<td align="left" rowspan="1" colspan="1" />
+<td align="left" rowspan="1" colspan="1">Pulling force in mN</td>
+<td align="left" rowspan="1" colspan="1"><inline-formula><inline-graphic xlink:href="info:doi/10.1371/journal.pone.0081943.e055" xlink:type="simple" /></inline-formula></td>
+<td align="left" rowspan="1" colspan="1"><inline-formula><inline-graphic xlink:href="info:doi/10.1371/journal.pone.0081943.e056" xlink:type="simple" /></inline-formula></td>
+<td align="left" rowspan="1" colspan="1"><inline-formula><inline-graphic xlink:href="info:doi/10.1371/journal.pone.0081943.e057" xlink:type="simple" /></inline-formula></td>
+<td align="left" rowspan="1" colspan="1"><inline-formula><inline-graphic xlink:href="info:doi/10.1371/journal.pone.0081943.e058" xlink:type="simple" /></inline-formula></td>
+<td align="left" rowspan="1" colspan="1"><inline-formula><inline-graphic xlink:href="info:doi/10.1371/journal.pone.0081943.e059" xlink:type="simple" /></inline-formula></td>
+<td align="left" rowspan="1" colspan="1"><inline-formula><inline-graphic xlink:href="info:doi/10.1371/journal.pone.0081943.e060" xlink:type="simple" /></inline-formula></td>
+<td align="left" rowspan="1" colspan="1"><inline-formula><inline-graphic xlink:href="info:doi/10.1371/journal.pone.0081943.e061" xlink:type="simple" /></inline-formula></td>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left" rowspan="1" colspan="1">Arolia</td>
+<td align="left" rowspan="1" colspan="1">Adhesion in mN</td>
+<td align="left" rowspan="1" colspan="1">0.23<inline-formula><inline-graphic xlink:href="info:doi/10.1371/journal.pone.0081943.e062" xlink:type="simple" /></inline-formula>0.19</td>
+<td align="left" rowspan="1" colspan="1">0.61<inline-formula><inline-graphic xlink:href="info:doi/10.1371/journal.pone.0081943.e063" xlink:type="simple" /></inline-formula>0.23</td>
+<td align="left" rowspan="1" colspan="1">0.88<inline-formula><inline-graphic xlink:href="info:doi/10.1371/journal.pone.0081943.e064" xlink:type="simple" /></inline-formula>0.24</td>
+<td align="left" rowspan="1" colspan="1">1.68<inline-formula><inline-graphic xlink:href="info:doi/10.1371/journal.pone.0081943.e065" xlink:type="simple" /></inline-formula>0.46</td>
+<td align="left" rowspan="1" colspan="1">2.78<inline-formula><inline-graphic xlink:href="info:doi/10.1371/journal.pone.0081943.e066" xlink:type="simple" /></inline-formula>0.5</td>
+<td align="left" rowspan="1" colspan="1">4.21<inline-formula><inline-graphic xlink:href="info:doi/10.1371/journal.pone.0081943.e067" xlink:type="simple" /></inline-formula>0.75</td>
+<td align="left" rowspan="1" colspan="1">4.73<inline-formula><inline-graphic xlink:href="info:doi/10.1371/journal.pone.0081943.e068" xlink:type="simple" /></inline-formula>0.76</td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1" />
+<td align="left" rowspan="1" colspan="1">Contact area in mm2</td>
+<td align="left" rowspan="1" colspan="1">0.108<inline-formula><inline-graphic xlink:href="info:doi/10.1371/journal.pone.0081943.e069" xlink:type="simple" /></inline-formula>0.020</td>
+<td align="left" rowspan="1" colspan="1">0.109<inline-formula><inline-graphic xlink:href="info:doi/10.1371/journal.pone.0081943.e070" xlink:type="simple" /></inline-formula> 0.031</td>
+<td align="left" rowspan="1" colspan="1">0.104<inline-formula><inline-graphic xlink:href="info:doi/10.1371/journal.pone.0081943.e071" xlink:type="simple" /></inline-formula> 0.030</td>
+<td align="left" rowspan="1" colspan="1">0.111<inline-formula><inline-graphic xlink:href="info:doi/10.1371/journal.pone.0081943.e072" xlink:type="simple" /></inline-formula> 0.029</td>
+<td align="left" rowspan="1" colspan="1">0.121<inline-formula><inline-graphic xlink:href="info:doi/10.1371/journal.pone.0081943.e073" xlink:type="simple" /></inline-formula> 0.028</td>
+<td align="left" rowspan="1" colspan="1">0.114<inline-formula><inline-graphic xlink:href="info:doi/10.1371/journal.pone.0081943.e074" xlink:type="simple" /></inline-formula> 0.028</td>
+<td align="left" rowspan="1" colspan="1">0.115<inline-formula><inline-graphic xlink:href="info:doi/10.1371/journal.pone.0081943.e075" xlink:type="simple" /></inline-formula>0.026</td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1" />
+<td align="left" rowspan="1" colspan="1">Adhesive stress in kPa</td>
+<td align="left" rowspan="1" colspan="1">2.21<inline-formula><inline-graphic xlink:href="info:doi/10.1371/journal.pone.0081943.e076" xlink:type="simple" /></inline-formula> 1.70</td>
+<td align="left" rowspan="1" colspan="1">5.88<inline-formula><inline-graphic xlink:href="info:doi/10.1371/journal.pone.0081943.e077" xlink:type="simple" /></inline-formula> 2.40</td>
+<td align="left" rowspan="1" colspan="1">8.74<inline-formula><inline-graphic xlink:href="info:doi/10.1371/journal.pone.0081943.e078" xlink:type="simple" /></inline-formula>2.71</td>
+<td align="left" rowspan="1" colspan="1">14.57<inline-formula><inline-graphic xlink:href="info:doi/10.1371/journal.pone.0081943.e079" xlink:type="simple" /></inline-formula>3.78</td>
+<td align="left" rowspan="1" colspan="1">24<inline-formula><inline-graphic xlink:href="info:doi/10.1371/journal.pone.0081943.e080" xlink:type="simple" /></inline-formula>5.96</td>
+<td align="left" rowspan="1" colspan="1">37.86<inline-formula><inline-graphic xlink:href="info:doi/10.1371/journal.pone.0081943.e081" xlink:type="simple" /></inline-formula>7.50</td>
+<td align="left" rowspan="1" colspan="1">42.29<inline-formula><inline-graphic xlink:href="info:doi/10.1371/journal.pone.0081943.e082" xlink:type="simple" /></inline-formula>10</td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1">Euplantulae</td>
+<td align="left" rowspan="1" colspan="1">Adhesion in mN</td>
+<td align="left" rowspan="1" colspan="1">–</td>
+<td align="left" rowspan="1" colspan="1">0.1<inline-formula><inline-graphic xlink:href="info:doi/10.1371/journal.pone.0081943.e083" xlink:type="simple" /></inline-formula>0.09</td>
+<td align="left" rowspan="1" colspan="1">0.13<inline-formula><inline-graphic xlink:href="info:doi/10.1371/journal.pone.0081943.e084" xlink:type="simple" /></inline-formula>0.10</td>
+<td align="left" rowspan="1" colspan="1">0.32<inline-formula><inline-graphic xlink:href="info:doi/10.1371/journal.pone.0081943.e085" xlink:type="simple" /></inline-formula>0.23</td>
+<td align="left" rowspan="1" colspan="1">0.88<inline-formula><inline-graphic xlink:href="info:doi/10.1371/journal.pone.0081943.e086" xlink:type="simple" /></inline-formula>0.66</td>
+<td align="left" rowspan="1" colspan="1">–</td>
+<td align="left" rowspan="1" colspan="1">–</td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1" />
+<td align="left" rowspan="1" colspan="1">Contact area in mm2</td>
+<td align="left" rowspan="1" colspan="1">–</td>
+<td align="left" rowspan="1" colspan="1">0.092<inline-formula><inline-graphic xlink:href="info:doi/10.1371/journal.pone.0081943.e087" xlink:type="simple" /></inline-formula>0.022</td>
+<td align="left" rowspan="1" colspan="1">0.093<inline-formula><inline-graphic xlink:href="info:doi/10.1371/journal.pone.0081943.e088" xlink:type="simple" /></inline-formula>0.020</td>
+<td align="left" rowspan="1" colspan="1">0.097<inline-formula><inline-graphic xlink:href="info:doi/10.1371/journal.pone.0081943.e089" xlink:type="simple" /></inline-formula> 0.021</td>
+<td align="left" rowspan="1" colspan="1">0.099<inline-formula><inline-graphic xlink:href="info:doi/10.1371/journal.pone.0081943.e090" xlink:type="simple" /></inline-formula>0.024</td>
+<td align="left" rowspan="1" colspan="1">–</td>
+<td align="left" rowspan="1" colspan="1">–</td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1" />
+<td align="left" rowspan="1" colspan="1">Adhesive stress in kPa</td>
+<td align="left" rowspan="1" colspan="1">–</td>
+<td align="left" rowspan="1" colspan="1">1.28<inline-formula><inline-graphic xlink:href="info:doi/10.1371/journal.pone.0081943.e091" xlink:type="simple" /></inline-formula>1.10</td>
+<td align="left" rowspan="1" colspan="1">1.49<inline-formula><inline-graphic xlink:href="info:doi/10.1371/journal.pone.0081943.e092" xlink:type="simple" /></inline-formula>1.06</td>
+<td align="left" rowspan="1" colspan="1">3.28<inline-formula><inline-graphic xlink:href="info:doi/10.1371/journal.pone.0081943.e093" xlink:type="simple" /></inline-formula>1.73</td>
+<td align="left" rowspan="1" colspan="1">8.9<inline-formula><inline-graphic xlink:href="info:doi/10.1371/journal.pone.0081943.e094" xlink:type="simple" /></inline-formula>5.84</td>
+<td align="left" rowspan="1" colspan="1">–</td>
+<td align="left" rowspan="1" colspan="1">–</td>
+</tr>
+</tbody>
+</table>
+</alternatives></table-wrap><table-wrap id="pone-0081943-t002" position="float" orientation="portrait"><object-id pub-id-type="doi">10.1371/journal.pone.0081943.t002</object-id><label>Table 2</label><caption>
+<title>Arolia adhesion measured at three different pulling forces, each for five different normal preloads. All values are in mN (n = 10; mean<inline-formula><inline-graphic xlink:href="info:doi/10.1371/journal.pone.0081943.e095" xlink:type="simple" /></inline-formula>sd).</title>
+</caption><alternatives><graphic id="pone-0081943-t002-2" position="float" mimetype="image" xlink:href="info:doi/10.1371/journal.pone.0081943.t002" xlink:type="simple" orientation="portrait" />
+<table><colgroup span="1"><col align="left" span="1" /><col align="center" span="1" /><col align="center" span="1" /><col align="center" span="1" /><col align="center" span="1" /></colgroup>
+<thead>
+<tr>
+<td align="left" rowspan="1" colspan="1" />
+<td align="left" rowspan="1" colspan="1">0.5 mN normal preload</td>
+<td align="left" rowspan="1" colspan="1">1 mN normal preload</td>
+<td align="left" rowspan="1" colspan="1">2 mN normal preload</td>
+<td align="left" rowspan="1" colspan="1">4 mN normal preload</td>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left" rowspan="1" colspan="1">0 mN pulling force</td>
+<td align="left" rowspan="1" colspan="1">0.22<inline-formula><inline-graphic xlink:href="info:doi/10.1371/journal.pone.0081943.e096" xlink:type="simple" /></inline-formula>0.13</td>
+<td align="left" rowspan="1" colspan="1">0.16<inline-formula><inline-graphic xlink:href="info:doi/10.1371/journal.pone.0081943.e097" xlink:type="simple" /></inline-formula>0.11</td>
+<td align="left" rowspan="1" colspan="1">0.18<inline-formula><inline-graphic xlink:href="info:doi/10.1371/journal.pone.0081943.e098" xlink:type="simple" /></inline-formula>0.11</td>
+<td align="left" rowspan="1" colspan="1">0.23<inline-formula><inline-graphic xlink:href="info:doi/10.1371/journal.pone.0081943.e099" xlink:type="simple" /></inline-formula>0.10</td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1">2 mN pulling force</td>
+<td align="left" rowspan="1" colspan="1">1.62<inline-formula><inline-graphic xlink:href="info:doi/10.1371/journal.pone.0081943.e100" xlink:type="simple" /></inline-formula>0.23</td>
+<td align="left" rowspan="1" colspan="1">1.43<inline-formula><inline-graphic xlink:href="info:doi/10.1371/journal.pone.0081943.e101" xlink:type="simple" /></inline-formula>0.19</td>
+<td align="left" rowspan="1" colspan="1">1.32<inline-formula><inline-graphic xlink:href="info:doi/10.1371/journal.pone.0081943.e102" xlink:type="simple" /></inline-formula>0.38</td>
+<td align="left" rowspan="1" colspan="1">1.36<inline-formula><inline-graphic xlink:href="info:doi/10.1371/journal.pone.0081943.e103" xlink:type="simple" /></inline-formula>0.23</td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1">6 mN pulling force</td>
+<td align="left" rowspan="1" colspan="1">3.46<inline-formula><inline-graphic xlink:href="info:doi/10.1371/journal.pone.0081943.e104" xlink:type="simple" /></inline-formula>0.58</td>
+<td align="left" rowspan="1" colspan="1">3.33<inline-formula><inline-graphic xlink:href="info:doi/10.1371/journal.pone.0081943.e105" xlink:type="simple" /></inline-formula>0.53</td>
+<td align="left" rowspan="1" colspan="1">3.39<inline-formula><inline-graphic xlink:href="info:doi/10.1371/journal.pone.0081943.e106" xlink:type="simple" /></inline-formula>0.44</td>
+<td align="left" rowspan="1" colspan="1">3.19<inline-formula><inline-graphic xlink:href="info:doi/10.1371/journal.pone.0081943.e107" xlink:type="simple" /></inline-formula>0.57</td>
+</tr>
+</tbody>
+</table>
+</alternatives></table-wrap><table-wrap id="pone-0081943-t003" position="float" orientation="portrait"><object-id pub-id-type="doi">10.1371/journal.pone.0081943.t003</object-id><label>Table 3</label><caption>
+<title>Statistics for repeated measures ANOVA comparing contact area measured at seven (arolia) and four (euplantulae) different pulling forces (n = 10 in all cases).</title>
+</caption><alternatives><graphic id="pone-0081943-t003-3" position="float" mimetype="image" xlink:href="info:doi/10.1371/journal.pone.0081943.t003" xlink:type="simple" orientation="portrait" />
+<table><colgroup span="1"><col align="left" span="1" /><col align="center" span="1" /><col align="center" span="1" /><col align="center" span="1" /><col align="center" span="1" /><col align="center" span="1" /></colgroup>
+<thead>
+<tr>
+<td align="left" rowspan="1" colspan="1">Arolia</td>
+<td align="left" rowspan="1" colspan="1">Contact area</td>
+<td align="left" rowspan="1" colspan="1">df</td>
+<td align="left" rowspan="1" colspan="1">MS</td>
+<td align="left" rowspan="1" colspan="1">F</td>
+<td align="left" rowspan="1" colspan="1">p</td>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left" rowspan="1" colspan="1" />
+<td align="left" rowspan="1" colspan="1">Pulling force</td>
+<td align="left" rowspan="1" colspan="1"><inline-formula><inline-graphic xlink:href="info:doi/10.1371/journal.pone.0081943.e116" xlink:type="simple" /></inline-formula></td>
+<td align="left" rowspan="1" colspan="1"><inline-formula><inline-graphic xlink:href="info:doi/10.1371/journal.pone.0081943.e117" xlink:type="simple" /></inline-formula></td>
+<td align="left" rowspan="1" colspan="1"><inline-formula><inline-graphic xlink:href="info:doi/10.1371/journal.pone.0081943.e118" xlink:type="simple" /></inline-formula></td>
+<td align="left" rowspan="1" colspan="1"><inline-formula><inline-graphic xlink:href="info:doi/10.1371/journal.pone.0081943.e119" xlink:type="simple" /></inline-formula></td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1" />
+<td align="left" rowspan="1" colspan="1">Individual</td>
+<td align="left" rowspan="1" colspan="1"><inline-formula><inline-graphic xlink:href="info:doi/10.1371/journal.pone.0081943.e120" xlink:type="simple" /></inline-formula></td>
+<td align="left" rowspan="1" colspan="1"><inline-formula><inline-graphic xlink:href="info:doi/10.1371/journal.pone.0081943.e121" xlink:type="simple" /></inline-formula></td>
+<td align="left" rowspan="1" colspan="1" />
+<td align="left" rowspan="1" colspan="1" />
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1" />
+<td align="left" rowspan="1" colspan="1">Error</td>
+<td align="left" rowspan="1" colspan="1"><inline-formula><inline-graphic xlink:href="info:doi/10.1371/journal.pone.0081943.e122" xlink:type="simple" /></inline-formula></td>
+<td align="left" rowspan="1" colspan="1"><inline-formula><inline-graphic xlink:href="info:doi/10.1371/journal.pone.0081943.e123" xlink:type="simple" /></inline-formula></td>
+<td align="left" rowspan="1" colspan="1" />
+<td align="left" rowspan="1" colspan="1" />
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1"><bold>Euplantulae</bold></td>
+<td align="left" rowspan="1" colspan="1">Contact area</td>
+<td align="left" rowspan="1" colspan="1">df</td>
+<td align="left" rowspan="1" colspan="1">MS</td>
+<td align="left" rowspan="1" colspan="1">F</td>
+<td align="left" rowspan="1" colspan="1">p</td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1" />
+<td align="left" rowspan="1" colspan="1">Pulling force</td>
+<td align="left" rowspan="1" colspan="1"><inline-formula><inline-graphic xlink:href="info:doi/10.1371/journal.pone.0081943.e124" xlink:type="simple" /></inline-formula></td>
+<td align="left" rowspan="1" colspan="1"><inline-formula><inline-graphic xlink:href="info:doi/10.1371/journal.pone.0081943.e125" xlink:type="simple" /></inline-formula></td>
+<td align="left" rowspan="1" colspan="1"><inline-formula><inline-graphic xlink:href="info:doi/10.1371/journal.pone.0081943.e126" xlink:type="simple" /></inline-formula></td>
+<td align="left" rowspan="1" colspan="1"><bold>0.0265</bold></td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1" />
+<td align="left" rowspan="1" colspan="1">Individual</td>
+<td align="left" rowspan="1" colspan="1"><inline-formula><inline-graphic xlink:href="info:doi/10.1371/journal.pone.0081943.e127" xlink:type="simple" /></inline-formula></td>
+<td align="left" rowspan="1" colspan="1"><inline-formula><inline-graphic xlink:href="info:doi/10.1371/journal.pone.0081943.e128" xlink:type="simple" /></inline-formula></td>
+<td align="left" rowspan="1" colspan="1" />
+<td align="left" rowspan="1" colspan="1" />
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1" />
+<td align="left" rowspan="1" colspan="1">Error</td>
+<td align="left" rowspan="1" colspan="1"><inline-formula><inline-graphic xlink:href="info:doi/10.1371/journal.pone.0081943.e129" xlink:type="simple" /></inline-formula></td>
+<td align="left" rowspan="1" colspan="1"><inline-formula><inline-graphic xlink:href="info:doi/10.1371/journal.pone.0081943.e130" xlink:type="simple" /></inline-formula></td>
+<td align="left" rowspan="1" colspan="1" />
+<td align="left" rowspan="1" colspan="1" />
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1"><bold>Arolia</bold></td>
+<td align="left" rowspan="1" colspan="1">Adhesion</td>
+<td align="left" rowspan="1" colspan="1">df</td>
+<td align="left" rowspan="1" colspan="1">MS</td>
+<td align="left" rowspan="1" colspan="1">F</td>
+<td align="left" rowspan="1" colspan="1">p</td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1" />
+<td align="left" rowspan="1" colspan="1">Pulling force</td>
+<td align="left" rowspan="1" colspan="1">1</td>
+<td align="left" rowspan="1" colspan="1">200.40</td>
+<td align="left" rowspan="1" colspan="1">1998.426</td>
+<td align="left" rowspan="1" colspan="1"><inline-formula><inline-graphic xlink:href="info:doi/10.1371/journal.pone.0081943.e131" xlink:type="simple" /></inline-formula> <bold>0.001</bold></td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1" />
+<td align="left" rowspan="1" colspan="1">Normal preload</td>
+<td align="left" rowspan="1" colspan="1">1</td>
+<td align="left" rowspan="1" colspan="1">0.3</td>
+<td align="left" rowspan="1" colspan="1">2.97</td>
+<td align="left" rowspan="1" colspan="1">0.0876</td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1" />
+<td align="left" rowspan="1" colspan="1">Pulling force: Normal preload</td>
+<td align="left" rowspan="1" colspan="1">1</td>
+<td align="left" rowspan="1" colspan="1">0.16</td>
+<td align="left" rowspan="1" colspan="1">1.589</td>
+<td align="left" rowspan="1" colspan="1">0.2102</td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1" />
+<td align="left" rowspan="1" colspan="1">Individual</td>
+<td align="left" rowspan="1" colspan="1">9</td>
+<td align="left" rowspan="1" colspan="1">0.4203</td>
+<td align="left" rowspan="1" colspan="1" />
+<td align="left" rowspan="1" colspan="1" />
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1" />
+<td align="left" rowspan="1" colspan="1">Residuals</td>
+<td align="left" rowspan="1" colspan="1">107</td>
+<td align="left" rowspan="1" colspan="1">0.1</td>
+<td align="left" rowspan="1" colspan="1" />
+<td align="left" rowspan="1" colspan="1" />
+</tr>
+</tbody>
+</table>
+</alternatives><table-wrap-foot><fn id="nt102"><label /><p>The last ANOVA table shows the results for the combined influence of normal preload and pulling force on adhesion of arolia, for details see text.</p></fn></table-wrap-foot></table-wrap>
+<p>In order to test whether the influence of pulling on adhesion was reversible, a fixed-displacement pull over 0.5 mm was applied to the arolium in contact, resulting in a pulling force of 2.29 <inline-formula><inline-graphic xlink:href="info:doi/10.1371/journal.pone.0081943.e108" xlink:type="simple" /></inline-formula> 0.43 mN (n = 15). After the pulling force was brought back to 0 mN via the force-feedback mechanism, arolium adhesion was not significantly different from the values measured at 0 mN pulling force without prior displacement (paired t-test, <inline-formula><inline-graphic xlink:href="info:doi/10.1371/journal.pone.0081943.e109" xlink:type="simple" /></inline-formula> = 0.974, p = 0.346), but was significantly smaller than the adhesion measured at 0.5 mN pulling force (paired t-test, <inline-formula><inline-graphic xlink:href="info:doi/10.1371/journal.pone.0081943.e110" xlink:type="simple" /></inline-formula> = 3.58, p <inline-formula><inline-graphic xlink:href="info:doi/10.1371/journal.pone.0081943.e111" xlink:type="simple" /></inline-formula> 0.01, see Fig. 9 in SI).</p>
+</sec><sec id="s3c2">
+<title>Euplantulae</title>
+<p>As for arolia, adhesion of euplantulae increased significantly with pulling force (Page's trend test, <inline-formula><inline-graphic xlink:href="info:doi/10.1371/journal.pone.0081943.e112" xlink:type="simple" /></inline-formula> = 296, p <inline-formula><inline-graphic xlink:href="info:doi/10.1371/journal.pone.0081943.e113" xlink:type="simple" /></inline-formula> 0.001, n = 10). However, mean adhesion remained below 15% of the insects' body weight even for the highest pulling force of 4 mN (<xref ref-type="table" rid="pone-0081943-t001">Table 1</xref> and <xref ref-type="fig" rid="pone-0081943-g005">Fig. 5B</xref>).</p>
+<p>Projected contact area of euplantulae showed a weak, but significant trend to increase with pulling force (<xref ref-type="table" rid="pone-0081943-t003">Table 3</xref>). When adhesion was corrected for projected contact area, pulling force still exerted a significant influence (Page's trend test, <inline-formula><inline-graphic xlink:href="info:doi/10.1371/journal.pone.0081943.e114" xlink:type="simple" /></inline-formula>, p <inline-formula><inline-graphic xlink:href="info:doi/10.1371/journal.pone.0081943.e115" xlink:type="simple" /></inline-formula> 0.001, n = 10).</p>
+</sec></sec><sec id="s3d">
+<title>Effect of normal load on friction</title>
+<sec id="s3d1">
+<title>Arolia</title>
+<p>Friction forces of arolia increased weakly but significantly with normal load (see <xref ref-type="fig" rid="pone-0081943-g006">Fig. 6A–C</xref> and <xref ref-type="table" rid="pone-0081943-t004">Tables 4</xref> and <xref ref-type="table" rid="pone-0081943-t005">5</xref>). Consistent with this moderate increase, the load-specific coefficient of friction (called “effective” coefficient of friction in this paper, measured as the maximum friction divided by normal load) decreased nearly by a factor of four, from 7.81 <inline-formula><inline-graphic xlink:href="info:doi/10.1371/journal.pone.0081943.e132" xlink:type="simple" /></inline-formula>1.73 at 1 mN normal load to 2.13 <inline-formula><inline-graphic xlink:href="info:doi/10.1371/journal.pone.0081943.e133" xlink:type="simple" /></inline-formula> 0.33 at 4 mN normal load. Although contact area did not change significantly with normal load, the increase of friction with normal load was no longer significant when corrected for contact area, indicating that the observed small increase in friction can be explained by a slightly larger contact area (<xref ref-type="fig" rid="pone-0081943-g006">Fig. 6A–C</xref>).</p>
+<fig id="pone-0081943-g006" position="float" orientation="portrait"><object-id pub-id-type="doi">10.1371/journal.pone.0081943.g006</object-id><label>Figure 6</label><caption>
+<title>Influence of normal load on friction and projected contact area of arolia (A–C) and euplantulae (D–F) of <italic>Carausius morosus</italic> (n = 10 for each level).</title>
+<p>Dark grey boxes on the left of each plot depict the actual data at 1-1 mN and 4-2 mN normal load. Triangles within the light grey boxes indicate the position of the estimated mean of the differences together with corresponding 95% confidence interval as calculated with a paired t-test. Horizontal dashed lines indicate the zero difference line. For arolia, friction showed a slight trend to increase with normal load (A), but not contact area and kinetic shear stress (B and C). For euplantulae, friction, projected contact area and shear stress (friction per projected contact area) (D to F) significantly increased with normal load.</p>
+</caption><graphic mimetype="image" xlink:href="info:doi/10.1371/journal.pone.0081943.g006" position="float" xlink:type="simple" orientation="portrait" /></fig><table-wrap id="pone-0081943-t004" position="float" orientation="portrait"><object-id pub-id-type="doi">10.1371/journal.pone.0081943.t004</object-id><label>Table 4</label><caption>
+<title>Results of single pad friction measurements at different normal loads for arolia and euplantulae of <italic>Carausius morosus</italic> (n = 10 for each condition; mean<inline-formula><inline-graphic xlink:href="info:doi/10.1371/journal.pone.0081943.e134" xlink:type="simple" /></inline-formula>sd or median <inline-formula><inline-graphic xlink:href="info:doi/10.1371/journal.pone.0081943.e135" xlink:type="simple" /></inline-formula> median absolute deviation for non-normal data, indicated by an asterix.).</title>
+</caption><alternatives><graphic id="pone-0081943-t004-4" position="float" mimetype="image" xlink:href="info:doi/10.1371/journal.pone.0081943.t004" xlink:type="simple" orientation="portrait" />
+<table><colgroup span="1"><col align="left" span="1" /><col align="center" span="1" /><col align="center" span="1" /><col align="center" span="1" /><col align="center" span="1" /></colgroup>
+<thead>
+<tr>
+<td align="left" rowspan="1" colspan="1" />
+<td align="left" rowspan="1" colspan="1" />
+<td colspan="3" align="left" rowspan="1">Normal load</td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1" />
+<td align="left" rowspan="1" colspan="1" />
+<td align="left" rowspan="1" colspan="1">1 mN</td>
+<td align="left" rowspan="1" colspan="1">2 mN</td>
+<td align="left" rowspan="1" colspan="1">4 mN</td>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left" rowspan="1" colspan="1">Arolia</td>
+<td align="left" rowspan="1" colspan="1">Friction in mN</td>
+<td align="left" rowspan="1" colspan="1">7.81<inline-formula><inline-graphic xlink:href="info:doi/10.1371/journal.pone.0081943.e136" xlink:type="simple" /></inline-formula>1.73</td>
+<td align="left" rowspan="1" colspan="1">8.07<inline-formula><inline-graphic xlink:href="info:doi/10.1371/journal.pone.0081943.e137" xlink:type="simple" /></inline-formula>1.13</td>
+<td align="left" rowspan="1" colspan="1">8.53<inline-formula><inline-graphic xlink:href="info:doi/10.1371/journal.pone.0081943.e138" xlink:type="simple" /></inline-formula>1.31</td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1" />
+<td align="left" rowspan="1" colspan="1">Contact area in mm2</td>
+<td align="left" rowspan="1" colspan="1">0.110<inline-formula><inline-graphic xlink:href="info:doi/10.1371/journal.pone.0081943.e139" xlink:type="simple" /></inline-formula>0.024</td>
+<td align="left" rowspan="1" colspan="1">0.111<inline-formula><inline-graphic xlink:href="info:doi/10.1371/journal.pone.0081943.e140" xlink:type="simple" /></inline-formula>0.032</td>
+<td align="left" rowspan="1" colspan="1">0.114<inline-formula><inline-graphic xlink:href="info:doi/10.1371/journal.pone.0081943.e141" xlink:type="simple" /></inline-formula>0.025</td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1" />
+<td align="left" rowspan="1" colspan="1">Shear stress in kPa</td>
+<td align="left" rowspan="1" colspan="1">73.07<inline-formula><inline-graphic xlink:href="info:doi/10.1371/journal.pone.0081943.e142" xlink:type="simple" /></inline-formula>20.05</td>
+<td align="left" rowspan="1" colspan="1">76.56<inline-formula><inline-graphic xlink:href="info:doi/10.1371/journal.pone.0081943.e143" xlink:type="simple" /></inline-formula>19.64</td>
+<td align="left" rowspan="1" colspan="1">77.00<inline-formula><inline-graphic xlink:href="info:doi/10.1371/journal.pone.0081943.e144" xlink:type="simple" /></inline-formula>16.40</td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1">Euplantulae</td>
+<td align="left" rowspan="1" colspan="1">Friction in mN</td>
+<td align="left" rowspan="1" colspan="1">3.44<inline-formula><inline-graphic xlink:href="info:doi/10.1371/journal.pone.0081943.e145" xlink:type="simple" /></inline-formula>2.75<inline-formula><inline-graphic xlink:href="info:doi/10.1371/journal.pone.0081943.e146" xlink:type="simple" /></inline-formula></td>
+<td align="left" rowspan="1" colspan="1">6.78<inline-formula><inline-graphic xlink:href="info:doi/10.1371/journal.pone.0081943.e147" xlink:type="simple" /></inline-formula>4.56</td>
+<td align="left" rowspan="1" colspan="1">7.77<inline-formula><inline-graphic xlink:href="info:doi/10.1371/journal.pone.0081943.e148" xlink:type="simple" /></inline-formula>4.28</td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1" />
+<td align="left" rowspan="1" colspan="1">Contact area in mm2</td>
+<td align="left" rowspan="1" colspan="1">0.092<inline-formula><inline-graphic xlink:href="info:doi/10.1371/journal.pone.0081943.e149" xlink:type="simple" /></inline-formula>0.030</td>
+<td align="left" rowspan="1" colspan="1">0.099<inline-formula><inline-graphic xlink:href="info:doi/10.1371/journal.pone.0081943.e150" xlink:type="simple" /></inline-formula>0.025</td>
+<td align="left" rowspan="1" colspan="1">0.105<inline-formula><inline-graphic xlink:href="info:doi/10.1371/journal.pone.0081943.e151" xlink:type="simple" /></inline-formula>0.028</td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1" />
+<td align="left" rowspan="1" colspan="1">Shear stress in kPa</td>
+<td align="left" rowspan="1" colspan="1">49.11<inline-formula><inline-graphic xlink:href="info:doi/10.1371/journal.pone.0081943.e152" xlink:type="simple" /></inline-formula>28.11</td>
+<td align="left" rowspan="1" colspan="1">63.60<inline-formula><inline-graphic xlink:href="info:doi/10.1371/journal.pone.0081943.e153" xlink:type="simple" /></inline-formula>31.65</td>
+<td align="left" rowspan="1" colspan="1">70.35<inline-formula><inline-graphic xlink:href="info:doi/10.1371/journal.pone.0081943.e154" xlink:type="simple" /></inline-formula>27.35</td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1" />
+<td align="left" rowspan="1" colspan="1">Contrast</td>
+<td align="left" rowspan="1" colspan="1">0.136<inline-formula><inline-graphic xlink:href="info:doi/10.1371/journal.pone.0081943.e155" xlink:type="simple" /></inline-formula>0.046</td>
+<td align="left" rowspan="1" colspan="1">0.161<inline-formula><inline-graphic xlink:href="info:doi/10.1371/journal.pone.0081943.e156" xlink:type="simple" /></inline-formula>0.054</td>
+<td align="left" rowspan="1" colspan="1">0.186<inline-formula><inline-graphic xlink:href="info:doi/10.1371/journal.pone.0081943.e157" xlink:type="simple" /></inline-formula>0.044</td>
+</tr>
+</tbody>
+</table>
+</alternatives></table-wrap><table-wrap id="pone-0081943-t005" position="float" orientation="portrait"><object-id pub-id-type="doi">10.1371/journal.pone.0081943.t005</object-id><label>Table 5</label><caption>
+<title>Statistics for repeated measures ANOVA/ANCOVA comparing friction, contact area, shear stress, and contrast (euplantulae only) measured at three different normal loads (n = 10 for each condition; mean<inline-formula><inline-graphic xlink:href="info:doi/10.1371/journal.pone.0081943.e158" xlink:type="simple" /></inline-formula>sd).</title>
+</caption><alternatives><graphic id="pone-0081943-t005-5" position="float" mimetype="image" xlink:href="info:doi/10.1371/journal.pone.0081943.t005" xlink:type="simple" orientation="portrait" />
+<table><colgroup span="1"><col align="left" span="1" /><col align="center" span="1" /><col align="center" span="1" /><col align="center" span="1" /><col align="center" span="1" /><col align="center" span="1" /></colgroup>
+<thead>
+<tr>
+<td align="left" rowspan="1" colspan="1">Arolia</td>
+<td align="left" rowspan="1" colspan="1" />
+<td align="left" rowspan="1" colspan="1" />
+<td align="left" rowspan="1" colspan="1" />
+<td align="left" rowspan="1" colspan="1" />
+<td align="left" rowspan="1" colspan="1" />
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1" />
+<td align="left" rowspan="1" colspan="1">Friction</td>
+<td align="left" rowspan="1" colspan="1">df</td>
+<td align="left" rowspan="1" colspan="1">MS</td>
+<td align="left" rowspan="1" colspan="1">F</td>
+<td align="left" rowspan="1" colspan="1">p</td>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left" rowspan="1" colspan="1" />
+<td align="left" rowspan="1" colspan="1">Normal load</td>
+<td align="left" rowspan="1" colspan="1"><inline-formula><inline-graphic xlink:href="info:doi/10.1371/journal.pone.0081943.e159" xlink:type="simple" /></inline-formula></td>
+<td align="left" rowspan="1" colspan="1"><inline-formula><inline-graphic xlink:href="info:doi/10.1371/journal.pone.0081943.e160" xlink:type="simple" /></inline-formula></td>
+<td align="left" rowspan="1" colspan="1"><inline-formula><inline-graphic xlink:href="info:doi/10.1371/journal.pone.0081943.e161" xlink:type="simple" /></inline-formula></td>
+<td align="left" rowspan="1" colspan="1"><bold>0.0434</bold></td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1" />
+<td align="left" rowspan="1" colspan="1">Individual</td>
+<td align="left" rowspan="1" colspan="1"><inline-formula><inline-graphic xlink:href="info:doi/10.1371/journal.pone.0081943.e162" xlink:type="simple" /></inline-formula></td>
+<td align="left" rowspan="1" colspan="1"><inline-formula><inline-graphic xlink:href="info:doi/10.1371/journal.pone.0081943.e163" xlink:type="simple" /></inline-formula></td>
+<td align="left" rowspan="1" colspan="1" />
+<td align="left" rowspan="1" colspan="1" />
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1" />
+<td align="left" rowspan="1" colspan="1">Error</td>
+<td align="left" rowspan="1" colspan="1"><inline-formula><inline-graphic xlink:href="info:doi/10.1371/journal.pone.0081943.e164" xlink:type="simple" /></inline-formula></td>
+<td align="left" rowspan="1" colspan="1"><inline-formula><inline-graphic xlink:href="info:doi/10.1371/journal.pone.0081943.e165" xlink:type="simple" /></inline-formula></td>
+<td align="left" rowspan="1" colspan="1" />
+<td align="left" rowspan="1" colspan="1" />
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1" />
+<td align="left" rowspan="1" colspan="1"><bold>Area</bold></td>
+<td align="left" rowspan="1" colspan="1">df</td>
+<td align="left" rowspan="1" colspan="1">MS</td>
+<td align="left" rowspan="1" colspan="1">F</td>
+<td align="left" rowspan="1" colspan="1">p</td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1" />
+<td align="left" rowspan="1" colspan="1">Normal load</td>
+<td align="left" rowspan="1" colspan="1"><inline-formula><inline-graphic xlink:href="info:doi/10.1371/journal.pone.0081943.e166" xlink:type="simple" /></inline-formula></td>
+<td align="left" rowspan="1" colspan="1"><inline-formula><inline-graphic xlink:href="info:doi/10.1371/journal.pone.0081943.e167" xlink:type="simple" /></inline-formula></td>
+<td align="left" rowspan="1" colspan="1"><inline-formula><inline-graphic xlink:href="info:doi/10.1371/journal.pone.0081943.e168" xlink:type="simple" /></inline-formula></td>
+<td align="left" rowspan="1" colspan="1"><inline-formula><inline-graphic xlink:href="info:doi/10.1371/journal.pone.0081943.e169" xlink:type="simple" /></inline-formula></td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1" />
+<td align="left" rowspan="1" colspan="1">Individual</td>
+<td align="left" rowspan="1" colspan="1"><inline-formula><inline-graphic xlink:href="info:doi/10.1371/journal.pone.0081943.e170" xlink:type="simple" /></inline-formula></td>
+<td align="left" rowspan="1" colspan="1"><inline-formula><inline-graphic xlink:href="info:doi/10.1371/journal.pone.0081943.e171" xlink:type="simple" /></inline-formula></td>
+<td align="left" rowspan="1" colspan="1" />
+<td align="left" rowspan="1" colspan="1" />
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1" />
+<td align="left" rowspan="1" colspan="1">Error</td>
+<td align="left" rowspan="1" colspan="1"><inline-formula><inline-graphic xlink:href="info:doi/10.1371/journal.pone.0081943.e172" xlink:type="simple" /></inline-formula></td>
+<td align="left" rowspan="1" colspan="1"><inline-formula><inline-graphic xlink:href="info:doi/10.1371/journal.pone.0081943.e173" xlink:type="simple" /></inline-formula></td>
+<td align="left" rowspan="1" colspan="1" />
+<td align="left" rowspan="1" colspan="1" />
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1" />
+<td align="left" rowspan="1" colspan="1"><bold>Shear stress</bold></td>
+<td align="left" rowspan="1" colspan="1">df</td>
+<td align="left" rowspan="1" colspan="1">MS</td>
+<td align="left" rowspan="1" colspan="1">F</td>
+<td align="left" rowspan="1" colspan="1">p</td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1" />
+<td align="left" rowspan="1" colspan="1">Normal load</td>
+<td align="left" rowspan="1" colspan="1"><inline-formula><inline-graphic xlink:href="info:doi/10.1371/journal.pone.0081943.e174" xlink:type="simple" /></inline-formula></td>
+<td align="left" rowspan="1" colspan="1"><inline-formula><inline-graphic xlink:href="info:doi/10.1371/journal.pone.0081943.e175" xlink:type="simple" /></inline-formula></td>
+<td align="left" rowspan="1" colspan="1"><inline-formula><inline-graphic xlink:href="info:doi/10.1371/journal.pone.0081943.e176" xlink:type="simple" /></inline-formula></td>
+<td align="left" rowspan="1" colspan="1"><inline-formula><inline-graphic xlink:href="info:doi/10.1371/journal.pone.0081943.e177" xlink:type="simple" /></inline-formula></td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1" />
+<td align="left" rowspan="1" colspan="1">Individual</td>
+<td align="left" rowspan="1" colspan="1"><inline-formula><inline-graphic xlink:href="info:doi/10.1371/journal.pone.0081943.e178" xlink:type="simple" /></inline-formula></td>
+<td align="left" rowspan="1" colspan="1"><inline-formula><inline-graphic xlink:href="info:doi/10.1371/journal.pone.0081943.e179" xlink:type="simple" /></inline-formula></td>
+<td align="left" rowspan="1" colspan="1" />
+<td align="left" rowspan="1" colspan="1" />
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1" />
+<td align="left" rowspan="1" colspan="1">Error</td>
+<td align="left" rowspan="1" colspan="1"><inline-formula><inline-graphic xlink:href="info:doi/10.1371/journal.pone.0081943.e180" xlink:type="simple" /></inline-formula></td>
+<td align="left" rowspan="1" colspan="1"><inline-formula><inline-graphic xlink:href="info:doi/10.1371/journal.pone.0081943.e181" xlink:type="simple" /></inline-formula></td>
+<td align="left" rowspan="1" colspan="1" />
+<td align="left" rowspan="1" colspan="1" />
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1">Euplantulae</td>
+<td align="left" rowspan="1" colspan="1" />
+<td align="left" rowspan="1" colspan="1" />
+<td align="left" rowspan="1" colspan="1" />
+<td align="left" rowspan="1" colspan="1" />
+<td align="left" rowspan="1" colspan="1" />
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1" />
+<td align="left" rowspan="1" colspan="1"><bold>Friction</bold></td>
+<td align="left" rowspan="1" colspan="1">df</td>
+<td align="left" rowspan="1" colspan="1">MS</td>
+<td align="left" rowspan="1" colspan="1">F</td>
+<td align="left" rowspan="1" colspan="1">p</td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1" />
+<td align="left" rowspan="1" colspan="1">Normal load</td>
+<td align="left" rowspan="1" colspan="1"><inline-formula><inline-graphic xlink:href="info:doi/10.1371/journal.pone.0081943.e182" xlink:type="simple" /></inline-formula></td>
+<td align="left" rowspan="1" colspan="1"><inline-formula><inline-graphic xlink:href="info:doi/10.1371/journal.pone.0081943.e183" xlink:type="simple" /></inline-formula></td>
+<td align="left" rowspan="1" colspan="1"><inline-formula><inline-graphic xlink:href="info:doi/10.1371/journal.pone.0081943.e184" xlink:type="simple" /></inline-formula></td>
+<td align="left" rowspan="1" colspan="1"><inline-formula><inline-graphic xlink:href="info:doi/10.1371/journal.pone.0081943.e185" xlink:type="simple" /></inline-formula> <bold>0.001</bold></td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1" />
+<td align="left" rowspan="1" colspan="1">Individual</td>
+<td align="left" rowspan="1" colspan="1"><inline-formula><inline-graphic xlink:href="info:doi/10.1371/journal.pone.0081943.e186" xlink:type="simple" /></inline-formula></td>
+<td align="left" rowspan="1" colspan="1"><inline-formula><inline-graphic xlink:href="info:doi/10.1371/journal.pone.0081943.e187" xlink:type="simple" /></inline-formula></td>
+<td align="left" rowspan="1" colspan="1" />
+<td align="left" rowspan="1" colspan="1" />
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1" />
+<td align="left" rowspan="1" colspan="1">Error</td>
+<td align="left" rowspan="1" colspan="1"><inline-formula><inline-graphic xlink:href="info:doi/10.1371/journal.pone.0081943.e188" xlink:type="simple" /></inline-formula></td>
+<td align="left" rowspan="1" colspan="1"><inline-formula><inline-graphic xlink:href="info:doi/10.1371/journal.pone.0081943.e189" xlink:type="simple" /></inline-formula></td>
+<td align="left" rowspan="1" colspan="1" />
+<td align="left" rowspan="1" colspan="1" />
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1" />
+<td align="left" rowspan="1" colspan="1"><bold>Area</bold></td>
+<td align="left" rowspan="1" colspan="1">df</td>
+<td align="left" rowspan="1" colspan="1">MS</td>
+<td align="left" rowspan="1" colspan="1">F</td>
+<td align="left" rowspan="1" colspan="1">p</td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1" />
+<td align="left" rowspan="1" colspan="1">Normal load</td>
+<td align="left" rowspan="1" colspan="1"><inline-formula><inline-graphic xlink:href="info:doi/10.1371/journal.pone.0081943.e190" xlink:type="simple" /></inline-formula></td>
+<td align="left" rowspan="1" colspan="1"><inline-formula><inline-graphic xlink:href="info:doi/10.1371/journal.pone.0081943.e191" xlink:type="simple" /></inline-formula></td>
+<td align="left" rowspan="1" colspan="1"><inline-formula><inline-graphic xlink:href="info:doi/10.1371/journal.pone.0081943.e192" xlink:type="simple" /></inline-formula></td>
+<td align="left" rowspan="1" colspan="1"><bold>0.038</bold></td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1" />
+<td align="left" rowspan="1" colspan="1">Individual</td>
+<td align="left" rowspan="1" colspan="1"><inline-formula><inline-graphic xlink:href="info:doi/10.1371/journal.pone.0081943.e193" xlink:type="simple" /></inline-formula></td>
+<td align="left" rowspan="1" colspan="1"><inline-formula><inline-graphic xlink:href="info:doi/10.1371/journal.pone.0081943.e194" xlink:type="simple" /></inline-formula></td>
+<td align="left" rowspan="1" colspan="1" />
+<td align="left" rowspan="1" colspan="1" />
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1" />
+<td align="left" rowspan="1" colspan="1">Error</td>
+<td align="left" rowspan="1" colspan="1"><inline-formula><inline-graphic xlink:href="info:doi/10.1371/journal.pone.0081943.e195" xlink:type="simple" /></inline-formula></td>
+<td align="left" rowspan="1" colspan="1"><inline-formula><inline-graphic xlink:href="info:doi/10.1371/journal.pone.0081943.e196" xlink:type="simple" /></inline-formula></td>
+<td align="left" rowspan="1" colspan="1" />
+<td align="left" rowspan="1" colspan="1" />
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1" />
+<td align="left" rowspan="1" colspan="1"><bold>Shear stress</bold></td>
+<td align="left" rowspan="1" colspan="1">df</td>
+<td align="left" rowspan="1" colspan="1">MS</td>
+<td align="left" rowspan="1" colspan="1">F</td>
+<td align="left" rowspan="1" colspan="1">p</td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1" />
+<td align="left" rowspan="1" colspan="1">Contrast</td>
+<td align="left" rowspan="1" colspan="1"><inline-formula><inline-graphic xlink:href="info:doi/10.1371/journal.pone.0081943.e197" xlink:type="simple" /></inline-formula></td>
+<td align="left" rowspan="1" colspan="1"><inline-formula><inline-graphic xlink:href="info:doi/10.1371/journal.pone.0081943.e198" xlink:type="simple" /></inline-formula></td>
+<td align="left" rowspan="1" colspan="1"><inline-formula><inline-graphic xlink:href="info:doi/10.1371/journal.pone.0081943.e199" xlink:type="simple" /></inline-formula></td>
+<td align="left" rowspan="1" colspan="1"><inline-formula><inline-graphic xlink:href="info:doi/10.1371/journal.pone.0081943.e200" xlink:type="simple" /></inline-formula> <bold>0.0001</bold></td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1" />
+<td align="left" rowspan="1" colspan="1">Normal load</td>
+<td align="left" rowspan="1" colspan="1"><inline-formula><inline-graphic xlink:href="info:doi/10.1371/journal.pone.0081943.e201" xlink:type="simple" /></inline-formula></td>
+<td align="left" rowspan="1" colspan="1"><inline-formula><inline-graphic xlink:href="info:doi/10.1371/journal.pone.0081943.e202" xlink:type="simple" /></inline-formula></td>
+<td align="left" rowspan="1" colspan="1"><inline-formula><inline-graphic xlink:href="info:doi/10.1371/journal.pone.0081943.e203" xlink:type="simple" /></inline-formula></td>
+<td align="left" rowspan="1" colspan="1"><inline-formula><inline-graphic xlink:href="info:doi/10.1371/journal.pone.0081943.e204" xlink:type="simple" /></inline-formula></td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1" />
+<td align="left" rowspan="1" colspan="1">Individual</td>
+<td align="left" rowspan="1" colspan="1"><inline-formula><inline-graphic xlink:href="info:doi/10.1371/journal.pone.0081943.e205" xlink:type="simple" /></inline-formula></td>
+<td align="left" rowspan="1" colspan="1"><inline-formula><inline-graphic xlink:href="info:doi/10.1371/journal.pone.0081943.e206" xlink:type="simple" /></inline-formula></td>
+<td align="left" rowspan="1" colspan="1" />
+<td align="left" rowspan="1" colspan="1" />
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1" />
+<td align="left" rowspan="1" colspan="1">Error</td>
+<td align="left" rowspan="1" colspan="1"><inline-formula><inline-graphic xlink:href="info:doi/10.1371/journal.pone.0081943.e207" xlink:type="simple" /></inline-formula></td>
+<td align="left" rowspan="1" colspan="1"><inline-formula><inline-graphic xlink:href="info:doi/10.1371/journal.pone.0081943.e208" xlink:type="simple" /></inline-formula></td>
+<td align="left" rowspan="1" colspan="1" />
+<td align="left" rowspan="1" colspan="1" />
+</tr>
+</tbody>
+</table>
+</alternatives></table-wrap></sec><sec id="s3d2">
+<title>Euplantulae</title>
+<p>Friction of euplantulae increased significantly with normal load, from 3.44 <inline-formula><inline-graphic xlink:href="info:doi/10.1371/journal.pone.0081943.e209" xlink:type="simple" /></inline-formula> 2.75 mN for 1 mN load (median <inline-formula><inline-graphic xlink:href="info:doi/10.1371/journal.pone.0081943.e210" xlink:type="simple" /></inline-formula> median absolute deviation) up to 7.77 <inline-formula><inline-graphic xlink:href="info:doi/10.1371/journal.pone.0081943.e211" xlink:type="simple" /></inline-formula> 4.28 mN for 4 mN load (see <xref ref-type="fig" rid="pone-0081943-g006">Fig. 6D–F</xref>, and <xref ref-type="table" rid="pone-0081943-t004">Tables 4</xref> and <xref ref-type="table" rid="pone-0081943-t005">5</xref>). Thus, in contrast to arolia, the effective coefficient of friction decreased only by a factor of around two. Projected contact area significantly increased with normal load. In contrast to arolia, this effect was not sufficient to remove the significant influence of normal load on friction (<xref ref-type="table" rid="pone-0081943-t005">Table 5</xref>).</p>
+<p>Normal and pulling force had a strong effect on the reflected-light contrast of the euplantula contact zone. Contact area contrast measured without shear significantly increased with normal load (repeated measures Anova, <inline-formula><inline-graphic xlink:href="info:doi/10.1371/journal.pone.0081943.e212" xlink:type="simple" /></inline-formula> = 31.18, p<inline-formula><inline-graphic xlink:href="info:doi/10.1371/journal.pone.0081943.e213" xlink:type="simple" /></inline-formula> 0.001, <xref ref-type="fig" rid="pone-0081943-g007">Fig. 7</xref>). Contact area contrast also significantly increased from 0.14 <inline-formula><inline-graphic xlink:href="info:doi/10.1371/journal.pone.0081943.e214" xlink:type="simple" /></inline-formula> 0.02 at zero shear to 0.16 <inline-formula><inline-graphic xlink:href="info:doi/10.1371/journal.pone.0081943.e215" xlink:type="simple" /></inline-formula> 0.05 at maximum pulling force (paired t-test, <inline-formula><inline-graphic xlink:href="info:doi/10.1371/journal.pone.0081943.e216" xlink:type="simple" /></inline-formula> = 2.57, p = 0.029).</p>
+<fig id="pone-0081943-g007" position="float" orientation="portrait"><object-id pub-id-type="doi">10.1371/journal.pone.0081943.g007</object-id><label>Figure 7</label><caption>
+<title>Shear stress (friction per unit projected contact area) of a single pair of euplantulae of <italic>Carausius morosus</italic> plotted against the optical contrast of the contact area for three normal loads (n = 10 for each level).</title>
+<p>Inset shows an example of the euplantula contact zone at 1,2 and 4(from left to right). Large symbols indicate the mean contrast and shear stress for each normal load with the corresponding standard error of the mean.</p>
+</caption><graphic mimetype="image" xlink:href="info:doi/10.1371/journal.pone.0081943.g007" position="float" xlink:type="simple" orientation="portrait" /></fig>
+<p>When the optical contrast of the projected contact area (measured at the time of the peak friction force) was included in the model as a covariate, the influence of normal load on shear stress was no longer significant (<xref ref-type="fig" rid="pone-0081943-g007">Fig. 7</xref> and <xref ref-type="table" rid="pone-0081943-t005">Table 5</xref>).</p>
+</sec></sec></sec><sec id="s4">
+<title>Discussion</title>
+<p>During locomotion, insects make dynamic use of their attachment pads. These pads should generate sufficient but not excessive adhesion and friction, as this would hamper locomotion and may be energetically expensive <xref ref-type="bibr" rid="pone.0081943-Pelletier1">[36]</xref>, <xref ref-type="bibr" rid="pone.0081943-Radhakrishnan1">[37]</xref>. How do insects achieve this aim? Our results suggest that stick insects use two different types of pads, arolia and euplantulae, which are specialised for generating mainly adhesion or friction, respectively. While the adhesion of arolia is controlled by shear forces, euplantulae are activated by normal load. This division of labour between “toe” and “heel” pads facilitates the effective control of attachment during locomotion in different situations, such as upright, vertical and inverted walking.</p>
+<sec id="s4a">
+<title>Mechanisms of attachment control: shear- versus load-sensitivity</title>
+<sec id="s4a1">
+<title>Adhesion of arolia is shear-sensitive</title>
+<p>Attachment forces of most animal adhesive structures are large when the pads are pulled towards the body and small when pushed away from it <xref ref-type="bibr" rid="pone.0081943-Clemente1">[15]</xref>, <xref ref-type="bibr" rid="pone.0081943-Bullock2">[26]</xref>, <xref ref-type="bibr" rid="pone.0081943-Hill1">[38]</xref>–<xref ref-type="bibr" rid="pone.0081943-Autumn2">[44]</xref>. This direction-dependence of adhesive pads has been explained by changes in contact area resulting from the geometrical arrangement of the pad structures and from the mechanical instability of the tarsal chain in the pushing direction <xref ref-type="bibr" rid="pone.0081943-Clemente1">[15]</xref>, <xref ref-type="bibr" rid="pone.0081943-Bullock2">[26]</xref>.</p>
+<p>Our findings demonstrate that adhesive forces can not only be switched on and off by pulling and pushing movements, but can be gradually controlled by the magnitude of the applied pulling force. Without any shear force, arolium adhesion was small, but it increased ca. 16 times when a strong (8 mN) pull was applied. Thus, insects can increase their resistance against pull-offs by increasing the shear (pulling) forces on their pads. However, control does not only involve activation but also deactivation. When the pulling force was returned to zero after a fixed displacement of the arolium, adhesion was not different to that without any prior displacement, indicating that pulling forces not only “activate”, but also “deactivate” adhesion without apparent hysteresis.</p>
+<p>In our study, arolium contact area did not depend significantly on pulling force so that the shear-sensitivity of adhesion cannot be explained by changes in contact area. One possible explanation for this increase in adhesion per unit contact area is that shear movements depleted pads of adhesive secretion, leading either to dry contacts or higher viscous and capillary adhesion <xref ref-type="bibr" rid="pone.0081943-Drechsler1">[23]</xref>, <xref ref-type="bibr" rid="pone.0081943-Bullock2">[26]</xref>. However, we found no effect of the duration of shear-force-feedback (i. e. sliding time) on adhesive force, indicating that differences in the amount of adhesive secretion are not responsible for the observed increase of adhesive stress with pulling force (see Fig. 8 in SI). Our results can also not be explained by the “frictional adhesion” model proposed to explain an analogous relationship in geckos <xref ref-type="bibr" rid="pone.0081943-Autumn2">[44]</xref>, as it predicts zero adhesion at zero shear force. Other studies used peeling theory to explain the relationship between adhesion and shear force <xref ref-type="bibr" rid="pone.0081943-Tian1">[45]</xref>–<xref ref-type="bibr" rid="pone.0081943-Endlein1">[47]</xref>. A detailed comparison between these models and our data is beyond the scope of this study.</p>
+</sec><sec id="s4a2">
+<title>Friction force of euplantulae is load-sensitive</title>
+<p>In contrast to the situation in stick insect arolia, friction forces of euplantulae increased substantially with normal load. The relationship between normal load and friction between stiff solids is commonly described by Amontons' law (see <xref ref-type="bibr" rid="pone.0081943-Gao1">[48]</xref> for a recent discussion):<disp-formula id="pone.0081943.e217"><graphic position="anchor" xlink:href="info:doi/10.1371/journal.pone.0081943.e217" xlink:type="simple" orientation="portrait" /><label>(2)</label></disp-formula></p>
+<p>Amontons' law predicts that the friction force <inline-formula><inline-graphic xlink:href="info:doi/10.1371/journal.pone.0081943.e218" xlink:type="simple" /></inline-formula> increases with normal load <inline-formula><inline-graphic xlink:href="info:doi/10.1371/journal.pone.0081943.e219" xlink:type="simple" /></inline-formula>, but is independent of the apparent contact area. Instead, the dependence of friction on normal load has been explained by an increase of the real area of contact, resulting from the deformation of surface asperities at larger normal loads <xref ref-type="bibr" rid="pone.0081943-Bowden1">[49]</xref>, <xref ref-type="bibr" rid="pone.0081943-Greenwood1">[50]</xref>. At the lower magnification available during our force measurements, the change in real contact area with load was visible indirectly by the change in contrast of the euplantula contact area. When the force measurements were corrected for both projected contact area and contrast, normal load no longer had a significant influence on friction, indicating that the observed variation of friction forces is indeed explained by changes in real contact area. In a separate study, we have directly observed and quantified the contact area of acanthae using light microscopy <xref ref-type="bibr" rid="pone.0081943-Labonte1">[51]</xref>. Our results show that the increase in friction with load is indeed fully explained by the larger real contact area between the acanthae and the surface <xref ref-type="bibr" rid="pone.0081943-Labonte1">[51]</xref>. Higher loads increase the number of acanthae in surface contact, and induce a change from tip- to side contact of individual acanthae <xref ref-type="bibr" rid="pone.0081943-Labonte1">[51]</xref>. Thus, the specific morphology of the euplantulae allows the insects to control the pad's shear resistance by varying the applied load.</p>
+<p>Side contact may also explain that a certain minimum pulling force was required for euplantula adhesion to become appreciable <xref ref-type="bibr" rid="pone.0081943-Schubert1">[52]</xref>, <xref ref-type="bibr" rid="pone.0081943-Majidi1">[53]</xref>. Treating a single fibre as an elastica, <xref ref-type="bibr" rid="pone.0081943-Majidi2">[54]</xref> showed that fibres maintain side contact at zero normal load if the work of adhesion between the fibre and the surface exceeds the elastic energy stored in the deformed fibre. While vertical fibres must have a high aspect ratio to fulfil this criterion <xref ref-type="bibr" rid="pone.0081943-Lee1">[55]</xref>, angled fibres require less energy to be sufficiently deformed to make side contact <xref ref-type="bibr" rid="pone.0081943-Majidi2">[54]</xref>, <xref ref-type="bibr" rid="pone.0081943-Nadermann1">[56]</xref>, <xref ref-type="bibr" rid="pone.0081943-Kumar1">[57]</xref>. When strong shear forces act on the acanthae, the resulting moment may exceed the level required to bend the acanthae into side contact, so that they maintain surface contact even for zero or negative loads (adhesion).</p>
+</sec></sec><sec id="s4b">
+<title>Division of labour between friction and adhesive pads</title>
+<sec id="s4b1">
+<title>Euplantulae are friction pads</title>
+<p>Our results show that the euplantulae of <italic>C. morosus</italic> generate large friction, but only negligible adhesion. Thus, euplantulae are “friction” pads that are well suited for situations where insects do not need to generate any adhesive force, for example when walking upright, on small slopes, or for legs below the body centre of mass during vertical climbing <xref ref-type="bibr" rid="pone.0081943-Goldman1">[4]</xref>. “Friction” pads may allow energy-efficient locomotion and reduce the need for using the soft and delicate adhesive pads (see also <xref ref-type="bibr" rid="pone.0081943-Clemente1">[15]</xref>).</p>
+<p>For most stiff materials, the coefficient of friction is small (<inline-formula><inline-graphic xlink:href="info:doi/10.1371/journal.pone.0081943.e220" xlink:type="simple" /></inline-formula> 1) and for cuticle on glass <inline-formula><inline-graphic xlink:href="info:doi/10.1371/journal.pone.0081943.e221" xlink:type="simple" /></inline-formula> 0.35 <xref ref-type="bibr" rid="pone.0081943-Dai1">[5]</xref>. If the effective friction coefficients of euplantulae were within this range, insects would need to press down their pads with a force equal to multiple times their body weight in order to generate one body weight of friction. This would be in conflict with the insects sprawled posture and their tendency to align force vectors along their legs to minimize torques <xref ref-type="bibr" rid="pone.0081943-Full1">[2]</xref>. In this context, it is a significant functional advantage to possess attachment pads with effective friction coefficients <inline-formula><inline-graphic xlink:href="info:doi/10.1371/journal.pone.0081943.e222" xlink:type="simple" /></inline-formula> 1, as it allows the insects to produce force vectors with small angles to the surface. The effective friction coefficients of euplantulae measured in this study ranged between 2 and 4, consistent with results reported by <xref ref-type="bibr" rid="pone.0081943-Buhardt1">[22]</xref>. Coefficients of friction <inline-formula><inline-graphic xlink:href="info:doi/10.1371/journal.pone.0081943.e223" xlink:type="simple" /></inline-formula> are normally only observed for very soft materials, where surface forces lead to significant contact area even at negative loads and thus these materials show considerable adhesion <xref ref-type="bibr" rid="pone.0081943-Gao1">[48]</xref>, <xref ref-type="bibr" rid="pone.0081943-Derjaguin1">[58]</xref>, <xref ref-type="bibr" rid="pone.0081943-Yoshizawa1">[59]</xref>. Contrary to this behaviour, the mean adhesive force of one pair of euplantulae remained below 6% of the body weight when shear forces were below 2 mN (approximately 1/3 of the body weight, see also <xref ref-type="bibr" rid="pone.0081943-Buhardt1">[22]</xref>). Thus, stick insect euplantulae combine large friction coefficients with negligible adhesion. Similar properties have also been observed in synthetic arrays of polypropylene microfibers <xref ref-type="bibr" rid="pone.0081943-Majidi3">[60]</xref> and arrays of carbon nanotubes with curly entangled tops <xref ref-type="bibr" rid="pone.0081943-Qu1">[61]</xref>. For shear forces larger than 2 mN, the adhesion of euplantulae increased. However, ground reaction force measurements of ca. 800 mg <italic>C. morosus</italic> stick insects showed that single-leg peak friction remained mostly below 1 mN during upright walking, and maxima only slightly exceeded 3 mN during vertical climbing <xref ref-type="bibr" rid="pone.0081943-Cruse1">[62]</xref>. Thus, the shear force on a single pair of euplantulae will likely remain below 3 mN in most biologically relevant situations, allowing effortless and energy-effective detachment. Large coefficients of friction but little adhesion may also be a critical adaptation in insects that perform explosive jumps from smooth plant surfaces, allowing them to jump forward with low take-off angles.</p>
+<p>The function of the acanthae on the surface of stick insect euplantulae is probably analogous to that of “pointed hairs” in beetles <xref ref-type="bibr" rid="pone.0081943-Bullock1">[16]</xref>. These hairs generate only little adhesion and are presumably also used as “frictional hairs” <xref ref-type="bibr" rid="pone.0081943-Bullock3">[63]</xref>. Pointed hairs, which lack an endplate, are widespread among beetles <xref ref-type="bibr" rid="pone.0081943-Bullock1">[16]</xref>, <xref ref-type="bibr" rid="pone.0081943-Betz1">[17]</xref>, <xref ref-type="bibr" rid="pone.0081943-Pelletier1">[36]</xref>, <xref ref-type="bibr" rid="pone.0081943-Stork1">[64]</xref>, <xref ref-type="bibr" rid="pone.0081943-Moon1">[65]</xref>, and similar types of hairs have also been reported for flies <xref ref-type="bibr" rid="pone.0081943-Niederegger2">[66]</xref>, <xref ref-type="bibr" rid="pone.0081943-Sukontason1">[67]</xref> and some arachnids <xref ref-type="bibr" rid="pone.0081943-Wolff1">[68]</xref>. Tarsal pads bearing acanthae or similar structures occur in insects of at least three other insect orders and may represent convergent developments (Mantophasmatodea, Plecoptera and some Hymenoptera, see <xref ref-type="bibr" rid="pone.0081943-Schulmeister1">[11]</xref>, <xref ref-type="bibr" rid="pone.0081943-Beutel3">[14]</xref>, <xref ref-type="bibr" rid="pone.0081943-Eberhard1">[20]</xref>, <xref ref-type="bibr" rid="pone.0081943-Nelson1">[69]</xref>). Thus, “frictional hairs” likely constitute a general design feature of arthropod attachment pads.</p>
+</sec><sec id="s4b2">
+<title>Arolia are adhesive pads</title>
+<p>The distal arolia were the only pads in surface contact when stick insects were hanging upside down on a smooth surface, similar to the situation in cockroaches and ants <xref ref-type="bibr" rid="pone.0081943-Roth1">[1]</xref>, <xref ref-type="bibr" rid="pone.0081943-Federle1">[3]</xref>. Consistently, the adhesion of arolia strongly exceeded that of euplantulae for all levels of pulling force. Thus, our results indicate that arolia of <italic>C. morosus</italic> are “true” adhesive pads that allow the insects to maintain surface contact during vertical and inverted climbing.</p>
+<p>Conveniently, pulling forces acting on the arolia arise passively in situations where high adhesive forces are needed, e. g. for legs above the centre of body mass during vertical climbing. When insects walk upside down, their sprawled leg posture gives rise to a passive, inward shear force. <xref ref-type="fig" rid="pone-0081943-g005">Fig. 5A</xref> shows that moderate pulling forces are sufficient for the arolia of three or six legs to generate one body weight of adhesive force. For example, a stick insect hanging upside down with a tarsus-substrate angle of <inline-formula><inline-graphic xlink:href="info:doi/10.1371/journal.pone.0081943.e224" xlink:type="simple" /></inline-formula> (corresponding to a pulling force of approximately 1 mN per leg) could remain attached by passive pulling forces alone. In practice, however, this adhesive force might not be sufficient as naturally occurring surface micro-roughness and pad contamination can reduce pad efficiency <xref ref-type="bibr" rid="pone.0081943-Gorb3">[70]</xref>–<xref ref-type="bibr" rid="pone.0081943-Clemente3">[72]</xref>, and detachment forces often exceed one body weight <xref ref-type="bibr" rid="pone.0081943-Stork1">[64]</xref>. In such situations, insects have to actively pull their arolia inwards to prevent detachment. The tibia flexor muscle of cockroaches was found to be more active during inverted running <xref ref-type="bibr" rid="pone.0081943-Larsen1">[73]</xref>, suggesting that foot attachment is indeed not entirely passive but may involve active muscle input. Consistently, anaesthetized insects have been reported to produce less adhesion than active ones <xref ref-type="bibr" rid="pone.0081943-Edwards1">[74]</xref>, <xref ref-type="bibr" rid="pone.0081943-Eisner1">[75]</xref>. If insects increase adhesion by increasing the pulling force, their pads will eventually start to slide and the insects would have to continuously replace their feet. This can indeed be observed in freely hanging stick insects, consistent with similar reports on other climbing animals <xref ref-type="bibr" rid="pone.0081943-Endlein1">[47]</xref>, <xref ref-type="bibr" rid="pone.0081943-Eisner1">[75]</xref>, <xref ref-type="bibr" rid="pone.0081943-Wigglesworth1">[76]</xref>.</p>
+<p>In our study, the observed relationship between shear force and adhesion was found to hold for normal loads ranging from 0.5 up to 4 mN, covering nearly an order of magnitude. We thus conclude that adhesion of arolia is primarily controlled by shear force and is independent of preload at least for the observed normal load range, i.e. their pull-off-to-preload ratio can be large. Conveniently, friction forces of arolia, controlling adhesion, are also almost independent of normal load. The load-independence of friction is probably a result of the low elastic modulus of arolia (of the order of 100 kPa, <xref ref-type="bibr" rid="pone.0081943-Scholz1">[21]</xref>), which results in full contact even for small loads. This is in contrast to commercial pressure-sensitive adhesives such as Scotch tape that require significant preloads; such a mechanism would be disadvantageous for climbing animals that control adhesion via shear forces <xref ref-type="bibr" rid="pone.0081943-Autumn2">[44]</xref>. While the shear-dependence of adhesion allows energy-efficient detachment, the compliance required for load-insensitivity probably makes pads more susceptible to wear, which may pose a significant problem for insects <xref ref-type="bibr" rid="pone.0081943-Roth1">[1]</xref>, <xref ref-type="bibr" rid="pone.0081943-Slifer1">[77]</xref>, <xref ref-type="bibr" rid="pone.0081943-Ridgel1">[78]</xref>.</p>
+</sec></sec></sec><sec id="s5">
+<title>Conclusions and Outlook</title>
+<p>Our results show that the two attachment pad types of stick insects, arolia and euplantulae, are specialised to serve fundamentally different functions: First, arolia are “true” adhesive pads, whereas euplantulae are “friction pads” that mainly produce friction, but negligible adhesion. Second, while arolium adhesion increases with pulling force, the friction forces of euplantulae strongly increase with normal load. Thus, both pads suitably respond to the forces acting on the legs during natural climbing, thereby increasing or decreasing adhesion and friction passively when it is required. We suggest that the combination of load-sensitive friction pads and shear-controlled adhesive pads provides an effective system that ensures both safe attachment and energy-efficient detachment in a variety of locomotory situations.</p>
+<p>The division of labour between proximal and distal tarsal pads for friction and adhesion, respectively, goes in parallel with the specialisation for pushing and pulling previously reported for cockroaches and beetles <xref ref-type="bibr" rid="pone.0081943-Clemente1">[15]</xref>, <xref ref-type="bibr" rid="pone.0081943-Bullock1">[16]</xref>, <xref ref-type="bibr" rid="pone.0081943-Clemente2">[18]</xref>. This specialisation is primarily based on the chain-like construction of the insects' tarsus, which leads to detachment of distal adhesive pads when pushed and peel-off of proximal pads when pulled <xref ref-type="bibr" rid="pone.0081943-Clemente1">[15]</xref>, <xref ref-type="bibr" rid="pone.0081943-Bullock2">[26]</xref>. This mechanism also ensures that friction pads make contact when the foot is pressed against the surface and needs to produce traction, whereas adhesive pads passively engage when adhesion is needed. As the tarsi of stick insects and cockroaches are morphologically similar, we hypothesize that an analogous relationship between pad type and direction dependence is present in stick insects and other taxa with a similar tarsal pad morphology. It is likely that most proximal tarsal pads are “friction pads” specialised for pushing, while distal pads are “true” adhesive organs that are controllable by the applied pulling force. Further work is needed to establish whether the division of labour between proximal and distal pads reported here is a widespread phenomenon across arthropods.</p>
+</sec><sec id="s6">
+<title>Supporting Information</title>
+<supplementary-material id="pone.0081943.s001" mimetype="image/tiff" xlink:href="info:doi/10.1371/journal.pone.0081943.s001" position="float" xlink:type="simple" orientation="portrait"><label>Figure S1</label><caption>
+<p><bold>Adhesion of arolia at six different pulling forces and two different sliding times (n = 10 for each level).</bold> Sliding time had no significant influence on adhesion or the relationship between adhesion and pulling force.</p>
+<p>(TIFF)</p>
+</caption></supplementary-material><supplementary-material id="pone.0081943.s002" mimetype="image/tiff" xlink:href="info:doi/10.1371/journal.pone.0081943.s002" position="float" xlink:type="simple" orientation="portrait"><label>Figure S2</label><caption>
+<p><bold>Adhesion of arolia of </bold><bold><italic>Carausius morosus</italic></bold><bold> was measured in the absence of shear (“initial”), for 0.5 mN pulling force (“0.5 mN pull”) and following a 2 mm pulling movement and feedback-controlled return of the pulling force to zero (“reversed”).</bold> There was no significant difference between the reversed and the initial condition, but adhesion was significantly higher for 0.5<bold> </bold>mN pulling force. <inline-formula><inline-graphic xlink:href="info:doi/10.1371/journal.pone.0081943.e225" xlink:type="simple" /></inline-formula>: p <inline-formula><inline-graphic xlink:href="info:doi/10.1371/journal.pone.0081943.e226" xlink:type="simple" /></inline-formula> 0.01.</p>
+<p>(TIFF)</p>
+</caption></supplementary-material></sec></body>
+<back>
+<ack>
+<p>The authors acknowledge the help of Alexander Hackmann with the experiments with unrestrained insects, and of Adam Robinson with the Scanning Electron Microscopy recordings.</p>
+</ack>
+<ref-list>
+<title>References</title>
+<ref id="pone.0081943-Roth1"><label>1</label>
+<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Roth</surname><given-names>L</given-names></name>, <name name-style="western"><surname>Willis</surname><given-names>E</given-names></name> (<year>1952</year>) <article-title>Tarsal structure and climbing ability of cockroaches</article-title>. <source>J Exp Zool</source> <volume>119</volume>: <fpage>483</fpage>–<lpage>517</lpage>.</mixed-citation>
+</ref>
+<ref id="pone.0081943-Full1"><label>2</label>
+<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Full</surname><given-names>R</given-names></name>, <name name-style="western"><surname>Blickhan</surname><given-names>R</given-names></name>, <name name-style="western"><surname>Ting</surname><given-names>L</given-names></name> (<year>1991</year>) <article-title>Leg design in hexapedal runners</article-title>. <source>J Exp Biol</source> <volume>158</volume>: <fpage>369</fpage>–<lpage>390</lpage>.</mixed-citation>
+</ref>
+<ref id="pone.0081943-Federle1"><label>3</label>
+<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Federle</surname><given-names>W</given-names></name>, <name name-style="western"><surname>Endlein</surname><given-names>T</given-names></name> (<year>2004</year>) <article-title>Locomotion and adhesion: dynamic control of adhesive surface contact in ants</article-title>. <source>Arthropod Struct Dev</source> <volume>33</volume>: <fpage>67</fpage>–<lpage>75</lpage>.</mixed-citation>
+</ref>
+<ref id="pone.0081943-Goldman1"><label>4</label>
+<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Goldman</surname><given-names>DI</given-names></name>, <name name-style="western"><surname>Chen</surname><given-names>TS</given-names></name>, <name name-style="western"><surname>Dudek</surname><given-names>DM</given-names></name>, <name name-style="western"><surname>Full</surname><given-names>RJ</given-names></name> (<year>2006</year>) <article-title>Dynamics of rapid vertical climbing in cockroaches reveals a template</article-title>. <source>J Exp Biol</source> <volume>209</volume>: <fpage>2990</fpage>–<lpage>3000</lpage>.</mixed-citation>
+</ref>
+<ref id="pone.0081943-Dai1"><label>5</label>
+<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Dai</surname><given-names>Z</given-names></name>, <name name-style="western"><surname>Gorb</surname><given-names>SN</given-names></name>, <name name-style="western"><surname>Schwarz</surname><given-names>U</given-names></name> (<year>2002</year>) <article-title>Roughness-dependent friction force of the tarsal claw system in the beetle <italic>Pachnoda marginata</italic> (Coleoptera, Scarabaeidae)</article-title>. <source>J Exp Biol</source> <volume>205</volume>: <fpage>2479</fpage>–<lpage>2488</lpage>.</mixed-citation>
+</ref>
+<ref id="pone.0081943-Asbeck1"><label>6</label>
+<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Asbeck</surname><given-names>AT</given-names></name>, <name name-style="western"><surname>Kim</surname><given-names>S</given-names></name>, <name name-style="western"><surname>Cutkosky</surname><given-names>M</given-names></name>, <name name-style="western"><surname>Provancher</surname><given-names>WR</given-names></name>, <name name-style="western"><surname>Lanzetta</surname><given-names>M</given-names></name> (<year>2006</year>) <article-title>Scaling hard vertical surfaces with compliant microspine arrays</article-title>. <source>Int J Robot Res</source> <volume>25</volume>: <fpage>1165</fpage>–<lpage>1179</lpage>.</mixed-citation>
+</ref>
+<ref id="pone.0081943-Beutel1"><label>7</label>
+<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Beutel</surname><given-names>RG</given-names></name>, <name name-style="western"><surname>Gorb</surname><given-names>SN</given-names></name> (<year>2001</year>) <article-title>Ultrastructure of attachment specializations of Hexapods (Arthropoda): Evolutionary patterns inferred from a revised ordinal phylogeny</article-title>. <source>J Zool Syst Evol Res</source> <volume>39</volume>: <fpage>177</fpage>–<lpage>207</lpage>.</mixed-citation>
+</ref>
+<ref id="pone.0081943-Arnold1"><label>8</label>
+<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Arnold</surname><given-names>J</given-names></name> (<year>1974</year>) <article-title>Adaptive features on the tarsi of cockroaches (Insecta: Dictyoptera)</article-title>. <source>Insect Morphol Embryol</source> <volume>3</volume>: <fpage>317</fpage>–<lpage>334</lpage>.</mixed-citation>
+</ref>
+<ref id="pone.0081943-Gorb1"><label>9</label>
+<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Gorb</surname><given-names>S</given-names></name>, <name name-style="western"><surname>Beutel</surname><given-names>R</given-names></name> (<year>2001</year>) <article-title>Evolution of locomotory attachment pads of hexapods</article-title>. <source>Naturwissenschaften</source> <volume>88</volume>: <fpage>530</fpage>–<lpage>534</lpage>.</mixed-citation>
+</ref>
+<ref id="pone.0081943-Marshall1"><label>10</label>
+<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Marshall</surname><given-names>I</given-names></name> (<year>2003</year>) <article-title>A morphological phylogeny for four families of amblyceran lice (Phthiraptera: Amblycera: Menoponidae, Boopiidae, Laemobothriidae, Ricinidae)</article-title>. <source>Zool J Linn Soc</source> <volume>138</volume>: <fpage>39</fpage>–<lpage>82</lpage>.</mixed-citation>
+</ref>
+<ref id="pone.0081943-Schulmeister1"><label>11</label>
+<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Schulmeister</surname><given-names>S</given-names></name> (<year>2003</year>) <article-title>Morphology and evolution of the tarsal plantulae in Hymenoptera (Insecta), focussing on the basal lineages</article-title>. <source>Zoologica Scripta</source> <volume>32</volume>: <fpage>153172</fpage>.</mixed-citation>
+</ref>
+<ref id="pone.0081943-Haas1"><label>12</label>
+<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Haas</surname><given-names>F</given-names></name>, <name name-style="western"><surname>Gorb</surname><given-names>S</given-names></name> (<year>2004</year>) <article-title>Evolution of locomotory attachment pads in the Dermaptera (Insecta)</article-title>. <source>Arthropod Struct Dev</source> <volume>33</volume>: <fpage>45</fpage>–<lpage>66</lpage>.</mixed-citation>
+</ref>
+<ref id="pone.0081943-Beutel2"><label>13</label>
+<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Beutel</surname><given-names>R</given-names></name>, <name name-style="western"><surname>Gorb</surname><given-names>S</given-names></name> (<year>2006</year>) <article-title>A revised interpretation of attachment structures in Hexapoda with special emphasis on Mantophasmatodea</article-title>. <source>Arthropod Systematics &amp; Phylogeny</source> <volume>64</volume>: <fpage>3</fpage>–<lpage>25</lpage>.</mixed-citation>
+</ref>
+<ref id="pone.0081943-Beutel3"><label>14</label>
+<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Beutel</surname><given-names>R</given-names></name>, <name name-style="western"><surname>Gorb</surname><given-names>S</given-names></name> (<year>2008</year>) <article-title>Evolutionary scenarios for unusual attachment devices of Phasmatodea and Mantophasmatodea (Insecta)</article-title>. <source>Systematic Entomology</source> <volume>33</volume>: <fpage>501</fpage>–<lpage>510</lpage>.</mixed-citation>
+</ref>
+<ref id="pone.0081943-Clemente1"><label>15</label>
+<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Clemente</surname><given-names>CJ</given-names></name>, <name name-style="western"><surname>Federle</surname><given-names>W</given-names></name> (<year>2008</year>) <article-title>Pushing versus pulling: division of labour between tarsal attachement pads in cockroaches</article-title>. <source>Proc R Soc B</source> <volume>275</volume>: <fpage>1329</fpage>–<lpage>1336</lpage>.</mixed-citation>
+</ref>
+<ref id="pone.0081943-Bullock1"><label>16</label>
+<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Bullock</surname><given-names>JMR</given-names></name>, <name name-style="western"><surname>Federle</surname><given-names>W</given-names></name> (<year>2009</year>) <article-title>Division of labour and sex differences between fibrillar, tarsal adhesive pads in beetles: effective elastic modulus and attachment performance</article-title>. <source>J Exp Biol</source> <volume>212</volume>: <fpage>1876</fpage>–<lpage>1888</lpage>.</mixed-citation>
+</ref>
+<ref id="pone.0081943-Betz1"><label>17</label>
+<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Betz</surname><given-names>O</given-names></name> (<year>2003</year>) <article-title>Structure of the tarsi in some Stenus species (Coleoptera, Staphylinidae): External morphology, ultrastructure, and tarsal secretion</article-title>. <source>J Morphol</source> <volume>255</volume>: <fpage>24</fpage>–<lpage>43</lpage>.</mixed-citation>
+</ref>
+<ref id="pone.0081943-Clemente2"><label>18</label>
+<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Clemente</surname><given-names>C</given-names></name>, <name name-style="western"><surname>Dirks</surname><given-names>J</given-names></name>, <name name-style="western"><surname>Barbero</surname><given-names>D</given-names></name>, <name name-style="western"><surname>Steiner</surname><given-names>U</given-names></name>, <name name-style="western"><surname>Federle</surname><given-names>W</given-names></name> (<year>2009</year>) <article-title>Friction ridges in cockroach climbing pads: anisotropy of shear stress measured on transparent, microstructured substrates</article-title>. <source>J Comp Physiol A</source> <volume>195</volume>: <fpage>805</fpage>–<lpage>814</lpage>.</mixed-citation>
+</ref>
+<ref id="pone.0081943-Frazier1"><label>19</label>
+<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Frazier</surname><given-names>SF</given-names></name>, <name name-style="western"><surname>Larsen</surname><given-names>GS</given-names></name>, <name name-style="western"><surname>Neff</surname><given-names>D</given-names></name>, <name name-style="western"><surname>Quimby</surname><given-names>L</given-names></name>, <name name-style="western"><surname>Carney</surname><given-names>M</given-names></name>, <etal>et al</etal>. (<year>1999</year>) <article-title>Elasticity and movements of the cockroach tarsus in walking</article-title>. <source>J Comp Physiol</source> <volume>185</volume>: <fpage>157</fpage>–<lpage>172</lpage>.</mixed-citation>
+</ref>
+<ref id="pone.0081943-Eberhard1"><label>20</label>
+<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Eberhard</surname><given-names>MJ</given-names></name>, <name name-style="western"><surname>Pass</surname><given-names>G</given-names></name>, <name name-style="western"><surname>Picker</surname><given-names>MD</given-names></name>, <name name-style="western"><surname>Beutel</surname><given-names>R</given-names></name>, <name name-style="western"><surname>Predel</surname><given-names>R</given-names></name>, <etal>et al</etal>. (<year>2009</year>) <article-title>Structure and function of the arolium of Mantophasmatodea (Insecta)</article-title>. <source>J Morphol</source> <volume>270</volume>: <fpage>1247</fpage>–<lpage>1261</lpage>.</mixed-citation>
+</ref>
+<ref id="pone.0081943-Scholz1"><label>21</label>
+<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Scholz</surname><given-names>I</given-names></name>, <name name-style="western"><surname>Baumgartner</surname><given-names>W</given-names></name>, <name name-style="western"><surname>Federle</surname><given-names>W</given-names></name> (<year>2008</year>) <article-title>Micromechanics of smooth adhesive organs in stick insects: pads are mechanically anisotropic and softer towards the adhesive surface</article-title>. <source>J Comp Physiol A</source> <volume>194</volume>: <fpage>373</fpage>–<lpage>384</lpage>.</mixed-citation>
+</ref>
+<ref id="pone.0081943-Buhardt1"><label>22</label>
+<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Bußhardt</surname><given-names>P</given-names></name>, <name name-style="western"><surname>Wolf</surname><given-names>H</given-names></name>, <name name-style="western"><surname>Gorb</surname><given-names>S</given-names></name> (<year>2012</year>) <article-title>Adhesive and frictional properties of tarsal attachment pads in two species of stick insects (Phasmatodea) with smooth and nubby euplantulae</article-title>. <source>Zoology</source> <volume>115</volume>: <fpage>135</fpage>–<lpage>41</lpage>.</mixed-citation>
+</ref>
+<ref id="pone.0081943-Drechsler1"><label>23</label>
+<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Drechsler</surname><given-names>P</given-names></name>, <name name-style="western"><surname>Federle</surname><given-names>W</given-names></name> (<year>2006</year>) <article-title>Biomechanics of smooth adhesive pads in insects: influence of tarsal secretion on attachment performance</article-title>. <source>J Comp Physiol</source> <volume>192</volume>: <fpage>1213</fpage>–<lpage>1222</lpage>.</mixed-citation>
+</ref>
+<ref id="pone.0081943-Federle2"><label>24</label>
+<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Federle</surname><given-names>W</given-names></name>, <name name-style="western"><surname>Baumgartner</surname><given-names>W</given-names></name>, <name name-style="western"><surname>Hölldobler</surname><given-names>B</given-names></name> (<year>2004</year>) <article-title>Biomechanics of ant adhesive pads: frictional forces are rate- and temperature dependent</article-title>. <source>J Exp Biol</source> <volume>206</volume>: <fpage>67</fpage>–<lpage>74</lpage>.</mixed-citation>
+</ref>
+<ref id="pone.0081943-Voigt1"><label>25</label>
+<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Voigt</surname><given-names>D</given-names></name>, <name name-style="western"><surname>Schuppert</surname><given-names>J</given-names></name>, <name name-style="western"><surname>Dattinger</surname><given-names>S</given-names></name>, <name name-style="western"><surname>Gorb</surname><given-names>S</given-names></name> (<year>2010</year>) <article-title>Temporary stay at various environmental humidities affects attachment ability of colorado potato beetles <italic>Leptinotarsa decemlineata</italic> (Coleoptera, Chrysomelidae)</article-title>. <source>J Zool</source> <volume>281</volume>: <fpage>227</fpage>–<lpage>231</lpage>.</mixed-citation>
+</ref>
+<ref id="pone.0081943-Bullock2"><label>26</label>
+<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Bullock</surname><given-names>JMR</given-names></name>, <name name-style="western"><surname>Drechsler</surname><given-names>P</given-names></name>, <name name-style="western"><surname>Federle</surname><given-names>W</given-names></name> (<year>2008</year>) <article-title>Comparison of smooth and hairy attachment pads in insects: friction, adhesion and mechanisms for direction-dependence</article-title>. <source>J Exp Biol</source> <volume>211</volume>: <fpage>3333</fpage>–<lpage>3343</lpage>.</mixed-citation>
+</ref>
+<ref id="pone.0081943-Dirks1"><label>27</label>
+<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Dirks</surname><given-names>JH</given-names></name>, <name name-style="western"><surname>Federle</surname><given-names>W</given-names></name> (<year>2011</year>) <article-title>Mechanisms of fluid production in smooth adhesive pads of insects</article-title>. <source>J R Soc Interface</source> <volume>8</volume>: <fpage>952</fpage>–<lpage>60</lpage>.</mixed-citation>
+</ref>
+<ref id="pone.0081943-R1"><label>28</label>
+<mixed-citation publication-type="other" xlink:type="simple">R Development Core Team (2011) R: A Language and Environment for Statistical Computing. R Foundation for Statistical Computing, Vienna, Austria. URL <ext-link ext-link-type="uri" xlink:href="http://www.R-project.org" xlink:type="simple">http://www.R-project.org</ext-link>. ISBN 3-900051-07-0.</mixed-citation>
+</ref>
+<ref id="pone.0081943-Huang1"><label>29</label>
+<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Huang</surname><given-names>L</given-names></name>, <name name-style="western"><surname>Wang</surname><given-names>M</given-names></name> (<year>1995</year>) <article-title>Image thresholding by minimizing the measures of fuzziness</article-title>. <source>Pattern recognition</source> <volume>28</volume>: <fpage>41</fpage>–<lpage>51</lpage>.</mixed-citation>
+</ref>
+<ref id="pone.0081943-Schneider1"><label>30</label>
+<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Schneider</surname><given-names>C</given-names></name>, <name name-style="western"><surname>Rasband</surname><given-names>W</given-names></name>, <name name-style="western"><surname>Eliceiri</surname><given-names>K</given-names></name> (<year>2012</year>) <article-title>Nih image to imagej: 25 years of image analysis</article-title>. <source>Nat Methods</source> <volume>9</volume>: <fpage>671</fpage>–<lpage>675</lpage>.</mixed-citation>
+</ref>
+<ref id="pone.0081943-Page1"><label>31</label>
+<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Page</surname><given-names>EB</given-names></name> (<year>1963</year>) <article-title>Ordered hypotheses for multiple treatments: a significance test for linear ranks</article-title>. <source>Journal of the American Statistical Association</source> <volume>58</volume>: <fpage>216</fpage>–<lpage>230</lpage>.</mixed-citation>
+</ref>
+<ref id="pone.0081943-Dirks2"><label>32</label>
+<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Dirks</surname><given-names>J</given-names></name>, <name name-style="western"><surname>Li</surname><given-names>M</given-names></name>, <name name-style="western"><surname>Kabla</surname><given-names>A</given-names></name>, <name name-style="western"><surname>Federle</surname><given-names>W</given-names></name> (<year>2012</year>) <article-title><italic>In vivo</italic> dynamics of the internal fibrous structure in smooth adhesive pads of insects</article-title>. <source>Acta Biomater</source> <volume>8</volume>: <fpage>2730</fpage>–<lpage>2736</lpage>.</mixed-citation>
+</ref>
+<ref id="pone.0081943-Richards1"><label>33</label>
+<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Richards</surname><given-names>AG</given-names></name>, <name name-style="western"><surname>Richards</surname><given-names>PA</given-names></name> (<year>1979</year>) <article-title>The cuticular protuberances of insects</article-title>. <source>International Journal of Insect Morphology and Embryology</source> <volume>8</volume>: <fpage>143</fpage>–<lpage>157</lpage>.</mixed-citation>
+</ref>
+<ref id="pone.0081943-Peattie1"><label>34</label>
+<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Peattie</surname><given-names>AM</given-names></name>, <name name-style="western"><surname>Full</surname><given-names>RJ</given-names></name> (<year>2007</year>) <article-title>Phylogenetic analysis of the scaling of wet and dry biological fibrillar adhesives</article-title>. <source>Proc Nat Acad Sci USA</source> <volume>104</volume>: <fpage>18595</fpage>–<lpage>18600</lpage>.</mixed-citation>
+</ref>
+<ref id="pone.0081943-Whitten1"><label>35</label>
+<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Whitten</surname><given-names>JM</given-names></name> (<year>1969</year>) <article-title>Coordinated development in the fly foot: sequential cuticle secretion</article-title>. <source>Journal of Morphology</source> <volume>127</volume>: <fpage>73</fpage>–<lpage>104</lpage>.</mixed-citation>
+</ref>
+<ref id="pone.0081943-Pelletier1"><label>36</label>
+<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Pelletier</surname><given-names>Y</given-names></name>, <name name-style="western"><surname>Smilowitz</surname><given-names>Z</given-names></name> (<year>1987</year>) <article-title>Specialized tarsal hairs on adult male Colorado potato beetles, <italic>Leptinotarsa decemlineata</italic> (Say), hamper its locomotion on smooth surfaces</article-title>. <source>The Canadian Entomologist</source> <volume>119</volume>: <fpage>1139</fpage>–<lpage>1142</lpage>.</mixed-citation>
+</ref>
+<ref id="pone.0081943-Radhakrishnan1"><label>37</label>
+<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Radhakrishnan</surname><given-names>V</given-names></name> (<year>1998</year>) <article-title>Locomotion: dealing with friction</article-title>. <source>Proc Nat Acad Sci</source> <volume>95</volume>: <fpage>5448</fpage>–<lpage>5455</lpage>.</mixed-citation>
+</ref>
+<ref id="pone.0081943-Hill1"><label>38</label>
+<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Hill</surname><given-names>D</given-names></name> (<year>1977</year>) <article-title>The pretarsus of salticid spiders</article-title>. <source>Zool J Linn Soc</source> <volume>60</volume>: <fpage>319</fpage>–<lpage>338</lpage>.</mixed-citation>
+</ref>
+<ref id="pone.0081943-Hanna1"><label>39</label>
+<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Hanna</surname><given-names>G</given-names></name>, <name name-style="western"><surname>Barnes</surname><given-names>WJP</given-names></name> (<year>1991</year>) <article-title>Adhesion and detachment of the toe pads of tree frogs</article-title>. <source>J Exp Biol</source> <volume>155</volume>: <fpage>103</fpage>–<lpage>125</lpage>.</mixed-citation>
+</ref>
+<ref id="pone.0081943-Autumn1"><label>40</label>
+<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Autumn</surname><given-names>K</given-names></name>, <name name-style="western"><surname>Liang</surname><given-names>Y</given-names></name>, <name name-style="western"><surname>Hsieh</surname><given-names>S</given-names></name>, <name name-style="western"><surname>Zesch</surname><given-names>W</given-names></name>, <name name-style="western"><surname>Chan</surname><given-names>W</given-names></name>, <etal>et al</etal>. (<year>2000</year>) <article-title>Adhesive force of a single gecko foot-hair</article-title>. <source>Nature</source> <volume>405</volume>: <fpage>681</fpage>–<lpage>685</lpage>.</mixed-citation>
+</ref>
+<ref id="pone.0081943-Gorb2"><label>41</label>
+<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Gorb</surname><given-names>S</given-names></name>, <name name-style="western"><surname>Jiao</surname><given-names>Y</given-names></name>, <name name-style="western"><surname>Scherge</surname><given-names>M</given-names></name> (<year>2000</year>) <article-title>Ultrastructural architecture and mechanical properties of attachment pads in <italic>Tettigonia viridissima</italic> (Orthoptera Tettigoniidae)</article-title>. <source>J Comp Physiol A</source> <volume>186</volume>: <fpage>821</fpage>–<lpage>831</lpage>.</mixed-citation>
+</ref>
+<ref id="pone.0081943-Federle3"><label>42</label>
+<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Federle</surname><given-names>W</given-names></name>, <name name-style="western"><surname>Brainerd</surname><given-names>EL</given-names></name>, <name name-style="western"><surname>McMahon</surname><given-names>TA</given-names></name>, <name name-style="western"><surname>Hölldobler</surname><given-names>B</given-names></name> (<year>2001</year>) <article-title>Biomechanics of the movable pretarsal adhesive organ in ants and bees</article-title>. <source>Proc Natl Acad Sci U S A</source> <volume>98</volume>: <fpage>6215</fpage>–<lpage>6220</lpage>.</mixed-citation>
+</ref>
+<ref id="pone.0081943-Niederegger1"><label>43</label>
+<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Niederegger</surname><given-names>S</given-names></name>, <name name-style="western"><surname>Gorb</surname><given-names>S</given-names></name> (<year>2003</year>) <article-title>Tarsal movements in flies during leg attachment and detachment on a smooth substrate</article-title>. <source>J Insect Physiol</source> <volume>49</volume>: <fpage>611</fpage>–<lpage>620</lpage>.</mixed-citation>
+</ref>
+<ref id="pone.0081943-Autumn2"><label>44</label>
+<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Autumn</surname><given-names>K</given-names></name>, <name name-style="western"><surname>Dittmore</surname><given-names>A</given-names></name>, <name name-style="western"><surname>Santos</surname><given-names>D</given-names></name>, <name name-style="western"><surname>Spenko</surname><given-names>M</given-names></name>, <name name-style="western"><surname>Cutkosky</surname><given-names>M</given-names></name> (<year>2006</year>) <article-title>Frictional adhesion: a new angle on gecko attachment</article-title>. <source>J Exp Biol</source> <volume>209</volume>: <fpage>3569</fpage>–<lpage>3579</lpage>.</mixed-citation>
+</ref>
+<ref id="pone.0081943-Tian1"><label>45</label>
+<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Tian</surname><given-names>Y</given-names></name>, <name name-style="western"><surname>Pesika</surname><given-names>N</given-names></name>, <name name-style="western"><surname>Zeng</surname><given-names>H</given-names></name>, <name name-style="western"><surname>Rosenberg</surname><given-names>K</given-names></name>, <name name-style="western"><surname>Zhao</surname><given-names>B</given-names></name>, <etal>et al</etal>. (<year>2006</year>) <article-title>Adhesion and friction in gecko toe attachment and detachment</article-title>. <source>Proceedings of the National Academy of Sciences</source> <volume>103</volume>: <fpage>19320</fpage>–<lpage>19325</lpage>.</mixed-citation>
+</ref>
+<ref id="pone.0081943-Pesika1"><label>46</label>
+<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Pesika</surname><given-names>N</given-names></name>, <name name-style="western"><surname>Tian</surname><given-names>Y</given-names></name>, <name name-style="western"><surname>Zhao</surname><given-names>B</given-names></name>, <name name-style="western"><surname>Rosenberg</surname><given-names>K</given-names></name>, <name name-style="western"><surname>Zeng</surname><given-names>H</given-names></name>, <etal>et al</etal>. (<year>2007</year>) <article-title>Peel-zone model of tape peeling based on the gecko adhesive system</article-title>. <source>The Journal of Adhesion</source> <volume>83</volume>: <fpage>383</fpage>–<lpage>401</lpage>.</mixed-citation>
+</ref>
+<ref id="pone.0081943-Endlein1"><label>47</label>
+<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Endlein</surname><given-names>T</given-names></name>, <name name-style="western"><surname>Ji</surname><given-names>A</given-names></name>, <name name-style="western"><surname>Samuel</surname><given-names>D</given-names></name>, <name name-style="western"><surname>Yao</surname><given-names>N</given-names></name>, <name name-style="western"><surname>Wang</surname><given-names>Z</given-names></name>, <etal>et al</etal>. (<year>2013</year>) <article-title>Sticking like sticky tape: tree frogs use friction forces to enhance attachment on overhanging surfaces</article-title>. <source>Journal of The Royal Society Interface</source> <volume>10</volume>: <fpage>20120838</fpage>.</mixed-citation>
+</ref>
+<ref id="pone.0081943-Gao1"><label>48</label>
+<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Gao</surname><given-names>H</given-names></name>, <name name-style="western"><surname>Yao</surname><given-names>H</given-names></name> (<year>2004</year>) <article-title>Shape insensitive optimal adhesion of nanoscale fibrillar structures</article-title>. <source>PNAS</source> <volume>101</volume>: <fpage>7851</fpage>–<lpage>7856</lpage>.</mixed-citation>
+</ref>
+<ref id="pone.0081943-Bowden1"><label>49</label>
+<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Bowden</surname><given-names>F</given-names></name>, <name name-style="western"><surname>Tabor</surname><given-names>D</given-names></name> (<year>1939</year>) <article-title>The area of contact between stationary and between moving surfaces</article-title>. <source>Proc R Soc A</source> <volume>169</volume>: <fpage>391</fpage>–<lpage>413</lpage>.</mixed-citation>
+</ref>
+<ref id="pone.0081943-Greenwood1"><label>50</label>
+<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Greenwood</surname><given-names>J</given-names></name>, <name name-style="western"><surname>Williamson</surname><given-names>J</given-names></name> (<year>1966</year>) <article-title>Contact of nominally flat surfaces</article-title>. <source>Proceedings of the Royal Society of London Series A Mathematical and Physical Sciences</source> <volume>295</volume>: <fpage>300</fpage>–<lpage>319</lpage>.</mixed-citation>
+</ref>
+<ref id="pone.0081943-Labonte1"><label>51</label>
+<mixed-citation publication-type="other" xlink:type="simple">Labonte D, Williams JA, Federle W (2013) Surface contact and design of fibrillar friction pads in stick insects (<italic>Carausius morosus</italic>): mechanisms for large friction coefficients and negligible adhesion. Submitted to Journal of the Royal Society Interface.</mixed-citation>
+</ref>
+<ref id="pone.0081943-Schubert1"><label>52</label>
+<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Schubert</surname><given-names>B</given-names></name>, <name name-style="western"><surname>Lee</surname><given-names>J</given-names></name>, <name name-style="western"><surname>Majidi</surname><given-names>C</given-names></name>, <name name-style="western"><surname>Fearing</surname><given-names>RS</given-names></name> (<year>2008</year>) <article-title>Sliding-induced adhesion of stiff polymer microfibre arrays. ii. microscale behaviour</article-title>. <source>J R Soc Interface</source> <volume>5</volume>: <fpage>845</fpage>–<lpage>853</lpage>.</mixed-citation>
+</ref>
+<ref id="pone.0081943-Majidi1"><label>53</label>
+<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Majidi</surname><given-names>C</given-names></name> (<year>2009</year>) <article-title>Shear adhesion between an elastica and a rigid flat surface</article-title>. <source>Mechanics Research Communications</source> <volume>36</volume>: <fpage>369</fpage>–<lpage>372</lpage>.</mixed-citation>
+</ref>
+<ref id="pone.0081943-Majidi2"><label>54</label>
+<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Majidi</surname><given-names>C</given-names></name>, <name name-style="western"><surname>Groff</surname><given-names>R</given-names></name>, <name name-style="western"><surname>Fearing</surname><given-names>R</given-names></name> (<year>2005</year>) <article-title>Attachment of fiber array adhesive through side contact</article-title>. <source>J Appl Phys</source> <volume>98</volume>: <fpage>103521</fpage>.</mixed-citation>
+</ref>
+<ref id="pone.0081943-Lee1"><label>55</label>
+<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Lee</surname><given-names>DH</given-names></name>, <name name-style="western"><surname>Kim</surname><given-names>Y</given-names></name>, <name name-style="western"><surname>Fearing</surname><given-names>RS</given-names></name>, <name name-style="western"><surname>Maboudian</surname><given-names>R</given-names></name> (<year>2011</year>) <article-title>Effect of fiber geometry on macroscale friction of ordered low-density polyethylene nanofiber arrays</article-title>. <source>Langmuir</source> <volume>27</volume>: <fpage>11008</fpage>–<lpage>11016</lpage>.</mixed-citation>
+</ref>
+<ref id="pone.0081943-Nadermann1"><label>56</label>
+<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Nadermann</surname><given-names>N</given-names></name>, <name name-style="western"><surname>Kumar</surname><given-names>A</given-names></name>, <name name-style="western"><surname>Goyal</surname><given-names>S</given-names></name>, <name name-style="western"><surname>Hui</surname><given-names>C</given-names></name> (<year>2010</year>) <article-title>Buckling of sheared and compressed microfibrils</article-title>. <source>Journal of The Royal Society Interface</source> <volume>7</volume>: <fpage>1581</fpage>–<lpage>1589</lpage>.</mixed-citation>
+</ref>
+<ref id="pone.0081943-Kumar1"><label>57</label>
+<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Kumar</surname><given-names>A</given-names></name>, <name name-style="western"><surname>Hui</surname><given-names>C</given-names></name> (<year>2011</year>) <article-title>Numerical study of shearing of a microfibre during friction testing of a microfibre array</article-title>. <source>Proceedings of the Royal Society A: Mathematical, Physical and Engineering Science</source> <volume>467</volume>: <fpage>1372</fpage>–<lpage>1389</lpage>.</mixed-citation>
+</ref>
+<ref id="pone.0081943-Derjaguin1"><label>58</label>
+<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Derjaguin</surname><given-names>B</given-names></name> (<year>1934</year>) <article-title>Molekulartheorie der äußeren Reibung</article-title>. <source>Zeitschrift für Physik A</source> <volume>88</volume>: <fpage>661</fpage>–<lpage>675</lpage>.</mixed-citation>
+</ref>
+<ref id="pone.0081943-Yoshizawa1"><label>59</label>
+<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Yoshizawa</surname><given-names>H</given-names></name>, <name name-style="western"><surname>Chen</surname><given-names>YL</given-names></name>, <name name-style="western"><surname>Israelachvili</surname><given-names>J</given-names></name> (<year>1993</year>) <article-title>Fundamental mechanisms of interfacial friction. 1. relation between adhesion and friction</article-title>. <source>J Phys Chem</source> <volume>97</volume>: <fpage>4128</fpage>–<lpage>4140</lpage>.</mixed-citation>
+</ref>
+<ref id="pone.0081943-Majidi3"><label>60</label>
+<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Majidi</surname><given-names>C</given-names></name>, <name name-style="western"><surname>Groff</surname><given-names>R</given-names></name>, <name name-style="western"><surname>Maeno</surname><given-names>Y</given-names></name>, <name name-style="western"><surname>Schubert</surname><given-names>B</given-names></name>, <name name-style="western"><surname>Baek</surname><given-names>S</given-names></name>, <etal>et al</etal>. (<year>2006</year>) <article-title>High friction from a stiff polymer using microfiber arrays</article-title>. <source>Physical review letters</source> <volume>97</volume>: <fpage>76103</fpage>–<lpage>76107</lpage>.</mixed-citation>
+</ref>
+<ref id="pone.0081943-Qu1"><label>61</label>
+<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Qu</surname><given-names>L</given-names></name>, <name name-style="western"><surname>Dai</surname><given-names>L</given-names></name>, <name name-style="western"><surname>Stone</surname><given-names>M</given-names></name>, <name name-style="western"><surname>Xia</surname><given-names>Z</given-names></name>, <name name-style="western"><surname>Wang</surname><given-names>ZL</given-names></name> (<year>2008</year>) <article-title>Carbon nanotube arrays with strong shear bindingon and easy normal lifting-off</article-title>. <source>Science</source> <volume>322</volume>: <fpage>238</fpage>–<lpage>242</lpage>.</mixed-citation>
+</ref>
+<ref id="pone.0081943-Cruse1"><label>62</label>
+<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Cruse</surname><given-names>H</given-names></name> (<year>1976</year>) <article-title>The function of the legs in the free walking stick insect, <italic>Carausius morosus</italic></article-title>. <source>J Comp Physiol A Neuroethol Sens Neural Behav Physiol</source> <volume>112</volume>: <fpage>235</fpage>–<lpage>262</lpage>.</mixed-citation>
+</ref>
+<ref id="pone.0081943-Bullock3"><label>63</label>
+<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Bullock</surname><given-names>J</given-names></name>, <name name-style="western"><surname>Federle</surname><given-names>W</given-names></name> (<year>2011</year>) <article-title>Beetle adhesive hairs differ in stiffness and stickiness: <italic>In vivo</italic> adhesion measurements on individual setae</article-title>. <source>Naturwissenschaften</source> <volume>98</volume>: <fpage>381</fpage>–<lpage>7</lpage>.</mixed-citation>
+</ref>
+<ref id="pone.0081943-Stork1"><label>64</label>
+<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Stork</surname><given-names>N</given-names></name> (<year>1983</year>) <article-title>A comparison of the adhesive setae on the feet of lizards and arthropods</article-title>. <source>Journal of Natural History</source> <volume>17</volume>: <fpage>829</fpage>–<lpage>835</lpage>.</mixed-citation>
+</ref>
+<ref id="pone.0081943-Moon1"><label>65</label>
+<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Moon</surname><given-names>M</given-names></name>, <name name-style="western"><surname>Park</surname><given-names>J</given-names></name>, <name name-style="western"><surname>Choi</surname><given-names>W</given-names></name> (<year>2012</year>) <article-title>Fine structural analysis of the fibrillar adhesion apparatus in ladybird beetle</article-title>. <source>Entomological Research</source> <volume>42</volume>: <fpage>196</fpage>–<lpage>205</lpage>.</mixed-citation>
+</ref>
+<ref id="pone.0081943-Niederegger2"><label>66</label>
+<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Niederegger</surname><given-names>S</given-names></name>, <name name-style="western"><surname>Gorb</surname><given-names>S</given-names></name>, <name name-style="western"><surname>Jiao</surname><given-names>Y</given-names></name> (<year>2002</year>) <article-title>Contact behaviour of tenent setae in attachment pads of the blowfly <italic>Calliphora vicina</italic> (Diptera, Calliphoridae)</article-title>. <source>J Comp Physiol</source> <volume>187</volume>: <fpage>961</fpage>–<lpage>970</lpage>.</mixed-citation>
+</ref>
+<ref id="pone.0081943-Sukontason1"><label>67</label>
+<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Sukontason</surname><given-names>K</given-names></name>, <name name-style="western"><surname>Bunchu</surname><given-names>N</given-names></name>, <name name-style="western"><surname>Methanitikorn</surname><given-names>R</given-names></name>, <name name-style="western"><surname>Chaiwong</surname><given-names>T</given-names></name>, <name name-style="western"><surname>Kuntalue</surname><given-names>B</given-names></name>, <etal>et al</etal>. (<year>2006</year>) <article-title>Ultrastructure of adhesive device in y in families calliphoridae, muscidae and sarcophagidae, and their implication as mechanical carriers of pathogens</article-title>. <source>Parasitology research</source> <volume>98</volume>: <fpage>477</fpage>–<lpage>481</lpage>.</mixed-citation>
+</ref>
+<ref id="pone.0081943-Wolff1"><label>68</label>
+<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Wolff</surname><given-names>JO</given-names></name>, <name name-style="western"><surname>Gorb</surname><given-names>SN</given-names></name> (<year>2012</year>) <article-title>Surface roughness effects on attachment ability of the spider <italic>Philodromus dispar</italic> (Araneae, Philodromidae)</article-title>. <source>J Exp Biol</source> <volume>215</volume>: <fpage>179</fpage>–<lpage>184</lpage>.</mixed-citation>
+</ref>
+<ref id="pone.0081943-Nelson1"><label>69</label>
+<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Nelson</surname><given-names>C</given-names></name> (<year>2009</year>) <article-title>Surface ultrastructure and evolution of tarsal attachment structures in Plecoptera (Arthropoda: Hexapoda)</article-title>. <source>Aquatic Insects</source> <volume>31</volume>: <fpage>523</fpage>–<lpage>545</lpage>.</mixed-citation>
+</ref>
+<ref id="pone.0081943-Gorb3"><label>70</label>
+<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Gorb</surname><given-names>E</given-names></name>, <name name-style="western"><surname>Gorb</surname><given-names>S</given-names></name> (<year>2002</year>) <article-title>Attachment ability of the beetle <italic>Chrysolina fastuosa</italic> on various plant surfaces</article-title>. <source>Entomologia Experimentalis et Applicata</source> <volume>105</volume>: <fpage>13</fpage>–<lpage>28</lpage>.</mixed-citation>
+</ref>
+<ref id="pone.0081943-Bullock4"><label>71</label>
+<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Bullock</surname><given-names>J</given-names></name>, <name name-style="western"><surname>Federle</surname><given-names>W</given-names></name> (<year>2010</year>) <article-title>The effect of surface roughness on claw and adhesive hair performance in the dock beetle <italic>Gastrophysa viridula</italic></article-title>. <source>Insect Science</source> <volume>18</volume>: <fpage>298</fpage>–<lpage>304</lpage>.</mixed-citation>
+</ref>
+<ref id="pone.0081943-Clemente3"><label>72</label>
+<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Clemente</surname><given-names>CJ</given-names></name>, <name name-style="western"><surname>Bullock</surname><given-names>JMR</given-names></name>, <name name-style="western"><surname>Beale</surname><given-names>A</given-names></name>, <name name-style="western"><surname>Federle</surname><given-names>W</given-names></name> (<year>2010</year>) <article-title>Evidence for self-cleaning in fluid-based smooth and hairy adhesive systems of insects</article-title>. <source>J Exp Biol</source> <volume>213</volume>: <fpage>635</fpage>–<lpage>642</lpage>.</mixed-citation>
+</ref>
+<ref id="pone.0081943-Larsen1"><label>73</label>
+<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Larsen</surname><given-names>G</given-names></name>, <name name-style="western"><surname>Frazier</surname><given-names>S</given-names></name>, <name name-style="western"><surname>Fish</surname><given-names>S</given-names></name>, <name name-style="western"><surname>Zill</surname><given-names>S</given-names></name> (<year>1995</year>) <article-title>Effects of load inversion in cockroach walking</article-title>. <source>Journal of Comparative Physiology A</source> <volume>176</volume>: <fpage>229</fpage>–<lpage>238</lpage>.</mixed-citation>
+</ref>
+<ref id="pone.0081943-Edwards1"><label>74</label>
+<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Edwards</surname><given-names>J</given-names></name>, <name name-style="western"><surname>Tarkanian</surname><given-names>M</given-names></name> (<year>1970</year>) <article-title>The adhesive pads of heteroptera: a re-examination</article-title>. <source>Proc R Entomol Soc</source> <volume>45</volume>: <fpage>1</fpage>–<lpage>5</lpage>.</mixed-citation>
+</ref>
+<ref id="pone.0081943-Eisner1"><label>75</label>
+<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Eisner</surname><given-names>T</given-names></name>, <name name-style="western"><surname>Aneshansley</surname><given-names>D</given-names></name> (<year>2000</year>) <article-title>Defense by foot adhesion in a beetle (<italic>Hemisphaerota cyanea</italic>)</article-title>. <source>Proc Natl Acad Sci U S A</source> <volume>97</volume>: <fpage>6568</fpage>–<lpage>6573</lpage>.</mixed-citation>
+</ref>
+<ref id="pone.0081943-Wigglesworth1"><label>76</label>
+<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Wigglesworth</surname><given-names>V</given-names></name> (<year>1987</year>) <article-title>How does a fly cling to the under surface of a glass sheet?</article-title> <source>J Exp Biol</source> <volume>129</volume>: <fpage>373</fpage>–<lpage>376</lpage>.</mixed-citation>
+</ref>
+<ref id="pone.0081943-Slifer1"><label>77</label>
+<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Slifer</surname><given-names>E</given-names></name> (<year>1950</year>) <article-title>Vulnerable areas on the surface of the tarsus and pretarsus of the grasshopper (Acrididae, Orthoptera); with special reference to the arolium</article-title>. <source>Annals of the Entomological Society of America</source> <volume>43</volume>: <fpage>173</fpage>–<lpage>188</lpage>.</mixed-citation>
+</ref>
+<ref id="pone.0081943-Ridgel1"><label>78</label>
+<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Ridgel</surname><given-names>A</given-names></name>, <name name-style="western"><surname>Ritzmann</surname><given-names>R</given-names></name>, <name name-style="western"><surname>Schaefer</surname><given-names>P</given-names></name> (<year>2003</year>) <article-title>Effects of aging on behavior and leg kinematics during locomotion in two species of cockroach</article-title>. <source>J Exp Biol</source> <volume>206</volume>: <fpage>4453</fpage>–<lpage>4465</lpage>.</mixed-citation>
+</ref>
+</ref-list></back>
+</article>

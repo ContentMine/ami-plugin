@@ -1,0 +1,1242 @@
+<article xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" article-type="research-article" dtd-version="3.0" xml:lang="en">
+<front>
+<journal-meta>
+<journal-id journal-id-type="nlm-ta">PLoS ONE</journal-id>
+<journal-id journal-id-type="publisher-id">plos</journal-id>
+<journal-id journal-id-type="pmc">plosone</journal-id><journal-title-group>
+<journal-title xml:lang="en">PLoS ONE</journal-title></journal-title-group>
+<issn pub-type="epub">1932-6203</issn>
+<publisher>
+<publisher-name>Public Library of Science</publisher-name>
+<publisher-loc>San Francisco, USA</publisher-loc></publisher>
+</journal-meta>
+<article-meta>
+<article-id pub-id-type="publisher-id">PONE-D-13-33509</article-id>
+<article-id pub-id-type="doi">10.1371/journal.pone.0080872</article-id>
+<article-categories><subj-group subj-group-type="heading"><subject>Research Article</subject></subj-group></article-categories>
+<title-group>
+<article-title>The Good, the Bad, and the Ugly: Agonistic Behaviour in Juvenile Crocodilians</article-title>
+<alt-title alt-title-type="running-head">Agonistic Behaviour in Juvenile Crocodilians</alt-title>
+</title-group>
+<contrib-group>
+<contrib contrib-type="author" xlink:type="simple"><name name-style="western"><surname>Brien</surname><given-names>Matthew L.</given-names></name><xref ref-type="aff" rid="aff1"><sup>1</sup></xref><xref ref-type="aff" rid="aff2"><sup>2</sup></xref><xref ref-type="corresp" rid="cor1"><sup>*</sup></xref></contrib>
+<contrib contrib-type="author" xlink:type="simple"><name name-style="western"><surname>Lang</surname><given-names>Jeffrey W.</given-names></name><xref ref-type="aff" rid="aff3"><sup>3</sup></xref></contrib>
+<contrib contrib-type="author" xlink:type="simple"><name name-style="western"><surname>Webb</surname><given-names>Grahame J.</given-names></name><xref ref-type="aff" rid="aff1"><sup>1</sup></xref><xref ref-type="aff" rid="aff2"><sup>2</sup></xref></contrib>
+<contrib contrib-type="author" xlink:type="simple"><name name-style="western"><surname>Stevenson</surname><given-names>Colin</given-names></name><xref ref-type="aff" rid="aff4"><sup>4</sup></xref></contrib>
+<contrib contrib-type="author" xlink:type="simple"><name name-style="western"><surname>Christian</surname><given-names>Keith A.</given-names></name><xref ref-type="aff" rid="aff1"><sup>1</sup></xref></contrib>
+</contrib-group>
+<aff id="aff1"><label>1</label><addr-line>Research Institute for the Environment and Livelihoods, Charles Darwin University, Darwin, NT, Australia</addr-line></aff>
+<aff id="aff2"><label>2</label><addr-line>Wildlife Management International Pty. Limited, Karama, NT, Australia</addr-line></aff>
+<aff id="aff3"><label>3</label><addr-line>Department of Fisheries, Wildlife and Conservation Biology, University of Minnesota, Saint Paul, Minnesota, United States of America</addr-line></aff>
+<aff id="aff4"><label>4</label><addr-line>Department of Wildlife, Madras Crocodile Bank Trust and Centre for Herpetology, Mamallapuram, Tamil Nadu, India</addr-line></aff>
+<contrib-group>
+<contrib contrib-type="editor" xlink:type="simple"><name name-style="western"><surname>Stow</surname><given-names>Adam</given-names></name>
+<role>Editor</role>
+<xref ref-type="aff" rid="edit1" /></contrib>
+</contrib-group>
+<aff id="edit1"><addr-line>Macquarie University, Australia</addr-line></aff>
+<author-notes>
+<corresp id="cor1">* E-mail: <email xlink:type="simple">matthew_brien@hotmail.com</email></corresp>
+<fn fn-type="conflict"><p>Grahame Webb is the owner of Wildlife Management International, while Keith Christian is employed by Charles Darwin University as a professor. However, this does not alter the authors’ adherence to all the PLOS ONE policies on sharing data and materials.</p></fn>
+<fn fn-type="con"><p>Conceived and designed the experiments: MB JL GW KC. Performed the experiments: MB CS. Analyzed the data: MB JL GW CS KC. Wrote the paper: MB JL GW CS KC.</p></fn>
+</author-notes>
+<pub-date pub-type="collection"><year>2013</year></pub-date>
+<pub-date pub-type="epub"><day>11</day><month>12</month><year>2013</year></pub-date>
+<volume>8</volume>
+<issue>12</issue>
+<elocation-id>e80872</elocation-id>
+<history>
+<date date-type="received"><day>17</day><month>8</month><year>2013</year></date>
+<date date-type="accepted"><day>7</day><month>10</month><year>2013</year></date>
+</history>
+<permissions>
+<copyright-year>2013</copyright-year>
+<copyright-holder>Brien et al</copyright-holder><license xlink:href="http://creativecommons.org/licenses/by/3.0/" xlink:type="simple"><license-p>This is an open-access article distributed under the terms of the <ext-link ext-link-type="uri" xlink:href="http://creativecommons.org/licenses/by/3.0/" xlink:type="simple">Creative Commons Attribution License</ext-link>, which permits unrestricted use, distribution, and reproduction in any medium, provided the original author and source are credited.</license-p></license></permissions>
+<abstract>
+<p>We examined agonistic behaviour in seven species of hatchling and juvenile crocodilians held in small groups (N = 4) under similar laboratory conditions. Agonistic interactions occurred in all seven species, typically involved two individuals, were short in duration (5–15 seconds), and occurred between 1600–2200 h in open water. The nature and extent of agonistic interactions, the behaviours displayed, and the level of conspecific tolerance varied among species. Discrete postures, non-contact and contact movements are described. Three of these were species-specific: push downs by <italic>C. johnstoni</italic>; inflated tail sweeping by <italic>C. novaeguineae</italic>; and, side head striking combined with tail wagging by <italic>C. porosus</italic>. The two long-snouted species (<italic>C. johnstoni</italic> and <italic>G. gangeticus</italic>) avoided contact involving the head and often raised the head up out of the way during agonistic interactions. Several behaviours not associated with aggression are also described, including snout rubbing, raising the head up high while at rest, and the use of vocalizations. The two most aggressive species (<italic>C. porosus</italic>, <italic>C. novaeguineae</italic>) appeared to form dominance hierarchies, whereas the less aggressive species did not. Interspecific differences in agonistic behaviour may reflect evolutionary divergence associated with morphology, ecology, general life history and responses to interspecific conflict in areas where multiple species have co-existed. Understanding species-specific traits in agonistic behaviour and social tolerance has implications for the controlled raising of different species of hatchlings for conservation, management or production purposes.</p>
+</abstract>
+<funding-group><funding-statement>WMI funding through the Rural Industries Research and Development Corporation is gratefully acknowledged. Funding for equipment (cameras, digital video recorders) was provided through a Holsworth Wildlife Research Endowment (ANZ Trustees Foundation), a Northern Territory Research and Innovation Board student grant, an IUCN Crocodile Specialist Group student grant, and Charles Darwin University. The funders had no role in study design, data collection and analysis, decision to publish, or preparation of the manuscript.</funding-statement></funding-group><counts><page-count count="12" /></counts></article-meta>
+</front>
+<body><sec id="s1">
+<title>Introduction</title>
+<p>Agonistic behaviour plays an important role in determining access to resources such as food, shelter and mates, and in establishing dominance status in a wide range of mammals <xref ref-type="bibr" rid="pone.0080872-Bekoff1">[1]</xref> <xref ref-type="bibr" rid="pone.0080872-Smale1">[2]</xref>, birds <xref ref-type="bibr" rid="pone.0080872-Drummond1">[3]</xref> <xref ref-type="bibr" rid="pone.0080872-Mock1">[4]</xref>, fish <xref ref-type="bibr" rid="pone.0080872-Ladich1">[5]</xref> <xref ref-type="bibr" rid="pone.0080872-Genner1">[6]</xref>, reptiles <xref ref-type="bibr" rid="pone.0080872-Barker1">[7]</xref> <xref ref-type="bibr" rid="pone.0080872-Phillips1">[8]</xref>, amphibians <xref ref-type="bibr" rid="pone.0080872-Staub1">[9]</xref> <xref ref-type="bibr" rid="pone.0080872-Adams1">[10]</xref>, and invertebrates <xref ref-type="bibr" rid="pone.0080872-Huber1">[11]</xref> <xref ref-type="bibr" rid="pone.0080872-Bergman1">[12]</xref>. Agonistic behaviour is often present shortly after birth or hatching, and can vary widely in terms of the nature and ontogeny, both within and among species <xref ref-type="bibr" rid="pone.0080872-Drummond2">[13]</xref>. This variability is often associated with differences in the ecology, morphology, or general life history of a particular species or population, which can have an evolutionary or adaptive significance <xref ref-type="bibr" rid="pone.0080872-Huntington1">[14]</xref> <xref ref-type="bibr" rid="pone.0080872-Tierney1">[15]</xref>.</p>
+<p>Among reptiles, many behaviours are largely considered ‘hard wired’ from birth, because they are stereotypical in many species of lizard <xref ref-type="bibr" rid="pone.0080872-Phillips1">[8]</xref> <xref ref-type="bibr" rid="pone.0080872-Worner1">[16]</xref>, snake <xref ref-type="bibr" rid="pone.0080872-Barker1">[7]</xref> <xref ref-type="bibr" rid="pone.0080872-Carpenter1">[17]</xref>, crocodilian <xref ref-type="bibr" rid="pone.0080872-Lang1">[18]</xref> <xref ref-type="bibr" rid="pone.0080872-Brazaitis1">[19]</xref> and possibly chelonian <xref ref-type="bibr" rid="pone.0080872-Froese1">[20]</xref>. However, detailed information on agonistic behaviour among hatchling and juvenile reptiles is limited, due to the often small, cryptic and secretive nature of many species during this early life stage <xref ref-type="bibr" rid="pone.0080872-Morafka1">[21]</xref>.</p>
+<p>For crocodilians, detailed information on agonistic behaviour is available for the adults of three species (<italic>Crocodylus acutus</italic>, <italic>Crocodylus niloticus</italic>, and <italic>Alligator mississippiensis</italic>; <xref ref-type="bibr" rid="pone.0080872-Garrick1">[22]</xref> <xref ref-type="bibr" rid="pone.0080872-Garrick2">[23]</xref> <xref ref-type="bibr" rid="pone.0080872-Vliet1">[24]</xref>, and recently, for hatchlings and juveniles of two species (<italic>Crocodylus porosus</italic>; <italic>Crocodylus johnstoni</italic>) <xref ref-type="bibr" rid="pone.0080872-Brien1">[25]</xref> <xref ref-type="bibr" rid="pone.0080872-Brien2">[26]</xref>. The results suggest that some agonistic behaviours are shared by different species whereas others are species-specific. However, all appear subject to species-specific variation in the way they are expressed in different contexts and the way they change ontogenetically.</p>
+<p>Comprehensive studies of hatchling and juvenile <italic>C. porosus</italic> and <italic>C. johnstoni</italic> under captive conditions have recently revealed that a full repertoire of species-specific agonistic behaviours are displayed during the first few weeks and months post-hatching <xref ref-type="bibr" rid="pone.0080872-Brien1">[25]</xref> <xref ref-type="bibr" rid="pone.0080872-Brien2">[26]</xref>. For both species, clutch specific differences were observed in the frequency and intensity of agonistic interactions, but importantly not in the range of behaviours displayed <xref ref-type="bibr" rid="pone.0080872-Brien1">[25]</xref> <xref ref-type="bibr" rid="pone.0080872-Brien2">[26]</xref>. However, a wide range of other factors (eg. size, sex, age, habitat type and complexity, density, parental care, wild vs captivity) can also potentially influence the nature and expression of agonistic interactions, even within a species. While this makes comparative studies difficult, detailed behavioural observations are still informative, given the significant gap in knowledge about agonistic behaviours for most species, for all life stages.</p>
+<p>In this study, we observed and compared agonistic behaviour of four species of hatchling and seven species of juvenile crocodilians representing all three crocodilian lineages (Crocodylidae, Alligatoridae, and Gavialidae). The work was carried out in captive conditions, because it was a practical approach that allowed control over many, but not all variables.</p>
+<p>The aims of the research were:</p>
+<list list-type="alpha-lower"><list-item>
+<p>To determine whether all species engaged in agonistic interactions, and for those that did, to describe and quantify the behaviours used to elicit and respond to aggression.</p>
+</list-item><list-item>
+<p>To quantify inter-specific differences in types of behaviour and in the frequency, timing, duration, intensity and outcome of an interaction, and where possible, ontogenetic shifts in these parameters between hatchlings and juveniles.</p>
+</list-item><list-item>
+<p>To discuss species-specific differences in agonistic behaviour among the seven species examined and the ecological and evolutionary significance of these differences and their relevance to conservation, management, and/or production.</p>
+</list-item></list>
+</sec><sec id="s2" sec-type="materials|methods">
+<title>Materials and Methods</title>
+<p>This project was conducted under the approval of the Animal Ethics Committee of Charles Darwin University (permit no. A11003).</p>
+<sec id="s2a">
+<title>Subjects and Housing</title>
+<p>Hatchling and juvenile saltwater crocodiles (<italic>Crocodylus porosus</italic> - CPO), Australian freshwater crocodiles (<italic>Crocodylus johnstoni</italic> - CJ), American alligators (<italic>Alligator mississippiensis</italic> - AM), and juvenile New Guinea freshwater crocodiles (<italic>Crocodylus novaeguineae</italic> - CNG) were provided by Wildlife Management International (WMI) and were examined in Darwin, Australia, 27 December 2011 to 27 March 2013 (<xref ref-type="table" rid="pone-0080872-t001">Table 1</xref>). Hatchling and juvenile Gharials (<italic>Gavialis gangeticus</italic> - GG), and juvenile Siamese crocodiles (<italic>Crocodylus siamensis</italic> - CS), and dwarf caimans (<italic>Paleosuchus palpebrosus</italic> - PP) were provided by the Madras Crocodile Bank Trust (MCBT) and were examined in Chennai, India in September 2012 (<xref ref-type="table" rid="pone-0080872-t001">Table 1</xref>).</p>
+<table-wrap id="pone-0080872-t001" position="float" orientation="portrait"><object-id pub-id-type="doi">10.1371/journal.pone.0080872.t001</object-id><label>Table 1</label><caption>
+<title>Groups of hatchling (10–21 days of age) and juvenile (10–18 months of age) crocodilians used in behavioural experiments.</title>
+</caption><alternatives><graphic id="pone-0080872-t001-1" position="float" mimetype="image" xlink:href="info:doi/10.1371/journal.pone.0080872.t001" xlink:type="simple" orientation="portrait" />
+<table><colgroup span="1"><col align="left" span="1" /><col align="center" span="1" /><col align="center" span="1" /><col align="center" span="1" /><col align="center" span="1" /><col align="center" span="1" /><col align="center" span="1" /><col align="center" span="1" /><col align="center" span="1" /><col align="center" span="1" /></colgroup>
+<thead>
+<tr>
+<td align="left" rowspan="1" colspan="1">Species</td>
+<td align="left" rowspan="1" colspan="1">Location</td>
+<td align="left" rowspan="1" colspan="1">Date</td>
+<td align="left" rowspan="1" colspan="1">Age class</td>
+<td align="left" rowspan="1" colspan="1">Age</td>
+<td align="left" rowspan="1" colspan="1">Groups (animals)</td>
+<td align="left" rowspan="1" colspan="1">No. clutches</td>
+<td align="left" rowspan="1" colspan="1">TL (mm)</td>
+<td align="left" rowspan="1" colspan="1">BM (g)</td>
+<td align="left" rowspan="1" colspan="1">Sex ratio</td>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left" rowspan="1" colspan="1"><italic>A. mississippiensis</italic> (AM)</td>
+<td align="left" rowspan="1" colspan="1">WMI</td>
+<td align="left" rowspan="1" colspan="1">27-Mar-13</td>
+<td align="left" rowspan="1" colspan="1">H</td>
+<td align="left" rowspan="1" colspan="1">10–14 days</td>
+<td align="left" rowspan="1" colspan="1">2(4)</td>
+<td align="left" rowspan="1" colspan="1">2</td>
+<td align="left" rowspan="1" colspan="1">234.6±12.7</td>
+<td align="left" rowspan="1" colspan="1">45.3±6.9</td>
+<td align="left" rowspan="1" colspan="1">–</td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1" />
+<td align="left" rowspan="1" colspan="1">WMI</td>
+<td align="left" rowspan="1" colspan="1">27-Mar-13</td>
+<td align="left" rowspan="1" colspan="1">J</td>
+<td align="left" rowspan="1" colspan="1">12 months</td>
+<td align="left" rowspan="1" colspan="1">1(4)</td>
+<td align="left" rowspan="1" colspan="1">1</td>
+<td align="left" rowspan="1" colspan="1">357.3±7.0</td>
+<td align="left" rowspan="1" colspan="1">118.8±6.3</td>
+<td align="left" rowspan="1" colspan="1">2 M:2 F</td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1"><italic>P. palpebrosus</italic> (PP)</td>
+<td align="left" rowspan="1" colspan="1">MCBT</td>
+<td align="left" rowspan="1" colspan="1">14-Sep-12</td>
+<td align="left" rowspan="1" colspan="1">J</td>
+<td align="left" rowspan="1" colspan="1">12 months</td>
+<td align="left" rowspan="1" colspan="1">3(12)</td>
+<td align="left" rowspan="1" colspan="1">1</td>
+<td align="left" rowspan="1" colspan="1">450.1±7.9</td>
+<td align="left" rowspan="1" colspan="1">361.4±21.8</td>
+<td align="left" rowspan="1" colspan="1">9 M:3 F</td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1"><italic>G. gangeticus</italic> (GG)</td>
+<td align="left" rowspan="1" colspan="1">MCBT</td>
+<td align="left" rowspan="1" colspan="1">13-Sep-12</td>
+<td align="left" rowspan="1" colspan="1">H</td>
+<td align="left" rowspan="1" colspan="1">21 days</td>
+<td align="left" rowspan="1" colspan="1">2(8)</td>
+<td align="left" rowspan="1" colspan="1">1</td>
+<td align="left" rowspan="1" colspan="1">504.7±38.9</td>
+<td align="left" rowspan="1" colspan="1">172.4±34.6</td>
+<td align="left" rowspan="1" colspan="1">–</td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1" />
+<td align="left" rowspan="1" colspan="1">MCBT</td>
+<td align="left" rowspan="1" colspan="1">13-Sep-12</td>
+<td align="left" rowspan="1" colspan="1">J</td>
+<td align="left" rowspan="1" colspan="1">12 months</td>
+<td align="left" rowspan="1" colspan="1">3(12)</td>
+<td align="left" rowspan="1" colspan="1">2</td>
+<td align="left" rowspan="1" colspan="1">718.5±25.4</td>
+<td align="left" rowspan="1" colspan="1">566.5±76.3</td>
+<td align="left" rowspan="1" colspan="1">8 M:4 F</td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1"><italic>C. porosus</italic> (CPO)</td>
+<td align="left" rowspan="1" colspan="1">WMI</td>
+<td align="left" rowspan="1" colspan="1">16-Mar-12</td>
+<td align="left" rowspan="1" colspan="1">H</td>
+<td align="left" rowspan="1" colspan="1">10–14 days</td>
+<td align="left" rowspan="1" colspan="1">3(12)</td>
+<td align="left" rowspan="1" colspan="1">3</td>
+<td align="left" rowspan="1" colspan="1">288.8±4.9</td>
+<td align="left" rowspan="1" colspan="1">74.2±6.2</td>
+<td align="left" rowspan="1" colspan="1">9 M:3 F</td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1" />
+<td align="left" rowspan="1" colspan="1">WMI</td>
+<td align="left" rowspan="1" colspan="1">12-Jun-12</td>
+<td align="left" rowspan="1" colspan="1">J</td>
+<td align="left" rowspan="1" colspan="1">12–18 months</td>
+<td align="left" rowspan="1" colspan="1">3(12)</td>
+<td align="left" rowspan="1" colspan="1">3</td>
+<td align="left" rowspan="1" colspan="1">679.6±11.2</td>
+<td align="left" rowspan="1" colspan="1">794.8±38.1</td>
+<td align="left" rowspan="1" colspan="1">10 M:2 F</td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1"><italic>C. johnstoni</italic> (CJ)</td>
+<td align="left" rowspan="1" colspan="1">WMI</td>
+<td align="left" rowspan="1" colspan="1">27-Dec-11</td>
+<td align="left" rowspan="1" colspan="1">H</td>
+<td align="left" rowspan="1" colspan="1">10–14 days</td>
+<td align="left" rowspan="1" colspan="1">3(12)</td>
+<td align="left" rowspan="1" colspan="1">3</td>
+<td align="left" rowspan="1" colspan="1">245.3±5.3</td>
+<td align="left" rowspan="1" colspan="1">42.7±4.8</td>
+<td align="left" rowspan="1" colspan="1">8 M:4 F</td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1" />
+<td align="left" rowspan="1" colspan="1">WMI</td>
+<td align="left" rowspan="1" colspan="1">14-May-12</td>
+<td align="left" rowspan="1" colspan="1">J</td>
+<td align="left" rowspan="1" colspan="1">12–18 months</td>
+<td align="left" rowspan="1" colspan="1">3(12)</td>
+<td align="left" rowspan="1" colspan="1">3</td>
+<td align="left" rowspan="1" colspan="1">605.4±19.9</td>
+<td align="left" rowspan="1" colspan="1">631.0±67.6</td>
+<td align="left" rowspan="1" colspan="1">9 M:3 F</td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1"><italic>C. novaeguineae</italic> (CNG)</td>
+<td align="left" rowspan="1" colspan="1">WMI</td>
+<td align="left" rowspan="1" colspan="1">18-Jan-12</td>
+<td align="left" rowspan="1" colspan="1">J</td>
+<td align="left" rowspan="1" colspan="1">14 months</td>
+<td align="left" rowspan="1" colspan="1">3(12)</td>
+<td align="left" rowspan="1" colspan="1">1</td>
+<td align="left" rowspan="1" colspan="1">558.7±15.6</td>
+<td align="left" rowspan="1" colspan="1">491.8±39.3</td>
+<td align="left" rowspan="1" colspan="1">8 M:4 F</td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1"><italic>C. siamensis</italic> (CS)</td>
+<td align="left" rowspan="1" colspan="1">MCBT</td>
+<td align="left" rowspan="1" colspan="1">11-Sep-12</td>
+<td align="left" rowspan="1" colspan="1">J</td>
+<td align="left" rowspan="1" colspan="1">14 months</td>
+<td align="left" rowspan="1" colspan="1">4(16)</td>
+<td align="left" rowspan="1" colspan="1">1</td>
+<td align="left" rowspan="1" colspan="1">545.2±13.5</td>
+<td align="left" rowspan="1" colspan="1">475.5±35.7</td>
+<td align="left" rowspan="1" colspan="1">11 M:5 F</td>
+</tr>
+</tbody>
+</table>
+</alternatives><table-wrap-foot><fn id="nt101"><label /><p>H: hatchling; J: juvenile.</p></fn></table-wrap-foot></table-wrap>
+<p>Each species varied in general morphology, particularly snout shape, and had different ecological and natural history traits in the wild (<xref ref-type="table" rid="pone-0080872-t002">Table 2</xref>). The family Alligatoridae (AM, PP) has been separated from other extant crocodilians by 85–90 million years, and the Gavialidae (GG) and Crocodylidae (CJ, CNG, CPO, CS), separated from each other by 55–60 million years <xref ref-type="bibr" rid="pone.0080872-Oaks1">[27]</xref>. Snout shape categories used here are derived from <xref ref-type="bibr" rid="pone.0080872-Brochu1">[28]</xref> which were a modification of the categories determined by <xref ref-type="bibr" rid="pone.0080872-Busbey1">[29]</xref> based on cross-sectional dimensions and the ratio of rostral length to skull length. Several authors have argued that snout shape in crocodilians is more closely related to ecological habit than to phylogeny <xref ref-type="bibr" rid="pone.0080872-Brochu1">[28]</xref> <xref ref-type="bibr" rid="pone.0080872-Pierce1">[30]</xref>.</p>
+<table-wrap id="pone-0080872-t002" position="float" orientation="portrait"><object-id pub-id-type="doi">10.1371/journal.pone.0080872.t002</object-id><label>Table 2</label><caption>
+<title>General characteristics of the seven species of crocodilian examined <xref ref-type="bibr" rid="pone.0080872-Manolis1">[31]</xref>.</title>
+</caption><alternatives><graphic id="pone-0080872-t002-2" position="float" mimetype="image" xlink:href="info:doi/10.1371/journal.pone.0080872.t002" xlink:type="simple" orientation="portrait" />
+<table><colgroup span="1"><col align="left" span="1" /><col align="center" span="1" /><col align="center" span="1" /><col align="center" span="1" /><col align="center" span="1" /><col align="center" span="1" /><col align="center" span="1" /><col align="center" span="1" /></colgroup>
+<thead>
+<tr>
+<td align="left" rowspan="1" colspan="1" />
+<td align="left" rowspan="1" colspan="1" />
+<td align="left" rowspan="1" colspan="1" />
+<td align="left" rowspan="1" colspan="1" />
+<td colspan="2" align="left" rowspan="1">Mean max. size</td>
+<td align="left" rowspan="1" colspan="1" />
+<td align="left" rowspan="1" colspan="1" />
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1">Species</td>
+<td align="left" rowspan="1" colspan="1">Geographicallocation</td>
+<td align="left" rowspan="1" colspan="1">Snout shape</td>
+<td align="left" rowspan="1" colspan="1">Primary habitat type</td>
+<td align="left" rowspan="1" colspan="1">Male</td>
+<td align="left" rowspan="1" colspan="1">Female</td>
+<td align="left" rowspan="1" colspan="1">Nesting strategy</td>
+<td align="left" rowspan="1" colspan="1">Clutch size</td>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left" rowspan="1" colspan="1"><italic>A. mississippiensis</italic> (AM)</td>
+<td align="left" rowspan="1" colspan="1">south eastern USA</td>
+<td align="left" rowspan="1" colspan="1">Generalised</td>
+<td align="left" rowspan="1" colspan="1">Freshwater swamps, marshes, and lakes</td>
+<td align="left" rowspan="1" colspan="1">4 m</td>
+<td align="left" rowspan="1" colspan="1">3 m</td>
+<td align="left" rowspan="1" colspan="1">Mound</td>
+<td align="left" rowspan="1" colspan="1">20–50</td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1"><italic>P. palpebrosus</italic> (PP)</td>
+<td align="left" rowspan="1" colspan="1">South America</td>
+<td align="left" rowspan="1" colspan="1">Blunt</td>
+<td align="left" rowspan="1" colspan="1">Heavily forested freshwater rivers, creeks and flood plain</td>
+<td align="left" rowspan="1" colspan="1">1.5 m</td>
+<td align="left" rowspan="1" colspan="1">1.2 m</td>
+<td align="left" rowspan="1" colspan="1">Mound</td>
+<td align="left" rowspan="1" colspan="1">10–20</td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1"><italic>G. gangeticus</italic> (GG)</td>
+<td align="left" rowspan="1" colspan="1">Indian subcontinent</td>
+<td align="left" rowspan="1" colspan="1">Long</td>
+<td align="left" rowspan="1" colspan="1">Freshwater rivers</td>
+<td align="left" rowspan="1" colspan="1">5 m</td>
+<td align="left" rowspan="1" colspan="1">3.5 m</td>
+<td align="left" rowspan="1" colspan="1">Hole</td>
+<td align="left" rowspan="1" colspan="1">30–50</td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1"><italic>C. porosus</italic> (CP)</td>
+<td align="left" rowspan="1" colspan="1">south east Asia</td>
+<td align="left" rowspan="1" colspan="1">Generalised</td>
+<td align="left" rowspan="1" colspan="1">Widespread in waterways fromcoastal to far inland</td>
+<td align="left" rowspan="1" colspan="1">5 m</td>
+<td align="left" rowspan="1" colspan="1">3 m</td>
+<td align="left" rowspan="1" colspan="1">Mound</td>
+<td align="left" rowspan="1" colspan="1">30–60</td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1"><italic>C. johnstoni</italic> (CJ)</td>
+<td align="left" rowspan="1" colspan="1">northern Australia</td>
+<td align="left" rowspan="1" colspan="1">Long</td>
+<td align="left" rowspan="1" colspan="1">Freshwater swamps, billabongs,rivers and creeks</td>
+<td align="left" rowspan="1" colspan="1">3 m</td>
+<td align="left" rowspan="1" colspan="1">2 m</td>
+<td align="left" rowspan="1" colspan="1">Hole</td>
+<td align="left" rowspan="1" colspan="1">10–20</td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1"><italic>C. novaeguinea</italic> (CN)</td>
+<td align="left" rowspan="1" colspan="1">Papua New Guinea; Indonesia</td>
+<td align="left" rowspan="1" colspan="1">Generalised</td>
+<td align="left" rowspan="1" colspan="1">Freshwater swamps, marshes,and lakes</td>
+<td align="left" rowspan="1" colspan="1">3.5 m</td>
+<td align="left" rowspan="1" colspan="1">2.5 m</td>
+<td align="left" rowspan="1" colspan="1">Mound</td>
+<td align="left" rowspan="1" colspan="1">20–45</td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1"><italic>C. siamensis</italic> (CS)</td>
+<td align="left" rowspan="1" colspan="1">south east Asia</td>
+<td align="left" rowspan="1" colspan="1">Generalised</td>
+<td align="left" rowspan="1" colspan="1">Freshwater swamps, marshes,and lakes</td>
+<td align="left" rowspan="1" colspan="1">4 m</td>
+<td align="left" rowspan="1" colspan="1">3 m</td>
+<td align="left" rowspan="1" colspan="1">Mound</td>
+<td align="left" rowspan="1" colspan="1">20–50</td>
+</tr>
+</tbody>
+</table>
+</alternatives><table-wrap-foot><fn id="nt102"><label /><p>Snout shape is defined as long, generalised, or blunt according to <xref ref-type="bibr" rid="pone.0080872-Brochu1">[28]</xref>. Species information was derived from <xref ref-type="bibr" rid="pone.0080872-Groombridge1">[32]</xref> and <xref ref-type="bibr" rid="pone.0080872-Thorbjarnarson1">[33]</xref>.</p></fn></table-wrap-foot></table-wrap>
+<p>All animals had been raised in captivity since hatching in relatively small groups (3–15) in enclosures of various shapes and designs containing land and water areas. Four species involved individuals from multiple clutches (AMh, CJ, CPO, and GGj), while all others were siblings from single clutches. Clutch differences have been reported in the frequency and intensity of agonistic interactions <xref ref-type="bibr" rid="pone.0080872-Brien1">[25]</xref> <xref ref-type="bibr" rid="pone.0080872-Brien2">[26]</xref>, but not in the repertoire of behaviours displayed.</p>
+<p>From earlier studies with CPO and CJ hatchings and juveniles it was known that reorganizing crocodiles into small groups (3–5 individuals) increased the probability that agonistic interactions would occur, and that the various species-specific behaviours would be displayed, as members adjusted to their new social setting. Hence the crocodiles here were transferred to experimental enclosures (WMI and MCBT) in groups of 4 individuals at the same time (1200 h). Total length (TL - mm) and body mass (g) of each animal was recorded and sex determined where possible. Groups contained individuals of a similar size and with a similar sex ratio, which was male biased (<xref ref-type="table" rid="pone-0080872-t001">Table 1</xref>).</p>
+<p>Enclosures at WMI were fibreglass and rectangular (170×100×50 cm high), with a land area (40%) that gradually sloped down to a water area (60%; ≤8 cm deep). At MCBT, circular plastic enclosures were used (120×120×80 cm high), with a land area (40%) that gradually sloped down to a water area (60%; ≤8 cm deep). While the amount of space per individual differed between both locations, our previous studies on agonistic behaviour of hatchling and juvenile <italic>C. porosus</italic> <xref ref-type="bibr" rid="pone.0080872-Brien1">[25]</xref> and <italic>C. johnstoni</italic> <xref ref-type="bibr" rid="pone.0080872-Brien2">[26]</xref>, involving groups of 5 (0.34 individuals/m<sup>2</sup>) in the same enclosures used here with groups of 4 (0.43 individuals/m<sup>2</sup>), revealed very similar results in terms of the frequency, intensity, and behaviours displayed. Water temperatures were maintained at 30–32°C (WMI) or 29–31°C (MCBT), while air temperatures varied from 26–32°C, with a natural light cycle. These temperatures are within the range either preferred by most crocodilians under captive conditions <xref ref-type="bibr" rid="pone.0080872-Lang2">[34]</xref>, or within the range that results in optimal rates of growth and survival. The thermal regime that crocodilians were exposed to prior to the study was also similar. Animals were not fed for the duration of the observations (48 hours). No form of cover was provided which enabled clear viewing of interactions.</p>
+</sec><sec id="s2b">
+<title>Recording Behaviour</title>
+<p>Wide angle infrared CCTV cameras (Signet, 92.6°) in each enclosure recorded behaviour on digital video recorders (Signet 4CH QV-8104). A recording period lasted 16 hours (1600 to 0800 h), and was conducted on two consecutive nights for each group (32 h per group). The recordings were started four hours after the crocodiles were placed in the new experimental enclosures. This sampling period was based on previous recordings (100’s of hours) of the hatchlings and juveniles of several species (CPO, CJ, CNG, GG, CS, AM) that revealed no agonistic behaviour occurring between 0800 and 1600 h. For all these species, agonistic interactions corresponded with periods of increased activity, mostly occurring at dusk and early evening (1600–2200 h). No audio was recorded during this study, but some species did vocalize. Vocalization produced distinctive ripples in the water, which were visible on the film, allowing some but not all vocalizations to be detected.</p>
+</sec><sec id="s2c">
+<title>Agonistic Interactions</title>
+<p>An agonistic interaction was defined as any interaction between individuals in which aggression and intolerance appeared to be signalled by postures or actions by one or both individuals <xref ref-type="bibr" rid="pone.0080872-Brien1">[25]</xref> <xref ref-type="bibr" rid="pone.0080872-Brien2">[26]</xref>. An aggressive individual was one that made deliberate advances toward another, or that made physical contact with another. Each agonistic interaction was examined to quantify whether one or both contestants engaged in aggression. The intensity of agonistic interactions was characterised as: low or high. Low intensity interactions appeared accidental, when individuals lying together disturbed each other when moving, or if one swam into another underwater. High intensity interactions appeared intentional, with one individual approaching another with the apparent goal of initiating an agonistic interaction. The behaviour exhibited, the intensity of interaction (low or high), the location (water, land), the time, duration of interaction and outcome (displacement or no displacement) were all quantified, as previously described for hatchling CPO and CJ under similar conditions <xref ref-type="bibr" rid="pone.0080872-Brien1">[25]</xref> <xref ref-type="bibr" rid="pone.0080872-Brien2">[26]</xref>.</p>
+</sec><sec id="s2d">
+<title>Classification of Behaviour</title>
+<p>Behavioural observations recorded during these experiments were used to create an inventory of agonistic behaviour, similar to that described for hatchling and juvenile CPO and CJ <xref ref-type="bibr" rid="pone.0080872-Brien1">[25]</xref> <xref ref-type="bibr" rid="pone.0080872-Brien2">[26]</xref>. The descriptions are based on a series of basic postures, modified by movement of body parts or of the whole animal, and whether visual signals or actual contact was involved <xref ref-type="bibr" rid="pone.0080872-Brien1">[25]</xref> <xref ref-type="bibr" rid="pone.0080872-Brien2">[26]</xref>. Some of these behaviours have been described in other studies with juvenile and adult crocodilians <xref ref-type="bibr" rid="pone.0080872-Garrick1">[22]</xref> <xref ref-type="bibr" rid="pone.0080872-Lang1">[18]</xref> <xref ref-type="bibr" rid="pone.0080872-Brien1">[25]</xref> <xref ref-type="bibr" rid="pone.0080872-Brien2">[26]</xref>.</p>
+</sec><sec id="s2e">
+<title>Statistical Analyses</title>
+<p>All statistical analyses were performed using JMP 8.0 statistical software <xref ref-type="bibr" rid="pone.0080872-SAS1">[35]</xref>. Where appropriate, data were checked for normality (Shapiro-Wilk’s test) and homoscedasticity (Cochran’s test) prior to statistical analysis. Due to the potential influence of clutch on the frequency, intensity, duration, and outcome of agonistic interactions, statistical analyses were limited to species with more than one clutch (AMh, CJ, CPO, GGj). However, the data is still presented for other species because there are so few data of this sort in the literature. Frequency and duration of interactions was compared among species using a Kruskal-Wallis test with Wilcoxon pair-wise comparisons to account for small and unequal sample sizes. A Pearson’s chi-square test was used to compare the intensity and outcome of an interaction among species. Hatchlings and juveniles were compared separately in all species. A significance level of <italic>P</italic>&lt;0.05 was used for all statistical tests. All means are reported ± one standard error with sample sizes.</p>
+</sec></sec><sec id="s3">
+<title>Results</title>
+<sec id="s3a">
+<title>Agonistic Behaviour</title>
+<p>In 960 h of observation of 120 individuals of seven species, we observed a total of 462 agonistic interactions. Observed agonistic interactions occurred in open water, with none observed on land. All interactions involved only two animals, with the single exception of three juvenile. For most species, interactions appeared to occur accidentally when individuals lying together disturbed each other when moving off, or if one swam into another. However, interactions were also initiated by one individual moving deliberately toward another in either a single movement or in a series of short, rapid advance (RA) movements. In response to an approach, an animal displayed a series of other agonistic behaviours (<xref ref-type="table" rid="pone-0080872-t003">Table 3</xref>).</p>
+<table-wrap id="pone-0080872-t003" position="float" orientation="portrait"><object-id pub-id-type="doi">10.1371/journal.pone.0080872.t003</object-id><label>Table 3</label><caption>
+<title>Description of the various postures, non-contact and contact movements displayed by hatchling and juvenile crocodilians during agonistic interactions <xref ref-type="bibr" rid="pone.0080872-Pierce1">[30]</xref> <xref ref-type="bibr" rid="pone.0080872-Manolis1">[31]</xref>.</title>
+</caption><alternatives><graphic id="pone-0080872-t003-3" position="float" mimetype="image" xlink:href="info:doi/10.1371/journal.pone.0080872.t003" xlink:type="simple" orientation="portrait" />
+<table><colgroup span="1"><col align="left" span="1" /><col align="center" span="1" /><col align="center" span="1" /></colgroup>
+<thead>
+<tr>
+<td align="left" rowspan="1" colspan="1" />
+<td align="left" rowspan="1" colspan="1">Abbreviation</td>
+<td align="left" rowspan="1" colspan="1">Definition</td>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td colspan="3" align="left" rowspan="1"><bold>Initiation</bold></td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1">Rapid advance</td>
+<td align="left" rowspan="1" colspan="1">RA</td>
+<td align="left" rowspan="1" colspan="1">Series of short rapid advance movements towards another individual while low in water.</td>
+</tr>
+<tr>
+<td colspan="3" align="left" rowspan="1"><bold>Termination</bold></td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1">Slow flight</td>
+<td align="left" rowspan="1" colspan="1">SF</td>
+<td align="left" rowspan="1" colspan="1">Slow movement away from another individual in a low in water posture.</td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1">Rapid flight</td>
+<td align="left" rowspan="1" colspan="1">RF</td>
+<td align="left" rowspan="1" colspan="1">Rapid movement away from another individual in a low in water posture.</td>
+</tr>
+<tr>
+<td colspan="3" align="left" rowspan="1"><bold>Posture</bold></td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1">Low in water</td>
+<td align="left" rowspan="1" colspan="1">LIW</td>
+<td align="left" rowspan="1" colspan="1">Immobile with only the top of the head and back above the water surface.</td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1">Inflated posture</td>
+<td align="left" rowspan="1" colspan="1">IP</td>
+<td align="left" rowspan="1" colspan="1">Immobile with upward extension of either the front two or all four limbs, with neck and back arched high and head and tail angled downward.</td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1">Head and tail raised</td>
+<td align="left" rowspan="1" colspan="1">HTR</td>
+<td align="left" rowspan="1" colspan="1">Immobile with head and tail raised out of water while back remains low. Head is usually parallel to the water but can also be angled upwards.</td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1">Head raised high</td>
+<td align="left" rowspan="1" colspan="1">HRH</td>
+<td align="left" rowspan="1" colspan="1">Immobile with upward extension of the front two limbs pushing the head and chest high out of the water on a ∼45° angle while tail remains low.</td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1">Mouth agape</td>
+<td align="left" rowspan="1" colspan="1">MA</td>
+<td align="left" rowspan="1" colspan="1">Immobile with mouth opened wide (all postures).</td>
+</tr>
+<tr>
+<td colspan="3" align="left" rowspan="1"><bold>Non-contact movements</bold></td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1">Light jaw-clap</td>
+<td align="left" rowspan="1" colspan="1">LJC</td>
+<td align="left" rowspan="1" colspan="1">Rapid opening and closing of the jaws at the water surface, often repeated several times while low in the water or inflated.</td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1">Tail-wagging</td>
+<td align="left" rowspan="1" colspan="1">TW</td>
+<td align="left" rowspan="1" colspan="1">Undulation of the tail from side to side in either a gentle sweeping motion or rapid twitching, often repeated several times (all postures).</td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1">Inflated tail sweep</td>
+<td align="left" rowspan="1" colspan="1">ITS<xref ref-type="table-fn" rid="nt103">*</xref></td>
+<td align="left" rowspan="1" colspan="1">In an inflated posture, the whole tail is swept side to side in a slow deliberate fashion as the individual approaches another. This becomes more rapid and the tail is thrashed from side to side.</td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1">Vocalization</td>
+<td align="left" rowspan="1" colspan="1">V<xref ref-type="table-fn" rid="nt103">*</xref></td>
+<td align="left" rowspan="1" colspan="1">Vocalization observed and confirmed from body movement.</td>
+</tr>
+<tr>
+<td colspan="3" align="left" rowspan="1"><bold>Contact movement</bold></td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1">Head push</td>
+<td align="left" rowspan="1" colspan="1">HP</td>
+<td align="left" rowspan="1" colspan="1">Head is pushed in to an opponent, usually with mouth closed while low in water or inflated.</td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1">Push down</td>
+<td align="left" rowspan="1" colspan="1">PD</td>
+<td align="left" rowspan="1" colspan="1">Chest and neck of individual pushed down on the upper neck or back of an opponent while head is raised high.</td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1">Bite</td>
+<td align="left" rowspan="1" colspan="1">B</td>
+<td align="left" rowspan="1" colspan="1">Jaws closed shut on an opponent (all postures).</td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1">Side head-strike</td>
+<td align="left" rowspan="1" colspan="1">SHS</td>
+<td align="left" rowspan="1" colspan="1">Head is thrust sideways in to an opponent while the mouth is either open or closed (all postures).</td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1">Tail-wag side head strike</td>
+<td align="left" rowspan="1" colspan="1">TWSHS</td>
+<td align="left" rowspan="1" colspan="1">Tail wagging occurs prior to a side head strike, increasing the force of the impact (all postures).</td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1">Tail-wag bite</td>
+<td align="left" rowspan="1" colspan="1">TWB</td>
+<td align="left" rowspan="1" colspan="1">Tail wagging occurs prior to a bite and it propels the individual in to an opponent with force while low in water.</td>
+</tr>
+</tbody>
+</table>
+</alternatives><table-wrap-foot><fn id="nt103"><label>*</label><p> = has not been previously described, or is different in some way.</p></fn></table-wrap-foot></table-wrap>
+<p>Agonistic behaviours involved the adoption of some discrete postures that varied in the intensity of expression (<xref ref-type="table" rid="pone-0080872-t003">Table 3</xref>). The adoption of such postures could be abandoned at any time by either slow (SF) or rapid flight (RF), ending the interaction. Alternatively, the signals emanating from the postures could be intensified with body movements, such as mouth agape (MA), light jaw claps (LJC), or tail wagging (TW), which were signalling displays that did not involve physical contact between combatants. If the agonistic interaction was not terminated by flight (SF or RF) by one or both animals, the behaviours intensified, with contact movements such as head pushing (HP), push downs (PD), biting (B), or side head striking (SHS), occasionally combined in different ways with intense tail wagging (<xref ref-type="table" rid="pone-0080872-t003">Table 3</xref>), until one or both individuals took flight. While several behaviours were common across the majority of species, other behaviours were often specific to only one or a couple of species, varied in the frequency with which it was exhibited (common or rare), and in some cases appeared to be used to signal different intentions (<xref ref-type="table" rid="pone-0080872-t004">Table 4</xref>).</p>
+<table-wrap id="pone-0080872-t004" position="float" orientation="portrait"><object-id pub-id-type="doi">10.1371/journal.pone.0080872.t004</object-id><label>Table 4</label><caption>
+<title>Presence or absence of the various postures, non-contact and contact movements displayed by hatchling (H) and juvenile (J) crocodilians during agonistic interactions <xref ref-type="bibr" rid="pone.0080872-Brien1">[25]</xref> <xref ref-type="bibr" rid="pone.0080872-Brien2">[26]</xref>.</title>
+</caption><alternatives><graphic id="pone-0080872-t004-4" position="float" mimetype="image" xlink:href="info:doi/10.1371/journal.pone.0080872.t004" xlink:type="simple" orientation="portrait" />
+<table><colgroup span="1"><col align="left" span="1" /><col align="center" span="1" /><col align="center" span="1" /><col align="center" span="1" /><col align="center" span="1" /><col align="center" span="1" /><col align="center" span="1" /><col align="center" span="1" /><col align="center" span="1" /><col align="center" span="1" /><col align="center" span="1" /><col align="center" span="1" /></colgroup>
+<thead>
+<tr>
+<td align="left" rowspan="1" colspan="1" />
+<td colspan="11" align="left" rowspan="1">Species</td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1" />
+<td colspan="2" align="left" rowspan="1">AM</td>
+<td align="left" rowspan="1" colspan="1">PP</td>
+<td colspan="2" align="left" rowspan="1">GG</td>
+<td colspan="2" align="left" rowspan="1">CPO</td>
+<td colspan="2" align="left" rowspan="1">CJ</td>
+<td align="left" rowspan="1" colspan="1">CNG</td>
+<td align="left" rowspan="1" colspan="1">CS</td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1">Initiation</td>
+<td align="left" rowspan="1" colspan="1">H</td>
+<td align="left" rowspan="1" colspan="1">J</td>
+<td align="left" rowspan="1" colspan="1">J</td>
+<td align="left" rowspan="1" colspan="1">H</td>
+<td align="left" rowspan="1" colspan="1">J</td>
+<td align="left" rowspan="1" colspan="1">H</td>
+<td align="left" rowspan="1" colspan="1">J</td>
+<td align="left" rowspan="1" colspan="1">H</td>
+<td align="left" rowspan="1" colspan="1">J</td>
+<td align="left" rowspan="1" colspan="1">J</td>
+<td align="left" rowspan="1" colspan="1">J</td>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left" rowspan="1" colspan="1">Rapid advance (RA)</td>
+<td align="left" rowspan="1" colspan="1" />
+<td align="left" rowspan="1" colspan="1" />
+<td align="left" rowspan="1" colspan="1" />
+<td align="left" rowspan="1" colspan="1" />
+<td align="left" rowspan="1" colspan="1" />
+<td align="left" rowspan="1" colspan="1">X</td>
+<td align="left" rowspan="1" colspan="1">X</td>
+<td align="left" rowspan="1" colspan="1">X</td>
+<td align="left" rowspan="1" colspan="1">X</td>
+<td align="left" rowspan="1" colspan="1">X</td>
+<td align="left" rowspan="1" colspan="1" />
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1"><bold>Termination</bold></td>
+<td align="left" rowspan="1" colspan="1" />
+<td align="left" rowspan="1" colspan="1" />
+<td align="left" rowspan="1" colspan="1" />
+<td align="left" rowspan="1" colspan="1" />
+<td align="left" rowspan="1" colspan="1" />
+<td align="left" rowspan="1" colspan="1" />
+<td align="left" rowspan="1" colspan="1" />
+<td align="left" rowspan="1" colspan="1" />
+<td align="left" rowspan="1" colspan="1" />
+<td align="left" rowspan="1" colspan="1" />
+<td align="left" rowspan="1" colspan="1" />
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1">Slow flight (SF)</td>
+<td align="left" rowspan="1" colspan="1">X</td>
+<td align="left" rowspan="1" colspan="1" />
+<td align="left" rowspan="1" colspan="1">X</td>
+<td align="left" rowspan="1" colspan="1" />
+<td align="left" rowspan="1" colspan="1">X</td>
+<td align="left" rowspan="1" colspan="1">X</td>
+<td align="left" rowspan="1" colspan="1" />
+<td align="left" rowspan="1" colspan="1">X</td>
+<td align="left" rowspan="1" colspan="1">X</td>
+<td align="left" rowspan="1" colspan="1">X</td>
+<td align="left" rowspan="1" colspan="1">X</td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1">Rapid flight (RF)</td>
+<td align="left" rowspan="1" colspan="1" />
+<td align="left" rowspan="1" colspan="1" />
+<td align="left" rowspan="1" colspan="1" />
+<td align="left" rowspan="1" colspan="1" />
+<td align="left" rowspan="1" colspan="1" />
+<td align="left" rowspan="1" colspan="1">X</td>
+<td align="left" rowspan="1" colspan="1">X</td>
+<td align="left" rowspan="1" colspan="1" />
+<td align="left" rowspan="1" colspan="1">X</td>
+<td align="left" rowspan="1" colspan="1">X</td>
+<td align="left" rowspan="1" colspan="1" />
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1"><bold>Posture</bold></td>
+<td align="left" rowspan="1" colspan="1" />
+<td align="left" rowspan="1" colspan="1" />
+<td align="left" rowspan="1" colspan="1" />
+<td align="left" rowspan="1" colspan="1" />
+<td align="left" rowspan="1" colspan="1" />
+<td align="left" rowspan="1" colspan="1" />
+<td align="left" rowspan="1" colspan="1" />
+<td align="left" rowspan="1" colspan="1" />
+<td align="left" rowspan="1" colspan="1" />
+<td align="left" rowspan="1" colspan="1" />
+<td align="left" rowspan="1" colspan="1" />
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1">Low in water (LIW)</td>
+<td align="left" rowspan="1" colspan="1">X</td>
+<td align="left" rowspan="1" colspan="1">X</td>
+<td align="left" rowspan="1" colspan="1">X</td>
+<td align="left" rowspan="1" colspan="1">X</td>
+<td align="left" rowspan="1" colspan="1">X</td>
+<td align="left" rowspan="1" colspan="1">X</td>
+<td align="left" rowspan="1" colspan="1">X</td>
+<td align="left" rowspan="1" colspan="1">X</td>
+<td align="left" rowspan="1" colspan="1">X</td>
+<td align="left" rowspan="1" colspan="1">X</td>
+<td align="left" rowspan="1" colspan="1">X</td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1">Inflated posture (IP)</td>
+<td align="left" rowspan="1" colspan="1" />
+<td align="left" rowspan="1" colspan="1" />
+<td align="left" rowspan="1" colspan="1" />
+<td align="left" rowspan="1" colspan="1" />
+<td align="left" rowspan="1" colspan="1" />
+<td align="left" rowspan="1" colspan="1">X</td>
+<td align="left" rowspan="1" colspan="1">X</td>
+<td align="left" rowspan="1" colspan="1" />
+<td align="left" rowspan="1" colspan="1" />
+<td align="left" rowspan="1" colspan="1">X</td>
+<td align="left" rowspan="1" colspan="1" />
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1">Head and tail raised (HTR)</td>
+<td align="left" rowspan="1" colspan="1" />
+<td align="left" rowspan="1" colspan="1" />
+<td align="left" rowspan="1" colspan="1" />
+<td align="left" rowspan="1" colspan="1" />
+<td align="left" rowspan="1" colspan="1" />
+<td align="left" rowspan="1" colspan="1">X</td>
+<td align="left" rowspan="1" colspan="1" />
+<td align="left" rowspan="1" colspan="1" />
+<td align="left" rowspan="1" colspan="1" />
+<td align="left" rowspan="1" colspan="1" />
+<td align="left" rowspan="1" colspan="1" />
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1">Head raised high (HRH)</td>
+<td align="left" rowspan="1" colspan="1" />
+<td align="left" rowspan="1" colspan="1" />
+<td align="left" rowspan="1" colspan="1">X</td>
+<td align="left" rowspan="1" colspan="1">X</td>
+<td align="left" rowspan="1" colspan="1">X</td>
+<td align="left" rowspan="1" colspan="1">X</td>
+<td align="left" rowspan="1" colspan="1">X</td>
+<td align="left" rowspan="1" colspan="1">X</td>
+<td align="left" rowspan="1" colspan="1">X</td>
+<td align="left" rowspan="1" colspan="1" />
+<td align="left" rowspan="1" colspan="1" />
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1">Mouth agape (MA)</td>
+<td align="left" rowspan="1" colspan="1" />
+<td align="left" rowspan="1" colspan="1">X</td>
+<td align="left" rowspan="1" colspan="1">X</td>
+<td align="left" rowspan="1" colspan="1">X</td>
+<td align="left" rowspan="1" colspan="1">X</td>
+<td align="left" rowspan="1" colspan="1">X</td>
+<td align="left" rowspan="1" colspan="1">X</td>
+<td align="left" rowspan="1" colspan="1" />
+<td align="left" rowspan="1" colspan="1">X</td>
+<td align="left" rowspan="1" colspan="1">X</td>
+<td align="left" rowspan="1" colspan="1" />
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1"><bold>Non-contact movements</bold></td>
+<td align="left" rowspan="1" colspan="1" />
+<td align="left" rowspan="1" colspan="1" />
+<td align="left" rowspan="1" colspan="1" />
+<td align="left" rowspan="1" colspan="1" />
+<td align="left" rowspan="1" colspan="1" />
+<td align="left" rowspan="1" colspan="1" />
+<td align="left" rowspan="1" colspan="1" />
+<td align="left" rowspan="1" colspan="1" />
+<td align="left" rowspan="1" colspan="1" />
+<td align="left" rowspan="1" colspan="1" />
+<td align="left" rowspan="1" colspan="1" />
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1">Light jaw-clap (LJC)</td>
+<td align="left" rowspan="1" colspan="1" />
+<td align="left" rowspan="1" colspan="1" />
+<td align="left" rowspan="1" colspan="1" />
+<td align="left" rowspan="1" colspan="1" />
+<td align="left" rowspan="1" colspan="1" />
+<td align="left" rowspan="1" colspan="1">X</td>
+<td align="left" rowspan="1" colspan="1">X</td>
+<td align="left" rowspan="1" colspan="1">X</td>
+<td align="left" rowspan="1" colspan="1" />
+<td align="left" rowspan="1" colspan="1" />
+<td align="left" rowspan="1" colspan="1" />
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1">Tail-wagging (TW)</td>
+<td align="left" rowspan="1" colspan="1" />
+<td align="left" rowspan="1" colspan="1" />
+<td align="left" rowspan="1" colspan="1">X</td>
+<td align="left" rowspan="1" colspan="1" />
+<td align="left" rowspan="1" colspan="1" />
+<td align="left" rowspan="1" colspan="1">X</td>
+<td align="left" rowspan="1" colspan="1">X</td>
+<td align="left" rowspan="1" colspan="1">X</td>
+<td align="left" rowspan="1" colspan="1">X</td>
+<td align="left" rowspan="1" colspan="1">X</td>
+<td align="left" rowspan="1" colspan="1" />
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1">Inflated tail sweep (ITS)</td>
+<td align="left" rowspan="1" colspan="1" />
+<td align="left" rowspan="1" colspan="1" />
+<td align="left" rowspan="1" colspan="1" />
+<td align="left" rowspan="1" colspan="1" />
+<td align="left" rowspan="1" colspan="1" />
+<td align="left" rowspan="1" colspan="1" />
+<td align="left" rowspan="1" colspan="1" />
+<td align="left" rowspan="1" colspan="1" />
+<td align="left" rowspan="1" colspan="1" />
+<td align="left" rowspan="1" colspan="1">X</td>
+<td align="left" rowspan="1" colspan="1" />
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1"><bold>Contact movement</bold></td>
+<td align="left" rowspan="1" colspan="1" />
+<td align="left" rowspan="1" colspan="1" />
+<td align="left" rowspan="1" colspan="1" />
+<td align="left" rowspan="1" colspan="1" />
+<td align="left" rowspan="1" colspan="1" />
+<td align="left" rowspan="1" colspan="1" />
+<td align="left" rowspan="1" colspan="1" />
+<td align="left" rowspan="1" colspan="1" />
+<td align="left" rowspan="1" colspan="1" />
+<td align="left" rowspan="1" colspan="1" />
+<td align="left" rowspan="1" colspan="1" />
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1">Head push (HP)</td>
+<td align="left" rowspan="1" colspan="1">X</td>
+<td align="left" rowspan="1" colspan="1">X</td>
+<td align="left" rowspan="1" colspan="1">X</td>
+<td align="left" rowspan="1" colspan="1">X</td>
+<td align="left" rowspan="1" colspan="1">X</td>
+<td align="left" rowspan="1" colspan="1">X</td>
+<td align="left" rowspan="1" colspan="1">X</td>
+<td align="left" rowspan="1" colspan="1">X</td>
+<td align="left" rowspan="1" colspan="1">X</td>
+<td align="left" rowspan="1" colspan="1">X</td>
+<td align="left" rowspan="1" colspan="1">X</td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1">Push down (PD)</td>
+<td align="left" rowspan="1" colspan="1" />
+<td align="left" rowspan="1" colspan="1" />
+<td align="left" rowspan="1" colspan="1" />
+<td align="left" rowspan="1" colspan="1" />
+<td align="left" rowspan="1" colspan="1" />
+<td align="left" rowspan="1" colspan="1" />
+<td align="left" rowspan="1" colspan="1" />
+<td align="left" rowspan="1" colspan="1">X</td>
+<td align="left" rowspan="1" colspan="1">X</td>
+<td align="left" rowspan="1" colspan="1" />
+<td align="left" rowspan="1" colspan="1" />
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1">Bite (B)</td>
+<td align="left" rowspan="1" colspan="1">X</td>
+<td align="left" rowspan="1" colspan="1">X</td>
+<td align="left" rowspan="1" colspan="1">X</td>
+<td align="left" rowspan="1" colspan="1" />
+<td align="left" rowspan="1" colspan="1">X</td>
+<td align="left" rowspan="1" colspan="1">X</td>
+<td align="left" rowspan="1" colspan="1">X</td>
+<td align="left" rowspan="1" colspan="1">X</td>
+<td align="left" rowspan="1" colspan="1">X</td>
+<td align="left" rowspan="1" colspan="1">X</td>
+<td align="left" rowspan="1" colspan="1">X</td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1">Side head-strike (SHS)</td>
+<td align="left" rowspan="1" colspan="1" />
+<td align="left" rowspan="1" colspan="1" />
+<td align="left" rowspan="1" colspan="1">X</td>
+<td align="left" rowspan="1" colspan="1" />
+<td align="left" rowspan="1" colspan="1" />
+<td align="left" rowspan="1" colspan="1">X</td>
+<td align="left" rowspan="1" colspan="1">X</td>
+<td align="left" rowspan="1" colspan="1">X</td>
+<td align="left" rowspan="1" colspan="1" />
+<td align="left" rowspan="1" colspan="1">X</td>
+<td align="left" rowspan="1" colspan="1" />
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1">Tail-wag side head strike (TWSHS)</td>
+<td align="left" rowspan="1" colspan="1" />
+<td align="left" rowspan="1" colspan="1" />
+<td align="left" rowspan="1" colspan="1" />
+<td align="left" rowspan="1" colspan="1" />
+<td align="left" rowspan="1" colspan="1" />
+<td align="left" rowspan="1" colspan="1">X</td>
+<td align="left" rowspan="1" colspan="1">X</td>
+<td align="left" rowspan="1" colspan="1" />
+<td align="left" rowspan="1" colspan="1" />
+<td align="left" rowspan="1" colspan="1" />
+<td align="left" rowspan="1" colspan="1" />
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1">Tail-wag bite (TWB)</td>
+<td align="left" rowspan="1" colspan="1" />
+<td align="left" rowspan="1" colspan="1" />
+<td align="left" rowspan="1" colspan="1" />
+<td align="left" rowspan="1" colspan="1" />
+<td align="left" rowspan="1" colspan="1" />
+<td align="left" rowspan="1" colspan="1">X</td>
+<td align="left" rowspan="1" colspan="1">X</td>
+<td align="left" rowspan="1" colspan="1">X</td>
+<td align="left" rowspan="1" colspan="1">X</td>
+<td align="left" rowspan="1" colspan="1">X</td>
+<td align="left" rowspan="1" colspan="1">X</td>
+</tr>
+</tbody>
+</table>
+</alternatives><table-wrap-foot><fn id="nt104"><label /><p>AM: <italic>A. mississippiensis</italic>, PP: <italic>P. palpebrosus</italic>, GG: <italic>G. gangeticus</italic>, CPO: <italic>C. porosus</italic>, CJ: <italic>C. johnstoni</italic>, CNG: <italic>C. novaeguineae</italic>, CS: <italic>C. siamensis</italic>.</p></fn></table-wrap-foot></table-wrap>
+<p>When not involved in agonistic interactions, individuals of most species would lie close together in the water. CS was observed rubbing the sides of their snouts against each other while lying together in what appeared to be some form of non-aggressive communication. In contrast, close contact rarely occurred among juvenile CPO, CNG and PP, which tended to separate from each other.</p>
+</sec><sec id="s3b">
+<title>Postures</title>
+<p>Crocodilians of all species and ages most commonly remained low in the water (LIW) during an agonistic interaction and while at rest (<xref ref-type="table" rid="pone-0080872-t004">Table 4</xref>; <xref ref-type="fig" rid="pone-0080872-g001">Fig. 1</xref>). However, GG and CJ adopted postures with their heads raised ∼40° to the body, while PP lay with its head raised up but parallel to the water surface (<xref ref-type="fig" rid="pone-0080872-g001">Fig. 1</xref>). In most cases, remaining LIW did not signal aggressive intent, unless used by aggressive individuals during an approach, which was commonly observed among juvenile CPO, CNG, and PP.</p>
+<fig id="pone-0080872-g001" position="float" orientation="portrait"><object-id pub-id-type="doi">10.1371/journal.pone.0080872.g001</object-id><label>Figure 1</label><caption>
+<title>Agonistic behaviours displayed by young crocodilians.</title>
+<p>Postures, non-contact and contact movements (described in <xref ref-type="table" rid="pone-0080872-t003">Table 3</xref>) displayed by hatchling (h) and juvenile (j) crocodilians. Crocodilians in the figure include <italic>G. gangeticus</italic> - h (a); <italic>P. palpebrosus</italic> (b); <italic>C. siamensis</italic>; (c); <italic>C. porosus</italic> - h (d,e,f,g,h); <italic>C. novaeguineae</italic> (i); <italic>C. johnstoni</italic> - j (j); <italic>C. porosus</italic> - h (k,l).</p>
+</caption><graphic mimetype="image" xlink:href="info:doi/10.1371/journal.pone.0080872.g001" position="float" xlink:type="simple" orientation="portrait" /></fig>
+<p>The head raised high (HRH: ∼45°) posture was observed in five species (CJ, CNG, CPO, GG, PP; <xref ref-type="table" rid="pone-0080872-t004">Table 4</xref>) where it appeared to signal aggressive intent, submission or avoidance. In juvenile CNG and CPO, HRH clearly signalled submission, while in PP and hatchling CPO it signalled readiness to give or receive contact. In CJ and GG, HRH generally signalled avoidance and was more common among juvenile than hatchling CJ.</p>
+<p>The inflated posture (IP) was only observed in two species (CNG, CPO; <xref ref-type="table" rid="pone-0080872-t004">Table 4</xref>) and in CNG was a common and clear display of aggressive intent. The head and tail raised (HTR) posture was only observed in hatchling CPO (<xref ref-type="table" rid="pone-0080872-t004">Table 4</xref>) and while rarely displayed, signalled aggressive intent. Mouth agape (MA) was observed in all but three species (hatchling AM and CJ; juvenile CS; <xref ref-type="table" rid="pone-0080872-t004">Table 4</xref>) and was displayed by aggressive individuals as a threat or by submissive individuals when approached by an attacker. While hatchling CPO utilised a wide range of postures, juvenile CPO most commonly assumed a LIW posture if aggressive, non-aggressive individuals were either in a LIW or HRH posture that signalled submission.</p>
+</sec><sec id="s3c">
+<title>Non-contact Movements</title>
+<p>Light jaw claps (LJC) were only observed in CPO and CJ (<xref ref-type="table" rid="pone-0080872-t004">Table 4</xref>), and clearly signalled aggressive intent in hatchlings, and were absent (CJ) or rare (CPO) in juveniles. Tail wagging (TW) signalled high agitation and was displayed by aggressive individuals as forewarning of a contact movement, and by non-aggressive individuals in anticipation of an attack by an approaching individual. Tail wagging often increased in intensity as an interaction escalated. Inflated tail sweeping (ITS) was only observed in CNG and was a highly aggressive non-contact movement that increased in intensity as an interaction escalated (<xref ref-type="fig" rid="pone-0080872-g001">Fig. 1</xref>). It differed from TW in that the whole tail was involved, sweeping from side to side.</p>
+<p>Vocalizations that created ripples in the water were observed in juvenile CS, CNG, and hatchling and juvenile AM. In CS and AM, vocalizations did not appear to be associated with aggression. While the initial reason for vocalizing was often unclear, if one individual vocalized between 1 and 3 of the others often responded. On one occasion, a juvenile AM vocalization resulted in the other three individuals swimming over from their place of rest towards the vocalizing individual. Then all four AM juveniles initiated foraging behaviour. In contrast, vocalizations by CNG occasionally preceded the initiation of an agonistic interaction.</p>
+</sec><sec id="s3d">
+<title>Contact Movements</title>
+<p>Contact was made during the majority of agonistic interactions (88–100%) in all but juvenile CPO (42.2%), hatchling and juvenile GG (H = 20%; J = 36%), and juvenile PP (45.7%). For juvenile CPO, PP, and CNG (70.7%), an attempt at contact was usually made, but the individual under attack often took flight (RF, SF) and avoided actual contact. In contrast, in hatchling and juvenile GG contact was rarely even attempted.</p>
+<p>Head pushes (HP) and bites (B) were the most common form of contact used by all species of crocodilian. HP was the least aggressive form of contact, usually directed at the body. Bites were mostly directed at the head or body or at the tail if an animal fled (common in CPO and CNG). AM commonly grabbed hold of another individuals’ snout, while bites by CS, GG and CJ juveniles were only very light. In general, GG and CJ juveniles avoided physical contact involving the head. Push downs (PD) were low intensity and only observed in CJ, more frequently among juveniles than hatchlings (<xref ref-type="fig" rid="pone-0080872-g001">Fig. 1</xref>). Side head strikes (SHS) and SHS and bites accompanied by tail wagging (TWB) were a highly aggressive form of contact displayed by only a few species [(SHS: CNG, PP, CJ(h), CPO (h,j); TWB: CNG, CS, CPO (h,j); <xref ref-type="table" rid="pone-0080872-t004">Table 4</xref>]. Side head strikes accompanied by tail wagging (TWSHS) were another highly aggressive form of contact only observed in CPO hatchlings and juveniles (<xref ref-type="fig" rid="pone-0080872-g001">Fig. 1</xref>). While hatchling CPO displayed a range of contact movements, juveniles mostly displayed TWBs.</p>
+</sec><sec id="s3e">
+<title>Agonistic Interactions</title>
+<sec id="s3e1">
+<title>Aggression</title>
+<p>An aggressive individual was defined as any individual that made deliberate advances toward another and, or which made intentional physical contact with another <xref ref-type="bibr" rid="pone.0080872-Pierce1">[30]</xref> <xref ref-type="bibr" rid="pone.0080872-Manolis1">[31]</xref>. Each agonistic interaction was examined to quantify whether one or both contestants engaged in aggression, and whether this differed among species. For most species, only one individual appeared aggressive during an agonistic interaction. However, both individuals appeared aggressive during interactions between hatchling (51.9%) but not juvenile CPO (0%), in both hatchling (27.8%) and juvenile (35.7%) CJ, and in a few of interactions between juvenile CNG (8.6%).</p>
+</sec><sec id="s3e2">
+<title>Frequency and duration</title>
+<p>Agonistic interactions for most species occurred sporadically throughout the night and early morning with the majority between 1600–2200 h. However, in CPO there was a more defined pattern, with the majority occurring predominantly at dusk (1700–1900 h) and dawn (0600–0800 h). The mean number of agonistic interactions (<italic>X</italic><sup>2</sup> = 30.80, df = 5, <italic>P</italic>&lt;0.05) and mean duration of interactions (<italic>X</italic><sup>2</sup> = 142.88, df = 5, <italic>P</italic>&lt;0.05) observed per group per night among the four species from multiple clutches varied significantly (<xref ref-type="table" rid="pone-0080872-t005">Table 5</xref>). The frequency and duration of agonistic interactions was highest for CPO juveniles and hatchlings, while the frequency of agonistic interactions was lower in juvenile CJ compared with hatchling CJ (&gt;2 times), and was highest among juvenile CPO compared with hatchlings (&gt;2 times).</p>
+<table-wrap id="pone-0080872-t005" position="float" orientation="portrait"><object-id pub-id-type="doi">10.1371/journal.pone.0080872.t005</object-id><label>Table 5</label><caption>
+<title>The frequency, duration, intensity, and outcome of agonistic interactions between young crocodilians.</title>
+</caption><alternatives><graphic id="pone-0080872-t005-5" position="float" mimetype="image" xlink:href="info:doi/10.1371/journal.pone.0080872.t005" xlink:type="simple" orientation="portrait" />
+<table><colgroup span="1"><col align="left" span="1" /><col align="center" span="1" /><col align="center" span="1" /><col align="center" span="1" /><col align="center" span="1" /><col align="center" span="1" /><col align="center" span="1" /></colgroup>
+<thead>
+<tr>
+<td align="left" rowspan="1" colspan="1">Species</td>
+<td align="left" rowspan="1" colspan="1">Age class</td>
+<td align="left" rowspan="1" colspan="1">No. interactions</td>
+<td align="left" rowspan="1" colspan="1">Frequency per night</td>
+<td align="left" rowspan="1" colspan="1">Mean duration</td>
+<td align="left" rowspan="1" colspan="1">Intensity (%high)</td>
+<td align="left" rowspan="1" colspan="1">Outcome (% displacement)</td>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td colspan="7" align="left" rowspan="1"><bold>Multiple clutches</bold></td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1"><italic>C. porosus</italic></td>
+<td align="left" rowspan="1" colspan="1">J</td>
+<td align="left" rowspan="1" colspan="1">147</td>
+<td align="left" rowspan="1" colspan="1">24.7+3.53<bold><sup>A</sup></bold></td>
+<td align="left" rowspan="1" colspan="1">19.1+0.77<bold><sup>B</sup></bold></td>
+<td align="left" rowspan="1" colspan="1">95.9<bold><sup>A</sup></bold></td>
+<td align="left" rowspan="1" colspan="1">100<bold><sup>A</sup></bold></td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1"><italic>C. porosus</italic></td>
+<td align="left" rowspan="1" colspan="1">H</td>
+<td align="left" rowspan="1" colspan="1">52</td>
+<td align="left" rowspan="1" colspan="1">8.7+0.88<bold><sup>B</sup></bold></td>
+<td align="left" rowspan="1" colspan="1">49.3+4.89<bold><sup>A</sup></bold></td>
+<td align="left" rowspan="1" colspan="1">75<bold><sup>B</sup></bold></td>
+<td align="left" rowspan="1" colspan="1">63.5<bold><sup>B</sup></bold></td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1"><italic>C. johnstoni</italic></td>
+<td align="left" rowspan="1" colspan="1">H</td>
+<td align="left" rowspan="1" colspan="1">36</td>
+<td align="left" rowspan="1" colspan="1">6.0+0.63<bold><sup>B,C</sup></bold></td>
+<td align="left" rowspan="1" colspan="1">13.4+1.30<bold><sup>B,C</sup></bold></td>
+<td align="left" rowspan="1" colspan="1">38.9<bold><sup>C</sup></bold></td>
+<td align="left" rowspan="1" colspan="1">30.6<bold><sup>C</sup></bold></td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1"><italic>C. johnstoni</italic></td>
+<td align="left" rowspan="1" colspan="1">J</td>
+<td align="left" rowspan="1" colspan="1">13</td>
+<td align="left" rowspan="1" colspan="1">2.3+0.21<bold><sup>C</sup></bold></td>
+<td align="left" rowspan="1" colspan="1">13.0+2.44<bold><sup>B,C</sup></bold></td>
+<td align="left" rowspan="1" colspan="1">30.8<bold><sup>D</sup></bold></td>
+<td align="left" rowspan="1" colspan="1">38.5<bold><sup>C</sup></bold></td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1"><italic>A. mississippiensis</italic></td>
+<td align="left" rowspan="1" colspan="1">H</td>
+<td align="left" rowspan="1" colspan="1">24</td>
+<td align="left" rowspan="1" colspan="1">4.2+0.31<bold><sup>C</sup></bold></td>
+<td align="left" rowspan="1" colspan="1">8.5+0.57<bold><sup>C</sup></bold></td>
+<td align="left" rowspan="1" colspan="1">0<bold><sup>E</sup></bold></td>
+<td align="left" rowspan="1" colspan="1">0<bold><sup>D</sup></bold></td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1"><italic>G. gangeticus</italic></td>
+<td align="left" rowspan="1" colspan="1">J</td>
+<td align="left" rowspan="1" colspan="1">25</td>
+<td align="left" rowspan="1" colspan="1">4.2+0.60<bold><sup>C</sup></bold></td>
+<td align="left" rowspan="1" colspan="1">5.6+0.21<bold><sup>C</sup></bold></td>
+<td align="left" rowspan="1" colspan="1">0<bold><sup>E</sup></bold></td>
+<td align="left" rowspan="1" colspan="1">36<bold><sup>C</sup></bold></td>
+</tr>
+<tr>
+<td colspan="7" align="left" rowspan="1"><bold>Single clutches</bold></td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1"><italic>C. novaeguineae</italic></td>
+<td align="left" rowspan="1" colspan="1">J</td>
+<td align="left" rowspan="1" colspan="1">56</td>
+<td align="left" rowspan="1" colspan="1">9.3+0.71</td>
+<td align="left" rowspan="1" colspan="1">18.6+1.88</td>
+<td align="left" rowspan="1" colspan="1">67.9</td>
+<td align="left" rowspan="1" colspan="1">60.7</td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1"><italic>P. palpebrosus</italic></td>
+<td align="left" rowspan="1" colspan="1">J</td>
+<td align="left" rowspan="1" colspan="1">32</td>
+<td align="left" rowspan="1" colspan="1">5.3+0.42</td>
+<td align="left" rowspan="1" colspan="1">8.9+0.82</td>
+<td align="left" rowspan="1" colspan="1">55.2</td>
+<td align="left" rowspan="1" colspan="1">43.8</td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1"><italic>C. siamensis</italic></td>
+<td align="left" rowspan="1" colspan="1">J</td>
+<td align="left" rowspan="1" colspan="1">64</td>
+<td align="left" rowspan="1" colspan="1">8.1+0.67</td>
+<td align="left" rowspan="1" colspan="1">6.05+0.25</td>
+<td align="left" rowspan="1" colspan="1">7.8</td>
+<td align="left" rowspan="1" colspan="1">9.4</td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1"><italic>A. mississippiensis</italic></td>
+<td align="left" rowspan="1" colspan="1">J</td>
+<td align="left" rowspan="1" colspan="1">8</td>
+<td align="left" rowspan="1" colspan="1">4.0+0.0</td>
+<td align="left" rowspan="1" colspan="1">9.3+1.03</td>
+<td align="left" rowspan="1" colspan="1">12.5</td>
+<td align="left" rowspan="1" colspan="1">0</td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1"><italic>G. gangeticus</italic></td>
+<td align="left" rowspan="1" colspan="1">H</td>
+<td align="left" rowspan="1" colspan="1">5</td>
+<td align="left" rowspan="1" colspan="1">1.3+0.5</td>
+<td align="left" rowspan="1" colspan="1">3.6+0.40</td>
+<td align="left" rowspan="1" colspan="1">0</td>
+<td align="left" rowspan="1" colspan="1">0</td>
+</tr>
+</tbody>
+</table>
+</alternatives><table-wrap-foot><fn id="nt105"><label /><p>Different letters indicate significant difference.</p></fn></table-wrap-foot></table-wrap>
+<p>The duration of agonistic interactions was longer among hatchling CPO compared with juveniles, but was similar between juvenile and hatchling CJ. Between juvenile CS and hatchling AM, two individuals grabbed each other and did not let go for an extended period (CS: 484 s; AM: 42 s) in which they rolled around together. In the only interaction to involve more than two individuals, three juvenile CJ came together with their snouts raised up high and then began a series of PDs while biting. As they did this, they moved in a circular motion and this continued for 51 seconds.</p>
+</sec><sec id="s3e3">
+<title>Intensity and outcome</title>
+<p>The intensity of interactions differed among the four species with multiple clutches (<italic>X</italic><sup>2</sup> = 176.27, df = 5, <italic>P</italic>&lt;0.05; <xref ref-type="table" rid="pone-0080872-t005">Table 5</xref>). The frequency of high-intensity interactions was highest for hatchling and juvenile CPO, followed by hatchling and juvenile CJ. None of the interactions between hatchling AM and juvenile GG were high intensity.</p>
+<p>The instigator was usually the winner of interactions between juvenile CPO (100%), but for most species it was generally unclear whether either individual had won (0–36%) due to the predominance of low intensity interactions. The outcome of interactions differed among species from multiple clutches (<italic>X</italic><sup>2</sup> = 163.55, df = 5, <italic>P</italic>&lt;0.05; <xref ref-type="table" rid="pone-0080872-t005">Table 5</xref>). In contrast to the other species (hatchling and juveniles), the majority of interactions between juvenile CPO resulted in the loser being displaced.</p>
+</sec></sec></sec><sec id="s4">
+<title>Discussion</title>
+<sec id="s4a">
+<title>Agonistic Behaviour</title>
+<p>Many of the behaviours observed during agonistic interactions among juvenile crocodilians in this study have also been reported among adults <xref ref-type="bibr" rid="pone.0080872-Garrick1">[22]</xref> <xref ref-type="bibr" rid="pone.0080872-Lang1">[18]</xref> <xref ref-type="bibr" rid="pone.0080872-Vliet1">[24]</xref>, which suggests that agonistic behaviour, as with other behaviours in crocodilians <xref ref-type="bibr" rid="pone.0080872-Brazaitis1">[19]</xref>, may be hard wired from birth and stereotypical for most species. However, for a particular species, certain behaviours may be present or absent at different life stages, or only used when the prevailing social context requires. However, behaviours shared by different species often varied in frequency and intensity (eg. tail wagging) and could be used to signal different intentions (eg. head raised high).</p>
+<p>Of the behaviours displayed by juveniles in this study, three were common to all seven species (Low in water; head push; bite), and three were specific to only one species (Push down: CJ; Inflated tail sweeping: CNG; Tail wag side head strike: CPO), while the other behaviours were displayed by some and not others (<xref ref-type="table" rid="pone-0080872-t004">Table 4</xref>). Of the behaviours displayed by hatchlings in this study, two were common to all four species (low in water; head push). Five were shared by CJ and CPO hatchlings (RA, TWB, SHS, LJC, TW). Four behaviours were unique to CPO (RF, IP, HTR, TWSHS), and one to CJ (PD) (<xref ref-type="table" rid="pone-0080872-t004">Table 4</xref>). Among hatchlings compared, only AM hatchlings were observed to vocalize.</p>
+<p>Individuals of most species remained low in the water during agonistic interactions that did not signal aggressive intent, while inflating the body or raising the head and tail combined with mouth agape was a clear sign of aggression. However, among species with a more defined pattern of dominance (CPO, CNG) aggressive individuals would remain low in the water when approaching a subordinate. The head raised high posture was most commonly used to signal submission, while tail wagging indicated high agitation.</p>
+<p>Inflating the body and opening the mouth to signal aggressive intent and raising the head high to indicate submission are postures used by several species of sub-adult and adult crocodilian <xref ref-type="bibr" rid="pone.0080872-Garrick1">[22]</xref> <xref ref-type="bibr" rid="pone.0080872-Lang1">[18]</xref>. Many species of birds <xref ref-type="bibr" rid="pone.0080872-Drummond3">[36]</xref>, mammals <xref ref-type="bibr" rid="pone.0080872-Bekoff1">[1]</xref> <xref ref-type="bibr" rid="pone.0080872-Smale1">[2]</xref>, and fish <xref ref-type="bibr" rid="pone.0080872-Newman1">[37]</xref> <xref ref-type="bibr" rid="pone.0080872-Bergman2">[38]</xref> will also raise or inflate their body and open their mouth wide during agonistic interactions in an attempt to intimidate their opponent.</p>
+<p>In most cases, this type of display enables both individuals to assess the potential combative ability of the other and is often sufficient to prevent physical contact through causing one individual to retreat <xref ref-type="bibr" rid="pone.0080872-MaynardSmith1">[39]</xref> <xref ref-type="bibr" rid="pone.0080872-Parker1">[40]</xref>. The use of tail wagging to signal high agitation has also been observed in sub-adult and adult crocodilians <xref ref-type="bibr" rid="pone.0080872-Garrick1">[22]</xref>, along with certain species of lizards <xref ref-type="bibr" rid="pone.0080872-Torr1">[41]</xref>, mice <xref ref-type="bibr" rid="pone.0080872-Terranova1">[42]</xref> and salamanders <xref ref-type="bibr" rid="pone.0080872-Staub1">[9]</xref>.</p>
+<p>The main forms of contact during interactions for most species in this study were head pushes and bites. Bites could range in severity from light mouthing (CS) or grabbing and letting go, which were most common, to bites in which the aggressor either propelled itself into another individual, or bites in which the individual grabbed and shook before letting go. On the extreme end of the scale, a few interactions between individuals from less aggressive species (CJ, AM, CS) resulted in two individuals grabbing each other and rolling around with neither letting go for an extended period. Biting is the most common form of contact used during agonistic interactions in other reptiles <xref ref-type="bibr" rid="pone.0080872-Carpenter2">[43]</xref>, birds <xref ref-type="bibr" rid="pone.0080872-Drummond1">[3]</xref>, mammals <xref ref-type="bibr" rid="pone.0080872-Bekoff1">[1]</xref> <xref ref-type="bibr" rid="pone.0080872-Smale1">[2]</xref>, and fish <xref ref-type="bibr" rid="pone.0080872-Greenberg1">[44]</xref> <xref ref-type="bibr" rid="pone.0080872-Allee1">[45]</xref>.</p>
+<p>There were essentially three agonistic behaviours observed that appeared to be specific to only one species: push down by CJ; inflated tail sweep by CNG; and, the side head strike combined with tail wagging by CPO. The push down by CJ may have evolved in response to its elongated snout that is presumably more vulnerable to damage by contact such as bites or side head strikes. The inflated tail sweeping by aggressive CNG provided subordinates with a clear warning of aggressive intent, giving them time to take flight and avoid an attack. A similar behaviour has also been observed in skinks, and is described as ‘tail lashing’, which precedes biting and chasing <xref ref-type="bibr" rid="pone.0080872-Torr1">[41]</xref> <xref ref-type="bibr" rid="pone.0080872-SnchezHernndez1">[46]</xref>.</p>
+<p>Tail wag side head striking by CPO was the most aggressive contact movement observed in any species of crocodilian, and is similar to that observed between rival adult male CPO during the breeding season <xref ref-type="bibr" rid="pone.0080872-Webb1">[47]</xref>. While infrequent, tail wag side head striking was more common among hatchlings and occurred when both individuals were aggressive. One or both individuals would typically align head to head and raise themselves up with the head raised high, before swinging the head violently into the head or body of the other individual. The object of this contact movement appeared to be to inflict maximum damage and may be an important behaviour, along with tail wag biting, in establishing dominance in this species.</p>
+<p>Most animals avoid the use of severe or injurious forms of contact during interactions, unless the stakes are high enough to justify the risk, such as during the acquisition of mates, food, shelter or territory <xref ref-type="bibr" rid="pone.0080872-Tinbergen1">[48]</xref>. However, the use of such intense agonistic behaviours may also be important in establishing dominance, as the loser of these interactions may be less likely to challenge again in the future and become subordinate <xref ref-type="bibr" rid="pone.0080872-Drummond2">[13]</xref>. Many species typically engage in intense forms of agonistic interactions involving more highly aggressive behaviours during the juvenile stage until a dominance hierarchy is formed <xref ref-type="bibr" rid="pone.0080872-Gherardi1">[49]</xref> <xref ref-type="bibr" rid="pone.0080872-Drummond2">[13]</xref>.</p>
+<p>In terms of snout morphology, crocodilians have been broadly categorised as blunt-snouted, generalised, or long-snouted, <xref ref-type="bibr" rid="pone.0080872-Brochu1">[28]</xref>, in which the potential for the snout to be damaged during interactions increases respectively <xref ref-type="bibr" rid="pone.0080872-Walmsley1">[50]</xref>. In this study, two crocodilians were long-snouted (GG and CJ), four were generalised (AM, CPO, CS, CNG) and one was blunt-snouted (PP). During agonistic interactions the two long-snouted species (CJ, GG) raised the head and generally avoided contact involving the head, while the generalised and blunt-snouted species often made contact with the head. Species of salamander that have morphologically more vulnerable head shapes are also known to employ less injurious forms of contact than those with more robust shapes <xref ref-type="bibr" rid="pone.0080872-Staub1">[9]</xref>.</p>
+</sec><sec id="s4b">
+<title>Non-aggressive Behaviour</title>
+<p>Several behaviours were observed that were not involved in agonistic interactions. Juvenile CS would often lie close together in the water, and were often observed rubbing the sides of their snouts together. This behaviour was not associated with aggression and appeared to be some form of social recognition or communication which has also been observed among males and females during the breeding season <xref ref-type="bibr" rid="pone.0080872-Vliet2">[51]</xref> <xref ref-type="bibr" rid="pone.0080872-Senter1">[52]</xref>. In crocodilians, the side of the snout contain numerous integumentary sensory organs that are highly sensitive to external stimuli <xref ref-type="bibr" rid="pone.0080872-Lang1">[18]</xref> <xref ref-type="bibr" rid="pone.0080872-Leitch1">[53]</xref> <xref ref-type="bibr" rid="pone.0080872-DiPoi1">[54]</xref>, and may play an important role in communication. Chemoreception in crocodilians is also acute, and has been implicated in behavioural responses of juveniles and adults to skin gland secretions <xref ref-type="bibr" rid="pone.0080872-Weldon1">[55]</xref> <xref ref-type="bibr" rid="pone.0080872-Weldon2">[56]</xref>.</p>
+<p>While the majority of species remained low in the water while at rest, CJ, GG, and PP lie with their heads raised up on an angle. However, while CJ and GG angled their head up high, the head of PP remained parallel to the water in a ‘dog-like’ pose commonly observed in caiman species. While the significance of these raised postures remains unclear, it is possible that they have evolved in response to a need to keep vigilant for predators, including larger crocodiles, given that these species either remain quite small (CJ, PP) for an extended period of time, or are physically more vulnerable (CJ and GG).</p>
+<p>Vocalizations of sufficient intensity to ripple the water were made by juvenile CS and CNG, and by hatchling and juvenile AM. For CS and AM, they did not appear to signal aggression but did result in a response from other individuals. For CS and AM, the other individuals often responded by vocalizing themselves, while on one occasion a series of vocalizations by one AM resulted in the commencement of foraging behaviour by three pen mates. In contrast, vocalizations by CNG did appear to be linked to aggression, and were observed on one occasion preceding an aggressive advance, and on another occasion resulting in a nearby subordinate taking flight rapidly.</p>
+<p>Vocal communication has been widely reported among crocodilians, especially during the hatchling stage when crèches are maintained, and among adults during the breeding season <xref ref-type="bibr" rid="pone.0080872-Vliet1">[24]</xref> <xref ref-type="bibr" rid="pone.0080872-Dinetz1">[57]</xref>. As we did not record sound during these experiments it is likely that vocalizations were more common than reported here. Nevertheless, the three species observed vocalising here are all known to occupy densely vegetated habitats such as freshwater swamps and lagoons, where vocalization may play a larger role in communication than with species that live mainly in open water areas <xref ref-type="bibr" rid="pone.0080872-Lang1">[18]</xref> <xref ref-type="bibr" rid="pone.0080872-Dinetz2">[58]</xref>. Previous studies have suggested that juvenile vocalizations serve two primary functions: (1) contact calls localize individuals and facilitate grouping, and (2) distress calls signal potential predators and promote defence by larger individuals <xref ref-type="bibr" rid="pone.0080872-Britton1">[59]</xref> <xref ref-type="bibr" rid="pone.0080872-Verne1">[60]</xref>. Vocalizations related to aggression in young crocodilians have not previously been reported, and would constitute a possible third, and new, functional category of juvenile vocalizations.</p>
+</sec><sec id="s4c">
+<title>Aggression and Dominance</title>
+<p>The large majority of interactions among the less aggressive species of juvenile crocodilian appeared unintentional. Despite a similar or higher frequency of agonistic interactions between CS compared with CNG and PP, interactions were generally low intensity with individuals often observed lying together. While biting occurred during interactions, it was mostly light mouthing.</p>
+<p>Agonistic interactions between juvenile CJ, AM, and GG were infrequent and considered very low level with individuals highly tolerant of others. The frequency of agonistic interactions in AM and GG were similar in hatchlings and juveniles, while the frequency of agonistic interactions between hatchling CJ was almost twice that of juveniles, although in both age classes there was limited contact with the head and a high frequency of push downs on their opponent.</p>
+<p>Behaviour suggesting dominance hierarchies was observed among juvenile CPO, CNG, and to a lesser extent PP. Agonistic interactions among these species were characterised by an aggressive individual advancing towards another, either low in the water (CPO, PP, CNG) or while inflated and tail thrashing (CNG), and the subordinate individual responding by remaining low in the water or rising with the head raised high before taking flight. In CPO and CNG, the aggressor often gave chase and attempted to bite or tail wag bite, while PP struck sideways with the head. However, with CPO, these behaviours were most obvious in juveniles rather than hatchlings.</p>
+<p>Dominance hierarchies appear common in crocodilians in the wild and in captivity <xref ref-type="bibr" rid="pone.0080872-Lang1">[18]</xref>, and the formidable morphological armour crocodilians are endowed with could be important for preventing serious injury or death during agonistic interactions linked to establishing dominance <xref ref-type="bibr" rid="pone.0080872-Tinbergen1">[48]</xref>. The nature and extent of dominance varies across species <xref ref-type="bibr" rid="pone.0080872-Lang1">[18]</xref> and appeared to be correlated with the general level of aggressive behaviour in adults.</p>
+<p>While the formation of a dominance hierarchy may be more rapid under captive conditions, the results of this study demonstrate that dominance and agonistic behaviour develops early in highly aggressive species of crocodilian, and may ultimately be a strategy for the early honing of avoidance skills that minimise the potential for injury. In contrast, dominance appeared less important among the other five species, which displayed low levels of aggression and a higher tolerance of conspecifics at this early life stage. These less aggressive species also displayed fewer types of behaviours than the more aggressive ones. This absence or loss of behaviours has previously been reported in other animals in which dominance is considered less important <xref ref-type="bibr" rid="pone.0080872-Huntington1">[14]</xref>.</p>
+<p>Hatchlings of almost all crocodilian species studied to date will form tight-knit crèches in the immediate post-hatching period before dispersing anywhere from a few days to several years later. While information on crèche formation and dispersal is lacking for most species of crocodilian, it may help explain the species-specific variation in agonistic behaviour and social tolerance between hatchlings and juveniles in certain species. For AM and CS (low aggression), hatchlings within swamp or marsh habitats are known to remain together accompanied by the female and older or younger siblings for up to several years <xref ref-type="bibr" rid="pone.0080872-Lang1">[18]</xref> <xref ref-type="bibr" rid="pone.0080872-Pahl1">[61]</xref>. Hatchling GG (low aggression) from multiple clutches form large creches of 100–1000 individuals which remain together for 2+ months, typically accompanied by adult females and a defensive male <xref ref-type="bibr" rid="pone.0080872-Lang3">[62]</xref>.</p>
+<p>In contrast, hatchling CPO (high aggression) remain together in crèches anywhere from one week up to two months at which point dispersal is considered to occur due to a growing intolerance of each other <xref ref-type="bibr" rid="pone.0080872-Webb2">[63]</xref>. However, hatchling PP, that were considered relatively aggressive in this study, were recently found to crèche together in small groups accompanied by a female up to 12 months post-hatching <xref ref-type="bibr" rid="pone.0080872-Campos1">[64]</xref>. During this time, the size of the crèche steadily decreased, which could be due to mortality (eg. predation) or a growing intolerance of each other. The relatively high level of aggression among 12 month old PP in this study would suggest that agonistic behaviour may at least play a role in dispersal.</p>
+<p>While adult crocodilians are often less tolerant of conspecifics than hatchlings or juveniles, insome species, large numbers of adults group together in large numbers at different times throughout the year <xref ref-type="bibr" rid="pone.0080872-Lang1">[18]</xref>. Among the less aggressive species in this study, CJ, CS, and AM are all known to congregate together seasonally in large numbers due to lower water levels in the dry season <xref ref-type="bibr" rid="pone.0080872-Lang1">[18]</xref> <xref ref-type="bibr" rid="pone.0080872-Christian1">[65]</xref>, while CJ, GG, and AM are also known to congregate together during the breeding and nesting season <xref ref-type="bibr" rid="pone.0080872-Lang1">[18]</xref>. In comparison, CPO and PP have rarely been observed together at any time of the year outside of the breeding season when they form only male-female pairs <xref ref-type="bibr" rid="pone.0080872-Groombridge1">[32]</xref> <xref ref-type="bibr" rid="pone.0080872-Thorbjarnarson1">[33]</xref>. Suspension or reduction in agonistic behaviour may itself be an important strategy enabling certain species of crocodilian to coexist in high numbers without sustaining serious injuries <xref ref-type="bibr" rid="pone.0080872-Lang1">[18]</xref>. That high density of conspecifics can reduce levels of aggression has been found in certain species of trout <xref ref-type="bibr" rid="pone.0080872-Newman1">[37]</xref>.</p>
+</sec><sec id="s4d">
+<title>Interspecific Aggression</title>
+<p>In areas where species of crocodilian exist in sympatry, there may be a competitive advantage to being the more aggressive species, as this may result in greater access to resources. However, while some studies of crayfish have found that the level of intraspecific aggressiveness observed in the laboratory is often consistent with the competitive ability of species in the wild <xref ref-type="bibr" rid="pone.0080872-Bovbjerg1">[66]</xref> <xref ref-type="bibr" rid="pone.0080872-Guiau1">[67]</xref>, others have found the opposite <xref ref-type="bibr" rid="pone.0080872-Tierney1">[15]</xref>.</p>
+<p>In crocodilians, the nature and extent of agonistic behaviour among sympatric species is poorly known. A recent study that examined interspecific aggression between juvenile CPO and CJ under laboratory conditions found that despite the higher level of aggressiveness observed during intraspecific interactions between CPO, CPO did not dominate CJ in any way <xref ref-type="bibr" rid="pone.0080872-Brien1">[25]</xref> <xref ref-type="bibr" rid="pone.0080872-Brien2">[26]</xref>. Instead, dominance appeared to be related to body size, with smaller individuals avoiding larger ones regardless of species. Agonistic interactions were only observed between similar sized individuals of both species, with no clear winner in the interactions observed due to the different strategies employed. Hence the much larger size that adult CPO attains relative to adult CJ may give it the competitive ability, forcing CJ to adapt and evolve morphologically, behaviourally and ecologically. Larger body size rather than intraspecific aggression is also a greater determinant of competitive ability among several species of crayfish <xref ref-type="bibr" rid="pone.0080872-Pavey1">[68]</xref> <xref ref-type="bibr" rid="pone.0080872-Usio1">[69]</xref>, and fish <xref ref-type="bibr" rid="pone.0080872-Newman1">[37]</xref>.</p>
+</sec><sec id="s4e">
+<title>Species Comparisons</title>
+<p>Based on our studies of four species at WMI, we are able to construct a relative ranking of high to low aggression of CPO&gt;CNG&gt;CJ&gt;AM. The relative ranking of the species studied at MCBT on the same scale is PP&gt;CS&gt;GG. If we then collate our findings at WMI with three additional species at MCBT, the relative ranking on a high to low aggression scale for the seven species studied is: CPO&gt;CNG&gt;PP&gt;CS&gt;CJ&gt;AM&gt;GG. Although we only focused on hatchlings and juveniles of seven species in this study, the relative ranking of these seven species provides new information that can be integrated with other more recent data into an updated version of Lang’s <xref ref-type="bibr" rid="pone.0080872-Lang1">[18]</xref> original scaling of species according to high to low aggression and its reciprocal, tolerance vs. intolerance of conspecifics (<xref ref-type="fig" rid="pone-0080872-g002">Fig. 2</xref>). This remains a subjective assessment, because genetics, sex, age and the environment (captive vs wild) may all be implicated, but nevertheless updating it with additional qualitative and quantitative new information is useful. Based on the results of our observations reported here, we propose that slender snouted species may be far more tolerant of each other, or at least avoid agonistic interactions involving more damaging behaviours.</p>
+<fig id="pone-0080872-g002" position="float" orientation="portrait"><object-id pub-id-type="doi">10.1371/journal.pone.0080872.g002</object-id><label>Figure 2</label><caption>
+<title>Tolerance of conspecifics in crocodilian species – updated assessment <xref ref-type="bibr" rid="pone.0080872-Lang1">[18]</xref>.</title>
+<p>Tolerance of conspecifics (low-high) and level of aggression (high-low) in crocodilian species based largely on behavioural observations of social interactions between adults and juveniles in captivity and in the wild. Information has been sourced from published and unpublished reports, papers, theses and anecdotal accounts. Boxes highlight species involved in this study; ? indicates minimal information; arrows indicate direction of update.</p>
+</caption><graphic mimetype="image" xlink:href="info:doi/10.1371/journal.pone.0080872.g002" position="float" xlink:type="simple" orientation="portrait" /></fig>
+<p>The most significant changes are that CS, originally considered a fairly aggressive species with a low tolerance of conspecifics, may not be so. Adults have recently been reported as sharing burrows in the wild <xref ref-type="bibr" rid="pone.0080872-Simpson1">[70]</xref>, while another study reported animals of different ages and sizes existing in close proximity within a lake environment <xref ref-type="bibr" rid="pone.0080872-Pahl1">[61]</xref>. In areas where CS and CPO are farmed, CS is usually the favoured species despite its less valuable skin <xref ref-type="bibr" rid="pone.0080872-Jelden1">[71]</xref>, because the greater tolerance of conspecifics is more amenable to captive raising. We also consider GG to be far more tolerant than first thought, based on the results of this study and that juveniles and sub-adults of various sizes have been observed together in captivity without any agonistic behaviour, injuries or voluntary spatial segregation (M. Brien pers. observation).</p>
+<p><italic>C. mindorensis</italic> was not originally involved in Lang’s <xref ref-type="bibr" rid="pone.0080872-Lang1">[18]</xref> original comparison, but is considered by many as one of the most aggressive species of crocodilian, which has led to difficulties in breeding this species in captivity <xref ref-type="bibr" rid="pone.0080872-vanWeerd1">[72]</xref>. Intraspecific aggression among juveniles and sub adults is also reportedly high in the wild and in captivity <xref ref-type="bibr" rid="pone.0080872-vanWeerd1">[72]</xref>. While <italic>C. rhombifer</italic> was originally considered less aggressive and tolerant, more recent reports from captivity suggest that <italic>C. rhombifer</italic> may be far more aggressive <xref ref-type="bibr" rid="pone.0080872-Targarona1">[73]</xref> and they are even known to dominate larger crocodilian species <xref ref-type="bibr" rid="pone.0080872-Varona1">[74]</xref>. Based on the results of this study and on observations by one of the authors (JL), we also consider that CNG is also far more aggressive than originally thought.</p>
+<p>Phylogenetic relationships, based on recent analyses using morphological and molecular features, do not provide robust explanations for the differences we observed in agonistic behaviours of young in the seven species we examined, representing the three major lineages. A close examination of the groupings in <xref ref-type="fig" rid="pone-0080872-g002">Figure 2</xref> indicates that representatives of the Alligatoridae (PP,AM) and of the Crocodylidae (CPO, CNG, CS, CJ) span the continuum from high to low aggression, and intolerance to tolerance of conspecifics. The seemingly larger suite of behaviours documented in CPO and CJ, relative to the other species studied here (<xref ref-type="table" rid="pone-0080872-t004">Table 4</xref>) likely reflects the detailed investigations focused on ontogenetic changes, and the many variables influencing the full expression of the species-specific behavioural repertoires <xref ref-type="bibr" rid="pone.0080872-Brien1">[25]</xref> <xref ref-type="bibr" rid="pone.0080872-Brien2">[26]</xref>.</p>
+</sec><sec id="s4f">
+<title>Conclusions</title>
+<p>Variation in the nature and extent of agonistic behaviour in crocodilians may reflect evolutionary divergence associated with differences in morphology, ecology, and general life history. In areas where more than one species exists, this divergence may have even been shaped by the more dominant species of crocodilian. Understanding interspecific differences in the level of aggression and social tolerance has implications for conservation and management programs that involve captive breeding and reintroduction. For example, how aggressive a species is towards conspecifics at a particular life stage will influence not only how they are raised in captivity but also how reintroductions need to be undertaken to be successful. In areas where more than one species coexists, either naturally or through artificial introductions, an understanding of interspecific aggression can also be used to assess the competitive ability of each species and the potential of an invasive species to displace a native one.</p>
+<p>This study indicates that many behaviours displayed by crocodilians are evident early in life, and that hatchlings do exhibit a wide range of behaviours that may change or disappear with age, but are similar to the behavioural repertoires known to characterize adults. Although the seven species studied here included representatives of the three major crocodilian lineages alive today, the New World caiman species are underrepresented, as well as species of New World crocodiles, and the other representative of Gavialidae, the genus Tomistoma. Cataloguing the behavioural repertoires of young in these unstudied species will be of value in advancing species comparisons.</p>
+<p>The diverse and complex nature of crocodilian behaviour and communication is similar to that observed in birds and mammals <xref ref-type="bibr" rid="pone.0080872-Lang1">[18]</xref> <xref ref-type="bibr" rid="pone.0080872-Brazaitis1">[19]</xref>. In this study we focussed on visual displays of hatchlings and juveniles during agonistic interactions. However, crocodilians are also capable of vocal and chemical communication, which will likely be productive for further studies. Future research on agonistic behaviour in crocodilians should focus not only on the visual components, but also the role of vocalizations and chemical cues, and how these may develop with age. Future research will also be important for determining whether species-specific behaviours reported here are in fact consistent for the species as a whole, and whether this may differ in the wild.</p>
+</sec></sec></body>
+<back>
+<ack>
+<p>We thank Charlie Manolis, Jemeema Brien, Elize Dorrestein from WMI for their help in different phases of the project; Toody from Melanesia (Green Island, QLD) for the supply of <italic>C. novaeguineae</italic>; Tim Faulkner, Julie Mendozona, and staff at the Australian Reptile Park (Gosford, NSW) for help and supply of <italic>A. mississippiensis</italic>; and Rom Whitaker, Gowri Mallapur, Nikhil Whitaker, Gayathri Selvaraj, and Josh Van Lier from Madras Crocodile Bank (Chennai, India) for use of crocodilians and facilities and general help and support. We would also like to thank Wildlife Management International for the supply of animals, use of facilities and logistical support.</p>
+</ack>
+<ref-list>
+<title>References</title>
+<ref id="pone.0080872-Bekoff1"><label>1</label>
+<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Bekoff</surname><given-names>M</given-names></name>, <name name-style="western"><surname>Tyrrell</surname><given-names>M</given-names></name>, <name name-style="western"><surname>Lipetz</surname><given-names>VE</given-names></name>, <name name-style="western"><surname>Jamieson</surname><given-names>R</given-names></name> (<year>1981</year>) <article-title>Fighting patterns in young coyotes: initiation, escalation, and assessment</article-title>. <source>Aggress Beh</source> <volume>7</volume>: <fpage>225</fpage>–<lpage>244</lpage>.</mixed-citation>
+</ref>
+<ref id="pone.0080872-Smale1"><label>2</label>
+<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Smale</surname><given-names>L</given-names></name>, <name name-style="western"><surname>Holekamp</surname><given-names>KE</given-names></name>, <name name-style="western"><surname>Weldele</surname><given-names>M</given-names></name>, <name name-style="western"><surname>Frank</surname><given-names>LG</given-names></name>, <name name-style="western"><surname>Glickman</surname><given-names>SE</given-names></name> (<year>1995</year>) <article-title>Competition and cooperation between litter mates in the spotted hyaena, <italic>Crocuta crocuta</italic></article-title>. <source>Anim Behav</source> <volume>50</volume>: <fpage>671</fpage>–<lpage>682</lpage>.</mixed-citation>
+</ref>
+<ref id="pone.0080872-Drummond1"><label>3</label>
+<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Drummond</surname><given-names>H</given-names></name>, <name name-style="western"><surname>Gonzalez</surname><given-names>E</given-names></name>, <name name-style="western"><surname>Osorno</surname><given-names>JL</given-names></name> (<year>1986</year>) <article-title>Parent-offspring cooperation in the blue-footed booby (<italic>Sula nebouxii</italic>): social roles in infanticidal brood reduction</article-title>. <source>Behav Ecol Sociobiol</source> <volume>19</volume>: <fpage>365</fpage>–<lpage>372</lpage>.</mixed-citation>
+</ref>
+<ref id="pone.0080872-Mock1"><label>4</label>
+<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Mock</surname><given-names>DW</given-names></name>, <name name-style="western"><surname>Lamey</surname><given-names>TC</given-names></name> (<year>1991</year>) <article-title>The role of brood size in regulating egret sibling aggression</article-title>. <source>Am Nat</source> <volume>138</volume>: <fpage>1015</fpage>–<lpage>1026</lpage>.</mixed-citation>
+</ref>
+<ref id="pone.0080872-Ladich1"><label>5</label>
+<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Ladich</surname><given-names>F</given-names></name> (<year>1997</year>) <article-title>Agonistic behaviour and significance of sounds in vocalizing fish</article-title>. <source>Mar Freshw Behav Phy</source> <volume>29</volume>: <fpage>87</fpage>–<lpage>108</lpage>.</mixed-citation>
+</ref>
+<ref id="pone.0080872-Genner1"><label>6</label>
+<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Genner</surname><given-names>MJ</given-names></name>, <name name-style="western"><surname>Turner</surname><given-names>GF</given-names></name>, <name name-style="western"><surname>Barker</surname><given-names>S</given-names></name>, <name name-style="western"><surname>Hawkins</surname><given-names>SJ</given-names></name> (<year>1999</year>) <article-title>Niche segregation among Lake Malawi cichlid fishes? Evidence from stable istope signatures</article-title>. <source>Ecol Lett</source> <volume>2</volume>: <fpage>185</fpage>–<lpage>190</lpage>.</mixed-citation>
+</ref>
+<ref id="pone.0080872-Barker1"><label>7</label>
+<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Barker</surname><given-names>DG</given-names></name>, <name name-style="western"><surname>Murphy</surname><given-names>JB</given-names></name>, <name name-style="western"><surname>Smith</surname><given-names>KW</given-names></name> (<year>1979</year>) <article-title>Social behaviour in a captive group of Indian pythons, <italic>Python molurus</italic> (Serpentes, Boidae), with formation of a linear social hierarchy</article-title>. <source>Copeia</source> <volume>3</volume>: <fpage>466</fpage>–<lpage>477</lpage>.</mixed-citation>
+</ref>
+<ref id="pone.0080872-Phillips1"><label>8</label>
+<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Phillips</surname><given-names>JA</given-names></name>, <name name-style="western"><surname>Alberts</surname><given-names>AC</given-names></name>, <name name-style="western"><surname>Pratt</surname><given-names>NC</given-names></name> (<year>1993</year>) <article-title>Differential resource use, growth, and the ontogeny of social relationships in the green iguana</article-title>. <source>Physiol Behav</source> <volume>53</volume>: <fpage>81</fpage>–<lpage>88</lpage>.</mixed-citation>
+</ref>
+<ref id="pone.0080872-Staub1"><label>9</label>
+<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Staub</surname><given-names>NL</given-names></name> (<year>1993</year>) <article-title>Intraspecific agonistic behaviour of the salamander <italic>Aneides flavipunctatus</italic> (Amphibia: Plethodontidae) with comparisons to other plethodontid species</article-title>. <source>Herpetologica</source> <volume>49</volume>: <fpage>271</fpage>–<lpage>282</lpage>.</mixed-citation>
+</ref>
+<ref id="pone.0080872-Adams1"><label>10</label>
+<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Adams</surname><given-names>DC</given-names></name> (<year>2004</year>) <article-title>Character displacement via aggressive interference in Appalachian salamanders</article-title>. <source>Ecology</source> <volume>85</volume>: <fpage>2664</fpage>–<lpage>2670</lpage>.</mixed-citation>
+</ref>
+<ref id="pone.0080872-Huber1"><label>11</label>
+<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Huber</surname><given-names>R</given-names></name>, <name name-style="western"><surname>Kravitz</surname><given-names>EA</given-names></name> (<year>1995</year>) <article-title>A quantitative analysis of agonistic behavior in juvenile American lobsters (<italic>Homerus americanus</italic>)</article-title>. <source>Brain Behav Evol</source> <volume>46</volume>: <fpage>72</fpage>–<lpage>83</lpage>.</mixed-citation>
+</ref>
+<ref id="pone.0080872-Bergman1"><label>12</label>
+<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Bergman</surname><given-names>DA</given-names></name>, <name name-style="western"><surname>Moore</surname><given-names>PA</given-names></name> (<year>2003</year>) <article-title>Field observations of intraspecific agonistic behaviour of two crayfish species, <italic>Orconectes ruticus</italic> and <italic>Orconectes virilise</italic>, in different habitats</article-title>. <source>Biol Bull</source> <volume>205</volume>: <fpage>26</fpage>–<lpage>35</lpage>.</mixed-citation>
+</ref>
+<ref id="pone.0080872-Drummond2"><label>13</label>
+<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Drummond</surname><given-names>H</given-names></name> (<year>2006</year>) <article-title>Dominance in vertebrate broods and litters</article-title>. <source>Q Rev Biol</source> <volume>81</volume>: <fpage>3</fpage>–<lpage>32</lpage>.</mixed-citation>
+</ref>
+<ref id="pone.0080872-Huntington1"><label>14</label>
+<mixed-citation publication-type="other" xlink:type="simple">Huntington F, Turner A (1987) Animal conflict. New York: Chapman and Hall. 448 p.</mixed-citation>
+</ref>
+<ref id="pone.0080872-Tierney1"><label>15</label>
+<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Tierney</surname><given-names>AJ</given-names></name>, <name name-style="western"><surname>Godleski</surname><given-names>MS</given-names></name>, <name name-style="western"><surname>Massanari</surname><given-names>JR</given-names></name> (<year>2000</year>) <article-title>Comparative analysis of agonistic behaviour in four crayfish species</article-title>. <source>J Crustacean Biol</source> <volume>20</volume>: <fpage>54</fpage>–<lpage>66</lpage>.</mixed-citation>
+</ref>
+<ref id="pone.0080872-Worner1"><label>16</label>
+<mixed-citation publication-type="other" xlink:type="simple">Worner LLB (2009) Aggression and competition for space and food in captive juvenile tuatara (<italic>Sphenodon punctatus</italic>). MSc thesis, Victoria University, New Zealand. 111 p.</mixed-citation>
+</ref>
+<ref id="pone.0080872-Carpenter1"><label>17</label>
+<mixed-citation publication-type="other" xlink:type="simple">Carpenter CC (1984) Dominance in snakes. In: Siegel A, Hunt LE, Knight JL, Malaret L, Zuschlag NL, editors. Vertebrate ecology and systematics: a tribute to Henry S. Fitch Lawrence (KS). Kansas: University of Kansas Museum of Natural History. 195–202.</mixed-citation>
+</ref>
+<ref id="pone.0080872-Lang1"><label>18</label>
+<mixed-citation publication-type="other" xlink:type="simple">Lang JW (1987) Crocodilian behaviour: implications for management. In: Webb GJW, Manolis SC, Whitehead PJ, editors. Wildlife management: crocodiles and alligators. NSW: Surrey Beatty and Sons. 273–294.</mixed-citation>
+</ref>
+<ref id="pone.0080872-Brazaitis1"><label>19</label>
+<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Brazaitis</surname><given-names>P</given-names></name>, <name name-style="western"><surname>Watanabe</surname><given-names>ME</given-names></name> (<year>2011</year>) <article-title>Crocodilian behaviour: a window to dinosaur behaviour?</article-title> <source>Hist Biol</source> <volume>23</volume>: <fpage>73</fpage>–<lpage>90</lpage>.</mixed-citation>
+</ref>
+<ref id="pone.0080872-Froese1"><label>20</label>
+<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Froese</surname><given-names>AD</given-names></name>, <name name-style="western"><surname>Burghardt</surname><given-names>GM</given-names></name> (<year>1974</year>) <article-title>Food competition in captive juvenile snapping turtles, <italic>Chelydra serpentina</italic></article-title>. <source>Anim Behav</source> <volume>22</volume>: <fpage>735</fpage>–<lpage>740</lpage>.</mixed-citation>
+</ref>
+<ref id="pone.0080872-Morafka1"><label>21</label>
+<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Morafka</surname><given-names>DJ</given-names></name>, <name name-style="western"><surname>Spangenberg</surname><given-names>EK</given-names></name>, <name name-style="western"><surname>Lance</surname><given-names>VA</given-names></name> (<year>2000</year>) <article-title>Neonatology of reptiles</article-title>. <source>Herpetol Monogr</source> <volume>14</volume>: <fpage>353</fpage>–<lpage>370</lpage>.</mixed-citation>
+</ref>
+<ref id="pone.0080872-Garrick1"><label>22</label>
+<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Garrick</surname><given-names>LD</given-names></name>, <name name-style="western"><surname>Lang</surname><given-names>JW</given-names></name> (<year>1977</year>) <article-title>Social signals and behaviours of adult alligators and crocodiles</article-title>. <source>Am Zool</source> <volume>17</volume>: <fpage>225</fpage>–<lpage>239</lpage>.</mixed-citation>
+</ref>
+<ref id="pone.0080872-Garrick2"><label>23</label>
+<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Garrick</surname><given-names>LD</given-names></name>, <name name-style="western"><surname>Lang</surname><given-names>JW</given-names></name>, <name name-style="western"><surname>Herzog</surname><given-names>HA</given-names></name> (<year>1978</year>) <article-title>Social signals of adult American alligators</article-title>. <source>Bull Am Mus Nat Hist</source> <volume>160</volume>: <fpage>153</fpage>–<lpage>192</lpage>.</mixed-citation>
+</ref>
+<ref id="pone.0080872-Vliet1"><label>24</label>
+<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Vliet</surname><given-names>KA</given-names></name> (<year>1989</year>) <article-title>Social displays of the American alligator (<italic>Alligator mississippiensis</italic>)</article-title>. <source>Am Zool</source> <volume>29</volume>: <fpage>1019</fpage>–<lpage>1031</lpage>.</mixed-citation>
+</ref>
+<ref id="pone.0080872-Brien1"><label>25</label>
+<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Brien</surname><given-names>ML</given-names></name>, <name name-style="western"><surname>Webb</surname><given-names>GJ</given-names></name>, <name name-style="western"><surname>Lang</surname><given-names>JW</given-names></name>, <name name-style="western"><surname>McGuinness</surname><given-names>KA</given-names></name>, <name name-style="western"><surname>Christian</surname><given-names>KA</given-names></name> (<year>2013a</year>) <article-title>Born to be bad: agonistic behaviour in hatchling saltwater crocodiles (<italic>Crocodylus porosus</italic>)</article-title>. <source>Behaviour</source> <volume>150</volume>: <fpage>737</fpage>–<lpage>762</lpage>.</mixed-citation>
+</ref>
+<ref id="pone.0080872-Brien2"><label>26</label>
+<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Brien</surname><given-names>ML</given-names></name>, <name name-style="western"><surname>Webb</surname><given-names>GJ</given-names></name>, <name name-style="western"><surname>Lang</surname><given-names>JW</given-names></name>, <name name-style="western"><surname>McGuinness</surname><given-names>KA</given-names></name>, <name name-style="western"><surname>Christian</surname><given-names>KA</given-names></name> (<year>2013b</year>) <article-title>Intra- and interspecific agonistic behaviour in hatchling Australian freshwater crocodiles (<italic>Crocodylus johnstoni</italic>) and saltwater crocodiles (<italic>Crocodylus porosus</italic>)</article-title>. <source>Austr J Zool</source> <volume>61</volume>: <fpage>196</fpage>–<lpage>205</lpage>.</mixed-citation>
+</ref>
+<ref id="pone.0080872-Oaks1"><label>27</label>
+<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Oaks</surname><given-names>JR</given-names></name> (<year>2011</year>) <article-title>A time calibrated species tree of Crocodylia reveals a recent radiation of the true crocodiles</article-title>. <source>Evol</source> <volume>65</volume>: <fpage>3285</fpage>–<lpage>3297</lpage>.</mixed-citation>
+</ref>
+<ref id="pone.0080872-Brochu1"><label>28</label>
+<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Brochu</surname><given-names>CA</given-names></name> (<year>2001</year>) <article-title>Crocodilian snouts in space and time: phylogenetic approaches toward adaptive radiation</article-title>. <source>Am Zool</source> <volume>41</volume>: <fpage>564</fpage>–<lpage>585</lpage>.</mixed-citation>
+</ref>
+<ref id="pone.0080872-Busbey1"><label>29</label>
+<mixed-citation publication-type="other" xlink:type="simple">Busbey AB (1995) The structural consequences of skull flattening in crocodilians. In: Thomason JJ, editor. Functional Morphology in Vertebrate Paleontology. Cambridge: Cambridge University Press. 173–192.</mixed-citation>
+</ref>
+<ref id="pone.0080872-Pierce1"><label>30</label>
+<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Pierce</surname><given-names>SE</given-names></name>, <name name-style="western"><surname>Angielczyk</surname><given-names>KD</given-names></name>, <name name-style="western"><surname>Rayfield</surname><given-names>EJ</given-names></name> (<year>2008</year>) <article-title>Patterns of morphospace occupation and mechanical performance in extant crocodilian skulls: a combined geometric morphometric and finite element modelling approach</article-title>. <source>J Morphol</source> <volume>269</volume>: <fpage>840</fpage>–<lpage>864</lpage>.</mixed-citation>
+</ref>
+<ref id="pone.0080872-Manolis1"><label>31</label>
+<mixed-citation publication-type="other" xlink:type="simple">Manolis SC, Stevenson C (2010) Crocodiles: status, survey and conservation plan, third edition. Darwin: Crocodile Specialist Group. 143 p.</mixed-citation>
+</ref>
+<ref id="pone.0080872-Groombridge1"><label>32</label>
+<mixed-citation publication-type="other" xlink:type="simple">Groombridge B (1987) The distribution and status of world crocodilians. In: Webb GJW, Manolis SC, Whitehead PJ, editors. Wildlife management: crocodiles and alligators. NSW: Surrey Beatty and Sons. 9–21.</mixed-citation>
+</ref>
+<ref id="pone.0080872-Thorbjarnarson1"><label>33</label>
+<mixed-citation publication-type="other" xlink:type="simple">Thorbjarnarson JB (1992) Crocodiles: status survey and conservation action plan. Gland: International Union for Conservation of Nature. 128 p.</mixed-citation>
+</ref>
+<ref id="pone.0080872-Lang2"><label>34</label>
+<mixed-citation publication-type="other" xlink:type="simple">Lang JW (1987) Crocodilian thermal selection. In: Webb GJW, Manolis SC, Whitehead PJ, editors. Wildlife Management: Crocodiles and Alligators. NSW: Surrey Beatty and Sons. 301–317.</mixed-citation>
+</ref>
+<ref id="pone.0080872-SAS1"><label>35</label>
+<mixed-citation publication-type="other" xlink:type="simple">SAS Institute (2010) JMP statistics and graphics guide. Cary: SAS Institute Inc. 484 p.</mixed-citation>
+</ref>
+<ref id="pone.0080872-Drummond3"><label>36</label>
+<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Drummond</surname><given-names>H</given-names></name> (<year>2001</year>) <article-title>The control and function of agonism in avian broodmates</article-title>. <source>Adv Stud Behav</source> <volume>30</volume>: <fpage>261</fpage>–<lpage>301</lpage>.</mixed-citation>
+</ref>
+<ref id="pone.0080872-Newman1"><label>37</label>
+<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Newman</surname><given-names>MA</given-names></name> (<year>1956</year>) <article-title>Social behavior and interspecific competition in two trout species</article-title>. <source>Physiol Zool</source> <volume>29</volume>: <fpage>64</fpage>–<lpage>81</lpage>.</mixed-citation>
+</ref>
+<ref id="pone.0080872-Bergman2"><label>38</label>
+<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Bergman</surname><given-names>VH-H</given-names></name> (<year>1968</year>) <article-title>Eine descriptive Verhaltensanalyse des Segelflossers (<italic>Pterophyllum scalare</italic> Cuv. and Val., Cichlidae, Pisces)</article-title>. <source>Z Tierpsychol</source> <volume>25</volume>: <fpage>559</fpage>–<lpage>587</lpage>.</mixed-citation>
+</ref>
+<ref id="pone.0080872-MaynardSmith1"><label>39</label>
+<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Maynard Smith</surname><given-names>J</given-names></name>, <name name-style="western"><surname>Price</surname><given-names>GR</given-names></name> (<year>1973</year>) <article-title>The logic of animal conflict</article-title>. <source>Nature</source> <volume>246</volume>: <fpage>15</fpage>–<lpage>18</lpage>.</mixed-citation>
+</ref>
+<ref id="pone.0080872-Parker1"><label>40</label>
+<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Parker</surname><given-names>GA</given-names></name> (<year>1974</year>) <article-title>Assessment strategy and the evolution of animal conflicts</article-title>. <source>J Theor Biol</source> <volume>47</volume>: <fpage>223</fpage>–<lpage>243</lpage>.</mixed-citation>
+</ref>
+<ref id="pone.0080872-Torr1"><label>41</label>
+<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Torr</surname><given-names>GA</given-names></name>, <name name-style="western"><surname>Shine</surname><given-names>R</given-names></name> (<year>1994</year>) <article-title>An ethogram for the small scincid lizard <italic>Lampropholis guichenoti</italic></article-title>. <source>Amphibia-Reptilia</source> <volume>15</volume>: <fpage>21</fpage>–<lpage>34</lpage>.</mixed-citation>
+</ref>
+<ref id="pone.0080872-Terranova1"><label>42</label>
+<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Terranova</surname><given-names>ML</given-names></name>, <name name-style="western"><surname>Laviola</surname><given-names>G</given-names></name>, <name name-style="western"><surname>Alleva</surname><given-names>E</given-names></name> (<year>1993</year>) <article-title>Ontogeny of amicable social behavior in the mouse: gender differences and ongoing isolation outcomes</article-title>. <source>Dev Psychobiol</source> <volume>26</volume>: <fpage>467</fpage>–<lpage>481</lpage>.</mixed-citation>
+</ref>
+<ref id="pone.0080872-Carpenter2"><label>43</label>
+<mixed-citation publication-type="other" xlink:type="simple">Carpenter CC, Ferguson GW (1977) Variation and evolution of stereotyped behaviour in reptiles. In: Gans C, Tinkle DW, editors. Biology of the reptilia: ecology and behaviour A. New York: Academic Press. 335–554.</mixed-citation>
+</ref>
+<ref id="pone.0080872-Greenberg1"><label>44</label>
+<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Greenberg</surname><given-names>B</given-names></name> (<year>1947</year>) <article-title>Some relations between territory, social hierarchy, and leadership in the green sunfish (<italic>Lepomis cyanellus</italic>)</article-title>. <source>Physiol Zool</source> <volume>20</volume>: <fpage>267</fpage>–<lpage>299</lpage>.</mixed-citation>
+</ref>
+<ref id="pone.0080872-Allee1"><label>45</label>
+<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Allee</surname><given-names>WC</given-names></name>, <name name-style="western"><surname>Greenberg</surname><given-names>B</given-names></name>, <name name-style="western"><surname>Rosenthal</surname><given-names>GM</given-names></name>, <name name-style="western"><surname>Frank</surname><given-names>P</given-names></name> (<year>1952</year>) <article-title>Some effects of social organization on growth in the green sunfish, <italic>Lepomis cyanellus</italic></article-title>. <source>J Exp Zool</source> <volume>108</volume>: <fpage>1</fpage>–<lpage>19</lpage>.</mixed-citation>
+</ref>
+<ref id="pone.0080872-SnchezHernndez1"><label>46</label>
+<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Sánchez-Hernández</surname><given-names>P</given-names></name>, <name name-style="western"><surname>Ramírez-Pinilla</surname><given-names>MP</given-names></name>, <name name-style="western"><surname>Molina-Borja</surname><given-names>M</given-names></name> (<year>2012</year>) <article-title>Agonistic and courtship behaviour patterns in the skink <italic>Chalcides viridanus</italic> (Fam. Scincidae) from Tenerife</article-title>. <source>Acta ethol</source> <volume>15</volume>: <fpage>65</fpage>–<lpage>71</lpage>.</mixed-citation>
+</ref>
+<ref id="pone.0080872-Webb1"><label>47</label>
+<mixed-citation publication-type="other" xlink:type="simple">Webb GJW, Manolis SC (1989) Crocodiles of Australia. Sydney: Reed Books. 160 p.</mixed-citation>
+</ref>
+<ref id="pone.0080872-Tinbergen1"><label>48</label>
+<mixed-citation publication-type="other" xlink:type="simple">Tinbergen N (1953) Social behaviour in animals: with special reference to vertebrates. Oxford: Wiley. 150 p.</mixed-citation>
+</ref>
+<ref id="pone.0080872-Gherardi1"><label>49</label>
+<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Gherardi</surname><given-names>F</given-names></name>, <name name-style="western"><surname>Pieraccini</surname><given-names>R</given-names></name> (<year>2004</year>) <article-title>Using information theory to assess dynamics, structure, and organization of crayfish agonistic repertoire</article-title>. <source>Behav Process</source> <volume>65</volume>: <fpage>163</fpage>–<lpage>178</lpage>.</mixed-citation>
+</ref>
+<ref id="pone.0080872-Walmsley1"><label>50</label>
+<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Walmsley</surname><given-names>CW</given-names></name>, <name name-style="western"><surname>Smits</surname><given-names>PD</given-names></name>, <name name-style="western"><surname>Quayle</surname><given-names>MR</given-names></name>, <name name-style="western"><surname>McCurry</surname><given-names>MR</given-names></name>, <name name-style="western"><surname>Richards</surname><given-names>HS</given-names></name>, <etal>et al</etal>. (<year>2013</year>) <article-title>Why the long face? The mechanics of mandibular symphysis proportions in crocodiles</article-title>. <source>PLoS ONE</source> <volume>8</volume>: <fpage>e53873</fpage> <comment>doi:<ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1371/journal.pone.0053873" xlink:type="simple">10.1371/journal.pone.0053873</ext-link></comment></mixed-citation>
+</ref>
+<ref id="pone.0080872-Vliet2"><label>51</label>
+<mixed-citation publication-type="other" xlink:type="simple">Vliet KA (1987) A quantitative analysis of the courtship behaviour of the American alligator (<italic>Alligator mississippiensis</italic>). PhD thesis. University of Florida, USA. 198 p.</mixed-citation>
+</ref>
+<ref id="pone.0080872-Senter1"><label>52</label>
+<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Senter</surname><given-names>P</given-names></name> (<year>2008</year>) <article-title>Homology between and antiquity of stereotyped communicatory behaviours of crocodilians</article-title>. <source>J Herpetol</source> <volume>42</volume>: <fpage>354</fpage>–<lpage>360</lpage>.</mixed-citation>
+</ref>
+<ref id="pone.0080872-Leitch1"><label>53</label>
+<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Leitch</surname><given-names>DB</given-names></name>, <name name-style="western"><surname>Catania</surname><given-names>KC</given-names></name> (<year>2012</year>) <article-title>Structure, innervation and response properties of integumentary sensory organs in crocodilians</article-title>. <source>J Exp Biol</source> <volume>215</volume>: <fpage>4217</fpage>–<lpage>4230</lpage>.</mixed-citation>
+</ref>
+<ref id="pone.0080872-DiPoi1"><label>54</label>
+<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Di Poi</surname><given-names>N</given-names></name>, <name name-style="western"><surname>Milinkovitch</surname><given-names>MC</given-names></name> (<year>2013</year>) <article-title>Crocodylians evolved scattered multi-sensory micro-organs</article-title>. <source>EvoDevo</source> <volume>4</volume>: <fpage>19</fpage>.</mixed-citation>
+</ref>
+<ref id="pone.0080872-Weldon1"><label>55</label>
+<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Weldon</surname><given-names>PJ</given-names></name>, <name name-style="western"><surname>Ferguson</surname><given-names>MWJ</given-names></name> (<year>1993</year>) <article-title>Chemoreception in crocodilians: anatomy, natural history, and empirical results</article-title>. <source>Brain Behav Evol</source> <volume>41</volume>: <fpage>239</fpage>–<lpage>245</lpage>.</mixed-citation>
+</ref>
+<ref id="pone.0080872-Weldon2"><label>56</label>
+<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Weldon</surname><given-names>PJ</given-names></name>, <name name-style="western"><surname>Flachsbarth</surname><given-names>B</given-names></name>, <name name-style="western"><surname>Schulz</surname><given-names>S</given-names></name> (<year>2008</year>) <article-title>Natural products from the integument of nonavian reptiles</article-title>. <source>Nat Prod Rep</source> <volume>25</volume>: <fpage>738</fpage>–<lpage>756</lpage>.</mixed-citation>
+</ref>
+<ref id="pone.0080872-Dinetz1"><label>57</label>
+<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Dinetz</surname><given-names>V</given-names></name> (<year>2013</year>) <article-title>Do individual crocodilians adjust their signalling to habitat structure?</article-title> <source>Ethol Evol</source> <volume>25</volume>: <fpage>174</fpage>–<lpage>184</lpage>.</mixed-citation>
+</ref>
+<ref id="pone.0080872-Dinetz2"><label>58</label>
+<mixed-citation publication-type="other" xlink:type="simple">Dinetz V (2011) The role of habitat in crocodilian communication. PhD thesis. University of Miami, USA. 122 p.</mixed-citation>
+</ref>
+<ref id="pone.0080872-Britton1"><label>59</label>
+<mixed-citation publication-type="other" xlink:type="simple">Britton A (2001) Review and classification of call types of juvenile crocodilians and factors affecting distress calls. In: Grigg GC, Seebacher F, Franklin CE, editors. NSW: Surrey Beatty and Sons. 364–377.</mixed-citation>
+</ref>
+<ref id="pone.0080872-Verne1"><label>60</label>
+<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Verne</surname><given-names>AL</given-names></name>, <name name-style="western"><surname>Aubin</surname><given-names>T</given-names></name>, <name name-style="western"><surname>Martin</surname><given-names>S</given-names></name>, <name name-style="western"><surname>Mathevon</surname><given-names>N</given-names></name> (<year>2012</year>) <article-title>Acoustic communication in crocodilians: information encoding and species specificity of juvenile calls</article-title>. <source>Anim Cogn</source> <volume>15</volume>: <fpage>1095</fpage>–<lpage>1109</lpage>.</mixed-citation>
+</ref>
+<ref id="pone.0080872-Pahl1"><label>61</label>
+<mixed-citation publication-type="other" xlink:type="simple">Pahl KR (2012) Natural history of the Siamese crocodile (<italic>Crocodylus siamensis</italic>) in Cat Tien National park, Vietnam. Report for the IUCN-SSC Crocodile Specialist Group, student research assistance scheme. 1–45.</mixed-citation>
+</ref>
+<ref id="pone.0080872-Lang3"><label>62</label>
+<mixed-citation publication-type="other" xlink:type="simple">Lang JW, Kumar P (2013) Behavioural ecology of gharial on the Chambal River, India. In: Crocodiles: proceedings of the 22<sup>nd</sup> working meeting of the SSC-IUCN Crocodile Specialist Group. Gland: International Union for Conservation of Nature. In press.</mixed-citation>
+</ref>
+<ref id="pone.0080872-Webb2"><label>63</label>
+<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Webb</surname><given-names>GJW</given-names></name>, <name name-style="western"><surname>Messel</surname><given-names>H</given-names></name>, <name name-style="western"><surname>Magnusson</surname><given-names>WE</given-names></name> (<year>1977</year>) <article-title>The nesting biology of <italic>Crocodylus porosus</italic> in Arnhem Land, northern Australia</article-title>. <source>Copeia</source> <volume>1977</volume>: <fpage>238</fpage>–<lpage>49</lpage>.</mixed-citation>
+</ref>
+<ref id="pone.0080872-Campos1"><label>64</label>
+<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Campos</surname><given-names>Z</given-names></name>, <name name-style="western"><surname>Sanaiotti</surname><given-names>T</given-names></name>, <name name-style="western"><surname>Muniz</surname><given-names>F</given-names></name>, <name name-style="western"><surname>Farias</surname><given-names>I</given-names></name>, <name name-style="western"><surname>Magnusson</surname><given-names>WE</given-names></name> (<year>2012</year>) <article-title>Parental care in the dwarf caiman, Paleosuchus palpebrosus Cuvier, 1807 (Reptilia: Crocodilia: Alligatoridae)</article-title>. <source>J Nat Hist</source> <volume>46</volume>: <fpage>2979</fpage>–<lpage>2984</lpage>.</mixed-citation>
+</ref>
+<ref id="pone.0080872-Christian1"><label>65</label>
+<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Christian</surname><given-names>KA</given-names></name>, <name name-style="western"><surname>Green</surname><given-names>B</given-names></name>, <name name-style="western"><surname>Kennett</surname><given-names>R</given-names></name> (<year>1996</year>) <article-title>Some physiological consequences of estivation by freshwater crocodiles, <italic>Crocodylus johnstoni</italic></article-title>. <source>J Herpetol</source> <volume>30</volume>: <fpage>1</fpage>–<lpage>9</lpage>.</mixed-citation>
+</ref>
+<ref id="pone.0080872-Bovbjerg1"><label>66</label>
+<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Bovbjerg</surname><given-names>RV</given-names></name> (<year>1970</year>) <article-title>Ecological isolation and competitive exclusion in two crayfish (<italic>Orconectes virilis</italic> and <italic>Orconectes immunis</italic>)</article-title>. <source>Ecology</source> <volume>1970</volume>: <fpage>51225</fpage>–<lpage>51236</lpage>.</mixed-citation>
+</ref>
+<ref id="pone.0080872-Guiau1"><label>67</label>
+<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Guiaşu</surname><given-names>RC</given-names></name>, <name name-style="western"><surname>Dunham</surname><given-names>DW</given-names></name> (<year>1997</year>) <article-title>Initiation and outcome of agonistic contests in male form I, <italic>Cambarus robustus</italic> Girard, 1852 crayfish (Decapoda, Cambaridae)</article-title>. <source>Crustaceana</source> <volume>70</volume>: <fpage>480</fpage>–<lpage>496</lpage>.</mixed-citation>
+</ref>
+<ref id="pone.0080872-Pavey1"><label>68</label>
+<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Pavey</surname><given-names>CR</given-names></name>, <name name-style="western"><surname>Fielder</surname><given-names>DR</given-names></name> (<year>1996</year>) <article-title>The influence of size differential on agonistic behaviour in the freshwater crayfish, <italic>Cherax cuspidatus</italic> (Decapoda: Parastacidae)</article-title>. <source>J Zool</source> <volume>238</volume>: <fpage>445</fpage>–<lpage>457</lpage>.</mixed-citation>
+</ref>
+<ref id="pone.0080872-Usio1"><label>69</label>
+<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Usio</surname><given-names>N</given-names></name>, <name name-style="western"><surname>Konishi</surname><given-names>M</given-names></name>, <name name-style="western"><surname>Nakano</surname><given-names>S</given-names></name> (<year>2001</year>) <article-title>Species displacement between an introduced and a vulnerable crayfish: the role of aggressive interactions and shelter competition</article-title>. <source>Biol Invasions</source> <volume>3</volume>: <fpage>179</fpage>–<lpage>185</lpage>.</mixed-citation>
+</ref>
+<ref id="pone.0080872-Simpson1"><label>70</label>
+<mixed-citation publication-type="other" xlink:type="simple">Simpson BK, Cheang D, Han S (2006) The status of the Siamese crocodile in Cambodia. In: Crocodiles. Proceedings of the 18<sup>th</sup> working meeting of the IUCN-SSC Crocodile Specialist Group. Gland: International Union for Conservation of Nature. 293–305.</mixed-citation>
+</ref>
+<ref id="pone.0080872-Jelden1"><label>71</label>
+<mixed-citation publication-type="other" xlink:type="simple">Jelden D, Manolis SC, Tsubouchi T, Ngueyen Dao NV (2008) Crocodile conservation, management and farming in the socialist republic of Vietnam: a review with recommendations. Report of the Crocodile Specialist Grouop review mission to Vietnam. Darwin: Crocodile Specialist Group. 29 p.</mixed-citation>
+</ref>
+<ref id="pone.0080872-vanWeerd1"><label>72</label>
+<mixed-citation publication-type="other" xlink:type="simple">van Weerd M (2010) Philippine crocodile (<italic>Crocodylus mindorensis</italic>). In: Manolis SC, Stevenson C, editors. Crocodiles: status, survey and conservation action plan. Third edition. Darwin: Crocodile Specialist Group. 71–78.</mixed-citation>
+</ref>
+<ref id="pone.0080872-Targarona1"><label>73</label>
+<mixed-citation publication-type="other" xlink:type="simple">Targarona RR, Soberon RR, Tabet MA, Thorbjarnarson JB (2010) Cuban crocodile (<italic>Crocodylus rhombifer</italic>). In: Manolis SC, Stevenson C, editors. Crocodiles: status, survey and conservation action plan. Third edition. Darwin: Crocodile Specialist Group. 114–118.</mixed-citation>
+</ref>
+<ref id="pone.0080872-Varona1"><label>74</label>
+<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Varona</surname><given-names>LS</given-names></name> (<year>1966</year>) <article-title>Notas sobre los crocodilidos de Cuba y descripcion de una nueva especie del Pleistoceno. Poeyana, Series A</article-title>. <volume>16</volume>: <fpage>1</fpage>–<lpage>34</lpage>.</mixed-citation>
+</ref>
+</ref-list></back>
+</article>

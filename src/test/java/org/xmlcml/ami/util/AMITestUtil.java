@@ -40,11 +40,14 @@ public class AMITestUtil {
 	 * @param count expected count
 	 */
 	public static void assertNodeCount(File outputFile, int count, String xpath) {
-		LOG.debug("file: "+outputFile);
-		Assert.assertTrue("file should exist", outputFile.exists());
+		Assert.assertTrue(outputFile+ " should exist", outputFile.exists());
 		Nodes nodes = XMLUtil.parseQuietlyToDocument(outputFile).query(xpath);
 		int nodeCount = nodes.size();
-		Assert.assertEquals("count: "+nodeCount, count, nodeCount);
+		if (count >=0 ){
+			Assert.assertEquals("count: "+nodeCount, count, nodeCount);
+		} else {
+			LOG.debug(outputFile+"; "+nodeCount);
+		}
 	}
 
 }

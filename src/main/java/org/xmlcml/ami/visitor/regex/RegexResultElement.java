@@ -55,6 +55,13 @@ public class RegexResultElement extends AbstractResultElement {
 		simpleResult.setResultElement(this);
 		return simpleResult;
 	}
+	
+	@Override
+	public String toString() {
+		StringBuilder sb = new StringBuilder();
+		sb.append("regex: "+regexComponent.toString()+"; "+matcherResult.toString());
+		return sb.toString();
+	}
 
 
 }

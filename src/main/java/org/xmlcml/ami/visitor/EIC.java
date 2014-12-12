@@ -36,6 +36,7 @@ public class EIC {
 	public static final String VALUE_TAG = "value";
 
 	private static final int DEFAULT_MAX_CHAR = 50;
+	private static final int MAX_HITS = 50;
 
 	/** parent (if any) of xmlElement */
 	private ParentNode parent;
@@ -48,7 +49,6 @@ public class EIC {
 	private String xPath;
 	private Integer lineNumberFromZero = null;
 	private String lineValue;
-
 	private String remaining;
 
 	private EIC() {
@@ -129,7 +129,6 @@ public class EIC {
 	 * @return empty string ("") if no further string to match
 	 */
 	public String getRemainingUnmatchedString() {
-		
 		if (remaining == null) {
 			if (postStrings.size() > 0) {
 				remaining = postStrings.get(0);
@@ -151,9 +150,9 @@ public class EIC {
 	 * @param end
 	 * @return
 	 */
-	public EIC createNewElementInContext(String value, int start,
-			int end) {
+	public EIC createNewEIC(String value, int start, int end) {
 		EIC newEic = new EIC();
+		newEic.remaining = ((value == null) ? null : value.substring(end));
 		newEic.maxChar = this.maxChar;
 		newEic.stringValue = value.substring(start, end);
 		newEic.preStrings = new ArrayList<String>(this.preStrings);
@@ -165,7 +164,7 @@ public class EIC {
 		newEic.postStrings = new ArrayList<String>(this.postStrings);
 		postTruncate(newEic.postStrings, this.maxChar);
 		// append string snippet preceeding matched region
-		if (start > 0) {
+		if (end < value.length() - 1) {
 			newEic.postStrings.add(0, value.substring(end));
 		}
 		newEic.xPath = this.xPath;
@@ -175,21 +174,81 @@ public class EIC {
 		return newEic;
 	}
 
+	/** very crude since non-matches are repeatedly searched.
+	 * 
+	 * @param patternList
+	 * @return
+	 */
+	public DocumentFragment findStrings(List<Pattern> patternList) {
+		if (patternList == null) {
+			throw new RuntimeException("null patternList");
+		}
+		DocumentFragment resultList = new DocumentFragment();
+		Element eicelem = this.getResultElement();
+		String value = eicelem == null ? this.getResultValue() : eicelem.getValue();
+		boolean found = true;
+		int i = 0;
+		while (found && value != null) {
+			Matcher matcher = findLowestMatcher(patternList, value);
+			if (matcher == null) {
+				break;
+			}
+			EIC newEic = this.createNewEIC(value, matcher.start(), matcher.end());
+			LOG.trace("M "+matcher.start()+"; "+matcher.end());
+			resultList.add(newEic);
+			value = value.substring(matcher.end());
+//			value = newEic.getRemainingUnmatchedString();
+			LOG.trace("matched : " + newEic + ": " + value);
+			if (i++ > MAX_HITS) {
+				LOG.error("force break from infinite loop: "+value);
+				break;
+			}
+		}
+		LOG.trace("RESULT "+resultList.getEICList().size());
+		return resultList;
+	}
+
+	/** matcher whose start position is lowest.
+	 * 
+	 * @param patternList patterns to compare
+	 * @param value to test
+	 * @return
+	 */
+	private Matcher findLowestMatcher(List<Pattern> patternList, String value) {
+		// find lowest match
+		Matcher matcher = null;
+		int lowestStart = Integer.MAX_VALUE;
+		for (Pattern pattern : patternList) {
+			Matcher matcher0 = pattern.matcher(value);
+			if (matcher0.find()) {
+				if (matcher0.start() < lowestStart) {
+					matcher = matcher0;
+					lowestStart = matcher0.start();
+				}
+			}
+		}
+		return matcher;
+	}
+
 	public DocumentFragment findStrings(Pattern pattern) {
 		DocumentFragment resultList = new DocumentFragment();
 		Element eicelem = this.getResultElement();
 		String value = eicelem == null ? this.getResultValue() : eicelem.getValue();
 		boolean found = true;
+		int i = 0;
 		while (found && value != null) {
 			Matcher matcher = pattern.matcher(value);
 			if (!matcher.find()) {
 				break;
 			}
-			EIC newEic = this.createNewElementInContext(value,
-					matcher.start(), matcher.end());
+			EIC newEic = this.createNewEIC(value, matcher.start(), matcher.end());
 			resultList.add(newEic);
 			value = newEic.getRemainingUnmatchedString();
-			LOG.trace("matched : " + newEic + ": " + value);
+			LOG.trace("matched : " + newEic + ": " + value+" // "+matcher.start()+" // "+ matcher.end());
+			if (i++ > MAX_HITS) {
+				LOG.error("force break from infinite loop: "+value);
+				break;
+			}
 		}
 		LOG.trace("RESULT "+resultList.getEICList().size());
 		return resultList;
@@ -232,7 +291,6 @@ public class EIC {
 	private void computePrecedingOrFollowingStrings() {
 		StringBuilder sb = new StringBuilder();
 		createPrecedingSiblingNodeStrings();
-//		this.stringValue = this.getRemainingUnmatchedString();
 		createFollowingSiblingNodeStrings();
 	}
 

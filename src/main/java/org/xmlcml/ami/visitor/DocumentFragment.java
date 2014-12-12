@@ -245,4 +245,8 @@ public class DocumentFragment {
 		return sb.toString();
 	}
 
+	public DocumentFragment getResultFragment() {
+		return resultFragment;
+	}
+
 }

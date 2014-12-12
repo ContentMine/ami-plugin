@@ -1,0 +1,503 @@
+<article xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" article-type="research-article" dtd-version="3.0" xml:lang="en">
+<front>
+<journal-meta>
+<journal-id journal-id-type="nlm-ta">PLoS ONE</journal-id>
+<journal-id journal-id-type="publisher-id">plos</journal-id>
+<journal-id journal-id-type="pmc">plosone</journal-id><journal-title-group>
+<journal-title xml:lang="en">PLoS ONE</journal-title></journal-title-group>
+<issn pub-type="epub">1932-6203</issn>
+<publisher>
+<publisher-name>Public Library of Science</publisher-name>
+<publisher-loc>San Francisco, USA</publisher-loc></publisher>
+</journal-meta>
+<article-meta>
+<article-id pub-id-type="publisher-id">PONE-D-13-18536</article-id>
+<article-id pub-id-type="doi">10.1371/journal.pone.0080561</article-id>
+<article-categories><subj-group subj-group-type="heading"><subject>Research Article</subject></subj-group></article-categories>
+<title-group>
+<article-title>RCT of Working Memory Training in ADHD: Long-Term Near-Transfer Effects</article-title>
+<alt-title alt-title-type="running-head">Near-Transfer Effects of WM Training</alt-title>
+</title-group>
+<contrib-group>
+<contrib contrib-type="author" xlink:type="simple"><name name-style="western"><surname>Hovik</surname><given-names>Kjell Tore</given-names></name><xref ref-type="aff" rid="aff1"><sup>1</sup></xref><xref ref-type="aff" rid="aff2"><sup>2</sup></xref><xref ref-type="corresp" rid="cor1"><sup>*</sup></xref></contrib>
+<contrib contrib-type="author" xlink:type="simple"><name name-style="western"><surname>Saunes</surname><given-names>Brit-Kari</given-names></name><xref ref-type="aff" rid="aff3"><sup>3</sup></xref></contrib>
+<contrib contrib-type="author" xlink:type="simple"><name name-style="western"><surname>Aarlien</surname><given-names>Anne Kristine</given-names></name><xref ref-type="aff" rid="aff1"><sup>1</sup></xref></contrib>
+<contrib contrib-type="author" xlink:type="simple"><name name-style="western"><surname>Egeland</surname><given-names>Jens</given-names></name><xref ref-type="aff" rid="aff1"><sup>1</sup></xref><xref ref-type="aff" rid="aff2"><sup>2</sup></xref></contrib>
+</contrib-group>
+<aff id="aff1"><label>1</label><addr-line>Division of Mental Health and Addiction, Vestfold Hospital Trust, Tønsberg, Norway</addr-line></aff>
+<aff id="aff2"><label>2</label><addr-line>Department of Psychology, University of Oslo, Oslo, Norway</addr-line></aff>
+<aff id="aff3"><label>3</label><addr-line>Division of Child and Adolescent Psychiatry, Telemark Hospital Trust, Skien, Norway</addr-line></aff>
+<contrib-group>
+<contrib contrib-type="editor" xlink:type="simple"><name name-style="western"><surname>Kroesbergen</surname><given-names>Evelyn</given-names></name>
+<role>Editor</role>
+<xref ref-type="aff" rid="edit1" /></contrib>
+</contrib-group>
+<aff id="edit1"><addr-line>Langeveld Institute, Utrecht University, The Netherlands</addr-line></aff>
+<author-notes>
+<corresp id="cor1">* E-mail: <email xlink:type="simple">kjell.tore.hovik@sykehuset-innlandet.no</email></corresp>
+<fn fn-type="conflict"><p>The authors have declared that no competing interests exist.</p></fn>
+<fn fn-type="con"><p>Conceived and designed the experiments: AKA BKS JE. Performed the experiments: AKA BKS KTH. Analyzed the data: KTH JE. Contributed reagents/materials/analysis tools: BKS AKA JE. Wrote the paper: KTH JE BKS AKA.</p></fn>
+</author-notes>
+<pub-date pub-type="collection"><year>2013</year></pub-date>
+<pub-date pub-type="epub"><day>9</day><month>12</month><year>2013</year></pub-date>
+<volume>8</volume>
+<issue>12</issue>
+<elocation-id>e80561</elocation-id>
+<history>
+<date date-type="received"><day>30</day><month>4</month><year>2013</year></date>
+<date date-type="accepted"><day>2</day><month>10</month><year>2013</year></date>
+</history>
+<permissions>
+<copyright-year>2013</copyright-year>
+<copyright-holder>Hovik et al</copyright-holder><license xlink:href="http://creativecommons.org/licenses/by/3.0/" xlink:type="simple"><license-p>This is an open-access article distributed under the terms of the <ext-link ext-link-type="uri" xlink:href="http://creativecommons.org/licenses/by/3.0/" xlink:type="simple">Creative Commons Attribution License</ext-link>, which permits unrestricted use, distribution, and reproduction in any medium, provided the original author and source are credited.</license-p></license></permissions>
+<abstract><sec>
+<title>Objective</title>
+<p>The aim of the study is to evaluate the long-term near-transfer effects of computerized working memory (WM) training on standard WM tasks in children with Attention-Deficit/Hyperactivity Disorder (ADHD).</p>
+</sec><sec>
+<title>Method</title>
+<p>Sixty-seven children aged 10–12 years in Vestfold/Telemark counties (Norway) diagnosed with F90.0 Hyperkinetic disorder (ICD-10) were randomly assigned to training or control group. The training group participated in a 25-day training program at school, while the control group received treatment-as-usual. Participants were tested one week before intervention, immediately after and eight months later. Based on a component analysis, six measures of WM were grouped into composites representing Visual, Auditory and Manipulation WM.</p>
+</sec><sec>
+<title>Results</title>
+<p>The training group had significant long-term differential gains compared to the control group on all outcome measures. Performance gains for the training group were significantly higher in the visual domain than in the auditory domain. The differential gain in Manipulation WM persisted after controlling for an increase in simple storage capacity.</p>
+</sec><sec>
+<title>Conclusion</title>
+<p>Systematic training resulted in a long-term positive gain in performance on similar tasks, indicating the viability of training interventions for children with ADHD. The results provide evidence for both domain-general and domain-specific models. Far-transfer effects were not investigated in this article.</p>
+</sec><sec>
+<title />
+    <p>Trial Registration: Controlled-Trials.com <ext-link ext-link-type="uri" xlink:href="http://www.controlled-trials.com/ISRCTN19133620/ISRCTN19133620" xlink:type="simple">ISRCTN19133620</ext-link> </p>
+</sec></abstract>
+<funding-group><funding-statement>Funding from a grant from the Centre for Child and Adolescent Mental Health, Eastern &amp; Southern Norway and a grant from The Norwegian Resource Center for ADHD, Tourette and Narcolepsy. The funders had no role in study design, data collection and analysis, decision to publish, or preparation of the manuscript.</funding-statement></funding-group><counts><page-count count="9" /></counts></article-meta>
+</front>
+<body><sec id="s1">
+<title>Introduction</title>
+<p>Studies consistently show working memory (WM) to be impaired in children with Attention-Deficit/Hyperactivity Disorder (ADHD) <xref ref-type="bibr" rid="pone.0080561-Martinussen1">[1]</xref>. WM processes mediate a range of cognitive skills contributing to lower academic performance <xref ref-type="bibr" rid="pone.0080561-Loe1">[2]</xref> and poorer adaptive functioning in major life activities for young adults with ADHD <xref ref-type="bibr" rid="pone.0080561-Barkley1">[3]</xref>. Proponents of computerized WM training advocate the use of training programs to treat the cognitive deficits associated with ADHD, and point to studies suggesting that children with ADHD can improve their WM by practicing on adaptive computer-based programs <xref ref-type="bibr" rid="pone.0080561-Klingberg1">[4]</xref>, <xref ref-type="bibr" rid="pone.0080561-Klingberg2">[5]</xref>. However, the effectiveness of WM training has been seriously questioned recently <xref ref-type="bibr" rid="pone.0080561-MelbyLervag1">[6]</xref>, <xref ref-type="bibr" rid="pone.0080561-Shipstead1">[7]</xref>, and the lack of a theoretical consensus on the construct working memory <xref ref-type="bibr" rid="pone.0080561-Miyake1">[8]</xref>, <xref ref-type="bibr" rid="pone.0080561-Aben1">[9]</xref> complicates the interpretation of results from intervention studies.</p>
+<p>Computerized training studies involving children with ADHD commonly assess WM by administering tasks measuring WM capacity <xref ref-type="bibr" rid="pone.0080561-Shipstead1">[7]</xref>, <xref ref-type="bibr" rid="pone.0080561-Shipstead2">[10]</xref>. Most of these training studies presume a two-component view of WM, consisting of 1) transient storage of information, and 2) manipulation of information remembered transiently <xref ref-type="bibr" rid="pone.0080561-Klingberg1">[4]</xref>, <xref ref-type="bibr" rid="pone.0080561-Klingberg2">[5]</xref>, <xref ref-type="bibr" rid="pone.0080561-Dahlin1">[11]</xref>, <xref ref-type="bibr" rid="pone.0080561-Mezzacappa1">[12]</xref>. A distinction between visual and auditory modalities is also common in these studies <xref ref-type="bibr" rid="pone.0080561-Klingberg2">[5]</xref>, <xref ref-type="bibr" rid="pone.0080561-Dahlin1">[11]</xref>–<xref ref-type="bibr" rid="pone.0080561-Gibson1">[13]</xref>. For all practical purposes, the storage and manipulation components of WM are equivalent to the specific temporary memory systems and separate resources (slave systems) supporting processing and multitask coordination (Central Executive) in the <italic>Multicomponent Model</italic> proposed by Baddeley <xref ref-type="bibr" rid="pone.0080561-Baddeley1">[14]</xref>, <xref ref-type="bibr" rid="pone.0080561-Logie1">[15]</xref>. The model divides the role of attention in controlling action into two distinct mechanisms; one which is automatic and the other that is attentionally demanding, for example, when encountering a novel problem <xref ref-type="bibr" rid="pone.0080561-Baddeley2">[16]</xref>. Several brain areas and networks are likely involved in WM processes, but considerable evidence suggests that activation in the Dorsolateral Prefrontal Cortex correlates with increasing manipulation load on WM tasks <xref ref-type="bibr" rid="pone.0080561-Carpenter1">[17]</xref>, <xref ref-type="bibr" rid="pone.0080561-Landr1">[18]</xref>. It is precisely the manipulation aspect of WM that is thought to be impaired in children with ADHD as a result of frontostriatal dysfunction <xref ref-type="bibr" rid="pone.0080561-Martinussen1">[1]</xref> and/or energetic dysfunction in pre-frontal systems <xref ref-type="bibr" rid="pone.0080561-Sergeant1">[19]</xref>, <xref ref-type="bibr" rid="pone.0080561-Sergeant2">[20]</xref>.</p>
+<p>The brain's plasticity has been documented even in adults <xref ref-type="bibr" rid="pone.0080561-Draganski1">[21]</xref>–<xref ref-type="bibr" rid="pone.0080561-Ungerleider1">[23]</xref>, and preadolescents are undergoing dynamic changes in grey and white matter substance as a natural part of their development <xref ref-type="bibr" rid="pone.0080561-Casey1">[24]</xref>. Changes may be easily precipitated in young brains already undergoing dynamic change, but a central question is whether the effect of the change through training applies to similar (near) or dissimilar (far) tasks. Although a taxonomy of learning transfer has yet to be accurately described <xref ref-type="bibr" rid="pone.0080561-Barnett1">[25]</xref>, <italic>near-transfer</italic> of learning refers to a gain in skill within the same training context; <italic>far-transfer</italic>, on the other hand, refers to the functional transfer of learning from one training context to anothe`r. A clear distinction should therefore be made between a gain in task-related performance and a gain in ability. Similar to any athlete training individual components of his or her sport, however, the precise relationship of how an improvement in a specific skill contributes to an overall ability is not always straight-forward. The indirect effects on measures of WM are published elsewhere <xref ref-type="bibr" rid="pone.0080561-Egeland1">[26]</xref>. The current examination of the effects of a computerized WM training program focuses exclusively on the near-transfer effects of such training. The theoretical separation of learning transfer effects is relevant to the current debate about the WM construct that revolves around whether WM resources are separable into pools of domain-specific resources (e.g. visuospatial and auditory WM) <xref ref-type="bibr" rid="pone.0080561-Alloway1">[27]</xref>–<xref ref-type="bibr" rid="pone.0080561-Shah1">[29]</xref> or are better accounted for in a domain-general model, in which a centralized component (e.g. The Central Executive) operates on information in short-term, domain-specific storage components <xref ref-type="bibr" rid="pone.0080561-Baddeley1">[14]</xref>, <xref ref-type="bibr" rid="pone.0080561-Engle1">[30]</xref>. The pattern of near-transfer effects from training intervention studies could contribute to the theoretical debate by identifying the impact of specific training on domain-specific versus domain-general components of WM.</p>
+<p>Most PC-based training studies on children with ADHD administer a battery of tests and report gains on particular WM measures. Strong criticism has been raised of the single-test approach to assessing cognitive functions <xref ref-type="bibr" rid="pone.0080561-Shipstead2">[10]</xref>. Due to the diffuse nature of the WM construct, single tests alone should not be interpreted as an increase in function. Multiple tasks tapping the same construct but differing in other respects (e.g. design, modality) provide a more robust outcome measure <xref ref-type="bibr" rid="pone.0080561-Shipstead2">[10]</xref> and a more powerful predictive tool <xref ref-type="bibr" rid="pone.0080561-Duff1">[31]</xref>. In response to this criticism, the current study uses composite measures grouped empirically through a component analysis to assess the impact of training on the WM construct.</p>
+<p>The subjects in the study were tested with six tasks assumed to measure aspects of WM. In response to the criticism leveled at using single task scores, the six measures were grouped in composite scores based on a principal component analysis. First, when comparing the performance by the training group to the control group, we expect that there should be a significant gain by the training group compared to the control group on all composites as a consequence of having trained systematically on similar tasks over a five-week period. Second, we expect any improvement to be most evident in composites relating to the visual domain, as the exercises in the WM training program are presented predominantly visually (only 4 of 13 depend on auditory input). Third, if the component analysis yields a manipulation composite that is differentially improved by training, we need to investigate whether it represents an actual increase in the manipulation system or is merely an artifact of increased storage capacity reducing the cognitive load on the controlled manipulation tasks. In order to test for this, we will control for an increase in simple storage capacity. An increase in manipulation beyond a gain in simple storage capacity may be an indication of a genuine improvement in the executive component of WM. The persistence of the predicted gains for the training group compared to control group over the long term is unclear due to the lack of published studies showing lasting effects from training on similar WM measures <xref ref-type="bibr" rid="pone.0080561-MelbyLervag1">[6]</xref>.</p>
+</sec><sec id="s2" sec-type="methods">
+<title>Methods</title>
+<sec id="s2a">
+<title>Participants</title>
+<p>The flow of participants in the study is presented in <xref ref-type="fig" rid="pone-0080561-g001">Figure 1</xref>. The protocol for this trial and supporting Consort checklist are available as supporting information, see <xref ref-type="supplementary-material" rid="pone.0080561.s001">Checklist S1</xref> and <xref ref-type="supplementary-material" rid="pone.0080561.s002">Protocol S1</xref> and <xref ref-type="supplementary-material" rid="pone.0080561.s003">S2</xref>.</p>
+<fig id="pone-0080561-g001" position="float" orientation="portrait"><object-id pub-id-type="doi">10.1371/journal.pone.0080561.g001</object-id><label>Figure 1</label><caption>
+<title>The diagram specifies the flow of participants through the enrollment, allocation, follow-up and analysis phases of the RCT study.</title>
+</caption><graphic mimetype="image" xlink:href="info:doi/10.1371/journal.pone.0080561.g001" position="float" xlink:type="simple" orientation="portrait" /></fig>
+<p>Candidates for the study were recruited by their therapist. They had to be 10–12 years of age and previously diagnosed at specialist outpatient clinics with F90.0 Hyperkinetic disorder (ICD-10) (WHO, 1992), equivalent to the DSM-IV diagnosis of ADHD combined type, and in treatment for ADHD within the Departments for Child and Adolescent Psychiatry in Vestfold or Telemark Hospital Trusts, Norway. Exclusion criteria were IQ below 70 (WISC-III or WISC-IV), or a comorbid diagnosis of Pervasive Developmental Disorder, Tourette's Syndrome, Conduct Disorder or evidence of psychosis or epilepsy. Only one candidate was excluded based on the exclusion criteria.</p>
+<p>Seventy two of the original 77 children recruited to participate in the study completed the study. Of the 72 children completing the study, five children were omitted from the analyses presented here due to changes in medication during the project period.</p>
+<p>Of the 67 children included in the presented analyses, forty-one of the participants were medicated with methylphenidate (MPH) and five with atomoxetine in the same dosage throughout the study. One patient was medicated with risperidone as well. Twenty-one participants did not use medication at the time of inclusion. Importantly, no participants included in the analyses started up on medication or changed dosage after the Pre-test, i.e. no risk of medication effects confounding training effects. All children 12 years of age and more and their parents signed written consent forms prior to participation.</p>
+<p>Demographic information is presented in <xref ref-type="table" rid="pone-0080561-t001">Table 1</xref>. There were no significant differences between the groups with regard to sex, age, medication status, IQ or education level of parents. Sixty percent of all participants received special education at school in the form of more individualized, structured instruction by a designated resource person. Thirty-five percent came from homes with a single parent/caregiver. There were no significant differences between the intervention and control groups on any of the demographic measures. The ratio of boys to girls in the current study is 3∶1, which is the same approximate gender ratio found in international epidemiological studies for ADHD (Gershon, 2002). The IQ level of participants is slightly under the average level for non-clinical groups, but at a similar level for ADHD cohorts <xref ref-type="bibr" rid="pone.0080561-Egeland2">[32]</xref>, <xref ref-type="bibr" rid="pone.0080561-Adolfsdottir1">[33]</xref>.</p>
+<table-wrap id="pone-0080561-t001" position="float" orientation="portrait"><object-id pub-id-type="doi">10.1371/journal.pone.0080561.t001</object-id><label>Table 1</label><caption>
+<title>Demographic and clinical characteristics: means and standard deviations.</title>
+</caption><alternatives><graphic id="pone-0080561-t001-1" position="float" mimetype="image" xlink:href="info:doi/10.1371/journal.pone.0080561.t001" xlink:type="simple" orientation="portrait" />
+<table><colgroup span="1"><col align="left" span="1" /><col align="center" span="1" /><col align="center" span="1" /><col align="center" span="1" /></colgroup>
+<thead>
+<tr>
+<td align="left" rowspan="1" colspan="1">Variable</td>
+<td align="left" rowspan="1" colspan="1">Training group (<italic>n</italic> = 33)</td>
+<td align="left" rowspan="1" colspan="1">Control group (<italic>n</italic> = 34)</td>
+<td align="left" rowspan="1" colspan="1"><italic>p</italic></td>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left" rowspan="1" colspan="1">Age in year (SD)</td>
+<td align="left" rowspan="1" colspan="1">10.5 (0.7)</td>
+<td align="left" rowspan="1" colspan="1">10.3 (0.8)</td>
+<td align="left" rowspan="1" colspan="1"><italic>ns</italic></td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1">Sex (male/female)</td>
+<td align="left" rowspan="1" colspan="1">24/9</td>
+<td align="left" rowspan="1" colspan="1">25/9</td>
+<td align="left" rowspan="1" colspan="1"><italic>ns</italic></td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1">Medication (yes/no)</td>
+<td align="left" rowspan="1" colspan="1">23/10</td>
+<td align="left" rowspan="1" colspan="1">24/11</td>
+<td align="left" rowspan="1" colspan="1"><italic>ns</italic></td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1">WISC-IV VC<sup>1</sup></td>
+<td align="left" rowspan="1" colspan="1">96 (12)</td>
+<td align="left" rowspan="1" colspan="1">99 (11)</td>
+<td align="left" rowspan="1" colspan="1"><italic>ns</italic></td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1">WISC-IV PO<sup>2</sup></td>
+<td align="left" rowspan="1" colspan="1">95 (16)</td>
+<td align="left" rowspan="1" colspan="1">99 (16)</td>
+<td align="left" rowspan="1" colspan="1"><italic>ns</italic></td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1">Full scale IQ</td>
+<td align="left" rowspan="1" colspan="1">92 (12)</td>
+<td align="left" rowspan="1" colspan="1">96 (12)</td>
+<td align="left" rowspan="1" colspan="1"><italic>ns</italic></td>
+</tr>
+</tbody>
+</table>
+</alternatives><table-wrap-foot><fn id="nt101"><label>1</label><p><bold><italic>Verbal Comprehension index score,</italic></bold> <sup>2</sup><bold><italic>Perceptual Organization index score.</italic></bold></p></fn></table-wrap-foot></table-wrap></sec><sec id="s2b">
+<title>Trial design</title>
+<p>The invitation to participate in the study and consent form emphasized that the study was a randomized controlled trial, and that half of the participants would be drawn at random to take part in the training. Participants in the control group were offered the chance to participate in the training program immediately after conclusion of the study. During the study period, all of the participants continued with treatment-as-usual, which included regular follow-up by a health professional at the local specialized youth health services facility and the same special education classes at school that they had participated in before the start of the study. No difference was made between the groups in their already existing treatment or educational programs, except for the addition of the WM training program for the children randomly assigned to the training group.</p>
+<p>The experimental design included a pretest immediately before the start of the training period, a post-test at the conclusion of the training period and follow-up testing. At each stage of testing, the children in training and control groups were tested in the same time period during the day in a randomly assigned sequence. The original plans called for follow-up testing to take place six months after conclusion of the training period, but due to unforeseen delays in completing the training program due to a flu epidemic, the actual follow-up testing took place eight months after conclusion of the training period. Participants meeting the inclusion criteria were matched as to gender and medication status, and randomized by drawing numbers corresponding to ID numbers to either training or control group by a staff member not involved in training or testing. Staff members responsible for testing were not involved in conducting the training sessions for the intervention group, which took place at participants' schools by a teacher or other person designated by a school official. Training sessions took place at the participant's school during regular school hours and all testing took place at the Departments for Child and Adolescent Psychiatry in Vestfold or Telemark Hospital Trusts, Norway. The study was approved in advance (18.06.2009) by the Regional Committees for Medical and Health Research Ethics (REC South East: available on their webside: <ext-link ext-link-type="uri" xlink:href="https://helseforskning.etikkom.no/ikbViewer/page/prosjekterirek/prosjektregister?_ikbLanguageCode=us&amp;p_dim=34977&amp;9F508B87E7D8620DE040F28156A418DC.p_search_id=26503" xlink:type="simple">https://helseforskning.etikkom.no/ikbViewer/page/prosjekterirek/prosjektregister?_ikbLanguageCode=us&amp;p_dim=34977&amp;9F508B87E7D8620DE040F28156A418DC.p_search_id=26503</ext-link>.</p>
+<p>This study is also registered as ISRCTN19133620 (<ext-link ext-link-type="uri" xlink:href="http://www.controlled-trials.com" xlink:type="simple">www.controlled-trials.com</ext-link>).</p>
+<p>Recruitment and enrollment began in 01.08.2009 and follow-up testing was completed 31.12.2010.</p>
+</sec><sec id="s2c">
+<title>PC-based training program</title>
+<p>The WM training program for the treatment group consisted of 13 different PC-based exercises (CogMed). The same training program has been used in all of the computerized WM studies referred to in this study.</p>
+<p>The training program includes three letter span tasks (all forward condition), three digit span tasks (one forward condition, two backward conditions), and seven visuospatial tasks (all forward sequenced), including static visuospatial tasks (one 2D visuospatial task, one 3D visuospatial task), and two dynamic visuospatial tasks, in which students recall the positions of rotated or moving objects. Nine of the tasks are presented purely in visual format, and four are delivered with an auditory input. Eleven of the tasks are forward sequenced, while only two are reverse-order tasks. A critical feature of the program is adaptivity, i.e. the level of difficulty is adjusted continuously to the individual student's skill level throughout the training program. The training group completed 10–15 trials of eight exercises each day for a total of 115 WM trials per day. Training time averaged about 30–40 minutes per day, depending on the exercise set and the student's performance level. Training participants agreed in advance with the person administering the training program on a reward schedule for achieving training targets. They received daily verbal and visual feedback about increases in performance and were rewarded after training by being allowed to play the RoboRacing-computer game. Every fifth day participants received an additional individualized reward agreed to by the school administration. Parents were instructed not to provide any rewards. Four subjects completed less than the planned number of 25 training sessions (3 had 24 sessions and one had 21). The training program has a built-in compliance measure, which is calculated by subtracting the Start Index (results of day 2 and 3) from the Max Index (results from the two best training days). Average improvement index in the training program for the whole group was 24 (s.d. 8), slightly less (23) for those completing less than 25 training days. Four subjects discontinued training for about one week or more during the planned training period due to a flu epidemic. These days were compensated for by training additional days when they returned to school. Due to varying lengths of sick leave, one participant trained for 26 days and three trained for 30 days.</p>
+</sec><sec id="s2d">
+<title>Neuropsychological measures</title>
+<p><italic>Digit span</italic> is a common neuropsychological test in the WISC-IV battery used to assess auditory working memory <xref ref-type="bibr" rid="pone.0080561-Wechsler1">[34]</xref>. The test features forward and backward tasks that tap distinguishable cognitive processes <xref ref-type="bibr" rid="pone.0080561-Perry1">[35]</xref>, <xref ref-type="bibr" rid="pone.0080561-Tehan1">[36]</xref>. Digits Forward involves repeating a sequence of numbers in the same order right after they have been read aloud, and Digits Backward involves repeating the numbers in reverse order.</p>
+<p><italic>The Leiter International Performance Scale-Revised (Leiter–R)</italic> is a proven cognitive assessment tool that has a unique response format which is expressively nonverbal <xref ref-type="bibr" rid="pone.0080561-BradleyJohnson1">[37]</xref>, <xref ref-type="bibr" rid="pone.0080561-Roid1">[38]</xref>. Two tests from this battery were chosen to assess Visual WM: The Remembering Game (Visual span, forward), and The Backwards Game (Visual span, backward). In both tasks, the stimuli to be remembered are visual images of familiar items (e.g. a frog, a ship, a shoe).</p>
+<p>In <italic>the Letter-Number Sequencing task</italic>, a list of intermingled numbers and letters of increasing lengths are read aloud <xref ref-type="bibr" rid="pone.0080561-Wechsler1">[34]</xref>. Subjects are asked to recall the numbers in ascending order and the letters in alphabetical order, with numbers always coming first. Mental manipulation is one of the cognitive processes taxed by this task involving simultaneous reordering of a series of letters and numbers <xref ref-type="bibr" rid="pone.0080561-Crowe1">[39]</xref>.</p>
+<p>In <italic>the Sentence Span task</italic>, subjects must reproduce the words in a sentence read aloud in the exact same sequence <xref ref-type="bibr" rid="pone.0080561-Ottem1">[40]</xref>, <xref ref-type="bibr" rid="pone.0080561-Ottem2">[41]</xref>. The sentence length is increased gradually until three incomplete sentences are registered. The manipulation component of WM is taxed in that rehearsal and updating is needed as the child's phonological memory span is surpassed <xref ref-type="bibr" rid="pone.0080561-Aben1">[9]</xref>.</p>
+</sec><sec id="s2e">
+<title>Composites</title>
+<p>Raw scores were converted into scaled scores based on the norms provided in the respective manuals before aggregating the results into composites. The following composites were then calculated based on a component analysis deriving an empirically-based tri-partite division of WM aspects. Auditory WM: (<italic>Digit span forward</italic> + <italic>Digit Span backward</italic>)/2, Visual WM: (<italic>Leiter R forward</italic> + <italic>Leiter R backward</italic>)/2, and Manipulation WM (<italic>Letter-Number</italic> + <italic>Sentence Span</italic>)/2. A reliability analysis was performed for each of the composites indicating satisfactory internal consistency. The Cronbach alpha coefficient was .772 for the six items in the Visual WM composite, .747 for the six items in the Auditory WM composite and .720 for the six items in the Manipulation WM composite.</p>
+</sec><sec id="s2f">
+<title>Data analysis</title>
+<p>Data analyses were conducted using the statistical package IBM SPSS Statistics for Windows, version 18.0 (SPSS, Inc., Chicago, IL). Demographic and clinical background information at baseline was analyzed with Analysis of Variance for continuous variables and Chi-square for categorical variables. Baseline levels for all dependent measures were compared between the un-medicated and the medicated groups.</p>
+<p>The six tasks in the study taxing working memory components were subjected to a principal components analysis (PCA) with varimax rotation. The PCA revealed the presence of three pairs of components that grouped together (further description in Results section).</p>
+<p>Baseline performance of the two groups and between medicated and unmedicated subjects were analyzed with Analysis of Variance (ANOVA).</p>
+<p>Treatment effects were analyzed with Repeated Measures Analysis of Variance (Pre-test compared to Post-test 1 or Post-test 2) as within-subjects factor and group as the between-subjects factor. Only statistical measures of the interaction between time points and group are reported, as that accounts for a differential effect in one of the groups. Effect sizes are reported as Cohens <italic>d</italic>, computed as the difference between standard scores at Pre-test and Post-test 1 or Post-test 2 in the two groups, divided with the pooled standard deviation at baseline. The gain scores for all composites at Post-test 1 and Post-test 2 were calculated by subtracting the Pre-test baseline value from the Post-test 1 and Post-test 2 scores, which gave a net improvement score at Post-test 1 and Post-test 2. The net change on the Digit Forward task from Pre-test to Post-test 2 was included as a covariate in subsequent analyses of the Manipulation WM composite in order to control for the effect any increase in simple maintenance capacity might have had on the outcome.</p>
+</sec></sec><sec id="s3">
+<title>Results</title>
+<p>The scree test showed a levelling off of Eigenvalues between 3 and 4 factors, but without a decisive elbow. The Eigenvalue of the third factor was .96, and the fourth factor .83. We decided to retain three factors explaining 69% of the variance. The results are presented in <xref ref-type="table" rid="pone-0080561-t002">Table 2</xref>. The factors are numbered and given a title according to the subfunction we consider them to measure. The subfunctions will be discussed in the Discussion section.</p>
+<table-wrap id="pone-0080561-t002" position="float" orientation="portrait"><object-id pub-id-type="doi">10.1371/journal.pone.0080561.t002</object-id><label>Table 2</label><caption>
+<title>Factor structure of working memory measures derived from clinical sample (n = 67).</title>
+</caption><alternatives><graphic id="pone-0080561-t002-2" position="float" mimetype="image" xlink:href="info:doi/10.1371/journal.pone.0080561.t002" xlink:type="simple" orientation="portrait" />
+<table><colgroup span="1"><col align="left" span="1" /><col align="center" span="1" /><col align="center" span="1" /><col align="center" span="1" /></colgroup>
+<thead>
+<tr>
+<td align="left" rowspan="1" colspan="1" />
+<td align="left" rowspan="1" colspan="1">I <xref ref-type="table-fn" rid="nt103">b</xref> Visual WM</td>
+<td align="left" rowspan="1" colspan="1">II <xref ref-type="table-fn" rid="nt103">b</xref> Manipulation WM</td>
+<td align="left" rowspan="1" colspan="1">III <xref ref-type="table-fn" rid="nt103">b</xref> Auditory WM</td>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left" rowspan="1" colspan="1">Digit Span, forward <xref ref-type="table-fn" rid="nt102">a</xref></td>
+<td align="left" rowspan="1" colspan="1">−.159</td>
+<td align="left" rowspan="1" colspan="1">.291</td>
+<td align="left" rowspan="1" colspan="1"><bold>.804</bold></td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1">Digit Span, backward <xref ref-type="table-fn" rid="nt102">a</xref></td>
+<td align="left" rowspan="1" colspan="1">.473</td>
+<td align="left" rowspan="1" colspan="1">−.164</td>
+<td align="left" rowspan="1" colspan="1"><bold>.662</bold></td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1">Leiter R, visual span, forward <xref ref-type="table-fn" rid="nt102">a</xref></td>
+<td align="left" rowspan="1" colspan="1"><bold>.858</bold></td>
+<td align="left" rowspan="1" colspan="1">.091</td>
+<td align="left" rowspan="1" colspan="1">.152</td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1">Leiter R, visual°span, backward <xref ref-type="table-fn" rid="nt102">a</xref></td>
+<td align="left" rowspan="1" colspan="1"><bold>.825</bold></td>
+<td align="left" rowspan="1" colspan="1">.227</td>
+<td align="left" rowspan="1" colspan="1">−.112</td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1">Letter-Number <xref ref-type="table-fn" rid="nt102">a</xref></td>
+<td align="left" rowspan="1" colspan="1">.121</td>
+<td align="left" rowspan="1" colspan="1"><bold>.771</bold></td>
+<td align="left" rowspan="1" colspan="1">−.063</td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1">Sentence Span <xref ref-type="table-fn" rid="nt102">a</xref></td>
+<td align="left" rowspan="1" colspan="1">.118</td>
+<td align="left" rowspan="1" colspan="1"><bold>.676</bold></td>
+<td align="left" rowspan="1" colspan="1">.278</td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1">Eigenvalue</td>
+<td align="left" rowspan="1" colspan="1">2.00</td>
+<td align="left" rowspan="1" colspan="1">1.17</td>
+<td align="left" rowspan="1" colspan="1">0.96</td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1">% variance explained</td>
+<td align="left" rowspan="1" colspan="1">33.28</td>
+<td align="left" rowspan="1" colspan="1">19.46</td>
+<td align="left" rowspan="1" colspan="1">15.94</td>
+</tr>
+</tbody>
+</table>
+</alternatives><table-wrap-foot><fn id="nt102"><label>a</label><p>Raw score data registered at Pre-test.</p></fn><fn id="nt103"><label>b</label><p>Extraction Method: Principal Component Analysis. Rotation Method: Varimax with Kaiser Normalization.</p></fn></table-wrap-foot></table-wrap>
+<p>Factor 1 explained 33.3% of the variance and received salient loadings from the two Leiter tasks, Factor 2 explained 19.5% of the variance and received the high loadings from Letter-Number span and Sentence Span. Digit Span forward and Backward loaded on Factor 3, which explained 15.9% of the variance. Based on the principal component analyses, we derived the following composite scores: Visual Working Memory, Auditory Working Memory, and Manipulation Working Memory. A correlational analysis of the individual measures did not reveal any significant correlation between any of the composite scores, indicating that the tasks tapped separable aspects within the same construct.</p>
+<p>Initially, a MANCOVA was conducted to test the overall changes caused by training. The values for the three composite measures both at T2 and T3 were entered and the baseline values at T1 were used as covariates to control for any minimal group differences. The MANCOVA showed an overall significant group effect, F =  (6,54) 3.73, <italic>p</italic> =  .004, Eta<sup>2</sup> = .29. At the baseline level, the two groups differed with regard to the Auditory Working memory score. As evident from <xref ref-type="table" rid="pone-0080561-t003">Table 3</xref>, the control group performed 1.0 scaled score better than the training group, F =  (1, 66) 7.24, <italic>p</italic> = .009, Eta<sup>2</sup> = .10. There were no differences between the medicated and unmedicated participants on any of the outcome measures.</p>
+<table-wrap id="pone-0080561-t003" position="float" orientation="portrait"><object-id pub-id-type="doi">10.1371/journal.pone.0080561.t003</object-id><label>Table 3</label><caption>
+<title>Mean, standard deviation and ANOVA group comparisons.</title>
+</caption><alternatives><graphic id="pone-0080561-t003-3" position="float" mimetype="image" xlink:href="info:doi/10.1371/journal.pone.0080561.t003" xlink:type="simple" orientation="portrait" />
+<table><colgroup span="1"><col align="left" span="1" /><col align="center" span="1" /><col align="center" span="1" /><col align="center" span="1" /><col align="center" span="1" /><col align="center" span="1" /><col align="center" span="1" /><col align="center" span="1" /><col align="center" span="1" /><col align="center" span="1" /><col align="center" span="1" /><col align="center" span="1" /><col align="center" span="1" /><col align="center" span="1" /><col align="center" span="1" /><col align="center" span="1" /></colgroup>
+<thead>
+<tr>
+<td align="left" rowspan="1" colspan="1" />
+<td colspan="2" align="left" rowspan="1">Pre-test (PreT)</td>
+<td colspan="2" align="left" rowspan="1">Post-test 1 (PT1)</td>
+<td colspan="2" align="left" rowspan="1">Post-test 2 (PT2)</td>
+<td colspan="3" align="left" rowspan="1">PreT to PT1 comparison<xref ref-type="table-fn" rid="nt104">a</xref></td>
+<td colspan="3" align="left" rowspan="1">PT1 to PT2 comparison<xref ref-type="table-fn" rid="nt104">a</xref></td>
+<td colspan="3" align="left" rowspan="1">PreT to PT2 comparison<xref ref-type="table-fn" rid="nt104">a</xref></td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1" />
+<td align="left" rowspan="1" colspan="1">Training group</td>
+<td align="left" rowspan="1" colspan="1">Control group</td>
+<td align="left" rowspan="1" colspan="1">Training  group</td>
+<td align="left" rowspan="1" colspan="1">Control group</td>
+<td align="left" rowspan="1" colspan="1">Training group</td>
+<td align="left" rowspan="1" colspan="1">Control group</td>
+<td align="left" rowspan="1" colspan="1"><italic>F</italic></td>
+<td align="left" rowspan="1" colspan="1"><italic>P</italic></td>
+<td align="left" rowspan="1" colspan="1"><italic>d</italic> <xref ref-type="table-fn" rid="nt105">b</xref></td>
+<td align="left" rowspan="1" colspan="1"><italic>F</italic></td>
+<td align="left" rowspan="1" colspan="1"><italic>p</italic></td>
+<td align="left" rowspan="1" colspan="1"><italic>d</italic> <xref ref-type="table-fn" rid="nt105">b</xref></td>
+<td align="left" rowspan="1" colspan="1"><italic>F</italic></td>
+<td align="left" rowspan="1" colspan="1"><italic>p</italic></td>
+<td align="left" rowspan="1" colspan="1"><italic>d</italic> <xref ref-type="table-fn" rid="nt105">b</xref></td>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left" rowspan="1" colspan="1">Visual WM</td>
+<td align="left" rowspan="1" colspan="1">9.7 (2.6)</td>
+<td align="left" rowspan="1" colspan="1">10.5 (2.1)</td>
+<td align="left" rowspan="1" colspan="1">11.9 (2.7)</td>
+<td align="left" rowspan="1" colspan="1">11.1 (1.7)</td>
+<td align="left" rowspan="1" colspan="1">12.1 (2.8)</td>
+<td align="left" rowspan="1" colspan="1">10.2 (2.5)</td>
+<td align="left" rowspan="1" colspan="1">7.45</td>
+<td align="left" rowspan="1" colspan="1">.01**</td>
+<td align="left" rowspan="1" colspan="1">0.67</td>
+<td align="left" rowspan="1" colspan="1">4.21</td>
+<td align="left" rowspan="1" colspan="1">.05<xref ref-type="table-fn" rid="nt106">*</xref></td>
+<td align="left" rowspan="1" colspan="1">0.43</td>
+<td align="left" rowspan="1" colspan="1">8.48</td>
+<td align="left" rowspan="1" colspan="1">.01**</td>
+<td align="left" rowspan="1" colspan="1">1.11</td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1">Auditory WM</td>
+<td align="left" rowspan="1" colspan="1">8.0 (1.6)</td>
+<td align="left" rowspan="1" colspan="1">9.0 (1.7)</td>
+<td align="left" rowspan="1" colspan="1">8.8 (1.7)</td>
+<td align="left" rowspan="1" colspan="1">8.8 (2.3)</td>
+<td align="left" rowspan="1" colspan="1">8.5 (2.2)</td>
+<td align="left" rowspan="1" colspan="1">8.7 (2.1)</td>
+<td align="left" rowspan="1" colspan="1">7.65</td>
+<td align="left" rowspan="1" colspan="1">.01**</td>
+<td align="left" rowspan="1" colspan="1">0.66</td>
+<td align="left" rowspan="1" colspan="1">0.52</td>
+<td align="left" rowspan="1" colspan="1">ns</td>
+<td align="left" rowspan="1" colspan="1">−0.19</td>
+<td align="left" rowspan="1" colspan="1">3.62</td>
+<td align="left" rowspan="1" colspan="1">.05<xref ref-type="table-fn" rid="nt106">*</xref></td>
+<td align="left" rowspan="1" colspan="1">0.47</td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1">Manipulation WM</td>
+<td align="left" rowspan="1" colspan="1">6.7 (1.9)</td>
+<td align="left" rowspan="1" colspan="1">7.0 (2.7)</td>
+<td align="left" rowspan="1" colspan="1">8.4 (2.2)</td>
+<td align="left" rowspan="1" colspan="1">8.1 (2.3)</td>
+<td align="left" rowspan="1" colspan="1">8.6 (2.5)</td>
+<td align="left" rowspan="1" colspan="1">7.2 (2.7)</td>
+<td align="left" rowspan="1" colspan="1">1.59</td>
+<td align="left" rowspan="1" colspan="1">ns</td>
+<td align="left" rowspan="1" colspan="1">0.27</td>
+<td align="left" rowspan="1" colspan="1">4.12</td>
+<td align="left" rowspan="1" colspan="1">.05<xref ref-type="table-fn" rid="nt106">*</xref></td>
+<td align="left" rowspan="1" colspan="1">0.46</td>
+<td align="left" rowspan="1" colspan="1">6.85</td>
+<td align="left" rowspan="1" colspan="1">.05<xref ref-type="table-fn" rid="nt106">*</xref></td>
+<td align="left" rowspan="1" colspan="1">0.73</td>
+</tr>
+</tbody>
+</table>
+</alternatives><table-wrap-foot><fn id="nt104"><label>a</label><p>Mixed between-within subjects analysis of variance – reported: interaction effect time x group (Wilk's Lambda).</p></fn><fn id="nt105"><label>b</label><p>Cohens <italic>d</italic> calculated as the mean difference between groups divided by pooled standard deviation at baseline.</p></fn><fn id="nt106"><label>*</label><p><italic>p</italic>&lt;.05, **<italic>p</italic>&lt;.01.</p></fn></table-wrap-foot></table-wrap>
+<p><xref ref-type="table" rid="pone-0080561-t003">Table 3</xref> presents the results of the repeated measures analysis of variance (ANOVA) conducted to assess the effect of WM training on the composites for Visual WM, Auditory WM and Manipulation WM. The composites for Visual WM and Auditory WM showed a significantly higher gain for the training group immediately after training compared to the control group, while the Manipulation WM composite did not. All of the composite scores, however, were significantly improved for the training group compared to the control group at testing eight months after training. The increase in scaled scores for the training group over the long term ranged from 0.5 for the Auditory WM composite and 1.9 for the Manipulation WM composite, to an increase of 2.4 for the Visual WM composite. Effect sizes measured in Cohens <italic>d</italic> over the long term ranged from .47 for the Auditory WM composite and .73 for the Manipulation WM composite, to 1.11 for the Visual WM composite. Whereas the Auditory WM composite showed a slight loss of training effect in the period extending right after the training period until the eight month follow-up testing, the gains achieved after the training period on the Visual WM and Manipulation WM composites persisted for the training group until the eight month follow-up testing. The change in performance on the Visual WM composite by the two groups over the long term is presented in <xref ref-type="fig" rid="pone-0080561-g002">Figure 2</xref>.</p>
+<fig id="pone-0080561-g002" position="float" orientation="portrait"><object-id pub-id-type="doi">10.1371/journal.pone.0080561.g002</object-id><label>Figure 2</label><caption>
+<title>Mean t-score of Visual Working Memory composite at baseline (T1), after training period (T2) and 8-months later (T3) for Training and Control groups.</title>
+</caption><graphic mimetype="image" xlink:href="info:doi/10.1371/journal.pone.0080561.g002" position="float" xlink:type="simple" orientation="portrait" /></fig>
+<p>Repeated measures ANOVA were conducted on the gains registered for the training group alone on the Visual and Auditory WM composites to compare the relative change between the modalities. The analyses showed a significant gain in improvement on the Visual modality composite compared to the Auditory WM modality composite for the training group over the long term, (F (2, 30)  = 7.34, <italic>p</italic> =  &lt;.01, partial Eta<sup>2</sup> = .33). The same analysis was conducted for the control group to check if the results could be due to test-retest effects. No significant difference between the Visual and Auditory WM composites over the long term was found for the control group, (F (2,32)  = 2.09, <italic>p</italic> = ns, partial Eta<sup>2</sup> = .12).</p>
+<p>Analysis of covariance (ANCOVA) was conducted to examine the likely influence of an increase in simple storage capacity span on the Manipulation composite. Since both of the measures involving more complex manipulation (i.e. Letter-Number span and Sentence Span) were auditory, a measure presented in the same modality should be chosen to control for any increase in simple storage capacity. Both Digit span forward and backward loaded on the same factor in the principal component analyses, perhaps indicating that the manipulation load of Digit Span backward is low and not sufficient to override the effect of modality. However, the Digit Span backward task is considered to require additional manipulation demands compared to the Digit Span forward task <xref ref-type="bibr" rid="pone.0080561-Hale1">[42]</xref>. Thus, we considered the Digit Span forward task to be a purer measure of simple auditory storage and the best candidate to control for any increase in simple storage capacity. Participants' increase in score on the Digit Span forward task from Post-test 1 to Post-test 2 was therefore used as a covariate in the analysis. After controlling for any increase in simple storage capacity, there was still a significant difference in the Manipulation WM measure for the training group compared to the control group over the long term, F (2, 60)  = 3.38, <italic>p</italic>&lt; .05, partial Eta<sup>2</sup> = .10.</p>
+<p>All of the above analyses were computed excluding the five children who had changed medication during the project period. The background for omitting these 5 children was to avoid medication effects confounding the results. The consequence of removing these five children was to reduce the group effect size. The same analyses were conducted including the five children that changed medication, but this did not change any of the main findings.</p>
+</sec><sec id="s4">
+<title>Discussion</title>
+<p>The aim of the current study was to investigate the long-term near-transfer effects of a PC-based WM training program on standard measures of WM. The subjects were preadolescent children with ADHD, who promoters of the training program argue might benefit from a remedial non-medicinal intervention to treat impaired working memory functioning. The age group 10–12 was chosen as it is common for children diagnosed with ADHD in Norway to first come into contact with the specialized psychiatric services during these years as a consequence of increasing educational, social and self-regulatory demands, and the restricted age range would reduce age-related variance in the relevant variables. Most evidence also suggests that there is a stable, linear trajectory of WM development during these preadolescent years <xref ref-type="bibr" rid="pone.0080561-Best1">[43]</xref>, suggesting that any improvement compared to controls would likely be a consequence of training and not of other developmental factors.</p>
+<p>The first step was to form composites based on a principal component analysis of the six working memory tasks administered in the study. Results from the component analysis indicated grouping the measures into composites taxing Visual, Auditory and Manipulation aspects of WM. The first two are equivalent to what some authors refer to as Short Term Memory <xref ref-type="bibr" rid="pone.0080561-Engle1">[30]</xref>. This grouping is consistent with the Domain-general model of WM that posits domain-specific storage components (in the visual and auditory domains), and a centralized component for manipulation, e.g. the central executive.</p>
+<p>First, we expected there to be a significant improvement on all composite measures in the training group compared to the control group. Although this prediction may seem evident, not all WM training studies using the same program used in this study have shown consistent gains across tasks <xref ref-type="bibr" rid="pone.0080561-Mezzacappa1">[12]</xref>, nor across modalities <xref ref-type="bibr" rid="pone.0080561-Holmes1">[44]</xref>. The significant finding in favor of the training group on all composite measures in the current study over the long term provides evidence that adaptive training programs can be used to enhance performance on tasks measuring near-transfer effects. A similar finding was shown in another study using composite scores to assess gains after WM training <xref ref-type="bibr" rid="pone.0080561-Holmes2">[45]</xref>. An important issue, however, is whether a gain on a specific task is at all meaningful, given that the claim of promoters of such programs is a widespread effect on learning. We are indeed sceptical of any such ambitious claims, and the investigation of generalizable effects from the same study <xref ref-type="bibr" rid="pone.0080561-Egeland1">[26]</xref> reveal meager far-transfer effects. And yet, just as a golfer will train many individual skills in order to lower his or her handicap, the relationship between individual skills and lowering your handicap is not straight-forward. The gain in several aspects of WM by the training group in the current study was shown to persist on all measures compared to controls after eight months, which indicates that the training was having a lasting effect on something. As shown in <xref ref-type="table" rid="pone-0080561-t002">Table 2</xref>, the training increased the absolute level of performance on the composites by from 0.5 to 2.4 scaled scores. Even so, it could be argued that these types of improvements are so mundane, that they might not justify the tremendous investments in time and resources involved in conducting such a training program.</p>
+<p>Second, we predicted that the gain in performance by the training group from training on similar tasks would be relatively higher on a composite taxing Visual WM than the composite taxing Auditory WM due to the predominance of visually presented tasks in the training program. Of the 13 tasks in the PC-based training program, nine are presented purely in visual format, and only four have an additional auditory component. The finding of a significantly higher gain on the Visual WM composite compared to the Auditory WM composite for the training group in the current study supports the assumption that cognitive skills learned alike look alike. One implication is that the presentation form used in the training program may be a limiting factor in the transferability of learning to other domains. A spillover effect to the auditory modality for the training group is also evident, whereas no differential gain in either modality is registered for the control group. Importantly, enhancement through training may be of particular relevance for children with ADHD, who show highest performance gains after training relative to controls precisely on WM components most impaired in children with ADHD <xref ref-type="bibr" rid="pone.0080561-Martinussen1">[1]</xref>.</p>
+<p>The third prediction relates to the manipulation component in the WM construct. Although there is general agreement among the leading WM theories of a “manipulation” component in WM <xref ref-type="bibr" rid="pone.0080561-Miyake1">[8]</xref>, the exact nature and complexity of this cognitive process is still not clearly defined. In a study from 2001, Perry and co-authors (2001) support a separation of WM tests characterized as either transient “online” storage and retrieval tasks or executive-functioning WM tasks. The Engle-Shipstead team (2012) proposes a further distinction between simple and complex manipulation, considering backward versions of visual and auditory tasks as indications of simple manipulation capacity. The component analysis conducted on the six WM measures administered in the study indicated a third factor beyond forward and backward versions of common WM tasks, which we have labeled a Manipulation component. Interestingly, the effect of the training on the Manipulation composite for the training group after eight months was larger than the effect on the Auditory composite, despite the fact that both tasks in the Manipulation composite were delivered in an auditory format. This would seem to suggest that the gain was not due to improved auditory efficiency. Further, the improvement in the Manipulation composite over the long term seems to track closer to the improvement in the Visual composite than the Auditory composite. This suggests that the gain experienced by the training group involved an improvement in a process more closely related to the process underlying the gains on the Visual composite. Analyses controlling for the effect of an increase in simple maintenance capacity after training indicated that the improvement in Manipulation seems to be independent of any increase in simple maintenance capacity. An unexpected increase in performance in the control group from Pre-test to Post-test 1 seems to explain the lack of a significant difference in performance on this composite between the groups immediately after the training period. The fact that both groups showed gains, however, suggests that the participants were not being selectively influenced by the fact that the testers were not fully blind to participants' group assignment. The significant result for the training group on the Manipulation composite over the long term seems to be driven by the control group showing a sizeable regression from Post-test 1 to Post-test 2. This raises an intriguing possibility that an improvement in task specific skills from computerized training (e.g. Auditory or Visual WM) could be enhancing a sustained capacity for more complex tasks other than a simple test-retest effect. Future studies could investigate more systematically whether an increase in near-transfer tasks may transfer to measures of sustained attention or vigilance over the long term.</p>
+<p>An important theoretical issue is whether the results support a model incorporating domain-general resources involving a central executive supplemented by domain-specific storage functions (e.g. phonological and visuospatial loops), or a model in which WM resources are separable across the verbal and visuospatial domains. First, the component analysis indicating a factor other than a Visual and Auditory component would seem to support the domain-general model. Second, the gain in the Manipulation composite for the training group persisted after controlling for a simple increase in storage capacity, suggesting the existence of a third factor we assumed to involve manipulation. Third, the gain from training as measured by effect size was almost identical right after training despite the imbalance in Visual and Auditory training tasks, suggesting an equivalent learning gain in both modalities. In the domain-specific model, performance on auditory and spatial WM tasks should not be highly associated <xref ref-type="bibr" rid="pone.0080561-Alloway1">[27]</xref>. On the other hand, the long-term effect of the gain in performance was quite different in the Visual and Auditory modalities. One interpretation of this disparity is that whereas short-term gains may involve fluctuations in simple storage capacity affecting the results, lasting change (i.e. learning) takes place primarily in a unified auditory or spatial system. The long-term results would seem to provide evidence in support of the domain-specific model, and underlines the importance of long-term testing when assessing the effectiveness of training interventions.</p>
+<p>In interpreting the near-transfer gains, the question should be asked whether the gains could be explained by enhancement of some cognitive process other than an improvement in WM. A common assumption in studies on WM training is that improvement on WM tasks represents an improvement in an aspect of executive function localized in prefrontal structures. Based on research with patients with prefrontal lesions, however, researchers have shown that a person's ability to perform actions elicited by visual, situational cues remains intact compared to healthy controls despite serious impairment in prefrontal systems <xref ref-type="bibr" rid="pone.0080561-Grafman1">[46]</xref>. The question raised is thus whether the children in the training group in the current study could be improving systems governing automatic response patterns and not prefrontal structures normally associated with WM tasks. This would account for a task-specific improvement that would likely not be generalizable to other cognitive domains. Alternative explanations will have to be addressed in future studies. The current study has at least shown that preadolescents with ADHD are able to significantly improve task-specific skills lasting at least 8 months through systematic training, which is evidence supporting the viability of targeted training interventions for this clinical group. Whether the gain in performance on WM measures represents an improvement in other cognitive domains or to everyday functioning is addressed separately <xref ref-type="bibr" rid="pone.0080561-Egeland1">[26]</xref>.</p>
+<p>Limitations in the current study include not having a normal control group with which to compare performance gains. The aim of the study, however, is not to boost performance beyond a normal level, but to see if children with ADHD, who as a group suffer from impaired WM function, can improve their performance on similar tasks through training. Some authors have suggested experimental designs comparing computerized WM training with other interventions such as inhibition training. Although this is a possibility, it would introduce a new range of variables potentially influencing the results. An important limitation is that even though the testers were not informed of participants' group assignment, they were in reality not blind to group assignment. Another important consideration is that the narrow focus on near-transfer effects of the training program in this study could be viewed by some as a limitation, because any gains could be misinterpreted to refer to generalizable WM gains. Unless training gains transfer by enhancing other useful skills, it could be argued that the extensive resources involved in such a training program should be allocated elsewhere. We agree with this highly relevant cost-benefit consideration. However, we maintain that narrow, near-transfer results from training programs should also be investigated and reported as they can shed light on the effectiveness of task-specific interventions for specific clinical groups and may be informative for the theoretical debate on the WM construct and components.</p>
+</sec><sec id="s5">
+<title>Conclusion</title>
+<p>The five-week, computerized training program significantly enhanced performance on similar tasks for the training group compared to the control group. The increase in Visual WM performance was larger over the long term compared to the increase in Auditory WM performance, suggesting that the presentation format of the training exercises is an important variable affecting learning. The gain in performance on the Manipulation composite over the long term was beyond any increase due to heightened simple storage capacity. The results are interpreted as evidence supporting aspects of both the domain-general and domain-specific models of working memory. Alternative explanations for the gain in WM scores are suggested and should be investigated in future studies.</p>
+</sec><sec id="s6">
+<title>Supporting Information</title>
+<supplementary-material id="pone.0080561.s001" mimetype="application/msword" xlink:href="info:doi/10.1371/journal.pone.0080561.s001" position="float" xlink:type="simple" orientation="portrait"><label>Checklist S1</label><caption>
+<p><bold>Consort Checklist of information to include when reporting a randomised trial.</bold></p>
+<p>(DOC)</p>
+</caption></supplementary-material><supplementary-material id="pone.0080561.s002" mimetype="application/msword" xlink:href="info:doi/10.1371/journal.pone.0080561.s002" position="float" xlink:type="simple" orientation="portrait"><label>Protocol S1</label><caption>
+<p><bold>Trial study protocol- English translation.</bold></p>
+<p>(DOC)</p>
+</caption></supplementary-material><supplementary-material id="pone.0080561.s003" mimetype="application/msword" xlink:href="info:doi/10.1371/journal.pone.0080561.s003" position="float" xlink:type="simple" orientation="portrait"><label>Protocol S2</label><caption>
+<p><bold>Trial study protocol- Norwegian original.</bold></p>
+<p>(DOC)</p>
+</caption></supplementary-material></sec></body>
+<back>
+<ack>
+<p>The authors would like to thank the following colleagues in the Neuroteams in Vestfold and Telemark for invaluable help in carrying out the project: Kristin Bostrøm, Nina Engblom, Iwona Kowalik-Gran, Beate Nordnes, Bodil Sjømæling, Guro R. Isaksen and Catharina F. Waage.</p>
+</ack>
+<ref-list>
+<title>References</title>
+<ref id="pone.0080561-Martinussen1"><label>1</label>
+<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Martinussen</surname><given-names>R</given-names></name>, <name name-style="western"><surname>Hayden</surname><given-names>J</given-names></name>, <name name-style="western"><surname>Hogg-Johnson</surname><given-names>S</given-names></name>, <name name-style="western"><surname>Tannock</surname><given-names>R</given-names></name> (<year>2005</year>) <article-title>A meta-analysis of working memory impairments in children with attention-deficit/hyperactivity disorder</article-title>. <source>J Am Acad Child Adolesc Psychiatry</source> <volume>44</volume>: <fpage>377</fpage>–<lpage>384</lpage>.</mixed-citation>
+</ref>
+<ref id="pone.0080561-Loe1"><label>2</label>
+<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Loe</surname><given-names>IM</given-names></name>, <name name-style="western"><surname>Feldman</surname><given-names>HM</given-names></name> (<year>2007</year>) <article-title>Academic and educational outcomes of children with ADHD</article-title>. <source>J Pediatr Psychol</source> <volume>32</volume>: <fpage>643</fpage>–<lpage>654</lpage>.</mixed-citation>
+</ref>
+<ref id="pone.0080561-Barkley1"><label>3</label>
+<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Barkley</surname><given-names>RA</given-names></name>, <name name-style="western"><surname>Fischer</surname><given-names>M</given-names></name>, <name name-style="western"><surname>Smallish</surname><given-names>L</given-names></name>, <name name-style="western"><surname>Fletcher</surname><given-names>K</given-names></name> (<year>2006</year>) <article-title>Young adult outcome of hyperactive children: adaptive functioning in major life activities</article-title>. <source>J Am Acad Child Adolesc Psychiatry</source> <volume>45</volume>: <fpage>192</fpage>–<lpage>202</lpage>.</mixed-citation>
+</ref>
+<ref id="pone.0080561-Klingberg1"><label>4</label>
+<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Klingberg</surname><given-names>T</given-names></name>, <name name-style="western"><surname>Forssberg</surname><given-names>H</given-names></name>, <name name-style="western"><surname>Westerberg</surname><given-names>H</given-names></name> (<year>2002</year>) <article-title>Training of working memory in children with ADHD</article-title>. <source>J Clin Exp Neuropsychol</source> <volume>24</volume>: <fpage>781</fpage>–<lpage>791</lpage>.</mixed-citation>
+</ref>
+<ref id="pone.0080561-Klingberg2"><label>5</label>
+<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Klingberg</surname><given-names>T</given-names></name>, <name name-style="western"><surname>Fernell</surname><given-names>E</given-names></name>, <name name-style="western"><surname>Olesen</surname><given-names>PJ</given-names></name>, <name name-style="western"><surname>Johnson</surname><given-names>M</given-names></name>, <name name-style="western"><surname>Gustafsson</surname><given-names>P</given-names></name>, <etal>et al</etal>. (<year>2005</year>) <article-title>Computerized training of working memory in children with ADHD-a randomized, controlled trial</article-title>. <source>Journal of the American Academy of Child and Adolescent Psychiatry</source> <volume>44</volume>: <fpage>177</fpage>–<lpage>186</lpage>.</mixed-citation>
+</ref>
+<ref id="pone.0080561-MelbyLervag1"><label>6</label>
+<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Melby-Lervag</surname><given-names>M</given-names></name>, <name name-style="western"><surname>Hulme</surname><given-names>C</given-names></name> (<year>2013</year>) <article-title>Is working memory training effective? A meta-analytic review</article-title>. <source>Dev Psychol</source> <volume>49</volume>: <fpage>270</fpage>–<lpage>291</lpage>.</mixed-citation>
+</ref>
+<ref id="pone.0080561-Shipstead1"><label>7</label>
+<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Shipstead</surname><given-names>Z</given-names></name>, <name name-style="western"><surname>Redick</surname><given-names>TS</given-names></name>, <name name-style="western"><surname>Engle</surname><given-names>RW</given-names></name> (<year>2012</year>) <article-title>Is working memory training effective?</article-title> <source>Psychol Bull</source> <volume>138</volume>: <fpage>628</fpage>–<lpage>654</lpage>.</mixed-citation>
+</ref>
+<ref id="pone.0080561-Miyake1"><label>8</label>
+<mixed-citation publication-type="other" xlink:type="simple">Miyake A, Shah P (1999) Models of Working Memory: An Introduction. In: Miyake A, Shah P, editors. Models of Working Memory: Mechanisms of Active Maintenance and Executive Control. New York, NY: Cambridge University Press. 1–27.</mixed-citation>
+</ref>
+<ref id="pone.0080561-Aben1"><label>9</label>
+<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Aben</surname><given-names>B</given-names></name>, <name name-style="western"><surname>Stapert</surname><given-names>S</given-names></name>, <name name-style="western"><surname>Blokland</surname><given-names>A</given-names></name> (<year>2012</year>) <article-title>About the Distinction between Working Memory and Short-Term Memory</article-title>. <source>Front Psychol</source> <volume>3</volume>: <fpage>301</fpage>.</mixed-citation>
+</ref>
+<ref id="pone.0080561-Shipstead2"><label>10</label>
+<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Shipstead</surname><given-names>Z</given-names></name>, <name name-style="western"><surname>Redick</surname><given-names>TS</given-names></name>, <name name-style="western"><surname>Engle</surname><given-names>RW</given-names></name> (<year>2010</year>) <article-title>Does working memory training generalize?</article-title> <source>Psychologica Belgica</source> <volume>50</volume>: <fpage>3</fpage>–<lpage>4</lpage>.</mixed-citation>
+</ref>
+<ref id="pone.0080561-Dahlin1"><label>11</label>
+<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Dahlin</surname><given-names>KIE</given-names></name> (<year>2010</year>) <article-title>Effects of working memory training on reading in children with special needs</article-title>. <source>Reading and Writing</source> <volume>24</volume>: <fpage>479</fpage>–<lpage>491</lpage>.</mixed-citation>
+</ref>
+<ref id="pone.0080561-Mezzacappa1"><label>12</label>
+<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Mezzacappa</surname><given-names>E</given-names></name>, <name name-style="western"><surname>Buckner</surname><given-names>JC</given-names></name> (<year>2010</year>) <article-title>Working Memory Training for Children with Attention Problems or Hyperactivity: A School-Based Pilot Study</article-title>. <source>School Mental Health</source> <volume>2</volume>: <fpage>202</fpage>–<lpage>208</lpage>.</mixed-citation>
+</ref>
+<ref id="pone.0080561-Gibson1"><label>13</label>
+<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Gibson</surname><given-names>BS</given-names></name>, <name name-style="western"><surname>Gondoli</surname><given-names>DM</given-names></name>, <name name-style="western"><surname>Johnson</surname><given-names>AC</given-names></name>, <name name-style="western"><surname>Steeger</surname><given-names>CM</given-names></name>, <name name-style="western"><surname>Dobrzenski</surname><given-names>BA</given-names></name>, <etal>et al</etal>. (<year>2011</year>) <article-title>Component analysis of verbal versus spatial working memory training in adolescents with ADHD: a randomized, controlled trial</article-title>. <source>Child Neuropsychol</source> <volume>17</volume>: <fpage>546</fpage>–<lpage>563</lpage>.</mixed-citation>
+</ref>
+<ref id="pone.0080561-Baddeley1"><label>14</label>
+<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Baddeley</surname><given-names>A</given-names></name> (<year>2010</year>) <article-title>Working memory</article-title>. <source>Curr Biol</source> <volume>20</volume>: <fpage>R136</fpage>–<lpage>140</lpage>.</mixed-citation>
+</ref>
+<ref id="pone.0080561-Logie1"><label>15</label>
+<mixed-citation publication-type="other" xlink:type="simple">Logie RH, D'Esposito M (2008) Separating processing from storage in working memory operation span. In: Osaka N, Logie, R.H, &amp; D'Esposito, M., editor. The Cognitive Neuroscience of Working Memory. Oxford: Oxford University Press.</mixed-citation>
+</ref>
+<ref id="pone.0080561-Baddeley2"><label>16</label>
+<mixed-citation publication-type="other" xlink:type="simple">Baddeley AD, Hitch G (2008) Working memory capacity, control, components and theory. In: Osaka N, Logie, R.H, &amp; D'Esposito, M., editor. The Cognitive Neuroscience of Working Memory. Oxford: Oxford University Press.</mixed-citation>
+</ref>
+<ref id="pone.0080561-Carpenter1"><label>17</label>
+<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Carpenter</surname><given-names>PA</given-names></name>, <name name-style="western"><surname>Just</surname><given-names>MA</given-names></name>, <name name-style="western"><surname>Reichle</surname><given-names>ED</given-names></name> (<year>2000</year>) <article-title>Working memory and executive function: Evidence from neuroimaging</article-title>. <source>Current Opinion in Neurobiology</source> <volume>10</volume>: <fpage>195</fpage>–<lpage>199</lpage>.</mixed-citation>
+</ref>
+<ref id="pone.0080561-Landr1"><label>18</label>
+<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Landrø</surname><given-names>NI</given-names></name>, <name name-style="western"><surname>Rund</surname><given-names>BR</given-names></name>, <name name-style="western"><surname>Lund</surname><given-names>A</given-names></name>, <name name-style="western"><surname>Sundet</surname><given-names>K</given-names></name>, <name name-style="western"><surname>Mjellem</surname><given-names>N</given-names></name>, <etal>et al</etal>. (<year>2001</year>) <article-title>Honig's model of working memory and brain activation: an fMRI study</article-title>. <source>Neuroreport</source> <volume>12</volume>: <fpage>4047</fpage>–<lpage>4054</lpage>.</mixed-citation>
+</ref>
+<ref id="pone.0080561-Sergeant1"><label>19</label>
+<mixed-citation publication-type="other" xlink:type="simple">Sergeant J (2000) The cognitive-energetic model: an empirical approach to attention-deficit hyperactivity disorder. Neuroscience and Biobehavioral Reviews.</mixed-citation>
+</ref>
+<ref id="pone.0080561-Sergeant2"><label>20</label>
+<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Sergeant</surname><given-names>JA</given-names></name> (<year>2005</year>) <article-title>Modeling attention-deficit/hyperactivity disorder: a critical appraisal of the cognitive-energetic model</article-title>. <source>Biological Psychiatry</source> <volume>57</volume>: <fpage>1248</fpage>–<lpage>1255</lpage>.</mixed-citation>
+</ref>
+<ref id="pone.0080561-Draganski1"><label>21</label>
+<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Draganski</surname><given-names>B</given-names></name>, <name name-style="western"><surname>Gaser</surname><given-names>C</given-names></name>, <name name-style="western"><surname>Busch</surname><given-names>V</given-names></name>, <name name-style="western"><surname>Schuierer</surname><given-names>G</given-names></name>, <name name-style="western"><surname>Bogdahn</surname><given-names>U</given-names></name>, <etal>et al</etal>. (<year>2004</year>) <article-title>Neuroplasticity: changes in grey matter induced by training</article-title>. <source>Nature</source> <volume>427</volume>: <fpage>311</fpage>–<lpage>312</lpage>.</mixed-citation>
+</ref>
+<ref id="pone.0080561-Munte1"><label>22</label>
+<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Munte</surname><given-names>TF</given-names></name>, <name name-style="western"><surname>Altenmuller</surname><given-names>E</given-names></name>, <name name-style="western"><surname>Jancke</surname><given-names>L</given-names></name> (<year>2002</year>) <article-title>The musician's brain as a model of neuroplasticity</article-title>. <source>Nature Reviews Neuroscience</source> <volume>3</volume>: <fpage>473</fpage>–<lpage>477</lpage>.</mixed-citation>
+</ref>
+<ref id="pone.0080561-Ungerleider1"><label>23</label>
+<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Ungerleider</surname><given-names>L</given-names></name> (<year>2002</year>) <article-title>Imaging Brain Plasticity during Motor Skill Learning</article-title>. <source>Neurobiology of Learning and Memory</source> <volume>78</volume>: <fpage>553</fpage>–<lpage>564</lpage>.</mixed-citation>
+</ref>
+<ref id="pone.0080561-Casey1"><label>24</label>
+<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Casey</surname><given-names>BJ</given-names></name>, <name name-style="western"><surname>Galvan</surname><given-names>A</given-names></name>, <name name-style="western"><surname>Hare</surname><given-names>TA</given-names></name> (<year>2005</year>) <article-title>Changes in cerebral functional organization during cognitive development</article-title>. <source>Curr Opin Neurobiol</source> <volume>15</volume>: <fpage>239</fpage>–<lpage>244</lpage>.</mixed-citation>
+</ref>
+<ref id="pone.0080561-Barnett1"><label>25</label>
+<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Barnett</surname><given-names>SM</given-names></name>, <name name-style="western"><surname>Ceci</surname><given-names>SJ</given-names></name> (<year>2002</year>) <article-title>When and where do we apply what we learn? A taxonomy for far transfer</article-title>. <source>Psychol Bull</source> <volume>128</volume>: <fpage>612</fpage>–<lpage>637</lpage>.</mixed-citation>
+</ref>
+<ref id="pone.0080561-Egeland1"><label>26</label>
+<mixed-citation publication-type="other" xlink:type="simple">Egeland J, Aarlien AK, Saunes B-K (2013) Few effects of far transfer of Working Memory training in ADHD. A randomized controlled trial PloSOne <comment>DOI:<ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1371/journal.pone.0075660" xlink:type="simple">10.1371/journal.pone.0075660</ext-link></comment></mixed-citation>
+</ref>
+<ref id="pone.0080561-Alloway1"><label>27</label>
+<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Alloway</surname><given-names>TP</given-names></name>, <name name-style="western"><surname>Gathercole</surname><given-names>SE</given-names></name>, <name name-style="western"><surname>Pickering</surname><given-names>SJ</given-names></name> (<year>2006</year>) <article-title>Verbal and visuospatial short-term and working memory in children: are they separable?</article-title> <source>Child Dev</source> <volume>77</volume>: <fpage>1698</fpage>–<lpage>1716</lpage>.</mixed-citation>
+</ref>
+<ref id="pone.0080561-Daneman1"><label>28</label>
+<mixed-citation publication-type="other" xlink:type="simple">Daneman M, Tardif T (1987) Working memory and reading skill re-examined. In: Coltheart M, editor. Attention and performance XII. London: Erlbaum. 491–508.</mixed-citation>
+</ref>
+<ref id="pone.0080561-Shah1"><label>29</label>
+<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Shah</surname><given-names>P</given-names></name>, <name name-style="western"><surname>Miyake</surname><given-names>A</given-names></name> (<year>1996</year>) <article-title>The separability of working memory resources for spatial thinking and language processing: An individual differences approach</article-title>. <source>Journal of Experimental Psychology: General</source> <volume>125</volume>: <fpage>4</fpage>.</mixed-citation>
+</ref>
+<ref id="pone.0080561-Engle1"><label>30</label>
+<mixed-citation publication-type="other" xlink:type="simple">Engle RW, Kane MJ, Tuholski SW (1999) Individual differences in working memory capacity and what they tell us about controlled attention, general fluid intelligence, and functions of the prefrontal cortex. In: Miyake A, Shah P, editors. Models of working memory: Mechanisms of active maintenance and executive control. New York, NY: Cambridge University Press. 102–134.</mixed-citation>
+</ref>
+<ref id="pone.0080561-Duff1"><label>31</label>
+<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Duff</surname><given-names>SC</given-names></name>, <name name-style="western"><surname>Logie</surname><given-names>RH</given-names></name> (<year>2008</year>) <article-title>Storage and processing in visuo-spatial working memory</article-title>. <source>Scandinavian Journal of Psychology</source> <volume>40</volume>: <fpage>251</fpage>–<lpage>259</lpage>.</mixed-citation>
+</ref>
+<ref id="pone.0080561-Egeland2"><label>32</label>
+<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Egeland</surname><given-names>J</given-names></name>, <name name-style="western"><surname>Sundberg</surname><given-names>H</given-names></name>, <name name-style="western"><surname>Andreassen</surname><given-names>TH</given-names></name>, <name name-style="western"><surname>Stensli</surname><given-names>O</given-names></name> (<year>2006</year>) <article-title>Reliability and validity of Freedom from Distractibility and Processing Speed Factors in the Norwegian WISC-III-version</article-title>. <source>Nordic Psychology</source> <volume>58</volume>: <fpage>136</fpage>.</mixed-citation>
+</ref>
+<ref id="pone.0080561-Adolfsdottir1"><label>33</label>
+<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Adolfsdottir</surname><given-names>S</given-names></name>, <name name-style="western"><surname>Sorensen</surname><given-names>L</given-names></name>, <name name-style="western"><surname>Lundervold</surname><given-names>AJ</given-names></name> (<year>2008</year>) <article-title>The attention network test: a characteristic pattern of deficits in children with ADHD</article-title>. <source>Behav Brain Funct</source> <volume>4</volume>: <fpage>9</fpage>.</mixed-citation>
+</ref>
+<ref id="pone.0080561-Wechsler1"><label>34</label>
+<mixed-citation publication-type="other" xlink:type="simple">Wechsler D, Kaplan E, Fein D, Kramer J, Morris R, <etal>et al</etal>.. (2004) Wechsler Intelligence Scale for Children Fourth Edition – Integrated: Technical and interpretative manual. San Antonio: The Psychological Corporation.</mixed-citation>
+</ref>
+<ref id="pone.0080561-Perry1"><label>35</label>
+<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Perry</surname><given-names>W</given-names></name>, <name name-style="western"><surname>Heaton</surname><given-names>RK</given-names></name>, <name name-style="western"><surname>Potterat</surname><given-names>E</given-names></name>, <name name-style="western"><surname>Roebuck</surname><given-names>T</given-names></name>, <name name-style="western"><surname>Minassian</surname><given-names>A</given-names></name>, <etal>et al</etal>. (<year>2001</year>) <article-title>Working memory in schizophrenia: Transient “online” storage versus executive functioning</article-title>. <source>Schizophrenia Bulletin</source> <volume>27</volume>: <fpage>157</fpage>.</mixed-citation>
+</ref>
+<ref id="pone.0080561-Tehan1"><label>36</label>
+<mixed-citation publication-type="other" xlink:type="simple">Tehan G, Mills K (2007) Working memory and short-term memory storage: What does backward recall tell us. Working memory: Behavioural and neural correlates: 153–163.</mixed-citation>
+</ref>
+<ref id="pone.0080561-BradleyJohnson1"><label>37</label>
+<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Bradley-Johnson</surname><given-names>S</given-names></name> (<year>1998</year>) <article-title>Test reviews</article-title>. <source>Psychology in the Schools</source> <volume>35</volume>: <fpage>409</fpage>–<lpage>415</lpage>.</mixed-citation>
+</ref>
+<ref id="pone.0080561-Roid1"><label>38</label>
+<mixed-citation publication-type="other" xlink:type="simple">Roid GH, Miller LJ (1997) Leiter international performance scale-revised: Examiners manual: Stoelting Wood Dale, IL.</mixed-citation>
+</ref>
+<ref id="pone.0080561-Crowe1"><label>39</label>
+<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Crowe</surname><given-names>SF</given-names></name> (<year>2000</year>) <article-title>Does the Letter Number Sequencing Task Measure Anything More Than Digit Span?</article-title> <source>Assessment</source> <volume>7</volume>: <fpage>113</fpage>–<lpage>117</lpage>.</mixed-citation>
+</ref>
+<ref id="pone.0080561-Ottem1"><label>40</label>
+<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Ottem</surname><given-names>E</given-names></name> (<year>2007</year>) <article-title>Språk 6-16; Screening-test Manual II. Nye normer til bruk i forskning og utredning (New norms for use in research and clinical assessments)</article-title>. <source>Skolepsykologi</source> <volume>4</volume>: <fpage>13</fpage>–<lpage>23</lpage>.</mixed-citation>
+</ref>
+<ref id="pone.0080561-Ottem2"><label>41</label>
+<mixed-citation publication-type="other" xlink:type="simple">Ottem E, Frost J (2005) Språk 6-16; screening test: manual. Bredtvet kompetansesenter.</mixed-citation>
+</ref>
+<ref id="pone.0080561-Hale1"><label>42</label>
+<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Hale</surname><given-names>JB</given-names></name>, <name name-style="western"><surname>Hoeppner</surname><given-names>J-AB</given-names></name>, <name name-style="western"><surname>Fiorello</surname><given-names>CA</given-names></name> (<year>2002</year>) <article-title>Analyzing digit span components for assessment of attention processes</article-title>. <source>Journal of Psychoeducational Assessment</source> <volume>20</volume>: <fpage>128</fpage>–<lpage>143</lpage>.</mixed-citation>
+</ref>
+<ref id="pone.0080561-Best1"><label>43</label>
+<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Best</surname><given-names>JR</given-names></name>, <name name-style="western"><surname>Miller</surname><given-names>PH</given-names></name> (<year>2010</year>) <article-title>A developmental perspective on executive function</article-title>. <source>Child Dev</source> <volume>81</volume>: <fpage>1641</fpage>–<lpage>1660</lpage>.</mixed-citation>
+</ref>
+<ref id="pone.0080561-Holmes1"><label>44</label>
+<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Holmes</surname><given-names>J</given-names></name>, <name name-style="western"><surname>Gathercole</surname><given-names>SE</given-names></name>, <name name-style="western"><surname>Dunning</surname><given-names>DL</given-names></name> (<year>2009</year>) <article-title>Adaptive training leads to sustained enhancement of poor working memory in children</article-title>. <source>Dev Sci</source> <volume>12</volume>: <fpage>F9</fpage>–<lpage>15</lpage>.</mixed-citation>
+</ref>
+<ref id="pone.0080561-Holmes2"><label>45</label>
+<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Holmes</surname><given-names>J</given-names></name>, <name name-style="western"><surname>Gathercole</surname><given-names>SE</given-names></name>, <name name-style="western"><surname>Place</surname><given-names>M</given-names></name>, <name name-style="western"><surname>Dunning</surname><given-names>DL</given-names></name>, <name name-style="western"><surname>Hilton</surname><given-names>KA</given-names></name>, <etal>et al</etal>. (<year>2010</year>) <article-title>Working memory deficits can be overcome: Impacts of training and medication on working memory in children with ADHD</article-title>. <source>Appl Cognit Psychol</source> <volume>24</volume>: <fpage>827</fpage>–<lpage>836</lpage>.</mixed-citation>
+</ref>
+<ref id="pone.0080561-Grafman1"><label>46</label>
+<mixed-citation publication-type="other" xlink:type="simple">Grafman J, Krueger F (2006) Volition and the Human Prefrontal Cortex. In: Sebanz N, Prinz W, editors. Disorders of Volition. 347–371.</mixed-citation>
+</ref>
+</ref-list></back>
+</article>

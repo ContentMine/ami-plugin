@@ -54,6 +54,7 @@ public class RegexSearcher extends AbstractSearcher {
 		if (regexContainer.getCompoundRegexList() != null) {
 			searchXomElement(xmlContainer.getElement());
 		}
+		LOG.debug("RESULT LIST... "+resultList.size());
 		return;
 	}
 
@@ -165,6 +166,7 @@ public class RegexSearcher extends AbstractSearcher {
 			}
 		}
 		LOG.debug("MADE RESULT LIST: "+resultList.size());
+		LOG.debug("RESULT "+resultList.toString());
 		return;
 	}
 
@@ -194,6 +196,7 @@ public class RegexSearcher extends AbstractSearcher {
 				regexResult = new RegexResultElement(regexComponent, matcherResult);
 				regexResult.addLineNumberAttribute(eic);
 				regexResult.addLineValueAttribute(eic);
+				LOG.debug("regexResult *** "+regexResult.toString());
 				regexResultList.add(regexResult);
 //				hits++;
 			}

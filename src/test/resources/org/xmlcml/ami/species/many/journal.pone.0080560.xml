@@ -1,0 +1,983 @@
+<article xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" article-type="research-article" dtd-version="3.0" xml:lang="en">
+<front>
+<journal-meta>
+<journal-id journal-id-type="nlm-ta">PLoS ONE</journal-id>
+<journal-id journal-id-type="publisher-id">plos</journal-id>
+<journal-id journal-id-type="pmc">plosone</journal-id><journal-title-group>
+<journal-title xml:lang="en">PLoS ONE</journal-title></journal-title-group>
+<issn pub-type="epub">1932-6203</issn>
+<publisher>
+<publisher-name>Public Library of Science</publisher-name>
+<publisher-loc>San Francisco, USA</publisher-loc></publisher>
+</journal-meta>
+<article-meta>
+<article-id pub-id-type="publisher-id">PONE-D-13-19355</article-id>
+<article-id pub-id-type="doi">10.1371/journal.pone.0080560</article-id>
+<article-categories><subj-group subj-group-type="heading"><subject>Research Article</subject></subj-group></article-categories>
+<title-group>
+<article-title>Cockroaches Probably Cleaned Up after Dinosaurs</article-title>
+<alt-title alt-title-type="running-head">Dinosaur Cleaner-Ups</alt-title>
+</title-group>
+<contrib-group>
+<contrib contrib-type="author" xlink:type="simple"><name name-style="western"><surname>Vršanský</surname><given-names>Peter</given-names></name><xref ref-type="aff" rid="aff1"><sup>1</sup></xref><xref ref-type="aff" rid="aff2"><sup>2</sup></xref><xref ref-type="corresp" rid="cor1"><sup>*</sup></xref></contrib>
+<contrib contrib-type="author" xlink:type="simple"><name name-style="western"><surname>van de Kamp</surname><given-names>Thomas</given-names></name><xref ref-type="aff" rid="aff3"><sup>3</sup></xref></contrib>
+<contrib contrib-type="author" xlink:type="simple"><name name-style="western"><surname>Azar</surname><given-names>Dany</given-names></name><xref ref-type="aff" rid="aff4"><sup>4</sup></xref></contrib>
+<contrib contrib-type="author" xlink:type="simple"><name name-style="western"><surname>Prokin</surname><given-names>Alexander</given-names></name><xref ref-type="aff" rid="aff5"><sup>5</sup></xref><xref ref-type="aff" rid="aff6"><sup>6</sup></xref></contrib>
+<contrib contrib-type="author" xlink:type="simple"><name name-style="western"><surname>Vidlička</surname><given-names>L'ubomír</given-names></name><xref ref-type="aff" rid="aff7"><sup>7</sup></xref><xref ref-type="aff" rid="aff8"><sup>8</sup></xref></contrib>
+<contrib contrib-type="author" xlink:type="simple"><name name-style="western"><surname>Vagovič</surname><given-names>Patrik</given-names></name><xref ref-type="aff" rid="aff3"><sup>3</sup></xref><xref ref-type="aff" rid="aff9"><sup>9</sup></xref></contrib>
+</contrib-group>
+<aff id="aff1"><label>1</label><addr-line>Geological Institute, Slovak Academy of Sciences, Bratislava, Slovakia</addr-line></aff>
+<aff id="aff2"><label>2</label><addr-line>Arthropoda Laboratory, Paleontological Institute, Russian Academy of Sciences, Moscow, Russia</addr-line></aff>
+<aff id="aff3"><label>3</label><addr-line>ANKA/Institute for Photon Science and Synchrotron Radiation (IPS), Karlsruhe Institute of Technology (KIT), Eggenstein-Leopoldshafen, Germany</addr-line></aff>
+<aff id="aff4"><label>4</label><addr-line>Faculty of Science II, Natural Sciences Department, Lebanese University, Fanar, Fanar-Matn, Lebanon</addr-line></aff>
+<aff id="aff5"><label>5</label><addr-line>I.D. Papanin Institute for biology of inland waters Russian Academy of Sciences, Borok, Russia</addr-line></aff>
+<aff id="aff6"><label>6</label><addr-line>Voronezh State University, Voronezh, Russia</addr-line></aff>
+<aff id="aff7"><label>7</label><addr-line>Institute of Zoology, Slovak Academy of Sciences, Bratislava, Slovakia</addr-line></aff>
+<aff id="aff8"><label>8</label><addr-line>Department of Biology, Faculty of Education, Comenius University, Bratislava, Slovakia</addr-line></aff>
+<aff id="aff9"><label>9</label><addr-line>Institute of Multidisciplinary Research for Advanced Materials, Tohoku University, Japan</addr-line></aff>
+<contrib-group>
+<contrib contrib-type="editor" xlink:type="simple"><name name-style="western"><surname>Joger</surname><given-names>Ulrich</given-names></name>
+<role>Editor</role>
+<xref ref-type="aff" rid="edit1" /></contrib>
+</contrib-group>
+<aff id="edit1"><addr-line>State Natural History Museum, Germany</addr-line></aff>
+<author-notes>
+<corresp id="cor1">* E-mail: <email xlink:type="simple">geolvrsa@savba.sk</email></corresp>
+<fn fn-type="conflict"><p>The authors have declared that no competing interests exist.</p></fn>
+<fn fn-type="con"><p>Conceived and designed the experiments: P. Vršanský TV P. Vagovič. Performed the experiments: P. Vršanský TV P. Vagovič. Analyzed the data: P. Vršanský TV LV P. Vagovič. Contributed reagents/materials/analysis tools: P. Vršanský TV DA AP P. Vagovič. Wrote the paper: P. Vršanský TV DA AP LV P. Vagovič. Initiated the research, identified and drew the immature cockroach with coprolite, and erected and validated the present hypotheses: P. Vršanský. Provided the material and dinosaur information from the locality: DA. Provided and designed the µST experiment, and provided particle measurements and volume segmentation of reconstructed µST data and edited the text: TV P. Vagovič. Provided information on dung beetles and ecology: AP.</p></fn>
+</author-notes>
+<pub-date pub-type="collection"><year>2013</year></pub-date>
+<pub-date pub-type="epub"><day>4</day><month>12</month><year>2013</year></pub-date>
+<volume>8</volume>
+<issue>12</issue>
+<elocation-id>e80560</elocation-id>
+<history>
+<date date-type="received"><day>23</day><month>4</month><year>2013</year></date>
+<date date-type="accepted"><day>4</day><month>10</month><year>2013</year></date>
+</history>
+<permissions>
+<copyright-year>2013</copyright-year>
+<copyright-holder>Vršanský et al</copyright-holder><license xlink:href="http://creativecommons.org/licenses/by/3.0/" xlink:type="simple"><license-p>This is an open-access article distributed under the terms of the <ext-link ext-link-type="uri" xlink:href="http://creativecommons.org/licenses/by/3.0/" xlink:type="simple">Creative Commons Attribution License</ext-link>, which permits unrestricted use, distribution, and reproduction in any medium, provided the original author and source are credited.</license-p></license></permissions>
+<abstract>
+<p>Dinosaurs undoubtedly produced huge quantities of excrements. But who cleaned up after them? Dung beetles and flies with rapid development were rare during most of the Mesozoic. Candidates for these duties are extinct cockroaches (Blattulidae), whose temporal range is associated with herbivorous dinosaurs. An opportunity to test this hypothesis arises from coprolites to some extent extruded from an immature cockroach preserved in the amber of Lebanon, studied using synchrotron X-ray microtomography. 1.06% of their volume is filled by particles of wood with smooth edges, in which size distribution directly supports their external pre-digestion. Because fungal pre-processing can be excluded based on the presence of large particles (combined with small total amount of wood) and absence of damages on wood, the likely source of wood are herbivore feces. Smaller particles were broken down biochemically in the cockroach hind gut, which indicates that the recent lignin-decomposing termite and cockroach endosymbionts might have been transferred to the cockroach gut upon feeding on dinosaur feces.</p>
+</abstract>
+<funding-group><funding-statement>Supported by UNESCO-Amba (MVTS), VEGA 6002, 02/0152, 2/0186/13, Literary fund, Schwarz stipend. This work was supported by the Slovak Research and Development Agency under the contract No. APVV-0436-12. This paper is a contribution to the team project (ER023: Biodiversity: Origin, Structure, Evolution and Geology) awarded to DA by the Lebanese University. Most funds covered the home institutions. The funders had no role in study design, data collection and analysis, decision to publish, or preparation of the manuscript.</funding-statement></funding-group><counts><page-count count="11" /></counts></article-meta>
+</front>
+<body><sec id="s1">
+<title>Introduction</title>
+<p>The Triassic, Jurassic and Early Cretaceous terrestrial ecosystems differed from extant ecosystems for various reasons, one of them being the presence of gigantic reptiles. The energy flow was principally less efficient (more rapid) and also the general appearance of the landscape was dissimilar <xref ref-type="bibr" rid="pone.0080560-Zherikhin1">[1]</xref>, <xref ref-type="bibr" rid="pone.0080560-Zherikhin2">[2]</xref>. Grasses, flowers with their fruits, large butterflies, and before the latest Jurassic, all eusocial insects (cockroaches, termites, ants, bees) were absent <xref ref-type="bibr" rid="pone.0080560-Vransk1">[3]</xref>, <xref ref-type="bibr" rid="pone.0080560-Vransk2">[4]</xref>. Discerning between dinosaur feces decomposers (which were not identified until now) is also essential as it changes the general appearance of our assemblage reconstructions. Moreover, the problem is of a principal, systemic importance. If nothing fulfilled this role, a large amount of dung would prevent soil regeneration just as it suffocated the pasture systems and prevented grass regeneration in present-day Australia <xref ref-type="bibr" rid="pone.0080560-Bornemissza1">[5]</xref>. Grasses were absent before the Early Cretaceous, but such influence will definitely alter extinct cenoses similar to some extent to the variety of living fern groups or perhaps taxa such as <italic>Gnetum</italic> and <italic>Ephedra</italic>. On the other hand, bird droppings are known to significantly (often positively) influence vegetation composition of ombrotrophic bogs <xref ref-type="bibr" rid="pone.0080560-Tomassen1">[6]</xref>. Late Cretaceous biomes actually contain grasses and silicified plant tissues (phytoliths) preserved in the Maastrichtian coprolites (presumably from titanosaurid dinosaurs) from the Lameta Formation in India show that at least five taxa from extant grass (Poaceae) subclades were present during the latest Cretaceous <xref ref-type="bibr" rid="pone.0080560-Prasad1">[7]</xref>.</p>
+<p>Was the Mesozoic world full of sterile dinosaur dung, clean as a modern forest, or transitional between these two extremes? Circumstantial evidence of dinosaur (probably hadrosaur) coprolites <xref ref-type="bibr" rid="pone.0080560-Chin1">[8]</xref>, <xref ref-type="bibr" rid="pone.0080560-Krell1">[9]</xref> suggests that feces were used. The absence of dung-beetles during the Triassic and near-absence during most of the Jurassic <xref ref-type="bibr" rid="pone.0080560-Bai1">[10]</xref> (roughly half of the age of dinosaurs) and their radiation associated only with the spread of modern grasslands <xref ref-type="bibr" rid="pone.0080560-Zherikhin1">[1]</xref> is still under discussion <xref ref-type="bibr" rid="pone.0080560-Zherikhin2">[2]</xref>.</p>
+<p>Feces have a greater capacity to retain moisture than the parent plant tissue <xref ref-type="bibr" rid="pone.0080560-McBrayer1">[11]</xref> and coprophages exploit the microbial consortia concentrated on these recycled cellulose-based foodstuffs; the microorganisms serve not only as a source of nutrients and gut mutualists, but they also pre-digest recalcitrant substrates <xref ref-type="bibr" rid="pone.0080560-Bell1">[12]</xref>. Microbial dominance is so pronounced that fecal pellets may be considered as living organisms <xref ref-type="bibr" rid="pone.0080560-Bell1">[12]</xref>. They consist largely of living cells, they consume and release nutrients and organic matter, and they serve as food for animals higher on the food chain <xref ref-type="bibr" rid="pone.0080560-Johannes1">[13]</xref>.</p>
+<p>Any excrement is a valuable source of nitrogen, and its amount must have been huge <xref ref-type="bibr" rid="pone.0080560-Beland1">[14]</xref> at least seasonally <xref ref-type="bibr" rid="pone.0080560-Chin2">[15]</xref>, during the age of dinosaurs. Each single separate dung might have had a volume of 7 liters <xref ref-type="bibr" rid="pone.0080560-Chin1">[8]</xref>. Probably an important feature of dinosaur and pterosaur excrements (as in birds and reptiles when compared with mammals) was the large proportion of nitrogen compared with phosphorus <xref ref-type="bibr" rid="pone.0080560-Vidlika1">[16]</xref>. The association with urine and thus with a high concentration of phosphoric acid, oxalic and carbonic acids and salts, primarily sodium chloride, leads to the recent conclusion about the association of dung-beetles and coprophagy with mammals (not with dinosaurs) since the very beginning <xref ref-type="bibr" rid="pone.0080560-Arillo1">[17]</xref>. On the other hand, some common (11 of the 15 deposits) fossilised dinosaur coprolites contain 13–85% of rotting conifer wood with only 0.20–0.30% of nitrogen (conifers are utilized by the living cockroach <italic>Cryptocercus</italic> – the most important wood-decomposing cockroach) with its attendant microbial and detritivore fauna and thus augmented the resource options of Cretaceous ecosystems that lacked fodder provided by grasses and other derived angiosperms <xref ref-type="bibr" rid="pone.0080560-Chin1">[8]</xref>, <xref ref-type="bibr" rid="pone.0080560-Dix1">[18]</xref>. The consistency of the coprolites during the deposition varied from fairly cohesive to viscous liquid and fluid to some extent – those containing a significant amount of wood are most easily recognizable as their high wood content prevented degradation <xref ref-type="bibr" rid="pone.0080560-Chin1">[8]</xref>.</p>
+<p>In addition to dung, it has recently been proposed that the density of sauropods was high enough to produce the amounts of methane necessary for sustaining the warm climate during the Mesozoic <xref ref-type="bibr" rid="pone.0080560-Wilkinson1">[19]</xref>.</p>
+<p>The cockroach family Blattulidae, described by Vishniakova <xref ref-type="bibr" rid="pone.0080560-Vishniakova1">[20]</xref> originated in the Late Triassic and constitutes a (co-)dominant group of insects (∼1%) throughout the whole Jurassic and Cretaceous <xref ref-type="bibr" rid="pone.0080560-Vransk3">[21]</xref>. They are often completely preserved <xref ref-type="bibr" rid="pone.0080560-Vishniakova2">[22]</xref>–<xref ref-type="bibr" rid="pone.0080560-Wang2">[24]</xref> and contributed to knowledge of some general patterns such as the decreasing variability of species over time, and mass mutations <xref ref-type="bibr" rid="pone.0080560-Vransk4">[25]</xref>, <xref ref-type="bibr" rid="pone.0080560-Vransk5">[26]</xref>. The Blattulidae constitute the sole cockroach fossils preserved in several Cretaceous localities such as Shin Khudukh and some others in Mongolia and Verchnebureinskaja Vpadina in Russia, and are the dominant insect fossils in diverse Mesozoic ambers <xref ref-type="bibr" rid="pone.0080560-Vransk6">[27]</xref>, <xref ref-type="bibr" rid="pone.0080560-Vransk7">[28]</xref>. The hypothesis tested and supported in the course of the present research was the heterogeneous character of the diet of these Mesozoic cockroaches (in contrast to homogeneous one of all the studied Cenozoic and present ones). There are numerous Tertiary (Cenozoic) cockroaches preserved with the gut-content, but all of them have a homogeneous diet. The same holds for the studied living cockroaches. The occurrence of any wood (digested twice, a second time by cockroaches, after it was previously digested by herbivores; <xref ref-type="fig" rid="pone-0080560-g001">Figs. 1E</xref>, <xref ref-type="supplementary-material" rid="pone.0080560.s001">S1</xref>) was entirely unexpected.</p>
+<fig id="pone-0080560-g001" position="float" orientation="portrait"><object-id pub-id-type="doi">10.1371/journal.pone.0080560.g001</object-id><label>Figure 1</label><caption>
+<title>Dinosaur-age cockroach of the extinct family Blattulidae.</title>
+<p>(A <bold>–</bold> head to leg end length: 3.8 mm) with antennal sensory system (B, C) and five preserved coprolites (D – optical, E – surface rendering of numbered coprolites and dense particles based on the image stack from synchrotron X-ray microtomography; F – ST orthoslice with labelled boundaries and fragments). Lebanon amber 1094A-I. Scales 0,5 mm.</p>
+</caption><graphic mimetype="image" xlink:href="info:doi/10.1371/journal.pone.0080560.g001" position="float" xlink:type="simple" orientation="portrait" /></fig>
+<p>Protozoan cysts and helminth eggs preserved in the Early Cretaceous <italic>Iguanodon</italic> coprolite represent the only reported case of dinosaur parasites <xref ref-type="bibr" rid="pone.0080560-Poinar1">[29]</xref>, but the discovered trophic relation of dinosaur-age vertebrate herbivore and insects might appear important also due to the structuring of the extinct ecosystems via parasites (and pathogens) transferred. Trophic association of Mesozoic vertebrates and insects suggest endoparasite transfer as well.</p>
+<p>A similar transfer is known from numerous living species, e.g., from <italic>Blatta orientalis</italic> and <italic>Periplaneta americana</italic> feeding on human excrement that contained cysts of <italic>Chilomastix mesnili</italic> and rats eating food that had been contaminated with feces from these cockroaches became infected with this protozoan <xref ref-type="bibr" rid="pone.0080560-Porter1">[30]</xref>.</p>
+</sec><sec id="s2" sec-type="materials|methods">
+<title>Materials and Methods</title>
+<p>The material studied herein is from Mdeirij-Hammana, Baabda District Governorate Mount Lebanon, Central Lebanon - detailed coordinates for the localities of completely studied specimens (mostly immatures: (59, 76A, 623i-m, 778AB, 799, 800, 810CD, 845AB, 934AB, 1062, 1274B,D, FAL -3C (Falougha), 133.C, JEZ.F-14 (Wadi Jezzine, Jezzine District, Governorate Southern Lebanon), 1669-B, RIH-33 (Rihane outcrop, Jezzine District, Governorate Southern Lebanon), (deposited at the Lebanese University); AMNH Lebaneese amber 22, 77, 84, 91 (Bcharreh District, Governorate North of Lebanon; Jouar Ess-Souss, Bkassine, Jezzine District, Governorate Southern Lebanon, all deposited in the American Museum of Natural History), <italic>J. lebani</italic> holotype (Jouar Ess-Souss, Bkassine, Jezzine District, Governorate Southern Lebanon, Acra collection) can not be revealed due to site protection <xref ref-type="bibr" rid="pone.0080560-Azar1">[31]</xref>, in a Lower Cretaceous (ca. 120 Ma) amber-bearing deposit. An enicocephalid assassin bug, three ceratopogonid biting midges, and two male coccids occur as syninclusions. Examined specimen (1094A-I) was not embedded in epoxy resin due to ST examination, but for photography a drop of maple sirup and a coverslip glass was attached to see inside. It is deposited at the Lebanese University, Faculty of Sciences II, Lebanon. We performed a microtomographic scan of the amber piece (0.185 g, well transparent dark yellow-red sample) at the full-field X-ray imaging station TopoTomo beamline of the ANKA light source. The scan covered 180 angular degrees with 2,800 radiographic projections measured. We used a filtered white beam radiation with a spectrum peak at ∼20 keV. A sample-to-detector distance of 35 cm resulted in both absorption contrast and edge enhancing phase contrast in the projection images. These were recorded by an indirect detector system based on a scintillator coupled to an optical microscope and a CCD detector <xref ref-type="bibr" rid="pone.0080560-Bonse1">[32]</xref>. The magnification factor of the optical microscope was 22.4 which led to an effective pixel size of 0.4 µm with attached CCD camera pco.4000 with 4008×2672 pixels. We processed each radiographic projection using a single distance phase retrieval algorithm <xref ref-type="bibr" rid="pone.0080560-Paganin1">[33]</xref> integrated in ANKA phase plugin <xref ref-type="bibr" rid="pone.0080560-Weitkamp1">[34]</xref> for ImageJ and reconstructed the volume by PyHST reconstruction software <xref ref-type="bibr" rid="pone.0080560-Chilingaryan1">[35]</xref>. The triangle algorithm is unknown, but the original surfaces contain so many polygons that the details lost to a reduction to 10% are negligible.</p>
+<p>For segmentation of the coprolites we used software Amira 5.4. After loading the volume data as an image stack of virtual slices, we labelled the whole coprolites and the dense particles with the segmentation editor of the program. We exported and reassembled the surface models from the labels with the software Cinema 4D R12. Volumes were calculated from the polygon meshes using the GeoTools2010 plug-in.</p>
+<p>Before creating the interactive 3D graphics, we reduced the surface polygons once more to 10%. The objects were saved as Collada files and opened with the software Right Hemisphere® Deep Exploration 6. After creating the object hierarchy, we saved the data as Universal 3D files, opened with Adobe® Acrobat® 9 Pro Extended, and integrated into PDF files.</p>
+</sec><sec id="s3">
+<title>Results</title>
+<p>Distribution of the Blattulidae is associated with the abundance of dinosaurs (<xref ref-type="fig" rid="pone-0080560-g002">fig. 2F</xref>). In the Lebanese amber, the Blattulidae constitute 8 of the 15 identified (21 studied) cockroach samples including <italic>Ocelloblattula ponomarenkoi</italic> Anisyutkin et Gorochov, 2007 <xref ref-type="bibr" rid="pone.0080560-Anisyutkin1">[36]</xref>, in addition to the Umenocoleidae (n = 1), Caloblattinidae (n = 2), Raphidiomimidae (n = 1), Liberiblattinidae (n = 1), Blattellidae (n = 2), and Mesoblattinidae (n = 2; <italic>Nymphoblatta azari</italic>) <xref ref-type="bibr" rid="pone.0080560-Vransk8">[37]</xref>.</p>
+<fig id="pone-0080560-g002" position="float" orientation="portrait"><object-id pub-id-type="doi">10.1371/journal.pone.0080560.g002</object-id><label>Figure 2</label><caption>
+<title>Dinosaur-age wood decomposing cockroach with coprolite and its ecological context.</title>
+<p><bold>A)</bold> wood fragment no. 123 (coprolite no. 3), volume 23077 µm<sup>3</sup> (TRC- parenchymatous tangential ray cells); <bold>B)</bold> Lebanese amber (Blattulidae 1094A-I), length (head to leg end): 3.8 mm; <bold>C)</bold> a virtual synchrotron section (∼1.2 mm) through coprolite no. 3, wood particles are pale; <bold>D)</bold> percentual representation of volume of the respective wood particles; <bold>E)</bold> distribution analysis of simple particle count of 280 wood fragments present in all five coprolites plotted over the fragment size; <bold>F)</bold> Ratios of the Blattulidae and “<italic>Voltziablatta</italic>”- group – families that replaced each other during the Triassic (interrupted arrow) – to all cockroaches, plotted over the timescale (in Ma). The origin and extinction of dinosaurs are pointed with arrows. “N in %” means percentual representation of number of specimens, “spp in %” is a percentual representation of species. Original data.</p>
+</caption><graphic mimetype="image" xlink:href="info:doi/10.1371/journal.pone.0080560.g002" position="float" xlink:type="simple" orientation="portrait" /></fig>
+<p>The present fossil (<xref ref-type="fig" rid="pone-0080560-g001">Fig. 1</xref>) can be categorized as belonging to Blattulidae on the basis of small size, chaetotaxy and a significant comparative specimens of amber which include both immatures and adults <xref ref-type="bibr" rid="pone.0080560-Vransk7">[28]</xref>, <xref ref-type="bibr" rid="pone.0080560-Vransk9">[38]</xref>. Its characteristics are a small size, large head, antennae with corrugated surfaces, and with 2–3 rows of long sensilla (<xref ref-type="fig" rid="pone-0080560-g001">Fig. 1BC</xref>), pronotum and abdomen with two longitudinal stripes, cerci with long spurs and extremely long sensilla, legs short. Especially notable are round elevated pronotal structures of the present nymph (see <xref ref-type="fig" rid="pone-0080560-g002">Fig. 2B</xref>), somewhat resembling lanterns (A lantern is a specialised light-producing organ of cockroaches.) of the luminescent cockroaches of the genus <italic>Lucihormetica</italic> <xref ref-type="bibr" rid="pone.0080560-Vransk10">[39]</xref>, <xref ref-type="bibr" rid="pone.0080560-Vransk11">[40]</xref>.</p>
+<p>The diet of the Blattulidae is revealed for the first time. Five coprolites (the last one still protruding from the abdomen) that are elliptical in shape and circular in cross section (volumes 847,381 µm<sup>3</sup>, 2080,512 µm<sup>3</sup>, 2401,192 µm<sup>3</sup>, 3435,904 µm<sup>3</sup>, 4597807 µm<sup>3</sup>) (<xref ref-type="fig" rid="pone-0080560-g001">Fig. 1E</xref>, <xref ref-type="supplementary-material" rid="pone.0080560.s001">S1</xref>) amounting to a total volume of 13362,796 µm<sup>3</sup>, and about 0.35 mm long contain heterogeneous material. They are preserved in a single piece of amber, adjacent to a fossil of the Early Cretaceous cockroach, and represent a new type of trace fossil (coprolite adjacent to a preserved dead organism) that will be designated elsewhere. 1.06% (141,081 µm<sup>3</sup>) is filled by partially digested particles of wood. The structure of the wood is revealed on the largest particles and the lignin bilayer (part of the numerous parenchymatous tangential ray cells) is apparent on <xref ref-type="fig" rid="pone-0080560-g002">Fig. 2a</xref> and <xref ref-type="supplementary-material" rid="pone.0080560.s001">S1</xref>. The distance among parenchymatous tangential cells is roughly 10 µm.</p>
+<p>The surfaces are smooth and the edges of the particles are rounded even in the largest particles (and also inside of cavities). The size of them (ca. 30,000 µm<sup>3</sup>) is still very small when compared to the mouthpart and mouthful size (e.g., particles of the cockroaches of this size often reach 0.4 mm at the widest point).</p>
+<p>Wood within the present coprolites has a characteristic, possibly power law distribution of particles larger than 100 µm<sup>3</sup> (distribution curve at <xref ref-type="fig" rid="pone-0080560-g002">Fig. 2F</xref> can be characterised with the equation y = −1.964x +10.695; y = log (size); x = log (number of debris)), but the frequency of smaller particles decreases (<xref ref-type="fig" rid="pone-0080560-g002">Fig. 2D</xref>) at 100 µm<sup>3</sup>, which is far enough to be recorded by the present technique (effective pixel sizes below 0.5 µm are common for the present synchrotron (ST)). The wood particles are not distributed concentrically and/or in an otherwise ordered way.</p>
+<p>Additionally, this wood is apparently decayed in the hind gut (intestine and/or rectum - as in termites - not in mid gut or stomach) as the last incompletely formed coprolite (caused by stress-defecation and still extruding from the body) contains numerous larger wood particles (<xref ref-type="supplementary-material" rid="pone.0080560.s001">S1</xref>). This enhanced gut activity is documented by the amorphous structure of the coprolite apparent in the sections (<xref ref-type="fig" rid="pone-0080560-g002">Fig. 2C</xref>).</p>
+<p>The distribution curve of the wood particles is ambiguous. The gut-processed particles are diminished below 100 µm<sup>3</sup>, which is the rough limit for the smooth edges caused by the cockroach gut-processing. On the other hand, the linear (in log scale) distribution of particles, combined with rounded edges in larger scale (up to 10,000 µm<sup>3</sup>) and the absence of small particles and isolated tracheae (only 3 linear particles are present, and they probably do not represent tracheae) in the present coprolite suggests external pre-digestion.</p>
+<p>Dinosaurs apparently had consumed leaves along with the twigs, but the soft parts of leafs are unrecognizable in the ST signal. Only the hard and dense wood particles are distinct.</p>
+</sec><sec id="s4">
+<title>Discussion</title>
+<p>The most effective exploiters of nitrogen in animals are cockroaches, often capable of nitrogen extraction and symbiont transfer even from their own feces or from feces of vertebrates including the popular guano of diverse vertebrates. Its storage and transfer to conspecifics is thought to be used as currency in mating and parental investment strategies <xref ref-type="bibr" rid="pone.0080560-Bell1">[12]</xref>. Cockroaches feed on the droppings of frugivorous, insectivorous, and haematophagous bats, but not carnivorous bats <xref ref-type="bibr" rid="pone.0080560-Gnaspini1">[41]</xref>. Insect communities on the dung of crocodiles, varanid lizards and big turtles are virtually unstudied, and bird dung is generally too small to be utilized by a specialized dung cohort <xref ref-type="bibr" rid="pone.0080560-Arillo1">[17]</xref>. Nevertheless, several living cockroaches are associated with bird nests and presumed to feed on bird dung <xref ref-type="bibr" rid="pone.0080560-Bell1">[12]</xref>, <xref ref-type="bibr" rid="pone.0080560-Paulian1">[42]</xref>–<xref ref-type="bibr" rid="pone.0080560-vanBaaren1">[46]</xref>. The only large volume bird dung of the oil bird <italic>Steatornis caripensis</italic> or guacharo (see <xref ref-type="table" rid="pone-0080560-t001">Tab. 1</xref>) is processed by cockroaches <xref ref-type="bibr" rid="pone.0080560-Darlington1">[47]</xref>, which is another (indirect) support for the present inferences as birds are direct descendants of dinosaurs (often systematically cathegorized directly inside them). Numerous authors <xref ref-type="bibr" rid="pone.0080560-Schal1">[48]</xref> note explicitly but without specification direct utilisation of reptile dung. Christoffersen &amp; De Assis <xref ref-type="bibr" rid="pone.0080560-Christoffersen1">[49]</xref>summarise pentastomid parasites transferred to cockroaches via feeding on reptile and amphibian feces (see <xref ref-type="table" rid="pone-0080560-t001">Tab. 1</xref>). Although appearing trivial, cockroaches, one of the dominant insect orders during the Mesozoic were never examined as representing top candidates for partial processors of dinosaur dung.</p>
+<table-wrap id="pone-0080560-t001" position="float" orientation="portrait"><object-id pub-id-type="doi">10.1371/journal.pone.0080560.t001</object-id><label>Table 1</label><caption>
+<title>Distribuition of living dung-feeding cockroaches supporting their common and cosmopolitan distribution <xref ref-type="bibr" rid="pone.0080560-Gnaspini1">[41]</xref>, exclusively in dark (nocturnal, cave or under dung) environments.</title>
+</caption><alternatives><graphic id="pone-0080560-t001-1" position="float" mimetype="image" xlink:href="info:doi/10.1371/journal.pone.0080560.t001" xlink:type="simple" orientation="portrait" />
+<table><colgroup span="1"><col align="left" span="1" /><col align="center" span="1" /><col align="center" span="1" /><col align="center" span="1" /><col align="center" span="1" /><col align="center" span="1" /><col align="center" span="1" /><col align="center" span="1" /><col align="center" span="1" /></colgroup>
+<thead>
+<tr>
+<td align="left" rowspan="1" colspan="1">Species</td>
+<td align="left" rowspan="1" colspan="1">Family</td>
+<td align="left" rowspan="1" colspan="1">Locality</td>
+<td align="left" rowspan="1" colspan="1">Country</td>
+<td align="left" rowspan="1" colspan="1">Dung</td>
+<td align="left" rowspan="1" colspan="1">Host</td>
+<td align="left" rowspan="1" colspan="1">Habitat</td>
+<td align="left" rowspan="1" colspan="1">Continent</td>
+<td align="left" rowspan="1" colspan="1">Reference</td>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left" rowspan="1" colspan="1"><italic>Arenivaga grata</italic></td>
+<td align="left" rowspan="1" colspan="1">Corydiidae</td>
+<td align="left" rowspan="1" colspan="1">Tucson Mountains,</td>
+<td align="left" rowspan="1" colspan="1">USA, Arizona</td>
+<td align="left" rowspan="1" colspan="1">guano</td>
+<td align="left" rowspan="1" colspan="1">Bat</td>
+<td align="left" rowspan="1" colspan="1">Bat cave</td>
+<td align="left" rowspan="1" colspan="1">North America</td>
+<td align="left" rowspan="1" colspan="1"><xref ref-type="bibr" rid="pone.0080560-Ball1">[83]</xref></td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1"><italic>Blabverus discoidalis</italic></td>
+<td align="left" rowspan="1" colspan="1">Blaberidae</td>
+<td align="left" rowspan="1" colspan="1">Bogor, Java</td>
+<td align="left" rowspan="1" colspan="1">Indonesia</td>
+<td align="left" rowspan="1" colspan="1">feces</td>
+<td align="left" rowspan="1" colspan="1">Flat-tailedgecko</td>
+<td align="left" rowspan="1" colspan="1">Outdoors</td>
+<td align="left" rowspan="1" colspan="1">Asia</td>
+<td align="left" rowspan="1" colspan="1"><xref ref-type="bibr" rid="pone.0080560-Ali1">[84]</xref></td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1"><italic>Blatta orientalis</italic></td>
+<td align="left" rowspan="1" colspan="1">Blattidae</td>
+<td align="left" rowspan="1" colspan="1">Johannesburg Hospital</td>
+<td align="left" rowspan="1" colspan="1">South Africa</td>
+<td align="left" rowspan="1" colspan="1">dung</td>
+<td align="left" rowspan="1" colspan="1">Human</td>
+<td align="left" rowspan="1" colspan="1">Hospital</td>
+<td align="left" rowspan="1" colspan="1">Africa</td>
+<td align="left" rowspan="1" colspan="1"><xref ref-type="bibr" rid="pone.0080560-Porter1">[30]</xref></td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1"><italic>Blattella germanica</italic></td>
+<td align="left" rowspan="1" colspan="1">Ectobiidae</td>
+<td align="left" rowspan="1" colspan="1">?</td>
+<td align="left" rowspan="1" colspan="1">Egypt</td>
+<td align="left" rowspan="1" colspan="1">feces</td>
+<td align="left" rowspan="1" colspan="1">Human</td>
+<td align="left" rowspan="1" colspan="1">Villages</td>
+<td align="left" rowspan="1" colspan="1">Africa</td>
+<td align="left" rowspan="1" colspan="1"><xref ref-type="bibr" rid="pone.0080560-DeCoursey1">[85]</xref>, <xref ref-type="bibr" rid="pone.0080560-DeCoursey2">[86]</xref></td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1"><italic>Ergaula</italic><italic>scarabaeoides</italic></td>
+<td align="left" rowspan="1" colspan="1">Corydiidae</td>
+<td align="left" rowspan="1" colspan="1">Selangor</td>
+<td align="left" rowspan="1" colspan="1">Malaysia</td>
+<td align="left" rowspan="1" colspan="1">guano</td>
+<td align="left" rowspan="1" colspan="1">Bat</td>
+<td align="left" rowspan="1" colspan="1">Bat cave</td>
+<td align="left" rowspan="1" colspan="1">Asia</td>
+<td align="left" rowspan="1" colspan="1"><xref ref-type="bibr" rid="pone.0080560-Chopard1">[87]</xref>, <xref ref-type="bibr" rid="pone.0080560-Chopard2">[88]</xref></td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1"><italic>Eublaberus distanti</italic></td>
+<td align="left" rowspan="1" colspan="1">Blaberidae</td>
+<td align="left" rowspan="1" colspan="1">Guanapo Cave</td>
+<td align="left" rowspan="1" colspan="1">Trinidad and Tobago</td>
+<td align="left" rowspan="1" colspan="1">dry guano</td>
+<td align="left" rowspan="1" colspan="1">Fruit bat</td>
+<td align="left" rowspan="1" colspan="1">Bat cave</td>
+<td align="left" rowspan="1" colspan="1">South America</td>
+<td align="left" rowspan="1" colspan="1"><xref ref-type="bibr" rid="pone.0080560-Vransk2">[4]</xref></td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1"><italic>Eublaberus posticus</italic></td>
+<td align="left" rowspan="1" colspan="1">Blaberidae</td>
+<td align="left" rowspan="1" colspan="1">Trinidad island</td>
+<td align="left" rowspan="1" colspan="1">Trinidad and Tobago</td>
+<td align="left" rowspan="1" colspan="1">feces</td>
+<td align="left" rowspan="1" colspan="1">Bat</td>
+<td align="left" rowspan="1" colspan="1">Indoors</td>
+<td align="left" rowspan="1" colspan="1">South America</td>
+<td align="left" rowspan="1" colspan="1"><xref ref-type="bibr" rid="pone.0080560-Princis1">[89]</xref></td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1"><italic>Eublaberus posticus</italic></td>
+<td align="left" rowspan="1" colspan="1">Blaberidae</td>
+<td align="left" rowspan="1" colspan="1">Tamana cave</td>
+<td align="left" rowspan="1" colspan="1">Trinidad and Tobago</td>
+<td align="left" rowspan="1" colspan="1">guano</td>
+<td align="left" rowspan="1" colspan="1">Oilbird</td>
+<td align="left" rowspan="1" colspan="1">Bird cave</td>
+<td align="left" rowspan="1" colspan="1">South America</td>
+<td align="left" rowspan="1" colspan="1"><xref ref-type="bibr" rid="pone.0080560-Darlington2">[52]</xref></td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1"><italic>Euthyrrhapha nigra</italic></td>
+<td align="left" rowspan="1" colspan="1">Corydiidae</td>
+<td align="left" rowspan="1" colspan="1">Antsinomygrotto</td>
+<td align="left" rowspan="1" colspan="1">Madagascar</td>
+<td align="left" rowspan="1" colspan="1">guano</td>
+<td align="left" rowspan="1" colspan="1">Bat</td>
+<td align="left" rowspan="1" colspan="1">Bat cave</td>
+<td align="left" rowspan="1" colspan="1">Africa</td>
+<td align="left" rowspan="1" colspan="1"><xref ref-type="bibr" rid="pone.0080560-Chopard3">[90]</xref></td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1"><italic>Gyna kazungulana</italic></td>
+<td align="left" rowspan="1" colspan="1">Blaberidae</td>
+<td align="left" rowspan="1" colspan="1">?</td>
+<td align="left" rowspan="1" colspan="1">East Africa</td>
+<td align="left" rowspan="1" colspan="1">guano</td>
+<td align="left" rowspan="1" colspan="1">Bat</td>
+<td align="left" rowspan="1" colspan="1">Bat cave</td>
+<td align="left" rowspan="1" colspan="1">Africa</td>
+<td align="left" rowspan="1" colspan="1"><xref ref-type="bibr" rid="pone.0080560-Chopard4">[91]</xref></td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1"><italic>Gyna maculipennis</italic></td>
+<td align="left" rowspan="1" colspan="1">Blaberidae</td>
+<td align="left" rowspan="1" colspan="1">Lualaba</td>
+<td align="left" rowspan="1" colspan="1">Dem Rep Congo</td>
+<td align="left" rowspan="1" colspan="1">guano</td>
+<td align="left" rowspan="1" colspan="1">Bat</td>
+<td align="left" rowspan="1" colspan="1">Bat cave</td>
+<td align="left" rowspan="1" colspan="1">Africa</td>
+<td align="left" rowspan="1" colspan="1"><xref ref-type="bibr" rid="pone.0080560-Leleup1">[92]</xref></td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1"><italic>Opisthoplatia</italic><italic>maculata</italic></td>
+<td align="left" rowspan="1" colspan="1">Blaberidae</td>
+<td align="left" rowspan="1" colspan="1">Formosa</td>
+<td align="left" rowspan="1" colspan="1">Formosa( = Taiwan)</td>
+<td align="left" rowspan="1" colspan="1">dung</td>
+<td align="left" rowspan="1" colspan="1">Human</td>
+<td align="left" rowspan="1" colspan="1">Outside</td>
+<td align="left" rowspan="1" colspan="1">Asia</td>
+<td align="left" rowspan="1" colspan="1">Shikano in <xref ref-type="bibr" rid="pone.0080560-Takahashi1">[93]</xref></td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1"><italic>Paratemnopteryx</italic><italic>kookabinnensis</italic></td>
+<td align="left" rowspan="1" colspan="1">Ectobiidae</td>
+<td align="left" rowspan="1" colspan="1">Kookabinna George</td>
+<td align="left" rowspan="1" colspan="1">Western Australia</td>
+<td align="left" rowspan="1" colspan="1">guano</td>
+<td align="left" rowspan="1" colspan="1">Bat</td>
+<td align="left" rowspan="1" colspan="1">Cave</td>
+<td align="left" rowspan="1" colspan="1">Australia</td>
+<td align="left" rowspan="1" colspan="1"><xref ref-type="bibr" rid="pone.0080560-Slaney1">[94]</xref></td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1"><italic>Paratemnopteryx</italic><italic>rufa</italic></td>
+<td align="left" rowspan="1" colspan="1">Ectobiidae</td>
+<td align="left" rowspan="1" colspan="1">Nullarbor Plain</td>
+<td align="left" rowspan="1" colspan="1">Australia</td>
+<td align="left" rowspan="1" colspan="1">guano</td>
+<td align="left" rowspan="1" colspan="1">Bird</td>
+<td align="left" rowspan="1" colspan="1">Cave</td>
+<td align="left" rowspan="1" colspan="1">Australia</td>
+<td align="left" rowspan="1" colspan="1"><xref ref-type="bibr" rid="pone.0080560-Richards1">[95]</xref></td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1"><italic>Paratemnopteryx</italic><italic>weinsteini</italic></td>
+<td align="left" rowspan="1" colspan="1">Ectobiidae</td>
+<td align="left" rowspan="1" colspan="1">Rope LadderCave</td>
+<td align="left" rowspan="1" colspan="1">Queensland</td>
+<td align="left" rowspan="1" colspan="1">guano</td>
+<td align="left" rowspan="1" colspan="1">Bat</td>
+<td align="left" rowspan="1" colspan="1">Cave</td>
+<td align="left" rowspan="1" colspan="1">Australia</td>
+<td align="left" rowspan="1" colspan="1"><xref ref-type="bibr" rid="pone.0080560-Slaney1">[94]</xref></td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1"><italic>Parcoblatta bolliana</italic></td>
+<td align="left" rowspan="1" colspan="1">Ectobiidae</td>
+<td align="left" rowspan="1" colspan="1">Texas</td>
+<td align="left" rowspan="1" colspan="1">USA</td>
+<td align="left" rowspan="1" colspan="1">dry dung</td>
+<td align="left" rowspan="1" colspan="1">Cow</td>
+<td align="left" rowspan="1" colspan="1">Pine woods</td>
+<td align="left" rowspan="1" colspan="1">North America</td>
+<td align="left" rowspan="1" colspan="1"><xref ref-type="bibr" rid="pone.0080560-Hebard1">[96]</xref></td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1"><italic>Parcoblatta</italic><italic>fulvescens</italic></td>
+<td align="left" rowspan="1" colspan="1">Ectobiidae</td>
+<td align="left" rowspan="1" colspan="1">Florida</td>
+<td align="left" rowspan="1" colspan="1">USA</td>
+<td align="left" rowspan="1" colspan="1">dry dung</td>
+<td align="left" rowspan="1" colspan="1">Cow</td>
+<td align="left" rowspan="1" colspan="1">Pine woods</td>
+<td align="left" rowspan="1" colspan="1">North America</td>
+<td align="left" rowspan="1" colspan="1"><xref ref-type="bibr" rid="pone.0080560-Blatchley1">[97]</xref></td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1"><italic>Periplaneta</italic><italic>australasiae</italic></td>
+<td align="left" rowspan="1" colspan="1">Blattidae</td>
+<td align="left" rowspan="1" colspan="1">Sarawak Mt. Jibong</td>
+<td align="left" rowspan="1" colspan="1">Malaysia</td>
+<td align="left" rowspan="1" colspan="1">guano</td>
+<td align="left" rowspan="1" colspan="1">Bird</td>
+<td align="left" rowspan="1" colspan="1">Cave</td>
+<td align="left" rowspan="1" colspan="1">Asia</td>
+<td align="left" rowspan="1" colspan="1"><xref ref-type="bibr" rid="pone.0080560-Moulton1">[98]</xref></td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1"><italic>Periplaneta</italic><italic>australasiae</italic></td>
+<td align="left" rowspan="1" colspan="1">Blattidae</td>
+<td align="left" rowspan="1" colspan="1" />
+<td align="left" rowspan="1" colspan="1">Malaysia</td>
+<td align="left" rowspan="1" colspan="1">feces</td>
+<td align="left" rowspan="1" colspan="1">Small reptiles</td>
+<td align="left" rowspan="1" colspan="1">Outdoors</td>
+<td align="left" rowspan="1" colspan="1">Asia</td>
+<td align="left" rowspan="1" colspan="1"><xref ref-type="bibr" rid="pone.0080560-Rajamanickam1">[99]</xref></td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1"><italic>Periplaneta</italic><italic>australasiae</italic></td>
+<td align="left" rowspan="1" colspan="1">Blattidae</td>
+<td align="left" rowspan="1" colspan="1">Punta Gorda, Florida</td>
+<td align="left" rowspan="1" colspan="1">South Africa</td>
+<td align="left" rowspan="1" colspan="1">dung</td>
+<td align="left" rowspan="1" colspan="1">Goat</td>
+<td align="left" rowspan="1" colspan="1">Outside; vacanthouse</td>
+<td align="left" rowspan="1" colspan="1">North America</td>
+<td align="left" rowspan="1" colspan="1"><xref ref-type="bibr" rid="pone.0080560-Rehn2">[100]</xref></td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1"><italic>Periplaneta</italic><italic>americana</italic></td>
+<td align="left" rowspan="1" colspan="1">Blattidae</td>
+<td align="left" rowspan="1" colspan="1">Formosa</td>
+<td align="left" rowspan="1" colspan="1">Formosa( = Taiwan)</td>
+<td align="left" rowspan="1" colspan="1">feces</td>
+<td align="left" rowspan="1" colspan="1"><italic>Macaca</italic><italic>cyclopis</italic></td>
+<td align="left" rowspan="1" colspan="1">Indoors</td>
+<td align="left" rowspan="1" colspan="1">Asia</td>
+<td align="left" rowspan="1" colspan="1"><xref ref-type="bibr" rid="pone.0080560-Morischita1">[101]</xref></td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1"><italic>Periplaneta</italic><italic>americana</italic></td>
+<td align="left" rowspan="1" colspan="1">Blattidae</td>
+<td align="left" rowspan="1" colspan="1">Vengurla</td>
+<td align="left" rowspan="1" colspan="1">India</td>
+<td align="left" rowspan="1" colspan="1">guano</td>
+<td align="left" rowspan="1" colspan="1">Bat</td>
+<td align="left" rowspan="1" colspan="1">Bat cave</td>
+<td align="left" rowspan="1" colspan="1">Asia</td>
+<td align="left" rowspan="1" colspan="1"><xref ref-type="bibr" rid="pone.0080560-Abdulali1">[102]</xref></td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1"><italic>Periplaneta</italic><italic>americana</italic></td>
+<td align="left" rowspan="1" colspan="1">Blattidae</td>
+<td align="left" rowspan="1" colspan="1">Sumatra Sawah Lunto</td>
+<td align="left" rowspan="1" colspan="1">Indonesia</td>
+<td align="left" rowspan="1" colspan="1">feces</td>
+<td align="left" rowspan="1" colspan="1">Human</td>
+<td align="left" rowspan="1" colspan="1">Coal mine</td>
+<td align="left" rowspan="1" colspan="1">Asia</td>
+<td align="left" rowspan="1" colspan="1"><xref ref-type="bibr" rid="pone.0080560-Hanitsch1">[103]</xref></td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1"><italic>Periplaneta</italic><italic>americana</italic></td>
+<td align="left" rowspan="1" colspan="1">Blattidae</td>
+<td align="left" rowspan="1" colspan="1">western Bengal</td>
+<td align="left" rowspan="1" colspan="1">India</td>
+<td align="left" rowspan="1" colspan="1">feces</td>
+<td align="left" rowspan="1" colspan="1">Human</td>
+<td align="left" rowspan="1" colspan="1">Coal mine</td>
+<td align="left" rowspan="1" colspan="1">Asia</td>
+<td align="left" rowspan="1" colspan="1"><xref ref-type="bibr" rid="pone.0080560-Chandler1">[104]</xref>, <xref ref-type="bibr" rid="pone.0080560-Chopard5">[105]</xref></td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1"><italic>Periplaneta</italic><italic>americana</italic></td>
+<td align="left" rowspan="1" colspan="1">Blattidae</td>
+<td align="left" rowspan="1" colspan="1">Johannesburg Hospital</td>
+<td align="left" rowspan="1" colspan="1">South Africa</td>
+<td align="left" rowspan="1" colspan="1">dung</td>
+<td align="left" rowspan="1" colspan="1">Human</td>
+<td align="left" rowspan="1" colspan="1">Hospital</td>
+<td align="left" rowspan="1" colspan="1">Africa</td>
+<td align="left" rowspan="1" colspan="1"><xref ref-type="bibr" rid="pone.0080560-Porter1">[30]</xref></td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1"><italic>Periplaneta</italic><italic>americana</italic></td>
+<td align="left" rowspan="1" colspan="1">Blattidae</td>
+<td align="left" rowspan="1" colspan="1">?</td>
+<td align="left" rowspan="1" colspan="1">Egypt</td>
+<td align="left" rowspan="1" colspan="1">feces</td>
+<td align="left" rowspan="1" colspan="1">Human</td>
+<td align="left" rowspan="1" colspan="1">Villages</td>
+<td align="left" rowspan="1" colspan="1">Africa</td>
+<td align="left" rowspan="1" colspan="1"><xref ref-type="bibr" rid="pone.0080560-DeCoursey1">[85]</xref>, <xref ref-type="bibr" rid="pone.0080560-DeCoursey2">[86]</xref></td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1"><italic>Periplaneta</italic><italic>americana</italic></td>
+<td align="left" rowspan="1" colspan="1">Blattidae</td>
+<td align="left" rowspan="1" colspan="1">Accra –laboratory</td>
+<td align="left" rowspan="1" colspan="1">Ghana (GoldCoast)</td>
+<td align="left" rowspan="1" colspan="1">feces</td>
+<td align="left" rowspan="1" colspan="1"><italic>Erythrocebus</italic><italic>patas</italic></td>
+<td align="left" rowspan="1" colspan="1">Indoor (glassjars)</td>
+<td align="left" rowspan="1" colspan="1">Africa</td>
+<td align="left" rowspan="1" colspan="1"><xref ref-type="bibr" rid="pone.0080560-Macfie1">[106]</xref></td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1"><italic>Periplaneta</italic><italic>americana</italic></td>
+<td align="left" rowspan="1" colspan="1">Blattidae</td>
+<td align="left" rowspan="1" colspan="1">Araripe</td>
+<td align="left" rowspan="1" colspan="1">Brazil</td>
+<td align="left" rowspan="1" colspan="1">feces</td>
+<td align="left" rowspan="1" colspan="1">Worm lizard</td>
+<td align="left" rowspan="1" colspan="1">Outdoors</td>
+<td align="left" rowspan="1" colspan="1">South America</td>
+<td align="left" rowspan="1" colspan="1"><xref ref-type="bibr" rid="pone.0080560-Almeida1">[107]</xref></td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1"><italic>Perisphaerus</italic> sp.</td>
+<td align="left" rowspan="1" colspan="1">Blaberidae</td>
+<td align="left" rowspan="1" colspan="1">Jalor caves</td>
+<td align="left" rowspan="1" colspan="1">Malaysia</td>
+<td align="left" rowspan="1" colspan="1">guano</td>
+<td align="left" rowspan="1" colspan="1">Bat</td>
+<td align="left" rowspan="1" colspan="1">Cave</td>
+<td align="left" rowspan="1" colspan="1">Asia</td>
+<td align="left" rowspan="1" colspan="1"><xref ref-type="bibr" rid="pone.0080560-Annandale1">[108]</xref></td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1"><italic>Pycnoscelus</italic><italic>surinamensis</italic></td>
+<td align="left" rowspan="1" colspan="1">Blaberidae</td>
+<td align="left" rowspan="1" colspan="1">St. Croix</td>
+<td align="left" rowspan="1" colspan="1">USA, VirginIslands</td>
+<td align="left" rowspan="1" colspan="1">feces</td>
+<td align="left" rowspan="1" colspan="1">Chicken</td>
+<td align="left" rowspan="1" colspan="1">Chicken roosts</td>
+<td align="left" rowspan="1" colspan="1">CentralAmerica</td>
+<td align="left" rowspan="1" colspan="1"><xref ref-type="bibr" rid="pone.0080560-Beatty1">[109]</xref></td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1"><italic>Pycnoscelus</italic><italic>surinamensis</italic></td>
+<td align="left" rowspan="1" colspan="1">Blaberidae</td>
+<td align="left" rowspan="1" colspan="1">Puerto RicoMona Island</td>
+<td align="left" rowspan="1" colspan="1">USA</td>
+<td align="left" rowspan="1" colspan="1">dry dung</td>
+<td align="left" rowspan="1" colspan="1">Cow</td>
+<td align="left" rowspan="1" colspan="1">Pine woods</td>
+<td align="left" rowspan="1" colspan="1">CentralAmerica</td>
+<td align="left" rowspan="1" colspan="1"><xref ref-type="bibr" rid="pone.0080560-Wolcott1">[43]</xref></td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1"><italic>Pycnoscelus</italic><italic>striatus</italic></td>
+<td align="left" rowspan="1" colspan="1">Blaberidae</td>
+<td align="left" rowspan="1" colspan="1">Selangor</td>
+<td align="left" rowspan="1" colspan="1">Malaysia</td>
+<td align="left" rowspan="1" colspan="1">guano</td>
+<td align="left" rowspan="1" colspan="1">Bat</td>
+<td align="left" rowspan="1" colspan="1">Cave</td>
+<td align="left" rowspan="1" colspan="1">Asia</td>
+<td align="left" rowspan="1" colspan="1"><xref ref-type="bibr" rid="pone.0080560-Chopard1">[87]</xref>, <xref ref-type="bibr" rid="pone.0080560-Chopard2">[88]</xref></td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1"><italic>Simandoa</italic><italic>conserfariam</italic></td>
+<td align="left" rowspan="1" colspan="1">Blaberidae</td>
+<td align="left" rowspan="1" colspan="1">SimandouMts.</td>
+<td align="left" rowspan="1" colspan="1">Guinea</td>
+<td align="left" rowspan="1" colspan="1">guano</td>
+<td align="left" rowspan="1" colspan="1">Fruit bat</td>
+<td align="left" rowspan="1" colspan="1">Cave</td>
+<td align="left" rowspan="1" colspan="1">Africa</td>
+<td align="left" rowspan="1" colspan="1"><xref ref-type="bibr" rid="pone.0080560-Roth2">[110]</xref></td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1"><italic>Symploce cavernicola</italic></td>
+<td align="left" rowspan="1" colspan="1">Ectobiidae</td>
+<td align="left" rowspan="1" colspan="1">Sarawak Mt.Jibong</td>
+<td align="left" rowspan="1" colspan="1">Malaysia</td>
+<td align="left" rowspan="1" colspan="1">guano</td>
+<td align="left" rowspan="1" colspan="1">Bird</td>
+<td align="left" rowspan="1" colspan="1">Cave</td>
+<td align="left" rowspan="1" colspan="1">Asia</td>
+<td align="left" rowspan="1" colspan="1"><xref ref-type="bibr" rid="pone.0080560-Moulton1">[98]</xref></td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1"><italic>Tivia</italic><italic>macracantha</italic></td>
+<td align="left" rowspan="1" colspan="1">Corydiidae</td>
+<td align="left" rowspan="1" colspan="1">Katanga Province</td>
+<td align="left" rowspan="1" colspan="1">Dem Rep Congo</td>
+<td align="left" rowspan="1" colspan="1">guano</td>
+<td align="left" rowspan="1" colspan="1">?</td>
+<td align="left" rowspan="1" colspan="1">Cave</td>
+<td align="left" rowspan="1" colspan="1">Africa</td>
+<td align="left" rowspan="1" colspan="1"><xref ref-type="bibr" rid="pone.0080560-Leleup1">[92]</xref></td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1"><italic>Tivia</italic> sp.</td>
+<td align="left" rowspan="1" colspan="1">Corydiidae</td>
+<td align="left" rowspan="1" colspan="1">Antsinomygrotto</td>
+<td align="left" rowspan="1" colspan="1">Madagascar</td>
+<td align="left" rowspan="1" colspan="1">guano</td>
+<td align="left" rowspan="1" colspan="1">?</td>
+<td align="left" rowspan="1" colspan="1">Cave</td>
+<td align="left" rowspan="1" colspan="1">Africa</td>
+<td align="left" rowspan="1" colspan="1"><xref ref-type="bibr" rid="pone.0080560-Chopard3">[90]</xref></td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1"><italic>Trogloblattella</italic><italic>nullarborensis</italic></td>
+<td align="left" rowspan="1" colspan="1">Ectobiidae</td>
+<td align="left" rowspan="1" colspan="1">NullarborPlain</td>
+<td align="left" rowspan="1" colspan="1">Australia</td>
+<td align="left" rowspan="1" colspan="1">guano</td>
+<td align="left" rowspan="1" colspan="1">Bird</td>
+<td align="left" rowspan="1" colspan="1">Cave</td>
+<td align="left" rowspan="1" colspan="1">Australia</td>
+<td align="left" rowspan="1" colspan="1"><xref ref-type="bibr" rid="pone.0080560-Richards1">[95]</xref></td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1"><italic>Xestoblatta</italic><italic>hamata</italic></td>
+<td align="left" rowspan="1" colspan="1">Ectobiidae</td>
+<td align="left" rowspan="1" colspan="1">La Selva</td>
+<td align="left" rowspan="1" colspan="1">Costa Rica</td>
+<td align="left" rowspan="1" colspan="1">dung</td>
+<td align="left" rowspan="1" colspan="1">Bird</td>
+<td align="left" rowspan="1" colspan="1">?</td>
+<td align="left" rowspan="1" colspan="1">Cental America</td>
+<td align="left" rowspan="1" colspan="1"><xref ref-type="bibr" rid="pone.0080560-Vransk2">[4]</xref></td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1"><italic>Xestoblatta</italic><italic>immaculata</italic></td>
+<td align="left" rowspan="1" colspan="1">Ectobiidae</td>
+<td align="left" rowspan="1" colspan="1">Chilibrillo</td>
+<td align="left" rowspan="1" colspan="1">Panama</td>
+<td align="left" rowspan="1" colspan="1">guano</td>
+<td align="left" rowspan="1" colspan="1">Bat</td>
+<td align="left" rowspan="1" colspan="1">Cave</td>
+<td align="left" rowspan="1" colspan="1">Cental America</td>
+<td align="left" rowspan="1" colspan="1"><xref ref-type="bibr" rid="pone.0080560-Caudell1">[111]</xref></td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1"><italic>unidentified</italic></td>
+<td align="left" rowspan="1" colspan="1">?</td>
+<td align="left" rowspan="1" colspan="1">?</td>
+<td align="left" rowspan="1" colspan="1">?</td>
+<td align="left" rowspan="1" colspan="1">dung</td>
+<td align="left" rowspan="1" colspan="1">Horse, Cow</td>
+<td align="left" rowspan="1" colspan="1">Desert</td>
+<td align="left" rowspan="1" colspan="1">?</td>
+<td align="left" rowspan="1" colspan="1"><xref ref-type="bibr" rid="pone.0080560-Schoenly1">[112]</xref></td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1"><italic>unidentified</italic></td>
+<td align="left" rowspan="1" colspan="1">Corydiidae</td>
+<td align="left" rowspan="1" colspan="1">?</td>
+<td align="left" rowspan="1" colspan="1">Ecuador</td>
+<td align="left" rowspan="1" colspan="1">dung</td>
+<td align="left" rowspan="1" colspan="1">Bird</td>
+<td align="left" rowspan="1" colspan="1">Outdoors</td>
+<td align="left" rowspan="1" colspan="1">South America</td>
+<td align="left" rowspan="1" colspan="1"><xref ref-type="bibr" rid="pone.0080560-Bell1">[12]</xref></td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1"><italic>unidentified</italic></td>
+<td align="left" rowspan="1" colspan="1">?</td>
+<td align="left" rowspan="1" colspan="1">?</td>
+<td align="left" rowspan="1" colspan="1">Malaysia</td>
+<td align="left" rowspan="1" colspan="1">feces</td>
+<td align="left" rowspan="1" colspan="1">House gecko</td>
+<td align="left" rowspan="1" colspan="1">Indoors</td>
+<td align="left" rowspan="1" colspan="1">Asia</td>
+<td align="left" rowspan="1" colspan="1"><xref ref-type="bibr" rid="pone.0080560-Jefferey1">[113]</xref></td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1"><italic>unidentified</italic></td>
+<td align="left" rowspan="1" colspan="1">?</td>
+<td align="left" rowspan="1" colspan="1">Hawai</td>
+<td align="left" rowspan="1" colspan="1">USA</td>
+<td align="left" rowspan="1" colspan="1">feces</td>
+<td align="left" rowspan="1" colspan="1">Giant toad</td>
+<td align="left" rowspan="1" colspan="1">Outdoors</td>
+<td align="left" rowspan="1" colspan="1">North America</td>
+<td align="left" rowspan="1" colspan="1"><xref ref-type="bibr" rid="pone.0080560-Barton1">[114]</xref></td>
+</tr>
+</tbody>
+</table>
+</alternatives><table-wrap-foot><fn id="nt101"><label /><p>Feeding of diverse cockroaches on bird excrements and also facultative feeding on reptile and amphibian dungs is apparent. Based on Bell et al. <xref ref-type="bibr" rid="pone.0080560-Bell1">[12]</xref>, Christoffersen &amp; De Assis <xref ref-type="bibr" rid="pone.0080560-Christoffersen1">[49]</xref> and Roth &amp; Willis <xref ref-type="bibr" rid="pone.0080560-Roth3">[115]</xref>.</p></fn></table-wrap-foot></table-wrap>
+<p>The present specimen represents a derived secondary trace within a trace (traces of microorganisms on wood preserved in a coprolite–a trace of a cockroach within amber–a trace of a tree). Although it represents a unique find in respect to both quality of preservation in amber as well as the incidental character of the preserved “act”, coprolite feedings of Mesozoic cockroaches from other families can be excluded based on the positive evidence in the form of preserved gut contents. Several dozen species from the sedimentary record of diverse families (Mesoblattinidae, Caloblattinidae, Ectobiidae, Liberiblattindiae, Umenocoleidae) were found with the gut content. All of them contain unprocessed heterogenous organic debris, but no wood (unpublished observation), which is irreconcilable with coprophagy. Thus the only family adept for such duties is the family <underline>Blattulidae</underline>–the last ecologically significant family with unstudied gut content. The generic diversity of this family was significantly low, namely only 12 genera are present in their 80 million years of ecological dominance. This low diversity is also represented in the fossil inventory of the Lagerstätten and is direct evidence for very uniform, constant niches and probably also for a more or less uniform diet. This phenomenon is also visible in the unusually minor differences between genera of the sedimentary and amber records. This minimal diversity is highlighted to a greater extent by the sparse disparity. With the exception of two rare species, all Blattulidae are very similar. Uniformity is especially shown by the transversally striated extremities. This coloration dominates in the whole Mesozoic, but was lost at the K/Pg boundary along with the extinction of dinosaurs, although this colouration occurs in extant, nocturnal and arboreal <italic>Allacta australiensis</italic> under different body colors.</p>
+<p>Just a lack of diversity could mean it had a limited niche, one that could be seen in modern roaches, but combined with the longest lasting ecological dominance within cockroaches and unique morphology (such as corrugated surface of antennae–<xref ref-type="fig" rid="pone-0080560-g002">Fig. 2B,C</xref>), indicating the niche of the Blattulidae was different from that of living cockroaches.</p>
+<p>Generally, during the Mesozoic representatives of the family Blattulidae usually comprise ∼1% of all insects and over 30% of cockroaches (<xref ref-type="fig" rid="pone-0080560-g002">Fig. 2F</xref>), and thus were probably associated with a dominant group of vertebrates–probably sauropod dinosaurs. Special features of the present specimen such as extremely short and wide body with very long cerci suggest it is closely related to <italic>Grandocularis kurnubinsi</italic> from Jordanian amber (described based on a nymph <xref ref-type="bibr" rid="pone.0080560-Kaddumi1">[50]</xref> of a similar stage and size). It apparently represents a closely related species, but differs in the form of the pronotum, eye size, coloration and chaetotaxy. In adults, bioluminescent “lanterns” were apparently absent–adults of at least several species of the Blattulidae were documented as crepuscular or diurnal, not nocturnal–on the basis of the eye morphology and common occurrence together with diurnal species within a single pterosaur and/or dinosaur coprolites and/or regurgites <xref ref-type="bibr" rid="pone.0080560-Vransk12">[51]</xref>. Cockroach nymphs occurring in dung would signal to adult ovipositing females by a lantern system. But the detection of luminescence of lanterns embedded in amber would be difficult. Unfortunately, the ST signal in a large piece of amber is too weak even to reveal morphological details and thus the presence of these morphofunctional units cannot be validated.</p>
+<p>One can imagine the distinct contrast coloration characterized by distinct alternating light-and-dark stripes would be advantageous (for communication) in an open and confined habitat of dung surfaces. On the other hand, neither cockroach guano dwellers nor recent “external” coprophages have any conspicuous coloration. Additionally, all living coprophagous cockroaches live concealed within and/or under dung. In nocturnal conditions of caves, nymphs also burrow in the surface of loose guano. They may be completely concealed, or may rest with their heads on the surface with their antennae extended up into the air; if the guano is compacted, the cockroaches remain on its surface and are attracted to irregularities such as the edge of a wall, a rock, or even a footprint <xref ref-type="bibr" rid="pone.0080560-Darlington2">[52]</xref>. In these dark conditions, guano cockroaches are also present on dung and mostly are absent from cave zones of dry soil, stones, or pebbles <xref ref-type="bibr" rid="pone.0080560-Gautier1">[53]</xref>, <xref ref-type="bibr" rid="pone.0080560-Gautier2">[54]</xref>.</p>
+<p>The low diversity may be a consequence of a heterogenous diet and/or low specialization of herbivorous animals of which dinosaurs were the most abundant (suggesting there was relatively little nutritional variability in their excrement and thus less need for specialized roaches). Low specialization of at least some dinosaurs is confirmed by phytoliths extracted from the Upper Cretaceous coprolites (from dicotyledons, conifers, and palms) from India, suggesting that the suspected dung producers (titanosaur sauropods) fed indiscriminately on a wide range of plants, including grasses <xref ref-type="bibr" rid="pone.0080560-Prasad1">[7]</xref>. With the diversification of mammals <xref ref-type="bibr" rid="pone.0080560-Sahney1">[55]</xref>, diverse specialized dung-beetles co-evolved <xref ref-type="bibr" rid="pone.0080560-Zherikhin2">[2]</xref> and these cockroaches, possible with low specialization in their feeding behaviors became extinct.</p>
+<p>Generally, before the massive radiation of the Blattulidae at the beginning of the Jurassic, their niche was occupied by the superficially similar “<italic>Voltziablatta</italic>” group of cockroaches, which became extremely rare along with the radiation of the Blattulidae. In all Mesozoic sites, “<italic>Voltziablatta</italic>” and the Blattulidae occur in congeneric species pairs, discretely differing in size, but not in general appearance, thus doubtfully representing nocturnal and diurnal cohorts (occurrence of both sexes in both groups was validated earlier <xref ref-type="bibr" rid="pone.0080560-Vransk12">[51]</xref>). This enigmatic observation is unexplained and needs further investigation. The <italic>Voltziablatta</italic> group phylogenetically connects its descendants, the herein studied Blattulidae and living cockroaches which bear endosymbionts; namely termites, <italic>Sociala</italic> and <italic>Cryptocercus</italic> all descended from Liberiblattinidae. If this mutualism had a single origin, it must have been in the <italic>Voltziablatta</italic> group (fixed to flora and wood of <italic>Voltzia</italic> plants), where the lignin consumption must have originally evolved. In the opposite case, we would need to consider three independent origins of endosymbionts, which molecular data do not support <xref ref-type="bibr" rid="pone.0080560-Ballor1">[56]</xref>.</p>
+<sec id="s4a">
+<title>Coprolite and Dung Decomposition</title>
+<p>Presence of related endosymbionts in termites and cockroaches of the family Cryptocercidae was postulated to be an evidence for their direct relation. Nevertheless, the probable presence of endosymbionts in the Mesozoic clade which diverged from stem of higher cockroaches explains the monophyletic origin of these symbionts in both groups also in the phylogenetic reconstructions where they are not directly related <xref ref-type="bibr" rid="pone.0080560-Vransk1">[3]</xref>. The question is why was this capability lost in most regular cockroaches?</p>
+<p>The hypothesis that lignin-decomposing insect and their endosymbionts originated via the consumption of wood pre-digested by herbivore animal needs explanation. Feeding on lignified wood and also foliage-eating became more widespread in both dinosaurs and insects only with the radiation of angiosperms at the Early Cretaceous/Late Cretaceous boundary <xref ref-type="bibr" rid="pone.0080560-Zherikhin1">[1]</xref>. Dung consumption by Mesozoic termites, assisting in decomposition of processed plant matter was already proposed <xref ref-type="bibr" rid="pone.0080560-Beland1">[14]</xref>.</p>
+<p>Even the wood decay is preserved in a single sample, it is clear that these cockroaches might have employed at least a semisocial way of life to provide the horizontal endosymbiont transfer (thus supporting the view that it evolved just once, as confirmed by the phylogenetical scheme). In recent tropics, where food is available for bats throughout the year, guano deposition is predictable and also supports very large, persistent groups of cockroaches–guanobies <xref ref-type="bibr" rid="pone.0080560-Poulson1">[57]</xref>.</p>
+<p>To summarize the arguments supporting dung processing, this single sample is decisive in showing a coprolite still extruding from the body (and thus belonging to the body fossil as a producer, excluding incidental preservation) and containing modified wood fibres with typical parenchymatous tangential ray cells. Lignin can not be processed this way without endosymbionts and even in the case it has been modified to some extent by some fungi, it must have been pre-processed externally. The wood was apparently processed before it entered the cockroach digestive tract as indicated by the large extent of digestion apparent in cavities (which definitely exclude the mechanical processing) and the fragment preservation plotting fragment volume over the fragment number–<xref ref-type="fig" rid="pone-0080560-g002">Fig. 2e</xref>; additional indirect support comes from dung-processing of living cockroaches, <xref ref-type="table" rid="pone-0080560-t001">Tab. 1</xref>. It must be stressed, that the extent of smoothing of large particles including large cavities excludes the exclusively within insect processing and is evidence for external pre-digestion. In this respect, a source of the wood directly from the environment can be excluded. There are only three possibilities for the pre-digestion, namely the fungal (excluded below based on selective disadvantage of preference of large indigestible particles and absence of wood damages before the Late Cretaceous contrasting with plethora of coprolites containing wood) and vertebrate pre-processing or their combination. Large particles are numerous indicating that they were not selectively avoided during consumption. Underrepresentation of smaller particles was apparently due to biochemical digestion of wood lignin as do their eusocial (extinct cockroaches of the family Socialidae and termites) and semisocial (Cryptcercidae) descendants. Although it is very probable that dinosaurs preferred wood processed by fungi, fungi-only pre-digestion and feeding of these cockroaches can be excluded based on the presence of large fragments combined with low partition of wood. Such a small amount would suggest selective feeding on fungi-modified wood, in which circumstances large particles are contradictive; on the contrary, unselective feeding on coprolites would contain the expected spectrum of particles of diverse size. The only possible explanation is that these were caused by herbivorous vertebrates. Due to the dominance of these cockroaches for the same 200 million years as dinosaurs, no other vertebrate group is as promising for this candidature. It can not be excluded that cockroaches also cleaned up after some small, unknown vertebrate herbivores, but these can be excluded from the present study as small vertebrates can not digest wood.</p>
+<p>Certainly, in such a case, in any solitary taxa the capability of symbiont transfer and thus utilizing lignin was necessarily lost. Termites did not exist before the Middle Jurassic, but their precursors under study were apparently pre-adapted for wood decomposition – and thus possessed one of the necessary conditions for the origin of a eusocial way of life. Nevertheless, termites were diversified in the very beginning of the Cretaceous as evidence from the presently studied locality in Lebanon also indicates <xref ref-type="bibr" rid="pone.0080560-Vransk1">[3]</xref>, <xref ref-type="bibr" rid="pone.0080560-Engel1">[58]</xref>, <xref ref-type="bibr" rid="pone.0080560-Engel2">[59]</xref>.</p>
+<p>Transfer of microflora within dinosaurs was proposed via juvenile coprophagy <xref ref-type="bibr" rid="pone.0080560-Rogers1">[60]</xref>, which facilitates microflora but also endoparasite transfer with cockroaches. It is actually the intestinal bacteria and metabolic by-products <xref ref-type="bibr" rid="pone.0080560-Halftter1">[61]</xref>, <xref ref-type="bibr" rid="pone.0080560-Hanski1">[62]</xref> of the herbivore gut (perhaps dinosaurs), which likely allowed for lignin digestion in Blattulidae (by protozoans). The small proportion of wood content (∼1% is of only partially processed wood remnants and up to 5% of completely processed wood, not recognized in the ST) in the cockroach coprolite indicates that wood was not the primary constituent of the diet of the present individual, and rather supports the derived source. This is also indicated by the Late Cretaceous dung of herbivorous reptiles <xref ref-type="bibr" rid="pone.0080560-Chin3">[63]</xref>, probably dinosaurs (entirely of comminuted plant tissue with the predominance of secondary conifer xylem tissues of Cupressaceae). The unmodified state of the cells and the absence of gymnospermous wood in dung <xref ref-type="bibr" rid="pone.0080560-Ponomarenko1">[64]</xref> is still problematic, but the small size of the plant fragments infilling the fossil burrows suggests comminution or sorting by invertebrates <xref ref-type="bibr" rid="pone.0080560-Chin3">[63]</xref>. Also several gymnosperms remains (Cheirolepidiacae and Araucariacae) were found in the unstudied coprolite (larger than the present ones) from the same deposit in Lebanese amber.</p>
+<p>The distance among parenchymatous tangential cells of the wood in the present coprolite is roughly 10 µm, which is comparable to the structure of wood of fossil <italic>Taxodioxylon vanderburghii</italic> or <italic>Metasequoia glyptostroboides</italic> (20–30 µm <xref ref-type="bibr" rid="pone.0080560-Dolezych1">[65]</xref>). Even more similar parenchymatous tangential cells (10–20 µm) are found in unidentified conifer wood from dinosaur coprolites (as indicated in Fig. 5B, upper part of <xref ref-type="bibr" rid="pone.0080560-Chin1">[8]</xref>). Interestingly, this wood originates from trees growing in warm and semiarid Late Cretaceous environments preserved in the sediments of the Two Medicine Formation <xref ref-type="bibr" rid="pone.0080560-Chin1">[8]</xref>, which is in contrast to the warm and humid amber-producing Early Cretaceous forest of Lebanon. Anyway the specific determination of fossil conifer woods is very difficult and requires comparisons of many features that do not seem to be present in the small particles of wood in the fecal pellets.</p>
+<p>The wood (the length of the largest fragment was 13 cm) preserved in dinosaur coprolites is characterized by absence of cylindrical wood stems (no terminal twigs were digested); damage to lignin such as the presence of pliant tracheids, uneven cell walls and deformed and missing cells is also characteristic <xref ref-type="bibr" rid="pone.0080560-Chin1">[8]</xref>. This, along with the fact that the vertebrate gut cannot hold complex lignolytic organisms, because these protists are anaerobic suggests fungal decay prior to consumption <xref ref-type="bibr" rid="pone.0080560-Chin1">[8]</xref>. On the contrary, the small amount of small wood particles in these coprolites indicates they were processed within dinosaurs and support decomposition of the smallest particles both in dinosaur and cockroach coprolites.</p>
+</sec><sec id="s4b">
+<title>Coprolite and Dung Decomposition-defecation</title>
+<p>In spite of the diversity of behaviors reported from amber, a review by Arillo <xref ref-type="bibr" rid="pone.0080560-Arillo2">[66]</xref> contains a single defecation, reported from a Dominican amber termite <xref ref-type="bibr" rid="pone.0080560-Poinar2">[67]</xref>. Nevertheless, there is a rich Cretaceous termite record of distinctive fecal pellets with diagnostic hexagonal cross-sections that commence during the Hauterivian or Barremian <xref ref-type="bibr" rid="pone.0080560-Colin1">[68]</xref> and continue to occur in various woods to the end of the Cretaceous. Some of these pellets may have originated from individuals belonging to taxa such as the eusocial cockroach <italic>Sociala</italic> that occurs in Mesozoic amber <xref ref-type="bibr" rid="pone.0080560-Vransk1">[3]</xref>. Fecal pellets from wood are known <xref ref-type="bibr" rid="pone.0080560-Conwentz1">[69]</xref>, and most amber coprolites contain wood remains and are assigned to wood borers among termites, beetles or some other insects <xref ref-type="bibr" rid="pone.0080560-Weidner1">[70]</xref>, <xref ref-type="bibr" rid="pone.0080560-Nuorteva1">[71]</xref>. Additional pellets are known from the Dominican amber <xref ref-type="bibr" rid="pone.0080560-Grimaldi1">[72]</xref> and frass containing fungi are known from Archingeay amber <xref ref-type="bibr" rid="pone.0080560-Schmidt1">[73]</xref>. Defecation was probably often associated with escaping behaviour, because more than 60 samples of Lebanese amber (coprolites are often separated) contain coprolite of diverse size and shape (large elongate, oval). Lots of them were preserved with wood fibers. In the same piece there are insects like ceratopogonids, chironomids, archizelmerids (extinct flies) and wasps, but these coprolites are not associated with insects and are mentioned here to demonstrate the common defecation behaviour, not the wood processing. No trace fossils documenting specialized dung provisioning are known before the Late Cretaceous <xref ref-type="bibr" rid="pone.0080560-Zherikhin2">[2]</xref>.</p>
+</sec><sec id="s4c">
+<title>General Ecology of Dung Provisioning</title>
+<p>Detritic food chains strongly predominated in the Mesozoic <xref ref-type="bibr" rid="pone.0080560-Zherikhin2">[2]</xref> and the dominance of the Blattulidae among cockroaches seems to be associated with dung being the most valuable source of nitrogen. It is improbable that there were specialized guilds of dung feeders in the Mesozoic comparable with modern regarding structural complexity and ecological efficiency: Sciaridae and Scatopsidae (flies) with rapid larval development were remarkably rare <xref ref-type="bibr" rid="pone.0080560-Kirejtshuk1">[74]</xref>, as well as dung beetles, although both are present in the Lebanese amber <xref ref-type="bibr" rid="pone.0080560-Nikolaev1">[75]</xref> along with decomposer flies of the families Psychodidae and Sciaridae. However, they were absent before the Jurassic and extremely rare during the entire Jurassic <xref ref-type="bibr" rid="pone.0080560-Bai1">[10]</xref>, <xref ref-type="bibr" rid="pone.0080560-Ponomarenko1">[64]</xref>, <xref ref-type="bibr" rid="pone.0080560-Nikolaev1">[75]</xref>.</p>
+<p>Alternative opportunistic exploiters of dinosaur dung were snails. Multiple associations of 132 (with 0–66 specimens each) fossils (<italic>Megomphix, Polygyrella</italic>, <italic>Hendersonia, Prograngerella,</italic> and three aquatic taxa) have also been observed on or within 6 of the 15 herbivorous dinosaur coprolite deposits <xref ref-type="bibr" rid="pone.0080560-Chin2">[15]</xref>.</p>
+<p>Despite the great diversity and quantity of scarabeid beetles in the Mesozoic (<xref ref-type="bibr" rid="pone.0080560-Bai1">[10]</xref> especially in the Middle Jurassic locality Daohugou in Inner Mongolia, China), only a few species can be considered as possibly coprophagous. Only 3 dung ball-makers from the subfamily Scarabaeinae are known: <italic>Prionocephale deplanate</italic> (Upper Cretaceous Lanxi formation, Zhejiang, China <xref ref-type="bibr" rid="pone.0080560-Lin1">[76]</xref>), <italic>Cretonitis copripes</italic> (Early Cretaceous Zaza Formation, Baissa, Russia) and an undescribed species <xref ref-type="bibr" rid="pone.0080560-Grimaldi1">[72]</xref>, <xref ref-type="bibr" rid="pone.0080560-Nikolajev1">[77]</xref> of the living coprophagous genus <italic>Trypocopris</italic>. Representatives of the Geotrupidae were probably coprophagous: <italic>Parageotrupes incanus</italic> from the Yixian Formation <xref ref-type="bibr" rid="pone.0080560-Nikolajev2">[78]</xref>, and <italic>Cretogeotrupes convexus</italic> and <italic>Aphodius</italic> (s.l.) (Aphodiinae) from Baissa <xref ref-type="bibr" rid="pone.0080560-Nikolajev1">[77]</xref>, <xref ref-type="bibr" rid="pone.0080560-Nikolajev3">[79]</xref>.</p>
+<p>An alternative hypothesis claiming mainly aquatic plant diet of dinosaurs <xref ref-type="bibr" rid="pone.0080560-Ponomarenko2">[80]</xref> and thus water defecation does not explain at least some damage to terrestrial plants.</p>
+<p>The dung of known Mesozoic herbivores is composed mainly of undigested fern and gymnosperm tissues and was utilized by opportunistic detritivores together with other plant litter <xref ref-type="bibr" rid="pone.0080560-Zherikhin2">[2]</xref>.</p>
+<p>The specialized coprophagy by beetles is recorded as late as the Late Cretaceous when the diet of grazing dinosaurs apparently contained angiosperms other than grasses and ecosystems were based on biomes similar to grasslands <xref ref-type="bibr" rid="pone.0080560-Zherikhin1">[1]</xref>. Based on our investigations, pollen and angiosperms in the Lebanon amber are indicated by at least 5–6 different taxa.</p>
+<p>The decay of wood pre-digested in dinosaur gastrointestinal tracts explains and predicts the single origin of lignin consumption in the common ancestor of termites, eusocial cockroaches (<italic>Sociala</italic>), and semisocial cockroaches of the family Cryptocercidae. It would also explain a huge number of termite-like fecal pellets (containing wood) in Mesozoic ambers with parallel absence of any termite damage to wood <xref ref-type="bibr" rid="pone.0080560-Colin1">[68]</xref>. The fact that termites were a major lineage responsible for the degradation of plant tissues (when compared with cockroaches) is irrelevant in this respect as they originated not earlier than in the Middle Jurassic when their ancestors, certain Liberiblattinidae appear in the fossil record <xref ref-type="bibr" rid="pone.0080560-Vransk2">[4]</xref> and thus can not play any role in the decomposition of early sauropod dung. In contrast, blattulid cockroaches and their ecological equivalents originated as early as the Permian–Triassic boundary.</p>
+<p>The contemporary robust appearance of Cryptocercidae does not require a major morphological shift from anticipated dung-beetle-habits. It is likely that dung processors will also lose wings like Cryptocercidae, but in caves, wing loss and associated morphological changes occur more frequently in organisms that rely on plant debris than those that rely on guano <xref ref-type="bibr" rid="pone.0080560-Culver1">[81]</xref>. Under all circumstances it is apparent, that termite and cryptocercid ancestors were pre-adapted for lignin decay and, likely, provided a limited sanitation to herbivorous reptiles. Based on the correlation of distribution of reptiles and the dominance of the blattulid cockroaches in Mesozoic ecosystems, and their coeval occurrence in the present amber-bearing strata <xref ref-type="bibr" rid="pone.0080560-Buffetaut1">[82]</xref>, these herbivorous reptiles were most likely the dominant sauropod dinosaurs.</p>
+</sec></sec><sec id="s5">
+<title>Supporting Information</title>
+<supplementary-material id="pone.0080560.s001" mimetype="application/pdf" xlink:href="info:doi/10.1371/journal.pone.0080560.s001" position="float" xlink:type="simple" orientation="portrait"><label>Figure S1</label><caption>
+<p><bold>Synchrotron imaging of 5 coprolites of dinosaur-age immature cockroach from the Lebanese amber (Blattulidae 1094A-I).</bold> Select transparent mode for 3D visualization and rotation.</p>
+<p>(PDF)</p>
+</caption></supplementary-material></sec></body>
+<back>
+<ack>
+<p>We thank Georgy V. Nikolajev (Al-Farabi Kazakh National University, Almaty, Kazakhstan) for the literature supply and fruitful discussion; Vladimír Šimo and Adam Tomášových (both GlU SAV, Bratislava, Slovakia), Tomáš Holúbek and Marthe Kaufholz (both ANKA/IPS, Eggenstein-Leopoldshafen, Germany) for technical help, Russell Garwood (IC, London, UK), Ralf Kosma (SNHM, Niedersachsen, Germany) and five anonymous reviewers for revision as well as Graeme Butler and Martin Styan for linguistic revisions. The ANKA Synchrotron Radiation Facility is acknowledged for providing beamtime.</p>
+</ack>
+<ref-list>
+<title>References</title>
+<ref id="pone.0080560-Zherikhin1"><label>1</label>
+<mixed-citation publication-type="other" xlink:type="simple">Zherikhin VV (1978) Development and change of Cretaceous and Cenozoic faunistic complexes: Tracheata, Chelicerata. Nauka, Moscow.</mixed-citation>
+</ref>
+<ref id="pone.0080560-Zherikhin2"><label>2</label>
+<mixed-citation publication-type="other" xlink:type="simple">Zherikhin VV (2002) Ecological History of the Terrestrial Insects. In: Rasnitsyn AP, Quicke DLJ, editors. History of Insects. Kluwer, Dodrecht, pp. 331–388.</mixed-citation>
+</ref>
+<ref id="pone.0080560-Vransk1"><label>3</label>
+<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Vršanský</surname><given-names>P</given-names></name> (<year>2010</year>) <article-title>Cockroach as the earliest eusocial animal</article-title>. <source>Acta Geol Sin-Engl Ed</source> <volume>84</volume>: <fpage>793</fpage>–<lpage>808</lpage>.</mixed-citation>
+</ref>
+<ref id="pone.0080560-Vransk2"><label>4</label>
+<mixed-citation publication-type="other" xlink:type="simple">Vršanský P, Aristov D (2014) Termites from the Jurassic/Cretaceous boundary; evidence for the longevity of their earliest genera. Eur J Entomol 111(1). In press.</mixed-citation>
+</ref>
+<ref id="pone.0080560-Bornemissza1"><label>5</label>
+<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Bornemissza</surname><given-names>GF</given-names></name> (<year>1960</year>) <article-title>Could dung eating insects improve our pastures?</article-title> <source>J Aust Inst Agric Sc</source> <volume>26</volume>: <fpage>54</fpage>–<lpage>56</lpage>.</mixed-citation>
+</ref>
+<ref id="pone.0080560-Tomassen1"><label>6</label>
+<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Tomassen</surname><given-names>HBM</given-names></name>, <name name-style="western"><surname>Smolders</surname><given-names>AJP</given-names></name>, <name name-style="western"><surname>Lamers</surname><given-names>LPM</given-names></name>, <name name-style="western"><surname>Roelofs</surname><given-names>JGM</given-names></name> (<year>2005</year>) <article-title>How bird droppings can affect the vegetation composition of ombrotrophic bogs</article-title>. <source>Can J Bot</source> <volume>83</volume>: <fpage>1046</fpage>–<lpage>1056</lpage>.</mixed-citation>
+</ref>
+<ref id="pone.0080560-Prasad1"><label>7</label>
+<mixed-citation publication-type="other" xlink:type="simple">Prasad V, Strömberg CAE, Alimohammadian H, Sahni A (2005) Dinosaur Coprolites and the Early Evolution of Grasses and Grazers. Science 310, 1177–1180.</mixed-citation>
+</ref>
+<ref id="pone.0080560-Chin1"><label>8</label>
+<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Chin</surname><given-names>K</given-names></name> (<year>2007</year>) <article-title>The paleobiological implications of herbivorous dinosaur coprolites from the Upper Cretaceous Two Medicine formation of Montana: Why eat wood?</article-title> <source>Palaios 22</source> <volume>5</volume>: <fpage>554</fpage>–<lpage>566</lpage>.</mixed-citation>
+</ref>
+<ref id="pone.0080560-Krell1"><label>9</label>
+<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Krell</surname><given-names>FT</given-names></name> (<year>2006</year>) <article-title>Fossil record and evolution of Scarabaeoidea (Coleoptera: Polyphaga)</article-title>. <source>Coleopterists Society Monograph Number</source> <volume>5</volume>: <fpage>120</fpage>–<lpage>143</lpage>.</mixed-citation>
+</ref>
+<ref id="pone.0080560-Bai1"><label>10</label>
+<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Bai</surname><given-names>M</given-names></name>, <name name-style="western"><surname>Ahrens</surname><given-names>D</given-names></name>, <name name-style="western"><surname>Yang</surname><given-names>X-K</given-names></name>, <name name-style="western"><surname>Ren</surname><given-names>D</given-names></name> (<year>2012</year>) <article-title>New fossil evidence of the early diversification of scarabs: <italic>Alloioscarabaeus cheni</italic> (Coleoptera: Scarabaeoidea) from the Middle Jurassic of Inner Mongolia, China</article-title>. <source>Insect Sci</source> <volume>19</volume>: <fpage>159</fpage>–<lpage>171</lpage>.</mixed-citation>
+</ref>
+<ref id="pone.0080560-McBrayer1"><label>11</label>
+<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>McBrayer</surname><given-names>JF</given-names></name> (<year>1973</year>) <article-title>Exploitation of deciduous leaf litter by <italic>Apheloria montana</italic> (Diplopoda: Eurydesmidae)</article-title>. <source>Pedobiologia</source> <volume>13</volume>: <fpage>90</fpage>–<lpage>98</lpage>.</mixed-citation>
+</ref>
+<ref id="pone.0080560-Bell1"><label>12</label>
+<mixed-citation publication-type="book" xlink:type="simple">Bell WJ, Roth LM, Nalepa CA (2007) Cockroaches: Ecology, Behavior, and Natural History. BaltimoreMD: The John Hopkins University Press. 230 p.</mixed-citation>
+</ref>
+<ref id="pone.0080560-Johannes1"><label>13</label>
+<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Johannes</surname><given-names>RE</given-names></name>, <name name-style="western"><surname>Satomi</surname><given-names>M</given-names></name> (<year>1966</year>) <article-title>Composition and nutritive value of fecal pellets of a marine crustacean</article-title>. <volume>11</volume>: <fpage>191</fpage>–<lpage>197</lpage>.</mixed-citation>
+</ref>
+<ref id="pone.0080560-Beland1"><label>14</label>
+<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Beland</surname><given-names>P</given-names></name>, <name name-style="western"><surname>Russell</surname><given-names>DA</given-names></name> (<year>1978</year>) <article-title>Paleoecology of Dinosaur Provincial Park (Cretaceous), Alberta, interpreted from the distribution of articulated vertebrate remains: Can J Earth Sci</article-title>. <volume>15</volume>: <fpage>1012</fpage>–<lpage>1024</lpage>.</mixed-citation>
+</ref>
+<ref id="pone.0080560-Chin2"><label>15</label>
+<mixed-citation publication-type="other" xlink:type="simple">Chin K, Hartman JH, Roth B (2009) Opportunistic exploitation of dinosaur dung: fossil snails in coprolites from the Upper Cretaceous Two Medicine Formation of Montana. Lethaia 42: 185–198.</mixed-citation>
+</ref>
+<ref id="pone.0080560-Vidlika1"><label>16</label>
+<mixed-citation publication-type="other" xlink:type="simple">Vidlička L′ (2001) Blattaria - šváby, Mantodea – modlivky (Insecta: Orthopteroidea). Fauna Slovenska. Veda, Bratislava. In Slovak.</mixed-citation>
+</ref>
+<ref id="pone.0080560-Arillo1"><label>17</label>
+<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Arillo</surname><given-names>A</given-names></name>, <name name-style="western"><surname>Ortuño</surname><given-names>VM</given-names></name> (<year>2008</year>) <article-title>Did dinosaurs have any relation with dung-beetles? (The origin of coprophagy)</article-title>. <source>J Nat Hist 42</source> <volume>(19–20)</volume>: <fpage>1405</fpage>–<lpage>1408</lpage>.</mixed-citation>
+</ref>
+<ref id="pone.0080560-Dix1"><label>18</label>
+<mixed-citation publication-type="book" xlink:type="simple">Dix NJ, Webster J (1995) Fungal Ecology. London: Chapman &amp; Hall. 549 p.</mixed-citation>
+</ref>
+<ref id="pone.0080560-Wilkinson1"><label>19</label>
+<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Wilkinson</surname><given-names>DM</given-names></name>, <name name-style="western"><surname>Nisbet</surname><given-names>EG</given-names></name>, <name name-style="western"><surname>Ruxton</surname><given-names>GD</given-names></name> (<year>2012</year>) <article-title>Could methane produced by sauropod dinosaurs have helped drive Mesozoic climate warmth?</article-title> <source>Curr Biol</source> <volume>22</volume>: <fpage>292</fpage>–<lpage>293</lpage>.</mixed-citation>
+</ref>
+<ref id="pone.0080560-Vishniakova1"><label>20</label>
+<mixed-citation publication-type="other" xlink:type="simple">Vishniakova VN (1982) Yurskie tarakanovye semyeistva Blattulidae fam. nov. (Insecta: Blattida) [Jurassic cockroaches of the family Blattulidae fam.nov. (Insecta: Blattida)]. Paleontol J: 69–79. In Russian.</mixed-citation>
+</ref>
+<ref id="pone.0080560-Vransk3"><label>21</label>
+<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Vršanský</surname><given-names>P</given-names></name> (<year>2005</year>) <article-title>Insect in a drilling core – cockroach <italic>Kridla stastia</italic> sp.nov. from the Verkhne-Bureinskaya Depression in Eastern Russia</article-title>. <source>Entomol Probl</source> <volume>35</volume>: <fpage>115</fpage>–<lpage>116</lpage>.</mixed-citation>
+</ref>
+<ref id="pone.0080560-Vishniakova2"><label>22</label>
+<mixed-citation publication-type="other" xlink:type="simple">Vishniakova VN (1968) Mesozoic cockroaches with an external ovipositor and pecularities of their reproduction (Blattodea). In: Rohdendorf BB, editor. Jurassic Insects of Karatau. Nauka, Moscow. pp. 55–86. In Russian.</mixed-citation>
+</ref>
+<ref id="pone.0080560-Wang1"><label>23</label>
+<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Wang</surname><given-names>TT</given-names></name>, <name name-style="western"><surname>Liang</surname><given-names>JH</given-names></name>, <name name-style="western"><surname>Ren</surname><given-names>D</given-names></name> (<year>2007</year>) <article-title>Variability of <italic>Habroblattula drepanoides</italic> gen. et. sp nov (Insecta : Blattaria : Blattulidae) from the Yixian Formation in Liaoning, China</article-title>. <source>Zootaxa</source> <volume>1443</volume>: <fpage>17</fpage>–<lpage>27</lpage>.</mixed-citation>
+</ref>
+<ref id="pone.0080560-Wang2"><label>24</label>
+<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Wang</surname><given-names>TT</given-names></name>, <name name-style="western"><surname>Liang</surname><given-names>JH</given-names></name>, <name name-style="western"><surname>Ren</surname><given-names>D</given-names></name>, <name name-style="western"><surname>Shi</surname><given-names>C</given-names></name> (<year>2007</year>) <article-title>New Mesozoic cockroaches (Blattaria: Blattulidae) from Jehol Biota of western Liaoning in China</article-title>. <source>Ann Zool</source> <volume>57</volume>: <fpage>483</fpage>–<lpage>495</lpage>.</mixed-citation>
+</ref>
+<ref id="pone.0080560-Vransk4"><label>25</label>
+<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Vršanský</surname><given-names>P</given-names></name> (<year>2000</year>) <article-title>Decreasing variability-from the Carboniferous to the Present! (Validated on independent lineages of Blattaria)</article-title>. <source>Paleontol J</source> <volume>34</volume> (Suppl. 3)<fpage>374</fpage>–<lpage>379</lpage>.</mixed-citation>
+</ref>
+<ref id="pone.0080560-Vransk5"><label>26</label>
+<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Vršanský</surname><given-names>P</given-names></name> (<year>2005</year>) <article-title>Mass mutations of insects at the Jurassic/Cretaceous boundary?</article-title> <source>Geol Carpath</source> <volume>56</volume>: <fpage>473</fpage>–<lpage>781</lpage>.</mixed-citation>
+</ref>
+<ref id="pone.0080560-Vransk6"><label>27</label>
+<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Vršanský</surname><given-names>P</given-names></name> (<year>2008</year>) <article-title>Mesozoic relative of the common synanthropic German cockroach (Blattodea)</article-title>. <source>Deut Entomol Z</source> <volume>55</volume>: <fpage>215</fpage>–<lpage>221</lpage>.</mixed-citation>
+</ref>
+<ref id="pone.0080560-Vransk7"><label>28</label>
+<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Vršanský</surname><given-names>P</given-names></name> (<year>2009</year>) <article-title>Albian cockroaches (Insecta, Blattida) from French amber of Archingeay</article-title>. <source>Geodiversitas</source> <volume>31</volume>: <fpage>73</fpage>–<lpage>98</lpage>.</mixed-citation>
+</ref>
+<ref id="pone.0080560-Poinar1"><label>29</label>
+<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Poinar</surname><given-names>G</given-names></name>, <name name-style="western"><surname>Boucot</surname><given-names>AJ</given-names></name> (<year>2006</year>) <article-title>Evidence of intestinal parasites of dinosaurs</article-title>. <source>Parasitology</source> <volume>133</volume>: <fpage>245</fpage>–<lpage>249</lpage>.</mixed-citation>
+</ref>
+<ref id="pone.0080560-Porter1"><label>30</label>
+<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Porter</surname><given-names>A</given-names></name> (<year>1918</year>) <article-title>A survey of the intestinal entozoa, both protozoal and helminthic, observed among natives in Johannesburg, from June to November, 1917</article-title>. <source>South African Inst Mem</source> <volume>11</volume>: <fpage>1</fpage>–<lpage>58</lpage>.</mixed-citation>
+</ref>
+<ref id="pone.0080560-Azar1"><label>31</label>
+<mixed-citation publication-type="other" xlink:type="simple">Azar D, Gèze R, Acra F (2010) Chapter 14: Lebanese amber In: Biodiversity of Fossils in Amber from the Major World Deposits, D Penney, ediotor. Manchester: Siri Scientific Press. pp. 271–298.</mixed-citation>
+</ref>
+<ref id="pone.0080560-Bonse1"><label>32</label>
+<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Bonse</surname><given-names>U</given-names></name>, <name name-style="western"><surname>Bush</surname><given-names>F</given-names></name> (<year>1996</year>) <article-title>X-ray computed microtomography using synchrotron radiation Prog Biophys Mol Biol</article-title>. <volume>65</volume>: <fpage>133</fpage>–<lpage>169</lpage>.</mixed-citation>
+</ref>
+<ref id="pone.0080560-Paganin1"><label>33</label>
+<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Paganin</surname><given-names>D</given-names></name>, <name name-style="western"><surname>Mayo</surname><given-names>SC</given-names></name>, <name name-style="western"><surname>Gureyev</surname><given-names>TE</given-names></name>, <name name-style="western"><surname>Miller</surname><given-names>PR</given-names></name>, <name name-style="western"><surname>Wilkins</surname><given-names>SW</given-names></name> (<year>2002</year>) <article-title>Simultaneous phase and amplitude extraction from a single defocused image of a homogeneous object</article-title>. <source>J Microsc</source> <volume>206</volume>: <fpage>33</fpage>–<lpage>40</lpage>.</mixed-citation>
+</ref>
+<ref id="pone.0080560-Weitkamp1"><label>34</label>
+<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Weitkamp</surname><given-names>T</given-names></name>, <name name-style="western"><surname>Haas</surname><given-names>D</given-names></name>, <name name-style="western"><surname>Wegrzynek</surname><given-names>D</given-names></name>, <name name-style="western"><surname>Rack</surname><given-names>A</given-names></name> (<year>2011</year>) <article-title><italic>ANKAphase</italic>: software for single-distance phase retrieval from inline X-ray phase-contrast radiographs</article-title>. <source>J Synchrotron Rad</source> <volume>18</volume>: <fpage>617</fpage>–<lpage>629</lpage>.</mixed-citation>
+</ref>
+<ref id="pone.0080560-Chilingaryan1"><label>35</label>
+<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Chilingaryan</surname><given-names>H</given-names></name>, <name name-style="western"><surname>Mirone</surname><given-names>A</given-names></name>, <name name-style="western"><surname>Hammersley</surname><given-names>A</given-names></name>, <name name-style="western"><surname>Ferrero</surname><given-names>C</given-names></name>, <name name-style="western"><surname>Helfen</surname><given-names>L</given-names></name> (<year>2011</year>) <article-title>A GPU-Based Architecture for Real-Time Data Assessment at Synchrotron Experiments</article-title>. <source>IEEE Trans Nucl Sci</source> <volume>58</volume>: <fpage>1447</fpage>–<lpage>1455</lpage>.</mixed-citation>
+</ref>
+<ref id="pone.0080560-Anisyutkin1"><label>36</label>
+<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Anisyutkin</surname><given-names>LN</given-names></name>, <name name-style="western"><surname>Gorochov</surname><given-names>VN</given-names></name> (<year>2007</year>) <article-title>A New Genus and Species of the Cockroach Family Blattulidae from Lebanese Amber (Dictyoptera, Blattina)</article-title>. <source>Paleontol J</source> <volume>42(1)</volume>: <fpage>43</fpage>–<lpage>46</lpage>.</mixed-citation>
+</ref>
+<ref id="pone.0080560-Vransk8"><label>37</label>
+<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Vršanský</surname><given-names>P</given-names></name> (<year>2004</year>) <article-title>Cretaceous Gondwanian Cockroaches (Insecta, Blattaria)</article-title>. <source>Entomol Probl</source> <volume>34</volume>: <fpage>49</fpage>–<lpage>54</lpage>.</mixed-citation>
+</ref>
+<ref id="pone.0080560-Vransk9"><label>38</label>
+<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Vršanský</surname><given-names>P</given-names></name> (<year>2008</year>) <article-title>A complete larva of a Mesozoic (Early Cenomanian) cockroach from the Sisteron amber</article-title>. <source>Geol Carpath 59</source> <volume>3</volume>: <fpage>269</fpage>–<lpage>272</lpage>.</mixed-citation>
+</ref>
+<ref id="pone.0080560-Vransk10"><label>39</label>
+<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Vršanský</surname><given-names>P</given-names></name>, <name name-style="western"><surname>Chorvát</surname><given-names>D</given-names></name>, <name name-style="western"><surname>Fritzsche</surname><given-names>I</given-names></name>, <name name-style="western"><surname>Hain</surname><given-names>M</given-names></name>, <name name-style="western"><surname>Ševčík</surname><given-names>R</given-names></name> (<year>2012</year>) <article-title>Light-mimicking cockroaches indicate Tertiary origin of recent terrestrial luminescence</article-title>. <source>Naturwissenschaften</source> <volume>99(9)</volume>: <fpage>739</fpage>–<lpage>749</lpage>.</mixed-citation>
+</ref>
+<ref id="pone.0080560-Vransk11"><label>40</label>
+<mixed-citation publication-type="other" xlink:type="simple">Vršanský P, Chorvát D (2013) Luminescent system of <italic>Lucihormetica luckae</italic> supported by fluorescence lifetime imaging. Naturwissenschaften 100(11). In press.</mixed-citation>
+</ref>
+<ref id="pone.0080560-Gnaspini1"><label>41</label>
+<mixed-citation publication-type="other" xlink:type="simple">Gnaspini P, Trajano E (2000) Guano communities in tropical caves. In: Wilkens H, Culver DC, Humphreys WF, editors. Ecosystems of the World. Vol. 30: Subterranean Ecosystems. Amsterdam: Elsevier. pp. 251–268.</mixed-citation>
+</ref>
+<ref id="pone.0080560-Paulian1"><label>42</label>
+<mixed-citation publication-type="other" xlink:type="simple">Paulian R (1948) Observations sur la faune entomologique des nids de Ploceinae. Proceedings of the 8th International Congress of Entomology, Stockholm: 454–456.</mixed-citation>
+</ref>
+<ref id="pone.0080560-Wolcott1"><label>43</label>
+<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Wolcott</surname><given-names>GN</given-names></name> (<year>1950</year>) <article-title>The insects of Puerto Rico</article-title>. <source>Journ Agr Univ Puerto Rico (1948)</source> <volume>32</volume>: <fpage>1</fpage>–<lpage>224</lpage>.</mixed-citation>
+</ref>
+<ref id="pone.0080560-Rehn1"><label>44</label>
+<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Rehn</surname><given-names>JAG</given-names></name> (<year>1965</year>) <article-title>A new genus of symbiotic cockroach from southwest Africa (Orthoptera: Blattaria: Oxyhaloinae)</article-title>. <source>Notulae Naturae</source> <volume>374</volume>: <fpage>1</fpage>–<lpage>8</lpage>.</mixed-citation>
+</ref>
+<ref id="pone.0080560-Roth1"><label>45</label>
+<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Roth</surname><given-names>LM</given-names></name> (<year>1973</year>) <article-title>Brazilian cockroaches found in birds nests, with descriptions of new genera and species</article-title>. <source><italic>Proc Entomol Soc Washington</italic></source> <volume>75</volume>: <fpage>1</fpage>–<lpage>27</lpage>.</mixed-citation>
+</ref>
+<ref id="pone.0080560-vanBaaren1"><label>46</label>
+<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>van Baaren</surname><given-names>J</given-names></name>, <name name-style="western"><surname>Deleporte</surname><given-names>P</given-names></name>, <name name-style="western"><surname>Grandcolas</surname><given-names>P</given-names></name> (<year>2002</year>) <article-title>Cockroaches of French Guiana Icteridae birds nests</article-title>. <source>Amazonia</source> <volume>17</volume>: <fpage>243</fpage>–<lpage>248</lpage>.</mixed-citation>
+</ref>
+<ref id="pone.0080560-Darlington1"><label>47</label>
+<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Darlington</surname><given-names>JPEC</given-names></name> (<year>1995</year>) <article-title>A review of current knowledge about the Oropouche or Cumaca cave, Trinidad, West Indies</article-title>. <source>Studies in Speleology</source> <volume>10</volume>: <fpage>65</fpage>–<lpage>74</lpage>.</mixed-citation>
+</ref>
+<ref id="pone.0080560-Schal1"><label>48</label>
+<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Schal</surname><given-names>C</given-names></name>, <name name-style="western"><surname>Bell</surname><given-names>WJ</given-names></name> (<year>1982</year>) <article-title>Ecological correlates of paternal investment in a tropical cockroach</article-title>. <source>Science</source> <volume>218</volume>: <fpage>170</fpage>–<lpage>172</lpage>.</mixed-citation>
+</ref>
+<ref id="pone.0080560-Christoffersen1"><label>49</label>
+<mixed-citation publication-type="other" xlink:type="simple">Christoffersen ML, De Assis JE (2013) A systematic monograph of the Recent Pentastomida, with a compilation of their hosts. Zool Med Leiden 87(1): 1–206, figs. 1–4.</mixed-citation>
+</ref>
+<ref id="pone.0080560-Kaddumi1"><label>50</label>
+<mixed-citation publication-type="book" xlink:type="simple">Kaddumi HF (2005) Amber of Jordan – the oldest prehistoric insects in fossilised resin. Amman: Publications of the Eternal River Museum of Natural History. 168 p.</mixed-citation>
+</ref>
+<ref id="pone.0080560-Vransk12"><label>51</label>
+<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Vršanský</surname><given-names>P</given-names></name> (<year>2003</year>) <article-title>Unique assemblage of Dictyoptera (Insecta- Blattaria, Mantodea, Isoptera, Mantodea) from the Lower Cretaceous of Bon Tsagaan Nuur in Mongolia</article-title>. <source>Entomol Probl</source> <volume>33</volume>: <fpage>119</fpage>–<lpage>151</lpage>.</mixed-citation>
+</ref>
+<ref id="pone.0080560-Darlington2"><label>52</label>
+<mixed-citation publication-type="other" xlink:type="simple">Darlington JPEC (1970) Studies on the ecology of the Tamana Caves with special reference to cave dwelling cockroaches. Ph.D. thesis, University of the West Indies, Trinidad. 224 pp.</mixed-citation>
+</ref>
+<ref id="pone.0080560-Gautier1"><label>53</label>
+<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Gautier</surname><given-names>JY</given-names></name> (<year>1974</year>) <article-title>Etude comparee de la distribution spatiale et temporelle des adultes de <italic>Blaberus atropos</italic> et <italic>B. colosseus</italic> (Dictyopteres) dans cinq grottes de l’ile de Trinidad</article-title>. <source>Revue du Comportement de Animale</source> <volume>9</volume>: <fpage>237</fpage>–<lpage>258</lpage>.</mixed-citation>
+</ref>
+<ref id="pone.0080560-Gautier2"><label>54</label>
+<mixed-citation publication-type="other" xlink:type="simple">Gautier JY (1974) Processus de differenciation de l’organi zation sociale chez quelques especes de Blattes du genre <italic>Blaberus:</italic> aspects ecologiques et ethologiques. These de doctorat d’etat, L’Universite de Rennes.</mixed-citation>
+</ref>
+<ref id="pone.0080560-Sahney1"><label>55</label>
+<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Sahney</surname><given-names>S</given-names></name>, <name name-style="western"><surname>Benton</surname><given-names>MJ</given-names></name>, <name name-style="western"><surname>Ferry</surname><given-names>PA</given-names></name> (<year>2010</year>) <article-title>Links between global taxonomic diversity, ecological diversity and the expansion of vertebrates on land</article-title>. <source>Biol Lett</source> <volume>6(4)</volume>: <fpage>544</fpage>–<lpage>547</lpage>.</mixed-citation>
+</ref>
+<ref id="pone.0080560-Ballor1"><label>56</label>
+<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Ballor</surname><given-names>NR</given-names></name>, <name name-style="western"><surname>Leadbetter</surname><given-names>JR</given-names></name> (<year>2012</year>) <article-title>Analysis of extensive [FeFe] hydrogenase gene diversity within the gut microbiota of insects representing five families of Dictyoptera</article-title>. <source>Microbial Ecology</source> <volume>63(3)</volume>: <fpage>586</fpage>–<lpage>595</lpage>.</mixed-citation>
+</ref>
+<ref id="pone.0080560-Poulson1"><label>57</label>
+<mixed-citation publication-type="other" xlink:type="simple">Poulson TL, Lavoie KH (2000) The trophic basis of subsurface ecosystems. In: Wilkens H, Culver DC, Humphreys WF, editors. Ecosystems of the World. Vol. 30: Subterranean Ecosystems. Amsterdam: Elsevier. pp. 231–249.</mixed-citation>
+</ref>
+<ref id="pone.0080560-Engel1"><label>58</label>
+<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Engel</surname><given-names>MS</given-names></name>, <name name-style="western"><surname>Grimaldi</surname><given-names>D</given-names></name>, <name name-style="western"><surname>Krishna</surname><given-names>K</given-names></name> (<year>2009</year>) <article-title>Termites (Isoptera): Their Phylogeny, Classification, and Rise to Ecological Dominance</article-title>. <source>Am Mus Novit</source> <volume>3650</volume>: <fpage>1</fpage>–<lpage>27</lpage>.</mixed-citation>
+</ref>
+<ref id="pone.0080560-Engel2"><label>59</label>
+<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Engel</surname><given-names>MS</given-names></name>, <name name-style="western"><surname>Nel</surname><given-names>A</given-names></name>, <name name-style="western"><surname>Azar</surname><given-names>D</given-names></name>, <name name-style="western"><surname>Soriano</surname><given-names>C</given-names></name>, <name name-style="western"><surname>Tafforeau</surname><given-names>P</given-names></name> (<year>2011</year>) <article-title>New primitive termites (Isoptera) from Early Cretaceous amber of France and Lebanon</article-title>. <source>Palaeodiversity</source> <volume>4</volume>: <fpage>39</fpage>–<lpage>49</lpage>.</mixed-citation>
+</ref>
+<ref id="pone.0080560-Rogers1"><label>60</label>
+<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Rogers</surname><given-names>KL</given-names></name> (<year>1985</year>) <article-title>Possible physiological and behavioural adaptations of herbivorous dinosaurs</article-title>. <source>Journal of Vertebrate Paleontology</source> <volume>5</volume>: <fpage>371</fpage>–<lpage>372</lpage>.</mixed-citation>
+</ref>
+<ref id="pone.0080560-Halftter1"><label>61</label>
+<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Halftter</surname><given-names>G</given-names></name>, <name name-style="western"><surname>Matthews</surname><given-names>EG</given-names></name> (<year>1966</year>) <article-title>The natural history of dung beetles of the subfamily Scarabaeinae (Coleoptera, Scarabaeidae): Folia Entomol Mexic</article-title>. <volume>12–14</volume>: <fpage>1</fpage>–<lpage>281</lpage>.</mixed-citation>
+</ref>
+<ref id="pone.0080560-Hanski1"><label>62</label>
+<mixed-citation publication-type="other" xlink:type="simple">Hanski I, Cambefort Y (1991) Competition in dung beetles. In: Dung Beetle Ecology, Hanski I, Cambefort Y, editors. Princeton Univ. Press, New Jersey, pp. 305–329.</mixed-citation>
+</ref>
+<ref id="pone.0080560-Chin3"><label>63</label>
+<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Chin</surname><given-names>K</given-names></name>, <name name-style="western"><surname>Gill</surname><given-names>BD</given-names></name> (<year>1996</year>) <article-title>Dinosaurs, Dung Beetles, and Conifers: Participants in a Cretaceous Food Web</article-title>. <source>Palaios</source> <volume>11</volume>: <fpage>280</fpage>–<lpage>285</lpage>.</mixed-citation>
+</ref>
+<ref id="pone.0080560-Ponomarenko1"><label>64</label>
+<mixed-citation publication-type="other" xlink:type="simple">Ponomarenko AG (2006) Evolution of phytophagy. Assemblage palaeoecology and evolution: 257–270.</mixed-citation>
+</ref>
+<ref id="pone.0080560-Dolezych1"><label>65</label>
+<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Dolezych</surname><given-names>M</given-names></name>, <name name-style="western"><surname>Estrada</surname><given-names>S</given-names></name> (<year>2012</year>) <article-title>A fossil wood of Taxodioxylon vanderburghii Dolezych in Paleogene sediments of Ellesmere Island (Nunavut, Canada)</article-title>. <source>Z dt Ges Gewiss</source> <volume>163(3)</volume>: <fpage>283</fpage>–<lpage>292</lpage>.</mixed-citation>
+</ref>
+<ref id="pone.0080560-Arillo2"><label>66</label>
+<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Arillo</surname><given-names>A</given-names></name> (<year>2007</year>) <article-title>Paleoethology: fossilized behaviours in amber</article-title>. <source>Geologica Acta</source> <volume>5</volume>: <fpage>159</fpage>–<lpage>166</lpage>.</mixed-citation>
+</ref>
+<ref id="pone.0080560-Poinar2"><label>67</label>
+<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Poinar</surname><given-names>GO</given-names><suffix>Jr</suffix></name> (<year>1998</year>) <article-title>Trace fossils in amber: a new dimension for the ichnologist</article-title>. <source>Ichnos</source> <volume>6</volume>: <fpage>47</fpage>–<lpage>52</lpage>.</mixed-citation>
+</ref>
+<ref id="pone.0080560-Colin1"><label>68</label>
+<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Colin</surname><given-names>JP</given-names></name>, <name name-style="western"><surname>Néraudeau</surname><given-names>D</given-names></name>, <name name-style="western"><surname>Nel</surname><given-names>A</given-names></name>, <name name-style="western"><surname>Perrichot</surname><given-names>V</given-names></name> (<year>2011</year>) <article-title>Termite coprolites (Insecta: Isoptera) from the Cretaceous of western France: A palaeoecological insight</article-title>. <source>Revue de micropaléontologie</source> <volume>54</volume>: <fpage>129</fpage>–<lpage>139</lpage>.</mixed-citation>
+</ref>
+<ref id="pone.0080560-Conwentz1"><label>69</label>
+<mixed-citation publication-type="other" xlink:type="simple">Conwentz H (1890) Monographie der Baltischen Bernsteinbäume. Leipzig: Wilhelm Engelmann.</mixed-citation>
+</ref>
+<ref id="pone.0080560-Weidner1"><label>70</label>
+<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Weidner</surname><given-names>H</given-names></name> (<year>1956</year>) <article-title>Kotballen von Termiten im Bernstein</article-title>. <source>Veröffentlichungen aus dem Überseemuseum in Bremen (Naturwissenschaften)</source> <volume>2A</volume>: <fpage>363</fpage>–<lpage>364</lpage>.</mixed-citation>
+</ref>
+<ref id="pone.0080560-Nuorteva1"><label>71</label>
+<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Nuorteva</surname><given-names>M</given-names></name>, <name name-style="western"><surname>Kinnunen</surname><given-names>KA</given-names></name> (<year>2008</year>) <article-title>Insect frass in Baltic amber</article-title>. <source>Bull Geol Soc Fin</source> <volume>80</volume>: <fpage>105</fpage>–<lpage>124</lpage>.</mixed-citation>
+</ref>
+<ref id="pone.0080560-Grimaldi1"><label>72</label>
+<mixed-citation publication-type="other" xlink:type="simple">Grimaldi DJ (1996) Amber. Window to the past. New York: Abrams, AMNH.</mixed-citation>
+</ref>
+<ref id="pone.0080560-Schmidt1"><label>73</label>
+<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Schmidt</surname><given-names>AR</given-names></name>, <name name-style="western"><surname>Dörfelt</surname><given-names>D</given-names></name>, <name name-style="western"><surname>Struwe</surname><given-names>S</given-names></name>, <name name-style="western"><surname>Perrichot</surname><given-names>V</given-names></name> (<year>2010</year>) <article-title>Evidence for fungivory in Cretaceous amber forest from Gondwana and Laurasia</article-title>. <source>Palaeontographica Abt B</source> <volume>283</volume>: <fpage>157</fpage>–<lpage>173</lpage>.</mixed-citation>
+</ref>
+<ref id="pone.0080560-Kirejtshuk1"><label>74</label>
+<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Kirejtshuk</surname><given-names>G</given-names></name>, <name name-style="western"><surname>Azar</surname><given-names>D</given-names></name>, <name name-style="western"><surname>Montreuil</surname><given-names>O</given-names></name> (<year>2011</year>) <article-title>First Mesozoic representative of the subfamily Liparochrinae (Coleoptera: Hybosoridae) from the Lower Cretaceous Lebanese amber</article-title>. <source>Zoosystematica Rossica</source> <volume>20</volume>: <fpage>62</fpage>–<lpage>70</lpage>.</mixed-citation>
+</ref>
+<ref id="pone.0080560-Nikolaev1"><label>75</label>
+<mixed-citation publication-type="other" xlink:type="simple">Nikolaev GV (2007) Mesozoic stage of the scarab evolution (Insecta: Coleoptera: Scarabaeoidea). Kazakh Univ., Almaaty. In Russian.</mixed-citation>
+</ref>
+<ref id="pone.0080560-Lin1"><label>76</label>
+<mixed-citation publication-type="other" xlink:type="simple">Lin QB (1980) Mesozoic insects from Zhejiang and Anhui. In: Division and Correlation of Mesozoic Volcano-sedimentary Formation in Zhejiang and Anhui Provinces. Beijing: Science Press. pp. 211–238.</mixed-citation>
+</ref>
+<ref id="pone.0080560-Nikolajev1"><label>77</label>
+<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Nikolajev</surname><given-names>GV</given-names></name> (<year>2008</year>) <article-title>A new species of the subfamily Aphodiinae (Coleoptera: Scarabaeidae) from the Lower Cretaceous of Transbaikalia</article-title>. <source>Caucas Entomol Bull</source> <volume>4</volume>: <fpage>291</fpage>–<lpage>293</lpage>.</mixed-citation>
+</ref>
+<ref id="pone.0080560-Nikolajev2"><label>78</label>
+<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Nikolajev</surname><given-names>GV</given-names></name> (<year>1992</year>) <article-title>Taxonomic criteria and generic composition of Mesozoic lamellicorn beetles (Coleoptera, Scarabaeidae)</article-title>. <source>Paleontol J</source> <volume>26(1)</volume>: <fpage>96</fpage>–<lpage>111</lpage>.</mixed-citation>
+</ref>
+<ref id="pone.0080560-Nikolajev3"><label>79</label>
+<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Nikolajev</surname><given-names>GV</given-names></name>, <name name-style="western"><surname>Ren</surname><given-names>D</given-names></name> (<year>2010</year>) <article-title>New genus of the subfamily Geotrupinae (Coleoptera: Scarabaeoidea: Geotrupidae) from the Jehol Biota</article-title>. <source>Acta Geol Sin-Engl Ed</source> <volume>84</volume>: <fpage>673</fpage>–<lpage>675</lpage>.</mixed-citation>
+</ref>
+<ref id="pone.0080560-Ponomarenko2"><label>80</label>
+<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Ponomarenko</surname><given-names>AG</given-names></name> (<year>2010</year>) <article-title>Arthropods in the evolution of continental basins</article-title>. <source>Her Russ Acad Sci</source> <volume>80(5)</volume>: <fpage>438</fpage>–<lpage>446</lpage>.</mixed-citation>
+</ref>
+<ref id="pone.0080560-Culver1"><label>81</label>
+<mixed-citation publication-type="book" xlink:type="simple">Culver DC, Kane TC, Fong DW (1995) Adaptation and natural selection in caves: the evolution of Gammarus minus. CambridgeMA: Harvard University Press. 223 p.</mixed-citation>
+</ref>
+<ref id="pone.0080560-Buffetaut1"><label>82</label>
+<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Buffetaut</surname><given-names>E</given-names></name>, <name name-style="western"><surname>Azar</surname><given-names>D</given-names></name>, <name name-style="western"><surname>Nel</surname><given-names>A</given-names></name>, <name name-style="western"><surname>Ziadé</surname><given-names>K</given-names></name>, <name name-style="western"><surname>Acra</surname><given-names>A</given-names></name> (<year>2006</year>) <article-title>First nonavian dinosaur from Lebanon: a brachiosaurid sauropod from the Lower Cretaceous of the Jezzine District</article-title>. <source>Naturwissenschaften</source> <volume>93</volume>: <fpage>440</fpage>–<lpage>443</lpage>.</mixed-citation>
+</ref>
+<ref id="pone.0080560-Ball1"><label>83</label>
+<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Ball</surname><given-names>ED</given-names></name>, <name name-style="western"><surname>Tinkham</surname><given-names>ER</given-names></name>, <name name-style="western"><surname>Flock</surname><given-names>R</given-names></name>, <name name-style="western"><surname>Vorhies</surname><given-names>CT</given-names></name> (<year>1942</year>) <article-title>The grasshoppers and other Orthoptera of Arizona</article-title>. <source>Univ Arizona Coll Agr Exp Stat Techn Bull</source> <volume>93</volume>: <fpage>257</fpage>–<lpage>373</lpage>.</mixed-citation>
+</ref>
+<ref id="pone.0080560-Ali1"><label>84</label>
+<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Ali</surname><given-names>JH</given-names></name>, <name name-style="western"><surname>Riley</surname><given-names>J</given-names></name> (<year>1983</year>) <article-title>Experimental life-cycle studies of <italic>Raillietiella gehyrae</italic> Bovien, 1927 and <italic>Raillietiella frenatus</italic> Ali, Riley and Self, 1981: pentastomid parasites of geckos utilizing insects as intermediate hosts</article-title>. <source>Parasitology</source> <volume>86</volume>: <fpage>147</fpage>–<lpage>160</lpage>.</mixed-citation>
+</ref>
+<ref id="pone.0080560-DeCoursey1"><label>85</label>
+<mixed-citation publication-type="other" xlink:type="simple">DeCoursey JD, Otto JS (1956) Some protozoan organisms in cockroaches in the Cairo, Egypt area, with special reference to Endamoeha histolytica. US Nav Med Res Unit 3, Res Rep NM 005 050.60.01, 7 pp.</mixed-citation>
+</ref>
+<ref id="pone.0080560-DeCoursey2"><label>86</label>
+<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>DeCoursey</surname><given-names>JD</given-names></name>, <name name-style="western"><surname>Otto</surname><given-names>JS</given-names></name> (<year>1957</year>) <article-title>Endamoeba histolytica and certain other protozoan organisms found in cockroaches in Cairo, Egypt Journ New York Ent Soc</article-title>. <volume>64</volume>: <fpage>157</fpage>–<lpage>163</lpage>.</mixed-citation>
+</ref>
+<ref id="pone.0080560-Chopard1"><label>87</label>
+<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Chopard</surname><given-names>L</given-names></name> (<year>1919</year>) <article-title>Zoological results of a tour in the far east. Les Orthopteres cavernicoles de Birmanie et de la Peninsule Malaise</article-title>. <source>Mem Asiatic Soc Bengal</source> <volume>6</volume>: <fpage>341</fpage>–<lpage>396</lpage>.</mixed-citation>
+</ref>
+<ref id="pone.0080560-Chopard2"><label>88</label>
+<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Chopard</surname><given-names>L</given-names></name> (<year>1929</year>) <article-title>Fauna of the Batu caves, Selangor. XII. Orthoptera and Dermaptera</article-title>. <source>Journ Fed Malay States Mus</source> <volume>14</volume>: <fpage>366</fpage>–<lpage>371</lpage>.</mixed-citation>
+</ref>
+<ref id="pone.0080560-Princis1"><label>89</label>
+<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Princis</surname><given-names>K</given-names></name>, <name name-style="western"><surname>Kevan</surname><given-names>DKMcE</given-names></name> (<year>1955</year>) <article-title>Cockroaches (Blattariae) from Trinidad, B.W.I., with a few records from other parts of the Caribbean</article-title>. <source>Opusc Ent</source> <volume>20</volume>: <fpage>149</fpage>–<lpage>169</lpage>.</mixed-citation>
+</ref>
+<ref id="pone.0080560-Chopard3"><label>90</label>
+<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Chopard</surname><given-names>L</given-names></name> (<year>1949</year>) <article-title>Les Orthopteroides cavernicoles de Madagascar</article-title>. <source>Mem Inst Sci Madagascar</source> <volume>3A</volume>: <fpage>41</fpage>–<lpage>56</lpage>.</mixed-citation>
+</ref>
+<ref id="pone.0080560-Chopard4"><label>91</label>
+<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Chopard</surname><given-names>L</given-names></name> (<year>1936</year>) <article-title>Biospeleologica. LXIII. Orthopteres et Dermapteres. Premiere serie</article-title>. <source>Arch Zool Exp et Gen</source> <volume>78</volume>: <fpage>195</fpage>–<lpage>214</lpage>.</mixed-citation>
+</ref>
+<ref id="pone.0080560-Leleup1"><label>92</label>
+<mixed-citation publication-type="other" xlink:type="simple">Leleup N (1956) La faune cavernicole du Congo Belge et considerations sur les Coleopteres reliques d’Afrique intertropicale. Ann Mus Roy Congo Belge, Tervuren (Belgique), ser. in-8°, Zool 46: 171 pp.</mixed-citation>
+</ref>
+<ref id="pone.0080560-Takahashi1"><label>93</label>
+<mixed-citation publication-type="other" xlink:type="simple">Takahashi R (1926) Observations on the aquatic cockroach Opisthoplatia maculata. Dobuts Zasshi Tokyo 38: 89–92. In Japanese.</mixed-citation>
+</ref>
+<ref id="pone.0080560-Slaney1"><label>94</label>
+<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Slaney</surname><given-names>DP</given-names></name> (<year>2001</year>) <article-title>New species of Australian cockroaches in the genus <italic>Paratemnopteryx</italic> Saussure (Blattaria, Blattellidae, Blattellinae), and a discussion of some behavioural observations with respect to the evolution and ecology of cave life</article-title>. <source>J Nat Hist</source> <volume>35</volume>: <fpage>1001</fpage>–<lpage>1012</lpage>.</mixed-citation>
+</ref>
+<ref id="pone.0080560-Richards1"><label>95</label>
+<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Richards</surname><given-names>AM</given-names></name> (<year>1971</year>) <article-title>An ecological study of the cavernicolous fauna of the Nullarbor Plain Southern Australia</article-title>. <source>J Zool London</source> <volume>164</volume>: <fpage>1</fpage>–<lpage>60</lpage>.</mixed-citation>
+</ref>
+<ref id="pone.0080560-Hebard1"><label>96</label>
+<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Hebard</surname><given-names>M</given-names></name> (<year>1917</year>) <article-title>The Blattidae of North America north of the Mexican boundary</article-title>. <source>Mem Amer Ent Soc</source> <volume>2</volume>: <fpage>284</fpage>.</mixed-citation>
+</ref>
+<ref id="pone.0080560-Blatchley1"><label>97</label>
+<mixed-citation publication-type="book" xlink:type="simple">Blatchley WS (1920) Orthoptera of Northeastern America. Indianapolis: The Nature Publishign Company. 784 p.</mixed-citation>
+</ref>
+<ref id="pone.0080560-Moulton1"><label>98</label>
+<mixed-citation publication-type="other" xlink:type="simple">Moulton JC (1912) “Where Wallace trod”: Being some account of an entomological trip to Mt. Serambu, Sarawak, Borneo. Entomologist 45: 213–217, 246–251.</mixed-citation>
+</ref>
+<ref id="pone.0080560-Rajamanickam1"><label>99</label>
+<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Rajamanickam</surname><given-names>C</given-names></name>, <name name-style="western"><surname>Lavoipierre</surname><given-names>MMJ</given-names></name> (<year>1965</year>) <article-title><italic>Periplaneta australasiae</italic> as an intermediate host of the pentastomid <italic>Raillietiella hemidactyli.</italic></article-title>. <source>Med J Malaysia</source> <volume>20</volume>: <fpage>171</fpage>.</mixed-citation>
+</ref>
+<ref id="pone.0080560-Rehn2"><label>100</label>
+<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Rehn</surname><given-names>JAG</given-names></name>, <name name-style="western"><surname>Hebard</surname><given-names>M</given-names></name> (<year>1914</year>) <article-title>Records of Dermaptera and Orthoptera from west central and southwestern Florida, collected by William T. Davis</article-title>. <source>Journ New York Ent Soc</source> <volume>22</volume>: <fpage>96</fpage>–<lpage>116</lpage>.</mixed-citation>
+</ref>
+<ref id="pone.0080560-Morischita1"><label>101</label>
+<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Morischita</surname><given-names>K</given-names></name>, <name name-style="western"><surname>Tsuchimochi</surname><given-names>K</given-names></name> (<year>1926</year>) <article-title>Experimental observations on the dissemination of diseases by cockroaches in Formosa</article-title>. <source>Taiwan Igakkai Zasshi, Journ Med Assoc Formosa</source> <volume>255</volume>: <fpage>566</fpage>–<lpage>599</lpage> (In Japanese; English summary, pp. 2–6)..</mixed-citation>
+</ref>
+<ref id="pone.0080560-Abdulali1"><label>102</label>
+<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Abdulali</surname><given-names>H</given-names></name> (<year>1942</year>) <article-title>The terns and edible-nest swifts at Vengurla, West Coast, India</article-title>. <source>Journ Bombay Nat Hist Soc</source> <volume>43(3)</volume>: <fpage>446</fpage>–<lpage>451</lpage>.</mixed-citation>
+</ref>
+<ref id="pone.0080560-Hanitsch1"><label>103</label>
+<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Hanitsch</surname><given-names>R</given-names></name> (<year>1929</year>) <article-title>Fauna Sumatrensis. (Beitrag No. 63). Blattidae</article-title>. <source>Tijdschr Ent</source> <volume>72</volume>: <fpage>263</fpage>–<lpage>302</lpage>.</mixed-citation>
+</ref>
+<ref id="pone.0080560-Chandler1"><label>104</label>
+<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Chandler</surname><given-names>AC</given-names></name> (<year>1926</year>) <article-title>Some factors affecting the propagation of hookworm infections in the Asansol Mining Settlement with special reference to the part played by cockroaches in mines</article-title>. <source>Indian Med Gaz</source> <volume>61</volume>: <fpage>209</fpage>–<lpage>212</lpage>.</mixed-citation>
+</ref>
+<ref id="pone.0080560-Chopard5"><label>105</label>
+<mixed-citation publication-type="other" xlink:type="simple">Chopard L (1938) La biologie des Orthopteres. Encycl Ent Paris A 20: 541 pp.</mixed-citation>
+</ref>
+<ref id="pone.0080560-Macfie1"><label>106</label>
+<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Macfie</surname><given-names>JWS</given-names></name> (<year>1922</year>) <article-title>Observations on the role of cockroaches in disease</article-title>. <source>Ann Trop Med Parasitol</source> <volume>16</volume>: <fpage>441</fpage>–<lpage>448</lpage>.</mixed-citation>
+</ref>
+<ref id="pone.0080560-Almeida1"><label>107</label>
+<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Almeida</surname><given-names>WO</given-names></name>, <name name-style="western"><surname>Ferreira</surname><given-names>FS</given-names></name>, <name name-style="western"><surname>Brito</surname><given-names>SV</given-names></name>, <name name-style="western"><surname>Christoffersen</surname><given-names>ML</given-names></name> (<year>2006</year>) <article-title><italic>Raillietiella gigliolii</italic> (Pentastomida) infecting <italic>Amphisbaena alba</italic> (Squamata, Amphisbaenidae): a first record for northeast Brazil</article-title>. <source>Braz J Biol</source> <volume>66</volume>: <fpage>1137</fpage>–<lpage>1139</lpage>.</mixed-citation>
+</ref>
+<ref id="pone.0080560-Annandale1"><label>108</label>
+<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Annandale</surname><given-names>N</given-names></name> (<year>1900</year>) <article-title>Notes on Orthoptera in the Siamese Malay States</article-title>. <source>Ent Rec and Journ Var</source> <volume>12</volume>: <fpage>75</fpage>–<lpage>77</lpage>.</mixed-citation>
+</ref>
+<ref id="pone.0080560-Beatty1"><label>109</label>
+<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Beatty</surname><given-names>HA</given-names></name> (<year>1944</year>) <article-title>Fauna of St</article-title>. <source>Croix, V. I. Journ Agr Univ Puerto Rico</source> <volume>28</volume>: <fpage>103</fpage>–<lpage>185</lpage>.</mixed-citation>
+</ref>
+<ref id="pone.0080560-Roth2"><label>110</label>
+<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Roth</surname><given-names>LM</given-names></name>, <name name-style="western"><surname>Naskrecki</surname><given-names>P</given-names></name> (<year>2003</year>) <article-title>A new genus and species of cave cockroach (Blaberidae: Oxyhaloinae) from Guinea,West Africa</article-title>. <source>J. Orthop Res</source> <volume>12</volume>: <fpage>57</fpage>–<lpage>61</lpage>.</mixed-citation>
+</ref>
+<ref id="pone.0080560-Caudell1"><label>111</label>
+<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Caudell</surname><given-names>AN</given-names></name> (<year>1924</year>) <article-title>Some insects from the Chilibrillo bat caves of Panama</article-title>. <source>Insecutor Inscitiae Menstruus</source> <volume>12</volume>: <fpage>133</fpage>–<lpage>135</lpage>.</mixed-citation>
+</ref>
+<ref id="pone.0080560-Schoenly1"><label>112</label>
+<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Schoenly</surname><given-names>K</given-names></name> (<year>1983</year>) <article-title>Arthropods associated with bovine and equine dung in an ungrazed Chihuahuan desert ecosystem</article-title>. <source>Ann Entomol Soc</source> <volume>Am76</volume>: <fpage>790</fpage>–<lpage>796</lpage>.</mixed-citation>
+</ref>
+<ref id="pone.0080560-Jefferey1"><label>113</label>
+<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Jefferey</surname><given-names>J</given-names></name>, <name name-style="western"><surname>Krishnasamy</surname><given-names>M</given-names></name>, <name name-style="western"><surname>Oothuman</surname><given-names>P</given-names></name>, <name name-style="western"><surname>Ali</surname><given-names>J</given-names></name>, <name name-style="western"><surname>Baker</surname><given-names>AE</given-names></name> (<year>1985</year>) <article-title>Preliminary observations on the cockroach intermediate host of a house gecko railietiellid in Peninsular Malaya</article-title>. <source>Malaysian Journal of Medical and Laboratory Sciences</source> <volume>2</volume>: <fpage>83</fpage>–<lpage>84</lpage>.</mixed-citation>
+</ref>
+<ref id="pone.0080560-Barton1"><label>114</label>
+<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Barton</surname><given-names>DP</given-names></name>, <name name-style="western"><surname>Riley</surname><given-names>J</given-names></name> (<year>2004</year>) <article-title><italic>Raillietiella indica</italic> (Pentastomida) from the lungs of the giant toad, <italic>Bufo marinus</italic> (Amphibia), in Hawaii, U.S.A. Comparative Parasitology</article-title>. <volume>71</volume>: <fpage>251</fpage>–<lpage>254</lpage>.</mixed-citation>
+</ref>
+<ref id="pone.0080560-Roth3"><label>115</label>
+<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Roth</surname><given-names>LM</given-names></name>, <name name-style="western"><surname>Willis</surname><given-names>ER</given-names></name> (<year>1960</year>) <article-title>The biotic associations of cockroach</article-title>. <source>Smith Misc Coll</source> <volume>141</volume>: <fpage>1</fpage>–<lpage>470</lpage>.</mixed-citation>
+</ref>
+</ref-list></back>
+</article>

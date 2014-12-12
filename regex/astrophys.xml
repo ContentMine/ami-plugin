@@ -1,0 +1,7 @@
+<compoundRegex title="astrophys">
+<regex weight="1.0" fields="black_hole">([Bb]lack\s+[Hh]oles?)</regex>
+<regex weight="1.0" fields="supergiant">(CMB|[Cc]osmic\s+[Mm]icrowave\s+[Bb]ackground)</regex>
+<regex weight="1.0" fields="supergiant">([Dd]warf|[Dw]arves|[Dd]warfs)</regex>
+<regex weight="1.0" fields="gravity gravity1">([Gg]ravity|[Gg]ravitational)</regex>
+<regex weight="1.0" fields="supergiant">([Ss]upergiants?)</regex>
+</compoundRegex>

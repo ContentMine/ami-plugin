@@ -25,6 +25,7 @@ public abstract class AbstractVisitable {
 	private File topDirectory;
 	private boolean recursiveVisit = false;
 	protected List<File> fileList;
+	protected URL url;
 
 	protected AbstractVisitable() {
 		
@@ -105,7 +106,7 @@ public abstract class AbstractVisitable {
 	 * @param url
 	 * @throws Exception
 	 */
-	public abstract void addURL(URL url) throws Exception;
+	public abstract void readURLconvertToObjectAndAddtoVisitable(URL url) throws Exception;
 
 	public List<File> getFileList() {
 		ensureFileList();
@@ -125,6 +126,25 @@ public abstract class AbstractVisitable {
 		if (!file.exists()) {
 			throw new RuntimeException("File does not exist: "+file.getAbsolutePath());
 		}
+	}
+	
+	@Override
+	public String toString() {
+		StringBuilder sb = new StringBuilder();
+		sb.append((url != null) ? "url: "+url+"\n" : "");
+		if (fileList != null && fileList.size() > 0) {
+			sb.append((topDirectory != null ? "top directory: "+topDirectory+"; " : "") +"files\n");
+			if (fileList != null) {
+				for (File file : fileList) {
+					sb.append("file: "+file+"\n");
+				}
+			}
+		}
+		return sb.toString();
+	}
+
+	public void addURL(URL url) {
+		this.url = url;
 	}
 
 }

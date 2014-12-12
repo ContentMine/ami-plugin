@@ -1,12 +1,13 @@
 <compoundRegex title="phylotree">
 	<regex weight="1.0" url="books.google.co.uk/books?isbn=1118017862" fields="acctran">(ACCTRAN)</regex>
-	<regex weight="0.5" fields="align">(align.*)</regex>
-	<regex weight="0.6" fields="apomorph">(apomorph.*)</regex>
+	<regex weight="0.5" fields="align">(align[^\W]*)</regex>
+	<regex weight="0.6" fields="apomorph">(apomorph[^\W]*)</regex>
 	<regex weight="0.6" fields="bayesian">(bayesian)</regex>
-	<regex weight="0.6" fields="bootstrap">(bootstrap.*)</regex>
+	<regex weight="0.6" fields="beast">(BEAST)</regex>
+	<regex weight="0.6" fields="bootstrap">(bootstrap[^\W]*)</regex>
 	<regex weight="0.8" fields="branch_lengths">(branch\s+lengths?)</regex>
 	<regex weight="1.0" url="DOI: 10.1111/j.1096-0031.1994.tb00179.x" fields="bremer_support">(Bremer\s+support)</regex>
-	<regex weight="0.5" fields="cladist">(cladist.*)</regex>
+	<regex weight="0.5" fields="cladist">(cladist[^\W]*)</regex>
 	<regex weight="0.8" fields="consistency_index">(consistency\s+ind(?:ex|ices))</regex>
 	<regex weight="1.0" url="books.google.co.uk/books?isbn=1118017862" fields="deltran">(DELTRAN)</regex>
 	<regex weight="0.4" url="http://datadryad.org/" fields="dryad">(DRYAD)</regex>
@@ -15,7 +16,7 @@
 	<regex weight="0.8" url="http://www.cladistics.com/aboutTNT.html" fields="goloboff">(Goloboff)</regex>
 	<regex weight="0.9" url="Lectures on Mathematics in the Life Sciences (American Mathematical Society) 17: 57–86." fields="gtr">(GTR)</regex>
 	<regex weight="0.5" url="https://en.wikipedia.org/wiki/Willi_Hennig" fields="hennig">(Hennig)</regex>
-	<regex weight="0.7" fields="jackknife">(jackknif.*)</regex>
+	<regex weight="0.7" fields="jackknife">(jackknif[^\W]*)</regex>
 	<regex weight="0.5" fields="maximum_likelihood">(maximum\s+likelihood)</regex>
 	<regex weight="0.5" fields="maximum_parsimony">(maximum\s+parsimony)</regex>
 	<regex weight="0.7" fields="character_matrix">(character\s+matrix)</regex>
@@ -23,16 +24,16 @@
 	<regex weight="1.0" fields="mr_bayes">(MrBayes)</regex>
 	<regex weight="0.9" fields="mpt">(MPT)</regex>
 	<regex weight="0.8" fields="multistate_characters">(multistate\s+characters?)</regex>
-	<regex weight="0.5" fields="neighbour_join">(neighbou?r\s+join.*)</regex>
+	<regex weight="0.5" fields="neighbour_join">(neighbou?r\s+join[^\W]*)</regex>
 	<regex weight="0.1" fields="node">(node)</regex>
 	<regex weight="0.8" fields="nona">(nona)</regex>
 	<regex weight="0.8" fields="ordered_characters">(ordered\s+characters?)</regex>
 	<regex weight="0.5" fields="outgroup">(outgroup)</regex>
-	<regex weight="0.5" fields="parsimony">([Pp]arsimon.*)</regex>
+	<regex weight="0.5" fields="parsimony">([Pp]arsimon[^\W]*)</regex>
 	<regex weight="1.0" url="http://paup.csit.fsu.edu/" 
 	   title="Phylogenetic Analysis Using Parsimony" fields="paup version">(PAUP\*?\s*(\d+\.?\d*))</regex>
 	<regex weight="0.5" fields="phylip">(PHYLIP)</regex>
-	<regex weight="0.2" fields="phylogen">(phylog[^\s]*)</regex>
+	<regex weight="0.2" fields="phylogen">(phylog[^\W]*)</regex>
 	<regex weight="0.8" fields="phyml">(PHYML)</regex>
 	<regex weight="1.0" fields="poy">(POY)</regex>
 	<regex weight="1.0" fields="raxml">(RAxML)</regex>

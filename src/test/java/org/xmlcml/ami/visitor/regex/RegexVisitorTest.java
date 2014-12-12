@@ -11,10 +11,12 @@ import org.junit.Assert;
 import org.junit.Ignore;
 import org.junit.Test;
 import org.xmlcml.ami.Fixtures;
+import org.xmlcml.ami.util.AMITestUtil;
 import org.xmlcml.ami.visitable.html.HtmlVisitable;
 import org.xmlcml.ami.visitable.pdf.PDF2XHTMLConverter;
 import org.xmlcml.ami.visitor.AbstractVisitor;
 import org.xmlcml.ami.visitor.VisitorOutput;
+import org.xmlcml.ami.visitor.species.SpeciesVisitor;
 import org.xmlcml.svg2xml.pdf.PDFAnalyzer;
 import org.xmlcml.xml.XMLUtil;
 
@@ -314,7 +316,102 @@ public class RegexVisitorTest {
 		};
 		RegexVisitor.main(args);
 	}
+
 	
+	/** test phylo Regex on ca 10 PLOS papers locally.
+	 * 
+	 * @param file
+	 */
+	@Test
+	public void testPhyloRegex() throws Exception {
+		String plosMany = new File("./src/test/resources/org/xmlcml/ami/species/many/").toString();
+		String[] args = new String[] {
+				"-i", plosMany,
+				"-o", "target/plosMany.xml",
+				"-g", "regex/phylotree.xml",
+				"-e", "xml",
+		};
+		RegexVisitor.main(args);
+	}
+	
+	/** test agriculture Regex on ca 30 PLOS papers locally.
+	 * 
+	 * @param file
+	 */
+	@Test
+	public void testAgriculture() throws Exception {
+		String plosMany = new File("./src/test/resources/org/xmlcml/ami/species/many/").toString();
+		String[] args = new String[] {
+				"-i", plosMany,
+				"-o", "target/agriculture.xml",
+				"-g", "regex/agriculture.xml",
+				"-e", "xml",
+		};
+		RegexVisitor.main(args);
+	}
+	
+	/** search one XML file and create corresponding output results.xml
+	 * 
+	 * 	// SHOWCASE NOT YET RUNNING
+	 * 
+	 * @throws Exception
+	 */
+	@Test
+	@Ignore // uses remote resources
+	public void testSearchURLRanges() throws Exception {
+		File outputDir = new File("target/species/journal.pone.0113556.xml/");
+		String[] args;
+		int[] hits = {
+				 0,   4,   5,  -1,  40,  10,   0,  -1,   0,  18,
+				 7,  17,  51,   0,  -1,  -1,  -1,   0,   6,  38,
+				 0,  25,   0,   1,   0,   0,   7,  83,  32, 102,
+				 0,   2,   2,   2,   0,  -1,  -1,   0,   0, 163,
+				 1,   1,  -1,   0,   2,   0,   0,   0,  -1,  -1,
+		};
+		// sigma 
+		for (int i = 0; i < 9; i++) {
+//			int jjjjjj = 113500 + i;
+			args = new String[] {
+					"-i", "http://www.biomedcentral.com/content/download/xml/s12870-014-030"+i+"-"+(9-i)+".xml",
+					"-o", outputDir.toString(),
+					"-g", "regex/agriculture.xml",
+			};
+			Thread.sleep(5000);
+			RegexVisitor regexVisitor = new RegexVisitor();
+			LOG.debug("running ");
+			regexVisitor.processArgs(args);
+			
+//			AMITestUtil.assertNodeCount(regexVisitor.getResultsFile(), hits[i], "//*[local-name()='eic']");
+		}
+	}
+		
+	/** test astrophysics Regex 
+	 * 
+	 * 3 sample astrophysics files suggested by Stray Toaster
+	 * 
+	 * this may take some time as the files download DTDs, etc. (wish they didn't)
+	 * 
+	 * the PDF takes ca 1 min to process
+	 * 
+	 * s2.0-S2212686414000272 fails due to awful HTML
+	 * 
+	 * @param file
+	 */
+	@Test
+	@Ignore // unless you are an astrophysicist
+	public void testAstrophysics() throws Exception {
+		String astroDir = new File("./src/test/resources/org/xmlcml/ami/astrophys/").toString();
+		String[] args = new String[] {
+//				"-i","src/test/resources/org/xmlcml/ami/astrophys/0004-637X_754_2_85.pdf",
+				"-i","src/test/resources/org/xmlcml/ami/astrophys/10.1111_j.1365-2966.2010.17101.x.html",
+//				"-i","src/test/resources/org/xmlcml/ami/astrophys/s2.0-S2212686414000272.html",
+				"-o", "target/astrophys.xml",
+				"-g", "regex/astrophys.xml",
+		};
+		RegexVisitor.main(args);
+	}
+	
+
 	// ============================
 	
 	private static void visitFile(File file) {

@@ -1,0 +1,481 @@
+<article xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" article-type="research-article" dtd-version="3.0" xml:lang="en">
+<front>
+<journal-meta>
+<journal-id journal-id-type="nlm-ta">PLoS ONE</journal-id>
+<journal-id journal-id-type="publisher-id">plos</journal-id>
+<journal-id journal-id-type="pmc">plosone</journal-id><journal-title-group>
+<journal-title xml:lang="en">PLoS ONE</journal-title></journal-title-group>
+<issn pub-type="epub">1932-6203</issn>
+<publisher>
+<publisher-name>Public Library of Science</publisher-name>
+<publisher-loc>San Francisco, USA</publisher-loc></publisher>
+</journal-meta>
+<article-meta>
+<article-id pub-id-type="publisher-id">PONE-D-13-30728</article-id>
+<article-id pub-id-type="doi">10.1371/journal.pone.0082448</article-id>
+<article-categories><subj-group subj-group-type="heading"><subject>Research Article</subject></subj-group></article-categories>
+<title-group>
+<article-title>Predicting Early Intrahepatic Recurrence of Hepatocellular Carcinoma after Microwave Ablation Using SELDI-TOF Proteomic Signature</article-title>
+<alt-title alt-title-type="running-head">Predicting Early HCC Recurrence with SELDI-TOF MS</alt-title>
+</title-group>
+<contrib-group>
+<contrib contrib-type="author" equal-contrib="yes" xlink:type="simple"><name name-style="western"><surname>Cao</surname><given-names>Xiao-lin</given-names></name><xref ref-type="aff" rid="aff1"><sup>1</sup></xref><xref ref-type="aff" rid="aff2"><sup>2</sup></xref></contrib>
+<contrib contrib-type="author" equal-contrib="yes" xlink:type="simple"><name name-style="western"><surname>Li</surname><given-names>Hua</given-names></name><xref ref-type="aff" rid="aff1"><sup>1</sup></xref><xref ref-type="aff" rid="aff3"><sup>3</sup></xref></contrib>
+<contrib contrib-type="author" xlink:type="simple"><name name-style="western"><surname>Yu</surname><given-names>Xiao-ling</given-names></name><xref ref-type="aff" rid="aff1"><sup>1</sup></xref><xref ref-type="corresp" rid="cor1"><sup>*</sup></xref></contrib>
+<contrib contrib-type="author" xlink:type="simple"><name name-style="western"><surname>Liang</surname><given-names>Ping</given-names></name><xref ref-type="aff" rid="aff1"><sup>1</sup></xref><xref ref-type="corresp" rid="cor1"><sup>*</sup></xref></contrib>
+<contrib contrib-type="author" xlink:type="simple"><name name-style="western"><surname>Dong</surname><given-names>Bao-wei</given-names></name><xref ref-type="aff" rid="aff1"><sup>1</sup></xref></contrib>
+<contrib contrib-type="author" xlink:type="simple"><name name-style="western"><surname>Fan</surname><given-names>Jin</given-names></name><xref ref-type="aff" rid="aff1"><sup>1</sup></xref></contrib>
+<contrib contrib-type="author" xlink:type="simple"><name name-style="western"><surname>Li</surname><given-names>Meng</given-names></name><xref ref-type="aff" rid="aff1"><sup>1</sup></xref></contrib>
+<contrib contrib-type="author" xlink:type="simple"><name name-style="western"><surname>Liu</surname><given-names>Fang-yi</given-names></name><xref ref-type="aff" rid="aff1"><sup>1</sup></xref></contrib>
+</contrib-group>
+<aff id="aff1"><label>1</label><addr-line>Department of Interventional Ultrasound, General Hospital of People's Liberation Army, Beijing, China</addr-line></aff>
+<aff id="aff2"><label>2</label><addr-line>Department of Ultrasound, Southern Building Clinic Division, General Hospital of People's Liberation Army, Beijing, China</addr-line></aff>
+<aff id="aff3"><label>3</label><addr-line>Department of Ultrasound, the 306<sup>th</sup> Hospital of Chinese People's Liberation Army, Beijing, China</addr-line></aff>
+<contrib-group>
+<contrib contrib-type="editor" xlink:type="simple"><name name-style="western"><surname>Hoffmann</surname><given-names>Andreas-Claudius</given-names></name>
+<role>Editor</role>
+<xref ref-type="aff" rid="edit1" /></contrib>
+</contrib-group>
+<aff id="edit1"><addr-line>West German Cancer Center, Germany</addr-line></aff>
+<author-notes>
+<corresp id="cor1">* E-mail: <email xlink:type="simple">dyuxl301@aliyun.com</email> (XlY); <email xlink:type="simple">liangping301@hotmail.com</email> (PL)</corresp>
+<fn fn-type="conflict"><p>The authors have declared that no competing interests exist.</p></fn>
+<fn fn-type="con"><p>Conceived and designed the experiments: XlC XlY PL BwD. Performed the experiments: XlC XlY PL HL JF ML FyL. Analyzed the data: XlC HL JF ML. Contributed reagents/materials/analysis tools: HL JF ML FyL. Wrote the paper: XlC HL.</p></fn>
+</author-notes>
+<pub-date pub-type="collection"><year>2013</year></pub-date>
+<pub-date pub-type="epub"><day>13</day><month>12</month><year>2013</year></pub-date>
+<volume>8</volume>
+<issue>12</issue>
+<elocation-id>e82448</elocation-id>
+<history>
+<date date-type="received"><day>25</day><month>7</month><year>2013</year></date>
+<date date-type="accepted"><day>3</day><month>11</month><year>2013</year></date>
+</history>
+<permissions>
+<copyright-year>2013</copyright-year>
+<copyright-holder>Cao et al</copyright-holder><license xlink:href="http://creativecommons.org/licenses/by/4.0/" xlink:type="simple"><license-p>This is an open-access article distributed under the terms of the <ext-link ext-link-type="uri" xlink:href="http://creativecommons.org/licenses/by/4.0/" xlink:type="simple">Creative Commons Attribution License</ext-link>, which permits unrestricted use, distribution, and reproduction in any medium, provided the original author and source are credited.</license-p></license></permissions>
+<abstract><sec>
+<title>Background/Aims</title>
+<p>Despite great progress in the treatment of hepatocellular carcinoma (HCC) over the last-decade, intrahepatic recurrence is still the most frequent serious adverse event after all the treatments including microwave ablation. This study aimed to predict early recurrence of HCC after microwave ablation using serum proteomic signature.</p>
+</sec><sec>
+<title>Methods</title>
+<p>After curative microwave ablation of HCC, 86 patients were followed-up for 1 year. Serum samples were collected before microwave ablation. The mass spectra of proteins were generated using surface-enhanced laser desorption/ionization time-of-flight mass spectrometry (SELDI-TOF MS). Serum samples from 50 patients were randomly selected as a training set and for biomarkers discovery and model development. The remaining serum samples were categorized for validation of the algorithm.</p>
+</sec><sec>
+<title>Results</title>
+<p>According to preablation serum protein profiling obtained from the 50 HCC samples in the training set, nine significant differentially-expressed proteins were detected in the serum samples between recurrent and non-recurrent patients. Decision classification tree combined with three candidate proteins with m/z values of 7787, 6858 and 6646 was produced using Biomarker Patterns Software with sensitivity of 85.7% and specificity of 88.9% in the training set. When the SELDI marker pattern was tested with the blinded testing set, it yielded a sensitivity of 80.0%, a specificity of 88.5% and a positive predictive value of 86.1%.</p>
+</sec><sec>
+<title>Conclusions</title>
+<p>Differentially-expressed protein peaks in preablation serum screened by SELDI are associated with prognosis of HCC. The decision classification tree is a potential tool in predicting early intrahepatic recurrence in HCC patients after microwave ablation.</p>
+</sec></abstract>
+<funding-group><funding-statement>This work was supported by the National Scientific Foundation Committee of China (grant numbers 30825010, 81071210). The URL of the funder's website is <ext-link ext-link-type="uri" xlink:href="http://www.nsfc.gov.cn/Portal0/default152.htm" xlink:type="simple">http://www.nsfc.gov.cn/Portal0/default152.htm</ext-link>. The funders had no role in study design, data collection and analysis, decision to publish, or preparation of the manuscript.</funding-statement></funding-group><counts><page-count count="6" /></counts></article-meta>
+</front>
+<body><sec id="s1">
+<title>Introduction</title>
+<p>Hepatocellular carcinoma (HCC) is an aggressive cancer with an overall poor prognosis. Known to be the fifth most prevalent cancer worldwide, it is the third most common cause of cancer-related death; 81% of cases occur in the less developed countries and 54% in China <xref ref-type="bibr" rid="pone.0082448-Parkin1">[1]</xref>.</p>
+<p>A major obstacle in HCC treatment is intrahepatic recurrence, which is high in patients who undergo hepatic resection <xref ref-type="bibr" rid="pone.0082448-Portolani1">[2]</xref>, <xref ref-type="bibr" rid="pone.0082448-Hashimoto1">[3]</xref>. Microwave ablation (MWA), as a minimally invasive management technique, has been developed and improved greatly in the last few years. It has been widely used as an effective approach to HCC treatment in China because of its minimal damage to liver function, convenient manipulation, reduced complications, and lower mortality <xref ref-type="bibr" rid="pone.0082448-Wang1">[4]</xref>. Despite complete ablation of the tumor, intrahepatic recurrence limits the potential therapeutic effect on HCC <xref ref-type="bibr" rid="pone.0082448-Wang2">[5]</xref>. Therefore, it is urgent to find novel methods that provide valuable information for screening and early predicting recurrence of HCC.</p>
+<p>Although some traditional serum biomarkers play a role in clinical diagnosis and surveillance of tumor recurrence, their contribution is limited, partly because of low sensitivity and specificity. Development of high throughput proteomics technology provides a new pathway to large-scale screening and identification of biomarkers in body fluid (serum, plasma, urine, <italic>etc</italic>.) and tissue <xref ref-type="bibr" rid="pone.0082448-Liotta1">[6]</xref>, <xref ref-type="bibr" rid="pone.0082448-Gilbert1">[7]</xref>. In recent years, an innovative proteomic technology, serum surface-enhanced laser desorption/ionization time-of-flight mass spectrometry (SELDI-TOF MS), has overcome many of the limitations of two-dimensional electrophoresis <xref ref-type="bibr" rid="pone.0082448-Kuwata1">[8]</xref>, <xref ref-type="bibr" rid="pone.0082448-Wulfkuhle1">[9]</xref>. SELDI is a type of mass spectrometry that is useful in high throughput proteomic fingerprinting of complex biological specimens such as serum that uses on-chip protein fractionation coupled to time-of-flight separation. It can detect multiple protein changes simultaneously with high sensitivity and specificity <xref ref-type="bibr" rid="pone.0082448-Albitar1">[10]</xref>–<xref ref-type="bibr" rid="pone.0082448-Purohit1">[12]</xref>.</p>
+<p>Recently, SELDI-TOF-MS has been successfully applied to the identification of serum biomarkers for the detection of liver, ovarian, pancreatic, breast and prostate cancer patients <xref ref-type="bibr" rid="pone.0082448-He1">[13]</xref>–<xref ref-type="bibr" rid="pone.0082448-Semmes1">[20]</xref>, but has not been used specifically to predict recurrence in diseases such as breast, prostate, and liver cancer so far. The current study was designed to investigate the application of serum SELDI protein profiling in prediction of early intrahepatic recurrence of HCC.</p>
+</sec><sec id="s2" sec-type="materials|methods">
+<title>Materials and Methods</title>
+<sec id="s2a">
+<title>Patients and Samples</title>
+<p>Our study was approved by the Ethics Committee of Chinese PLA General Hospital, and all study procedures were conducted therein. All study participants provided written informed consent, which was approved by the Ethics Committee of Chinese PLA General Hospital. Patients enrolled in the study fulfilled the following criteria: 1) single HCC nodule (≤5 cm); 2) no portal thrombosis or extrahepatic metastases; 3) Child-Pugh class A or B; 4) histologically proven HCC; and 5) no treatment undertaken before MWA. From March 2006 to March 2008, 86 eligible HBV-related HCC patients were enrolled.</p>
+<p>Blood samples from 86 patients with HCC were obtained before initiation of treatment and allowed to clot at room temperature for 30 minutes. Serum was separated by centrifugation at 1500×g for 15 minutes. All samples were divided into 20 µl aliquots and frozen at −80°C until analysis. Each sample used for proteomic profiling (SELDI ProteinChip analysis) had not been thawed more than once. All samples were randomly assigned to a training set (50 serum samples) and a testing set (36 serum samples).</p>
+</sec><sec id="s2b">
+<title>Microwave Ablation Procedure</title>
+<p>All treatments were performed in our institution and were carried out under sonographic guidance. Tumors were treated by means of microwave ablation using a KY-2000 microwave applicator (Kangyou Medical, China) with a frequency of 2450 MHz delivering a maximum power of 100 W through two 15-gauge internally-cooled antennae <xref ref-type="bibr" rid="pone.0082448-Wang1">[4]</xref>. Single antenna or multiple antennas were used under sonographic guidance, depending on the tumor size. A detailed protocol was determined for each patient on an individual basis before treatment, inclusive of the placement of the antennas, power output setting, emission time, and appropriate approach. In general, single antenna was used for tumor less than 1.7 cm in diameter, while multiple antennas were required if tumor was larger or equal to 1.7 cm. An output setting of 60 W for 300 seconds was routinely used during ablations. A thermal monitoring system was applied during treatment. With sonographic guidance, one to three thermal couples were placed at different sites 0.5 cm outside the tumor to monitor temperature throughout the procedure. If the measured temperature did not reach 60°C by the end of 300 seconds or could not remain constant at 54°C for at least 3 minutes, a prolonged emission time was required depending on the temperature, which was monitored dynamically. General anesthesia was given to all patients by using a combination of two anesthetics, propofol (Diprivan; Zeneca Pharmaceuticals, Wilmington, DE, USA) and ketamine (Shuanghe Pharmaceuticals, Beijing, China) via the peripheral veins.</p>
+</sec><sec id="s2c">
+<title>Follow-up</title>
+<p>The follow-up period was calculated starting from the end of microwave ablation for all patients. The patients were followed-up regularly for the detection of recurrence by ultrasonography, contrast enhanced ultrasound (CEUS) and/or contrast enhanced computed tomography/contrast enhanced magnetic resonance imaging (CECT/CE-MRI) 1 month after MWA ablation treatment and then every 3 months. The therapeutic response was considered accomplished when CEUS and CECT/CE-MRI findings showed no areas of contrast material enhancement in the lesion. All patients were followed-up for 1 year until April 2009. We defined curative MWA as complete ablation of the tumor with no residual tumors, as indicated by CEUS and CECT/CE-MRI scans at 1 year after MWA.</p>
+<p>In the 1 year follow-up period, no local tumor regrowth was observed in any of the patients enrolled in the study. However, in 24 patients (14 in the training set, 10 in the testing set), there was recurrence in another segment of liver. Recurrence was diagnosed when detected by CEUS or CECT/CE-MRI and identified by biopsy and imaging findings. There was no statistical difference between the two patient groups for sex, age, tumor size, tumor location, and Child-Pugh classification, but preablation serum α-fetoprotein (AFP) level differed significantly (<xref ref-type="table" rid="pone-0082448-t001">Table 1</xref>).</p>
+<table-wrap id="pone-0082448-t001" position="float" orientation="portrait"><object-id pub-id-type="doi">10.1371/journal.pone.0082448.t001</object-id><label>Table 1</label><caption>
+<title>Characteristics of 86 patients treated with MWA.</title>
+</caption><alternatives><graphic id="pone-0082448-t001-1" position="float" mimetype="image" xlink:href="info:doi/10.1371/journal.pone.0082448.t001" xlink:type="simple" orientation="portrait" />
+<table><colgroup span="1"><col align="left" span="1" /><col align="center" span="1" /><col align="center" span="1" /><col align="center" span="1" /><col align="center" span="1" /></colgroup>
+<thead>
+<tr>
+<td align="left" rowspan="1" colspan="1">Variables</td>
+<td align="left" rowspan="1" colspan="1">Definitions</td>
+<td align="left" rowspan="1" colspan="1">Non-recurrence(n = 62)</td>
+<td align="left" rowspan="1" colspan="1">Recurrence(n = 24)</td>
+<td align="left" rowspan="1" colspan="1"><italic>P Value</italic></td>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left" rowspan="1" colspan="1">Sex</td>
+<td align="left" rowspan="1" colspan="1">Male</td>
+<td align="left" rowspan="1" colspan="1">51</td>
+<td align="left" rowspan="1" colspan="1">22</td>
+<td align="left" rowspan="1" colspan="1">0.449</td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1" />
+<td align="left" rowspan="1" colspan="1">Female</td>
+<td align="left" rowspan="1" colspan="1">11</td>
+<td align="left" rowspan="1" colspan="1">2</td>
+<td align="left" rowspan="1" colspan="1" />
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1">Age (yr)</td>
+<td align="left" rowspan="1" colspan="1" />
+<td align="left" rowspan="1" colspan="1">57.9±9.8</td>
+<td align="left" rowspan="1" colspan="1">54.7±8.6</td>
+<td align="left" rowspan="1" colspan="1">0.164</td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1">Child-Pugh classification</td>
+<td align="left" rowspan="1" colspan="1">A</td>
+<td align="left" rowspan="1" colspan="1">59</td>
+<td align="left" rowspan="1" colspan="1">22</td>
+<td align="left" rowspan="1" colspan="1">0.914</td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1" />
+<td align="left" rowspan="1" colspan="1">B</td>
+<td align="left" rowspan="1" colspan="1">3</td>
+<td align="left" rowspan="1" colspan="1">2</td>
+<td align="left" rowspan="1" colspan="1" />
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1">Tumor location</td>
+<td align="left" rowspan="1" colspan="1">Left lobe</td>
+<td align="left" rowspan="1" colspan="1">11</td>
+<td align="left" rowspan="1" colspan="1">5</td>
+<td align="left" rowspan="1" colspan="1">0.983</td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1" />
+<td align="left" rowspan="1" colspan="1">Right lobe</td>
+<td align="left" rowspan="1" colspan="1">51</td>
+<td align="left" rowspan="1" colspan="1">19</td>
+<td align="left" rowspan="1" colspan="1" />
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1">Maximum tumor size</td>
+<td align="left" rowspan="1" colspan="1">≤3 cm</td>
+<td align="left" rowspan="1" colspan="1">45</td>
+<td align="left" rowspan="1" colspan="1">16</td>
+<td align="left" rowspan="1" colspan="1">0.588</td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1" />
+<td align="left" rowspan="1" colspan="1">3∼5 cm</td>
+<td align="left" rowspan="1" colspan="1">17</td>
+<td align="left" rowspan="1" colspan="1">8</td>
+<td align="left" rowspan="1" colspan="1" />
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1">Preablation serum AFP Level (ng/ml)</td>
+<td align="left" rowspan="1" colspan="1">AFP≤20</td>
+<td align="left" rowspan="1" colspan="1">43</td>
+<td align="left" rowspan="1" colspan="1">11</td>
+<td align="left" rowspan="1" colspan="1">0.043</td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1" />
+<td align="left" rowspan="1" colspan="1">AFP&gt;20</td>
+<td align="left" rowspan="1" colspan="1">19</td>
+<td align="left" rowspan="1" colspan="1">13</td>
+<td align="left" rowspan="1" colspan="1" />
+</tr>
+</tbody>
+</table>
+</alternatives></table-wrap></sec><sec id="s2d">
+<title>SELDI Processing of Serum Samples</title>
+<p>We used CM10 ProteinChip arrays incorporated with a carboxylate group that acts as a weak cation exchanger for analysis. Chips were rinsed with ultrapure water and inserted into the bioprocessor (Ciphergen Biosystems, Inc.). Serum samples were analyzed with the SELDI ProteinChip system (Ciphergen Biosystems) to obtain a quantitative proteomic profile. Briefly, 10 µl of each sample was denatured by addition of 20 µl of U9 solution (9 mol/L urea, 2% CHAPS, 50 mmol/L Tris-HCl, pH 9.0), then diluted with binding buffer (50 mmol/L sodium acetate, pH 4.0) to give a final dilution of 40-fold. CM10 ProteinChip arrays were pre-equilibrated twice with 200 µl of the binding buffer at a speed of 400 rpm for 5 minutes, after which 100 µl of the diluted sample was applied to the ProteinChip arrays and incubated with shaking at room temperature for 60 minutes. Then, each array was washed twice with the binding buffer followed by rinsing once with deionized water. After air drying, each array was treated twice with 0.5 µl sinapinic acid solution and allowed to air-dry.</p>
+</sec><sec id="s2e">
+<title>Processing of SELDI Data</title>
+<p>The ProteinChip arrays were read on the ProteinChip PBS II reader of the ProteinChip Biomarker System to measure the masses and intensities of the protein peaks. The starting laser intensity was set to 225, with a detector sensitivity of 9. SELDI acquisition parameters were set to 24, delta to 5, transients per to 5, and ending position to 84. Spectra between 1,000 and 30,000 m/z were selected for analysis. Smaller masses were not analyzed, because they were considered to be artifacts of energy absorbing molecules. Peak detection was performed using Ciphergen ProteinChip Software, version 3.1.1 (Ciphergen Biosystems).</p>
+<p>Based on normalized intensity levels of the peaks from the SELDI protein expression profile, a decision tree was constructed from the training set. The training set consisted of spectral data from 14 HCC patients with recurrence and 36 non-recurrent HCC patients. The classification tree began at the roof node, and split the data into two nodes using one rule at a time in the form of a question. The process of splitting was continued until the terminal nodes were produced. Multiple classification trees were generated using this process, and the best performing tree was chosen for testing. The discriminatory ability of the classification algorithm was then challenged with a blinded testing set consisting of spectral data from 10 additional HCC patients with recurrence and 26 additional non-recurrent HCC patients. For each sample, the intensity values for each peak within the 1,000–30,000 m/z range were inputted into the Biomarker Patterns Software (Ciphergen Biosystems) and classified according to the tree analysis described above. Then we modeled the results by mathematical equations.</p>
+</sec><sec id="s2f">
+<title>Statistical Analysis</title>
+<p>In the Biomarker Wizard mode, comparison of the normalized peak intensity of each peak detected in sera between recurrent HCC patients and non-recurrent HCC patients was determined with the Student <italic>t</italic>-test. <italic>P</italic> values of &lt;0.05 were considered statistically significant. Specificity was calculated as the ratio of the number of negative samples correctly classified to the total number of true negative samples. Sensitivity was calculated as the ratio of the number of correctly classified positive samples to the total number of true positive samples.</p>
+</sec></sec><sec id="s3">
+<title>Results</title>
+<sec id="s3a">
+<title>Serum Protein Peaks Associated with Recurrence of HCC</title>
+<p>Eighty-six serum samples were assayed by SELDI mass spectrometry. From a total of 86 serum samples, 50 serum samples (36 non-recurrent and 14 recurrent) were randomly selected to form the learning set and 36 serum samples (26 non-recurrent and 10 recurrent) to form the blinded testing set for the algorithm. The analysis of protein spectra from the training set identified 87 signal peak protein clusters within the 1,000 to 30,000 m/z range. Nine protein peaks differed significantly. One protein peak at 5170 m/z was over-expressed, whereas nine protein peaks with m/z values of 4100, 6449, 6646, 6858, 7787, 8482, 8583, and 8933 were down-regulated significantly in sera from recurrent patients in comparison with non-recurrent patients. <xref ref-type="fig" rid="pone-0082448-g001">Figure 1</xref> shows representative protein spectra from non-recurrent and recurrent patients. The mean amplitudes of the peaks for recurrent and non-recurrent HCC patients are shown in <xref ref-type="table" rid="pone-0082448-t002">Table 2</xref>.</p>
+<fig id="pone-0082448-g001" position="float" orientation="portrait"><object-id pub-id-type="doi">10.1371/journal.pone.0082448.g001</object-id><label>Figure 1</label><caption>
+<title>Representative mass spectra ranging from 6200–6800 m/z from the sera of recurrent and non-recurrent patients.</title>
+<p>The horizontal axis indicates protein mass to charge (m/z), and the longitudinal axis designates the relative intensity. Peaks of 6449 and 6646 m/z are shown. The box indicates that peaks of 6449 and 6646 m/z were overexpressed in the non-recurrent group compared with the recurrent group.</p>
+</caption><graphic mimetype="image" xlink:href="info:doi/10.1371/journal.pone.0082448.g001" position="float" xlink:type="simple" orientation="portrait" /></fig><table-wrap id="pone-0082448-t002" position="float" orientation="portrait"><object-id pub-id-type="doi">10.1371/journal.pone.0082448.t002</object-id><label>Table 2</label><caption>
+<title>Discriminatory peaks and mean values between recurrent and non-recurrent patients in training set.</title>
+</caption><alternatives><graphic id="pone-0082448-t002-2" position="float" mimetype="image" xlink:href="info:doi/10.1371/journal.pone.0082448.t002" xlink:type="simple" orientation="portrait" />
+<table><colgroup span="1"><col align="left" span="1" /><col align="center" span="1" /><col align="center" span="1" /><col align="center" span="1" /></colgroup>
+<thead>
+<tr>
+<td align="left" rowspan="1" colspan="1">M/Z</td>
+<td align="left" rowspan="1" colspan="1">Non-recurrence (n = 36)</td>
+<td align="left" rowspan="1" colspan="1">Recurrence (n = 14)</td>
+<td align="left" rowspan="1" colspan="1"><italic>P</italic> Value</td>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left" rowspan="1" colspan="1">6858</td>
+<td align="left" rowspan="1" colspan="1">11.298±3.465</td>
+<td align="left" rowspan="1" colspan="1">7.860±1.949</td>
+<td align="left" rowspan="1" colspan="1">0.0001</td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1">7787</td>
+<td align="left" rowspan="1" colspan="1">7.295±4.710</td>
+<td align="left" rowspan="1" colspan="1">3.986±1.888</td>
+<td align="left" rowspan="1" colspan="1">0.0009</td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1">6646</td>
+<td align="left" rowspan="1" colspan="1">52.296±11.492</td>
+<td align="left" rowspan="1" colspan="1">41.489±9.392</td>
+<td align="left" rowspan="1" colspan="1">0.0030</td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1">6449</td>
+<td align="left" rowspan="1" colspan="1">28.330±10.068</td>
+<td align="left" rowspan="1" colspan="1">20.680±7.752</td>
+<td align="left" rowspan="1" colspan="1">0.0073</td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1">8583</td>
+<td align="left" rowspan="1" colspan="1">20.831±8.600</td>
+<td align="left" rowspan="1" colspan="1">15.620±5.746</td>
+<td align="left" rowspan="1" colspan="1">0.0179</td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1">4100</td>
+<td align="left" rowspan="1" colspan="1">22.180±9.720</td>
+<td align="left" rowspan="1" colspan="1">15.626±8.634</td>
+<td align="left" rowspan="1" colspan="1">0.0278</td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1">8933</td>
+<td align="left" rowspan="1" colspan="1">10.360±3.243</td>
+<td align="left" rowspan="1" colspan="1">8.517±2.329</td>
+<td align="left" rowspan="1" colspan="1">0.0323</td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1">8482</td>
+<td align="left" rowspan="1" colspan="1">3.572±1.434</td>
+<td align="left" rowspan="1" colspan="1">2.607±1.415</td>
+<td align="left" rowspan="1" colspan="1">0.0371</td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1">5170</td>
+<td align="left" rowspan="1" colspan="1">1.067±0.853</td>
+<td align="left" rowspan="1" colspan="1">2.301±2.039</td>
+<td align="left" rowspan="1" colspan="1">0.0447</td>
+</tr>
+</tbody>
+</table>
+</alternatives></table-wrap></sec><sec id="s3b">
+<title>Structure of the Decision Tree</title>
+<p>The decision tree is a flowchart-like tree structure that repeatedly splits data sets into subsets in accordance with the given recurrence versus non-recurrence classification task. Each classifier, a simple rule applied to each patient, queries only one protein peak. Using the normalized peak intensities of these 87 signal clusters, we constructed and evaluated the decision tree using the training set. The decision classification tree combined with three candidate protein peaks with m/z values of 7787, 6858 and 6646 were produced by the Biomarker Patten Software with a sensitivity of 85.7% and a specificity of 88.9%. The decision tree generated using a combination of these three protein peaks correctly classified 88.0% (44 of 50) of sera samples (<xref ref-type="fig" rid="pone-0082448-g002">Figure 2</xref>, <xref ref-type="table" rid="pone-0082448-t003">Table 3</xref>). We modeled the results on the basis of the decision classification tree by mathematical equations. <inline-formula><inline-graphic xlink:href="info:doi/10.1371/journal.pone.0082448.e001" xlink:type="simple" /></inline-formula> denotes protein peak with m/z value of 7787, <inline-formula><inline-graphic xlink:href="info:doi/10.1371/journal.pone.0082448.e002" xlink:type="simple" /></inline-formula> denotes protein peak with m/z value of 6858, and <inline-formula><inline-graphic xlink:href="info:doi/10.1371/journal.pone.0082448.e003" xlink:type="simple" /></inline-formula> denotes protein peak with m/z value of 6646. Define the recurrence function as<disp-formula id="pone.0082448.e004"><graphic position="anchor" xlink:href="info:doi/10.1371/journal.pone.0082448.e004" xlink:type="simple" orientation="portrait" /></disp-formula>where</p>
+<fig id="pone-0082448-g002" position="float" orientation="portrait"><object-id pub-id-type="doi">10.1371/journal.pone.0082448.g002</object-id><label>Figure 2</label><caption>
+<title>Classification of recurrence and non-recurrence samples of 56 HCC patients by the decision classification tree algorithm in the training set.</title>
+<p>The left branch node after the first layer (7787 m/z) includes cases of peak intensity less than or equal to 4.161, the right node with those greater than 4.161. The cutoff points for 6858 and 6646 m/z were 9.247 and 36.836, respectively. The decision tree was constructed to correctly classify 85.7% of the recurrent patients in the training set.</p>
+</caption><graphic mimetype="image" xlink:href="info:doi/10.1371/journal.pone.0082448.g002" position="float" xlink:type="simple" orientation="portrait" /></fig><table-wrap id="pone-0082448-t003" position="float" orientation="portrait"><object-id pub-id-type="doi">10.1371/journal.pone.0082448.t003</object-id><label>Table 3</label><caption>
+<title>Performance of the decision classification tree in predicting recurrence of HCC after MWA.</title>
+</caption><alternatives><graphic id="pone-0082448-t003-3" position="float" mimetype="image" xlink:href="info:doi/10.1371/journal.pone.0082448.t003" xlink:type="simple" orientation="portrait" />
+<table><colgroup span="1"><col align="left" span="1" /><col align="center" span="1" /><col align="center" span="1" /><col align="center" span="1" /></colgroup>
+<thead>
+<tr>
+<td align="left" rowspan="1" colspan="1">Sets</td>
+<td align="left" rowspan="1" colspan="1">Recurrence</td>
+<td align="left" rowspan="1" colspan="1">Percentage correct</td>
+<td align="left" rowspan="1" colspan="1">Percentage misclassified</td>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left" rowspan="1" colspan="1">Training set</td>
+<td align="left" rowspan="1" colspan="1">Yes (14)</td>
+<td align="left" rowspan="1" colspan="1">85.7%(12/14)</td>
+<td align="left" rowspan="1" colspan="1">14.3%(2/14)</td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1" />
+<td align="left" rowspan="1" colspan="1">No (36)</td>
+<td align="left" rowspan="1" colspan="1">88.9%(32/36)</td>
+<td align="left" rowspan="1" colspan="1">11.1%(4/36)</td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1">Test set</td>
+<td align="left" rowspan="1" colspan="1">Yes (10)</td>
+<td align="left" rowspan="1" colspan="1">80.0%(8/10)</td>
+<td align="left" rowspan="1" colspan="1">20.0%(2/10)</td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1" />
+<td align="left" rowspan="1" colspan="1">No (26)</td>
+<td align="left" rowspan="1" colspan="1">88.5%(23/26)</td>
+<td align="left" rowspan="1" colspan="1">11.5%(3/26)</td>
+</tr>
+</tbody>
+</table>
+</alternatives></table-wrap>
+<p><disp-formula id="pone.0082448.e005"><graphic position="anchor" xlink:href="info:doi/10.1371/journal.pone.0082448.e005" xlink:type="simple" orientation="portrait" /></disp-formula><disp-formula id="pone.0082448.e006"><graphic position="anchor" xlink:href="info:doi/10.1371/journal.pone.0082448.e006" xlink:type="simple" orientation="portrait" /></disp-formula><disp-formula id="pone.0082448.e007"><graphic position="anchor" xlink:href="info:doi/10.1371/journal.pone.0082448.e007" xlink:type="simple" orientation="portrait" /></disp-formula></p>
+<p>HCC will be recurrent if <inline-formula><inline-graphic xlink:href="info:doi/10.1371/journal.pone.0082448.e008" xlink:type="simple" /></inline-formula>, and HCC will not be recurrent if <inline-formula><inline-graphic xlink:href="info:doi/10.1371/journal.pone.0082448.e009" xlink:type="simple" /></inline-formula>.</p>
+</sec><sec id="s3c">
+<title>Validation of the Decision Tree</title>
+<p>To evaluate the classification performance of the decision tree, we determined the sensitivity and specificity of the algorithm that was constructed with the training set, using the remaining 36 patients in the testing set. The decision classification tree correctly diagnosed 80.0% (8 of 10) patients with recurrence and 88.5% (23 of 26) patients without recurrence at 1 year after MWA (<xref ref-type="table" rid="pone-0082448-t003">Table 3</xref>).</p>
+</sec><sec id="s3d">
+<title>Comparison of Decision Classification Tree and AFP Level for Early Recurrence Prediction</title>
+<p>The sensitivity and specificity of decision classification tree and AFP to predict recurrence of HCC were examined in 86 HCC patients. A sensitivity of 88.3% (20 of 24) and specificity of 88.7% (55 of 62) for predicting early recurrence in HCC patients were obtained by decision classification tree analysis. In clinical practice, patients with AFP&gt;20 ng/mL are considered to have liver abnormality. Therefore, this same AFP cutoff level was used in the current study to discriminate high-risk recurrent HCC patients. When AFP was used to predict HCC recurrence, a sensitivity of 54.2% (13 of 24) and specificity of 69.4% (43 of 62) were obtained. The diagnostic odds ratios (DOR) were also calculated in this study to compare the decision classification tree and AFP for predicting HCC in all samples. DOR is a single indicator for diagnostic performance, such that higher DOR value means better discriminative power. The calculated DOR of the decision classification tree was 41.50, implying that the odds for positivity among recurrent patients were 41.50 times higher than the odds for positivity among non-recurrent patients. The calculated DOR for AFP was only 2.68. Based on these values, decision classification tree performed 20 times better than AFP in predicting recurrence in HCC patients (41.50 <italic>vs</italic> 2.68) (<xref ref-type="table" rid="pone-0082448-t004">Table 4</xref>).</p>
+<table-wrap id="pone-0082448-t004" position="float" orientation="portrait"><object-id pub-id-type="doi">10.1371/journal.pone.0082448.t004</object-id><label>Table 4</label><caption>
+<title>Sensitivity, specificity, and DOR of decision classification tree and AFP for HCC recurrence predicting.</title>
+</caption><alternatives><graphic id="pone-0082448-t004-4" position="float" mimetype="image" xlink:href="info:doi/10.1371/journal.pone.0082448.t004" xlink:type="simple" orientation="portrait" />
+<table><colgroup span="1"><col align="left" span="1" /><col align="center" span="1" /><col align="center" span="1" /><col align="center" span="1" /></colgroup>
+<thead>
+<tr>
+<td align="left" rowspan="1" colspan="1">Methords</td>
+<td align="left" rowspan="1" colspan="1">Sensitivity (%)</td>
+<td align="left" rowspan="1" colspan="1">Specificity (%)</td>
+<td align="left" rowspan="1" colspan="1">DOR misclassified</td>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left" rowspan="1" colspan="1">Decision classification tree</td>
+<td align="left" rowspan="1" colspan="1">88.3</td>
+<td align="left" rowspan="1" colspan="1">88.7</td>
+<td align="left" rowspan="1" colspan="1">41.5</td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1">AFP</td>
+<td align="left" rowspan="1" colspan="1">54.2</td>
+<td align="left" rowspan="1" colspan="1">69.4</td>
+<td align="left" rowspan="1" colspan="1">2.68</td>
+</tr>
+</tbody>
+</table>
+</alternatives></table-wrap></sec></sec><sec id="s4">
+<title>Discussion</title>
+<p>Microwave ablation, which is developed as a minimally invasive thermal therapy for HCC, has been performed as a reliable alternative to hepatic resection in patients with small HCC <xref ref-type="bibr" rid="pone.0082448-Wang2">[5]</xref>. In recent years, increasing numbers of patients have preferred to undergo microwave ablation rather than hepatic resection, and satisfied curative effect has been acquired in our institution <xref ref-type="bibr" rid="pone.0082448-Liang1">[21]</xref>. Microwave ablation is a local ablation method, and local regrowth could be seen in some patients. Taking advantage of the tremendous progress of the technique <xref ref-type="bibr" rid="pone.0082448-Liang2">[22]</xref> and the development of monitoring methods <xref ref-type="bibr" rid="pone.0082448-Solbiati1">[23]</xref>, such as CEUS <xref ref-type="bibr" rid="pone.0082448-Liu1">[24]</xref>, <xref ref-type="bibr" rid="pone.0082448-Nicolau1">[25]</xref> and CE-MRI, the number of local residual tumors has been decreased dramatically. Promising results of microwave ablation for HCC have been demonstrated in many other studies <xref ref-type="bibr" rid="pone.0082448-Imura1">[26]</xref>–<xref ref-type="bibr" rid="pone.0082448-Veltri1">[28]</xref>. In our study, follow-up after 1 year showed complete ablation in all patients studied. However, despite complete ablation of the tumor, recurrence in other segments of liver is still a problem in MWA treatment. The same problem also exists in surgical resection, the traditional treatment of HCC, and liver transplantation <xref ref-type="bibr" rid="pone.0082448-Okuda1">[29]</xref>–<xref ref-type="bibr" rid="pone.0082448-Yamashiki1">[31]</xref>. Early recurrence after surgery is closely correlated with poor prognosis of HCC <xref ref-type="bibr" rid="pone.0082448-Portolani1">[2]</xref>. Thus, there is an urgent need for proper markers to predict HCC recurrence in the early stage.</p>
+<p>Proteomic analysis of sera and liver tissues from patients with HCC is an emerging technique for the identification of biomarkers indicative of disease severity and progression <xref ref-type="bibr" rid="pone.0082448-Vascotto1">[32]</xref>–<xref ref-type="bibr" rid="pone.0082448-ZeindlEberhart1">[34]</xref>. Analysis of serum or other body fluid that is easy to obtain from patients to predict disease or evaluate treatment efficacy would be ideal. Since abundant biological information exists in blood, characterization of serum proteome has become an essential step towards improvements in care for patients with HCC. The development of mass spectrometry proteomic profiling approaches, such as SELDI, allows greater sample throughput and the ability to examine low mass proteins. The major goal for most proteomic studies in HCC patients is the identification of markers for early detection of HCC <xref ref-type="bibr" rid="pone.0082448-Chignard1">[35]</xref>–<xref ref-type="bibr" rid="pone.0082448-Ward1">[38]</xref>. In recent years, early detection and treatment of HCC have undergone great progress, but tumor recurrence remains a significant cause of death in patients with HCC.</p>
+<p>In this study, our goal was not to identify patients with HCC, but rather to build a model that predicts clinical behavior in patients already diagnosed with HCC. The pathological state of the liver may be reflected by the serum proteome of an individual. Because HCC is derived from hepatocytes, these cells might release cellular proteins into circulation, including proteins that might function as biomarkers in predicting recurrence, or allowing early detection of recurrence in HCC patients. We hypothesized that biomarkers are present in preoperative serum, which might be used to predict the probability of recurrence following MWA. We used the SELDI ProteinChip system to analyze serum samples from patients with HCC. We tried to find a differentially expressed protein peak in recurrent patients and non-recurrent patients. Beyond our expectations, nine protein peaks within an m/z range of 1,000 to 30,000 differed significantly between recurrent patients and non-recurrent patients. Based on the peak intensities of the 87 peak proteins, three peaks were selected to construct a decision classification tree using Biomarker Patterns Software. The decision classification tree was proposed for screening of patients at high risk of recurrence from all patients with HCC after MWA in 1 year. On the basis of the presence of the three protein peaks, the sensitivity and specificity of the decision classification tree were 85.7% and 88.9%, respectively.</p>
+<p>Clinical proteomics is a non-targeted approach that allows the characterization of the whole, or part of the whole, spectrum of proteins in a biological sample. Therefore, proteomics approaches have been already applied to the diagnosis of HCC. An accurate prognosis is essential, particularly in malignant diseases. The ability to accurately predict early recurrence, especially if it could be done well in advance of its occurrence, could provide advice to patients and guidance for assessment and treatment that could most benefit patients, with the goal of delaying recurrence and prolonging survival. At present, there is no widely accepted tool for predicting recurrence after MWA in HCC patients. If a sensible predictor of prognosis could be applied to patients with HCC, particularly with early stage HCC, it would be helpful in choosing rational treatment decisions. The present study identifies preablation serum SELDI-TOF MS profiling features that are useful in investigating the risk of recurrence, and the decision classification tree could predict the probability of developing recurrent HCC with an accuracy of 86.1% (31/36). Importantly, follow-up should be focused on patients who are identified as being at high risk for recurrent HCC after MWA, and who might be candidates for adjuvant therapy, such as immune-mediated therapy in the future. However, further studies with larger cohorts are needed to verify the decision classification tree gradually. The decision classification tree combined with serum candidate proteins is a potential tool in predicting early intrahepatic recurrence of HCC.</p>
+<p>In conclusion, this study demonstrated that preablation serum proteomic analysis is a significant indicator for predicting early recurrence in HCC patients after MWA. Preablation serum proteomic profiling should help to identify patients who may benefit from more intensive surveillance after MWA and additional therapies before the appearance of recurrence.</p>
+</sec></body>
+<back>
+<ack>
+<p>We sincerely thank Miss Meng-juan Mu and Jie Yu for their secretarial assistance.</p>
+</ack>
+<ref-list>
+<title>References</title>
+<ref id="pone.0082448-Parkin1"><label>1</label>
+<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Parkin</surname><given-names>DM</given-names></name> (<year>2001</year>) <article-title>Global cancer statistics in the year 2000</article-title>. <source>Lancet Oncol</source> <volume>2</volume>: <fpage>533</fpage>–<lpage>543</lpage>.</mixed-citation>
+</ref>
+<ref id="pone.0082448-Portolani1"><label>2</label>
+<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Portolani</surname><given-names>N</given-names></name>, <name name-style="western"><surname>Coniglio</surname><given-names>A</given-names></name>, <name name-style="western"><surname>Ghidoni</surname><given-names>S</given-names></name>, <name name-style="western"><surname>Giovanelli</surname><given-names>M</given-names></name>, <name name-style="western"><surname>Benetti</surname><given-names>A</given-names></name>, <etal>et al</etal>. (<year>2006</year>) <article-title>Early and late recurrence after liver resection for hepatocellular carcinoma: prognostic and therapeutic implications</article-title>. <source>Ann Surg</source> <volume>243</volume>: <fpage>229</fpage>–<lpage>235</lpage>.</mixed-citation>
+</ref>
+<ref id="pone.0082448-Hashimoto1"><label>3</label>
+<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Hashimoto</surname><given-names>K</given-names></name>, <name name-style="western"><surname>Ikeda</surname><given-names>Y</given-names></name>, <name name-style="western"><surname>Korenaga</surname><given-names>D</given-names></name>, <name name-style="western"><surname>Tanoue</surname><given-names>K</given-names></name>, <name name-style="western"><surname>Hamatake</surname><given-names>M</given-names></name>, <etal>et al</etal>. (<year>2005</year>) <article-title>The impact of preoperative serum C-reactive protein on the prognosis of patients with hepatocellular carcinoma</article-title>. <source>Cancer</source> <volume>103</volume>: <fpage>1856</fpage>–<lpage>1864</lpage>.</mixed-citation>
+</ref>
+<ref id="pone.0082448-Wang1"><label>4</label>
+<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Wang</surname><given-names>Y</given-names></name>, <name name-style="western"><surname>Sun</surname><given-names>Y</given-names></name>, <name name-style="western"><surname>Feng</surname><given-names>L</given-names></name>, <name name-style="western"><surname>Gao</surname><given-names>Y</given-names></name>, <name name-style="western"><surname>Ni</surname><given-names>X</given-names></name>, <etal>et al</etal>. (<year>2008</year>) <article-title>Internally cooled antenna for microwave ablation: results in ex vivo and in vivo porcine livers</article-title>. <source>Eur J Radiol</source> <volume>67</volume>: <fpage>357</fpage>–<lpage>361</lpage>.</mixed-citation>
+</ref>
+<ref id="pone.0082448-Wang2"><label>5</label>
+<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Wang</surname><given-names>ZL</given-names></name>, <name name-style="western"><surname>Liang</surname><given-names>P</given-names></name>, <name name-style="western"><surname>Dong</surname><given-names>BW</given-names></name>, <name name-style="western"><surname>Yu</surname><given-names>XL</given-names></name>, <name name-style="western"><surname>Yu de</surname><given-names>J</given-names></name> (<year>2008</year>) <article-title>Prognostic factors and recurrence of small hepatocellular carcinoma after hepatic resection or microwave ablation: a retrospective study</article-title>. <source>J Gastrointest Surg</source> <volume>12</volume>: <fpage>327</fpage>–<lpage>337</lpage>.</mixed-citation>
+</ref>
+<ref id="pone.0082448-Liotta1"><label>6</label>
+<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Liotta</surname><given-names>LA</given-names></name>, <name name-style="western"><surname>Ferrari</surname><given-names>M</given-names></name>, <name name-style="western"><surname>Petricoin</surname><given-names>E</given-names></name> (<year>2003</year>) <article-title>Clinical proteomics: written in blood</article-title>. <source>Nature</source> <volume>425</volume>: <fpage>905</fpage>.</mixed-citation>
+</ref>
+<ref id="pone.0082448-Gilbert1"><label>7</label>
+<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Gilbert</surname><given-names>K</given-names></name>, <name name-style="western"><surname>Figueredo</surname><given-names>S</given-names></name>, <name name-style="western"><surname>Meng</surname><given-names>XY</given-names></name>, <name name-style="western"><surname>Yip</surname><given-names>C</given-names></name>, <name name-style="western"><surname>Fung</surname><given-names>ET</given-names></name> (<year>2004</year>) <article-title>Serum protein-expression profiling using the ProteinChip biomarker system</article-title>. <source>Methods Mol Biol</source> <volume>264</volume>: <fpage>259</fpage>–<lpage>269</lpage>.</mixed-citation>
+</ref>
+<ref id="pone.0082448-Kuwata1"><label>8</label>
+<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Kuwata</surname><given-names>H</given-names></name>, <name name-style="western"><surname>Yip</surname><given-names>TT</given-names></name>, <name name-style="western"><surname>Yip</surname><given-names>CL</given-names></name>, <name name-style="western"><surname>Tomita</surname><given-names>M</given-names></name>, <name name-style="western"><surname>Hutchens</surname><given-names>TW</given-names></name> (<year>1998</year>) <article-title>Bactericidal domain of lactoferrin: detection, quantitation, and characterization of lactoferricin in serum by SELDI affinity mass spectrometry</article-title>. <source>Biochem Biophys Res Commun</source> <volume>245</volume>: <fpage>764</fpage>–<lpage>773</lpage>.</mixed-citation>
+</ref>
+<ref id="pone.0082448-Wulfkuhle1"><label>9</label>
+<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Wulfkuhle</surname><given-names>JD</given-names></name>, <name name-style="western"><surname>Liotta</surname><given-names>LA</given-names></name>, <name name-style="western"><surname>Petricoin</surname><given-names>EF</given-names></name> (<year>2003</year>) <article-title>Proteomic applications for the early detection of cancer</article-title>. <source>Nat Rev Cancer</source> <volume>3</volume>: <fpage>267</fpage>–<lpage>275</lpage>.</mixed-citation>
+</ref>
+<ref id="pone.0082448-Albitar1"><label>10</label>
+<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Albitar</surname><given-names>M</given-names></name>, <name name-style="western"><surname>Potts</surname><given-names>SJ</given-names></name>, <name name-style="western"><surname>Giles</surname><given-names>FJ</given-names></name>, <name name-style="western"><surname>O'Brien</surname><given-names>S</given-names></name>, <name name-style="western"><surname>Keating</surname><given-names>M</given-names></name>, <etal>et al</etal>. (<year>2006</year>) <article-title>Proteomic-based prediction of clinical behavior in adult acute lymphoblastic leukemia</article-title>. <source>Cancer</source> <volume>106</volume>: <fpage>1587</fpage>–<lpage>1594</lpage>.</mixed-citation>
+</ref>
+<ref id="pone.0082448-Buhimschi1"><label>11</label>
+<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Buhimschi</surname><given-names>CS</given-names></name>, <name name-style="western"><surname>Bhandari</surname><given-names>V</given-names></name>, <name name-style="western"><surname>Hamar</surname><given-names>BD</given-names></name>, <name name-style="western"><surname>Bahtiyar</surname><given-names>MO</given-names></name>, <name name-style="western"><surname>Zhao</surname><given-names>G</given-names></name>, <etal>et al</etal>. (<year>2007</year>) <article-title>Proteomic profiling of the amniotic fluid to detect inflammation, infection, and neonatal sepsis</article-title>. <source>PLoS Med</source> <volume>4</volume>: <fpage>e18</fpage>.</mixed-citation>
+</ref>
+<ref id="pone.0082448-Purohit1"><label>12</label>
+<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Purohit</surname><given-names>S</given-names></name>, <name name-style="western"><surname>Podolsky</surname><given-names>R</given-names></name>, <name name-style="western"><surname>Schatz</surname><given-names>D</given-names></name>, <name name-style="western"><surname>Muir</surname><given-names>A</given-names></name>, <name name-style="western"><surname>Hopkins</surname><given-names>D</given-names></name>, <etal>et al</etal>. (<year>2006</year>) <article-title>Assessing the utility of SELDI-TOF and model averaging for serum proteomic biomarker discovery</article-title>. <source>Proteomics</source> <volume>6</volume>: <fpage>6405</fpage>–<lpage>6415</lpage>.</mixed-citation>
+</ref>
+<ref id="pone.0082448-He1"><label>13</label>
+<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>He</surname><given-names>QY</given-names></name>, <name name-style="western"><surname>Zhu</surname><given-names>R</given-names></name>, <name name-style="western"><surname>Lei</surname><given-names>T</given-names></name>, <name name-style="western"><surname>Ng</surname><given-names>MY</given-names></name>, <name name-style="western"><surname>Luk</surname><given-names>JM</given-names></name>, <etal>et al</etal>. (<year>2008</year>) <article-title>Toward the proteomic identification of biomarkers for the prediction of HBV related hepatocellular carcinoma</article-title>. <source>J Cell Biochem</source> <volume>103</volume>: <fpage>740</fpage>–<lpage>752</lpage>.</mixed-citation>
+</ref>
+<ref id="pone.0082448-Paradis1"><label>14</label>
+<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Paradis</surname><given-names>V</given-names></name>, <name name-style="western"><surname>Degos</surname><given-names>F</given-names></name>, <name name-style="western"><surname>Dargere</surname><given-names>D</given-names></name>, <name name-style="western"><surname>Pham</surname><given-names>N</given-names></name>, <name name-style="western"><surname>Belghiti</surname><given-names>J</given-names></name>, <etal>et al</etal>. (<year>2005</year>) <article-title>Identification of a new marker of hepatocellular carcinoma by serum protein profiling of patients with chronic liver diseases</article-title>. <source>Hepatology</source> <volume>41</volume>: <fpage>40</fpage>–<lpage>47</lpage>.</mixed-citation>
+</ref>
+<ref id="pone.0082448-Petricoin1"><label>15</label>
+<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Petricoin</surname><given-names>EF</given-names></name>, <name name-style="western"><surname>Ardekani</surname><given-names>AM</given-names></name>, <name name-style="western"><surname>Hitt</surname><given-names>BA</given-names></name>, <name name-style="western"><surname>Levine</surname><given-names>PJ</given-names></name>, <name name-style="western"><surname>Fusaro</surname><given-names>VA</given-names></name>, <etal>et al</etal>. (<year>2002</year>) <article-title>Use of proteomic patterns in serum to identify ovarian cancer</article-title>. <source>Lancet</source> <volume>359</volume>: <fpage>572</fpage>–<lpage>577</lpage>.</mixed-citation>
+</ref>
+<ref id="pone.0082448-Langbein1"><label>16</label>
+<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Langbein</surname><given-names>S</given-names></name>, <name name-style="western"><surname>Lehmann</surname><given-names>J</given-names></name>, <name name-style="western"><surname>Harder</surname><given-names>A</given-names></name>, <name name-style="western"><surname>Steidler</surname><given-names>A</given-names></name>, <name name-style="western"><surname>Michel</surname><given-names>MS</given-names></name>, <etal>et al</etal>. (<year>2006</year>) <article-title>Protein profiling of bladder cancer using the 2D-PAGE and SELDI-TOF-MS technique</article-title>. <source>Technol Cancer Res Treat</source> <volume>5</volume>: <fpage>67</fpage>–<lpage>72</lpage>.</mixed-citation>
+</ref>
+<ref id="pone.0082448-Xue1"><label>17</label>
+<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Xue</surname><given-names>A</given-names></name>, <name name-style="western"><surname>Gandy</surname><given-names>RC</given-names></name>, <name name-style="western"><surname>Chung</surname><given-names>L</given-names></name>, <name name-style="western"><surname>Baxter</surname><given-names>RC</given-names></name>, <name name-style="western"><surname>Smith</surname><given-names>RC</given-names></name> (<year>2012</year>) <article-title>Discovery of diagnostic biomarkers for pancreatic cancer in immunodepleted serum by SELDI-TOF MS</article-title>. <source>Pancreatology</source> <volume>12</volume>: <fpage>124</fpage>–<lpage>129</lpage>.</mixed-citation>
+</ref>
+<ref id="pone.0082448-Navaglia1"><label>18</label>
+<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Navaglia</surname><given-names>F</given-names></name>, <name name-style="western"><surname>Fogar</surname><given-names>P</given-names></name>, <name name-style="western"><surname>Basso</surname><given-names>D</given-names></name>, <name name-style="western"><surname>Greco</surname><given-names>E</given-names></name>, <name name-style="western"><surname>Padoan</surname><given-names>A</given-names></name>, <etal>et al</etal>. (<year>2009</year>) <article-title>Pancreatic cancer biomarkers discovery by surface-enhanced laser desorption and ionization time-of-flight mass spectrometry</article-title>. <source>Clin Chem Lab Med</source> <volume>47</volume>: <fpage>713</fpage>–<lpage>723</lpage>.</mixed-citation>
+</ref>
+<ref id="pone.0082448-Taguchi1"><label>19</label>
+<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Taguchi</surname><given-names>A</given-names></name>, <name name-style="western"><surname>Politi</surname><given-names>K</given-names></name>, <name name-style="western"><surname>Pitteri</surname><given-names>SJ</given-names></name>, <name name-style="western"><surname>Lockwood</surname><given-names>WW</given-names></name>, <name name-style="western"><surname>Faca</surname><given-names>VM</given-names></name>, <etal>et al</etal>. (<year>2011</year>) <article-title>Lung cancer signatures in plasma based on proteome profiling of mouse tumor models</article-title>. <source>Cancer Cell</source> <volume>20</volume>: <fpage>289</fpage>–<lpage>299</lpage>.</mixed-citation>
+</ref>
+<ref id="pone.0082448-Semmes1"><label>20</label>
+<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Semmes</surname><given-names>OJ</given-names></name>, <name name-style="western"><surname>Malik</surname><given-names>G</given-names></name>, <name name-style="western"><surname>Ward</surname><given-names>M</given-names></name> (<year>2006</year>) <article-title>Application of mass spectrometry to the discovery of biomarkers for detection of prostate cancer</article-title>. <source>J Cell Biochem</source> <volume>98</volume>: <fpage>496</fpage>–<lpage>503</lpage>.</mixed-citation>
+</ref>
+<ref id="pone.0082448-Liang1"><label>21</label>
+<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Liang</surname><given-names>P</given-names></name>, <name name-style="western"><surname>Yu</surname><given-names>J</given-names></name>, <name name-style="western"><surname>Yu</surname><given-names>XL</given-names></name>, <name name-style="western"><surname>Wang</surname><given-names>XH</given-names></name>, <name name-style="western"><surname>Wei</surname><given-names>Q</given-names></name>, <etal>et al</etal>. (<year>2012</year>) <article-title>Percutaneous cooled-tip microwave ablation under ultrasound guidance for primary liver cancer: a multicentre analysis of 1363 treatment-naive lesions in 1007 patients in China</article-title>. <source>Gut</source> <volume>61</volume>: <fpage>1100</fpage>–<lpage>1101</lpage>.</mixed-citation>
+</ref>
+<ref id="pone.0082448-Liang2"><label>22</label>
+<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Liang</surname><given-names>P</given-names></name>, <name name-style="western"><surname>Wang</surname><given-names>Y</given-names></name> (<year>2007</year>) <article-title>Microwave ablation of hepatocellular carcinoma</article-title>. <source>Oncology</source> <volume>72</volume> Suppl 1<fpage>124</fpage>–<lpage>131</lpage>.</mixed-citation>
+</ref>
+<ref id="pone.0082448-Solbiati1"><label>23</label>
+<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Solbiati</surname><given-names>L</given-names></name>, <name name-style="western"><surname>Tonolini</surname><given-names>M</given-names></name>, <name name-style="western"><surname>Cova</surname><given-names>L</given-names></name> (<year>2004</year>) <article-title>Monitoring RF ablation</article-title>. <source>Eur Radiol</source> <volume>14</volume> Suppl 8<fpage>P34</fpage>–<lpage>42</lpage>.</mixed-citation>
+</ref>
+<ref id="pone.0082448-Liu1"><label>24</label>
+<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Liu</surname><given-names>F</given-names></name>, <name name-style="western"><surname>Yu</surname><given-names>X</given-names></name>, <name name-style="western"><surname>Liang</surname><given-names>P</given-names></name>, <name name-style="western"><surname>Cheng</surname><given-names>Z</given-names></name>, <name name-style="western"><surname>Han</surname><given-names>Z</given-names></name>, <etal>et al</etal>. (<year>2011</year>) <article-title>Contrast-enhanced ultrasound-guided microwave ablation for hepatocellular carcinoma inconspicuous on conventional ultrasound</article-title>. <source>Int J Hyperthermia</source> <volume>27</volume>: <fpage>555</fpage>–<lpage>562</lpage>.</mixed-citation>
+</ref>
+<ref id="pone.0082448-Nicolau1"><label>25</label>
+<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Nicolau</surname><given-names>C</given-names></name>, <name name-style="western"><surname>Vilana</surname><given-names>R</given-names></name>, <name name-style="western"><surname>Bianchi</surname><given-names>L</given-names></name>, <name name-style="western"><surname>Bru</surname><given-names>C</given-names></name> (<year>2007</year>) <article-title>Early-stage hepatocellular carcinoma: the high accuracy of real-time contrast-enhanced ultrasonography in the assessment of response to percutaneous treatment</article-title>. <source>Eur Radiol</source> <volume>17</volume> Suppl 6<fpage>F80</fpage>–<lpage>88</lpage>.</mixed-citation>
+</ref>
+<ref id="pone.0082448-Imura1"><label>26</label>
+<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Imura</surname><given-names>S</given-names></name>, <name name-style="western"><surname>Shimada</surname><given-names>M</given-names></name>, <name name-style="western"><surname>Utsunomiya</surname><given-names>T</given-names></name>, <name name-style="western"><surname>Morine</surname><given-names>Y</given-names></name>, <name name-style="western"><surname>Ikemoto</surname><given-names>T</given-names></name>, <etal>et al</etal>. (<year>2012</year>) <article-title>Ultrasound-guided microwave coagulation assists anatomical hepatic resection</article-title>. <source>Surg Today</source> <volume>42</volume>: <fpage>35</fpage>–<lpage>40</lpage>.</mixed-citation>
+</ref>
+<ref id="pone.0082448-Aramaki1"><label>27</label>
+<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Aramaki</surname><given-names>M</given-names></name>, <name name-style="western"><surname>Kawano</surname><given-names>K</given-names></name>, <name name-style="western"><surname>Ohno</surname><given-names>T</given-names></name>, <name name-style="western"><surname>Sasaki</surname><given-names>A</given-names></name>, <name name-style="western"><surname>Tahara</surname><given-names>K</given-names></name>, <etal>et al</etal>. (<year>2004</year>) <article-title>Microwave coagulation therapy for unresectable hepatocellular carcinoma</article-title>. <source>Hepatogastroenterology</source> <volume>51</volume>: <fpage>1784</fpage>–<lpage>1787</lpage>.</mixed-citation>
+</ref>
+<ref id="pone.0082448-Veltri1"><label>28</label>
+<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Veltri</surname><given-names>A</given-names></name>, <name name-style="western"><surname>Gazzera</surname><given-names>C</given-names></name>, <name name-style="western"><surname>Rotondella</surname><given-names>C</given-names></name>, <name name-style="western"><surname>Camerano</surname><given-names>F</given-names></name>, <name name-style="western"><surname>Busso</surname><given-names>M</given-names></name>, <etal>et al</etal>. (<year>2012</year>) <article-title>Image-guided microwave ablation of hepatic tumours: preliminary experience</article-title>. <source>Radiol Med</source> <volume>117</volume>: <fpage>378</fpage>–<lpage>392</lpage>.</mixed-citation>
+</ref>
+<ref id="pone.0082448-Okuda1"><label>29</label>
+<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Okuda</surname><given-names>K</given-names></name> (<year>2000</year>) <article-title>Hepatocellular carcinoma</article-title>. <source>J Hepatol</source> <volume>32</volume>: <fpage>225</fpage>–<lpage>237</lpage>.</mixed-citation>
+</ref>
+<ref id="pone.0082448-Tsunedomi1"><label>30</label>
+<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Tsunedomi</surname><given-names>R</given-names></name>, <name name-style="western"><surname>Iizuka</surname><given-names>N</given-names></name>, <name name-style="western"><surname>Tamesa</surname><given-names>T</given-names></name>, <name name-style="western"><surname>Sakamoto</surname><given-names>K</given-names></name>, <name name-style="western"><surname>Hamaguchi</surname><given-names>T</given-names></name>, <etal>et al</etal>. (<year>2008</year>) <article-title>Decreased ID2 promotes metastatic potentials of hepatocellular carcinoma by altering secretion of vascular endothelial growth factor</article-title>. <source>Clin Cancer Res</source> <volume>14</volume>: <fpage>1025</fpage>–<lpage>1031</lpage>.</mixed-citation>
+</ref>
+<ref id="pone.0082448-Yamashiki1"><label>31</label>
+<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Yamashiki</surname><given-names>N</given-names></name>, <name name-style="western"><surname>Yoshida</surname><given-names>H</given-names></name>, <name name-style="western"><surname>Tateishi</surname><given-names>R</given-names></name>, <name name-style="western"><surname>Shiina</surname><given-names>S</given-names></name>, <name name-style="western"><surname>Teratani</surname><given-names>T</given-names></name>, <etal>et al</etal>. (<year>2007</year>) <article-title>Recurrent hepatocellular carcinoma has an increased risk of subsequent recurrence after curative treatment</article-title>. <source>J Gastroenterol Hepatol</source> <volume>22</volume>: <fpage>2155</fpage>–<lpage>2160</lpage>.</mixed-citation>
+</ref>
+<ref id="pone.0082448-Vascotto1"><label>32</label>
+<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Vascotto</surname><given-names>C</given-names></name>, <name name-style="western"><surname>Cesaratto</surname><given-names>L</given-names></name>, <name name-style="western"><surname>D'Ambrosio</surname><given-names>C</given-names></name>, <name name-style="western"><surname>Scaloni</surname><given-names>A</given-names></name>, <name name-style="western"><surname>Avellini</surname><given-names>C</given-names></name>, <etal>et al</etal>. (<year>2006</year>) <article-title>Proteomic analysis of liver tissues subjected to early ischemia/reperfusion injury during human orthotopic liver transplantation</article-title>. <source>Proteomics</source> <volume>6</volume>: <fpage>3455</fpage>–<lpage>3465</lpage>.</mixed-citation>
+</ref>
+<ref id="pone.0082448-Ostroff1"><label>33</label>
+<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Ostroff</surname><given-names>RM</given-names></name>, <name name-style="western"><surname>Mehan</surname><given-names>MR</given-names></name>, <name name-style="western"><surname>Stewart</surname><given-names>A</given-names></name>, <name name-style="western"><surname>Ayers</surname><given-names>D</given-names></name>, <name name-style="western"><surname>Brody</surname><given-names>EN</given-names></name>, <etal>et al</etal>. (<year>2012</year>) <article-title>Early detection of malignant pleural mesothelioma in asbestos-exposed individuals with a noninvasive proteomics-based surveillance tool</article-title>. <source>PLoS One</source> <volume>7</volume>: <fpage>e46091</fpage>.</mixed-citation>
+</ref>
+<ref id="pone.0082448-ZeindlEberhart1"><label>34</label>
+<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Zeindl-Eberhart</surname><given-names>E</given-names></name>, <name name-style="western"><surname>Haraida</surname><given-names>S</given-names></name>, <name name-style="western"><surname>Liebmann</surname><given-names>S</given-names></name>, <name name-style="western"><surname>Jungblut</surname><given-names>PR</given-names></name>, <name name-style="western"><surname>Lamer</surname><given-names>S</given-names></name>, <etal>et al</etal>. (<year>2004</year>) <article-title>Detection and identification of tumor-associated protein variants in human hepatocellular carcinomas</article-title>. <source>Hepatology</source> <volume>39</volume>: <fpage>540</fpage>–<lpage>549</lpage>.</mixed-citation>
+</ref>
+<ref id="pone.0082448-Chignard1"><label>35</label>
+<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Chignard</surname><given-names>N</given-names></name>, <name name-style="western"><surname>Beretta</surname><given-names>L</given-names></name> (<year>2004</year>) <article-title>Proteomics for hepatocellular carcinoma marker discovery</article-title>. <source>Gastroenterology</source> <volume>127</volume>: <fpage>S120</fpage>–<lpage>125</lpage>.</mixed-citation>
+</ref>
+<ref id="pone.0082448-Steel1"><label>36</label>
+<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Steel</surname><given-names>LF</given-names></name>, <name name-style="western"><surname>Mattu</surname><given-names>TS</given-names></name>, <name name-style="western"><surname>Mehta</surname><given-names>A</given-names></name>, <name name-style="western"><surname>Hebestreit</surname><given-names>H</given-names></name>, <name name-style="western"><surname>Dwek</surname><given-names>R</given-names></name>, <etal>et al</etal>. (<year>2001</year>) <article-title>A proteomic approach for the discovery of early detection markers of hepatocellular carcinoma</article-title>. <source>Dis Markers</source> <volume>17</volume>: <fpage>179</fpage>–<lpage>189</lpage>.</mixed-citation>
+</ref>
+<ref id="pone.0082448-Schwegler1"><label>37</label>
+<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Schwegler</surname><given-names>EE</given-names></name>, <name name-style="western"><surname>Cazares</surname><given-names>L</given-names></name>, <name name-style="western"><surname>Steel</surname><given-names>LF</given-names></name>, <name name-style="western"><surname>Adam</surname><given-names>BL</given-names></name>, <name name-style="western"><surname>Johnson</surname><given-names>DA</given-names></name>, <etal>et al</etal>. (<year>2005</year>) <article-title>SELDI-TOF MS profiling of serum for detection of the progression of chronic hepatitis C to hepatocellular carcinoma</article-title>. <source>Hepatology</source> <volume>41</volume>: <fpage>634</fpage>–<lpage>642</lpage>.</mixed-citation>
+</ref>
+<ref id="pone.0082448-Ward1"><label>38</label>
+<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Ward</surname><given-names>DG</given-names></name>, <name name-style="western"><surname>Cheng</surname><given-names>Y</given-names></name>, <name name-style="western"><surname>N'Kontchou</surname><given-names>G</given-names></name>, <name name-style="western"><surname>Thar</surname><given-names>TT</given-names></name>, <name name-style="western"><surname>Barget</surname><given-names>N</given-names></name>, <etal>et al</etal>. (<year>2006</year>) <article-title>Changes in the serum proteome associated with the development of hepatocellular carcinoma in hepatitis C-related cirrhosis</article-title>. <source>Br J Cancer</source> <volume>94</volume>: <fpage>287</fpage>–<lpage>292</lpage>.</mixed-citation>
+</ref>
+</ref-list></back>
+</article>

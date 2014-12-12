@@ -1,0 +1,781 @@
+<article xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" article-type="research-article" dtd-version="3.0" xml:lang="en">
+	<front>
+		<journal-meta>
+    <journal-id journal-id-type="nlm-ta">PLoS ONE</journal-id>
+    <journal-id journal-id-type="publisher-id">plos</journal-id>
+    <journal-id journal-id-type="pmc">plosone</journal-id>
+    <journal-title-group><journal-title xml:lang="en">PLoS ONE</journal-title></journal-title-group>
+    <issn pub-type="epub">1932-6203</issn>
+    <publisher><publisher-name>Public Library of Science</publisher-name>
+    <publisher-loc>San Francisco, USA</publisher-loc></publisher>
+    </journal-meta><article-meta>
+			<article-id pub-id-type="publisher-id">PONE-D-13-23979</article-id><article-id pub-id-type="doi">10.1371/journal.pone.0083690</article-id><article-categories><subj-group subj-group-type="heading">
+    <subject>Research Article</subject></subj-group></article-categories><title-group>
+				<article-title>Heart Rate Variability and Blood Pressure during Dynamic and Static Exercise at Similar Heart Rate Levels</article-title>
+			<alt-title alt-title-type="running-head">Autonomic Response to Dynamic and Static Exercise</alt-title>
+      </title-group>
+			<contrib-group>
+				<contrib xlink:type="simple" contrib-type="author">
+					<name name-style="western">
+						<surname>Weippert</surname>
+						<given-names>Matthias</given-names>
+					</name>
+					<xref ref-type="aff" rid="aff1"><sup>1</sup></xref>
+					<xref ref-type="aff" rid="aff2"><sup>2</sup></xref>
+					<xref ref-type="corresp" rid="cor1"><sup>*</sup></xref>
+				</contrib>
+				<contrib xlink:type="simple" contrib-type="author">
+					<name name-style="western">
+						<surname>Behrens</surname>
+						<given-names>Kristin</given-names>
+					</name>
+					<xref ref-type="aff" rid="aff1"><sup>1</sup></xref>
+				</contrib>
+				<contrib xlink:type="simple" contrib-type="author">
+					<name name-style="western">
+						<surname>Rieger</surname>
+						<given-names>Annika</given-names>
+					</name>
+					<xref ref-type="aff" rid="aff2"><sup>2</sup></xref>
+				</contrib>
+				<contrib xlink:type="simple" contrib-type="author">
+					<name name-style="western">
+						<surname>Stoll</surname>
+						<given-names>Regina</given-names>
+					</name>
+					<xref ref-type="aff" rid="aff1"><sup>1</sup></xref>
+				</contrib>
+				<contrib xlink:type="simple" contrib-type="author">
+					<name name-style="western">
+						<surname>Kreuzfeld</surname>
+						<given-names>Steffi</given-names>
+					</name>
+					<xref ref-type="aff" rid="aff1"><sup>1</sup></xref>
+				</contrib>
+			</contrib-group>
+			<aff id="aff1"><label>1</label> <addr-line>Institute of Preventive Medicine, University of Rostock Medical School, Rostock, Mecklenburg-Vorpommern, Germany</addr-line></aff>
+			<aff id="aff2"><label>2</label> <addr-line>Center for Life Science Automation, University of Rostock, Rostock, Mecklenburg-Vorpommern, Germany</addr-line></aff>
+			<contrib-group><contrib contrib-type="editor" xlink:type="simple">
+          <name name-style="western">
+            <surname>Baumert</surname>
+            <given-names>Mathias</given-names>
+          </name>
+          <role>Editor</role>
+          <xref ref-type="aff" rid="edit1" />
+        </contrib>
+        </contrib-group><aff id="edit1"><addr-line>University of Adelaide, Australia</addr-line></aff><author-notes>
+				<corresp id="cor1">* E-mail: <email xlink:type="simple">matthias.weippert@uni-rostock.de</email></corresp>
+			<fn fn-type="conflict"><p>The authors have declared that no competing interests exist.</p></fn><fn fn-type="con"><p>Conceived and designed the experiments: MW. Performed the experiments: MW. Analyzed the data: MW KB. Wrote the manuscript: MW KB AR. Final approval of the manuscript: RS SK. </p></fn></author-notes>
+			<pub-date pub-type="collection"><year>2013</year></pub-date><pub-date pub-type="epub">
+        <day>13</day>
+        <month>12</month>
+        <year>2013</year>
+      </pub-date>
+      <volume>8</volume><issue>12</issue><elocation-id>e83690</elocation-id><history><date date-type="received">
+          <day>9</day>
+          <month>6</month>
+          <year>2013</year>
+        </date>
+        <date date-type="accepted">
+          <day>7</day>
+          <month>11</month>
+          <year>2013</year>
+        </date>
+      </history><permissions>
+    <copyright-year>2013</copyright-year><copyright-holder>Weippert et al</copyright-holder><license xlink:type="simple" xlink:href="http://creativecommons.org/licenses/by/4.0/"><license-p>This is an open-access article distributed under the terms of the <ext-link ext-link-type="uri" xlink:href="http://creativecommons.org/licenses/by/4.0/" xlink:type="simple">Creative Commons Attribution License</ext-link>, which permits unrestricted use, distribution, and reproduction in any medium, provided the original author and source are credited.</license-p></license>
+    </permissions><abstract>
+				<p>Aim was to elucidate autonomic responses to dynamic and static (isometric) exercise of the lower limbs eliciting the same moderate heart rate (HR) response. Method: 23 males performed two kinds of voluntary exercise in a supine position at similar heart rates: static exercise (SE) of the lower limbs (static leg press) and dynamic exercise (DE) of the lower limbs (cycling). Subjective effort, systolic (SBP) and diastolic blood pressure (DBP), mean arterial pressure (MAP), rate pressure product (RPP) and the time between consecutive heart beats (RR-intervals) were measured. Time-domain (SDNN, RMSSD), frequency-domain (power in the low and high frequency band (LFP, HFP)) and geometric measures (SD1, SD2) as well as non-linear measures of regularity (approximate entropy (ApEn), sample entropy (SampEn) and correlation dimension D2) were calculated. Results: Although HR was similar during both exercise conditions (88±10 bpm), subjective effort, SBP, DBP, MAP and RPP were significantly enhanced during SE.  HRV indicators representing overall variability (SDNN, SD 2) and vagal modulated variability (RMSSD, HFP, SD 1) were increased. LFP, thought to be modulated by both autonomic branches, tended to be higher during SE. ApEn and SampEn were decreased whereas D<sub>2</sub> was enhanced during SE. It can be concluded that autonomic control processes during SE and DE were qualitatively different despite similar heart rate levels. The differences were reflected by blood pressure and HRV indices. HRV-measures indicated a stronger vagal cardiac activity during SE, while blood pressure response indicated a stronger sympathetic efferent activity to the vessels. The elevated vagal cardiac activity during SE might be a response mechanism, compensating a possible co-activation of sympathetic cardiac efferents, as HR and LF/HF was similar and LFP tended to be higher. However, this conclusion must be drawn cautiously as there is no HRV-marker reflecting “pure” sympathetic cardiac activity.  </p>
+			</abstract>
+		<funding-group><funding-statement>Part of this work was funded by the German Federal Ministry of Education and Research (<ext-link ext-link-type="uri" xlink:href="http://www.bmbf.de" xlink:type="simple">http://www.bmbf.de</ext-link>/), Grant Number: 03Z1KN11. The funders had no role in study design, data collection and analysis, decision to publish, or preparation of the manuscript. No additional external funding was received for this study.</funding-statement></funding-group></article-meta>
+	</front>
+	<body>
+		<sec id="s1" sec-type="introduction">
+			<title>Introduction</title>
+			<p>Three mechanisms are thought to be responsible for the neural cardiovascular modulation during voluntary muscle contractions: an activation of higher brain centers (“central command”) as well as reflex activity primarily involving inputs from chemo- and mechanoreceptor (“muscle metaboreflex”) and baroreceptor afferents (“baroreflex”) [<xref ref-type="bibr" rid="B1">1</xref>-<xref ref-type="bibr" rid="B9">9</xref>]. Each mechanism activates neuronal circuits within the medulla and thus modulates the sympathetic and parasympathetic outflow from the cardiovascular control center [<xref ref-type="bibr" rid="B1">1</xref>-<xref ref-type="bibr" rid="B8">8</xref>]. The influence of each mechanism on the heart rate and blood pressure response to exercise depends on factors like recruited muscle mass, muscle fiber type, exercise intensity and the exercise mode [<xref ref-type="bibr" rid="B10">10</xref>-<xref ref-type="bibr" rid="B12">12</xref>]. Early literature that compared the cardiovascular response to static and dynamic muscular actions indicated a strong increase in heart rate (HR) and systolic arterial pressure (SBP), and minor changes in diastolic arterial pressure (DBP) during dynamic work, while isometric work is thought to induce only modest increases of HR but marked increases in SBP and in particular DBP [<xref ref-type="bibr" rid="B13">13</xref>-<xref ref-type="bibr" rid="B18">18</xref>]. However, the generality of these observations is limited, because a) mostly cardiovascular effects of static (SE) and dynamic exercise (DE) had been studied separately; b) the quantification and thus the equating of workload during different exercise modes is difficult [<xref ref-type="bibr" rid="B18">18</xref>]; and c) often the compared muscles were of different size and location. Static vs. dynamic contractions of identical small muscles, e. g. during submaximal handgrip exercise, elicited similar HR and BP response [<xref ref-type="bibr" rid="B19">19</xref>], while it was shown that submaximal isometric contractions of larger muscles (e. g. knee extensors/flexors) at 40 % of maximum effort can induce lower HR and BP responses than isokinetic or isotonic contractions [<xref ref-type="bibr" rid="B20">20</xref>]. During moderate exercise intensity Chapman and Elliott found a significant increase in HR and SBP during DE, while DBP was highest during SE [<xref ref-type="bibr" rid="B18">18</xref>]. Nevertheless they concluded that when the same muscle groups are used the effect of the exercise modes on cardiovascular response is more similar than frequently stated. Gonzales-Camarena and colleagues compared DE (cycling) at 30 % VO<sub>2</sub>max and SE (isometric exercise of the knee extensors) at 30 % maximal voluntary contraction force (MCV). While respiratory rate was similar at the equivalent relative workloads they found different cardiovascular response pattern: a lower heart rate, a higher blood pressure response as well as higher effort perception for SE compared to DE [<xref ref-type="bibr" rid="B21">21</xref>]. In addition to the lower HR response also HRV measures pointed to a stronger vagal modulation during the SE  [<xref ref-type="bibr" rid="B21">21</xref>]. Generally, compared to DE, isometric contractions might elicit a stronger chemoreflex response, as blood flow within and the release of metabolites from the muscle is limited. The chemoreflex elevates blood pressure by a sympathetic vasoconstriction [<xref ref-type="bibr" rid="B4">4</xref>], but also seems to affect sympathetic heart rate modulation [<xref ref-type="bibr" rid="B6">6</xref>].</p>
+			<p>To date, there are only few studies available that compared the cardiovascular response pattern at similar heart rates. Lindquist et al. found a stronger increase of SBP and DBP during isometric handgrip compared to cycling at comparable heart rates (about 90 bpm) [<xref ref-type="bibr" rid="B16">16</xref>]. Leicht and coworkers compared rating of perceived exertion (RPE) and cardio-respiratory response to dynamic muscular activity of different muscle groups at 50 % maximum HR (HR<sub>max</sub>) and 65 % HR<sub>max</sub>, respectively. The investigators found greater heart rate variability (HRV) and greater ratings of perceived exertion despite lower oxygen consumption during upper body dynamic exercise compared to lower or whole body dynamic exercise at similar heart rates [<xref ref-type="bibr" rid="B11">11</xref>]. They concluded that the greater HRV may represent greater vagal or dual autonomic modulation, but recommended further investigation of the underlying mechanisms.</p>
+			<p>Cottin et al. compared HRV indices during a judo randori vs. ergometer cycling eliciting the same heart rate level. They concluded that a) steady-state dynamic exercise or conversely exercise made of both isometric and irregular dynamic efforts can be distinguished by HRV analysis and b) based on their results of a similar spectral energy distribution within the LF and HF bands, “HR autonomic control during exercise depends on HR level rather than on exercise type“. Due to the study design in the Cottin et al. study including intense exercise at an average heart rate above 180 beats x min<sup>-1</sup>, conclusions regarding the autonomic mode of heart rate control based on spectral analyses of HRV are strongly limited. HRV at greater HR-levels is often almost negligibly and the remaining variance especially within the high frequency band is probably due to non-neural mechanisms [<xref ref-type="bibr" rid="B22">22</xref>-<xref ref-type="bibr" rid="B24">24</xref>]. Furthermore, the different location and size of the active muscles during cycling and judo exercises makes interpretation regarding the autonomic mode of heart rate control difficult.</p>
+			<p>In their case study of one world class dinghy sailor, Princi et al. found different autonomic modes of cardiac control based on HRV-analysis when comparing sailing and cycling at similar heart rates [<xref ref-type="bibr" rid="B25">25</xref>]. Because of higher values of the low frequency power (LFP) and the ratio of low to high frequency heart rate variance (LF/HF-ratio) in upwind sailing (static exercise) a different sympatho-vagal modulation of cardiac function – and therefore a different heart-brain interaction – under different exercise modes was suggested [<xref ref-type="bibr" rid="B25">25</xref>]. However, the generalizability of this statement is strongly limited, because only one athlete was subject of investigation and the muscle groups engaged were not similar during both exercises. </p>
+			<p>Aim of this laboratory study was to assess the modes of autonomic control under DE vs. SE at similar, low heart rate level. HRV, the beat to beat fluctuation of heart rate, and blood pressure were used as non-invasive measures to elucidate the autonomic mechanism underlying cardiovascular control under the different experimental conditions [<xref ref-type="bibr" rid="B6">6</xref>,<xref ref-type="bibr" rid="B24">24</xref>,<xref ref-type="bibr" rid="B26">26</xref>,<xref ref-type="bibr" rid="B27">27</xref>]. Provided a different autonomic response pattern, we hypothesized that blood pressure and / or heart rate variability measures would be different during the different exercise modes. </p>
+		</sec>
+		<sec id="s2" sec-type="materials|methods">
+			<title>Materials and Methods</title>
+			<sec id="s2.1">
+				<title>Ethics statement</title>
+				<p>Approval of the local ethics committee at the University of Rostock was obtained. </p>
+			</sec>
+			<sec id="s2.2">
+				<title>Participants</title>
+				<p>Twenty three healthy males were recruited by personal invitation and gave their informed written content to take part in this study. <xref ref-type="table" rid="pone-0083690-t001">Table 1</xref> shows selected characteristics of the participants. Aerobic fitness of the participants was estimated by the use of anthropometric and socio-demographic data, the self reported physical activity level as well as participant´s perceived functional ability [<xref ref-type="bibr" rid="B28">28</xref>]. All volunteers were physically active and healthy and none of them took medication. They abstained from any exhaustive exercise and alcohol for 24 h prior to the experiment. Further, the consumption of caffeine or nicotine was not allowed during the night and on the morning of the experiment [<xref ref-type="bibr" rid="B29">29</xref>]. </p>
+				<table-wrap id="pone-0083690-t001" position="float" orientation="portrait">
+					<object-id pub-id-type="doi">10.1371/journal.pone.0083690.t001</object-id><label>Table 1</label>
+					<caption>
+						<title>Characteristics of the participants (n = 23).</title>
+					</caption>
+					<table>
+						<colgroup span="1"><col span="1" /><col span="1" /><col span="1" /><col span="1" /><col span="1" /><col span="1" /></colgroup>
+						<thead>
+							<tr>
+								<th rowspan="1" colspan="1" />
+								<th rowspan="1" colspan="1"><bold>Age</bold> [yrs]  </th>
+								<th rowspan="1" colspan="1"><bold>Weight</bold> [kg]</th>
+								<th rowspan="1" colspan="1"><bold>Height</bold> [m]</th>
+								<th rowspan="1" colspan="1"><bold>BMI</bold> [kg/m<sup>2</sup>]  </th>
+								<th rowspan="1" colspan="1"><bold>Relative VO<sub>2</sub>max</bold> [ml*min<sup>-1</sup>*kg<sup>-1</sup>]</th>
+							</tr>
+						</thead>
+						<tbody>
+							<tr>
+								<td rowspan="1" colspan="1"><bold>Mean</bold></td>
+								<td rowspan="1" colspan="1"><bold>25.5</bold></td>
+								<td rowspan="1" colspan="1"><bold>84.0</bold></td>
+								<td rowspan="1" colspan="1"><bold>185.4</bold></td>
+								<td rowspan="1" colspan="1"><bold>24.3</bold></td>
+								<td rowspan="1" colspan="1"><bold>51.1</bold></td>
+							</tr>
+							<tr>
+								<td rowspan="1" colspan="1">(SD)</td>
+								<td rowspan="1" colspan="1">(2.6)</td>
+								<td rowspan="1" colspan="1">(7.7)</td>
+								<td rowspan="1" colspan="1">(5.9)</td>
+								<td rowspan="1" colspan="1">(1.5)</td>
+								<td rowspan="1" colspan="1">(3.5)</td>
+							</tr>
+							<tr>
+								<td rowspan="1" colspan="1">Range</td>
+								<td rowspan="1" colspan="1">21 – 32</td>
+								<td rowspan="1" colspan="1">72.0 – 100.0</td>
+								<td rowspan="1" colspan="1">1.74 – 1.95</td>
+								<td rowspan="1" colspan="1">22.3 – 27.2</td>
+								<td rowspan="1" colspan="1">43.7 – 58.3</td>
+							</tr>
+						</tbody>
+					</table>
+				</table-wrap>
+			</sec>
+			<sec id="s2.3">
+				<title>Protocol</title>
+				<p>Participants underwent exercise testing on two occasions. Testing was carried out in supine position (<xref ref-type="fig" rid="pone-0083690-g001">Figure 1</xref>) at the same time of day and the same weekday to minimize confounding effects on the autonomic nervous system emerging from diurnal influences and daily activity patterns [<xref ref-type="bibr" rid="B30">30</xref>-<xref ref-type="bibr" rid="B32">32</xref>]. Each exercise session lasted five minutes and was carried out after a 5-minute adaptation period in a supine position to exclude orthostatic effects on autonomic regulatory control. All sessions included the measurement of SBP and DBP using the automatic blood pressure measuring device Bosotron 2, (boso Inc., Germany) [<xref ref-type="bibr" rid="B33">33</xref>]. Mean arterial pressure (MAP) was calculated by (SBP + 2*DBP)/3. Heartbeat intervals were measured using the RS800 heart rate monitor (Polar Inc., Finland), a chest belt system with an accuracy of 1 millisecond [<xref ref-type="bibr" rid="B34">34</xref>,<xref ref-type="bibr" rid="B35">35</xref>]. Isometric leg press had to be performed with a weight of 20 kg while knee flexion was 90° (<xref ref-type="fig" rid="pone-0083690-g001">Figure 1</xref>). This relatively low weight was chosen because preliminary testing indicated that this intensity could be maintained for five minutes without eliciting valsalva manoeuvres and interruptions to rest. Further, this low intensity resistance exercise allowed the adjustment of a physiological steady state within one minute. One week after the SE session DE was carried out. Cycling cadence during DE was held constant at 60 revolutions per minute and resistance of the ergometer was individually adjusted to match the individual heart rate response elicited by SE (<xref ref-type="fig" rid="pone-0083690-g002">Figure 2</xref>). Heart rate was monitored continuously by the investigator using the RS800 heart rate monitor. Average power output was 46.7 ± 19.5 Watts (range: 20 to 75 W). Immediately after each exercise session participants rated their individual physical effort on a scale from 0 (unexacting) to 10 (maximal exhaustion).</p>
+				<fig id="pone-0083690-g001" position="float" orientation="portrait">
+					<object-id pub-id-type="doi">10.1371/journal.pone.0083690.g001</object-id><label>Figure 1</label>
+					<caption>
+						<title>Scheme of the experimental setup during isometric leg exercise.</title><p>Heart rate was monitored continuously using a wireless chest belt system (Polar® RS800). Blood pressure was measured discontinuously minute by minute.</p>
+					</caption>
+					<graphic xlink:type="simple" position="float" xlink:href="info:doi/10.1371/journal.pone.0083690.g001" orientation="portrait" />
+				</fig>
+				<fig id="pone-0083690-g002" position="float" orientation="portrait">
+					<object-id pub-id-type="doi">10.1371/journal.pone.0083690.g002</object-id><label>Figure 2</label>
+					<caption>
+						<title>Scheme of the experimental setup during dynamic leg exercise using a cycle ergometer (Ergoline® ER 900).</title><p>Pedaling revolutions were set at 60 rpm; resistance was individually adapted to match a heart rate level similar to the isometric exercise.</p>
+					</caption>
+					<graphic xlink:type="simple" position="float" xlink:href="info:doi/10.1371/journal.pone.0083690.g002" orientation="portrait" />
+				</fig>
+			</sec>
+			<sec id="s2.4">
+				<title>Data processing</title>
+				<p>To ensure steady state conditions only the last three minutes of each session were analyzed. Blood pressure was measured minute-by-minute for the last 3 minutes of the exercise sessions and averaged for statistical analysis. Heart rate was measured beat-by-beat and averaged for 3 minutes as well. A short term HRV-analysis was performed for 3-minute RR-interval segments during steady-state conditions. </p>
+			</sec>
+			<sec id="s2.5">
+				<title>HRV measures</title>
+				<p>RR-interval series were processed using the free software Kubios HRV 2.0 (University of Kuopio, Finland). All analyzed RR-time series exhibited low noise (rate of erroneous RR-intervals below 5 %). Before the computation, RR-time series were corrected for artifacts using adaptive filtering and detrended (detrending method: smoothn priors, λ500). Time domain (SDNN, RMSSD) and Poincaré Plot indices (SD 1, SD 2) were calculated. Frequency domain analysis (LFP, HFP, and their normalized values LF n.u., HF n.u., LF/HF ratio) were performed using a Fast Fourier Transform (Welch’s periodogram: 256 s window with 50% overlap) [<xref ref-type="bibr" rid="B27">27</xref>]. Further, approximate entropy (ApEn), sample entropy (SampEn) and correlation dimension D<sub>2</sub>, nonlinear measures of regularity and complexity of physiological time series, were calculated [<xref ref-type="bibr" rid="B36">36</xref>-<xref ref-type="bibr" rid="B39">39</xref>].  ApEn is a measure of regularity of the RR-interval series with irregularity resulting in high and regularity in low values, respectively. It measures the likelihood that runs of patterns that are close to each other will remain close in the next incremental comparisons [<xref ref-type="bibr" rid="B40">40</xref>]. SampEn is similar to ApEn but less dependent on record length [<xref ref-type="bibr" rid="B41">41</xref>]. Its calculation relies on counts of <italic>m</italic>-long templates matching within a tolerance <italic>r</italic> that also match at the next point. For SampEn calculation the value of <italic>m</italic> was selected to be <italic>m</italic> = 2, for tolerance <italic>r</italic> a fraction of the standard deviation of the RR-data (<italic>r</italic> = 0.2*SDNN) was chosen [<xref ref-type="bibr" rid="B40">40</xref>]. Low values of SampEn arise from extremely regular time series, higher values reflect more complexity, and highest values are typical for stochastic data sets [<xref ref-type="bibr" rid="B42">42</xref>-<xref ref-type="bibr" rid="B44">44</xref>]. Correlation dimension D<sub>2</sub> is expected to give information on the minimum number of dynamic variables needed to model the underlying system [<xref ref-type="bibr" rid="B45">45</xref>]. A lower value can be found, when the analyzed signal provides a higher regularity, higher values are supposed to reflect higher complexity or randomness [<xref ref-type="bibr" rid="B46">46</xref>]. Nonlinear parameters have proven their prognostic value in clinical settings [<xref ref-type="bibr" rid="B47">47</xref>-<xref ref-type="bibr" rid="B49">49</xref>] but the physiological background of their behavior is not very well established. Despite the fact, that the autonomic nervous system seems to be the main modulator [<xref ref-type="bibr" rid="B50">50</xref>,<xref ref-type="bibr" rid="B51">51</xref>], often there is no correlation with traditional HRV-indices [<xref ref-type="bibr" rid="B49">49</xref>,<xref ref-type="bibr" rid="B52">52</xref>,<xref ref-type="bibr" rid="B53">53</xref>]. </p>
+				<p>T-test analysis for matched pairs was carried out to test for differences of the means (SPSS 15.0). Further, the effect size for significant differences between SE and DE were calculated using G*Power 3.1 (Düsseldorf University, Germany) [<xref ref-type="bibr" rid="B54">54</xref>].</p>
+			</sec>
+		</sec>
+		<sec id="s3" sec-type="results">
+			<title>Results</title>
+			<p>Compared to DE, during SE subjective effort, blood pressure (SPB, DBP and MAP), RPP and the HRV indices SDNN, RMMSD, HFP, SD 1 and SD 2 were significantly enhanced (<xref ref-type="table" rid="pone-0083690-t002">Table 2</xref>). Heart rate complexity measures ApEn and SampEn were significantly reduced, whereas D<sub>2</sub> was significantly increased during SE (<xref ref-type="table" rid="pone-0083690-t002">Table 2</xref>). RR-interval and thus, heart rate did not differ between SE and DE. The 95% CI of the paired heart rate differences ranged from -0.18 to 0.75 beats/min (p = 0.221). </p>
+			<table-wrap id="pone-0083690-t002" position="float" orientation="portrait">
+				<object-id pub-id-type="doi">10.1371/journal.pone.0083690.t002</object-id><label>Table 2</label>
+				<caption>
+					<title>T-test statistics and effect sizes for pair wise comparisons of heart rate, blood pressure, heart rate variability and subjective effort  during static (SE) and dynamic exercise (DE).</title>
+				</caption>
+				<table>
+					<colgroup span="1"><col span="1" /><col span="1" /><col span="1" /><col span="1" /><col span="1" /><col span="1" /><col span="1" /></colgroup>
+					<thead>
+						<tr>
+							<th rowspan="1" colspan="1"><bold>Parameter<sup><xref ref-type="table-fn" rid="ngtab2.1"><italic>#</italic></xref></sup></bold></th>
+							<th rowspan="1" colspan="1"><bold>Static Exercise (SE)</bold></th>
+							<th rowspan="1" colspan="1"><bold>Dynamic Exercise (DE)</bold></th>
+							<th rowspan="1" colspan="1"> <bold>T</bold></th>
+							<th rowspan="1" colspan="1"><bold>df</bold></th>
+							<th rowspan="1" colspan="1"><bold>p-value</bold>  </th>
+							<th rowspan="1" colspan="1"><bold>Effect size</bold></th>
+						</tr>
+					</thead>
+					<tbody>
+						<tr>
+							<td rowspan="1" colspan="1">Heart Rate [bpm]</td>
+							<td rowspan="1" colspan="1">88.0 ± 9.7 </td>
+							<td rowspan="1" colspan="1">87.7 ± 9.5 </td>
+							<td rowspan="1" colspan="1">1.261</td>
+							<td rowspan="1" colspan="1">22</td>
+							<td rowspan="1" colspan="1">0.221</td>
+							<td rowspan="1" colspan="1">0.261</td>
+						</tr>
+						<tr>
+							<td rowspan="1" colspan="1"><bold>SBP [mmHg]</bold></td>
+							<td rowspan="1" colspan="1"><bold>158.0 ± 12.1</bold>  </td>
+							<td rowspan="1" colspan="1"><bold>140.2 ± 15.3</bold>  </td>
+							<td rowspan="1" colspan="1"><bold>7.794</bold></td>
+							<td rowspan="1" colspan="1">22</td>
+							<td rowspan="1" colspan="1"><bold>0.000</bold></td>
+							<td rowspan="1" colspan="1"><bold>1.63</bold></td>
+						</tr>
+						<tr>
+							<td rowspan="1" colspan="1"><bold>DBP [mmHg]</bold></td>
+							<td rowspan="1" colspan="1"><bold>95.3 ± 6.3</bold>  </td>
+							<td rowspan="1" colspan="1"><bold>68.5 ± 8.2</bold>  </td>
+							<td rowspan="1" colspan="1"><bold>15.671</bold></td>
+							<td rowspan="1" colspan="1">22</td>
+							<td rowspan="1" colspan="1"><bold>0.000</bold></td>
+							<td rowspan="1" colspan="1"><bold>3.27</bold></td>
+						</tr>
+						<tr>
+							<td rowspan="1" colspan="1"><bold>MAP [mmHg]</bold></td>
+							<td rowspan="1" colspan="1"><bold>116.2 ± 6.1</bold>  </td>
+							<td rowspan="1" colspan="1"><bold>92.4 ± 8.8</bold> </td>
+							<td rowspan="1" colspan="1"><bold>15.491</bold></td>
+							<td rowspan="1" colspan="1">22</td>
+							<td rowspan="1" colspan="1"><bold>0.000</bold></td>
+							<td rowspan="1" colspan="1"><bold>3.21</bold></td>
+						</tr>
+						<tr>
+							<td rowspan="1" colspan="1"><bold>RPP [mmHg/min]</bold></td>
+							<td rowspan="1" colspan="1"><bold>13932.1 ± 2100.8</bold>  </td>
+							<td rowspan="1" colspan="1"><bold>12340.5 ± 2126.3</bold>  </td>
+							<td rowspan="1" colspan="1"><bold>8.763</bold></td>
+							<td rowspan="1" colspan="1">22</td>
+							<td rowspan="1" colspan="1"><bold>0.000</bold></td>
+							<td rowspan="1" colspan="1"><bold>1.83</bold></td>
+						</tr>
+						<tr>
+							<td rowspan="1" colspan="1">RR-interval [ms]</td>
+							<td rowspan="1" colspan="1">691.8 ± 80.4 </td>
+							<td rowspan="1" colspan="1">692.8 ± 77.9 </td>
+							<td rowspan="1" colspan="1">-0.511</td>
+							<td rowspan="1" colspan="1">22</td>
+							<td rowspan="1" colspan="1">0.614</td>
+							<td rowspan="1" colspan="1">0.10</td>
+						</tr>
+						<tr>
+							<td rowspan="1" colspan="1"><bold>SDNN [ms]</bold></td>
+							<td rowspan="1" colspan="1"><bold>23.1 ± 6.6</bold>  </td>
+							<td rowspan="1" colspan="1"><bold>16.7 ± 6.1</bold>  </td>
+							<td rowspan="1" colspan="1"><bold>3.826</bold></td>
+							<td rowspan="1" colspan="1">22</td>
+							<td rowspan="1" colspan="1"><bold>0.003</bold></td>
+							<td rowspan="1" colspan="1"><bold>0.75</bold></td>
+						</tr>
+						<tr>
+							<td rowspan="1" colspan="1"><bold>RMSSD [ms]</bold></td>
+							<td rowspan="1" colspan="1"><bold>16.9 ± 8.5</bold>  </td>
+							<td rowspan="1" colspan="1"><bold>13.1 ± 6.9</bold>  </td>
+							<td rowspan="1" colspan="1"><bold>2.966</bold></td>
+							<td rowspan="1" colspan="1">22</td>
+							<td rowspan="1" colspan="1"><bold>0.021</bold></td>
+							<td rowspan="1" colspan="1"><bold>0.62</bold></td>
+						</tr>
+						<tr>
+							<td rowspan="1" colspan="1"><bold>HFP [ms<sup>2</sup>]</bold></td>
+							<td rowspan="1" colspan="1"><bold>142.8 ± 145.0</bold> </td>
+							<td rowspan="1" colspan="1"><bold>52.4 ± 45.0</bold> </td>
+							<td rowspan="1" colspan="1"><bold>3.080</bold></td>
+							<td rowspan="1" colspan="1"><bold>22</bold></td>
+							<td rowspan="1" colspan="1"><bold>0.005</bold></td>
+							<td rowspan="1" colspan="1"><bold>0.65</bold></td>
+						</tr>
+						<tr>
+							<td rowspan="1" colspan="1">LFP [ms<sup>2</sup>]</td>
+							<td rowspan="1" colspan="1">414.1 ± 256.2 </td>
+							<td rowspan="1" colspan="1">251.8 ± 339.5</td>
+							<td rowspan="1" colspan="1">1.921</td>
+							<td rowspan="1" colspan="1">22</td>
+							<td rowspan="1" colspan="1">0.068</td>
+							<td rowspan="1" colspan="1">0.40</td>
+						</tr>
+						<tr>
+							<td rowspan="1" colspan="1">HF n.u.</td>
+							<td rowspan="1" colspan="1">25.1 ± 16.5 </td>
+							<td rowspan="1" colspan="1">20.6 ± 15.9</td>
+							<td rowspan="1" colspan="1">1.064</td>
+							<td rowspan="1" colspan="1">22</td>
+							<td rowspan="1" colspan="1">0.299</td>
+							<td rowspan="1" colspan="1">0.22</td>
+						</tr>
+						<tr>
+							<td rowspan="1" colspan="1">LF n.u.</td>
+							<td rowspan="1" colspan="1">74.9 ± 16.5 </td>
+							<td rowspan="1" colspan="1">79.4 ± 15.9 </td>
+							<td rowspan="1" colspan="1">-1.064</td>
+							<td rowspan="1" colspan="1">22</td>
+							<td rowspan="1" colspan="1">0.299</td>
+							<td rowspan="1" colspan="1">-0.22</td>
+						</tr>
+						<tr>
+							<td rowspan="1" colspan="1">LF/HF</td>
+							<td rowspan="1" colspan="1">5.8 ± 5.7</td>
+							<td rowspan="1" colspan="1">6.6 ± 4.7</td>
+							<td rowspan="1" colspan="1">-0.549</td>
+							<td rowspan="1" colspan="1">22</td>
+							<td rowspan="1" colspan="1">0.588</td>
+							<td rowspan="1" colspan="1">0.00</td>
+						</tr>
+						<tr>
+							<td rowspan="1" colspan="1"><bold>SD 1</bold></td>
+							<td rowspan="1" colspan="1"><bold>12.1</bold> ± 6.0</td>
+							<td rowspan="1" colspan="1"><bold>9.4</bold> ± 4.9</td>
+							<td rowspan="1" colspan="1"><bold>2.977</bold></td>
+							<td rowspan="1" colspan="1"><bold>22</bold></td>
+							<td rowspan="1" colspan="1"><bold>0.007</bold></td>
+							<td rowspan="1" colspan="1"><bold>0.50</bold></td>
+						</tr>
+						<tr>
+							<td rowspan="1" colspan="1"><bold>SD 2</bold></td>
+							<td rowspan="1" colspan="1"><bold>42.9</bold> ± 29.1</td>
+							<td rowspan="1" colspan="1"><bold>29.1</bold> ± 10.8</td>
+							<td rowspan="1" colspan="1"><bold>4.770</bold></td>
+							<td rowspan="1" colspan="1"><bold>22</bold></td>
+							<td rowspan="1" colspan="1"><bold>0.000</bold></td>
+							<td rowspan="1" colspan="1"><bold>0.99</bold></td>
+						</tr>
+						<tr>
+							<td rowspan="1" colspan="1"><bold>ApEn</bold></td>
+							<td rowspan="1" colspan="1"><bold>0.90</bold> ± 0.14</td>
+							<td rowspan="1" colspan="1"><bold>0.99</bold> ± 0.10</td>
+							<td rowspan="1" colspan="1"><bold>-3.501</bold></td>
+							<td rowspan="1" colspan="1"><bold>22</bold></td>
+							<td rowspan="1" colspan="1"><bold>0.002</bold></td>
+							<td rowspan="1" colspan="1"><bold>-0.73</bold></td>
+						</tr>
+						<tr>
+							<td rowspan="1" colspan="1"><bold>SampEn</bold></td>
+							<td rowspan="1" colspan="1"><bold>1.18 ± 0.36</bold></td>
+							<td rowspan="1" colspan="1"><bold>1.43 ± 0.31</bold> </td>
+							<td rowspan="1" colspan="1"><bold>-4.997</bold></td>
+							<td rowspan="1" colspan="1"><bold>22</bold></td>
+							<td rowspan="1" colspan="1"><bold>0.000</bold></td>
+							<td rowspan="1" colspan="1"><bold>-1.04</bold></td>
+						</tr>
+						<tr>
+							<td rowspan="1" colspan="1"><bold>D<sub>2</sub></bold></td>
+							<td rowspan="1" colspan="1"><bold>1.28 ± 1.06</bold> </td>
+							<td rowspan="1" colspan="1"><bold>0.44 ± 0.83</bold> </td>
+							<td rowspan="1" colspan="1"><bold>4.570</bold></td>
+							<td rowspan="1" colspan="1"><bold>22</bold></td>
+							<td rowspan="1" colspan="1"><bold>0.000</bold></td>
+							<td rowspan="1" colspan="1"><bold>1.00</bold></td>
+						</tr>
+						<tr>
+							<td rowspan="1" colspan="1"><bold>Subjective effort<sup><xref ref-type="table-fn" rid="ngtab2.2"><italic>##</italic></xref></sup></bold></td>
+							<td rowspan="1" colspan="1"><bold>4.4 ± 1.6</bold> </td>
+							<td rowspan="1" colspan="1"><bold>2.3 ± 1.1</bold> </td>
+							<td rowspan="1" colspan="1"><bold>5.786</bold></td>
+							<td rowspan="1" colspan="1"><bold>22</bold></td>
+							<td rowspan="1" colspan="1"><bold>0.000</bold></td>
+							<td rowspan="1" colspan="1"><bold>1.208</bold></td>
+						</tr>
+					</tbody>
+				</table>
+				<table-wrap-foot>
+					<fn id="ngtab2.1">
+						<p><sup>#</sup> Parameters showing significant differences between the means of the two exercise modes are indicated by bold letters</p>
+					</fn>
+					<fn id="ngtab2.2">
+						<p><sup>##</sup> Effort was rated on a scale from 0 (= minimal) to 10 (= maximal)</p>
+					</fn>
+				</table-wrap-foot>
+			</table-wrap>
+		</sec>
+		<sec id="s4" sec-type="discussion">
+			<title>Discussion</title>
+			<p>Aim of this study was to elucidate the mechanisms of autonomic response during static and dynamic muscular work of the lower limb at the same heart rate level by analyzing blood pressure and heart rate variability. Despite eliciting the same heart rate response subjective effort, blood pressure and heart rate variability differed significantly between the two exercise modes. RPP – an indirect measure of myocardial oxygen consumption – was increased by 13% under SE [<xref ref-type="bibr" rid="B55">55</xref>,<xref ref-type="bibr" rid="B56">56</xref>]. Generally, findings of this study suggest that – provided a similar low heart rate level – autonomic control processes are qualitatively different during dynamic and static work of the same large muscles. </p>
+			<p>Because heart rate was similar, the increased blood pressure during SE can principally be attributed to an increased peripheral vasoconstriction and/or changes in stroke volume. Especially metabolite accumulation in the isometric working muscle (muscle metaboreflex) but also changes in central command can lead to the enhanced blood pressure response observed under SE [<xref ref-type="bibr" rid="B4">4</xref>,<xref ref-type="bibr" rid="B57">57</xref>-<xref ref-type="bibr" rid="B65">65</xref>]. As the sense of effort and the perception of afferent sensory inputs appear to be closely related during most exercise – despite being based on different neurological mechanisms [<xref ref-type="bibr" rid="B66">66</xref>] – the stronger perception of effort during SE can support the conclusion of an increased metaboreceptor feedback during SE. On the other hand it cannot be excluded that a change of central command, mirrored by the increase in subjective effort, might have contributed to the elevation of blood pressure during SE [<xref ref-type="bibr" rid="B1">1</xref>,<xref ref-type="bibr" rid="B2">2</xref>,<xref ref-type="bibr" rid="B4">4</xref>,<xref ref-type="bibr" rid="B8">8</xref>,<xref ref-type="bibr" rid="B66">66</xref>-<xref ref-type="bibr" rid="B68">68</xref>]. However, the muscle metaboreflex has been suggested to be the dominant mechanism responsible for the vasculature response (blood pressure increase), whereas the central command is supposed to be the main modulator of the cardiac response (heart rate increase) during SE [<xref ref-type="bibr" rid="B4">4</xref>]. There are several human studies which showed stroke volume to be unchanged or even decreased during mild to moderate exercise during both exercise modes [<xref ref-type="bibr" rid="B62">62</xref>,<xref ref-type="bibr" rid="B63">63</xref>,<xref ref-type="bibr" rid="B69">69</xref>]. Thus, the change in vasomotor tone and not stroke volume seems to be the main modulator of the different blood pressure response observed during SE and DE. Most likely the muscle metaboreflex overrides the baroreflex, leading to a stronger sympathetic efferent activity to the vessels during SE [<xref ref-type="bibr" rid="B4">4</xref>,<xref ref-type="bibr" rid="B58">58</xref>,<xref ref-type="bibr" rid="B64">64</xref>,<xref ref-type="bibr" rid="B70">70</xref>-<xref ref-type="bibr" rid="B74">74</xref>].</p>
+			<p>While the blood pressure response seems to evidence increased sympathetic efferent drive to the vessels during SE, the vagally related HRV-measures RMSSD, HFP and SD 1 were significantly increased, speaking for an elevated vagal cardiac modulation. At the same time the LF/HF ratio – a measure thought to reflect sympathovagal balance [<xref ref-type="bibr" rid="B27">27</xref>] – and heart rate were unchanged. Also SDNN, SD 2 and LFP – all influenced by sympathetic and parasympathetic efferent activity – were higher or tended to be higher, respectively. These results partly suggest an increase in sympathetic heart rate modulation under SE as well. Other studies have supported the view of an increased dual autonomic modulation during SE compared to DE at similar relative work or heart rate. By studying heart rate variability during post-exercise ischemia (metaboreflex model), Nishiyasu et al. concluded that parasympathetic cardiac tone is enhanced, and thus HRV was increased, to balance enhanced sympathetic cardiac activity [<xref ref-type="bibr" rid="B75">75</xref>]. Also Gonzalez-Camarena and colleagues suggest an increased vagal outflow due to the baroreflex following a sympathetic activation [<xref ref-type="bibr" rid="B21">21</xref>].  Further, recent animal studies suggest, that even at the start of exercise physiological response is not exclusively elicited by vagal withdrawal, but also by increased sympathetic activity [<xref ref-type="bibr" rid="B7">7</xref>]. According to the idea of an autonomic space, a reciprocal behavior, e. g. vagal withdrawal and a concomitant sympathetic activation, is only one of many autonomic modes, potentially modifying heart rate during exercise. Sympathetic-parasympathetic co-activation, sole vagal withdrawal or sympathetic enhancement can have the same net-effect on heart rate as reciprocal relations of the autonomic branches as well [<xref ref-type="bibr" rid="B64">64</xref>,<xref ref-type="bibr" rid="B75">75</xref>-<xref ref-type="bibr" rid="B77">77</xref>]. Taken together the results of the HRV time and frequency domain analysis clearly indicated enhanced parasympathetic heart rate modulation during SE compared to DE. Although some observations indirectly support the assumption of an increased sympathetic cardiac activity, such conclusion must be drawn cautiously, as there is no HRV-marker reflecting “pure” sympathetic cardiac nerve traffic [<xref ref-type="bibr" rid="B78">78</xref>-<xref ref-type="bibr" rid="B81">81</xref>].</p>
+			<p>Complementary to traditional HRV-measures, which give information on the magnitude of the variability or important rhythms, non-linear indices are able to identify complex patterns of the analyzed time series. In our experiment the non-linear parameters differed significantly between the two exercise modes, according to the traditional vagal HRV-indices. D<sub>2</sub> was significantly higher during SE, indicating higher complexity of the RR-time series compared to DE. Some researchers suppose that higher D<sub>2</sub> values represent a stronger, interplay between the autonomic branches, e. g. in healthy vs. unhealthy cardiac states [<xref ref-type="bibr" rid="B37">37</xref>,<xref ref-type="bibr" rid="B82">82</xref>]. It can be speculated that an increased sympathetic-parasympathetic interaction and / or co-activation during SE, caused by afferent feedback from chemo- and baroreceptors, contributes to a more complex autonomic heart rate modulation. During DE heart rate might be modulated in a more reciprocal fashion leading to lower D<sub>2</sub> values [<xref ref-type="bibr" rid="B76">76</xref>,<xref ref-type="bibr" rid="B77">77</xref>]. However, the decrease of ApEn and SampEn during SE seems to contradict the interpretation of the D<sub>2</sub> values, as these results indicate higher complexity / lower regularity under DE. There is some evidence from other studies analyzing RR-data, showing only weak to medium or even no correlation between entropy measures and correlation dimension D<sub>2</sub> [<xref ref-type="bibr" rid="B46">46</xref>,<xref ref-type="bibr" rid="B83">83</xref>]. Results of our experiment support the view that beyond their distinct mathematical calculation also the physiological background of the calculated regularity measures is different. The cause for ApEn and SampEn values being significantly higher during DE remains speculative. Mäkikallio et al. compared ApEn and other HRV indices of patients with a previous myocardial infarction and healthy controls and found enhanced ApEn in the patients. They suggested a more irregular breathing pattern as a possible cause for enhanced values of ApEn [<xref ref-type="bibr" rid="B53">53</xref>]. Pentillä and coworkers found that vagal blockade largely and slow breathing slightly decreases ApEn [<xref ref-type="bibr" rid="B50">50</xref>]. Further, during incremental dynamic exercise ApEn increased from the start to the end with and without parasympathetic blockade, indicating that non-vagal influences contribute to changes in ApEn [<xref ref-type="bibr" rid="B84">84</xref>,<xref ref-type="bibr" rid="B85">85</xref>]. Whether the significant differences of HRV complexity / regularity in our experiment are caused by different breathing patterns, changes in the sympathetic-parasympathetic interaction, or other causes remains to be investigated. Based on the finding of significant differences of the traditional vagally related HRV indices, a contribution of the cardiac vagal efferent activity to the distinct non-linear HRV characteristics during DE and SE is rather likely. </p>
+			<sec id="s4.1">
+				<title>Limitations of this study</title>
+				<p>The lack of controlled breathing conditions can be seen as a limitation of this study. Although HF-Power and other vagally related HRV-measures might be confounded by different breathing patterns [<xref ref-type="bibr" rid="B86">86</xref>], some researchers question significant effects of breathing especially on RMSSD [<xref ref-type="bibr" rid="B87">87</xref>,<xref ref-type="bibr" rid="B88">88</xref>]. Nishiyasu and colleagues found similar effects on HRV during controlled vs. uncontrolled breathing when investigating the effects of the metaboreflex after static exercise [<xref ref-type="bibr" rid="B75">75</xref>]. To minimize effects of breathing pattern in our experiment, participants were instructed to breath as normal as possible during the exercises. Furthermore, all participants were trained, active male students and could sustain the load for 5 minutes without indicating exhaustion. Thus, the applied resistance of 20 kg can be considered as low to moderate at best [<xref ref-type="bibr" rid="B13">13</xref>,<xref ref-type="bibr" rid="B89">89</xref>,<xref ref-type="bibr" rid="B90">90</xref>]. This low weight should have prevented or at least limited the occurrence of valsalva manoeuvres or other irregular breathing patterns. </p>
+				<p>Cycling per se might have affected heart rate variability by cardio-locomotor coupling; however, the contribution of cardio-locomotor coupling is thought to be rather small under low workload conditions [<xref ref-type="bibr" rid="B91">91</xref>,<xref ref-type="bibr" rid="B92">92</xref>].</p>
+			</sec>
+		</sec>
+		<sec id="s5" sec-type="conclusions">
+			<title>Conclusions</title>
+			<p>To our best knowledge this is the first study systematically investigating autonomic responses to isometric and dynamic work of the lower limbs at matched low heart rate levels. Results evidence distinctive patterns of autonomic response for each exercise mode. The results of the blood pressure and HRV analysis in time and frequency domain contribute to the assumptions that a) SE at low HR levels leads to a stronger vasoconstriction than DE and b) the vagal cardiac efferent activity is enhanced during SE. Whether the enhanced vagal activity balances the effect of an increased sympathetic drive to the vessels and / or to the heart remains to be elucidated. Although some observations indirectly support the assumption of an increased sympathetic cardiac activity, this conclusion must be drawn cautiously, as there is no HRV-marker reflecting “pure” sympathetic cardiac nerve traffic [<xref ref-type="bibr" rid="B27">27</xref>,<xref ref-type="bibr" rid="B78">78</xref>-<xref ref-type="bibr" rid="B81">81</xref>].</p>
+		</sec>
+	</body>
+	<back>
+		<ack>
+			<p>The authors would like to thank the unknown reviewers for their constructive criticism and valuable comments. Further, the authors thank M.Sc. S. Pabusch for his assistance during data acquisition.</p>
+		</ack>
+		<ref-list>
+			<title>References</title>
+			<ref id="B1">
+				<label>1</label>
+				<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Goodwin</surname><given-names>GM</given-names></name>, <name name-style="western"><surname>McCloskey</surname><given-names>DI</given-names></name>, <name name-style="western"><surname>Mitchell</surname><given-names>JH</given-names></name> (<year>1972</year>) <article-title>Cardiovascular and respiratory responses to changes in central command during isometric exercise at constant muscle tension</article-title>. <source>J Physiol</source> <volume>226</volume>: <fpage>173</fpage>-<lpage>190</lpage>. PubMed: <ext-link ext-link-type="uri" xlink:href="http://www.ncbi.nlm.nih.gov/pubmed/4263680" xlink:type="simple">4263680</ext-link>.</mixed-citation>
+			</ref>
+			<ref id="B2">
+				<label>2</label>
+				<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Liang</surname><given-names>N</given-names></name>, <name name-style="western"><surname>Nakamoto</surname><given-names>T</given-names></name>, <name name-style="western"><surname>Mochizuki</surname><given-names>S</given-names></name>, <name name-style="western"><surname>Matsukawa</surname><given-names>K</given-names></name> (<year>2011</year>) <article-title>Differential contribution of central command to the cardiovascular responses during static exercise of ankle dorsal and plantar flexion in humans</article-title>. <source>J Appl Physiol (1985)</source> <volume>110</volume>: <fpage>670</fpage>-<lpage>680</lpage>. doi:<ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1152/japplphysiol.00740.2010" xlink:type="simple">10.1152/japplphysiol.00740.2010</ext-link>. PubMed: <ext-link ext-link-type="uri" xlink:href="http://www.ncbi.nlm.nih.gov/pubmed/21193563" xlink:type="simple">21193563</ext-link>.</mixed-citation>
+			</ref>
+			<ref id="B3">
+				<label>3</label>
+				<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Carrington</surname><given-names>CA</given-names></name>, <name name-style="western"><surname>Fisher</surname><given-names>WJ</given-names></name>, <name name-style="western"><surname>Davies</surname><given-names>MK</given-names></name>, <name name-style="western"><surname>White</surname><given-names>MJ</given-names></name> (<year>2001</year>) <article-title>Muscle afferent and central command contributions to the cardiovascular response to isometric exercise of postural muscle in patients with mild chronic heart failure</article-title>. <source>Clinical Science (London, England: 1979)</source> <volume>100</volume>: <fpage>643</fpage>-<lpage>651</lpage>. PubMed: <ext-link ext-link-type="uri" xlink:href="http://www.ncbi.nlm.nih.gov/pubmed/11352780" xlink:type="simple">11352780</ext-link>.</mixed-citation>
+			</ref>
+			<ref id="B4">
+				<label>4</label>
+				<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Rowell</surname><given-names>LB</given-names></name>, <name name-style="western"><surname>O'Leary</surname><given-names>DS</given-names></name> (<year>1990</year>) <article-title>Reflex control of the circulation during exercise: chemoreflexes and mechanoreflexes</article-title>. <source>J Appl Physiol (1985)</source> <volume>69</volume>: <fpage>407</fpage>-<lpage>418</lpage>. PubMed: <ext-link ext-link-type="uri" xlink:href="http://www.ncbi.nlm.nih.gov/pubmed/2228848" xlink:type="simple">2228848</ext-link>.</mixed-citation>
+			</ref>
+			<ref id="B5">
+				<label>5</label>
+				<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Ichinose</surname><given-names>M</given-names></name>, <name name-style="western"><surname>Delliaux</surname><given-names>S</given-names></name>, <name name-style="western"><surname>Watanabe</surname><given-names>K</given-names></name>, <name name-style="western"><surname>Fujii</surname><given-names>N</given-names></name>, <name name-style="western"><surname>Nishiyasu</surname><given-names>T</given-names></name> (<year>2011</year>) <article-title>Evaluation of muscle metaboreflex function through graded reduction in forearm blood flow during rhythmic handgrip exercise in humans</article-title>. <source>Am J Physiol Heart Circ Physiol</source> <volume>301</volume>: <fpage>H609</fpage>-<lpage>H616</lpage>. doi:<ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1152/ajpheart.00076.2011" xlink:type="simple">10.1152/ajpheart.00076.2011</ext-link>. PubMed: <ext-link ext-link-type="uri" xlink:href="http://www.ncbi.nlm.nih.gov/pubmed/21602474" xlink:type="simple">21602474</ext-link>.</mixed-citation>
+			</ref>
+			<ref id="B6">
+				<label>6</label>
+				<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Iellamo</surname><given-names>F</given-names></name>, <name name-style="western"><surname>Pizzinelli</surname><given-names>P</given-names></name>, <name name-style="western"><surname>Massaro</surname><given-names>M</given-names></name>, <name name-style="western"><surname>Raimondi</surname><given-names>G</given-names></name>, <name name-style="western"><surname>Peruzzi</surname><given-names>G</given-names></name> <etal>et al.</etal> (<year>1999</year>) <article-title>Muscle metaboreflex contribution to sinus node regulation during static exercise: insights from spectral analysis of heart rate variability</article-title>. <source>Circulation</source> <volume>100</volume>: <fpage>27</fpage>-<lpage>32</lpage>. doi:<ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1161/01.CIR.100.1.27" xlink:type="simple">10.1161/01.CIR.100.1.27</ext-link>. PubMed: <ext-link ext-link-type="uri" xlink:href="http://www.ncbi.nlm.nih.gov/pubmed/10393677" xlink:type="simple">10393677</ext-link>.</mixed-citation>
+			</ref>
+			<ref id="B7">
+				<label>7</label>
+				<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Matsukawa</surname><given-names>K</given-names></name> (<year>2012</year>) <article-title>Central command: control of cardiac sympathetic and vagal efferent nerve activity and the arterial baroreflex during spontaneous motor behaviour in animals</article-title>. <source>Exp Physiol</source> <volume>97</volume>: <fpage>20</fpage>-<lpage>28</lpage>. PubMed: <ext-link ext-link-type="uri" xlink:href="http://www.ncbi.nlm.nih.gov/pubmed/21984731" xlink:type="simple">21984731</ext-link>.</mixed-citation>
+			</ref>
+			<ref id="B8">
+				<label>8</label>
+				<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Iellamo</surname><given-names>F</given-names></name> (<year>2001</year>) <article-title>Neural mechanisms of cardiovascular regulation during exercise</article-title>. <source>Auton Neurosci</source> <volume>90</volume>: <fpage>66</fpage>-<lpage>75</lpage>. doi:<ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1016/S1566-0702(01)00269-7" xlink:type="simple">10.1016/S1566-0702(01)00269-7</ext-link>. PubMed: <ext-link ext-link-type="uri" xlink:href="http://www.ncbi.nlm.nih.gov/pubmed/11485294" xlink:type="simple">11485294</ext-link>.</mixed-citation>
+			</ref>
+			<ref id="B9">
+				<label>9</label>
+				<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Alam</surname><given-names>M</given-names></name>, <name name-style="western"><surname>Smirk</surname><given-names>FH</given-names></name> (<year>1938</year>) <article-title>Observations in man on a pulse-accelerating reflex from the voluntary muscles of the legs</article-title>. <source>J Physiol</source> <volume>92</volume>: <fpage>167</fpage>-<lpage>177</lpage>. PubMed: <ext-link ext-link-type="uri" xlink:href="http://www.ncbi.nlm.nih.gov/pubmed/16994964" xlink:type="simple">16994964</ext-link>.</mixed-citation>
+			</ref>
+			<ref id="B10">
+				<label>10</label>
+				<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Mitchell</surname><given-names>JH</given-names></name>, <name name-style="western"><surname>Payne</surname><given-names>FC</given-names></name>, <name name-style="western"><surname>Saltin</surname><given-names>B</given-names></name>, <name name-style="western"><surname>Schibye</surname><given-names>B</given-names></name> (<year>1980</year>) <article-title>The role of muscle mass in the cardiovascular response to static contractions</article-title>. <source>J Physiol</source> <volume>309</volume>: <fpage>45</fpage>-<lpage>54</lpage>. PubMed: <ext-link ext-link-type="uri" xlink:href="http://www.ncbi.nlm.nih.gov/pubmed/7252875" xlink:type="simple">7252875</ext-link>.</mixed-citation>
+			</ref>
+			<ref id="B11">
+				<label>11</label>
+				<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Leicht</surname><given-names>AS</given-names></name>, <name name-style="western"><surname>Sinclair</surname><given-names>WH</given-names></name>, <name name-style="western"><surname>Spinks</surname><given-names>WL</given-names></name> (<year>2008</year>) <article-title>Effect of exercise mode on heart rate variability during steady state exercise</article-title>. <source>Eur J Appl Physiol</source> <volume>102</volume>: <fpage>195</fpage>-<lpage>204</lpage>. PubMed: <ext-link ext-link-type="uri" xlink:href="http://www.ncbi.nlm.nih.gov/pubmed/17922138" xlink:type="simple">17922138</ext-link>.</mixed-citation>
+			</ref>
+			<ref id="B12">
+				<label>12</label>
+				<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Lewis</surname><given-names>SF</given-names></name>, <name name-style="western"><surname>Snell</surname><given-names>PG</given-names></name>, <name name-style="western"><surname>Taylor</surname><given-names>WF</given-names></name>, <name name-style="western"><surname>Hamra</surname><given-names>M</given-names></name>, <name name-style="western"><surname>Graham</surname><given-names>RM</given-names></name> <etal>et al.</etal> (<year>1985</year>) <article-title>Role of muscle mass and mode of contraction in circulatory responses to exercise</article-title>. <source>J Appl Physiol (1985)</source> <volume>58</volume>: <fpage>146</fpage>-<lpage>151</lpage>. doi:<ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1063/1.335700" xlink:type="simple">10.1063/1.335700</ext-link>. PubMed: <ext-link ext-link-type="uri" xlink:href="http://www.ncbi.nlm.nih.gov/pubmed/3968005" xlink:type="simple">3968005</ext-link>.</mixed-citation>
+			</ref>
+			<ref id="B13">
+				<label>13</label>
+				<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Lind</surname><given-names>AR</given-names></name>, <name name-style="western"><surname>McNicol</surname><given-names>GW</given-names></name> (<year>1967</year>) <article-title>Muscular factors which determine the cardiovascular responses to sustained and rhythmic exercise</article-title>. <source>Can Med Assoc J</source> <volume>96</volume>: <fpage>706</fpage>-<lpage>715</lpage>. PubMed: <ext-link ext-link-type="uri" xlink:href="http://www.ncbi.nlm.nih.gov/pubmed/6020862" xlink:type="simple">6020862</ext-link>.</mixed-citation>
+			</ref>
+			<ref id="B14">
+				<label>14</label>
+				<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Lind</surname><given-names>AR</given-names></name> (<year>1970</year>) <article-title>Cardiovascular Responses to Static Exercise. (Isometrics, Anyone)</article-title>. <source>Circulation</source> <volume>41</volume>: <fpage>173</fpage>-<lpage>176</lpage>.</mixed-citation>
+			</ref>
+			<ref id="B15">
+				<label>15</label>
+				<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Laird</surname><given-names>WP</given-names></name>, <name name-style="western"><surname>Fixler</surname><given-names>DE</given-names></name>, <name name-style="western"><surname>Huffines</surname><given-names>FD</given-names></name> (<year>1979</year>) <article-title>Cardiovascular response to isometric exercise in normal adolescents</article-title>. <source>Circulation</source> <volume>59</volume>: <fpage>651</fpage>-<lpage>654</lpage>. doi:<ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1161/01.CIR.59.4.651" xlink:type="simple">10.1161/01.CIR.59.4.651</ext-link>. PubMed: <ext-link ext-link-type="uri" xlink:href="http://www.ncbi.nlm.nih.gov/pubmed/421306" xlink:type="simple">421306</ext-link>.</mixed-citation>
+			</ref>
+			<ref id="B16">
+				<label>16</label>
+				<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Lindquist</surname><given-names>VA</given-names></name>, <name name-style="western"><surname>Spangler</surname><given-names>RD</given-names></name>, <name name-style="western"><surname>Blount</surname><given-names>SG Jr</given-names></name> (<year>1973</year>) <article-title>A comparison between the effects of dynamic and isometric exercise as evaluated by the systolic time intervals in normal man</article-title>. <source>Am Heart J</source> <volume>85</volume>: <fpage>227</fpage>-<lpage>236</lpage>. doi:<ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1016/0002-8703(73)90464-X" xlink:type="simple">10.1016/0002-8703(73)90464-X</ext-link>. PubMed: <ext-link ext-link-type="uri" xlink:href="http://www.ncbi.nlm.nih.gov/pubmed/4688832" xlink:type="simple">4688832</ext-link>.</mixed-citation>
+			</ref>
+			<ref id="B17">
+				<label>17</label>
+				<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Tuttle</surname><given-names>WW</given-names></name>, <name name-style="western"><surname>Horvath</surname><given-names>SM</given-names></name> (<year>1957</year>) <article-title>Comparison of effects of static and dynamic work on blood pressure and heart rate</article-title>. <source>J Appl Physiol</source> <volume>10</volume>: <fpage>294</fpage>-<lpage>296</lpage>. PubMed: <ext-link ext-link-type="uri" xlink:href="http://www.ncbi.nlm.nih.gov/pubmed/13428663" xlink:type="simple">13428663</ext-link>.</mixed-citation>
+			</ref>
+			<ref id="B18">
+				<label>18</label>
+				<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Chapman</surname><given-names>JH</given-names></name>, <name name-style="western"><surname>Elliott</surname><given-names>PW</given-names></name> (<year>1988</year>) <article-title>Cardiovascular effects of static and dynamic exercise</article-title>. <source>Eur J Appl Physiol Occup Physiol</source> <volume>58</volume>: <fpage>152</fpage>-<lpage>157</lpage>. doi:<ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1007/BF00636619" xlink:type="simple">10.1007/BF00636619</ext-link>. PubMed: <ext-link ext-link-type="uri" xlink:href="http://www.ncbi.nlm.nih.gov/pubmed/3203661" xlink:type="simple">3203661</ext-link>.</mixed-citation>
+			</ref>
+			<ref id="B19">
+				<label>19</label>
+				<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Louhevaara</surname><given-names>V</given-names></name>, <name name-style="western"><surname>Smolander</surname><given-names>J</given-names></name>, <name name-style="western"><surname>Aminoff</surname><given-names>T</given-names></name>, <name name-style="western"><surname>Korhonen</surname><given-names>O</given-names></name>, <name name-style="western"><surname>Shen</surname><given-names>NY</given-names></name> (<year>2000</year>) <article-title>Cardiorespiratory responses to fatiguing dynamic and isometric hand-grip exercise</article-title>. <source>Eur J Appl Physiol</source> <volume>82</volume>: <fpage>340</fpage>-<lpage>344</lpage>. doi:<ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1007/s004210000200" xlink:type="simple">10.1007/s004210000200</ext-link>. PubMed: <ext-link ext-link-type="uri" xlink:href="http://www.ncbi.nlm.nih.gov/pubmed/10958378" xlink:type="simple">10958378</ext-link>.</mixed-citation>
+			</ref>
+			<ref id="B20">
+				<label>20</label>
+				<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Iellamo</surname><given-names>F</given-names></name>, <name name-style="western"><surname>Legramante</surname><given-names>JM</given-names></name>, <name name-style="western"><surname>Raimondi</surname><given-names>G</given-names></name>, <name name-style="western"><surname>Castrucci</surname><given-names>F</given-names></name>, <name name-style="western"><surname>Damiani</surname><given-names>C</given-names></name> <etal>et al.</etal> (<year>1997</year>) <article-title>Effects of isokinetic, isotonic and isometric submaximal exercise on heart rate and blood pressure</article-title>. <source>Eur J Appl Physiol O</source> <volume>75</volume>: <fpage>89</fpage>-<lpage>96</lpage>.</mixed-citation>
+			</ref>
+			<ref id="B21">
+				<label>21</label>
+				<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>González-Camarena</surname><given-names>R</given-names></name>, <name name-style="western"><surname>Carrasco-Sosa</surname><given-names>S</given-names></name>, <name name-style="western"><surname>Román-Ramos</surname><given-names>R</given-names></name>, <name name-style="western"><surname>Gaitán-González</surname><given-names>MJ</given-names></name>, <name name-style="western"><surname>Medina-Bañuelos</surname><given-names>V</given-names></name> <etal>et al.</etal> (<year>2000</year>) <article-title>Effect of static and dynamic exercise on heart rate and blood pressure variabilities</article-title>. <source>Med Sci Sports Exerc</source> <volume>32</volume>: <fpage>1719</fpage>-<lpage>1728</lpage>. doi:<ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1097/00005768-200010000-00010" xlink:type="simple">10.1097/00005768-200010000-00010</ext-link>. PubMed: <ext-link ext-link-type="uri" xlink:href="http://www.ncbi.nlm.nih.gov/pubmed/11039644" xlink:type="simple">11039644</ext-link>.</mixed-citation>
+			</ref>
+			<ref id="B22">
+				<label>22</label>
+				<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Casadei</surname><given-names>B</given-names></name>, <name name-style="western"><surname>Moon</surname><given-names>J</given-names></name>, <name name-style="western"><surname>Johnston</surname><given-names>J</given-names></name>, <name name-style="western"><surname>Caiazza</surname><given-names>A</given-names></name>, <name name-style="western"><surname>Sleight</surname><given-names>P</given-names></name> (<year>1996</year>) <article-title>Is respiratory sinus arrhythmia a good index of cardiac vagal tone in exercise?</article-title> <source>J Appl Physiol (1985)</source> <volume>81</volume>: <fpage>556</fpage>-<lpage>564</lpage>. PubMed: <ext-link ext-link-type="uri" xlink:href="http://www.ncbi.nlm.nih.gov/pubmed/8872618" xlink:type="simple">8872618</ext-link>.</mixed-citation>
+			</ref>
+			<ref id="B23">
+				<label>23</label>
+				<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Casadei</surname><given-names>B</given-names></name>, <name name-style="western"><surname>Cochrane</surname><given-names>S</given-names></name>, <name name-style="western"><surname>Johnston</surname><given-names>J</given-names></name>, <name name-style="western"><surname>Conway</surname><given-names>J</given-names></name>, <name name-style="western"><surname>Sleight</surname><given-names>P</given-names></name> (<year>1995</year>) <article-title>Pitfalls in the interpretation of spectral analysis of the heart rate variability during exercise in humans</article-title>. <source>Acta Physiol Scand</source> <volume>153</volume>: <fpage>125</fpage>-<lpage>131</lpage>. doi:<ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1111/j.1748-1716.1995.tb09843.x" xlink:type="simple">10.1111/j.1748-1716.1995.tb09843.x</ext-link>. PubMed: <ext-link ext-link-type="uri" xlink:href="http://www.ncbi.nlm.nih.gov/pubmed/7778452" xlink:type="simple">7778452</ext-link>.</mixed-citation>
+			</ref>
+			<ref id="B24">
+				<label>24</label>
+				<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Perini</surname><given-names>R</given-names></name>, <name name-style="western"><surname>Veicsteinas</surname><given-names>A</given-names></name> (<year>2003</year>) <article-title>Heart rate variability and autonomic activity at rest and during exercise in various physiological conditions</article-title>. <source>Eur J Appl Physiol</source> <volume>90</volume>: <fpage>317</fpage>-<lpage>325</lpage>. doi:<ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1007/s00421-003-0953-9" xlink:type="simple">10.1007/s00421-003-0953-9</ext-link>. PubMed: <ext-link ext-link-type="uri" xlink:href="http://www.ncbi.nlm.nih.gov/pubmed/13680241" xlink:type="simple">13680241</ext-link>.</mixed-citation>
+			</ref>
+			<ref id="B25">
+				<label>25</label>
+				<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Princi</surname><given-names>T</given-names></name>, <name name-style="western"><surname>Accardo</surname><given-names>A</given-names></name>, <name name-style="western"><surname>Peterec</surname><given-names>D</given-names></name> (<year>2004</year>) <article-title>Linear and non-linear parameters of heart rate variability during static and dynamic exercise in a high-performance dinghy sailor</article-title>. <source>Biomed Sci Instrum</source> <volume>40</volume>: <fpage>311</fpage>-<lpage>316</lpage>. PubMed: <ext-link ext-link-type="uri" xlink:href="http://www.ncbi.nlm.nih.gov/pubmed/15133977" xlink:type="simple">15133977</ext-link>.</mixed-citation>
+			</ref>
+			<ref id="B26">
+				<label>26</label>
+				<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Pagani</surname><given-names>M</given-names></name>, <name name-style="western"><surname>Lombardi</surname><given-names>F</given-names></name>, <name name-style="western"><surname>Guzzetti</surname><given-names>S</given-names></name>, <name name-style="western"><surname>Rimoldi</surname><given-names>O</given-names></name>, <name name-style="western"><surname>Furlan</surname><given-names>R</given-names></name> <etal>et al.</etal> (<year>1986</year>) <article-title>Power spectral analysis of heart rate and arterial pressure variabilities as a marker of sympatho-vagal interaction in man and conscious dog</article-title>. <source>Circ Res</source> <volume>59</volume>: <fpage>178</fpage>-<lpage>193</lpage>. doi:<ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1161/01.RES.59.2.178" xlink:type="simple">10.1161/01.RES.59.2.178</ext-link>. PubMed: <ext-link ext-link-type="uri" xlink:href="http://www.ncbi.nlm.nih.gov/pubmed/2874900" xlink:type="simple">2874900</ext-link>.</mixed-citation>
+			</ref>
+			<ref id="B27">
+				<label>27</label>
+				<mixed-citation publication-type="journal" xlink:type="simple"><collab xlink:type="simple">Task Force of the European Society of Cardiology</collab> and <collab xlink:type="simple">the North American Society of Pacing and Electrophysiology</collab> (<year>1996</year>) <article-title>Heart rate variability: standards of measurement, physiological interpretation and clinical use</article-title>. <source>Circulation</source> <volume>93</volume>: <fpage>1043</fpage>-<lpage>1065</lpage>. doi:<ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1161/01.CIR.93.5.1043" xlink:type="simple">10.1161/01.CIR.93.5.1043</ext-link>. PubMed: <ext-link ext-link-type="uri" xlink:href="http://www.ncbi.nlm.nih.gov/pubmed/8598068" xlink:type="simple">8598068</ext-link>.</mixed-citation>
+			</ref>
+			<ref id="B28">
+				<label>28</label>
+				<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Bradshaw</surname><given-names>DI</given-names></name>, <name name-style="western"><surname>George</surname><given-names>JD</given-names></name>, <name name-style="western"><surname>Hyde</surname><given-names>A</given-names></name>, <name name-style="western"><surname>LaMonte</surname><given-names>MJ</given-names></name>, <name name-style="western"><surname>Vehrs</surname><given-names>PR</given-names></name> <etal>et al.</etal> (<year>2005</year>) <article-title>An accurate VO2max nonexercise regression model for 18-65-year-old adults</article-title>. <source>Res Q Exerc Sport</source> <volume>76</volume>: <fpage>426</fpage>-<lpage>432</lpage>. doi:<ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.5641/027013605X13080719841356" xlink:type="simple">10.5641/027013605X13080719841356</ext-link>. PubMed: <ext-link ext-link-type="uri" xlink:href="http://www.ncbi.nlm.nih.gov/pubmed/16739680" xlink:type="simple">16739680</ext-link>.</mixed-citation>
+			</ref>
+			<ref id="B29">
+				<label>29</label>
+				<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Yeragani</surname><given-names>VK</given-names></name>, <name name-style="western"><surname>Krishnan</surname><given-names>S</given-names></name>, <name name-style="western"><surname>Engels</surname><given-names>HJ</given-names></name>, <name name-style="western"><surname>Gretebeck</surname><given-names>R</given-names></name> (<year>2005</year>) <article-title>Effects of caffeine on linear and nonlinear measures of heart rate variability before and after exercise</article-title>. <source>Depress Anxiety</source> <volume>21</volume>: <fpage>130</fpage>-<lpage>134</lpage>. PubMed: <ext-link ext-link-type="uri" xlink:href="http://www.ncbi.nlm.nih.gov/pubmed/15965989" xlink:type="simple">15965989</ext-link>.</mixed-citation>
+			</ref>
+			<ref id="B30">
+				<label>30</label>
+				<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Huikuri</surname><given-names>HV</given-names></name>, <name name-style="western"><surname>Kessler</surname><given-names>KM</given-names></name>, <name name-style="western"><surname>Terracall</surname><given-names>E</given-names></name>, <name name-style="western"><surname>Castellanos</surname><given-names>A</given-names></name>, <name name-style="western"><surname>Linnaluoto</surname><given-names>MK</given-names></name> <etal>et al.</etal> (<year>1990</year>) <article-title>Reproducibility and circadian rhythm of heart rate variability in healthy subjects</article-title>. <source>Am J Cardiol</source> <volume>65</volume>: <fpage>391</fpage>-<lpage>393</lpage>. doi:<ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1016/0002-9149(90)90308-N" xlink:type="simple">10.1016/0002-9149(90)90308-N</ext-link>. PubMed: <ext-link ext-link-type="uri" xlink:href="http://www.ncbi.nlm.nih.gov/pubmed/2301268" xlink:type="simple">2301268</ext-link>.</mixed-citation>
+			</ref>
+			<ref id="B31">
+				<label>31</label>
+				<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Korpelainen</surname><given-names>JT</given-names></name>, <name name-style="western"><surname>Sotaniemi</surname><given-names>KA</given-names></name>, <name name-style="western"><surname>Huikuri</surname><given-names>HV</given-names></name>, <name name-style="western"><surname>Myllylä</surname><given-names>VV</given-names></name> (<year>1997</year>) <article-title>Circadian rhythm of heart rate variability is reversibly abolished in ischemic stroke</article-title>. <source>Stroke</source> <volume>28</volume>: <fpage>2150</fpage>-<lpage>2154</lpage>. doi:<ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1161/01.STR.28.11.2150" xlink:type="simple">10.1161/01.STR.28.11.2150</ext-link>. PubMed: <ext-link ext-link-type="uri" xlink:href="http://www.ncbi.nlm.nih.gov/pubmed/9368556" xlink:type="simple">9368556</ext-link>.</mixed-citation>
+			</ref>
+			<ref id="B32">
+				<label>32</label>
+				<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Kuwahara</surname><given-names>K</given-names></name>, <name name-style="western"><surname>Okita</surname><given-names>Y</given-names></name>, <name name-style="western"><surname>Kouda</surname><given-names>K</given-names></name>, <name name-style="western"><surname>Nakamura</surname><given-names>H</given-names></name> (<year>2011</year>) <article-title>Effects of modern eating patterns on the cardiac autonomic nervous system in young Japanese males</article-title>. <source>J Physiol Anthropol</source> <volume>30</volume>: <fpage>223</fpage>-<lpage>231</lpage>. doi:<ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.2114/jpa2.30.223" xlink:type="simple">10.2114/jpa2.30.223</ext-link>. PubMed: <ext-link ext-link-type="uri" xlink:href="http://www.ncbi.nlm.nih.gov/pubmed/22197955" xlink:type="simple">22197955</ext-link>.</mixed-citation>
+			</ref>
+			<ref id="B33">
+				<label>33</label>
+				<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Weber</surname><given-names>F</given-names></name>, <name name-style="western"><surname>Lindemann</surname><given-names>M</given-names></name>, <name name-style="western"><surname>Erbel</surname><given-names>R</given-names></name>, <name name-style="western"><surname>Philipp</surname><given-names>T</given-names></name> (<year>1999</year>) <article-title>Indirect and direct simultaneous, comparative blood pressure measurements with the Bosotron 2 device</article-title>. <source>Kidney Blood Press Res</source> <volume>22</volume>: <fpage>166</fpage>-<lpage>171</lpage>. doi:<ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1159/000025924" xlink:type="simple">10.1159/000025924</ext-link>. PubMed: <ext-link ext-link-type="uri" xlink:href="http://www.ncbi.nlm.nih.gov/pubmed/10394117" xlink:type="simple">10394117</ext-link>.</mixed-citation>
+			</ref>
+			<ref id="B34">
+				<label>34</label>
+				<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Kingsley</surname><given-names>M</given-names></name>, <name name-style="western"><surname>Lewis</surname><given-names>MJ</given-names></name>, <name name-style="western"><surname>Marson</surname><given-names>RE</given-names></name> (<year>2005</year>) <article-title>Comparison of Polar 810s and an ambulatory ECG system for RR interval measurement during progressive exercise</article-title>. <source>Int J Sports Med</source> <volume>26</volume>: <fpage>39</fpage>-<lpage>44</lpage>. doi:<ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1055/s-2004-817878" xlink:type="simple">10.1055/s-2004-817878</ext-link>. PubMed: <ext-link ext-link-type="uri" xlink:href="http://www.ncbi.nlm.nih.gov/pubmed/15643533" xlink:type="simple">15643533</ext-link>.</mixed-citation>
+			</ref>
+			<ref id="B35">
+				<label>35</label>
+				<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Weippert</surname><given-names>M</given-names></name>, <name name-style="western"><surname>Kumar</surname><given-names>M</given-names></name>, <name name-style="western"><surname>Kreuzfeld</surname><given-names>S</given-names></name>, <name name-style="western"><surname>Arndt</surname><given-names>D</given-names></name>, <name name-style="western"><surname>Rieger</surname><given-names>A</given-names></name> <etal>et al.</etal> (<year>2010</year>) <article-title>Comparison of three mobile devices for measuring R-R intervals and heart rate variability: Polar S810i, Suunto t6 and an ambulatory ECG system</article-title>. <source>Eur J Appl Physiol</source> <volume>109</volume>: <fpage>779</fpage>-<lpage>786</lpage>. doi:<ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1007/s00421-010-1415-9" xlink:type="simple">10.1007/s00421-010-1415-9</ext-link>. PubMed: <ext-link ext-link-type="uri" xlink:href="http://www.ncbi.nlm.nih.gov/pubmed/20225081" xlink:type="simple">20225081</ext-link>.</mixed-citation>
+			</ref>
+			<ref id="B36">
+				<label>36</label>
+				<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Richman</surname><given-names>JS</given-names></name>, <name name-style="western"><surname>Moorman</surname><given-names>JR</given-names></name> (<year>2000</year>) <article-title>Physiological time-series analysis using approximate entropy and sample entropy</article-title>. <source>Am J Physiol Heart Circ Physiol</source> <volume>278</volume>: <fpage>H2039</fpage>-<lpage>H2049</lpage>. PubMed: <ext-link ext-link-type="uri" xlink:href="http://www.ncbi.nlm.nih.gov/pubmed/10843903" xlink:type="simple">10843903</ext-link>.</mixed-citation>
+			</ref>
+			<ref id="B37">
+				<label>37</label>
+				<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Fojt</surname><given-names>O</given-names></name>, <name name-style="western"><surname>Holcik</surname><given-names>J</given-names></name> (<year>1998</year>) <article-title>Applying nonlinear dynamics to ECG signal processing. Two approaches to describing ECG and HRV signals</article-title>. <source>IEEE Eng Med Biol Mag</source> <volume>17</volume>: <fpage>96</fpage>-<lpage>101</lpage>. doi:<ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1109/51.664037" xlink:type="simple">10.1109/51.664037</ext-link>. PubMed: <ext-link ext-link-type="uri" xlink:href="http://www.ncbi.nlm.nih.gov/pubmed/9548087" xlink:type="simple">9548087</ext-link>.</mixed-citation>
+			</ref>
+			<ref id="B38">
+				<label>38</label>
+				<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Bogaert</surname><given-names>C</given-names></name>, <name name-style="western"><surname>Beckers</surname><given-names>F</given-names></name>, <name name-style="western"><surname>Ramaekers</surname><given-names>D</given-names></name>, <name name-style="western"><surname>Aubert</surname><given-names>AE</given-names></name> (<year>2001</year>) <article-title>Analysis of heart rate variability with correlation dimension method in a normal population and in heart transplant patients</article-title>. <source>Auton Neurosci</source> <volume>90</volume>: <fpage>142</fpage>-<lpage>147</lpage>. doi:<ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1016/S1566-0702(01)00280-6" xlink:type="simple">10.1016/S1566-0702(01)00280-6</ext-link>. PubMed: <ext-link ext-link-type="uri" xlink:href="http://www.ncbi.nlm.nih.gov/pubmed/11485283" xlink:type="simple">11485283</ext-link>.</mixed-citation>
+			</ref>
+			<ref id="B39">
+				<label>39</label>
+				<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Grassberger</surname><given-names>P</given-names></name>, <name name-style="western"><surname>Procaccia</surname><given-names>I</given-names></name> (<year>1983</year>) <article-title>Characterization of Strange Attractors</article-title>. <source>Phys Rev Lett</source> <volume>50</volume>: <fpage>346</fpage>-<lpage>349</lpage>. doi:<ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1103/PhysRevLett.50.346" xlink:type="simple">10.1103/PhysRevLett.50.346</ext-link>.</mixed-citation>
+			</ref>
+			<ref id="B40">
+				<label>40</label>
+				<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Pincus</surname><given-names>SM</given-names></name> (<year>1991</year>) <article-title>Approximate entropy as a measure of system complexity</article-title>. <source>Proc Natl Acad Sci U S A</source> <volume>88</volume>: <fpage>2297</fpage>-<lpage>2301</lpage>. doi:<ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1073/pnas.88.6.2297" xlink:type="simple">10.1073/pnas.88.6.2297</ext-link>. PubMed: <ext-link ext-link-type="uri" xlink:href="http://www.ncbi.nlm.nih.gov/pubmed/11607165" xlink:type="simple">11607165</ext-link>.</mixed-citation>
+			</ref>
+			<ref id="B41">
+				<label>41</label>
+				<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Rickards</surname><given-names>CA</given-names></name>, <name name-style="western"><surname>Ryan</surname><given-names>KL</given-names></name>, <name name-style="western"><surname>Convertino</surname><given-names>VA</given-names></name> (<year>2010</year>) <article-title>Characterization of common measures of heart period variability in healthy human subjects: implications for patient monitoring</article-title>. <source>J Clin Monit Comput</source> <volume>24</volume>: <fpage>61</fpage>-<lpage>70</lpage>. doi:<ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1007/s10877-009-9210-z" xlink:type="simple">10.1007/s10877-009-9210-z</ext-link>. PubMed: <ext-link ext-link-type="uri" xlink:href="http://www.ncbi.nlm.nih.gov/pubmed/20157801" xlink:type="simple">20157801</ext-link>.</mixed-citation>
+			</ref>
+			<ref id="B42">
+				<label>42</label>
+				<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Lake</surname><given-names>DE</given-names></name>, <name name-style="western"><surname>Moorman</surname><given-names>JR</given-names></name> (<year>2011</year>) <article-title>Accurate estimation of entropy in very short physiological time series: the problem of atrial fibrillation detection in implanted ventricular devices</article-title>. <source>Am J Physiol Heart Circ Physiol</source> <volume>300</volume>: <fpage>H319</fpage>-<lpage>H325</lpage>. doi:<ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1152/ajpheart.00561.2010" xlink:type="simple">10.1152/ajpheart.00561.2010</ext-link>. PubMed: <ext-link ext-link-type="uri" xlink:href="http://www.ncbi.nlm.nih.gov/pubmed/21037227" xlink:type="simple">21037227</ext-link>.</mixed-citation>
+			</ref>
+			<ref id="B43">
+				<label>43</label>
+				<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Lake</surname><given-names>DE</given-names></name>, <name name-style="western"><surname>Richman</surname><given-names>JS</given-names></name>, <name name-style="western"><surname>Griffin</surname><given-names>MP</given-names></name>, <name name-style="western"><surname>Moorman</surname><given-names>JR</given-names></name> (<year>2002</year>) <article-title>Sample entropy analysis of neonatal heart rate variability</article-title>. <source>Am J Physiol Regul Integr Comp Physiol</source> <volume>283</volume>: <fpage>R789</fpage>-<lpage>R797</lpage>. PubMed: <ext-link ext-link-type="uri" xlink:href="http://www.ncbi.nlm.nih.gov/pubmed/12185014" xlink:type="simple">12185014</ext-link>.</mixed-citation>
+			</ref>
+			<ref id="B44">
+				<label>44</label>
+				<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Pincus</surname><given-names>SM</given-names></name>, <name name-style="western"><surname>Viscarello</surname><given-names>RR</given-names></name> (<year>1992</year>) <article-title>Approximate entropy: a regularity measure for fetal heart rate analysis</article-title>. <source>Obstet Gynecol</source> <volume>79</volume>: <fpage>249</fpage>-<lpage>255</lpage>. PubMed: <ext-link ext-link-type="uri" xlink:href="http://www.ncbi.nlm.nih.gov/pubmed/1731294" xlink:type="simple">1731294</ext-link>.</mixed-citation>
+			</ref>
+			<ref id="B45">
+				<label>45</label>
+				<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Boon</surname><given-names>MY</given-names></name>, <name name-style="western"><surname>Henry</surname><given-names>BI</given-names></name>, <name name-style="western"><surname>Suttle</surname><given-names>CM</given-names></name>, <name name-style="western"><surname>Dain</surname><given-names>SJ</given-names></name> (<year>2008</year>) <article-title>The correlation dimension: a useful objective measure of the transient visual evoked potential?</article-title> <source>J Vis</source> <volume>8</volume>(<issue-id>6</issue-id>): <fpage>1</fpage>-<lpage>21</lpage>. doi:<ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1167/8.6.1" xlink:type="simple">10.1167/8.6.1</ext-link>. PubMed: <ext-link ext-link-type="uri" xlink:href="http://www.ncbi.nlm.nih.gov/pubmed/18318609" xlink:type="simple">18318609</ext-link>.</mixed-citation>
+			</ref>
+			<ref id="B46">
+				<label>46</label>
+				<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Behnia</surname><given-names>S</given-names></name>, <name name-style="western"><surname>Akhshani</surname><given-names>A</given-names></name>, <name name-style="western"><surname>Mahniodi</surname><given-names>H</given-names></name>, <name name-style="western"><surname>Hobbenagi</surname><given-names>H</given-names></name> (<year>2008</year>) <article-title>On the calculation of chaotic features for nonlinear time series</article-title>. <source>Chinese J Physiology</source> <volume>46</volume>: <fpage>394</fpage>-<lpage>404</lpage>.</mixed-citation>
+			</ref>
+			<ref id="B47">
+				<label>47</label>
+				<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Vikman</surname><given-names>S</given-names></name>, <name name-style="western"><surname>Mäkikallio</surname><given-names>TH</given-names></name>, <name name-style="western"><surname>Yli-Mäyry</surname><given-names>S</given-names></name>, <name name-style="western"><surname>Pikkujämsä</surname><given-names>S</given-names></name>, <name name-style="western"><surname>Koivisto</surname><given-names>AM</given-names></name> <etal>et al.</etal> (<year>1999</year>) <article-title>Altered complexity and correlation properties of R-R interval dynamics before the spontaneous onset of paroxysmal atrial fibrillation</article-title>. <source>Circulation</source> <volume>100</volume>: <fpage>2079</fpage>-<lpage>2084</lpage>. doi:<ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1161/01.CIR.100.20.2079" xlink:type="simple">10.1161/01.CIR.100.20.2079</ext-link>. PubMed: <ext-link ext-link-type="uri" xlink:href="http://www.ncbi.nlm.nih.gov/pubmed/10562264" xlink:type="simple">10562264</ext-link>.</mixed-citation>
+			</ref>
+			<ref id="B48">
+				<label>48</label>
+				<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Mäkikallio</surname><given-names>TH</given-names></name>, <name name-style="western"><surname>Tapanainen</surname><given-names>JM</given-names></name>, <name name-style="western"><surname>Tulppo</surname><given-names>MP</given-names></name>, <name name-style="western"><surname>Huikuri</surname><given-names>HV</given-names></name> (<year>2002</year>) <article-title>Clinical applicability of heart rate variability analysis by methods based on nonlinear dynamics</article-title>. <source>Card Electrophysiol Rev</source> <volume>6</volume>: <fpage>250</fpage>-<lpage>255</lpage>. doi:<ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1023/A:1016381025759" xlink:type="simple">10.1023/A:1016381025759</ext-link>. PubMed: <ext-link ext-link-type="uri" xlink:href="http://www.ncbi.nlm.nih.gov/pubmed/12114847" xlink:type="simple">12114847</ext-link>.</mixed-citation>
+			</ref>
+			<ref id="B49">
+				<label>49</label>
+				<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Raab</surname><given-names>C</given-names></name>, <name name-style="western"><surname>Kurths</surname><given-names>J</given-names></name>, <name name-style="western"><surname>Schirdewan</surname><given-names>A</given-names></name>, <name name-style="western"><surname>Wessel</surname><given-names>N</given-names></name> (<year>2006</year>) <article-title>Normalized correlation dimension for heart rate variability analysis</article-title>. <source>Biomed Tech (Berl)</source> <volume>51</volume>: <fpage>229</fpage>-<lpage>232</lpage>. doi:<ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1515/BMT.2006.043" xlink:type="simple">10.1515/BMT.2006.043</ext-link>. PubMed: <ext-link ext-link-type="uri" xlink:href="http://www.ncbi.nlm.nih.gov/pubmed/17061945" xlink:type="simple">17061945</ext-link>.</mixed-citation>
+			</ref>
+			<ref id="B50">
+				<label>50</label>
+				<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Penttilä</surname><given-names>J</given-names></name>, <name name-style="western"><surname>Helminen</surname><given-names>A</given-names></name>, <name name-style="western"><surname>Jartti</surname><given-names>T</given-names></name>, <name name-style="western"><surname>Kuusela</surname><given-names>T</given-names></name>, <name name-style="western"><surname>Huikuri</surname><given-names>HV</given-names></name> <etal>et al.</etal> (<year>2003</year>) <article-title>Effect of cardiac vagal outflow on complexity and fractal correlation properties of heart rate dynamics</article-title>. <source>Auton Autacoid Pharmacol</source> <volume>23</volume>: <fpage>173</fpage>-<lpage>179</lpage>. PubMed: <ext-link ext-link-type="uri" xlink:href="http://www.ncbi.nlm.nih.gov/pubmed/14690492" xlink:type="simple">14690492</ext-link>.</mixed-citation>
+			</ref>
+			<ref id="B51">
+				<label>51</label>
+				<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Perkiömäki</surname><given-names>JS</given-names></name>, <name name-style="western"><surname>Mäkikallio</surname><given-names>TH</given-names></name>, <name name-style="western"><surname>Huikuri</surname><given-names>HV</given-names></name> (<year>2000</year>) <article-title>Nonlinear Analysis of Heart Rate Variability: Fractal and Complexity Measures of Heart Rate Behavior</article-title>. <source>Annals of Noninvasive Electrocardiology</source> <volume>5</volume>: <fpage>179</fpage>-<lpage>187</lpage>. doi:<ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1111/j.1542-474X.2000.tb00384.x" xlink:type="simple">10.1111/j.1542-474X.2000.tb00384.x</ext-link>.</mixed-citation>
+			</ref>
+			<ref id="B52">
+				<label>52</label>
+				<mixed-citation publication-type="book" xlink:type="simple"><name name-style="western"><surname>Schmidt</surname><given-names>G</given-names></name>, <name name-style="western"><surname>Morfill</surname><given-names>GE</given-names></name> (<year>1995</year>) <article-title>Nonlinear Methods for Heart Rate Variability Assessment</article-title>. In: <person-group person-group-type="editor"><name name-style="western"><surname>Malik</surname><given-names>M</given-names></name><name name-style="western"><surname>Camm</surname><given-names>AJ</given-names></name></person-group>. <source>Heart Rate Variability</source>. <publisher-loc>Armonk NY</publisher-loc>: <publisher-name>Futura</publisher-name>. pp. <fpage>87</fpage>-<lpage>98</lpage>.</mixed-citation>
+			</ref>
+			<ref id="B53">
+				<label>53</label>
+				<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Mäkikallio</surname><given-names>TH</given-names></name>, <name name-style="western"><surname>Seppänen</surname><given-names>T</given-names></name>, <name name-style="western"><surname>Niemelä</surname><given-names>M</given-names></name>, <name name-style="western"><surname>Airaksinen</surname><given-names>KE</given-names></name>, <name name-style="western"><surname>Tulppo</surname><given-names>M</given-names></name> <etal>et al.</etal> (<year>1996</year>) <article-title>Abnormalities in beat to beat complexity of heart rate dynamics in patients with a previous myocardial infarction</article-title>. <source>J Am Coll Cardiol</source> <volume>28</volume>: <fpage>1005</fpage>-<lpage>1011</lpage>. doi:<ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1016/S0735-1097(96)00243-4" xlink:type="simple">10.1016/S0735-1097(96)00243-4</ext-link>. PubMed: <ext-link ext-link-type="uri" xlink:href="http://www.ncbi.nlm.nih.gov/pubmed/8837582" xlink:type="simple">8837582</ext-link>.</mixed-citation>
+			</ref>
+			<ref id="B54">
+				<label>54</label>
+				<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Baguley</surname><given-names>T</given-names></name> (<year>2004</year>) <article-title>Understanding statistical power in the context of applied research</article-title>. <source>Appl Ergon</source> <volume>35</volume>: <fpage>73</fpage>-<lpage>80</lpage>. doi:<ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1016/j.apergo.2004.01.002" xlink:type="simple">10.1016/j.apergo.2004.01.002</ext-link>. PubMed: <ext-link ext-link-type="uri" xlink:href="http://www.ncbi.nlm.nih.gov/pubmed/15105068" xlink:type="simple">15105068</ext-link>.</mixed-citation>
+			</ref>
+			<ref id="B55">
+				<label>55</label>
+				<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Nelson</surname><given-names>RR</given-names></name>, <name name-style="western"><surname>Gobel</surname><given-names>FL</given-names></name>, <name name-style="western"><surname>Jorgensen</surname><given-names>CR</given-names></name>, <name name-style="western"><surname>Wang</surname><given-names>K</given-names></name>, <name name-style="western"><surname>Wang</surname><given-names>Y</given-names></name> <etal>et al.</etal> (<year>1974</year>) <article-title>Hemodynamic predictors of myocardial oxygen consumption during static and dynamic exercise</article-title>. <source>Circulation</source> <volume>50</volume>: <fpage>1179</fpage>-<lpage>1189</lpage>. doi:<ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1161/01.CIR.50.6.1179" xlink:type="simple">10.1161/01.CIR.50.6.1179</ext-link>. PubMed: <ext-link ext-link-type="uri" xlink:href="http://www.ncbi.nlm.nih.gov/pubmed/4430113" xlink:type="simple">4430113</ext-link>.</mixed-citation>
+			</ref>
+			<ref id="B56">
+				<label>56</label>
+				<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Gobel</surname><given-names>FL</given-names></name>, <name name-style="western"><surname>Norstrom</surname><given-names>LA</given-names></name>, <name name-style="western"><surname>Nelson</surname><given-names>RR</given-names></name>, <name name-style="western"><surname>Jorgensen</surname><given-names>CR</given-names></name>, <name name-style="western"><surname>Wang</surname><given-names>Y</given-names></name> (<year>1978</year>) <article-title>The rate-pressure product as an index of myocardial oxygen consumption during exercise in patients with angina pectoris</article-title>. <source>Circulation</source> <volume>57</volume>: <fpage>549</fpage>-<lpage>556</lpage>. doi:<ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1161/01.CIR.57.3.549" xlink:type="simple">10.1161/01.CIR.57.3.549</ext-link>. PubMed: <ext-link ext-link-type="uri" xlink:href="http://www.ncbi.nlm.nih.gov/pubmed/624164" xlink:type="simple">624164</ext-link>.</mixed-citation>
+			</ref>
+			<ref id="B57">
+				<label>57</label>
+				<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Williams</surname><given-names>CA</given-names></name>, <name name-style="western"><surname>Mudd</surname><given-names>JG</given-names></name>, <name name-style="western"><surname>Lind</surname><given-names>AR</given-names></name> (<year>1985</year>) <article-title>Sympathetic control of the forearm blood flow in man during brief isometric contractions</article-title>. <source>Eur J Appl Physiol Occup Physiol</source> <volume>54</volume>: <fpage>156</fpage>-<lpage>162</lpage>. doi:<ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1007/BF02335923" xlink:type="simple">10.1007/BF02335923</ext-link>. PubMed: <ext-link ext-link-type="uri" xlink:href="http://www.ncbi.nlm.nih.gov/pubmed/4043042" xlink:type="simple">4043042</ext-link>.</mixed-citation>
+			</ref>
+			<ref id="B58">
+				<label>58</label>
+				<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Mitchell</surname><given-names>JH</given-names></name> (<year>1985</year>) <article-title>Cardiovascular Control during Exercise - Central and Reflex Neural Mechanisms</article-title>. <source>American Journal of Cardiology</source> <volume>55</volume>: <fpage>D34</fpage>-<lpage>D41</lpage>. doi:<ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1016/0002-9149(85)91053-7" xlink:type="simple">10.1016/0002-9149(85)91053-7</ext-link>.</mixed-citation>
+			</ref>
+			<ref id="B59">
+				<label>59</label>
+				<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Iellamo</surname><given-names>F</given-names></name> (<year>2001</year>) <article-title>Neural mechanisms of cardiovascular regulation during exercise</article-title>. <source>Auton Neurosci</source> <volume>90</volume>: <fpage>66</fpage>-<lpage>75</lpage>. PubMed: <ext-link ext-link-type="uri" xlink:href="http://www.ncbi.nlm.nih.gov/pubmed/11485294" xlink:type="simple">11485294</ext-link>.</mixed-citation>
+			</ref>
+			<ref id="B60">
+				<label>60</label>
+				<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Augustyniak</surname><given-names>RA</given-names></name>, <name name-style="western"><surname>Collins</surname><given-names>HL</given-names></name>, <name name-style="western"><surname>Ansorge</surname><given-names>EJ</given-names></name>, <name name-style="western"><surname>Rossi</surname><given-names>NF</given-names></name>, <name name-style="western"><surname>O'Leary</surname><given-names>DS</given-names></name> (<year>2001</year>) <article-title>Severe exercise alters the strength and mechanisms of the muscle metaboreflex</article-title>. <source>Am J Physiol Heart Circ Physiol</source> <volume>280</volume>: <fpage>H1645</fpage>-<lpage>H1652</lpage>. PubMed: <ext-link ext-link-type="uri" xlink:href="http://www.ncbi.nlm.nih.gov/pubmed/11247775" xlink:type="simple">11247775</ext-link>.</mixed-citation>
+			</ref>
+			<ref id="B61">
+				<label>61</label>
+				<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Nóbrega</surname><given-names>AC</given-names></name>, <name name-style="western"><surname>Williamson</surname><given-names>JW</given-names></name>, <name name-style="western"><surname>Garcia</surname><given-names>JA</given-names></name>, <name name-style="western"><surname>Mitchell</surname><given-names>JH</given-names></name> (<year>1997</year>) <article-title>Mechanisms for increasing stroke volume during static exercise with fixed heart rate in humans</article-title>. <source>Journal of Appl Physiol</source> <volume>83</volume>: <fpage>712</fpage>-<lpage>717</lpage>. PubMed: <ext-link ext-link-type="uri" xlink:href="http://www.ncbi.nlm.nih.gov/pubmed/9292454" xlink:type="simple">9292454</ext-link>.</mixed-citation>
+			</ref>
+			<ref id="B62">
+				<label>62</label>
+				<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Crisafulli</surname><given-names>A</given-names></name>, <name name-style="western"><surname>Scott</surname><given-names>AC</given-names></name>, <name name-style="western"><surname>Wensel</surname><given-names>R</given-names></name>, <name name-style="western"><surname>Davos</surname><given-names>CH</given-names></name>, <name name-style="western"><surname>Francis</surname><given-names>DP</given-names></name> <etal>et al.</etal> (<year>2003</year>) <article-title>Muscle metaboreflex-induced increases in stroke volume</article-title>. <source>Med Sci Sports Exerc</source> <volume>35</volume>: <fpage>221</fpage>-<lpage>228</lpage>; discussion: <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1097/00005768-200305001-01223" xlink:type="simple">10.1097/00005768-200305001-01223</ext-link>. PubMed: <ext-link ext-link-type="uri" xlink:href="http://www.ncbi.nlm.nih.gov/pubmed/12569208" xlink:type="simple">12569208</ext-link>.</mixed-citation>
+			</ref>
+			<ref id="B63">
+				<label>63</label>
+				<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Elstad</surname><given-names>M</given-names></name>, <name name-style="western"><surname>Nådland</surname><given-names>IH</given-names></name>, <name name-style="western"><surname>Toska</surname><given-names>K</given-names></name>, <name name-style="western"><surname>Walløe</surname><given-names>L</given-names></name> (<year>2009</year>) <article-title>Stroke volume decreases during mild dynamic and static exercise in supine humans</article-title>. <source>Acta Physiologica</source> <volume>195</volume>: <fpage>289</fpage>-<lpage>300</lpage>. doi:<ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1111/j.1748-1716.2008.01887.x" xlink:type="simple">10.1111/j.1748-1716.2008.01887.x</ext-link>. PubMed: <ext-link ext-link-type="uri" xlink:href="http://www.ncbi.nlm.nih.gov/pubmed/18680560" xlink:type="simple">18680560</ext-link>.</mixed-citation>
+			</ref>
+			<ref id="B64">
+				<label>64</label>
+				<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Abboud</surname><given-names>FM</given-names></name> (<year>1979</year>) <article-title>Integration of reflex responses in the control of blood pressure and vascular resistance</article-title>. <source>Am J Cardiol</source> <volume>44</volume>: <fpage>903</fpage>-<lpage>911</lpage>. doi:<ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1016/0002-9149(79)90221-2" xlink:type="simple">10.1016/0002-9149(79)90221-2</ext-link>. PubMed: <ext-link ext-link-type="uri" xlink:href="http://www.ncbi.nlm.nih.gov/pubmed/386772" xlink:type="simple">386772</ext-link>.</mixed-citation>
+			</ref>
+			<ref id="B65">
+				<label>65</label>
+				<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Casadei</surname><given-names>B</given-names></name> (<year>2001</year>) <article-title>Vagal control of myocardial contractility in humans</article-title>. <source>Exp Physiol</source> <volume>86</volume>: <fpage>817</fpage>-<lpage>823</lpage>. doi:<ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1111/j.1469-445X.2001.tb00050.x" xlink:type="simple">10.1111/j.1469-445X.2001.tb00050.x</ext-link>. PubMed: <ext-link ext-link-type="uri" xlink:href="http://www.ncbi.nlm.nih.gov/pubmed/11698979" xlink:type="simple">11698979</ext-link>.</mixed-citation>
+			</ref>
+			<ref id="B66">
+				<label>66</label>
+				<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Smirmaul</surname></name> BdPC (<year>2012</year>) <article-title>Sense of effort and other unpleasant sensations during exercise: clarifying concepts and mechanisms</article-title>. <source>Br J Sports Med</source> <volume>46</volume>: <fpage>308</fpage>-<lpage>311</lpage>.</mixed-citation>
+			</ref>
+			<ref id="B67">
+				<label>67</label>
+				<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Iellamo</surname><given-names>F</given-names></name>, <name name-style="western"><surname>Legramante</surname><given-names>JM</given-names></name>, <name name-style="western"><surname>Raimondi</surname><given-names>G</given-names></name>, <name name-style="western"><surname>Peruzzi</surname><given-names>G</given-names></name> (<year>1997</year>) <article-title>Baroreflex control of sinus node during dynamic exercise in humans: effects of central command and muscle reflexes</article-title>. <source>Am J Physiol</source> <volume>272</volume>: <fpage>H1157</fpage>-<lpage>H1164</lpage>. PubMed: <ext-link ext-link-type="uri" xlink:href="http://www.ncbi.nlm.nih.gov/pubmed/9087588" xlink:type="simple">9087588</ext-link>.</mixed-citation>
+			</ref>
+			<ref id="B68">
+				<label>68</label>
+				<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Carrington</surname><given-names>CA</given-names></name>, <name name-style="western"><surname>Fisher</surname><given-names>WJ</given-names></name>, <name name-style="western"><surname>Davies</surname><given-names>MK</given-names></name>, <name name-style="western"><surname>White</surname><given-names>MJ</given-names></name> (<year>2001</year>) <article-title>Muscle afferent and central command contributions to the cardiovascular response to isometric exercise of postural muscle in patients with mild chronic heart failure</article-title>. <source>Clin Sci (Lond)</source> <volume>100</volume>: <fpage>643</fpage>-<lpage>651</lpage>. doi:<ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1042/CS20000270" xlink:type="simple">10.1042/CS20000270</ext-link>. PubMed: <ext-link ext-link-type="uri" xlink:href="http://www.ncbi.nlm.nih.gov/pubmed/11352780" xlink:type="simple">11352780</ext-link>.</mixed-citation>
+			</ref>
+			<ref id="B69">
+				<label>69</label>
+				<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Fisher</surname><given-names>JP</given-names></name>, <name name-style="western"><surname>Ogoh</surname><given-names>S</given-names></name>, <name name-style="western"><surname>Dawson</surname><given-names>EA</given-names></name>, <name name-style="western"><surname>Fadel</surname><given-names>PJ</given-names></name>, <name name-style="western"><surname>Secher</surname><given-names>NH</given-names></name> <etal>et al.</etal> (<year>2006</year>) <article-title>Cardiac and vasomotor components of the carotid baroreflex control of arterial blood pressure during isometric exercise in humans</article-title>. <source>J Physiol</source> <volume>572</volume>: <fpage>869</fpage>-<lpage>880</lpage>. doi:<ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1113/jphysiol.2005.103028" xlink:type="simple">10.1113/jphysiol.2005.103028</ext-link>. PubMed: <ext-link ext-link-type="uri" xlink:href="http://www.ncbi.nlm.nih.gov/pubmed/16513674" xlink:type="simple">16513674</ext-link>.</mixed-citation>
+			</ref>
+			<ref id="B70">
+				<label>70</label>
+				<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Mark</surname><given-names>AL</given-names></name>, <name name-style="western"><surname>Victor</surname><given-names>RG</given-names></name>, <name name-style="western"><surname>Nerhed</surname><given-names>C</given-names></name>, <name name-style="western"><surname>Wallin</surname><given-names>BG</given-names></name> (<year>1985</year>) <article-title>Microneurographic Studies of the Mechanisms of Sympathetic-Nerve Responses to Static Exercise in Humans</article-title>. <source>Circ Res</source> <volume>57</volume>: <fpage>461</fpage>-<lpage>469</lpage>. doi:<ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1161/01.RES.57.3.461" xlink:type="simple">10.1161/01.RES.57.3.461</ext-link>. PubMed: <ext-link ext-link-type="uri" xlink:href="http://www.ncbi.nlm.nih.gov/pubmed/4028348" xlink:type="simple">4028348</ext-link>.</mixed-citation>
+			</ref>
+			<ref id="B71">
+				<label>71</label>
+				<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Hartwich</surname><given-names>D</given-names></name>, <name name-style="western"><surname>Dear</surname><given-names>WE</given-names></name>, <name name-style="western"><surname>Waterfall</surname><given-names>JL</given-names></name>, <name name-style="western"><surname>Fisher</surname><given-names>JP</given-names></name> (<year>2011</year>) <article-title>Effect of muscle metaboreflex activation on spontaneous cardiac baroreflex sensitivity during exercise in humans</article-title>. <source>J Physiol</source> <volume>589</volume>: <fpage>6157</fpage>-<lpage>6171</lpage>. PubMed: <ext-link ext-link-type="uri" xlink:href="http://www.ncbi.nlm.nih.gov/pubmed/21969452" xlink:type="simple">21969452</ext-link>.</mixed-citation>
+			</ref>
+			<ref id="B72">
+				<label>72</label>
+				<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Piepoli</surname><given-names>M</given-names></name>, <name name-style="western"><surname>Clark</surname><given-names>AL</given-names></name>, <name name-style="western"><surname>Coats</surname><given-names>AJ</given-names></name> (<year>1995</year>) <article-title>Muscle metaboreceptors in hemodynamic, autonomic, and ventilatory responses to exercise in men</article-title>. <source>Am J Physiol</source> <volume>269</volume>: <fpage>H1428</fpage>-<lpage>H1436</lpage>. PubMed: <ext-link ext-link-type="uri" xlink:href="http://www.ncbi.nlm.nih.gov/pubmed/7485577" xlink:type="simple">7485577</ext-link>.</mixed-citation>
+			</ref>
+			<ref id="B73">
+				<label>73</label>
+				<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Ponikowski</surname><given-names>P</given-names></name>, <name name-style="western"><surname>Chua</surname><given-names>TP</given-names></name>, <name name-style="western"><surname>Piepoli</surname><given-names>M</given-names></name>, <name name-style="western"><surname>Ondusova</surname><given-names>D</given-names></name>, <name name-style="western"><surname>Webb-Peploe</surname><given-names>K</given-names></name> <etal>et al.</etal> (<year>1997</year>) <article-title>Augmented peripheral chemosensitivity as a potential input to baroreflex impairment and autonomic imbalance in chronic heart failure</article-title>. <source>Circulation</source> <volume>96</volume>: <fpage>2586</fpage>-<lpage>2594</lpage>. doi:<ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1161/01.CIR.96.8.2586" xlink:type="simple">10.1161/01.CIR.96.8.2586</ext-link>. PubMed: <ext-link ext-link-type="uri" xlink:href="http://www.ncbi.nlm.nih.gov/pubmed/9355898" xlink:type="simple">9355898</ext-link>.</mixed-citation>
+			</ref>
+			<ref id="B74">
+				<label>74</label>
+				<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Saito</surname><given-names>M</given-names></name>, <name name-style="western"><surname>Mano</surname><given-names>T</given-names></name> (<year>1991</year>) <article-title>Exercise mode affects muscle sympathetic nerve responsiveness</article-title>. <source>Jpn J Physiol</source> <volume>41</volume>: <fpage>143</fpage>-<lpage>151</lpage>. doi:<ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.2170/jjphysiol.41.143" xlink:type="simple">10.2170/jjphysiol.41.143</ext-link>. PubMed: <ext-link ext-link-type="uri" xlink:href="http://www.ncbi.nlm.nih.gov/pubmed/1857017" xlink:type="simple">1857017</ext-link>.</mixed-citation>
+			</ref>
+			<ref id="B75">
+				<label>75</label>
+				<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Nishiyasu</surname><given-names>T</given-names></name>, <name name-style="western"><surname>Tan</surname><given-names>N</given-names></name>, <name name-style="western"><surname>Morimoto</surname><given-names>K</given-names></name>, <name name-style="western"><surname>Nishiyasu</surname><given-names>M</given-names></name>, <name name-style="western"><surname>Yamaguchi</surname><given-names>Y</given-names></name> <etal>et al.</etal> (<year>1994</year>) <article-title>Enhancement of parasympathetic cardiac activity during activation of muscle metaboreflex in humans</article-title>. <source>J Appl Physiol (1985)</source> <volume>77</volume>: <fpage>2778</fpage>-<lpage>2783</lpage>. PubMed: <ext-link ext-link-type="uri" xlink:href="http://www.ncbi.nlm.nih.gov/pubmed/7896621" xlink:type="simple">7896621</ext-link>.</mixed-citation>
+			</ref>
+			<ref id="B76">
+				<label>76</label>
+				<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Backs</surname><given-names>RW</given-names></name> (<year>1995</year>) <article-title>Going beyond heart rate: autonomic space and cardiovascular assessment of mental workload</article-title>. <source>Int J Aviat Psychol</source> <volume>5</volume>: <fpage>25</fpage>-<lpage>48</lpage>. doi:<ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1207/s15327108ijap0501_3" xlink:type="simple">10.1207/s15327108ijap0501_3</ext-link>. PubMed: <ext-link ext-link-type="uri" xlink:href="http://www.ncbi.nlm.nih.gov/pubmed/11541494" xlink:type="simple">11541494</ext-link>.</mixed-citation>
+			</ref>
+			<ref id="B77">
+				<label>77</label>
+				<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Berntson</surname><given-names>GG</given-names></name>, <name name-style="western"><surname>Cacioppo</surname><given-names>JT</given-names></name>, <name name-style="western"><surname>Quigley</surname><given-names>KS</given-names></name> (<year>1991</year>) <article-title>Autonomic determinism: The modes of autonomic control, the doctrine of autonomic space, and the laws of autonomic constraint</article-title>. <source>Psychol Rev</source> <volume>98</volume>: <fpage>459</fpage>-<lpage>487</lpage>. doi:<ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1037/0033-295X.98.4.459" xlink:type="simple">10.1037/0033-295X.98.4.459</ext-link>. PubMed: <ext-link ext-link-type="uri" xlink:href="http://www.ncbi.nlm.nih.gov/pubmed/1660159" xlink:type="simple">1660159</ext-link>.</mixed-citation>
+			</ref>
+			<ref id="B78">
+				<label>78</label>
+				<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Malliani</surname><given-names>A</given-names></name> (<year>2006</year>) <article-title>Cardiovascular variability is/is not an index of autonomic control of circulation</article-title>. <source>Journal of Applied Physiology</source> <volume>101</volume>: <fpage>684</fpage>-<lpage>688</lpage>. doi:<ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1152/japplphysiol.00562.2006" xlink:type="simple">10.1152/japplphysiol.00562.2006</ext-link>. PubMed: <ext-link ext-link-type="uri" xlink:href="http://www.ncbi.nlm.nih.gov/pubmed/168925031689250216849814" xlink:type="simple">168925031689250216849814</ext-link>.</mixed-citation>
+			</ref>
+			<ref id="B79">
+				<label>79</label>
+				<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>DeBeck</surname><given-names>LD</given-names></name>, <name name-style="western"><surname>Petersen</surname><given-names>SR</given-names></name>, <name name-style="western"><surname>Jones</surname><given-names>KE</given-names></name>, <name name-style="western"><surname>Stickland</surname><given-names>MK</given-names></name> (<year>2010</year>) <article-title>Heart rate variability and muscle sympathetic nerve activity response to acute stress: the effect of breathing</article-title>. <source>Am J Physiol Regul Integr Comp Physiol</source> <volume>299</volume>: <fpage>R80</fpage>-<lpage>R91</lpage>. doi:<ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1152/ajpregu.00246.2009" xlink:type="simple">10.1152/ajpregu.00246.2009</ext-link>. PubMed: <ext-link ext-link-type="uri" xlink:href="http://www.ncbi.nlm.nih.gov/pubmed/20410469" xlink:type="simple">20410469</ext-link>.</mixed-citation>
+			</ref>
+			<ref id="B80">
+				<label>80</label>
+				<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Tulppo</surname><given-names>MP</given-names></name>, <name name-style="western"><surname>Mäkikallio</surname><given-names>TH</given-names></name>, <name name-style="western"><surname>Seppänen</surname><given-names>T</given-names></name>, <name name-style="western"><surname>Shoemaker</surname><given-names>K</given-names></name>, <name name-style="western"><surname>Tutungi</surname><given-names>E</given-names></name> <etal>et al.</etal> (<year>2001</year>) <article-title>Effects of pharmacological adrenergic and vagal modulation on fractal heart rate dynamics</article-title>. <source>Clin Physiol</source> <volume>21</volume>: <fpage>515</fpage>-<lpage>523</lpage>. doi:<ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1046/j.1365-2281.2001.00344.x" xlink:type="simple">10.1046/j.1365-2281.2001.00344.x</ext-link>. PubMed: <ext-link ext-link-type="uri" xlink:href="http://www.ncbi.nlm.nih.gov/pubmed/11576151" xlink:type="simple">11576151</ext-link>.</mixed-citation>
+			</ref>
+			<ref id="B81">
+				<label>81</label>
+				<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Eckberg</surname><given-names>DL</given-names></name> (<year>1997</year>) <article-title>Sympathovagal balance: a critical appraisal</article-title>. <source>Circulation</source> <volume>96</volume>: <fpage>3224</fpage>-<lpage>3232</lpage>. doi:<ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1161/01.CIR.96.9.3224" xlink:type="simple">10.1161/01.CIR.96.9.3224</ext-link>. PubMed: <ext-link ext-link-type="uri" xlink:href="http://www.ncbi.nlm.nih.gov/pubmed/9386196" xlink:type="simple">9386196</ext-link>.</mixed-citation>
+			</ref>
+			<ref id="B82">
+				<label>82</label>
+				<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Guzzetti</surname><given-names>S</given-names></name>, <name name-style="western"><surname>Signorini</surname><given-names>MG</given-names></name>, <name name-style="western"><surname>Cogliati</surname><given-names>C</given-names></name>, <name name-style="western"><surname>Mezzetti</surname><given-names>S</given-names></name>, <name name-style="western"><surname>Porta</surname><given-names>A</given-names></name> <etal>et al.</etal> (<year>1996</year>) <article-title>Non-linear dynamics and chaotic indices in heart rate variability of normal subjects and heart-transplanted patients</article-title>. <source>Cardiovasc Res</source> <volume>31</volume>: <fpage>441</fpage>-<lpage>446</lpage>. doi:<ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1016/0008-6363(95)00159-X" xlink:type="simple">10.1016/0008-6363(95)00159-X</ext-link>. PubMed: <ext-link ext-link-type="uri" xlink:href="http://www.ncbi.nlm.nih.gov/pubmed/8681331" xlink:type="simple">8681331</ext-link>.</mixed-citation>
+			</ref>
+			<ref id="B83">
+				<label>83</label>
+				<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Botoeva</surname><given-names>N</given-names></name> (<year>2012</year>) <article-title>Change of Nonlinear Heart Rate Variability Indices in Different Seasons</article-title>. <source>Journal Earth Science and Engineering</source>: <fpage>576</fpage>-<lpage>583</lpage>.</mixed-citation>
+			</ref>
+			<ref id="B84">
+				<label>84</label>
+				<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Tulppo</surname><given-names>MP</given-names></name>, <name name-style="western"><surname>Mäkikallio</surname><given-names>TH</given-names></name>, <name name-style="western"><surname>Takala</surname><given-names>TE</given-names></name>, <name name-style="western"><surname>Seppänen</surname><given-names>T</given-names></name>, <name name-style="western"><surname>Huikuri</surname><given-names>HV</given-names></name> (<year>1996</year>) <article-title>Quantitative beat-to-beat analysis of heart rate dynamics during exercise</article-title>. <source>Am J Physiol</source> <volume>271</volume>: <fpage>H244</fpage>-<lpage>H252</lpage>. PubMed: <ext-link ext-link-type="uri" xlink:href="http://www.ncbi.nlm.nih.gov/pubmed/8760181" xlink:type="simple">8760181</ext-link>.</mixed-citation>
+			</ref>
+			<ref id="B85">
+				<label>85</label>
+				<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Tulppo</surname><given-names>MP</given-names></name>, <name name-style="western"><surname>Hughson</surname><given-names>RL</given-names></name>, <name name-style="western"><surname>Mäkikallio</surname><given-names>TH</given-names></name>, <name name-style="western"><surname>Airaksinen</surname><given-names>KEJ</given-names></name>, <name name-style="western"><surname>Seppänen</surname><given-names>T</given-names></name> <etal>et al.</etal> (<year>2001</year>) <article-title>Effects of exercise and passive head-up tilt on fractal and complexity properties of heart rate dynamics</article-title>. <source>Am J Physiol Heart Circ Physiol</source> <volume>280</volume>: <fpage>H1081</fpage>-<lpage>H1087</lpage>. PubMed: <ext-link ext-link-type="uri" xlink:href="http://www.ncbi.nlm.nih.gov/pubmed/11179050" xlink:type="simple">11179050</ext-link>.</mixed-citation>
+			</ref>
+			<ref id="B86">
+				<label>86</label>
+				<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Grossman</surname><given-names>P</given-names></name>, <name name-style="western"><surname>Taylor</surname><given-names>EW</given-names></name> (<year>2007</year>) <article-title>Toward understanding respiratory sinus arrhythmia: Relations to cardiac vagal tone, evolution and biobehavioral functions</article-title>. <source>Biol Psychol</source> <volume>74</volume>: <fpage>263</fpage>-<lpage>285</lpage>. doi:<ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1016/j.biopsycho.2005.11.014" xlink:type="simple">10.1016/j.biopsycho.2005.11.014</ext-link>. PubMed: <ext-link ext-link-type="uri" xlink:href="http://www.ncbi.nlm.nih.gov/pubmed/17081672" xlink:type="simple">17081672</ext-link>.</mixed-citation>
+			</ref>
+			<ref id="B87">
+				<label>87</label>
+				<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Penttilä</surname><given-names>J</given-names></name>, <name name-style="western"><surname>Helminen</surname><given-names>A</given-names></name>, <name name-style="western"><surname>Jartti</surname><given-names>T</given-names></name>, <name name-style="western"><surname>Kuusela</surname><given-names>T</given-names></name>, <name name-style="western"><surname>Huikuri</surname><given-names>HV</given-names></name> <etal>et al.</etal> (<year>2001</year>) <article-title>Time domain, geometrical and frequency domain analysis of cardiac vagal outflow: effects of various respiratory patterns</article-title>. <source>Clin Physiol</source> <volume>21</volume>: <fpage>365</fpage>-<lpage>376</lpage>. doi:<ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1046/j.1365-2281.2001.00337.x" xlink:type="simple">10.1046/j.1365-2281.2001.00337.x</ext-link>. PubMed: <ext-link ext-link-type="uri" xlink:href="http://www.ncbi.nlm.nih.gov/pubmed/11380537" xlink:type="simple">11380537</ext-link>.</mixed-citation>
+			</ref>
+			<ref id="B88">
+				<label>88</label>
+				<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Saboul</surname><given-names>D</given-names></name>, <name name-style="western"><surname>Pialoux</surname><given-names>V</given-names></name>, <name name-style="western"><surname>Hautier</surname><given-names>C</given-names></name> (<year>2013</year>) <article-title>The impact of breathing on HRV measurements: Implications for the longitudinal follow-up of athletes</article-title>. <source>Eur J Sport Sci</source> <volume>13</volume>: <fpage>1</fpage>-<lpage>9</lpage>. PubMed: <ext-link ext-link-type="uri" xlink:href="http://www.ncbi.nlm.nih.gov/pubmed/24050471" xlink:type="simple">24050471</ext-link>.</mixed-citation>
+			</ref>
+			<ref id="B89">
+				<label>89</label>
+				<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Rohmert</surname><given-names>W</given-names></name> (<year>1960</year>) <article-title>Ermittlung von Erholungspausen für statische Arbeit des Menschen</article-title>. <source>Eur J Appl Physiol O</source> <volume>18</volume>: <fpage>123</fpage>-<lpage>164</lpage>.</mixed-citation>
+			</ref>
+			<ref id="B90">
+				<label>90</label>
+				<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Iellamo</surname><given-names>F</given-names></name>, <name name-style="western"><surname>Massaro</surname><given-names>M</given-names></name>, <name name-style="western"><surname>Raimondi</surname><given-names>G</given-names></name>, <name name-style="western"><surname>Peruzzi</surname><given-names>G</given-names></name>, <name name-style="western"><surname>Legramante</surname><given-names>JM</given-names></name> (<year>1999</year>) <article-title>Role of muscular factors in cardiorespiratory responses to static exercise: contribution of reflex mechanisms</article-title>. <source>J Appl Physiol (1985)</source> <volume>86</volume>: <fpage>174</fpage>-<lpage>180</lpage>. PubMed: <ext-link ext-link-type="uri" xlink:href="http://www.ncbi.nlm.nih.gov/pubmed/9887128" xlink:type="simple">9887128</ext-link>.</mixed-citation>
+			</ref>
+			<ref id="B91">
+				<label>91</label>
+				<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Lunt</surname><given-names>HC</given-names></name>, <name name-style="western"><surname>Corbett</surname><given-names>J</given-names></name>, <name name-style="western"><surname>Barwood</surname><given-names>MJ</given-names></name>, <name name-style="western"><surname>Tipton</surname><given-names>MJ</given-names></name> (<year>2011</year>) <article-title>Cycling cadence affects heart rate variability</article-title>. <source>Physiol Meas</source> <volume>32</volume>: <fpage>1133</fpage>-<lpage>1145</lpage>. doi:<ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1088/0967-3334/32/8/009" xlink:type="simple">10.1088/0967-3334/32/8/009</ext-link>. PubMed: <ext-link ext-link-type="uri" xlink:href="http://www.ncbi.nlm.nih.gov/pubmed/21693796" xlink:type="simple">21693796</ext-link>.</mixed-citation>
+			</ref>
+			<ref id="B92">
+				<label>92</label>
+				<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Blain</surname><given-names>G</given-names></name>, <name name-style="western"><surname>Meste</surname><given-names>O</given-names></name>, <name name-style="western"><surname>Blain</surname><given-names>A</given-names></name>, <name name-style="western"><surname>Bermon</surname><given-names>S</given-names></name> (<year>2009</year>) <article-title>Time-frequency analysis of heart rate variability reveals cardiolocomotor coupling during dynamic cycling exercise in humans</article-title>. <source>Am J Physiol Heart Circ Physiol</source> <volume>296</volume>: <fpage>H1651</fpage>-<lpage>H1659</lpage>. doi:<ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1152/ajpheart.00881.2008" xlink:type="simple">10.1152/ajpheart.00881.2008</ext-link>. PubMed: <ext-link ext-link-type="uri" xlink:href="http://www.ncbi.nlm.nih.gov/pubmed/19252094" xlink:type="simple">19252094</ext-link>.</mixed-citation>
+			</ref>
+		</ref-list>
+	</back>
+</article>

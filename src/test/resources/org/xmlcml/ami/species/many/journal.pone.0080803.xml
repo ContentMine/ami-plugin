@@ -1,0 +1,266 @@
+<article xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" article-type="research-article" dtd-version="3.0" xml:lang="en">
+<front>
+<journal-meta>
+<journal-id journal-id-type="nlm-ta">PLoS ONE</journal-id>
+<journal-id journal-id-type="publisher-id">plos</journal-id>
+<journal-id journal-id-type="pmc">plosone</journal-id><journal-title-group>
+<journal-title xml:lang="en">PLoS ONE</journal-title></journal-title-group>
+<issn pub-type="epub">1932-6203</issn>
+<publisher>
+<publisher-name>Public Library of Science</publisher-name>
+<publisher-loc>San Francisco, USA</publisher-loc></publisher>
+</journal-meta>
+<article-meta>
+<article-id pub-id-type="publisher-id">PONE-D-12-39080</article-id>
+<article-id pub-id-type="doi">10.1371/journal.pone.0080803</article-id>
+<article-categories><subj-group subj-group-type="heading"><subject>Research Article</subject></subj-group></article-categories>
+<title-group>
+<article-title>Does an Isoniazid Prophylaxis Register Improve Tuberculosis Contact Management in South African Children?</article-title>
+<alt-title alt-title-type="running-head">IPT Register for Child Contact Management</alt-title>
+</title-group>
+<contrib-group>
+<contrib contrib-type="author" xlink:type="simple"><name name-style="western"><surname>van Soelen</surname><given-names>Nelda</given-names></name><xref ref-type="aff" rid="aff1"><sup>1</sup></xref><xref ref-type="corresp" rid="cor1"><sup>*</sup></xref></contrib>
+<contrib contrib-type="author" xlink:type="simple"><name name-style="western"><surname>du Preez</surname><given-names>Karen</given-names></name><xref ref-type="aff" rid="aff1"><sup>1</sup></xref></contrib>
+<contrib contrib-type="author" xlink:type="simple"><name name-style="western"><surname>van Wyk</surname><given-names>Susan S.</given-names></name><xref ref-type="aff" rid="aff1"><sup>1</sup></xref></contrib>
+<contrib contrib-type="author" xlink:type="simple"><name name-style="western"><surname>Mandalakas</surname><given-names>Anna M.</given-names></name><xref ref-type="aff" rid="aff1"><sup>1</sup></xref><xref ref-type="aff" rid="aff2"><sup>2</sup></xref><xref ref-type="aff" rid="aff3"><sup>3</sup></xref></contrib>
+<contrib contrib-type="author" xlink:type="simple"><name name-style="western"><surname>Enarson</surname><given-names>Don A.</given-names></name><xref ref-type="aff" rid="aff1"><sup>1</sup></xref><xref ref-type="aff" rid="aff4"><sup>4</sup></xref></contrib>
+<contrib contrib-type="author" xlink:type="simple"><name name-style="western"><surname>Reid</surname><given-names>Anthony J.</given-names></name><xref ref-type="aff" rid="aff5"><sup>5</sup></xref></contrib>
+<contrib contrib-type="author" xlink:type="simple"><name name-style="western"><surname>Hesseling</surname><given-names>Anneke C.</given-names></name><xref ref-type="aff" rid="aff1"><sup>1</sup></xref></contrib>
+</contrib-group>
+<aff id="aff1"><label>1</label><addr-line>Desmond Tutu TB Centre, Department of Paediatrics and Child Health, Faculty of Medicine and Health Sciences, Stellenbosch University, Cape Town, Western Cape, South Africa</addr-line></aff>
+<aff id="aff2"><label>2</label><addr-line>Section on Retrovirology and Global Health, Department of Pediatrics, Baylor College of Medicine, Houston, Texas, United States of America</addr-line></aff>
+<aff id="aff3"><label>3</label><addr-line>The Tuberculosis Initiative, Texas Children’s Hospital, Houston, Texas, United States of America</addr-line></aff>
+<aff id="aff4"><label>4</label><addr-line>The International Union Against Tuberculosis and Lung Disease, Paris, France</addr-line></aff>
+<aff id="aff5"><label>5</label><addr-line>Operational Research Unit, Médecins Sans Frontières Operational Centre Brussels, Luxembourg</addr-line></aff>
+<contrib-group>
+<contrib contrib-type="editor" xlink:type="simple"><name name-style="western"><surname>Kranzer</surname><given-names>Katharina</given-names></name>
+<role>Editor</role>
+<xref ref-type="aff" rid="edit1" /></contrib>
+</contrib-group>
+<aff id="edit1"><addr-line>London School of Hygiene and Tropical Medicine, United Kingdom</addr-line></aff>
+<author-notes>
+<corresp id="cor1">* E-mail: <email xlink:type="simple">neldavs@mweb.co.za</email></corresp>
+<fn fn-type="conflict"><p>The authors have declared that no competing interests exist.</p></fn>
+<fn fn-type="con"><p>Conceived and designed the experiments: NVS SSVW KDP AMM ACH. Performed the experiments: NVS. Analyzed the data: NVS. Contributed reagents/materials/analysis tools: NVS SSVW KDP AMM ACH. Wrote the paper: NVS SSVW KDP AMM DAE AJR ACH.</p></fn>
+</author-notes>
+<pub-date pub-type="collection"><year>2013</year></pub-date>
+<pub-date pub-type="epub"><day>10</day><month>12</month><year>2013</year></pub-date>
+<volume>8</volume>
+<issue>12</issue>
+<elocation-id>e80803</elocation-id>
+<history>
+<date date-type="received"><day>12</day><month>12</month><year>2012</year></date>
+<date date-type="accepted"><day>16</day><month>10</month><year>2013</year></date>
+</history>
+<permissions>
+<copyright-year>2013</copyright-year>
+<copyright-holder>van Soelen et al</copyright-holder><license xlink:href="http://creativecommons.org/licenses/by/3.0/" xlink:type="simple"><license-p>This is an open-access article distributed under the terms of the <ext-link ext-link-type="uri" xlink:href="http://creativecommons.org/licenses/by/3.0/" xlink:type="simple">Creative Commons Attribution License</ext-link>, which permits unrestricted use, distribution, and reproduction in any medium, provided the original author and source are credited.</license-p></license></permissions>
+<abstract><sec>
+<title>Setting</title>
+<p>We compared the change in child household contact management of pulmonary tuberculosis (TB) cases before and after the implementation of an isoniazid preventive therapy (IPT) register in an urban clinic setting in Cape Town, South Africa.</p>
+</sec><sec>
+<title>Objectives</title>
+<p>We determined if the presence of an IPT register was associated with an increase in the number of child contacts identified per infectious case and the proportion of identified children who were started on IPT.</p>
+</sec><sec>
+<title>Design</title>
+<p>We reviewed routine programme data on IPT delivery to children during two time periods (May 2008–October 2008 and May 2011–October 2011), before and after the implementation of an IPT register used by routine clinic personnel.</p>
+</sec><sec>
+<title>Results</title>
+<p>Adult TB case demographic and clinical characteristics from the two observation periods were similar. During the post-register period, more child contacts per adult case were identified (0.7 (54 children) vs. 0.3 (24 children)), more of the identified children were started on IPT (54 vs. 4) and 37% of those who started, completed six months of treatment compared to the pre-register period where no adherence information was recorded.</p>
+</sec><sec>
+<title>Conclusions</title>
+<p>After pilot implementation of an IPT register, documented identification of child contacts, IPT initiation and IPT adherence documentation in TB exposed children was improved. Our findings support further exploration of the potential impact of using standardised IPT recording and reporting in routine clinics in high-burden TB settings to improve TB prevention efforts targeted at young children. Future efforts to improve IPT delivery should be systematic and comprehensive in order to support a change in current operational IPT delivery practices in TB programs.</p>
+</sec></abstract>
+<funding-group><funding-statement>This research was supported through an operational research course, which was jointly developed and run by the Centre for Operational Research, International Union Against Tuberculosis and Lung Disease, France, and the Operational Research Unit, Medecins sans Frontieres, Brussels-Luxembourg. Additional support for running the course was provided by the Center for International Health, University of Bergen. Funding for the course was from an anonymous donor and the Department for International Development, UK. NVS was also supported as an operational research fellow from the Centre for Operational Research during this period, and the project accessed funding through an I-CATCH grant. The funders had no role in study design, data collection and analysis, decision to publish, or preparation of the manuscript.</funding-statement></funding-group><counts><page-count count="5" /></counts></article-meta>
+</front>
+<body><sec id="s1">
+<title>Introduction</title>
+<p>Children constituted an estimated 6% (490 000) of the total number of tuberculosis (TB) incident cases globally in 2011 against a background of considerable under-reporting of TB in children <xref ref-type="bibr" rid="pone.0080803-WHO1">[1]</xref>. Isoniazid preventive therapy (IPT) is a safe and cost-effective intervention <xref ref-type="bibr" rid="pone.0080803-Mandalakas1">[2]</xref> that can prevent TB in as much as 60% of individuals infected with <italic>Mycobacterium tuberculosis</italic> (<italic>M.tb</italic>) <xref ref-type="bibr" rid="pone.0080803-Smieja1">[3]</xref>. Given the high rate of paediatric TB in especially high-burden settings such as South Africa (child TB notification rate of 671 per 100 000 comprising 17% of the total TB caseload (unpublished data, Western Cape Department of Health 2008)), the failure to initiate preventive Isoniazid therapy in child contacts represents a significant missed opportunity for TB prevention in children <xref ref-type="bibr" rid="pone.0080803-Zachariah1">[10]</xref>. This is especially true for young children since up to 50% of infants (≤12 months of age) will progress to TB disease following infection with <italic>M.tb</italic>, in the absence of IPT <xref ref-type="bibr" rid="pone.0080803-Stop1">[11]</xref>.</p>
+<p>In line with the evidence of the benefits of IPT, the South African National TB Programme (SANTP) guidelines, consistent with the World Health Organization (WHO), recommend that all children under five years of age <xref ref-type="bibr" rid="pone.0080803-Kruk1">[4]</xref> and all HIV-infected children, regardless of age, receive IPT if they are exposed to a household adult with bacteriologically confirmed TB (sputum smear- and/or culture positive pulmonary TB), once active TB disease is excluded <xref ref-type="bibr" rid="pone.0080803-The1">[5]</xref>. Despite these official prevention guidelines, previous studies from Cape Town South Africa <xref ref-type="bibr" rid="pone.0080803-vanWyk1">[6]</xref>, <xref ref-type="bibr" rid="pone.0080803-VanWyk1">[7]</xref> and other high-burden settings <xref ref-type="bibr" rid="pone.0080803-Guwatudde1">[8]</xref>, <xref ref-type="bibr" rid="pone.0080803-Claessens1">[9]</xref>, <xref ref-type="bibr" rid="pone.0080803-Zachariah1">[10]</xref>, have illustrated the challenges of documenting contacts in routine clinical records and indicated that only a low proportion of eligible identified contacts received IPT in these high-burden settings.</p>
+<p>In order to address this issue, a standardised register tool to monitor IPT delivery in children has previously been recommended as an operational tool to assist IPT delivery by the WHO <xref ref-type="bibr" rid="pone.0080803-Stop1">[11]</xref>. However to our knowledge this approach has not been systematically evaluated and documented in an African setting. To address this implementation gap, we introduced an IPT register based on this recommendation in a clinic in a high-TB burden community in Cape Town, South Africa. We used this opportunity to evaluate if the introduction of an IPT register was associated with an increase in a) the number of child household contacts identified per infectious adult TB case and b) the proportion of identified children started on IPT.</p>
+</sec><sec id="s2" sec-type="methods">
+<title>Method</title>
+<sec id="s2a">
+<title>Design</title>
+<p>This operational study evaluated routine programme data on IPT delivery in children during two time periods (May 2008–October 2008 and May 2011–October 2011), before and after the implementation of an IPT register that was used by routine TB service personnel (<xref ref-type="supplementary-material" rid="pone.0080803.s001">Figure S1</xref>).</p>
+</sec><sec id="s2b">
+<title>Setting</title>
+<p>The study was conducted in a clinic in Cape Town South Africa, which delivers comprehensive health care including TB services, free of charge. The clinic serves a stable population (24 483, 2001 SA Census data) and is characterized by low socio-economic status, high TB burden (&gt;900 per 100 000 in 2008), and relatively low HIV prevalence (16% amongst adult TB cases in 2008 (unpublished data, Western Cape Department of Health)). One quarter of the population is estimated to be less than 13 years of age and retreatment cases accounted for approximately a third of adult cases (unpublished data, Western Cape Department of Health). While residents have access to private health services, the majority seek primary care at public health services in the community.</p>
+</sec><sec id="s2c">
+<title>Sample</title>
+<p>The study consecutively selected bacteriologically-confirmed (sputum smear- and/or culture positive) adult cases recorded in the local TB treatment registers during the defined study periods. Case records were examined to identify child contacts (under five years of age) living at the same household address as the TB case. The study sample included all the child contacts identified by the adult chart review and those who were recorded in the IPT register (post-register period only) by routine health care personnel in the TB treatment room.</p>
+</sec><sec id="s2d">
+<title>IPT Protocol</title>
+<p>TB clinic personnel offered IPT to all identified child contacts of a bacteriologically confirmed TB case. The algorithm in use at the time of the pre-register review required that all TB-exposed children receive formal TB screening (chest radiograph and tuberculin skin test) prior to initiating IPT. Prior to implementation of the IPT register, this algorithm was changed, to require TB screening for symptomatic child contacts only (i.e. coughing, failure to thrive, fever, lethargy, unwell), and IPT initiation in the remainder, as per the 2006 WHO guidance for high-burden settings.</p>
+</sec><sec id="s2e">
+<title>Data Collection</title>
+<p>Data from the pre-register period (May – October 2008) had been previously extracted from the records of cases identified in the TB registers from the clinic <xref ref-type="bibr" rid="pone.0080803-VanWyk1">[7]</xref>, using a standard data extraction tool to collect the following information: adult TB case demographics and disease characteristics, documented child contact demographic data and child TB disease and IPT status. Information on child contacts in the pre-register period was collected from the following sources, where available: general clinic folders, clinic TB folders, and any additional medical records identified.</p>
+<p>Before the IPT register was implemented, data on IPT delivery to children was only available from case record reviews, without standardised recording. Following the implementation of the register, IPT uptake data were available directly from the register and included: child name, age, sex, residential address and details of IPT administration, linked to the adult cases in the TB treatment register. Additional data for the post-register period (May – October 2011) were collected from the clinic using data extraction tools similar to those used during the pre-register period in order to link the children recorded in the IPT register to the relevant adults in the TB treatment register <xref ref-type="bibr" rid="pone.0080803-VanWyk1">[7]</xref>. All IPT delivery data presented from the post-register period therefore originated from the IPT register (<xref ref-type="fig" rid="pone-0080803-g001">Figure 1</xref>).</p>
+<fig id="pone-0080803-g001" position="float" orientation="portrait"><object-id pub-id-type="doi">10.1371/journal.pone.0080803.g001</object-id><label>Figure 1</label><caption>
+<title>Flow diagram describing the identification of children documented as eligible for IPT and started on IPT during the pre and post-register study periods.</title>
+</caption><graphic mimetype="image" xlink:href="info:doi/10.1371/journal.pone.0080803.g001" position="float" xlink:type="simple" orientation="portrait" /></fig></sec><sec id="s2f">
+<title>Outcome Measures</title>
+<p>The outcomes of interest were a) the number of identified household child contacts &lt;5 years of age per adult case identified and b) the proportion of these children documented to have been initiated on IPT at the clinic. The main determinant was the study period, prior to, or after, the implementation of the IPT register.</p>
+</sec><sec id="s2g">
+<title>Analysis</title>
+<p>Following dual data entry into EpiData and data validation, analysis was performed using STATA/IC version 12.1. Continuous variables were described by mean and standard deviation and categorical variables were described with frequencies and proportions. The STROBE guidelines <xref ref-type="bibr" rid="pone.0080803-vonElm1">[12]</xref> for observational research were followed for reporting purposes.</p>
+</sec><sec id="s2h">
+<title>Ethics</title>
+<p>The study was approved by the Stellenbosch University Ethics Board, the Western Cape Department of Health in Cape Town, South Africa and The Union’s Ethics Advisory Group, The Union, Paris, France. Individual informed consent was not required as the data were collected from routine data that were analysed anonymously.</p>
+</sec></sec><sec id="s3">
+<title>Results</title>
+<p>Previously reported results from the pre-register period at the clinic identified 100 consecutive adult pulmonary TB cases of which 79% (n = 79) were bacteriologically confirmed. The gender of cases was evenly distributed and the mean age was 35 years. In the post-register period, there were 96 consecutive adult TB cases, of which 82% (n = 79) had bacteriologically confirmed pulmonary TB. Gender was equally represented with a mean age of 39 years, notably a high proportion of adults were classified as retreatment cases (35%, n = 28) and 12% (n = 7) were HIV- infected. The HIV status (positive or negative) amongst adult TB cases was recorded for 72% of cases during the post-register period, in contrast with 97% from the pre-register period <xref ref-type="bibr" rid="pone.0080803-VanWyk1">[7]</xref> (<xref ref-type="table" rid="pone-0080803-t001">Table 1</xref>).</p>
+<table-wrap id="pone-0080803-t001" position="float" orientation="portrait"><object-id pub-id-type="doi">10.1371/journal.pone.0080803.t001</object-id><label>Table 1</label><caption>
+<title>Demographic details of eligible adult tuberculosis cases prior to and after implementation of an IPT register in a clinic in Cape Town, South Africa.</title>
+</caption><alternatives><graphic id="pone-0080803-t001-1" position="float" mimetype="image" xlink:href="info:doi/10.1371/journal.pone.0080803.t001" xlink:type="simple" orientation="portrait" />
+<table><colgroup span="1"><col align="left" span="1" /><col align="center" span="1" /><col align="center" span="1" /></colgroup>
+<thead>
+<tr>
+<td align="left" rowspan="1" colspan="1" />
+<td align="left" rowspan="1" colspan="1">Total cases<xref ref-type="table-fn" rid="nt102">1</xref></td>
+<td align="left" rowspan="1" colspan="1">Total cases<xref ref-type="table-fn" rid="nt102">1</xref></td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1" />
+<td align="left" rowspan="1" colspan="1">April 2008–October 2008</td>
+<td align="left" rowspan="1" colspan="1">May 2011–October 2011</td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1" />
+<td align="left" rowspan="1" colspan="1">n = 79 (%)</td>
+<td align="left" rowspan="1" colspan="1">n = 79 (%)</td>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left" rowspan="1" colspan="1">Age (years; mean ± SD)</td>
+<td align="left" rowspan="1" colspan="1">35±12</td>
+<td align="left" rowspan="1" colspan="1">39±13</td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1">Male gender</td>
+<td align="left" rowspan="1" colspan="1">49 (62)</td>
+<td align="left" rowspan="1" colspan="1">38 (48)</td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1">HIV infected</td>
+<td align="left" rowspan="1" colspan="1">13 (16)<sup>2</sup></td>
+<td align="left" rowspan="1" colspan="1">7 (12)<sup>3</sup></td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1">Retreatment episode</td>
+<td align="left" rowspan="1" colspan="1">27 (34)</td>
+<td align="left" rowspan="1" colspan="1">28 (35)</td>
+</tr>
+</tbody>
+</table>
+</alternatives><table-wrap-foot><fn id="nt101"><p>SD = standard deviation.</p></fn><fn id="nt102"><label>1</label><p>Bacteriologically confirmed and not on a drug-resistant treatment regimen.</p></fn><fn id="nt103"><label>2</label><p>3% of HIV results were unknown overall.</p></fn><fn id="nt104"><label>3</label><p>HIV results only available for 57 adults.</p></fn></table-wrap-foot></table-wrap>
+<p>Following the implementation of the IPT register, there were more child contacts per adult source case identified [0.7 (54 children) vs. 0.3 (24 children), <xref ref-type="table" rid="pone-0080803-t002">Table 2</xref>]. Prior to the register implementation, only four of the identified IPT-eligible children had been started on IPT and there was no documentation identified that could inform about treatment adherence. In the presence of the IPT register, 15 more children were identified and started on IPT according to the IPT register in addition to the 39 children recorded as eligible for IPT in the TB register and TB case folders. The median distribution of children to adults in the IPT register implementation period was 2 (range: 1–9). Following the introduction of the IPT register, clinic personnel reported informally that it had been simple and easy to implement.</p>
+<table-wrap id="pone-0080803-t002" position="float" orientation="portrait"><object-id pub-id-type="doi">10.1371/journal.pone.0080803.t002</object-id><label>Table 2</label><caption>
+<title>Summary of eligible child contacts<xref ref-type="table-fn" rid="nt106">1</xref> identified before and after the implementation of an IPT register in a clinic in Cape Town, South Africa.</title>
+</caption><alternatives><graphic id="pone-0080803-t002-2" position="float" mimetype="image" xlink:href="info:doi/10.1371/journal.pone.0080803.t002" xlink:type="simple" orientation="portrait" />
+<table><colgroup span="1"><col align="left" span="1" /><col align="center" span="1" /><col align="center" span="1" /></colgroup>
+<thead>
+<tr>
+<td align="left" rowspan="1" colspan="1" />
+<td align="left" rowspan="1" colspan="1">Prior to IPT register</td>
+<td align="left" rowspan="1" colspan="1">After IPT register implementation</td>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left" rowspan="1" colspan="1">Adult TB cases<xref ref-type="table-fn" rid="nt107">2</xref></td>
+<td align="left" rowspan="1" colspan="1">79</td>
+<td align="left" rowspan="1" colspan="1">79</td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1">Child contacts identified fromconventional source</td>
+<td align="left" rowspan="1" colspan="1">24<xref ref-type="table-fn" rid="nt108">3</xref></td>
+<td align="left" rowspan="1" colspan="1">39<xref ref-type="table-fn" rid="nt109">4</xref></td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1">Child contacts documented to havestarted on IPT</td>
+<td align="left" rowspan="1" colspan="1">4 (17%)<xref ref-type="table-fn" rid="nt110">5</xref></td>
+<td align="left" rowspan="1" colspan="1">54 (138%)<xref ref-type="table-fn" rid="nt111">6</xref></td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1">All child contacts identified peradult TB case,</td>
+<td align="left" rowspan="1" colspan="1">0.3<xref ref-type="table-fn" rid="nt112">7</xref></td>
+<td align="left" rowspan="1" colspan="1">0.7<xref ref-type="table-fn" rid="nt113">8</xref></td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1">(95% confidence interval)</td>
+<td align="left" rowspan="1" colspan="1">(0.2–0.4)</td>
+<td align="left" rowspan="1" colspan="1">(0.6–0.8)</td>
+</tr>
+</tbody>
+</table>
+</alternatives><table-wrap-foot><fn id="nt105"><p>IPT = Isoniazid prophylaxis therapy, TB = tuberculosis.</p></fn><fn id="nt106"><label>1</label><p>Children less than five years of age exposed to a bacteriologically confirmed TB case (child contacts diagnosed with active disease excluded).</p></fn><fn id="nt107"><label>2</label><p>Bacteriologically confirmed and not on a drug-resistant treatment regimen.</p></fn><fn id="nt108"><label>3</label><p>Identified from TB register and TB case folders.</p></fn><fn id="nt109"><label>4</label><p>Identified from TB register and TB case folders.</p></fn><fn id="nt110"><label>5</label><p>Identified from the TB register, TB case folders and individual child folders.</p></fn><fn id="nt111"><label>6</label><p>Identified from the IPT register.</p></fn><fn id="nt112"><label>7</label><p>Proportion of the child TB contacts identified from the TB register and TB case folders as a proportion of the number of adult TB cases.</p></fn><fn id="nt113"><label>8</label><p>Proportion of the child TB contacts identified from the TB register, TB case folders and IPT register as a proportion of the number of adult TB cases.</p></fn></table-wrap-foot></table-wrap>
+<p>Adherence in the post-register period was estimated by subtracting the last and first treatment dispensing dates recorded (assuming a 30 day calendar month). Conventional rounding practices were followed and if only one date was recorded, the child was classified to have completed treatment for one month. No pill count data was available. Retrospective review of the individual child clinic folders of the children recorded in the IPT register, did not reveal any history of IPT given in 32% (n = 17), while only one month of IPT was recorded in most children (65%, n = 35) and two and five months recorded for two children, respectively. Based on the dates recorded in the IPT register, six months of IPT was completed in 37% (n = 20) of children followed by a course of one month in 28% (n = 15), two months in 28% (n = 15) and three months in 7% (n = 4).</p>
+<p>A review of the TB treatment register of the clinic for the period May 2011 to August 2012 did not identify any of the children recorded in the IPT register, as having started TB treatment during this period.</p>
+</sec><sec id="s4">
+<title>Discussion</title>
+<p>We have shown that using a specific IPT register to guide the delivery of IPT in children, leads to the documentation of more TB-exposed children per adult TB case, and that more of the identified children were recorded as having started IPT. In addition, it was considerably easier to access information on child contacts after the implementation of the register, due to the standard recording of a minimum set of indicators. Previously, extracting the relevant information from various files was laborious and time-consuming.</p>
+<p>To our knowledge, this is the only reported evaluation of the WHO recommendation of using an IPT register to facilitate IPT delivery in an African setting. IPT delivery is a challenge in many resource restrained high-burden settings <xref ref-type="bibr" rid="pone.0080803-vanWyk1">[6]</xref>, <xref ref-type="bibr" rid="pone.0080803-VanWyk1">[7]</xref>, <xref ref-type="bibr" rid="pone.0080803-Guwatudde1">[8]</xref>, <xref ref-type="bibr" rid="pone.0080803-Claessens1">[9]</xref>, <xref ref-type="bibr" rid="pone.0080803-Zachariah2">[13]</xref>, <xref ref-type="bibr" rid="pone.0080803-Rekha1">[14]</xref> and there are many factors contributing to this complex challenge. Moving the current WHO and SANTP policy into practice, will require a comprehensive approach to address the barriers that prevent IPT delivery to at-risk children from high-burden communities.</p>
+<p>Given the historic stigma associated with TB, treating an otherwise healthy child in a TB treatment room might be a barrier to preventive care and moving these children to the care of the routine paediatric nurse might improve treatment adherence and outcomes. Future research could evaluate additional roll-out and adherence support measures including electronic tools, treatment reminders, dedicated treatment supervision and an in-depth evaluation of the knowledge, attitude and practices concerning IPT in both health care providers and the parents/caregivers of children <xref ref-type="bibr" rid="pone.0080803-Skinner1">[15]</xref>. A cost-benefit analysis of a large scale IPT register implementation could provide valuable direction in terms of the potential benefit of implementing this initiative. In addition to such health systems strengthening, both healthcare providers and TB exposed families should be educated to ensure commitment to post-exposure TB prevention in children. Finally, an official inclusion of IPT reporting indicators into the routine TB programme, similar to existing TB case reporting is likely to increase IPT prioritisation among routine health care workers, if used in combination with routine IPT recording.</p>
+<p>We note that this was a small study completed in a clinic with well-functioning TB services and a strong history of participation in TB research, following a change in the routine algorithm of managing TB exposed children less than five years of age. We did not have access to data describing the disease outcomes of any screening procedures done prior to starting IPT and could not report on incident TB, following the pre-register period. In addition, the observed change in recommended local contact screening algorithms introduced with the IPT register could therefore have contributed to the observed improvements that we described. This study was operational in nature using routine data and it was not feasible to evaluate the intervention with a before-and-after study design at this stage; the use of routine data does however raise questions about data accuracy. Despite these limitations, the magnitude of improvement observed suggests that an IPT register could play a valuable role in improving both IPT delivery and potentially, TB case detection in young children in similar settings.</p>
+<p>In conclusion, this study has demonstrated a substantial increase in the number of identified child TB contacts and in the proportion of those children who initiated IPT. We therefore suggest that IPT registers be evaluated on a larger operational scale in other settings and circumstances to confirm their value in managing child TB contacts.</p>
+</sec><sec id="s5">
+<title>Supporting Information</title>
+<supplementary-material id="pone.0080803.s001" mimetype="image/tiff" xlink:href="info:doi/10.1371/journal.pone.0080803.s001" position="float" xlink:type="simple" orientation="portrait"><label>Figure S1</label><caption>
+<p><bold>Example of the data collection sheet used as IPT register.</bold></p>
+<p>(TIF)</p>
+</caption></supplementary-material></sec></body>
+<back>
+<ack>
+<p>We would like to thank our colleagues at the TB programme, City of Cape Town Health Directorate as well as clinic managers and TB nurses at the participating clinic for their support. We would also like to thank Dr Joanie Duvenage and the DTTC paediatric team for assistance with data collection.</p>
+</ack>
+<ref-list>
+<title>References</title>
+<ref id="pone.0080803-WHO1"><label>1</label>
+<mixed-citation publication-type="other" xlink:type="simple">WHO (2012) Global Tuberculosis Report 2012.</mixed-citation>
+</ref>
+<ref id="pone.0080803-Mandalakas1"><label>2</label>
+<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Mandalakas</surname><given-names>AM</given-names></name>, <name name-style="western"><surname>Hesseling</surname><given-names>AC</given-names></name>, <name name-style="western"><surname>Gie</surname><given-names>RP</given-names></name>, <name name-style="western"><surname>Schaaf</surname><given-names>HS</given-names></name>, <name name-style="western"><surname>Marais</surname><given-names>BJ</given-names></name>, <etal>et al</etal>. (<year>2013</year>) <article-title>Modelling the cost-effectiveness of strategies to prevent tuberculosis in child contacts in a high-burden setting. Thorax</article-title>. <source>2013 Mar</source> <volume>68(3)</volume>: <fpage>247</fpage>–<lpage>55</lpage>.</mixed-citation>
+</ref>
+<ref id="pone.0080803-Smieja1"><label>3</label>
+<mixed-citation publication-type="other" xlink:type="simple">Smieja M, Marchetti C, Cook D, Smaill FM (2010) Isoniazid for preventing tuberculosis in non-HIV infected persons (Review). The Cochrane Library.</mixed-citation>
+</ref>
+<ref id="pone.0080803-Kruk1"><label>4</label>
+<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Kruk</surname><given-names>A</given-names></name>, <name name-style="western"><surname>Gie</surname><given-names>RP</given-names></name>, <name name-style="western"><surname>Schaaf</surname><given-names>HS</given-names></name>, <name name-style="western"><surname>Marais</surname><given-names>BJ</given-names></name> (<year>2008</year>) <article-title>Symptom-Based Screening of Child Tuberculosis Contacts: Improved Feasibility in Resource-Limited Settings</article-title>. <source>Pediatrics</source> <volume>121</volume>: <fpage>e1646</fpage>–<lpage>e1652</lpage>.</mixed-citation>
+</ref>
+<ref id="pone.0080803-The1"><label>5</label>
+<mixed-citation publication-type="other" xlink:type="simple">The National Department of Health (2009) National Tuberculosis Management Guidelines. 117.</mixed-citation>
+</ref>
+<ref id="pone.0080803-vanWyk1"><label>6</label>
+<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>van Wyk</surname><given-names>S</given-names></name>, <name name-style="western"><surname>Reid</surname><given-names>A</given-names></name>, <name name-style="western"><surname>Mandalakas</surname><given-names>A</given-names></name>, <name name-style="western"><surname>Enarson</surname><given-names>D</given-names></name>, <name name-style="western"><surname>Beyers</surname><given-names>N</given-names></name>, <etal>et al</etal>. (<year>2011</year>) <article-title>Operational challenges in managing Isoniazid Preventive Therapy in child contacts: A high-burden setting perspective</article-title>. <source>BMC Public Health</source> <volume>11</volume>: <fpage>544</fpage>.</mixed-citation>
+</ref>
+<ref id="pone.0080803-VanWyk1"><label>7</label>
+<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Van Wyk</surname><given-names>SS</given-names></name>, <name name-style="western"><surname>Hamade</surname><given-names>H</given-names></name>, <name name-style="western"><surname>Hesseling</surname><given-names>AC</given-names></name>, <name name-style="western"><surname>Beyers</surname><given-names>N</given-names></name>, <name name-style="western"><surname>Enarson</surname><given-names>DA</given-names></name>, <etal>et al</etal>. (<year>2010</year>) <article-title>Recording isoniazid preventive therapy delivery to children: operational challenges</article-title>. <source>The Internatonal Journal of Tuberculosis and Lung Disease</source> <volume>14</volume>: <fpage>650</fpage>–<lpage>653</lpage>.</mixed-citation>
+</ref>
+<ref id="pone.0080803-Guwatudde1"><label>8</label>
+<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Guwatudde</surname><given-names>D</given-names></name>, <name name-style="western"><surname>Nakakeeto</surname><given-names>M</given-names></name>, <name name-style="western"><surname>Jones-Lopez</surname><given-names>EC</given-names></name>, <name name-style="western"><surname>Maganda</surname><given-names>A</given-names></name>, <name name-style="western"><surname>Chiunda</surname><given-names>A</given-names></name>, <etal>et al</etal>. (<year>2003</year>) <article-title>Tuberculosis in Household Contacts of Infectious Cases in Kampala, Uganda</article-title>. <source>American Journal of Epidemiology</source> <volume>158</volume>: <fpage>887</fpage>–<lpage>898</lpage>.</mixed-citation>
+</ref>
+<ref id="pone.0080803-Claessens1"><label>9</label>
+<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Claessens</surname><given-names>NJM</given-names></name>, <name name-style="western"><surname>Gausi</surname><given-names>FF</given-names></name>, <name name-style="western"><surname>Meijnen</surname><given-names>S</given-names></name>, <name name-style="western"><surname>Weismuller</surname><given-names>MM</given-names></name>, <name name-style="western"><surname>Salaniponi</surname><given-names>FM</given-names></name>, <etal>et al</etal>. (<year>2002</year>) <article-title>Screening childhood contacts of patients with smear-positive pulmonary tuberculosis in Malawi [Notes from the Field]</article-title>. <source>The International Journal of Tuberculosis and Lung Disease</source> <volume>6</volume>: <fpage>362</fpage>–<lpage>364</lpage>.</mixed-citation>
+</ref>
+<ref id="pone.0080803-Zachariah1"><label>10</label>
+<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Zachariah</surname><given-names>R</given-names></name>, <name name-style="western"><surname>Spielmann</surname><given-names>MP</given-names></name>, <name name-style="western"><surname>Harries</surname><given-names>AD</given-names></name>, <name name-style="western"><surname>Gomani</surname><given-names>P</given-names></name>, <name name-style="western"><surname>Graham</surname><given-names>SM</given-names></name>, <etal>et al</etal>. (<year>2003</year>) <article-title>Passive versus active tuberculosis case finding and isoniazid preventive therapy among household contacts in a rural district of Malawi</article-title>. <source>The International Journal of Tuberculosis and Lung Disease</source> <volume>7</volume>: <fpage>1033</fpage>–<lpage>1039</lpage>.</mixed-citation>
+</ref>
+<ref id="pone.0080803-Stop1"><label>11</label>
+<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Stop</surname><given-names>TBPCTBS</given-names></name> (<year>2007</year>) <article-title>Chapter 4: Childhood contact screening and management [Official Statement. Guidance for National Tuberculosis Programmes on the management of tuberculosis in children. Chapter 4 in the series]</article-title>. <source>The International Journal of Tuberculosis and Lung Disease</source> <volume>11</volume>: <fpage>12</fpage>–<lpage>15</lpage>.</mixed-citation>
+</ref>
+<ref id="pone.0080803-vonElm1"><label>12</label>
+<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>von Elm</surname><given-names>E</given-names></name>, <name name-style="western"><surname>Altman</surname><given-names>DG</given-names></name>, <name name-style="western"><surname>Egger</surname><given-names>M</given-names></name>, <name name-style="western"><surname>Pocock</surname><given-names>SJ</given-names></name>, <name name-style="western"><surname>Gøtzsche</surname><given-names>PC</given-names></name>, <etal>et al</etal>. (<year>2008</year>) <article-title>The Strengthening the Reporting of Observational Studies in Epidemiology (STROBE) statement: guidelines for reporting observational studies</article-title>. <source>Journal of clinical epidemiology</source> <volume>61</volume>: <fpage>344</fpage>–<lpage>349</lpage>.</mixed-citation>
+</ref>
+<ref id="pone.0080803-Zachariah2"><label>13</label>
+<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Zachariah</surname><given-names>R</given-names></name>, <name name-style="western"><surname>Spielmann</surname><given-names>MP</given-names></name>, <name name-style="western"><surname>Harries</surname><given-names>AD</given-names></name>, <name name-style="western"><surname>Gomani</surname><given-names>P</given-names></name>, <name name-style="western"><surname>Graham</surname><given-names>SM</given-names></name>, <etal>et al</etal>. (<year>2003</year>) <article-title>Passive versus active tuberculosis case finding and isoniazid preventive therapy among household contacts in a rural district of Malawi</article-title>. <source>The International Journal of Tuberculosis and Lung Disease</source> <volume>7</volume>: <fpage>1033</fpage>–<lpage>1039</lpage>.</mixed-citation>
+</ref>
+<ref id="pone.0080803-Rekha1"><label>14</label>
+<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Rekha</surname><given-names>B</given-names></name>, <name name-style="western"><surname>Jagarajamma</surname><given-names>K</given-names></name>, <name name-style="western"><surname>Chandrasekaran</surname><given-names>V</given-names></name>, <name name-style="western"><surname>Wares</surname><given-names>F</given-names></name>, <name name-style="western"><surname>Sivanandham</surname><given-names>R</given-names></name>, <etal>et al</etal>. (<year>2013</year>) <article-title>Improving screening and chemoprophylaxis among child contacts in India’s RNTCP: a pilot study</article-title>. <source>The International Journal of Tuberculosis and Lung Disease</source> <volume>17</volume>: <fpage>163</fpage>–<lpage>168</lpage>.</mixed-citation>
+</ref>
+<ref id="pone.0080803-Skinner1"><label>15</label>
+<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Skinner</surname><given-names>D</given-names></name>, <name name-style="western"><surname>Mandalakas</surname><given-names>AM</given-names></name> (<year>2013</year>) <article-title>Pasting Together the Preventive Therapy Puzzle</article-title>. <source>The International Journal of Tuberculosis and Lung Disease</source> <volume>17(2)</volume>: <fpage>175</fpage>–<lpage>7</lpage>.</mixed-citation>
+</ref>
+</ref-list></back>
+</article>

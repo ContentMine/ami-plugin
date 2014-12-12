@@ -1,0 +1,332 @@
+<article xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" article-type="research-article" dtd-version="3.0" xml:lang="en">
+	<front>
+		<journal-meta>
+    <journal-id journal-id-type="nlm-ta">PLoS ONE</journal-id>
+    <journal-id journal-id-type="publisher-id">plos</journal-id>
+    <journal-id journal-id-type="pmc">plosone</journal-id>
+    <journal-title-group><journal-title xml:lang="en">PLoS ONE</journal-title></journal-title-group>
+    <issn pub-type="epub">1932-6203</issn>
+    <publisher><publisher-name>Public Library of Science</publisher-name>
+    <publisher-loc>San Francisco, USA</publisher-loc></publisher>
+    </journal-meta><article-meta>
+			<article-id pub-id-type="publisher-id">PONE-D-13-22268</article-id><article-id pub-id-type="doi">10.1371/journal.pone.0083836</article-id><article-categories><subj-group subj-group-type="heading">
+    <subject>Research Article</subject></subj-group></article-categories><title-group>
+				<article-title>The Effect of Lubricin on the Gliding Resistance of Mouse Intrasynovial Tendon</article-title>
+			<alt-title alt-title-type="running-head">Tendon Friction of Lubricin Knockout-Mice</alt-title>
+      </title-group>
+			<contrib-group>
+				<contrib xlink:type="simple" contrib-type="author">
+					<name name-style="western">
+						<surname>Hayashi</surname>
+						<given-names>Masanori</given-names>
+					</name>
+					<xref ref-type="aff" rid="aff1"><sup>1</sup></xref>
+				</contrib>
+				<contrib xlink:type="simple" contrib-type="author">
+					<name name-style="western">
+						<surname>Zhao</surname>
+						<given-names>Chunfeng</given-names>
+					</name>
+					<xref ref-type="aff" rid="aff1"><sup>1</sup></xref>
+				</contrib>
+				<contrib xlink:type="simple" contrib-type="author">
+					<name name-style="western">
+						<surname>Thoreson</surname>
+						<given-names>Andrew R.</given-names>
+					</name>
+					<xref ref-type="aff" rid="aff1"><sup>1</sup></xref>
+				</contrib>
+				<contrib xlink:type="simple" contrib-type="author">
+					<name name-style="western">
+						<surname>Chikenji</surname>
+						<given-names>Takako</given-names>
+					</name>
+					<xref ref-type="aff" rid="aff1"><sup>1</sup></xref>
+				</contrib>
+				<contrib xlink:type="simple" contrib-type="author">
+					<name name-style="western">
+						<surname>Jay</surname>
+						<given-names>Gregory D.</given-names>
+					</name>
+					<xref ref-type="aff" rid="aff2"><sup>2</sup></xref>
+				</contrib>
+				<contrib xlink:type="simple" contrib-type="author">
+					<name name-style="western">
+						<surname>An</surname>
+						<given-names>Kai-Nan</given-names>
+					</name>
+					<xref ref-type="aff" rid="aff1"><sup>1</sup></xref>
+				</contrib>
+				<contrib xlink:type="simple" contrib-type="author">
+					<name name-style="western">
+						<surname>Amadio</surname>
+						<given-names>Peter C.</given-names>
+					</name>
+					<xref ref-type="aff" rid="aff1"><sup>1</sup></xref>
+					<xref ref-type="corresp" rid="cor1"><sup>*</sup></xref>
+				</contrib>
+			</contrib-group>
+			<aff id="aff1"><label>1</label> <addr-line>Biomechanics Laboratory, Division of Orthopedic Research, Mayo Clinic, Rochester, Minnesota, United States of America</addr-line></aff>
+    	<aff id="aff2"><label>2</label> <addr-line>Department of Emergency Medicine, Rhode Island Hospital and Brown University, ‪‬‬‬‬‪Providence, Rhode Island, United States of America</addr-line></aff>
+			<contrib-group><contrib contrib-type="editor" xlink:type="simple">
+          <name name-style="western">
+            <surname>Williams</surname>
+            <given-names>Bart O.</given-names>
+          </name>
+          <role>Editor</role>
+          <xref ref-type="aff" rid="edit1" />
+        </contrib>
+        </contrib-group><aff id="edit1"><addr-line>Van Andel Institute, United States of America</addr-line></aff><author-notes>
+				<corresp id="cor1">* E-mail: <email xlink:type="simple">pamadio@mayo.edu</email> </corresp>
+			<fn fn-type="conflict"><p>The authors have declared that no competing interests exist.</p></fn><fn fn-type="con"><p>Conceived and designed the experiments: MH CZ ART TC GDJ KA PCA. Performed the experiments: MH CZ ART TC. Analyzed the data: MH CZ ART TC GDJ KA PCA. Contributed reagents/materials/analysis tools: MH CZ ART TC GDJ KA PCA. Wrote the manuscript: MH. Designed the software used in analysis: BC AL CS
+Obtained permission for use of cell line: BC AL
+Edited manuscript for content and clarity': MH CZ ART TC GDJ KA PCA. </p></fn></author-notes>
+			<pub-date pub-type="collection"><year>2013</year></pub-date><pub-date pub-type="epub">
+        <day>13</day>
+        <month>12</month>
+        <year>2013</year>
+      </pub-date>
+      <volume>8</volume><issue>12</issue><elocation-id>e83836</elocation-id><history><date date-type="received">
+          <day>30</day>
+          <month>5</month>
+          <year>2013</year>
+        </date>
+        <date date-type="accepted">
+          <day>17</day>
+          <month>11</month>
+          <year>2013</year>
+        </date>
+      </history><permissions>
+    <copyright-year>2013</copyright-year><copyright-holder>Hayashi et al</copyright-holder><license xlink:type="simple" xlink:href="http://creativecommons.org/licenses/by/4.0/"><license-p>This is an open-access article distributed under the terms of the <ext-link ext-link-type="uri" xlink:href="http://creativecommons.org/licenses/by/4.0/" xlink:type="simple">Creative Commons Attribution License</ext-link>, which permits unrestricted use, distribution, and reproduction in any medium, provided the original author and source are credited.</license-p></license>
+    </permissions><abstract>
+				<p>The purpose of this study was to investigate the role of lubricin on the gliding resistance of intrasynovial tendons by comparing lubricin knockout, heterozygous, and wild type mice. A total of thirty-six deep digital flexor (DDF) tendons in the third digits of each hind paw from eighteen adult mice were used, including six lubricin knockout mice (<italic>Prg4</italic> –/–), six heterozygous mice (<italic>Prg4</italic> +/–), and six wild type mice (<italic>Prg4</italic> +/+). The tendon gliding resistance was measured using a custom-made device. Tendon structural changes were evaluated by scanning electron and light microscopy. The gliding resistance of intrasynovial tendons from lubricin knockout mice was significantly higher than the gliding resistance of either wild type or heterozygous mice. The surface of the lubricin knockout tendons appeared to be rougher, compared to the wild type and heterozygous tendons. Synovial hyperplasia was found in the lubricin knockout mice. Cartilage-like tissue was found in the tendon and pulley of the lubricin knockout mice. Our findings confirm the importance of lubricin in intrasynovial tendon lubrication. This knockout model may be useful in determining the effect of lubricin on tendon healing and the response to injury.</p>
+			</abstract>
+		<funding-group><funding-statement>No external funding was received to support this study. This study was supported by Mayo Foundation. The funders had no role in study design, data collection and analysis, decision to publish, or preparation of the manuscript.</funding-statement></funding-group></article-meta>
+	</front>
+	<body>
+		<sec id="s1" sec-type="introduction">
+			<title>Introduction</title>
+			<p>Lubricin, a mucinous glycoprotein, was originally isolated from synovial fluid, and has been demonstrated to provide articular cartilage lubrication[<xref ref-type="bibr" rid="B1">1</xref>–<xref ref-type="bibr" rid="B3">3</xref>]. The lubricating properties of lubricin are similar to normal synovial fluid[<xref ref-type="bibr" rid="B4">4</xref>–<xref ref-type="bibr" rid="B6">6</xref>]. Lubricin also reduces synovial cell overgrowth and hinders integrative repair of cartilage[<xref ref-type="bibr" rid="B7">7</xref>–<xref ref-type="bibr" rid="B9">9</xref>]. Lubricin has also been found on the flexor tendon surface, and has been shown to play an important role in tendon lubrication[<xref ref-type="bibr" rid="B10">10</xref>–<xref ref-type="bibr" rid="B12">12</xref>]. In addition, recent in vitro studies have reported that lubricin decreases tendon gliding resistance[<xref ref-type="bibr" rid="B13">13</xref>,<xref ref-type="bibr" rid="B14">14</xref>]. </p>
+			<p>Camptodactyly-arthropathy-coxa vara-pericarditis syndrome (CACP) is “an autosomal recessive disorder of precocious joint failure associated with noninflammatory synoviocyte hyperplasia and subintimal fibrosis of the synovial capsule”. CACP patients have defective lubricin synthesis[<xref ref-type="bibr" rid="B15">15</xref>]. Recently a mouse lacking lubricin has been created, with a phenotype similar to CACP patients, including cartilage degeneration, synoviocyte hyperplasia due to cell proliferation and interphalangeal joint contractures[<xref ref-type="bibr" rid="B7">7</xref>].</p>
+			<p>Little is known about intrasynovial tendon function in either CACP patients or lubricin deficient mice, which also display forepaw and hindpaw curved digits[<xref ref-type="bibr" rid="B7">7</xref>] similar to the camptodactyly seen clinically in patients with CACP syndrome. Recently Kohrs et al. compared intratendinous tendon fascicle gliding resistance in wild type and lubricin knockout mouse and found the absence of lubricin increased tendon fascicle gliding resistance[<xref ref-type="bibr" rid="B16">16</xref>]. We hypothesized that the absence of lubricin would increase gliding resistance not only between fascicles within tendons, but also on the tendon surface. The purpose of this study was therefore to investigate the role of lubricin on the surface of intrasynovial tendons by comparing gliding resistance, surface morphology, and structural histology in lubricin knockout, heterozygous, and wild type mice.</p>
+		</sec>
+		<sec id="s2" sec-type="methods">
+			<title>Methods</title>
+			<sec id="s2.1">
+				<title>Specimen Preparation for Measurement of Tendon Gliding Resistance</title>
+				<p>	The details of the lubricin knockout mouse model have been described previously[<xref ref-type="bibr" rid="B7">7</xref>]. Thirty-six hind paws were obtained from eighteen adult mice, aged 15–17 weeks, including six lubricin knockout mice (<italic>Prg4</italic> –/–), six heterozygous mice (<italic>Prg4</italic> +/–), and six wild type mice (<italic>Prg4</italic> +/+). The mice were sacrificed for other projects, not involving the paws, which had been approved by the Institutional Animal Care and Use Committee (IACUC). This work was approved by the Lifespan Animal Welfare Committee at Rhode Island Hospital and Brown University. A total of thirty-six deep digital flexor (DDF) tendons in the third digits of each hind paw were used for measurement of tendon gliding resistance (n=12). The dissections of the mouse hind paws were performed as described by Wong et al.[<xref ref-type="bibr" rid="B17">17</xref>] A longitudinal incision was made in each paw and the flexor sheath, including the distal pulley, was removed. The tendon was marked at the proximal edge of the proximal pulley in full digit extension position. A single 9-0 Ethilon (Ethicon, Somerville, New Jersey, USA) suture loop was made at each end of the tendon, and then the tendon was cut at the outside of each loop. (<xref ref-type="fig" rid="pone-0083836-g001">Figure 1</xref>)</p>
+				<fig id="pone-0083836-g001" position="float" orientation="portrait">
+					<object-id pub-id-type="doi">10.1371/journal.pone.0083836.g001</object-id><label>Figure 1</label>
+					<caption>
+						<title>Photograph of a dissected mouse hind paw.</title><p>Skin and synovial sheath have been removed from 3rd digit. DDF=deep digital flexor, SDF= superficial digital flexor. </p>
+					</caption>
+					<graphic xlink:type="simple" position="float" xlink:href="info:doi/10.1371/journal.pone.0083836.g001" orientation="portrait" />
+				</fig>
+			</sec>
+			<sec id="s2.2">
+				<title>Measurement of Tendon Gliding Resistance</title>
+				<p>A previously described and validated testing device was modified to measure the gliding resistance between the DDF tendon and the proximal pulley[<xref ref-type="bibr" rid="B18">18</xref>]. (<xref ref-type="fig" rid="pone-0083836-g002">Figure 2</xref>) Each paw was fixed on a flat platform with the third digit kept in full extension in a saline bath. The dorsal side of the paw was affixed with cyanoacrylate adhesive (Loctite 401, TMs of Loctite Corp. Hartford, CT, USA) and the digit was held with a small clip. The proximal end of the DDF tendon was attached to a 150-g load transducer (GS0-150, Transducer Techniques, Temecula, CA, USA). A 5-g weight and cord was attached to the distal end of the tendon and passed over a low-friction mechanical pulley to apply a tension to the DDF tendon. The load transducer was connected to a custom linear actuator driven by a precision gear head stepper motor controlled by a motor driver/microcontroller (ACE-SDE, Arcus Technology, Livermore, CA, USA). </p>
+				<fig id="pone-0083836-g002" position="float" orientation="portrait">
+					<object-id pub-id-type="doi">10.1371/journal.pone.0083836.g002</object-id><label>Figure 2</label>
+					<caption>
+						<title>Photograph of the testing apparatus for measuring gliding resistance between the DDF tendon and its proximal pulley.</title>
+					</caption>
+					<graphic xlink:type="simple" position="float" xlink:href="info:doi/10.1371/journal.pone.0083836.g002" orientation="portrait" />
+				</fig>
+				<p>An arc of contact of 50° was selected to measure the gliding resistance, a value selected based on the experience of previous studies[<xref ref-type="bibr" rid="B18">18</xref>]. The entire paw, including the middle digit pulley and tendon was immersed in saline during the entire test. The actuator pulled the tendon proximally at a rate of 0.25 mm/s. Maximum excursion was set at 4 mm, based on pilot testing that showed that smaller excursions only deformed the pulley but did not result in any actual tendon motion against the pulley. After two cycles of motion to precondition the material, data were collected from a third flexion/extension cycle. The force (F) at the proximal force transducer and the corresponding displacement was recorded at a sampling rate of 20 Hz. The total gliding resistance (TGR) during tendon flexion and extension was calculated based on previous publications[<xref ref-type="bibr" rid="B18">18</xref>]. However, in this testing setup, there was no second force transducer attached at the distal tendon end. Therefore, the TGR included not only the gliding resistance at the interface between the tendon and pulley (TP), but also the resistance of the mechanical pulley (MP). </p>
+				<p>Since the gliding resistance was expected to be small, accurate measurement and appropriate calculation are important. In order to distinguish these two different resistance sources, the friction of the mechanical pulley (F<sub>MP</sub>) alone, though small, was characterized by applying similar loading conditions described above without the mouse tissue present with the same calculation method[<xref ref-type="bibr" rid="B18">18</xref>]. Therefore, the tendon/pulley (F<sub>TP</sub>) gliding resistance will be: F<sub>TP</sub> = TGR – F<sub>MP</sub>.</p>
+			</sec>
+			<sec id="s2.3">
+				<title>Scanning Electronic Microscopy (SEM)</title><p>From each group, three DDF tendons were prepared for analysis by scanning electron microscopy (SEM). After tendons were washed in phosphate buffered saline (PBS), they were fixed in a buffered glutaraldehyde and osmium tetroxide solution. The fixed tendons were dehydrated in graded acetone, coated with gold/palladium alloy and examined by SEM (Hitachi S-4700, Hitachi, Japan) in secondary electron mode at 3kV. The tendon surface was qualitatively assessed for its smoothness.</p>
+			</sec>
+			<sec id="s2.4">
+				<title>Histology</title>
+				<p> 	From each group, three specimens were immersed for 24hours with 4% paraformaldehyde in 0.1M phosphate buffer (PB, pH7.4) at 4°C and decalcified using decalcifying solution B (Wako, Osaka, Japan) for 7 days, washed for 4 days with several changes of 0.1M PB containing 5%, 10%, 15%, and 20% sucrose and then embedded in Tissue-Tek O.C.T. Compound (Sakura Finetek, Inc, CA, USA). The specimens were cut transversely and longitudinally into 10-μm thick serial sections using a Leica microtome (Leica Microsystems, Wetzlar, Germany). The transverse serial sections of the whole specimen were washed by distilled water (DW) for 5 minutes and stained with either hematoxylin and eosin (H&amp;E) or Alcian blue. The stained sections were dehydrated and mounted on glass slides. The morphology and cellularity were evaluated with light microscopy.</p>
+			</sec>
+			<sec id="s2.5">
+				<title>Statistical Analysis</title>
+				<p>The average of the gliding resistance was analyzed using one-way analysis of variance (ANOVA) followed by the Tukey post hoc test. A <italic>P</italic>-value of 0.05 or less indicated a significant difference between groups.</p>
+			</sec>
+		</sec>
+		<sec id="s3" sec-type="results">
+			<title>Results</title>
+			<p>The gliding resistance values of the wild type, heterozygous, and lubricin knockout groups were 8.53 mN (±2.80), 9.39 mN (±2.55), and 13.3 mN (±3.73), respectively. The gliding resistance of the lubricin knockout mice was significantly higher than the gliding resistance of the wild type or heterozygous mice (p &lt; 0.05). There was no significant difference in gliding resistance between wild type and heterozygous mice. (<xref ref-type="fig" rid="pone-0083836-g003">Figure 3</xref>)</p>
+			<fig id="pone-0083836-g003" position="float" orientation="portrait">
+				<object-id pub-id-type="doi">10.1371/journal.pone.0083836.g003</object-id><label>Figure 3</label>
+				<caption>
+					<title>The gliding resistance between DDF tendon and proximal pulley.</title><p>Results are presented as mean and standard deviation (SD) of n=12. **, P&lt;0.01. </p>
+				</caption>
+				<graphic xlink:type="simple" position="float" xlink:href="info:doi/10.1371/journal.pone.0083836.g003" orientation="portrait" />
+			</fig>
+			<p> Qualitatively, on SEM the surface of the lubricin knockout tendons appeared rougher compared to the wild type and heterozygous tendons. (<xref ref-type="fig" rid="pone-0083836-g004">Figure 4</xref>) There was no obvious difference in roughness between wild type and heterozygous tendons. </p>
+			<fig id="pone-0083836-g004" position="float" orientation="portrait">
+				<object-id pub-id-type="doi">10.1371/journal.pone.0083836.g004</object-id><label>Figure 4</label>
+				<caption>
+					<title>Images of the surface of DDF tendon.</title><p>Upper row shows low-magnification. Bar=300 μm. Lower row shows high-magnification. Bar=50.0 μm.</p>
+				</caption>
+				<graphic xlink:type="simple" position="float" xlink:href="info:doi/10.1371/journal.pone.0083836.g004" orientation="portrait" />
+			</fig>
+			<p>On hematoxylin and eosin staining, the surface of the lubricin knockout tendons appeared more cellular compared to the tendons from wild type and lubricin heterozygous litter mates. Apparent cellularity was similar in wild type and heterozygous tendons. The proximal pulley appeared to be qualitatively thicker in lubricin knockout mice than in the wild type and lubricin heterozygous litter mates. (<xref ref-type="fig" rid="pone-0083836-g005">Figure 5</xref>) However, the proximal pulley in the lubricin heterozygous mice was not completely normal, as it also appeared to be somewhat thicker compared to the wild type litter mates. Despite variations in proximal pulley thickness, cellular architecture was normal in appearance in the wildtype and lubricin heterozygous mice, but lubricin knockout mice showed hyperplasia, particularly at and beneath the bearing surface of the pulley. These areas and the adjacent tendon revealed a cartilage-like tissue in the lubricin knockout mice. Tenosynovial hyperplasia was observed in the lubricin knockout mice tendon sheaths, which also appeared thickened. (<xref ref-type="fig" rid="pone-0083836-g006">Figure 6</xref>) Rounded cells, similar in appearance to chondrocytes, were seen in this tissue, and around these cells the pericellular matrix stained positive with Alcian blue. (<xref ref-type="fig" rid="pone-0083836-g007">Figure 7</xref>) Alcian blue staining was not seen in the tendons or pulleys of the wild type or heterozygous mice. </p>
+			<fig id="pone-0083836-g005" position="float" orientation="portrait">
+				<object-id pub-id-type="doi">10.1371/journal.pone.0083836.g005</object-id><label>Figure 5</label>
+				<caption>
+					<title>Cross sections through proximal mouse digit.</title><p>Stained with hematoxylin and eosin. Upper and lower row show x100 and x400 sections respectively Note mild and more pronounced pulley thickening in the heterozygous and knockout mice, respectively, compared to the wild type.</p>
+				</caption>
+				<graphic xlink:type="simple" position="float" xlink:href="info:doi/10.1371/journal.pone.0083836.g005" orientation="portrait" />
+			</fig>
+			<fig id="pone-0083836-g006" position="float" orientation="portrait">
+				<object-id pub-id-type="doi">10.1371/journal.pone.0083836.g006</object-id><label>Figure 6</label>
+				<caption>
+					<title>Cross sections through distal mouse digit.</title><p>Stained with hematoxylin and eosin. Upper and lower row show x100 and x400 sections respectively. Note thickening of the synovial sheath in the knockout mouse.</p>
+				</caption>
+				<graphic xlink:type="simple" position="float" xlink:href="info:doi/10.1371/journal.pone.0083836.g006" orientation="portrait" />
+			</fig>
+			<fig id="pone-0083836-g007" position="float" orientation="portrait">
+				<object-id pub-id-type="doi">10.1371/journal.pone.0083836.g007</object-id><label>Figure 7</label>
+				<caption>
+					<title>Alcian blue stain.</title><p>Upper and lower row shows lower (x100) and higher (x400) magnification of the cross sections of the mouse digit respectively. Chondrocyte like formation were found in the knockout tendon.</p>
+				</caption>
+				<graphic xlink:type="simple" position="float" xlink:href="info:doi/10.1371/journal.pone.0083836.g007" orientation="portrait" />
+			</fig>
+		</sec>
+		<sec id="s4" sec-type="discussion">
+			<title>Discussion</title>
+			<p>The role of lubricin in the boundary lubrication of articular cartilage has been studied in detail[<xref ref-type="bibr" rid="B4">4</xref>–<xref ref-type="bibr" rid="B7">7</xref>]. Lack of lubricin in synovial fluid results in proteinaceous deposit on the cartilage surface and causes surface irregularities[<xref ref-type="bibr" rid="B7">7</xref>]. In contrast, the role of lubricin in intrasynovial tendon function has been less well elucidated[<xref ref-type="bibr" rid="B19">19</xref>]. This study was motivated by the need to better understand the role of lubricin in intrasynovial tendon, which may be useful in determining the effect of lubricin on tendon injury and subsequent operative repair in restoring normal gliding.</p>
+			<p>In this study, we developed a new system that is able to precisely assess gliding resistance in small tendons. Using this system we found that the DDF gliding resistance increased in knockout mice compared to wild type and heterozygous mice. This result supports previous reports, which examined the effect of lubricin surface modification on extrasynovial or intrasynovial tendon gliding resistance[<xref ref-type="bibr" rid="B13">13</xref>,<xref ref-type="bibr" rid="B14">14</xref>]. In these studies tendon surface modification using lubricin and carbodiimide derived gelatin with hyaluronic acid (cd-HA-gelatin) improved tendon gliding. Conversely, Sun et al. demonstrated that removing tendon surface lubricin by enzymatic digestion increased tendon gliding resistance[<xref ref-type="bibr" rid="B19">19</xref>]. Although these studies did not measure the gliding resistance of tendon in vivo, the results support an important role for lubricin in the maintenance of low tendon gliding resistance. </p>
+			<p>In this study, we found some histological and structural changes in the lubricin knockout tendons. Rhee et al reported synovial hyperplasia in the knee joint of the lubricin knockout mouse[<xref ref-type="bibr" rid="B7">7</xref>]. They also found that lubricin inhibited synovial cell growth in vitro. In our study we did not assess the effect that purified lubricin may have on the growth of synovial cells isolated from tendon sheath, though the same mechanism probably occurs in the tendon sheath as well. </p>
+			<p>We noted what appeared to be chondroid metaplasia in the knockout tendons. The matrix in the area was positively stained with Alcian blue and we observed a somewhat more rounded cell morphology, similar to that seen in chondroid tissue and different from that seen in tendon or ligament. Interestingly, chondroid metaplasia has also been found in the A1 pulley in adult trigger fingers[<xref ref-type="bibr" rid="B20">20</xref>,<xref ref-type="bibr" rid="B21">21</xref>]. Ehlers et al. reported that fibroblasts from tendon change their shape to a chondrocytic morphology and produce cartilage-like matrix[<xref ref-type="bibr" rid="B22">22</xref>]. They also reported that mechanical compression induces tendon fibrocartilage[<xref ref-type="bibr" rid="B23">23</xref>,<xref ref-type="bibr" rid="B24">24</xref>]. It is possible that the increased gliding resistance present in the knockout tendons may contribute to the induction of chondroid metaplasia. Recently, stem/progenitor cells have been identified in tendons[<xref ref-type="bibr" rid="B25">25</xref>]. These cells have universal characteristics of stem cells characteristics including clonogenicity, multipotency and self-renewal. These stem/progenitor cells may be the source of the chondroid-metaplasia seen in our lubricin knockout mouse tendons. </p>
+			<p>Based on our observations here, we believe that variations in lubricin and lubrication are important for maintenance of the integrity of tendon and pulley surfaces. Clinically, these results are consistent with the possibility that a decrease in lubricin production or an alteration in the post-translational modification of lubricin in adult tissue[<xref ref-type="bibr" rid="B26">26</xref>] might be one of the pathogenic mechanisms, for example, of trigger finger. They also suggest that the camptodactyly in CACP syndrome might be due, at least in part, to tendinopathy, altered tendon lubrication, and the development of pathology similar to that seen in degenerative conditions such as adult trigger finger. Kostrominova et al. have reported that the expresion of lubricin and elastin is decreased in the tendons of aged rats (aged 22-25 months)[<xref ref-type="bibr" rid="B27">27</xref>]. They speculated that these changes may be associated with an increased risk of tendon injury with aging. Thus the lubricin knockout condition might induce a kind of ‘premature aging’ of tendons. It would be interesting to identify the developmental stage at which these changes first become evident in lubricin knockout mice, and we plan such studies in the future.</p>
+			<p>SEM revealed that the surface of lubricin knockout mouse tendon appeared rougher compared to wild type and heterozygous mice. These results are similar to those seen in extraarticular tendons, which are naturally deficient in surface lubricin[<xref ref-type="bibr" rid="B13">13</xref>,<xref ref-type="bibr" rid="B14">14</xref>]. Of clinical relevance, when lubricin is synthetically bound to the surface of such tendons, the surfaces are protected from abrasion during cycles of repetitive motion[<xref ref-type="bibr" rid="B13">13</xref>,<xref ref-type="bibr" rid="B14">14</xref>,<xref ref-type="bibr" rid="B28">28</xref>]. Drewniak et al.[<xref ref-type="bibr" rid="B29">29</xref>], showed that in heterozygous lubricin knockout mice, friction is initially normal, but it gradually increases with repetitive motion, suggesting that not only the presence but also the amount of lubricin is important. One lubricin allele may not be sufficient to protect a heavily loaded joint. Based on our observations here, we believe that lubricin treatment might be useful in both trigger finger and in treating the camptodactyly of CACP syndrome, and is deserving of further investigation.</p>
+			<p>One limitation of this method for measuring gliding resistance is the necessary assumption that the tension generated by the 5-g weight is constant. Testing of tendon gliding resistance usually includes a force transducer attached to both the proximal and distal ends of the tendon. Due to the small size of the specimen, attaching ring transducers in line with the tendon would add significant bulk to the test set-up. Since the tension caused by the 5-g weight will vary only when accelerating, and since periods of acceleration are short and of low magnitude, this assumption should not add significant error to the measurements. </p>
+			<p>A second limitation of the study was that we did not measure the other parameters that may be affected by lack of lubricin, such as mechanical properties of the tendon, gene expression in the tendon and surrounded tissues and a more detailed characterization of the chondroid appearing cells. We also did not measure the expression of cytokines, to assess for the presence of any inflammatory reaction. Such studies may provide clues not only to the pathology in CACP syndrome but also to the underlying cause of age related tendon pathology such as trigger finger, chronic tendinopathy, subcutaneous rupture of tendon and rotator cuff tear, which occur in locations where friction between a tendon and adjacent structures is a prominent mechanical phenomenon. </p>
+			<p>A third limitation was that we did not assess the effect of adding lubricin to the surface of the knockout tendons, to see if tendon lubrication could recover with this treatment. Finally, a fourth limitation was that the surface morphological and histological evaluations by SEM and H&amp;E staining were not quantitative, although direct observations seemed to show obvious differences. </p>
+			<p>In this study, we did not assess the effect of the lubricin knockout condition on tendon healing. Wong et al. have examined the mouse hind paw anatomy and developed a mouse model of flexor tendon injury[<xref ref-type="bibr" rid="B17">17</xref>,<xref ref-type="bibr" rid="B30">30</xref>]. Using this model in normal and lubricin deficient mice, we may be able to identify the effect of lubricin on not only tendon healing but also adhesion formation.</p>
+			<p>In conclusion, we present evidence to support the hypothesis that lubricin plays an important role in intrasynovial tendon gliding. To perform this study, we developed a new system that is able to assess gliding resistance between the intrasynovial tendon and apposing pulley in a mouse. A lack of lubricin is associated with poorer tendon gliding function. The lubricin knockout mouse may be useful in determining the effect of lubricin on tendon healing and the response to injury.</p>
+		</sec>
+	</body>
+	<back>
+		<ref-list>
+			<title>References</title>
+			<ref id="B1">
+				<label>1</label>
+				<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Swann</surname><given-names>DA</given-names></name>, <name name-style="western"><surname>Sotman</surname><given-names>S</given-names></name>, <name name-style="western"><surname>Dixon</surname><given-names>M</given-names></name>, <name name-style="western"><surname>Brooks</surname><given-names>C</given-names></name> (<year>1977</year>) <article-title>The isolation and partial characterization of the major glycoprotein (LGP-I) from the articular lubricating fraction from bovine synovial fluid</article-title>. <source>Biochem J</source> <volume>161</volume>: <fpage>473</fpage>-<lpage>485</lpage>. PubMed: <ext-link ext-link-type="uri" xlink:href="http://www.ncbi.nlm.nih.gov/pubmed/15548" xlink:type="simple">15548</ext-link>.</mixed-citation>
+			</ref>
+			<ref id="B2">
+				<label>2</label>
+				<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Swann</surname><given-names>DA</given-names></name>, <name name-style="western"><surname>Hendren</surname><given-names>RB</given-names></name>, <name name-style="western"><surname>Radin</surname><given-names>EL</given-names></name>, <name name-style="western"><surname>Sotman</surname><given-names>SL</given-names></name>, <name name-style="western"><surname>Duda</surname><given-names>EA</given-names></name> (<year>1981</year>) <article-title>The lubricating activity of synovial fluid glycoproteins</article-title>. <source>Arthritis Rheum</source> <volume>24</volume>: <fpage>22</fpage>-<lpage>30</lpage>. doi:<ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1002/art.1780240104" xlink:type="simple">10.1002/art.1780240104</ext-link>. PubMed: <ext-link ext-link-type="uri" xlink:href="http://www.ncbi.nlm.nih.gov/pubmed/7470168" xlink:type="simple">7470168</ext-link>.</mixed-citation>
+			</ref>
+			<ref id="B3">
+				<label>3</label>
+				<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Swann</surname><given-names>DA</given-names></name>, <name name-style="western"><surname>Slayter</surname><given-names>HS</given-names></name>, <name name-style="western"><surname>Silver</surname><given-names>FH</given-names></name> (<year>1981</year>) <article-title>The molecular structure of lubricating glycoprotein-I, the boundary lubricant for articular cartilage</article-title>. <source>J Biol Chem</source> <volume>256</volume>: <fpage>5921</fpage>-<lpage>5925</lpage>. PubMed: <ext-link ext-link-type="uri" xlink:href="http://www.ncbi.nlm.nih.gov/pubmed/7240180" xlink:type="simple">7240180</ext-link>.</mixed-citation>
+			</ref>
+			<ref id="B4">
+				<label>4</label>
+				<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Jay</surname><given-names>GD</given-names></name> (<year>1992</year>) <article-title>Characterization of a bovine synovial fluid lubricating factor. I. Chemical, surface activity and lubricating properties</article-title>. <source>Connect Tissue Res</source> <volume>28</volume>: <fpage>71</fpage>-<lpage>88</lpage>. doi:<ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.3109/03008209209014228" xlink:type="simple">10.3109/03008209209014228</ext-link>. PubMed: <ext-link ext-link-type="uri" xlink:href="http://www.ncbi.nlm.nih.gov/pubmed/1628491" xlink:type="simple">1628491</ext-link>.</mixed-citation>
+			</ref>
+			<ref id="B5">
+				<label>5</label>
+				<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Jay</surname><given-names>GD</given-names></name>, <name name-style="western"><surname>Haberstroh</surname><given-names>K</given-names></name>, <name name-style="western"><surname>Cha</surname><given-names>CJ</given-names></name> (<year>1998</year>) <article-title>Comparison of the boundary-lubricating ability of bovine synovial fluid, lubricin, and Healon</article-title>. <source>J Biomed Mater Res</source> <volume>40</volume>: <fpage>414</fpage>-<lpage>418</lpage>. doi:<ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1002/(SICI)1097-4636(19980605)40:3" xlink:type="simple">10.1002/(SICI)1097-4636(19980605)40:3</ext-link>. PubMed: <ext-link ext-link-type="uri" xlink:href="http://www.ncbi.nlm.nih.gov/pubmed/9570073" xlink:type="simple">9570073</ext-link>.</mixed-citation>
+			</ref>
+			<ref id="B6">
+				<label>6</label>
+				<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Jay</surname><given-names>GD</given-names></name>, <name name-style="western"><surname>Harris</surname><given-names>DA</given-names></name>, <name name-style="western"><surname>Cha</surname><given-names>CJ</given-names></name> (<year>2001</year>) <article-title>Boundary lubrication by lubricin is mediated by O-linked beta(1-3)Gal-GalNAc oligosaccharides</article-title>. <source>Glycoconj J</source> <volume>18</volume>: <fpage>807</fpage>-<lpage>815</lpage>. doi:<ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1023/A:1021159619373" xlink:type="simple">10.1023/A:1021159619373</ext-link>. PubMed: <ext-link ext-link-type="uri" xlink:href="http://www.ncbi.nlm.nih.gov/pubmed/12441670" xlink:type="simple">12441670</ext-link>.</mixed-citation>
+			</ref>
+			<ref id="B7">
+				<label>7</label>
+				<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Rhee</surname><given-names>DK</given-names></name>, <name name-style="western"><surname>Marcelino</surname><given-names>J</given-names></name>, <name name-style="western"><surname>Baker</surname><given-names>M</given-names></name>, <name name-style="western"><surname>Gong</surname><given-names>Y</given-names></name>, <name name-style="western"><surname>Smits</surname><given-names>P</given-names></name> <etal>et al.</etal> (<year>2005</year>) <article-title>The secreted glycoprotein lubricin protects cartilage surfaces and inhibits synovial cell overgrowth</article-title>. <source>J Clin Invest</source> <volume>115</volume>: <fpage>622</fpage>-<lpage>631</lpage>. doi:<ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1172/JCI22263" xlink:type="simple">10.1172/JCI22263</ext-link>. PubMed: <ext-link ext-link-type="uri" xlink:href="http://www.ncbi.nlm.nih.gov/pubmed/15719068" xlink:type="simple">15719068</ext-link>.</mixed-citation>
+			</ref>
+			<ref id="B8">
+				<label>8</label>
+				<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Englert</surname><given-names>C</given-names></name>, <name name-style="western"><surname>McGowan</surname><given-names>KB</given-names></name>, <name name-style="western"><surname>Klein</surname><given-names>TJ</given-names></name>, <name name-style="western"><surname>Giurea</surname><given-names>A</given-names></name>, <name name-style="western"><surname>Schumacher</surname><given-names>BL</given-names></name> <etal>et al.</etal> (<year>2005</year>) <article-title>Inhibition of integrative cartilage repair by proteoglycan 4 in synovial fluid</article-title>. <source>Arthritis Rheum</source> <volume>52</volume>: <fpage>1091</fpage>-<lpage>1099</lpage>. doi:<ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1002/art.20986" xlink:type="simple">10.1002/art.20986</ext-link>. PubMed: <ext-link ext-link-type="uri" xlink:href="http://www.ncbi.nlm.nih.gov/pubmed/15818696" xlink:type="simple">15818696</ext-link>.</mixed-citation>
+			</ref>
+			<ref id="B9">
+				<label>9</label>
+				<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Schaefer</surname><given-names>DB</given-names></name>, <name name-style="western"><surname>Wendt</surname><given-names>D</given-names></name>, <name name-style="western"><surname>Moretti</surname><given-names>M</given-names></name>, <name name-style="western"><surname>Jakob</surname><given-names>M</given-names></name>, <name name-style="western"><surname>Jay</surname><given-names>GD</given-names></name> <etal>et al.</etal> (<year>2004</year>) <article-title>Lubricin reduces cartilage--cartilage integration</article-title>. <source>Biorheology</source> <volume>41</volume>: <fpage>503</fpage>-<lpage>508</lpage>. PubMed: <ext-link ext-link-type="uri" xlink:href="http://www.ncbi.nlm.nih.gov/pubmed/15299281" xlink:type="simple">15299281</ext-link>.</mixed-citation>
+			</ref>
+			<ref id="B10">
+				<label>10</label>
+				<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Sun</surname><given-names>Y</given-names></name>, <name name-style="western"><surname>Berger</surname><given-names>EJ</given-names></name>, <name name-style="western"><surname>Zhao</surname><given-names>C</given-names></name>, <name name-style="western"><surname>Jay</surname><given-names>GD</given-names></name>, <name name-style="western"><surname>An</surname><given-names>KN</given-names></name> <etal>et al.</etal> (<year>2006</year>) <article-title>Expression and mapping of lubricin in canine flexor tendon</article-title>. <source>J Orthop Res</source> <volume>24</volume>: <fpage>1861</fpage>-<lpage>1868</lpage>. doi:<ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1002/jor.20239" xlink:type="simple">10.1002/jor.20239</ext-link>. PubMed: <ext-link ext-link-type="uri" xlink:href="http://www.ncbi.nlm.nih.gov/pubmed/16865713" xlink:type="simple">16865713</ext-link>.</mixed-citation>
+			</ref>
+			<ref id="B11">
+				<label>11</label>
+				<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Sun</surname><given-names>Y</given-names></name>, <name name-style="western"><surname>Berger</surname><given-names>EJ</given-names></name>, <name name-style="western"><surname>Zhao</surname><given-names>C</given-names></name>, <name name-style="western"><surname>An</surname><given-names>KN</given-names></name>, <name name-style="western"><surname>Amadio</surname><given-names>PC</given-names></name> <etal>et al.</etal> (<year>2006</year>) <article-title>Mapping lubricin in canine musculoskeletal tissues</article-title>. <source>Connect Tissue Res</source> <volume>47</volume>: <fpage>215</fpage>-<lpage>221</lpage>. doi:<ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1080/03008200600846754" xlink:type="simple">10.1080/03008200600846754</ext-link>. PubMed: <ext-link ext-link-type="uri" xlink:href="http://www.ncbi.nlm.nih.gov/pubmed/16987753" xlink:type="simple">16987753</ext-link>.</mixed-citation>
+			</ref>
+			<ref id="B12">
+				<label>12</label>
+				<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Rees</surname><given-names>SG</given-names></name>, <name name-style="western"><surname>Davies</surname><given-names>JR</given-names></name>, <name name-style="western"><surname>Tudor</surname><given-names>D</given-names></name>, <name name-style="western"><surname>Flannery</surname><given-names>CR</given-names></name>, <name name-style="western"><surname>Hughes</surname><given-names>CE</given-names></name> <etal>et al.</etal> (<year>2002</year>) <article-title>Immunolocalisation and expression of proteoglycan 4 (cartilage superficial zone proteoglycan) in tendon</article-title>. <source>Matrix Biol</source> <volume>21</volume>: <fpage>593</fpage>-<lpage>602</lpage>. doi:<ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1016/S0945-053X(02)00056-2" xlink:type="simple">10.1016/S0945-053X(02)00056-2</ext-link>. PubMed: <ext-link ext-link-type="uri" xlink:href="http://www.ncbi.nlm.nih.gov/pubmed/12475643" xlink:type="simple">12475643</ext-link>.</mixed-citation>
+			</ref>
+			<ref id="B13">
+				<label>13</label>
+				<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Taguchi</surname><given-names>M</given-names></name>, <name name-style="western"><surname>Sun</surname><given-names>YL</given-names></name>, <name name-style="western"><surname>Zhao</surname><given-names>C</given-names></name>, <name name-style="western"><surname>Zobitz</surname><given-names>ME</given-names></name>, <name name-style="western"><surname>Cha</surname><given-names>CJ</given-names></name> <etal>et al.</etal> (<year>2008</year>) <article-title>Lubricin surface modification improves extrasynovial tendon gliding in a canine model in vitro</article-title>. <source>Journal of Bone and Joint Surgery, American</source> Volume <volume>90</volume>: <fpage>129</fpage>-<lpage>135</lpage>. doi:<ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.2106/JBJS.G.00045" xlink:type="simple">10.2106/JBJS.G.00045</ext-link>.</mixed-citation>
+			</ref>
+			<ref id="B14">
+				<label>14</label>
+				<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Taguchi</surname><given-names>M</given-names></name>, <name name-style="western"><surname>Sun</surname><given-names>YL</given-names></name>, <name name-style="western"><surname>Zhao</surname><given-names>C</given-names></name>, <name name-style="western"><surname>Zobitz</surname><given-names>ME</given-names></name>, <name name-style="western"><surname>Cha</surname><given-names>CJ</given-names></name> <etal>et al.</etal> (<year>2009</year>) <article-title>Lubricin surface modification improves tendon gliding after tendon repair in a canine model in vitro</article-title>. <source>J Orthop Res</source> <volume>27</volume>: <fpage>257</fpage>-<lpage>263</lpage>. doi:<ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1002/jor.20731" xlink:type="simple">10.1002/jor.20731</ext-link>. PubMed: <ext-link ext-link-type="uri" xlink:href="http://www.ncbi.nlm.nih.gov/pubmed/18683890" xlink:type="simple">18683890</ext-link>.</mixed-citation>
+			</ref>
+			<ref id="B15">
+				<label>15</label>
+				<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Marcelino</surname><given-names>J</given-names></name>, <name name-style="western"><surname>Carpten</surname><given-names>JD</given-names></name>, <name name-style="western"><surname>Suwairi</surname><given-names>WM</given-names></name>, <name name-style="western"><surname>Gutierrez</surname><given-names>OM</given-names></name>, <name name-style="western"><surname>Schwartz</surname><given-names>S</given-names></name> <etal>et al.</etal> (<year>1999</year>) <article-title>CACP, encoding a secreted proteoglycan, is mutated in camptodactyly-arthropathy-coxa vara-pericarditis syndrome</article-title>. <source>Nat Genet</source> <volume>23</volume>: <fpage>319</fpage>-<lpage>322</lpage>. doi:<ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1038/15496" xlink:type="simple">10.1038/15496</ext-link>. PubMed: <ext-link ext-link-type="uri" xlink:href="http://www.ncbi.nlm.nih.gov/pubmed/10545950" xlink:type="simple">10545950</ext-link>.</mixed-citation>
+			</ref>
+			<ref id="B16">
+				<label>16</label>
+				<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Kohrs</surname><given-names>RT</given-names></name>, <name name-style="western"><surname>Zhao</surname><given-names>C</given-names></name>, <name name-style="western"><surname>Sun</surname><given-names>YL</given-names></name>, <name name-style="western"><surname>Jay</surname><given-names>GD</given-names></name>, <name name-style="western"><surname>Zhang</surname><given-names>L</given-names></name> <etal>et al.</etal> (<year>2011</year>) <article-title>Tendon fascicle gliding in wild type, heterozygous, and lubricin knockout mice</article-title>. <source>J Orthop Res</source> <volume>29</volume>: <fpage>384</fpage>-<lpage>389</lpage>. doi:<ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1002/jor.21247" xlink:type="simple">10.1002/jor.21247</ext-link>. PubMed: <ext-link ext-link-type="uri" xlink:href="http://www.ncbi.nlm.nih.gov/pubmed/20886657" xlink:type="simple">20886657</ext-link>.</mixed-citation>
+			</ref>
+			<ref id="B17">
+				<label>17</label>
+				<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Wong</surname><given-names>J</given-names></name>, <name name-style="western"><surname>Bennett</surname><given-names>W</given-names></name>, <name name-style="western"><surname>Ferguson</surname><given-names>MW</given-names></name>, <name name-style="western"><surname>McGrouther</surname><given-names>DA</given-names></name> (<year>2006</year>) <article-title>Microscopic and histological examination of the mouse hindpaw digit and flexor tendon arrangement with 3D reconstruction</article-title>. <source>J Anat</source> <volume>209</volume>: <fpage>533</fpage>-<lpage>545</lpage>. doi:<ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1111/j.1469-7580.2006.00625.x" xlink:type="simple">10.1111/j.1469-7580.2006.00625.x</ext-link>. PubMed: <ext-link ext-link-type="uri" xlink:href="http://www.ncbi.nlm.nih.gov/pubmed/17005025" xlink:type="simple">17005025</ext-link>.</mixed-citation>
+			</ref>
+			<ref id="B18">
+				<label>18</label>
+				<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Uchiyama</surname><given-names>S</given-names></name>, <name name-style="western"><surname>Coert</surname><given-names>JH</given-names></name>, <name name-style="western"><surname>Berglund</surname><given-names>L</given-names></name>, <name name-style="western"><surname>Amadio</surname><given-names>PC</given-names></name>, <name name-style="western"><surname>An</surname><given-names>KN</given-names></name> (<year>1995</year>) <article-title>Method for the measurement of friction between tendon and pulley</article-title>. <source>J Orthop Res</source> <volume>13</volume>: <fpage>83</fpage>-<lpage>89</lpage>. doi:<ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1002/jor.1100130113" xlink:type="simple">10.1002/jor.1100130113</ext-link>. PubMed: <ext-link ext-link-type="uri" xlink:href="http://www.ncbi.nlm.nih.gov/pubmed/7853108" xlink:type="simple">7853108</ext-link>.</mixed-citation>
+			</ref>
+			<ref id="B19">
+				<label>19</label>
+				<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Sun</surname><given-names>Y</given-names></name>, <name name-style="western"><surname>Chen</surname><given-names>MY</given-names></name>, <name name-style="western"><surname>Zhao</surname><given-names>C</given-names></name>, <name name-style="western"><surname>An</surname><given-names>KN</given-names></name>, <name name-style="western"><surname>Amadio</surname><given-names>PC</given-names></name> (<year>2008</year>) <article-title>The effect of hyaluronidase, phospholipase, lipid solvent and trypsin on the lubrication of canine flexor digitorum profundus tendon</article-title>. <source>J Orthop Res</source> <volume>26</volume>: <fpage>1225</fpage>-<lpage>1229</lpage>. doi:<ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1002/jor.20624" xlink:type="simple">10.1002/jor.20624</ext-link>. PubMed: <ext-link ext-link-type="uri" xlink:href="http://www.ncbi.nlm.nih.gov/pubmed/18404658" xlink:type="simple">18404658</ext-link>.</mixed-citation>
+			</ref>
+			<ref id="B20">
+				<label>20</label>
+				<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Sbernardori</surname><given-names>MC</given-names></name>, <name name-style="western"><surname>Bandiera</surname><given-names>P</given-names></name> (<year>2007</year>) <article-title>Histopathology of the A1 pulley in adult trigger fingers</article-title>. <source>J Hand Surg Eur Vol</source> Volume <volume>32</volume>: <fpage>556</fpage>-<lpage>559</lpage>. doi:<ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1016/j.jhsa.2007.01.017" xlink:type="simple">10.1016/j.jhsa.2007.01.017</ext-link>. PubMed: <ext-link ext-link-type="uri" xlink:href="http://www.ncbi.nlm.nih.gov/pubmed/17950222" xlink:type="simple">17950222</ext-link>.</mixed-citation>
+			</ref>
+			<ref id="B21">
+				<label>21</label>
+				<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Sbernardori</surname><given-names>MC</given-names></name>, <name name-style="western"><surname>Mazzarello</surname><given-names>V</given-names></name>, <name name-style="western"><surname>Tranquilli-Leali</surname><given-names>P</given-names></name> (<year>2007</year>) <article-title>Scanning electron microscopic findings of the gliding surface of the A1 pulley in trigger fingers and thumbs</article-title>. <source>J Hand Surg Eur Vol</source> Volume <volume>32</volume>: <fpage>384</fpage>-<lpage>387</lpage>. doi:<ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1016/j.jhsa.2007.01.009" xlink:type="simple">10.1016/j.jhsa.2007.01.009</ext-link>. PubMed: <ext-link ext-link-type="uri" xlink:href="http://www.ncbi.nlm.nih.gov/pubmed/17399869" xlink:type="simple">17399869</ext-link>.</mixed-citation>
+			</ref>
+			<ref id="B22">
+				<label>22</label>
+				<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Ehlers</surname><given-names>TW</given-names></name>, <name name-style="western"><surname>Vogel</surname><given-names>KG</given-names></name> (<year>1998</year>) <article-title>Proteoglycan synthesis by fibroblasts from different regions of bovine tendon cultured in alginate beads</article-title>. <source>Comp Biochem Physiol A Mol Integr Physiol</source> <volume>121</volume>: <fpage>355</fpage>-<lpage>363</lpage>. doi:<ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1016/S1095-6433(98)10144-7" xlink:type="simple">10.1016/S1095-6433(98)10144-7</ext-link>. PubMed: <ext-link ext-link-type="uri" xlink:href="http://www.ncbi.nlm.nih.gov/pubmed/10048188" xlink:type="simple">10048188</ext-link>.</mixed-citation>
+			</ref>
+			<ref id="B23">
+				<label>23</label>
+				<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Carvalho</surname><given-names>HF</given-names></name>, <name name-style="western"><surname>Felisbino</surname><given-names>SL</given-names></name>, <name name-style="western"><surname>Keene</surname><given-names>DR</given-names></name>, <name name-style="western"><surname>Vogel</surname><given-names>KG</given-names></name> (<year>2006</year>) <article-title>Identification, content, and distribution of type VI collagen in bovine tendons</article-title>. <source>Cell Tissue Res</source> <volume>325</volume>: <fpage>315</fpage>-<lpage>324</lpage>. doi:<ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1007/s00441-006-0161-0" xlink:type="simple">10.1007/s00441-006-0161-0</ext-link>. PubMed: <ext-link ext-link-type="uri" xlink:href="http://www.ncbi.nlm.nih.gov/pubmed/16568302" xlink:type="simple">16568302</ext-link>.</mixed-citation>
+			</ref>
+			<ref id="B24">
+				<label>24</label>
+				<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Koob</surname><given-names>TJ</given-names></name>, <name name-style="western"><surname>Clark</surname><given-names>PE</given-names></name>, <name name-style="western"><surname>Hernandez</surname><given-names>DJ</given-names></name>, <name name-style="western"><surname>Thurmond</surname><given-names>FA</given-names></name>, <name name-style="western"><surname>Vogel</surname><given-names>KG</given-names></name> (<year>1992</year>) <article-title>Compression loading in vitro regulates proteoglycan synthesis by tendon fibrocartilage</article-title>. <source>Arch Biochem Biophys</source> <volume>298</volume>: <fpage>303</fpage>-<lpage>312</lpage>. doi:<ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1016/0003-9861(92)90127-I" xlink:type="simple">10.1016/0003-9861(92)90127-I</ext-link>. PubMed: <ext-link ext-link-type="uri" xlink:href="http://www.ncbi.nlm.nih.gov/pubmed/1524441" xlink:type="simple">1524441</ext-link>.</mixed-citation>
+			</ref>
+			<ref id="B25">
+				<label>25</label>
+				<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Bi</surname><given-names>Y</given-names></name>, <name name-style="western"><surname>Ehirchiou</surname><given-names>D</given-names></name>, <name name-style="western"><surname>Kilts</surname><given-names>TM</given-names></name>, <name name-style="western"><surname>Inkson</surname><given-names>CA</given-names></name>, <name name-style="western"><surname>Embree</surname><given-names>MC</given-names></name> <etal>et al.</etal> (<year>2007</year>) <article-title>Identification of tendon stem/progenitor cells and the role of the extracellular matrix in their niche</article-title>. <source>Nat Med</source> <volume>13</volume>: <fpage>1219</fpage>-<lpage>1227</lpage>. doi:<ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1038/nm1630" xlink:type="simple">10.1038/nm1630</ext-link>. PubMed: <ext-link ext-link-type="uri" xlink:href="http://www.ncbi.nlm.nih.gov/pubmed/17828274" xlink:type="simple">17828274</ext-link>.</mixed-citation>
+			</ref>
+			<ref id="B26">
+				<label>26</label>
+				<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Estrella</surname><given-names>RP</given-names></name>, <name name-style="western"><surname>Whitelock</surname><given-names>JM</given-names></name>, <name name-style="western"><surname>Packer</surname><given-names>NH</given-names></name>, <name name-style="western"><surname>Karlsson</surname><given-names>NG</given-names></name> (<year>2010</year>) <article-title>The glycosylation of human synovial lubricin: implications for its role in inflammation</article-title>. <source>Biochem J</source> <volume>429</volume>: <fpage>359</fpage>-<lpage>367</lpage>. doi:<ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1042/BJ20100360" xlink:type="simple">10.1042/BJ20100360</ext-link>. PubMed: <ext-link ext-link-type="uri" xlink:href="http://www.ncbi.nlm.nih.gov/pubmed/20443780" xlink:type="simple">20443780</ext-link>.</mixed-citation>
+			</ref>
+			<ref id="B27">
+				<label>27</label>
+				<mixed-citation publication-type="other" xlink:type="simple"><name name-style="western"><surname>Kostrominova</surname><given-names>TY</given-names></name>, <name name-style="western"><surname>Brooks</surname><given-names>SV</given-names></name> (<year>2013</year>) <article-title>Age-related changes in structure and extracellular matrix protein expression levels in rat tendons. Age (Dordr)</article-title>.</mixed-citation>
+			</ref>
+			<ref id="B28">
+				<label>28</label>
+				<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Taguchi</surname><given-names>M</given-names></name>, <name name-style="western"><surname>Zhao</surname><given-names>C</given-names></name>, <name name-style="western"><surname>Sun</surname><given-names>YL</given-names></name>, <name name-style="western"><surname>Jay</surname><given-names>GD</given-names></name>, <name name-style="western"><surname>An</surname><given-names>KN</given-names></name> <etal>et al.</etal> (<year>2009</year>) <article-title>The effect of surface treatment using hyaluronic acid and lubricin on the gliding resistance of human extrasynovial tendons in vitro</article-title>. <source>J Hand Surg Am</source> Volume <volume>34</volume>: <fpage>1276</fpage>-<lpage>1281</lpage>. doi:<ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1016/j.jhsa.2009.04.011" xlink:type="simple">10.1016/j.jhsa.2009.04.011</ext-link>. PubMed: <ext-link ext-link-type="uri" xlink:href="http://www.ncbi.nlm.nih.gov/pubmed/19556078" xlink:type="simple">19556078</ext-link>.</mixed-citation>
+			</ref>
+			<ref id="B29">
+				<label>29</label>
+				<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Drewniak</surname><given-names>EI</given-names></name>, <name name-style="western"><surname>Jay</surname><given-names>GD</given-names></name>, <name name-style="western"><surname>Fleming</surname><given-names>BC</given-names></name>, <name name-style="western"><surname>Zhang</surname><given-names>L</given-names></name>, <name name-style="western"><surname>Warman</surname><given-names>ML</given-names></name> <etal>et al.</etal> (<year>2012</year>) <article-title>Cyclic loading increases friction and changes cartilage surface integrity in lubricin-mutant mouse knees</article-title>. <source>Arthritis Rheum</source> <volume>64</volume>: <fpage>465</fpage>-<lpage>473</lpage>. doi:<ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1002/acr.21596" xlink:type="simple">10.1002/acr.21596</ext-link>. PubMed: <ext-link ext-link-type="uri" xlink:href="http://www.ncbi.nlm.nih.gov/pubmed/21905020" xlink:type="simple">21905020</ext-link>.</mixed-citation>
+			</ref>
+			<ref id="B30">
+				<label>30</label>
+				<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Wong</surname><given-names>JK</given-names></name>, <name name-style="western"><surname>Lui</surname><given-names>YH</given-names></name>, <name name-style="western"><surname>Kapacee</surname><given-names>Z</given-names></name>, <name name-style="western"><surname>Kadler</surname><given-names>KE</given-names></name>, <name name-style="western"><surname>Ferguson</surname><given-names>MW</given-names></name> <etal>et al.</etal> (<year>2009</year>) <article-title>The cellular biology of flexor tendon adhesion formation: an old problem in a new paradigm</article-title>. <source>Am J Pathol</source> <volume>175</volume>: <fpage>1938</fpage>-<lpage>1951</lpage>. doi:<ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.2353/ajpath.2009.090380" xlink:type="simple">10.2353/ajpath.2009.090380</ext-link>. PubMed: <ext-link ext-link-type="uri" xlink:href="http://www.ncbi.nlm.nih.gov/pubmed/19834058" xlink:type="simple">19834058</ext-link>.</mixed-citation>
+			</ref>
+		</ref-list>
+	</back>
+</article>

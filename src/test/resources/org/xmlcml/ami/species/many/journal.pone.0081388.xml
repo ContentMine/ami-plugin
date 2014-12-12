@@ -1,0 +1,1015 @@
+<article xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" article-type="research-article" dtd-version="3.0" xml:lang="en">
+<front>
+<journal-meta>
+<journal-id journal-id-type="nlm-ta">PLoS ONE</journal-id>
+<journal-id journal-id-type="publisher-id">plos</journal-id>
+<journal-id journal-id-type="pmc">plosone</journal-id><journal-title-group>
+<journal-title xml:lang="en">PLoS ONE</journal-title></journal-title-group>
+<issn pub-type="epub">1932-6203</issn>
+<publisher>
+<publisher-name>Public Library of Science</publisher-name>
+<publisher-loc>San Francisco, USA</publisher-loc></publisher>
+</journal-meta>
+<article-meta>
+<article-id pub-id-type="publisher-id">PONE-D-13-18972</article-id>
+<article-id pub-id-type="doi">10.1371/journal.pone.0081388</article-id>
+<article-categories><subj-group subj-group-type="heading"><subject>Research Article</subject></subj-group></article-categories>
+<title-group>
+<article-title>Abnormal Organization of White Matter Network in Patients with No Dementia after Ischemic Stroke</article-title>
+<alt-title alt-title-type="running-head">Abnormal White Matter Network in Ischemic Stroke</alt-title>
+</title-group>
+<contrib-group>
+<contrib contrib-type="author" xlink:type="simple"><name name-style="western"><surname>Shi</surname><given-names>Lin</given-names></name><xref ref-type="aff" rid="aff1"><sup>1</sup></xref><xref ref-type="aff" rid="aff2"><sup>2</sup></xref></contrib>
+<contrib contrib-type="author" xlink:type="simple"><name name-style="western"><surname>Wang</surname><given-names>Defeng</given-names></name><xref ref-type="aff" rid="aff1"><sup>1</sup></xref><xref ref-type="aff" rid="aff3"><sup>3</sup></xref><xref ref-type="corresp" rid="cor1"><sup>*</sup></xref></contrib>
+<contrib contrib-type="author" xlink:type="simple"><name name-style="western"><surname>Chu</surname><given-names>Winnie C. W.</given-names></name><xref ref-type="aff" rid="aff1"><sup>1</sup></xref></contrib>
+<contrib contrib-type="author" xlink:type="simple"><name name-style="western"><surname>Liu</surname><given-names>Shangping</given-names></name><xref ref-type="aff" rid="aff1"><sup>1</sup></xref></contrib>
+<contrib contrib-type="author" xlink:type="simple"><name name-style="western"><surname>Xiong</surname><given-names>Yunyun</given-names></name><xref ref-type="aff" rid="aff4"><sup>4</sup></xref></contrib>
+<contrib contrib-type="author" xlink:type="simple"><name name-style="western"><surname>Wang</surname><given-names>Yilong</given-names></name><xref ref-type="aff" rid="aff5"><sup>5</sup></xref></contrib>
+<contrib contrib-type="author" xlink:type="simple"><name name-style="western"><surname>Wang</surname><given-names>Yongjun</given-names></name><xref ref-type="aff" rid="aff5"><sup>5</sup></xref></contrib>
+<contrib contrib-type="author" xlink:type="simple"><name name-style="western"><surname>Wong</surname><given-names>Lawrence K. S.</given-names></name><xref ref-type="aff" rid="aff4"><sup>4</sup></xref></contrib>
+<contrib contrib-type="author" xlink:type="simple"><name name-style="western"><surname>Mok</surname><given-names>Vincent C. T.</given-names></name><xref ref-type="aff" rid="aff4"><sup>4</sup></xref><xref ref-type="corresp" rid="cor1"><sup>*</sup></xref></contrib>
+</contrib-group>
+<aff id="aff1"><label>1</label><addr-line>Department of Imaging and Interventional Radiology, The Chinese University of Hong Kong, Shatin, New Territories, Hong Kong, China</addr-line></aff>
+<aff id="aff2"><label>2</label><addr-line>Shenzhen Institutes of Advanced Technology, Chinese Academy of Sciences, Shenzhen, China</addr-line></aff>
+<aff id="aff3"><label>3</label><addr-line>CUHK Shenzhen Research Institute, Shenzhen, China</addr-line></aff>
+<aff id="aff4"><label>4</label><addr-line>Department of Medicine and Therapeutics, The Chinese University of Hong Kong, Shatin, New Territories, Hong Kong, China</addr-line></aff>
+<aff id="aff5"><label>5</label><addr-line>Department of Neurology, Beijing Tiantan Hospital, Capital Medical University, Beijing, China</addr-line></aff>
+<contrib-group>
+<contrib contrib-type="editor" xlink:type="simple"><name name-style="western"><surname>Zuo</surname><given-names>Xi-Nian</given-names></name>
+<role>Editor</role>
+<xref ref-type="aff" rid="edit1" /></contrib>
+</contrib-group>
+<aff id="edit1"><addr-line>Institute of Psychology, Chinese Academy of Sciences, China</addr-line></aff>
+<author-notes>
+<corresp id="cor1">* E-mail: <email xlink:type="simple">dfwang@cuhk.edu.hk</email> (DW); <email xlink:type="simple">vctmok@cuhk.edu.hk</email> (VCTM)</corresp>
+<fn fn-type="conflict"><p>The authors have declared that no competing interests exist.</p></fn>
+<fn fn-type="con"><p>Conceived and designed the experiments: LS DW. Performed the experiments: LS DW SL VM WC YX. Analyzed the data: DW LS SL. Contributed reagents/materials/analysis tools: WC VM Yilong Wang Yongjun Wang. Wrote the paper: LS SL DW.</p></fn>
+</author-notes>
+<pub-date pub-type="collection"><year>2013</year></pub-date>
+<pub-date pub-type="epub"><day>13</day><month>12</month><year>2013</year></pub-date>
+<volume>8</volume>
+<issue>12</issue>
+<elocation-id>e81388</elocation-id>
+<history>
+<date date-type="received"><day>8</day><month>5</month><year>2013</year></date>
+<date date-type="accepted"><day>12</day><month>10</month><year>2013</year></date>
+</history>
+<permissions>
+<copyright-year>2013</copyright-year>
+<copyright-holder>Shi et al</copyright-holder><license xlink:href="http://creativecommons.org/licenses/by/4.0/" xlink:type="simple"><license-p>This is an open-access article distributed under the terms of the <ext-link ext-link-type="uri" xlink:href="http://creativecommons.org/licenses/by/4.0/" xlink:type="simple">Creative Commons Attribution License</ext-link>, which permits unrestricted use, distribution, and reproduction in any medium, provided the original author and source are credited.</license-p></license></permissions>
+<abstract>
+<p>Structural changes after ischemic stroke could affect information communication extensively in the brain network. It is likely that the defects in the white matter (WM) network play a key role in information interchange. In this study, we used graph theoretical analysis to examine potential organization alteration in the WM network architecture derived from diffusion tensor images from subjects with no dementia and experienced stroke in the past 5.4–14.8 months (N = 47, Mini-Mental Screening Examination, MMSE range 18–30), compared with a normal control group with 44 age and gender-matched healthy volunteers (MMSE range 26–30). Region-wise connectivity was derived from fiber connection density of 90 different cortical and subcortical parcellations across the whole brain. Both normal controls and patients with chronic stroke exhibited efficient small-world properties in their WM structural networks. Compared with normal controls, topological efficiency was basically unaltered in the patients with chronic stroke, as reflected by unchanged local and global clustering coefficient, characteristic path length, and regional efficiency. No significant difference in hub distribution was found between normal control and patient groups. Patients with chronic stroke, however, were found to have reduced betweenness centrality and predominantly located in the orbitofrontal cortex, whereas increased betweenness centrality and vulnerability were observed in parietal-occipital cortex. The National Institutes of Health Stroke Scale (NIHSS) score of patient is correlated with the betweenness centrality of right pallidum and local clustering coefficient of left superior occipital gyrus. Our findings suggest that patients with chronic stroke still exhibit efficient small-world organization and unaltered topological efficiency, with altered topology at orbitofrontal cortex and parietal-occipital cortex in the overall structural network. Findings from this study could help in understanding the mechanism of cognitive impairment and functional compensation occurred in patients with chronic stroke.</p>
+</abstract>
+<funding-group><funding-statement>The work described in this paper was supported by grants from the Research Grants Council of the Hong Kong Special Administrative Region, China (Project No. CUHK 411811, 475711, 416712, 473012), grants from Shenzhen Science and Technology Innovation Committee (Project No. JC201005250030A and JCYJ20120619152326449), and grants from the National Natural Science Foundation of China (Project No. 81101111, 81201157, 81271653). The funders had no role in study design, data collection and analysis, decision to publish, or preparation of the manuscript.</funding-statement></funding-group><counts><page-count count="13" /></counts></article-meta>
+</front>
+<body><sec id="s1">
+<title>Introduction</title>
+<p>Ischemic stroke is one of the leading causes of adult disability, resulting from cessation of blood supply due to an occlusion of a cerebral artery. Patients suffered from ischemic stroke are at increased risk of developing vascular cognitive impairment <xref ref-type="bibr" rid="pone.0081388-Del1">[1]</xref>, <xref ref-type="bibr" rid="pone.0081388-Tatemichi1">[2]</xref>, which ranges in severity from mild and/or isolated cognitive impairment to vascular dementia. Vascular cognitive impairment with no dementia is a prodromal, mild stage of dementia, lying on a continuum between normal cognition and dementia <xref ref-type="bibr" rid="pone.0081388-RamosEstebanez1">[3]</xref>. Among survivors of ischemic stroke, the prevalence of post-stroke dementia is about 30%, and the risk of dementia is doubled as compared with subjects who have not had stroke <xref ref-type="bibr" rid="pone.0081388-Leys1">[4]</xref>. Hence, identification of factors that cause cognitive impairment would benefit interventions to prevent the progression to dementia.</p>
+<p>Multiple magnetic resonance imaging (MRI) techniques have been used to investigate the structural and functional changes in the brains of post-stroke patients. Structural MRI analyses included white matter (WM) lesion distribution <xref ref-type="bibr" rid="pone.0081388-Wen1">[5]</xref>, gray matter atrophy <xref ref-type="bibr" rid="pone.0081388-Stebbins1">[6]</xref>, and frontal lobe atrophy <xref ref-type="bibr" rid="pone.0081388-Chen1">[7]</xref> were used to evaluate the cognitive impairment after ischemic stroke. Furthermore, resting-state functional MRI (rs-fMRI) was also used to identify the post-stroke connectivity changes <xref ref-type="bibr" rid="pone.0081388-Carter1">[8]</xref>–<xref ref-type="bibr" rid="pone.0081388-Varoquaux1">[10]</xref>. Since diffusion tensor imaging is sensitive to detect the microstructural changes in WM <xref ref-type="bibr" rid="pone.0081388-Nitkunan1">[11]</xref>, recent studies have investigated the post-stroke abnormalities of diffusion tensor measurements, such as mean diffusivity, fractional anisotropy (FA), and apparent diffusion coefficient <xref ref-type="bibr" rid="pone.0081388-Dudink1">[12]</xref>–<xref ref-type="bibr" rid="pone.0081388-Williamson1">[14]</xref>. In addition, complex network graphs that quantify interactions between brain regions have recently given new insights into the spontaneous reorganization of functional and structural brain networks after stroke <xref ref-type="bibr" rid="pone.0081388-Buch1">[15]</xref>–<xref ref-type="bibr" rid="pone.0081388-Wang2">[17]</xref>. Although WM damages have been found to be potentially associated with the development of cognitive impairment after ischemic stroke <xref ref-type="bibr" rid="pone.0081388-Williamson1">[14]</xref>, <xref ref-type="bibr" rid="pone.0081388-Black1">[18]</xref>, it remains unknown whether the overall WM organization of brain are affected in patients with no dementia after ischemic stroke.</p>
+<p>Since diffusion MRI tractography is advantageous for investigating WM pathways and visualizing brain structural connectivity in vivo <xref ref-type="bibr" rid="pone.0081388-Gong1">[19]</xref>–<xref ref-type="bibr" rid="pone.0081388-Lazar1">[21]</xref>, graph theoretical approaches have been proposed to characterize the organization and architecture of the structural networks of the human brain <xref ref-type="bibr" rid="pone.0081388-Bullmore1">[22]</xref>–<xref ref-type="bibr" rid="pone.0081388-IturriaMedina1">[24]</xref>. Indeed, the alteration in topological organization of brain WM network have been demonstrated useful to understand the cognitive functions <xref ref-type="bibr" rid="pone.0081388-Wen2">[25]</xref> and to find the characteristic mechanisms of psychiatric and neurological diseases <xref ref-type="bibr" rid="pone.0081388-Bai1">[26]</xref>–<xref ref-type="bibr" rid="pone.0081388-Zhang1">[31]</xref>. These studies indicate that it is feasible to employ DTI tractography to investigate structural networks in patients with chronic stroke. Our goal in this study is to apply WM tractography and graph theoretic analysis to investigate abnormalities in the organization and architecture of the structural connectivity pattern at the macroscopic scale in patients after ischemic stroke, based on the following hypotheses: (i) Patients with chronic stroke could exhibit efficient small-world topology, as has been successfully established in several disease models including stroke model in rats <xref ref-type="bibr" rid="pone.0081388-vanMeer1">[32]</xref>. On this basis we would like to further identify the possible alterations of overall topological properties compared with normal controls. Because either decreased small-world metrics related to impaired neural circuits directly caused by infarct lesions, or increased measurements reflecting excessive neuronal clustering and wiring after stroke <xref ref-type="bibr" rid="pone.0081388-vanMeer1">[32]</xref> or as a compensation mechanism as described previously in schizophrenia <xref ref-type="bibr" rid="pone.0081388-Zalesky1">[33]</xref>, possibly occurs in chronic stroke patients; (ii) Regions previously considered to be responsible for a certain type of cognitive impairment (e.g., post-stroke depression <xref ref-type="bibr" rid="pone.0081388-LassalleLagadec1">[34]</xref>, executive dysfunction <xref ref-type="bibr" rid="pone.0081388-Kramer1">[35]</xref>) could be identified with altered nodal characteristics, thus help to give an anatomical &amp; topological manifestation of post-stroke functional abnormality; (iii) Correlations between Mini-Mental Screening Examination (MMSE) or National Institutes of Health Stroke Scale (NIHSS) scores and network characteristics can be possibly established. Since there are evidences suggest that functional or structural connectivity changes are correlated with MMSE score in amnestic mild cognitive impairment (aMCI) and Alzheimer's disease <xref ref-type="bibr" rid="pone.0081388-Cha1">[36]</xref>, and reflect the post-stroke motor network alterations <xref ref-type="bibr" rid="pone.0081388-Jiang1">[37]</xref> and severity of stroke in rat model <xref ref-type="bibr" rid="pone.0081388-vanMeer1">[32]</xref>.</p>
+</sec><sec id="s2" sec-type="materials|methods">
+<title>Materials and Methods</title>
+<sec id="s2a">
+<title>Subjects</title>
+<p>All the subjects were right-handed and were all informed and signed with a verbal and written consent form. Ethical approval was obtained from the Ethics Committee in the Chinese University of Hong Kong. Forty-seven patients with no dementia after ischemic stroke (29 males and 18 females; 68.7±9.6 years old) and 44 age- and gender-matched normal controls (NC) (21 males and 23 females; 68.8±8.3 years old), were recruited from the Prince of Wales Hospital in Hong Kong. Inclusion criteria for patients after ischemic stroke and no dementia were: (1) ischemic stroke within the past 5.4–14.8 months (average time 7.7±2.2 months), defined according to NINDS Stroke Data Bank criteria <xref ref-type="bibr" rid="pone.0081388-Foulkes1">[38]</xref>; (2) age ≥50 years; (3) MMSE score ≥16; (4) competent to complete neuropsychological tests <xref ref-type="bibr" rid="pone.0081388-Wong1">[39]</xref>; (5) verbal and written consent; (6) available to collect patients' medical history from their caregivers (spent at least three days per week nursing the patients in the last five years). Inclusion criteria for NCs were: (1) age ≥50 years; (2) competent to complete neuropsychological tests; please refer to the NINDS-CSN protocols in <xref ref-type="bibr" rid="pone.0081388-Wong1">[39]</xref>; (3) verbal and written consent; (4) MMSE score ≥24. The patient and NC groups had median MMSE scores of 25 (range 18–30) and 29 (range 26–30), respectively. Exclusion criteria for both NC and patient group included history of central nervous system disorder or disease. Twenty patients with chronic stroke possibly had cognitive impairment (MMSE &lt;24). No significant differences were found in age, gender and education between the two groups (all <italic>p</italic>&gt;0.05).</p>
+</sec><sec id="s2b">
+<title>MRI Acquisition</title>
+<p>All subjects were scanned using a clinical 3T MRI scanner with an 8-channel Sense head coil (Achieva, Philips Medical Systems) at the Prince of Wales Hospital in Hong Kong. For each subject, T1-weighted (T1W) images, fluid attenuation inversion recovery (FLAIR) images, and diffusion tensor images (DTI) covering the whole brain were acquired in the axial orientation. T1W images were obtained using 3D fast field echo imaging sequence with the following parameters: (repetition time [TR]  = 6.7 ms, echo time [TE]  = 1.6 ms, number of excitation [NEX]  = 2, field of view [FOV]  = 220 mm, flip angle  = 15°, matrix  = 256×256, slice  = 128, voxel size  = 0.86×0.86×1.4 mm<sup>3</sup>. FLAIR image was obtained using following parameters: TR  = 11000 ms, TE  = 200 ms, Inversion Time [TI]  = 2800 ms, NEX  = 1, FOV  = 220 mm, flip angle  = 90°, matrix  = 704×704, slice  = 58, voxel size  = 0.31×0.31×3 mm<sup>3</sup>. DTI was obtained using single-shot echo planar imaging sequence with the following parameters: 15 diffusion weighted volumes (b = 750 s/mm<sup>2</sup>), one non-diffusion-weighted volume (b = 0 s/mm<sup>2</sup>), TR  = 10900 ms, TE  = 84.5 ms, NEX  = 2, FOV  = 220 mm, flip angle  = 90°, matrix  = 256×256, slice  = 55, voxel size  = 0.86×0.86×3 mm<sup>3</sup>.</p>
+</sec><sec id="s2c">
+<title>Delineation and Mapping of Infarcts</title>
+<p>The FLAIR image of each subject with chronic stroke was first co-registered to T1W images using FMRIB's Linear Registration Tool (FLIRT) <xref ref-type="bibr" rid="pone.0081388-Jenkinson1">[40]</xref>. The infarcts of each patient were manually delineated on FLAIR images with T1W image loaded as a reference by an experienced neuroradiologist (YYX). Then T1W image was co-registered to the ICBM152 template in Montreal Neurological Institute (MNI) space using FMRIB's Non-linear Image Registration Tool (FNIRT) <xref ref-type="bibr" rid="pone.0081388-Andersson1">[41]</xref>, and the delineated infarcts was transformed to MNI space. The infarcts were masked out during the registration by setting their voxel values in the weighting volume as zero. Then the infarcts on gray matter and white matter were mapped to automated anatomical labeling (AAL) <xref ref-type="bibr" rid="pone.0081388-TzourioMazoyer1">[42]</xref> and ICBM DTI-81 white matter labels atlas <xref ref-type="bibr" rid="pone.0081388-Mori1">[43]</xref> respectively. The location of infarcts for each subject was determined by AAL and DTI-81 atlas with visual quality control, and the spatial distribution of infarcts of whole patient group was obtained (<xref ref-type="table" rid="pone-0081388-t001">Table 1</xref> and <xref ref-type="fig" rid="pone-0081388-g001">Figure 1</xref>).</p>
+<fig id="pone-0081388-g001" position="float" orientation="portrait"><object-id pub-id-type="doi">10.1371/journal.pone.0081388.g001</object-id><label>Figure 1</label><caption>
+<title>Distribution of infarct location of whole post-stroke group overlaid on 4 different slices in the ICBM152 template in MNI space.</title>
+<p>The number of infarcts was color-coded and superimposed on the ICBM152 template.</p>
+</caption><graphic mimetype="image" xlink:href="info:doi/10.1371/journal.pone.0081388.g001" position="float" xlink:type="simple" orientation="portrait" /></fig><table-wrap id="pone-0081388-t001" position="float" orientation="portrait"><object-id pub-id-type="doi">10.1371/journal.pone.0081388.t001</object-id><label>Table 1</label><caption>
+<title>The number of stoke patients with infarcts within different brain regions.</title>
+</caption><alternatives><graphic id="pone-0081388-t001-1" position="float" mimetype="image" xlink:href="info:doi/10.1371/journal.pone.0081388.t001" xlink:type="simple" orientation="portrait" />
+<table><colgroup span="1"><col align="left" span="1" /><col align="center" span="1" /><col align="center" span="1" /></colgroup>
+<thead>
+<tr>
+<td align="left" rowspan="1" colspan="1">Location of infarct</td>
+<td align="left" rowspan="1" colspan="1" />
+<td align="left" rowspan="1" colspan="1"># Patients</td>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left" rowspan="1" colspan="1">Frontal</td>
+<td align="left" rowspan="1" colspan="1">Left side only</td>
+<td align="left" rowspan="1" colspan="1">7</td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1" />
+<td align="left" rowspan="1" colspan="1">Right side only</td>
+<td align="left" rowspan="1" colspan="1">3</td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1" />
+<td align="left" rowspan="1" colspan="1">Bilateral</td>
+<td align="left" rowspan="1" colspan="1">4</td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1">Parietal-occipital</td>
+<td align="left" rowspan="1" colspan="1">Left side only</td>
+<td align="left" rowspan="1" colspan="1">2</td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1" />
+<td align="left" rowspan="1" colspan="1">Right side only</td>
+<td align="left" rowspan="1" colspan="1">1</td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1" />
+<td align="left" rowspan="1" colspan="1">Bilateral</td>
+<td align="left" rowspan="1" colspan="1">1</td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1">Temporal</td>
+<td align="left" rowspan="1" colspan="1">Left side only</td>
+<td align="left" rowspan="1" colspan="1">0</td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1" />
+<td align="left" rowspan="1" colspan="1">Right side only</td>
+<td align="left" rowspan="1" colspan="1">0</td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1" />
+<td align="left" rowspan="1" colspan="1">Bilateral</td>
+<td align="left" rowspan="1" colspan="1">1</td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1">Basal ganglia</td>
+<td align="left" rowspan="1" colspan="1">Left side only</td>
+<td align="left" rowspan="1" colspan="1">3</td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1" />
+<td align="left" rowspan="1" colspan="1">Right side only</td>
+<td align="left" rowspan="1" colspan="1">7</td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1" />
+<td align="left" rowspan="1" colspan="1">Bilateral</td>
+<td align="left" rowspan="1" colspan="1">6</td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1">Thalamus</td>
+<td align="left" rowspan="1" colspan="1">Left side only</td>
+<td align="left" rowspan="1" colspan="1">3</td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1" />
+<td align="left" rowspan="1" colspan="1">Right side only</td>
+<td align="left" rowspan="1" colspan="1">6</td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1" />
+<td align="left" rowspan="1" colspan="1">Bilateral</td>
+<td align="left" rowspan="1" colspan="1">1</td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1">Infratentorial</td>
+<td align="left" rowspan="1" colspan="1" />
+<td align="left" rowspan="1" colspan="1">15</td>
+</tr>
+<tr>
+<td colspan="2" align="left" rowspan="1">Infarct Volume (mm<sup>3</sup>) (median (IQR))</td>
+<td align="left" rowspan="1" colspan="1">169.5 (648.0)</td>
+</tr>
+</tbody>
+</table>
+</alternatives></table-wrap></sec><sec id="s2d">
+<title>Connectivity Network Construction</title>
+<sec id="s2d1">
+<title>Image Preprocessing</title>
+<p>The whole schematic flowchart of WM connectivity network construction is shown in <xref ref-type="fig" rid="pone-0081388-g002">Figure 2</xref>. Artifacts induced by head motion and eddy current in DTI data were processed by affinely registering diffusion-weighted volumes to the non-diffusion-weighted <italic>b</italic>0 volume using the FMRIB's Diffusion Toolbox of FSL <xref ref-type="bibr" rid="pone.0081388-Smith1">[44]</xref>. Skull and non-brain tissue were removed in the masked and corrected diffusion data by applying the FSL Brain Extraction Tool <xref ref-type="bibr" rid="pone.0081388-Smith2">[45]</xref> to <italic>b</italic>0 image. The T1W image of each individual subject was co-registered to their <italic>b</italic>0 image and transformed to native DTI space using FLIRT.</p>
+<fig id="pone-0081388-g002" position="float" orientation="portrait"><object-id pub-id-type="doi">10.1371/journal.pone.0081388.g002</object-id><label>Figure 2</label><caption>
+<title>Whole schematic flowchart of WM network construction, (1) brain extraction, (2) DTI preprocessing and diffusion tensor model estimation, (3) white matter fiber tracking, (4) co-registration T1W image with non-diffusion-weighted <italic>b</italic>0 image, (5) mapping T1W image to ICBM152 template and warping the AAL atlas to native DTI space, (6) structural connectivity mapping and connectivity matrix generation, (7) weighted WM network construction.</title>
+</caption><graphic mimetype="image" xlink:href="info:doi/10.1371/journal.pone.0081388.g002" position="float" xlink:type="simple" orientation="portrait" /></fig></sec><sec id="s2d2">
+<title>White Matter Tractography</title>
+<p>For each individual subject, diffusion tensor model was first estimated using the linear least-squares fitting method <xref ref-type="bibr" rid="pone.0081388-Wang3">[46]</xref>. White matter tracts of the whole brain were subsequently reconstructed using the fiber assignment by continuous tracking (FACT) algorithm <xref ref-type="bibr" rid="pone.0081388-Mori2">[47]</xref> with the FA threshold at 0.15 and tracking turning angular threshold at 35° between two connections. Afterwards, a spline filtering was applied to smooth the streamline tractography. Diffusion Toolkit 0.6 (<ext-link ext-link-type="uri" xlink:href="http://www.nitrc.org/projects/trackvis/" xlink:type="simple">http://www.nitrc.org/projects/trackvis/</ext-link>) was used for DTI data processing and tractography in this work.</p>
+</sec><sec id="s2d3">
+<title>Brain Parcellation</title>
+<p>The brain was automatically partitioned into 90 non-cerebellar regions (45 cortical and subcortical regions in each hemisphere, <xref ref-type="table" rid="pone-0081388-t002">Table 2</xref>) using the AAL parcellation atlas. For each subject, individual T1W image in the native DTI space was mapped to the ICBM152 template in MNI space using FNIRT, and the AAL atlas was inversely warped to the native DTI space by applying nearest-neighbor interpolation. The regions with detected infarcts were masked out before performing image registration, so that image registration was based on reliable information from image of normal tissues.</p>
+<table-wrap id="pone-0081388-t002" position="float" orientation="portrait"><object-id pub-id-type="doi">10.1371/journal.pone.0081388.t002</object-id><label>Table 2</label><caption>
+<title>Brain regions in the AAL atlas.</title>
+</caption><alternatives><graphic id="pone-0081388-t002-2" position="float" mimetype="image" xlink:href="info:doi/10.1371/journal.pone.0081388.t002" xlink:type="simple" orientation="portrait" />
+<table><colgroup span="1"><col align="left" span="1" /><col align="center" span="1" /><col align="center" span="1" /><col align="center" span="1" /><col align="center" span="1" /><col align="center" span="1" /></colgroup>
+<thead>
+<tr>
+<td align="left" rowspan="1" colspan="1"><italic>AAL index (left, right)</italic></td>
+<td align="left" rowspan="1" colspan="1"><italic>Regions</italic></td>
+<td align="left" rowspan="1" colspan="1"><italic>Abbr.</italic></td>
+<td align="left" rowspan="1" colspan="1"><italic>AAL index (left, right)</italic></td>
+<td align="left" rowspan="1" colspan="1"><italic>Regions</italic></td>
+<td align="left" rowspan="1" colspan="1"><italic>Abbr.</italic></td>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left" rowspan="1" colspan="1">2001, 2002</td>
+<td align="left" rowspan="1" colspan="1">Precentral gyrus</td>
+<td align="left" rowspan="1" colspan="1">PreCG</td>
+<td align="left" rowspan="1" colspan="1">5021, 5022</td>
+<td align="left" rowspan="1" colspan="1">Lingual gyrus</td>
+<td align="left" rowspan="1" colspan="1">LING</td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1">2101, 2102</td>
+<td align="left" rowspan="1" colspan="1">Superior frontal gyrus (dorsolateral)</td>
+<td align="left" rowspan="1" colspan="1">SFGdor</td>
+<td align="left" rowspan="1" colspan="1">5101, 5102</td>
+<td align="left" rowspan="1" colspan="1">Superior occipital gyrus</td>
+<td align="left" rowspan="1" colspan="1">SOG</td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1">2111, 2112</td>
+<td align="left" rowspan="1" colspan="1">Superior frontal gyrus (orbital)</td>
+<td align="left" rowspan="1" colspan="1">ORBsup</td>
+<td align="left" rowspan="1" colspan="1">5201, 5202</td>
+<td align="left" rowspan="1" colspan="1">Middle occipital gyrus</td>
+<td align="left" rowspan="1" colspan="1">MOG</td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1">2201, 2202</td>
+<td align="left" rowspan="1" colspan="1">Middle frontal gyrus</td>
+<td align="left" rowspan="1" colspan="1">MFG</td>
+<td align="left" rowspan="1" colspan="1">5301, 5302</td>
+<td align="left" rowspan="1" colspan="1">Inferior occipital gyrus</td>
+<td align="left" rowspan="1" colspan="1">IOG</td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1">2211, 2212</td>
+<td align="left" rowspan="1" colspan="1">Middle frontal gyrus (orbital)</td>
+<td align="left" rowspan="1" colspan="1">ORBmid</td>
+<td align="left" rowspan="1" colspan="1">5401, 5402</td>
+<td align="left" rowspan="1" colspan="1">Fusiform gyrus</td>
+<td align="left" rowspan="1" colspan="1">FFG</td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1">2301, 2302</td>
+<td align="left" rowspan="1" colspan="1">Inferior frontal gyrus (opercular)</td>
+<td align="left" rowspan="1" colspan="1">IFGoperc</td>
+<td align="left" rowspan="1" colspan="1">6001, 6002</td>
+<td align="left" rowspan="1" colspan="1">Postcentral gyrus</td>
+<td align="left" rowspan="1" colspan="1">PoCG</td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1">2311, 2312</td>
+<td align="left" rowspan="1" colspan="1">Inferior frontal gyrus (triangular)</td>
+<td align="left" rowspan="1" colspan="1">IFGtriang</td>
+<td align="left" rowspan="1" colspan="1">6101, 6102</td>
+<td align="left" rowspan="1" colspan="1">Superior parietal gyrus</td>
+<td align="left" rowspan="1" colspan="1">SPG</td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1">2321, 2322</td>
+<td align="left" rowspan="1" colspan="1">Inferior frontal gyrus (orbital)</td>
+<td align="left" rowspan="1" colspan="1">ORBinf</td>
+<td align="left" rowspan="1" colspan="1">6201, 6202</td>
+<td align="left" rowspan="1" colspan="1">Inferior parietal gyrus</td>
+<td align="left" rowspan="1" colspan="1">IPG</td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1">2331, 1232</td>
+<td align="left" rowspan="1" colspan="1">Rolandic operculum</td>
+<td align="left" rowspan="1" colspan="1">ROL</td>
+<td align="left" rowspan="1" colspan="1">6211, 6212</td>
+<td align="left" rowspan="1" colspan="1">Supramarginal gyrus</td>
+<td align="left" rowspan="1" colspan="1">SMG</td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1">2401, 2402</td>
+<td align="left" rowspan="1" colspan="1">Supplementary motor area</td>
+<td align="left" rowspan="1" colspan="1">SMA</td>
+<td align="left" rowspan="1" colspan="1">6221, 6222</td>
+<td align="left" rowspan="1" colspan="1">Angular gyrus</td>
+<td align="left" rowspan="1" colspan="1">ANG</td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1">2501, 2502</td>
+<td align="left" rowspan="1" colspan="1">Olfactroy cortex</td>
+<td align="left" rowspan="1" colspan="1">OLF</td>
+<td align="left" rowspan="1" colspan="1">6301, 6302</td>
+<td align="left" rowspan="1" colspan="1">Precuneus</td>
+<td align="left" rowspan="1" colspan="1">PCUN</td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1">2601, 2602</td>
+<td align="left" rowspan="1" colspan="1">Superior frontal gyrus (medial)</td>
+<td align="left" rowspan="1" colspan="1">SFGmed</td>
+<td align="left" rowspan="1" colspan="1">6401, 6402</td>
+<td align="left" rowspan="1" colspan="1">Paracentral lobule</td>
+<td align="left" rowspan="1" colspan="1">PCL</td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1">2611, 2612</td>
+<td align="left" rowspan="1" colspan="1">Superior frontal gyrus (medial orbital)</td>
+<td align="left" rowspan="1" colspan="1">ORBsupmed</td>
+<td align="left" rowspan="1" colspan="1">7001, 7002</td>
+<td align="left" rowspan="1" colspan="1">Caudate</td>
+<td align="left" rowspan="1" colspan="1">CAU</td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1">2701, 2702</td>
+<td align="left" rowspan="1" colspan="1">Rectus gyrus</td>
+<td align="left" rowspan="1" colspan="1">REC</td>
+<td align="left" rowspan="1" colspan="1">7011, 7012</td>
+<td align="left" rowspan="1" colspan="1">Putamen</td>
+<td align="left" rowspan="1" colspan="1">PUT</td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1">3001, 3002</td>
+<td align="left" rowspan="1" colspan="1">Insula</td>
+<td align="left" rowspan="1" colspan="1">INS</td>
+<td align="left" rowspan="1" colspan="1">7021, 7022</td>
+<td align="left" rowspan="1" colspan="1">Pallidum</td>
+<td align="left" rowspan="1" colspan="1">PAL</td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1">4001, 4002</td>
+<td align="left" rowspan="1" colspan="1">Anterior cingulate gyrus</td>
+<td align="left" rowspan="1" colspan="1">ACG</td>
+<td align="left" rowspan="1" colspan="1">7101, 7102</td>
+<td align="left" rowspan="1" colspan="1">Thalamus</td>
+<td align="left" rowspan="1" colspan="1">THA</td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1">4011, 4012</td>
+<td align="left" rowspan="1" colspan="1">Median cingulate gyrus</td>
+<td align="left" rowspan="1" colspan="1">MCG</td>
+<td align="left" rowspan="1" colspan="1">8101, 8102</td>
+<td align="left" rowspan="1" colspan="1">Heschl gyrus</td>
+<td align="left" rowspan="1" colspan="1">HES</td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1">4021, 4021</td>
+<td align="left" rowspan="1" colspan="1">Posterior cingulate gyrus</td>
+<td align="left" rowspan="1" colspan="1">PCG</td>
+<td align="left" rowspan="1" colspan="1">8111, 8112</td>
+<td align="left" rowspan="1" colspan="1">Superior temporal gyrus</td>
+<td align="left" rowspan="1" colspan="1">STG</td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1">4101, 4102</td>
+<td align="left" rowspan="1" colspan="1">Hippocampus</td>
+<td align="left" rowspan="1" colspan="1">HIP</td>
+<td align="left" rowspan="1" colspan="1">8121, 8122</td>
+<td align="left" rowspan="1" colspan="1">Temporal pole (superior)</td>
+<td align="left" rowspan="1" colspan="1">TPOsup</td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1">4111, 4112</td>
+<td align="left" rowspan="1" colspan="1">Parahippocampal gyrus</td>
+<td align="left" rowspan="1" colspan="1">PHG</td>
+<td align="left" rowspan="1" colspan="1">8201, 8202</td>
+<td align="left" rowspan="1" colspan="1">Middle temporal gyrus</td>
+<td align="left" rowspan="1" colspan="1">MTG</td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1">4201, 4202</td>
+<td align="left" rowspan="1" colspan="1">Amygdala</td>
+<td align="left" rowspan="1" colspan="1">AMYG</td>
+<td align="left" rowspan="1" colspan="1">8211, 8212</td>
+<td align="left" rowspan="1" colspan="1">Temporal pole (middle)</td>
+<td align="left" rowspan="1" colspan="1">TPOmid</td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1">5001, 5002</td>
+<td align="left" rowspan="1" colspan="1">Calcarine cortex</td>
+<td align="left" rowspan="1" colspan="1">CAL</td>
+<td align="left" rowspan="1" colspan="1">8301, 8302</td>
+<td align="left" rowspan="1" colspan="1">Inferior temporal gyrus</td>
+<td align="left" rowspan="1" colspan="1">ITG</td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1">5011, 5012</td>
+<td align="left" rowspan="1" colspan="1">Cuneus</td>
+<td align="left" rowspan="1" colspan="1">CUN</td>
+<td align="left" rowspan="1" colspan="1">-</td>
+<td align="left" rowspan="1" colspan="1">-</td>
+<td align="left" rowspan="1" colspan="1">-</td>
+</tr>
+</tbody>
+</table>
+</alternatives></table-wrap></sec><sec id="s2d4">
+<title>Structural Connectivity Mapping</title>
+<p>In the native DTI space, two AAL regions were considered to be connected if at least one fiber was presented between them <xref ref-type="bibr" rid="pone.0081388-Gong1">[19]</xref>. The fiber connection density between two AAL regions was defined as the normalized number of fibers per unit volume <xref ref-type="bibr" rid="pone.0081388-Hagmann2">[23]</xref>, <xref ref-type="bibr" rid="pone.0081388-Cheng1">[48]</xref>, <xref ref-type="bibr" rid="pone.0081388-Kim1">[49]</xref>. The number and length of fibers connecting each pair of AAL regions were used to calculate the fiber connection density,<disp-formula id="pone.0081388.e009"><graphic position="anchor" xlink:href="info:doi/10.1371/journal.pone.0081388.e009" xlink:type="simple" orientation="portrait" /><label>(1)</label></disp-formula>where <italic>V<sub>i</sub></italic> and <italic>V<sub>j</sub></italic> denote the volume of AAL regions <italic>i</italic> and <italic>j</italic>, respectively, <italic>F<sub>e</sub></italic> denotes the set of fibers connecting regions <italic>i</italic> and <italic>j</italic>, and <italic>l<sub>f</sub></italic> denotes the length of fiber <italic>f</italic> along its trajectory. Taking fiber connection density between two AAL regions as its connection weight, a weighted 90×90 structural connectivity matrix for each subject was generated. Each node of the constructed network corresponded to one AAL region.</p>
+</sec></sec><sec id="s2e">
+<title>Network Graph Analysis</title>
+<p>The topological organization of the weighted structural connectivity network was characterized at the nodal and global levels using the Brain Connectivity Toolbox <xref ref-type="bibr" rid="pone.0081388-Rubinov1">[50]</xref> based on graph theory. The nodal behavior was quantified in terms of connection strength, local clustering coefficient, betweenness centrality, regional efficiency and vulnerability. The global network architecture was described in terms of the global connection strength, global clustering coefficient, characteristic path length, global betweenness centrality, global vulnerability, normalized clustering coefficient, normalized path length, and small-worldness. Each metric provided a different viewpoint to describe major features of the large-scale architecture.</p>
+<sec id="s2e1">
+<title>Regional Nodal Characteristics</title>
+<p>The connection strength <inline-formula><inline-graphic xlink:href="info:doi/10.1371/journal.pone.0081388.e010" xlink:type="simple" /></inline-formula> of each node <italic>i</italic> in the weighted network was computed as the sum of the weights of all its connections, which provided information on the total level of connectivity <xref ref-type="bibr" rid="pone.0081388-vandenHeuvel1">[30]</xref>, <xref ref-type="bibr" rid="pone.0081388-Rubinov1">[50]</xref>,<disp-formula id="pone.0081388.e011"><graphic position="anchor" xlink:href="info:doi/10.1371/journal.pone.0081388.e011" xlink:type="simple" orientation="portrait" /><label>(2)</label></disp-formula>where <italic>w<sub>ij</sub></italic> is the weight between nodes <italic>i</italic> and <italic>j</italic> in the network, and <italic>N</italic> is the set of all nodes in the network.</p>
+<p>The local clustering coefficient <inline-formula><inline-graphic xlink:href="info:doi/10.1371/journal.pone.0081388.e012" xlink:type="simple" /></inline-formula> of each node <italic>i</italic> in the weighted network was defined as the likelihood that its neighbors were interconnected to each other, which described the strength of one node and its neighbors were clustered <xref ref-type="bibr" rid="pone.0081388-Onnela1">[51]</xref>, <xref ref-type="bibr" rid="pone.0081388-Watts1">[52]</xref>,<disp-formula id="pone.0081388.e013"><graphic position="anchor" xlink:href="info:doi/10.1371/journal.pone.0081388.e013" xlink:type="simple" orientation="portrait" /><label>(3)</label></disp-formula>where <italic>k<sub>i</sub></italic> is the node degree defined as the number of connections to node <italic>i</italic>. The local clustering coefficient of the nodes with less than two connections was set as zero.</p>
+<p>The betweenness centrality <inline-formula><inline-graphic xlink:href="info:doi/10.1371/journal.pone.0081388.e014" xlink:type="simple" /></inline-formula> of each node <italic>i</italic> in the weighted network was defined as the fraction of all shortest paths in the network that pass through it, which was essentially a measurement of the influence of a node over the information flow between itself and other nodes <xref ref-type="bibr" rid="pone.0081388-Freeman1">[53]</xref>, <xref ref-type="bibr" rid="pone.0081388-Girvan1">[54]</xref>,<disp-formula id="pone.0081388.e015"><graphic position="anchor" xlink:href="info:doi/10.1371/journal.pone.0081388.e015" xlink:type="simple" orientation="portrait" /><label>(4)</label></disp-formula>where <inline-formula><inline-graphic xlink:href="info:doi/10.1371/journal.pone.0081388.e016" xlink:type="simple" /></inline-formula> is the number of shortest path between nodes <italic>h</italic> and <italic>j</italic> that passed through node <italic>i</italic>, <italic>n</italic> is the total number of nodes.</p>
+<p>The regional efficiency <inline-formula><inline-graphic xlink:href="info:doi/10.1371/journal.pone.0081388.e017" xlink:type="simple" /></inline-formula> of each node <italic>i</italic> in the weighted network was defined as the inverse of harmonic mean of the shortest path length between itself and all other nodes, which was used to quantify the importance of a node in the communication within the network <xref ref-type="bibr" rid="pone.0081388-Achard1">[55]</xref>,<disp-formula id="pone.0081388.e018"><graphic position="anchor" xlink:href="info:doi/10.1371/journal.pone.0081388.e018" xlink:type="simple" orientation="portrait" /><label>(5)</label></disp-formula>where <inline-formula><inline-graphic xlink:href="info:doi/10.1371/journal.pone.0081388.e019" xlink:type="simple" /></inline-formula> is the length of the shortest weighted path between nodes <italic>i</italic> and <italic>j</italic> in the weighted network,<disp-formula id="pone.0081388.e020"><graphic position="anchor" xlink:href="info:doi/10.1371/journal.pone.0081388.e020" xlink:type="simple" orientation="portrait" /><label>(6)</label></disp-formula>where <inline-formula><inline-graphic xlink:href="info:doi/10.1371/journal.pone.0081388.e021" xlink:type="simple" /></inline-formula> indicates the shortest weighted path between nodes <italic>i</italic> and <italic>j</italic>.</p>
+<p>The vulnerability <inline-formula><inline-graphic xlink:href="info:doi/10.1371/journal.pone.0081388.e022" xlink:type="simple" /></inline-formula> of each node <italic>i</italic> in the weighted network is defined as the drop in global efficiency when this node and its connections are removed from the network graph, which was used to identify the most indispensable node to network efficiency <xref ref-type="bibr" rid="pone.0081388-IturriaMedina1">[24]</xref>, <xref ref-type="bibr" rid="pone.0081388-Costa1">[56]</xref>,<disp-formula id="pone.0081388.e023"><graphic position="anchor" xlink:href="info:doi/10.1371/journal.pone.0081388.e023" xlink:type="simple" orientation="portrait" /><label>(7)</label></disp-formula>where <inline-formula><inline-graphic xlink:href="info:doi/10.1371/journal.pone.0081388.e024" xlink:type="simple" /></inline-formula> is the global efficiency of the network, <inline-formula><inline-graphic xlink:href="info:doi/10.1371/journal.pone.0081388.e025" xlink:type="simple" /></inline-formula> is the global efficiency of the network after removing node <italic>i</italic>. The global efficiency is defined as the inverse of the harmonic mean of the shortest path length between every two nodes in a network,<disp-formula id="pone.0081388.e026"><graphic position="anchor" xlink:href="info:doi/10.1371/journal.pone.0081388.e026" xlink:type="simple" orientation="portrait" /><label>(8)</label></disp-formula></p>
+</sec><sec id="s2e2">
+<title>Overall Graph characteristics</title>
+<p>The global strength <inline-formula><inline-graphic xlink:href="info:doi/10.1371/journal.pone.0081388.e027" xlink:type="simple" /></inline-formula> of the weighted network was computed as the mean connection strength across all nodes in the network,<disp-formula id="pone.0081388.e028"><graphic position="anchor" xlink:href="info:doi/10.1371/journal.pone.0081388.e028" xlink:type="simple" orientation="portrait" /><label>(9)</label></disp-formula></p>
+<p>The global clustering coefficient <inline-formula><inline-graphic xlink:href="info:doi/10.1371/journal.pone.0081388.e029" xlink:type="simple" /></inline-formula> was defined as the average of the local clustering coefficient <inline-formula><inline-graphic xlink:href="info:doi/10.1371/journal.pone.0081388.e030" xlink:type="simple" /></inline-formula> over all nodes in the network <xref ref-type="bibr" rid="pone.0081388-Watts1">[52]</xref>,<disp-formula id="pone.0081388.e031"><graphic position="anchor" xlink:href="info:doi/10.1371/journal.pone.0081388.e031" xlink:type="simple" orientation="portrait" /><label>(10)</label></disp-formula></p>
+<p>The weighted characteristic path length <inline-formula><inline-graphic xlink:href="info:doi/10.1371/journal.pone.0081388.e032" xlink:type="simple" /></inline-formula> of the entire network was measured by the harmonic mean of the shortest path between every two nodes and was equivalent to the inverse of the global efficiency, which expressed how well the overall network was connected and represents the capacity to exchange information <xref ref-type="bibr" rid="pone.0081388-Newman1">[57]</xref>, <xref ref-type="bibr" rid="pone.0081388-Sporns1">[58]</xref>,<disp-formula id="pone.0081388.e033"><graphic position="anchor" xlink:href="info:doi/10.1371/journal.pone.0081388.e033" xlink:type="simple" orientation="portrait" /><label>(11)</label></disp-formula></p>
+<p>The global betweenness centrality <inline-formula><inline-graphic xlink:href="info:doi/10.1371/journal.pone.0081388.e034" xlink:type="simple" /></inline-formula> was calculated as the average of the values of the nodal betweenness <inline-formula><inline-graphic xlink:href="info:doi/10.1371/journal.pone.0081388.e035" xlink:type="simple" /></inline-formula> over all nodes,<disp-formula id="pone.0081388.e036"><graphic position="anchor" xlink:href="info:doi/10.1371/journal.pone.0081388.e036" xlink:type="simple" orientation="portrait" /><label>(12)</label></disp-formula></p>
+<p>The global vulnerability <inline-formula><inline-graphic xlink:href="info:doi/10.1371/journal.pone.0081388.e037" xlink:type="simple" /></inline-formula> of the entire network was defined as the maximum vulnerability for all of its nodes <xref ref-type="bibr" rid="pone.0081388-Costa1">[56]</xref>,<disp-formula id="pone.0081388.e038"><graphic position="anchor" xlink:href="info:doi/10.1371/journal.pone.0081388.e038" xlink:type="simple" orientation="portrait" /><label>(13)</label></disp-formula></p>
+<p>The measure of small-worldness <inline-formula><inline-graphic xlink:href="info:doi/10.1371/journal.pone.0081388.e039" xlink:type="simple" /></inline-formula> was defined as ratio between the normalized clustering coefficient <inline-formula><inline-graphic xlink:href="info:doi/10.1371/journal.pone.0081388.e040" xlink:type="simple" /></inline-formula> and the normalized characteristic path length <inline-formula><inline-graphic xlink:href="info:doi/10.1371/journal.pone.0081388.e041" xlink:type="simple" /></inline-formula>, which denoted the small-world organization of the weighted network <xref ref-type="bibr" rid="pone.0081388-Humphries1">[59]</xref>.<disp-formula id="pone.0081388.e042"><graphic position="anchor" xlink:href="info:doi/10.1371/journal.pone.0081388.e042" xlink:type="simple" orientation="portrait" /><label>(14)</label></disp-formula>where the <inline-formula><inline-graphic xlink:href="info:doi/10.1371/journal.pone.0081388.e043" xlink:type="simple" /></inline-formula> and <inline-formula><inline-graphic xlink:href="info:doi/10.1371/journal.pone.0081388.e044" xlink:type="simple" /></inline-formula> are the average of global clustering coefficient and characteristic path length of 100 matched random networks that preserved the same number of nodes, edges, and degree distribution as the real network.</p>
+</sec><sec id="s2e3">
+<title>Hub Identification</title>
+<p>The putative hubs were usually the nodes with high connection strength, high betweenness centrality, high regional efficiency, low clustering coefficient, and/or high vulnerability, which played a crucial role in fast information transferring and efficient integration of information in whole network communication <xref ref-type="bibr" rid="pone.0081388-Bullmore1">[22]</xref>, <xref ref-type="bibr" rid="pone.0081388-vandenHeuvel1">[30]</xref>, <xref ref-type="bibr" rid="pone.0081388-Bassett1">[60]</xref>–<xref ref-type="bibr" rid="pone.0081388-Tian1">[62]</xref>. The hubs of the structural brain network were identified using the hub score, a rank-based analysis of the multiple mean nodal metrics. The hub identification criteria included (1) within the top 20% nodes showing the highest mean strength <inline-formula><inline-graphic xlink:href="info:doi/10.1371/journal.pone.0081388.e045" xlink:type="simple" /></inline-formula>; (2) within the top 20% nodes showing the lowest local clustering coefficient <inline-formula><inline-graphic xlink:href="info:doi/10.1371/journal.pone.0081388.e046" xlink:type="simple" /></inline-formula>; (3) within the top 20% nodes showing the highest betweenness centrality <inline-formula><inline-graphic xlink:href="info:doi/10.1371/journal.pone.0081388.e047" xlink:type="simple" /></inline-formula>; (4) within the top 20% nodes showing the highest regional efficiency <inline-formula><inline-graphic xlink:href="info:doi/10.1371/journal.pone.0081388.e048" xlink:type="simple" /></inline-formula>; (5) within the top 20% nodes showing the highest global vulnerability <inline-formula><inline-graphic xlink:href="info:doi/10.1371/journal.pone.0081388.e049" xlink:type="simple" /></inline-formula>. For each node, a hub score between 0 to 5 was assigned. Nodes with a hub score of 2 or higher were considered as hubs. <xref ref-type="bibr" rid="pone.0081388-Bullmore1">[22]</xref>, <xref ref-type="bibr" rid="pone.0081388-Sporns2">[61]</xref>.</p>
+</sec></sec><sec id="s2f">
+<title>Statistical Analysis</title>
+<sec id="s2f1">
+<title>Overall Graph Characteristics</title>
+<p>Differences in overall graph characteristics (<inline-formula><inline-graphic xlink:href="info:doi/10.1371/journal.pone.0081388.e052" xlink:type="simple" /></inline-formula>, <inline-formula><inline-graphic xlink:href="info:doi/10.1371/journal.pone.0081388.e053" xlink:type="simple" /></inline-formula>, <inline-formula><inline-graphic xlink:href="info:doi/10.1371/journal.pone.0081388.e054" xlink:type="simple" /></inline-formula>, <inline-formula><inline-graphic xlink:href="info:doi/10.1371/journal.pone.0081388.e055" xlink:type="simple" /></inline-formula>, <inline-formula><inline-graphic xlink:href="info:doi/10.1371/journal.pone.0081388.e056" xlink:type="simple" /></inline-formula>, <inline-formula><inline-graphic xlink:href="info:doi/10.1371/journal.pone.0081388.e057" xlink:type="simple" /></inline-formula>, <inline-formula><inline-graphic xlink:href="info:doi/10.1371/journal.pone.0081388.e058" xlink:type="simple" /></inline-formula>, and <inline-formula><inline-graphic xlink:href="info:doi/10.1371/journal.pone.0081388.e059" xlink:type="simple" /></inline-formula>) between the patient and NC groups were examined using permutation testing <xref ref-type="bibr" rid="pone.0081388-vandenHeuvel1">[30]</xref>, <xref ref-type="bibr" rid="pone.0081388-Zhang1">[31]</xref>, <xref ref-type="bibr" rid="pone.0081388-Bassett1">[60]</xref>. First, the observed values of the test were calculated as the differences in the measured overall graph characteristics between the two groups. Then the subjects in both groups were pooled and randomly assigned to either one of two groups consisting of the same size as the original patient and NC groups. The differences in overall graph characteristics between the two random groups were computed. This procedure was repeated for 5,000 times. The one-tailed <italic>p-</italic>value was then calculated as the proportion of sampled permutations where differences that were greater than (or smaller than) the observed values. A significance threshold of <italic>p</italic> = 0.05 (uncorrected) was used for testing the overall graph characteristics.</p>
+</sec><sec id="s2f2">
+<title>Regional Nodal Characteristics</title>
+<p>The statistical analysis for the regional nodal characteristics was similar to those for global network characteristics. The regional characteristics (<inline-formula><inline-graphic xlink:href="info:doi/10.1371/journal.pone.0081388.e060" xlink:type="simple" /></inline-formula>, <inline-formula><inline-graphic xlink:href="info:doi/10.1371/journal.pone.0081388.e061" xlink:type="simple" /></inline-formula>, <inline-formula><inline-graphic xlink:href="info:doi/10.1371/journal.pone.0081388.e062" xlink:type="simple" /></inline-formula>, <inline-formula><inline-graphic xlink:href="info:doi/10.1371/journal.pone.0081388.e063" xlink:type="simple" /></inline-formula>, and <inline-formula><inline-graphic xlink:href="info:doi/10.1371/journal.pone.0081388.e064" xlink:type="simple" /></inline-formula>) of each node in the network were compared between the patient and NC groups for all nodes using the above-mentioned permutation test. The one-tailed <italic>p</italic>-value was calculated and the false discovery rate (FDR) <xref ref-type="bibr" rid="pone.0081388-Benjamini1">[63]</xref> with <italic>q</italic> = 0.05 was used to correct the multiple comparisons. The FDR was the expected proportion of false positives among significant results.</p>
+</sec><sec id="s2f3">
+<title>Correlation with the MMSE and NIHSS score</title>
+<p>The Pearson partial correlation between the MMSE score and the network properties, and between the NIHSS score and the properties at both the global and nodal levels were evaluated in patient group while controlling for age and gender. The significance level for testing the overall graph characteristics was set at <italic>p</italic>&lt;0.001 (uncorrected). A statistical significance level of <italic>p</italic>&lt;0.001 (uncorrected) was used for testing the regional nodal characteristics.</p>
+</sec></sec></sec><sec id="s3">
+<title>Results</title>
+<sec id="s3a">
+<title>Overall Topological Properties</title>
+<p>Both normal controls and patients with chronic stroke exhibited efficient small-world topology (<inline-formula><inline-graphic xlink:href="info:doi/10.1371/journal.pone.0081388.e065" xlink:type="simple" /></inline-formula>) in structural networks (NC: <inline-formula><inline-graphic xlink:href="info:doi/10.1371/journal.pone.0081388.e066" xlink:type="simple" /></inline-formula>, patients: <inline-formula><inline-graphic xlink:href="info:doi/10.1371/journal.pone.0081388.e067" xlink:type="simple" /></inline-formula>). In addition, a significant increase of small-worldness (<italic>p</italic> = 0.0226) and a decrease of normalized characteristic path length (<italic>p</italic> = 0.0026) in patient group were observed (<xref ref-type="fig" rid="pone-0081388-g003">Figure 3</xref>). Furthermore, as compared with the overall graph characteristics of patients, no significant differences in global strength <inline-formula><inline-graphic xlink:href="info:doi/10.1371/journal.pone.0081388.e068" xlink:type="simple" /></inline-formula> global clustering coefficient <inline-formula><inline-graphic xlink:href="info:doi/10.1371/journal.pone.0081388.e069" xlink:type="simple" /></inline-formula>, characteristic path length <inline-formula><inline-graphic xlink:href="info:doi/10.1371/journal.pone.0081388.e070" xlink:type="simple" /></inline-formula>, and global vulnerability <inline-formula><inline-graphic xlink:href="info:doi/10.1371/journal.pone.0081388.e071" xlink:type="simple" /></inline-formula> (all <italic>p</italic>&gt;0.05) were found (<xref ref-type="fig" rid="pone-0081388-g003">Figure 3</xref>). The global betweenness centrality <inline-formula><inline-graphic xlink:href="info:doi/10.1371/journal.pone.0081388.e072" xlink:type="simple" /></inline-formula> (<italic>p</italic> = 0.0104) was significantly decreased in patient group (<xref ref-type="fig" rid="pone-0081388-g003">Figure 3</xref>).</p>
+<fig id="pone-0081388-g003" position="float" orientation="portrait"><object-id pub-id-type="doi">10.1371/journal.pone.0081388.g003</object-id><label>Figure 3</label><caption>
+<title>Group comparison of the overall graph characteristics, i.e., connection strength (<inline-formula><inline-graphic xlink:href="info:doi/10.1371/journal.pone.0081388.e001" xlink:type="simple" /></inline-formula>), global clustering coefficient (<inline-formula><inline-graphic xlink:href="info:doi/10.1371/journal.pone.0081388.e002" xlink:type="simple" /></inline-formula>), characteristic path length (<inline-formula><inline-graphic xlink:href="info:doi/10.1371/journal.pone.0081388.e003" xlink:type="simple" /></inline-formula>), global betweenness centrality (<inline-formula><inline-graphic xlink:href="info:doi/10.1371/journal.pone.0081388.e004" xlink:type="simple" /></inline-formula>), global vulnerability (<inline-formula><inline-graphic xlink:href="info:doi/10.1371/journal.pone.0081388.e005" xlink:type="simple" /></inline-formula>), normalized clustering coefficient (<inline-formula><inline-graphic xlink:href="info:doi/10.1371/journal.pone.0081388.e006" xlink:type="simple" /></inline-formula>), normalized path length (<inline-formula><inline-graphic xlink:href="info:doi/10.1371/journal.pone.0081388.e007" xlink:type="simple" /></inline-formula>), and small-worldness (<inline-formula><inline-graphic xlink:href="info:doi/10.1371/journal.pone.0081388.e008" xlink:type="simple" /></inline-formula>).</title>
+<p>Single asterisk (*) represents a significant difference level at <italic>p</italic>&lt;0.05, while a double asterisk (**) represents a significant difference level at <italic>p</italic>&lt;0.01.</p>
+</caption><graphic mimetype="image" xlink:href="info:doi/10.1371/journal.pone.0081388.g003" position="float" xlink:type="simple" orientation="portrait" /></fig></sec><sec id="s3b">
+<title>Distribution of Hub Region</title>
+<p>In both NC and patient groups, 25 hubs were identified by multiple nodal metrics (<xref ref-type="table" rid="pone-0081388-t003">Table 3</xref>, <xref ref-type="fig" rid="pone-0081388-g004">Figure 4</xref>). In particular, 23 of them were identified in both groups e.g. bilateral orbital part of superior frontal gyrus [ORBsup], bilateral olfactory cortex [OLF], bilateral rectus gyrus [REC], bilateral parahippocampal gyrus [PHG], bilateral calcarine cortex [CAL], bilateral fusiform gyrus [FFG], bilateral precuneus [PCUN], bilateral orbital part of the inferior frontal gyrus [ORBinf], right medial orbital part of superior frontal gyrus [ORBsupmed.R], bilateral insula [INS], right hippocampus [HIP.R], right lingual gyrus [LING.R], and bilateral putamen [PUT]. For hub scores between post-stoke to NC, <italic>hub (hub score post-stoke→hub score NC):</italic> OLF.L (3→4) and PCUN.R (2→3) were increased. OLF.R (4→3), PUT.R (4→3), ORBinf.L (3→2), and INS.L (4→2) were decreased. Two regions, the left caudate [CAU.L] (2→1) and left lingual gyrus [LING.L] (2→1), were identified as hubs in the patient group but not in the NC group. Two regions, left hippocampus [HIP.L] (1→2) and right cuneus [CUN.R] (0→3), were identified as hubs in the NC group but not in the patient group.</p>
+<fig id="pone-0081388-g004" position="float" orientation="portrait"><object-id pub-id-type="doi">10.1371/journal.pone.0081388.g004</object-id><label>Figure 4</label><caption>
+<title>Hub distributions and node-specific hub score of WM networks in both NC and post-stroke groups.</title>
+<p>(A) Hubs in the NC group are distributed in 9 orbitofrontal regions, 2 temporal regions, 2 parietal regions, 4 occipital regions, 3 limbic regions, 3 basal ganglia regions, and bilateral insula. (B) Hubs in the post-stroke group are distributed in 9 orbitofrontal regions, 2 temporal regions, 2 parietal regions, 4 occipital regions, 4 limbic regions, 2 basal ganglia regions, and bilateral insula. (C) Descendingly sorted 90 AAL brain regions using hub scores for both NC and post-stroke groups.</p>
+</caption><graphic mimetype="image" xlink:href="info:doi/10.1371/journal.pone.0081388.g004" position="float" xlink:type="simple" orientation="portrait" /></fig><table-wrap id="pone-0081388-t003" position="float" orientation="portrait"><object-id pub-id-type="doi">10.1371/journal.pone.0081388.t003</object-id><label>Table 3</label><caption>
+<title>Hubs and hub scores in NC and post stroke patients.</title>
+</caption><alternatives><graphic id="pone-0081388-t003-3" position="float" mimetype="image" xlink:href="info:doi/10.1371/journal.pone.0081388.t003" xlink:type="simple" orientation="portrait" />
+<table><colgroup span="1"><col align="left" span="1" /><col align="center" span="1" /><col align="center" span="1" /><col align="center" span="1" /></colgroup>
+<thead>
+<tr>
+<td align="left" rowspan="1" colspan="1">NC</td>
+<td align="left" rowspan="1" colspan="1" />
+<td align="left" rowspan="1" colspan="1">Post-stroke</td>
+<td align="left" rowspan="1" colspan="1" />
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1">Hubs</td>
+<td align="left" rowspan="1" colspan="1">Hub score</td>
+<td align="left" rowspan="1" colspan="1">Hubs</td>
+<td align="left" rowspan="1" colspan="1">Hub score</td>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left" rowspan="1" colspan="1">ORBsup L</td>
+<td align="left" rowspan="1" colspan="1">4</td>
+<td align="left" rowspan="1" colspan="1">ORBsup L</td>
+<td align="left" rowspan="1" colspan="1">4</td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1">ORBsup R</td>
+<td align="left" rowspan="1" colspan="1">4</td>
+<td align="left" rowspan="1" colspan="1">ORBsup R</td>
+<td align="left" rowspan="1" colspan="1">4</td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1">OLF L</td>
+<td align="left" rowspan="1" colspan="1">4</td>
+<td align="left" rowspan="1" colspan="1">OLF R</td>
+<td align="left" rowspan="1" colspan="1">4</td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1">REC L</td>
+<td align="left" rowspan="1" colspan="1">4</td>
+<td align="left" rowspan="1" colspan="1">REC L</td>
+<td align="left" rowspan="1" colspan="1">4</td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1">REC R</td>
+<td align="left" rowspan="1" colspan="1">4</td>
+<td align="left" rowspan="1" colspan="1">REC R</td>
+<td align="left" rowspan="1" colspan="1">4</td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1">PHG R</td>
+<td align="left" rowspan="1" colspan="1">4</td>
+<td align="left" rowspan="1" colspan="1">INS L</td>
+<td align="left" rowspan="1" colspan="1">4</td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1">CAL R</td>
+<td align="left" rowspan="1" colspan="1">4</td>
+<td align="left" rowspan="1" colspan="1">PHG R</td>
+<td align="left" rowspan="1" colspan="1">4</td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1">FFG L</td>
+<td align="left" rowspan="1" colspan="1">4</td>
+<td align="left" rowspan="1" colspan="1">CAL R</td>
+<td align="left" rowspan="1" colspan="1">4</td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1">FFG R</td>
+<td align="left" rowspan="1" colspan="1">4</td>
+<td align="left" rowspan="1" colspan="1">FFG L</td>
+<td align="left" rowspan="1" colspan="1">4</td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1">OLF R</td>
+<td align="left" rowspan="1" colspan="1">3</td>
+<td align="left" rowspan="1" colspan="1">FFG R</td>
+<td align="left" rowspan="1" colspan="1">4</td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1">CUN R</td>
+<td align="left" rowspan="1" colspan="1">3</td>
+<td align="left" rowspan="1" colspan="1">PUT R</td>
+<td align="left" rowspan="1" colspan="1">4</td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1">PCUN R</td>
+<td align="left" rowspan="1" colspan="1">3</td>
+<td align="left" rowspan="1" colspan="1">ORBinf L</td>
+<td align="left" rowspan="1" colspan="1">3</td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1">PUT R</td>
+<td align="left" rowspan="1" colspan="1">3</td>
+<td align="left" rowspan="1" colspan="1">OLF L</td>
+<td align="left" rowspan="1" colspan="1">3</td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1">ORBinf L</td>
+<td align="left" rowspan="1" colspan="1">2</td>
+<td align="left" rowspan="1" colspan="1">ORBint R</td>
+<td align="left" rowspan="1" colspan="1">2</td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1">ORBinf R</td>
+<td align="left" rowspan="1" colspan="1">2</td>
+<td align="left" rowspan="1" colspan="1">ORBsupmed R</td>
+<td align="left" rowspan="1" colspan="1">2</td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1">ORBsupmed.R</td>
+<td align="left" rowspan="1" colspan="1">2</td>
+<td align="left" rowspan="1" colspan="1">INS R</td>
+<td align="left" rowspan="1" colspan="1">2</td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1">INS L</td>
+<td align="left" rowspan="1" colspan="1">2</td>
+<td align="left" rowspan="1" colspan="1">HIP R</td>
+<td align="left" rowspan="1" colspan="1">2</td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1">INS R</td>
+<td align="left" rowspan="1" colspan="1">2</td>
+<td align="left" rowspan="1" colspan="1">PHG L</td>
+<td align="left" rowspan="1" colspan="1">2</td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1">HIP L</td>
+<td align="left" rowspan="1" colspan="1">2</td>
+<td align="left" rowspan="1" colspan="1">CAL L</td>
+<td align="left" rowspan="1" colspan="1">2</td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1">HIP R</td>
+<td align="left" rowspan="1" colspan="1">2</td>
+<td align="left" rowspan="1" colspan="1">LING L</td>
+<td align="left" rowspan="1" colspan="1">2</td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1">PHG L</td>
+<td align="left" rowspan="1" colspan="1">2</td>
+<td align="left" rowspan="1" colspan="1">LING R</td>
+<td align="left" rowspan="1" colspan="1">2</td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1">CAL L</td>
+<td align="left" rowspan="1" colspan="1">2</td>
+<td align="left" rowspan="1" colspan="1">PCUN L</td>
+<td align="left" rowspan="1" colspan="1">2</td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1">LING R</td>
+<td align="left" rowspan="1" colspan="1">2</td>
+<td align="left" rowspan="1" colspan="1">PCUN R</td>
+<td align="left" rowspan="1" colspan="1">2</td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1">PCUN L</td>
+<td align="left" rowspan="1" colspan="1">2</td>
+<td align="left" rowspan="1" colspan="1">CAU L</td>
+<td align="left" rowspan="1" colspan="1">2</td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1">PUT L</td>
+<td align="left" rowspan="1" colspan="1">2</td>
+<td align="left" rowspan="1" colspan="1">PUT L</td>
+<td align="left" rowspan="1" colspan="1">2</td>
+</tr>
+</tbody>
+</table>
+</alternatives></table-wrap></sec><sec id="s3c">
+<title>Nodal Characteristics Alteration</title>
+<p>The nodal characteristics (<inline-formula><inline-graphic xlink:href="info:doi/10.1371/journal.pone.0081388.e079" xlink:type="simple" /></inline-formula>, <inline-formula><inline-graphic xlink:href="info:doi/10.1371/journal.pone.0081388.e080" xlink:type="simple" /></inline-formula>, <inline-formula><inline-graphic xlink:href="info:doi/10.1371/journal.pone.0081388.e081" xlink:type="simple" /></inline-formula>, <inline-formula><inline-graphic xlink:href="info:doi/10.1371/journal.pone.0081388.e082" xlink:type="simple" /></inline-formula>, and <inline-formula><inline-graphic xlink:href="info:doi/10.1371/journal.pone.0081388.e083" xlink:type="simple" /></inline-formula>) of each cortical and subcortical region between the two groups were further compared. The <inline-formula><inline-graphic xlink:href="info:doi/10.1371/journal.pone.0081388.e084" xlink:type="simple" /></inline-formula>, <inline-formula><inline-graphic xlink:href="info:doi/10.1371/journal.pone.0081388.e085" xlink:type="simple" /></inline-formula>, and <inline-formula><inline-graphic xlink:href="info:doi/10.1371/journal.pone.0081388.e086" xlink:type="simple" /></inline-formula> of a number of regions were altered (<xref ref-type="table" rid="pone-0081388-t004">Table 4</xref>, <xref ref-type="fig" rid="pone-0081388-g005">Figures 5</xref>, <xref ref-type="fig" rid="pone-0081388-g006">6</xref>, and <xref ref-type="fig" rid="pone-0081388-g007">7</xref>). No significant alteration of the local clustering coefficient <inline-formula><inline-graphic xlink:href="info:doi/10.1371/journal.pone.0081388.e087" xlink:type="simple" /></inline-formula> and regional efficiency <inline-formula><inline-graphic xlink:href="info:doi/10.1371/journal.pone.0081388.e088" xlink:type="simple" /></inline-formula> (FDR critical <italic>p</italic>-value  = 0) were found between the two groups. The <inline-formula><inline-graphic xlink:href="info:doi/10.1371/journal.pone.0081388.e089" xlink:type="simple" /></inline-formula>, <inline-formula><inline-graphic xlink:href="info:doi/10.1371/journal.pone.0081388.e090" xlink:type="simple" /></inline-formula>, <inline-formula><inline-graphic xlink:href="info:doi/10.1371/journal.pone.0081388.e091" xlink:type="simple" /></inline-formula> of left superior occipital gyrus [SOG.L] were significantly increased.</p>
+<fig id="pone-0081388-g005" position="float" orientation="portrait"><object-id pub-id-type="doi">10.1371/journal.pone.0081388.g005</object-id><label>Figure 5</label><caption>
+<title>Group differences of node-specific connection strength (<inline-formula><inline-graphic xlink:href="info:doi/10.1371/journal.pone.0081388.e050" xlink:type="simple" /></inline-formula>) between NC and post-stroke groups.</title>
+<p>Significant increase was observed in left superior occipital gyrus [SOG.L]. Significant decrease was observed in left caudate [CAU.L] and left Inferior temporal gyrus [ITG.L].</p>
+</caption><graphic mimetype="image" xlink:href="info:doi/10.1371/journal.pone.0081388.g005" position="float" xlink:type="simple" orientation="portrait" /></fig><fig id="pone-0081388-g006" position="float" orientation="portrait"><object-id pub-id-type="doi">10.1371/journal.pone.0081388.g006</object-id><label>Figure 6</label><caption>
+<title>Group differences of nodal betweenness centrality (<inline-formula><inline-graphic xlink:href="info:doi/10.1371/journal.pone.0081388.e051" xlink:type="simple" /></inline-formula>) between NC and post-stroke groups.</title>
+<p>Significant increase was observed in left superior parietal gyrus [SPG.L], right superior parietal gyrus [SPG.R], left superior occipital gyrus [SOG.L], and left middle occipital gyrus [MOG.L]. Significant decrease was observed in left orbital part of superior frontal gyrus [ORBsup.L], orbital part of middle frontal gyrus [ORBmid.L], orbital part of inferior frontal gyrus [ORBinf.L], left gyrus rectus [REC.L], right gyrus rectus [REC.R], and left rolandic operculum [ROL.L].</p>
+</caption><graphic mimetype="image" xlink:href="info:doi/10.1371/journal.pone.0081388.g006" position="float" xlink:type="simple" orientation="portrait" /></fig><fig id="pone-0081388-g007" position="float" orientation="portrait"><object-id pub-id-type="doi">10.1371/journal.pone.0081388.g007</object-id><label>Figure 7</label><caption>
+<title>Group differences of nodal vulnerability (<inline-formula><inline-graphic xlink:href="info:doi/10.1371/journal.pone.0081388.e073" xlink:type="simple" /></inline-formula>) between NC and post-stroke groups.</title>
+<p>Significant increase was observed in left superior parietal gyrus [SPG.L], and right superior parietal gyrus [SPG.R], left cuneus [CUN.L], right cuneus [CUN.R], left superior occipital gyrus [SOG.L], and right superior occipital gyrus [SOG.R]. Significant decrease was observed in left rolandic operculum [ROL.L].</p>
+</caption><graphic mimetype="image" xlink:href="info:doi/10.1371/journal.pone.0081388.g007" position="float" xlink:type="simple" orientation="portrait" /></fig><table-wrap id="pone-0081388-t004" position="float" orientation="portrait"><object-id pub-id-type="doi">10.1371/journal.pone.0081388.t004</object-id><label>Table 4</label><caption>
+<title>Nodal characteristics comparison between post-stroke and NC.</title>
+</caption><alternatives><graphic id="pone-0081388-t004-4" position="float" mimetype="image" xlink:href="info:doi/10.1371/journal.pone.0081388.t004" xlink:type="simple" orientation="portrait" />
+<table><colgroup span="1"><col align="left" span="1" /><col align="center" span="1" /><col align="center" span="1" /></colgroup>
+<thead>
+<tr>
+<td align="left" rowspan="1" colspan="1">Post-stroke group compared to NC</td>
+<td align="left" rowspan="1" colspan="1">Increased</td>
+<td align="left" rowspan="1" colspan="1">Decreased</td>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left" rowspan="1" colspan="1"><inline-formula><inline-graphic xlink:href="info:doi/10.1371/journal.pone.0081388.e074" xlink:type="simple" /></inline-formula>(<xref ref-type="fig" rid="pone-0081388-g005">Figure 5</xref>)</td>
+<td align="left" rowspan="1" colspan="1">SOG. L (<italic>p</italic> = 0.0002<xref ref-type="table-fn" rid="nt101">★</xref>)</td>
+<td align="left" rowspan="1" colspan="1">CAU. L (<italic>p</italic> = 0.0006<xref ref-type="table-fn" rid="nt101">★</xref>)</td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1" />
+<td align="left" rowspan="1" colspan="1" />
+<td align="left" rowspan="1" colspan="1">ITG. L (<italic>p</italic> = 0.0012<xref ref-type="table-fn" rid="nt101">★</xref>)</td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1"><inline-formula><inline-graphic xlink:href="info:doi/10.1371/journal.pone.0081388.e075" xlink:type="simple" /></inline-formula></td>
+<td align="left" rowspan="1" colspan="1">No significant alteration</td>
+<td align="left" rowspan="1" colspan="1">No significant alteration</td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1"><inline-formula><inline-graphic xlink:href="info:doi/10.1371/journal.pone.0081388.e076" xlink:type="simple" /></inline-formula>(<xref ref-type="fig" rid="pone-0081388-g006">Figure 6</xref>)</td>
+<td align="left" rowspan="1" colspan="1">SPG. L (<italic>p</italic> = 0.0016<xref ref-type="table-fn" rid="nt101">★</xref>)</td>
+<td align="left" rowspan="1" colspan="1">ORBsup. L (<italic>p</italic> = 0.0038<xref ref-type="table-fn" rid="nt101">★</xref>)</td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1" />
+<td align="left" rowspan="1" colspan="1">SPG. R (<italic>p</italic> = 0.0022<xref ref-type="table-fn" rid="nt101">★</xref>)</td>
+<td align="left" rowspan="1" colspan="1">ORBmid. L (<italic>p</italic> = 0.0028<xref ref-type="table-fn" rid="nt101">★</xref>)</td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1" />
+<td align="left" rowspan="1" colspan="1">SOG. L (<italic>p</italic> = 0.0004<xref ref-type="table-fn" rid="nt101">★</xref>)</td>
+<td align="left" rowspan="1" colspan="1">ORBinf. L (<italic>p</italic> = 0.0050<xref ref-type="table-fn" rid="nt101">★</xref>)</td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1" />
+<td align="left" rowspan="1" colspan="1">MOG. L (<italic>p</italic> = 0.0010<xref ref-type="table-fn" rid="nt101">★</xref>)</td>
+<td align="left" rowspan="1" colspan="1">REC. L (<italic>p</italic> = 0.0048<xref ref-type="table-fn" rid="nt101">★</xref>)</td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1" />
+<td align="left" rowspan="1" colspan="1" />
+<td align="left" rowspan="1" colspan="1">REC. R (<italic>p</italic> = 0.0004<xref ref-type="table-fn" rid="nt101">★</xref>)</td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1" />
+<td align="left" rowspan="1" colspan="1" />
+<td align="left" rowspan="1" colspan="1">ROL. L (<italic>p</italic> = 0.0024<xref ref-type="table-fn" rid="nt101">★</xref>)</td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1"><inline-formula><inline-graphic xlink:href="info:doi/10.1371/journal.pone.0081388.e077" xlink:type="simple" /></inline-formula></td>
+<td align="left" rowspan="1" colspan="1">No significant alteration</td>
+<td align="left" rowspan="1" colspan="1">No significant alteration</td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1"><inline-formula><inline-graphic xlink:href="info:doi/10.1371/journal.pone.0081388.e078" xlink:type="simple" /></inline-formula>(<xref ref-type="fig" rid="pone-0081388-g007">Figure 7</xref>)</td>
+<td align="left" rowspan="1" colspan="1">SPG. L (<italic>p</italic> = 0.0004<xref ref-type="table-fn" rid="nt101">★</xref>)</td>
+<td align="left" rowspan="1" colspan="1">ROL. L (<italic>p</italic> = 0.0008<xref ref-type="table-fn" rid="nt101">★</xref>)</td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1" />
+<td align="left" rowspan="1" colspan="1">SPG. R (<italic>p</italic> = 0.0008<xref ref-type="table-fn" rid="nt101">★</xref>)</td>
+<td align="left" rowspan="1" colspan="1" />
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1" />
+<td align="left" rowspan="1" colspan="1">CUN. L (<italic>p</italic> = 0.0028<xref ref-type="table-fn" rid="nt101">★</xref>)</td>
+<td align="left" rowspan="1" colspan="1" />
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1" />
+<td align="left" rowspan="1" colspan="1">CUN. R (<italic>p</italic> = 0.0014<xref ref-type="table-fn" rid="nt101">★</xref>)</td>
+<td align="left" rowspan="1" colspan="1" />
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1" />
+<td align="left" rowspan="1" colspan="1">SOG. L (<italic>p</italic> = 0.0002<xref ref-type="table-fn" rid="nt101">★</xref>)</td>
+<td align="left" rowspan="1" colspan="1" />
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1" />
+<td align="left" rowspan="1" colspan="1">SOG. R (<italic>p</italic> = 0.0024<xref ref-type="table-fn" rid="nt101">★</xref>)</td>
+<td align="left" rowspan="1" colspan="1" />
+</tr>
+</tbody>
+</table>
+</alternatives><table-wrap-foot><fn id="nt101"><p><sup /> indicated the region survived critical FDR threshold.</p></fn></table-wrap-foot></table-wrap></sec><sec id="s3d">
+<title>Correlation with MMSE and NIHSS scores</title>
+<p>No significant correlations were found between MMSE score and the network properties in patient group at both the global and nodal levels. The NIHSS score of patient is correlated with the betweenness centrality of right pallidum [PAL.R] (<italic>p</italic> = 0.0000, <italic>r</italic> = 0.644) and the local clustering coefficient of left superior occipital gyrus [SOG.L] (<italic>p</italic> = 0.0002, <italic>r</italic> = 0.5523). No significant correlation was found between NIHSSS and overall graph characteristics.</p>
+</sec></sec><sec id="s4">
+<title>Discussion</title>
+<sec id="s4a">
+<title>Small-world Organization</title>
+<p>Both normal controls and patients with chronic stroke were found to demonstrate small-world architectures. In particular, patients with chronic stroke displayed small-worldness close to the values of the structural networks in previous DTI-based studies with similar age groups <xref ref-type="bibr" rid="pone.0081388-Wen2">[25]</xref>–<xref ref-type="bibr" rid="pone.0081388-Lo1">[27]</xref>. Although WM networks of patients with chronic stroke showed prominent small-world attributes, several small-world measurements were found to be significantly altered. The patients showed increased small-worldness and decreased normalized characteristic path length, suggesting a more regular organization of WM network in patients with chronic stroke. Since there are no difference in characteristic path length (global level) and regional efficiency (nodal level), the decreased normalized characteristic path length is not necessarily an advantage in a complex network. The effective balance between local specialization and global integration arising from the small-world nature of anatomical connectivity possibly conserved in patients with chronic stroke. The increased small-worldness has also been observed in schizophrenia <xref ref-type="bibr" rid="pone.0081388-Zalesky1">[33]</xref>, during recovery from traumatic brain injury <xref ref-type="bibr" rid="pone.0081388-Nakamura1">[64]</xref>, and during recovery from stroke <xref ref-type="bibr" rid="pone.0081388-vanMeer1">[32]</xref>. Furthermore, as patients with chronic stroke have not shown strong changes in local and global clustering coefficient, characteristic path length, and regional efficiency, our findings suggest the topological efficiency is not unaltered between patients and NCs.</p>
+</sec><sec id="s4b">
+<title>Alteration of Hub Distribution</title>
+<p>Compared with the hub criteria based on the level of single nodal metrics in previous DTI-based studies, such as the betweenness centrality <xref ref-type="bibr" rid="pone.0081388-Hanggi1">[65]</xref>, <xref ref-type="bibr" rid="pone.0081388-Shu2">[66]</xref> and regional efficiency <xref ref-type="bibr" rid="pone.0081388-Bai1">[26]</xref>, <xref ref-type="bibr" rid="pone.0081388-Shu1">[28]</xref>, the rank-based analysis of multiple nodal characteristics are more balanced and comprehensive. Thus, the identified hubs are partly consistent with those obtained from previous similar studies <xref ref-type="bibr" rid="pone.0081388-Hagmann2">[23]</xref>, <xref ref-type="bibr" rid="pone.0081388-vandenHeuvel1">[30]</xref>, <xref ref-type="bibr" rid="pone.0081388-Zhang1">[31]</xref>, <xref ref-type="bibr" rid="pone.0081388-Yan1">[67]</xref>. Our results indicate no significant difference of the hub distribution between groups of NC and patient with chronic stroke (NC/post-stroke: 9/9 orbitofrontal regions, 2/2 temporal regions, 2/2 parietal regions, 4/4 occipital regions, 3/4 limbic regions, 3/2 basal ganglia regions, and bilateral insula, 12/11 left hemispherical regions, 13/14 right hemispherical regions) (<xref ref-type="fig" rid="pone-0081388-g003">Figure. 3</xref>). Increased central role of right parietal-occipital cortex and decreased central role of left parietal-occipital cortex are observed in patients with chronic stroke, supported by the fact that total infarct number in left hemisphere is greater than that in right hemisphere (<xref ref-type="fig" rid="pone-0081388-g001">Figure. 1</xref>), since no difference in lesion volume (<italic>p</italic> = 0.301) or course of stroke (<italic>p</italic> = 0.864) was found between the patients with left and right lateralized infarct lesions.</p>
+</sec><sec id="s4c">
+<title>Altered Nodal Characteristics</title>
+<p>Group differences in betweenness centrality reflect the effects of the disease on the global roles of every node region. Reduced betweenness centrality is mainly observed in orbitofrontal cortex. The finding of decreased centrality in frontal lobe is in line with the pattern of frontal lobe atrophy in ischemic stroke patients <xref ref-type="bibr" rid="pone.0081388-Chen1">[7]</xref>, <xref ref-type="bibr" rid="pone.0081388-Mok1">[68]</xref>. The orbitofrontal cortex is a prefrontal cortex region in the frontal lobes which is involved in the cognitive processing of decision-making. Five regions with decreased centrality were found in left orbitofrontal cortex of patients after ischemic stroke, supported by the fact that patients with subcortical ischemic vascular disease often have executive dysfunction <xref ref-type="bibr" rid="pone.0081388-Kramer1">[35]</xref>. Furthermore, cortical thinning in orbitofrontal gyrus has shown in vascular cognitive impairment associated with small vessel ischemic disease <xref ref-type="bibr" rid="pone.0081388-Seo1">[69]</xref>. In this study, 20/47 patients exhibited cognitive impairment which support the findings of the orbitofrontal abnormalities. Decreased centrality is observed in four orbitofrontal hub regions, suggesting a decreased hub role of orbitofrontal regions in the brain network of patients. Interestingly, increased betweenness centrality is observed in parietal-occipital cortex. Increased centrality may indicate a shift to more parietal-occipital brain regions as a possible compensatory mechanism for decreased centrality of orbitofrontal regions. As the total infarct number in the left hemisphere is greater than that in the right hemisphere, the locations with altered centrality between the left and right hemispheres have showed the most asymmetry.</p>
+<p>Apart from betweenness centrality, vulnerability is also used to characterize the influence of nodes in a network. As betweenness and vulnerability quantify the node in different aspects, the nodes with higher betweenness are not necessarily more vulnerable <xref ref-type="bibr" rid="pone.0081388-Gong1">[19]</xref>. From the results in this study, the increased vulnerability is consistent with the increased betweenness in parietal-occipital cortex. Nevertheless, a decreased betweenness is found in the prefrontal cortex but no reduced vulnerability is observed. The occipital regions with increased vulnerability include cuneus [CUN] and superior occipital gyrus [SOG] in bilateral occipital lobe, which are important for visual processing. These changes suggest that these regions have increased influence in the brain communication compared with NCs. This could be a potential evidence for understanding of the visual system recovery in patients with chronic stroke. Particularly, we have observed reduction in both centrality and vulnerability in left rolandic operculum [ROL.L], which is a key component for speech processing <xref ref-type="bibr" rid="pone.0081388-Indefrey1">[70]</xref>. This finding is supported by the finding reported in the reduced white matter integrity and damaged tracts related to speech processing in post-stroke patients <xref ref-type="bibr" rid="pone.0081388-Breier1">[71]</xref>. The structural abnormality of this area was also reported to be associated with stuttering <xref ref-type="bibr" rid="pone.0081388-Watkins1">[72]</xref>.</p>
+<p>The connection strength is the most fundamental network measure, and provides information of the total degree of connectivity. Decreased connection strength is found in the left caudate [CAU.L] and left inferior temporal gyrus [ITG.L]. The altered connection strength in CAU.L is consistent with the pattern of altered communicability <xref ref-type="bibr" rid="pone.0081388-Crofts1">[16]</xref>. The region of ITG.L is known to be included in the default mode network <xref ref-type="bibr" rid="pone.0081388-Greicius1">[73]</xref>. The rs-fMRI has revealed the association between altered functional connectivity of left middle temporal cortex in the DMN and post-stroke depression severity <xref ref-type="bibr" rid="pone.0081388-LassalleLagadec1">[34]</xref>. The decreased structural connectivity may give an anatomical comprehension of post-stroke depression. Imaging evidence also reveals the connectivity alteration of this region in post-stroke aphasia recovery <xref ref-type="bibr" rid="pone.0081388-Eaton1">[74]</xref>, <xref ref-type="bibr" rid="pone.0081388-Specht1">[75]</xref>. Specifically, the left superior occipital gyrus [SOG.L] presents significant increase in connection strength, centrality, and vulnerability, which is supported by reported gray matter atrophy in patients with ischemic stroke <xref ref-type="bibr" rid="pone.0081388-Stebbins1">[6]</xref>. Recent research has associated degraded oral reading performance with acute left hemispheric stroke <xref ref-type="bibr" rid="pone.0081388-Cloutman1">[76]</xref>. The betweenness of SOG.L is also larger than its counterpart in the right hemisphere in normal subjects <xref ref-type="bibr" rid="pone.0081388-Gong1">[19]</xref>.</p>
+</sec><sec id="s4d">
+<title>Correlation with the MMSE and NIHSS scores</title>
+<p>Significant correlations were failed to be established between the MMSE score and the global or nodal characteristics. On one hand, the subjects studied are patients with no dementia, which means only mild cognitive impairment could be identified. On the other hand, MMSE provides only a general evaluation of cognitive function and suggests a compromised sensitivity in detecting mild cognitive dysfunction <xref ref-type="bibr" rid="pone.0081388-OBryant1">[77]</xref>. Furthermore, the severity of sensorimotor dysfunction, which is the major deficit after ischemic stroke, can not be reflected by MMSE. By contrast, NIHSS with more emphasis put on the aspects of sensorimotor functions was found to be correlated with the betweenness centrality of right pallidum [PAL.R] and the local clustering coefficient of SOG.L. Pallidum is mainly involved in the regulation of voluntary movement, and its change is supported by previous structural studies which revealed increased grey matter volume and cortical thickness in a series of motor-related areas during recovery from stroke <xref ref-type="bibr" rid="pone.0081388-Brodtmann1">[78]</xref>, <xref ref-type="bibr" rid="pone.0081388-Fan1">[79]</xref>. Besides, the correlation between clustering coefficient of SOG.L and NIHSS further confirmed the increased connection strength, centrality, and vulnerability observed in this region, suggesting its increasingly critical role in the reorganized network after stroke.</p>
+</sec><sec id="s4e">
+<title>Methodological Issues</title>
+<p>Some methodological issues should be taken into account when interpreting our results. First, we used AAL atlas and FNIRT in FSL to perform brain parcellation. Since there is no widely accepted standard to construct cortical and subcortical regions in the brain, network nodes defined using atlas mapping are more valuable than random parcellation. Using different atlases, i.e., AAL atlas (90 cortical and subcortical regions), the Harvard–Oxford atlas (110 cortical and subcortical regions), Destrieux cortical atlas (66 cortical regions) <xref ref-type="bibr" rid="pone.0081388-Fischl1">[80]</xref>, and LONI Probabilistic Brain Atlas (54 cortical regions) <xref ref-type="bibr" rid="pone.0081388-Shattuck1">[81]</xref>, different node sets would be generated and thus different properties of network would be produced. Although a research has suggested that the properties of WM network are highly conserved over multiple atlases and spatial resolution <xref ref-type="bibr" rid="pone.0081388-Bassett2">[82]</xref>, different parcellation strategies affect WM connectivity and may result in different topological properties <xref ref-type="bibr" rid="pone.0081388-Zalesky2">[83]</xref>. Moreover, voxel level (small area level) partition of cerebral cortex may be finer than atlas level partition if the parcellation methods are precise.</p>
+<p>Second, we used fiber connection density as the inter-regional WM connectivity in the construction of the graphs. Previous researches have suggested different connectivity matrices for the WM network construction, i.e., fiber connection density <xref ref-type="bibr" rid="pone.0081388-Hagmann2">[23]</xref>, fiber number (FN) <xref ref-type="bibr" rid="pone.0081388-Shu1">[28]</xref>, mean FA <xref ref-type="bibr" rid="pone.0081388-Wen2">[25]</xref>, normalized fiber number <xref ref-type="bibr" rid="pone.0081388-Bassett2">[82]</xref>, <xref ref-type="bibr" rid="pone.0081388-DuarteCarvajalino1">[84]</xref>, and multiplication between FN and mean FA <xref ref-type="bibr" rid="pone.0081388-Lo1">[27]</xref>). FN-based connectivity matrices are used to describe the interconnection of fiber tracts among regions of interest and should always be normalized, as the number of fibers detected varies among individuals. Mean FA is computed by averaging FA values along the tract and is used to describe the organization of the underlying white matter. Although the physiological meaning of these measures is poorly understood, both FN and FA based connectivity matrices are commonly used to characterize white matter integrity, and similar results have been found from FN-weighted and FA-weighted network <xref ref-type="bibr" rid="pone.0081388-Lo1">[27]</xref>, <xref ref-type="bibr" rid="pone.0081388-Zhang1">[31]</xref>. Compared with FN and FA, fiber connection density involved geometric measures including the volume of the cortical regions and the mean path length of fibers connecting each pair of regions is more stable.</p>
+<p>Third, we used rank-based analysis of multiple nodal characteristics to identify the hub regions, and used hub score to describe the central role of hubs. Since there is no gold standard to define anatomical hubs, single or multiple nodal measures were usually used in other DTI-based studies <xref ref-type="bibr" rid="pone.0081388-Shu1">[28]</xref>, <xref ref-type="bibr" rid="pone.0081388-vandenHeuvel1">[30]</xref>, <xref ref-type="bibr" rid="pone.0081388-Zhang1">[31]</xref>, <xref ref-type="bibr" rid="pone.0081388-Kim1">[49]</xref>. Compared with the level of single nodal metric, the rank-based criterion based on multiple nodal characteristics is more comprehensive to define a hub, and the hub score gives a quantitative description of its central role in the network.</p>
+</sec></sec><sec id="s5">
+<title>Conclusions</title>
+<p>We have applied DTI tractography, WM connection mapping, and graph theoretic analysis to demonstrate altered organization of WM network in patients with chronic stroke. In this study, we comprehensively investigated different characteristics of WM connection in patients with chronic stroke and our findings suggest that patients have reduced betweenness centrality at orbitofrontal cortex, and increased betweenness centrality and vulnerability at parietal-occipital cortex, and exhibit efficient small-world organization and unaltered topological efficiencies. Compared to the NC, patients with chronic stroke exhibit significant increase of small-worldness, and connection strength <inline-formula><inline-graphic xlink:href="info:doi/10.1371/journal.pone.0081388.e092" xlink:type="simple" /></inline-formula>, betweenness centrality <inline-formula><inline-graphic xlink:href="info:doi/10.1371/journal.pone.0081388.e093" xlink:type="simple" /></inline-formula>, and vulnerability <inline-formula><inline-graphic xlink:href="info:doi/10.1371/journal.pone.0081388.e094" xlink:type="simple" /></inline-formula> at left superior occipital gyrus [SOG.L], but significant decrease of normalized characteristic path length <inline-formula><inline-graphic xlink:href="info:doi/10.1371/journal.pone.0081388.e095" xlink:type="simple" /></inline-formula> and global betweenness centrality <inline-formula><inline-graphic xlink:href="info:doi/10.1371/journal.pone.0081388.e096" xlink:type="simple" /></inline-formula>. Our results also demonstrated the MMSE score of patients with chronic stroke is not significantly correlated with network properties.</p>
+<p>The abnormities at orbitofrontal cortex and parietal-occipital cortex may affect the information exchange, but need further verification by fMRI studies to understand the functional difference between groups. The results from this study provide extra information for understanding of white matter connectivity changes in patients with chronic stroke in addition to the diffusion parameters obtained in the previous studies <xref ref-type="bibr" rid="pone.0081388-Jones1">[85]</xref>–<xref ref-type="bibr" rid="pone.0081388-Wang4">[87]</xref>.</p>
+</sec></body>
+<back><ref-list>
+<title>References</title>
+<ref id="pone.0081388-Del1"><label>1</label>
+<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Del</surname><given-names>ST</given-names></name>, <name name-style="western"><surname>Barba</surname><given-names>R</given-names></name>, <name name-style="western"><surname>Morin</surname><given-names>MM</given-names></name>, <name name-style="western"><surname>Domingo</surname><given-names>J</given-names></name>, <name name-style="western"><surname>Cemillan</surname><given-names>C</given-names></name>, <etal>et al</etal>. (<year>2005</year>) <article-title>Evolution of cognitive impairment after stroke and risk factors for delayed progression</article-title>. <source>Stroke</source> <volume>36</volume>: <fpage>2670</fpage>–<lpage>2675</lpage>.</mixed-citation>
+</ref>
+<ref id="pone.0081388-Tatemichi1"><label>2</label>
+<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Tatemichi</surname><given-names>TK</given-names></name>, <name name-style="western"><surname>Desmond</surname><given-names>DW</given-names></name>, <name name-style="western"><surname>Stern</surname><given-names>Y</given-names></name>, <name name-style="western"><surname>Paik</surname><given-names>M</given-names></name>, <name name-style="western"><surname>Sano</surname><given-names>M</given-names></name>, <etal>et al</etal>. (<year>1994</year>) <article-title>Cognitive impairment after stroke: frequency, patterns, and relationship to functional abilities</article-title>. <source>J Neurol Neurosurg Psychiatry</source> <volume>57</volume>: <fpage>202</fpage>–<lpage>207</lpage>.</mixed-citation>
+</ref>
+<ref id="pone.0081388-RamosEstebanez1"><label>3</label>
+<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Ramos-Estebanez</surname><given-names>C</given-names></name>, <name name-style="western"><surname>Moral-Arce</surname><given-names>I</given-names></name>, <name name-style="western"><surname>Munoz-Arrondo</surname><given-names>R</given-names></name>, <name name-style="western"><surname>Gonzalez-Mandly</surname><given-names>A</given-names></name>, <name name-style="western"><surname>Matorras-Galan</surname><given-names>P</given-names></name>, <etal>et al</etal>. (<year>2008</year>) <article-title>Vascular cognitive impairment: prodromal stages of ischemic vascular dementia</article-title>. <source>Dement Geriatr Cogn Disord</source> <volume>25</volume>: <fpage>451</fpage>–<lpage>460</lpage>.</mixed-citation>
+</ref>
+<ref id="pone.0081388-Leys1"><label>4</label>
+<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Leys</surname><given-names>D</given-names></name>, <name name-style="western"><surname>Henon</surname><given-names>H</given-names></name>, <name name-style="western"><surname>Mackowiak-Cordoliani</surname><given-names>MA</given-names></name>, <name name-style="western"><surname>Pasquier</surname><given-names>F</given-names></name> (<year>2005</year>) <article-title>Poststroke dementia</article-title>. <source>Lancet Neurol</source> <volume>4</volume>: <fpage>752</fpage>–<lpage>759</lpage>.</mixed-citation>
+</ref>
+<ref id="pone.0081388-Wen1"><label>5</label>
+<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Wen</surname><given-names>W</given-names></name>, <name name-style="western"><surname>Sachdev</surname><given-names>PS</given-names></name> (<year>2004</year>) <article-title>Extent and distribution of white matter hyperintensities in stroke patients: the Sydney Stroke Study</article-title>. <source>Stroke</source> <volume>35</volume>: <fpage>2813</fpage>–<lpage>2819</lpage>.</mixed-citation>
+</ref>
+<ref id="pone.0081388-Stebbins1"><label>6</label>
+<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Stebbins</surname><given-names>GT</given-names></name>, <name name-style="western"><surname>Nyenhuis</surname><given-names>DL</given-names></name>, <name name-style="western"><surname>Wang</surname><given-names>C</given-names></name>, <name name-style="western"><surname>Cox</surname><given-names>JL</given-names></name>, <name name-style="western"><surname>Freels</surname><given-names>S</given-names></name>, <etal>et al</etal>. (<year>2008</year>) <article-title>Gray matter atrophy in patients with ischemic stroke with cognitive impairment</article-title>. <source>Stroke</source> <volume>39</volume>: <fpage>785</fpage>–<lpage>793</lpage>.</mixed-citation>
+</ref>
+<ref id="pone.0081388-Chen1"><label>7</label>
+<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Chen</surname><given-names>Y</given-names></name>, <name name-style="western"><surname>Chen</surname><given-names>X</given-names></name>, <name name-style="western"><surname>Xiao</surname><given-names>W</given-names></name>, <name name-style="western"><surname>Mok</surname><given-names>VC</given-names></name>, <name name-style="western"><surname>Wong</surname><given-names>KS</given-names></name>, <etal>et al</etal>. (<year>2009</year>) <article-title>Frontal lobe atrophy is associated with small vessel disease in ischemic stroke patients</article-title>. <source>Clin Neurol Neurosurg</source> <volume>111</volume>: <fpage>852</fpage>–<lpage>857</lpage>.</mixed-citation>
+</ref>
+<ref id="pone.0081388-Carter1"><label>8</label>
+<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Carter</surname><given-names>AR</given-names></name>, <name name-style="western"><surname>Astafiev</surname><given-names>SV</given-names></name>, <name name-style="western"><surname>Lang</surname><given-names>CE</given-names></name>, <name name-style="western"><surname>Connor</surname><given-names>LT</given-names></name>, <name name-style="western"><surname>Rengachary</surname><given-names>J</given-names></name>, <etal>et al</etal>. (<year>2010</year>) <article-title>Resting interhemispheric functional magnetic resonance imaging connectivity predicts performance after stroke</article-title>. <source>Ann Neurol</source> <volume>67</volume>: <fpage>365</fpage>–<lpage>375</lpage>.</mixed-citation>
+</ref>
+<ref id="pone.0081388-Grefkes1"><label>9</label>
+<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Grefkes</surname><given-names>C</given-names></name>, <name name-style="western"><surname>Nowak</surname><given-names>DA</given-names></name>, <name name-style="western"><surname>Eickhoff</surname><given-names>SB</given-names></name>, <name name-style="western"><surname>Dafotakis</surname><given-names>M</given-names></name>, <name name-style="western"><surname>Kust</surname><given-names>J</given-names></name>, <etal>et al</etal>. (<year>2008</year>) <article-title>Cortical connectivity after subcortical stroke assessed with functional magnetic resonance imaging</article-title>. <source>Ann Neurol</source> <volume>63</volume>: <fpage>236</fpage>–<lpage>246</lpage>.</mixed-citation>
+</ref>
+<ref id="pone.0081388-Varoquaux1"><label>10</label>
+<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Varoquaux</surname><given-names>G</given-names></name>, <name name-style="western"><surname>Baronnet</surname><given-names>F</given-names></name>, <name name-style="western"><surname>Kleinschmidt</surname><given-names>A</given-names></name>, <name name-style="western"><surname>Fillard</surname><given-names>P</given-names></name>, <name name-style="western"><surname>Thirion</surname><given-names>B</given-names></name> (<year>2010</year>) <article-title>Detection of brain functional-connectivity difference in post-stroke patients using group-level covariance modeling</article-title>. <source>Med Image Comput Comput Assist Interv</source> <volume>13</volume>: <fpage>200</fpage>–<lpage>208</lpage>.</mixed-citation>
+</ref>
+<ref id="pone.0081388-Nitkunan1"><label>11</label>
+<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Nitkunan</surname><given-names>A</given-names></name>, <name name-style="western"><surname>McIntyre</surname><given-names>DJ</given-names></name>, <name name-style="western"><surname>Barrick</surname><given-names>TR</given-names></name>, <name name-style="western"><surname>O'Sullivan</surname><given-names>M</given-names></name>, <name name-style="western"><surname>Shen</surname><given-names>Y</given-names></name>, <etal>et al</etal>. (<year>2006</year>) <article-title>Correlations between MRS and DTI in cerebral small vessel disease</article-title>. <source>Nmr Biomed</source> <volume>19</volume>: <fpage>610</fpage>–<lpage>616</lpage>.</mixed-citation>
+</ref>
+<ref id="pone.0081388-Dudink1"><label>12</label>
+<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Dudink</surname><given-names>J</given-names></name>, <name name-style="western"><surname>Counsell</surname><given-names>SJ</given-names></name>, <name name-style="western"><surname>Lequin</surname><given-names>MH</given-names></name>, <name name-style="western"><surname>Govaert</surname><given-names>PP</given-names></name> (<year>2012</year>) <article-title>DTI reveals network injury in perinatal stroke</article-title>. <source>Arch Dis Child Fetal Neonatal Ed</source> <volume>97</volume>: <fpage>362</fpage>–<lpage>364</lpage>.</mixed-citation>
+</ref>
+<ref id="pone.0081388-Wang1"><label>13</label>
+<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Wang</surname><given-names>C</given-names></name>, <name name-style="western"><surname>Stebbins</surname><given-names>GT</given-names></name>, <name name-style="western"><surname>Nyenhuis</surname><given-names>DL</given-names></name>, <name name-style="western"><surname>DeToledo-Morrell</surname><given-names>L</given-names></name>, <name name-style="western"><surname>Freels</surname><given-names>S</given-names></name>, <etal>et al</etal>. (<year>2006</year>) <article-title>Longitudinal changes in white matter following ischemic stroke: a three-year follow-up study</article-title>. <source>Neurobiol Aging</source> <volume>27</volume>: <fpage>1827</fpage>–<lpage>1833</lpage>.</mixed-citation>
+</ref>
+<ref id="pone.0081388-Williamson1"><label>14</label>
+<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Williamson</surname><given-names>J</given-names></name>, <name name-style="western"><surname>Nyenhuis</surname><given-names>D</given-names></name>, <name name-style="western"><surname>Stebbins</surname><given-names>GT</given-names></name>, <name name-style="western"><surname>Lamb</surname><given-names>D</given-names></name>, <name name-style="western"><surname>Simkus</surname><given-names>V</given-names></name>, <etal>et al</etal>. (<year>2010</year>) <article-title>Regional differences in relationships between apparent white matter integrity, cognition and mood in patients with ischemic stroke</article-title>. <source>J Clin Exp Neuropsychol</source> <volume>32</volume>: <fpage>673</fpage>–<lpage>681</lpage>.</mixed-citation>
+</ref>
+<ref id="pone.0081388-Buch1"><label>15</label>
+<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Buch</surname><given-names>ER</given-names></name>, <name name-style="western"><surname>Modir</surname><given-names>SA</given-names></name>, <name name-style="western"><surname>Fourkas</surname><given-names>AD</given-names></name>, <name name-style="western"><surname>Weber</surname><given-names>C</given-names></name>, <name name-style="western"><surname>Birbaumer</surname><given-names>N</given-names></name>, <etal>et al</etal>. (<year>2012</year>) <article-title>Parietofrontal integrity determines neural modulation associated with grasping imagery after stroke</article-title>. <source>Brain</source> <volume>135</volume>: <fpage>596</fpage>–<lpage>614</lpage>.</mixed-citation>
+</ref>
+<ref id="pone.0081388-Crofts1"><label>16</label>
+<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Crofts</surname><given-names>JJ</given-names></name>, <name name-style="western"><surname>Higham</surname><given-names>DJ</given-names></name>, <name name-style="western"><surname>Bosnell</surname><given-names>R</given-names></name>, <name name-style="western"><surname>Jbabdi</surname><given-names>S</given-names></name>, <name name-style="western"><surname>Matthews</surname><given-names>PM</given-names></name>, <etal>et al</etal>. (<year>2011</year>) <article-title>Network analysis detects changes in the contralesional hemisphere following stroke</article-title>. <source>Neuroimage</source> <volume>54</volume>: <fpage>161</fpage>–<lpage>169</lpage>.</mixed-citation>
+</ref>
+<ref id="pone.0081388-Wang2"><label>17</label>
+<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Wang</surname><given-names>L</given-names></name>, <name name-style="western"><surname>Yu</surname><given-names>C</given-names></name>, <name name-style="western"><surname>Chen</surname><given-names>H</given-names></name>, <name name-style="western"><surname>Qin</surname><given-names>W</given-names></name>, <name name-style="western"><surname>He</surname><given-names>Y</given-names></name>, <etal>et al</etal>. (<year>2010</year>) <article-title>Dynamic functional reorganization of the motor execution network after stroke</article-title>. <source>Brain</source> <volume>133</volume>: <fpage>1224</fpage>–<lpage>1238</lpage>.</mixed-citation>
+</ref>
+<ref id="pone.0081388-Black1"><label>18</label>
+<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Black</surname><given-names>S</given-names></name>, <name name-style="western"><surname>Gao</surname><given-names>F</given-names></name>, <name name-style="western"><surname>Bilbao</surname><given-names>J</given-names></name> (<year>2009</year>) <article-title>Understanding white matter disease: imaging-pathological correlations in vascular cognitive impairment</article-title>. <source>Stroke</source> <volume>40</volume>: <fpage>48</fpage>–<lpage>52</lpage>.</mixed-citation>
+</ref>
+<ref id="pone.0081388-Gong1"><label>19</label>
+<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Gong</surname><given-names>G</given-names></name>, <name name-style="western"><surname>He</surname><given-names>Y</given-names></name>, <name name-style="western"><surname>Concha</surname><given-names>L</given-names></name>, <name name-style="western"><surname>Lebel</surname><given-names>C</given-names></name>, <name name-style="western"><surname>Gross</surname><given-names>DW</given-names></name>, <etal>et al</etal>. (<year>2009</year>) <article-title>Mapping anatomical connectivity patterns of human cerebral cortex using in vivo diffusion tensor imaging tractography</article-title>. <source>Cereb Cortex</source> <volume>19</volume>: <fpage>524</fpage>–<lpage>536</lpage>.</mixed-citation>
+</ref>
+<ref id="pone.0081388-Hagmann1"><label>20</label>
+<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Hagmann</surname><given-names>P</given-names></name>, <name name-style="western"><surname>Kurant</surname><given-names>M</given-names></name>, <name name-style="western"><surname>Gigandet</surname><given-names>X</given-names></name>, <name name-style="western"><surname>Thiran</surname><given-names>P</given-names></name>, <name name-style="western"><surname>Wedeen</surname><given-names>VJ</given-names></name>, <etal>et al</etal>. (<year>2007</year>) <article-title>Mapping human whole-brain structural networks with diffusion MRI</article-title>. <source>PLoS One</source> <volume>2</volume>: <fpage>e597</fpage>.</mixed-citation>
+</ref>
+<ref id="pone.0081388-Lazar1"><label>21</label>
+<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Lazar</surname><given-names>M</given-names></name> (<year>2010</year>) <article-title>Mapping brain anatomical connectivity using white matter tractography</article-title>. <source>Nmr Biomed</source> <volume>23</volume>: <fpage>821</fpage>–<lpage>835</lpage>.</mixed-citation>
+</ref>
+<ref id="pone.0081388-Bullmore1"><label>22</label>
+<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Bullmore</surname><given-names>E</given-names></name>, <name name-style="western"><surname>Sporns</surname><given-names>O</given-names></name> (<year>2009</year>) <article-title>Complex brain networks: graph theoretical analysis of structural and functional systems</article-title>. <source>Nat Rev Neurosci</source> <volume>10</volume>: <fpage>186</fpage>–<lpage>198</lpage>.</mixed-citation>
+</ref>
+<ref id="pone.0081388-Hagmann2"><label>23</label>
+<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Hagmann</surname><given-names>P</given-names></name>, <name name-style="western"><surname>Cammoun</surname><given-names>L</given-names></name>, <name name-style="western"><surname>Gigandet</surname><given-names>X</given-names></name>, <name name-style="western"><surname>Meuli</surname><given-names>R</given-names></name>, <name name-style="western"><surname>Honey</surname><given-names>CJ</given-names></name>, <etal>et al</etal>. (<year>2008</year>) <article-title>Mapping the structural core of human cerebral cortex</article-title>. <source>PLoS Biol</source> <volume>6</volume>: <fpage>e159</fpage>.</mixed-citation>
+</ref>
+<ref id="pone.0081388-IturriaMedina1"><label>24</label>
+<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Iturria-Medina</surname><given-names>Y</given-names></name>, <name name-style="western"><surname>Sotero</surname><given-names>RC</given-names></name>, <name name-style="western"><surname>Canales-Rodriguez</surname><given-names>EJ</given-names></name>, <name name-style="western"><surname>Aleman-Gomez</surname><given-names>Y</given-names></name>, <name name-style="western"><surname>Melie-Garcia</surname><given-names>L</given-names></name> (<year>2008</year>) <article-title>Studying the human brain anatomical network via diffusion-weighted MRI and Graph Theory</article-title>. <source>Neuroimage</source> <volume>40</volume>: <fpage>1064</fpage>–<lpage>1076</lpage>.</mixed-citation>
+</ref>
+<ref id="pone.0081388-Wen2"><label>25</label>
+<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Wen</surname><given-names>W</given-names></name>, <name name-style="western"><surname>Zhu</surname><given-names>W</given-names></name>, <name name-style="western"><surname>He</surname><given-names>Y</given-names></name>, <name name-style="western"><surname>Kochan</surname><given-names>NA</given-names></name>, <name name-style="western"><surname>Reppermund</surname><given-names>S</given-names></name>, <etal>et al</etal>. (<year>2011</year>) <article-title>Discrete neuroanatomical networks are associated with specific cognitive abilities in old age</article-title>. <source>J Neurosci</source> <volume>31</volume>: <fpage>1204</fpage>–<lpage>1212</lpage>.</mixed-citation>
+</ref>
+<ref id="pone.0081388-Bai1"><label>26</label>
+<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Bai</surname><given-names>F</given-names></name>, <name name-style="western"><surname>Shu</surname><given-names>N</given-names></name>, <name name-style="western"><surname>Yuan</surname><given-names>Y</given-names></name>, <name name-style="western"><surname>Shi</surname><given-names>Y</given-names></name>, <name name-style="western"><surname>Yu</surname><given-names>H</given-names></name>, <etal>et al</etal>. (<year>2012</year>) <article-title>Topologically convergent and divergent structural connectivity patterns between patients with remitted geriatric depression and amnestic mild cognitive impairment</article-title>. <source>J Neurosci</source> <volume>32</volume>: <fpage>4307</fpage>–<lpage>4318</lpage>.</mixed-citation>
+</ref>
+<ref id="pone.0081388-Lo1"><label>27</label>
+<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Lo</surname><given-names>CY</given-names></name>, <name name-style="western"><surname>Wang</surname><given-names>PN</given-names></name>, <name name-style="western"><surname>Chou</surname><given-names>KH</given-names></name>, <name name-style="western"><surname>Wang</surname><given-names>J</given-names></name>, <name name-style="western"><surname>He</surname><given-names>Y</given-names></name>, <etal>et al</etal>. (<year>2010</year>) <article-title>Diffusion tensor tractography reveals abnormal topological organization in structural cortical networks in Alzheimer's disease</article-title>. <source>J Neurosci</source> <volume>30</volume>: <fpage>16876</fpage>–<lpage>16885</lpage>.</mixed-citation>
+</ref>
+<ref id="pone.0081388-Shu1"><label>28</label>
+<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Shu</surname><given-names>N</given-names></name>, <name name-style="western"><surname>Liu</surname><given-names>Y</given-names></name>, <name name-style="western"><surname>Li</surname><given-names>K</given-names></name>, <name name-style="western"><surname>Duan</surname><given-names>Y</given-names></name>, <name name-style="western"><surname>Wang</surname><given-names>J</given-names></name>, <etal>et al</etal>. (<year>2011</year>) <article-title>Diffusion tensor tractography reveals disrupted topological efficiency in white matter structural networks in multiple sclerosis</article-title>. <source>Cereb Cortex</source> <volume>21</volume>: <fpage>2565</fpage>–<lpage>2577</lpage>.</mixed-citation>
+</ref>
+<ref id="pone.0081388-Vaessen1"><label>29</label>
+<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Vaessen</surname><given-names>MJ</given-names></name>, <name name-style="western"><surname>Jansen</surname><given-names>JF</given-names></name>, <name name-style="western"><surname>Vlooswijk</surname><given-names>MC</given-names></name>, <name name-style="western"><surname>Hofman</surname><given-names>PA</given-names></name>, <name name-style="western"><surname>Majoie</surname><given-names>HJ</given-names></name>, <etal>et al</etal>. (<year>2012</year>) <article-title>White matter network abnormalities are associated with cognitive decline in chronic epilepsy</article-title>. <source>Cereb Cortex</source> <volume>22</volume>: <fpage>2139</fpage>–<lpage>2147</lpage>.</mixed-citation>
+</ref>
+<ref id="pone.0081388-vandenHeuvel1"><label>30</label>
+<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>van den Heuvel</surname><given-names>MP</given-names></name>, <name name-style="western"><surname>Mandl</surname><given-names>RC</given-names></name>, <name name-style="western"><surname>Stam</surname><given-names>CJ</given-names></name>, <name name-style="western"><surname>Kahn</surname><given-names>RS</given-names></name>, <name name-style="western"><surname>Hulshoff</surname><given-names>PH</given-names></name> (<year>2010</year>) <article-title>Aberrant frontal and temporal complex network structure in schizophrenia: a graph theoretical analysis</article-title>. <source>J Neurosci</source> <volume>30</volume>: <fpage>15915</fpage>–<lpage>15926</lpage>.</mixed-citation>
+</ref>
+<ref id="pone.0081388-Zhang1"><label>31</label>
+<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Zhang</surname><given-names>Z</given-names></name>, <name name-style="western"><surname>Liao</surname><given-names>W</given-names></name>, <name name-style="western"><surname>Chen</surname><given-names>H</given-names></name>, <name name-style="western"><surname>Mantini</surname><given-names>D</given-names></name>, <name name-style="western"><surname>Ding</surname><given-names>JR</given-names></name>, <etal>et al</etal>. (<year>2011</year>) <article-title>Altered functional-structural coupling of large-scale brain networks in idiopathic generalized epilepsy</article-title>. <source>Brain</source> <volume>134</volume>: <fpage>2912</fpage>–<lpage>2928</lpage>.</mixed-citation>
+</ref>
+<ref id="pone.0081388-vanMeer1"><label>32</label>
+<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>van Meer</surname><given-names>MP</given-names></name>, <name name-style="western"><surname>Otte</surname><given-names>WM</given-names></name>, <name name-style="western"><surname>van der Marel</surname><given-names>K</given-names></name>, <name name-style="western"><surname>Nijboer</surname><given-names>CH</given-names></name>, <name name-style="western"><surname>Kavelaars</surname><given-names>A</given-names></name>, <etal>et al</etal>. (<year>2012</year>) <article-title>Extent of bilateral neuronal network reorganization and functional recovery in relation to stroke severity</article-title>. <source>J Neurosci</source> <volume>32</volume>: <fpage>4495</fpage>–<lpage>4507</lpage>.</mixed-citation>
+</ref>
+<ref id="pone.0081388-Zalesky1"><label>33</label>
+<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Zalesky</surname><given-names>A</given-names></name>, <name name-style="western"><surname>Fornito</surname><given-names>A</given-names></name>, <name name-style="western"><surname>Seal</surname><given-names>ML</given-names></name>, <name name-style="western"><surname>Cocchi</surname><given-names>L</given-names></name>, <name name-style="western"><surname>Westin</surname><given-names>CF</given-names></name>, <etal>et al</etal>. (<year>2011</year>) <article-title>Disrupted axonal fiber connectivity in schizophrenia</article-title>. <source>Biol Psychiatry</source> <volume>69</volume>: <fpage>80</fpage>–<lpage>89</lpage>.</mixed-citation>
+</ref>
+<ref id="pone.0081388-LassalleLagadec1"><label>34</label>
+<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Lassalle-Lagadec</surname><given-names>S</given-names></name>, <name name-style="western"><surname>Sibon</surname><given-names>I</given-names></name>, <name name-style="western"><surname>Dilharreguy</surname><given-names>B</given-names></name>, <name name-style="western"><surname>Renou</surname><given-names>P</given-names></name>, <name name-style="western"><surname>Fleury</surname><given-names>O</given-names></name>, <etal>et al</etal>. (<year>2012</year>) <article-title>Subacute default mode network dysfunction in the prediction of post-stroke depression severity</article-title>. <source>Radiology</source> <volume>264</volume>: <fpage>218</fpage>–<lpage>224</lpage>.</mixed-citation>
+</ref>
+<ref id="pone.0081388-Kramer1"><label>35</label>
+<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Kramer</surname><given-names>JH</given-names></name>, <name name-style="western"><surname>Reed</surname><given-names>BR</given-names></name>, <name name-style="western"><surname>Mungas</surname><given-names>D</given-names></name>, <name name-style="western"><surname>Weiner</surname><given-names>MW</given-names></name>, <name name-style="western"><surname>Chui</surname><given-names>HC</given-names></name> (<year>2002</year>) <article-title>Executive dysfunction in subcortical ischaemic vascular disease</article-title>. <source>J Neurol Neurosurg Psychiatry</source> <volume>72</volume>: <fpage>217</fpage>–<lpage>220</lpage>.</mixed-citation>
+</ref>
+<ref id="pone.0081388-Cha1"><label>36</label>
+<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Cha</surname><given-names>J</given-names></name>, <name name-style="western"><surname>Jo</surname><given-names>HJ</given-names></name>, <name name-style="western"><surname>Kim</surname><given-names>HJ</given-names></name>, <name name-style="western"><surname>Seo</surname><given-names>SW</given-names></name>, <name name-style="western"><surname>Kim</surname><given-names>HS</given-names></name>, <etal>et al</etal>. (<year>2013</year>) <article-title>Functional alteration patterns of default mode networks: comparisons of normal aging, amnestic mild cognitive impairment and Alzheimer's disease</article-title>. <source>Eur J Neurosci</source> <volume>37</volume>: <fpage>1916</fpage>–<lpage>1924</lpage>.</mixed-citation>
+</ref>
+<ref id="pone.0081388-Jiang1"><label>37</label>
+<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Jiang</surname><given-names>L</given-names></name>, <name name-style="western"><surname>Xu</surname><given-names>H</given-names></name>, <name name-style="western"><surname>Yu</surname><given-names>C</given-names></name> (<year>2013</year>) <article-title>Brain connectivity plasticity in the motor network after ischemic stroke</article-title>. <source>Neural Plast</source> <volume>2013</volume>: <fpage>924192</fpage>.</mixed-citation>
+</ref>
+<ref id="pone.0081388-Foulkes1"><label>38</label>
+<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Foulkes</surname><given-names>MA</given-names></name>, <name name-style="western"><surname>Wolf</surname><given-names>PA</given-names></name>, <name name-style="western"><surname>Price</surname><given-names>TR</given-names></name>, <name name-style="western"><surname>Mohr</surname><given-names>JP</given-names></name>, <name name-style="western"><surname>Hier</surname><given-names>DB</given-names></name> (<year>1988</year>) <article-title>The Stroke Data Bank: design, methods, and baseline characteristics</article-title>. <source>Stroke</source> <volume>19</volume>: <fpage>547</fpage>–<lpage>554</lpage>.</mixed-citation>
+</ref>
+<ref id="pone.0081388-Wong1"><label>39</label>
+<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Wong</surname><given-names>A</given-names></name>, <name name-style="western"><surname>Xiong</surname><given-names>YY</given-names></name>, <name name-style="western"><surname>Wang</surname><given-names>D</given-names></name>, <name name-style="western"><surname>Lin</surname><given-names>S</given-names></name>, <name name-style="western"><surname>Chu</surname><given-names>WW</given-names></name>, <etal>et al</etal>. (<year>2013</year>) <article-title>The NINDS-Canadian stroke network vascular cognitive impairment neuropsychology protocols in Chinese</article-title>. <source>J Neurol Neurosurg Psychiatry</source> <volume>84</volume>: <fpage>499</fpage>–<lpage>504</lpage>.</mixed-citation>
+</ref>
+<ref id="pone.0081388-Jenkinson1"><label>40</label>
+<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Jenkinson</surname><given-names>M</given-names></name>, <name name-style="western"><surname>Smith</surname><given-names>S</given-names></name> (<year>2001</year>) <article-title>A global optimisation method for robust affine registration of brain images</article-title>. <source>Med Image Anal</source> <volume>5</volume>: <fpage>143</fpage>–<lpage>156</lpage>.</mixed-citation>
+</ref>
+<ref id="pone.0081388-Andersson1"><label>41</label>
+<mixed-citation publication-type="other" xlink:type="simple">Andersson JLR, Jenkinson M, Smith S (2007) Non-linear registration, aka spatial normalization. FMRIB technical report TR07JA2 2007.</mixed-citation>
+</ref>
+<ref id="pone.0081388-TzourioMazoyer1"><label>42</label>
+<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Tzourio-Mazoyer</surname><given-names>N</given-names></name>, <name name-style="western"><surname>Landeau</surname><given-names>B</given-names></name>, <name name-style="western"><surname>Papathanassiou</surname><given-names>D</given-names></name>, <name name-style="western"><surname>Crivello</surname><given-names>F</given-names></name>, <name name-style="western"><surname>Etard</surname><given-names>O</given-names></name>, <etal>et al</etal>. (<year>2002</year>) <article-title>Automated anatomical labeling of activations in SPM using a macroscopic anatomical parcellation of the MNI MRI single-subject brain</article-title>. <source>Neuroimage</source> <volume>15</volume>: <fpage>273</fpage>–<lpage>289</lpage>.</mixed-citation>
+</ref>
+<ref id="pone.0081388-Mori1"><label>43</label>
+<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Mori</surname><given-names>S</given-names></name>, <name name-style="western"><surname>Oishi</surname><given-names>K</given-names></name>, <name name-style="western"><surname>Jiang</surname><given-names>H</given-names></name>, <name name-style="western"><surname>Jiang</surname><given-names>L</given-names></name>, <name name-style="western"><surname>Li</surname><given-names>X</given-names></name>, <etal>et al</etal>. (<year>2008</year>) <article-title>Stereotaxic white matter atlas based on diffusion tensor imaging in an ICBM template</article-title>. <source>Neuroimage</source> <volume>40</volume>: <fpage>570</fpage>–<lpage>582</lpage>.</mixed-citation>
+</ref>
+<ref id="pone.0081388-Smith1"><label>44</label>
+<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Smith</surname><given-names>SM</given-names></name>, <name name-style="western"><surname>Jenkinson</surname><given-names>M</given-names></name>, <name name-style="western"><surname>Woolrich</surname><given-names>MW</given-names></name>, <name name-style="western"><surname>Beckmann</surname><given-names>CF</given-names></name>, <name name-style="western"><surname>Behrens</surname><given-names>TE</given-names></name>, <etal>et al</etal>. (<year>2004</year>) <article-title>Advances in functional and structural MR image analysis and implementation as FSL</article-title>. <source>Neuroimage</source> <volume>23</volume> Suppl 1<fpage>S208</fpage>–<lpage>S219</lpage>.</mixed-citation>
+</ref>
+<ref id="pone.0081388-Smith2"><label>45</label>
+<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Smith</surname><given-names>SM</given-names></name> (<year>2002</year>) <article-title>Fast robust automated brain extraction</article-title>. <source>Hum Brain Mapp</source> <volume>17</volume>: <fpage>143</fpage>–<lpage>155</lpage>.</mixed-citation>
+</ref>
+<ref id="pone.0081388-Wang3"><label>46</label>
+<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Wang</surname><given-names>R</given-names></name>, <name name-style="western"><surname>Beener</surname><given-names>T</given-names></name>, <name name-style="western"><surname>Sorensen</surname><given-names>AG</given-names></name>, <name name-style="western"><surname>Weeden</surname><given-names>VJ</given-names></name> (<year>2007</year>) <article-title>Diffusion toolkit: A software package for diffusion imaging data processing and tractography</article-title>. <source>Intl Soc Mag Reson Med</source> <volume>15</volume>: <fpage>3720</fpage>.</mixed-citation>
+</ref>
+<ref id="pone.0081388-Mori2"><label>47</label>
+<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Mori</surname><given-names>S</given-names></name>, <name name-style="western"><surname>Crain</surname><given-names>BJ</given-names></name>, <name name-style="western"><surname>Chacko</surname><given-names>VP</given-names></name>, <name name-style="western"><surname>van Zijl</surname><given-names>PC</given-names></name> (<year>1999</year>) <article-title>Three-dimensional tracking of axonal projections in the brain by magnetic resonance imaging</article-title>. <source>Ann Neurol</source> <volume>45</volume>: <fpage>265</fpage>–<lpage>269</lpage>.</mixed-citation>
+</ref>
+<ref id="pone.0081388-Cheng1"><label>48</label>
+<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Cheng</surname><given-names>H</given-names></name>, <name name-style="western"><surname>Wang</surname><given-names>Y</given-names></name>, <name name-style="western"><surname>Sheng</surname><given-names>J</given-names></name>, <name name-style="western"><surname>Sporns</surname><given-names>O</given-names></name>, <name name-style="western"><surname>Kronenberger</surname><given-names>WG</given-names></name>, <etal>et al</etal>. (<year>2012</year>) <article-title>Optimization of seed density in DTI tractography for structural networks</article-title>. <source>J Neurosci Methods</source> <volume>203</volume>: <fpage>264</fpage>–<lpage>272</lpage>.</mixed-citation>
+</ref>
+<ref id="pone.0081388-Kim1"><label>49</label>
+<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Kim</surname><given-names>DJ</given-names></name>, <name name-style="western"><surname>Skosnik</surname><given-names>PD</given-names></name>, <name name-style="western"><surname>Cheng</surname><given-names>H</given-names></name>, <name name-style="western"><surname>Pruce</surname><given-names>BJ</given-names></name>, <name name-style="western"><surname>Brumbaugh</surname><given-names>MS</given-names></name>, <etal>et al</etal>. (<year>2011</year>) <article-title>Structural network topology revealed by white matter tractography in cannabis users: a graph theoretical analysis</article-title>. <source>Brain Connect</source> <volume>1</volume>: <fpage>473</fpage>–<lpage>483</lpage>.</mixed-citation>
+</ref>
+<ref id="pone.0081388-Rubinov1"><label>50</label>
+<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Rubinov</surname><given-names>M</given-names></name>, <name name-style="western"><surname>Sporns</surname><given-names>O</given-names></name> (<year>2010</year>) <article-title>Complex network measures of brain connectivity: uses and interpretations</article-title>. <source>Neuroimage</source> <volume>52</volume>: <fpage>1059</fpage>–<lpage>1069</lpage>.</mixed-citation>
+</ref>
+<ref id="pone.0081388-Onnela1"><label>51</label>
+<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Onnela</surname><given-names>JP</given-names></name>, <name name-style="western"><surname>Saramaki</surname><given-names>J</given-names></name>, <name name-style="western"><surname>Kertesz</surname><given-names>J</given-names></name>, <name name-style="western"><surname>Kaski</surname><given-names>K</given-names></name> (<year>2005</year>) <article-title>Intensity and coherence of motifs in weighted complex networks</article-title>. <source>Phys Rev E Stat Nonlin Soft Matter Phys</source> <volume>71</volume>: <fpage>65103</fpage>.</mixed-citation>
+</ref>
+<ref id="pone.0081388-Watts1"><label>52</label>
+<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Watts</surname><given-names>DJ</given-names></name>, <name name-style="western"><surname>Strogatz</surname><given-names>SH</given-names></name> (<year>1998</year>) <article-title>Collective dynamics of ‘small-world’ networks</article-title>. <source>Nature</source> <volume>393</volume>: <fpage>440</fpage>–<lpage>442</lpage>.</mixed-citation>
+</ref>
+<ref id="pone.0081388-Freeman1"><label>53</label>
+<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Freeman</surname><given-names>LC</given-names></name> (<year>1977</year>) <article-title>A set of measures of centrality based on betweenness</article-title>. <source>Sociometry</source> <volume>40</volume>: <fpage>35</fpage>–<lpage>41</lpage>.</mixed-citation>
+</ref>
+<ref id="pone.0081388-Girvan1"><label>54</label>
+<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Girvan</surname><given-names>M</given-names></name>, <name name-style="western"><surname>Newman</surname><given-names>ME</given-names></name> (<year>2002</year>) <article-title>Community structure in social and biological networks</article-title>. <source>Proc Natl Acad Sci U S A</source> <volume>99</volume>: <fpage>7821</fpage>–<lpage>7826</lpage>.</mixed-citation>
+</ref>
+<ref id="pone.0081388-Achard1"><label>55</label>
+<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Achard</surname><given-names>S</given-names></name>, <name name-style="western"><surname>Bullmore</surname><given-names>E</given-names></name> (<year>2007</year>) <article-title>Efficiency and cost of economical brain functional networks</article-title>. <source>PLoS Comput Biol</source> <volume>3</volume>: <fpage>e17</fpage>.</mixed-citation>
+</ref>
+<ref id="pone.0081388-Costa1"><label>56</label>
+<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Costa</surname><given-names>L</given-names></name>, <name name-style="western"><surname>Rodrigues</surname><given-names>FA</given-names></name>, <name name-style="western"><surname>Travieso</surname><given-names>G</given-names></name>, <name name-style="western"><surname>Villas Boas</surname><given-names>PR</given-names></name> (<year>2007</year>) <article-title>Characterization of complex networks: A survey of measurements</article-title>. <source>Adv Phys</source> <volume>56</volume>: <fpage>167</fpage>–<lpage>242</lpage>.</mixed-citation>
+</ref>
+<ref id="pone.0081388-Newman1"><label>57</label>
+<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Newman</surname><given-names>MEJ</given-names></name> (<year>2003</year>) <article-title>The structure and function of complex networks</article-title>. <source>Siam Rev</source> <volume>45</volume>: <fpage>167</fpage>–<lpage>256</lpage>.</mixed-citation>
+</ref>
+<ref id="pone.0081388-Sporns1"><label>58</label>
+<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Sporns</surname><given-names>O</given-names></name>, <name name-style="western"><surname>Chialvo</surname><given-names>DR</given-names></name>, <name name-style="western"><surname>Kaiser</surname><given-names>M</given-names></name>, <name name-style="western"><surname>Hilgetag</surname><given-names>CC</given-names></name> (<year>2004</year>) <article-title>Organization, development and function of complex brain networks</article-title>. <source>Trends Cogn Sci</source> <volume>8</volume>: <fpage>418</fpage>–<lpage>425</lpage>.</mixed-citation>
+</ref>
+<ref id="pone.0081388-Humphries1"><label>59</label>
+<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Humphries</surname><given-names>MD</given-names></name>, <name name-style="western"><surname>Gurney</surname><given-names>K</given-names></name>, <name name-style="western"><surname>Prescott</surname><given-names>TJ</given-names></name> (<year>2006</year>) <article-title>The brainstem reticular formation is a small-world, not scale-free, network</article-title>. <source>Proc Biol Sci</source> <volume>273</volume>: <fpage>503</fpage>–<lpage>511</lpage>.</mixed-citation>
+</ref>
+<ref id="pone.0081388-Bassett1"><label>60</label>
+<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Bassett</surname><given-names>DS</given-names></name>, <name name-style="western"><surname>Bullmore</surname><given-names>E</given-names></name>, <name name-style="western"><surname>Verchinski</surname><given-names>BA</given-names></name>, <name name-style="western"><surname>Mattay</surname><given-names>VS</given-names></name>, <name name-style="western"><surname>Weinberger</surname><given-names>DR</given-names></name>, <etal>et al</etal>. (<year>2008</year>) <article-title>Hierarchical organization of human cortical networks in health and schizophrenia</article-title>. <source>J Neurosci</source> <volume>28</volume>: <fpage>9239</fpage>–<lpage>9248</lpage>.</mixed-citation>
+</ref>
+<ref id="pone.0081388-Sporns2"><label>61</label>
+<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Sporns</surname><given-names>O</given-names></name>, <name name-style="western"><surname>Honey</surname><given-names>CJ</given-names></name>, <name name-style="western"><surname>Kotter</surname><given-names>R</given-names></name> (<year>2007</year>) <article-title>Identification and classification of hubs in brain networks</article-title>. <source>PLoS One</source> <volume>2</volume>: <fpage>e1049</fpage>.</mixed-citation>
+</ref>
+<ref id="pone.0081388-Tian1"><label>62</label>
+<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Tian</surname><given-names>L</given-names></name>, <name name-style="western"><surname>Wang</surname><given-names>J</given-names></name>, <name name-style="western"><surname>Yan</surname><given-names>C</given-names></name>, <name name-style="western"><surname>He</surname><given-names>Y</given-names></name> (<year>2011</year>) <article-title>Hemisphere- and gender-related differences in small-world brain networks: a resting-state functional MRI study</article-title>. <source>Neuroimage</source> <volume>54</volume>: <fpage>191</fpage>–<lpage>202</lpage>.</mixed-citation>
+</ref>
+<ref id="pone.0081388-Benjamini1"><label>63</label>
+<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Benjamini</surname><given-names>Y</given-names></name>, <name name-style="western"><surname>Hochberg</surname><given-names>Y</given-names></name> (<year>1995</year>) <article-title>Controlling the false discovery rate – a practical and powerful approach to multiple testing</article-title>. <source>J R Stat Soc Series B Stat Methodol</source> <volume>57</volume>: <fpage>289</fpage>–<lpage>300</lpage>.</mixed-citation>
+</ref>
+<ref id="pone.0081388-Nakamura1"><label>64</label>
+<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Nakamura</surname><given-names>T</given-names></name>, <name name-style="western"><surname>Hillary</surname><given-names>FG</given-names></name>, <name name-style="western"><surname>Biswal</surname><given-names>BB</given-names></name> (<year>2009</year>) <article-title>Resting network plasticity following brain injury</article-title>. <source>PLoS One</source> <volume>4</volume>: <fpage>e8220</fpage>.</mixed-citation>
+</ref>
+<ref id="pone.0081388-Hanggi1"><label>65</label>
+<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Hanggi</surname><given-names>J</given-names></name>, <name name-style="western"><surname>Wotruba</surname><given-names>D</given-names></name>, <name name-style="western"><surname>Jancke</surname><given-names>L</given-names></name> (<year>2011</year>) <article-title>Globally altered structural brain network topology in grapheme-color synesthesia</article-title>. <source>J Neurosci</source> <volume>31</volume>: <fpage>5816</fpage>–<lpage>5828</lpage>.</mixed-citation>
+</ref>
+<ref id="pone.0081388-Shu2"><label>66</label>
+<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Shu</surname><given-names>N</given-names></name>, <name name-style="western"><surname>Liu</surname><given-names>Y</given-names></name>, <name name-style="western"><surname>Li</surname><given-names>J</given-names></name>, <name name-style="western"><surname>Li</surname><given-names>Y</given-names></name>, <name name-style="western"><surname>Yu</surname><given-names>C</given-names></name>, <etal>et al</etal>. (<year>2009</year>) <article-title>Altered anatomical network in early blindness revealed by diffusion tensor tractography</article-title>. <source>PLoS One</source> <volume>4</volume>: <fpage>e7228</fpage>.</mixed-citation>
+</ref>
+<ref id="pone.0081388-Yan1"><label>67</label>
+<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Yan</surname><given-names>C</given-names></name>, <name name-style="western"><surname>Gong</surname><given-names>G</given-names></name>, <name name-style="western"><surname>Wang</surname><given-names>J</given-names></name>, <name name-style="western"><surname>Wang</surname><given-names>D</given-names></name>, <name name-style="western"><surname>Liu</surname><given-names>D</given-names></name>, <etal>et al</etal>. (<year>2011</year>) <article-title>Sex- and brain size-related small-world structural cortical networks in young adults: a DTI tractography study</article-title>. <source>Cereb Cortex</source> <volume>21</volume>: <fpage>449</fpage>–<lpage>458</lpage>.</mixed-citation>
+</ref>
+<ref id="pone.0081388-Mok1"><label>68</label>
+<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Mok</surname><given-names>V</given-names></name>, <name name-style="western"><surname>Wong</surname><given-names>A</given-names></name>, <name name-style="western"><surname>Tang</surname><given-names>WK</given-names></name>, <name name-style="western"><surname>Lam</surname><given-names>WW</given-names></name>, <name name-style="western"><surname>Fan</surname><given-names>YH</given-names></name>, <etal>et al</etal>. (<year>2005</year>) <article-title>Determinants of prestroke cognitive impairment in stroke associated with small vessel disease</article-title>. <source>Dement Geriatr Cogn Disord</source> <volume>20</volume>: <fpage>225</fpage>–<lpage>230</lpage>.</mixed-citation>
+</ref>
+<ref id="pone.0081388-Seo1"><label>69</label>
+<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Seo</surname><given-names>SW</given-names></name>, <name name-style="western"><surname>Ahn</surname><given-names>J</given-names></name>, <name name-style="western"><surname>Yoon</surname><given-names>U</given-names></name>, <name name-style="western"><surname>Im</surname><given-names>K</given-names></name>, <name name-style="western"><surname>Lee</surname><given-names>JM</given-names></name>, <etal>et al</etal>. (<year>2010</year>) <article-title>Cortical thinning in vascular mild cognitive impairment and vascular dementia of subcortical type</article-title>. <source>J Neuroimaging</source> <volume>20</volume>: <fpage>37</fpage>–<lpage>45</lpage>.</mixed-citation>
+</ref>
+<ref id="pone.0081388-Indefrey1"><label>70</label>
+<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Indefrey</surname><given-names>P</given-names></name>, <name name-style="western"><surname>Brown</surname><given-names>CM</given-names></name>, <name name-style="western"><surname>Hellwig</surname><given-names>F</given-names></name>, <name name-style="western"><surname>Amunts</surname><given-names>K</given-names></name>, <name name-style="western"><surname>Herzog</surname><given-names>H</given-names></name>, <etal>et al</etal>. (<year>2001</year>) <article-title>A neural correlate of syntactic encoding during speech production</article-title>. <source>Proc Natl Acad Sci U S A</source> <volume>98</volume>: <fpage>5933</fpage>–<lpage>5936</lpage>.</mixed-citation>
+</ref>
+<ref id="pone.0081388-Breier1"><label>71</label>
+<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Breier</surname><given-names>JI</given-names></name>, <name name-style="western"><surname>Hasan</surname><given-names>KM</given-names></name>, <name name-style="western"><surname>Zhang</surname><given-names>W</given-names></name>, <name name-style="western"><surname>Men</surname><given-names>D</given-names></name>, <name name-style="western"><surname>Papanicolaou</surname><given-names>AC</given-names></name> (<year>2008</year>) <article-title>Language dysfunction after stroke and damage to white matter tracts evaluated using diffusion tensor imaging</article-title>. <source>AJNR Am J Neuroradiol</source> <volume>29</volume>: <fpage>483</fpage>–<lpage>487</lpage>.</mixed-citation>
+</ref>
+<ref id="pone.0081388-Watkins1"><label>72</label>
+<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Watkins</surname><given-names>KE</given-names></name>, <name name-style="western"><surname>Smith</surname><given-names>SM</given-names></name>, <name name-style="western"><surname>Davis</surname><given-names>S</given-names></name>, <name name-style="western"><surname>Howell</surname><given-names>P</given-names></name> (<year>2008</year>) <article-title>Structural and functional abnormalities of the motor system in developmental stuttering</article-title>. <source>Brain</source> <volume>131</volume>: <fpage>50</fpage>–<lpage>59</lpage>.</mixed-citation>
+</ref>
+<ref id="pone.0081388-Greicius1"><label>73</label>
+<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Greicius</surname><given-names>MD</given-names></name>, <name name-style="western"><surname>Krasnow</surname><given-names>B</given-names></name>, <name name-style="western"><surname>Reiss</surname><given-names>AL</given-names></name>, <name name-style="western"><surname>Menon</surname><given-names>V</given-names></name> (<year>2003</year>) <article-title>Functional connectivity in the resting brain: a network analysis of the default mode hypothesis</article-title>. <source>Proc Natl Acad Sci U S A</source> <volume>100</volume>: <fpage>253</fpage>–<lpage>258</lpage>.</mixed-citation>
+</ref>
+<ref id="pone.0081388-Eaton1"><label>74</label>
+<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Eaton</surname><given-names>KP</given-names></name>, <name name-style="western"><surname>Szaflarski</surname><given-names>JP</given-names></name>, <name name-style="western"><surname>Altaye</surname><given-names>M</given-names></name>, <name name-style="western"><surname>Ball</surname><given-names>AL</given-names></name>, <name name-style="western"><surname>Kissela</surname><given-names>BM</given-names></name>, <etal>et al</etal>. (<year>2008</year>) <article-title>Reliability of fMRI for studies of language in post-stroke aphasia subjects</article-title>. <source>Neuroimage</source> <volume>41</volume>: <fpage>311</fpage>–<lpage>322</lpage>.</mixed-citation>
+</ref>
+<ref id="pone.0081388-Specht1"><label>75</label>
+<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Specht</surname><given-names>K</given-names></name>, <name name-style="western"><surname>Zahn</surname><given-names>R</given-names></name>, <name name-style="western"><surname>Willmes</surname><given-names>K</given-names></name>, <name name-style="western"><surname>Weis</surname><given-names>S</given-names></name>, <name name-style="western"><surname>Holtel</surname><given-names>C</given-names></name>, <etal>et al</etal>. (<year>2009</year>) <article-title>Joint independent component analysis of structural and functional images reveals complex patterns of functional reorganisation in stroke aphasia</article-title>. <source>Neuroimage</source> <volume>47</volume>: <fpage>2057</fpage>–<lpage>2063</lpage>.</mixed-citation>
+</ref>
+<ref id="pone.0081388-Cloutman1"><label>76</label>
+<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Cloutman</surname><given-names>LL</given-names></name>, <name name-style="western"><surname>Newhart</surname><given-names>M</given-names></name>, <name name-style="western"><surname>Davis</surname><given-names>CL</given-names></name>, <name name-style="western"><surname>Heidler-Gary</surname><given-names>J</given-names></name>, <name name-style="western"><surname>Hillis</surname><given-names>AE</given-names></name> (<year>2011</year>) <article-title>Neuroanatomical correlates of oral reading in acute left hemispheric stroke</article-title>. <source>Brain Lang</source> <volume>116</volume>: <fpage>14</fpage>–<lpage>21</lpage>.</mixed-citation>
+</ref>
+<ref id="pone.0081388-OBryant1"><label>77</label>
+<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>O'Bryant</surname><given-names>SE</given-names></name>, <name name-style="western"><surname>Humphreys</surname><given-names>JD</given-names></name>, <name name-style="western"><surname>Smith</surname><given-names>GE</given-names></name>, <name name-style="western"><surname>Ivnik</surname><given-names>RJ</given-names></name>, <name name-style="western"><surname>Graff-Radford</surname><given-names>NR</given-names></name>, <etal>et al</etal>. (<year>2008</year>) <article-title>Detecting dementia with the mini-mental state examination in highly educated individuals</article-title>. <source>Arch Neurol</source> <volume>65</volume>: <fpage>963</fpage>–<lpage>967</lpage>.</mixed-citation>
+</ref>
+<ref id="pone.0081388-Brodtmann1"><label>78</label>
+<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Brodtmann</surname><given-names>A</given-names></name>, <name name-style="western"><surname>Pardoe</surname><given-names>H</given-names></name>, <name name-style="western"><surname>Li</surname><given-names>Q</given-names></name>, <name name-style="western"><surname>Lichter</surname><given-names>R</given-names></name>, <name name-style="western"><surname>Ostergaard</surname><given-names>L</given-names></name>, <etal>et al</etal>. (<year>2012</year>) <article-title>Changes in regional brain volume three months after stroke</article-title>. <source>J Neurol Sci</source> <volume>322</volume>: <fpage>122</fpage>–<lpage>128</lpage>.</mixed-citation>
+</ref>
+<ref id="pone.0081388-Fan1"><label>79</label>
+<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Fan</surname><given-names>F</given-names></name>, <name name-style="western"><surname>Zhu</surname><given-names>C</given-names></name>, <name name-style="western"><surname>Chen</surname><given-names>H</given-names></name>, <name name-style="western"><surname>Qin</surname><given-names>W</given-names></name>, <name name-style="western"><surname>Ji</surname><given-names>X</given-names></name>, <etal>et al</etal>. (<year>2013</year>) <article-title>Dynamic brain structural changes after left hemisphere subcortical stroke</article-title>. <source>Hum Brain Mapp</source> <volume>34</volume>: <fpage>1872</fpage>–<lpage>1881</lpage>.</mixed-citation>
+</ref>
+<ref id="pone.0081388-Fischl1"><label>80</label>
+<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Fischl</surname><given-names>B</given-names></name>, <name name-style="western"><surname>van der Kouwe</surname><given-names>A</given-names></name>, <name name-style="western"><surname>Destrieux</surname><given-names>C</given-names></name>, <name name-style="western"><surname>Halgren</surname><given-names>E</given-names></name>, <name name-style="western"><surname>Segonne</surname><given-names>F</given-names></name>, <etal>et al</etal>. (<year>2004</year>) <article-title>Automatically parcellating the human cerebral cortex</article-title>. <source>Cereb Cortex</source> <volume>14</volume>: <fpage>11</fpage>–<lpage>22</lpage>.</mixed-citation>
+</ref>
+<ref id="pone.0081388-Shattuck1"><label>81</label>
+<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Shattuck</surname><given-names>DW</given-names></name>, <name name-style="western"><surname>Mirza</surname><given-names>M</given-names></name>, <name name-style="western"><surname>Adisetiyo</surname><given-names>V</given-names></name>, <name name-style="western"><surname>Hojatkashani</surname><given-names>C</given-names></name>, <name name-style="western"><surname>Salamon</surname><given-names>G</given-names></name>, <etal>et al</etal>. (<year>2008</year>) <article-title>Construction of a 3D probabilistic atlas of human cortical structures</article-title>. <source>Neuroimage</source> <volume>39</volume>: <fpage>1064</fpage>–<lpage>1080</lpage>.</mixed-citation>
+</ref>
+<ref id="pone.0081388-Bassett2"><label>82</label>
+<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Bassett</surname><given-names>DS</given-names></name>, <name name-style="western"><surname>Brown</surname><given-names>JA</given-names></name>, <name name-style="western"><surname>Deshpande</surname><given-names>V</given-names></name>, <name name-style="western"><surname>Carlson</surname><given-names>JM</given-names></name>, <name name-style="western"><surname>Grafton</surname><given-names>ST</given-names></name> (<year>2011</year>) <article-title>Conserved and variable architecture of human white matter connectivity</article-title>. <source>Neuroimage</source> <volume>54</volume>: <fpage>1262</fpage>–<lpage>1279</lpage>.</mixed-citation>
+</ref>
+<ref id="pone.0081388-Zalesky2"><label>83</label>
+<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Zalesky</surname><given-names>A</given-names></name>, <name name-style="western"><surname>Fornito</surname><given-names>A</given-names></name>, <name name-style="western"><surname>Harding</surname><given-names>IH</given-names></name>, <name name-style="western"><surname>Cocchi</surname><given-names>L</given-names></name>, <name name-style="western"><surname>Yucel</surname><given-names>M</given-names></name>, <etal>et al</etal>. (<year>2010</year>) <article-title>Whole-brain anatomical networks: does the choice of nodes matter?</article-title> <source>Neuroimage</source> <volume>50</volume>: <fpage>970</fpage>–<lpage>983</lpage>.</mixed-citation>
+</ref>
+<ref id="pone.0081388-DuarteCarvajalino1"><label>84</label>
+<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Duarte-Carvajalino</surname><given-names>JM</given-names></name>, <name name-style="western"><surname>Jahanshad</surname><given-names>N</given-names></name>, <name name-style="western"><surname>Lenglet</surname><given-names>C</given-names></name>, <name name-style="western"><surname>McMahon</surname><given-names>KL</given-names></name>, <name name-style="western"><surname>de Zubicaray</surname><given-names>GI</given-names></name>, <etal>et al</etal>. (<year>2012</year>) <article-title>Hierarchical topological network analysis of anatomical human brain connectivity and differences related to sex and kinship</article-title>. <source>Neuroimage</source> <volume>59</volume>: <fpage>3784</fpage>–<lpage>3804</lpage>.</mixed-citation>
+</ref>
+<ref id="pone.0081388-Jones1"><label>85</label>
+<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Jones</surname><given-names>DK</given-names></name> (<year>2004</year>) <article-title>The effect of gradient sampling schemes on measures derived from diffusion tensor MRI: a Monte Carlo study</article-title>. <source>Magn Reson Med</source> <volume>51</volume>: <fpage>807</fpage>–<lpage>815</lpage>.</mixed-citation>
+</ref>
+<ref id="pone.0081388-Lebel1"><label>86</label>
+<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Lebel</surname><given-names>C</given-names></name>, <name name-style="western"><surname>Benner</surname><given-names>T</given-names></name>, <name name-style="western"><surname>Beaulieu</surname><given-names>C</given-names></name> (<year>2012</year>) <article-title>Six is enough? Comparison of diffusion parameters measured using six or more diffusion-encoding gradient directions with deterministic tractography</article-title>. <source>Magn Reson Med</source> <volume>68</volume>: <fpage>474</fpage>–<lpage>483</lpage>.</mixed-citation>
+</ref>
+<ref id="pone.0081388-Wang4"><label>87</label>
+<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Wang</surname><given-names>JY</given-names></name>, <name name-style="western"><surname>Abdi</surname><given-names>H</given-names></name>, <name name-style="western"><surname>Bakhadirov</surname><given-names>K</given-names></name>, <name name-style="western"><surname>Diaz-Arrastia</surname><given-names>R</given-names></name>, <name name-style="western"><surname>Devous</surname><given-names>MS</given-names></name> (<year>2012</year>) <article-title>A comprehensive reliability assessment of quantitative diffusion tensor tractography</article-title>. <source>Neuroimage</source> <volume>60</volume>: <fpage>1127</fpage>–<lpage>1138</lpage>.</mixed-citation>
+</ref>
+</ref-list></back>
+</article>

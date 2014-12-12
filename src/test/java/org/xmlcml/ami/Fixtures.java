@@ -94,6 +94,7 @@ public class Fixtures {
 	public static final File MULTIPLE_SPECIES_312_XML = new File(SPECIES_DIR, "1471-2148-11-312.xml");
 	public static final File PASSERINES_313_HTML = new File(SPECIES_DIR, "passerines.313.html");
 	public static final File HADROSAUR_XML = new File(SPECIES_DIR, "journal.pone.0077058.xml");
+	public static final File MANY_SPECIES_DIR = new File(SPECIES_DIR, "many");
 
 	// TREE
 	public static final File TREE_DIR = new File(TEST_RESOURCES_DIR, "org/xmlcml/ami/tree");

@@ -1,0 +1,1071 @@
+<article xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" article-type="research-article" dtd-version="3.0" xml:lang="en">
+<front>
+<journal-meta>
+<journal-id journal-id-type="nlm-ta">PLoS ONE</journal-id>
+<journal-id journal-id-type="publisher-id">plos</journal-id>
+<journal-id journal-id-type="pmc">plosone</journal-id><journal-title-group>
+<journal-title xml:lang="en">PLoS ONE</journal-title></journal-title-group>
+<issn pub-type="epub">1932-6203</issn>
+<publisher>
+<publisher-name>Public Library of Science</publisher-name>
+<publisher-loc>San Francisco, USA</publisher-loc></publisher>
+</journal-meta>
+<article-meta>
+<article-id pub-id-type="publisher-id">PONE-D-13-32365</article-id>
+<article-id pub-id-type="doi">10.1371/journal.pone.0081580</article-id>
+<article-categories><subj-group subj-group-type="heading"><subject>Research Article</subject></subj-group></article-categories>
+<title-group>
+<article-title>Physiological Conjunction of Allelochemicals and Desert Plants</article-title>
+<alt-title alt-title-type="running-head">Allelopathy and Desert Plants</alt-title>
+</title-group>
+<contrib-group>
+<contrib contrib-type="author" equal-contrib="yes" xlink:type="simple"><name name-style="western"><surname>Yosef Friedjung</surname><given-names>Avital</given-names></name><xref ref-type="aff" rid="aff1"><sup>1</sup></xref></contrib>
+<contrib contrib-type="author" equal-contrib="yes" xlink:type="simple"><name name-style="western"><surname>Choudhary</surname><given-names>Sikander Pal</given-names></name><xref ref-type="aff" rid="aff1"><sup>1</sup></xref><xref ref-type="aff" rid="aff3"><sup>3</sup></xref></contrib>
+<contrib contrib-type="author" xlink:type="simple"><name name-style="western"><surname>Dudai</surname><given-names>Nativ</given-names></name><xref ref-type="aff" rid="aff2"><sup>2</sup></xref><xref ref-type="corresp" rid="cor1"><sup>*</sup></xref></contrib>
+<contrib contrib-type="author" xlink:type="simple"><name name-style="western"><surname>Rachmilevitch</surname><given-names>Shimon</given-names></name><xref ref-type="aff" rid="aff1"><sup>1</sup></xref><xref ref-type="corresp" rid="cor1"><sup>*</sup></xref></contrib>
+</contrib-group>
+<aff id="aff1"><label>1</label><addr-line>Jacob Blaustein Institutes for Desert Research, French Associates Institute for Agriculture and Biotechnology of Drylands, Ben-Gurion University of the Negev, Sede Boqer Campus, Midreshet Ben Gurion, Israel</addr-line></aff>
+<aff id="aff2"><label>2</label><addr-line>The Unit of Medicinal and Aromatic Plants, Agricultural Research Organization, Newe Ya’ar Research Center, Ramat Yishay, Israel</addr-line></aff>
+<aff id="aff3"><label>3</label><addr-line>Department of Botany, University of Jammu, Jammu, India</addr-line></aff>
+<contrib-group>
+<contrib contrib-type="editor" xlink:type="simple"><name name-style="western"><surname>Heil</surname><given-names>Martin</given-names></name>
+<role>Editor</role>
+<xref ref-type="aff" rid="edit1" /></contrib>
+</contrib-group>
+<aff id="edit1"><addr-line>Centro de Investigación y de Estudios Avanzados, Mexico</addr-line></aff>
+<author-notes>
+<corresp id="cor1">* E-mail: <email xlink:type="simple">rshimon@bgu.ac.il</email> (RS); <email xlink:type="simple">nativdud@gmail.com</email> (ND)</corresp>
+<fn fn-type="conflict"><p>The authors have declared that no competing interests exist.</p></fn>
+<fn fn-type="con"><p>Conceived and designed the experiments: SR AYF ND. Performed the experiments: SR AYF SPC ND. Analyzed the data: SR AYF SPC ND. Contributed reagents/materials/analysis tools: SR ND. Wrote the paper: SR AYF SPC ND.</p></fn>
+</author-notes>
+<pub-date pub-type="collection"><year>2013</year></pub-date>
+<pub-date pub-type="epub"><day>10</day><month>12</month><year>2013</year></pub-date>
+<volume>8</volume>
+<issue>12</issue>
+<elocation-id>e81580</elocation-id>
+<history>
+<date date-type="received"><day>7</day><month>8</month><year>2013</year></date>
+<date date-type="accepted"><day>21</day><month>10</month><year>2013</year></date>
+</history>
+<permissions>
+<copyright-year>2013</copyright-year>
+<copyright-holder>Yosef Friedjung et al</copyright-holder><license xlink:href="http://creativecommons.org/licenses/by/3.0/" xlink:type="simple"><license-p>This is an open-access article distributed under the terms of the <ext-link ext-link-type="uri" xlink:href="http://creativecommons.org/licenses/by/3.0/" xlink:type="simple">Creative Commons Attribution License</ext-link>, which permits unrestricted use, distribution, and reproduction in any medium, provided the original author and source are credited.</license-p></license></permissions>
+<abstract>
+<p>Plants exchange signals with other physical and biological entities in their habitat, a form of communication termed allelopathy. The underlying principles of allelopathy and secondary-metabolite production are still poorly understood, especially in desert plants. The coordination and role of secondary metabolites were examined as a cause of allelopathy in plants thriving under arid and semiarid soil conditions. Desert plant species, <italic>Origanum dayi</italic>, <italic>Artemisia sieberi</italic> and <italic>Artemisia judaica</italic> from two different sources (cultivar cuttings and wild seeds) were studied in their natural habitats. Growth rate, relative water content, osmotic potential, photochemical efficiency, volatile composition and vital factors of allelopathy were analyzed at regular intervals along four seasons with winter showing optimum soil water content and summer showing water deficit conditions. A comprehensive analysis of the volatile composition of the leaves, ambient air and soil in the biological niche of the plants under study was carried out to determine the effects of soil water conditions and sample plants on the surrounding flora. Significant morpho-physiological changes were observed across the seasons and along different soil water content. Metabolic analysis showed that water deficit was the key for driving selective metabolomic shifts. <italic>A</italic>. <italic>judaica</italic> showed the least metabolic shifts, while <italic>A</italic>. <italic>sieberi</italic> showed the highest shifts. All the species exhibited high allelopathic effects; <italic>A. judaica</italic> displayed relatively higher growth-inhibition effects, while <italic>O. dayi</italic> showed comparatively higher germination-inhibition effects in germination assays. The current study may help in understanding plant behavior, mechanisms underlying secondary-metabolite production in water deficit conditions and metabolite-physiological interrelationship with allelopathy in desert plants, and can help cull economic benefits from the produced volatiles.</p>
+</abstract>
+<funding-group><funding-statement>This work was supported by the Albert Katz International School for Desert Studies. The funder had no role in study design, data collection and analysis, decision to publish, or preparation of the manuscript.</funding-statement></funding-group><counts><page-count count="14" /></counts></article-meta>
+</front>
+<body><sec id="s1">
+<title>Introduction</title>
+<p>Allelopathy is a widely documented phenomenon occurring in natural and man-made ecosystems in which plants release natural products (allelochemicals) that influence the establishment and growth of neighboring plants <xref ref-type="bibr" rid="pone.0081580-Bhowmik1">[1]</xref>, <xref ref-type="bibr" rid="pone.0081580-Xu1">[2]</xref>. Alleopathy has been mostly studied in terms of correlative evidence based on the identification of allelochemicals being released in potent concentrations from leaves, roots and stems <xref ref-type="bibr" rid="pone.0081580-Bhowmik1">[1]</xref>, <xref ref-type="bibr" rid="pone.0081580-Einhelling1">[3]</xref>, <xref ref-type="bibr" rid="pone.0081580-Cheng1">[4]</xref>. However, due to the complexity of the chemicals, it is difficult to determine the precise role of a specific natural compound in allelopathy <xref ref-type="bibr" rid="pone.0081580-Belz1">[5]</xref>. A large variety of natural compounds are known to cause allelopathy, with secondary metabolites constituting the most important group of allelochemicals <xref ref-type="bibr" rid="pone.0081580-Belz1">[5]</xref>. Most allelopathy experiments are based on isolating putative compounds and testing their phytotoxicity in vitro. However, most plant interactions are mediated in soil environments; therefore the inclusion of soil as a testing ground for the determination of allelopathic interactions is warranted <xref ref-type="bibr" rid="pone.0081580-Bhowmik1">[1]</xref>, <xref ref-type="bibr" rid="pone.0081580-Blum1">[6]</xref>. Furthermore, an influence of soil behavior on allelochemical activity cannot be ruled out, as several allelochemicals have shown a decline in potency when applied in soil suspensions vs. solution. Thus, the reported role of soil in reducing the phytotoxicity of natural products again suggests its inclusion as a platform to study allelopathic interactions among plants <xref ref-type="bibr" rid="pone.0081580-Blum1">[6]</xref>–<xref ref-type="bibr" rid="pone.0081580-Weston1">[8]</xref>. Allelochemicals are usually produced in plant cells and accumulate in specific organs, sometimes in special organelles. Leaves may be the most consistent source, while stems and roots are considered to contain less potent toxins <xref ref-type="bibr" rid="pone.0081580-Weston1">[8]</xref>, <xref ref-type="bibr" rid="pone.0081580-Miranda1">[9]</xref>. Allelochemicals are released by plants into the soil or atmosphere by volatilization or leaching from the aerial plant parts, eventually becoming deposited on other plants or soils. Leaching may also occur through plant residues, exudation from plant roots into the soil environment and decomposition of plant residues, releasing toxic substances <xref ref-type="bibr" rid="pone.0081580-Blum1">[6]</xref>–<xref ref-type="bibr" rid="pone.0081580-Rachmilevitch2">[11]</xref>.</p>
+<p>In general, allelochemicals are representing a myriad of chemical compounds from simple hydrocarbons and aliphatic acids to complex polycyclic structures <xref ref-type="bibr" rid="pone.0081580-Blum1">[6]</xref>–<xref ref-type="bibr" rid="pone.0081580-Miranda1">[9]</xref>. Allelochemicals include simple water-soluble organic acids and unsaturated lactones, long-chain fatty acids and polyacetylenes, naphthoquinone, anthroquinones and complex quinones, simple phenols, benzoic acid and derivatives, cinnamic acid and derivatives, flavonoids, tannins, terpenoids and steroids, amino acids and polypeptides, alkaloids and cyanohydrins, sulfides and glucosides, purines and nucleotides, coumarins, thiocyanates, lactones and actogenins <xref ref-type="bibr" rid="pone.0081580-Weston1">[8]</xref>. Allelochemicals can act indirectly through alteration of soil properties, nutritional status, population composition or activity of microorganisms and nematodes <xref ref-type="bibr" rid="pone.0081580-Xu1">[2]</xref>. They can also act directly via biochemical/physiological effects on various important processes of plant growth and metabolism, such as mineral uptake, mitosis (inhibition), hormonal regulation, respiration (stimulation or inhibition), protein synthesis (inhibition) <xref ref-type="bibr" rid="pone.0081580-Weston1">[8]</xref>, enzyme activity (inhibition) <xref ref-type="bibr" rid="pone.0081580-Teerarak1">[12]</xref>–<xref ref-type="bibr" rid="pone.0081580-Poonpaiboonpipat1">[13]</xref>, membrane permeability <xref ref-type="bibr" rid="pone.0081580-Xu1">[2]</xref>, photosynthesis (inhibition) <xref ref-type="bibr" rid="pone.0081580-Qian1">[14]</xref> and more.</p>
+<p>In agriculture, the effect of weeds on crops, crops on weeds and crops on crops have been thoroughly studied <xref ref-type="bibr" rid="pone.0081580-Xu1">[2]</xref>. Weeds interfere with crops by inhibiting their germination and seedling establishment <xref ref-type="bibr" rid="pone.0081580-Hussain1">[15]</xref>–<xref ref-type="bibr" rid="pone.0081580-Lorenzo1">[17]</xref>. Plants thriving in arid and semiarid regions of the world are known to face water deficit conditions. Several phenotypic adaptations and acclimations such as reduced plant growth, modified leaves into spines, phylloclades and cladodes, and metabolic alterations in metabolisms of sugars, amino acids, plant hormones and large number of secondary metabolites have been documented in desert plants <xref ref-type="bibr" rid="pone.0081580-Miranda1">[9]</xref>, <xref ref-type="bibr" rid="pone.0081580-Couso1">[18]</xref>–<xref ref-type="bibr" rid="pone.0081580-Sardans1">[19]</xref>. However, the role of allelopathy or secondary metabolites in overcoming arid conditions, in conjunction with their allelopathic behavior, is still poorly understood. On the other hand, our current understanding of allelopathy has been successfully used to control weed populations via methods involving crop rotation, mixed cropping and essential oils <xref ref-type="bibr" rid="pone.0081580-Schulz1">[20]</xref>.</p>
+<p>The concept of allelopathy is still a matter of controversy and its study is plagued with methodological problems, particularly regarding the distinction between allelopathy and competition <xref ref-type="bibr" rid="pone.0081580-Couso1">[18]</xref>–<xref ref-type="bibr" rid="pone.0081580-Muller1">[21]</xref>. An extensive literature survey shows a paucity of information on the role of allelochemicals in plant survival in arid and semiarid conditions in combination with allelopathy. The present study focused on three wild perennial species: <italic>Origanum dayi post</italic>, <italic>Artemisia sieberi</italic> and <italic>Artemisia judaica,</italic> growing in arid and semiarid regions of Israel.</p>
+<p>Among these three wild species, <italic>O. dayi</italic> is a small shrub that is endemic to Israel, growing in the northern and western Negev desert <xref ref-type="bibr" rid="pone.0081580-Dudai1">[22]</xref> and in the Judea desert at altitudes of 300 m below sea level to 600 m above sea level <xref ref-type="bibr" rid="pone.0081580-Danin1">[23]</xref>. <italic>O. dayi</italic> was domesticated and a selected cultivar is grown as an agricultural crop in Kibbutz Urim in the northern Negev for essential-oil production <xref ref-type="bibr" rid="pone.0081580-Larkov1">[24]</xref>, <xref ref-type="bibr" rid="pone.0081580-Dudai2">[25]</xref>.</p>
+<p><italic>A. sieberi</italic> is a perennial small shrub of Irano-Turanian phytogeographical origin with a wide distribution in the Mediterranean and Middle East, particularly Iran, Israel, Palestine, Syria, Iraq, Turkey, Afghanistan, Spain and Cyprus and extending into central Asia up to the Himalayan Mountains <xref ref-type="bibr" rid="pone.0081580-Mohamed1">[26]</xref>. Essential oil and secondary metabolites obtained from <italic>A. sieberi</italic> have antioxidant, anti-venom, anti-bacterial, anti-spasmodic, neurological and hypoglycemic activities, exhibit cytotoxicity and gene induction, and have toxic effects on reproduction as well as pesticidal activity <xref ref-type="bibr" rid="pone.0081580-Mohamed1">[26]</xref>. Allelopathic effects of <italic>A. sieberi</italic> have a strong impact on plant growth in the wild and on seed germination in vivo <xref ref-type="bibr" rid="pone.0081580-Escudero1">[27]</xref>, and its essential oil has been used in biological weed control.</p>
+<p><italic>A. judaica</italic> is a perennial shrub with small silver-like leaves and bright yellow flowers that appears in March–April. It grows in desert wadi beds in the eastern Sahara–Libya and Egypt, and in the southwestern regions of the Middle East–Sinai, Israel, Jordan and Saudi Arabia. In Israel, <italic>A. judaica</italic> can be found along the Paaran wadi and in the Arava valley from altitudes of 500 m above sea level to 340 m below sea level. In Sinai, the plants can be found at altitudes ranging from 1,600 m above sea level down to the coastal plains <xref ref-type="bibr" rid="pone.0081580-Putievsky1">[28]</xref>. Similar to some other desert <italic>Artemisia</italic> species <xref ref-type="bibr" rid="pone.0081580-Feuerstein1">[29]</xref>, <italic>A. judaica</italic> is strongly aromatic, and is commonly used by the local population for medicinal purposes, such as for gastrointestinal disorders, snake and scorpion bites, ear infections, dysentery, coughing and external wounds <xref ref-type="bibr" rid="pone.0081580-Putievsky1">[28]</xref>. The Israeli population of <italic>A. judaica</italic> was separated from the Sinai population, creating two distinct chemotypes which reflect genetic differences <xref ref-type="bibr" rid="pone.0081580-Fleisher1">[30]</xref>. Furthermore, the Negev chemotype is of the artemisyl-oil type, characterized by the existence of artemisyl-skeleton-type compounds in the essential oil; the Sinai chemotype is of the piperitone-oil type, characterized by the absence of artemisyl-skeleton-type compounds and the presence of a relatively high percentage of piperitone and camphor <xref ref-type="bibr" rid="pone.0081580-Putievsky1">[28]</xref>, <xref ref-type="bibr" rid="pone.0081580-Fleisher1">[30]</xref>, <xref ref-type="bibr" rid="pone.0081580-Ravid1">[31]</xref>–<xref ref-type="bibr" rid="pone.0081580-Soleiman1">[32]</xref>. In addition, it has been reported that the essential oil of <italic>A. judaica</italic> can strongly inhibit the germination of annual plants <xref ref-type="bibr" rid="pone.0081580-Dudai3">[33]</xref>, suggesting use of these allelochemicals for weed control in agriculture.</p>
+<p>The mechanisms underlying the survival of desert plants under harsh conditions is not fully known; the present study attempts to elucidate the role of allelochemicals in these species’ survival, and the allelopathic effects of natural compounds released from these species on neighboring plants growing under arid and semiarid conditions. Knowledge gained from the current study will be helpful in understanding the role of allelopathy in desert plants. To explore its role in plant survival under arid and semiarid conditions, extensive morphological, physiological, metabolomic and allelopathic analyses were carried out. The four (summer, spring, winter and autumn) seasons were surveyed separately to study the participation of allelochemicals in allelopathy and survival of desert plants.</p>
+</sec><sec id="s2" sec-type="materials|methods">
+<title>Materials and Methods</title>
+<sec id="s2a">
+<title>Plant Materials</title>
+<p>Three wild species–<italic>Origanum dayi</italic> Post (family Lamiaceae), <italic>Artemisia sieberi</italic> and <italic>Artemisia judaica</italic> (family Compositae)–were used in the present study.</p>
+</sec><sec id="s2b">
+<title>Growth Conditions</title>
+<p>The plants were grown in a greenhouse under standard conditions for 3 months (February to May 2009). The conditions in the greenhouse were: temperature held constant at 20°C (day) and 15°C (night) and relative air humidity kept at 70%. Plants were arranged randomly in different pots in the greenhouse. After 3 months, they were transplanted into the field. From September 2009, the field was divided into nine plots and irrigation regime was calculated by the “Penman equation” using data from the meteorological station located in Sede-Boker:</p>
+<p>The irrigation amount was calculated by multiplying the weekly average evaporated water by a crop factor which was correlated to the amount of plant cover. The optimal plant nutrition was supplied equally to all treatments by applying compost at the beginning of the growing season and slow-release fertilizer (Multigan N:P:K 20∶11∶16 Ekogan®) at the base of the plants once every four months. The water conditions in the soil were maintained similar to produce natural conditions having high water content in winter seasons and low water in the summer season as per data provided by meteorological station located in Sede-Boker.</p>
+</sec><sec id="s2c">
+<title>Physiological Parameters</title>
+<p>The following plant physiological stress indicators were measured once a season (four times in total) during the experimental period (autumn–September 2009, winter–January 2010, spring–April 2010 and summer–July 2010).</p>
+<sec id="s2c1">
+<title>Growth rate</title>
+<p>Growth rate was measured by foliage maximum and minimum diameter and plant’s maximum height. The measurement was taken in six replicates–each replicate sampled from a different plant from the seedling and cutting populations.</p>
+</sec><sec id="s2c2">
+<title>Leaf relative water content (RWC)</title>
+<p>Fresh leaf samples (3–10 g) were weighed and soaked in tap water for 24 h until fully turgid. Samples were then reweighed (turgid weight), dried for 48 h at 65°C and weighed again after removal from the oven.</p>
+<p>The measurements were taken in six replicates with each replicate sampled from a different plant from the cutting population.</p>
+</sec><sec id="s2c3">
+<title>Osmolarity</title>
+<p>Small segments of fully expanded leaves were macerated in liquid nitrogen and ground into a fine powder. Then 200 µl of double-distilled water was mixed with the crushed leaves to make liquid extract, followed by centrifugation for 1 min at 7500 g. Then, 10 µl of centrifugate was utilized to determine the osmolarity in a pressure osmometer (Vapro® 5520, Wescor, CITY, STATE, USA).</p>
+</sec><sec id="s2c4">
+<title>Soil water content</title>
+<p>Soil water content was measured in two seasons (winter and summer) reflecting significant changes in soil among seasons. The measurements were carried out twice: winter (January 2010) and summer (July 2010). In brief, about 500 g of soil was collected from rhizospheric zone of each plot in four locations: near the plant base on the surface and at 20 cm depth, and 40 cm from the plant base on the surface and at 20 cm depth in respective seasons. Water content was determined by weighing a sample of the soil (fresh weight), oven-drying for 48 h at 65°C and then reweighing (dry weight).</p>
+</sec><sec id="s2c5">
+<title>Photochemical activity</title>
+<p>A portable fluorometer (pulse-amplitude-modulated photosynthesis yield analyzer, Mini-PAM; Walz GmbH, Effeltrich, Germany) was used to measure chlorophyll fluorescence of the leaves in the field. This instrument was used to measure effective quantum yield (Δ<italic>F</italic>/<italic>F</italic><sub>m’</sub>), calculated as the ratio of F<sub>v</sub>/F<sub>m</sub>, where <italic>F</italic> is the fluorescence yield of the light-adapted sample and <italic>F</italic><sub>m</sub>(maximum fluorescence) is the maximum light-adapted fluorescence yield when a saturating light pulse of 800 ms duration (intensity = 3,000 µmol m<sup>−2</sup> s<sup>−1</sup>) is superimposed on the prevailing environmental light levels. The measurements were tested in six replicates–each replicate was sampled from a different plant from the cutting population.</p>
+</sec></sec><sec id="s2d">
+<title>Determination of Volatile Composition</title>
+<p>For the determination of the volatile composition, leaves positioned in the middle of the plant stem and soil samples taken from the rhizosphere zone of the plants, 5 cm belowground were collected and extracted with either organic solvents or water.</p>
+<sec id="s2d1">
+<title>Extractions in organic solvent</title>
+<p>Samples of the leaves or soils were extracted in hermetically sealed 20-ml scintillation vials for 24 h by gentle shaking with methyl tert-butyl ether (MTBE) (99.8%) (Bio-Lab, Israel) containing 10 µg ml<sup>−1</sup> isobutyl benzene (Sigma-Aldrich, Israel) as a internal standard at room temperature <xref ref-type="bibr" rid="pone.0081580-Dudai1">[22]</xref>. The sample-to-solvent ratio was 1 g per 10 ml in the case of plant extraction and 2 g per 10 ml in the case of soil extraction. The extracts were purified by passing through a Pasteur pipette containing anhydrous sodium sulfate (Merck, Israel) and Silica gel 60 (230–400 mesh; Merck, Israel) to dry and filter the water and other polar compounds with high molecular weight (such as chlorophyll) that might interfere with the GC-MS analyses. Purified samples were collected into 2-ml Teflon-covered glass vials and injected into the GC-MS system for analysis. The measurement was performed in six replicates, with each replicate consisting of samples from a different plant population–both cuttings and seedlings–in the autumn (September), and only from the cutting population in the winter (January), spring (April) and summer (July).</p>
+</sec><sec id="s2d2">
+<title>Hydrodistillation</title>
+<p>Fresh leaf samples (250 g) were hydrodistilled for 1.5 h in a modified Clevenger apparatus at Newe Ya’ar Research Center as described previously <xref ref-type="bibr" rid="pone.0081580-Dudai1">[22]</xref>, <xref ref-type="bibr" rid="pone.0081580-Dudai4">[34]</xref>. The essential oil was cooled, separated from the water and analyzed by GC-MS.</p>
+</sec><sec id="s2d3">
+<title>Solid-phase microextraction (SPME)</title>
+<p>SPME was used to ascertain the effect of the plants under study on the surrounding atmospheric and soil conditions. About 20 ml of open vial, 15 vials for each species, were exposed for 6 h, from 0800 to 1400 h, in the summer in the open air, 5 cm aboveground at the plant base. The vials were then sealed and SPME injection needle was inserted manually through the septum into the vial. The headspace volatiles were adsorbed onto the polydimethylsiloxane-divinylbenzene-coated 65 mm SPME fiber for 30 min at ambient temperature and desorbed for 10 min into the GC-MSD (Agilent Technologies, Palo Alto, CA, USA) apparatus injector liner.</p>
+<p>Separation and identification of volatile components was performed by GC-MS at the Newe Ya’ar Research Center. The SPME samples or 1 µl of the extract or diluted distillate was analyzed in a GC-MSD equipped with a mass-selection −5973 network (electron ionization 70 eV) detector (Agilent Technologies). The GC-MS was equipped with a capillary column, Rtx-5Sil MS (Restek Corporation, State College, PA, USA) (30 m×0.25 mm) i.d×0.25 µm silica. The carrier gas was helium (He) at a constant flow of 1 ml min<sup>−1</sup>. The extraction samples were introduced into the column in ‘splitless’ mode, while the oil and SPME samples were introduced in ‘split’ mode at a ratio of 1∶50. Temperatures were set as follows: injector temperature 250°C, transfer line and detector 280°C. The column temperature gradient was set as follows: 50°C for 1 min, addition of 5°C min<sup>−1</sup> to 260°C and held at 260°C for 10 min. Component recognition was based on a comparison of the components’ retention time index (RI) to commercial standards and of the samples’ mass spectrum with GC-MS libraries (Adams 2001, NIST 98, and QuadLib 1607).</p>
+</sec></sec><sec id="s2e">
+<title>Determination of Allelopathic Effects</title>
+<sec id="s2e1">
+<title>Allelopathic effects in the field</title>
+<p>Allelopathic effects on the weed growth in the field were monitored in the spring by systematically identifying weeds, counting the number of weeds in the different botanical families, collecting them, oven-drying them for 48 h at 105°C and weighing the total biomass. A second round of weed monitoring was carried out in the summer of 2010 when only total biomass was measured.</p>
+</sec><sec id="s2e2">
+<title>Allelopathic effects of the essential oil: in-vitro experiment</title>
+<p>Germination inhibition by different amounts of essential oil was examined in the lab under controlled conditions. Wheat seeds (<italic>Triticum aestivum</italic> L.) were germinated in 20- ml scintillation vials on three layers of Whatman no. 1 filter paper wetted with 1.5 ml distilled water. Vials containing 10 seeds were incubated in the dark at 27°C. To determine the inhibitory effect of an essential oil, five different essential oil quantities: 0.5, 1, 1.5 and 2 µl, as well as blank controls (no essential oil) were tested. The essential oil, as described in <xref ref-type="bibr" rid="pone.0081580-Dudai1">[22]</xref>, was loaded (using a calibrated glass microcapillary) on a piece of filter paper attached by double-sided adhesive tape to the inner side of the vial cover. Each amount of essential oil was tested in five replicates. After incubation, the number of germinated seeds was counted.</p>
+</sec><sec id="s2e3">
+<title>Allelopathic effects of the soil: in-vivo experiment</title>
+<p>This was performed following the methods described in <xref ref-type="bibr" rid="pone.0081580-Wu1">[35]</xref> and <xref ref-type="bibr" rid="pone.0081580-Reinhardt1">[36]</xref>. In brief, wheat seeds were germinated in 6-cm diameter petri dishes containing 4 g of soil taken from the field. The soil was collected from the upper 1 cm layer, within a 10-cm radius of the plant base, from three well-irrigated plots–one of each species. About 4 ml of distilled water was added and 10 seeds were placed on the wet soil. The petri dishes were incubated in the dark at 27°C for 48 h. As a control, soil from an empty plot in the field was used. Each treatment was tested in five replicates. After incubation, the numbers of germinated seeds were counted.</p>
+</sec></sec><sec id="s2f">
+<title>Principal Component Analyses (PCA)</title>
+<p>PCA is widely used to determine the effects of variables (heat, drought, salinity and other abiotic or biotic stresses) on other selected variables (plant height, yield and the like). In the present investigation, PCA was used to determine the effects of seasonal variations on metabolite production in <italic>O. dayi</italic>, <italic>A. sieberi</italic> and <italic>A. judaica</italic>. Extensive application of PCA can help elucidate the impact of seasonal changes on metabolite production and can also reveal the water-stress-tolerance potential of the species under study. In addition, PCA can be a useful way of describing the significant changes in metabolite production in the different seasons.</p>
+</sec><sec id="s2g">
+<title>Statistical Analysis</title>
+<p>Analysis of variance (ANOVA) was performed using the JMP 7.0.1 statistical package (SAS, 2007). Tukey’s HSD test and Student’s <italic>t</italic>-test were performed to determine possible statistically significant differences between means. The significance level was set at <italic>P</italic>&lt;0.05.</p>
+</sec></sec><sec id="s3">
+<title>Results</title>
+<sec id="s3a">
+<title>Soil Water Content and Plant Height</title>
+<p>The irrigation treatments were given only for a period of less than two months i.e. from the beginning of the September 2009, to end of October, 2009 (autumn) of all the plots (<xref ref-type="fig" rid="pone-0081580-g001"><bold>Figure 1</bold></xref>). The winter rains started at the end of the October and lasted until the end of March 2010. During this span of five months rainy season the amount of precipitation in the study area–Sede Boker–was 154.6 mm (source Sede-Boker Meteorological station), which was over 50% of the annual mean precipitation. The raining season was followed by a non-raining summer of 2010 (five months of dry period) producing drought conditions in the soil. The field capacity includes a volumetric water content of 25%. We observed a significant decrease (P&lt;0.05) in water content of the soil among summer and winter seasons (<xref ref-type="fig" rid="pone-0081580-g001"><bold>Figure 1</bold></xref><bold>)</bold>, such that it was significantly lower in summer. Water contents of in the summer and winter were 64 and 40% lower that field capacity.</p>
+<fig id="pone-0081580-g001" position="float" orientation="portrait"><object-id pub-id-type="doi">10.1371/journal.pone.0081580.g001</object-id><label>Figure 1</label><caption>
+<title>Soil water content as a function of seasonal variations, showing changes between summer (gray) and winter (black), n = 6.</title>
+<p>Error bars represent standard error. Uppercase letters represent significant difference (P&lt;0.05).</p>
+</caption><graphic mimetype="image" xlink:href="info:doi/10.1371/journal.pone.0081580.g001" position="float" xlink:type="simple" orientation="portrait" /></fig></sec><sec id="s3b">
+<title>Morpho-physiological Parameters</title>
+<sec id="s3b1">
+<title>Effect of seasonal variations on growth pattern</title>
+<p>Plant growth is a vital indicator of overall plant performance under hosting environments. In the present study, growth was measured in terms of height and diameter of the whole plant. For <italic>O. dayi</italic>, major plant growth was measured in the period between winter (average height of 19.8 cm, average diameter of 41.5 cm) and spring (average height of 44.1 cm, average diameter of 71.3 cm) (<xref ref-type="fig" rid="pone-0081580-g002"><bold>Figures 2</bold></xref><bold>,</bold> <xref ref-type="fig" rid="pone-0081580-g003"><bold>3</bold></xref>). In contrast, <italic>A. sieberi</italic> showed significant differences (<italic>P</italic>&lt;0.05) in growth between the autumn (average height of 31.6 cm, average diameter of 44.2 cm) and summer (average height of 36.3 cm, average diameter of 51.1 cm) (<xref ref-type="fig" rid="pone-0081580-g002"><bold>Figures 2</bold></xref><bold>,</bold> <xref ref-type="fig" rid="pone-0081580-g003"><bold>3</bold></xref>). For <italic>A. judaica</italic>, significant differences (<italic>P</italic>&lt;0.05) were observed between the autumn and all other seasons, which did not differ from each other. The main growth occurred in the period between autumn (average height of 38.5 cm, average diameter of 66.9 cm) and winter (average height of 59.9 cm, average diameter of 128.4 cm) (<xref ref-type="fig" rid="pone-0081580-g002"><bold>Figures 2</bold></xref><bold>,</bold> <xref ref-type="fig" rid="pone-0081580-g003"><bold>3</bold></xref>).</p>
+<fig id="pone-0081580-g002" position="float" orientation="portrait"><object-id pub-id-type="doi">10.1371/journal.pone.0081580.g002</object-id><label>Figure 2</label><caption>
+<title><italic>O. dayi</italic> (white bars), <italic>A. sieberi</italic> (light gray bars) and <italic>A. judaica</italic> (dark gray bars) plant height in the different seasons, n = 5–6.</title>
+<p>Error bars represent standard deviation. Different uppercase letters represent significant differences within seasons (P&lt;0.05).</p>
+</caption><graphic mimetype="image" xlink:href="info:doi/10.1371/journal.pone.0081580.g002" position="float" xlink:type="simple" orientation="portrait" /></fig><fig id="pone-0081580-g003" position="float" orientation="portrait"><object-id pub-id-type="doi">10.1371/journal.pone.0081580.g003</object-id><label>Figure 3</label><caption>
+<title><italic>O. dayi</italic> (white bars), <italic>A. sieberi</italic> (light gray bars) and <italic>A. judaica</italic> (dark gray bars) plant diameter in the different seasons, n = 5–6.</title>
+<p>Error bars represent standard deviation. Different uppercase letters represent significant differences within seasons (P&lt;0.05).</p>
+</caption><graphic mimetype="image" xlink:href="info:doi/10.1371/journal.pone.0081580.g003" position="float" xlink:type="simple" orientation="portrait" /></fig></sec><sec id="s3b2">
+<title>Leaf RWC</title>
+<p>For <italic>O. dayi</italic>, a comparison between the seasons showed significant differences (<italic>P</italic>&lt;0.05), with highest RWC values measured in the winter (88.3%), and lowest in the summer (53%) (<bold><xref ref-type="supplementary-material" rid="pone.0081580.s001">Figure S1</xref></bold>). For <italic>A. sieberi</italic>, signficant difference in RWC values were measured in summer period, similarly in winter RWC values were significantly lower 22.2% as compared to an average value of 61.3% in other seasons (<bold><xref ref-type="supplementary-material" rid="pone.0081580.s001">Figure S1</xref>)</bold>. RWC measurements for <italic>A. judaica</italic> showed seasonal differences (<italic>P</italic>&lt;0.05), with highest RWC values measured in the winter (average of 76.7%) and lowest RWC in the autumn (average of 53.6%) (<bold><xref ref-type="supplementary-material" rid="pone.0081580.s001">Figure S1</xref></bold>).</p>
+</sec><sec id="s3b3">
+<title>Osmolarity</title>
+<p>For <italic>O. dayi</italic>, there were no significant differences between the spring and summer seasons (<italic>P</italic>&gt;0.05). Interestingly, the autumn and winter seasons showed significant differences in osmolarity (<italic>P</italic>&lt;0.05), but with no consistent trends. A comparison between the seasons showed significant differences (<italic>P</italic>&lt;0.05) in the autumn relative to the spring and summer seasons from 252.2 mmol kg<sup>−1</sup> to values of 508.8 mmol kg<sup>−1</sup> in the autumn and summer, respectively (<bold><xref ref-type="supplementary-material" rid="pone.0081580.s002">Figure S2</xref></bold>). Insignificant differences in osmolarity were found for <italic>A. sieberi</italic> between the seasons (<italic>P</italic>&gt;0.05). However, osmolarity values in summer (502.3 mmol kg<sup>−1</sup>) were higher than in autumn (436 mmol kg<sup>−1</sup>) (<bold><xref ref-type="supplementary-material" rid="pone.0081580.s002">Figure S2</xref></bold>). In <italic>A. judaica,</italic> there were significant differences (<italic>P</italic>&lt;0.05) in osmolarity in the autumn and summer (average 349 mmol kg<sup>−1</sup>) relative to the winter and spring (average 441.4 mmol kg<sup>−1</sup>) (<bold><xref ref-type="supplementary-material" rid="pone.0081580.s002">Figure S2</xref></bold>).</p>
+</sec><sec id="s3b4">
+<title>Photochemical activity</title>
+<p>For <italic>O. dayi</italic>, comparison between the seasons showed significant differences (<italic>P</italic>&lt;0.05) between the summer (average value of 0.8) and autumn and winter (average value of 0.77) (<bold><xref ref-type="supplementary-material" rid="pone.0081580.s003">Figure S3</xref></bold>). In <italic>A. judaica</italic>, there were significant differences (<italic>P</italic>&lt;0.05) between the summer (average value of 0.79) and autumn and winter (average value of 0.75) (<bold><xref ref-type="supplementary-material" rid="pone.0081580.s003">Figure S3</xref></bold>).</p>
+</sec></sec><sec id="s3c">
+<title>Effect of Seasonal Regimes on Volatile Composition</title>
+<sec id="s3c1">
+<title>Effect of extraction methods on the composition of volatile components</title>
+<p>In <italic>O. dayi</italic>, about 26 main volatile components were characterized using the organic solvent extraction method (constituting 87.7% of total volatiles), whereas the hydrodistilled sample showed 19 volatile components (<xref ref-type="table" rid="pone-0081580-t001"><bold>Table 1</bold></xref><bold>, </bold><xref ref-type="fig" rid="pone-0081580-g004"><bold>Figure 4A</bold></xref>). In <italic>A. sieberi</italic>, about 21 major components (selected from 83 components and constituting 94.7% of the total volatiles) were characterized by organic solvent extraction vs. 18 components in the essential oil (<xref ref-type="table" rid="pone-0081580-t002"><bold>Table 2</bold></xref><bold>, </bold><xref ref-type="fig" rid="pone-0081580-g004"><bold>Figure 4B</bold></xref>). In <italic>A. judaica</italic>, about 18 components (selected from 63 components and constituting 75.6% of the total volatiles) were detected, as compared to 15 components in the essential oil (<xref ref-type="table" rid="pone-0081580-t003"><bold>Table 3</bold></xref><bold>, </bold><xref ref-type="fig" rid="pone-0081580-g004"><bold>Figure 4C</bold></xref>). In terms of relative differences in the contents of components identified by the solvent- vs. water-extraction methods, large differences were found for <italic>O. dayi</italic> in the relative contents of the components present in the essential oil as compared to organic solvent extraction, for example para-cymene (14.5 and 3.5%, respectively), terpinen-4-ol (18.2 and 4.5%, respectively), α-terpineol (24.7 and 6.6%, respectively), sabinene (4.7 and 8.1%, respectively), cis-sabinene hydrate (4.3 and 13.1%, respectively), Δ-pinene (4 and 10.2%, respectively) and α-terpinyl propionate (0 and 5.1%, respectively) (<xref ref-type="table" rid="pone-0081580-t001"><bold>Table 1</bold></xref><bold>, </bold><xref ref-type="fig" rid="pone-0081580-g004"><bold>Figure 4A</bold></xref>). Similarly in <italic>A. sieberi</italic>, camphor (31.4 and 8%, respectively), 1,8-cineole (21.6 and 9.5%, respectively), para-cymene (8.2 and 0.5%, respectively), trans-thujone (4.1 and 1.6%, respectively), borneol (13.6 and 5.1%, respectively) and germacrene D (1 and 4%, respectively) showed differences over extraction methods (<xref ref-type="table" rid="pone-0081580-t002"><bold>Table 2</bold></xref><bold>, </bold><xref ref-type="fig" rid="pone-0081580-g004"><bold>Figure 4B</bold></xref>). For <italic>A. judaica</italic>, components showing large differences were artemisia ketone (53.6 and 40.3%, respectively), chrysanthenone (9.2 and 2.4%, respectively), artemisia alcohol (3.5 and 13.6%, respectively), yomogi alcohol (3.2 and 0.5%, respectively) and filifolide A (2 and 4.5%, respectively) (<xref ref-type="table" rid="pone-0081580-t003"><bold>Table 3</bold></xref><bold>, </bold><xref ref-type="fig" rid="pone-0081580-g004"><bold>Figure 4C</bold></xref>).</p>
+<fig id="pone-0081580-g004" position="float" orientation="portrait"><object-id pub-id-type="doi">10.1371/journal.pone.0081580.g004</object-id><label>Figure 4</label><caption>
+<title>Solid-phase microextraction (SPME) chromatogram of samples taken from the air surrounding <italic>O. dayi</italic> (A), <italic>A. sieberi</italic> (B) and <italic>A. judaica</italic> (C) plants with peaks corresponding to identified metabolites.</title>
+</caption><graphic mimetype="image" xlink:href="info:doi/10.1371/journal.pone.0081580.g004" position="float" xlink:type="simple" orientation="portrait" /></fig><table-wrap id="pone-0081580-t001" position="float" orientation="portrait"><object-id pub-id-type="doi">10.1371/journal.pone.0081580.t001</object-id><label>Table 1</label><caption>
+<title>Volatile composition of <italic>O. dayi</italic> plant foliage (MTBE extract), in the soil in which <italic>O. dayi</italic> is growing (MTBE extract), and in the air surrounding the plant (SPME).</title>
+</caption><alternatives><graphic id="pone-0081580-t001-1" position="float" mimetype="image" xlink:href="info:doi/10.1371/journal.pone.0081580.t001" xlink:type="simple" orientation="portrait" />
+<table><colgroup span="1"><col align="left" span="1" /><col align="center" span="1" /><col align="center" span="1" /><col align="center" span="1" /><col align="center" span="1" /><col align="center" span="1" /><col align="center" span="1" /></colgroup>
+<thead>
+<tr>
+<td align="left" rowspan="1" colspan="1">Compound</td>
+<td colspan="2" align="left" rowspan="1">Plant foliage</td>
+<td colspan="2" align="left" rowspan="1">Soil</td>
+<td colspan="2" align="left" rowspan="1">Air</td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1" />
+<td align="left" rowspan="1" colspan="1">% oftotal</td>
+<td align="left" rowspan="1" colspan="1">SD</td>
+<td align="left" rowspan="1" colspan="1">% oftotal</td>
+<td align="left" rowspan="1" colspan="1">SD</td>
+<td align="left" rowspan="1" colspan="1">% oftotal</td>
+<td align="left" rowspan="1" colspan="1">SD</td>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left" rowspan="1" colspan="1">1,8-Cineole</td>
+<td align="left" rowspan="1" colspan="1"><underline>13.2</underline></td>
+<td align="left" rowspan="1" colspan="1">1.7</td>
+<td align="left" rowspan="1" colspan="1"><underline>38.7</underline></td>
+<td align="left" rowspan="1" colspan="1">29.9</td>
+<td align="left" rowspan="1" colspan="1"><underline>39.2</underline></td>
+<td align="left" rowspan="1" colspan="1">14.0</td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1">α-Terpineol</td>
+<td align="left" rowspan="1" colspan="1"><underline>11.8</underline></td>
+<td align="left" rowspan="1" colspan="1">1.1</td>
+<td align="left" rowspan="1" colspan="1">0.4</td>
+<td align="left" rowspan="1" colspan="1">1.7</td>
+<td align="left" rowspan="1" colspan="1"><underline>4.2</underline></td>
+<td align="left" rowspan="1" colspan="1">5.4</td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1">β-Pinene</td>
+<td align="left" rowspan="1" colspan="1">8.9</td>
+<td align="left" rowspan="1" colspan="1">0.8</td>
+<td align="left" rowspan="1" colspan="1">0.6</td>
+<td align="left" rowspan="1" colspan="1">2.4</td>
+<td align="left" rowspan="1" colspan="1">7.4</td>
+<td align="left" rowspan="1" colspan="1">2.5</td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1">Terpinen-4-ol</td>
+<td align="left" rowspan="1" colspan="1">7.3</td>
+<td align="left" rowspan="1" colspan="1">1.6</td>
+<td align="left" rowspan="1" colspan="1">0.3</td>
+<td align="left" rowspan="1" colspan="1">1.2</td>
+<td align="left" rowspan="1" colspan="1">7.4</td>
+<td align="left" rowspan="1" colspan="1">7.5</td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1">Linalyl acetate</td>
+<td align="left" rowspan="1" colspan="1">7.0</td>
+<td align="left" rowspan="1" colspan="1">1.7</td>
+<td align="left" rowspan="1" colspan="1">n.d.</td>
+<td align="left" rowspan="1" colspan="1" />
+<td align="left" rowspan="1" colspan="1">2.8</td>
+<td align="left" rowspan="1" colspan="1">6.4</td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1">cis-Sabinene hydrate</td>
+<td align="left" rowspan="1" colspan="1">6.7</td>
+<td align="left" rowspan="1" colspan="1">1.8</td>
+<td align="left" rowspan="1" colspan="1">0.5</td>
+<td align="left" rowspan="1" colspan="1">1.4</td>
+<td align="left" rowspan="1" colspan="1">0.9</td>
+<td align="left" rowspan="1" colspan="1">1.6</td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1">trans-Sabinene hydrate</td>
+<td align="left" rowspan="1" colspan="1">6.6</td>
+<td align="left" rowspan="1" colspan="1">1.1</td>
+<td align="left" rowspan="1" colspan="1">0.1</td>
+<td align="left" rowspan="1" colspan="1">0.4</td>
+<td align="left" rowspan="1" colspan="1">0.6</td>
+<td align="left" rowspan="1" colspan="1">1.1</td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1">α-Pinene</td>
+<td align="left" rowspan="1" colspan="1">5.6</td>
+<td align="left" rowspan="1" colspan="1">0.5</td>
+<td align="left" rowspan="1" colspan="1">9.1</td>
+<td align="left" rowspan="1" colspan="1">1.2</td>
+<td align="left" rowspan="1" colspan="1">7.7</td>
+<td align="left" rowspan="1" colspan="1">3.2</td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1">γ-Terpinene</td>
+<td align="left" rowspan="1" colspan="1">4.9</td>
+<td align="left" rowspan="1" colspan="1">0.9</td>
+<td align="left" rowspan="1" colspan="1">2.6</td>
+<td align="left" rowspan="1" colspan="1">4.3</td>
+<td align="left" rowspan="1" colspan="1">8.6</td>
+<td align="left" rowspan="1" colspan="1">2.6</td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1">Sabinene</td>
+<td align="left" rowspan="1" colspan="1">4.7</td>
+<td align="left" rowspan="1" colspan="1">0.6</td>
+<td align="left" rowspan="1" colspan="1">0.6</td>
+<td align="left" rowspan="1" colspan="1">1.5</td>
+<td align="left" rowspan="1" colspan="1">5.8</td>
+<td align="left" rowspan="1" colspan="1">1.5</td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1">para-Cymene</td>
+<td align="left" rowspan="1" colspan="1">3.9</td>
+<td align="left" rowspan="1" colspan="1">1.3</td>
+<td align="left" rowspan="1" colspan="1">2.7</td>
+<td align="left" rowspan="1" colspan="1">10.5</td>
+<td align="left" rowspan="1" colspan="1">7.0</td>
+<td align="left" rowspan="1" colspan="1">3.3</td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1">Myrcene</td>
+<td align="left" rowspan="1" colspan="1">3.8</td>
+<td align="left" rowspan="1" colspan="1">0.5</td>
+<td align="left" rowspan="1" colspan="1">0.3</td>
+<td align="left" rowspan="1" colspan="1">1.3</td>
+<td align="left" rowspan="1" colspan="1">2.4</td>
+<td align="left" rowspan="1" colspan="1">2.1</td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1">α-Terpinyl propanate</td>
+<td align="left" rowspan="1" colspan="1">3.8</td>
+<td align="left" rowspan="1" colspan="1">1.4</td>
+<td align="left" rowspan="1" colspan="1">n.d.</td>
+<td align="left" rowspan="1" colspan="1" />
+<td align="left" rowspan="1" colspan="1">n.d.</td>
+<td align="left" rowspan="1" colspan="1" />
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1">δ-Terpineol</td>
+<td align="left" rowspan="1" colspan="1">2.7</td>
+<td align="left" rowspan="1" colspan="1">0.2</td>
+<td align="left" rowspan="1" colspan="1">0.1</td>
+<td align="left" rowspan="1" colspan="1">0.3</td>
+<td align="left" rowspan="1" colspan="1">0.4</td>
+<td align="left" rowspan="1" colspan="1">0.6</td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1">Intermedeol</td>
+<td align="left" rowspan="1" colspan="1">2.2</td>
+<td align="left" rowspan="1" colspan="1">0.2</td>
+<td align="left" rowspan="1" colspan="1">n.d.</td>
+<td align="left" rowspan="1" colspan="1" />
+<td align="left" rowspan="1" colspan="1">n.d.</td>
+<td align="left" rowspan="1" colspan="1">0.1</td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1">α-Thujene</td>
+<td align="left" rowspan="1" colspan="1">2.1</td>
+<td align="left" rowspan="1" colspan="1">0.3</td>
+<td align="left" rowspan="1" colspan="1">0.6</td>
+<td align="left" rowspan="1" colspan="1">1.1</td>
+<td align="left" rowspan="1" colspan="1">2.9</td>
+<td align="left" rowspan="1" colspan="1">0.8</td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1">(E)-Cryophyllene</td>
+<td align="left" rowspan="1" colspan="1">1.8</td>
+<td align="left" rowspan="1" colspan="1">0.2</td>
+<td align="left" rowspan="1" colspan="1">0.1</td>
+<td align="left" rowspan="1" colspan="1">0.5</td>
+<td align="left" rowspan="1" colspan="1">0.3</td>
+<td align="left" rowspan="1" colspan="1">0.5</td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1">Borneol</td>
+<td align="left" rowspan="1" colspan="1">1.1</td>
+<td align="left" rowspan="1" colspan="1">0.4</td>
+<td align="left" rowspan="1" colspan="1">0.3</td>
+<td align="left" rowspan="1" colspan="1">1.1</td>
+<td align="left" rowspan="1" colspan="1">0.9</td>
+<td align="left" rowspan="1" colspan="1">1.5</td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1">trans-Sabinenehydrate acetate</td>
+<td align="left" rowspan="1" colspan="1">0.9</td>
+<td align="left" rowspan="1" colspan="1">2.5</td>
+<td align="left" rowspan="1" colspan="1">n.d.</td>
+<td align="left" rowspan="1" colspan="1" />
+<td align="left" rowspan="1" colspan="1">n.d.</td>
+<td align="left" rowspan="1" colspan="1" />
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1">cis-Methyl epi-jasmonate</td>
+<td align="left" rowspan="1" colspan="1">0.4</td>
+<td align="left" rowspan="1" colspan="1">0.1</td>
+<td align="left" rowspan="1" colspan="1">n.d.</td>
+<td align="left" rowspan="1" colspan="1" />
+<td align="left" rowspan="1" colspan="1">n.d.</td>
+<td align="left" rowspan="1" colspan="1" />
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1">Limonene</td>
+<td align="left" rowspan="1" colspan="1">0.4</td>
+<td align="left" rowspan="1" colspan="1">0.1</td>
+<td align="left" rowspan="1" colspan="1"><underline>42.6</underline></td>
+<td align="left" rowspan="1" colspan="1">37.4</td>
+<td align="left" rowspan="1" colspan="1">1.1</td>
+<td align="left" rowspan="1" colspan="1">0.5</td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1">Eugenol</td>
+<td align="left" rowspan="1" colspan="1">0.3</td>
+<td align="left" rowspan="1" colspan="1">0.1</td>
+<td align="left" rowspan="1" colspan="1">n.d.</td>
+<td align="left" rowspan="1" colspan="1" />
+<td align="left" rowspan="1" colspan="1">n.d.</td>
+<td align="left" rowspan="1" colspan="1" />
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1">trans-Methyl jasmonate</td>
+<td align="left" rowspan="1" colspan="1">0.2</td>
+<td align="left" rowspan="1" colspan="1">0.0</td>
+<td align="left" rowspan="1" colspan="1">n.d.</td>
+<td align="left" rowspan="1" colspan="1" />
+<td align="left" rowspan="1" colspan="1">n.d.</td>
+<td align="left" rowspan="1" colspan="1" />
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1">Vanillin</td>
+<td align="left" rowspan="1" colspan="1">0.2</td>
+<td align="left" rowspan="1" colspan="1">0.0</td>
+<td align="left" rowspan="1" colspan="1">n.d.</td>
+<td align="left" rowspan="1" colspan="1" />
+<td align="left" rowspan="1" colspan="1">n.d.</td>
+<td align="left" rowspan="1" colspan="1" />
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1">Bornyl acetate</td>
+<td align="left" rowspan="1" colspan="1">0.1</td>
+<td align="left" rowspan="1" colspan="1">0.0</td>
+<td align="left" rowspan="1" colspan="1">0.2</td>
+<td align="left" rowspan="1" colspan="1">0.9</td>
+<td align="left" rowspan="1" colspan="1">n.d.</td>
+<td align="left" rowspan="1" colspan="1" />
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1">Neryl acetate</td>
+<td align="left" rowspan="1" colspan="1">0.1</td>
+<td align="left" rowspan="1" colspan="1">0.0</td>
+<td align="left" rowspan="1" colspan="1">n.d.</td>
+<td align="left" rowspan="1" colspan="1" />
+<td align="left" rowspan="1" colspan="1">0.1</td>
+<td align="left" rowspan="1" colspan="1">0.2</td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1">α-Terpinyl acetate</td>
+<td align="left" rowspan="1" colspan="1">0.1</td>
+<td align="left" rowspan="1" colspan="1">0.0</td>
+<td align="left" rowspan="1" colspan="1">n.d.</td>
+<td align="left" rowspan="1" colspan="1" />
+<td align="left" rowspan="1" colspan="1">n.d.</td>
+<td align="left" rowspan="1" colspan="1" />
+</tr>
+</tbody>
+</table>
+</alternatives><table-wrap-foot><fn id="nt101"><label /><p>All the measurements were taken in the summer. n = 5–17, n.d. = not detected, 0 represents values less than 0.1.</p></fn></table-wrap-foot></table-wrap><table-wrap id="pone-0081580-t002" position="float" orientation="portrait"><object-id pub-id-type="doi">10.1371/journal.pone.0081580.t002</object-id><label>Table 2</label><caption>
+<title>Volatile composition of <italic>A. sieberi</italic> plant foliage (MTBE extract), in the soil in which <italic>A. sieberi</italic> is growing (MTBE extract), and in the air surrounding the plant (SPME).</title>
+</caption><alternatives><graphic id="pone-0081580-t002-2" position="float" mimetype="image" xlink:href="info:doi/10.1371/journal.pone.0081580.t002" xlink:type="simple" orientation="portrait" />
+<table><colgroup span="1"><col align="left" span="1" /><col align="center" span="1" /><col align="center" span="1" /><col align="center" span="1" /><col align="center" span="1" /><col align="center" span="1" /><col align="center" span="1" /></colgroup>
+<thead>
+<tr>
+<td align="left" rowspan="1" colspan="1">Compound</td>
+<td colspan="2" align="left" rowspan="1">Plant foliage</td>
+<td colspan="2" align="left" rowspan="1">Soil</td>
+<td colspan="2" align="left" rowspan="1">Air</td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1" />
+<td align="left" rowspan="1" colspan="1">% oftotal</td>
+<td align="left" rowspan="1" colspan="1">SD</td>
+<td align="left" rowspan="1" colspan="1">% oftotal</td>
+<td align="left" rowspan="1" colspan="1">SD</td>
+<td align="left" rowspan="1" colspan="1">% oftotal</td>
+<td align="left" rowspan="1" colspan="1">SD</td>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left" rowspan="1" colspan="1">1,8-Cineole</td>
+<td align="left" rowspan="1" colspan="1">29.1</td>
+<td align="left" rowspan="1" colspan="1">3.3</td>
+<td align="left" rowspan="1" colspan="1">21.5</td>
+<td align="left" rowspan="1" colspan="1">32.6</td>
+<td align="left" rowspan="1" colspan="1">49.0</td>
+<td align="left" rowspan="1" colspan="1">10.1</td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1">Camphor</td>
+<td align="left" rowspan="1" colspan="1">28.5</td>
+<td align="left" rowspan="1" colspan="1">3.1</td>
+<td align="left" rowspan="1" colspan="1">7.4</td>
+<td align="left" rowspan="1" colspan="1">13.4</td>
+<td align="left" rowspan="1" colspan="1">4.8</td>
+<td align="left" rowspan="1" colspan="1">4.2</td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1">Borneol</td>
+<td align="left" rowspan="1" colspan="1">19.8</td>
+<td align="left" rowspan="1" colspan="1">3.2</td>
+<td align="left" rowspan="1" colspan="1">0.0</td>
+<td align="left" rowspan="1" colspan="1">0.0</td>
+<td align="left" rowspan="1" colspan="1">0.9</td>
+<td align="left" rowspan="1" colspan="1">1.6</td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1">Germacrene D</td>
+<td align="left" rowspan="1" colspan="1">14.4</td>
+<td align="left" rowspan="1" colspan="1">3.5</td>
+<td align="left" rowspan="1" colspan="1">0.0</td>
+<td align="left" rowspan="1" colspan="1">0.1</td>
+<td align="left" rowspan="1" colspan="1">0.0</td>
+<td align="left" rowspan="1" colspan="1">0.0</td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1">Artemisia alcohol</td>
+<td align="left" rowspan="1" colspan="1">13.0</td>
+<td align="left" rowspan="1" colspan="1">2.2</td>
+<td align="left" rowspan="1" colspan="1">0.0</td>
+<td align="left" rowspan="1" colspan="1">0.0</td>
+<td align="left" rowspan="1" colspan="1">0.6</td>
+<td align="left" rowspan="1" colspan="1">0.8</td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1">trans-Thujone</td>
+<td align="left" rowspan="1" colspan="1">10.4</td>
+<td align="left" rowspan="1" colspan="1">1.5</td>
+<td align="left" rowspan="1" colspan="1">45.7</td>
+<td align="left" rowspan="1" colspan="1">42.0</td>
+<td align="left" rowspan="1" colspan="1">13.0</td>
+<td align="left" rowspan="1" colspan="1">15.2</td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1">para-Cymene</td>
+<td align="left" rowspan="1" colspan="1">9.2</td>
+<td align="left" rowspan="1" colspan="1">2.1</td>
+<td align="left" rowspan="1" colspan="1">1.3</td>
+<td align="left" rowspan="1" colspan="1">5.4</td>
+<td align="left" rowspan="1" colspan="1">10.1</td>
+<td align="left" rowspan="1" colspan="1">3.2</td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1">Camphene</td>
+<td align="left" rowspan="1" colspan="1">9.1</td>
+<td align="left" rowspan="1" colspan="1">1.1</td>
+<td align="left" rowspan="1" colspan="1">4.8</td>
+<td align="left" rowspan="1" colspan="1">6.6</td>
+<td align="left" rowspan="1" colspan="1">3.4</td>
+<td align="left" rowspan="1" colspan="1">1.8</td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1">Sabinene</td>
+<td align="left" rowspan="1" colspan="1">2.7</td>
+<td align="left" rowspan="1" colspan="1">0.6</td>
+<td align="left" rowspan="1" colspan="1">0.3</td>
+<td align="left" rowspan="1" colspan="1">0.9</td>
+<td align="left" rowspan="1" colspan="1">6.1</td>
+<td align="left" rowspan="1" colspan="1">2.8</td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1">α-Pinene</td>
+<td align="left" rowspan="1" colspan="1">2.4</td>
+<td align="left" rowspan="1" colspan="1">0.6</td>
+<td align="left" rowspan="1" colspan="1">18.3</td>
+<td align="left" rowspan="1" colspan="1">24.8</td>
+<td align="left" rowspan="1" colspan="1">8.8</td>
+<td align="left" rowspan="1" colspan="1">5.6</td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1">Pinocarvone</td>
+<td align="left" rowspan="1" colspan="1">1.9</td>
+<td align="left" rowspan="1" colspan="1">0.3</td>
+<td align="left" rowspan="1" colspan="1">n.d.</td>
+<td align="left" rowspan="1" colspan="1">0.0</td>
+<td align="left" rowspan="1" colspan="1">0.2</td>
+<td align="left" rowspan="1" colspan="1">0.4</td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1">Benzoic acid(methyl vanillate)</td>
+<td align="left" rowspan="1" colspan="1">1.6</td>
+<td align="left" rowspan="1" colspan="1">0.1</td>
+<td align="left" rowspan="1" colspan="1">n.d.</td>
+<td align="left" rowspan="1" colspan="1">0.0</td>
+<td align="left" rowspan="1" colspan="1">n.d.</td>
+<td align="left" rowspan="1" colspan="1">0.0</td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1">cis-Sabinene hydrate</td>
+<td align="left" rowspan="1" colspan="1">1.5</td>
+<td align="left" rowspan="1" colspan="1">0.3</td>
+<td align="left" rowspan="1" colspan="1">n.d.</td>
+<td align="left" rowspan="1" colspan="1">0.0</td>
+<td align="left" rowspan="1" colspan="1">n.d.</td>
+<td align="left" rowspan="1" colspan="1">0.1</td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1">trans-Sabinene hydrate</td>
+<td align="left" rowspan="1" colspan="1">1.4</td>
+<td align="left" rowspan="1" colspan="1">0.3</td>
+<td align="left" rowspan="1" colspan="1">n.d.</td>
+<td align="left" rowspan="1" colspan="1">0.0</td>
+<td align="left" rowspan="1" colspan="1">n.d.</td>
+<td align="left" rowspan="1" colspan="1">0.1</td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1">Myrtenol</td>
+<td align="left" rowspan="1" colspan="1">1.3</td>
+<td align="left" rowspan="1" colspan="1">0.3</td>
+<td align="left" rowspan="1" colspan="1">n.d.</td>
+<td align="left" rowspan="1" colspan="1">0.0</td>
+<td align="left" rowspan="1" colspan="1">n.d.</td>
+<td align="left" rowspan="1" colspan="1">0.0</td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1">Carvacrol</td>
+<td align="left" rowspan="1" colspan="1">0.9</td>
+<td align="left" rowspan="1" colspan="1">0.1</td>
+<td align="left" rowspan="1" colspan="1">n.d.</td>
+<td align="left" rowspan="1" colspan="1">0.0</td>
+<td align="left" rowspan="1" colspan="1">n.d.</td>
+<td align="left" rowspan="1" colspan="1">0.0</td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1">Jasmine ketolactone</td>
+<td align="left" rowspan="1" colspan="1">0.8</td>
+<td align="left" rowspan="1" colspan="1">0.1</td>
+<td align="left" rowspan="1" colspan="1">n.d.</td>
+<td align="left" rowspan="1" colspan="1">0.0</td>
+<td align="left" rowspan="1" colspan="1">n.d.</td>
+<td align="left" rowspan="1" colspan="1">0.0</td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1">(Z) Methyl jasmonate</td>
+<td align="left" rowspan="1" colspan="1">0.7</td>
+<td align="left" rowspan="1" colspan="1">0.1</td>
+<td align="left" rowspan="1" colspan="1">n.d.</td>
+<td align="left" rowspan="1" colspan="1">0.0</td>
+<td align="left" rowspan="1" colspan="1">n.d.</td>
+<td align="left" rowspan="1" colspan="1">0.0</td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1">α-Tujene</td>
+<td align="left" rowspan="1" colspan="1">0.6</td>
+<td align="left" rowspan="1" colspan="1">0.2</td>
+<td align="left" rowspan="1" colspan="1">0.2</td>
+<td align="left" rowspan="1" colspan="1">0.6</td>
+<td align="left" rowspan="1" colspan="1">2.6</td>
+<td align="left" rowspan="1" colspan="1">1.3</td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1">Eugenol</td>
+<td align="left" rowspan="1" colspan="1">0.3</td>
+<td align="left" rowspan="1" colspan="1">0.1</td>
+<td align="left" rowspan="1" colspan="1">n.d.</td>
+<td align="left" rowspan="1" colspan="1">0.0</td>
+<td align="left" rowspan="1" colspan="1">n.d.</td>
+<td align="left" rowspan="1" colspan="1">0.0</td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1">cis-Thujone</td>
+<td align="left" rowspan="1" colspan="1">n.d.</td>
+<td align="left" rowspan="1" colspan="1">0.0</td>
+<td align="left" rowspan="1" colspan="1">0.4</td>
+<td align="left" rowspan="1" colspan="1">0.8</td>
+<td align="left" rowspan="1" colspan="1">0.3</td>
+<td align="left" rowspan="1" colspan="1">0.8</td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1">Terpinen-4-ol</td>
+<td align="left" rowspan="1" colspan="1">n.d.</td>
+<td align="left" rowspan="1" colspan="1">0.0</td>
+<td align="left" rowspan="1" colspan="1">n.d.</td>
+<td align="left" rowspan="1" colspan="1">0.0</td>
+<td align="left" rowspan="1" colspan="1">0.2</td>
+<td align="left" rowspan="1" colspan="1">0.2</td>
+</tr>
+</tbody>
+</table>
+</alternatives><table-wrap-foot><fn id="nt102"><label /><p>All measurements were taken in the summer. n = 5–17, n.d. = not detected, 0 represents values less than 0.1.</p></fn></table-wrap-foot></table-wrap><table-wrap id="pone-0081580-t003" position="float" orientation="portrait"><object-id pub-id-type="doi">10.1371/journal.pone.0081580.t003</object-id><label>Table 3</label><caption>
+<title>Volatile composition of <italic>A. judaica</italic> plant foliage (MTBE extract), in the soil in which <italic>A. judaica</italic> is growing (MTBE extract), and in the air surrounding the plant (SPME).</title>
+</caption><alternatives><graphic id="pone-0081580-t003-3" position="float" mimetype="image" xlink:href="info:doi/10.1371/journal.pone.0081580.t003" xlink:type="simple" orientation="portrait" />
+<table><colgroup span="1"><col align="left" span="1" /><col align="center" span="1" /><col align="center" span="1" /><col align="center" span="1" /><col align="center" span="1" /><col align="center" span="1" /><col align="center" span="1" /></colgroup>
+<thead>
+<tr>
+<td align="left" rowspan="1" colspan="1">Compound</td>
+<td colspan="2" align="left" rowspan="1">Plant foliage</td>
+<td colspan="2" align="left" rowspan="1">Soil</td>
+<td colspan="2" align="left" rowspan="1">Atmosphere</td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1" />
+<td align="left" rowspan="1" colspan="1">% oftotal</td>
+<td align="left" rowspan="1" colspan="1">SD</td>
+<td align="left" rowspan="1" colspan="1">% oftotal</td>
+<td align="left" rowspan="1" colspan="1">SD</td>
+<td align="left" rowspan="1" colspan="1">% oftotal</td>
+<td align="left" rowspan="1" colspan="1">SD</td>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left" rowspan="1" colspan="1">Artemisia ketone</td>
+<td align="left" rowspan="1" colspan="1">33.3</td>
+<td align="left" rowspan="1" colspan="1">0.6</td>
+<td align="left" rowspan="1" colspan="1">67.2</td>
+<td align="left" rowspan="1" colspan="1">31.1</td>
+<td align="left" rowspan="1" colspan="1">81.3</td>
+<td align="left" rowspan="1" colspan="1">4.2</td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1">(E) Ethyl cinnamate</td>
+<td align="left" rowspan="1" colspan="1">18.3</td>
+<td align="left" rowspan="1" colspan="1">0.5</td>
+<td align="left" rowspan="1" colspan="1">5.3</td>
+<td align="left" rowspan="1" colspan="1">15.1</td>
+<td align="left" rowspan="1" colspan="1">0.2</td>
+<td align="left" rowspan="1" colspan="1">0.6</td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1">Davanone</td>
+<td align="left" rowspan="1" colspan="1">9.6</td>
+<td align="left" rowspan="1" colspan="1">1.7</td>
+<td align="left" rowspan="1" colspan="1">n.d.</td>
+<td align="left" rowspan="1" colspan="1" />
+<td align="left" rowspan="1" colspan="1">n.d.</td>
+<td align="left" rowspan="1" colspan="1" />
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1">Artemisia alcohol</td>
+<td align="left" rowspan="1" colspan="1">8.6</td>
+<td align="left" rowspan="1" colspan="1">1.1</td>
+<td align="left" rowspan="1" colspan="1">0.6</td>
+<td align="left" rowspan="1" colspan="1">1.7</td>
+<td align="left" rowspan="1" colspan="1">0.8</td>
+<td align="left" rowspan="1" colspan="1">1.2</td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1">Filifolide A</td>
+<td align="left" rowspan="1" colspan="1">8.5</td>
+<td align="left" rowspan="1" colspan="1">1.3</td>
+<td align="left" rowspan="1" colspan="1">12.7</td>
+<td align="left" rowspan="1" colspan="1">9.4</td>
+<td align="left" rowspan="1" colspan="1">0.7</td>
+<td align="left" rowspan="1" colspan="1">2.4</td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1">(Z) Ethyl cinnamate</td>
+<td align="left" rowspan="1" colspan="1">6.4</td>
+<td align="left" rowspan="1" colspan="1">0.4</td>
+<td align="left" rowspan="1" colspan="1">0.5</td>
+<td align="left" rowspan="1" colspan="1">1.1</td>
+<td align="left" rowspan="1" colspan="1">0.2</td>
+<td align="left" rowspan="1" colspan="1">0.7</td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1">Piperitone</td>
+<td align="left" rowspan="1" colspan="1">5.7</td>
+<td align="left" rowspan="1" colspan="1">0.4</td>
+<td align="left" rowspan="1" colspan="1">2.7</td>
+<td align="left" rowspan="1" colspan="1">7.8</td>
+<td align="left" rowspan="1" colspan="1">0.1</td>
+<td align="left" rowspan="1" colspan="1">0.4</td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1">β-Davanone-2-ol</td>
+<td align="left" rowspan="1" colspan="1">2.7</td>
+<td align="left" rowspan="1" colspan="1">0.1</td>
+<td align="left" rowspan="1" colspan="1">n.d.</td>
+<td align="left" rowspan="1" colspan="1" />
+<td align="left" rowspan="1" colspan="1">n.d.</td>
+<td align="left" rowspan="1" colspan="1" />
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1">Chrysanthenone</td>
+<td align="left" rowspan="1" colspan="1">1.6</td>
+<td align="left" rowspan="1" colspan="1">0.2</td>
+<td align="left" rowspan="1" colspan="1">0.2</td>
+<td align="left" rowspan="1" colspan="1">0.7</td>
+<td align="left" rowspan="1" colspan="1">2.6</td>
+<td align="left" rowspan="1" colspan="1">2.3</td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1">nor-Davanone</td>
+<td align="left" rowspan="1" colspan="1">1.0</td>
+<td align="left" rowspan="1" colspan="1">0.1</td>
+<td align="left" rowspan="1" colspan="1">0.1</td>
+<td align="left" rowspan="1" colspan="1">0.3</td>
+<td align="left" rowspan="1" colspan="1">n.d.</td>
+<td align="left" rowspan="1" colspan="1" />
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1">Borneol</td>
+<td align="left" rowspan="1" colspan="1">1.0</td>
+<td align="left" rowspan="1" colspan="1">0.1</td>
+<td align="left" rowspan="1" colspan="1">0.1</td>
+<td align="left" rowspan="1" colspan="1">0.2</td>
+<td align="left" rowspan="1" colspan="1">0.1</td>
+<td align="left" rowspan="1" colspan="1">0.2</td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1">Yomogi alcohol</td>
+<td align="left" rowspan="1" colspan="1">0.8</td>
+<td align="left" rowspan="1" colspan="1">0.1</td>
+<td align="left" rowspan="1" colspan="1">0.3</td>
+<td align="left" rowspan="1" colspan="1">0.7</td>
+<td align="left" rowspan="1" colspan="1">1.0</td>
+<td align="left" rowspan="1" colspan="1">0.7</td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1">Camphor</td>
+<td align="left" rowspan="1" colspan="1">0.7</td>
+<td align="left" rowspan="1" colspan="1">0.1</td>
+<td align="left" rowspan="1" colspan="1">8.9</td>
+<td align="left" rowspan="1" colspan="1">14.4</td>
+<td align="left" rowspan="1" colspan="1">2.1</td>
+<td align="left" rowspan="1" colspan="1">1.8</td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1">Methyl vanillate</td>
+<td align="left" rowspan="1" colspan="1">0.6</td>
+<td align="left" rowspan="1" colspan="1">0.2</td>
+<td align="left" rowspan="1" colspan="1">n.d.</td>
+<td align="left" rowspan="1" colspan="1" />
+<td align="left" rowspan="1" colspan="1">n.d.</td>
+<td align="left" rowspan="1" colspan="1" />
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1">Sabinene</td>
+<td align="left" rowspan="1" colspan="1">0.5</td>
+<td align="left" rowspan="1" colspan="1">0.1</td>
+<td align="left" rowspan="1" colspan="1">1.4</td>
+<td align="left" rowspan="1" colspan="1">5.4</td>
+<td align="left" rowspan="1" colspan="1">10.9</td>
+<td align="left" rowspan="1" colspan="1">5.0</td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1">Jasmine ketolactone</td>
+<td align="left" rowspan="1" colspan="1">0.2</td>
+<td align="left" rowspan="1" colspan="1">0.0</td>
+<td align="left" rowspan="1" colspan="1">n.d.</td>
+<td align="left" rowspan="1" colspan="1" />
+<td align="left" rowspan="1" colspan="1">n.d.</td>
+<td align="left" rowspan="1" colspan="1" />
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1">Methyl epi-jasmonate</td>
+<td align="left" rowspan="1" colspan="1">0.2</td>
+<td align="left" rowspan="1" colspan="1">0.0</td>
+<td align="left" rowspan="1" colspan="1">n.d.</td>
+<td align="left" rowspan="1" colspan="1" />
+<td align="left" rowspan="1" colspan="1">n.d.</td>
+<td align="left" rowspan="1" colspan="1" />
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1">Methyl jasmonate</td>
+<td align="left" rowspan="1" colspan="1">0.1</td>
+<td align="left" rowspan="1" colspan="1">0.0</td>
+<td align="left" rowspan="1" colspan="1">n.d.</td>
+<td align="left" rowspan="1" colspan="1" />
+<td align="left" rowspan="1" colspan="1">n.d.</td>
+<td align="left" rowspan="1" colspan="1" />
+</tr>
+</tbody>
+</table>
+</alternatives><table-wrap-foot><fn id="nt103"><label /><p>All measurements were taken in the summer. n = 5–17, n.d. = not detected, 0 represents values less than 0.1.</p></fn></table-wrap-foot></table-wrap></sec><sec id="s3c2">
+<title>Changes in volatile content with seasons</title>
+<p>For <italic>O. dayi</italic>, there were significant changes (<italic>P</italic>&lt;0.05) in the relative percentage (of plant dry weight) of total compounds as measured following extraction in organic solvent (<xref ref-type="fig" rid="pone-0081580-g005"><bold>Figure 5</bold></xref><bold> upper panel</bold>). The highest concentration was measured in the autumn–1.3%, and the lowest in the spring–0.4%. In <italic>A. sieberi</italic>, the highest concentration of total compounds was measured in the autumn–0.4%, and the lowest in the spring–0.1% (<xref ref-type="fig" rid="pone-0081580-g005"><bold>Figure 5</bold></xref><bold> middle panel</bold>). For <italic>A. judaica</italic>, the highest concentration was measured in the autumn–2.3%, and the lowest in the spring–0.4% (<xref ref-type="fig" rid="pone-0081580-g005"><bold>Figure 5</bold></xref><bold> lower panel</bold>).</p>
+<fig id="pone-0081580-g005" position="float" orientation="portrait"><object-id pub-id-type="doi">10.1371/journal.pone.0081580.g005</object-id><label>Figure 5</label><caption>
+<title>Change in volatile contents with the seasons in <italic>O. dayi</italic> (upper panel), <italic>A. sieberi</italic> (middle panel) and <italic>A. judaica</italic> (lower panel), n = 18.</title>
+<p>Error bars represent standard deviation. Different uppercase letters represent significant differences between seasons (<italic>P</italic>&lt;0.05).</p>
+</caption><graphic mimetype="image" xlink:href="info:doi/10.1371/journal.pone.0081580.g005" position="float" xlink:type="simple" orientation="portrait" /></fig></sec><sec id="s3c3">
+<title>Changes in volatile composition with season</title>
+<p>A comparison of volatile composition in the different seasons (<bold><xref ref-type="supplementary-material" rid="pone.0081580.s004">Tables S1</xref>–<xref ref-type="supplementary-material" rid="pone.0081580.s006">S3</xref></bold>) showed that some components change dramatically with the seasons in relative percentage of total volatiles. For example in <italic>O. dayi,</italic> linalyl acetate (2.5% in the spring, 10.3% in the autumn), cis-sabinene hydrate (2.5% in the spring, 10.3% in the autumn), α-terpineol (6.6% in the spring, 11.8% in the summer), sabinene (4.7% in the summer, 8.1% in the spring) and trans-sabinene hydrate (1.8% in the autumn, 6.6% in the summer) showed significant differences among seasons (<bold><xref ref-type="supplementary-material" rid="pone.0081580.s004">Table S1</xref></bold>). In <italic>A. sieberi</italic>, 1,8-cineole (7.9% in the winter, 29.1% in the summer), camphor (8% in the spring, 28.5% in the summer), artemisia alcohol (5.8% in the winter, 13% in the summer), trans-thujone (1.6% in the spring, 19.7% in the winter), borneol (2.5% in the winter, 19.8% in the summer), germacrene D (3% in the winter, 14.4% in the summer) and para-cymene (0.5% in the spring, 9.2% in the summer) showed significant differences among the seasons (<bold><xref ref-type="supplementary-material" rid="pone.0081580.s005">Table S2</xref></bold>). In <italic>A. judaica</italic>, ethyl cinnamate (11.4% in the spring, 18.3% in the summer), filifolide A (4.5% in the spring, 8.5% in the summer) and piperitone (2.2% in the spring, 5.7% in the summer) showed seasonal differences in composition (<bold><xref ref-type="supplementary-material" rid="pone.0081580.s006">Table S3</xref></bold>).</p>
+<p>The summer season was characterized with water deficit conditions when compared with the winter season (<xref ref-type="fig" rid="pone-0081580-g001"><bold>Figure 1</bold></xref>). We observed that the relative percentage of some of the volatiles was significantly increased during summer season over the winter. For instance of the following volatiles increased in summer season over the winter period in <italic>O</italic>. <italic>dayi</italic>, Linalyl acetate (32%), Terpinen-4-ol (40%), γ-Terpinene (35%), trans-sabinene hydrate (73%) and Trans-Sabinene hydrate acetate (44%); in <italic>A. sieberi</italic>, 1,8-cineole (73%), camphor (69%), artemisia alcohol (66%), borneol (87%), germacrene D (79%), camphene (67%), para-cymene (78%), trans-Sabinene hydrate (71%), pinocarvone (63%), jasmine ketolactone (62%) and α-Tujene (50%); in <italic>A. judaica</italic>, ethyl cinnamate (38% increase over spring), borneol (40%) and piperitone (33%). Enhanced volatile content during summer season may be responsible for imparting drought tolerance of the plants. This selective enhancement in metabolites under water deficit conditions (summer season) may be related with improved plant height and stem diameter in <italic>O</italic>. <italic>dayi</italic> and <italic>A</italic>. <italic>sieberi</italic> (<xref ref-type="fig" rid="pone-0081580-g002"><bold>Figure 2</bold></xref><bold> and </bold><xref ref-type="fig" rid="pone-0081580-g003"><bold>3</bold></xref>).</p>
+</sec></sec><sec id="s3d">
+<title>Allelopathic Effects and Survival of Neighboring Plants</title>
+<sec id="s3d1">
+<title>In-vitro allelopathic effects and seed germination</title>
+<p>In the two experiments carried out under control conditions, germination of wheat seeds was inhibited (<xref ref-type="fig" rid="pone-0081580-g006"><bold>Figure 6</bold></xref> <bold>upper panel</bold>). In the essential oil inhibition experiment, although there were insignificant differences (P&gt;0.05) with low concentrations of essential oil (0.5 µl per 20 ml airspace), <italic>A. sieberi</italic> showed the highest inhibition (78.8%) and <italic>A. judaica</italic> the lowest (65.3%). However, high concentration (1.5 µl per 20 ml airspace) of oil from all the three species caused 100% inhibition (<xref ref-type="fig" rid="pone-0081580-g006"><bold>Figure 6</bold></xref> <bold>upper panel</bold>).</p>
+<fig id="pone-0081580-g006" position="float" orientation="portrait"><object-id pub-id-type="doi">10.1371/journal.pone.0081580.g006</object-id><label>Figure 6</label><caption>
+<title>Allelopathic effects of essential oils of <italic>O. dayi</italic>, <italic>A. sieberi</italic> and <italic>A. judaica</italic>. Inhibitory effects of essential oils from the three species at four different concentrations on wheat germination <italic>in vitro</italic> (upper panel) and of soil samples taken from under the canopies of the three species (lower panel), n = 5.</title>
+<p>Error bars represent standard error, n.s. = not significant.</p>
+</caption><graphic mimetype="image" xlink:href="info:doi/10.1371/journal.pone.0081580.g006" position="float" xlink:type="simple" orientation="portrait" /></fig>
+<p>In the soil inhibition experiment (<xref ref-type="fig" rid="pone-0081580-g006"><bold>Figure 6</bold></xref><bold> lower panel</bold>), although there were insignificant differences (<italic>P</italic>&gt;0.05), soil taken from plots in which <italic>O. dayi</italic> was growing caused the highest inhibition (27.3%) and soil in which <italic>A. judaica</italic> was growing caused the lowest inhibition (15.9%) of wheat seed germination (<xref ref-type="fig" rid="pone-0081580-g006"><bold>Figure 6</bold></xref><bold> lower panel</bold>).</p>
+</sec><sec id="s3d2">
+<title>In-vivo allelopathic effects in the field</title>
+<p>For the three species under study, different ratios were found between the number of weeds and their biomass (dry weight) (<xref ref-type="fig" rid="pone-0081580-g007"><bold>Figure 7</bold></xref>). In <italic>O. dayi</italic> plots, a low number of weeds and high weight gave the ratio of 0.038. In contrast, in <italic>A. judaica</italic> plots, a high number of weeds and low weight gave the ratio 0.0025 (<xref ref-type="fig" rid="pone-0081580-g007"><bold>Figure 7</bold></xref>). For <italic>A. sieberi</italic>, the weed number-to-weight ratio was 0.032 (<xref ref-type="fig" rid="pone-0081580-g007"><bold>Figure 7</bold></xref>). Furthermore, a specific effect of the allelopathic response was observed when the weeds growing in the three species’ plots were classified into botanical families (<xref ref-type="fig" rid="pone-0081580-g008"><bold>Figure 8</bold></xref>). With <italic>A. sieberi</italic> and <italic>A. judaica</italic>, there were higher differences in the number of weeds belonging to the different botanical families than with <italic>O. dayi</italic> (<xref ref-type="fig" rid="pone-0081580-g008"><bold>Figure 8</bold></xref>).</p>
+<fig id="pone-0081580-g007" position="float" orientation="portrait"><object-id pub-id-type="doi">10.1371/journal.pone.0081580.g007</object-id><label>Figure 7</label><caption>
+<title>Number of weeds and weed biomass in the field.</title>
+<p>Relationship between number of weeds and their dry weight in the three species’ plots. All measurements were taken in the autumn, n = 9. Error bars represent standard error.</p>
+</caption><graphic mimetype="image" xlink:href="info:doi/10.1371/journal.pone.0081580.g007" position="float" xlink:type="simple" orientation="portrait" /></fig><fig id="pone-0081580-g008" position="float" orientation="portrait"><object-id pub-id-type="doi">10.1371/journal.pone.0081580.g008</object-id><label>Figure 8</label><caption>
+<title>Representatives of the different weed families in the different species’ plots.</title>
+<p>Relative % of weeds from major botanical families out of total number of weeds in the different species’ plots. All measurements were taken in the autumn, n = 9. Error bars represent standard error.</p>
+</caption><graphic mimetype="image" xlink:href="info:doi/10.1371/journal.pone.0081580.g008" position="float" xlink:type="simple" orientation="portrait" /></fig></sec><sec id="s3d3">
+<title>Effects of allelopathy on volatiles present in the soil and air</title>
+<p>Soil samples extracted in the organic solvent and air samples were chemically analyzed for volatile identification. Although both air and soil detection methods under field conditions were not sufficiently accurate, and identified volatiles were mixed with those from the surrounding environment, a high correlation was found between major volatile compounds in the plant extract and those found in the soil and air samples. In <italic>O. dayi</italic>, the major component in the plant–1,8-cineole, was found in very high concentrations in both the air and soil. α-Terpineol, β-pinene and terpinen-4-ol were found at high concentrations in the plant and in the air (<xref ref-type="table" rid="pone-0081580-t001"><bold>Table 1</bold></xref>). In <italic>A. sieberi</italic>, 1,8-cineole, also the major component in the plant, was again found at very high concentrations in both air and soil. Camphor and para-cymene were found at intermediate and high concentrations in the plant, soil and air (<xref ref-type="table" rid="pone-0081580-t002"><bold>Table 2</bold></xref>). In <italic>A. judaica</italic>, the major component in the plant–artemisia ketone–was found at very high concentrations in both in air and soil. Filifolide A was found at high concentrations in the plant extract and in the soil (<xref ref-type="table" rid="pone-0081580-t003"><bold>Table 3</bold></xref>).</p>
+</sec></sec><sec id="s3e">
+<title>Comparing Seedlings and Cuttings as a Source of Variance</title>
+<sec id="s3e1">
+<title>Volatiles’ coefficients of variation among species</title>
+<p>High coefficients of variation in the seedling populations of <italic>O. dayi</italic>, <italic>A. sieberi</italic> and <italic>A. judaica</italic> were found relative to the populations of cuttings (<xref ref-type="fig" rid="pone-0081580-g009"><bold>Figure 9</bold></xref>). In addition, the highest values in the seedling population were found for <italic>A. sieberi</italic> (74.7) and the lowest for <italic>O. dayi</italic> (37.8).</p>
+<fig id="pone-0081580-g009" position="float" orientation="portrait"><object-id pub-id-type="doi">10.1371/journal.pone.0081580.g009</object-id><label>Figure 9</label><caption>
+<title>Coefficient of variation of volatiles (volatile composition) in cuttings and (volatile composition) seedlings.</title>
+<p>Average volatile composition coefficient of variation in the three species, comparing seedlings (dark gray) and cuttings (light gray) extracted with organic solvents. All measurements were taken in the autumn, n = 17–18. Error bars represent standard error.</p>
+</caption><graphic mimetype="image" xlink:href="info:doi/10.1371/journal.pone.0081580.g009" position="float" xlink:type="simple" orientation="portrait" /></fig></sec><sec id="s3e2">
+<title>Comparative analysis of volatile composition among species</title>
+<p>Comparison of the relative percentages of the volatile components in the three species showed that in each species, there were several components with high differences between seedlings and cuttings. The highest differences in <italic>A. sieberi</italic> (data not shown) were found for the compounds trans-thujone (36.5% in seedlings, 5.5% in cuttings), 1,8-cineole (18% in seedlings, 12% in cuttings), sabinene (7.2% in seedlings, 0.5% in cuttings), para-cymene (6.1% in seedlings, 2.9% in cuttings), cis-sabinene hydrate acetate (5.1% in seedlings, 0% in cuttings) and camphor (0.5% in seedlings, 11.7% in cuttings). In <italic>O. dayi</italic>, the highest differences were found for α-terpineol (6.1% in seedlings, 10.6% in cuttings), linalyl acetate (5.5% in seedlings, 9.9% in cuttings) and cis-sabinene hydrate (3.8% in seedlings, 10.4% in cuttings). In <italic>A. judaica</italic>, the highest differences were found for filifolide A (11.8% in seedlings, 7.7% in cuttings), davanone (2.7% in seedlings, 11.5% in cuttings) and camphor (18% in seedlings, 12% in cuttings) (data not shown).</p>
+</sec></sec><sec id="s3f">
+<title>Comparative PCA Analyses</title>
+<p>In <italic>A. sieberi</italic>, plants in the spring and summer seasons showed no significant changes in PCA (<xref ref-type="fig" rid="pone-0081580-g010"><bold>Figure 10A</bold></xref><bold>, <xref ref-type="supplementary-material" rid="pone.0081580.s007">Table S4B</xref></bold>). The distribution pattern of metabolites showed visible separation on the PCA plot for <italic>A. judaica</italic> in the summer, whereas no such separation was noted for the spring season (<xref ref-type="fig" rid="pone-0081580-g010"><bold>Figure 10B</bold></xref><bold>, <xref ref-type="supplementary-material" rid="pone.0081580.s007">Table S4A</xref></bold>). No clear separation was observed for <italic>O. dayi</italic> plants in either summer or spring (<xref ref-type="fig" rid="pone-0081580-g010"><bold>Figure 10C</bold></xref><bold>, <xref ref-type="supplementary-material" rid="pone.0081580.s007">Table S4C</xref></bold>) under low water conditions.</p>
+<fig id="pone-0081580-g010" position="float" orientation="portrait"><object-id pub-id-type="doi">10.1371/journal.pone.0081580.g010</object-id><label>Figure 10</label><caption>
+<title>Principal component analysis (PCA) of <italic>O. dayi</italic> (A), <italic>A. sieberi</italic> (B) and (C) <italic>A. judaica</italic> subjected to the four season regimes.</title>
+</caption><graphic mimetype="image" xlink:href="info:doi/10.1371/journal.pone.0081580.g010" position="float" xlink:type="simple" orientation="portrait" /></fig></sec></sec><sec id="s4">
+<title>Discussion</title>
+<p>Allelopathy is a well-studied phenomenon in which chemicals released by one plant may have detrimental or inhibitory effects on the germination, seedling establishment or growth pattern of neighboring plants <xref ref-type="bibr" rid="pone.0081580-Weston1">[8]</xref>–<xref ref-type="bibr" rid="pone.0081580-Miranda1">[9]</xref>, <xref ref-type="bibr" rid="pone.0081580-Couso1">[18]</xref>–<xref ref-type="bibr" rid="pone.0081580-Sardans1">[19]</xref>. In fact, allelochemicals produced by plants serve many purposes aside from being active in allelopathy, such as avoidance of herbivory and reducing competition for light, water and other micro- and macronutrients <xref ref-type="bibr" rid="pone.0081580-Uesugi1">[37]</xref>. Desert plants have been known to survive drought periods more successfully than mesophytes and other terrestrial plant groups <xref ref-type="bibr" rid="pone.0081580-Miranda1">[9]</xref>, <xref ref-type="bibr" rid="pone.0081580-Couso1">[18]</xref>–<xref ref-type="bibr" rid="pone.0081580-Sardans1">[19]</xref>. However, the role of secondary metabolites in the survival of desert plants in conjunction with allelopathy has never been explored, and offers a new research vista. The present study was therefore performed to elucidate the role of alleochemicals in survival under arid or semiarid desert conditions and in allelopathy, with a major focus on the botanical use of plant extracts for weed control. Our findings are the first to report a role for allelopathy in the successful survival of desert plants with agronomical use of plant extracts of the species under study to handle weed problems.</p>
+<sec id="s4a">
+<title>Allelopathy and Water Stress</title>
+<p>The plants under study were grown under natural conditions with no surplus water provided, replicating their natural habitat niche. Significant amounts of soil water content were noted in winter vs. summer soils (<xref ref-type="fig" rid="pone-0081580-g001"><bold>Figure 1</bold></xref>). These seasonal changes in soil water content can be linked to less evapotranspiration in the winter than in the summer <xref ref-type="bibr" rid="pone.0081580-Xu1">[2]</xref>. Differences were expected in the composition and content of metabolites identified in the three species facing the four different seasonal regimes. Seasonal variations were found to have a significant impact on composition and content of specific metabolites that are held responsible for allelopathy (<bold><xref ref-type="supplementary-material" rid="pone.0081580.s004">Tables S1</xref>–<xref ref-type="supplementary-material" rid="pone.0081580.s006">S3</xref></bold>). The concentrations of these metabolites differed significantly across the three analyzed samples, i.e. in the plant foliage, soil and air (discussed further on) (<xref ref-type="table" rid="pone-0081580-t001"><bold>Tables 1</bold></xref><bold>–</bold><xref ref-type="table" rid="pone-0081580-t003"><bold>3</bold></xref><bold>, </bold><xref ref-type="fig" rid="pone-0081580-g004"><bold>Figure 4</bold></xref>). Plant growth (height and stem diameter) was differentially affected across the three species in the four seasons, with most of the growth changes in all three studied species observed in the autumn and winter (<xref ref-type="fig" rid="pone-0081580-g002"><bold>Figures 2</bold></xref><bold>, </bold><xref ref-type="fig" rid="pone-0081580-g003"><bold>3</bold></xref>). Significant differences in leaf RWC were noted for <italic>O. dayi</italic>, <italic>A. sieberi</italic> and <italic>A. judaica</italic> across the different seasons (<bold><xref ref-type="supplementary-material" rid="pone.0081580.s001">Figure S1</xref></bold>), which may be associated with changes in water level, humidity and temperature induced seasonal changes <xref ref-type="bibr" rid="pone.0081580-Smethurst1">[38]</xref>. These seasonal changes were also found to significantly affect the osmolarities of all the three species, albeit differentially (<bold><xref ref-type="supplementary-material" rid="pone.0081580.s002">Figure S2</xref></bold>). Interseasonal changes in photochemical activity were noted in all species studied. These subtle changes could be linked to differences in light intensity in the different seasons <xref ref-type="bibr" rid="pone.0081580-Verhoeven1">[39]</xref>.</p>
+</sec><sec id="s4b">
+<title>Influence of Allelopathic Abilities on Weed Populations</title>
+<p>All three species showed allelopathic abilities in the laboratory experiments with respect to germination inhibition by essential oils (<xref ref-type="fig" rid="pone-0081580-g006"><bold>Figure 6</bold></xref><bold> upper panel</bold>) and by soils (<xref ref-type="fig" rid="pone-0081580-g006"><bold>Figure 6</bold></xref><bold> lower panel</bold>). This enabled us to conclude that allelopathic inhibition can be caused by volatiles in the air (as reflected by the essential oil germination inhibition experiment), inhibitory components in the soil (as seen in the soil germination inhibition experiment) or a combination of air- and soilborne allelopathic factors. The latter case may be supported by the presence of compounds in the plant’s atmosphere in both the field and the soil in which the plants grew (<xref ref-type="table" rid="pone-0081580-t001"><bold>Tables</bold> <bold>1</bold></xref><bold>–</bold><xref ref-type="table" rid="pone-0081580-t003"><bold>3</bold></xref><bold>, </bold><xref ref-type="fig" rid="pone-0081580-g006"><bold>Figure 6</bold></xref>).</p>
+<p>The allelopathic tendencies of the genus <italic>Artemisia</italic> have been well demonstrated. The main allelopathic compounds in this genus include artemisinin <xref ref-type="bibr" rid="pone.0081580-Duke1">[40]</xref>, methyl jasmonate <xref ref-type="bibr" rid="pone.0081580-Preston1">[41]</xref>, camphor and cineole epimers <xref ref-type="bibr" rid="pone.0081580-Barney1">[42]</xref>. Allelopathic effects of <italic>A. judaica</italic> have been demonstrated with its dry powder, showing inhibition of lettuce germination and growth <xref ref-type="bibr" rid="pone.0081580-Zeng1">[43]</xref>. The essential oil of <italic>A. judaica</italic> has also been shown to have high germination-inhibition abilities in comparison to other species <xref ref-type="bibr" rid="pone.0081580-Dudai3">[33]</xref>. Germination inhibition of <italic>Helianthemum squamatum</italic> seeds by <italic>A. sieberi</italic> shoot extract was reported by <xref ref-type="bibr" rid="pone.0081580-Escudero1">[27]</xref>.</p>
+<p>An extensive literature survey showed no previous information on the allelopathic abilities of <italic>O. dayi</italic>, whereas other species of this genus, such as <italic>O. syriacum, O. vulgare,</italic> and <italic>O. majorana</italic>, are known to possess low germination-inhibition abilities relative to other species <xref ref-type="bibr" rid="pone.0081580-Dudai3">[33]</xref>. In the present study, the highest levels of germination inhibition at lowest concentration applied (0.5 µl) were obtained with the essential oil from <italic>O. dayi</italic> and <italic>A</italic>. <italic>sieberi</italic> <bold>(</bold><xref ref-type="fig" rid="pone-0081580-g006"><bold>Figure 6</bold></xref> <bold>upper panel)</bold> and with <italic>O. dayi</italic> in soil induced germination inhibition (<xref ref-type="fig" rid="pone-0081580-g006"><bold>Figure 6</bold></xref> <bold>lower panel)</bold>. Among three species under study <italic>A. judaica</italic> showed lowest weeds dry weight, while lowest number of weeds was recorded for <italic>O. dayi</italic> (<xref ref-type="fig" rid="pone-0081580-g007"><bold>Figure 7</bold></xref>).</p>
+<p>Specificity of allelopathic effects was noted in <italic>A. judaica</italic> plots, which showed the largest differences between the weed varieties growing in their plots (<xref ref-type="fig" rid="pone-0081580-g008"><bold>Figure 8</bold></xref>). The highest number of weeds affected by <italic>A. judaica</italic> belonged to the <italic>Papilonaceae</italic>, whereas in <italic>A. sieberi</italic> plots, the highest number of affected weeds belonged to the <italic>Chenopodiaceae</italic> (<xref ref-type="fig" rid="pone-0081580-g008"><bold>Figure 8</bold></xref>). In <italic>O. dayi</italic> plots, the changes were minor, with the dominant weeds belonging to the Papilonaceae (<xref ref-type="fig" rid="pone-0081580-g008"><bold>Figure 8</bold></xref>). Previous allelopathic studies have shown that different plant species often respond differently to allelochemicals, presumably due to variations among evolutionary histories. This study’s findings should be helpful in creating specific herbicides for weeds by using different quantities of oils from the different species according to various needs.</p>
+</sec><sec id="s4c">
+<title>Metabolites and Allelopathy in <italic>O. Dayi</italic>, <italic>A. Sieberi</italic> and <italic>A. Judaica</italic></title>
+<p>Among the metabolites identified in <italic>O. dayi</italic>, 1,8-cyneole was present at the highest concentration in solvent, soil and air samples, indicating its abundance in and around the plant (<xref ref-type="table" rid="pone-0081580-t001"><bold>Table 1</bold></xref><bold>, </bold><xref ref-type="fig" rid="pone-0081580-g004"><bold>Figure 4</bold></xref>). On the other hand, compounds like α-terpineol, α-pinene, terpinen-4-ol, linalyl acetate and cis-sabinene hydrate were present at high concentrations in the solvent and the air around the foliage, but were absent or at low concentrations in the soil samples. Interestingly, limonene content in the soil sample was 100-fold than that in the solvent sample, and this compound was entirely absent in the air sample (<xref ref-type="table" rid="pone-0081580-t001"><bold>Table 1</bold></xref><bold>, </bold><xref ref-type="fig" rid="pone-0081580-g004"><bold>Figure 4</bold></xref>). The high concentration of limonene in the soil suggests a crucial role in allelopathic effects such as inhibition of seed germination and seedling establishment.</p>
+<p>The concentration of compounds released by <italic>A. sieberi</italic> and its allelopathic effects were also correlated. 1,8-Cineole and camphor were present in great abundance in all three samples analyzed, i.e. plant foliage, soil and air (<xref ref-type="table" rid="pone-0081580-t002"><bold>Table 2</bold></xref><bold>, </bold><xref ref-type="fig" rid="pone-0081580-g004"><bold>Figure 4</bold></xref>). Trans-thujone and α-pinene were present at higher concentrations in the soil and air samples than in the foliage sample, indicating their significant role in allelopathic effects. The concentration of limonene found in the soil sample was much higher than in the foliage or soil samples, thereby indicating its role in producing allelopathic effects on plants growing in <italic>A. sieberi</italic>’s vicinity. In contrast, α-tujene was present in high abundance in air samples relative to soil and foliage samples. A high concentration of α-tujene might be responsible for this plant’s airborne allelopathic effects (<xref ref-type="table" rid="pone-0081580-t002"><bold>Table 2</bold></xref><bold>, </bold><xref ref-type="fig" rid="pone-0081580-g004"><bold>Figure 4</bold></xref>).</p>
+<p>The allelopathic effects of <italic>A. judaica</italic> were regulated by a large number of natural compounds released by the plants, some of them residing in the plant tissue–leaves, stem and roots–and others passed into the soil and air to regulate allelopathic reactions occurring there. Among the metabolites identified in <italic>A. judaica</italic>, artemisia ketone and ethyl cinnamate were present in the foliage, soil and air samples (<xref ref-type="table" rid="pone-0081580-t003"><bold>Table 3</bold></xref><bold>, </bold><xref ref-type="fig" rid="pone-0081580-g004"><bold>Figure 4</bold></xref>); however, concentrations of these compounds were much higher in the soil and air samples than in the plant sample. The concentration of filifolide A was much higher in the soil sample than in the plant or air samples, suggesting this metabolite’s greater contribution to soil borne allelopathic effects (<xref ref-type="table" rid="pone-0081580-t003"><bold>Table 3</bold></xref><bold>, </bold><xref ref-type="fig" rid="pone-0081580-g004"><bold>Figure 4</bold></xref>). Concentrations of chrysanthenone and sabiene were much higher in air samples than in soil and plant samples indicating their important role in allelopathic regulation of neighboring plants through inhibition of seed germination and seedling establishment.</p>
+</sec><sec id="s4d">
+<title>Why do Desert Plants Thrive under Arid and Semiarid Conditions?</title>
+<p>Extensive GC-MS analyses of <italic>O. dayi</italic>, <italic>A. sieberi</italic> and <italic>A. judaica</italic> under the four seasonal regimes which differed in soil water level revealed some interesting facts. Although insignificant differences were found in the relative content of most of the metabolites identified under low soil water (summer) and high soil water (winter) regimes (<bold><xref ref-type="supplementary-material" rid="pone.0081580.s004">Tables S1</xref>–<xref ref-type="supplementary-material" rid="pone.0081580.s006">S3</xref></bold>). Only few metabolites showed significant increases in their relative content in the summer season (water deficit conditions) when compared to winter season (high soil water). This selective increase in the relative metabolite content may be associated with enabling plants under study to thrive efficiently under water deficit conditions. For instance elevated levels of linalyl acetate, terpinen-4-ol, γ-terpinene, trans-sabinene hydrate and trans-sabinene hydrate acetate in <italic>O</italic>. <italic>dayi</italic>; 1,8-cineole, camphor, artemisia alcohol, borneol, germacrene D, camphene, para-cymene, trans-Sabinene hydrate, pinocarvone, jasmine ketolactone and α-Tujene in <italic>A. sieberi</italic>; ethyl cinnamate, borneol and piperitone in <italic>A. judaica</italic> were observed. Enhanced volatile content of only few metabolites among an array of metabolites suggested their selective induction during summer season over winter period. Such that five out of twenty seven in <italic>O</italic>. <italic>dayi</italic>; eleven out of twenty four in <italic>A</italic>. <italic>sieberi</italic> and three out of seventeen metabolites in <italic>A</italic>. <italic>judaica</italic> were shown to be significantly enhanced under water deficit period during summer season, and this selective metabolomic shift may be responsible for improved plant growth and physiological attributes such as Fv/Fm which in turn may be involved in imparting drought resistance of plants under study (<bold><xref ref-type="supplementary-material" rid="pone.0081580.s004">Tables S1</xref>–<xref ref-type="supplementary-material" rid="pone.0081580.s006">S3</xref>, </bold><xref ref-type="fig" rid="pone-0081580-g005"><bold>Figure 5</bold></xref>).</p>
+<p>This resistance to a major shift in metabolome content and composition with changing seasons might be a crucial factor in the successful survival of these plant species under harsh and changing environments <xref ref-type="bibr" rid="pone.0081580-Chon1">[44]</xref>. PCA led us to propose that <italic>O. dayi</italic> is more resistant to seasonal variations than <italic>A. sieberi</italic> or <italic>A. judaica</italic> (<xref ref-type="fig" rid="pone-0081580-g010"><bold>Figure 10</bold></xref>). Metabolite production also did not vary significantly in the three species studied, indicating their potential to thrive under water stress without jeopardizing their metabolic regulation drastically. Furthermore maintenance of a threshold level of specific metabolites might be a key to the successful survival of these plant species under subtle changes in soil water status. Moreover, during the course of their evolution, these plant species have learned to maintain the homeostatic balance of natural compounds, enabling them to survive longer periods of drought and harsh environments <xref ref-type="bibr" rid="pone.0081580-Chon1">[44]</xref>.</p>
+</sec></sec><sec id="s5">
+<title>Conclusion</title>
+<p>The physiological conjunction of allelochemicals in desert plants and their role in plant survival during periods of low water state is shown for the first time. Our findings showed that water deficit condition is the driving force for metabolome shift in plants growing in arid or semi-arid soil conditions. Selective induction of few metabolites and keeping significant part of the metabolome unaffected by water deficit condition may be a key strategy for water stress management in the desert plants. Current study also suggests that homeostasis in the endogenous levels of natural compounds plays a crucial role in these species’ ability to thrive during periods of water stress. Findings also showed the participation of natural compounds in the allelopathic behavior of <italic>O. dayi</italic>, <italic>A. sieberi</italic> and <italic>A. judaica</italic>, which may serve as a basis for the generation of species-targeted herbicides. A detailed molecular insight of desert plants under water stress condition will be a great future endeavor.</p>
+</sec><sec id="s6">
+<title>Supporting Information</title>
+<supplementary-material id="pone.0081580.s001" mimetype="image/tiff" xlink:href="info:doi/10.1371/journal.pone.0081580.s001" position="float" xlink:type="simple" orientation="portrait"><label>Figure S1</label><caption>
+<p><bold>Leaf relative water content (RWC) in the different seasons in </bold><bold><italic>O. dayi</italic></bold><bold> (white bars), </bold><bold><italic>A. sieberi</italic></bold><bold> (light gray bars) and </bold><bold><italic>A. judaica</italic></bold><bold> (dark gray bars).</bold> n = 5–6 and error bars represent standard deviation. Different uppercase letters represent differences within the seasons.</p>
+<p>(TIF)</p>
+</caption></supplementary-material><supplementary-material id="pone.0081580.s002" mimetype="image/tiff" xlink:href="info:doi/10.1371/journal.pone.0081580.s002" position="float" xlink:type="simple" orientation="portrait"><label>Figure S2</label><caption>
+<p><bold>Osmolarity (measured by pressure osmometer) in the different seasons in </bold><bold><italic>O. dayi</italic></bold><bold> (white bars), </bold><bold><italic>A. sieberi</italic></bold><bold> (light gray bars) and </bold><bold><italic>A. judaica</italic></bold><bold> (dark gray bars).</bold> n = 5–6 and error bars represent standard deviation. Different uppercase letters represent differences within the seasons.</p>
+<p>(TIF)</p>
+</caption></supplementary-material><supplementary-material id="pone.0081580.s003" mimetype="image/tiff" xlink:href="info:doi/10.1371/journal.pone.0081580.s003" position="float" xlink:type="simple" orientation="portrait"><label>Figure S3</label><caption>
+<p><bold>Photochemical activity: changes in effective quantum yield (Fv/Fm) in the different growing seasons in </bold><bold><italic>O. dayi</italic></bold><bold> (white bars) and </bold><bold><italic>A. judaica</italic></bold><bold> (dark gray bars).</bold> n = 6. error bars represent standard deviation. Different uppercase letters represent differences within seasons.</p>
+<p>(TIF)</p>
+</caption></supplementary-material><supplementary-material id="pone.0081580.s004" mimetype="application/msword" xlink:href="info:doi/10.1371/journal.pone.0081580.s004" position="float" xlink:type="simple" orientation="portrait"><label>Table S1</label><caption>
+<p><bold>Changes in the composition of volatiles in organic-solvent extract of </bold><bold><italic>O. dayi</italic></bold><bold> with the seasons–only 27 major components are shown.</bold> n = 18, n.d. = not detected, 0 represents values less than 0.1.</p>
+<p>(DOC)</p>
+</caption></supplementary-material><supplementary-material id="pone.0081580.s005" mimetype="application/msword" xlink:href="info:doi/10.1371/journal.pone.0081580.s005" position="float" xlink:type="simple" orientation="portrait"><label>Table S2</label><caption>
+<p><bold>Changes in the composition of volatiles in organic-solvent extract of </bold><bold><italic>A. sieberi</italic></bold><bold> with the seasons–only 24 major components are shown.</bold> n = 18, n.d. = not detected, 0 represents values less than 0.1.</p>
+<p>(DOC)</p>
+</caption></supplementary-material><supplementary-material id="pone.0081580.s006" mimetype="application/msword" xlink:href="info:doi/10.1371/journal.pone.0081580.s006" position="float" xlink:type="simple" orientation="portrait"><label>Table S3</label><caption>
+<p><bold>Changes in the composition of volatiles in organic-solvent extract of </bold><bold><italic>A. judaica</italic></bold><bold> with the seasons–only 17 major components are shown.</bold> n = 18, n.d. = not detected, 0 represents values less than 0.1.</p>
+<p>(DOC)</p>
+</caption></supplementary-material><supplementary-material id="pone.0081580.s007" mimetype="application/msword" xlink:href="info:doi/10.1371/journal.pone.0081580.s007" position="float" xlink:type="simple" orientation="portrait"><label>Table S4</label><caption>
+<p><bold>Eigenvector values (in descending order) of metabolites were calculated by PCA algorithm for 1st and 2nd components of targeted samples in </bold><bold><italic>A. judaica</italic></bold><bold> (A), </bold><bold><italic>A. sieberi</italic></bold><bold> (B) and </bold><bold><italic>O. dayi</italic></bold><bold> (C).</bold></p>
+<p>(DOC)</p>
+</caption></supplementary-material></sec></body>
+<back>
+<ack>
+<p>We would like to thank Liron Summerfield and Tanya Gendler for their great help.</p>
+</ack>
+<ref-list>
+<title>References</title>
+<ref id="pone.0081580-Bhowmik1"><label>1</label>
+<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Bhowmik</surname><given-names>PC</given-names></name>, <name name-style="western"><surname>Doll</surname><given-names>JD</given-names></name> (<year>1984</year>) <article-title>Allelopathic effects of annual weed residues on growth and nutrient uptake of corn and soyabeans. Agronomy J</article-title>. <volume>76</volume>: <fpage>383</fpage>–<lpage>388</lpage>.</mixed-citation>
+</ref>
+<ref id="pone.0081580-Xu1"><label>2</label>
+<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Xu</surname><given-names>M</given-names></name>, <name name-style="western"><surname>Galhano</surname><given-names>R</given-names></name>, <name name-style="western"><surname>Wiemann</surname><given-names>P</given-names></name>, <name name-style="western"><surname>Bueno</surname><given-names>E</given-names></name>, <name name-style="western"><surname>Tiernan</surname><given-names>M</given-names></name>, <etal>et al</etal>. (<year>2012</year>) <article-title>Genetic evidence for natural product-mediated plant–plant allelopathy in rice (<italic>Oryza sativa</italic>)</article-title>. <source>New Phytol</source>. <volume>193</volume>: <fpage>570</fpage>–<lpage>575</lpage>.</mixed-citation>
+</ref>
+<ref id="pone.0081580-Einhelling1"><label>3</label>
+<mixed-citation publication-type="other" xlink:type="simple">Einhelling FA (1987) Interactions among allelochemicals and other stress factors of the plant environment. In: Waller GR, ed. <italic>Allelochemicals: role in agriculture and forestry</italic>. Washington DC: American Chemical Society, 343–357.</mixed-citation>
+</ref>
+<ref id="pone.0081580-Cheng1"><label>4</label>
+<mixed-citation publication-type="other" xlink:type="simple">Cheng HH (1992) A conceptual framework for assessing allelochemicals in the soil environment. In: Rizvi SJH, Rizvi V, ed. <italic>Allelopathy: basic and applied aspects</italic>: Chapmann &amp; Hall Publishers, 21–29.</mixed-citation>
+</ref>
+<ref id="pone.0081580-Belz1"><label>5</label>
+<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Belz</surname><given-names>RG</given-names></name> (<year>2007</year>) <article-title>Allelopathy in crop/weed interactions–an update</article-title>. <source>Pest Management Science</source> <volume>63</volume>: <fpage>308</fpage>–<lpage>326</lpage>.</mixed-citation>
+</ref>
+<ref id="pone.0081580-Blum1"><label>6</label>
+<mixed-citation publication-type="other" xlink:type="simple">Blum U (2011) Plant–plant allelopathic interactions. In: Blum U, ed. <italic>Plant-plant allelopathic interactions</italic>. New York: Springer, 1.</mixed-citation>
+</ref>
+<ref id="pone.0081580-Thorpe1"><label>7</label>
+<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Thorpe</surname><given-names>AS</given-names></name>, <name name-style="western"><surname>Aschehoug</surname><given-names>ET</given-names></name>, <name name-style="western"><surname>Atwater</surname><given-names>DZ</given-names></name>, <name name-style="western"><surname>Callawa</surname><given-names>RM</given-names></name> (<year>2011</year>) <article-title>Interactions among plants and evolution</article-title>. <source>J. Ecology</source> <volume>99</volume>: <fpage>729</fpage>–<lpage>740</lpage>.</mixed-citation>
+</ref>
+<ref id="pone.0081580-Weston1"><label>8</label>
+<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Weston</surname><given-names>LA</given-names></name>, <name name-style="western"><surname>Mathesius</surname><given-names>U</given-names></name> (<year>2013</year>) <article-title>Flavonoids: their structure, biosynthesis and role in the rhizosphere, including allelopathy. J. Chemical Ecol</article-title>. <volume>39</volume>: <fpage>283</fpage>–<lpage>297</lpage>.</mixed-citation>
+</ref>
+<ref id="pone.0081580-Miranda1"><label>9</label>
+<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Miranda</surname><given-names>JD</given-names></name>, <name name-style="western"><surname>Armas</surname><given-names>C</given-names></name>, <name name-style="western"><surname>Padilla</surname><given-names>FM</given-names></name>, <name name-style="western"><surname>Pugnaire</surname><given-names>FI</given-names></name> (<year>2011</year>) <article-title>Climatic change and rainfall patterns: effects on semi-arid plant communities of the Iberian Southeast. J. Arid Environ</article-title>. <volume>75</volume>: <fpage>1302</fpage>–<lpage>1309</lpage>.</mixed-citation>
+</ref>
+<ref id="pone.0081580-Rachmilevitch1"><label>10</label>
+<mixed-citation publication-type="other" xlink:type="simple">Rachmilevitch S, da Costa M, Huang B (2006a) Plant environment interactions. In: Huang B, ed. <italic>Physiological and biochemical indicators for stress tolerance</italic>, 3rd edn. Boca Raton: Taylor and Francis Group, 321–357.</mixed-citation>
+</ref>
+<ref id="pone.0081580-Rachmilevitch2"><label>11</label>
+<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Rachmilevitch</surname><given-names>S</given-names></name>, <name name-style="western"><surname>Huang</surname><given-names>B</given-names></name>, <name name-style="western"><surname>Lambers</surname><given-names>H</given-names></name> (<year>2006b</year>) <article-title>Assimilation and allocation of carbon and nitrogen of thermal and nonthermal <italic>Agrostis species</italic> in response to high soil temperature. New Phytol</article-title>. <volume>170</volume>: <fpage>479</fpage>–<lpage>490</lpage>.</mixed-citation>
+</ref>
+<ref id="pone.0081580-Teerarak1"><label>12</label>
+<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Teerarak</surname><given-names>M</given-names></name>, <name name-style="western"><surname>Laosinwattana</surname><given-names>C</given-names></name>, <name name-style="western"><surname>Charoenying</surname><given-names>P</given-names></name>, <name name-style="western"><surname>Kato-Noguchi</surname><given-names>H</given-names></name> (<year>2012</year>) <article-title>Allelopathic activities of <italic>Jasminum officinale</italic> f. var. grandiflorum (Linn.) Kob.: inhibition effects on germination, seed imbibition, and α-amylase activity induction of <italic>Echinochloa crus-galli</italic> (L.) Beauv. African J Biotechnol</article-title>. <volume>11</volume>: <fpage>7850</fpage>–<lpage>7854</lpage>.</mixed-citation>
+</ref>
+<ref id="pone.0081580-Poonpaiboonpipat1"><label>13</label>
+<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Poonpaiboonpipat</surname><given-names>T</given-names></name>, <name name-style="western"><surname>Pangnakorn</surname><given-names>U</given-names></name>, <name name-style="western"><surname>Suvunnamek</surname><given-names>U</given-names></name>, <name name-style="western"><surname>Teerarak</surname><given-names>M</given-names></name>, <name name-style="western"><surname>Charoenying</surname><given-names>P</given-names></name>, <etal>et al</etal>. (<year>2013</year>) <article-title>Phytotoxic effects of essential oil from <italic>Cymbopogon citratus</italic> and its physiological mechanisms on barnyardgrass (<italic>Echinochloa crus</italic>-<italic>galli</italic>)</article-title>. <source>Industrial Crops and Products</source> <volume>41</volume>: <fpage>403</fpage>–<lpage>407</lpage>.</mixed-citation>
+</ref>
+<ref id="pone.0081580-Qian1"><label>14</label>
+<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Qian</surname><given-names>H</given-names></name>, <name name-style="western"><surname>Xu</surname><given-names>X</given-names></name>, <name name-style="western"><surname>Chen</surname><given-names>W</given-names></name>, <name name-style="western"><surname>Jiang</surname><given-names>H</given-names></name>, <name name-style="western"><surname>Jin</surname><given-names>Y</given-names></name>, <etal>et al</etal>. (<year>2009</year>) <article-title>Allelochemical stress causes oxidative damage and inhibition of photosynthesis in <italic>Chlorella vulgaris</italic></article-title>. <source>Chemosphere</source> <volume>75</volume>: <fpage>368</fpage>–<lpage>375</lpage>.</mixed-citation>
+</ref>
+<ref id="pone.0081580-Hussain1"><label>15</label>
+<mixed-citation publication-type="other" xlink:type="simple">Hussain M, Farooq M, Shahzad M, Basra A, Lee D-J (2013) Application of <italic>Moringa</italic> allelopathy in crop sciences. Allelopathy 469–483.</mixed-citation>
+</ref>
+<ref id="pone.0081580-Narwal1"><label>16</label>
+<mixed-citation publication-type="other" xlink:type="simple">Narwal SS, Haouala R (2013) Role of allelopathy in weed management for sustainable agriculture. Allelopathy 217–249.</mixed-citation>
+</ref>
+<ref id="pone.0081580-Lorenzo1"><label>17</label>
+<mixed-citation publication-type="other" xlink:type="simple">Lorenzo P, Hussain MI, González L (2013) Role of allelopathy during invasion process by alien invasive plants in terrestrial ecosystems. Allelopathy 3–21.</mixed-citation>
+</ref>
+<ref id="pone.0081580-Couso1"><label>18</label>
+<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Couso</surname><given-names>LL</given-names></name>, <name name-style="western"><surname>Fernández</surname><given-names>RJ</given-names></name> (<year>2012</year>) <article-title>Phenotypic plasticity as an index of drought tolerance in three Patagonian steppe grasses. Annals Bot</article-title>. <volume>110</volume>: <fpage>849</fpage>–<lpage>857</lpage>.</mixed-citation>
+</ref>
+<ref id="pone.0081580-Sardans1"><label>19</label>
+<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Sardans</surname><given-names>J</given-names></name>, <name name-style="western"><surname>Peñuelas</surname><given-names>J</given-names></name> (<year>2012</year>) <article-title>The role of plants in the effects of global change on nutrient availability and stoichiometry in the plant-soil system. Plant Physiol</article-title>. <volume>160</volume>: <fpage>1741</fpage>–<lpage>1761</lpage>.</mixed-citation>
+</ref>
+<ref id="pone.0081580-Schulz1"><label>20</label>
+<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Schulz</surname><given-names>M</given-names></name>, <name name-style="western"><surname>Marocco</surname><given-names>A</given-names></name>, <name name-style="western"><surname>Tabaglio</surname><given-names>V</given-names></name>, <name name-style="western"><surname>Macias</surname><given-names>FA</given-names></name>, <name name-style="western"><surname>Molinillo</surname><given-names>JMG</given-names></name> (<year>2013</year>) <article-title>Benzoxazinoids in rye allelopathy–from discovery to application in sustainable weed control and organic farming. J Chemical Ecol</article-title>. <volume>39</volume>: <fpage>154</fpage>–<lpage>174</lpage>.</mixed-citation>
+</ref>
+<ref id="pone.0081580-Muller1"><label>21</label>
+<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Muller</surname><given-names>CH</given-names></name>, <name name-style="western"><surname>Muller</surname><given-names>WH</given-names></name>, <name name-style="western"><surname>Haines</surname><given-names>BL</given-names></name> (<year>1964</year>) <article-title>Volatile growth inhibitors produced by aromatic shrubs</article-title>. <source>Science</source> <volume>143</volume>: <fpage>471</fpage>–<lpage>473</lpage>.</mixed-citation>
+</ref>
+<ref id="pone.0081580-Dudai1"><label>22</label>
+<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Dudai</surname><given-names>N</given-names></name>, <name name-style="western"><surname>Larkov</surname><given-names>O</given-names></name>, <name name-style="western"><surname>Chaimovitsh</surname><given-names>D</given-names></name>, <name name-style="western"><surname>Lewinsohn</surname><given-names>E</given-names></name>, <name name-style="western"><surname>Freiman</surname><given-names>L</given-names></name>, <etal>et al</etal>. (<year>2003</year>) <article-title>Essential oil compounds of <italic>Origanum dayi</italic> Post</article-title>. <source>Flavour and Fragrance Journal</source> <volume>18</volume>: <fpage>334</fpage>–<lpage>337</lpage>.</mixed-citation>
+</ref>
+<ref id="pone.0081580-Danin1"><label>23</label>
+<mixed-citation publication-type="other" xlink:type="simple">Danin A (1983) <italic>Desert vegetation of Israel and Sinai</italic>. Jerusalem: Cana Pub House, 98–99.</mixed-citation>
+</ref>
+<ref id="pone.0081580-Larkov1"><label>24</label>
+<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Larkov</surname><given-names>O</given-names></name>, <name name-style="western"><surname>Dunkelblum</surname><given-names>E</given-names></name>, <name name-style="western"><surname>Zada</surname><given-names>A</given-names></name> (<year>2005</year>) <article-title>Enantiomeric composition of (E)- and (Z)-sabinene hydrate and their acetates in five <italic>Origanum</italic> spp</article-title>. <source>Flavour and Fragrance Journal</source> <volume>20</volume>: <fpage>109</fpage>–<lpage>114</lpage>.</mixed-citation>
+</ref>
+<ref id="pone.0081580-Dudai2"><label>25</label>
+<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Dudai</surname><given-names>N</given-names></name>, <name name-style="western"><surname>Blumenfeld</surname><given-names>M</given-names></name> (<year>2009</year>) <article-title>Essential oil production in Israel–from theory to practice (in Hebrew)</article-title>. <source>Kol Hazmachim</source> <volume>10</volume>: <fpage>25</fpage>–<lpage>27</lpage>.</mixed-citation>
+</ref>
+<ref id="pone.0081580-Mohamed1"><label>26</label>
+<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Mohamed</surname><given-names>A</given-names></name>, <name name-style="western"><surname>El-Sayed</surname><given-names>MA</given-names></name>, <name name-style="western"><surname>Hegazy</surname><given-names>ME</given-names></name>, <name name-style="western"><surname>Helaly</surname><given-names>SE</given-names></name>, <name name-style="western"><surname>Esmail</surname><given-names>AM</given-names></name>, <etal>et al</etal>. (<year>2010</year>) <article-title>Chemical constituents and biological activities of <italic>Artemisia herba-alba</italic></article-title>. <source>Records of Natural Products</source> <volume>4</volume>: <fpage>1</fpage>–<lpage>25</lpage>.</mixed-citation>
+</ref>
+<ref id="pone.0081580-Escudero1"><label>27</label>
+<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Escudero</surname><given-names>A</given-names></name>, <name name-style="western"><surname>Albert</surname><given-names>MJ</given-names></name>, <name name-style="western"><surname>Pita</surname><given-names>JM</given-names></name>, <name name-style="western"><surname>Pérez-García</surname><given-names>F</given-names></name> (<year>2000</year>) <article-title>Inhibitory effects of <italic>Artemisia herba-alba</italic> on the germination of the gypsophyte <italic>Helianthemum squamatum</italic>. Plant Ecol</article-title>. <volume>148</volume>: <fpage>71</fpage>–<lpage>80</lpage>.</mixed-citation>
+</ref>
+<ref id="pone.0081580-Putievsky1"><label>28</label>
+<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Putievsky</surname><given-names>E</given-names></name>, <name name-style="western"><surname>Ravid</surname><given-names>U</given-names></name>, <name name-style="western"><surname>Dudai</surname><given-names>N</given-names></name>, <name name-style="western"><surname>Katzir</surname><given-names>I</given-names></name>, <name name-style="western"><surname>Carmeli</surname><given-names>D</given-names></name>, <etal>et al</etal>. (<year>1992</year>) <article-title>Variations in the essential oil of <italic>Artemisia judaica</italic> L. Chemotypes related to phenological and environmental factors</article-title>. <source>Flavor and Fragrance Journal</source> <volume>7</volume>: <fpage>253</fpage>–<lpage>257</lpage>.</mixed-citation>
+</ref>
+<ref id="pone.0081580-Feuerstein1"><label>29</label>
+<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Feuerstein</surname><given-names>I</given-names></name>, <name name-style="western"><surname>Mueller</surname><given-names>D</given-names></name>, <name name-style="western"><surname>Hobert</surname><given-names>K</given-names></name>, <name name-style="western"><surname>Danin</surname><given-names>A</given-names></name>, <name name-style="western"><surname>Segal</surname><given-names>R</given-names></name> (<year>1986</year>) <article-title>Constitution of essential oils from <italic>Artemisia herba-alba</italic> populations of Israel and Sinai</article-title>. <source>Phytochemistry</source> <volume>25</volume>: <fpage>2343</fpage>–<lpage>2347</lpage>.</mixed-citation>
+</ref>
+<ref id="pone.0081580-Fleisher1"><label>30</label>
+<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Fleisher</surname><given-names>Z</given-names></name>, <name name-style="western"><surname>Fleisher</surname><given-names>A</given-names></name>, <name name-style="western"><surname>Nachbar</surname><given-names>RB</given-names></name> (<year>2002</year>) <article-title>Chemovariation of <italic>Artemisia herba-alba</italic> Asso. aromatic plants of the Holy Land and the Sinai. Part XVI</article-title>. <source>Journal of Essential Oil Research</source> <volume>14</volume>: <fpage>156</fpage>–<lpage>160</lpage>.</mixed-citation>
+</ref>
+<ref id="pone.0081580-Ravid1"><label>31</label>
+<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Ravid</surname><given-names>U</given-names></name>, <name name-style="western"><surname>Putievsky</surname><given-names>E</given-names></name>, <name name-style="western"><surname>Katzir</surname><given-names>I</given-names></name> (<year>1992</year>) <article-title>The essential oil of <italic>Artemisia judaica</italic> L. chemotypes</article-title>. <source>Flavour and Fragrance Journal</source> <volume>7</volume>: <fpage>69</fpage>–<lpage>72</lpage>.</mixed-citation>
+</ref>
+<ref id="pone.0081580-Soleiman1"><label>32</label>
+<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Soleiman</surname><given-names>E</given-names></name>, <name name-style="western"><surname>Helaly</surname><given-names>A</given-names></name>, <name name-style="western"><surname>Esmail</surname><given-names>M</given-names></name>, <name name-style="western"><surname>Naglaa</surname><given-names>SM</given-names></name> (<year>2010</year>) <article-title>Chemical constituents and biological activities of <italic>Artemisia herba-alba</italic>, ACG publication</article-title>. <source>Records of Natural Products</source> <volume>4</volume>: <fpage>1</fpage>–<lpage>25</lpage>.</mixed-citation>
+</ref>
+<ref id="pone.0081580-Dudai3"><label>33</label>
+<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Dudai</surname><given-names>N</given-names></name>, <name name-style="western"><surname>Poljakoff-Mayber</surname><given-names>A</given-names></name>, <name name-style="western"><surname>Mayer</surname><given-names>AM</given-names></name>, <name name-style="western"><surname>Putievsky</surname><given-names>E</given-names></name>, <name name-style="western"><surname>Lerner</surname><given-names>HI</given-names></name> (<year>1999</year>) <article-title>Essential oils as allelochemicals and their potential use as bioherbicides</article-title>. <source>Journal of Chemical Ecology</source> <volume>25</volume>: <fpage>1079</fpage>–<lpage>1089</lpage>.</mixed-citation>
+</ref>
+<ref id="pone.0081580-Dudai4"><label>34</label>
+<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Dudai</surname><given-names>N</given-names></name>, <name name-style="western"><surname>Putievsky</surname><given-names>E</given-names></name>, <name name-style="western"><surname>Ravid</surname><given-names>U</given-names></name>, <name name-style="western"><surname>Palevitch</surname><given-names>D</given-names></name>, <name name-style="western"><surname>Halevy</surname><given-names>AH</given-names></name> (<year>1992</year>) <article-title>Monoterpene content in <italic>Origanum syriacum</italic> as affected by environmental conditions and flowering</article-title>. <source>Physiologia Plantarum</source> <volume>84</volume>: <fpage>453</fpage>–<lpage>459</lpage>.</mixed-citation>
+</ref>
+<ref id="pone.0081580-Wu1"><label>35</label>
+<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Wu</surname><given-names>H</given-names></name>, <name name-style="western"><surname>Pratley</surname><given-names>J</given-names></name>, <name name-style="western"><surname>Lemerle</surname><given-names>D</given-names></name>, <name name-style="western"><surname>Haig</surname><given-names>T</given-names></name>, <name name-style="western"><surname>An</surname><given-names>M</given-names></name> (<year>2001</year>) <article-title>Screening methods for the evaluation of crop allelopathic potential</article-title>. <source>Botanical Review</source> <volume>64</volume>: <fpage>403</fpage>–<lpage>415</lpage>.</mixed-citation>
+</ref>
+<ref id="pone.0081580-Reinhardt1"><label>36</label>
+<mixed-citation publication-type="other" xlink:type="simple">Reinhardt CF, Khalil S, Labuschagne N, Claassense A, Bezuidenhout SR (1996) Bioassay techniques in assessing the allelopathic effect of weeds in crops and plantation species. In: Torres A, Oliva RM, Castellana D, Cross P, eds. <italic>First World Congress on Allelopathy</italic>. Cadiz, Spain, 16–20 September, 133–140.</mixed-citation>
+</ref>
+<ref id="pone.0081580-Uesugi1"><label>37</label>
+<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Uesugi</surname><given-names>A</given-names></name>, <name name-style="western"><surname>Kessler</surname><given-names>A</given-names></name> (<year>2013</year>) <article-title>Herbivore exclusion drives the evolution of plant competitiveness via increased allelopathy. New Phytol</article-title>. <volume>198</volume>: <fpage>916</fpage>–<lpage>924</lpage>.</mixed-citation>
+</ref>
+<ref id="pone.0081580-Smethurst1"><label>38</label>
+<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Smethurst</surname><given-names>JA</given-names></name>, <name name-style="western"><surname>Clarke</surname><given-names>D</given-names></name>, <name name-style="western"><surname>Powrie</surname><given-names>W</given-names></name> (<year>2012</year>) <article-title>Factors controlling the seasonal variation in soil water content and pore water pressures within a lightly vegetated clay slope</article-title>. <source>Géotechnique</source> <volume>62</volume>: <fpage>429</fpage>–<lpage>446</lpage>.</mixed-citation>
+</ref>
+<ref id="pone.0081580-Verhoeven1"><label>39</label>
+<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Verhoeven</surname><given-names>AS</given-names></name> (<year>2012</year>) <article-title>Recovery kinetics of photochemical efficiency in winter stressed conifers: the effects of growth light environment, extent of the season and species</article-title>. <source>Physiologia Plantarum</source> <volume>147</volume>: <fpage>147</fpage>–<lpage>158</lpage>.</mixed-citation>
+</ref>
+<ref id="pone.0081580-Duke1"><label>40</label>
+<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Duke</surname><given-names>SO</given-names></name>, <name name-style="western"><surname>Vaughn</surname><given-names>KC</given-names></name>, <name name-style="western"><surname>Croom</surname><given-names>EM</given-names></name>, <name name-style="western"><surname>Elsohly</surname><given-names>HN</given-names></name> (<year>1987</year>) <article-title>Artemisinin, a constituent of annual wormwood (<italic>Artemisia annua</italic>), is a selective phytotoxin. Weed Sci</article-title>. <volume>35</volume>: <fpage>499</fpage>–<lpage>505</lpage>.</mixed-citation>
+</ref>
+<ref id="pone.0081580-Preston1"><label>41</label>
+<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Preston</surname><given-names>CA</given-names></name>, <name name-style="western"><surname>Betts</surname><given-names>H</given-names></name>, <name name-style="western"><surname>Baldwin</surname><given-names>IT</given-names></name> (<year>2002</year>) <article-title>Methyl jasmonate as an allelopathic agent: sagebrush inhibits germination of a neighboring tobacco, <italic>Nicotiana attenuata</italic>. J. Chemical Ecol</article-title>. <volume>28</volume>: <fpage>2343</fpage>–<lpage>2369</lpage>.</mixed-citation>
+</ref>
+<ref id="pone.0081580-Barney1"><label>42</label>
+<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Barney</surname><given-names>JN</given-names></name>, <name name-style="western"><surname>Hay</surname><given-names>AG</given-names></name>, <name name-style="western"><surname>Weston</surname><given-names>LA</given-names></name> (<year>2005</year>) <article-title>Isolation and characterization of allelopathic volatiles from mugwort (<italic>Artemisia vulgaris</italic>). J. Chemical Ecol</article-title>. <volume>31</volume>: <fpage>247</fpage>–<lpage>265</lpage>.</mixed-citation>
+</ref>
+<ref id="pone.0081580-Zeng1"><label>43</label>
+<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Zeng</surname><given-names>QP</given-names></name>, <name name-style="western"><surname>Zeng</surname><given-names>XM</given-names></name>, <name name-style="western"><surname>Yang</surname><given-names>RY</given-names></name>, <name name-style="western"><surname>Yang</surname><given-names>XQ</given-names></name> (<year>2011</year>) <article-title>Singlet oxygen as a signaling transducer for modulating artemisinin biosynthetic genes in <italic>Artemisia annua</italic>. Biol. Planta</article-title>. <volume>55</volume>: <fpage>669</fpage>–<lpage>674</lpage>.</mixed-citation>
+</ref>
+<ref id="pone.0081580-Chon1"><label>44</label>
+<mixed-citation publication-type="other" xlink:type="simple">Chon S-U, Nelson CJ (2013) Allelopathic dynamics in resource plants. Allelopathy 81–110.</mixed-citation>
+</ref>
+</ref-list></back>
+</article>

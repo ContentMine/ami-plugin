@@ -10,6 +10,7 @@ import nu.xom.Document;
 import nu.xom.Element;
 
 import org.apache.commons.io.FileUtils;
+import org.apache.commons.io.IOUtils;
 import org.apache.log4j.Logger;
 import org.xmlcml.ami.visitable.AbstractVisitable;
 import org.xmlcml.xml.XMLUtil;
@@ -44,7 +45,8 @@ public class XMLVisitable extends AbstractVisitable  {
 	}
 
 	@Override
-	public void addURL(URL url) throws Exception {
+	public void readURLconvertToObjectAndAddtoVisitable(URL url) throws Exception {
+		super.addURL(url);
 		ensureXMLContainerList();
 		try {
 			Document document = new Builder().build(url.openStream());
@@ -63,9 +65,26 @@ public class XMLVisitable extends AbstractVisitable  {
 
 	public List<XMLContainer> getXMLContainerList() {
 		ensureXMLContainerList();
-		if (super.findFilesInDirectories() != null) {
+		if (url != null) {
+			xmlContainerList = createContainerFromUrl();
+		} else if (super.findFilesInDirectories() != null) {
 			xmlContainerList = createContainersFromFiles();
 		} 
+		return xmlContainerList;
+	}
+
+	private List<XMLContainer> createContainerFromUrl() {
+		xmlContainerList = new ArrayList<XMLContainer>();
+		if (url != null) {
+			try {
+				String xmlString = IOUtils.toString(url);
+				Element xmlElement = XMLUtil.stripDTDAndParse(xmlString);
+				xmlContainerList.add(new XMLContainer(url, xmlElement));
+			} catch (Exception e) {
+				LOG.error("not an XML file: "+url+ ": " + e);
+			}
+			
+		}
 		return xmlContainerList;
 	}
 

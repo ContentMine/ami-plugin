@@ -1,6 +1,7 @@
 package org.xmlcml.ami.visitor.regex;
 
 import nu.xom.Attribute;
+import nu.xom.IllegalNameException;
 
 /** holds a named captureGroup.
  * 
@@ -29,7 +30,7 @@ public class NamedGroup {
 		return name+" = "+group;
 	}
 
-	public Attribute createAttribute() {
+	public Attribute createAttribute() throws IllegalNameException {
 		return group == null ? null : new Attribute(name, group);
 	}
 

@@ -1,0 +1,543 @@
+<article xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" article-type="research-article" dtd-version="3.0" xml:lang="en">
+<front>
+<journal-meta>
+<journal-id journal-id-type="nlm-ta">PLoS ONE</journal-id>
+<journal-id journal-id-type="publisher-id">plos</journal-id>
+<journal-id journal-id-type="pmc">plosone</journal-id><journal-title-group>
+<journal-title xml:lang="en">PLoS ONE</journal-title></journal-title-group>
+<issn pub-type="epub">1932-6203</issn>
+<publisher>
+<publisher-name>Public Library of Science</publisher-name>
+<publisher-loc>San Francisco, USA</publisher-loc></publisher>
+</journal-meta>
+<article-meta>
+<article-id pub-id-type="publisher-id">PONE-D-13-37251</article-id>
+<article-id pub-id-type="doi">10.1371/journal.pone.0082100</article-id>
+<article-categories><subj-group subj-group-type="heading"><subject>Research Article</subject></subj-group></article-categories>
+<title-group>
+<article-title>An Internal Ribosome Entry Site (IRES) Mutant Library for Tuning Expression Level of Multiple Genes in Mammalian Cells</article-title>
+<alt-title alt-title-type="running-head">IRES Mutant Library for Tuning Gene Expression</alt-title>
+</title-group>
+<contrib-group>
+<contrib contrib-type="author" xlink:type="simple"><name name-style="western"><surname>Koh</surname><given-names>Esther Y. C.</given-names></name><xref ref-type="aff" rid="aff1"><sup>1</sup></xref></contrib>
+<contrib contrib-type="author" xlink:type="simple"><name name-style="western"><surname>Ho</surname><given-names>Steven C. L.</given-names></name><xref ref-type="aff" rid="aff1"><sup>1</sup></xref></contrib>
+<contrib contrib-type="author" xlink:type="simple"><name name-style="western"><surname>Mariati</surname></name><xref ref-type="aff" rid="aff1"><sup>1</sup></xref></contrib>
+<contrib contrib-type="author" xlink:type="simple"><name name-style="western"><surname>Song</surname><given-names>Zhiwei</given-names></name><xref ref-type="aff" rid="aff1"><sup>1</sup></xref></contrib>
+<contrib contrib-type="author" xlink:type="simple"><name name-style="western"><surname>Bi</surname><given-names>Xuezhi</given-names></name><xref ref-type="aff" rid="aff1"><sup>1</sup></xref></contrib>
+<contrib contrib-type="author" xlink:type="simple"><name name-style="western"><surname>Bardor</surname><given-names>Muriel</given-names></name><xref ref-type="aff" rid="aff1"><sup>1</sup></xref><xref ref-type="aff" rid="aff2"><sup>2</sup></xref></contrib>
+<contrib contrib-type="author" xlink:type="simple"><name name-style="western"><surname>Yang</surname><given-names>Yuansheng</given-names></name><xref ref-type="aff" rid="aff1"><sup>1</sup></xref><xref ref-type="aff" rid="aff3"><sup>3</sup></xref><xref ref-type="corresp" rid="cor1"><sup>*</sup></xref></contrib>
+</contrib-group>
+<aff id="aff1"><label>1</label><addr-line>Bioprocessing Technology Institute, Agency for Science, Technology and Research, Singapore, Singapore</addr-line></aff>
+<aff id="aff2"><label>2</label><addr-line>Laboratoire Glyco-MEV (Glycobiologie et Matrice extracellulaire végétale), Université de Rouen, Mont-Saint-Aignan, France</addr-line></aff>
+<aff id="aff3"><label>3</label><addr-line>School of Chemical and Biomedical Engineering, Nanyang Technological University, Singapore, Singapore</addr-line></aff>
+<contrib-group>
+<contrib contrib-type="editor" xlink:type="simple"><name name-style="western"><surname>Hendershot</surname><given-names>Linda M.</given-names></name>
+<role>Editor</role>
+<xref ref-type="aff" rid="edit1" /></contrib>
+</contrib-group>
+<aff id="edit1"><addr-line>St. Jude Children's Hospital, United States of America</addr-line></aff>
+<author-notes>
+<corresp id="cor1">* E-mail: <email xlink:type="simple">yang_yuansheng@bti.a-star.edu.sg</email></corresp>
+<fn fn-type="conflict"><p>The authors have declared that no competing interests exist.</p></fn>
+<fn fn-type="con"><p>Conceived and designed the experiments: XB MB YY. Performed the experiments: EYCK SCLH M XB MB. Analyzed the data: XB MB YY. Contributed reagents/materials/analysis tools: ZS XB MB. Wrote the paper: SCLH ZS XB MB YY.</p></fn>
+</author-notes>
+<pub-date pub-type="collection"><year>2013</year></pub-date>
+<pub-date pub-type="epub"><day>9</day><month>12</month><year>2013</year></pub-date>
+<volume>8</volume>
+<issue>12</issue>
+<elocation-id>e82100</elocation-id>
+<history>
+<date date-type="received"><day>10</day><month>9</month><year>2013</year></date>
+<date date-type="accepted"><day>28</day><month>10</month><year>2013</year></date>
+</history>
+<permissions>
+<copyright-year>2013</copyright-year>
+<copyright-holder>Koh et al</copyright-holder><license xlink:href="http://creativecommons.org/licenses/by/3.0/" xlink:type="simple"><license-p>This is an open-access article distributed under the terms of the <ext-link ext-link-type="uri" xlink:href="http://creativecommons.org/licenses/by/3.0/" xlink:type="simple">Creative Commons Attribution License</ext-link>, which permits unrestricted use, distribution, and reproduction in any medium, provided the original author and source are credited.</license-p></license></permissions>
+<abstract>
+<p>A set of mutated Encephalomyocarditis virus (EMCV) internal ribosome entry site (IRES) elements with varying strengths is generated by mutating the translation initiation codons of 10<sup>th</sup>, 11<sup>th</sup>, and 12<sup>th</sup> AUG to non-AUG triplets. They are able to control the relative expression of multiple genes over a wide range in mammalian cells in both transient and stable transfections. The relative strength of each IRES mutant remains similar in different mammalian cell lines and is not gene specific. The expressed proteins have correct molecular weights. Optimization of light chain over heavy chain expression by these IRES mutants enhances monoclonal antibody expression level and quality in stable transfections. Uses of this set of IRES mutants can be extended to other applications such as synthetic biology, investigating interactions between proteins and its complexes, cell engineering, multi-subunit protein production, gene therapy, and reprogramming of somatic cells into stem cells.</p>
+</abstract>
+<funding-group><funding-statement>This work was supported by the Biomedical Research Council/Science and Engineering Research Council of A*STAR (Agency for Science, Technology and Research), Singapore. The funders had no role in study design, data collection and analysis, decision to publish, or preparation of the manuscript.</funding-statement></funding-group><counts><page-count count="9" /></counts></article-meta>
+</front>
+<body><sec id="s1">
+<title>Introduction</title>
+<p>Simultaneous expression of multiple genes in mammalian cells at finely controlled amounts or ratios is required for applications such as synthetic biology, investigating interactions between proteins and its complexes, cell engineering, multi-subunit protein production, gene therapy, and reprogramming of somatic cells into stem cells <xref ref-type="bibr" rid="pone.0082100-Bieniossek1">[1]</xref>, <xref ref-type="bibr" rid="pone.0082100-Fussenegger1">[2]</xref>, <xref ref-type="bibr" rid="pone.0082100-Kriz1">[3]</xref>, <xref ref-type="bibr" rid="pone.0082100-Trowitzsch1">[4]</xref>. Three common strategies for controlling multiple gene expression in mammalian cells are (i) co-transfection of multiple vectors at different relative amounts <xref ref-type="bibr" rid="pone.0082100-Leitzgen1">[5]</xref>, <xref ref-type="bibr" rid="pone.0082100-Lenny1">[6]</xref>, <xref ref-type="bibr" rid="pone.0082100-Schlatter1">[7]</xref>, (ii) single vector containing multiple promoters or polyadenylation signals with different strengths <xref ref-type="bibr" rid="pone.0082100-Tornoe1">[8]</xref>, <xref ref-type="bibr" rid="pone.0082100-Yahata1">[9]</xref>, <xref ref-type="bibr" rid="pone.0082100-Yang1">[10]</xref>, and (iii) insertion of splicing signals with varied splicing efficiencies between genes <xref ref-type="bibr" rid="pone.0082100-Fallot1">[11]</xref>. Co-transfection is an inaccurate approach as the relative amount of different genes incorporated varies from cell-to-cell due to variations in transfection efficiency <xref ref-type="bibr" rid="pone.0082100-Chusainow1">[12]</xref>, <xref ref-type="bibr" rid="pone.0082100-Ho1">[13]</xref>. Using a single vector with multiple promoters or polyadenylation signals ensures the introduction of several genes into each cell at identical amounts and provides accurate control of gene expression in transient transfections <xref ref-type="bibr" rid="pone.0082100-Yahata1">[9]</xref>. However, the expression ratio still varies between cells in a stably transfected cell pool <xref ref-type="bibr" rid="pone.0082100-Schlatter1">[7]</xref>, <xref ref-type="bibr" rid="pone.0082100-Ho1">[13]</xref>, <xref ref-type="bibr" rid="pone.0082100-Lee1">[14]</xref> as the arrangement of multiple promoters in close proximity causes transcriptional interference, where the active expression of one gene suppresses expression of the other genes. The degree to which gene expression is suppressed depends on the integration site in the genome <xref ref-type="bibr" rid="pone.0082100-Eszterhas1">[15]</xref>. The use of splicing signals allows stricter control of relative gene expression as all genes are expressed in one transcript <xref ref-type="bibr" rid="pone.0082100-Fallot1">[11]</xref>. This method requires elimination of cryptic splicing sites in protein coding sequences to prevent incorrect RNA splicing.</p>
+<p>Co-expression of multiple genes in one mRNA for strict control of relative gene expression can also be achieved by using either 2A elements or internal ribosome entry site (IRES). 2A linked genes are expressed in one single open reading frame (ORF) and “self-cleavage” occurs co-translationally to give equal amounts of co-expressed proteins <xref ref-type="bibr" rid="pone.0082100-deFelipe1">[16]</xref>. This method does not allow modulation of the expression ratio between the proteins of interest. Moreover, incomplete cleavage of 2A peptides often results in attachment of additional unwanted amino acids residues to proteins and formation of fusion proteins <xref ref-type="bibr" rid="pone.0082100-Ho2">[17]</xref>, <xref ref-type="bibr" rid="pone.0082100-DeFelipe1">[18]</xref>, <xref ref-type="bibr" rid="pone.0082100-Kim1">[19]</xref>, <xref ref-type="bibr" rid="pone.0082100-Chan1">[20]</xref>. When IRES elements are included between multiple open reading frames (ORFs), the first ORF is translated by the canonical cap-dependent mechanism while the rest are translated through a cap-independent mechanism <xref ref-type="bibr" rid="pone.0082100-MartinezSalas1">[21]</xref>, <xref ref-type="bibr" rid="pone.0082100-Mountford1">[22]</xref>, <xref ref-type="bibr" rid="pone.0082100-Hellen1">[23]</xref>. It has already been shown that IRES allows strict control of the relative gene expression in both transient and stable transfections <xref ref-type="bibr" rid="pone.0082100-Ho1">[13]</xref>, <xref ref-type="bibr" rid="pone.0082100-Sasaki1">[24]</xref>, <xref ref-type="bibr" rid="pone.0082100-Liu1">[25]</xref>. In contrast to the 2A element, products generated using IRES do not form any undesirable modified or fusion proteins <xref ref-type="bibr" rid="pone.0082100-Ho2">[17]</xref>, <xref ref-type="bibr" rid="pone.0082100-Chan1">[20]</xref>. More importantly, as genes are translated independently, the relative expression of different genes can be adjusted by varying the strength of the IRES applied to each gene. Although expression can be altered by using different naturally available IRES, the range of expression levels obtained is narrow due to the limited range of IRES elements <xref ref-type="bibr" rid="pone.0082100-Sasaki1">[24]</xref>. The range of IRES activity can be widened by mutating its sequence <xref ref-type="bibr" rid="pone.0082100-Bochkov1">[26]</xref>, <xref ref-type="bibr" rid="pone.0082100-Rees1">[27]</xref>. An earlier study generated a set of eleven IRES mutants by error prone PCR which enabled controlled gene expression level across a 20-fold range <xref ref-type="bibr" rid="pone.0082100-Li1">[28]</xref>. However, the strengths of these IRES mutants appear to be cell specific as four IRES mutants that exhibited up to 36% strength differences in HEK293T cells showed no apparent difference in CHO K1 cells.</p>
+<p>Encephalomyocarditis virus (EMCV) IRES is the most widely used IRES element for multiple gene expression in mammalian cells because of its superior activity in different cell lines and ability to mediate accurate translation <xref ref-type="bibr" rid="pone.0082100-Bochkov1">[26]</xref>, <xref ref-type="bibr" rid="pone.0082100-Borman1">[29]</xref>, <xref ref-type="bibr" rid="pone.0082100-Borman2">[30]</xref>. The region that contributes to efficient EMCV IRES translation contains twelve AUGs <xref ref-type="bibr" rid="pone.0082100-Duke1">[31]</xref>. Translation initiation occurs primarily at the 11<sup>th</sup> AUG (AUG-11), partially at the 12<sup>th</sup> AUG (AUG-12), and almost none at the 10<sup>th</sup> AUG (AUG-10) <xref ref-type="bibr" rid="pone.0082100-Davies1">[32]</xref>, <xref ref-type="bibr" rid="pone.0082100-Kaminski1">[33]</xref>. In cap-dependent translation, ribosomes can recognize codons other than AUG and initiate translation with reduced efficiency and gene expression. These non-AUG codons in mammalian cells have a relative rank order of translation efficiency of AUG&gt;CUG&gt;GUG&gt;ACG&gt;AUA&gt;AUU&gt;UUG <xref ref-type="bibr" rid="pone.0082100-Kozak1">[34]</xref>, <xref ref-type="bibr" rid="pone.0082100-Mehdi1">[35]</xref>, <xref ref-type="bibr" rid="pone.0082100-Peabody1">[36]</xref>. If IRES-mediated cap-independent translation follows the same principle, generation of EMCV IRES mutants with AUG-10, AUG-11, and AUG-12 mutated to non-AUG triplets should provide a new tool for accurate control of the expression level of multiple genes in mammalian cells.</p>
+<p>In this work, we generated a series of mutated EMCV IRES by either deletion or mutation of AUG-10, AUG-11, and AUG-12 in the wild type EMCV IRES (IRESwt). They were evaluated in different mammalian cell lines and their use was demonstrated for optimization of light chain (LC) to heavy chain (HC) expression ratios for enhancing monoclonal antibody (mAb) expression level and quality. Different ratios of LC over HC expression affect both mAb expression levels and quality <xref ref-type="bibr" rid="pone.0082100-Schlatter1">[7]</xref>, <xref ref-type="bibr" rid="pone.0082100-Lee1">[14]</xref>, <xref ref-type="bibr" rid="pone.0082100-Ho3">[37]</xref>. The optimum LC:HC ratio for mAb production depends on the cell type used for expression, whether production is performed using transient or stable transfections, and possibly the mAb molecule itself <xref ref-type="bibr" rid="pone.0082100-Schlatter1">[7]</xref>, <xref ref-type="bibr" rid="pone.0082100-Li1">[28]</xref>. Here, we demonstrated that using different IRES mutants to express LC and HC allowed the control of LC:HC ratios at a level most beneficial for mAb expression and quality. This set of IRES mutants can be also used in other applications such as synthetic biology, investigating interactions between proteins and its complexes, cell engineering, multi-subunit protein production, gene therapy, and reprogramming of somatic cells into stem cells. The crippled EMCV IRES mutants with reduced translation efficiencies would be particularly useful for expressing proteins at more biologically relevant levels in the cell, or for expressing proteins that are toxic to the cells if over expressed.</p>
+</sec><sec id="s2" sec-type="materials|methods">
+<title>Materials and Methods</title>
+<sec id="s2a">
+<title>Cell Culture and Media</title>
+<p>Adherent CHO K1, HEK293, BHK, 3T3, and COS7 cells (ATCC, Manassas, VA) were grown in the Dulbecco's modified Eagle's medium (DMEM) + GlutaMax™ (Life Technologies, Carlsbad, CA) supplemented with 10% fetal bovine serum (Sigma, St. Louis, MO) in a static humidified incubator with 5% CO<sub>2</sub> at 37°C. Suspension dihydrofolate reductase (DHFR)-deficient CHO DG44 cells (Life Technologies) were grown in a protein-free medium consisting of 50% HyQ PF (HyClone, Logan, UT) and 50% CD CHO (Life Technologies) supplemented with 1 g/L sodium carbonate (Sigma), 6 mM glutamine (Sigma), 0.1% Pluronic F-68 (Life Technologies), and 1% hypoxanthine and thymine (HT) (Life Technologies) in humidified Kuhner shakers (Adolf Kühner AG, Birsfelden, Switzerland) with 8% CO<sub>2</sub> at 37°C.</p>
+</sec><sec id="s2b">
+<title>Generation of EMCV IRES Variants</title>
+<p>The IRESwt with sequence corresponding to the region from 260 to 848 in the EMCV-R genome (Genbank: M81861) was cloned from the pIRES2-DsRed vector (Clontech Laboratories, CA). It contained two mutations compared to the sequence deposited in the Genbank (G at 739 to A and insertion of one A after 769) and is less active than the wild-type version <xref ref-type="bibr" rid="pone.0082100-Bochkov1">[26]</xref>. The mutated EMCV IRES variants were generated by either mutation of AUG-10, AUG-11, and AUG-12 individually or in combination to GUG, CUG, ACG, AUA, UUG, or deletion of AUG-11 and AUG-12 and surrounding sequence, or both (<xref ref-type="table" rid="pone-0082100-t001">Table I</xref>). The mutations were obtained by using synthetic primers containing specified mutations during PCR amplification.</p>
+<table-wrap id="pone-0082100-t001" position="float" orientation="portrait"><object-id pub-id-type="doi">10.1371/journal.pone.0082100.t001</object-id><label>Table I</label><caption>
+<title>Relative strength of IRES variants in expressing a gene.</title>
+</caption><alternatives><graphic id="pone-0082100-t001-1" position="float" mimetype="image" xlink:href="info:doi/10.1371/journal.pone.0082100.t001" xlink:type="simple" orientation="portrait" />
+<table><colgroup span="1"><col align="left" span="1" /><col align="center" span="1" /><col align="center" span="1" /><col align="center" span="1" /><col align="center" span="1" /></colgroup>
+<thead>
+<tr>
+<td align="left" rowspan="1" colspan="1">EMCV IRES 3′-end Sequence</td>
+<td colspan="3" align="left" rowspan="1">Strength (%)</td>
+<td align="left" rowspan="1" colspan="1">Variant ID</td>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left" rowspan="1" colspan="1">10<sup>th</sup> 11<sup>th</sup> 12<sup>th</sup></td>
+<td align="left" rowspan="1" colspan="1" />
+<td align="left" rowspan="1" colspan="1" />
+<td align="left" rowspan="1" colspan="1" />
+<td align="left" rowspan="1" colspan="1" />
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1">AUGAUAAUAUGGCCACAACCAUG (WT)</td>
+<td align="left" rowspan="1" colspan="1">100.00</td>
+<td align="left" rowspan="1" colspan="1">±</td>
+<td align="left" rowspan="1" colspan="1">0.00</td>
+<td align="left" rowspan="1" colspan="1">IRESwt</td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1">GUGAUAAUAUGGCCACAACCAUG</td>
+<td align="left" rowspan="1" colspan="1">90.48</td>
+<td align="left" rowspan="1" colspan="1">±</td>
+<td align="left" rowspan="1" colspan="1">0.12</td>
+<td align="left" rowspan="1" colspan="1">IRESv1</td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1">AUGAUAAUAUGGCCACAACCGUG</td>
+<td align="left" rowspan="1" colspan="1">83.59</td>
+<td align="left" rowspan="1" colspan="1">±</td>
+<td align="left" rowspan="1" colspan="1">1.72</td>
+<td align="left" rowspan="1" colspan="1">IRESv3</td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1">AUGAUAAUGUGGCCACAACCAUG</td>
+<td align="left" rowspan="1" colspan="1">35.48</td>
+<td align="left" rowspan="1" colspan="1">±</td>
+<td align="left" rowspan="1" colspan="1">3.50</td>
+<td align="left" rowspan="1" colspan="1">IRESv7</td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1">GUGAUAAUAUGGCCACAACCGUG</td>
+<td align="left" rowspan="1" colspan="1">67.42</td>
+<td align="left" rowspan="1" colspan="1">±</td>
+<td align="left" rowspan="1" colspan="1">2.91</td>
+<td align="left" rowspan="1" colspan="1">IRESv4</td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1">GUGAUAAUGUGGCCACAACCAUG</td>
+<td align="left" rowspan="1" colspan="1">29.45</td>
+<td align="left" rowspan="1" colspan="1">±</td>
+<td align="left" rowspan="1" colspan="1">1.86</td>
+<td align="left" rowspan="1" colspan="1">IRESv10</td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1">AUGAUAAUGUGGCCACAACCGUG</td>
+<td align="left" rowspan="1" colspan="1">0.98</td>
+<td align="left" rowspan="1" colspan="1">±</td>
+<td align="left" rowspan="1" colspan="1">0.02</td>
+<td align="left" rowspan="1" colspan="1">IRESv19</td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1">GUGAUAAUGUGGCCACAACCGUG</td>
+<td align="left" rowspan="1" colspan="1">1.37</td>
+<td align="left" rowspan="1" colspan="1">±</td>
+<td align="left" rowspan="1" colspan="1">0.02</td>
+<td align="left" rowspan="1" colspan="1">IRESv18</td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1">AUGAUAAUCUGGCCACAACCAUG</td>
+<td align="left" rowspan="1" colspan="1">45.18</td>
+<td align="left" rowspan="1" colspan="1">±</td>
+<td align="left" rowspan="1" colspan="1">2.12</td>
+<td align="left" rowspan="1" colspan="1">IRESv5</td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1">AUGAUAAUAUAGCCACAACCAUG</td>
+<td align="left" rowspan="1" colspan="1">39.91</td>
+<td align="left" rowspan="1" colspan="1">±</td>
+<td align="left" rowspan="1" colspan="1">0.80</td>
+<td align="left" rowspan="1" colspan="1">IRESv6</td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1">AUGAUAAUUUGGCCACAACCAUG</td>
+<td align="left" rowspan="1" colspan="1">34.39</td>
+<td align="left" rowspan="1" colspan="1">±</td>
+<td align="left" rowspan="1" colspan="1">0.72</td>
+<td align="left" rowspan="1" colspan="1">IRESv8</td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1">AUGAUAAUACGGCCACAACCAUG</td>
+<td align="left" rowspan="1" colspan="1">33.25</td>
+<td align="left" rowspan="1" colspan="1">±</td>
+<td align="left" rowspan="1" colspan="1">0.36</td>
+<td align="left" rowspan="1" colspan="1">IRESv9</td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1">AUGAUAAUCUGGCCACAACCCUG</td>
+<td align="left" rowspan="1" colspan="1">9.47</td>
+<td align="left" rowspan="1" colspan="1">±</td>
+<td align="left" rowspan="1" colspan="1">1.90</td>
+<td align="left" rowspan="1" colspan="1">IRESv13</td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1">CUGAUAAUCUGGCCACAACCCUG</td>
+<td align="left" rowspan="1" colspan="1">13.58</td>
+<td align="left" rowspan="1" colspan="1">±</td>
+<td align="left" rowspan="1" colspan="1">1.50</td>
+<td align="left" rowspan="1" colspan="1">IRESv12</td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1">AUGAUAAUACGGCCACAACCACG</td>
+<td align="left" rowspan="1" colspan="1">4.02</td>
+<td align="left" rowspan="1" colspan="1">±</td>
+<td align="left" rowspan="1" colspan="1">0.87</td>
+<td align="left" rowspan="1" colspan="1">IRESv14</td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1">ACGAUAAUACGGCCACAACCACG</td>
+<td align="left" rowspan="1" colspan="1">3.23</td>
+<td align="left" rowspan="1" colspan="1">±</td>
+<td align="left" rowspan="1" colspan="1">0.18</td>
+<td align="left" rowspan="1" colspan="1">IRESv15</td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1">AUGAUAAUAUAGCCACAACCAUA</td>
+<td align="left" rowspan="1" colspan="1">1.79</td>
+<td align="left" rowspan="1" colspan="1">±</td>
+<td align="left" rowspan="1" colspan="1">0.09</td>
+<td align="left" rowspan="1" colspan="1">IRESv16</td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1">AUAAUAAUAUAGCCACAACCAUA</td>
+<td align="left" rowspan="1" colspan="1">1.67</td>
+<td align="left" rowspan="1" colspan="1">±</td>
+<td align="left" rowspan="1" colspan="1">0.16</td>
+<td align="left" rowspan="1" colspan="1">IRESv17</td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1">AUGAUAAUUUGGCCACAACCUUG</td>
+<td align="left" rowspan="1" colspan="1">0.58</td>
+<td align="left" rowspan="1" colspan="1">±</td>
+<td align="left" rowspan="1" colspan="1">0.09</td>
+<td align="left" rowspan="1" colspan="1">IRESv21</td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1">UUGAUAAUUUGGCCACAACCUUG</td>
+<td align="left" rowspan="1" colspan="1">0.81</td>
+<td align="left" rowspan="1" colspan="1">±</td>
+<td align="left" rowspan="1" colspan="1">0.03</td>
+<td align="left" rowspan="1" colspan="1">IRESv20</td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1">AUGAUAAUAUG</td>
+<td align="left" rowspan="1" colspan="1">86.42</td>
+<td align="left" rowspan="1" colspan="1">±</td>
+<td align="left" rowspan="1" colspan="1">0.03</td>
+<td align="left" rowspan="1" colspan="1">IRESv2</td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1">AUG</td>
+<td align="left" rowspan="1" colspan="1">24.35</td>
+<td align="left" rowspan="1" colspan="1">±</td>
+<td align="left" rowspan="1" colspan="1">4.04</td>
+<td align="left" rowspan="1" colspan="1">IRESv11</td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1">AUGAUAAUGUG</td>
+<td align="left" rowspan="1" colspan="1">0.34</td>
+<td align="left" rowspan="1" colspan="1">±</td>
+<td align="left" rowspan="1" colspan="1">0.20</td>
+<td align="left" rowspan="1" colspan="1">IRESv24</td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1">GUGAUAAUGUG</td>
+<td align="left" rowspan="1" colspan="1">0.46</td>
+<td align="left" rowspan="1" colspan="1">±</td>
+<td align="left" rowspan="1" colspan="1">0.10</td>
+<td align="left" rowspan="1" colspan="1">IRESv23</td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1">GUG</td>
+<td align="left" rowspan="1" colspan="1">0.57</td>
+<td align="left" rowspan="1" colspan="1">±</td>
+<td align="left" rowspan="1" colspan="1">0.12</td>
+<td align="left" rowspan="1" colspan="1">IRESv22</td>
+</tr>
+</tbody>
+</table>
+</alternatives></table-wrap></sec><sec id="s2c">
+<title>Vector Construction</title>
+<p>The IRES-mediated dual-luciferase bicistronic vectors containing different IRES variants on the firefly luciferase (Fluc) gene were constructed by replacing the BGHpA-CMV region in a previously described vector <xref ref-type="bibr" rid="pone.0082100-Yang1">[10]</xref> with specific IRES variants (<xref ref-type="fig" rid="pone-0082100-g001">Figure 1A</xref>). The IRES-mediated tricistronic vectors containing different IRES variants on LC and HC were constructed by replacing the IRESwt-LC and IRESwt-HC regions in a previously described tricistronic vector expressing anti-HER2 mAb <xref ref-type="bibr" rid="pone.0082100-Ho3">[37]</xref> with IRESvn-LC and IRESvn-HC, respectively (<xref ref-type="fig" rid="pone-0082100-g001">Figure 1B</xref>). IRESvn-LC and IRESvn-HC were synthesized by overlapping PCR. A short DNA sequence that can form a hairpin structure (HP) and contains an upstream AUG that is out of frame with the coding sequence of DHFR was inserted 101 base pair downstream of the predicted human cytomegalovirus IE gene promoter (CMV) transcription start site (<xref ref-type="fig" rid="pone-0082100-g001">Figure 1B</xref>). The out-of-frame AUG is present in an optimal sequence context for efficient initiation of translation. Insertion of such a DNA sequence immediately in front of the DHFR start codon is expected to reduce DHFR expression by about 50-fold <xref ref-type="bibr" rid="pone.0082100-deQuinto1">[38]</xref> and enhance the stringency of selection for high producers in stable transfections <xref ref-type="bibr" rid="pone.0082100-Ho1">[13]</xref>.</p>
+<fig id="pone-0082100-g001" position="float" orientation="portrait"><object-id pub-id-type="doi">10.1371/journal.pone.0082100.g001</object-id><label>Figure 1</label><caption>
+<title>Schematic representation of vectors.</title>
+<p>(A) Structure of dual-luciferase bicistronic vectors for determination of IRES variants' strengths. (B) Structure of monoclonal antibody expressing tricistronic vectors with specific IRES variants applied on the light chain (LC) or heavy chain (HC) genes. (C) Amino acid sequences of signal peptide, N- and C-terminal end of LC and HC. CMV, human cytomegalovirus IE gene promoter; IRESwt, wild type encephalomyocarditis virus (EMCV) internal ribosome entry site (IRES); IRESvn, a specific EMCV IRES variant; SpA, SV40 polyadenylation signal; Rluc, renilla luciferase coding region; Fluc, firefly luciferase coding region; SP<sub>L</sub>, light chain signal peptide; LC, light chain coding region; SP<sub>H</sub>, heavy chain signal peptide; HC, heavy chain coding region; DHFR, dihydrofolate reductase coding region; HP, DNA sequence that can form a hairpin structure and contains an upstream AUG that is out of frame with the coding sequence.</p>
+</caption><graphic mimetype="image" xlink:href="info:doi/10.1371/journal.pone.0082100.g001" position="float" xlink:type="simple" orientation="portrait" /></fig></sec><sec id="s2d">
+<title>Transient Transfection</title>
+<p>Transient transfections for evaluating the strength of IRES variants in different mammalian cell lines were carried out in 6-well tissue culture plate (NUNC™, Roskilde, Denmark) using Fugene 6 (Roche, Indianapolis, IN). 24 h prior to transfection, 2 mL of exponentially growing cells at a cell density of 3×10<sup>5</sup> cells/mL were seeded into each well of the 6-well plates. Transfection of cultures in each well with the appropriate dual-luciferase vector was done in duplicates using a recipe of 6 µL of Fugene 6:2 µg of DNA. At 48 h post-transfection, cells were detached with trypsin and analyzed for renilla luciferase (Rluc) and Fluc activities using Dual-Glo Luciferase Assay system (Promega, Madison, WI) in white opaque 96-well assay plates (Corning) in quadruplicates. The transfections and luciferase assays were repeated one more time using independently prepared plasmids and cultures.</p>
+</sec><sec id="s2e">
+<title>Generation of Stably Transfected mAb Producing Cell Lines</title>
+<p>Suspension CHO DG44 cells were transfected with the tricistronic vectors containing different IRES variants on the LC and HC genes (<xref ref-type="fig" rid="pone-0082100-g001">Figure 1B</xref>) by using electroporation on a Nucleofector (Lonza, Cologne, Germany). In each transfection, 1×10<sup>7</sup> cells were transfected with 5 µg of linearized plasmids. The transfected cells were then resuspended in 2 mL of protein-free medium preloaded in 6-well suspension culture plates (NUNC™). At 24 h post-transfection, they were collected by centrifuge at 1000 rpm for 5 minutes, and then resuspended in 15 mL of protein-free medium without HT and then followed by gene amplification in protein-free medium containing stepwise increased concentrations of methotrexate (MTX) at 50 nM and 250 nM respectively. To determine the productivity of mAb in stable transfection pools, 25 mL of cultures at a cell density of 2×10<sup>5</sup> cells/mL were seeded into 125 mL shake flask. Cell density and viability were monitored using Cedex counter (Innovatis, Bielefeld, Germany) until viability dropped below 50%. Supernatant was collected at the end of culture and analyzed for mAb concentration using a nephelometric method on an IMMAGE 800 immunochemistry system (Beckman Coulter, Buckinghamshire, England).</p>
+</sec><sec id="s2f">
+<title>ELISA Analysis of Intracellular Polypeptides of LC:HC Ratios</title>
+<p>The intracellular polypeptides of LC:HC ratios in stable transfection pools generated using tricistronic vectors containing different IRES variants on LC and HC were determined using ELISA as previously described <xref ref-type="bibr" rid="pone.0082100-Ho1">[13]</xref>. 1×10<sup>7</sup> cells were collected from 125 mL shake flask batch cultures growing at exponential phase. They were lysed in RIPA buffer (Thermo Scientific, Waltham, MA) supplemented with ProteoBlock protease inhibitor cocktail (Fermentas, Thermo Scientific). The cell lysates were centrifuged at ∼1800×g for 30 min at 4°C. The supernatants were then collected and quantified for concentrations of LC and HC polypeptides using alkaline phosphatase-conjugated goat anti-human IgG (Fc specific) for HC detection and goat anti-human IgG (LC specific) for LC detection, respectively. Both detection antibodies were purchased from Sigma-Aldrich. The intracellular LC:HC polypeptide ratio in each stable transfection pool was determined as the measured LC concentration divided by the HC concentration.</p>
+</sec><sec id="s2g">
+<title>Western Blotting Analyses of Cell lysates and Supernatant</title>
+<p>Western blotting analyses of the cell lysates and supernatant were carried out as described previously <xref ref-type="bibr" rid="pone.0082100-Ho3">[37]</xref>. 10 µg of total proteins were loaded into each lane of NuPAGE 4–12% Bis-Tris gels (Life Technologies) for analysis of LC and HC polypeptides in the cell lysates. For analysis of supernatant, the sample loaded into each lane contained 1 ng of mAb as determined by ELISA using Fc-specific detection antibodies. 10 pg of product was loaded for the sample with LC:HC of 21.24 to prevent overexposure due to the high levels of accumulated LC<sub>2</sub> dimers and LC monomers. The LC and HC polypeptides were detected simultaneously using two antibodies, HRP conjugated goat anti-human IgG Fc antibody and HRP conjugated goat anti-human IgG Kappa LC antibody. Both detection antibodies were purchased from Bethyl Laboratories (Montgomery, TX).</p>
+</sec><sec id="s2h">
+<title>mAb Purification and Aggregation analysis</title>
+<p>mAb in the supernatant was purified using protein A column on a GE AKTA explorer 100 (GE Healthcare, Uppsala, Sweden). The aggregation of protein A purified mAb was determined using size exclusion chromatography (SEC) coupled to a UV-visible detector and a dynamic light scattering detector. The instruments setup, chromatography conditions, and data analysis were as previously described (Ho et al. 2012).</p>
+</sec><sec id="s2i">
+<title>LC-MS/MS Analysis of Signal Peptide Cleavage</title>
+<p>Protein A purified mAb in stable transfection pools at different LC:HC ratios were analyzed for the signal peptide cleavage sites using NanoLC-MS/MS as described previously <xref ref-type="bibr" rid="pone.0082100-Ho2">[17]</xref>.</p>
+</sec></sec><sec id="s3">
+<title>Results</title>
+<sec id="s3a">
+<title>Strengths of EMCV IRES Variants in CHO K1 Cells</title>
+<p>The strengths of IRES variants were determined using dual-luciferase bicistronic vectors (<xref ref-type="fig" rid="pone-0082100-g001">Figure 1A</xref>) in transient transfections. The constructs were generated such that the 12<sup>th</sup> start codon for the EMCV IRES was used as the Fluc start codon. It has been reported that the expression of the first cistron (cap-dependent translation) is not affected by the downstream IRES-driven cistron (cap-independent translation) <xref ref-type="bibr" rid="pone.0082100-Bouabe1">[39]</xref>, <xref ref-type="bibr" rid="pone.0082100-Hennecke1">[40]</xref>. Thus Rluc was used as an internal standard to normalize the transfection efficiency for accurate determination of Fluc expression to reflect the strength of IRES variants. However, we observed that both Rluc and Fluc readings varied drastically both across different IRES variants and between the two independent experiments (<xref ref-type="fig" rid="pone-0082100-g002">Figure 2A and 2B</xref>). Rluc reading variations should be due to variations in transfection efficiency and Fluc reading variations could be due to both varied transfection efficiency and different strengths of IRES variants. After normalization of the Fluc reading to both the Rluc reading and the IRESwt, the effect different IRES variants had on Fluc expression were clear and highly reproducible in the two experiments (<xref ref-type="fig" rid="pone-0082100-g002">Figure 2C</xref>). The average relative strength and standard deviation of each IRES variant determined from the two independent experiments were calculated and reported in <xref ref-type="table" rid="pone-0082100-t001">Table I</xref>. These 24 IRES variants enabled expression of Fluc to be controlled over a 300-fold range with small intervals and were sorted according to their relative strengths in descending order with IRESv1 referring to the strongest variant and IRESv24 referring to the weakest variant (<xref ref-type="fig" rid="pone-0082100-g002">Figure 2</xref> and <xref ref-type="table" rid="pone-0082100-t001">Table I</xref>).</p>
+<fig id="pone-0082100-g002" position="float" orientation="portrait"><object-id pub-id-type="doi">10.1371/journal.pone.0082100.g002</object-id><label>Figure 2</label><caption>
+<title>Relative strength of EMCV IRES variants in CHO K1 cells in transient transfections.</title>
+<p>Equal amounts of dual-luciferase bicistronic vectors (refer <xref ref-type="fig" rid="pone-0082100-g001">Figure 1A</xref>) encoding renilla luciferase (Rluc) and firefly luciferase (Fluc) genes were transfected into CHO K1 cells. At 48 h post-transfection, cell pellets were collected for analysis of Fluc and Rluc luciferase activities by using Dual-Glo Luciferase Assay system. Transfection of each vector was done in duplicates and repeated a second time using independently prepared plasmids and cultures. (A) and (B) Measured Fluc and Rluc activities. (C) Ratios of luciferase activities of Fluc to Rluc gene for each IRES variant normalized to the wild-type IRES (WT). Each individual bar represents the average and standard deviation of eight measurements from two transfections in one experiment. Black bars represent the results from experiment 1 and gray bars from experiment 2.</p>
+</caption><graphic mimetype="image" xlink:href="info:doi/10.1371/journal.pone.0082100.g002" position="float" xlink:type="simple" orientation="portrait" /></fig>
+<p>All IRES variants exhibited reduced Fluc expression as compared to the IRESwt (<xref ref-type="table" rid="pone-0082100-t001">Table I</xref>). The magnitude of reduction varied depending on the position and the number of mutated AUGs. Mutation of AUG-10 and AUG-12 to GUG reduced IRES strength to 90.48% and 83.59%, respectively, while mutation of AUG-11 reduced the strength more significantly to 35.48%. These results are consistent with previous reports that translation by IRESwt is initiated primarily at AUG-11, partially at AUG-12, and very rarely at AUG-10 <xref ref-type="bibr" rid="pone.0082100-Davies1">[32]</xref>, <xref ref-type="bibr" rid="pone.0082100-Kaminski1">[33]</xref>, <xref ref-type="bibr" rid="pone.0082100-Kaminski2">[41]</xref>. Mutation of two AUGs had combinatorial effect in reducing the strength of IRES. For instance, mutation of AUG-10 and AUG-12 alone to GUG reduced the strength to 90.48% and 83.59%, respectively, while mutation of both to GUG reduced the strength to 67.42%. Similarly, mutation of both AUG-10 and AUG-11 reduced the strength to 29.45% and mutation of both AUG-11 and AUG-12 reduced the strength to 0.98%. Interestingly, mutation of all three AUGs to GUG reduced the strength to 1.37%, showing no significant difference compared to mutation of AUG-11 and AUG-12 together as analyzed by two-sample <italic>t</italic>-test.</p>
+<p>The type of bases used for AUG mutations affected the strength of IRES differently. For example, mutation of AUG-11 to CUG was least effective in reducing strength, giving strength of 45.18%, followed by AUA (39.91%), GUG (35.48%), UUG (34.39%), and ACG (33.25%). Two-sample <italic>t</italic>-test indicated that the differences between CUG and GUG (p&lt;0.1), CUG and UUG (<italic>p</italic>&lt;0.1), CUG and ACG (<italic>p</italic>&lt;0.1), AUA and UUG (<italic>p</italic>&lt;0.1), AUA and ACG (<italic>p</italic>&lt;0.1) were statistically significant. The effect that the type of base had on IRES strength changed when both AUG-11 and AUG-12 or all three AUGs were mutated, giving an order of CUG&gt;ACG&gt;AUA&gt;GUG&gt;UUG with strengths covering a range from 13.58% to 0.58%. Consistent with the observation for GUG, mutating all three AUGs to CUG, AUA, UUG, or ACG did not exhibit significantly reduced strength compared to mutations of AUG-11 and AUG-12 to the corresponding triplets as analyzed by using two-sample <italic>t</italic>-test. Deleting either AUG-12 alone or both AUG-12 and AUG-11 together with surrounding sequences was also effective in reducing IRES strength, resulting in strengths of 86.42% and 24.35%, respectively. Further mutations combined with the deletions generated three IRES variants IRESv24, IRESv23, and IRESv22 with strengths reduced to 0.34%, 0.46%, and 0.57%.</p>
+</sec><sec id="s3b">
+<title>Evaluation of EMCV IRES Variants in Different Mammalian Cell Lines</title>
+<p>To evaluate the application of IRES variants in different mammalian cell lines, IRESwt and three representative IRES variants, IRESv3, IRESv10, and IRESv18 that exhibited significantly different strengths in CHO K1 cells were tested in another four cell lines. The five cell lines were chosen from a range of species and tissues: CHO K1 from Chinese hamster ovary, HEK293 from human embryonic kidney, BHK from baby hamster kidney, 3T3 from mouse embryo, and COS7 from African Green Monkey kidney. The first three cell lines have been used widely for production of recombinant proteins in industry and the last two have been used in fundamental biological studies. The three IRES variants exhibited similar relative strengths to the IRESwt in expressing a gene in all different cell lines. The IRESwt was the strongest in all cases, followed by IRESv3, IRESv10, and IRESv18 (<xref ref-type="fig" rid="pone-0082100-g003">Figure 3</xref>).</p>
+<fig id="pone-0082100-g003" position="float" orientation="portrait"><object-id pub-id-type="doi">10.1371/journal.pone.0082100.g003</object-id><label>Figure 3</label><caption>
+<title>Relative strength of EMCV IRES variants in different mammalian cell lines in transient transfections.</title>
+<p>The strengths of IRES variants in different cell lines were obtained by transfection of dual-luciferase vectors (refer <xref ref-type="fig" rid="pone-0082100-g001">figure 1A</xref>) containing different IRES variants including IRESv3, IRESv10, or IRESv18 on the Fluc gene. At 48 h post-transfection, the luciferase activities of Rluc and Fluc gene were quantified by Dual-Glo Luciferase Assay Systems. Results represent the strength of each IRES variant calculated as the ratios of luciferase activities of Fluc to Rluc normalized to the control, the wild type EMCV IRES (IRESwt). Each value represents the average and standard deviation of sixteen measurements from four independent transfections for CHO K1 cells and eight measurements from two independent transfections for other cell lines.</p>
+</caption><graphic mimetype="image" xlink:href="info:doi/10.1371/journal.pone.0082100.g003" position="float" xlink:type="simple" orientation="portrait" /></fig></sec><sec id="s3c">
+<title>Application of EMCV IRES Variants for Controlling LC over HC Expressions</title>
+<p>The application of EMCV IRES variants for controlling the expression level of multiple genes in stable transfections was demonstrated by expressing a multi-subunit protein, IgG mAb. An IgG molecule is composed of two identical LC and two identical HC polypeptides linked by disulfide bonds. We first constructed a control anti-HER2 mAb expressing tricistronic vector with both LC and HC under the control of IRESwt (<xref ref-type="fig" rid="pone-0082100-g001">Figure 1B</xref>). Another six vectors were then constructed by replacing IRESwt with IRES variants of IRESv4, IRESv10, and IRESv18 for different LC:HC ratios. These vectors were transfected into CHO DG44 cells to generate stably transfected pools. Intracellular LC:HC polypeptide ratios in each stable pool were determined using ELISA (<xref ref-type="fig" rid="pone-0082100-g004">Figure 4</xref>). The control vector with IRESwt applied on both LC and HC presented a LC:HC ratio of 1.04. Application of weaker IRESv4, IRESv10, and IRESv18 on HC increased the LC:HC ratios to 1.49, 2.60, and 21.24, respectively. When the same set of IRES variants were applied on LC, they decreased the LC:HC ratios to 0.88, 0.24, and 0.04, respectively. Western blotting analysis of the same intracellular lysates prepared for ELISA was performed to verify the LC:HC ratios. Cellular lysates containing equal amount of total proteins were reduced and loaded into each lane of NuPAGE gel. The band intensities for LC and HC under the control of IRESwt were not significantly changed across different vectors, indicating that the expression of LC and HC can be independently altered by IRES variants without interference by each other. The band intensities corresponding to LC and HC polypeptide abundance were steadily decreased by weak IRES variants, suggesting that the altered LC:HC ratios were achieved by reducing either LC or HC expressions. The band corresponding to HC under the control of IRESv18 was not visible due to low expression.</p>
+<fig id="pone-0082100-g004" position="float" orientation="portrait"><object-id pub-id-type="doi">10.1371/journal.pone.0082100.g004</object-id><label>Figure 4</label><caption>
+<title>Control of LC and HC expression using different IRES variants in stable transfections.</title>
+<p>CHO DG44 stable transfection pools were generated by transfection of tricistronic vectors with different IRES variants applied on the LC and HC cDNA (refer to <xref ref-type="fig" rid="pone-0082100-g001">Figure 1B</xref>). LC:HC ratios listed in the table were calculated as the concentration of intracellular LC polypeptides determined by ELISA divided by the HC polypeptides. Each value represents the average and standard deviation of four measurements from two independent stable transfection pools. The intracellular abundance of LC and HC polypeptides were also analyzed using western blot under reducing conditions. Cell lysates containing equal amounts of proteins were loaded into each lane. A commercial human affinity purified myeloma Ig1 (Sigma-Aldrich) and supernatants from cells transfected with either a vector expressing only HC or a vector expressing only LC were used as positive control, and supernatant from non-transfected cells as negative control (N).</p>
+</caption><graphic mimetype="image" xlink:href="info:doi/10.1371/journal.pone.0082100.g004" position="float" xlink:type="simple" orientation="portrait" /></fig>
+<p>The impact of LC:HC ratio on mAb yield was analyzed by plotting the end-point titer in shake flask batch culture against the LC:HC ratios as determined by ELISA (<xref ref-type="fig" rid="pone-0082100-g005">Figure 5</xref>). The control vector containing the IRESwt which controlled LC:HC ratio at 1.04 gave the highest titer of 84.1 mg/L. Slightly increasing the ratio to 1.49 by decreasing HC expression did not change titer significantly, yielding 83.3 mg/L. Further increasing the LC:HC ratios to 2.60 and 21.24 by decreasing the HC expression dramatically reduced the mAb titers to 34.0 and 5.9 mg/L, respectively. In contrast, a slight decrease of LC:HC ratio to 0.88 by decreasing the LC expression resulted in a sharp decline of mAb titer to 36.8 mg/L. The titer dropped to 17.1 and 8.1 mg/L when LC:HC ratios decreased to 0.24 and 0.04 by further reducing LC expression.</p>
+<fig id="pone-0082100-g005" position="float" orientation="portrait"><object-id pub-id-type="doi">10.1371/journal.pone.0082100.g005</object-id><label>Figure 5</label><caption>
+<title>Effect of LC:HC ratios on mAb productivity in stable transfection pools.</title>
+<p>CHO DG44 stable transfection pools at different LC:HC ratios generated were cultured in shake flask batch cultures. Titers of monoclonal antibody at the end of culture were determined using a nephelometric method or ELISA. Each value represents the average and standard deviation of measurements from two independent stable transfection pools.</p>
+</caption><graphic mimetype="image" xlink:href="info:doi/10.1371/journal.pone.0082100.g005" position="float" xlink:type="simple" orientation="portrait" /></fig>
+<p>The qualities of mAb produced in stable pools at different LC:HC ratios were first characterized by western blotting analysis of culture supernatant under non-reducing conditions (<xref ref-type="fig" rid="pone-0082100-g006">Figure 6</xref>). Supernatant containing equal amounts of mAb determined by ELISA was loaded into each lane of a NuPAGE gel. Lesser amount of mAb was loaded for sample at the LC:HC ratio of 21.24 to avoid overexposure of LC fragments. Product from the control vector with the LC:HC ratio of 1.04 contained complete IgG monomers HC<sub>2</sub>LC<sub>2</sub> and a slight band corresponding to HC<sub>2</sub> dimers, suggesting inefficient usage of HC polypeptides in mAb synthesis. Increasing LC:HC ratios to 1.49 and 2.60 by reducing HC expression resulted in secretion of less HC<sub>2</sub> dimers. Further increasing the ratio to 21.24 eliminated secretion of HC<sub>2</sub> dimers but resulted in secretion of LC<sub>2</sub> dimers and LC monomers besides the complete IgG monomers, suggesting inefficient usage of LC polypeptides in mAb synthesis. In contrast, decreasing LC:HC ratios to 0.88, 0.24, and 0.04 resulted in secretion of HC<sub>2</sub> dimers together with the complete IgG monomer, suggesting inefficient usage of HC polypeptides in mAb synthesis. Western blotting analysis of reduced products in supernatant was next performed. LC and HC polypeptides expressed from all different IRES variants had similar sizes compared to standard LC and HC polypeptides. HC band at the LC:HC ratio of 21.24 was not observed due to lower amount of sample loading.</p>
+<fig id="pone-0082100-g006" position="float" orientation="portrait"><object-id pub-id-type="doi">10.1371/journal.pone.0082100.g006</object-id><label>Figure 6</label><caption>
+<title>Western blot analysis of supernatant in stable transfection pools at different LC:HC ratios.</title>
+<p>CHO DG44 stable transfection pools at different LC:HC ratios were cultured in shake flask batch cultures. Crude supernatant collected at the end of culture was analyzed under both non-reducing and reducing conditions by western blot. Positive and negative controls are the same as described in <xref ref-type="fig" rid="pone-0082100-g004">Figure 4</xref>.</p>
+</caption><graphic mimetype="image" xlink:href="info:doi/10.1371/journal.pone.0082100.g006" position="float" xlink:type="simple" orientation="portrait" /></fig>
+<p>To obtain a more accurate protein characterization, protein A purified mAb in stable pools at different LC:HC ratios were separated on SDS-PAGE under reducing conditions. The excised bands corresponding to LC and HC polypeptides were digested by trypsin and then analyzed on LC-MS/MS for determining the signal peptide cleavage sites. The N-terminal tryptic peptide sequences of both LC and HC were confirmed by MS/MS via <italic>de novo</italic> and database matching using PEAKS program. Detection of peptide DIQMTQSPSSLSASVGDR and EVQLVESGGGLVQPGGSLR indicated that signal peptides of LC and HC were both cleaved at correct sites. No miscleaved signal peptide was observed on LC and HC in stable pools at LC:HC ratios of 1.04, 1.49, 2.60, and 0.24. LC-MS/MS analyses of products in stable pools at LC:HC ratios of 21.24 and 0.04 were not performed because of insufficient product.</p>
+<p>Finally, the impact of LC:HC ratio on mAb aggregation was analyzed by using SEC coupled to a dynamic light scattering detector and UV detector. Supernatant collected at the end of culture was purified by protein A affinity chromatography before SEC analysis. Analysis of products in stable pools at LC:HC ratios of 21.24 and 0.04 were not performed due to insufficient product. One representative UV chromatogram for the LC:HC ratio of 0.24 was shown in <xref ref-type="fig" rid="pone-0082100-g007">Figure 7A</xref>. The molecular weight of each peak was calculated based on hydrodynamic radius determined by light scattering (data not shown). Peaks with average molecular weight greater and lower than the complete IgG monomers were grouped as aggregates and incomplete mAb fragments, respectively. Relative mass amounts of aggregate, complete IgG monomer, and incomplete mAb fragment were quantified using the respective peak area under the UV chromatograms. Analysis was done for duplicate stable transfection pools at each LC:HC ratio. Average distributions of components at different LC:HC ratios were shown in <xref ref-type="fig" rid="pone-0082100-g007">Figure 7B</xref>. Product at LC:HC ratio of 1.04 contained 96.2% IgG monomers, 3.6% aggregates, and 0.2% fragments. Increasing the ratio to 1.49 and 2.60 resulted in increase of IgG monomers to more than 99.3% and decrease of both aggregates and fragments to less than 0.5%. In contrast, decreasing the LC:HC ratio to 0.88 resulted in decrease of IgG monomers to 88.1% and increase of aggregates to 10.1% and fragments to 1.8%, respectively. Further decreasing the ratio to 0.24 did not worsen aggregation but saw a sharp increase of fragments to 23.3% and decreasing IgG monomers to only 70.6%.</p>
+<fig id="pone-0082100-g007" position="float" orientation="portrait"><object-id pub-id-type="doi">10.1371/journal.pone.0082100.g007</object-id><label>Figure 7</label><caption>
+<title>Representative size exclusion chromatogram and distribution of complete IgG monomer, aggregate, and incomplete IgG fragments produced in stable transfection pools at different LC:HC ratios.</title>
+<p>Components within protein A purified supernatant collected at the end of culture were separated by size exclusion chromatography followed by the identification and quantification of species by light scattering and UV detection, respectively. Analysis was done for duplicate stable transfection pools. (A) Representative chromatogram obtained by UV detector for the pool of LC:HC = 0.24. Agg: Aggregates; IgG: complete IgG monomer; Frag: Incomplete IgG fragments. (B) Quantitative comparison of complete IgG monomer, aggregates, and incomplete IgG fragments for different LC:HC ratios. Each value in figure B represents the average of four measurements from two independent stable transfection pools.</p>
+</caption><graphic mimetype="image" xlink:href="info:doi/10.1371/journal.pone.0082100.g007" position="float" xlink:type="simple" orientation="portrait" /></fig></sec></sec><sec id="s4">
+<title>Discussion</title>
+<p>Translation represents a critical step in regulating gene expression in mammalian cells. During cap-dependent translation, ribosomes can recognize non-AUG triplets as start codons and initiate translation with reduced efficiency. The magnitude of reduction varies depending on the type of non-AUG triplets and their sequence context <xref ref-type="bibr" rid="pone.0082100-Kozak1">[34]</xref>, <xref ref-type="bibr" rid="pone.0082100-Mehdi1">[35]</xref>, <xref ref-type="bibr" rid="pone.0082100-Peabody1">[36]</xref>. EMCV mRNA translation is initiated at AUG-11 or AUG-12 and less frequently at AUG-10 on internal ribosome entry sites (IRES) by a cap-independent mechanism <xref ref-type="bibr" rid="pone.0082100-Davies1">[32]</xref>. We hypothesized that non-AUG initiated translation efficiency would be affected in similar ways in both cap-dependent and cap-independent translation. Mutation of AUG to non-AUG codons would reduce IRES translation efficiency and provide for greater precision during control of gene expression. Consistent with reports in cap-dependent translation studies, IRES variants with different non-AUG codons exhibited different strengths. However, the order of translation efficiency exhibited by different non-AUG was not the same as that reported in a previous study (<xref ref-type="table" rid="pone-0082100-t002">Table II</xref>) <xref ref-type="bibr" rid="pone.0082100-Mehdi1">[35]</xref>. Although we observed that mutating AUG-11 to CUG resulted in the lowest drop in translation efficiency, IRES variants with GUG-11, ACG-11, AUA-11, and UUG-11 did not exhibited strength differences as significant as those reported. One possible explanation is that when AUG-11 was mutated, efficient translation could be initiated at AUG-10 and AUG-12 <xref ref-type="bibr" rid="pone.0082100-Davies1">[32]</xref>. When either both AUG-11 and AUG-12 or all three AUGs were mutated, the order of non-AUG codons for translation efficiency is the same as that in cap-dependent translation except for GUG. Conflicting orders for non-AUG initiation efficiency had been reported in different cap-dependent translation studies <xref ref-type="bibr" rid="pone.0082100-Kozak1">[34]</xref>, <xref ref-type="bibr" rid="pone.0082100-Mehdi1">[35]</xref>, <xref ref-type="bibr" rid="pone.0082100-Peabody1">[36]</xref>. The different order of efficiency could be due to differences in sequence context around the start codons.</p>
+<table-wrap id="pone-0082100-t002" position="float" orientation="portrait"><object-id pub-id-type="doi">10.1371/journal.pone.0082100.t002</object-id><label>Table II</label><caption>
+<title>Comparison of non-AUG translation efficiency in cap-dependent and cap-independent translations.</title>
+</caption><alternatives><graphic id="pone-0082100-t002-2" position="float" mimetype="image" xlink:href="info:doi/10.1371/journal.pone.0082100.t002" xlink:type="simple" orientation="portrait" />
+<table><colgroup span="1"><col align="left" span="1" /><col align="center" span="1" /><col align="center" span="1" /><col align="center" span="1" /><col align="center" span="1" /></colgroup>
+<thead>
+<tr>
+<td align="left" rowspan="1" colspan="1">Start condon</td>
+<td align="left" rowspan="1" colspan="1">Cap-dependent translation efficiency (%)<xref ref-type="table-fn" rid="nt101">a</xref></td>
+<td colspan="3" align="left" rowspan="1">EMCV IRES-mediated cap-independent translation efficiency (%)</td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1" />
+<td align="left" rowspan="1" colspan="1" />
+<td align="left" rowspan="1" colspan="1">Mutation of 11<sup>th</sup> AUG</td>
+<td align="left" rowspan="1" colspan="1">Mutation of 11<sup>th</sup> and12<sup>th</sup> AUG</td>
+<td align="left" rowspan="1" colspan="1">Mutation of 10<sup>th</sup>, 11<sup>th</sup> and 12<sup>th</sup> AUG</td>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left" rowspan="1" colspan="1">AUG</td>
+<td align="left" rowspan="1" colspan="1">100</td>
+<td align="left" rowspan="1" colspan="1">100.00</td>
+<td align="left" rowspan="1" colspan="1">100.00</td>
+<td align="left" rowspan="1" colspan="1">100.00</td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1">CUG</td>
+<td align="left" rowspan="1" colspan="1">50</td>
+<td align="left" rowspan="1" colspan="1">45.18</td>
+<td align="left" rowspan="1" colspan="1">9.47</td>
+<td align="left" rowspan="1" colspan="1">13.58</td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1">GUG</td>
+<td align="left" rowspan="1" colspan="1">20</td>
+<td align="left" rowspan="1" colspan="1">35.48</td>
+<td align="left" rowspan="1" colspan="1">0.98</td>
+<td align="left" rowspan="1" colspan="1">1.37</td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1">ACG</td>
+<td align="left" rowspan="1" colspan="1">10</td>
+<td align="left" rowspan="1" colspan="1">33.25</td>
+<td align="left" rowspan="1" colspan="1">4.02</td>
+<td align="left" rowspan="1" colspan="1">3.23</td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1">AUA</td>
+<td align="left" rowspan="1" colspan="1">5</td>
+<td align="left" rowspan="1" colspan="1">39.91</td>
+<td align="left" rowspan="1" colspan="1">1.79</td>
+<td align="left" rowspan="1" colspan="1">1.67</td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1">UUG</td>
+<td align="left" rowspan="1" colspan="1">ND</td>
+<td align="left" rowspan="1" colspan="1">34.39</td>
+<td align="left" rowspan="1" colspan="1">0.58</td>
+<td align="left" rowspan="1" colspan="1">0.81</td>
+</tr>
+</tbody>
+</table>
+</alternatives><table-wrap-foot><fn id="nt101"><label>a</label><p>Cap-dependent translation efficiencies of non-AUG condons were determined in COS-1 cells in transient transfections <xref ref-type="bibr" rid="pone.0082100-Mehdi1">[35]</xref>.</p></fn></table-wrap-foot></table-wrap>
+<p>It has been reported that EMCV IRES variants generated by mutations of the critical domains in IRESwt exhibited cell-specificity <xref ref-type="bibr" rid="pone.0082100-Li1">[28]</xref>. Four IRES mutants that exhibited up to 36% difference in strength in HEK293T cells showed no apparent difference in CHO K1 cells. One possible explanation is that the strengths of these IRES variants depend on the interaction between <italic>trans-acting</italic> protein factors, such as polypyrimidine tract binding protein and the critical protein binding domains in EMCV IRES <xref ref-type="bibr" rid="pone.0082100-Kaminski3">[42]</xref>. The expression level of these protein factors in CHO K1 cells may be lower than in HEK293T cells, resulting in decreased sensitivity of IRES strength to mutations of the critical domains. In contrast, the strengths of our newly generated EMCV IRES variants were manipulated by mutation of translation initiation sites, which may result in changes in ribosome binding affinity to the translation initiation start codon. As the molecular mechanism of translation initiation is highly conserved in all mammalian cells, it is not surprising that our IRES variants had similar relative strength in different cell lines.</p>
+<p>We successfully controlled the LC over HC expression across a wide range of values using our IRES variants in stable transfections (<xref ref-type="fig" rid="pone-0082100-g004">Figure 4</xref>). Independent alteration of LC and HC expression provided better understanding of the mAb synthesis kinetics. Consistent with previous reports that expression of extra LC is more efficient for mAb expression <xref ref-type="bibr" rid="pone.0082100-Schlatter1">[7]</xref>, <xref ref-type="bibr" rid="pone.0082100-Davies2">[43]</xref>, <xref ref-type="bibr" rid="pone.0082100-Gonzalez1">[44]</xref>, we found that at a balanced LC:HC ratio of 1.04, the mAb synthesis was not efficient as indicated by the secretion of HC fragment and occurrence of aggregates although this ratio gave the highest mAb titer (<xref ref-type="fig" rid="pone-0082100-g005">Figure 5</xref>). mAb production levels did not drop with a slight reduction of HC polypeptides, increasing LC:HC ratio from 1.04 to 1.49, but both aggregation and secretion of incomplete mAb fragment were minimized (<xref ref-type="fig" rid="pone-0082100-g006">Figure 6</xref> and <xref ref-type="fig" rid="pone-0082100-g007">7</xref>). In contrast, reduction of LC polypeptides by a similar magnitude (from 1.04 to 0.88) resulted in a sharp decrease in mAb production, a dramatic increase in aggregate, and secretion of HC fragments. It is known that mAb folding and assembly is more efficient when having extra LC polypeptides <xref ref-type="bibr" rid="pone.0082100-Gonzalez1">[44]</xref>. A slight reduction of HC polypeptides reduced the availability of substrate for mAb synthesis but having extra LC polypeptides enhances mAb folding and assembly, as a result mAb production level was not changed. However, the enhanced mAb folding and assembly reduced aggregation and enhanced the efficiency of LC and HC polypeptides usage for mAb synthesis. Similar mechanisms where a balance between substrate availability and folding efficiency is needed may explain the sharp decline in mAb production when LC polypeptides were slightly reduced, which not only reduced the substrate availability but having extra HC polypeptides may also reduce mAb folding and assembly, thus resulting in a sharp decrease in mAb titer and increase in aggregate. Substantial decrease of LC or HC polypeptides both resulted in sharp drop of mAb titers, as the amounts of substrates for mAb synthesis have become limiting. Also, extreme deviations from the balanced LC:HC ratios resulted in inefficient use of either LC or HC polypeptides for mAb synthesis. As such, we propose an optimized vector for mAb expression should express both LC and HC genes at high level and control the LC expression in slight excess.</p>
+</sec></body>
+<back>
+<ack>
+<p>The authors would like to gratefully thank Kong-Meng Hoi and Cheng Theng Ng for excellent technical assistance in regards to the mAb purification and aggregation analysis experiments and Dr Sheng-Hao Chao for critical review of the manuscript.</p>
+</ack>
+<ref-list>
+<title>References</title>
+<ref id="pone.0082100-Bieniossek1"><label>1</label>
+<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Bieniossek</surname><given-names>C</given-names></name>, <name name-style="western"><surname>Imasaki</surname><given-names>T</given-names></name>, <name name-style="western"><surname>Takagi</surname><given-names>Y</given-names></name>, <name name-style="western"><surname>Berger</surname><given-names>I</given-names></name> (<year>2012</year>) <article-title>MultiBac: expanding the research toolbox for multiprotein complexes</article-title>. <source>Trends in Biochemical Sciences</source> <volume>37</volume>: <fpage>49</fpage>–<lpage>57</lpage>.</mixed-citation>
+</ref>
+<ref id="pone.0082100-Fussenegger1"><label>2</label>
+<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Fussenegger</surname><given-names>M</given-names></name>, <name name-style="western"><surname>Moser</surname><given-names>S</given-names></name>, <name name-style="western"><surname>Bailey</surname><given-names>JE</given-names></name> (<year>1998</year>) <article-title>Regulated multicistronic expression technology for mammalian metabolic engineering</article-title>. <source>Cytotechnology</source> <volume>28</volume>: <fpage>111</fpage>–<lpage>125</lpage>.</mixed-citation>
+</ref>
+<ref id="pone.0082100-Kriz1"><label>3</label>
+<mixed-citation publication-type="other" xlink:type="simple">Kriz A, Schmid K, Baumgartner N, Ziegler U, Berger I, <etal>et al</etal>.. (2010) A plasmid-based multigene expression system for mammalian cells. Nature Communications <volume>1</volume>..</mixed-citation>
+</ref>
+<ref id="pone.0082100-Trowitzsch1"><label>4</label>
+<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Trowitzsch</surname><given-names>S</given-names></name>, <name name-style="western"><surname>Klumpp</surname><given-names>M</given-names></name>, <name name-style="western"><surname>Thoma</surname><given-names>R</given-names></name>, <name name-style="western"><surname>Carralot</surname><given-names>JP</given-names></name>, <name name-style="western"><surname>Berger</surname><given-names>I</given-names></name> (<year>2011</year>) <article-title>Light it up: Highly efficient multigene delivery in mammalian cells</article-title>. <source>Bioessays</source> <volume>33</volume>: <fpage>946</fpage>–<lpage>955</lpage>.</mixed-citation>
+</ref>
+<ref id="pone.0082100-Leitzgen1"><label>5</label>
+<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Leitzgen</surname><given-names>K</given-names></name>, <name name-style="western"><surname>Knittler</surname><given-names>MR</given-names></name>, <name name-style="western"><surname>Haas</surname><given-names>IG</given-names></name> (<year>1997</year>) <article-title>Assembly of immunoglobulin light chains as a prerequisite for secretion - A model for oligomerization-dependent subunit folding</article-title>. <source>Journal Of Biological Chemistry</source> <volume>272</volume>: <fpage>3117</fpage>–<lpage>3123</lpage>.</mixed-citation>
+</ref>
+<ref id="pone.0082100-Lenny1"><label>6</label>
+<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Lenny</surname><given-names>N</given-names></name>, <name name-style="western"><surname>Green</surname><given-names>M</given-names></name> (<year>1991</year>) <article-title>Regulation Of Endoplasmic-Reticulum Stress Proteins In Cos Cells Transfected With Immunoglobulin-Mu Heavy-Chain Cdna</article-title>. <source>Journal Of Biological Chemistry</source> <volume>266</volume>: <fpage>20532</fpage>–<lpage>20537</lpage>.</mixed-citation>
+</ref>
+<ref id="pone.0082100-Schlatter1"><label>7</label>
+<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Schlatter</surname><given-names>S</given-names></name>, <name name-style="western"><surname>Stansfield</surname><given-names>SH</given-names></name>, <name name-style="western"><surname>Dinnis</surname><given-names>DM</given-names></name>, <name name-style="western"><surname>Racher</surname><given-names>AJ</given-names></name>, <name name-style="western"><surname>Birch</surname><given-names>JR</given-names></name>, <etal>et al</etal>. (<year>2005</year>) <article-title>On the optimal ratio of heavy to light chain genes for efficient recombinant antibody production by CHO cells</article-title>. <source>Biotechnology Progress</source> <volume>21</volume>: <fpage>122</fpage>–<lpage>133</lpage>.</mixed-citation>
+</ref>
+<ref id="pone.0082100-Tornoe1"><label>8</label>
+<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Tornoe</surname><given-names>J</given-names></name>, <name name-style="western"><surname>Kusk</surname><given-names>P</given-names></name>, <name name-style="western"><surname>Johansen</surname><given-names>TE</given-names></name>, <name name-style="western"><surname>Jensen</surname><given-names>PR</given-names></name> (<year>2002</year>) <article-title>Generation of a synthetic mammalian promoter library by modification of sequences spacing transcription factor binding sites</article-title>. <source>Gene</source> <volume>297</volume>: <fpage>21</fpage>–<lpage>32</lpage>.</mixed-citation>
+</ref>
+<ref id="pone.0082100-Yahata1"><label>9</label>
+<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Yahata</surname><given-names>K</given-names></name>, <name name-style="western"><surname>Kishine</surname><given-names>H</given-names></name>, <name name-style="western"><surname>Sone</surname><given-names>T</given-names></name>, <name name-style="western"><surname>Sasaki</surname><given-names>Y</given-names></name>, <name name-style="western"><surname>Hotta</surname><given-names>J</given-names></name>, <etal>et al</etal>. (<year>2005</year>) <article-title>Multi-gene Gateway clone design for expression of multiple heterologous genes in living cells: Conditional gene expression at near physiological levels</article-title>. <source>Journal Of Biotechnology</source> <volume>118</volume>: <fpage>123</fpage>–<lpage>134</lpage>.</mixed-citation>
+</ref>
+<ref id="pone.0082100-Yang1"><label>10</label>
+<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Yang</surname><given-names>YS</given-names></name>, <name name-style="western"><surname>Mariati, Ho</surname><given-names>SCL</given-names></name>, <name name-style="western"><surname>Yap</surname><given-names>MGS</given-names></name> (<year>2009</year>) <article-title>Mutated Polyadenylation Signals for Controlling Expression Levels of Multiple Genes in Mammalian Cells</article-title>. <source>Biotechnology And Bioengineering</source> <volume>102</volume>: <fpage>1152</fpage>–<lpage>1160</lpage>.</mixed-citation>
+</ref>
+<ref id="pone.0082100-Fallot1"><label>11</label>
+<mixed-citation publication-type="other" xlink:type="simple">Fallot S, Ben Naya R, Hieblot C, Mondon P, Lacazette E, <etal>et al</etal>.. (2009) Alternative-splicing-based bicistronic vectors for ratio-controlled protein expression and application to recombinant antibody production. Nucleic Acids Research <volume>37</volume>..</mixed-citation>
+</ref>
+<ref id="pone.0082100-Chusainow1"><label>12</label>
+<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Chusainow</surname><given-names>J</given-names></name>, <name name-style="western"><surname>Yang</surname><given-names>YS</given-names></name>, <name name-style="western"><surname>Yeo</surname><given-names>JH</given-names></name>, <name name-style="western"><surname>Toh</surname><given-names>PC</given-names></name>, <name name-style="western"><surname>Asvadi</surname><given-names>P</given-names></name>, <etal>et al</etal>. (<year>2009</year>) <article-title>A study of monoclonal antibody-producing CHO cell lines: what makes a stable high producer?</article-title> <source>Biotechnol Bioeng</source> <volume>102</volume>: <fpage>1182</fpage>–<lpage>1196</lpage>.</mixed-citation>
+</ref>
+<ref id="pone.0082100-Ho1"><label>13</label>
+<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Ho</surname><given-names>SCL</given-names></name>, <name name-style="western"><surname>Bardor</surname><given-names>M</given-names></name>, <name name-style="western"><surname>Feng</surname><given-names>HT</given-names></name>, <name name-style="western"><surname>Mariati, Tong</surname><given-names>YW</given-names></name>, <etal>et al</etal>. (<year>2012</year>) <article-title>IRES-mediated Tricistronic vectors for enhancing generation of high monoclonal antibody expressing CHO cell lines</article-title>. <source>Journal Of Biotechnology</source> <volume>157</volume>: <fpage>130</fpage>–<lpage>139</lpage>.</mixed-citation>
+</ref>
+<ref id="pone.0082100-Lee1"><label>14</label>
+<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Lee</surname><given-names>CJ</given-names></name>, <name name-style="western"><surname>Seth</surname><given-names>G</given-names></name>, <name name-style="western"><surname>Tsukuda</surname><given-names>J</given-names></name>, <name name-style="western"><surname>Hamilton</surname><given-names>RW</given-names></name> (<year>2009</year>) <article-title>A clone screening method using mRNA levels to determine specific productivity and product quality for monoclonal antibodies</article-title>. <source>Biotechnology And Bioengineering</source> <volume>102</volume>: <fpage>1107</fpage>–<lpage>1118</lpage>.</mixed-citation>
+</ref>
+<ref id="pone.0082100-Eszterhas1"><label>15</label>
+<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Eszterhas</surname><given-names>SK</given-names></name>, <name name-style="western"><surname>Bouhassira</surname><given-names>EE</given-names></name>, <name name-style="western"><surname>Martin</surname><given-names>DIK</given-names></name>, <name name-style="western"><surname>Fiering</surname><given-names>S</given-names></name> (<year>2002</year>) <article-title>Transcriptional interference by independently regulated genes occurs in any relative arrangement of the genes and is influenced by chromosomal integration position</article-title>. <source>Molecular And Cellular Biology</source> <volume>22</volume>: <fpage>469</fpage>–<lpage>479</lpage>.</mixed-citation>
+</ref>
+<ref id="pone.0082100-deFelipe1"><label>16</label>
+<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>de Felipe</surname><given-names>P</given-names></name>, <name name-style="western"><surname>Luke</surname><given-names>GA</given-names></name>, <name name-style="western"><surname>Hughes</surname><given-names>LE</given-names></name>, <name name-style="western"><surname>Gani</surname><given-names>D</given-names></name>, <name name-style="western"><surname>Halpin</surname><given-names>C</given-names></name>, <etal>et al</etal>. (<year>2006</year>) <article-title>E unum pluribus: multiple proteins from a self-processing polyprotein</article-title>. <source>Trends in Biotechnology</source> <volume>24</volume>: <fpage>68</fpage>–<lpage>75</lpage>.</mixed-citation>
+</ref>
+<ref id="pone.0082100-Ho2"><label>17</label>
+<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Ho</surname><given-names>SCL</given-names></name>, <name name-style="western"><surname>Bardor</surname><given-names>M</given-names></name>, <name name-style="western"><surname>Li</surname><given-names>B</given-names></name>, <name name-style="western"><surname>Lee</surname><given-names>JJ</given-names></name>, <name name-style="western"><surname>Song</surname><given-names>ZW</given-names></name>, <etal>et al</etal>. (<year>2013</year>) <article-title>Comparison of internal ribosome entry site (IRES) and furin-2A (F2A) for monoclonal antibody expression level and quality in CHO cells</article-title>. <source>Plos One</source> <volume>8</volume>: <fpage>e63247</fpage>.</mixed-citation>
+</ref>
+<ref id="pone.0082100-DeFelipe1"><label>18</label>
+<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>De Felipe</surname><given-names>P</given-names></name>, <name name-style="western"><surname>Luke</surname><given-names>GA</given-names></name>, <name name-style="western"><surname>Brown</surname><given-names>JD</given-names></name>, <name name-style="western"><surname>Ryan</surname><given-names>MD</given-names></name> (<year>2010</year>) <article-title>Inhibition of 2A-mediated ‘cleavage’ of certain artificial polyproteins bearing N-terminal signal sequences</article-title>. <source>Biotechnology Journal</source> <volume>5</volume>: <fpage>213</fpage>–<lpage>223</lpage>.</mixed-citation>
+</ref>
+<ref id="pone.0082100-Kim1"><label>19</label>
+<mixed-citation publication-type="other" xlink:type="simple">Kim JH, Lee SR, Li LH, Park HJ, Park JH, <etal>et al</etal>.. (2011) High Cleavage Efficiency of a 2A Peptide Derived from Porcine Teschovirus-1 in Human Cell Lines, Zebrafish and Mice. Plos One <volume>6</volume>..</mixed-citation>
+</ref>
+<ref id="pone.0082100-Chan1"><label>20</label>
+<mixed-citation publication-type="other" xlink:type="simple">Chan HY, Sivakamasundari V, Xing X, Kraus P, Yap SP, <etal>et al</etal>.. (2011) Comparison of IRES and F2A-based locus-specific multicistronic expression in stable mouse lines. PLoS One <volume>6</volume>..</mixed-citation>
+</ref>
+<ref id="pone.0082100-MartinezSalas1"><label>21</label>
+<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Martinez-Salas</surname><given-names>E</given-names></name> (<year>1999</year>) <article-title>Internal ribosome entry site biology and its use in expression vectors</article-title>. <source>Curr Opin Biotechnol</source> <volume>10</volume>: <fpage>458</fpage>–<lpage>464</lpage>.</mixed-citation>
+</ref>
+<ref id="pone.0082100-Mountford1"><label>22</label>
+<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Mountford</surname><given-names>PS</given-names></name>, <name name-style="western"><surname>Smith</surname><given-names>AG</given-names></name> (<year>1995</year>) <article-title>Internal Ribosome Entry Sites And Dicistronic Rnas In Mammalian Transgenesis</article-title>. <source>Trends In Genetics</source> <volume>11</volume>: <fpage>179</fpage>–<lpage>184</lpage>.</mixed-citation>
+</ref>
+<ref id="pone.0082100-Hellen1"><label>23</label>
+<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Hellen</surname><given-names>CUT</given-names></name>, <name name-style="western"><surname>Sarnow</surname><given-names>P</given-names></name> (<year>2001</year>) <article-title>Internal ribosome entry sites in eukaryotic mRNA molecules</article-title>. <source>Genes &amp; Development</source> <volume>15</volume>: <fpage>1593</fpage>–<lpage>1612</lpage>.</mixed-citation>
+</ref>
+<ref id="pone.0082100-Sasaki1"><label>24</label>
+<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Sasaki</surname><given-names>Y</given-names></name>, <name name-style="western"><surname>Sone</surname><given-names>T</given-names></name>, <name name-style="western"><surname>Yahata</surname><given-names>K</given-names></name>, <name name-style="western"><surname>Kishine</surname><given-names>H</given-names></name>, <name name-style="western"><surname>Hotta</surname><given-names>J</given-names></name>, <etal>et al</etal>. (<year>2008</year>) <article-title>Multi-gene gateway clone design for expression of multiple heterologous genes in living cells: Eukaryotic clones containing two and three ORF multi-gene cassettes expressed from a single promoter</article-title>. <source>Journal of Biotechnology</source> <volume>136</volume>: <fpage>103</fpage>–<lpage>112</lpage>.</mixed-citation>
+</ref>
+<ref id="pone.0082100-Liu1"><label>25</label>
+<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Liu</surname><given-names>XD</given-names></name>, <name name-style="western"><surname>Constantinescu</surname><given-names>SN</given-names></name>, <name name-style="western"><surname>Sun</surname><given-names>Y</given-names></name>, <name name-style="western"><surname>Bogan</surname><given-names>JS</given-names></name>, <name name-style="western"><surname>Hirsch</surname><given-names>D</given-names></name>, <etal>et al</etal>. (<year>2000</year>) <article-title>Generation of mammalian cells stably expressing multiple genes at predetermined levels</article-title>. <source>Analytical Biochemistry</source> <volume>280</volume>: <fpage>20</fpage>–<lpage>28</lpage>.</mixed-citation>
+</ref>
+<ref id="pone.0082100-Bochkov1"><label>26</label>
+<mixed-citation publication-type="other" xlink:type="simple">Bochkov YA, Palmenberg AC (2006) Translational efficiency of EMCV IRES in bicistronic vectors is dependent upon IRES sequence and gene location. Biotechniques <volume>41</volume>: : 283–284, 286, 288 passim.</mixed-citation>
+</ref>
+<ref id="pone.0082100-Rees1"><label>27</label>
+<mixed-citation publication-type="other" xlink:type="simple">Rees S, Coote J, Stables J, Goodson S, Harris S, <etal>et al</etal>.. (1996) Bicistronic vector for the creation of stable mammalian cell lines that predisposes all antibiotic-resistant cells to express recombinant protein. Biotechniques <volume>20</volume>: : 102–104, 106, 108–110.</mixed-citation>
+</ref>
+<ref id="pone.0082100-Li1"><label>28</label>
+<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Li</surname><given-names>JD</given-names></name>, <name name-style="western"><surname>Zhang</surname><given-names>CC</given-names></name>, <name name-style="western"><surname>Jostock</surname><given-names>T</given-names></name>, <name name-style="western"><surname>Dubel</surname><given-names>S</given-names></name> (<year>2007</year>) <article-title>Analysis of IgG heavy chain to light chain ratio with mutant Encephalomyocarditis virus internal ribosome entry site</article-title>. <source>Protein Engineering Design &amp; Selection</source> <volume>20</volume>: <fpage>491</fpage>–<lpage>496</lpage>.</mixed-citation>
+</ref>
+<ref id="pone.0082100-Borman1"><label>29</label>
+<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Borman</surname><given-names>AM</given-names></name>, <name name-style="western"><surname>Bailly</surname><given-names>JL</given-names></name>, <name name-style="western"><surname>Girard</surname><given-names>M</given-names></name>, <name name-style="western"><surname>Kean</surname><given-names>KM</given-names></name> (<year>1995</year>) <article-title>Picornavirus internal ribosome entry segments: Comparison of translation efficiency and the requirements for optimal internal initiation of translation in vitro</article-title>. <source>Nucleic Acids Research</source> <volume>23</volume>: <fpage>3656</fpage>–<lpage>3663</lpage>.</mixed-citation>
+</ref>
+<ref id="pone.0082100-Borman2"><label>30</label>
+<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Borman</surname><given-names>AM</given-names></name>, <name name-style="western"><surname>LeMercier</surname><given-names>P</given-names></name>, <name name-style="western"><surname>Girard</surname><given-names>M</given-names></name>, <name name-style="western"><surname>Kean</surname><given-names>KM</given-names></name> (<year>1997</year>) <article-title>Comparison of picornaviral IRES-driven internal initiation of translation in cultured cells of different origins</article-title>. <source>Nucleic Acids Research</source> <volume>25</volume>: <fpage>925</fpage>–<lpage>932</lpage>.</mixed-citation>
+</ref>
+<ref id="pone.0082100-Duke1"><label>31</label>
+<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Duke</surname><given-names>GM</given-names></name>, <name name-style="western"><surname>Hoffman</surname><given-names>MA</given-names></name>, <name name-style="western"><surname>Palmenberg</surname><given-names>AC</given-names></name> (<year>1992</year>) <article-title>Sequence and structural elements that contribute to efficient encephalomyocarditis virus-RNA translation</article-title>. <source>Journal of Virology</source> <volume>66</volume>: <fpage>1602</fpage>–<lpage>1609</lpage>.</mixed-citation>
+</ref>
+<ref id="pone.0082100-Davies1"><label>32</label>
+<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Davies</surname><given-names>MV</given-names></name>, <name name-style="western"><surname>Kaufman</surname><given-names>RJ</given-names></name> (<year>1992</year>) <article-title>The Sequence Context Of The Initiation Codon In The Encephalomyocarditis Virus Leader Modulates Efficiency Of Internal Translation Initiation</article-title>. <source>Journal of Virology</source> <volume>66</volume>: <fpage>1924</fpage>–<lpage>1932</lpage>.</mixed-citation>
+</ref>
+<ref id="pone.0082100-Kaminski1"><label>33</label>
+<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Kaminski</surname><given-names>A</given-names></name>, <name name-style="western"><surname>Belsham</surname><given-names>GJ</given-names></name>, <name name-style="western"><surname>Jackson</surname><given-names>RJ</given-names></name> (<year>1994</year>) <article-title>Translation Of Encephalomyocarditis Virus-Rna - Parameters Influencing The Selection Of The Internal Initiation Site</article-title>. <source>Embo Journal</source> <volume>13</volume>: <fpage>1673</fpage>–<lpage>1681</lpage>.</mixed-citation>
+</ref>
+<ref id="pone.0082100-Kozak1"><label>34</label>
+<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Kozak</surname><given-names>M</given-names></name> (<year>1989</year>) <article-title>Context Effects And Inefficient Initiation At Non-Aug Codons In Eukaryotic Cell-Free Translation Systems</article-title>. <source>Molecular And Cellular Biology</source> <volume>9</volume>: <fpage>5073</fpage>–<lpage>5080</lpage>.</mixed-citation>
+</ref>
+<ref id="pone.0082100-Mehdi1"><label>35</label>
+<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Mehdi</surname><given-names>H</given-names></name>, <name name-style="western"><surname>Ono</surname><given-names>E</given-names></name>, <name name-style="western"><surname>Gupta</surname><given-names>KC</given-names></name> (<year>1990</year>) <article-title>Initiation of translation of at CUG, GUG, and ACG codons in mammalian cells</article-title>. <source>Gene</source> <volume>91</volume>: <fpage>173</fpage>–<lpage>178</lpage>.</mixed-citation>
+</ref>
+<ref id="pone.0082100-Peabody1"><label>36</label>
+<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Peabody</surname><given-names>DS</given-names></name> (<year>1989</year>) <article-title>Translation initiation at non-AUG triplets in mammalian cells</article-title>. <source>Journal Of Biological Chemistry</source> <volume>264</volume>: <fpage>5031</fpage>–<lpage>5035</lpage>.</mixed-citation>
+</ref>
+<ref id="pone.0082100-Ho3"><label>37</label>
+<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Ho</surname><given-names>SCL</given-names></name>, <name name-style="western"><surname>Koh</surname><given-names>EYC</given-names></name>, <name name-style="western"><surname>van Beers</surname><given-names>M</given-names></name>, <name name-style="western"><surname>Mueller</surname><given-names>M</given-names></name>, <name name-style="western"><surname>Wan</surname><given-names>C</given-names></name>, <etal>et al</etal>. (<year>2013</year>) <article-title>Control of IgG LC:HC ratio in stably transfected CHO cells and study of the impact on expression, aggregation, glycosylation and conformation stability</article-title>. <source>Journal Of Biotechnology</source> <volume>165</volume>: <fpage>157</fpage>–<lpage>166</lpage>.</mixed-citation>
+</ref>
+<ref id="pone.0082100-deQuinto1"><label>38</label>
+<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>de Quinto</surname><given-names>SL</given-names></name>, <name name-style="western"><surname>Martinez-Salas</surname><given-names>E</given-names></name> (<year>1998</year>) <article-title>Parameters in influencing translational efficiency in aphthovirus IRES-based bicistronic expression vectors</article-title>. <source>Gene</source> <volume>217</volume>: <fpage>51</fpage>–<lpage>56</lpage>.</mixed-citation>
+</ref>
+<ref id="pone.0082100-Bouabe1"><label>39</label>
+<mixed-citation publication-type="other" xlink:type="simple">Bouabe H, Fassler R, Heesemann J (2008) Improvement of reporter activity by IRES-mediated polycistronic reporter system. Nucleic Acids Research <volume>36</volume>..</mixed-citation>
+</ref>
+<ref id="pone.0082100-Hennecke1"><label>40</label>
+<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Hennecke</surname><given-names>M</given-names></name>, <name name-style="western"><surname>Kwissa</surname><given-names>M</given-names></name>, <name name-style="western"><surname>Metzger</surname><given-names>K</given-names></name>, <name name-style="western"><surname>Oumard</surname><given-names>A</given-names></name>, <name name-style="western"><surname>Kroger</surname><given-names>A</given-names></name>, <etal>et al</etal>. (<year>2001</year>) <article-title>Composition and arrangement of genes define the strength of IRES-driven translation in bicistronic mRNAs</article-title>. <source>Nucleic Acids Res</source> <volume>29</volume>: <fpage>3327</fpage>–<lpage>3334</lpage>.</mixed-citation>
+</ref>
+<ref id="pone.0082100-Kaminski2"><label>41</label>
+<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Kaminski</surname><given-names>A</given-names></name>, <name name-style="western"><surname>Howell</surname><given-names>MT</given-names></name>, <name name-style="western"><surname>Jackson</surname><given-names>RJ</given-names></name> (<year>1990</year>) <article-title>Initiation of encephalomyocarditis virus-RNA translation-The authentic initiation site is not selected by a scanning mechanism</article-title>. <source>Embo Journal</source> <volume>9</volume>: <fpage>3753</fpage>–<lpage>3759</lpage>.</mixed-citation>
+</ref>
+<ref id="pone.0082100-Kaminski3"><label>42</label>
+<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Kaminski</surname><given-names>A</given-names></name>, <name name-style="western"><surname>Jackson</surname><given-names>RJ</given-names></name> (<year>1998</year>) <article-title>The polypyrimidine tract binding protein (PTB) requirement for internal initiation of translation of cardiovirus RNAs is conditional rather than absolute</article-title>. <source>RNA - A Publication of the RNA Society</source> <volume>4</volume>: <fpage>626</fpage>–<lpage>638</lpage>.</mixed-citation>
+</ref>
+<ref id="pone.0082100-Davies2"><label>43</label>
+<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Davies</surname><given-names>SL</given-names></name>, <name name-style="western"><surname>O'Callaghan</surname><given-names>PM</given-names></name>, <name name-style="western"><surname>McLeod</surname><given-names>J</given-names></name>, <name name-style="western"><surname>Pybus</surname><given-names>LP</given-names></name>, <name name-style="western"><surname>Sung</surname><given-names>YH</given-names></name>, <etal>et al</etal>. (<year>2011</year>) <article-title>Impact of gene vector design on the control of recombinant monoclonal antibody production by chinese hamster ovary cells</article-title>. <source>Biotechnology Progress</source> <volume>27</volume>: <fpage>1689</fpage>–<lpage>1699</lpage>.</mixed-citation>
+</ref>
+<ref id="pone.0082100-Gonzalez1"><label>44</label>
+<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Gonzalez</surname><given-names>R</given-names></name>, <name name-style="western"><surname>Andrews</surname><given-names>BA</given-names></name>, <name name-style="western"><surname>Asenjo</surname><given-names>JA</given-names></name> (<year>2002</year>) <article-title>Kinetic model of BiP- and PDI-mediated protein folding and assembly</article-title>. <source>Journal Of Theoretical Biology</source> <volume>214</volume>: <fpage>529</fpage>–<lpage>537</lpage>.</mixed-citation>
+</ref>
+</ref-list></back>
+</article>

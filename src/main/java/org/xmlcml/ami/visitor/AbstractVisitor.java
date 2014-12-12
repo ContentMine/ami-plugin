@@ -54,6 +54,8 @@ public abstract class AbstractVisitor {
 
 	private AbstractSearcher searcher;
 
+	private File resultsFile;
+
 	// ============== VISITATION ========================
 	
 	public void visit(AbstractVisitable visitable) {
@@ -421,9 +423,13 @@ public abstract class AbstractVisitor {
 		}
 	}
 
+	public File getResultsFile() {
+		return resultsFile;
+	}
+	
 	private void createAndWriteOutputFiles() {
 		File outputDir = getOrCreateVisitorOutput().getOutputDirectoryFile();
-		File resultsFile = new File(outputDir, RESULTS_XML);
+		resultsFile = new File(outputDir, RESULTS_XML);
 		List<File> files = currentVisitable.getFileList();
 		if (resultsElement == null) {
 			LOG.error("***WARNING results element is null");
@@ -453,6 +459,7 @@ public abstract class AbstractVisitor {
 	private void writeFile(String text, File ff) {
 		try {
 			FileUtils.writeStringToFile(ff, text);
+			LOG.debug("WROTE "+ff);
 		} catch (IOException e) {
 			LOG.error("Cannot create file: " + ff);
 		}

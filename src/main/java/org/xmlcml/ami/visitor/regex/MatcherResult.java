@@ -5,8 +5,10 @@ import java.util.List;
 import java.util.regex.Matcher;
 
 import nu.xom.Element;
+import nu.xom.IllegalNameException;
 
 import org.apache.log4j.Logger;
+import org.xmlcml.ami.result.HitsElement;
 
 /** holds immediate result of match.
  * 
@@ -96,9 +98,13 @@ public class MatcherResult {
 
 	public Element createElement() {
 		ensureNamedGroupListList();
-		Element hits = new Element("hits");
+		Element hits = new HitsElement();
 		for (NamedGroupList namedGroupList : namedGroupListList) {
-			hits.appendChild(namedGroupList.createElement());
+			try {
+				hits.appendChild(namedGroupList.createElement());
+			} catch (IllegalNameException e) {
+				LOG.error("Illegal attribute name "+e);
+			}
 		}
 		return hits;
 	}

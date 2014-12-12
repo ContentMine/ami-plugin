@@ -1,0 +1,391 @@
+<article xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" article-type="research-article" dtd-version="3.0" xml:lang="en">
+<front>
+<journal-meta>
+<journal-id journal-id-type="nlm-ta">PLoS ONE</journal-id>
+<journal-id journal-id-type="publisher-id">plos</journal-id>
+<journal-id journal-id-type="pmc">plosone</journal-id><journal-title-group>
+<journal-title xml:lang="en">PLoS ONE</journal-title></journal-title-group>
+<issn pub-type="epub">1932-6203</issn>
+<publisher>
+<publisher-name>Public Library of Science</publisher-name>
+<publisher-loc>San Francisco, USA</publisher-loc></publisher>
+</journal-meta>
+<article-meta>
+<article-id pub-id-type="publisher-id">PONE-D-13-27198</article-id>
+<article-id pub-id-type="doi">10.1371/journal.pone.0082037</article-id>
+<article-categories><subj-group subj-group-type="heading"><subject>Research Article</subject></subj-group></article-categories>
+<title-group>
+<article-title>Nephrogenic Systemic Fibrosis in Denmark– A Nationwide Investigation</article-title>
+<alt-title alt-title-type="running-head">Nephrogenic Systemic Fibrosis in Denmark</alt-title>
+</title-group>
+<contrib-group>
+<contrib contrib-type="author" xlink:type="simple"><name name-style="western"><surname>Elmholdt</surname><given-names>Tina R.</given-names></name><xref ref-type="aff" rid="aff1"><sup>1</sup></xref><xref ref-type="aff" rid="aff2"><sup>2</sup></xref><xref ref-type="corresp" rid="cor1"><sup>*</sup></xref></contrib>
+<contrib contrib-type="author" xlink:type="simple"><name name-style="western"><surname>Olesen</surname><given-names>Anne B. B.</given-names></name><xref ref-type="aff" rid="aff2"><sup>2</sup></xref></contrib>
+<contrib contrib-type="author" xlink:type="simple"><name name-style="western"><surname>Jørgensen</surname><given-names>Bettina</given-names></name><xref ref-type="aff" rid="aff3"><sup>3</sup></xref></contrib>
+<contrib contrib-type="author" xlink:type="simple"><name name-style="western"><surname>Kvist</surname><given-names>Stinne</given-names></name><xref ref-type="aff" rid="aff3"><sup>3</sup></xref></contrib>
+<contrib contrib-type="author" xlink:type="simple"><name name-style="western"><surname>Skov</surname><given-names>Lone</given-names></name><xref ref-type="aff" rid="aff4"><sup>4</sup></xref></contrib>
+<contrib contrib-type="author" xlink:type="simple"><name name-style="western"><surname>Thomsen</surname><given-names>Henrik S.</given-names></name><xref ref-type="aff" rid="aff5"><sup>5</sup></xref></contrib>
+<contrib contrib-type="author" xlink:type="simple"><name name-style="western"><surname>Marckmann</surname><given-names>Peter</given-names></name><xref ref-type="aff" rid="aff6"><sup>6</sup></xref><xref ref-type="aff" rid="aff7"><sup>7</sup></xref></contrib>
+<contrib contrib-type="author" xlink:type="simple"><name name-style="western"><surname>Pedersen</surname><given-names>Michael</given-names></name><xref ref-type="aff" rid="aff1"><sup>1</sup></xref><xref ref-type="aff" rid="aff8"><sup>8</sup></xref></contrib>
+</contrib-group>
+<aff id="aff1"><label>1</label><addr-line>Institute of Clinical Medicine, Aarhus University Hospital, Aarhus University, Aarhus, Denmark</addr-line></aff>
+<aff id="aff2"><label>2</label><addr-line>Department of Dermatology, Aarhus University Hospital, Aarhus, Denmark</addr-line></aff>
+<aff id="aff3"><label>3</label><addr-line>Department of Nephrology, Aarhus University Hospital, Aarhus, Denmark</addr-line></aff>
+<aff id="aff4"><label>4</label><addr-line>Department of Dermato-Allergology, Copenhagen University Hospital, Gentofte, Denmark</addr-line></aff>
+<aff id="aff5"><label>5</label><addr-line>Department of Diagnostic Radiology, Copenhagen University Hospital, Herlev, Denmark</addr-line></aff>
+<aff id="aff6"><label>6</label><addr-line>Department of Internal Medicine, Copenhagen University Hospital, Roskilde, Denmark</addr-line></aff>
+<aff id="aff7"><label>7</label><addr-line>Department of Nephrology, Odense University Hospital, Odense, Denmark</addr-line></aff>
+<aff id="aff8"><label>8</label><addr-line>MR Research Centre, Aarhus University, Aarhus, Denmark</addr-line></aff>
+<contrib-group>
+<contrib contrib-type="editor" xlink:type="simple"><name name-style="western"><surname>Tian</surname><given-names>Jie</given-names></name>
+<role>Editor</role>
+<xref ref-type="aff" rid="edit1" /></contrib>
+</contrib-group>
+<aff id="edit1"><addr-line>Institute of Automation, Chinese Academy of Sciences, China</addr-line></aff>
+<author-notes>
+<corresp id="cor1">* E-mail: <email xlink:type="simple">tina.elmholdt@mr.au.dk</email></corresp>
+<fn fn-type="conflict"><p>The authors have declared that no competing interests exist.</p></fn>
+<fn fn-type="con"><p>Conceived and designed the experiments: TRE PM MP. Performed the experiments: TRE ABO BJ SK LS PM. Analyzed the data: TRE. Contributed reagents/materials/analysis tools: TRE ABO LS HST PM MP. Wrote the paper: TRE ABO BJ SK LS HST PM MP.</p></fn>
+</author-notes>
+<pub-date pub-type="collection"><year>2013</year></pub-date>
+<pub-date pub-type="epub"><day>9</day><month>12</month><year>2013</year></pub-date>
+<volume>8</volume>
+<issue>12</issue>
+<elocation-id>e82037</elocation-id>
+<history>
+<date date-type="received"><day>1</day><month>7</month><year>2013</year></date>
+<date date-type="accepted"><day>20</day><month>10</month><year>2013</year></date>
+</history>
+<permissions>
+<copyright-year>2013</copyright-year>
+<copyright-holder>Elmholdt et al</copyright-holder><license xlink:href="http://creativecommons.org/licenses/by/3.0/" xlink:type="simple"><license-p>This is an open-access article distributed under the terms of the <ext-link ext-link-type="uri" xlink:href="http://creativecommons.org/licenses/by/3.0/" xlink:type="simple">Creative Commons Attribution License</ext-link>, which permits unrestricted use, distribution, and reproduction in any medium, provided the original author and source are credited.</license-p></license></permissions>
+<abstract><sec>
+<title>Background</title>
+<p>Nephrogenic systemic fibrosis is a debilitating and painful disorder with an increased stimulation of the connective tissue in the skin and systemic tissues. The disease is associated with exposure to gadolinium-based contrast agent used in magnetic resonance imaging in patients with renal impairment.</p>
+</sec><sec>
+<title>Methods</title>
+<p>The prevalence of nephrogenic systemic fibrosis has so far never been determined at a national level. In 2009, Denmark was the first country to design a guideline for the tracing of nephrogenic systemic fibrosis patients. The aim of this paper is to communicate the main findings of this quest.</p>
+</sec><sec>
+<title>Results</title>
+<p>The outcome of the nationwide investigation revealed that Denmark had 65 patients with nephrogenic systemic fibrosis and thereby the highest prevalence of nephrogenic systemic fibrosis worldwide with 65 per 5.6 million inhabitants, or 12 per million.</p>
+</sec><sec>
+<title>Conclusions</title>
+<p>The nationwide investigation in Denmark revealed the highest prevalence of NSF worldwide. This may be rooted in a high level of awareness of NSF both among doctors, politicians and, not least, the media, combined with the fact that a nationwide NSF investigation was initiated.</p>
+</sec></abstract>
+<funding-group><funding-statement>The authors have no support or funding to report.</funding-statement></funding-group><counts><page-count count="6" /></counts></article-meta>
+</front>
+<body><sec id="s1">
+<title>Background</title>
+<p>Nephrogenic systemic fibrosis (NSF) occurs in some patients with renal impairment following exposure to gadolinium-based contrast agent (GBCA); this serious adverse event was first identified in 1997 <xref ref-type="bibr" rid="pone.0082037-From1">[1]</xref> and later published in 2000 <xref ref-type="bibr" rid="pone.0082037-Cowper1">[2]</xref>. This disease was first named nephrogenic fibrosing dermopathy <xref ref-type="bibr" rid="pone.0082037-Cowper2">[3]</xref>, but was later renamed NSF due to its systemic involvement <xref ref-type="bibr" rid="pone.0082037-Ting1">[4]</xref>–<xref ref-type="bibr" rid="pone.0082037-Sanyal1">[8]</xref>.</p>
+<sec id="s1a">
+<title>MRI and GBCA practice in Denmark before 2006</title>
+<p>Magnetic resonance imaging (MRI) was introduced in Denmark in 1985 and the first MRI contrast agent Magnevist® was approved by the Danish Medical Agency (DMA) in 1989. Around 1996 many believed that gadolinium-based contrast agents (GBCAs) were non-nephrotoxic and it was recommended to switch from enhanced computer tomography (CT) to enhanced MRI in patients suffering from renal dysfunction, particularly for angiographic evaluation. No evidence has been produced to the effect that Danish radiologists should use GBCAs differently from radiologists in the rest of the Western world, where doses traditionally lie in the range 0.1–0.3 mmol/kg <xref ref-type="bibr" rid="pone.0082037-Collidge1">[9]</xref>.</p>
+</sec><sec id="s1b">
+<title>Course of events leading up to the nationwide investigation in Denmark</title>
+<p>In March 2006, 20 patients suspected of having NSF were reported to the DMA from the Copenhagen University Hospital, Herlev. In August 2006, the same institution published 13 biopsy-confirmed NSF cases <xref ref-type="bibr" rid="pone.0082037-Marckmann1">[10]</xref>. Due to the growing number of reports of NSF cases and the hypothesis that GBCA might serve as a potential trigger of NSF <xref ref-type="bibr" rid="pone.0082037-Grobner1">[11]</xref>, the European Medicines Agency (EMA) in February 2007 recommended caution or avoidance of Omniscan® in patients with severe renal failure, and the EMA issued a general warning regarding the other GBCAs.</p>
+<p>In Denmark, the issue was intensively covered by the media, and the Ministry of the Interior and Health (MIH) therefore requested all hospitals in Denmark to notify instances of NSF to the DMA. In September 2008, a memorandum was published by the DMA stating that the number of NSF patients in Denmark was around 30; primarily based on the cases reported from Herlev Hospital. In 2009, new cases of NSF were reported from the Aarhus University Hospital, Skejby. This called for a more methodical search. Thus, the Danish Society of Nephrology took the initiative to create a guideline for a nationwide investigation of the prevalence of NSF in Denmark. The initiative specifically targeted patients with renal impairment exposed to GBCAs from 1997 to 2010. The investigatory guideline was distributed to all Danish nephrology departments <xref ref-type="bibr" rid="pone.0082037-http1">[12]</xref>, and each department had to report their findings to the DMA.</p>
+<p>This paper describes the creation and outcomes of the first nationwide investigation of NSF worldwide and it emphasises the pivotal importance of clinical awareness and active systematic tracing.</p>
+</sec></sec><sec id="s2" sec-type="methods">
+<title>Methods</title>
+<sec id="s2a">
+<title>The guideline created for the nationwide investigation</title>
+<sec id="s2a1">
+<title>Ethical statement</title>
+<p>This study did not need approval by the institutional board as the data already was part of a public report and anonymous. The committee established to create the guideline consisted primarily of specialists from nephrological or dermatological departments. The guideline was based on national and international NSF experiences and listed the clinical symptoms and signs of NSF <xref ref-type="bibr" rid="pone.0082037-Marckmann2">[13]</xref>. The guideline was drawn up to trace diagnoses of chronic, acute or terminal kidney insufficiency in which MRI contrast agents had been used. Only living patients were included because a clinical examination was essential to diagnose NSF. However, those NSF patients who had already been identified but who had died before the investigation started were included in the final report. The guideline recommended that each site of investigation appointed a clinical coordinator.</p>
+</sec></sec><sec id="s2b">
+<title>The NSF diagnosis and challenges</title>
+<p>In case of suspected NSF, the patient was referred to a doctor experienced in NSF who undertook a clinical examination <xref ref-type="bibr" rid="pone.0082037-Canavese1">[14]</xref>. The clinical examination included a thorough evaluation of the skin (<xref ref-type="fig" rid="pone-0082037-g001">Figure 1</xref>). Some patients were also assessed with a modified Rodnan skin score <xref ref-type="bibr" rid="pone.0082037-Furst1">[15]</xref> in order to grade the severity of the fibrosis, and blood tests were drawn to exclude diseases mimicking NSF. Deep punch biopsies were taken whenever clinical suspicion of NSF was raised. The patient was diagnosed with NSF if clinical and pathological observations were consistent with the established diagnostic criteria <xref ref-type="bibr" rid="pone.0082037-Cowper3">[16]</xref> <xref ref-type="bibr" rid="pone.0082037-Marckmann3">[17]</xref>. Notably, the diagnosis was challenged in some patients because they presented with late phase NSF <xref ref-type="bibr" rid="pone.0082037-Bangsgaard1">[18]</xref>.</p>
+<fig id="pone-0082037-g001" position="float" orientation="portrait"><object-id pub-id-type="doi">10.1371/journal.pone.0082037.g001</object-id><label>Figure 1</label><caption>
+<title>Clinical photos from nephrogenic systemic fibrosis patients.</title>
+<p>A: Tightness and hardness of the hands combined with joint contractures. B: Firm nodules establishing a cobblestone configuration. C: Tight and firm skin on lower legs.</p>
+</caption><graphic mimetype="image" xlink:href="info:doi/10.1371/journal.pone.0082037.g001" position="float" xlink:type="simple" orientation="portrait" /></fig></sec><sec id="s2c">
+<title>Data from the nationwide investigation</title>
+<p>The MIH and the DMA collected all the data from the nationwide investigation in a report which was published in September 2010 <xref ref-type="bibr" rid="pone.0082037-http2">[19]</xref>. These data included: name of hospital, GBCA(s), dosage(s), renal diagnosis, date of exposure and NSF diagnosis for each patient. Unfortunately, not all information was accessible in every case. Lack of data was mostly due to incomplete chart registering. We also asked the DMA for data regarding age, sex, status of dialysis before the triggering GBCA exposure, renal transplantation, alive or dead, the overall number of NSF patients registered in Denmark and Europe, and the overall purchase of GBCAs in Denmark in the period 1998–2011.</p>
+</sec></sec><sec id="s3">
+<title>Results</title>
+<sec id="s3a">
+<title>Characteristics of NSF patients identified</title>
+<p>A total of 65 patients were verified with a diagnosis of NSF <xref ref-type="bibr" rid="pone.0082037-In1">[20]</xref>; they were reported from 11 different hospitals. Thirty-seven were (57%) men and 28 (43%) women (<xref ref-type="table" rid="pone-0082037-t001">Table 1</xref>). The majority of these cases originated from Herlev and Skejby Hospital (n = 49). Their dialysis status before the triggering GBCA exposure and their renal diagnoses are described in <xref ref-type="table" rid="pone-0082037-t001">Table 1</xref>.The first NSF patient was identified in 2003 and the latest in 2010. Five of the NSF patients underwent kidney transplantation after the NSF diagnosis had been established with the following results: two of these patients experienced improvement of their NSF symptoms <xref ref-type="bibr" rid="pone.0082037-httponlinelibrarywileycomdoi101002dat20507pdf1">[21]</xref>, whereas one patient only experienced some improvement and two experienced no improvement. Three NSF patients were identified after the nationwide investigation was completed.</p>
+<table-wrap id="pone-0082037-t001" position="float" orientation="portrait"><object-id pub-id-type="doi">10.1371/journal.pone.0082037.t001</object-id><label>Table 1</label><caption>
+<title>Characteristics of the 65 NSF patients.</title>
+</caption><alternatives><graphic id="pone-0082037-t001-1" position="float" mimetype="image" xlink:href="info:doi/10.1371/journal.pone.0082037.t001" xlink:type="simple" orientation="portrait" />
+<table><colgroup span="1"><col align="left" span="1" /><col align="center" span="1" /><col align="center" span="1" /><col align="center" span="1" /></colgroup>
+<thead>
+<tr>
+<td align="left" rowspan="1" colspan="1">Sex and age</td>
+<td align="left" rowspan="1" colspan="1" />
+<td align="left" rowspan="1" colspan="1">Renal diagnosis of the NSF patients</td>
+<td align="left" rowspan="1" colspan="1" />
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left" rowspan="1" colspan="1">Male/female ratio</td>
+<td align="left" rowspan="1" colspan="1">1.3</td>
+<td align="left" rowspan="1" colspan="1">End stage renal disease</td>
+<td align="left" rowspan="1" colspan="1">24</td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1">Age, mean ± SD (range) years, male</td>
+<td align="left" rowspan="1" colspan="1">58±12 (30–78)</td>
+<td align="left" rowspan="1" colspan="1">Focal segmental glomerulosclerosis</td>
+<td align="left" rowspan="1" colspan="1">1</td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1">Age, mean ± SD (range) years, woman</td>
+<td align="left" rowspan="1" colspan="1">52±13 (22–81)</td>
+<td align="left" rowspan="1" colspan="1">Epimembranous glomerulonephritis</td>
+<td align="left" rowspan="1" colspan="1">1</td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1" />
+<td align="left" rowspan="1" colspan="1" />
+<td align="left" rowspan="1" colspan="1">Hypertensive nephropathy</td>
+<td align="left" rowspan="1" colspan="1">7</td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1"><bold>Hospitals</bold></td>
+<td align="left" rowspan="1" colspan="1" />
+<td align="left" rowspan="1" colspan="1">IgA nephritis</td>
+<td align="left" rowspan="1" colspan="1">2</td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1">Herlev Hospital</td>
+<td align="left" rowspan="1" colspan="1">31/65 (48%)</td>
+<td align="left" rowspan="1" colspan="1">Chronic glomerulonephritis</td>
+<td align="left" rowspan="1" colspan="1">4</td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1">Skejby Hospital</td>
+<td align="left" rowspan="1" colspan="1">13/65 (20%)</td>
+<td align="left" rowspan="1" colspan="1">Cirrhosis of the kidney</td>
+<td align="left" rowspan="1" colspan="1">4</td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1">Aalborg Hospital</td>
+<td align="left" rowspan="1" colspan="1">8/65(12.5%)</td>
+<td align="left" rowspan="1" colspan="1">Haemolytic-uremic syndrome</td>
+<td align="left" rowspan="1" colspan="1">2</td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1">Odense Hospital</td>
+<td align="left" rowspan="1" colspan="1">3/65 (4.5%)</td>
+<td align="left" rowspan="1" colspan="1">Polycystic kidney disease</td>
+<td align="left" rowspan="1" colspan="1">2</td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1">Aarhus and Skejby Hospital</td>
+<td align="left" rowspan="1" colspan="1">3/65 (4.5%)</td>
+<td align="left" rowspan="1" colspan="1">Chronic kidney disease</td>
+<td align="left" rowspan="1" colspan="1">3</td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1">Glostrup and Herlev Hospital</td>
+<td align="left" rowspan="1" colspan="1">2/65 (3%)</td>
+<td align="left" rowspan="1" colspan="1">Acute tubulointerstitial nephritis</td>
+<td align="left" rowspan="1" colspan="1">3</td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1">Svendborg and Odense Hospital</td>
+<td align="left" rowspan="1" colspan="1">1/65 (1.5%)</td>
+<td align="left" rowspan="1" colspan="1">Nephropatia diabetic</td>
+<td align="left" rowspan="1" colspan="1">5</td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1">Gentofte and Herlev Hospital</td>
+<td align="left" rowspan="1" colspan="1">1/65 (1.5%)</td>
+<td align="left" rowspan="1" colspan="1">Chronic Pyelonephritis</td>
+<td align="left" rowspan="1" colspan="1">2</td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1">Rigshospitalet Hospital</td>
+<td align="left" rowspan="1" colspan="1">1/65 (1.5%)</td>
+<td align="left" rowspan="1" colspan="1">Lupus nephritis</td>
+<td align="left" rowspan="1" colspan="1">1</td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1">Holstebro Hospital</td>
+<td align="left" rowspan="1" colspan="1">1/65 (1.5%)</td>
+<td align="left" rowspan="1" colspan="1">Renal cell carcinoma bilateral</td>
+<td align="left" rowspan="1" colspan="1">1</td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1">Hillerød Hospital</td>
+<td align="left" rowspan="1" colspan="1">1/65 (1.5%)</td>
+<td align="left" rowspan="1" colspan="1">Unknown</td>
+<td align="left" rowspan="1" colspan="1">3</td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1" />
+<td align="left" rowspan="1" colspan="1" />
+<td align="left" rowspan="1" colspan="1"><bold>Dialysis status prior to NSF debut</bold></td>
+<td align="left" rowspan="1" colspan="1" />
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1" />
+<td align="left" rowspan="1" colspan="1" />
+<td align="left" rowspan="1" colspan="1">Dialysis</td>
+<td align="left" rowspan="1" colspan="1">44/65 (67.7%)</td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1" />
+<td align="left" rowspan="1" colspan="1" />
+<td align="left" rowspan="1" colspan="1">No dialysis</td>
+<td align="left" rowspan="1" colspan="1">16/65 (24.6%)</td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1" />
+<td align="left" rowspan="1" colspan="1" />
+<td align="left" rowspan="1" colspan="1">Not recorded</td>
+<td align="left" rowspan="1" colspan="1">5/65 (7.7%)</td>
+</tr>
+</tbody>
+</table>
+</alternatives></table-wrap></sec><sec id="s3b">
+<title>Description of the NSF patients' GBCA exposure</title>
+<p>The 65 NSF patients were exposed to: Omniscan®, Dotarem®, Magnevist®, Multihance® and Gadovist® in a total of 110 MRI examinations (average 1.7 MRI per patient) with a mean dose of 31.5 ml GBCA. The highest cumulative dosage registered was 180 ml (Holstebro Hospital) <xref ref-type="bibr" rid="pone.0082037-Matthesen1">[22]</xref> and the lowest was 8 ml (Odense Hospital). The GBCA exposure took place in the period 1998–2008; and exposure was most frequent during 2001–2006 (89.3%). Forty patients (61.5%) had only been exposed to one type of GBCA: 35 to Omniscan®, two to Magnevist®, two to Gadovist® and one to Multihance®. The remaining patients had been exposed to more than one type of GBCAs (n = 15, 23%) or they had been exposed to an unspecified GBCA (n = 10, 15.5%). <xref ref-type="fig" rid="pone-0082037-g002">Figure 2</xref> shows the annual purchase of GBCAs for all Danish radiological departments in the period 1998–2011 <xref ref-type="bibr" rid="pone.0082037-Data1">[23]</xref>.</p>
+<fig id="pone-0082037-g002" position="float" orientation="portrait"><object-id pub-id-type="doi">10.1371/journal.pone.0082037.g002</object-id><label>Figure 2</label><caption>
+<title>The total amount of GBCAs purchased in Denmark in the period 1998–2011.</title>
+<p>The figure illustrates a deceleration and stagnation of GBCA consumption from 2006 and onwards. Omniscan® disappeared after 2008 and sales of Magnevist® experienced a drastic decline. Instead, Dotarem® and Gadovist® increased their marked share from 2008. Magnevist®, Optimark® and Vasovist/Ablavar® are no longer marketed in Denmark, and Primovist/Eovist® is not registrered in Denmark, leaving five of nine world-wide known agents on today's market.</p>
+</caption><graphic mimetype="image" xlink:href="info:doi/10.1371/journal.pone.0082037.g002" position="float" xlink:type="simple" orientation="portrait" /></fig></sec></sec><sec id="s4">
+<title>Discussion</title>
+<sec id="s4a">
+<title>NSF prevalence</title>
+<p>This first nationwide NSF investigation showed a prevalence of 65 per 5.6 million inhabitants, or 12 per million in Denmark. <xref ref-type="bibr" rid="pone.0082037-Bennett1">[24]</xref>. To our knowledge, Denmark has the highest prevalence of NSF worldwide. It should be noted that the total number of suspected NSF patients reported in Denmark is 99 <xref ref-type="bibr" rid="pone.0082037-Personal1">[25]</xref>; this number included deceased patients in whom evaluation of their medical record raised suspicion of NSF, but in whom no clinical or histological examinations were performed. Likewise, a layman could communicate a suspicion of NSF even though the suspicion was not clinically confirmed by a medical doctor. Even in a small country like Denmark, the NSF patients are unevenly distributed, and 75% of the identified NSF patients were exposed to GBCAs at one of two hospitals (Herlev and Skejby Hospital). Initially, back in 2006, the relatively high number of NSF patients observed at Herlev Hospital was thought to be due to institutional hand-on procedures during administration of GBCAs. This assumption was later disproved because similar doses had been used in most Danish radiological departments. The two reports from Skejby and Herlev Hospital differed in terms of prevalence from 4.7% in Skejby <xref ref-type="bibr" rid="pone.0082037-Elmholdt1">[26]</xref> to 18% in Herlev <xref ref-type="bibr" rid="pone.0082037-Rydahl1">[27]</xref>. This prominent difference in prevalence is likely explained by differences in MRI inclusion criteria and chronic kidney disease (CKD) stages between the two hospitals. For example, at Herlev Hospital, a group of 102 patients with CKD stage 5 was studied and 18 NSF patients were identified. No NSF patients were identified in patients categorized in CKD1-CKD4. At Skejby Hospital, 17 NSF patients were identified among all 362 GBCA-exposed patients with renal impairment with a mean creatinine clearance of 19 ml/min (SD±15, range 2–88). Besides, Herlev Hospital started their search for NSF patients in 2005, while Skejby Hospital started three years later. A larger number of unrecognized NSF patients may therefore have died at Skejby than at Herlev before being examined.</p>
+<p>The distribution of NSF is also uneven among countries (<xref ref-type="fig" rid="pone-0082037-g003">Figure 3</xref>). While the USA has the highest total number of NSF findings <xref ref-type="bibr" rid="pone.0082037-Mendoza1">[28]</xref>–<xref ref-type="bibr" rid="pone.0082037-Shabana1">[32]</xref>, their prevalence is less than half that found in Denmark.</p>
+<fig id="pone-0082037-g003" position="float" orientation="portrait"><object-id pub-id-type="doi">10.1371/journal.pone.0082037.g003</object-id><label>Figure 3</label><caption>
+<title>Number of nephrogenic systemic fibrosis patients in Europe, showing the uneven prevalence among countries.</title>
+</caption><graphic mimetype="image" xlink:href="info:doi/10.1371/journal.pone.0082037.g003" position="float" xlink:type="simple" orientation="portrait" /></fig>
+<p>Bernstein et al listed 20 studies which reported a prevalence of NSF of 0–29.6% <xref ref-type="bibr" rid="pone.0082037-Bernstein1">[33]</xref>. In a retrospective study from Sweden, no NSF patients were found when the NSF diagnosis was searched for among 272 patients with renal insufficiency exposed to GBCA <xref ref-type="bibr" rid="pone.0082037-Alhadad1">[34]</xref>. However, no clinical examinations were performed either. The patients received Omniscan® with a mean dose 0.14 mmol/kg. This dose was equivalent to 17–23 ml Omniscan® per MRI for an average person, while the Danish NSF patients received an average of 31.5 ml of GBCA. Another study from the Auckland region, New Zealand, identified three cases of biopsy-proven NSF and another two cases of clinical NSF within a population of 1.3 million <xref ref-type="bibr" rid="pone.0082037-KendrickJones1">[35]</xref>. The dose of GBCA had not been consistently recorded. Hope et al <xref ref-type="bibr" rid="pone.0082037-Hope1">[36]</xref> retrospectively reported an NSF prevalence of 1% and stated that it was likely underreported because all patients had not been individually examined and because biopsies were not available for the majority of the patients. These studies support the view that NSF reports cover a wide investigatory spectrum from passive search without any direct patient contact to more active studies involving clinical examination. The study performed by Todd et al <xref ref-type="bibr" rid="pone.0082037-Todd1">[37]</xref> in 216 haemodialysis patients was a good example of a pro-active study. They observed cutaneous changes of NSF in 16 (30%) of 54 patients exposed to GBCA but did not obtain skin biopsies which would have completed the study. The nationwide investigation increased the clinical awareness of NSF in Denmark and e.g. 244 patients with renal impairment exposed to GBCA were referred to the dermatological department in Aarhus during 2008–2010 <xref ref-type="bibr" rid="pone.0082037-Personal2">[38]</xref>. So by doing, a systematic search and clinical examination ensured diagnosis of 30 NSF patients within a group of 244 patients (ratio 1∶8).</p>
+</sec><sec id="s4b">
+<title>The challenges in making a nationwide investigation</title>
+<p>The present nationwide investigation was challenged by several factors. For example, some potential NSF patients were already deceased from the beginning of the investigation and could obviously not be examined. Other groups of possible NSF patients not included in the nationwide investigation were those who received GBCAs for radiographic purposes <xref ref-type="bibr" rid="pone.0082037-Hoppe1">[39]</xref> or patients who did not have a kidney diagnosis at the time of GBCA exposure, but where the kidney function was already impaired (e.g. diabetic or elderly people). Furthermore, previous experiences showed that chart registrations (coding, medication, GBCA name/use, etc) were inadequate in around 10%. Also, the retrospective design made it impossible to collect all desirable information. Lastly, the NSF findings from individual nephrological departments were challenged by possible differences in procedure and efforts to detect NSF cases at the individual sites.</p>
+</sec><sec id="s4c">
+<title>Perspectives</title>
+<p>The rise in the number of reported NSF cases and subsequent pressure from the media made a nationwide investigation mandatory in Denmark. NSF patients have received medical help and financial compensation for some of their sufferings by means of the Danish health service. Three new cases of NSF have been found in Denmark after the nationwide investigation stopped. Yet, the clinical awareness and active search for NSF cases remain relevant and meaningful; especially in countries in which no or very few NSF patients have yet been identified and where GBCAs have been or are still being used in ways similar to those seen in countries with many NSF cases.</p>
+</sec></sec><sec id="s5">
+<title>Conclusion</title>
+<p>The outcome of the nationwide investigation revealed 65 NSF patients in a population of 5.6 million inhabitants in Denmark, or 12 per million. This high prevalence of NSF worldwide may be rooted in a high level of awareness of NSF both among Danish doctors, politicians and, not least, the media, combined with the fact that Denmark initiated the first nationwide NSF investigation.</p>
+<p>Provenance and peer review: Not commissioned; externally peer reviewed.</p>
+</sec></body>
+<back><ref-list>
+<title>References</title>
+<ref id="pone.0082037-From1"><label>1</label>
+<mixed-citation publication-type="journal" xlink:type="simple"><article-title>From the Centers for Disease Control and Prevention. Fibrosing skin condition among patients with renal disease—United States and Europe, 1997–2002</article-title>. <source>JAMA</source> <volume>287</volume>: <fpage>838</fpage>.</mixed-citation>
+</ref>
+<ref id="pone.0082037-Cowper1"><label>2</label>
+<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Cowper</surname><given-names>SE</given-names></name>, <name name-style="western"><surname>Robin</surname><given-names>HS</given-names></name>, <name name-style="western"><surname>Steinberg</surname><given-names>SM</given-names></name>, <name name-style="western"><surname>Su</surname><given-names>LD</given-names></name>, <name name-style="western"><surname>Gupta</surname><given-names>S</given-names></name>, <etal>et al</etal>. (<year>2000</year>) <article-title>Scleromyxoedema-like cutaneous diseases in renal-dialysis patients</article-title>. <source>Lancet</source> <volume>356</volume>: <fpage>1000</fpage>–<lpage>1001</lpage> <comment>S0140-6736(00)02694-5 [pii];<ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1016/S0140-6736(00)02694-5" xlink:type="simple">10.1016/S0140-6736(00)02694-5</ext-link> [doi]</comment></mixed-citation>
+</ref>
+<ref id="pone.0082037-Cowper2"><label>3</label>
+<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Cowper</surname><given-names>SE</given-names></name>, <name name-style="western"><surname>Su</surname><given-names>LD</given-names></name>, <name name-style="western"><surname>Bhawan</surname><given-names>J</given-names></name>, <name name-style="western"><surname>Robin</surname><given-names>HS</given-names></name>, <name name-style="western"><surname>Leboit</surname><given-names>PE</given-names></name> (<year>2001</year>) <article-title>Nephrogenic fibrosing dermopathy</article-title>. <source>Am J Dermatopathol</source> <volume>23</volume>: <fpage>383</fpage>–<lpage>393</lpage>.</mixed-citation>
+</ref>
+<ref id="pone.0082037-Ting1"><label>4</label>
+<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Ting</surname><given-names>WW</given-names></name>, <name name-style="western"><surname>Stone</surname><given-names>MS</given-names></name>, <name name-style="western"><surname>Madison</surname><given-names>KC</given-names></name>, <name name-style="western"><surname>Kurtz</surname><given-names>K</given-names></name> (<year>2003</year>) <article-title>Nephrogenic fibrosing dermopathy with systemic involvement</article-title>. <source>Arch Dermatol</source> <volume>139</volume>: <fpage>903</fpage>–<lpage>906</lpage> <comment><ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1001/archderm.139.7.903" xlink:type="simple">10.1001/archderm.139.7.903</ext-link> [doi];139/7/903 [pii]</comment></mixed-citation>
+</ref>
+<ref id="pone.0082037-Levine1"><label>5</label>
+<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Levine</surname><given-names>JM</given-names></name>, <name name-style="western"><surname>Taylor</surname><given-names>RA</given-names></name>, <name name-style="western"><surname>Elman</surname><given-names>LB</given-names></name>, <name name-style="western"><surname>Bird</surname><given-names>SJ</given-names></name>, <name name-style="western"><surname>Lavi</surname><given-names>E</given-names></name>, <etal>et al</etal>. (<year>2004</year>) <article-title>Involvement of skeletal muscle in dialysis-associated systemic fibrosis (nephrogenic fibrosing dermopathy)</article-title>. <source>Muscle Nerve</source> <volume>30</volume>: <fpage>569</fpage>–<lpage>577</lpage> <comment><ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1002/mus.20153" xlink:type="simple">10.1002/mus.20153</ext-link> [doi]</comment></mixed-citation>
+</ref>
+<ref id="pone.0082037-Swaminathan1"><label>6</label>
+<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Swaminathan</surname><given-names>S</given-names></name>, <name name-style="western"><surname>High</surname><given-names>WA</given-names></name>, <name name-style="western"><surname>Ranville</surname><given-names>J</given-names></name>, <name name-style="western"><surname>Horn</surname><given-names>TD</given-names></name>, <name name-style="western"><surname>Hiatt</surname><given-names>K</given-names></name>, <etal>et al</etal>. (<year>2008</year>) <article-title>Cardiac and vascular metal deposition with high mortality in nephrogenic systemic fibrosis</article-title>. <source>Kidney Int</source> <volume>73</volume>: <fpage>1413</fpage>–<lpage>1418</lpage> <comment>ki200876 [pii];<ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1038/ki.2008.76" xlink:type="simple">10.1038/ki.2008.76</ext-link> [doi]</comment></mixed-citation>
+</ref>
+<ref id="pone.0082037-Kay1"><label>7</label>
+<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Kay</surname><given-names>J</given-names></name>, <name name-style="western"><surname>Bazari</surname><given-names>H</given-names></name>, <name name-style="western"><surname>Avery</surname><given-names>LL</given-names></name>, <name name-style="western"><surname>Koreishi</surname><given-names>AF</given-names></name> (<year>2008</year>) <article-title>Case records of the Massachusetts General Hospital. Case 6-2008. A 46-year-old woman with renal failure and stiffness of the joints and skin</article-title>. <source>N Engl J Med</source> <volume>358</volume>: <fpage>827</fpage>–<lpage>838</lpage> <comment>358/8/827 [pii];<ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1056/NEJMcpc0708697" xlink:type="simple">10.1056/NEJMcpc0708697</ext-link> [doi]</comment></mixed-citation>
+</ref>
+<ref id="pone.0082037-Sanyal1"><label>8</label>
+<mixed-citation publication-type="other" xlink:type="simple">Sanyal S, Marckmann P, Scherer S, Abraham JL (2011) Multiorgan gadolinium (Gd) deposition and fibrosis in a patient with nephrogenic systemic fibrosis—an autopsy-based review. Nephrol Dial Transplant. gfr085 [pii];10.1093/ndt/gfr085 [doi].</mixed-citation>
+</ref>
+<ref id="pone.0082037-Collidge1"><label>9</label>
+<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Collidge</surname><given-names>TA</given-names></name>, <name name-style="western"><surname>Thomson</surname><given-names>PC</given-names></name>, <name name-style="western"><surname>Mark</surname><given-names>PB</given-names></name>, <name name-style="western"><surname>Traynor</surname><given-names>JP</given-names></name>, <name name-style="western"><surname>Jardine</surname><given-names>AG</given-names></name>, <etal>et al</etal>. (<year>2007</year>) <article-title>Gadolinium-enhanced MR imaging and nephrogenic systemic fibrosis: retrospective study of a renal replacement therapy cohort</article-title>. <source>Radiology</source> <volume>245</volume>: <fpage>168</fpage>–<lpage>175</lpage> <comment>2451070353 [pii];<ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1148/radiol.2451070353" xlink:type="simple">10.1148/radiol.2451070353</ext-link> [doi]</comment></mixed-citation>
+</ref>
+<ref id="pone.0082037-Marckmann1"><label>10</label>
+<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Marckmann</surname><given-names>P</given-names></name>, <name name-style="western"><surname>Skov</surname><given-names>L</given-names></name>, <name name-style="western"><surname>Rossen</surname><given-names>K</given-names></name>, <name name-style="western"><surname>Dupont</surname><given-names>A</given-names></name>, <name name-style="western"><surname>Damholt</surname><given-names>MB</given-names></name>, <etal>et al</etal>. (<year>2006</year>) <article-title>Nephrogenic systemic fibrosis: suspected causative role of gadodiamide used for contrast-enhanced magnetic resonance imaging</article-title>. <source>J Am Soc Nephrol</source> <volume>17</volume>: <fpage>2359</fpage>–<lpage>2362</lpage> <comment>ASN.2006060601 [pii];<ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1681/ASN.2006060601" xlink:type="simple">10.1681/ASN.2006060601</ext-link> [doi]</comment></mixed-citation>
+</ref>
+<ref id="pone.0082037-Grobner1"><label>11</label>
+<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Grobner</surname><given-names>T</given-names></name> (<year>2006</year>) <article-title>Gadolinium—a specific trigger for the development of nephrogenic fibrosing dermopathy and nephrogenic systemic fibrosis?</article-title> <source>Nephrol Dial Transplant</source> <volume>21</volume>: <fpage>1104</fpage>–<lpage>1108</lpage> <comment>gfk062 [pii];<ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1093/ndt/gfk062" xlink:type="simple">10.1093/ndt/gfk062</ext-link> [doi]</comment></mixed-citation>
+</ref>
+<ref id="pone.0082037-http1"><label>12</label>
+<mixed-citation publication-type="other" xlink:type="simple"><ext-link ext-link-type="uri" xlink:href="http://www.nephrology.dk/Publikationer/Anbefalinger%20mhp%20identifikation%20af%20nyresyge%20patienter,%20der%20kan%20mist%C3%A6nkes%20for%20nefrogen%20systemisk%20fibrose%20efter%20uds%C3%A6ttelse%20for%20gadoliniumholdig%20kontrast.pdf" xlink:type="simple">http://www.nephrology.dk/Publikationer/Anbefalinger%20mhp%20identifikation%20af%20nyresyge%20patienter,%20der%20kan%20mist%C3%A6nkes%20for%20nefrogen%20systemisk%20fibrose%20efter%20uds%C3%A6ttelse%20for%20gadoliniumholdig%20kontrast.pdf</ext-link>. Accessed November 1, 2013.</mixed-citation>
+</ref>
+<ref id="pone.0082037-Marckmann2"><label>13</label>
+<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Marckmann</surname><given-names>P</given-names></name>, <name name-style="western"><surname>Skov</surname><given-names>L</given-names></name>, <name name-style="western"><surname>Rossen</surname><given-names>K</given-names></name>, <name name-style="western"><surname>Thomsen</surname><given-names>HS</given-names></name> (<year>2008</year>) <article-title>Clinical manifestation of gadodiamide-related nephrogenic systemic fibrosis</article-title>. <source>Clin Nephrol</source> <volume>69</volume>: <fpage>161</fpage>–<lpage>168</lpage>.</mixed-citation>
+</ref>
+<ref id="pone.0082037-Canavese1"><label>14</label>
+<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Canavese</surname><given-names>C</given-names></name>, <name name-style="western"><surname>Mereu</surname><given-names>MC</given-names></name>, <name name-style="western"><surname>Aime</surname><given-names>S</given-names></name>, <name name-style="western"><surname>Lazzarich</surname><given-names>E</given-names></name>, <name name-style="western"><surname>Fenoglio</surname><given-names>R</given-names></name>, <etal>et al</etal>. (<year>2008</year>) <article-title>Gadolinium-associated nephrogenic systemic fibrosis: the need for nephrologists' awareness</article-title>. <source>J Nephrol</source> <volume>21</volume>: <fpage>324</fpage>–<lpage>336</lpage>.</mixed-citation>
+</ref>
+<ref id="pone.0082037-Furst1"><label>15</label>
+<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Furst</surname><given-names>DE</given-names></name>, <name name-style="western"><surname>Clements</surname><given-names>PJ</given-names></name>, <name name-style="western"><surname>Steen</surname><given-names>VD</given-names></name>, <name name-style="western"><surname>Medsger</surname><given-names>TA</given-names><suffix>Jr</suffix></name>, <name name-style="western"><surname>Masi</surname><given-names>AT</given-names></name>, <etal>et al</etal>. (<year>1998</year>) <article-title>The modified Rodnan skin score is an accurate reflection of skin biopsy thickness in systemic sclerosis</article-title>. <source>J Rheumatol</source> <volume>25</volume>: <fpage>84</fpage>–<lpage>88</lpage>.</mixed-citation>
+</ref>
+<ref id="pone.0082037-Cowper3"><label>16</label>
+<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Cowper</surname><given-names>SE</given-names></name>, <name name-style="western"><surname>Rabach</surname><given-names>M</given-names></name>, <name name-style="western"><surname>Girardi</surname><given-names>M</given-names></name> (<year>2008</year>) <article-title>Clinical and histological findings in nephrogenic systemic fibrosis</article-title>. <source>Eur J Radiol</source> <volume>66</volume>: <fpage>191</fpage>–<lpage>199</lpage> <comment>S0720-048X(08)00036-3 [pii];<ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1016/j.ejrad.2008.01.016" xlink:type="simple">10.1016/j.ejrad.2008.01.016</ext-link> [doi]</comment></mixed-citation>
+</ref>
+<ref id="pone.0082037-Marckmann3"><label>17</label>
+<mixed-citation publication-type="other" xlink:type="simple">Marckmann P, Skov L (2009) Nephrogenic systemic fibrosis: clinical picture and treatment. Radiol Clin North Am <volume>47</volume>: : 833–40, vi. S0033-8389(09)00092-X [pii];10.1016/j.rcl.2009.05.004 [doi].</mixed-citation>
+</ref>
+<ref id="pone.0082037-Bangsgaard1"><label>18</label>
+<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Bangsgaard</surname><given-names>N</given-names></name>, <name name-style="western"><surname>Marckmann</surname><given-names>P</given-names></name>, <name name-style="western"><surname>Rossen</surname><given-names>K</given-names></name>, <name name-style="western"><surname>Skov</surname><given-names>L</given-names></name> (<year>2009</year>) <article-title>Nephrogenic systemic fibrosis: late skin manifestations</article-title>. <source>Arch Dermatol</source> <volume>145</volume>: <fpage>183</fpage>–<lpage>187</lpage> <comment>145/2/183 [pii];<ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1001/archdermatol.2008.551" xlink:type="simple">10.1001/archdermatol.2008.551</ext-link> [doi]</comment></mixed-citation>
+</ref>
+<ref id="pone.0082037-http2"><label>19</label>
+<mixed-citation publication-type="other" xlink:type="simple"><ext-link ext-link-type="uri" xlink:href="http://www.regionmidtjylland.dk/politik/udvalg/forretningsudvalget/visdagsorden?file=30-11-2010/Aaben_dagsorden/Bilag/Punkt_14_Bilag_1_______.PDF" xlink:type="simple">http://www.regionmidtjylland.dk/politik/udvalg/forretningsudvalget/visdagsorden?file=30-11-2010/Aaben_dagsorden/Bilag/Punkt_14_Bilag_1_______.PDF</ext-link>. Accessed November 1, 2013.</mixed-citation>
+</ref>
+<ref id="pone.0082037-In1"><label>20</label>
+<mixed-citation publication-type="other" xlink:type="simple">In the report 67 patients are listed, but the correct number is 65 because two patients have been registered twice.</mixed-citation>
+</ref>
+<ref id="pone.0082037-httponlinelibrarywileycomdoi101002dat20507pdf1"><label>21</label>
+<mixed-citation publication-type="other" xlink:type="simple"><ext-link ext-link-type="uri" xlink:href="http://onlinelibrary.wiley.com/doi/10.1002/dat.20507/pdf" xlink:type="simple">http://onlinelibrary.wiley.com/doi/10.1002/dat.20507/pdf</ext-link>. Accessed November 1, 2013.</mixed-citation>
+</ref>
+<ref id="pone.0082037-Matthesen1"><label>22</label>
+<mixed-citation publication-type="other" xlink:type="simple">Matthesen SK, Pedersen EB (2008) [Nephrogen systemic fibrosis is reported in a dialysis patient after MR-angiography with a contrast medium]. Ugeskr Laeger 170: 655. VP51901 [pii] .</mixed-citation>
+</ref>
+<ref id="pone.0082037-Data1"><label>23</label>
+<mixed-citation publication-type="other" xlink:type="simple">Data were extracted from the Danish Register of Medicinal Product Statistic (National Institute for Health Data and Disease Control) using the Anatomical Therapeutic Chemical (ATC) classification system.</mixed-citation>
+</ref>
+<ref id="pone.0082037-Bennett1"><label>24</label>
+<mixed-citation publication-type="other" xlink:type="simple">Bennett CL, Starko KM, Thomsen HS, Cowper S, Sartor O, <etal>et al</etal>.. (2012) Linking Drugs to Obscure Illnesses: Lessons from Pure Red Cell Aplasia, Nephrogenic Systemic Fibrosis, and Reye's Syndrome. A Report From the Southern Network on Adverse Reactions (SONAR). J Gen Intern Med. 10.1007/s11606-012-2098-1 [doi].</mixed-citation>
+</ref>
+<ref id="pone.0082037-Personal1"><label>25</label>
+<mixed-citation publication-type="other" xlink:type="simple">Personal communication from DMA, October 2012</mixed-citation>
+</ref>
+<ref id="pone.0082037-Elmholdt1"><label>26</label>
+<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Elmholdt</surname><given-names>TR</given-names></name>, <name name-style="western"><surname>Pedersen</surname><given-names>M</given-names></name>, <name name-style="western"><surname>Jorgensen</surname><given-names>B</given-names></name>, <name name-style="western"><surname>Sondergaard</surname><given-names>K</given-names></name>, <name name-style="western"><surname>Jensen</surname><given-names>JD</given-names></name>, <etal>et al</etal>. (<year>2011</year>) <article-title>Nephrogenic systemic fibrosis is found only among gadolinium-exposed patients with renal insufficiency: a case-control study from Denmark</article-title>. <source>Br J Dermatol</source> <volume>165</volume>: <fpage>828</fpage>–<lpage>836</lpage> <comment><ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1111/j.1365-2133.2011.10465.x" xlink:type="simple">10.1111/j.1365-2133.2011.10465.x</ext-link> [doi]</comment></mixed-citation>
+</ref>
+<ref id="pone.0082037-Rydahl1"><label>27</label>
+<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Rydahl</surname><given-names>C</given-names></name>, <name name-style="western"><surname>Thomsen</surname><given-names>HS</given-names></name>, <name name-style="western"><surname>Marckmann</surname><given-names>P</given-names></name> (<year>2008</year>) <article-title>High prevalence of nephrogenic systemic fibrosis in chronic renal failure patients exposed to gadodiamide, a gadolinium-containing magnetic resonance contrast agent</article-title>. <source>Invest Radiol</source> <volume>43</volume>: <fpage>141</fpage>–<lpage>144</lpage> <comment><ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1097/RLI.0b013e31815a3407" xlink:type="simple">10.1097/RLI.0b013e31815a3407</ext-link> [doi];00004424-200802000-00007 [pii]</comment></mixed-citation>
+</ref>
+<ref id="pone.0082037-Mendoza1"><label>28</label>
+<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Mendoza</surname><given-names>FA</given-names></name>, <name name-style="western"><surname>Artlett</surname><given-names>CM</given-names></name>, <name name-style="western"><surname>Sandorfi</surname><given-names>N</given-names></name>, <name name-style="western"><surname>Latinis</surname><given-names>K</given-names></name>, <name name-style="western"><surname>Piera-Velazquez</surname><given-names>S</given-names></name>, <etal>et al</etal>. (<year>2006</year>) <article-title>Description of 12 cases of nephrogenic fibrosing dermopathy and review of the literature</article-title>. <source>Semin Arthritis Rheum</source> <volume>35</volume>: <fpage>238</fpage>–<lpage>249</lpage> <comment>S0049-0172(05)00159-9 [pii];<ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1016/j.semarthrit.2005.08.002" xlink:type="simple">10.1016/j.semarthrit.2005.08.002</ext-link> [doi]</comment></mixed-citation>
+</ref>
+<ref id="pone.0082037-Lee1"><label>29</label>
+<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Lee</surname><given-names>CU</given-names></name>, <name name-style="western"><surname>Wood</surname><given-names>CM</given-names></name>, <name name-style="western"><surname>Hesley</surname><given-names>GK</given-names></name>, <name name-style="western"><surname>Leung</surname><given-names>N</given-names></name>, <name name-style="western"><surname>Bridges</surname><given-names>MD</given-names></name>, <etal>et al</etal>. (<year>2009</year>) <article-title>Large sample of nephrogenic systemic fibrosis cases from a single institution</article-title>. <source>Arch Dermatol</source> <volume>145</volume>: <fpage>1095</fpage>–<lpage>1102</lpage> <comment>145/10/1095 [pii];<ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1001/archdermatol.2009.232" xlink:type="simple">10.1001/archdermatol.2009.232</ext-link> [doi]</comment></mixed-citation>
+</ref>
+<ref id="pone.0082037-Abujudeh1"><label>30</label>
+<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Abujudeh</surname><given-names>HH</given-names></name>, <name name-style="western"><surname>Kaewlai</surname><given-names>R</given-names></name>, <name name-style="western"><surname>Kagan</surname><given-names>A</given-names></name>, <name name-style="western"><surname>Chibnik</surname><given-names>LB</given-names></name>, <name name-style="western"><surname>Nazarian</surname><given-names>RM</given-names></name>, <etal>et al</etal>. (<year>2009</year>) <article-title>Nephrogenic systemic fibrosis after gadopentetate dimeglumine exposure: case series of 36 patients</article-title>. <source>Radiology</source> <volume>253</volume>: <fpage>81</fpage>–<lpage>89</lpage> <comment>radiol.2531082160 [pii];<ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1148/radiol.2531082160" xlink:type="simple">10.1148/radiol.2531082160</ext-link> [doi]</comment></mixed-citation>
+</ref>
+<ref id="pone.0082037-PerezRodriguez1"><label>31</label>
+<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Perez-Rodriguez</surname><given-names>J</given-names></name>, <name name-style="western"><surname>Lai</surname><given-names>S</given-names></name>, <name name-style="western"><surname>Ehst</surname><given-names>BD</given-names></name>, <name name-style="western"><surname>Fine</surname><given-names>DM</given-names></name>, <name name-style="western"><surname>Bluemke</surname><given-names>DA</given-names></name> (<year>2009</year>) <article-title>Nephrogenic systemic fibrosis: incidence, associations, and effect of risk factor assessment—report of 33 cases</article-title>. <source>Radiology</source> <volume>250</volume>: <fpage>371</fpage>–<lpage>377</lpage> <comment>250/2/371 [pii];<ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1148/radiol.2502080498" xlink:type="simple">10.1148/radiol.2502080498</ext-link> [doi]</comment></mixed-citation>
+</ref>
+<ref id="pone.0082037-Shabana1"><label>32</label>
+<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Shabana</surname><given-names>WM</given-names></name>, <name name-style="western"><surname>Cohan</surname><given-names>RH</given-names></name>, <name name-style="western"><surname>Ellis</surname><given-names>JH</given-names></name>, <name name-style="western"><surname>Hussain</surname><given-names>HK</given-names></name>, <name name-style="western"><surname>Francis</surname><given-names>IR</given-names></name>, <etal>et al</etal>. (<year>2008</year>) <article-title>Nephrogenic systemic fibrosis: a report of 29 cases</article-title>. <source>AJR Am J Roentgenol</source> <volume>190</volume>: <fpage>736</fpage>–<lpage>741</lpage> <comment>190/3/736 [pii];<ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.2214/AJR.07.3115" xlink:type="simple">10.2214/AJR.07.3115</ext-link> [doi]</comment></mixed-citation>
+</ref>
+<ref id="pone.0082037-Bernstein1"><label>33</label>
+<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Bernstein</surname><given-names>EJ</given-names></name>, <name name-style="western"><surname>Schmidt-Lauber</surname><given-names>C</given-names></name>, <name name-style="western"><surname>Kay</surname><given-names>J</given-names></name> (<year>2012</year>) <article-title>Nephrogenic systemic fibrosis: a systemic fibrosing disease resulting from gadolinium exposure</article-title>. <source>Best Pract Res Clin Rheumatol</source> <volume>26</volume>: <fpage>489</fpage>–<lpage>503</lpage> <comment>S1521-6942(12)00071-X [pii];<ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1016/j.berh.2012.07.008" xlink:type="simple">10.1016/j.berh.2012.07.008</ext-link> [doi]</comment></mixed-citation>
+</ref>
+<ref id="pone.0082037-Alhadad1"><label>34</label>
+<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Alhadad</surname><given-names>A</given-names></name>, <name name-style="western"><surname>Sterner</surname><given-names>G</given-names></name>, <name name-style="western"><surname>Svensson</surname><given-names>A</given-names></name>, <name name-style="western"><surname>Alhadad</surname><given-names>H</given-names></name>, <name name-style="western"><surname>Leander</surname><given-names>P</given-names></name> (<year>2012</year>) <article-title>Incidence of nephrogenic systemic fibrosis at a large university hospital in Sweden</article-title>. <source>Scand J Urol Nephrol</source> <volume>46</volume>: <fpage>48</fpage>–<lpage>53</lpage> <comment><ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.3109/00365599.2011.621142" xlink:type="simple">10.3109/00365599.2011.621142</ext-link> [doi]</comment></mixed-citation>
+</ref>
+<ref id="pone.0082037-KendrickJones1"><label>35</label>
+<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Kendrick-Jones</surname><given-names>JC</given-names></name>, <name name-style="western"><surname>Voss</surname><given-names>DM</given-names></name>, <name name-style="western"><surname>De</surname><given-names>ZoysaJR</given-names></name> (<year>2011</year>) <article-title>Nephrogenic systemic fibrosis, in patients with end-stage kidney disease on dialysis, in the greater Auckland region, from 2000-2006</article-title>. <source>Nephrology (Carlton)</source> <volume>16</volume>: <fpage>243</fpage>–<lpage>248</lpage> <comment><ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1111/j.1440-1797.2010.01397.x" xlink:type="simple">10.1111/j.1440-1797.2010.01397.x</ext-link> [doi]</comment></mixed-citation>
+</ref>
+<ref id="pone.0082037-Hope1"><label>36</label>
+<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Hope</surname><given-names>TA</given-names></name>, <name name-style="western"><surname>Herfkens</surname><given-names>RJ</given-names></name>, <name name-style="western"><surname>Denianke</surname><given-names>KS</given-names></name>, <name name-style="western"><surname>Leboit</surname><given-names>PE</given-names></name>, <name name-style="western"><surname>Hung</surname><given-names>YY</given-names></name>, <etal>et al</etal>. (<year>2009</year>) <article-title>Nephrogenic systemic fibrosis in patients with chronic kidney disease who received gadopentetate dimeglumine</article-title>. <source>Invest Radiol</source> <volume>44</volume>: <fpage>135</fpage>–<lpage>139</lpage> <comment><ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1097/RLI.0b013e31819343ba" xlink:type="simple">10.1097/RLI.0b013e31819343ba</ext-link> [doi]</comment></mixed-citation>
+</ref>
+<ref id="pone.0082037-Todd1"><label>37</label>
+<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Todd</surname><given-names>DJ</given-names></name>, <name name-style="western"><surname>Kagan</surname><given-names>A</given-names></name>, <name name-style="western"><surname>Chibnik</surname><given-names>LB</given-names></name>, <name name-style="western"><surname>Kay</surname><given-names>J</given-names></name> (<year>2007</year>) <article-title>Cutaneous changes of nephrogenic systemic fibrosis: predictor of early mortality and association with gadolinium exposure</article-title>. <source>Arthritis Rheum</source> <volume>56</volume>: <fpage>3433</fpage>–<lpage>3441</lpage> <comment><ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1002/art.22925" xlink:type="simple">10.1002/art.22925</ext-link> [doi]</comment></mixed-citation>
+</ref>
+<ref id="pone.0082037-Personal2"><label>38</label>
+<mixed-citation publication-type="other" xlink:type="simple">Personal communication with Anne Braae Olesen</mixed-citation>
+</ref>
+<ref id="pone.0082037-Hoppe1"><label>39</label>
+<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Hoppe</surname><given-names>H</given-names></name>, <name name-style="western"><surname>Spagnuolo</surname><given-names>S</given-names></name>, <name name-style="western"><surname>Froehlich</surname><given-names>JM</given-names></name>, <name name-style="western"><surname>Nievergelt</surname><given-names>H</given-names></name>, <name name-style="western"><surname>Dinkel</surname><given-names>HP</given-names></name>, <etal>et al</etal>. (<year>2010</year>) <article-title>Retrospective analysis of patients for development of nephrogenic systemic fibrosis following conventional angiography using gadolinium-based contrast agents</article-title>. <source>Eur Radiol</source> <volume>20</volume>: <fpage>595</fpage>–<lpage>603</lpage> <comment><ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1007/s00330-009-1586-0" xlink:type="simple">10.1007/s00330-009-1586-0</ext-link> [doi]</comment></mixed-citation>
+</ref>
+</ref-list></back>
+</article>

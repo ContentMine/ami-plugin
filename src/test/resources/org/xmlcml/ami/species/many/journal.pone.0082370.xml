@@ -1,0 +1,1029 @@
+<article xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" article-type="research-article" dtd-version="3.0" xml:lang="en">
+<front>
+<journal-meta>
+<journal-id journal-id-type="nlm-ta">PLoS ONE</journal-id>
+<journal-id journal-id-type="publisher-id">plos</journal-id>
+<journal-id journal-id-type="pmc">plosone</journal-id><journal-title-group>
+<journal-title xml:lang="en">PLoS ONE</journal-title></journal-title-group>
+<issn pub-type="epub">1932-6203</issn>
+<publisher>
+<publisher-name>Public Library of Science</publisher-name>
+<publisher-loc>San Francisco, USA</publisher-loc></publisher>
+</journal-meta>
+<article-meta>
+<article-id pub-id-type="publisher-id">PONE-D-13-27581</article-id>
+<article-id pub-id-type="doi">10.1371/journal.pone.0082370</article-id>
+<article-categories><subj-group subj-group-type="heading"><subject>Research Article</subject></subj-group></article-categories>
+<title-group>
+<article-title>Recreational Boats and Turtles: Behavioral Mismatches Result in High Rates of Injury</article-title>
+<alt-title alt-title-type="running-head">Recreational Boats and Turtles</alt-title>
+</title-group>
+<contrib-group>
+<contrib contrib-type="author" xlink:type="simple"><name name-style="western"><surname>Lester</surname><given-names>Lori A.</given-names></name><xref ref-type="aff" rid="aff1"><sup>1</sup></xref><xref ref-type="aff" rid="aff2"><sup>2</sup></xref><xref ref-type="corresp" rid="cor1"><sup>*</sup></xref></contrib>
+<contrib contrib-type="author" xlink:type="simple"><name name-style="western"><surname>Avery</surname><given-names>Harold W.</given-names></name><xref ref-type="aff" rid="aff2"><sup>2</sup></xref><xref ref-type="aff" rid="aff3"><sup>3</sup></xref></contrib>
+<contrib contrib-type="author" xlink:type="simple"><name name-style="western"><surname>Harrison</surname><given-names>Andrew S.</given-names></name><xref ref-type="aff" rid="aff4"><sup>4</sup></xref><xref ref-type="aff" rid="aff5"><sup>5</sup></xref></contrib>
+<contrib contrib-type="author" xlink:type="simple"><name name-style="western"><surname>Standora</surname><given-names>Edward A.</given-names></name><xref ref-type="aff" rid="aff4"><sup>4</sup></xref></contrib>
+</contrib-group>
+<aff id="aff1"><label>1</label><addr-line>Department of Agriculture and Natural Resources, Delaware State University, Dover, Delaware, United States of America</addr-line></aff>
+<aff id="aff2"><label>2</label><addr-line>Department of Biology, Drexel University, Philadelphia, Pennsylvania, United States of America</addr-line></aff>
+<aff id="aff3"><label>3</label><addr-line>The Leatherback Trust, Haddonfield, New Jersey, United States of America</addr-line></aff>
+<aff id="aff4"><label>4</label><addr-line>Department of Biology, Buffalo State College, Buffalo, New York, United States of America</addr-line></aff>
+<aff id="aff5"><label>5</label><addr-line>Williamsville Central Schools, Williamsville, New York, United States of America</addr-line></aff>
+<contrib-group>
+<contrib contrib-type="editor" xlink:type="simple"><name name-style="western"><surname>Reina</surname><given-names>Richard</given-names></name>
+<role>Editor</role>
+<xref ref-type="aff" rid="edit1" /></contrib>
+</contrib-group>
+<aff id="edit1"><addr-line>Monash University, Australia</addr-line></aff>
+<author-notes>
+<corresp id="cor1">* E-mail: <email xlink:type="simple">llester@desu.edu</email></corresp>
+<fn fn-type="conflict"><p>The authors have declared that no competing interests exist.</p></fn>
+<fn fn-type="con"><p>Conceived and designed the experiments: LAL EAS ASH HWA. Performed the experiments: LAL EAS ASH HWA. Analyzed the data: LAL. Contributed reagents/materials/analysis tools: LAL EAS ASH HWA. Wrote the paper: LAL.</p></fn>
+</author-notes>
+<pub-date pub-type="collection"><year>2013</year></pub-date>
+<pub-date pub-type="epub"><day>11</day><month>12</month><year>2013</year></pub-date>
+<volume>8</volume>
+<issue>12</issue>
+<elocation-id>e82370</elocation-id>
+<history>
+<date date-type="received"><day>4</day><month>7</month><year>2013</year></date>
+<date date-type="accepted"><day>22</day><month>10</month><year>2013</year></date>
+</history>
+<permissions>
+<copyright-year>2013</copyright-year>
+<copyright-holder>Lester et al</copyright-holder><license xlink:href="http://creativecommons.org/licenses/by/4.0/" xlink:type="simple"><license-p>This is an open-access article distributed under the terms of the <ext-link ext-link-type="uri" xlink:href="http://creativecommons.org/licenses/by/4.0/" xlink:type="simple">Creative Commons Attribution License</ext-link>, which permits unrestricted use, distribution, and reproduction in any medium, provided the original author and source are credited.</license-p></license></permissions>
+<abstract>
+<p>Recreational boats are a dominant feature of estuarine waters in the United States. Boat strike injury and mortality may have a detrimental effect on populations of diamondback terrapins (<italic>Malaclemys terrapin</italic>), a keystone species in estuarine ecosystems. In Barnegat Bay, New Jersey, 11% of terrapins (n = 2,644) have scars consistent with injuries from boats. Conservative estimates of injury rates from boats increased from 2006 to 2011. When exposed to playback recordings of approaching boat engines of varying sizes and speeds <italic>in situ</italic>, terrapins did not significantly change their behavior in response to sounds of boat engines of different sizes. The lack of behavioral response of terrapins to boat sounds helps explain high rates of injury and mortality of terrapins and may threaten the viability of terrapin populations. Boater education courses that discuss impacts of boats to wildlife, combined with closure of areas of high terrapin densities to boating, are necessary to protect terrapins and other aquatic species from injury and mortality caused by motorized boats.</p>
+</abstract>
+<funding-group><funding-statement>The funders at the Earthwatch Institute had no role in study design, data collection and analysis, decision to publish, or preparation of the manuscript. The Betz Chair of Environmental Science at Drexel University was involved in study design and preparation of the manuscript.</funding-statement></funding-group><counts><page-count count="8" /></counts></article-meta>
+</front>
+<body><sec id="s1">
+<title>Introduction</title>
+<p>Recreational boating is a popular pastime in the USA where there are over 12 million registered boats <xref ref-type="bibr" rid="pone.0082370-NMMA1">[1]</xref>. Recreational boats may affect aquatic animals directly by causing injury or mortality and indirectly through behavioral or physiological responses to anthropogenic sounds. Many aquatic species are directly affected by recreational boat propeller strikes including crocodiles <xref ref-type="bibr" rid="pone.0082370-Grant1">[2]</xref>, turtles <xref ref-type="bibr" rid="pone.0082370-Cecala1">[3]</xref>, birds <xref ref-type="bibr" rid="pone.0082370-Mikola1">[4]</xref>, and marine mammals <xref ref-type="bibr" rid="pone.0082370-MiksisOlds1">[5]</xref>. Behavioral and physiological responses or the lack thereof of aquatic animals to boat sounds may lead to reduced fitness by lowering survival rates and/or reproductive rates <xref ref-type="bibr" rid="pone.0082370-Popper1">[6]</xref>, <xref ref-type="bibr" rid="pone.0082370-Southall1">[7]</xref>.</p>
+<p>Many turtles can detect sounds under 1000 Hz including estuarine <xref ref-type="bibr" rid="pone.0082370-Lester1">[8]</xref>, <xref ref-type="bibr" rid="pone.0082370-Lester2">[9]</xref>, freshwater <xref ref-type="bibr" rid="pone.0082370-ChristensenDalsgaard1">[10]</xref>, <xref ref-type="bibr" rid="pone.0082370-Willis1">[11]</xref>, and sea turtle species <xref ref-type="bibr" rid="pone.0082370-Bartol1">[12]</xref>. Recreational boats produce low-frequency sounds that overlap with turtle hearing ranges <xref ref-type="bibr" rid="pone.0082370-Richardson1">[13]</xref>. Therefore, it is logical to conclude that turtles can hear and possibly avoid oncoming boats. However, some populations of diamondback terrapins (<italic>Malaclemys terrapin</italic>) along the Atlantic and Gulf coasts of the United States experience high (6 to 20%) rates of injuries from anthropogenic sources <xref ref-type="bibr" rid="pone.0082370-Cecala1">[3]</xref>, <xref ref-type="bibr" rid="pone.0082370-Butler1">[14]</xref>–<xref ref-type="bibr" rid="pone.0082370-Roosenburg1">[16]</xref>. Thus, terrapins may not respond behaviorally to avoid boats. Boat injuries also reduce body condition of male terrapins and survivorship of both male and female terrapins <xref ref-type="bibr" rid="pone.0082370-Cecala1">[3]</xref>. Mortality can also occur via blunt-force trauma from being hit by a boat or lethal injury from a propeller <xref ref-type="bibr" rid="pone.0082370-Heinrich1">[17]</xref>.</p>
+<p>Loggerhead (<italic>Caretta caretta</italic>) and green (<italic>Chelonian mydas</italic>) turtles respond to anthropogenic boat sounds by increasing submergence time between breaths, spending more time underwater, and swimming to the surface <xref ref-type="bibr" rid="pone.0082370-OHara1">[18]</xref>, <xref ref-type="bibr" rid="pone.0082370-Samuel1">[19]</xref>. However, these studies were performed in laboratory aquaria <xref ref-type="bibr" rid="pone.0082370-Samuel1">[19]</xref>, <xref ref-type="bibr" rid="pone.0082370-Lenhardt1">[20]</xref> where sounds are distorted due to reverberation and resonance <xref ref-type="bibr" rid="pone.0082370-Akamatsu1">[21]</xref>. Some sea turtle species respond to seismic air guns <italic>in situ</italic> with erratic behavior but results from these studies are compromised by small sample sizes and individual differences in behavioral response <xref ref-type="bibr" rid="pone.0082370-Moein1">[22]</xref>, <xref ref-type="bibr" rid="pone.0082370-McCauley1">[23]</xref>. It is unknown whether free-living diamondback terrapins respond to the sound of oncoming boats.</p>
+<p>Motorized boat densities in estuaries are among the highest of any aquatic ecosystem in the world <xref ref-type="bibr" rid="pone.0082370-NMMA1">[1]</xref> and the diamondback terrapin is the only turtle species in the USA to inhabitat brackish habitats exclusively throughout its life. Therefore, boats are a potentially important threat to terrapins and it is important to determine how terrapins respond to boat sounds. The goals of this study were to (1) measure the rate of terrapin injury due to boat strikes in Barnegat Bay, NJ in order to determine the direct impact of boats on the terrapin population, and (2) determine whether terrapins behaviorally respond to boat engine sounds <italic>in situ</italic>. We recorded injury data for wild terrapins captured over seven years in a mark-recapture population study. We then used recorded underwater sounds of different sized boat engines to determine the behavioral responses of terrapins to these recordings. Our study was performed <italic>in situ</italic> to better understand how turtles respond to sounds in their natural environment.</p>
+</sec><sec id="s2" sec-type="materials|methods">
+<title>Materials and Methods</title>
+<sec id="s2a">
+<title>Ethics Statement</title>
+<p>All research protocols were approved by the Institutional Animal Care and Use Committee at Drexel University (protocol #18296). Special Use Permit (#10038) was provided by the Edwin B. Forsythe Wildlife Refuge and Scientific Holding (#2010105) and Collecting (#29102) Permits were provided by the New Jersey Division of Fish and Wildlife and issued to HWA.</p>
+</sec><sec id="s2b">
+<title>Study Site</title>
+<p>Our study was conducted in the Barnegat Division of the Edwin B. Forsythe National Wildlife Refuge (Forsythe) in the Barnegat Bay estuary. Barnegat Bay is a 70 km long estuary located along the eastern coast of New Jersey, USA and is adversely affected by many anthropogenic factors, including high levels of recreational boating <xref ref-type="bibr" rid="pone.0082370-BBP1">[24]</xref>.</p>
+</sec><sec id="s2c">
+<title>Field Sampling Techniques</title>
+<p>We captured diamondback terrapins using hoop nets, fyke nets, dip nets, and by hand as part of a long term population study of the terrapins in Barnegat Bay from 2006 to 2011. We recorded location of injury including carapace, plastron, bridge, tail, limb, and head (<xref ref-type="fig" rid="pone-0082370-g001">Fig. 1</xref>). For each terrapin capture, we described shell injuries by recording position and names of broken scutes, and by drawing injuries on a diagram of the terrapin shell. We assumed that major shell damage (defined as injury to two or more adjacent vertebral, costal, or plastral scutes, or three or more adjacent marginal scutes) to adult turtles was caused by boats <xref ref-type="bibr" rid="pone.0082370-Cecala1">[3]</xref>. We assumed that major shell injuries were from recreational boat propellers because terrapin nesting beaches are not located near roads in Forsythe. In general, diamondback terrapins with boat injuries tend to have scars from propellers and those with automobile injuries tend to have crushed shells. Some diamondback terrapins in Forsythe Refuge appear to be hit by the hull of boat or personal watercraft (PWC) instead of the propeller and display a crushed carapace similar to those injuries seen in terrapins that have been hit by automobiles. We used linear regression to determine if there was a temporal change in injury rates and to determine if larger terrapins were more likely to be injured by a boat than smaller individuals over a six year period.</p>
+<fig id="pone-0082370-g001" position="float" orientation="portrait"><object-id pub-id-type="doi">10.1371/journal.pone.0082370.g001</object-id><label>Figure 1</label><caption>
+<title>Anthropogenic injuries to diamondback terrapins.</title>
+<p>Diamondback terrapins were classified as having an anthropogenic injury if damage occurred to two or more vertebral or costal scutes (A), two or more plastral scutes (B), and/or three or more marginal scutes. Photo A shows a female terrapin with an anthropogenic injury to two vertebral and two costal scutes whereas photo B shows an anthropogenic injury to two plastral scutes. Many injured terrapins also had missing limbs (C), tail, or head (D) injuries. Photo C shows a terrapin missing its front left limb which could be due to a boat injury or a predator. In photo D, the terrapin has an anthropogenic injury to its beak and anterior plastron. This injury was assumed to be from a boat because it appeared to be a slash from a propeller that occurred from the plastron through the beak to the anterior carapace. Anthropogenic injury rates are likely an underestimate of the actual number of terrapins hit by boats and automobiles because many of these injuries lead to mortality.</p>
+</caption><graphic mimetype="image" xlink:href="info:doi/10.1371/journal.pone.0082370.g001" position="float" xlink:type="simple" orientation="portrait" /></fig></sec><sec id="s2d">
+<title>Experimental Methodology</title>
+<p>We exposed small (n = 40, 400 to 600 g body mass) and large (n = 40, 1,000 to 1,200 g body mass) non-gravid, uninjured female terrapins to playback recordings of approaching boat engines. Female terrapins were selected because they attain significantly larger body size than males allowing total mass of data loggers attached to terrapins to be under 5% of body mass <xref ref-type="bibr" rid="pone.0082370-Gibbons1">[25]</xref>. Mean mass of captured male terrapins was 266.1 g±50.1 SD, which is too small for data logger attachment. Non-gravid females were selected because they were less likely to exit water to pursue nesting areas. We used small and large size classes of female terrapins because older (i.e., larger) females may have reduced hearing capability compared to younger (i.e., smaller) females.</p>
+</sec><sec id="s2e">
+<title>Playback Recordings</title>
+<p>We recorded sounds of four different recreational boats varying in length and outboard engine size with a digital recording computer (Sound DSA ST 191; Cetacean Research Technology; Seattle, WA, USA) and a hydrophone (C54XRS; Cetacean Research Technology; Seattle, WA, USA). Boats included a Lowe boat (Johnson 9.9 hp outboard two cycle motor, 4.3 m length, 22.9 km/hr speed), a Polar Kraft boat (Mercury 25 hp outboard two cycle motor, 4.3 m length, 41.9 km/hr speed), an Action Craft boat (Johnson 110 hp outboard two cycle motor, 5.5 m length, 40 km/hr speed), and a Parker boat (two Johnson 150 hp outboard four cycle motors, 8.5 m length, 53.4 km/hr speed). Each of the four boats was driven at maximum speed past the hydrophone parallel to shore within 1 m from the hydrophone. We measured the sound spectrum of each boat with SpectraPRO 3.32 (Cetacean Research Technology; Seattle, WA, USA) for each 1 min long recording <xref ref-type="bibr" rid="pone.0082370-Scholik1">[26]</xref>.</p>
+</sec><sec id="s2f">
+<title>Data Loggers and Transmitters</title>
+<p>To measure changes in swimming behavior in relation to boat sounds, we outfitted each terrapin with a HOBO Pendant G acceleration data logger (UA-004-64, accuracy ±2.5°; Onset Computers; Bourne, MA, USA) and a Data Storage Tag (DST) milli-L temperature and depth data logger (depth range 10 cm to 20 m, depth accuracy ±8 cm; Star-Oddi; Reykjavik, Iceland; <xref ref-type="fig" rid="pone-0082370-g002">Fig. 2</xref>). The HOBO pendant G data logger recorded x-, y-, and z-axis orientation of the terrapin in degrees every 1 s and the DST recorded depth and temperature every 1 s during the trials. We calculated mean change in pitch (x-axis) and roll (y-axis) of terrapins before, during, and after sound by taking the mean of the absolute values of each value minus the value from the previous 1 s.</p>
+<fig id="pone-0082370-g002" position="float" orientation="portrait"><object-id pub-id-type="doi">10.1371/journal.pone.0082370.g002</object-id><label>Figure 2</label><caption>
+<title>Data loggers and transmitters attached to an adult female diamondback terrapin.</title>
+<p>A HOBO Pendant G data logger recorded the orientation of the terrapin in the water every 1(A). A Data Storage Tag milli-L temperature and depth data logger recorded depth of the terrapin every 1 s (B). Sonic (C) and radio (D) transmitters allowed us to relocate terrapin in case of escape. Transmitters and data loggers weighed &lt;5% body mass of terrapins.</p>
+</caption><graphic mimetype="image" xlink:href="info:doi/10.1371/journal.pone.0082370.g002" position="float" xlink:type="simple" orientation="portrait" /></fig>
+<p>A sonic transmitter (IBT-96-5; 40 kHz; 8.5 g; Sonotronics; Tucson, AZ, USA) and a radio transmitter (V2B154; two-stage; 164 MHz; 27 g; Sirtrak; Havelock North, New Zealand) enabled relocation of the terrapin during the study (<xref ref-type="fig" rid="pone-0082370-g002">Fig. 2</xref>). The radio transmitter was embedded in a streamlined syntactic foam float tethered to the posterior marginal scute of the terrapin to allow continuous reception of radio signals. The radio transmitter float also allowed us to visualize where the terrapin was swimming during trials. We detected sonic transmitters using a submersible sonic receiver (N15A235B; Dukane Underwater Acoustic Location Receiver; St. Charles, IL, USA) and radio signals were detected with a two-element yagi antenna connected to a radio receiver (R1000; Communications Specialists Incorporated; Orange, CA, USA).</p>
+</sec><sec id="s2g">
+<title>Experimental Design</title>
+<p>We exposed each terrapin to playback recordings in a 60 m segment of a canal (locally called a mosquito ditch) that was approximately 1.5 m deep by 2 m wide located in Forsythe. Mosquito ditches are straight, narrow canals that are dug to control mosquito populations. We blocked off both ends of the mosquito ditch with plywood to ensure that terrapins were in the canal and tidal water flow that could otherwise influence behavior was minimized. All trials were completed within two hours of high tide to ensure the canal had maximum water depth (∼1.5 m).</p>
+<p>An underwater speaker (LL9816; Lubell Labs; Columbus, OH, USA) was suspended at a depth of 75 cm at the midpoint of the 60 m long canal for playing back recorded boat sounds. The speaker was connected to a Speco Amplifier (PAT 20 TB 20 Watt 12 V PA; Speco Technologies; Amityville, NY, USA) which broadcasted boat motor sounds played back with the computer program, SpectraPRO 3.32. We monitored playback recordings prior to each trial with the hydrophone (C54XRS) suspended at various distances (1 m, 5 m, and 10 m) from the underwater speaker to determine sound propagation in the canal.</p>
+<p>We initiated each trial by releasing a terrapin into the water at a randomly chosen end of the canal and allowed it to acclimatize for fifteen minutes. The terrapin was allowed to swim freely and when its radio transmitter float was 10 m from the speaker, we started a playback recording of a boat motor. Each trial ended when the terrapin completed swimming a total of 60 m regardless of whether it swam straight or turned during the trial. We determined swimming speed by timing how long it took each terrapin's radio transmitter float to travel through each 10 m section. We standardized swim speed as a function of body length of each terrapin using straight carapace length (expressed as body lengths s<sup>−1</sup>). Six trials were completed per terrapin: three were sound trials where one of the four boat engine recordings was played and three were control trials were the terrapin was allowed to swim past the underwater speaker with no sound playing.</p>
+</sec><sec id="s2h">
+<title>Data Analyses</title>
+<p>We used a multivariate linear mixed-effects model to test for significant behavioral response variables (i.e., swimming speed, swimming depth, change in pitch, and change in roll) before, during, and after exposure to playback recordings. Fixed effects included treatment (sound or control), terrapin size (small or large), and time (before, during, or after sound playback). Behavioral measurements were repeated three times for each individual terrapin. We used a nested design to avoid pseudoreplication in the analysis. The within-individual repeated measurements were added as random effects including individual terrapin (n = 10) and number of trials (three trials per terrapin). We used restricted maximum likelihood (REML) to model changes in terrapin behavior in response to playback sound with the package lme4 <xref ref-type="bibr" rid="pone.0082370-Bates1">[27]</xref> in program R 2.14.0. P-values were obtained by likelihood ratio tests of the full model against the model without the effect of sound exposure.</p>
+</sec></sec><sec id="s3">
+<title>Results</title>
+<p>Eleven percent of diamondback terrapins in Edwin B. Forsythe Wildlife Refuge had substantial boat injuries (<xref ref-type="fig" rid="pone-0082370-g003">Fig. 3</xref>; n = 291 of 2,644). Mean rates of boat injury for adult female terrapins increased significantly from 2006 to 2011 (<xref ref-type="fig" rid="pone-0082370-g003">Fig. 3A</xref>; Y = 0.01 X – 22.2, R<sup>2</sup> = 0.74, P = 0.02). However, mean rates of boat injury for male terrapins did not increase over time (Y = 0.004 X – 7.4, R<sup>2</sup> = 0.10, P = 0.55). Large female (Y = 0.003 X – 0.3. R<sup>2</sup> = 0.73, P&lt;0.0001) and male (Y = 0.003 X – 0.2, R<sup>2</sup> = 0.56, P = 0.03) terrapins are more prone to boat injuries than smaller individuals of the same sex (<xref ref-type="fig" rid="pone-0082370-g003">Fig. 3B</xref>).</p>
+<fig id="pone-0082370-g003" position="float" orientation="portrait"><object-id pub-id-type="doi">10.1371/journal.pone.0082370.g003</object-id><label>Figure 3</label><caption>
+<title>Injury rates of diamondback terrapins in Barnegat Bay, New Jersey.</title>
+<p>Mean boat injury frequency increased for adult female terrapins captured in the Edwin B. Forsythe Wildlife Refuge from 2006 to 2011 (A; linear regression, Y = 0.01 X -22.2, R<sup>2</sup> = 0.74, P = 0.02). Large female (Y = 0.003 X – 0.3, R<sup>2</sup> = 0.73, P&lt;0.001) and male (Y = 0.003 X – 0.2, R<sup>2</sup> = 0.56, P = 0.03) terrapins were more likely to be injured by a boat than smaller individuals (B). The number of boat injuries resulting in death was unknown because dead animals were lost to the natural system.</p>
+</caption><graphic mimetype="image" xlink:href="info:doi/10.1371/journal.pone.0082370.g003" position="float" xlink:type="simple" orientation="portrait" /></fig>
+<p>Boat engine sounds in Barnegat Bay were in the hearing range of terrapins <xref ref-type="bibr" rid="pone.0082370-Lester1">[8]</xref> with low-frequency components with maximum sound pressure levels (SPL) between 100 and 140 dB re 1 µPa rms in the 400 to 600 Hz range (<xref ref-type="fig" rid="pone-0082370-g004">Fig. 4</xref>). When we measured spectrums of the playback recordings at 1 m from the underwater speaker, playback boat sounds had SPLs that were lower than the corresponding original recording but were still in the hearing range of diamondback terrapins (<xref ref-type="fig" rid="pone-0082370-g005">Fig. 5</xref>). At 1 m from speaker, mean SPL was 15 dB re 1 µPa rms lower than the original recording for Lowe Boat, 18 dB re 1 µPa rms for Polar Kraft, 28 re 1 µPa rms for Action Craft, and 20 re 1 µPa rms for Parker Boat. When sound was measured 10 m from the underwater speaker, the playback boat sound was no longer detectable from ambient sound in the mosquito ditch due to the shallow water causing attenuation of the sound. Thus terrapins may not be able to distinguish the boat sound from the ambient sound in the mosquito ditch when located more than 10 m from the speaker.</p>
+<fig id="pone-0082370-g004" position="float" orientation="portrait"><object-id pub-id-type="doi">10.1371/journal.pone.0082370.g004</object-id><label>Figure 4</label><caption>
+<title>Mean boat spectrums.</title>
+<p>Each terrapin was exposed to one of four different boat engine recordings: Lowe boat (9.9 hp motor), Polar Kraft boat (25 hp motor), Action Craft boat (110 hp motor), and Parker boat (two 150 hp motors). The maximum sound pressure level (SPL) recorded from each boat varied from 100 to 140 dB re 1 µPa in the 400 to 600 Hz range. The range of best hearing for terrapins (i.e., the frequencies at which terrapins can hear the lowest thresholds) underwater is also from 400 to 600 Hz suggesting that terrapins should be able to hear the boat recordings <xref ref-type="bibr" rid="pone.0082370-Lester2">[9]</xref>.</p>
+</caption><graphic mimetype="image" xlink:href="info:doi/10.1371/journal.pone.0082370.g004" position="float" xlink:type="simple" orientation="portrait" /></fig><fig id="pone-0082370-g005" position="float" orientation="portrait"><object-id pub-id-type="doi">10.1371/journal.pone.0082370.g005</object-id><label>Figure 5</label><caption>
+<title>Sound propagation in the experimental canal.</title>
+<p>We measured mean spectrums of each boat recording (A – Lowe Boat, B – Polar Kraft, C – Action Craft, D – Parker Boat) at various distances (1 m, 5 m, and 10 m) from the underwater speaker. At 1 m from the speaker, the playback boat sound was a mean SPL of 15 to 28 dB re 1 µPa less than original recording depending on which boat sound was playing. At 5 m from speaker, the playback boat sound was not detectable from ambient sound in the canal probably because the sound attenuated rapidly due to the shallow water and soft mud substrate on the sides and bottom of the mosquito ditch.</p>
+</caption><graphic mimetype="image" xlink:href="info:doi/10.1371/journal.pone.0082370.g005" position="float" xlink:type="simple" orientation="portrait" /></fig>
+<p>Terrapins did not significantly change behavior in response to playback recordings. Swimming speed did not differ before, during, or after playback recordings (<xref ref-type="table" rid="pone-0082370-t001">Table 1</xref> &amp; <xref ref-type="table" rid="pone-0082370-t002">2</xref>; p-values from 0.14 to 0.76). Mean swimming depth of terrapins varied from 0.1 m to 0.25 m but did not significantly change in response to exposure to acoustic recordings of approaching boat engines (<xref ref-type="table" rid="pone-0082370-t002">Table 2</xref> &amp; <xref ref-type="table" rid="pone-0082370-t003">3</xref>; p-values from 0.21 to 0.81). Pitch and roll varied from 3° to 5°. There were no significant differences in mean absolute value of change in pitch or roll in response to playback recordings in either size class (<xref ref-type="table" rid="pone-0082370-t002">Table 2</xref> &amp; <xref ref-type="table" rid="pone-0082370-t004">4</xref>; p-values from 0.07 to 0.70 for pitch and 0.09 to 0.73 for roll) indicating that terrapins were not making sudden or erratic movements in response to boat sounds. Since the effects of terrapin size and boat engine size on behavioral response variables were not statistically significant, analyses were redone with these fixed effect variables removed. Diamondback terrapins still did not significantly change behavior in response to playback recordings of boat engine sounds (p-values from 0.12 to 0.92).</p>
+<table-wrap id="pone-0082370-t001" position="float" orientation="portrait"><object-id pub-id-type="doi">10.1371/journal.pone.0082370.t001</object-id><label>Table 1</label><caption>
+<title>Mean swimming speed of diamondback terrapins in response to playback recordings of approaching boats.</title>
+</caption><alternatives><graphic id="pone-0082370-t001-1" position="float" mimetype="image" xlink:href="info:doi/10.1371/journal.pone.0082370.t001" xlink:type="simple" orientation="portrait" />
+<table><colgroup span="1"><col align="left" span="1" /><col align="center" span="1" /><col align="center" span="1" /><col align="center" span="1" /><col align="center" span="1" /><col align="center" span="1" /><col align="center" span="1" /><col align="center" span="1" /><col align="center" span="1" /></colgroup>
+<thead>
+<tr>
+<td align="left" rowspan="1" colspan="1" />
+<td align="left" rowspan="1" colspan="1" />
+<td align="left" rowspan="1" colspan="1" />
+<td colspan="6" align="left" rowspan="1">Swimming Speed (body lengths/s)</td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1">Motor Size (hp)</td>
+<td align="left" rowspan="1" colspan="1">Trial Type</td>
+<td align="left" rowspan="1" colspan="1">Body Size</td>
+<td align="left" rowspan="1" colspan="1">25 m</td>
+<td align="left" rowspan="1" colspan="1">15 m</td>
+<td align="left" rowspan="1" colspan="1">5 m</td>
+<td align="left" rowspan="1" colspan="1">5 m</td>
+<td align="left" rowspan="1" colspan="1">15 m</td>
+<td align="left" rowspan="1" colspan="1">25 m</td>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left" rowspan="1" colspan="1">9.9</td>
+<td align="left" rowspan="1" colspan="1">Sound</td>
+<td align="left" rowspan="1" colspan="1">Large</td>
+<td align="left" rowspan="1" colspan="1">1.68±0.05</td>
+<td align="left" rowspan="1" colspan="1">1.69±0.06</td>
+<td align="left" rowspan="1" colspan="1">1.90±0.11</td>
+<td align="left" rowspan="1" colspan="1">2.22±0.09</td>
+<td align="left" rowspan="1" colspan="1">1.97±0.06</td>
+<td align="left" rowspan="1" colspan="1">1.80±0.05</td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1" />
+<td align="left" rowspan="1" colspan="1">Control</td>
+<td align="left" rowspan="1" colspan="1">Large</td>
+<td align="left" rowspan="1" colspan="1">1.60±0.08</td>
+<td align="left" rowspan="1" colspan="1">1.88±0.09</td>
+<td align="left" rowspan="1" colspan="1">1.87±0.05</td>
+<td align="left" rowspan="1" colspan="1">2.08±0.08</td>
+<td align="left" rowspan="1" colspan="1">1.95±0.07</td>
+<td align="left" rowspan="1" colspan="1">1.65±0.07</td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1" />
+<td align="left" rowspan="1" colspan="1">Sound</td>
+<td align="left" rowspan="1" colspan="1">Small</td>
+<td align="left" rowspan="1" colspan="1">1.61±0.07</td>
+<td align="left" rowspan="1" colspan="1">1.79±0.06</td>
+<td align="left" rowspan="1" colspan="1">1.84±0.16</td>
+<td align="left" rowspan="1" colspan="1">2.13±0.19</td>
+<td align="left" rowspan="1" colspan="1">1.89±0.09</td>
+<td align="left" rowspan="1" colspan="1">1.83±0.12</td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1" />
+<td align="left" rowspan="1" colspan="1">Control</td>
+<td align="left" rowspan="1" colspan="1">Small</td>
+<td align="left" rowspan="1" colspan="1">1.74±0.07</td>
+<td align="left" rowspan="1" colspan="1">1.93±0.09</td>
+<td align="left" rowspan="1" colspan="1">1.77±0.07</td>
+<td align="left" rowspan="1" colspan="1">1.91±0.06</td>
+<td align="left" rowspan="1" colspan="1">1.74±0.05</td>
+<td align="left" rowspan="1" colspan="1">1.67±0.09</td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1">25</td>
+<td align="left" rowspan="1" colspan="1">Sound</td>
+<td align="left" rowspan="1" colspan="1">Large</td>
+<td align="left" rowspan="1" colspan="1">1.64±0.06</td>
+<td align="left" rowspan="1" colspan="1">1.60±0.08</td>
+<td align="left" rowspan="1" colspan="1">1.89±0.11</td>
+<td align="left" rowspan="1" colspan="1">1.93±0.08</td>
+<td align="left" rowspan="1" colspan="1">1.88±0.06</td>
+<td align="left" rowspan="1" colspan="1">1.73±0.10</td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1" />
+<td align="left" rowspan="1" colspan="1">Control</td>
+<td align="left" rowspan="1" colspan="1">Large</td>
+<td align="left" rowspan="1" colspan="1">1.81±0.07</td>
+<td align="left" rowspan="1" colspan="1">1.87±0.07</td>
+<td align="left" rowspan="1" colspan="1">1.79±0.06</td>
+<td align="left" rowspan="1" colspan="1">1.80±0.05</td>
+<td align="left" rowspan="1" colspan="1">1.77±0.05</td>
+<td align="left" rowspan="1" colspan="1">1.63±0.06</td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1" />
+<td align="left" rowspan="1" colspan="1">Sound</td>
+<td align="left" rowspan="1" colspan="1">Small</td>
+<td align="left" rowspan="1" colspan="1">1.79±0.08</td>
+<td align="left" rowspan="1" colspan="1">1.66±0.05</td>
+<td align="left" rowspan="1" colspan="1">1.79±0.07</td>
+<td align="left" rowspan="1" colspan="1">1.77±0.08</td>
+<td align="left" rowspan="1" colspan="1">1.77±0.10</td>
+<td align="left" rowspan="1" colspan="1">1.66±0.07</td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1" />
+<td align="left" rowspan="1" colspan="1">Control</td>
+<td align="left" rowspan="1" colspan="1">Small</td>
+<td align="left" rowspan="1" colspan="1">1.78±0.10</td>
+<td align="left" rowspan="1" colspan="1">1.73 0.06</td>
+<td align="left" rowspan="1" colspan="1">1.80±0.09</td>
+<td align="left" rowspan="1" colspan="1">1.85±0.12</td>
+<td align="left" rowspan="1" colspan="1">1.84±0.07</td>
+<td align="left" rowspan="1" colspan="1">1.79±0.19</td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1">110</td>
+<td align="left" rowspan="1" colspan="1">Sound</td>
+<td align="left" rowspan="1" colspan="1">Large</td>
+<td align="left" rowspan="1" colspan="1">1.91±0.09</td>
+<td align="left" rowspan="1" colspan="1">1.80±0.06</td>
+<td align="left" rowspan="1" colspan="1">2.02±0.10</td>
+<td align="left" rowspan="1" colspan="1">2.00±0.10</td>
+<td align="left" rowspan="1" colspan="1">1.93±0.07</td>
+<td align="left" rowspan="1" colspan="1">1.82±0.04</td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1" />
+<td align="left" rowspan="1" colspan="1">Control</td>
+<td align="left" rowspan="1" colspan="1">Large</td>
+<td align="left" rowspan="1" colspan="1">2.00±0.06</td>
+<td align="left" rowspan="1" colspan="1">1.84±0.05</td>
+<td align="left" rowspan="1" colspan="1">1.83±0.05</td>
+<td align="left" rowspan="1" colspan="1">1.84±0.06</td>
+<td align="left" rowspan="1" colspan="1">1.89±0.07</td>
+<td align="left" rowspan="1" colspan="1">1.77±0.06</td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1" />
+<td align="left" rowspan="1" colspan="1">Sound</td>
+<td align="left" rowspan="1" colspan="1">Small</td>
+<td align="left" rowspan="1" colspan="1">1.84±0.10</td>
+<td align="left" rowspan="1" colspan="1">1.72±0.09</td>
+<td align="left" rowspan="1" colspan="1">2.23±0.12</td>
+<td align="left" rowspan="1" colspan="1">1.82±0.11</td>
+<td align="left" rowspan="1" colspan="1">1.59±0.07</td>
+<td align="left" rowspan="1" colspan="1">1.67±0.09</td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1" />
+<td align="left" rowspan="1" colspan="1">Control</td>
+<td align="left" rowspan="1" colspan="1">Small</td>
+<td align="left" rowspan="1" colspan="1">1.85±0.10</td>
+<td align="left" rowspan="1" colspan="1">1.68±0.08</td>
+<td align="left" rowspan="1" colspan="1">1.81±0.14</td>
+<td align="left" rowspan="1" colspan="1">1.76±0.09</td>
+<td align="left" rowspan="1" colspan="1">1.72±0.11</td>
+<td align="left" rowspan="1" colspan="1">1.68±0.10</td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1">250</td>
+<td align="left" rowspan="1" colspan="1">Sound</td>
+<td align="left" rowspan="1" colspan="1">Large</td>
+<td align="left" rowspan="1" colspan="1">1.61±0.08</td>
+<td align="left" rowspan="1" colspan="1">1.69±0.06</td>
+<td align="left" rowspan="1" colspan="1">1.70±0.10</td>
+<td align="left" rowspan="1" colspan="1">1.86±0.08</td>
+<td align="left" rowspan="1" colspan="1">1.78±0.09</td>
+<td align="left" rowspan="1" colspan="1">1.63±0.06</td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1" />
+<td align="left" rowspan="1" colspan="1">Control</td>
+<td align="left" rowspan="1" colspan="1">Large</td>
+<td align="left" rowspan="1" colspan="1">1.56±0.08</td>
+<td align="left" rowspan="1" colspan="1">1.64±0.08</td>
+<td align="left" rowspan="1" colspan="1">1.61±0.07</td>
+<td align="left" rowspan="1" colspan="1">1.73±0.09</td>
+<td align="left" rowspan="1" colspan="1">1.89±0.11</td>
+<td align="left" rowspan="1" colspan="1">1.52±0.06</td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1" />
+<td align="left" rowspan="1" colspan="1">Sound</td>
+<td align="left" rowspan="1" colspan="1">Small</td>
+<td align="left" rowspan="1" colspan="1">1.70±0.09</td>
+<td align="left" rowspan="1" colspan="1">1.70±0.08</td>
+<td align="left" rowspan="1" colspan="1">1.87±0.19</td>
+<td align="left" rowspan="1" colspan="1">1.88±0.11</td>
+<td align="left" rowspan="1" colspan="1">1.67±0.07</td>
+<td align="left" rowspan="1" colspan="1">1.73±0.11</td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1" />
+<td align="left" rowspan="1" colspan="1">Control</td>
+<td align="left" rowspan="1" colspan="1">Small</td>
+<td align="left" rowspan="1" colspan="1">1.62 ±0.06</td>
+<td align="left" rowspan="1" colspan="1">1.70±0.09</td>
+<td align="left" rowspan="1" colspan="1">1.63±0.14</td>
+<td align="left" rowspan="1" colspan="1">1.81±0.15</td>
+<td align="left" rowspan="1" colspan="1">1.66±0.08</td>
+<td align="left" rowspan="1" colspan="1">1.76±0.13</td>
+</tr>
+</tbody>
+</table>
+</alternatives><table-wrap-foot><fn id="nt101"><p><sup /> Small (400 to 600 g) and large (1000 to 1200 g) terrapins were exposed to playback recordings of approaching recreational boats during sound trials and no sound during control trials. Swimming speed was measured for each terrapin every 10 m through the 60 m experimental canal and standardized by body length. One of four playback recordings was started when each terrapin was 10 m from the underwater speaker.</p></fn></table-wrap-foot></table-wrap><table-wrap id="pone-0082370-t002" position="float" orientation="portrait"><object-id pub-id-type="doi">10.1371/journal.pone.0082370.t002</object-id><label>Table 2</label><caption>
+<title>Summary statistics for terrapin behavioral response to playback recordings of boat engine sounds.</title>
+</caption><alternatives><graphic id="pone-0082370-t002-2" position="float" mimetype="image" xlink:href="info:doi/10.1371/journal.pone.0082370.t002" xlink:type="simple" orientation="portrait" />
+<table><colgroup span="1"><col align="left" span="1" /><col align="center" span="1" /><col align="center" span="1" /><col align="center" span="1" /><col align="center" span="1" /></colgroup>
+<thead>
+<tr>
+<td align="left" rowspan="1" colspan="1" />
+<td colspan="2" align="left" rowspan="1">F-value</td>
+<td align="left" rowspan="1" colspan="1">d.f.</td>
+<td align="left" rowspan="1" colspan="1">P-value</td>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left" rowspan="1" colspan="1"><bold>Motor Size (hp)</bold></td>
+<td colspan="4" align="left" rowspan="1"><bold>Mean Swimming Speed (body lengths/s)</bold></td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1">9.9</td>
+<td align="left" rowspan="1" colspan="1">7.92</td>
+<td colspan="2" align="left" rowspan="1">4,9</td>
+<td align="left" rowspan="1" colspan="1">0.76</td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1">25</td>
+<td align="left" rowspan="1" colspan="1">4.14</td>
+<td colspan="2" align="left" rowspan="1">4,9</td>
+<td align="left" rowspan="1" colspan="1">0.56</td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1">110</td>
+<td align="left" rowspan="1" colspan="1">1.49</td>
+<td colspan="2" align="left" rowspan="1">4,9</td>
+<td align="left" rowspan="1" colspan="1">0.14</td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1">250</td>
+<td align="left" rowspan="1" colspan="1">2.08</td>
+<td colspan="2" align="left" rowspan="1">4,9</td>
+<td align="left" rowspan="1" colspan="1">0.74</td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1" />
+<td colspan="4" align="left" rowspan="1"><bold>Mean Swimming Depth (m)</bold></td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1">9.9</td>
+<td align="left" rowspan="1" colspan="1">2.48</td>
+<td colspan="2" align="left" rowspan="1">4,11</td>
+<td align="left" rowspan="1" colspan="1">0.81</td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1">25</td>
+<td align="left" rowspan="1" colspan="1">1.42</td>
+<td colspan="2" align="left" rowspan="1">4,11</td>
+<td align="left" rowspan="1" colspan="1">0.54</td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1">110</td>
+<td align="left" rowspan="1" colspan="1">1.02</td>
+<td colspan="2" align="left" rowspan="1">4,11</td>
+<td align="left" rowspan="1" colspan="1">0.21</td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1">250</td>
+<td align="left" rowspan="1" colspan="1">1.23</td>
+<td colspan="2" align="left" rowspan="1">4,11</td>
+<td align="left" rowspan="1" colspan="1">0.74</td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1" />
+<td colspan="4" align="left" rowspan="1"><bold>Mean Change in Pitch (°)</bold></td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1">9.9</td>
+<td align="left" rowspan="1" colspan="1">1.61</td>
+<td colspan="2" align="left" rowspan="1">4,6</td>
+<td align="left" rowspan="1" colspan="1">0.29</td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1">25</td>
+<td align="left" rowspan="1" colspan="1">1.25</td>
+<td colspan="2" align="left" rowspan="1">4,6</td>
+<td align="left" rowspan="1" colspan="1">0.70</td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1">110</td>
+<td align="left" rowspan="1" colspan="1">0.72</td>
+<td colspan="2" align="left" rowspan="1">4,6</td>
+<td align="left" rowspan="1" colspan="1">0.17</td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1">250</td>
+<td align="left" rowspan="1" colspan="1">1.89</td>
+<td colspan="2" align="left" rowspan="1">4,6</td>
+<td align="left" rowspan="1" colspan="1">0.07</td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1" />
+<td colspan="4" align="left" rowspan="1"><bold>Mean Change in Roll (°)</bold></td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1">9.9</td>
+<td align="left" rowspan="1" colspan="1">2.31</td>
+<td colspan="2" align="left" rowspan="1">4,6</td>
+<td align="left" rowspan="1" colspan="1">0.61</td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1">25</td>
+<td align="left" rowspan="1" colspan="1">0.29</td>
+<td colspan="2" align="left" rowspan="1">4,6</td>
+<td align="left" rowspan="1" colspan="1">0.49</td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1">110</td>
+<td align="left" rowspan="1" colspan="1">0.05</td>
+<td colspan="2" align="left" rowspan="1">4,6</td>
+<td align="left" rowspan="1" colspan="1">0.73</td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1">250</td>
+<td align="left" rowspan="1" colspan="1">0.11</td>
+<td colspan="2" align="left" rowspan="1">4,6</td>
+<td align="left" rowspan="1" colspan="1">0.39</td>
+</tr>
+</tbody>
+</table>
+</alternatives><table-wrap-foot><fn id="nt102"><p><sup /> Diamondback terrapin behavioral response variables (swimming speed, swimming depth, change in pitch, and change in roll) were tested in a mixed effects model to see if behaviors changed between times when sound was being played and times when sound was absent. Terrapins did not significantly change any behavior in response to playback recordings.</p></fn></table-wrap-foot></table-wrap><table-wrap id="pone-0082370-t003" position="float" orientation="portrait"><object-id pub-id-type="doi">10.1371/journal.pone.0082370.t003</object-id><label>Table 3</label><caption>
+<title>Mean swimming depth of diamondback terrapins in response to boat engine sounds.</title>
+</caption><alternatives><graphic id="pone-0082370-t003-3" position="float" mimetype="image" xlink:href="info:doi/10.1371/journal.pone.0082370.t003" xlink:type="simple" orientation="portrait" />
+<table><colgroup span="1"><col align="left" span="1" /><col align="center" span="1" /><col align="center" span="1" /><col align="center" span="1" /><col align="center" span="1" /><col align="center" span="1" /><col align="center" span="1" /><col align="center" span="1" /><col align="center" span="1" /><col align="center" span="1" /><col align="center" span="1" /></colgroup>
+<thead>
+<tr>
+<td align="left" rowspan="1" colspan="1" />
+<td align="left" rowspan="1" colspan="1" />
+<td align="left" rowspan="1" colspan="1" />
+<td colspan="8" align="left" rowspan="1">Mean Swimming Depth (m)±1 SE</td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1">Motor Size (hp)</td>
+<td align="left" rowspan="1" colspan="1">Trial Type</td>
+<td align="left" rowspan="1" colspan="1">Body Size</td>
+<td align="left" rowspan="1" colspan="1">15 s</td>
+<td align="left" rowspan="1" colspan="1">30 s</td>
+<td align="left" rowspan="1" colspan="1">45 s</td>
+<td align="left" rowspan="1" colspan="1">60 s</td>
+<td align="left" rowspan="1" colspan="1">75 s</td>
+<td align="left" rowspan="1" colspan="1">90 s</td>
+<td align="left" rowspan="1" colspan="1">105 s</td>
+<td align="left" rowspan="1" colspan="1">120 s</td>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left" rowspan="1" colspan="1">9.9</td>
+<td align="left" rowspan="1" colspan="1">Sound</td>
+<td align="left" rowspan="1" colspan="1">Large</td>
+<td align="left" rowspan="1" colspan="1">0.16±0.01</td>
+<td align="left" rowspan="1" colspan="1">0.16±0.01</td>
+<td align="left" rowspan="1" colspan="1">0.13±0.01</td>
+<td align="left" rowspan="1" colspan="1">0.13±0.01</td>
+<td align="left" rowspan="1" colspan="1">0.12±0.01</td>
+<td align="left" rowspan="1" colspan="1">0.13±0.01</td>
+<td align="left" rowspan="1" colspan="1">0.14±0.01</td>
+<td align="left" rowspan="1" colspan="1">0.15±0.01</td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1" />
+<td align="left" rowspan="1" colspan="1">Control</td>
+<td align="left" rowspan="1" colspan="1">Large</td>
+<td align="left" rowspan="1" colspan="1">0.14±0.01</td>
+<td align="left" rowspan="1" colspan="1">0.13±0.01</td>
+<td align="left" rowspan="1" colspan="1">0.14±0.01</td>
+<td align="left" rowspan="1" colspan="1">0.13±0.01</td>
+<td align="left" rowspan="1" colspan="1">0.13±0.01</td>
+<td align="left" rowspan="1" colspan="1">0.15±0.01</td>
+<td align="left" rowspan="1" colspan="1">0.15±0.01</td>
+<td align="left" rowspan="1" colspan="1">0.14±0.01</td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1" />
+<td align="left" rowspan="1" colspan="1">Sound</td>
+<td align="left" rowspan="1" colspan="1">Small</td>
+<td align="left" rowspan="1" colspan="1">0.12±0.01</td>
+<td align="left" rowspan="1" colspan="1">0.13±0.01</td>
+<td align="left" rowspan="1" colspan="1">0.14±0.01</td>
+<td align="left" rowspan="1" colspan="1">0.12±0.01</td>
+<td align="left" rowspan="1" colspan="1">0.11±0.01</td>
+<td align="left" rowspan="1" colspan="1">0.14±0.01</td>
+<td align="left" rowspan="1" colspan="1">0.13±0.01</td>
+<td align="left" rowspan="1" colspan="1">0.14±0.01</td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1" />
+<td align="left" rowspan="1" colspan="1">Control</td>
+<td align="left" rowspan="1" colspan="1">Small</td>
+<td align="left" rowspan="1" colspan="1">0.11±0.01</td>
+<td align="left" rowspan="1" colspan="1">0.13±0.01</td>
+<td align="left" rowspan="1" colspan="1">0.13±0.01</td>
+<td align="left" rowspan="1" colspan="1">0.12±0.01</td>
+<td align="left" rowspan="1" colspan="1">0.12±0.01</td>
+<td align="left" rowspan="1" colspan="1">0.14±0.01</td>
+<td align="left" rowspan="1" colspan="1">0.13±0.01</td>
+<td align="left" rowspan="1" colspan="1">0.13±0.01</td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1">25</td>
+<td align="left" rowspan="1" colspan="1">Sound</td>
+<td align="left" rowspan="1" colspan="1">Large</td>
+<td align="left" rowspan="1" colspan="1">0.23±0.02</td>
+<td align="left" rowspan="1" colspan="1">0.24±0.02</td>
+<td align="left" rowspan="1" colspan="1">0.23±0.02</td>
+<td align="left" rowspan="1" colspan="1">0.24±0.02</td>
+<td align="left" rowspan="1" colspan="1">0.23±0.02</td>
+<td align="left" rowspan="1" colspan="1">0.23±0.02</td>
+<td align="left" rowspan="1" colspan="1">0.24±0.02</td>
+<td align="left" rowspan="1" colspan="1">0.23±0.02</td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1" />
+<td align="left" rowspan="1" colspan="1">Control</td>
+<td align="left" rowspan="1" colspan="1">Large</td>
+<td align="left" rowspan="1" colspan="1">0.23±0.02</td>
+<td align="left" rowspan="1" colspan="1">0.23±0.02</td>
+<td align="left" rowspan="1" colspan="1">0.21±0.02</td>
+<td align="left" rowspan="1" colspan="1">0.21±0.02</td>
+<td align="left" rowspan="1" colspan="1">0.23±0.02</td>
+<td align="left" rowspan="1" colspan="1">0.22±0.02</td>
+<td align="left" rowspan="1" colspan="1">0.23±0.02</td>
+<td align="left" rowspan="1" colspan="1">0.23±0.02</td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1" />
+<td align="left" rowspan="1" colspan="1">Sound</td>
+<td align="left" rowspan="1" colspan="1">Small</td>
+<td align="left" rowspan="1" colspan="1">0.21±0.02</td>
+<td align="left" rowspan="1" colspan="1">0.21±0.02</td>
+<td align="left" rowspan="1" colspan="1">0.22±0.02</td>
+<td align="left" rowspan="1" colspan="1">0.22±0.02</td>
+<td align="left" rowspan="1" colspan="1">0.22±0.02</td>
+<td align="left" rowspan="1" colspan="1">0.23±0.02</td>
+<td align="left" rowspan="1" colspan="1">0.22±0.01</td>
+<td align="left" rowspan="1" colspan="1">0.23±0.02</td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1" />
+<td align="left" rowspan="1" colspan="1">Control</td>
+<td align="left" rowspan="1" colspan="1">Small</td>
+<td align="left" rowspan="1" colspan="1">0.24±0.02</td>
+<td align="left" rowspan="1" colspan="1">0.23±0.02</td>
+<td align="left" rowspan="1" colspan="1">0.23±0.02</td>
+<td align="left" rowspan="1" colspan="1">0.22±0.02</td>
+<td align="left" rowspan="1" colspan="1">0.22±0.02</td>
+<td align="left" rowspan="1" colspan="1">0.23±0.02</td>
+<td align="left" rowspan="1" colspan="1">0.25±0.02</td>
+<td align="left" rowspan="1" colspan="1">0.23±0.02</td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1">110</td>
+<td align="left" rowspan="1" colspan="1">Sound</td>
+<td align="left" rowspan="1" colspan="1">Large</td>
+<td align="left" rowspan="1" colspan="1">0.24±0.02</td>
+<td align="left" rowspan="1" colspan="1">0.25±0.01</td>
+<td align="left" rowspan="1" colspan="1">0.25±0.02</td>
+<td align="left" rowspan="1" colspan="1">0.24±0.02</td>
+<td align="left" rowspan="1" colspan="1">0.24±0.02</td>
+<td align="left" rowspan="1" colspan="1">0.25±0.01</td>
+<td align="left" rowspan="1" colspan="1">0.24±0.01</td>
+<td align="left" rowspan="1" colspan="1">0.25±0.01</td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1" />
+<td align="left" rowspan="1" colspan="1">Control</td>
+<td align="left" rowspan="1" colspan="1">Large</td>
+<td align="left" rowspan="1" colspan="1">0.24±0.02</td>
+<td align="left" rowspan="1" colspan="1">0.25±0.02</td>
+<td align="left" rowspan="1" colspan="1">0.25±0.02</td>
+<td align="left" rowspan="1" colspan="1">0.24±0.02</td>
+<td align="left" rowspan="1" colspan="1">0.25±0.02</td>
+<td align="left" rowspan="1" colspan="1">0.24±0.02</td>
+<td align="left" rowspan="1" colspan="1">0.23±0.02</td>
+<td align="left" rowspan="1" colspan="1">0.24±0.02</td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1" />
+<td align="left" rowspan="1" colspan="1">Sound</td>
+<td align="left" rowspan="1" colspan="1">Small</td>
+<td align="left" rowspan="1" colspan="1">0.21±0.01</td>
+<td align="left" rowspan="1" colspan="1">0.22±0.01</td>
+<td align="left" rowspan="1" colspan="1">0.23±0.01</td>
+<td align="left" rowspan="1" colspan="1">0.22±0.01</td>
+<td align="left" rowspan="1" colspan="1">0.20±0.01</td>
+<td align="left" rowspan="1" colspan="1">0.21±0.01</td>
+<td align="left" rowspan="1" colspan="1">0.23±0.02</td>
+<td align="left" rowspan="1" colspan="1">0.22±0.01</td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1" />
+<td align="left" rowspan="1" colspan="1">Control</td>
+<td align="left" rowspan="1" colspan="1">Small</td>
+<td align="left" rowspan="1" colspan="1">0.20±0.02</td>
+<td align="left" rowspan="1" colspan="1">0.19±0.02</td>
+<td align="left" rowspan="1" colspan="1">0.21±0.02</td>
+<td align="left" rowspan="1" colspan="1">0.22±0.02</td>
+<td align="left" rowspan="1" colspan="1">0.20±0.02</td>
+<td align="left" rowspan="1" colspan="1">0.21±0.02</td>
+<td align="left" rowspan="1" colspan="1">0.20±0.02</td>
+<td align="left" rowspan="1" colspan="1">0.19±0.02</td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1">250</td>
+<td align="left" rowspan="1" colspan="1">Sound</td>
+<td align="left" rowspan="1" colspan="1">Large</td>
+<td align="left" rowspan="1" colspan="1">0.18±0.02</td>
+<td align="left" rowspan="1" colspan="1">0.18±0.02</td>
+<td align="left" rowspan="1" colspan="1">0.17±0.02</td>
+<td align="left" rowspan="1" colspan="1">0.18±0.02</td>
+<td align="left" rowspan="1" colspan="1">0.16±0.02</td>
+<td align="left" rowspan="1" colspan="1">0.17±0.02</td>
+<td align="left" rowspan="1" colspan="1">0.19±0.02</td>
+<td align="left" rowspan="1" colspan="1">0.17±0.02</td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1" />
+<td align="left" rowspan="1" colspan="1">Control</td>
+<td align="left" rowspan="1" colspan="1">Large</td>
+<td align="left" rowspan="1" colspan="1">0.18±0.02</td>
+<td align="left" rowspan="1" colspan="1">0.19±0.02</td>
+<td align="left" rowspan="1" colspan="1">0.17±0.02</td>
+<td align="left" rowspan="1" colspan="1">0.18±0.02</td>
+<td align="left" rowspan="1" colspan="1">0.17±0.02</td>
+<td align="left" rowspan="1" colspan="1">0.15±0.02</td>
+<td align="left" rowspan="1" colspan="1">0.18±0.02</td>
+<td align="left" rowspan="1" colspan="1">0.17±0.02</td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1" />
+<td align="left" rowspan="1" colspan="1">Sound</td>
+<td align="left" rowspan="1" colspan="1">Small</td>
+<td align="left" rowspan="1" colspan="1">0.15±0.01</td>
+<td align="left" rowspan="1" colspan="1">0.15±0.01</td>
+<td align="left" rowspan="1" colspan="1">0.16±0.02</td>
+<td align="left" rowspan="1" colspan="1">0.14±0.01</td>
+<td align="left" rowspan="1" colspan="1">0.16±0.01</td>
+<td align="left" rowspan="1" colspan="1">0.15±0.01</td>
+<td align="left" rowspan="1" colspan="1">0.14±0.01</td>
+<td align="left" rowspan="1" colspan="1">0.16±0.01</td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1" />
+<td align="left" rowspan="1" colspan="1">Control</td>
+<td align="left" rowspan="1" colspan="1">Small</td>
+<td align="left" rowspan="1" colspan="1">0.15±0.01</td>
+<td align="left" rowspan="1" colspan="1">0.15±0.01</td>
+<td align="left" rowspan="1" colspan="1">0.16±0.01</td>
+<td align="left" rowspan="1" colspan="1">0.15±0.01</td>
+<td align="left" rowspan="1" colspan="1">0.17±0.02</td>
+<td align="left" rowspan="1" colspan="1">0.15±0.01</td>
+<td align="left" rowspan="1" colspan="1">0.15±0.01</td>
+<td align="left" rowspan="1" colspan="1">0.15±0.01</td>
+</tr>
+</tbody>
+</table>
+</alternatives><table-wrap-foot><fn id="nt103"><p> = 80) was measured before, during, and after exposure to playback recordings of boat engine sounds using a milli-L temperature and depth data logger. Terrapins did not behaviorally respond to boat sounds by changing swimming depth.<sup /> Swimming depth of terrapins (n</p></fn></table-wrap-foot></table-wrap><table-wrap id="pone-0082370-t004" position="float" orientation="portrait"><object-id pub-id-type="doi">10.1371/journal.pone.0082370.t004</object-id><label>Table 4</label><caption>
+<title>Mean change in orientation of terrapins in the water in response to playback recordings of boat sounds.</title>
+</caption><alternatives><graphic id="pone-0082370-t004-4" position="float" mimetype="image" xlink:href="info:doi/10.1371/journal.pone.0082370.t004" xlink:type="simple" orientation="portrait" />
+<table><colgroup span="1"><col align="left" span="1" /><col align="center" span="1" /><col align="center" span="1" /><col align="center" span="1" /><col align="center" span="1" /><col align="center" span="1" /><col align="center" span="1" /><col align="center" span="1" /><col align="center" span="1" /></colgroup>
+<thead>
+<tr>
+<td align="left" rowspan="1" colspan="1" />
+<td align="left" rowspan="1" colspan="1" />
+<td align="left" rowspan="1" colspan="1" />
+<td colspan="3" align="left" rowspan="1">Mean Change in Pitch (°)± 1 SE</td>
+<td colspan="3" align="left" rowspan="1">Mean Change in Roll (°)± 1 SE</td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1">Motor Size (hp)</td>
+<td align="left" rowspan="1" colspan="1">Trial Type</td>
+<td align="left" rowspan="1" colspan="1">Body Size</td>
+<td align="left" rowspan="1" colspan="1">Before</td>
+<td align="left" rowspan="1" colspan="1">During</td>
+<td align="left" rowspan="1" colspan="1">After</td>
+<td align="left" rowspan="1" colspan="1">Before</td>
+<td align="left" rowspan="1" colspan="1">During</td>
+<td align="left" rowspan="1" colspan="1">After</td>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left" rowspan="1" colspan="1">9.9</td>
+<td align="left" rowspan="1" colspan="1">Sound</td>
+<td align="left" rowspan="1" colspan="1">Large</td>
+<td align="left" rowspan="1" colspan="1">5.69±0.59</td>
+<td align="left" rowspan="1" colspan="1">6.15±0.48</td>
+<td align="left" rowspan="1" colspan="1">5.49±0.50</td>
+<td align="left" rowspan="1" colspan="1">6.67±0.98</td>
+<td align="left" rowspan="1" colspan="1">6.22±0.32</td>
+<td align="left" rowspan="1" colspan="1">5.97±0.49</td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1" />
+<td align="left" rowspan="1" colspan="1">Control</td>
+<td align="left" rowspan="1" colspan="1">Large</td>
+<td align="left" rowspan="1" colspan="1">3.62±0.38</td>
+<td align="left" rowspan="1" colspan="1">3.06±0.14</td>
+<td align="left" rowspan="1" colspan="1">3.55±0.22</td>
+<td align="left" rowspan="1" colspan="1">3.44±0.31</td>
+<td align="left" rowspan="1" colspan="1">3.30±0.09</td>
+<td align="left" rowspan="1" colspan="1">3.58±0.19</td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1" />
+<td align="left" rowspan="1" colspan="1">Sound</td>
+<td align="left" rowspan="1" colspan="1">Small</td>
+<td align="left" rowspan="1" colspan="1">4.77±0.37</td>
+<td align="left" rowspan="1" colspan="1">5.32±0.40</td>
+<td align="left" rowspan="1" colspan="1">5.54±0.31</td>
+<td align="left" rowspan="1" colspan="1">5.59±0.25</td>
+<td align="left" rowspan="1" colspan="1">6.37±0.35</td>
+<td align="left" rowspan="1" colspan="1">6.24±0.45</td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1" />
+<td align="left" rowspan="1" colspan="1">Control</td>
+<td align="left" rowspan="1" colspan="1">Small</td>
+<td align="left" rowspan="1" colspan="1">3.67±0.32</td>
+<td align="left" rowspan="1" colspan="1">3.28±0.21</td>
+<td align="left" rowspan="1" colspan="1">3.55±0.19</td>
+<td align="left" rowspan="1" colspan="1">3.95±0.42</td>
+<td align="left" rowspan="1" colspan="1">3.34±0.20</td>
+<td align="left" rowspan="1" colspan="1">3.31±0.13</td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1">25</td>
+<td align="left" rowspan="1" colspan="1">Sound</td>
+<td align="left" rowspan="1" colspan="1">Large</td>
+<td align="left" rowspan="1" colspan="1">3.45±0.23</td>
+<td align="left" rowspan="1" colspan="1">3.53±0.19</td>
+<td align="left" rowspan="1" colspan="1">3.96±0.43</td>
+<td align="left" rowspan="1" colspan="1">3.51±0.20</td>
+<td align="left" rowspan="1" colspan="1">3.55±0.13</td>
+<td align="left" rowspan="1" colspan="1">3.72±0.20</td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1" />
+<td align="left" rowspan="1" colspan="1">Control</td>
+<td align="left" rowspan="1" colspan="1">Large</td>
+<td align="left" rowspan="1" colspan="1">3.37±0.23</td>
+<td align="left" rowspan="1" colspan="1">3.55±0.12</td>
+<td align="left" rowspan="1" colspan="1">3.97±0.29</td>
+<td align="left" rowspan="1" colspan="1">3.29±0.28</td>
+<td align="left" rowspan="1" colspan="1">3.31±0.20</td>
+<td align="left" rowspan="1" colspan="1">3.32±0.14</td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1" />
+<td align="left" rowspan="1" colspan="1">Sound</td>
+<td align="left" rowspan="1" colspan="1">Small</td>
+<td align="left" rowspan="1" colspan="1">3.69±0.26</td>
+<td align="left" rowspan="1" colspan="1">3.64±0.34</td>
+<td align="left" rowspan="1" colspan="1">4.40±0.20</td>
+<td align="left" rowspan="1" colspan="1">3.82±0.42</td>
+<td align="left" rowspan="1" colspan="1">3.84±0.24</td>
+<td align="left" rowspan="1" colspan="1">3.87±0.25</td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1" />
+<td align="left" rowspan="1" colspan="1">Control</td>
+<td align="left" rowspan="1" colspan="1">Small</td>
+<td align="left" rowspan="1" colspan="1">4.15±0.25</td>
+<td align="left" rowspan="1" colspan="1">3.78±0.22</td>
+<td align="left" rowspan="1" colspan="1">3.84±0.36</td>
+<td align="left" rowspan="1" colspan="1">4.27±0.23</td>
+<td align="left" rowspan="1" colspan="1">4.17±0.28</td>
+<td align="left" rowspan="1" colspan="1">3.64±0.39</td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1">110</td>
+<td align="left" rowspan="1" colspan="1">Sound</td>
+<td align="left" rowspan="1" colspan="1">Large</td>
+<td align="left" rowspan="1" colspan="1">3.62±0.40</td>
+<td align="left" rowspan="1" colspan="1">3.85±0.24</td>
+<td align="left" rowspan="1" colspan="1">4.08±0.27</td>
+<td align="left" rowspan="1" colspan="1">3.94±0.22</td>
+<td align="left" rowspan="1" colspan="1">3.73±0.19</td>
+<td align="left" rowspan="1" colspan="1">4.01±0.20</td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1" />
+<td align="left" rowspan="1" colspan="1">Control</td>
+<td align="left" rowspan="1" colspan="1">Large</td>
+<td align="left" rowspan="1" colspan="1">3.89±0.26</td>
+<td align="left" rowspan="1" colspan="1">3.82±0.25</td>
+<td align="left" rowspan="1" colspan="1">4.04±0.39</td>
+<td align="left" rowspan="1" colspan="1">4.22±0.38</td>
+<td align="left" rowspan="1" colspan="1">3.83±0.19</td>
+<td align="left" rowspan="1" colspan="1">3.55±0.24</td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1" />
+<td align="left" rowspan="1" colspan="1">Sound</td>
+<td align="left" rowspan="1" colspan="1">Small</td>
+<td align="left" rowspan="1" colspan="1">4.11±0.38</td>
+<td align="left" rowspan="1" colspan="1">4.00±0.32</td>
+<td align="left" rowspan="1" colspan="1">4.88±0.41</td>
+<td align="left" rowspan="1" colspan="1">4.04±0.27</td>
+<td align="left" rowspan="1" colspan="1">3.87±0.41</td>
+<td align="left" rowspan="1" colspan="1">4.40±0.57</td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1" />
+<td align="left" rowspan="1" colspan="1">Control</td>
+<td align="left" rowspan="1" colspan="1">Small</td>
+<td align="left" rowspan="1" colspan="1">4.29±0.37</td>
+<td align="left" rowspan="1" colspan="1">4.02±0.26</td>
+<td align="left" rowspan="1" colspan="1">4.70±0.43</td>
+<td align="left" rowspan="1" colspan="1">4.63±0.49</td>
+<td align="left" rowspan="1" colspan="1">3.73±0.32</td>
+<td align="left" rowspan="1" colspan="1">3.88±0.23</td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1">250</td>
+<td align="left" rowspan="1" colspan="1">Sound</td>
+<td align="left" rowspan="1" colspan="1">Large</td>
+<td align="left" rowspan="1" colspan="1">4.27±0.59</td>
+<td align="left" rowspan="1" colspan="1">4.58±0.43</td>
+<td align="left" rowspan="1" colspan="1">4.46±0.47</td>
+<td align="left" rowspan="1" colspan="1">4.87±0.54</td>
+<td align="left" rowspan="1" colspan="1">4.81±0.65</td>
+<td align="left" rowspan="1" colspan="1">4.42±0.54</td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1" />
+<td align="left" rowspan="1" colspan="1">Control</td>
+<td align="left" rowspan="1" colspan="1">Large</td>
+<td align="left" rowspan="1" colspan="1">3.13±0.19</td>
+<td align="left" rowspan="1" colspan="1">3.39±0.22</td>
+<td align="left" rowspan="1" colspan="1">2.98±0.30</td>
+<td align="left" rowspan="1" colspan="1">3.36±0.44</td>
+<td align="left" rowspan="1" colspan="1">3.20±0.25</td>
+<td align="left" rowspan="1" colspan="1">3.08±0.22</td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1" />
+<td align="left" rowspan="1" colspan="1">Sound</td>
+<td align="left" rowspan="1" colspan="1">Small</td>
+<td align="left" rowspan="1" colspan="1">4.02±0.40</td>
+<td align="left" rowspan="1" colspan="1">4.58±0.36</td>
+<td align="left" rowspan="1" colspan="1">4.28±0.28</td>
+<td align="left" rowspan="1" colspan="1">4.34±0.40</td>
+<td align="left" rowspan="1" colspan="1">4.00±0.27</td>
+<td align="left" rowspan="1" colspan="1">4.35±0.45</td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1" />
+<td align="left" rowspan="1" colspan="1">Control</td>
+<td align="left" rowspan="1" colspan="1">Small</td>
+<td align="left" rowspan="1" colspan="1">4.06±0.28</td>
+<td align="left" rowspan="1" colspan="1">4.30±0.45</td>
+<td align="left" rowspan="1" colspan="1">4.24±0.39</td>
+<td align="left" rowspan="1" colspan="1">3.79±0.32</td>
+<td align="left" rowspan="1" colspan="1">3.82±0.23</td>
+<td align="left" rowspan="1" colspan="1">3.79±0.32</td>
+</tr>
+</tbody>
+</table>
+</alternatives><table-wrap-foot><fn id="nt104"><p> = 80) before, during, and after exposure to boat engine sounds were calculated to determine if terrapins were changing amount of sudden or erratic movements.<sup /> Mean change in pitch (x-axis) and roll (y-axis) of terrapins (n</p></fn></table-wrap-foot></table-wrap></sec><sec id="s4">
+<title>Discussion</title>
+<p>Diamondback terrapins do not behaviorally respond to playback recordings of boat engine sounds and have high rates of boat injuries suggesting that conservation measures are needed to protect viability of terrapin populations. McGregor <xref ref-type="bibr" rid="pone.0082370-McGregor1">[28]</xref> identified three reasons why significant differences in behavior are not found during playback experiments. First, the subjects may not be able to perceive the difference between control and experimental exposure. In our study, this is unlikely because terrapins physiologically respond to low-frequency sounds less than 1000 Hz <xref ref-type="bibr" rid="pone.0082370-Lester1">[8]</xref> and recreational boat engines produce low-frequency sounds within the hearing range of terrapins. Second, the variables measured may not be sensitive enough to detect a significant behavioral response <xref ref-type="bibr" rid="pone.0082370-McGregor1">[28]</xref>. This is unlikely because the depth and orientation of each terrapin were recorded every 1 s during experimental trials. Swimming speed was measured in each 10 m segment of the experimental canal through which the terrapin swam. It is possible that this variable was not sensitive enough to detect a startle response because terrapins may accelerate at shorter distances than 10 m. Third, animals may be able to detect treatment differences but their behavioral response may be the same regardless of whether or not the sound is played. Because terrapins in Barnegat Bay are exposed to high levels of recreational boating traffic <xref ref-type="bibr" rid="pone.0082370-MTA1">[29]</xref>, those used in this study may have been habituated to the sounds produced by boat engines and therefore may not respond behaviorally. Further testing using naïve terrapins may determine whether this was the case. Loggerhead and green sea turtles do not behaviorally respond to anthropogenic sounds unless the SPL of the sound exceeds 166 dB re 1 µPa rms <xref ref-type="bibr" rid="pone.0082370-McCauley1">[23]</xref>. We did not expose diamondback terrapins to boat sounds with SPLs as high as this, but we did not measure boat sounds with SPLs that high in Barnegat Bay. Nevertheless, diamondback terrapins in Barnegat Bay do not respond to boat engine sounds at SPLs that are present in their environment and thus are at risk of injury.</p>
+<p>Boat injuries were found in 11% of captured terrapins. This high injury rate only included terrapins that survived their injuries. Thus our estimates of injury rates are conservative because killed terrapins would not be included. We have observed dead terrapins washed up on nesting sites that had major carapace and plastron damage consistent with boat propeller strikes. These observations are consistent with our findings that terrapins do not significantly alter their behavior in response to sounds of approaching boats.</p>
+<p>Anthropogenic mortality has an important negative impact on freshwater turtles <xref ref-type="bibr" rid="pone.0082370-Steen1">[30]</xref> and sea turtles <xref ref-type="bibr" rid="pone.0082370-Spotila1">[31]</xref>, and can drive populations towards extinction <xref ref-type="bibr" rid="pone.0082370-Saba1">[32]</xref>–<xref ref-type="bibr" rid="pone.0082370-Congdon2">[34]</xref>. The lack of behavioral response of terrapins to the sounds of approaching boats and the probable lack of awareness of boaters to terrapins likely explain the high rate of injuries to terrapins due to boat strikes in Barnegat Bay and other North American estuaries.</p>
+<p>Turtles may use cues other than sound to alert them to anthropogenic disturbances such as oncoming boats. For example, terrapins may be able to determine whether a boat is approaching by the shadow cast into the water by the vessel or the displacement of the water by the approaching boat. Harrison <xref ref-type="bibr" rid="pone.0082370-Harrison1">[35]</xref> found that medium (833 to 895 g) and large (1067 to 1170 g) female terrapins increased their depth in water by 0.16 to 0.18 m respectively, when confronted with a moving boat. However, this change in swimming depth is likely not great enough for a terrapin to avoid contact with a boat propeller.</p>
+<p>Boat operators in Barnegat Bay and elsewhere generally do not respond to the presence of terrapins. Boaters speeding through the narrow creeks of the Forsythe National Wildlife Refuge on jet skis or motorized boats appear unaware of terrapins. The majority of boats we saw in the creeks of Forsythe Refuge during the summer months from 2008 to 2010 were personal watercrafts (PWC), small recreational boats with motors up to 150 hp, and small commercial crabbing vessels. Many boaters we observed speed through saltmarsh creeks despite posted speed limits and could easily hit terrapins because water depth is less than 0.5 m deep during low tide. From conversations, some local boat operators are not even aware that terrapins are found in Barnegat Bay.</p>
+<p>Terrapins may also travel in the open waters of Barnegat Bay <xref ref-type="bibr" rid="pone.0082370-Sheridan1">[36]</xref> where they are exposed to various boat types from sail boats to speed boats with high powered engines that attain high speeds. In the open waters of the Bay, boaters moving at moderate speeds would not likely see a terrapin in the turbid water ahead. The potential for injury to terrapins was likely very high in both tidal creeks and open bay.</p>
+<p>Diamondback terrapin populations throughout the U.S. are threatened by anthropogenic factors including drowning in crab pots <xref ref-type="bibr" rid="pone.0082370-Roosenburg1">[16]</xref>, <xref ref-type="bibr" rid="pone.0082370-Seigel1">[37]</xref>–<xref ref-type="bibr" rid="pone.0082370-Roosenburg2">[39]</xref>, mortality by automobiles while searching for nesting habitat <xref ref-type="bibr" rid="pone.0082370-Wood1">[40]</xref>, habitat destruction <xref ref-type="bibr" rid="pone.0082370-Roosenburg1">[16]</xref>, and predation by non-native predators <xref ref-type="bibr" rid="pone.0082370-Draud1">[41]</xref>. The impacts of injury and mortality of aquatic turtles caused by boats are an additional significant threat to the viability of terrapin populations. Because terrapins do not react behaviorally to boat sounds and show limited avoidance of fast approaching boats <xref ref-type="bibr" rid="pone.0082370-Harrison1">[35]</xref>, solutions to reducing anthropogenic injury and mortality must include changes to how boats are operated. We recommend that boat operators are educated to how wildlife may be impacted by boats because all states with terrapin populations require a boater education course to obtain licenses to operate a power boat in the US. Information on the ecology and behavior of terrapins and other aquatic wildlife could be included in such courses. This educational component could succeed if reinforced with regulations closing certain areas of terrapin habitat to boats in areas of high terrapin densities during their activity period. In Barnegat Bay, areas of high densities include aquatic habitat adjacent to nesting beaches during nesting season (late May to mid-July). Further research is necessary to determine other high terrapin density areas such as where mating aggregations are located. Boat wakes may also cause shoreline erosion, especially within sandy nesting beaches <xref ref-type="bibr" rid="pone.0082370-Schwimmer1">[42]</xref>. By closing areas of high terrapin density to boating, terrapins would be protected from injury and nesting habitat protected from shoreline erosion. Implementing regulations regarding motorized boat use in habitats with high turtle densities and educating boaters about impacts of boats to aquatic wildlife will be beneficial for conserving turtle populations worldwide.</p>
+</sec></body>
+<back>
+<ack>
+<p>We wish to thank Michael O'Connor (Drexel University) for his expertise in statistical analyses, and James Spotila (Drexel University) and Arthur Popper (University of Maryland) for invaluable advice and discussion regarding this manuscript.</p>
+</ack>
+<ref-list>
+<title>References</title>
+<ref id="pone.0082370-NMMA1"><label>1</label>
+<mixed-citation publication-type="other" xlink:type="simple">NMMA (2008) U.S. recreational boat registration statistics. National marine manufacturers association; NMMA, editor. Chicago, IL: Industry statistics and research.</mixed-citation>
+</ref>
+<ref id="pone.0082370-Grant1"><label>2</label>
+<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Grant</surname><given-names>PB</given-names></name>, <name name-style="western"><surname>Lewis</surname><given-names>TR</given-names></name> (<year>2010</year>) <article-title>High speed boat traffic: A risk to crocodilian populations</article-title>. <source>Herpetol Conserv Biol</source> <volume>5</volume>: <fpage>456</fpage>–<lpage>460</lpage>.</mixed-citation>
+</ref>
+<ref id="pone.0082370-Cecala1"><label>3</label>
+<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Cecala</surname><given-names>KK</given-names></name>, <name name-style="western"><surname>Gibbons</surname><given-names>JW</given-names></name>, <name name-style="western"><surname>Dorcas</surname><given-names>ME</given-names></name> (<year>2009</year>) <article-title>Ecological effects of major injuries in diamondback terrapins: Implications for conservation and management</article-title>. <source>Aquatic Conservation: Marine and Freshwater Ecosystems</source> <volume>19</volume>: <fpage>421</fpage>–<lpage>427</lpage>.</mixed-citation>
+</ref>
+<ref id="pone.0082370-Mikola1"><label>4</label>
+<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Mikola</surname><given-names>J</given-names></name>, <name name-style="western"><surname>Miettinen</surname><given-names>M</given-names></name>, <name name-style="western"><surname>Lehikoinen</surname><given-names>E</given-names></name>, <name name-style="western"><surname>Lehtilä</surname><given-names>K</given-names></name> (<year>1994</year>) <article-title>The effects of disturbance caused by boating on survival and behaviour of velvet scoter (<italic>Melanitta fusca</italic>) ducklings</article-title>. <source>Biol Conserv</source> <volume>67</volume>: <fpage>119</fpage>–<lpage>124</lpage>.</mixed-citation>
+</ref>
+<ref id="pone.0082370-MiksisOlds1"><label>5</label>
+<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Miksis-Olds</surname><given-names>JL</given-names></name>, <name name-style="western"><surname>Donaghay</surname><given-names>PL</given-names></name>, <name name-style="western"><surname>Miller</surname><given-names>JH</given-names></name>, <name name-style="western"><surname>Tyack</surname><given-names>PL</given-names></name>, <name name-style="western"><surname>Reynolds</surname><given-names>JE</given-names></name> (<year>2007</year>) <article-title>Simulated vessel approaches elicit differential responses from manatees</article-title>. <source>Mar Mamm Sci</source> <volume>23</volume>: <fpage>629</fpage>–<lpage>649</lpage>.</mixed-citation>
+</ref>
+<ref id="pone.0082370-Popper1"><label>6</label>
+<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Popper</surname><given-names>AN</given-names></name> (<year>2009</year>) <article-title>The effects of anthropogenic sources of sound on fishes</article-title>. <source>Journal of Fish Biology</source> <volume>75</volume>: <fpage>455</fpage>–<lpage>489</lpage>.</mixed-citation>
+</ref>
+<ref id="pone.0082370-Southall1"><label>7</label>
+<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Southall</surname><given-names>BL</given-names></name>, <name name-style="western"><surname>Schusterman</surname><given-names>RJ</given-names></name>, <name name-style="western"><surname>Kastak</surname><given-names>D</given-names></name> (<year>2000</year>) <article-title>Masking in three pinnipeds: Underwater, low-frequency critical ratios</article-title>. <source>J Acoust Soc Am</source> <volume>108</volume>: <fpage>1322</fpage>–<lpage>1326</lpage>.</mixed-citation>
+</ref>
+<ref id="pone.0082370-Lester1"><label>8</label>
+<mixed-citation publication-type="other" xlink:type="simple">Lester LA, Standora EA, Bien WF, Avery HW (2012) Behavioral responses of diamondback terrapins (<italic>Malaclemys terrapin</italic>) to recreational boat sounds. In: Popper AN, Hawkins A, editors. The Effects of Noise on Aquatic Life Advances in Experimental Medicine and Biology. New York: Springer. pp. 361–362.</mixed-citation>
+</ref>
+<ref id="pone.0082370-Lester2"><label>9</label>
+<mixed-citation publication-type="other" xlink:type="simple">Lester LA (2012) Direct and indirect effects of recreational boats on diamondback terrapins (<italic>Malaclemys terrapin</italic>) [Dissertation]. Philadelphia, PA: Drexel University.</mixed-citation>
+</ref>
+<ref id="pone.0082370-ChristensenDalsgaard1"><label>10</label>
+<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Christensen-Dalsgaard</surname><given-names>J</given-names></name>, <name name-style="western"><surname>Brandt</surname><given-names>C</given-names></name>, <name name-style="western"><surname>Willis</surname><given-names>KL</given-names></name>, <name name-style="western"><surname>Christensen</surname><given-names>CB</given-names></name>, <name name-style="western"><surname>Ketten</surname><given-names>D</given-names></name>, <etal>et al</etal>. (<year>2012</year>) <article-title>Specialization for underwater hearing by the tympanic middle ear of the turtle, <italic>Trachemys scripta elegans</italic></article-title>. <source>Proceedings of the Royal Society B: Biological Sciences</source> <volume>279</volume>: <fpage>2816</fpage>–<lpage>2824</lpage>.</mixed-citation>
+</ref>
+<ref id="pone.0082370-Willis1"><label>11</label>
+<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Willis</surname><given-names>KL</given-names></name>, <name name-style="western"><surname>Christensen-Dalsgaard</surname><given-names>J</given-names></name>, <name name-style="western"><surname>Ketten</surname><given-names>DR</given-names></name>, <name name-style="western"><surname>Carr</surname><given-names>CE</given-names></name> (<year>2013</year>) <article-title>Middle ear cavity morphology is consistent with an aquatic origin for testudines</article-title>. <source>PLoS ONE</source> <volume>8</volume>: <fpage>e54086</fpage>.</mixed-citation>
+</ref>
+<ref id="pone.0082370-Bartol1"><label>12</label>
+<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Bartol</surname><given-names>SM</given-names></name>, <name name-style="western"><surname>Musick</surname><given-names>JA</given-names></name>, <name name-style="western"><surname>Lenhardt</surname><given-names>ML</given-names></name> (<year>1999</year>) <article-title>Auditory evoked potentials of the loggerhead sea turtle (<italic>Caretta caretta</italic>)</article-title>. <source>Copeia</source> <volume>1999</volume>: <fpage>836</fpage>–<lpage>840</lpage>.</mixed-citation>
+</ref>
+<ref id="pone.0082370-Richardson1"><label>13</label>
+<mixed-citation publication-type="other" xlink:type="simple">Richardson WJ, Greene CRJ, Malme CI, Thomson DH (1995) Marine mammals and noise. New York: Academic Press.</mixed-citation>
+</ref>
+<ref id="pone.0082370-Butler1"><label>14</label>
+<mixed-citation publication-type="other" xlink:type="simple">Butler JA, Seigel RA, Mealey BK (2006) <italic>Malaclemys terrapin</italic> - Diamondback terrapin. In: Meylan PA, editor. Biology and Conservation of Florida Turtles: Chelonian Research Monographs pp. 279–295.</mixed-citation>
+</ref>
+<ref id="pone.0082370-Hart1"><label>15</label>
+<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Hart</surname><given-names>KM</given-names></name>, <name name-style="western"><surname>McIvor</surname><given-names>CC</given-names></name> (<year>2008</year>) <article-title>Demography and ecology of mangrove diamondback terrapins in a wilderness area of Everglades National Park, Florida, USA</article-title>. <source>Copeia</source> <volume>2008</volume>: <fpage>200</fpage>–<lpage>208</lpage>.</mixed-citation>
+</ref>
+<ref id="pone.0082370-Roosenburg1"><label>16</label>
+<mixed-citation publication-type="other" xlink:type="simple">Roosenburg WM (1991) The diamondback terrapin: Population dynamics, habitat requirements, and opportunities for conservation. In: Chaney JA, editor. New Perspectives in the Chesapeake System: A Research and Management Partnership, Proceedings of a Consortium; Solomon, MD.</mixed-citation>
+</ref>
+<ref id="pone.0082370-Heinrich1"><label>17</label>
+<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Heinrich</surname><given-names>GL</given-names></name>, <name name-style="western"><surname>Walsh</surname><given-names>TJ</given-names></name>, <name name-style="western"><surname>Jackson</surname><given-names>DR</given-names></name>, <name name-style="western"><surname>Atkinson</surname><given-names>BK</given-names></name> (<year>2012</year>) <article-title>Boat strikes: A threat to the Suwannee Cooter (<italic>Pseudemys concinna suwanniensis</italic>)</article-title>. <source>Herpetological Conseration and Biology</source> <volume>7</volume>: <fpage>349</fpage>–<lpage>357</lpage>.</mixed-citation>
+</ref>
+<ref id="pone.0082370-OHara1"><label>18</label>
+<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>O'Hara</surname><given-names>J</given-names></name>, <name name-style="western"><surname>Wilcox</surname><given-names>JR</given-names></name> (<year>1990</year>) <article-title>Avoidance responses of loggerhead turtles, <italic>Caretta caretta</italic>, to low frequency sound</article-title>. <source>Copeia</source> <volume>1990</volume>: <fpage>564</fpage>–<lpage>567</lpage>.</mixed-citation>
+</ref>
+<ref id="pone.0082370-Samuel1"><label>19</label>
+<mixed-citation publication-type="other" xlink:type="simple">Samuel Y (2004) Underwater low-frequency noise and anthropogenic disturbance in a critical sea turtle habitat [Master Thesis]. Ithaca, NY: Cornell University.</mixed-citation>
+</ref>
+<ref id="pone.0082370-Lenhardt1"><label>20</label>
+<mixed-citation publication-type="other" xlink:type="simple">Lenhardt ML (1994) Seismic and very low frequency sound induced behaviors in captive loggerhead marine turtles (<italic>Caretta caretta</italic>) In: Bjorndal KA, Bolten AB, Johnson DA, Eliazar PJ, editors; Springfield, VA. NOAA Technical Memorandum. pp. 238–241.</mixed-citation>
+</ref>
+<ref id="pone.0082370-Akamatsu1"><label>21</label>
+<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Akamatsu</surname><given-names>T</given-names></name>, <name name-style="western"><surname>Okumura</surname><given-names>T</given-names></name>, <name name-style="western"><surname>Novarini</surname><given-names>N</given-names></name>, <name name-style="western"><surname>Yan</surname><given-names>HY</given-names></name> (<year>2002</year>) <article-title>Empirical refinements applicable to the recording of fish sounds in small tanks</article-title>. <source>J Acoust Soc Am</source> <volume>112</volume>: <fpage>3073</fpage>–<lpage>3082</lpage>.</mixed-citation>
+</ref>
+<ref id="pone.0082370-Moein1"><label>22</label>
+<mixed-citation publication-type="other" xlink:type="simple">Moein SE, Musick JA, Lenhardt ML (1994) Auditory behavior of the loggerhead sea turtle (<italic>Caretta caretta</italic>). NOAA Tech. Mem. pp. 89.</mixed-citation>
+</ref>
+<ref id="pone.0082370-McCauley1"><label>23</label>
+<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>McCauley</surname><given-names>RD</given-names></name>, <name name-style="western"><surname>Fewtrell</surname><given-names>J</given-names></name>, <name name-style="western"><surname>Duncan</surname><given-names>AJ</given-names></name>, <name name-style="western"><surname>Jenner</surname><given-names>C</given-names></name>, <name name-style="western"><surname>Jenner</surname><given-names>MN</given-names></name>, <etal>et al</etal>. (<year>2000</year>) <article-title>Marine seismic surveys: A study of environmental implications</article-title>. <source>APPEA Journal</source> <volume>40</volume>: <fpage>692</fpage>–<lpage>708</lpage>.</mixed-citation>
+</ref>
+<ref id="pone.0082370-BBP1"><label>24</label>
+<mixed-citation publication-type="book" xlink:type="simple">BBP (2011) State of the bay report. Toms RiverNJ: Barnegat Bay Partnership. 74 <lpage>p.</lpage></mixed-citation>
+</ref>
+<ref id="pone.0082370-Gibbons1"><label>25</label>
+<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Gibbons</surname><given-names>JW</given-names></name>, <name name-style="western"><surname>Lovich</surname><given-names>JE</given-names></name> (<year>1990</year>) <article-title>Sexual dimorphism in turtles with emphasis on the slider turtle (<italic>Trachemys scripta</italic>)</article-title>. <source>Herpetol Monogr</source> <volume>4</volume>: <fpage>1</fpage>–<lpage>29</lpage>.</mixed-citation>
+</ref>
+<ref id="pone.0082370-Scholik1"><label>26</label>
+<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Scholik</surname><given-names>AR</given-names></name>, <name name-style="western"><surname>Yan</surname><given-names>HY</given-names></name> (<year>2002</year>) <article-title>Effects of boat engine noise on the auditory sensitivity of the fathead minnow, <italic>Pimephales promelas</italic></article-title>. <source>Environ Biol Fishes</source> <volume>63</volume>: <fpage>203</fpage>–<lpage>209</lpage>.</mixed-citation>
+</ref>
+<ref id="pone.0082370-Bates1"><label>27</label>
+<mixed-citation publication-type="other" xlink:type="simple">Bates DM, Maechler M, Bolker B (2012) lme4: Linear mixed-effects models using S4 classes. R package version.</mixed-citation>
+</ref>
+<ref id="pone.0082370-McGregor1"><label>28</label>
+<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>McGregor</surname><given-names>PK</given-names></name> (<year>2000</year>) <article-title>Playback experiments: design and analysis</article-title>. <source>Acta ethologica</source> <volume>3</volume>: <fpage>3</fpage>–<lpage>8</lpage>.</mixed-citation>
+</ref>
+<ref id="pone.0082370-MTA1"><label>29</label>
+<mixed-citation publication-type="other" xlink:type="simple">MTA (2008) Recreational boating in New Jersey: An economic impact analysis. The Marine Trade Association of New Jersey.</mixed-citation>
+</ref>
+<ref id="pone.0082370-Steen1"><label>30</label>
+<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Steen</surname><given-names>DA</given-names></name>, <name name-style="western"><surname>Gibbs</surname><given-names>JP</given-names></name> (<year>2004</year>) <article-title>Effects of roads on the structure of freshwater turtle populations</article-title>. <source>Conserv Biol</source> <volume>18</volume>: <fpage>1143</fpage>–<lpage>1148</lpage>.</mixed-citation>
+</ref>
+<ref id="pone.0082370-Spotila1"><label>31</label>
+<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Spotila</surname><given-names>JR</given-names></name>, <name name-style="western"><surname>Reina</surname><given-names>RD</given-names></name>, <name name-style="western"><surname>Steyermark</surname><given-names>AC</given-names></name>, <name name-style="western"><surname>Plotkin</surname><given-names>PT</given-names></name>, <name name-style="western"><surname>Paladino</surname><given-names>FV</given-names></name> (<year>2000</year>) <article-title>Pacific leatherback turtles face extinction</article-title>. <source>Nature</source> <volume>405</volume>: <fpage>529</fpage>–<lpage>530</lpage>.</mixed-citation>
+</ref>
+<ref id="pone.0082370-Saba1"><label>32</label>
+<mixed-citation publication-type="other" xlink:type="simple">Saba VS, Stock CA, Spotila JR, Paladino FV, Tomillo PS (2012) Projected response of an endangered marine turtle population to climate change. Nature Advance Online Publication.</mixed-citation>
+</ref>
+<ref id="pone.0082370-Congdon1"><label>33</label>
+<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Congdon</surname><given-names>JD</given-names></name>, <name name-style="western"><surname>Dunham</surname><given-names>AE</given-names></name>, <name name-style="western"><surname>van Loben Sels</surname><given-names>RC</given-names></name> (<year>1994</year>) <article-title>Demographics of common snapping turtles (<italic>Chelydra serpentina</italic>): Implications for conservation and management of long-lived organisms</article-title>. <source>Am Zool</source> <volume>34</volume>: <fpage>397</fpage>–<lpage>408</lpage>.</mixed-citation>
+</ref>
+<ref id="pone.0082370-Congdon2"><label>34</label>
+<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Congdon</surname><given-names>JD</given-names></name>, <name name-style="western"><surname>Duncan</surname><given-names>AJ</given-names></name>, <name name-style="western"><surname>van Loben Sels</surname><given-names>RC</given-names></name> (<year>1993</year>) <article-title>Delayed sexual maturity and demographics of Blanding's Turtles (<italic>Emydoidea blandingii</italic>): Implications for conservation and management of long-lived organisms</article-title>. <source>Conserv Biol</source> <volume>7</volume>: <fpage>826</fpage>–<lpage>833</lpage>.</mixed-citation>
+</ref>
+<ref id="pone.0082370-Harrison1"><label>35</label>
+<mixed-citation publication-type="other" xlink:type="simple">Harrison AS (2010) Determining behavioral responses of the northern diamondback terrapin (<italic>Malaclemys terrapin terrapin</italic>) to boat traffic [Master Thesis]. Buffalo, NY: Buffalo State College.</mixed-citation>
+</ref>
+<ref id="pone.0082370-Sheridan1"><label>36</label>
+<mixed-citation publication-type="other" xlink:type="simple">Sheridan CM (2010) Mating system and dispersal patterns in the diamondback terrapin (<italic>Malaclemys terrapin</italic>) [Dissertation]. Philadelphia, PA: Drexel University.</mixed-citation>
+</ref>
+<ref id="pone.0082370-Seigel1"><label>37</label>
+<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Seigel</surname><given-names>RA</given-names></name>, <name name-style="western"><surname>Gibbons</surname><given-names>JW</given-names></name> (<year>1995</year>) <article-title>Workshop on the ecology, status, and management of the diamondback terrapin (<italic>Malaclemys terrapin</italic>), Savannah River Ecology Laboratory, 2 August 1994: Final results and recommendations</article-title>. <source>Chelonian Conserv Biol</source> <volume>1</volume>: <fpage>240</fpage>–<lpage>243</lpage>.</mixed-citation>
+</ref>
+<ref id="pone.0082370-Bishop1"><label>38</label>
+<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Bishop</surname><given-names>JM</given-names></name> (<year>1983</year>) <article-title>Incidental capture of diamondback terrapin by crab pots</article-title>. <source>Estuaries</source> <volume>8</volume>: <fpage>426</fpage>–<lpage>430</lpage>.</mixed-citation>
+</ref>
+<ref id="pone.0082370-Roosenburg2"><label>39</label>
+<mixed-citation publication-type="other" xlink:type="simple">Roosenburg WM (2004) The impact of crab pot fisheries on terrapin (<italic>Malaclemys terarpin</italic>) populations: Where are we and where do we need to go? In: Swarth C, Roosenburg WM, Kiviat E, editors. Conservation and Ecology of Turtles of the Mid-Atlantic Region: A Symposium. Biblomania Salt Lake City, Utah. USA. </mixed-citation>
+</ref>
+<ref id="pone.0082370-Wood1"><label>40</label>
+<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Wood</surname><given-names>RC</given-names></name>, <name name-style="western"><surname>Herlands</surname><given-names>R</given-names></name> (<year>1997</year>) <article-title>Turtles and tires: The impact of roadkills on northern diamondback terrapins, <italic>Malaclemys terrapin terrapin</italic>, populations on the Cape May Peninsula, southern New Jersey</article-title>. <source>Proceedings: Conservation, Restoration, and Management of Tortoises and Turtles - An International Conference</source> <volume>1</volume>: <fpage>46</fpage>–<lpage>53</lpage>.</mixed-citation>
+</ref>
+<ref id="pone.0082370-Draud1"><label>41</label>
+<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Draud</surname><given-names>M</given-names></name>, <name name-style="western"><surname>Bossert</surname><given-names>M</given-names></name>, <name name-style="western"><surname>Zimnavoda</surname><given-names>S</given-names></name> (<year>2004</year>) <article-title>Predation on hatchling and juvenile diamondback terrapins (<italic>Malaclemys terrapin</italic>) by the Norway rat (<italic>Rattus norvegicus</italic>)</article-title>. <source>J Herpetol</source> <volume>38</volume>: <fpage>467</fpage>–<lpage>470</lpage>.</mixed-citation>
+</ref>
+<ref id="pone.0082370-Schwimmer1"><label>42</label>
+<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Schwimmer</surname><given-names>RA</given-names></name> (<year>2001</year>) <article-title>Rates and processes of marsh shoreline erosion in Rehoboth Bay, Delaware, U.S.A</article-title>. <source>J Coast Res</source> <volume>17</volume>: <fpage>672</fpage>–<lpage>683</lpage>.</mixed-citation>
+</ref>
+</ref-list></back>
+</article>

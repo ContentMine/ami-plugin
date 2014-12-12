@@ -21,6 +21,7 @@ public class SpeciesVisitor extends AbstractVisitor {
 	}
 	
 	public void visit(XMLVisitable xmlVisitable) {
+		LOG.debug("Visitable: "+xmlVisitable.toString());
 		doVisit(xmlVisitable);
 	}
 

@@ -1,0 +1,643 @@
+<article xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" article-type="research-article" dtd-version="3.0" xml:lang="en">
+<front>
+<journal-meta>
+<journal-id journal-id-type="nlm-ta">PLoS ONE</journal-id>
+<journal-id journal-id-type="publisher-id">plos</journal-id>
+<journal-id journal-id-type="pmc">plosone</journal-id><journal-title-group>
+<journal-title xml:lang="en">PLoS ONE</journal-title></journal-title-group>
+<issn pub-type="epub">1932-6203</issn>
+<publisher>
+<publisher-name>Public Library of Science</publisher-name>
+<publisher-loc>San Francisco, USA</publisher-loc></publisher>
+</journal-meta>
+<article-meta>
+<article-id pub-id-type="publisher-id">PONE-D-13-07352</article-id>
+<article-id pub-id-type="doi">10.1371/journal.pone.0082047</article-id>
+<article-categories><subj-group subj-group-type="heading"><subject>Research Article</subject></subj-group></article-categories>
+<title-group>
+<article-title><italic>Streptococcus pneumoniae</italic> from Palestinian Nasopharyngeal Carriers: Serotype Distribution and Antimicrobial Resistance</article-title>
+<alt-title alt-title-type="running-head"><italic>S. pneumoniae</italic> Serotypes in Palestine</alt-title>
+</title-group>
+<contrib-group>
+<contrib contrib-type="author" equal-contrib="yes" xlink:type="simple"><name name-style="western"><surname>Nasereddin</surname><given-names>Abedelmajeed</given-names></name><xref ref-type="aff" rid="aff1"><sup>1</sup></xref><xref ref-type="corresp" rid="cor1"><sup>*</sup></xref></contrib>
+<contrib contrib-type="author" equal-contrib="yes" xlink:type="simple"><name name-style="western"><surname>Shtayeh</surname><given-names>Issa</given-names></name><xref ref-type="aff" rid="aff2"><sup>2</sup></xref></contrib>
+<contrib contrib-type="author" xlink:type="simple"><name name-style="western"><surname>Ramlawi</surname><given-names>Asad</given-names></name><xref ref-type="aff" rid="aff2"><sup>2</sup></xref><xref ref-type="corresp" rid="cor1"><sup>*</sup></xref></contrib>
+<contrib contrib-type="author" xlink:type="simple"><name name-style="western"><surname>Salman</surname><given-names>Nisreen</given-names></name><xref ref-type="aff" rid="aff2"><sup>2</sup></xref></contrib>
+<contrib contrib-type="author" xlink:type="simple"><name name-style="western"><surname>Salem</surname><given-names>Ibrahim</given-names></name><xref ref-type="aff" rid="aff2"><sup>2</sup></xref></contrib>
+<contrib contrib-type="author" xlink:type="simple"><name name-style="western"><surname>Abdeen</surname><given-names>Ziad</given-names></name><xref ref-type="aff" rid="aff1"><sup>1</sup></xref></contrib>
+</contrib-group>
+<aff id="aff1"><label>1</label><addr-line>Al-Quds Nutrition and Health Research Institute, Faculty of Medicine, Al-Quds University, Abu-Deis, The West Bank, Palestine</addr-line></aff>
+<aff id="aff2"><label>2</label><addr-line>Central Public Health Laboratory, Palestinian Ministry of Health, Ramallah, Palestine</addr-line></aff>
+<contrib-group>
+<contrib contrib-type="editor" xlink:type="simple"><name name-style="western"><surname>de Lencastre</surname><given-names>Herminia</given-names></name>
+<role>Editor</role>
+<xref ref-type="aff" rid="edit1" /></contrib>
+</contrib-group>
+<aff id="edit1"><addr-line>Rockefeller University, United States of America</addr-line></aff>
+<author-notes>
+<corresp id="cor1">* E-mail: <email xlink:type="simple">abedn@ekmd.huji.ac.il</email> (AN); <email xlink:type="simple">ramlawi_asad@hotmail.com</email> (AR)</corresp>
+<fn fn-type="conflict"><p>This study was funded by The Arab Company for Drug Industries &amp; Medical Appliances, Palestine and as mentioned previously, the funders had no role in study design, data collection and analysis, decision to publish, or preparation of the manuscript. The company is not related to any employment, consultancy, patents, products in development or marketed products etc. that could be related to the manuscript. The authors also confirm that this does not alter their adherence to all the PLOS ONE policies on sharing data and materials, as detailed online in PLOS ONE guide for authors.</p></fn>
+<fn fn-type="con"><p>Conceived and designed the experiments: AN AR ZA. Performed the experiments: AN ISH NS. Analyzed the data: AN ISH NS. Contributed reagents/materials/analysis tools: AN ZA NS. Wrote the paper: AN IS.</p></fn>
+</author-notes>
+<pub-date pub-type="collection"><year>2013</year></pub-date>
+<pub-date pub-type="epub"><day>10</day><month>12</month><year>2013</year></pub-date>
+<volume>8</volume>
+<issue>12</issue>
+<elocation-id>e82047</elocation-id>
+<history>
+<date date-type="received"><day>18</day><month>2</month><year>2013</year></date>
+<date date-type="accepted"><day>29</day><month>10</month><year>2013</year></date>
+</history>
+<permissions>
+<copyright-year>2013</copyright-year>
+<copyright-holder>Nasereddin et al</copyright-holder><license xlink:href="http://creativecommons.org/licenses/by/3.0/" xlink:type="simple"><license-p>This is an open-access article distributed under the terms of the <ext-link ext-link-type="uri" xlink:href="http://creativecommons.org/licenses/by/3.0/" xlink:type="simple">Creative Commons Attribution License</ext-link>, which permits unrestricted use, distribution, and reproduction in any medium, provided the original author and source are credited.</license-p></license></permissions>
+<abstract>
+<p>Infections of <italic>Streptococcus pneumoniae</italic> in children can be prevented by vaccination; left untreated, they cause high morbidity and fatalities. This study aimed at determining the nasopharyngeal carrier rates, serotype distribution and antimicrobial resistance patterns of <italic>S. pneumoniae</italic> in healthy Palestinian children under age two prior to the full introduction of the pneumococcal 7-valent conjugate vaccine (PCV7), which was originally introduced into Palestine in a pilot trial in September, 2010. In a cross sectional study, nasopharyngeal specimens were collected from 397 healthy children from different Palestinian districts between the beginning of November 2012 to the end of January 2013. Samples were inoculated into blood agar and suspected colonies were examined by amplifying the pneumococcal-specific autolysin gene using a real-time PCR. Serotypes were identified by a PCR that incorporated different sets of specific primers. Antimicrobial susceptibility was measured by disk diffusion and MIC methods. The resulting carrier rate of <italic>Streptococcus pneumoniae</italic> was 55.7% (221/397). The main serotypes were PCV7 serotypes 19F (12.2%), 23F (9.0%), 6B (8.6%) and 14 (4%) and PCV13 serotypes 6A (13.6%) and 19A (4.1%). Notably, serotype 6A, not included in the pilot trial (PCV7) vaccine, was the most prevalent. Resistance to more than two drugs was observed for bacteria from 34.1% of the children (72/211) while 22.3% (47/211) carried bacteria were susceptible to all tested antibiotics. All the isolates were sensitive to cefotaxime and vancomycin.</p>
+<p>Any or all of these might impinge on the type and efficacy of the pneumococcal conjugate vaccines and antibiotics to be used for prevention and treatment of pneumococcal disease in the country.</p>
+</abstract>
+<funding-group><funding-statement>The study was funded by The Arab Company for Drug Industries &amp; Medical Appliances, Palestine. The funders had no role in study design, data collection and analysis, decision to publish, or preparation of the manuscript.</funding-statement></funding-group><counts><page-count count="7" /></counts></article-meta>
+</front>
+<body><sec id="s1">
+<title>Introduction</title>
+<p>Pneumococcal infection caused by <italic>Streptococcus pneumoniae</italic> is a major contributor to morbidity and the main cause of deaths preventable by vaccination in children under age five worldwide <xref ref-type="bibr" rid="pone.0082047-Brugger1">[1]</xref>, <xref ref-type="bibr" rid="pone.0082047-Dagan1">[2]</xref>. The World Health Organization (WHO) estimates that more than one million children die of pneumococcal disease in developing countries every year <xref ref-type="bibr" rid="pone.0082047-WHO1">[3]</xref>. The range of pneumococcal infections is wide and often preceded by an asymptomatic carrier state, in the nasopharynx, mainly in pre-school children <xref ref-type="bibr" rid="pone.0082047-OBrien1">[4]</xref>. The presence of <italic>S. pneumoniae</italic> in the nasopharynx of healthy children is indicative of the strains circulating and causing infections in the community, and has often been reported as being a precursor to waves of invasive disease and a major factor in the spread of infection <xref ref-type="bibr" rid="pone.0082047-Cardozo1">[5]</xref>–<xref ref-type="bibr" rid="pone.0082047-Malfroot1">[7]</xref>.</p>
+<p>Currently, more than 90 distinct serotypes of <italic>S. pneumoniae</italic> have been described, based on the structure of the capsular polysaccharides, which are considered to be the major virulence factors <xref ref-type="bibr" rid="pone.0082047-Sjostrom1">[8]</xref>–<xref ref-type="bibr" rid="pone.0082047-kamerling1">[10]</xref>. Only some of the serotypes cause disease and, of those that do, some have a greater capacity to invade and cause bacteraemias. Others are more frequently associated with respiratory tract disease without a bacteraemia, while still others remain limited to the nasopharynx, bacteria lacking a polysaccharide capsule rarely cause invasive disease <xref ref-type="bibr" rid="pone.0082047-Melin1">[11]</xref>.</p>
+<p>Prevention of infections caused by <italic>S. pneumoniae</italic> and their spread in young children is such an important goal of effective vaccination that new vaccines have been developed to achieve this. In 2007, the WHO recommended that pneumococcal conjugate vaccine 7 (PCV7), which contains the polysaccharides of the serotypes 4, 6B, 9V, 14, 18C, 19F and 23F, be used in national immunization programs (NIP) <xref ref-type="bibr" rid="pone.0082047-WHO1">[3]</xref>. Two more PCVs were recently introduced: PCV10, which contains the polysaccharides of the serotypes 1, 5, and 7F in addition to the serotypes of PCV7, and PCV13, which contains the polysaccharides of the serotypes 3, 6A, and 19A in addition to the serotypes of PCV10 <xref ref-type="bibr" rid="pone.0082047-Hicks1">[12]</xref>, <xref ref-type="bibr" rid="pone.0082047-McIntosh1">[13]</xref>. PCVs of higher valence provide broader serotype coverage <xref ref-type="bibr" rid="pone.0082047-Harboe1">[14]</xref>, <xref ref-type="bibr" rid="pone.0082047-Kaltoft1">[15]</xref>. The use of PCVs in young children creates herd immunity by reducing transmission and, thus, circulation of the bacterial serotypes opposed by the vaccine, leading to a decrease in invasive pneumococcal disease (IPD) in the population <xref ref-type="bibr" rid="pone.0082047-Sahni1">[16]</xref>, <xref ref-type="bibr" rid="pone.0082047-Aristegui1">[17]</xref>.</p>
+<p>Treatment of pneumococcal infections is becoming more difficult owing to the emergence of antibiotic-resistant pneumococci. Studies on serotype distribution and their antibiotic sensitivities are necessary for planning rational national strategies for preventing and treating IPD <xref ref-type="bibr" rid="pone.0082047-Lin1">[6]</xref>. Surveillance of pneumococcal diseases according to bacterial serotypes is essential, to learn about the current serotype distribution and to observe the efficacy of PCVs by following the dynamics of bacterial serotypes in the population, following the introduction of vaccination. Several studies have reported regional and temporal changes in the distribution of bacterial serotypes after the application of PCVs <xref ref-type="bibr" rid="pone.0082047-Feikin1">[18]</xref>, <xref ref-type="bibr" rid="pone.0082047-Jacobs1">[19]</xref>.</p>
+<p>Kattan et al. <xref ref-type="bibr" rid="pone.0082047-Kattan1">[20]</xref> described the distribution of invasive <italic>S. pneumoniae</italic> from two Palestinian hospitals where bacteria of serotypes 6, 14, 1, and 9V predominated. The serotypes within serogroup 6 were not determined, however, it is important to identify the serotypes within serogroups such as serogroup 6 as serotype 6B polysaccharide is in PCV7 while serotypes 6A and 6C are not.</p>
+<p>Following an introductory trial of the PCV7 vaccine in a pilot study in the Hebron, Bethlehem, Jericho and Tubas districts in September 2010, this study was done to determine the rate of nasopharyngeal pneumococcal infection in healthy children, identify the serotypes of the circulating strains of <italic>S. pneumoniae</italic> and determine their antibiotic susceptibilities.</p>
+</sec><sec id="s2" sec-type="materials|methods">
+<title>Materials and Methods</title>
+<p>In this cross-sectional study, 197 female and 200 male healthy children more than two years old, attending the West Bank primary health care centers was examined. The children were selected according to their vaccination cards and distribution in different regions per district such that the number of participants per district was proportional to the size of the district population. Health workers contacted parents using the phone number inscribed on vaccination cards. The study was conducted from November 2012 through January 2013. After obtaining informed parental written consent, members of the study team examined each child and documented relevant data on a pre-designed questionnaire that requested the age, gender, district, location of residence, and whether the child had been vaccinated with PCV7 or not, and, if vaccinated, giving the number of doses. The Ethics Research Committee of Al-Quds University and Palestinian Ministry of Health in Ramallah approved all the study activities, including the written informed consent. Nasopharyngeal specimens were taken in the health care centers by a well-trained physician, who used extra-thin flexible flocked swabs, which were immediately transferred into Amies transport media tubes (Copan Diagnostics Inc, Murrieta, CA, USA) that were transported to the Central Public Health Laboratory (CPHL) in Ramallah within 2 h for the isolation, identification, serotyping and in vitro testing of antimicrobial susceptibility of <italic>S. pneumoniae</italic>.</p>
+<sec id="s2a">
+<title>Pneumococcal isolate detection and identification</title>
+<p>On arrival at the CPHL, swabs were streaked onto plates containing 5% sheep blood and 5 µg/ml gentamicin (Fluka). Plates were incubated for 18 to 24 h at 37°C in candle jars. Potential colonies of <italic>S. pneumoniae</italic> were carefully selected by colonial morphology and alpha-hemolysis, and confirmed by Gram staining and susceptibility to optochin (Himedia Laboratories Pvt. Ltd, India) (inhibition zone &gt;14 mm). Samples were also examined with a Real Time PCR-based method for the pneumococcal-specific autolysin gene (lytA), of which the primer and probe sequences were as described by McAvin et al. <xref ref-type="bibr" rid="pone.0082047-McAvin1">[21]</xref>.</p>
+<p>The same nasopharyngeal flocked swabs were also inoculated into cryotubes containing 1.0 ml of skim milk, tryptone, glucose, glycerol (STGG) transport medium. To store isolates, each recovered pneumococcal isolate was sub-cultured on blood agar. The single colonies were then removed using sterile cotton swabs and, put into labelled cryotubes containing 1.0 ml STGG medium, and stored at −70°C until tested for serotype and antimicrobial susceptibility. Cultures were also lyophilized in skimmed milk and stored at −70°C.</p>
+</sec><sec id="s2b">
+<title>In vitro susceptibility testing</title>
+<p>Testing the susceptibility of the strains of <italic>S. pneumoniae</italic> to penicillin (oxacillin) (1 µg), erythromycin (15 µg), trimethoprim–sulfamethoxazole (25 µg) and vancomycin (30 µg) (Oxoid Ltd, UK) was done according to Kirby Bauer, using a disk diffusion method on Mueller Hinton agar enriched with 5% sheep blood. Susceptibility to penicillin was also determined by E-test Antimicrobial Minimum Inhibitory Concentrations (MICs) as it was for cefotaxime. MICs and Disk Diffusion breakpoints used in this study were interpreted according to Clinical Laboratory Standards Institute (CLSI) guidelines <xref ref-type="bibr" rid="pone.0082047-CLSI1">[22]</xref>. All isolates of <italic>S. pneumoniae</italic> suspected of being penicillin resistant (oxacillin susceptibility: disk diffusion method &lt;20 mm) were tested further for penicillin MICs by the E-test strip method according to the manufacturer's instructions (Oxoid). Penicillin G and Cefotaxime strains of <italic>S. pneumoniae</italic> were defined as isolates with a MIC ≥2 µg/ml as resistant, 0.12 µg/ml as intermediate resistance, and ≤0.06 µg/ml as susceptible.</p>
+</sec><sec id="s2c">
+<title>DNA extraction</title>
+<p>Streptococcal DNA was extracted from the cultured bacteria using the CDC protocol (<ext-link ext-link-type="uri" xlink:href="http://www.cdc.gov/ncidod/biotech/strep/pcr.htm" xlink:type="simple">http://www.cdc.gov/ncidod/biotech/strep/pcr.htm</ext-link>).</p>
+<sec id="s2c1">
+<title>Real-time PCR for <italic>lytA</italic></title>
+<p>The real-time PCR assay was carried out on a final reaction volume of 25 µl and performed using Eurogentec qPCR Master Mix (Eurogentec, Seraing, Belgium), containing low ROX as a passive reference, according to the manufacturer instructions, and 5 µl of DNA sample was used in each reaction. The primers and probe concentrations were 0.2 µM for each one. No template control (NTC) and <italic>S. pneumoniae</italic>-positive DNA control were included in each run. Amplification was done in the 7500 Real Time PCR system (Applied Biosystems) under the following PCR conditions: 95°C for 10 min, followed by 40 cycles of 95°C for 15 s and 60°C for 1 min.</p>
+</sec></sec><sec id="s2d">
+<title>Capsular Serotyping</title>
+<p>Serotyping of the isolates of <italic>S. pneumoniae</italic> was performed by a sequential multiplex PCR assay, using a set of primers targeting different serotype specific sequences as described by Pai et al <xref ref-type="bibr" rid="pone.0082047-Pai1">[23]</xref>. The serotypes tested included 1, 3, 4, 5, 6A/B/C/D, 7C/7B/40, 7F/7A, 9V/9A, 9N/9L, 10A, 11A/11D, 12F/12A/44/46, 13, 14, 15A/15F, 15B/15C, 18 (A/B/C/F), 19A, 19F, 20, 21, 22F/22A, 23A, 23F, 24(A/B/F), 33F/33A/37, 34, 35B, 35F/47F, 38/25F/25A. All other serotypes were classified as nontypeable.</p>
+</sec><sec id="s2e">
+<title>Differentiation of the serogroup subtypes 6A/C and 6B of <italic>S. pneumoniae</italic></title>
+<p>Forty-nine isolates identified by the sequential multiplex PCR assay of <italic>S. pneumoniae</italic> belonged to the serogroup 6. It was important to identify the subtype 6A/C of the serogroup 6 since it is not included in the PCV7 vaccine. In addition, the published method for differentiating serogroup 6 subtypes requires a laborious and sophisticated effort so we introduced the restriction fragment length polymorphism (RFLP) method to distinguish serotype 6A/C from serotype B. The PCR method described by Jin et al. <xref ref-type="bibr" rid="pone.0082047-Jin1">[24]</xref> to reveal sub-serotype specificity, using G584A polymorphism as a target, did not expose the specificity they described in our hands.</p>
+<p>The universal reverse primer (wciP-r) of Jin et al. <xref ref-type="bibr" rid="pone.0082047-Jin1">[24]</xref> was used. The new forward primer (ForSeq) given below was designed to amplify the region covering the entire single nucleotide polymorphism (SNP) and was used for RFLP analysis. Twenty-eight PCR-amplification samples of serogroup 6 were sent for sequencing using the wciP-r primer <xref ref-type="bibr" rid="pone.0082047-Jin1">[24]</xref> and also using our own newly designed primer ForSeq: 5′ TGG<named-content content-type="gene" xlink:type="simple"> GGA TTG AAT TAC CGA AC</named-content>).</p>
+<p>PCR amplification of the 28 samples was as follows: The final reaction volume of 50 µl contained DreamTaq Green PCR Master Mix (Thermo Scientific), 0.25 µM of each primer, and 5 µl of DNA template. Thermocycler conditions for amplification were: 95°C for 15 min, 35 cycles of 94°C for 30 s, 62°C for 60 s, and 72°C for 60 s, and a final extension of 72°C for 10 min followed by a hold at 4°C. By Blast analysis (<ext-link ext-link-type="uri" xlink:href="http://blast.ncbi.nlm.nih.gov/" xlink:type="simple">http://blast.ncbi.nlm.nih.gov/</ext-link>) and multiple sequence alignments, 25 samples aligned with serotype 6A, 3 to serotype 6B, and none to serotype 6C. Reference sequences used were: serotype 6A (GenBank accession no. JF911497.1), 6B (GenBank accession no. JF911507.1), and 6C (GenBank accession no. JF911510.1). In addition to SNP G584A of Jin et al. <xref ref-type="bibr" rid="pone.0082047-Jin1">[24]</xref>, we noticed another SNP (G574T) that could be used to differentiate the 6A/C from the 6B serotype. By using the NEB cutter program (<ext-link ext-link-type="uri" xlink:href="http://tools.neb.com/NEBcutter2/index.php" xlink:type="simple">http://tools.neb.com/NEBcutter2/index.php</ext-link>), we mapped the restriction site of the enzyme BsrI (New England Biolabs), and showed distinct digestion patterns for the two serotypes: three bands aligning with the molecular weights for 145, 69 and 59 bp for 6A/C serotype: two bands aligning with 214 and 59 bp for 6B serotype.</p>
+<p>For RFLP analysis, 20 µl of each PCR product was digested with BsrI for 4 h at 65°C. DNA fragments were resolved by electrophoresis on a 2% agarose gel.</p>
+<p>In the case of serotype 6A/C, the amplicons digested by BsrI gave the 145 bp band, while the lower molecular weight bands 69 and 59 bp were seen as one band on the gel (<xref ref-type="fig" rid="pone-0082047-g001">Figure 1</xref>). In the case of serotype 6B, the bands of 214 and 59 bp, were clearly separated. Each DNA sample was analyzed at least in duplicate against serotype 6A and 6B positive controls as revealed by sequence analysis. The primers used for genotyping by PCR-RFLP of the serotype 6A/C and 6B SNPs were the same as those used for amplicon sequencing.</p>
+<fig id="pone-0082047-g001" position="float" orientation="portrait"><object-id pub-id-type="doi">10.1371/journal.pone.0082047.g001</object-id><label>Figure 1</label><caption>
+<title>A representative DNA electrophoresis gel showing the RFLP patterns of the serotypes 6A/C and 6B after BsrI digestion of the amplified cps amplicon (273 bp) for isolates of <italic>S. pneumonia</italic> of the serogroup 6.</title>
+<p>DNA was visualized in 2% agarose gel: lane 1 100 bp ladder; lane 12 50 bp ladder. Lanes 2–4 and 7–8 <italic>S. pneumonia</italic> serotype 6A/C patterns (yielding fragments of 145, 69 and 59 bp, with both smaller fragments showing as one thick band owing to low separation). Lanes 5–6 and 9–11 <italic>S. pneumonia</italic> serotype 6B (yielding fragments of 214 and 59 bp).</p>
+</caption><graphic mimetype="image" xlink:href="info:doi/10.1371/journal.pone.0082047.g001" position="float" xlink:type="simple" orientation="portrait" /></fig></sec></sec><sec id="s3">
+<title>Results</title>
+<sec id="s3a">
+<title>Study Participation</title>
+<p>Nasopharyngeal swabs were taken from 397 healthy children aged 1 to 23 months; mean age was 11 months. 248 (62.5%) of the children were less than 1 years old, 149 (37.5%) were between 1 and 2 years old. Gender distribution (Male: Female) was 1∶1. Vaccine PCV7 (containing serotypes: 4, 6B, 9V, 14, 18C, 19F, and 23F) was introduced in Palestine as a pilot trial since September 2010 in the following districts: Hebron, Bethlehem, Jericho and Tubas. One (0.3%) child received one dose of vaccine during the time preceding enrollment, 130/397 (32.7%) received two doses, 69/397 (17.4%) received three doses and 197/397 (49.6%) children had not received the vaccine (<xref ref-type="table" rid="pone-0082047-t001">Table 1</xref>). Strains of <italic>S. pneumoniae</italic> were isolated from 221 of the 397 healthy children surveyed, giving a total carrier rate of 55.7%, some of whom did receive the PCV7 vaccine and some not. The distribution of nasopharyngeal pneumococcal carrier rate among the West Bank districts is shown in <xref ref-type="table" rid="pone-0082047-t001">Table 1</xref>.</p>
+<table-wrap id="pone-0082047-t001" position="float" orientation="portrait"><object-id pub-id-type="doi">10.1371/journal.pone.0082047.t001</object-id><label>Table 1</label><caption>
+<title>Distribution of nasopharyngeal pneumococcal carrier rates in children &lt;2 years old from West Bank districts, including vaccinations and colonization rates (%).</title>
+</caption><alternatives><graphic id="pone-0082047-t001-1" position="float" mimetype="image" xlink:href="info:doi/10.1371/journal.pone.0082047.t001" xlink:type="simple" orientation="portrait" />
+<table><colgroup span="1"><col align="left" span="1" /><col align="center" span="1" /><col align="center" span="1" /><col align="center" span="1" /><col align="center" span="1" /><col align="center" span="1" /><col align="center" span="1" /><col align="center" span="1" /><col align="center" span="1" /></colgroup>
+<thead>
+<tr>
+<td align="left" rowspan="1" colspan="1">District</td>
+<td align="left" rowspan="1" colspan="1">One Dose</td>
+<td align="left" rowspan="1" colspan="1">Two Doses</td>
+<td align="left" rowspan="1" colspan="1">Three Doses</td>
+<td align="left" rowspan="1" colspan="1">Not Vaccinated</td>
+<td align="left" rowspan="1" colspan="1">Total</td>
+<td align="left" rowspan="1" colspan="1">Positive <italic>S. pneumoniae</italic></td>
+<td align="left" rowspan="1" colspan="1">Colonization rate (%)</td>
+<td align="left" rowspan="1" colspan="1">PCV7 serotypes</td>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left" rowspan="1" colspan="1">Bethlehem</td>
+<td align="left" rowspan="1" colspan="1">1</td>
+<td align="left" rowspan="1" colspan="1">12</td>
+<td align="left" rowspan="1" colspan="1">-</td>
+<td align="left" rowspan="1" colspan="1">-</td>
+<td align="left" rowspan="1" colspan="1">13</td>
+<td align="left" rowspan="1" colspan="1">7</td>
+<td align="left" rowspan="1" colspan="1">53.8</td>
+<td align="left" rowspan="1" colspan="1">0</td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1">Hebron</td>
+<td align="left" rowspan="1" colspan="1">-</td>
+<td align="left" rowspan="1" colspan="1">59</td>
+<td align="left" rowspan="1" colspan="1">-</td>
+<td align="left" rowspan="1" colspan="1">-</td>
+<td align="left" rowspan="1" colspan="1">59</td>
+<td align="left" rowspan="1" colspan="1">31</td>
+<td align="left" rowspan="1" colspan="1">52.5</td>
+<td align="left" rowspan="1" colspan="1">19F, 9V9A, 23F, 6B</td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1">Jericho</td>
+<td align="left" rowspan="1" colspan="1">-</td>
+<td align="left" rowspan="1" colspan="1">39</td>
+<td align="left" rowspan="1" colspan="1">23</td>
+<td align="left" rowspan="1" colspan="1">-</td>
+<td align="left" rowspan="1" colspan="1">62</td>
+<td align="left" rowspan="1" colspan="1">41</td>
+<td align="left" rowspan="1" colspan="1">66.1</td>
+<td align="left" rowspan="1" colspan="1">19F, 9V9A, 23F, 6B</td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1">Tubas</td>
+<td align="left" rowspan="1" colspan="1">-</td>
+<td align="left" rowspan="1" colspan="1">20</td>
+<td align="left" rowspan="1" colspan="1">46</td>
+<td align="left" rowspan="1" colspan="1">-</td>
+<td align="left" rowspan="1" colspan="1">66</td>
+<td align="left" rowspan="1" colspan="1">44</td>
+<td align="left" rowspan="1" colspan="1">66.7</td>
+<td align="left" rowspan="1" colspan="1">19F, 14, 23F, 6B</td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1">Ramallah</td>
+<td align="left" rowspan="1" colspan="1">-</td>
+<td align="left" rowspan="1" colspan="1">-</td>
+<td align="left" rowspan="1" colspan="1">-</td>
+<td align="left" rowspan="1" colspan="1">41</td>
+<td align="left" rowspan="1" colspan="1">41</td>
+<td align="left" rowspan="1" colspan="1">14</td>
+<td align="left" rowspan="1" colspan="1">34.1</td>
+<td align="left" rowspan="1" colspan="1">19F, 14, 23F, 6B</td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1">Jerusalem</td>
+<td align="left" rowspan="1" colspan="1">-</td>
+<td align="left" rowspan="1" colspan="1">-</td>
+<td align="left" rowspan="1" colspan="1">-</td>
+<td align="left" rowspan="1" colspan="1">15</td>
+<td align="left" rowspan="1" colspan="1">15</td>
+<td align="left" rowspan="1" colspan="1">7</td>
+<td align="left" rowspan="1" colspan="1">46.6</td>
+<td align="left" rowspan="1" colspan="1">23F, 6B, 14</td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1">Nablus</td>
+<td align="left" rowspan="1" colspan="1">-</td>
+<td align="left" rowspan="1" colspan="1">-</td>
+<td align="left" rowspan="1" colspan="1">-</td>
+<td align="left" rowspan="1" colspan="1">52</td>
+<td align="left" rowspan="1" colspan="1">52</td>
+<td align="left" rowspan="1" colspan="1">25</td>
+<td align="left" rowspan="1" colspan="1">48.1</td>
+<td align="left" rowspan="1" colspan="1">19F, 14, 6B</td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1">Tulkarem</td>
+<td align="left" rowspan="1" colspan="1">-</td>
+<td align="left" rowspan="1" colspan="1">-</td>
+<td align="left" rowspan="1" colspan="1">-</td>
+<td align="left" rowspan="1" colspan="1">24</td>
+<td align="left" rowspan="1" colspan="1">24</td>
+<td align="left" rowspan="1" colspan="1">13</td>
+<td align="left" rowspan="1" colspan="1">54.2</td>
+<td align="left" rowspan="1" colspan="1">19F, 23F, 6B</td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1">Qalqilia</td>
+<td align="left" rowspan="1" colspan="1">-</td>
+<td align="left" rowspan="1" colspan="1">-</td>
+<td align="left" rowspan="1" colspan="1">-</td>
+<td align="left" rowspan="1" colspan="1">17</td>
+<td align="left" rowspan="1" colspan="1">17</td>
+<td align="left" rowspan="1" colspan="1">9</td>
+<td align="left" rowspan="1" colspan="1">52.9</td>
+<td align="left" rowspan="1" colspan="1">19F, 23F</td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1">Jenin</td>
+<td align="left" rowspan="1" colspan="1">-</td>
+<td align="left" rowspan="1" colspan="1">-</td>
+<td align="left" rowspan="1" colspan="1">-</td>
+<td align="left" rowspan="1" colspan="1">39</td>
+<td align="left" rowspan="1" colspan="1">39</td>
+<td align="left" rowspan="1" colspan="1">23</td>
+<td align="left" rowspan="1" colspan="1">58.9</td>
+<td align="left" rowspan="1" colspan="1">23F, 4, 14, 6B</td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1">Salfeet</td>
+<td align="left" rowspan="1" colspan="1">-</td>
+<td align="left" rowspan="1" colspan="1">-</td>
+<td align="left" rowspan="1" colspan="1">-</td>
+<td align="left" rowspan="1" colspan="1">9</td>
+<td align="left" rowspan="1" colspan="1">9</td>
+<td align="left" rowspan="1" colspan="1">8</td>
+<td align="left" rowspan="1" colspan="1">77.7</td>
+<td align="left" rowspan="1" colspan="1">19F, 18 (A/B/C/F)</td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1">Total</td>
+<td align="left" rowspan="1" colspan="1">1</td>
+<td align="left" rowspan="1" colspan="1">130</td>
+<td align="left" rowspan="1" colspan="1">69</td>
+<td align="left" rowspan="1" colspan="1">197</td>
+<td align="left" rowspan="1" colspan="1">397</td>
+<td align="left" rowspan="1" colspan="1">221</td>
+<td align="left" rowspan="1" colspan="1">55.7</td>
+<td align="left" rowspan="1" colspan="1">55.7</td>
+</tr>
+</tbody>
+</table>
+</alternatives></table-wrap>
+<p>The pneumococcal carriage rate among children of different ages was: 40.2% (33/87) in those 0-6 months; 62.5% (95/152) &gt;6–12 months; 53.8% (56/104) &gt;12–18 months and 64.8% (35/54) &gt;18–24 months. The overall colonization rate among the PCV7-vaccinated children was 61.5% (123/200) (<xref ref-type="table" rid="pone-0082047-t001">Table 1</xref>). The colonization rates among children who received either two or three doses of vaccine were 60.8% (79/130) and 63.8% (44/69), respectively, and among those unvaccinated 50.3% (99/197).</p>
+</sec><sec id="s3b">
+<title>Antimicrobial resistance</title>
+<p>Susceptibility to antimicrobial agents was tested on 211 (95.5%) of the 221 isolates of <italic>S. pneumoniae</italic> (<xref ref-type="supplementary-material" rid="pone.0082047.s001">Table S1</xref>). Only 47/211 (22.3%) of them were fully susceptible to all the antibiotics tested, 58/211 (27.5%) were resistant to one of the antimicrobial agents, 34/211 (16.1%) were resistant to two, and 72/211 (34.1%) to more than two.</p>
+<p>Of the 211 pneumococcal isolates examined, 23 (10.9%) were resistant to penicillin and 118 (55.9%) were intermediately resistant. Higher resistance rates were noted for trimethoprim-sulfamethoxazole, 97/211 (45.9%), and erythromycin, 64/213 (30.3%). None was resistant to cefotaxime and vancomycin.</p>
+<p>Of the isolated bacterial strains of the serotypes 4, 6B, 9V, 14, 18C, 19F, and 23F found in the PCV7 vaccine that were examined for antimicrobial susceptibility, 59/79 (75%), 49/79 (62.0%) and 23/79 (29%) were non-susceptible to two, three and four antibiotics, respectively; whereas, of the bacterial strains of the additional serotypes found in the PCV13 vaccine, 14/38 (37%), 7/38 (18%) and 2/38 (5%) were not wholly or partially susceptible to two, three and four antibiotics, respectively (<xref ref-type="supplementary-material" rid="pone.0082047.s001">Table S1</xref> and <xref ref-type="supplementary-material" rid="pone.0082047.s002">S2</xref>). Overall, the resistance of the isolates of <italic>S. pneumoniae</italic> to the antibacterial agents tested did not appear to be directly correlated with the childrens' vaccination status (p = 0.079). However, resistance of isolates to tetracycline and erythromycin did correlate significantly (p = 0.026 and 0.012, respectively) with whether they came from vaccinated and unvaccinated children. Isolates resistant to one or other of these two drugs were associated with the vaccinated group. In addition, percentage resistance of isolates of the serotypes in the PCV7 vaccine was higher (38/41 (92.7%), p&lt;0.001) than that of isolates of the serotypes in the PCV13 vaccine (7.3%). Interestingly, resistance of isolates to tetracycline correlated highly with the serotypes of the PCV7 vaccine (39/42 (92.9%), p&lt;0.001).</p>
+</sec><sec id="s3c">
+<title>Capsular Serotypes</title>
+<p>Of the 221 isolates of <italic>S. pneumoniae</italic>, 191 (86.4%) were serotyped, leaving 30 (13.6%) untyped. However, the untyped isolates were sensitive to optochin and positive by the Real Time PCR-based method employing the <italic>lytA</italic> target gene. This showed they <italic>were</italic> isolates of <italic>S. pneumoniae</italic>. Isolates that did not typed with the test primers of the multiplex PCR were considered to be untypeable (NT). Altogether, 27 different serotypes were identified using the sequential multiplex PCR reactions <xref ref-type="bibr" rid="pone.0082047-Pai1">[23]</xref>.</p>
+<p>The most common strains were, in decreasing order, of the serotypes: 6A, 19F, 23F, 6B, 14, 19A, 15B, 34 and 11A (<xref ref-type="table" rid="pone-0082047-t002">Table 2</xref>). Strains of the serotypes 6A, 19F, 23F and 6B were the most prevalent (13.6%, 12.2%, 9.0% and 8.6%, respectively), followed by strains of the serotypes 19A and 14, (both at 4.1%) and 15B/15C and 34 (both at 3.6%). Among the carried isolates, 37.1% were of the serotypes in the PCV7 vaccine and 56.1% were those in the PCV13 vaccine (<xref ref-type="table" rid="pone-0082047-t002">Table 2</xref>). Isolates carried by vaccinated children, were of the serotypes 19F (13%), 23F (6.5%), 6B (8.1%) and 14 (1.6%) in the PCV7 vaccine, in addition to which they also carried isolates of the serotypes 6A (13.0%) and 19A (5.7%) in the PCV13 vaccine. Those carried by non-vaccinated children were of exactly the same serotypes but in different percentages, 11.2%, 12.2%, 9.2%, 7.1%, 14.3% and 2.0%, respectively.</p>
+<table-wrap id="pone-0082047-t002" position="float" orientation="portrait"><object-id pub-id-type="doi">10.1371/journal.pone.0082047.t002</object-id><label>Table 2</label><caption>
+<title>Serotype frequencies of strains of <italic>S. pneumoniae</italic> isolated from nasopharyngeal samples and their distribution according to children' vaccination status.</title>
+</caption><alternatives><graphic id="pone-0082047-t002-2" position="float" mimetype="image" xlink:href="info:doi/10.1371/journal.pone.0082047.t002" xlink:type="simple" orientation="portrait" />
+<table><colgroup span="1"><col align="left" span="1" /><col align="center" span="1" /><col align="center" span="1" /><col align="center" span="1" /></colgroup>
+<thead>
+<tr>
+<td align="left" rowspan="1" colspan="1">Serotype</td>
+<td align="left" rowspan="1" colspan="1">Total Number (%)</td>
+<td colspan="2" align="left" rowspan="1">Vaccination status</td>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td colspan="2" align="left" rowspan="1">PCV7 serotypes</td>
+<td align="left" rowspan="1" colspan="1">Vaccinated group</td>
+<td align="left" rowspan="1" colspan="1">Unvaccinated group</td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1">19F</td>
+<td align="left" rowspan="1" colspan="1">27 (12.2)</td>
+<td align="left" rowspan="1" colspan="1">16 (13.0)</td>
+<td align="left" rowspan="1" colspan="1">11 (11.2)</td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1">23F</td>
+<td align="left" rowspan="1" colspan="1">20 (9.0)</td>
+<td align="left" rowspan="1" colspan="1">8 (6.5)</td>
+<td align="left" rowspan="1" colspan="1">12 (12.2)</td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1">6B</td>
+<td align="left" rowspan="1" colspan="1">19 (8.6)</td>
+<td align="left" rowspan="1" colspan="1">10 (8.1)</td>
+<td align="left" rowspan="1" colspan="1">9 (9.2)</td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1">14</td>
+<td align="left" rowspan="1" colspan="1">9 (4.1)</td>
+<td align="left" rowspan="1" colspan="1">2 (1.6)</td>
+<td align="left" rowspan="1" colspan="1">7 (7.1)</td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1">9V/9A<xref ref-type="table-fn" rid="nt101">*</xref></td>
+<td align="left" rowspan="1" colspan="1">4 (1.8)</td>
+<td align="left" rowspan="1" colspan="1">4 (3.3)</td>
+<td align="left" rowspan="1" colspan="1">0 (0)</td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1">4</td>
+<td align="left" rowspan="1" colspan="1">2 (0.9)</td>
+<td align="left" rowspan="1" colspan="1">0 (0)</td>
+<td align="left" rowspan="1" colspan="1">2 (2.0)</td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1">18A/B/C/F<xref ref-type="table-fn" rid="nt101">*</xref></td>
+<td align="left" rowspan="1" colspan="1">1 (0.4)</td>
+<td align="left" rowspan="1" colspan="1">0 (0)</td>
+<td align="left" rowspan="1" colspan="1">1 (1.0)</td>
+</tr>
+<tr>
+<td colspan="4" align="left" rowspan="1">Additional serotypes in PCV13</td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1">6A</td>
+<td align="left" rowspan="1" colspan="1">30 (13.6)</td>
+<td align="left" rowspan="1" colspan="1">16 (13.0)</td>
+<td align="left" rowspan="1" colspan="1">14 (14.3)</td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1">19A</td>
+<td align="left" rowspan="1" colspan="1">9 (4.1)</td>
+<td align="left" rowspan="1" colspan="1">7 (5.7)</td>
+<td align="left" rowspan="1" colspan="1">2 (2.0)</td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1">3</td>
+<td align="left" rowspan="1" colspan="1">2 (0.9)</td>
+<td align="left" rowspan="1" colspan="1">1 (0.8)</td>
+<td align="left" rowspan="1" colspan="1">1 (1.0)</td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1">1</td>
+<td align="left" rowspan="1" colspan="1">1 (0.4)</td>
+<td align="left" rowspan="1" colspan="1">0 (0)</td>
+<td align="left" rowspan="1" colspan="1">1 (1.0)</td>
+</tr>
+<tr>
+<td colspan="4" align="left" rowspan="1">Other vaccine Serotypes<xref ref-type="table-fn" rid="nt102">#</xref></td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1">15B/15C</td>
+<td align="left" rowspan="1" colspan="1">8 (3.6)</td>
+<td align="left" rowspan="1" colspan="1">5 (4.1)</td>
+<td align="left" rowspan="1" colspan="1">3 (3.1)</td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1">11A/11D</td>
+<td align="left" rowspan="1" colspan="1">7 (3.2)</td>
+<td align="left" rowspan="1" colspan="1">4 (3.3)</td>
+<td align="left" rowspan="1" colspan="1">3 (3.1)</td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1">10A</td>
+<td align="left" rowspan="1" colspan="1">5 (2.3)</td>
+<td align="left" rowspan="1" colspan="1">3 (2.4)</td>
+<td align="left" rowspan="1" colspan="1">2 (2.0)</td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1">22F/22A</td>
+<td align="left" rowspan="1" colspan="1">3 (1.4)</td>
+<td align="left" rowspan="1" colspan="1">2 (1.6)</td>
+<td align="left" rowspan="1" colspan="1">1 (1.0)</td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1">33F/33A/37</td>
+<td align="left" rowspan="1" colspan="1">2 (0.9)</td>
+<td align="left" rowspan="1" colspan="1">2 (1.6)</td>
+<td align="left" rowspan="1" colspan="1">0 (0)</td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1">9N/9L</td>
+<td align="left" rowspan="1" colspan="1">1 (0.4)</td>
+<td align="left" rowspan="1" colspan="1">1 (0.8)</td>
+<td align="left" rowspan="1" colspan="1">0 (0)</td>
+</tr>
+<tr>
+<td colspan="4" align="left" rowspan="1">Other Serotypes</td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1">34</td>
+<td align="left" rowspan="1" colspan="1">8 (3.6)</td>
+<td align="left" rowspan="1" colspan="1">7 (5.7)</td>
+<td align="left" rowspan="1" colspan="1">1 (1.0)</td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1">15A/15F</td>
+<td align="left" rowspan="1" colspan="1">5 (2.3)</td>
+<td align="left" rowspan="1" colspan="1">3 (2.4)</td>
+<td align="left" rowspan="1" colspan="1">2 (2.0)</td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1">21</td>
+<td align="left" rowspan="1" colspan="1">5 (2.3)</td>
+<td align="left" rowspan="1" colspan="1">3 (2.4)</td>
+<td align="left" rowspan="1" colspan="1">2 (2.0)</td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1">35B</td>
+<td align="left" rowspan="1" colspan="1">4 (1.8)</td>
+<td align="left" rowspan="1" colspan="1">3 (2.4)</td>
+<td align="left" rowspan="1" colspan="1">1 (1.0)</td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1">38/25F/25A</td>
+<td align="left" rowspan="1" colspan="1">4 (1.8)</td>
+<td align="left" rowspan="1" colspan="1">3 (2.4)</td>
+<td align="left" rowspan="1" colspan="1">1 (1.0)</td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1">7C/7B/40</td>
+<td align="left" rowspan="1" colspan="1">4 (1.8)</td>
+<td align="left" rowspan="1" colspan="1">2 (1.6)</td>
+<td align="left" rowspan="1" colspan="1">2 (2.0)</td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1">24 A/B/F</td>
+<td align="left" rowspan="1" colspan="1">3 (1.4)</td>
+<td align="left" rowspan="1" colspan="1">1 (0.8)</td>
+<td align="left" rowspan="1" colspan="1">2 (2.0)</td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1">35F/47F</td>
+<td align="left" rowspan="1" colspan="1">3 (1.4)</td>
+<td align="left" rowspan="1" colspan="1">3 (3.1)</td>
+<td align="left" rowspan="1" colspan="1">3 (3.1)</td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1">13</td>
+<td align="left" rowspan="1" colspan="1">3 (1.4)</td>
+<td align="left" rowspan="1" colspan="1">1 (1.0)</td>
+<td align="left" rowspan="1" colspan="1">2 (2.0)</td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1">23A</td>
+<td align="left" rowspan="1" colspan="1">2 (0.9)</td>
+<td align="left" rowspan="1" colspan="1">0 (0)</td>
+<td align="left" rowspan="1" colspan="1">2 (2.0)</td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1">Nontypeable (Not Determined)</td>
+<td align="left" rowspan="1" colspan="1">30 (13.6)</td>
+<td align="left" rowspan="1" colspan="1">19 (15.4)</td>
+<td align="left" rowspan="1" colspan="1">11 (11.2)</td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1">Total</td>
+<td align="left" rowspan="1" colspan="1">221 (100)</td>
+<td align="left" rowspan="1" colspan="1">123 (55.7)</td>
+<td align="left" rowspan="1" colspan="1">98 (44.3)</td>
+</tr>
+</tbody>
+</table>
+</alternatives><table-wrap-foot><fn id="nt101"><p><sup /> PCVs do not offer protection against all serotypes of serogroup 9 or 18.</p></fn><fn id="nt102"><p><sup>#</sup> Serotypes that were not covered in the protein conjugate vaccines, PCV7 and PCV13, but they are in the PCV23 vaccine.</p></fn></table-wrap-foot></table-wrap>
+<p>Of the strains that were subjected to serotyping, 80.1% (113/141) were non-susceptible to penicillin. Of these, 118 were intermediately resistance and 23 were fully resistant. The common serotypes of the fully resistant strains were 19F, 6A, 23F, 19A, 6B and 24(A/B/F) while the common serotypes of the intermediately resistant strains were 6B, 19F, 6A, 23F, 14 and 15B/C (<xref ref-type="supplementary-material" rid="pone.0082047.s001">Table S1</xref> and <xref ref-type="supplementary-material" rid="pone.0082047.s002">S2</xref>).</p>
+</sec><sec id="s3d">
+<title>Differentiation of Serogroup 6: 6A/C and 6B of <italic>S. pneumoniae</italic></title>
+<p>All serogroup 6 samples (49) were analyzed by RFLP, 28 of which were confirmed by sequencing, of which 25 were serotype 6A and 3 serotype 6B. The sequences obtained represent the 273 bp of the capsular gene region. The twenty-five 6A serotype sequences were all identical to the 6A serotype reference sequence (GenBank accession no. JF911497.1), while the three 6B serotype sequences were all identical to the 6B serotype reference sequence (GenBank accession no. JF911507.1), both of which are in the National Center for Biotechnology Information Database (<ext-link ext-link-type="uri" xlink:href="http://www.ncbi.nih.gov/BLAST/" xlink:type="simple">http://www.ncbi.nih.gov/BLAST/</ext-link>). The two representative sequences found were deposited in the GenBank database (6A serotype accession no. KC834830 and 6B serotype KC834831).</p>
+<p>As expected, fragment analysis, showed different patterns of digestion for the 2 serotypes. Of the 49 samples, 30 belonged to the serotype 6A/C and 19 to the serotype 6B. The results of samples analyzed by the RFLP and the DNA-sequencing procedures showed 100% agreement. Therefore, using the RFLP analysis developed here, it was possible to differentiate between the serotypes 6A/C and 6B, showing it to be a simple, rapid, direct and reliable method (<xref ref-type="fig" rid="pone-0082047-g001">Figure 1</xref>).</p>
+</sec></sec><sec id="s4">
+<title>Discussion</title>
+<p>This is the first Palestinian national study documenting the prevalence of the serotypes of strains <italic>S. pneumoniae</italic> carried in the nasopharyngeal cavities of healthy children less than two years of age before the introduction of PCV as part of a Palestinian NIP. This study showed a carrier rate of 55.7%. This rate is similar to the 50% among Palestinian children from the Gaza strip reported by Regev-Yochay et al. <xref ref-type="bibr" rid="pone.0082047-RegevYochay1">[25]</xref>. In the neighboring region, Borer et al. <xref ref-type="bibr" rid="pone.0082047-Borer1">[26]</xref> found a carrier rate of 58% among children aged &lt; 5 years in day care centers in Southern Israel. Similar carrier rates were reported for Oman <xref ref-type="bibr" rid="pone.0082047-AlYaqoubi1">[27]</xref>, Iran <xref ref-type="bibr" rid="pone.0082047-SanaeiDashti1">[28]</xref>, Central Asia <xref ref-type="bibr" rid="pone.0082047-Factor1">[29]</xref>, the Netherland <xref ref-type="bibr" rid="pone.0082047-Bogaert1">[30]</xref>, and Kenya <xref ref-type="bibr" rid="pone.0082047-Abdullahi1">[31]</xref>. However, it was relatively higher compared to studies from other countries: Venezuela (28%) <xref ref-type="bibr" rid="pone.0082047-Quintero1">[32]</xref>, Greece (29.4%) <xref ref-type="bibr" rid="pone.0082047-Katsarolis1">[33]</xref>, Hong Kong (19.4%) <xref ref-type="bibr" rid="pone.0082047-Chiu1">[34]</xref>, Italy (8.6%) <xref ref-type="bibr" rid="pone.0082047-Marchisio1">[35]</xref>, Europe as a whole region (21%) <xref ref-type="bibr" rid="pone.0082047-Isaacman1">[36]</xref>, the USA (20%) <xref ref-type="bibr" rid="pone.0082047-Hicks1">[12]</xref>, Turkey (22.5%) <xref ref-type="bibr" rid="pone.0082047-Ozdemir1">[37]</xref> and Northern Taiwan (20.8%) <xref ref-type="bibr" rid="pone.0082047-Lo1">[38]</xref>.</p>
+<p>Isolated strains of the serotypes 6A, a serotype of a strain in the PCV13 vaccine, 19F, 23F and 6B, serotypes of strains in the PCV7 vaccine, were most prevalent (13.6%, 12.2%, 9.0%, 8.6%, respectively), followed by strains of the serotypes: 19A and 14, (both 4.1%) and 15B/15C and 34 (both 3.6%). Worldwide prevalence studies on the nasopharyngeal carriage of <italic>S. pneumoniae</italic> have shown that, mostly, strains of the serotypes mentioned above are involved but with differences in percentages among them <xref ref-type="bibr" rid="pone.0082047-Hicks1">[12]</xref>, <xref ref-type="bibr" rid="pone.0082047-Factor1">[29]</xref>, <xref ref-type="bibr" rid="pone.0082047-Isaacman1">[36]</xref>. Of the strains carried by Palestinian children, 37.1% were of the serotypes covered by the PCV7 vaccine and 56.1% were those covered by the PCV13 vaccine. Clear difference was noticed between the vaccinated and unvaccinated groups regarding the serotypes 23F and 14 present in the PCV7 vaccine. Changes in pneumococcal serotypes were also observed in Portuguese vaccinated and unvaccinated populations <xref ref-type="bibr" rid="pone.0082047-SaLeao1">[39]</xref>. While as would be expected, strains of the other serotypes existing in the PCV13 vaccine were found in equal percentages between vaccinated and unvaccinated children. This study adds to a previous Palestinian one <xref ref-type="bibr" rid="pone.0082047-Kattan1">[20]</xref> since it covers many geographical areas and a more in-depth analysis of the prevalence of strains of the serogroup 6. The previous study was restricted to a central region of Palestine and treated all their isolates of the serogroup 6 as a single entity. Furthermore, the study done here was done on healthy carriers. The incidence of pneumococcal disease is thought to be tied to the prevalence of asymptomatic carriers. Also, strains isolated from nasopharyngeal cavities can be used as determine serotype distribution and predict drug resistance. This, in turn, should improve the efficacy of treatment and vaccination.</p>
+<p>The data presented here on the serotypes of carried strains, together with the data previously reported by Kattan et al. <xref ref-type="bibr" rid="pone.0082047-Kattan1">[20]</xref>, provides Palestinian Health Authorities with strong scientific evidence to endorse ending using the PCV7 vaccine and substituting it with the PCV13 vaccine because of the extra strains serotypes it protects against, providing an additional 19.0% serotype coverage. Congruently, results obtained from a carriage study on healthy Israeli children aged below 36 months showed the added benefit of an extended serotype coverage by the PCV13 vaccine over the PCV7 vaccine of 21%, raising it from 46% to 67% <xref ref-type="bibr" rid="pone.0082047-Shouval1">[40]</xref>. Employing the PCV13 vaccine increases the cross-protective spectrum, at least against strains of the serotypes 6A, 19A, 3 and 1, which were also mentioned by Kattan et al., and are also responsible for IPD among Palestinian children <xref ref-type="bibr" rid="pone.0082047-Kattan1">[20]</xref>. The results from testing antimicrobial susceptibility of the strains of <italic>S. pneumoniae</italic> isolated from the Palestinian children in relation to the strain's serotypes, as mentioned above and discussed below, also support recommending using the PCV13 vaccine in the NIP in the West Bank.</p>
+<p>For many years, penicillin has been the drug of choice against pneumococcal infections. However, microbial resistant has increased over past decades <xref ref-type="bibr" rid="pone.0082047-Hicks1">[12]</xref>, <xref ref-type="bibr" rid="pone.0082047-McIntosh1">[13]</xref>, <xref ref-type="bibr" rid="pone.0082047-Scheifele1">[41]</xref>. Here, resistance to penicillin was demonstrated with a non-susceptibility rate of 66.8% of the pneumococcal isolates examined (<xref ref-type="supplementary-material" rid="pone.0082047.s002">Table S2</xref>), which agrees other studies <xref ref-type="bibr" rid="pone.0082047-Borer1">[26]</xref>, <xref ref-type="bibr" rid="pone.0082047-AlYaqoubi1">[27]</xref>, <xref ref-type="bibr" rid="pone.0082047-Chiu1">[34]</xref>, <xref ref-type="bibr" rid="pone.0082047-Shouval1">[40]</xref>. As the prescribing and sale of antibiotics is largely locally unregulated, these rates are expected. The carriage of increasingly drug-resistant strains of <italic>S. pneumoniae</italic> by individuals could lead to the increased transmission of resistant pneumococcal disease at the community and national level. Also, these results should discourage physicians from using penicillin as empirical treatment for pneumococcal infections, particularly for invasive ones. In this study, the six most prevalent serotypes, 19F, 6A, 23F, 6B, 19A and 14, represent more than half (51.6%) of the pneumococcal strains encountered, and they are predominantly (80.8%) non-susceptible to penicillin. The recent study by Kattan et al. of children from the West Bank hospitalized with IPD caused by strains of <italic>S. pneumoniae</italic> identified 49 cases (40.8%) infected with strains of these serotypes <xref ref-type="bibr" rid="pone.0082047-Kattan1">[20]</xref>. Of all the serotypes covered by these two vaccines, the serotypes 19F, 6A, 23F, 6B, 19A, 14 and 9V are associated with the highest rate of penicillin non-susceptibility of the strains. Both vaccines, PCV7 and PCV13, contain components with some or all of these 7 serotypes, and 68 (48.2%) of the 141 penicillin resistant isolates possessed the serotypes in the PCV7 vaccine. An additional 18.4% of the 141 penicillin resistant isolates would accrue if the extra serotypes in the PCV13 vaccine were included. Regarding the examination of the efficacy of erythromycin, isolates of the serotypes 6B, 19F, 23F, 6A, 14, 19A, and 9V were associated with erythromycin resistant strains and the serotypes in the PCV7 and PCV13 vaccines cover 60 (54.5%) and 87 (79.0%), of the 110 erythromycin resistant isolates, respectively. Resistance to two antibiotics was observed in 75% and 37% of the isolates bearing the serotypes in the PCV7 and PCV13 vaccines, respectively.</p>
+<p>In addition, there was a high degree of microbial resistance, against three and four antibacterial drugs by isolates with the serotypes in the PCV7 vaccine (<xref ref-type="supplementary-material" rid="pone.0082047.s001">Table S1</xref>). Resistance to tetracycline and erythromycin showed a significant correlation (p = 0.026 and 0.012, respectively) to vaccination status and bacterial isolates from the vaccinated group appeared to be more resistant to both drugs than isolates from the unvaccinated.</p>
+<p>Serogroup 6 consists of strains of the serotypes 6A and 6B, and the more recently discovered serotypes 6C and 6D <xref ref-type="bibr" rid="pone.0082047-kamerling1">[10]</xref>, <xref ref-type="bibr" rid="pone.0082047-Jin2">[42]</xref>, some of which are of importance in carriage and in causing invasive disease <xref ref-type="bibr" rid="pone.0082047-Hausdorff1">[43]</xref>, <xref ref-type="bibr" rid="pone.0082047-Nahm1">[44]</xref>. Different molecular methods for sub-typing strains in serogroup 6 into the serotypes 6A, 6B, 6C and 6D have been described <xref ref-type="bibr" rid="pone.0082047-Jin1">[24]</xref>, <xref ref-type="bibr" rid="pone.0082047-Pai2">[45]</xref>. However, one requires sophisticated equipment and training and one do not enable easy differentiation. Serological determination by the quellung reaction (capsular swelling) is considered the gold standard for serotyping. This method is limited as antisera are very expensive, good technical skill is required and interpretation of results is complicated. Here, a new PCR-RFLP method was developed and optimized that enabled the differentiation of the serotypes 6A/C and 6B. To our knowledge, no other RFLP assay for differentiating the serotypes 6A 6B and 6C has been developed and published. This procedure is simple, fast, reliable and less costly than sequencing, and can be used in any molecular laboratory.</p>
+</sec><sec id="s5">
+<title>Conclusions</title>
+<list list-type="order"><list-item>
+<p>A high carrier rate of <italic>S. pneumoniae</italic> was observed in healthy Palestinian children.</p>
+</list-item><list-item>
+<p>The main strain serotypes were 19F, 23F, 14, 19A and, also, 6A/C and 6B that were differentiated using a new PCR-RFLP method developed and optimized in our laboratory.</p>
+</list-item><list-item>
+<p>High antibiotic resistance was revealed among the strains of <italic>S. pneumoniae</italic> isolated from nasopharyngeal cavities.</p>
+</list-item><list-item>
+<p>The high carrier rate of <italic>S. pneumoniae</italic> in the asymptomatic children combined with the results from testing antimicrobial susceptibility of the strains of <italic>S. pneumoniae</italic> isolated from their nasopharyngeal cavities, and the relationship of the isolates' serotypes compared with the serotypes in pneumococcal vaccines supports recommending using the PCV13 rather than the PCV7 vaccine in the NIP in the West Bank Region.</p>
+</list-item></list>
+</sec><sec id="s6">
+<title>Supporting Information</title>
+<supplementary-material id="pone.0082047.s001" mimetype="application/vnd.openxmlformats-officedocument.wordprocessingml.document" xlink:href="info:doi/10.1371/journal.pone.0082047.s001" position="float" xlink:type="simple" orientation="portrait"><label>Table S1</label><caption>
+<p><bold>Antibiotic susceptibility testing* results by serotype distribution.</bold></p>
+<p>(DOCX)</p>
+</caption></supplementary-material><supplementary-material id="pone.0082047.s002" mimetype="application/vnd.openxmlformats-officedocument.wordprocessingml.document" xlink:href="info:doi/10.1371/journal.pone.0082047.s002" position="float" xlink:type="simple" orientation="portrait"><label>Table S2</label><caption>
+<p><bold>Antibiotics not susceptible (Both intermediate and resistant) to one or more antibiotics in regards to PCV Serotypes.</bold></p>
+<p>(DOCX)</p>
+</caption></supplementary-material></sec></body>
+<back>
+<ack>
+<p>We thank all the physicians, nurses, and subjects who participated in this study. Also, we thank the laboratory technical staff at the CPHL for their assistance and support.</p>
+</ack>
+<ref-list>
+<title>References</title>
+<ref id="pone.0082047-Brugger1"><label>1</label>
+<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Brugger</surname><given-names>SD</given-names></name>, <name name-style="western"><surname>Hathaway</surname><given-names>LJ</given-names></name>, <name name-style="western"><surname>Muhlemann</surname><given-names>K</given-names></name> (<year>2009</year>) <article-title>Detection of Streptococcus pneumoniae strain cocolonization in the nasopharynx</article-title>. <source>J Clin Microbiol</source> <volume>47</volume>: <fpage>1750</fpage>–<lpage>1756</lpage>.</mixed-citation>
+</ref>
+<ref id="pone.0082047-Dagan1"><label>2</label>
+<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Dagan</surname><given-names>R</given-names></name>, <name name-style="western"><surname>Givon-Lavi</surname><given-names>N</given-names></name>, <name name-style="western"><surname>Zamir</surname><given-names>O</given-names></name>, <name name-style="western"><surname>Sikuler-Cohen</surname><given-names>M</given-names></name>, <name name-style="western"><surname>Guy</surname><given-names>L</given-names></name>, <etal>et al</etal>. (<year>2002</year>) <article-title>Reduction of nasopharyngeal carriage of Streptococcus pneumoniae after administration of a 9-valent pneumococcal conjugate vaccine to toddlers attending day care centers</article-title>. <source>J Infect Dis</source> <volume>185</volume>: <fpage>927</fpage>–<lpage>936</lpage>.</mixed-citation>
+</ref>
+<ref id="pone.0082047-WHO1"><label>3</label>
+<mixed-citation publication-type="journal" xlink:type="simple"><collab xlink:type="simple">WHO</collab> (<year>2007</year>) <article-title>Pneumococcal conjugate vaccine for childhood immunization—WHO position paper</article-title>. <source>Wkly Epidemiol Rec</source> <volume>82</volume>: <fpage>93</fpage>–<lpage>104</lpage>.</mixed-citation>
+</ref>
+<ref id="pone.0082047-OBrien1"><label>4</label>
+<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>O'Brien</surname><given-names>KL</given-names></name>, <name name-style="western"><surname>Wolfson</surname><given-names>LJ</given-names></name>, <name name-style="western"><surname>Watt</surname><given-names>JP</given-names></name>, <name name-style="western"><surname>Henkle</surname><given-names>E</given-names></name>, <name name-style="western"><surname>Deloria-Knoll</surname><given-names>M</given-names></name>, <etal>et al</etal>. (<year>2009</year>) <article-title>Burden of disease caused by Streptococcus pneumoniae in children younger than 5 years: global estimates</article-title>. <source>Lancet</source> <volume>374</volume>: <fpage>893</fpage>–<lpage>902</lpage>.</mixed-citation>
+</ref>
+<ref id="pone.0082047-Cardozo1"><label>5</label>
+<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Cardozo</surname><given-names>DM</given-names></name>, <name name-style="western"><surname>Nascimento-Carvalho</surname><given-names>CM</given-names></name>, <name name-style="western"><surname>Souza</surname><given-names>FR</given-names></name>, <name name-style="western"><surname>Silva</surname><given-names>NM</given-names></name> (<year>2006</year>) <article-title>Nasopharyngeal colonization and penicillin resistance among pneumococcal strains: a worldwide 2004 update</article-title>. <source>Braz J Infect Dis</source> <volume>10</volume>: <fpage>293</fpage>–<lpage>304</lpage>.</mixed-citation>
+</ref>
+<ref id="pone.0082047-Lin1"><label>6</label>
+<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Lin</surname><given-names>WJ</given-names></name>, <name name-style="western"><surname>Lo</surname><given-names>WT</given-names></name>, <name name-style="western"><surname>Chou</surname><given-names>CY</given-names></name>, <name name-style="western"><surname>Chen</surname><given-names>YY</given-names></name>, <name name-style="western"><surname>Tsai</surname><given-names>SY</given-names></name>, <etal>et al</etal>. (<year>2006</year>) <article-title>Antimicrobial resistance patterns and serotype distribution of invasive Streptococcus pneumoniae isolates from children in Taiwan from 1999 to 2004</article-title>. <source>Diagn Microbiol Infect Dis</source> <volume>56</volume>: <fpage>189</fpage>–<lpage>196</lpage>.</mixed-citation>
+</ref>
+<ref id="pone.0082047-Malfroot1"><label>7</label>
+<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Malfroot</surname><given-names>A</given-names></name>, <name name-style="western"><surname>Verhaegen</surname><given-names>J</given-names></name>, <name name-style="western"><surname>Dubru</surname><given-names>JM</given-names></name>, <name name-style="western"><surname>Van Kerschaver</surname><given-names>E</given-names></name>, <name name-style="western"><surname>Leyman</surname><given-names>S</given-names></name> (<year>2004</year>) <article-title>A cross-sectional survey of the prevalence of Streptococcus pneumoniae nasopharyngeal carriage in Belgian infants attending day care centres</article-title>. <source>Clin Microbiol Infect</source> <volume>10</volume>: <fpage>797</fpage>–<lpage>803</lpage>.</mixed-citation>
+</ref>
+<ref id="pone.0082047-Sjostrom1"><label>8</label>
+<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Sjostrom</surname><given-names>K</given-names></name>, <name name-style="western"><surname>Blomberg</surname><given-names>C</given-names></name>, <name name-style="western"><surname>Fernebro</surname><given-names>J</given-names></name>, <name name-style="western"><surname>Dagerhamn</surname><given-names>J</given-names></name>, <name name-style="western"><surname>Morfeldt</surname><given-names>E</given-names></name>, <etal>et al</etal>. (<year>2007</year>) <article-title>Clonal success of piliated penicillin nonsusceptible pneumococci</article-title>. <source>Proc Natl Acad Sci U S A</source> <volume>104</volume>: <fpage>12907</fpage>–<lpage>12912</lpage>.</mixed-citation>
+</ref>
+<ref id="pone.0082047-Arai1"><label>9</label>
+<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Arai</surname><given-names>S</given-names></name>, <name name-style="western"><surname>Konda</surname><given-names>T</given-names></name>, <name name-style="western"><surname>Wad</surname><given-names>A</given-names></name>, <name name-style="western"><surname>Matsunaga</surname><given-names>Y</given-names></name>, <name name-style="western"><surname>Okabe</surname><given-names>N</given-names></name>, <etal>et al</etal>. (<year>2001</year>) <article-title>Use of antiserum-coated latex particles for serotyping Streptococcus pneumoniae</article-title>. <source>Microbiol Immunol</source> <volume>45</volume>: <fpage>159</fpage>–<lpage>162</lpage>.</mixed-citation>
+</ref>
+<ref id="pone.0082047-kamerling1"><label>10</label>
+<mixed-citation publication-type="other" xlink:type="simple">kamerling JP (2000) Streptococcus pneumoniae: molecular biology and mechanisms of disease. In: Tomasz A, editor. Pneumococcal polysaccharides: a chemical view. Larchmont, NY: Mary Ann Liebert. pp. 81–114.</mixed-citation>
+</ref>
+<ref id="pone.0082047-Melin1"><label>11</label>
+<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Melin</surname><given-names>M</given-names></name>, <name name-style="western"><surname>Trzcinski</surname><given-names>K</given-names></name>, <name name-style="western"><surname>Meri</surname><given-names>S</given-names></name>, <name name-style="western"><surname>Kayhty</surname><given-names>H</given-names></name>, <name name-style="western"><surname>Vakevainen</surname><given-names>M</given-names></name> (<year>2010</year>) <article-title>The capsular serotype of Streptococcus pneumoniae is more important than the genetic background for resistance to complement</article-title>. <source>Infect Immun</source> <volume>78</volume>: <fpage>5262</fpage>–<lpage>5270</lpage>.</mixed-citation>
+</ref>
+<ref id="pone.0082047-Hicks1"><label>12</label>
+<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Hicks</surname><given-names>LA</given-names></name>, <name name-style="western"><surname>Harrison</surname><given-names>LH</given-names></name>, <name name-style="western"><surname>Flannery</surname><given-names>B</given-names></name>, <name name-style="western"><surname>Hadler</surname><given-names>JL</given-names></name>, <name name-style="western"><surname>Schaffner</surname><given-names>W</given-names></name>, <etal>et al</etal>. (<year>2007</year>) <article-title>Incidence of pneumococcal disease due to non-pneumococcal conjugate vaccine (PCV7) serotypes in the United States during the era of widespread PCV7 vaccination, 1998-2004</article-title>. <source>J Infect Dis</source> <volume>196</volume>: <fpage>1346</fpage>–<lpage>1354</lpage>.</mixed-citation>
+</ref>
+<ref id="pone.0082047-McIntosh1"><label>13</label>
+<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>McIntosh</surname><given-names>ED</given-names></name>, <name name-style="western"><surname>Reinert</surname><given-names>RR</given-names></name> (<year>2011</year>) <article-title>Global prevailing and emerging pediatric pneumococcal serotypes</article-title>. <source>Expert Rev Vaccines</source> <volume>10</volume>: <fpage>109</fpage>–<lpage>129</lpage>.</mixed-citation>
+</ref>
+<ref id="pone.0082047-Harboe1"><label>14</label>
+<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Harboe</surname><given-names>ZB</given-names></name>, <name name-style="western"><surname>Valentiner-Branth</surname><given-names>P</given-names></name>, <name name-style="western"><surname>Benfield</surname><given-names>TL</given-names></name>, <name name-style="western"><surname>Christensen</surname><given-names>JJ</given-names></name>, <name name-style="western"><surname>Hjuler</surname><given-names>T</given-names></name>, <etal>et al</etal>. (<year>2008</year>) <article-title>Estimated effect of pneumococcal conjugate vaccination on invasive pneumococcal disease and associated mortality, Denmark 2000-2005</article-title>. <source>Vaccine</source> <volume>26</volume>: <fpage>3765</fpage>–<lpage>3771</lpage>.</mixed-citation>
+</ref>
+<ref id="pone.0082047-Kaltoft1"><label>15</label>
+<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Kaltoft</surname><given-names>MS</given-names></name>, <name name-style="western"><surname>Skov Sorensen</surname><given-names>UB</given-names></name>, <name name-style="western"><surname>Slotved</surname><given-names>HC</given-names></name>, <name name-style="western"><surname>Konradsen</surname><given-names>HB</given-names></name> (<year>2008</year>) <article-title>An easy method for detection of nasopharyngeal carriage of multiple Streptococcus pneumoniae serotypes</article-title>. <source>J Microbiol Methods</source> <volume>75</volume>: <fpage>540</fpage>–<lpage>544</lpage>.</mixed-citation>
+</ref>
+<ref id="pone.0082047-Sahni1"><label>16</label>
+<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Sahni</surname><given-names>V</given-names></name>, <name name-style="western"><surname>Naus</surname><given-names>M</given-names></name>, <name name-style="western"><surname>Hoang</surname><given-names>L</given-names></name>, <name name-style="western"><surname>Tyrrell</surname><given-names>GJ</given-names></name>, <name name-style="western"><surname>Martin</surname><given-names>I</given-names></name>, <etal>et al</etal>. (<year>2012</year>) <article-title>The epidemiology of invasive pneumococcal disease in British Columbia following implementation of an infant immunization program: increases in herd immunity and replacement disease</article-title>. <source>Can J Public Health</source> <volume>103</volume>: <fpage>29</fpage>–<lpage>33</lpage>.</mixed-citation>
+</ref>
+<ref id="pone.0082047-Aristegui1"><label>17</label>
+<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Aristegui</surname><given-names>J</given-names></name>, <name name-style="western"><surname>Bernaola</surname><given-names>E</given-names></name>, <name name-style="western"><surname>Pocheville</surname><given-names>I</given-names></name>, <name name-style="western"><surname>Garcia</surname><given-names>C</given-names></name>, <name name-style="western"><surname>Arranz</surname><given-names>L</given-names></name>, <etal>et al</etal>. (<year>2007</year>) <article-title>Reduction in pediatric invasive pneumococcal disease in the Basque Country and Navarre, Spain, after introduction of the heptavalent pneumococcal conjugate vaccine</article-title>. <source>Eur J Clin Microbiol Infect Dis</source> <volume>26</volume>: <fpage>303</fpage>–<lpage>310</lpage>.</mixed-citation>
+</ref>
+<ref id="pone.0082047-Feikin1"><label>18</label>
+<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Feikin</surname><given-names>DR</given-names></name>, <name name-style="western"><surname>Klugman</surname><given-names>KP</given-names></name> (<year>2002</year>) <article-title>Historical changes in pneumococcal serogroup distribution: implications for the era of pneumococcal conjugate vaccines</article-title>. <source>Clin Infect Dis</source> <volume>35</volume>: <fpage>547</fpage>–<lpage>555</lpage>.</mixed-citation>
+</ref>
+<ref id="pone.0082047-Jacobs1"><label>19</label>
+<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Jacobs</surname><given-names>MR</given-names></name>, <name name-style="western"><surname>Good</surname><given-names>CE</given-names></name>, <name name-style="western"><surname>Bajaksouzian</surname><given-names>S</given-names></name>, <name name-style="western"><surname>Windau</surname><given-names>AR</given-names></name> (<year>2008</year>) <article-title>Emergence of Streptococcus pneumoniae serotypes 19A, 6C, and 22F and serogroup 15 in Cleveland, Ohio, in relation to introduction of the protein-conjugated pneumococcal vaccine</article-title>. <source>Clin Infect Dis</source> <volume>47</volume>: <fpage>1388</fpage>–<lpage>1395</lpage>.</mixed-citation>
+</ref>
+<ref id="pone.0082047-Kattan1"><label>20</label>
+<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Kattan</surname><given-names>R</given-names></name>, <name name-style="western"><surname>Abu Rayyan</surname><given-names>A</given-names></name>, <name name-style="western"><surname>Zheiman</surname><given-names>I</given-names></name>, <name name-style="western"><surname>Idkeidek</surname><given-names>S</given-names></name>, <name name-style="western"><surname>Baraghithi</surname><given-names>S</given-names></name>, <etal>et al</etal>. (<year>2011</year>) <article-title>Serotype distribution and drug resistance in Streptococcus pneumoniae, Palestinian Territories</article-title>. <source>Emerg Infect Dis</source> <volume>17</volume>: <fpage>94</fpage>–<lpage>96</lpage>.</mixed-citation>
+</ref>
+<ref id="pone.0082047-McAvin1"><label>21</label>
+<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>McAvin</surname><given-names>JC</given-names></name>, <name name-style="western"><surname>Reilly</surname><given-names>PA</given-names></name>, <name name-style="western"><surname>Roudabush</surname><given-names>RM</given-names></name>, <name name-style="western"><surname>Barnes</surname><given-names>WJ</given-names></name>, <name name-style="western"><surname>Salmen</surname><given-names>A</given-names></name>, <etal>et al</etal>. (<year>2001</year>) <article-title>Sensitive and specific method for rapid identification of Streptococcus pneumoniae using real-time fluorescence PCR</article-title>. <source>J Clin Microbiol</source> <volume>39</volume>: <fpage>3446</fpage>–<lpage>3451</lpage>.</mixed-citation>
+</ref>
+<ref id="pone.0082047-CLSI1"><label>22</label>
+<mixed-citation publication-type="other" xlink:type="simple">CLSI (2012) Performance standards for antimicrobial susceptibility testing. M100–S22.</mixed-citation>
+</ref>
+<ref id="pone.0082047-Pai1"><label>23</label>
+<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Pai</surname><given-names>R</given-names></name>, <name name-style="western"><surname>Gertz</surname><given-names>RE</given-names></name>, <name name-style="western"><surname>Beall</surname><given-names>B</given-names></name> (<year>2006</year>) <article-title>Sequential multiplex PCR approach for determining capsular serotypes of Streptococcus pneumoniae isolates</article-title>. <source>J Clin Microbiol</source> <volume>44</volume>: <fpage>124</fpage>–<lpage>131</lpage>.</mixed-citation>
+</ref>
+<ref id="pone.0082047-Jin1"><label>24</label>
+<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Jin</surname><given-names>P</given-names></name>, <name name-style="western"><surname>Xiao</surname><given-names>M</given-names></name>, <name name-style="western"><surname>Kong</surname><given-names>F</given-names></name>, <name name-style="western"><surname>Oftadeh</surname><given-names>S</given-names></name>, <name name-style="western"><surname>Zhou</surname><given-names>F</given-names></name>, <etal>et al</etal>. (<year>2009</year>) <article-title>Simple, accurate, serotype-specific PCR assay to differentiate Streptococcus pneumoniae serotypes 6A, 6B, and 6C</article-title>. <source>J Clin Microbiol</source> <volume>47</volume>: <fpage>2470</fpage>–<lpage>2474</lpage>.</mixed-citation>
+</ref>
+<ref id="pone.0082047-RegevYochay1"><label>25</label>
+<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Regev-Yochay</surname><given-names>G</given-names></name>, <name name-style="western"><surname>Abullaish</surname><given-names>I</given-names></name>, <name name-style="western"><surname>Malley</surname><given-names>R</given-names></name>, <name name-style="western"><surname>Shainberg</surname><given-names>B</given-names></name>, <name name-style="western"><surname>Varon</surname><given-names>M</given-names></name>, <etal>et al</etal>. (<year>2012</year>) <article-title>Streptococcus pneumoniae carriage in the Gaza strip</article-title>. <source>PLoS One</source> <volume>7</volume>: <fpage>e35061</fpage>.</mixed-citation>
+</ref>
+<ref id="pone.0082047-Borer1"><label>26</label>
+<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Borer</surname><given-names>A</given-names></name>, <name name-style="western"><surname>Meirson</surname><given-names>H</given-names></name>, <name name-style="western"><surname>Peled</surname><given-names>N</given-names></name>, <name name-style="western"><surname>Porat</surname><given-names>N</given-names></name>, <name name-style="western"><surname>Dagan</surname><given-names>R</given-names></name>, <etal>et al</etal>. (<year>2001</year>) <article-title>Antibiotic-resistant pneumococci carried by young children do not appear to disseminate to adult members of a closed community</article-title>. <source>Clin Infect Dis</source> <volume>33</volume>: <fpage>436</fpage>–<lpage>444</lpage>.</mixed-citation>
+</ref>
+<ref id="pone.0082047-AlYaqoubi1"><label>27</label>
+<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Al-Yaqoubi</surname><given-names>MM</given-names></name>, <name name-style="western"><surname>Elhag</surname><given-names>KM</given-names></name> (<year>2011</year>) <article-title>Serotype Prevalence and Penicillin-susceptibility of Streptococcus pneumoniae in Oman</article-title>. <source>Oman Med J</source> <volume>26</volume>: <fpage>43</fpage>–<lpage>47</lpage>.</mixed-citation>
+</ref>
+<ref id="pone.0082047-SanaeiDashti1"><label>28</label>
+<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Sanaei Dashti</surname><given-names>A</given-names></name>, <name name-style="western"><surname>Abdinia</surname><given-names>B</given-names></name>, <name name-style="western"><surname>Karimi</surname><given-names>A</given-names></name> (<year>2012</year>) <article-title>Nasopharyngeal carrier rate of Streptococcus pneumoniae in children: serotype distribution and antimicrobial resistance</article-title>. <source>Arch Iran Med</source> <volume>15</volume>: <fpage>500</fpage>–<lpage>503</lpage>.</mixed-citation>
+</ref>
+<ref id="pone.0082047-Factor1"><label>29</label>
+<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Factor</surname><given-names>SH</given-names></name>, <name name-style="western"><surname>LaClaire</surname><given-names>L</given-names></name>, <name name-style="western"><surname>Bronsdon</surname><given-names>M</given-names></name>, <name name-style="western"><surname>Suleymanova</surname><given-names>F</given-names></name>, <name name-style="western"><surname>Altynbaeva</surname><given-names>G</given-names></name>, <etal>et al</etal>. (<year>2005</year>) <article-title>Streptococcus pneumoniae and Haemophilus influenzae type B Carriage, Central Asia</article-title>. <source>Emerg Infect Dis</source> <volume>11</volume>: <fpage>1476</fpage>–<lpage>1479</lpage>.</mixed-citation>
+</ref>
+<ref id="pone.0082047-Bogaert1"><label>30</label>
+<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Bogaert</surname><given-names>D</given-names></name>, <name name-style="western"><surname>Engelen</surname><given-names>MN</given-names></name>, <name name-style="western"><surname>Timmers-Reker</surname><given-names>AJ</given-names></name>, <name name-style="western"><surname>Elzenaar</surname><given-names>KP</given-names></name>, <name name-style="western"><surname>Peerbooms</surname><given-names>PG</given-names></name>, <etal>et al</etal>. (<year>2001</year>) <article-title>Pneumococcal carriage in children in The Netherlands: a molecular epidemiological study</article-title>. <source>J Clin Microbiol</source> <volume>39</volume>: <fpage>3316</fpage>–<lpage>3320</lpage>.</mixed-citation>
+</ref>
+<ref id="pone.0082047-Abdullahi1"><label>31</label>
+<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Abdullahi</surname><given-names>O</given-names></name>, <name name-style="western"><surname>Karani</surname><given-names>A</given-names></name>, <name name-style="western"><surname>Tigoi</surname><given-names>CC</given-names></name>, <name name-style="western"><surname>Mugo</surname><given-names>D</given-names></name>, <name name-style="western"><surname>Kungu</surname><given-names>S</given-names></name>, <etal>et al</etal>. (<year>2012</year>) <article-title>The prevalence and risk factors for pneumococcal colonization of the nasopharynx among children in Kilifi District, Kenya</article-title>. <source>PLoS One</source> <volume>7</volume>: <fpage>e30787</fpage>.</mixed-citation>
+</ref>
+<ref id="pone.0082047-Quintero1"><label>32</label>
+<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Quintero</surname><given-names>B</given-names></name>, <name name-style="western"><surname>Araque</surname><given-names>M</given-names></name>, <name name-style="western"><surname>van der Gaast-de Jongh</surname><given-names>C</given-names></name>, <name name-style="western"><surname>Escalona</surname><given-names>F</given-names></name>, <name name-style="western"><surname>Correa</surname><given-names>M</given-names></name>, <etal>et al</etal>. (<year>2011</year>) <article-title>Epidemiology of Streptococcus pneumoniae and Staphylococcus aureus colonization in healthy Venezuelan children</article-title>. <source>Eur J Clin Microbiol Infect Dis</source> <volume>30</volume>: <fpage>7</fpage>–<lpage>19</lpage>.</mixed-citation>
+</ref>
+<ref id="pone.0082047-Katsarolis1"><label>33</label>
+<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Katsarolis</surname><given-names>I</given-names></name>, <name name-style="western"><surname>Poulakou</surname><given-names>G</given-names></name>, <name name-style="western"><surname>Analitis</surname><given-names>A</given-names></name>, <name name-style="western"><surname>Matthaiopoulou</surname><given-names>I</given-names></name>, <name name-style="western"><surname>Roilides</surname><given-names>E</given-names></name>, <etal>et al</etal>. (<year>2009</year>) <article-title>Risk factors for nasopharyngeal carriage of drug-resistant Streptococcus pneumoniae: data from a nation-wide surveillance study in Greece</article-title>. <source>BMC Infect Dis</source> <volume>9</volume>: <fpage>120</fpage>.</mixed-citation>
+</ref>
+<ref id="pone.0082047-Chiu1"><label>34</label>
+<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Chiu</surname><given-names>SS</given-names></name>, <name name-style="western"><surname>Ho</surname><given-names>PL</given-names></name>, <name name-style="western"><surname>Chow</surname><given-names>FK</given-names></name>, <name name-style="western"><surname>Yuen</surname><given-names>KY</given-names></name>, <name name-style="western"><surname>Lau</surname><given-names>YL</given-names></name> (<year>2001</year>) <article-title>Nasopharyngeal carriage of antimicrobial-resistant Streptococcus pneumoniae among young children attending 79 kindergartens and day care centers in Hong Kong</article-title>. <source>Antimicrob Agents Chemother</source> <volume>45</volume>: <fpage>2765</fpage>–<lpage>2770</lpage>.</mixed-citation>
+</ref>
+<ref id="pone.0082047-Marchisio1"><label>35</label>
+<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Marchisio</surname><given-names>P</given-names></name>, <name name-style="western"><surname>Esposito</surname><given-names>S</given-names></name>, <name name-style="western"><surname>Schito</surname><given-names>GC</given-names></name>, <name name-style="western"><surname>Marchese</surname><given-names>A</given-names></name>, <name name-style="western"><surname>Cavagna</surname><given-names>R</given-names></name>, <etal>et al</etal>. (<year>2002</year>) <article-title>Nasopharyngeal carriage of Streptococcus pneumoniae in healthy children: implications for the use of heptavalent pneumococcal conjugate vaccine</article-title>. <source>Emerg Infect Dis</source> <volume>8</volume>: <fpage>479</fpage>–<lpage>484</lpage>.</mixed-citation>
+</ref>
+<ref id="pone.0082047-Isaacman1"><label>36</label>
+<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Isaacman</surname><given-names>DJ</given-names></name>, <name name-style="western"><surname>McIntosh</surname><given-names>ED</given-names></name>, <name name-style="western"><surname>Reinert</surname><given-names>RR</given-names></name> (<year>2010</year>) <article-title>Burden of invasive pneumococcal disease and serotype distribution among Streptococcus pneumoniae isolates in young children in Europe: impact of the 7-valent pneumococcal conjugate vaccine and considerations for future conjugate vaccines</article-title>. <source>Int J Infect Dis</source> <volume>14</volume>: <fpage>e197</fpage>–<lpage>209</lpage>.</mixed-citation>
+</ref>
+<ref id="pone.0082047-Ozdemir1"><label>37</label>
+<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Ozdemir</surname><given-names>B</given-names></name>, <name name-style="western"><surname>Beyazova</surname><given-names>U</given-names></name>, <name name-style="western"><surname>Camurdan</surname><given-names>AD</given-names></name>, <name name-style="western"><surname>Sultan</surname><given-names>N</given-names></name>, <name name-style="western"><surname>Ozkan</surname><given-names>S</given-names></name>, <etal>et al</etal>. (<year>2008</year>) <article-title>Nasopharyngeal carriage of Streptococcus pneumoniae in healthy Turkish infants</article-title>. <source>J Infect</source> <volume>56</volume>: <fpage>332</fpage>–<lpage>339</lpage>.</mixed-citation>
+</ref>
+<ref id="pone.0082047-Lo1"><label>38</label>
+<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Lo</surname><given-names>WT</given-names></name>, <name name-style="western"><surname>Wang</surname><given-names>CC</given-names></name>, <name name-style="western"><surname>Yu</surname><given-names>CM</given-names></name>, <name name-style="western"><surname>Chu</surname><given-names>ML</given-names></name> (<year>2003</year>) <article-title>Rate of nasopharyngeal carriage, antimicrobial resistance and serotype of Streptococcus pneumoniae among children in northern Taiwan</article-title>. <source>J Microbiol Immunol Infect</source> <volume>36</volume>: <fpage>175</fpage>–<lpage>181</lpage>.</mixed-citation>
+</ref>
+<ref id="pone.0082047-SaLeao1"><label>39</label>
+<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Sa-Leao</surname><given-names>R</given-names></name>, <name name-style="western"><surname>Nunes</surname><given-names>S</given-names></name>, <name name-style="western"><surname>Brito-Avo</surname><given-names>A</given-names></name>, <name name-style="western"><surname>Frazao</surname><given-names>N</given-names></name>, <name name-style="western"><surname>Simoes</surname><given-names>AS</given-names></name>, <etal>et al</etal>. (<year>2009</year>) <article-title>Changes in pneumococcal serotypes and antibiotypes carried by vaccinated and unvaccinated day-care centre attendees in Portugal, a country with widespread use of the seven-valent pneumococcal conjugate vaccine</article-title>. <source>Clin Microbiol Infect</source> <volume>15</volume>: <fpage>1002</fpage>–<lpage>1007</lpage>.</mixed-citation>
+</ref>
+<ref id="pone.0082047-Shouval1"><label>40</label>
+<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Shouval</surname><given-names>DS</given-names></name>, <name name-style="western"><surname>Greenberg</surname><given-names>D</given-names></name>, <name name-style="western"><surname>Givon-Lavi</surname><given-names>N</given-names></name>, <name name-style="western"><surname>Porat</surname><given-names>N</given-names></name>, <name name-style="western"><surname>Dagan</surname><given-names>R</given-names></name> (<year>2009</year>) <article-title>Serotype coverage of invasive and mucosal pneumococcal disease in Israeli children younger than 3 years by various pneumococcal conjugate vaccines</article-title>. <source>Pediatr Infect Dis J</source> <volume>28</volume>: <fpage>277</fpage>–<lpage>282</lpage>.</mixed-citation>
+</ref>
+<ref id="pone.0082047-Scheifele1"><label>41</label>
+<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Scheifele</surname><given-names>D</given-names></name>, <name name-style="western"><surname>Halperin</surname><given-names>S</given-names></name>, <name name-style="western"><surname>Pelletier</surname><given-names>L</given-names></name>, <name name-style="western"><surname>Talbot</surname><given-names>J</given-names></name>, <name name-style="western"><surname>Lovgren</surname><given-names>M</given-names></name>, <etal>et al</etal>. (<year>2001</year>) <article-title>Reduced susceptibility to penicillin among pneumococci causing invasive infection in children - Canada, 1991 to 1998</article-title>. <source>Can J Infect Dis</source> <volume>12</volume>: <fpage>241</fpage>–<lpage>246</lpage>.</mixed-citation>
+</ref>
+<ref id="pone.0082047-Jin2"><label>42</label>
+<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Jin</surname><given-names>P</given-names></name>, <name name-style="western"><surname>Kong</surname><given-names>F</given-names></name>, <name name-style="western"><surname>Xiao</surname><given-names>M</given-names></name>, <name name-style="western"><surname>Oftadeh</surname><given-names>S</given-names></name>, <name name-style="western"><surname>Zhou</surname><given-names>F</given-names></name>, <etal>et al</etal>. (<year>2009</year>) <article-title>First report of putative Streptococcus pneumoniae serotype 6D among nasopharyngeal isolates from Fijian children</article-title>. <source>J Infect Dis</source> <volume>200</volume>: <fpage>1375</fpage>–<lpage>1380</lpage>.</mixed-citation>
+</ref>
+<ref id="pone.0082047-Hausdorff1"><label>43</label>
+<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Hausdorff</surname><given-names>WP</given-names></name>, <name name-style="western"><surname>Bryant</surname><given-names>J</given-names></name>, <name name-style="western"><surname>Paradiso</surname><given-names>PR</given-names></name>, <name name-style="western"><surname>Siber</surname><given-names>GR</given-names></name> (<year>2000</year>) <article-title>Which pneumococcal serogroups cause the most invasive disease: implications for conjugate vaccine formulation and use, part I</article-title>. <source>Clin Infect Dis</source> <volume>30</volume>: <fpage>100</fpage>–<lpage>121</lpage>.</mixed-citation>
+</ref>
+<ref id="pone.0082047-Nahm1"><label>44</label>
+<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Nahm</surname><given-names>MH</given-names></name>, <name name-style="western"><surname>Lin</surname><given-names>J</given-names></name>, <name name-style="western"><surname>Finkelstein</surname><given-names>JA</given-names></name>, <name name-style="western"><surname>Pelton</surname><given-names>SI</given-names></name> (<year>2009</year>) <article-title>Increase in the prevalence of the newly discovered pneumococcal serotype 6C in the nasopharynx after introduction of pneumococcal conjugate vaccine</article-title>. <source>J Infect Dis</source> <volume>199</volume>: <fpage>320</fpage>–<lpage>325</lpage>.</mixed-citation>
+</ref>
+<ref id="pone.0082047-Pai2"><label>45</label>
+<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Pai</surname><given-names>R</given-names></name>, <name name-style="western"><surname>Limor</surname><given-names>J</given-names></name>, <name name-style="western"><surname>Beall</surname><given-names>B</given-names></name> (<year>2005</year>) <article-title>Use of pyrosequencing to differentiate Streptococcus pneumoniae serotypes 6A and 6B</article-title>. <source>J Clin Microbiol</source> <volume>43</volume>: <fpage>4820</fpage>–<lpage>4822</lpage>.</mixed-citation>
+</ref>
+</ref-list></back>
+</article>

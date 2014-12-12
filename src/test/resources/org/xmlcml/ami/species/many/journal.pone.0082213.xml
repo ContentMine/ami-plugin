@@ -1,0 +1,303 @@
+<article xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" article-type="research-article" dtd-version="3.0" xml:lang="en">
+<front>
+<journal-meta>
+<journal-id journal-id-type="nlm-ta">PLoS ONE</journal-id>
+<journal-id journal-id-type="publisher-id">plos</journal-id>
+<journal-id journal-id-type="pmc">plosone</journal-id><journal-title-group>
+<journal-title xml:lang="en">PLoS ONE</journal-title></journal-title-group>
+<issn pub-type="epub">1932-6203</issn>
+<publisher>
+<publisher-name>Public Library of Science</publisher-name>
+<publisher-loc>San Francisco, USA</publisher-loc></publisher>
+</journal-meta>
+<article-meta>
+<article-id pub-id-type="publisher-id">PONE-D-13-22523</article-id>
+<article-id pub-id-type="doi">10.1371/journal.pone.0082213</article-id>
+<article-categories><subj-group subj-group-type="heading"><subject>Research Article</subject></subj-group></article-categories>
+<title-group>
+<article-title>Measuring Dilution of Microbicide Gels with Optical Imaging</article-title>
+<alt-title alt-title-type="running-head">Measuring Dilution of Microbicide Gels</alt-title>
+</title-group>
+<contrib-group>
+<contrib contrib-type="author" xlink:type="simple"><name name-style="western"><surname>Drake</surname><given-names>Tyler K.</given-names></name><xref ref-type="aff" rid="aff1"><sup>1</sup></xref><xref ref-type="corresp" rid="cor1"><sup>*</sup></xref></contrib>
+<contrib contrib-type="author" xlink:type="simple"><name name-style="western"><surname>Shah</surname><given-names>Tejen</given-names></name><xref ref-type="aff" rid="aff1"><sup>1</sup></xref></contrib>
+<contrib contrib-type="author" xlink:type="simple"><name name-style="western"><surname>Peters</surname><given-names>Jennifer J.</given-names></name><xref ref-type="aff" rid="aff1"><sup>1</sup></xref></contrib>
+<contrib contrib-type="author" xlink:type="simple"><name name-style="western"><surname>Wax</surname><given-names>Adam</given-names></name><xref ref-type="aff" rid="aff1"><sup>1</sup></xref></contrib>
+<contrib contrib-type="author" xlink:type="simple"><name name-style="western"><surname>Katz</surname><given-names>David F.</given-names></name><xref ref-type="aff" rid="aff1"><sup>1</sup></xref><xref ref-type="aff" rid="aff2"><sup>2</sup></xref></contrib>
+</contrib-group>
+<aff id="aff1"><label>1</label><addr-line>Duke University, Department of Biomedical Engineering, Durham, North Carolina, United States of America</addr-line></aff>
+<aff id="aff2"><label>2</label><addr-line>Duke University, Department of Obstetrics and Gynecology, Durham, North Carolina, United States of America</addr-line></aff>
+<contrib-group>
+<contrib contrib-type="editor" xlink:type="simple"><name name-style="western"><surname>Eddington</surname><given-names>David T.</given-names></name>
+<role>Editor</role>
+<xref ref-type="aff" rid="edit1" /></contrib>
+</contrib-group>
+<aff id="edit1"><addr-line>University of Illinois at Chicago, United States of America</addr-line></aff>
+<author-notes>
+<corresp id="cor1">* E-mail: <email xlink:type="simple">tkd3@duke.edu</email></corresp>
+<fn fn-type="conflict"><p>The authors have declared that no competing interests exist.</p></fn>
+<fn fn-type="con"><p>Conceived and designed the experiments: TD AW DK. Performed the experiments: TD TS JP. Analyzed the data: TD TS. Contributed reagents/materials/analysis tools: TD JP. Wrote the paper: TD AW DK.</p></fn>
+</author-notes>
+<pub-date pub-type="collection"><year>2013</year></pub-date>
+<pub-date pub-type="epub"><day>10</day><month>12</month><year>2013</year></pub-date>
+<volume>8</volume>
+<issue>12</issue>
+<elocation-id>e82213</elocation-id>
+<history>
+<date date-type="received"><day>31</day><month>5</month><year>2013</year></date>
+<date date-type="accepted"><day>23</day><month>10</month><year>2013</year></date>
+</history>
+<permissions>
+<copyright-year>2013</copyright-year>
+<copyright-holder>Drake et al</copyright-holder><license xlink:href="http://creativecommons.org/licenses/by/3.0/" xlink:type="simple"><license-p>This is an open-access article distributed under the terms of the <ext-link ext-link-type="uri" xlink:href="http://creativecommons.org/licenses/by/3.0/" xlink:type="simple">Creative Commons Attribution License</ext-link>, which permits unrestricted use, distribution, and reproduction in any medium, provided the original author and source are credited.</license-p></license></permissions>
+<abstract>
+<p>We present a novel approach for measuring topical microbicide gel dilution using optical imaging. The approach compares gel thickness measurements from fluorimetry and multiplexed low coherence interferometry in order to calculate dilution of a gel. As a microbicide gel becomes diluted at fixed thickness, its mLCI thickness measurement remains constant, while the fluorimetry signal decreases in intensity. The difference between the two measurements is related to the extent of gel dilution. These two optical modalities are implemented in a single endoscopic instrument that enables simultaneous data collection. A preliminary validation study was performed with <italic>in vitro</italic> placebo gel measurements taken in a controlled test socket. It was found that change in slope of the regression line between fluorimetry and mLCI based measurements indicates dilution. A dilution calibration curve was then generated by repeating the test socket measurements with serial dilutions of placebo gel with vaginal fluid simulant. This methodology can provide valuable dilution information on candidate microbicide products, which could substantially enhance our understanding of their <italic>in vivo</italic> functioning.</p>
+</abstract>
+<funding-group><funding-statement>This research was supported by the National Institutes of Health Grant No. U19-AI 077289. The funders had no role in study design, data collection and analysis, decision to publish, or preparation of the manuscript.</funding-statement></funding-group><counts><page-count count="7" /></counts></article-meta>
+</front>
+<body><sec id="s1">
+<title>Introduction</title>
+<p>Microbicide gels are topically acting products that are inserted into the vagina to inhibit infection by sexually transmitted pathogens, mainly HIV. There have been mixed results in the successes of multiple Phase 3 microbicide trials of such gels <xref ref-type="bibr" rid="pone.0082213-AbdoolKarim1">[1]</xref>, <xref ref-type="bibr" rid="pone.0082213-1">[2]</xref>. These trials evaluated gels that were not designed using knowledge of their intravaginal spreading mechanics and its effects upon drug delivery and retardation of viral migration to epithelial surfaces. Such information can contribute to the rational design of improved microbicide gel products. This knowledge is derived from a combination of experimental measurements relating to vaginal deployment and drug delivery <xref ref-type="bibr" rid="pone.0082213-Drake1">[3]</xref>, <xref ref-type="bibr" rid="pone.0082213-Henderson1">[4]</xref>, and objective computations that relate product properties and dosage regimens to drug delivery <xref ref-type="bibr" rid="pone.0082213-Lai1">[5]</xref>–<xref ref-type="bibr" rid="pone.0082213-Katz1">[8]</xref>. These measurements include rheological properties of gels, drug release rates, and also the effects of contact with and dilution by ambient vaginal fluids.</p>
+<p>Dilution of gel formulations changes their rheological properties and also the transport properties (e.g. diffusion coefficients) of both their microbicide drugs and virions migrating through them <xref ref-type="bibr" rid="pone.0082213-Lai1">[5]</xref>–<xref ref-type="bibr" rid="pone.0082213-Tasoglu2">[7]</xref>. Thus, dilution may have a substantial effect upon the functioning of vaginal microbicide gels. However, the actual extent and rate of gel dilution within the human vagina <italic>in vivo</italic> are not known. The amount of vaginal fluid is believed to vary with a number of factors, primarily related to a women's reproductive endocrine status, that is the phase of the menstrual cycle and age. However, it has been very difficult to measure the actual amount of ambient fluid within the human vagina. This amount has been estimated to be 0.5–0.75 mL <xref ref-type="bibr" rid="pone.0082213-Owen1">[9]</xref>. As a result, for example, a gel volume ranging from 2–5 mL would be potentially diluted by about 10–30% <xref ref-type="bibr" rid="pone.0082213-Lai1">[5]</xref>. Presently, there is no methodology that can directly measure the amount and distribution of vaginal fluid, or gel dilution, <italic>in vivo</italic>. Clearly, there is a great need to develop and apply such methodology. Here, we present an optical technique that offers promise in performing measurements of intravaginal gel dilution in women <italic>in vivo</italic>.</p>
+<p>Previous studies have successfully measured <italic>in vivo</italic> vaginal gel thickness distributions in a human clinical study using a probe-based, dual modality optical imaging instrument <xref ref-type="bibr" rid="pone.0082213-Drake1">[3]</xref>, <xref ref-type="bibr" rid="pone.0082213-Henderson1">[4]</xref>, <xref ref-type="bibr" rid="pone.0082213-Drake2">[10]</xref>, <xref ref-type="bibr" rid="pone.0082213-Henderson2">[11]</xref>. Here, we exploit differences in the instrument's two optical imaging modalities in order to measure dilution of a placebo microbicide gel. The optical imaging instrument uses both multiplexed low coherence interferometry (mLCI) and fluorimetry in order to measure local gel coating thickness <xref ref-type="bibr" rid="pone.0082213-Drake2">[10]</xref>. The mLCI method exploits low coherence light to perform depth-ranging measurements of layers in a sample (analogous to ultrasound), while fluorimetry requires the gel to be labeled with sodium fluorescein and measures the intensity of emitted light from the fluorophore. Therefore, as a gel becomes diluted at fixed thickness, its mLCI measurement changes minimally while its fluorimetry signal becomes less intense. The difference between these two types of measurements can thus be related, in principle, to the extent of dilution. This approach would provide a method of quantifying the amount of dilution of a microbicide gel product within the vaginal canal.</p>
+<p>In the initial study here, we demonstrate the feasibility of the technique by conducting serial dilution experiments and comparing measurements between the two optical imaging modalities. It is hypothesized that mLCI measurements will vary slightly with dilution, as mLCI thickness measurements rely on index of refraction of the material (gel) which will be altered by dilution. This hypothesis is tested in this manuscript and the significance of changes in index of refraction is quantified and discussed. The methodology is then applied to sample <italic>in vivo</italic> gel thickness data as an example of how the approach may be used in understanding microbicide gel properties.</p>
+</sec><sec id="s2" sec-type="methods">
+<title>Methods</title>
+<sec id="s2a">
+<title>Optical Imaging Instrument</title>
+<p>Complete descriptions of the dual-modality optical imaging instrument are provided in our previous papers <xref ref-type="bibr" rid="pone.0082213-Drake1">[3]</xref>, <xref ref-type="bibr" rid="pone.0082213-Henderson1">[4]</xref>, <xref ref-type="bibr" rid="pone.0082213-Drake2">[10]</xref>, <xref ref-type="bibr" rid="pone.0082213-Henderson2">[11]</xref>. Below, we present the important operational features as used in this study.</p>
+<p>The optical sensors of the dual-modality instrument are contained within an optically clear, 27-mm diameter, molded epoxy tube (Epoxy Technology, Epo-Tek 301, Billerica, MA). The tube is 150-mm long, with a wall thickness of 3.1mm, and allows the instrument's imaging optics to freely rotate and translate inside. The fluorimetry sensor is built around a 4-mm diameter endoscope (Storz 27005CA, Tuttlingen, Germany) that both delivers fluorescence excitation light to the sample and collects the emitted signal. The fluorimetric probe tip is built into a sealed well filled with distilled water to reduce spurious reflections. Fluorescence excitation is provided by a 300-watt Xenon lamp which is notch-filtered to remove the emission wavelength of fluorescence, at 500 to 560 nm). In this experiment, the collected fluorescence was split into two signals with a beam splitter. One was passed through a fiber optic cable and its intensity was detected using a photomultiplier tube. The second signal was imaged with a video camera to provide visual reference of probe position.</p>
+<p>The mLCI imaging module is mounted to the distal end of the fluorimetric endoscope such that the imaging area is offset 180-degrees and 20-mm axially, as shown in <xref ref-type="fig" rid="pone-0082213-g001">Fig. 1</xref>. This arrangement was necessary as the mLCI was added to the fluorimetry probe after its initial design <xref ref-type="bibr" rid="pone.0082213-Drake2">[10]</xref>. Future studies will employ a redesigned instrument that does not include the axial offset. The mLCI instrument is constructed of 6-parallel interferometer channels which each provide depth-resolved reflectance profiles of a sample, analogous to acoustic reflection profiles of ultrasound. The mLCI instrument uses broadband light from a superluminescent diode (SLD, Superlum Diodes Ltd., Moscow, Russia) with a center wavelength of 837.5 nm and a bandwidth of 54.2 nm, yielding a theoretical coherence length of 5.7 µm. The measured average axial resolution of the mLCI instrument is 8.3 µm <xref ref-type="bibr" rid="pone.0082213-Drake2">[10]</xref>. SLD light is split into 6 channels by 50∶50 fiber optic couplers (AC Photonics, Santa Clara, CA), creating 6 parallel sample and reference fields. In each channel, the collected light from the sample is recombined with reference light by fiber optic couplers. The signals are then detected simultaneously with a multichannel spectrometer (Avantes, Inc., Broomfield, CO) at 48 scans/sec. Axial probe position inside the epoxy tube is provided by a linear encoder system while a rotational encoder provides azimuthal position. These data are then used to transform register the data between the two modalities.</p>
+<fig id="pone-0082213-g001" position="float" orientation="portrait"><object-id pub-id-type="doi">10.1371/journal.pone.0082213.g001</object-id><label>Figure 1</label><caption>
+<title>Imaging probe geometry as used with the test socket.</title>
+<p>The internal endoscope, which includes both the mLCI and fluorimetry imaging systems, rotates together freely inside the epoxy tube. The mLCI field of view is offset +20-mm in the axial direction and 180-degrees azimuthally. The test socket consists of grooves at five depths, ranging from 36–375 <italic>µ</italic>m.</p>
+</caption><graphic mimetype="image" xlink:href="info:doi/10.1371/journal.pone.0082213.g001" position="float" xlink:type="simple" orientation="portrait" /></fig></sec><sec id="s2b">
+<title>Experimental Design</title>
+<p>We created a custom cylindrical calibration socket for use in simultaneously evaluating mLCI and fluorometric measurements in relation to gel dilution and thickness. The test socket is made of black anodized aluminum and features 5 grooves of varying depths (36, 75, 183, 271, and 375 µm). These depths are consistent with <italic>in vivo</italic> gel thicknesses that have been detected in previous studies <xref ref-type="bibr" rid="pone.0082213-Drake1">[3]</xref>, <xref ref-type="bibr" rid="pone.0082213-Henderson1">[4]</xref>. The test gel was the placebo used in the current FACTS-001 trial <xref ref-type="bibr" rid="pone.0082213-CONRAD1">[12]</xref>. This is a 3% hydroxyethyl cellulose (HEC) gel. The gel was serially diluted using vaginal fluid simulant <xref ref-type="bibr" rid="pone.0082213-Owen1">[9]</xref> by amounts (v∶v) of 0% (whole gel) to 10%, 20%, 33%, and 50%.</p>
+<p>An initial experiment was performed with unlabeled gel in order to: (1) determine the index of refraction of the gel at each dilution, and (2) characterize light leakage of the fluorimetry measurement system. The five grooves of the test socket were first filled with undiluted gel. The socket was secured to the epoxy tube of the probe, and imaged with the dual-modality instrument. The mLCI dataset was used to calculate index of refraction, <italic>n</italic>, of each dilution. The measured optical path length (<italic>OPL</italic>) of a mLCI depth scan (A-scan), can be related to index of refraction by <italic>OPL = n*t</italic> where <italic>t</italic> is the depth of a groove in the test socket. Fluorimetric light leakage leads to an overestimate of actual signal and was characterized in this preliminary experiment as well. The fluorimetric signal was recorded for each groove during the scan process of the unlabeled gel, and this intensity value was subtracted from the fluorescein-labeled gel signal in the remaining experiments.</p>
+<p>Fluorescein-labeled test gel (0.1% w/w; Akorn AK-Fluor, Lake Forest, IL) was then inserted into the test socket and the five wells were imaged. The labeled gel was then diluted 10% by volume with VFS, placed into the socket, and imaged. This procedure was repeated for dilutions of 20%, 33%, and 50% VFS, with simultaneous measurements by fluorimetry and mLCI for each.</p>
+<p>Fluorimetry measurements were taken at the center coordinate of each groove in the socket, with a field of view of approximately 1 cm. The mLCI field consisted of six 50 µm-diameter spots oriented in a line perpendicular to the socket's axis, covering about 3.5 mm azimuthally. mLCI data were sampled every 1-mm axially, and 10 axial measurements were averaged in each depth groove of the test socket for data comparison between the two modalities.</p>
+</sec><sec id="s2c">
+<title>Pilot Application to Human In Vivo Imaging Data</title>
+<p>Application of the differential analysis of local mLCI and fluorimetry measurements to human <italic>in vivo</italic> data has many details that are beyond the scope of this initial, proof of principle study. For example, the noise inherent in the human data needs to be filtered in a manner that does not obfuscate distinctions in data from the two measurement modalities. Nonetheless, to demonstrate the potential of this approach we conducted a pilot analysis using a dataset from our previous <italic>in vivo</italic> study <xref ref-type="bibr" rid="pone.0082213-Drake1">[3]</xref>. This was obtained 10 minutes after insertion of 4 mL of the same placebo gel used in the <italic>in vitro</italic> experiments described above. The dataset contains a two dimensional surface map of <italic>in vivo</italic> vaginal measurements of the thickness of gel in cylindrical coordinates (distance along the axis of the probe, and azimuthal angle). To measure an effective gel dilution, the local measurements were first azimuthally averaged, in relation to axial distance from the vaginal fornix to the introitus, as in Drake <italic>et al</italic> <xref ref-type="bibr" rid="pone.0082213-Drake1">[3]</xref>. Then a region of interest (ROI) was selected, based on constraints of the mLCI method for very large gel coating thicknesses, which occur for a small region of the gel within the inner vaginal fornix <xref ref-type="bibr" rid="pone.0082213-Drake1">[3]</xref>, <xref ref-type="bibr" rid="pone.0082213-Drake3">[13]</xref>. mLCI and fluorimetry data within the ROI were then plotted and regression analysis gave the slope, which was then used to infer a spatial average gel dilution within the ROI.</p>
+</sec></sec><sec id="s3">
+<title>Results</title>
+<sec id="s3a">
+<title>Analysis of the In Vitro Experiments</title>
+<p>Optical path length measurements obtained by mLCI were first used to calculate index of refraction, <italic>n</italic>, for each gel dilution with the equation <italic>OPL = n*t</italic>, where <italic>t</italic> is the known thickness of the calibration socket. These results are presented in <xref ref-type="table" rid="pone-0082213-t001">Table 1</xref>, and were used to calibrate the mLCI device for consequent measurements with fluorescein-labeled FACTS001 gel thickness measurements.</p>
+<table-wrap id="pone-0082213-t001" position="float" orientation="portrait"><object-id pub-id-type="doi">10.1371/journal.pone.0082213.t001</object-id><label>Table 1</label><caption>
+<title>Calculated index of refraction values (<italic>n</italic>) for FACTS-001 gel diluted with vaginal fluid simulant. These values were used for accurate calibration of the mLCI modality.</title>
+</caption><alternatives><graphic id="pone-0082213-t001-1" position="float" mimetype="image" xlink:href="info:doi/10.1371/journal.pone.0082213.t001" xlink:type="simple" orientation="portrait" />
+<table><colgroup span="1"><col align="left" span="1" /><col align="center" span="1" /><col align="center" span="1" /><col align="center" span="1" /><col align="center" span="1" /><col align="center" span="1" /></colgroup>
+<thead>
+<tr>
+<td align="left" rowspan="1" colspan="1">Gel Dilution (% VFS)</td>
+<td align="left" rowspan="1" colspan="1">0</td>
+<td align="left" rowspan="1" colspan="1">10</td>
+<td align="left" rowspan="1" colspan="1">20</td>
+<td align="left" rowspan="1" colspan="1">33</td>
+<td align="left" rowspan="1" colspan="1">50</td>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left" rowspan="1" colspan="1"><bold><italic>n</italic></bold></td>
+<td align="left" rowspan="1" colspan="1">1.43</td>
+<td align="left" rowspan="1" colspan="1">1.41</td>
+<td align="left" rowspan="1" colspan="1">1.40</td>
+<td align="left" rowspan="1" colspan="1">1.40</td>
+<td align="left" rowspan="1" colspan="1">1.37</td>
+</tr>
+</tbody>
+</table>
+</alternatives></table-wrap>
+<p>Thickness measurements of the 33% VFS diluted, fluorescein-labeled test gel in the test socket are plotted below in <xref ref-type="fig" rid="pone-0082213-g002">Fig. 2</xref>, as an example. The mLCI error (x-axis) is given by the average axial resolution of the modality, 8.3 µm <xref ref-type="bibr" rid="pone.0082213-Drake2">[10]</xref>. Fluorimetric error is defined as ±10% as described by Henderson <italic>et al</italic> <xref ref-type="bibr" rid="pone.0082213-Henderson1">[4]</xref>. Since varying degrees of error exist, as well as error in <italic>both</italic> coordinates, the traditional linear least squares method of regression is not applicable. For example, if the x-coordinates were measured with no error, the line of best fit would be the line that minimizes the sum of squares of the y-coordinate residuals. Instead, a weighted orthogonal least-squares regression was performed, based on Krysteck and Anton <xref ref-type="bibr" rid="pone.0082213-Krystek1">[14]</xref>. This minimizes residuals in both coordinates and accounts for the varying degree of error in fluorimetry measurements. An algorithm similar to Kysteck and Anton was developed in Mathematica (Wolfram Research, Inc.) which minimizes the equation,<disp-formula id="pone.0082213.e001"><graphic position="anchor" xlink:href="info:doi/10.1371/journal.pone.0082213.e001" xlink:type="simple" orientation="portrait" /><label>(1)</label></disp-formula>where (<italic>x<sub>k</sub>, y<sub>k</sub></italic>) are the <italic>n</italic> data pairs with uncertainties (<italic>u<sub>x,k</sub>, u<sub>y,k</sub></italic>), and (<italic>X<sub>k</sub>, Y<sub>k</sub></italic>) are the points of a straight line given by <italic>y = mx+b</italic> <xref ref-type="bibr" rid="pone.0082213-Krystek1">[14]</xref>–<xref ref-type="bibr" rid="pone.0082213-York1">[16]</xref>. The algorithm was first verified by using the example data set provided by York <xref ref-type="bibr" rid="pone.0082213-York1">[16]</xref>. The line of best fit for 33% VFS dilution is plotted below in <xref ref-type="fig" rid="pone-0082213-g002">Fig. 2</xref>. The dashed lines represent the confidence interval of the fit and are given by the equation,<disp-formula id="pone.0082213.e002"><graphic position="anchor" xlink:href="info:doi/10.1371/journal.pone.0082213.e002" xlink:type="simple" orientation="portrait" /><label>(2)</label></disp-formula>where σ<sub>m</sub> and σ<italic><sub>b</sub></italic> are the standard deviation in the slope and intercept, respectively.</p>
+<fig id="pone-0082213-g002" position="float" orientation="portrait"><object-id pub-id-type="doi">10.1371/journal.pone.0082213.g002</object-id><label>Figure 2</label><caption>
+<title>Gel thickness measurements of 33% VFS dilution of FACTS-001 gel with vaginal fluid simulant in the calibration socket as measured by fluorimetry (y-axis) and mLCI (x-axis).</title>
+<p>A refractive index value of 1.4 (<xref ref-type="table" rid="pone-0082213-t001">Table 1</xref>) was used to calculate mLCI thickness. Line of best fit was found using a weighted least-squares algorithm. The 95% confidence interval for the fitted line is provided by the dashed lines.</p>
+</caption><graphic mimetype="image" xlink:href="info:doi/10.1371/journal.pone.0082213.g002" position="float" xlink:type="simple" orientation="portrait" /></fig>
+<p>Regression slope values were calculated for each dilution (<xref ref-type="table" rid="pone-0082213-t002">Table 2</xref>) and plotted against percentage dilution by volume of gel with VFS in <xref ref-type="fig" rid="pone-0082213-g003">Fig. 3</xref>. The data were fit with a sigmoid curve by using a logistic four parameter fit. The maximum asymptote was given by the slope of 0% VFS dilution and the minimum asymptote was set to zero. The inflection point and slope factor were then determined by an iterative optimization process within the statistical software, JMP Pro (SAS Institute, Cary, NC). The slope factor was determined to be 0.105 (S.E. = 0.012) and the inflection point was found to have a value of 37.115 (S.E. = 1.24). The y-axis error bars represent the standard deviation of slope measurements shown in <xref ref-type="table" rid="pone-0082213-t002">Table 2</xref>.</p>
+<fig id="pone-0082213-g003" position="float" orientation="portrait"><object-id pub-id-type="doi">10.1371/journal.pone.0082213.g003</object-id><label>Figure 3</label><caption>
+<title>Line of best fit slope (from weighted total linear regression in Fig. 2) plotted against gel dilution (% VFS).</title>
+<p>The sigmoid fit was determined with a logistic 4-parameter analysis, and the resultant equation is displayed in the figure.</p>
+</caption><graphic mimetype="image" xlink:href="info:doi/10.1371/journal.pone.0082213.g003" position="float" xlink:type="simple" orientation="portrait" /></fig><table-wrap id="pone-0082213-t002" position="float" orientation="portrait"><object-id pub-id-type="doi">10.1371/journal.pone.0082213.t002</object-id><label>Table 2</label><caption>
+<title>Results from weighted least-squares regressions performed on each dilution (SD =  standard deviation).</title>
+</caption><alternatives><graphic id="pone-0082213-t002-2" position="float" mimetype="image" xlink:href="info:doi/10.1371/journal.pone.0082213.t002" xlink:type="simple" orientation="portrait" />
+<table><colgroup span="1"><col align="left" span="1" /><col align="center" span="1" /><col align="center" span="1" /><col align="center" span="1" /></colgroup>
+<thead>
+<tr>
+<td align="left" rowspan="1" colspan="1">Gel Dilution (% VFS)</td>
+<td align="left" rowspan="1" colspan="1">Line of best fit</td>
+<td align="left" rowspan="1" colspan="1">SD of slope</td>
+<td align="left" rowspan="1" colspan="1">SD of intercept</td>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left" rowspan="1" colspan="1"><bold>0</bold></td>
+<td align="left" rowspan="1" colspan="1">y = 0.765x+15.848</td>
+<td align="left" rowspan="1" colspan="1">0.019</td>
+<td align="left" rowspan="1" colspan="1">2.998</td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1"><bold>10</bold></td>
+<td align="left" rowspan="1" colspan="1">y = 0.700x+27.889</td>
+<td align="left" rowspan="1" colspan="1">0.056</td>
+<td align="left" rowspan="1" colspan="1">7.465</td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1"><bold>20</bold></td>
+<td align="left" rowspan="1" colspan="1">y = 0.631x+36.149</td>
+<td align="left" rowspan="1" colspan="1">0.053</td>
+<td align="left" rowspan="1" colspan="1">7.761</td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1"><bold>33</bold></td>
+<td align="left" rowspan="1" colspan="1">y = 0.496x+21.036</td>
+<td align="left" rowspan="1" colspan="1">0.032</td>
+<td align="left" rowspan="1" colspan="1">4.190</td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1"><bold>50</bold></td>
+<td align="left" rowspan="1" colspan="1">y = 0.135x+33.562</td>
+<td align="left" rowspan="1" colspan="1">0.011</td>
+<td align="left" rowspan="1" colspan="1">1.755</td>
+</tr>
+</tbody>
+</table>
+</alternatives></table-wrap>
+<p>Strictly speaking, dilution at each gel thickness depends upon both the slope of the regression line and the intercept. We investigated an algorithm for deducing dilution in which the effects of the intercept, <italic>b</italic>, on prediction of dilution are neglected. As such, a universal relationship can be created that predicts dilution on the basis of the slope of the regression line. In order to calculate dilution values from a given slope value, the equation from <xref ref-type="fig" rid="pone-0082213-g003">Fig. 3</xref> was inverted. Solving for <italic>x</italic> yields:<disp-formula id="pone.0082213.e003"><graphic position="anchor" xlink:href="info:doi/10.1371/journal.pone.0082213.e003" xlink:type="simple" orientation="portrait" /><label>(3)</label></disp-formula></p>
+<p>An error analysis of <xref ref-type="disp-formula" rid="pone.0082213.e003">Equation 3</xref> was performed to assess its fidelity in predicting dilution. Results are provided in <xref ref-type="table" rid="pone-0082213-t003">Table 3</xref>. First, slope values, <italic>m</italic>, which resulted from the weighted least squares linear fit (<xref ref-type="table" rid="pone-0082213-t002">Table 2</xref>) were used to inversely calculate % VFS dilution. A similar analysis was also performed with <italic>m</italic>±<italic>SD</italic> to test the response and sensitivity of <xref ref-type="disp-formula" rid="pone.0082213.e003">Equation 3</xref>.</p>
+<table-wrap id="pone-0082213-t003" position="float" orientation="portrait"><object-id pub-id-type="doi">10.1371/journal.pone.0082213.t003</object-id><label>Table 3</label><caption>
+<title>Error Analysis of dilution calculation derived from the slope of the line of best fit in <xref ref-type="fig" rid="pone-0082213-g003">Figure 3</xref>. SD =  standard deviation.</title>
+</caption><alternatives><graphic id="pone-0082213-t003-3" position="float" mimetype="image" xlink:href="info:doi/10.1371/journal.pone.0082213.t003" xlink:type="simple" orientation="portrait" />
+<table><colgroup span="1"><col align="left" span="1" /><col align="center" span="1" /><col align="center" span="1" /><col align="center" span="1" /><col align="center" span="1" /><col align="center" span="1" /></colgroup>
+<thead>
+<tr>
+<td align="left" rowspan="1" colspan="1">Gel Dilution (% VFS)</td>
+<td align="left" rowspan="1" colspan="1">Slope of Line of best fit (<italic>m</italic>±<italic>SD</italic>)</td>
+<td align="left" rowspan="1" colspan="1">Calculated Dilution(% VFS)</td>
+<td align="left" rowspan="1" colspan="1">Slope - SD Calculated Dilution (%VFS)</td>
+<td align="left" rowspan="1" colspan="1">Slope + SD Calculated Dilution (%VFS)</td>
+<td align="center" rowspan="1" colspan="1" />
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left" rowspan="1" colspan="1"><bold>0</bold></td>
+<td align="left" rowspan="1" colspan="1">0.765±0.019</td>
+<td align="left" rowspan="1" colspan="1">0</td>
+<td align="left" rowspan="1" colspan="1">0</td>
+<td align="left" rowspan="1" colspan="1">2.4</td>
+<td align="left" rowspan="1" colspan="1" />
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1"><bold>10</bold></td>
+<td align="left" rowspan="1" colspan="1">0.700±0.056</td>
+<td align="left" rowspan="1" colspan="1">14.5</td>
+<td align="left" rowspan="1" colspan="1">5.4</td>
+<td align="left" rowspan="1" colspan="1">21.2</td>
+<td align="left" rowspan="1" colspan="1" />
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1"><bold>20</bold></td>
+<td align="left" rowspan="1" colspan="1">0.631±0.053</td>
+<td align="left" rowspan="1" colspan="1">22.4</td>
+<td align="left" rowspan="1" colspan="1">16.8</td>
+<td align="left" rowspan="1" colspan="1">26.3</td>
+<td align="left" rowspan="1" colspan="1" />
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1"><bold>33</bold></td>
+<td align="left" rowspan="1" colspan="1">0.496±0.032</td>
+<td align="left" rowspan="1" colspan="1">31.3</td>
+<td align="left" rowspan="1" colspan="1">29.5</td>
+<td align="left" rowspan="1" colspan="1">33.0</td>
+<td align="left" rowspan="1" colspan="1" />
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1"><bold>50</bold></td>
+<td align="left" rowspan="1" colspan="1">0.135±0.011</td>
+<td align="left" rowspan="1" colspan="1">51.8</td>
+<td align="left" rowspan="1" colspan="1">50.9</td>
+<td align="left" rowspan="1" colspan="1">52.8</td>
+<td align="left" rowspan="1" colspan="1" />
+</tr>
+</tbody>
+</table>
+</alternatives></table-wrap></sec><sec id="s3b">
+<title>Pilot Application to Human In Vivo Imaging Data</title>
+<p><xref ref-type="fig" rid="pone-0082213-g004">Figure 4(a)</xref> shows the surface map of the local coating thickness distributions as measured <italic>in vivo</italic> by fluorimetry and mLCI for gel deployed in the vagina. <xref ref-type="fig" rid="pone-0082213-g004">Figure 4(b)</xref> shows the azimuthally averaged data plotted versus position along the axis of the probe (and thus, along the axis of the vaginal canal). The region of interest (ROI) was selected visually for this pilot application of the method. <xref ref-type="fig" rid="pone-0082213-g004">Figure 4(c)</xref> shows the plot of the mLCI and fluorimetry data, which were fit to a line using the weighted least-squares method (<xref ref-type="disp-formula" rid="pone.0082213.e001">Equation 1</xref>). The slope of this regression line was <italic>m</italic> = 0.717±0.072. This value was then used with <xref ref-type="disp-formula" rid="pone.0082213.e003">Equation 3</xref> to deduce a gel dilution value in the ROI of 11.4±10.5%.</p>
+<fig id="pone-0082213-g004" position="float" orientation="portrait"><object-id pub-id-type="doi">10.1371/journal.pone.0082213.g004</object-id><label>Figure 4</label><caption>
+<title>Example <italic>in vivo</italic> microbicide gel dilution calculation to demonstrate the complete method.</title>
+<p>Part (a) displays a topological plot of data obtained by the dual-modality optical imaging instrument. These data are azimuthally averaged as shown in (b) and a region of interest is selected. The dataset is then plotted in (c) and a weighted least-squares fit is performed on the values in the ROI to find the slope value of the regression. This slope value is then used with the calibration curve (Fig. 3) to find a dilution value of 11.4±10.5%. The topological data in (a) and (b) were originally presented in Drake <italic>et al.</italic> <xref ref-type="bibr" rid="pone.0082213-Drake1">[3]</xref>, <xref ref-type="bibr" rid="pone.0082213-Drake3">[13]</xref></p>
+</caption><graphic mimetype="image" xlink:href="info:doi/10.1371/journal.pone.0082213.g004" position="float" xlink:type="simple" orientation="portrait" /></fig></sec></sec><sec id="s4">
+<title>Discussion</title>
+<p>After insertion into the vagina, microbicide gels contact <italic>in vivo</italic> fluids and may become progressively diluted over time. Dilution changes rheological and transport properties of the gel for both its active pharmaceutical ingredients and HIV virions that contact it. This in turn can alter details of gel function as a drug delivery vehicle and barrier to HIV. Dilution also affects the net vaginal surface area coated by a gel, and reduced gel viscosity due to dilution could exacerbate gel leakage <xref ref-type="bibr" rid="pone.0082213-Lai1">[5]</xref>, <xref ref-type="bibr" rid="pone.0082213-Tasoglu1">[6]</xref>. At present there is great concern that gel leakage or “messiness” is a significant impediment to user acceptance, which reduces adherence to designated gel application protocols in clinical trials <xref ref-type="bibr" rid="pone.0082213-Vermund1">[17]</xref>. Clearly, it is critical to characterize the extent to which microbicide gels become diluted <italic>in vivo</italic>, as part of characterizing their performances as potential HIV prophylactics.</p>
+<p>In this study, we have presented an optical methodology for deducing the amount of dilution of a microbicide placebo gel. The HEC-based structure of this gel is very similar to that of the Tenofovir gel now in its third anti-HIV efficacy trial, FACTS-001. Analysis of our <italic>in vitro</italic> experiments, using serial dilutions of the gel with a vaginal fluid simulant, gave a positive result for use of the method in predicting gel dilution.</p>
+<p>We also found that dilution changed the index of refraction of the gel, which affects the accuracy of mLCI measurements; however, this change was minimal. The calculated undiluted gel index of refraction was 1.43 and this dropped to 1.37 at 50% dilution with VFS, a change of 4%. We posit that effects of this change are not biologically significant, based upon what we currently know about the likelihood of gel dilution <italic>in vivo</italic>. Of course, this could be tested in future <italic>in vivo</italic> studies. Further, we note that the optical properties of multiple contemporary vaginal microbicide gels, while not strictly identical, would likely not preclude evaluation by this method using a simple calibration for each gel.</p>
+<p>From <xref ref-type="fig" rid="pone-0082213-g002">Fig. 2</xref>, it can be seen that as gel layer thicknesses increases, the confidence interval of the linear fit also increases. This is due to the ±10% measurement error of the fluorimetry device, which reduces the accuracy of the linear fit at relatively thick gel layers. The sigmoid shape of the dilution curve in <xref ref-type="fig" rid="pone-0082213-g003">Fig. 3</xref> reveals a non-linear response in the system. At low dilutions (&lt;20%), the curve is comparatively flat, and perturbations in slope values result in proportionally larger changes in calculated dilution, as compared to the more linear response seen at the center section of the sigmoid curve. The same variation is true at large dilutions (&gt;50%) where the dilution curve again flattens out as it approaches the minimum asymptote of zero.</p>
+<p>Even with this acknowledged reduction in accuracy at very low and high gel dilutions, the instrument and methodology remain promising as an approach for measuring microbicide gel dilution, and assessing its consequences to gel function. For example, Lai <italic>et al.</italic> concluded that microbicide gel dilutions on the order of 10–30% by volume resulted in observable changes in behavior, such as rheological properties and coating flows <xref ref-type="bibr" rid="pone.0082213-Lai1">[5]</xref>. The optical imaging instrument is capable of measuring dilution of a gel with fidelity that we believe is biologically relevant. From <xref ref-type="table" rid="pone-0082213-t003">Table 3</xref>, the 10% VFS dilution had the largest standard deviation of the slope value and this worst-case scenario yielded a change in calculated dilution of 15.8%, within the margin of Lai <italic>et al</italic> <xref ref-type="bibr" rid="pone.0082213-Lai1">[5]</xref>. Non-uniform dilutions of microbicide gels may well occur <italic>in vivo</italic>. Our dual-modality instrument is capable of measuring such dilution distributions since measurements are made every 5-mm axially and at 8 azimuthal angles while the probe is inserted and stationary, providing a local dilution mapping of the complete vaginal tissue surface. <xref ref-type="bibr" rid="pone.0082213-Drake1">[3]</xref>, <xref ref-type="bibr" rid="pone.0082213-Drake2">[10]</xref>.</p>
+<p>A pilot methodology for computing the extent of microbicide gel dilution for human <italic>in vivo</italic> thickness distribution data was outlined in <xref ref-type="fig" rid="pone-0082213-g004">Fig. 4</xref>. An ROI was selected near the leading edge of the gel, 30–60 mm of axial distance, and a dilution of 11.4±10.5% was calculated. This is a spatially averaged dilution measurement, and is consistent with calculations by Lai <italic>et al.</italic> of expected dilution <italic>in vivo</italic>. We believe that the value of 11% is reasonable because it falls in the range provided by Lai <italic>et al.</italic>; but without a “gold standard” of dilution measurement at the same specific <italic>in vivo</italic> location, we cannot know definitively <xref ref-type="bibr" rid="pone.0082213-Lai1">[5]</xref>. The example was provided to illustrate the methodology. Clearly, there is much to do in implementing and validating this methodology with <italic>in vivo</italic> data. For example, the sensitivity in deducing dilution will need to be reconciled with the noise seen in the human data. We have begun this exercise, using data from a new human imaging study that is using an improved version of the imaging device that was applied in our original human studies.</p>
+</sec><sec id="s5">
+<title>Conclusions</title>
+<p>In summary, we have developed a method for assessing the dilution of microbicide gels using an optical imaging platform that we had previously developed and validated for measuring <italic>in vivo</italic> microbicide gel thickness distributions <xref ref-type="bibr" rid="pone.0082213-Drake1">[3]</xref>, <xref ref-type="bibr" rid="pone.0082213-Henderson1">[4]</xref>, <xref ref-type="bibr" rid="pone.0082213-Drake2">[10]</xref>, <xref ref-type="bibr" rid="pone.0082213-Henderson2">[11]</xref>, <xref ref-type="bibr" rid="pone.0082213-Drake4">[18]</xref>. It was found that as gels become dilute, fluorimetry signals from the gel decrease while the mLCI signals, direct measures of physical thickness, remain constant. By using a controlled series of gel dilutions <italic>in vitro</italic>, a calibration curve was constructed which enabled deductions of dilution based on the two optical measurements. The accuracy of the measurements was determined to be sufficient for biologically relevant analyses of the influence of dilution on rheological properties and coating flows of vaginal microbicide and other gels. Ongoing clinical studies of vaginal microbicidal gel coating will examine the presence of dilution using the methodology developed here.</p>
+</sec></body>
+<back><ref-list>
+<title>References</title>
+<ref id="pone.0082213-AbdoolKarim1"><label>1</label>
+<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Abdool Karim</surname><given-names>Q</given-names></name>, <name name-style="western"><surname>Abdool Karim</surname><given-names>SS</given-names></name>, <name name-style="western"><surname>Frohlich</surname><given-names>JA</given-names></name>, <name name-style="western"><surname>Grobler</surname><given-names>AC</given-names></name>, <name name-style="western"><surname>Baxter</surname><given-names>C</given-names></name>, <etal>et al</etal>. (<year>2010</year>) <article-title>Effectiveness and safety of tenofovir gel, an antiretroviral microbicide, for the prevention of HIV infection in women</article-title>. <source>Science</source> <volume>329</volume>: <fpage>1168</fpage>–<lpage>1174</lpage>.</mixed-citation>
+</ref>
+<ref id="pone.0082213-1"><label>2</label>
+<mixed-citation publication-type="other" xlink:type="simple">(2011) MTN Statement on Decision to Discontinue Use of Tenofovir Gel in VOICE, a Major HIV Prevention Study in Women. In: Network MT, editor.</mixed-citation>
+</ref>
+<ref id="pone.0082213-Drake1"><label>3</label>
+<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Drake</surname><given-names>TK</given-names></name>, <name name-style="western"><surname>Desoto</surname><given-names>MG</given-names></name>, <name name-style="western"><surname>Peters</surname><given-names>JJ</given-names></name>, <name name-style="western"><surname>Henderson</surname><given-names>MH</given-names></name>, <name name-style="western"><surname>Thiele</surname><given-names>B</given-names></name>, <etal>et al</etal>. (<year>2012</year>) <article-title>In vivo optical imaging of human vaginal gel thickness distributions with a probe-based, dual-modality instrument</article-title>. <source>J Biomed Opt</source> <volume>17</volume>: <fpage>116014</fpage>.</mixed-citation>
+</ref>
+<ref id="pone.0082213-Henderson1"><label>4</label>
+<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Henderson</surname><given-names>MH</given-names></name>, <name name-style="western"><surname>Couchman</surname><given-names>GM</given-names></name>, <name name-style="western"><surname>Walmer</surname><given-names>DK</given-names></name>, <name name-style="western"><surname>Peters</surname><given-names>JJ</given-names></name>, <name name-style="western"><surname>Owen</surname><given-names>DH</given-names></name>, <etal>et al</etal>. (<year>2007</year>) <article-title>Optical imaging and analysis of human vaginal coating by drug delivery gels</article-title>. <source>Contraception</source> <volume>75</volume>: <fpage>142</fpage>–<lpage>151</lpage>.</mixed-citation>
+</ref>
+<ref id="pone.0082213-Lai1"><label>5</label>
+<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Lai</surname><given-names>BE</given-names></name>, <name name-style="western"><surname>Xie</surname><given-names>YQ</given-names></name>, <name name-style="western"><surname>Lavine</surname><given-names>ML</given-names></name>, <name name-style="western"><surname>Szeri</surname><given-names>AJ</given-names></name>, <name name-style="western"><surname>Owen</surname><given-names>DH</given-names></name>, <etal>et al</etal>. (<year>2008</year>) <article-title>Dilution of microbicide gels with vaginal fluid and semen simulants: effect on rheological properties and coating flow</article-title>. <source>Journal of pharmaceutical sciences</source> <volume>97</volume>: <fpage>1030</fpage>–<lpage>1038</lpage>.</mixed-citation>
+</ref>
+<ref id="pone.0082213-Tasoglu1"><label>6</label>
+<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Tasoglu</surname><given-names>S</given-names></name>, <name name-style="western"><surname>Katz</surname><given-names>DF</given-names></name>, <name name-style="western"><surname>Szeri</surname><given-names>AJ</given-names></name> (<year>2012</year>) <article-title>Transient spreading and swelling behavior of a gel deploying an anti-HIV topical microbicide</article-title>. <source>J Nonnewton Fluid Mech</source> <volume>187–188</volume>: <fpage>36</fpage>–<lpage>42</lpage>.</mixed-citation>
+</ref>
+<ref id="pone.0082213-Tasoglu2"><label>7</label>
+<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Tasoglu</surname><given-names>S</given-names></name>, <name name-style="western"><surname>Peters</surname><given-names>JJ</given-names></name>, <name name-style="western"><surname>Park</surname><given-names>SC</given-names></name>, <name name-style="western"><surname>Verguet</surname><given-names>S</given-names></name>, <name name-style="western"><surname>Katz</surname><given-names>DF</given-names></name>, <etal>et al</etal>. (<year>2011</year>) <article-title>The effects of inhomogeneous boundary dilution on the coating flow of an anti-HIV microbicide vehicle</article-title>. <source>Physics of fluids</source> <volume>23</volume>: <fpage>93101</fpage>–<lpage>931019</lpage>.</mixed-citation>
+</ref>
+<ref id="pone.0082213-Katz1"><label>8</label>
+<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Katz</surname><given-names>D</given-names></name>, <name name-style="western"><surname>Gao</surname><given-names>Y</given-names></name>, <name name-style="western"><surname>Kang</surname><given-names>M</given-names></name> (<year>2011</year>) <article-title>Using modeling to help understand vaginal microbicide functionality and create better products</article-title>. <source>Drug Delivery and Translational Research</source> <volume>1</volume>: <fpage>256</fpage>–<lpage>276</lpage>.</mixed-citation>
+</ref>
+<ref id="pone.0082213-Owen1"><label>9</label>
+<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Owen</surname><given-names>DH</given-names></name>, <name name-style="western"><surname>Katz</surname><given-names>DF</given-names></name> (<year>1999</year>) <article-title>A vaginal fluid simulant</article-title>. <source>Contraception</source> <volume>59</volume>: <fpage>91</fpage>–<lpage>95</lpage>.</mixed-citation>
+</ref>
+<ref id="pone.0082213-Drake2"><label>10</label>
+<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Drake</surname><given-names>TK</given-names></name>, <name name-style="western"><surname>DeSoto</surname><given-names>MG</given-names></name>, <name name-style="western"><surname>Peters</surname><given-names>JJ</given-names></name>, <name name-style="western"><surname>Henderson</surname><given-names>MH</given-names></name>, <name name-style="western"><surname>Murtha</surname><given-names>AP</given-names></name>, <etal>et al</etal>. (<year>2011</year>) <article-title>Design and validation of a multiplexed low coherence interferometry instrument for in vivo clinical measurement of microbicide gel thickness distribution</article-title>. <source>Biomedical Optics Express</source> <volume>2</volume>: <fpage>2850</fpage>–<lpage>2858</lpage>.</mixed-citation>
+</ref>
+<ref id="pone.0082213-Henderson2"><label>11</label>
+<mixed-citation publication-type="other" xlink:type="simple">Henderson MH, Peters JJ, Walmer DK, Couchman GM, Katz DF (2005) Optical instrument for measurement of vaginal coating thickness by drug delivery formulations. Review of Scientific Instruments <volume>76</volume> : -.</mixed-citation>
+</ref>
+<ref id="pone.0082213-CONRAD1"><label>12</label>
+<mixed-citation publication-type="other" xlink:type="simple">CONRAD (2012) Safety and Effectiveness of Tenofovir Gel in the Prevention of Human Immunodeficiency Virus (HIV-1) Infection in Women and the Effects of Tenofovir Gel on the Incidence of Herpes Simplex Virus (HSV-2) Infection. NCT01386294. clincaltrials.gov.</mixed-citation>
+</ref>
+<ref id="pone.0082213-Drake3"><label>13</label>
+<mixed-citation publication-type="other" xlink:type="simple">Drake TK (2013) Novel Biophonotic Imaging Techniques for Assessing Women's Reproductive Health (Doctoral dissertation). ProQuest/UMI.</mixed-citation>
+</ref>
+<ref id="pone.0082213-Krystek1"><label>14</label>
+<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Krystek</surname><given-names>M</given-names></name>, <name name-style="western"><surname>Anton</surname><given-names>M</given-names></name> (<year>2007</year>) <article-title>A weighted total least-squares algorithm for fitting a straight line</article-title>. <source>Measurement Science &amp; Technology</source> <volume>18</volume>: <fpage>3438</fpage>–<lpage>3442</lpage>.</mixed-citation>
+</ref>
+<ref id="pone.0082213-Deming1"><label>15</label>
+<mixed-citation publication-type="other" xlink:type="simple">Deming WE (1943) Data Reduction and Error Analysis for the Physical Sciences. New York: Wiley.</mixed-citation>
+</ref>
+<ref id="pone.0082213-York1"><label>16</label>
+<mixed-citation publication-type="other" xlink:type="simple">York D (1966) Least-Squares Fitting of a Straight Line. Canadian Journal of Physics 44: 1079–&amp;.</mixed-citation>
+</ref>
+<ref id="pone.0082213-Vermund1"><label>17</label>
+<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Vermund</surname><given-names>SH</given-names></name>, <name name-style="western"><surname>Van Damme</surname><given-names>L</given-names></name> (<year>2011</year>) <article-title>HIV prevention in women: next steps</article-title>. <source>Science</source> <volume>331</volume>: <fpage>284</fpage>.</mixed-citation>
+</ref>
+<ref id="pone.0082213-Drake4"><label>18</label>
+<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Drake</surname><given-names>TK</given-names></name>, <name name-style="western"><surname>Robles</surname><given-names>FE</given-names></name>, <name name-style="western"><surname>Wax</surname><given-names>A</given-names></name> (<year>2009</year>) <article-title>Multiplexed low coherence interferometry instrument for measuring microbicide gel thickness distribution</article-title>. <source>Applied Optics</source> <volume>48</volume>: <fpage>D14</fpage>–<lpage>19</lpage>.</mixed-citation>
+</ref>
+</ref-list></back>
+</article>

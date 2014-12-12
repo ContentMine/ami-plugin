@@ -1,0 +1,835 @@
+<article xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" article-type="research-article" dtd-version="3.0" xml:lang="en">
+<front>
+<journal-meta>
+<journal-id journal-id-type="nlm-ta">PLoS ONE</journal-id>
+<journal-id journal-id-type="publisher-id">plos</journal-id>
+<journal-id journal-id-type="pmc">plosone</journal-id><journal-title-group>
+<journal-title xml:lang="en">PLoS ONE</journal-title></journal-title-group>
+<issn pub-type="epub">1932-6203</issn>
+<publisher>
+<publisher-name>Public Library of Science</publisher-name>
+<publisher-loc>San Francisco, USA</publisher-loc></publisher>
+</journal-meta>
+<article-meta>
+<article-id pub-id-type="publisher-id">PONE-D-13-32238</article-id>
+<article-id pub-id-type="doi">10.1371/journal.pone.0080616</article-id>
+<article-categories><subj-group subj-group-type="heading"><subject>Research Article</subject></subj-group></article-categories>
+<title-group>
+<article-title>Breast Cancer Mortality vs. Exercise and Breast Size in Runners and Walkers</article-title>
+<alt-title alt-title-type="running-head">Breast Cancer Mortality in Runners and Walkers</alt-title>
+</title-group>
+<contrib-group>
+<contrib contrib-type="author" xlink:type="simple"><name name-style="western"><surname>Williams</surname><given-names>Paul T.</given-names></name><xref ref-type="aff" rid="aff1" /><xref ref-type="corresp" rid="cor1"><sup>*</sup></xref></contrib>
+</contrib-group>
+<aff id="aff1"><addr-line>Life Sciences Division, Lawrence Berkeley National Laboratory, Berkeley, California, United States of America</addr-line></aff>
+<contrib-group>
+<contrib contrib-type="editor" xlink:type="simple"><name name-style="western"><surname>Singh</surname><given-names>Pankaj K.</given-names></name>
+<role>Editor</role>
+<xref ref-type="aff" rid="edit1" /></contrib>
+</contrib-group>
+<aff id="edit1"><addr-line>University of Nebraska Medical Center, United States of America</addr-line></aff>
+<author-notes>
+<corresp id="cor1">* E-mail: <email xlink:type="simple">ptwilliams@lbl.gov</email></corresp>
+<fn fn-type="conflict"><p>The author has declared that no competing interests exist.</p></fn>
+<fn fn-type="con"><p>Conceived and designed the experiments: PTW. Performed the experiments: PTW. Analyzed the data: PTW. Contributed reagents/materials/analysis tools: PTW. Wrote the paper: PTW.</p></fn>
+</author-notes>
+<pub-date pub-type="collection"><year>2013</year></pub-date>
+<pub-date pub-type="epub"><day>9</day><month>12</month><year>2013</year></pub-date>
+<volume>8</volume>
+<issue>12</issue>
+<elocation-id>e80616</elocation-id>
+<history>
+<date date-type="received"><day>3</day><month>8</month><year>2013</year></date>
+<date date-type="accepted"><day>13</day><month>10</month><year>2013</year></date>
+</history>
+<permissions>
+<copyright-year>2013</copyright-year>
+<license xlink:href="http://creativecommons.org/publicdomain/zero/1.0/" xlink:type="simple"><license-p>This is an open-access article, free of all copyright, and may be freely reproduced, distributed, transmitted, modified, built upon, or otherwise used by anyone for any lawful purpose. The work is made available under the <ext-link ext-link-type="uri" xlink:href="http://creativecommons.org/publicdomain/zero/1.0/" xlink:type="simple">Creative Commons CC0</ext-link> public domain dedication.</license-p></license></permissions>
+<abstract><sec>
+<title>Purpose</title>
+<p>Identify predictors of breast cancer mortality in women who exercised below (&lt;7.5 metabolic equivalent hours/week, MET-hours/wk), at (7.5 to 12.5 MET-hours/wk), or above (≥12.5 MET-hours/wk) recommended levels.</p>
+</sec><sec>
+<title>Methods</title>
+<p>Cox proportional hazard analyses of baseline pre-diagnosis MET-hours/wk vs. breast cancer mortality adjusted for follow-up age, race, baseline menopause, and estrogen and oral contraceptive use in 79,124 women (32,872 walkers, 46,252 runners) from the National Walkers' and Runners' Health Studies.</p>
+</sec><sec>
+<title>Results</title>
+<p>One-hundred eleven women (57 walkers, 54 runners) died from breast cancer during the 11-year follow-up. The decline in mortality in women who exercised ≥7.5 MET-hours/wk was not different for walking and running (P = 0.34), so running and walking energy expenditures were combined. The risk for breast cancer mortality was 41.5% lower for ≥7.5 vs. &lt;7.5 MET-hours/wk (HR: 0.585, 95%CI: 0.382 to 0.924, P = 0.02), which persisted when adjusted for BMI (HR: 0.584, 95%CI: 0.368 to 0.956, P = 0.03). Other than age and menopause, baseline bra cup size was the strongest predictor of breast cancer mortality, i.e., 57.9% risk increase per cup size when adjusted for MET-hours/wk and the other covariates (HR: 1.579, 95%CI: 1.268 to 1.966, P&lt;0.0001), and 70.4% greater when further adjusted for BMI (HR: 1.704, 95%CI: 1.344 to 2.156, P = 10<sup>−5</sup>). Breast cancer mortality was 4.0-fold greater (HR: 3.980, 95%CI: 1.894 to 9.412, P = 0.0001) for C-cup, and 4.7-fold greater (HR: 4.668, 95%CI: 1.963 to 11.980, P = 0.0004) for ≥D-cup vs. A-cup when adjusted for BMI and other covariates. Adjustment for cup size and BMI did not eliminate the association between breast cancer mortality and ≥7.5 MET-hour/wk walked or run (HR: 0.615, 95%CI: 0.389 to 1.004, P = 0.05).</p>
+</sec><sec>
+<title>Conclusion</title>
+<p>Breast cancer mortality decreased in association with both meeting the exercise recommendations and smaller breast volume.</p>
+</sec></abstract>
+<funding-group><funding-statement>This research was supported by grant HL094717 from the National Heart, Lung, and Blood Institute and was conducted at the Ernest Orlando Lawrence Berkeley National Laboratory (Department of Energy DE-AC03-76SF00098 to the University of California). The funders had no role in study design, data collection and analysis, decision to publish, or preparation of the manuscript.</funding-statement></funding-group><counts><page-count count="6" /></counts></article-meta>
+</front>
+<body><sec id="s1">
+<title>Introduction</title>
+<p>Prior studies suggest that physical activity reduces breast cancer risk by about 25 percent <xref ref-type="bibr" rid="pone.0080616-Lynch1">[1]</xref>. This estimate is based primarily on studies that measure cumulative energy expended from all physical activities regardless of intensity <xref ref-type="bibr" rid="pone.0080616-Lynch1">[1]</xref>, <xref ref-type="bibr" rid="pone.0080616-Physical1">[2]</xref>. Physical activities that expend 3- to 6-fold the energy expended by sitting at rest (3 to 6 metabolic equivalents or METs, 1 MET = 3.5 ml O<sub>2</sub>•kg<sup>−1</sup>•min<sup>−1</sup>) such as walking are classified as moderate intensity, those that expend ≥6 METs such as running are classified as vigorous, and &lt;3 METs as light <xref ref-type="bibr" rid="pone.0080616-Physical1">[2]</xref>, <xref ref-type="bibr" rid="pone.0080616-Haskell1">[3]</xref>. Few studies have compared the effects of moderate and vigorous exercise in general, or specific exercises in particular, on breast cancer risk <xref ref-type="bibr" rid="pone.0080616-Physical1">[2]</xref>.</p>
+<p>It is unclear whether breast cancer risk factors apply to all women equally. In young, lean women, larger breast size has occasionally been associated with greater breast cancer risk <xref ref-type="bibr" rid="pone.0080616-Egan1">[4]</xref>, <xref ref-type="bibr" rid="pone.0080616-Kusano1">[5]</xref>. Running and walking promote weight loss and attenuates middle-age weight gain <xref ref-type="bibr" rid="pone.0080616-Williams1">[6]</xref>, <xref ref-type="bibr" rid="pone.0080616-Williams2">[7]</xref>, and as a group, women runners in particular are leaner than sedentary women <xref ref-type="bibr" rid="pone.0080616-Williams3">[8]</xref>. Whether the leanness of women runners and walkers maintains the importance of their breast size as a risk factor later in life remains to be determined. It is also possible that leanness was indicative of being physically active in previous studies showing a breast cancer-breast volume association <xref ref-type="bibr" rid="pone.0080616-Egan1">[4]</xref>, <xref ref-type="bibr" rid="pone.0080616-Kusano1">[5]</xref>.</p>
+<p>This paper examines the dose-response relationships of breast cancer mortality to baseline pre-diagnosis exercise dose and bra cup size in a large cohort of women runners and walkers. There are several potential advantages to the focusing specifically on running and walking rather than all types of exercise. Running and walking occur in discrete bouts, and particularly for running, must be done regularity to be sustained. In addition, running and walking exercise energy expenditures can be calculated from weekly distance run or walked, which appears to be a better metric for studying dose-response than the traditional time-based calculations used by other studies <xref ref-type="bibr" rid="pone.0080616-Williams4">[9]</xref>–<xref ref-type="bibr" rid="pone.0080616-Williams6">[11]</xref>. In particular, we have shown that the associations of body weight, diabetes, hypertension, and high cholesterol with distance-based estimates of energy expenditure were approximately two-fold larger than those observed with time-based estimates <xref ref-type="bibr" rid="pone.0080616-Williams4">[9]</xref>–<xref ref-type="bibr" rid="pone.0080616-Williams6">[11]</xref>. This is important because non-differential errors in recall of physical activity are likely to bias results toward the null hypothesis in most existing studies <xref ref-type="bibr" rid="pone.0080616-Matthews1">[12]</xref>, and measurement error associated with other physical activity questionnaires may substantially underestimate the impact of physical activity on cancer risk <xref ref-type="bibr" rid="pone.0080616-Ferrari1">[13]</xref>. Women who run or walk for exercise tend to be leaner than the general population, which may affect whether breast size is a risk factor for breast cancer mortality.</p>
+</sec><sec id="s2" sec-type="materials|methods">
+<title>Materials and Methods</title>
+<p>The National Walkers' and Runners' Health Studies have been described previously <xref ref-type="bibr" rid="pone.0080616-Williams1">[6]</xref>–<xref ref-type="bibr" rid="pone.0080616-Williams6">[11]</xref>, <xref ref-type="bibr" rid="pone.0080616-Williams7">[14]</xref>–<xref ref-type="bibr" rid="pone.0080616-Williams9">[16]</xref>. Walkers were recruited between 1999 and 2001, while runners were recruited in two waves, between 1991 and 1993 (phase I) and between 1998 and 2001 (phase II). The runners and walkers were recruited using the same questionnaire (modified slightly for the different activities), using the same sampling domain (subscription lists to running and walking publications, running and walking events), and using the same survey staff. Questionnaires were distributed by mail or in event packets and were obtained only at baseline. Distance run was obtained from the question “Average miles run per week for ” and then listed the current and preceding five years with spaces for the responses (the most recent distance was used for analyses). Pace was determined by the question “During your usual run, how many minutes does it take for you to run one mile?” Walking distance and pace were ascertained using the same questions for walking instead of running. Walking energy expenditure (MET-hours/wk) was computed by converting the reported usual weekly distance into duration (i.e., distance/mph) and then calculating the product of the average hours walked per week and the MET value corresponding to their reported pace <xref ref-type="bibr" rid="pone.0080616-Williams4">[9]</xref>. Running MET values were calculated as 1.02 MET•hours per km <xref ref-type="bibr" rid="pone.0080616-Williams5">[10]</xref>. Previously, we have reported strong correlations between repeated questionnaires for self-reported running distance (r = 0.89) <xref ref-type="bibr" rid="pone.0080616-Williams7">[14]</xref>. The study protocol was approved by the University of California Berkeley committee for the protection of human subjects, and all subjects provided a signed statement of informed consent. The data are available pending human use approval.</p>
+<p>Height and weight were determined by asking the participant, “What is your current height (in inches, without shoes)?” and, “What is your current weight (pre-pregnancy weight if pregnant)?” Body mass index (BMI) was calculated as weight in kilograms divided by the square of height in meters. Self-reported waist, hip, and chest circumferences were elicited by the question, “Please provide, to the best of your ability, your body circumference in inches: waist___, hip___, and chest___,” without further instruction. Elsewhere, we have reported the strong correlations between self-reported and clinically measured heights (r = 0.96) and weights (r = 0.96) <xref ref-type="bibr" rid="pone.0080616-Williams7">[14]</xref>. Self-reported waist, hip and chest circumferences were somewhat less precise, as indicated by their correlations with reported circumferences on a second questionnaire (r = 0.84, r = 0.79, r = 0.93, respectively) and with their clinical measurements (r = 0.68, r = 0.63, r = 0.77, respectively) <xref ref-type="bibr" rid="pone.0080616-Williams7">[14]</xref>. Self-reported bra cup sizes were coded on a 5-point scale: 1 (A cup), 2 (B cup), 3 (C cup), 4 (D cup), and 5 (E cup or larger). Split cup sizes were coded as an intermediate value (e.g., BC = 2.5) when analyzed as a continuous scale, and assigned to the lower cup size when analyzed by categories.</p>
+<p>Intakes of meat, fish and fruit were based on the questions “During an average week, how many servings of beef, lamb, or pork do you eat”, and “…pieces of fruit do you eat”. Alcohol intake was estimated from the corresponding questions for 4-oz. (112 ml) glasses of wine, 12-oz. (336 ml) bottles of beer, and mixed drinks and liqueurs. Alcohol was computed as 10.8 g per 4-oz glass of wine, 13.2 g per 12 oz. bottle of beer and 15.1 g per mixed drink. Correlations between these responses and values obtained from 4-day diet records in 110 men were r = 0.46 and r = 0.38 for consumptions of meat and fruit, respectively. Family history of breast cancer was based on whether the respondent had a mother or sister who had breast cancer before age 55 (phase I), and from listing of cancers by site in all first-degree relatives (phase II). For consistency, the phase I definition of family history was used for all participants.</p>
+<p>Mortality surveillance was completed through December 31, 2008 using the National Death Index <xref ref-type="bibr" rid="pone.0080616-Fillenbaum1">[17]</xref>. Cox proportional hazard analyses (JMP version 5.1, SAS Institute, Cary SC) were used to test whether breast cancer deaths (International Classification of Disease version 9 codes 174–175 and version 10 code C50) were significantly related to MET-hours/wk run or walked and other risk factors when adjusted for follow-up age (age and age<sup>2</sup> at death or end of follow-up), race, menopause, and oral contraceptive and estrogen use. The covariates were selected for their significant relationship with breast cancer mortality. Results are presented as hazard ratios (HR) and their percent risk reduction {calculated as 100*(HR-1)} for categories of running energy expenditure relative to falling short (&lt;7.5 MET-hours/week), achieving (7.5 to 12.5 MET-hours/week), or exceeding the minimum exercise energy expenditure recommended for health (&gt;12.5 MET-hours/week) <xref ref-type="bibr" rid="pone.0080616-Haskell1">[3]</xref>. All analyses exclude women who reported a previous breast cancer diagnosis on their baseline questionnaire or who survived less than one year from their baseline survey.</p>
+</sec><sec id="s3">
+<title>Results</title>
+<p>One-hundred eleven (57 walkers, 27 runners from the first recruitment phase, and 27 runners from the second recruitment) of the 79,124 runners and walkers died from breast cancer as the underlying cause of death during (mean±SD) 11.0±2.11 years of mortality surveillance. <xref ref-type="table" rid="pone-0080616-t001">Tables 1</xref> and <xref ref-type="table" rid="pone-0080616-t002">2</xref> present the sample characteristics by baseline running energy expenditure (MET-hours/wk) and bra cup size.</p>
+<table-wrap id="pone-0080616-t001" position="float" orientation="portrait"><object-id pub-id-type="doi">10.1371/journal.pone.0080616.t001</object-id><label>Table 1</label><caption>
+<title>Sample characteristics by MET-hours/week/d run.</title>
+</caption><alternatives><graphic id="pone-0080616-t001-1" position="float" mimetype="image" xlink:href="info:doi/10.1371/journal.pone.0080616.t001" xlink:type="simple" orientation="portrait" />
+<table><colgroup span="1"><col align="left" span="1" /><col align="center" span="1" /><col align="center" span="1" /><col align="center" span="1" /><col align="center" span="1" /></colgroup>
+<thead>
+<tr>
+<td align="left" rowspan="1" colspan="1" />
+<td colspan="4" align="left" rowspan="1">MET-hours/week run or walked†</td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1" />
+<td align="left" rowspan="1" colspan="1">&lt;7.5</td>
+<td align="left" rowspan="1" colspan="1">7.5 to 12.5</td>
+<td align="left" rowspan="1" colspan="1">12.5 to 25.0</td>
+<td align="left" rowspan="1" colspan="1">≥25.0</td>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left" rowspan="1" colspan="1">Sample size</td>
+<td align="left" rowspan="1" colspan="1">12,641</td>
+<td align="left" rowspan="1" colspan="1">9,137</td>
+<td align="left" rowspan="1" colspan="1">25,352</td>
+<td align="left" rowspan="1" colspan="1">31,994</td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1">Runners (%)</td>
+<td align="left" rowspan="1" colspan="1">27.91</td>
+<td align="left" rowspan="1" colspan="1">28.23</td>
+<td align="left" rowspan="1" colspan="1">52.30</td>
+<td align="left" rowspan="1" colspan="1">84.03</td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1">Follow-up age<xref ref-type="table-fn" rid="nt101">*</xref></td>
+<td align="left" rowspan="1" colspan="1">56.92±14.27</td>
+<td align="left" rowspan="1" colspan="1">56.66±13.50</td>
+<td align="left" rowspan="1" colspan="1">54.53±12.37</td>
+<td align="left" rowspan="1" colspan="1">50.89±11.09</td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1">Follow-up (years)</td>
+<td align="left" rowspan="1" colspan="1">9.55±1.99</td>
+<td align="left" rowspan="1" colspan="1">9.69±1.95</td>
+<td align="left" rowspan="1" colspan="1">10.41±2.43</td>
+<td align="left" rowspan="1" colspan="1">11.41±2.86</td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1">Smokers (%)</td>
+<td align="left" rowspan="1" colspan="1">6.47</td>
+<td align="left" rowspan="1" colspan="1">4.51</td>
+<td align="left" rowspan="1" colspan="1">3.62</td>
+<td align="left" rowspan="1" colspan="1">2.36</td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1">Exercise (MET-hour/wk)</td>
+<td align="left" rowspan="1" colspan="1">3.52±2.34</td>
+<td align="left" rowspan="1" colspan="1">10.10±1.57</td>
+<td align="left" rowspan="1" colspan="1">19.35±3.92</td>
+<td align="left" rowspan="1" colspan="1">45.74±17.50</td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1">Education (years)</td>
+<td align="left" rowspan="1" colspan="1">15.15±2.99</td>
+<td align="left" rowspan="1" colspan="1">15.40±2.53</td>
+<td align="left" rowspan="1" colspan="1">15.60±2.56</td>
+<td align="left" rowspan="1" colspan="1">15.83±2.44</td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1">Fruit (pieces/day)</td>
+<td align="left" rowspan="1" colspan="1">1.33±1.06</td>
+<td align="left" rowspan="1" colspan="1">1.49±1.09</td>
+<td align="left" rowspan="1" colspan="1">1.53±1.32</td>
+<td align="left" rowspan="1" colspan="1">1.62±1.15</td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1">Meat (servings/day)</td>
+<td align="left" rowspan="1" colspan="1">0.40±0.37</td>
+<td align="left" rowspan="1" colspan="1">0.36±0.35</td>
+<td align="left" rowspan="1" colspan="1">0.32±0.32</td>
+<td align="left" rowspan="1" colspan="1">0.24±0.46</td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1">Alcohol (g/d)</td>
+<td align="left" rowspan="1" colspan="1">4.99±9.98</td>
+<td align="left" rowspan="1" colspan="1">5.86±10.27</td>
+<td align="left" rowspan="1" colspan="1">6.64±10.31</td>
+<td align="left" rowspan="1" colspan="1">6.95±10.81</td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1">BMI (kg/m<sup>2</sup>)</td>
+<td align="left" rowspan="1" colspan="1">26.62±6.47</td>
+<td align="left" rowspan="1" colspan="1">25.00±5.00</td>
+<td align="left" rowspan="1" colspan="1">23.42±4.03</td>
+<td align="left" rowspan="1" colspan="1">21.60±2.90</td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1">Body circumferences</td>
+<td align="left" rowspan="1" colspan="1" />
+<td align="left" rowspan="1" colspan="1" />
+<td align="left" rowspan="1" colspan="1" />
+<td align="left" rowspan="1" colspan="1" />
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1">Chest (cm)</td>
+<td align="left" rowspan="1" colspan="1">95.20±10.08</td>
+<td align="left" rowspan="1" colspan="1">93.10±8.28</td>
+<td align="left" rowspan="1" colspan="1">90.92±6.93</td>
+<td align="left" rowspan="1" colspan="1">88.31±5.48</td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1">Waist (cm)</td>
+<td align="left" rowspan="1" colspan="1">80.81±14.00</td>
+<td align="left" rowspan="1" colspan="1">77.39±11.53</td>
+<td align="left" rowspan="1" colspan="1">73.68±9.50</td>
+<td align="left" rowspan="1" colspan="1">69.41±7.24<xref ref-type="table-fn" rid="nt101">*</xref></td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1">Hips (cm)</td>
+<td align="left" rowspan="1" colspan="1">101.51±13.50</td>
+<td align="left" rowspan="1" colspan="1">98.74±10.95</td>
+<td align="left" rowspan="1" colspan="1">95.66±9.00</td>
+<td align="left" rowspan="1" colspan="1">91.30±7.38</td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1">Bra cup size ‡</td>
+<td align="left" rowspan="1" colspan="1">2.65±0.96</td>
+<td align="left" rowspan="1" colspan="1">2.51±0.93</td>
+<td align="left" rowspan="1" colspan="1">2.32±0.91</td>
+<td align="left" rowspan="1" colspan="1">2.02±0.85</td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1">A-cup (column percent)</td>
+<td align="left" rowspan="1" colspan="1">11.32</td>
+<td align="left" rowspan="1" colspan="1">13.54</td>
+<td align="left" rowspan="1" colspan="1">18.91</td>
+<td align="left" rowspan="1" colspan="1">28.99</td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1">B-cup (column percent)</td>
+<td align="left" rowspan="1" colspan="1">34.29</td>
+<td align="left" rowspan="1" colspan="1">38.60</td>
+<td align="left" rowspan="1" colspan="1">41.44</td>
+<td align="left" rowspan="1" colspan="1">45.68</td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1">C-cup (column percent)</td>
+<td align="left" rowspan="1" colspan="1">32.96</td>
+<td align="left" rowspan="1" colspan="1">31.26</td>
+<td align="left" rowspan="1" colspan="1">28.35</td>
+<td align="left" rowspan="1" colspan="1">19.70</td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1">≥D-cup (column percent)</td>
+<td align="left" rowspan="1" colspan="1">21.43</td>
+<td align="left" rowspan="1" colspan="1">16.60</td>
+<td align="left" rowspan="1" colspan="1">11.30</td>
+<td align="left" rowspan="1" colspan="1">5.63</td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1">Age menarche (year)</td>
+<td align="left" rowspan="1" colspan="1">12.62±1.84</td>
+<td align="left" rowspan="1" colspan="1">12.70±1.77</td>
+<td align="left" rowspan="1" colspan="1">12.79±1.66</td>
+<td align="left" rowspan="1" colspan="1">12.96±1.64</td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1">Menopausal (%)</td>
+<td align="left" rowspan="1" colspan="1">45.59</td>
+<td align="left" rowspan="1" colspan="1">42.55</td>
+<td align="left" rowspan="1" colspan="1">33.41</td>
+<td align="left" rowspan="1" colspan="1">22.09</td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1">Nulliparous (%)</td>
+<td align="left" rowspan="1" colspan="1">32.18</td>
+<td align="left" rowspan="1" colspan="1">31.86</td>
+<td align="left" rowspan="1" colspan="1">36.83</td>
+<td align="left" rowspan="1" colspan="1">47.80</td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1">Age first pregnancy</td>
+<td align="left" rowspan="1" colspan="1">24.17±5.17</td>
+<td align="left" rowspan="1" colspan="1">24.51±5.04</td>
+<td align="left" rowspan="1" colspan="1">24.90±4.98</td>
+<td align="left" rowspan="1" colspan="1">25.30±5.03</td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1">Breast fed (months)</td>
+<td align="left" rowspan="1" colspan="1">6.29±12.88</td>
+<td align="left" rowspan="1" colspan="1">6.72±13.00</td>
+<td align="left" rowspan="1" colspan="1">6.86±13.41</td>
+<td align="left" rowspan="1" colspan="1">6.15±12.79</td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1">Family history</td>
+<td align="left" rowspan="1" colspan="1">10.28</td>
+<td align="left" rowspan="1" colspan="1">9.77</td>
+<td align="left" rowspan="1" colspan="1">8.96</td>
+<td align="left" rowspan="1" colspan="1">7.97</td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1">Oral contraceptives (% at baseline)</td>
+<td align="left" rowspan="1" colspan="1">12.39</td>
+<td align="left" rowspan="1" colspan="1">13.54</td>
+<td align="left" rowspan="1" colspan="1">16.32</td>
+<td align="left" rowspan="1" colspan="1">19.91</td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1">Estrogen (%)</td>
+<td align="left" rowspan="1" colspan="1">13.26</td>
+<td align="left" rowspan="1" colspan="1">13.08</td>
+<td align="left" rowspan="1" colspan="1">10.81</td>
+<td align="left" rowspan="1" colspan="1">6.61</td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1">Estrogen/progesterone (%)</td>
+<td align="left" rowspan="1" colspan="1">10.82</td>
+<td align="left" rowspan="1" colspan="1">11.92</td>
+<td align="left" rowspan="1" colspan="1">10.68</td>
+<td align="left" rowspan="1" colspan="1">7.25</td>
+</tr>
+</tbody>
+</table>
+</alternatives><table-wrap-foot><fn id="nt101"><label>*</label><p>Calculated as the age at death or December 31, 2008. †All variables show an association with MET-hours/week at P≤0.05. ‡ coded A = 1, B = 2, C = 3, D = 4, ≥E = 5.</p></fn></table-wrap-foot></table-wrap><table-wrap id="pone-0080616-t002" position="float" orientation="portrait"><object-id pub-id-type="doi">10.1371/journal.pone.0080616.t002</object-id><label>Table 2</label><caption>
+<title>Baseline sample characteristics by breast volume.</title>
+</caption><alternatives><graphic id="pone-0080616-t002-2" position="float" mimetype="image" xlink:href="info:doi/10.1371/journal.pone.0080616.t002" xlink:type="simple" orientation="portrait" />
+<table><colgroup span="1"><col align="left" span="1" /><col align="center" span="1" /><col align="center" span="1" /><col align="center" span="1" /><col align="center" span="1" /></colgroup>
+<thead>
+<tr>
+<td align="left" rowspan="1" colspan="1" />
+<td colspan="4" align="left" rowspan="1">Self-reported bra cup size†</td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1" />
+<td align="left" rowspan="1" colspan="1">A</td>
+<td align="left" rowspan="1" colspan="1">B</td>
+<td align="left" rowspan="1" colspan="1">C</td>
+<td align="left" rowspan="1" colspan="1">D</td>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left" rowspan="1" colspan="1">Sample size</td>
+<td align="left" rowspan="1" colspan="1">14,818</td>
+<td align="left" rowspan="1" colspan="1">29,072</td>
+<td align="left" rowspan="1" colspan="1">17,975</td>
+<td align="left" rowspan="1" colspan="1">7,739</td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1">Runner (%)</td>
+<td align="left" rowspan="1" colspan="1">79.46</td>
+<td align="left" rowspan="1" colspan="1">65.43</td>
+<td align="left" rowspan="1" colspan="1">47.89</td>
+<td align="left" rowspan="1" colspan="1">28.88</td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1">Follow-up Age<xref ref-type="table-fn" rid="nt102">*</xref></td>
+<td align="left" rowspan="1" colspan="1">51.29±10.73</td>
+<td align="left" rowspan="1" colspan="1">52.88±12.50</td>
+<td align="left" rowspan="1" colspan="1">54.66±12.92</td>
+<td align="left" rowspan="1" colspan="1">56.73±13.03</td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1">Follow-up (years)</td>
+<td align="left" rowspan="1" colspan="1">11.36±2.90</td>
+<td align="left" rowspan="1" colspan="1">10.79±2.66</td>
+<td align="left" rowspan="1" colspan="1">10.20±2.34</td>
+<td align="left" rowspan="1" colspan="1">9.75±2.00</td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1">Exercise (MET-hours/wk)</td>
+<td align="left" rowspan="1" colspan="1">34.04±22.58</td>
+<td align="left" rowspan="1" colspan="1">28.29±20.16</td>
+<td align="left" rowspan="1" colspan="1">22.22±17.34</td>
+<td align="left" rowspan="1" colspan="1">17.29±14.90</td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1">Education (years)</td>
+<td align="left" rowspan="1" colspan="1">16.02±2.34</td>
+<td align="left" rowspan="1" colspan="1">15.71±2.65</td>
+<td align="left" rowspan="1" colspan="1">15.43±2.61</td>
+<td align="left" rowspan="1" colspan="1">15.14±2.67</td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1">Smokers (%)</td>
+<td align="left" rowspan="1" colspan="1">2.42</td>
+<td align="left" rowspan="1" colspan="1">3.33</td>
+<td align="left" rowspan="1" colspan="1">4.04</td>
+<td align="left" rowspan="1" colspan="1">5.31</td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1">Fruit (pieces/day)</td>
+<td align="left" rowspan="1" colspan="1">1.59±1.13</td>
+<td align="left" rowspan="1" colspan="1">1.55±1.33</td>
+<td align="left" rowspan="1" colspan="1">1.49±1.08</td>
+<td align="left" rowspan="1" colspan="1">1.48±1.10</td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1">Meat (servings/day)</td>
+<td align="left" rowspan="1" colspan="1">0.26±0.30</td>
+<td align="left" rowspan="1" colspan="1">0.29±0.49</td>
+<td align="left" rowspan="1" colspan="1">0.33±0.34</td>
+<td align="left" rowspan="1" colspan="1">0.38±0.36</td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1">Alcohol (g/d)</td>
+<td align="left" rowspan="1" colspan="1">6.55±9.97</td>
+<td align="left" rowspan="1" colspan="1">6.62±10.44</td>
+<td align="left" rowspan="1" colspan="1">6.50±10.82</td>
+<td align="left" rowspan="1" colspan="1">5.56±10.70</td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1">BMI (kg/m<sup>2</sup>)</td>
+<td align="left" rowspan="1" colspan="1">20.85±2.25</td>
+<td align="left" rowspan="1" colspan="1">22.47±3.44</td>
+<td align="left" rowspan="1" colspan="1">24.62±4.67</td>
+<td align="left" rowspan="1" colspan="1">27.81±6.41</td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1">Body circumferences</td>
+<td align="left" rowspan="1" colspan="1" />
+<td align="left" rowspan="1" colspan="1" />
+<td align="left" rowspan="1" colspan="1" />
+<td align="left" rowspan="1" colspan="1" />
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1">Chest (cm)</td>
+<td align="left" rowspan="1" colspan="1">86.60±4.70</td>
+<td align="left" rowspan="1" colspan="1">89.39±5.64</td>
+<td align="left" rowspan="1" colspan="1">93.17±7.20</td>
+<td align="left" rowspan="1" colspan="1">98.82±10.58</td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1">Waist (cm)</td>
+<td align="left" rowspan="1" colspan="1">68.32±6.09</td>
+<td align="left" rowspan="1" colspan="1">71.72±8.56</td>
+<td align="left" rowspan="1" colspan="1">76.30±11.09</td>
+<td align="left" rowspan="1" colspan="1">82.84±14.33</td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1">Hips (cm)</td>
+<td align="left" rowspan="1" colspan="1">90.62±6.75</td>
+<td align="left" rowspan="1" colspan="1">93.74±8.49</td>
+<td align="left" rowspan="1" colspan="1">97.72±10.49</td>
+<td align="left" rowspan="1" colspan="1">103.50±13.62</td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1">Age menarche (year)</td>
+<td align="left" rowspan="1" colspan="1">12.97±1.58</td>
+<td align="left" rowspan="1" colspan="1">12.89±1.70</td>
+<td align="left" rowspan="1" colspan="1">12.72±1.72</td>
+<td align="left" rowspan="1" colspan="1">12.48±1.75</td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1">Menopausal (%)</td>
+<td align="left" rowspan="1" colspan="1">20.71</td>
+<td align="left" rowspan="1" colspan="1">28.46</td>
+<td align="left" rowspan="1" colspan="1">37.08</td>
+<td align="left" rowspan="1" colspan="1">46.07</td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1">Nulliparous (%)</td>
+<td align="left" rowspan="1" colspan="1">45.55</td>
+<td align="left" rowspan="1" colspan="1">43.17</td>
+<td align="left" rowspan="1" colspan="1">36.03</td>
+<td align="left" rowspan="1" colspan="1">29.81</td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1">Age first pregnancy</td>
+<td align="left" rowspan="1" colspan="1">26.08±4.82</td>
+<td align="left" rowspan="1" colspan="1">24.99±5.04</td>
+<td align="left" rowspan="1" colspan="1">24.36±5.02</td>
+<td align="left" rowspan="1" colspan="1">23.79±5.07</td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1">Breast fed (months)</td>
+<td align="left" rowspan="1" colspan="1">7.69±14.39</td>
+<td align="left" rowspan="1" colspan="1">6.12±12.64</td>
+<td align="left" rowspan="1" colspan="1">6.49±13.04</td>
+<td align="left" rowspan="1" colspan="1">6.74±13.41</td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1">Family History (%)</td>
+<td align="left" rowspan="1" colspan="1">8.63</td>
+<td align="left" rowspan="1" colspan="1">8.25</td>
+<td align="left" rowspan="1" colspan="1">9.43</td>
+<td align="left" rowspan="1" colspan="1">9.47</td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1">Oral contraceptives (%)</td>
+<td align="left" rowspan="1" colspan="1">18.77</td>
+<td align="left" rowspan="1" colspan="1">18.81</td>
+<td align="left" rowspan="1" colspan="1">16.47</td>
+<td align="left" rowspan="1" colspan="1">11.31</td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1">Estrogen (%)</td>
+<td align="left" rowspan="1" colspan="1">5.58</td>
+<td align="left" rowspan="1" colspan="1">8.86</td>
+<td align="left" rowspan="1" colspan="1">12.24</td>
+<td align="left" rowspan="1" colspan="1">15.28</td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1">Estrogen/ progesterone (%)</td>
+<td align="left" rowspan="1" colspan="1">7.40</td>
+<td align="left" rowspan="1" colspan="1">9.40</td>
+<td align="left" rowspan="1" colspan="1">10.80</td>
+<td align="left" rowspan="1" colspan="1">11.92</td>
+</tr>
+</tbody>
+</table>
+</alternatives><table-wrap-foot><fn id="nt102"><label>*</label><p>Calculated as the age at death or December 31, 2008. †All variables show an association with reported bra cup size at P≤0.05.</p></fn></table-wrap-foot></table-wrap><sec id="s3a">
+<title>Running and walking</title>
+<p>When adjusted for follow-up age, race, menopause, oral contraceptive, and estrogen and estrogen/progesterone medication use, the decline in breast cancer mortality in women who met or exceeded the current physical activity recommendations was not significantly different for walking and running (P = 0.34). In addition, relative to &lt;7.5 MET-hours/wk at baseline, the reduction in risk was similar for 7.5 to 12.5 MET-hour/wk and &gt;12.5 MET-hour/wk for running and walking combined (<xref ref-type="table" rid="pone-0080616-t003">Table 3</xref>). Thus, the risk for breast cancer mortality was 41.5% lower for ≥7.5 vs. &lt;7.5 MET-hours/wk (HR: 0.585; 95%CI: 0.385 to 0.924, P = 0.02), which was unchanged when adjusted for baseline BMI (HR: 0.584, 95%CI: 0.368 to 0.956, P = 0.03). The inverse relationship between breast cancer mortality and MET-hours/d run or walked persisted when further adjusted for years of education, baseline smoking, intakes of meat, fruit, and alcohol, waist circumference, hip circumference, chest circumference, age of menarche, nulliperousness, age of first pregnancy, number of live births, months of breast feeding, or family history of breast cancer (all P≤0.05, results not displayed).</p>
+<table-wrap id="pone-0080616-t003" position="float" orientation="portrait"><object-id pub-id-type="doi">10.1371/journal.pone.0080616.t003</object-id><label>Table 3</label><caption>
+<title>Survival analyses for breast cancer mortality by reported exercise level.</title>
+</caption><alternatives><graphic id="pone-0080616-t003-3" position="float" mimetype="image" xlink:href="info:doi/10.1371/journal.pone.0080616.t003" xlink:type="simple" orientation="portrait" />
+<table><colgroup span="1"><col align="left" span="1" /><col align="center" span="1" /><col align="center" span="1" /><col align="center" span="1" /><col align="center" span="1" /></colgroup>
+<thead>
+<tr>
+<td align="left" rowspan="1" colspan="1">MET-hours/wk run or walked</td>
+<td align="left" rowspan="1" colspan="1">Cases/sample</td>
+<td align="left" rowspan="1" colspan="1">Person-years mortality surveillance</td>
+<td colspan="2" align="left" rowspan="1">Hazard ratio (95% Confidence interval)<xref ref-type="table-fn" rid="nt103">*</xref></td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1" />
+<td align="left" rowspan="1" colspan="1" />
+<td align="left" rowspan="1" colspan="1" />
+<td align="left" rowspan="1" colspan="1">No adjustment for BMI</td>
+<td align="left" rowspan="1" colspan="1">Adjusted for BMI</td>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left" rowspan="1" colspan="1">&lt;7.5</td>
+<td align="left" rowspan="1" colspan="1">28/12,641</td>
+<td align="left" rowspan="1" colspan="1">118,764</td>
+<td align="left" rowspan="1" colspan="1">1.0</td>
+<td align="left" rowspan="1" colspan="1">1.0</td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1" />
+<td align="left" rowspan="1" colspan="1" />
+<td align="left" rowspan="1" colspan="1" />
+<td align="left" rowspan="1" colspan="1" />
+<td align="left" rowspan="1" colspan="1" />
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1">7.5–12.5</td>
+<td align="left" rowspan="1" colspan="1">10/9,137</td>
+<td align="left" rowspan="1" colspan="1">87,657</td>
+<td align="left" rowspan="1" colspan="1">0.498</td>
+<td align="left" rowspan="1" colspan="1">0.471</td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1" />
+<td align="left" rowspan="1" colspan="1" />
+<td align="left" rowspan="1" colspan="1" />
+<td align="left" rowspan="1" colspan="1">(0.230, 0.993)</td>
+<td align="left" rowspan="1" colspan="1">(0.208, 0.973)</td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1" />
+<td align="left" rowspan="1" colspan="1" />
+<td align="left" rowspan="1" colspan="1" />
+<td align="left" rowspan="1" colspan="1">P = 0.05</td>
+<td align="left" rowspan="1" colspan="1">P = 0.04</td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1" />
+<td align="left" rowspan="1" colspan="1" />
+<td align="left" rowspan="1" colspan="1" />
+<td align="left" rowspan="1" colspan="1" />
+<td align="left" rowspan="1" colspan="1" />
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1">&gt;12.5</td>
+<td align="left" rowspan="1" colspan="1">73/57,346</td>
+<td align="left" rowspan="1" colspan="1">625,665</td>
+<td align="left" rowspan="1" colspan="1">0.598</td>
+<td align="left" rowspan="1" colspan="1">0.609</td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1" />
+<td align="left" rowspan="1" colspan="1" />
+<td align="left" rowspan="1" colspan="1" />
+<td align="left" rowspan="1" colspan="1">(0.385, 0.953)</td>
+<td align="left" rowspan="1" colspan="1">(0.378, 1.012)</td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1" />
+<td align="left" rowspan="1" colspan="1" />
+<td align="left" rowspan="1" colspan="1" />
+<td align="left" rowspan="1" colspan="1">P = 0.03</td>
+<td align="left" rowspan="1" colspan="1">P = 0.06</td>
+</tr>
+</tbody>
+</table>
+</alternatives><table-wrap-foot><fn id="nt103"><label>*</label><p>Adjusted for follow-up age (age, age<sup>2</sup>), race, menopause, and oral contraceptive and estrogen or estrogen/progesterone use. Additional adjustment for BMI as indicated.</p></fn></table-wrap-foot></table-wrap></sec><sec id="s3b">
+<title>Breast volume</title>
+<p>Baseline breast volume, as indicated by bra cup size, was inversely related to MET-hour/wk run or walked (<xref ref-type="table" rid="pone-0080616-t002">Table 2</xref>). Other than age and menopause, baseline bra cup size was the strongest predictor of breast cancer mortality, i.e., 57.9% greater risk (HR: 1.579, 95%CI: 1.268 to 1.966, P = 0.0001) per increment in cup size when adjusted for MET-hours/wk and the other covariates, and 70.4% greater risk (HR: 1.704, 95%CI: 1.344 to 2.156, P = 10<sup>−5</sup>) when also adjusted for BMI. <xref ref-type="table" rid="pone-0080616-t004">Table 4</xref> shows that not only did adjustment for BMI not explain the association, BMI adjustment actually increased the hazard ratios. In addition, the concordance between breast cancer mortality and bra cup size persisted when further adjusted for years of education, baseline smoking, intakes of meat, fruit, and alcohol, waist circumference, hip circumference, chest circumference, age of menarche, nulliperousness, age of first pregnancy, number of live births, months of breast feeding, or family history of breast cancer (all P≤0.0001, results not displayed). Reported bra cup size at age 18 was also significantly related to breast cancer mortality (HR: 1.363 per cup size, 95%CI: 1.050 to 1.751, P = 0.02) but not when adjusted for baseline cup size (P = 0.53), whereas baseline cup size remained predictive of breast cancer mortality when adjusted for cup size at 18 (HR: 1.521 per increment in cup size, 95%CI: 1.183 to 1.952, P = 0.001). Moreover, MET-hours/wk run or walked, follow-up age, baseline nulliparousness, baseline menopause status, and type of exercise (runners vs. walkers) did not significantly affect the bra cup-breast cancer relationship (P = 0.12, P = 0.26, P = 0.91, P = 0.86, and P = 0.42, respectively, for their interactions). Adjustment for bra cup size and BMI in addition to the other standard covariates did not eliminate the association between lower breast cancer mortality and achieving or exceeding the exercise recommendations (HR: 0.615, 95%CI: 0.389 to 1.004, P = 0.05).</p>
+<table-wrap id="pone-0080616-t004" position="float" orientation="portrait"><object-id pub-id-type="doi">10.1371/journal.pone.0080616.t004</object-id><label>Table 4</label><caption>
+<title>Survival analyses for breast cancer mortality by breast volume (bra cup size).</title>
+</caption><alternatives><graphic id="pone-0080616-t004-4" position="float" mimetype="image" xlink:href="info:doi/10.1371/journal.pone.0080616.t004" xlink:type="simple" orientation="portrait" />
+<table><colgroup span="1"><col align="left" span="1" /><col align="center" span="1" /><col align="center" span="1" /><col align="center" span="1" /><col align="center" span="1" /></colgroup>
+<thead>
+<tr>
+<td align="left" rowspan="1" colspan="1">Bra cup size</td>
+<td align="left" rowspan="1" colspan="1">Cases/sample</td>
+<td align="left" rowspan="1" colspan="1">Person-years mortality surveillance</td>
+<td colspan="2" align="left" rowspan="1">Hazard ratio (95% Confidence interval)<xref ref-type="table-fn" rid="nt104">*</xref></td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1" />
+<td align="left" rowspan="1" colspan="1" />
+<td align="left" rowspan="1" colspan="1" />
+<td align="left" rowspan="1" colspan="1">No adjustment for BMI</td>
+<td align="left" rowspan="1" colspan="1">Adjusted for BMI</td>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left" rowspan="1" colspan="1">A cup</td>
+<td align="left" rowspan="1" colspan="1">8/14,818</td>
+<td align="left" rowspan="1" colspan="1">167,565</td>
+<td align="left" rowspan="1" colspan="1">1.0</td>
+<td align="left" rowspan="1" colspan="1">1.0</td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1" />
+<td align="left" rowspan="1" colspan="1" />
+<td align="left" rowspan="1" colspan="1" />
+<td align="left" rowspan="1" colspan="1" />
+<td align="left" rowspan="1" colspan="1" />
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1">B-cup</td>
+<td align="left" rowspan="1" colspan="1">30/29,072</td>
+<td align="left" rowspan="1" colspan="1">311,629</td>
+<td align="left" rowspan="1" colspan="1">1.848</td>
+<td align="left" rowspan="1" colspan="1">1.890</td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1" />
+<td align="left" rowspan="1" colspan="1" />
+<td align="left" rowspan="1" colspan="1" />
+<td align="left" rowspan="1" colspan="1">(0.885, 4.342)</td>
+<td align="left" rowspan="1" colspan="1">(0.900, 4.458)</td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1" />
+<td align="left" rowspan="1" colspan="1" />
+<td align="left" rowspan="1" colspan="1" />
+<td align="left" rowspan="1" colspan="1">P = 0.11</td>
+<td align="left" rowspan="1" colspan="1">P = 0.10</td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1" />
+<td align="left" rowspan="1" colspan="1" />
+<td align="left" rowspan="1" colspan="1" />
+<td align="left" rowspan="1" colspan="1" />
+<td align="left" rowspan="1" colspan="1" />
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1">C-cup</td>
+<td align="left" rowspan="1" colspan="1">37/17,975</td>
+<td align="left" rowspan="1" colspan="1">181,752</td>
+<td align="left" rowspan="1" colspan="1">3.516</td>
+<td align="left" rowspan="1" colspan="1">3.980</td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1" />
+<td align="left" rowspan="1" colspan="1" />
+<td align="left" rowspan="1" colspan="1" />
+<td align="left" rowspan="1" colspan="1">(1.694, 8.246)</td>
+<td align="left" rowspan="1" colspan="1">(1.894, 9.412)</td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1" />
+<td align="left" rowspan="1" colspan="1" />
+<td align="left" rowspan="1" colspan="1" />
+<td align="left" rowspan="1" colspan="1">P = 0.0004</td>
+<td align="left" rowspan="1" colspan="1">P = 0.0001</td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1" />
+<td align="left" rowspan="1" colspan="1" />
+<td align="left" rowspan="1" colspan="1" />
+<td align="left" rowspan="1" colspan="1" />
+<td align="left" rowspan="1" colspan="1" />
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1">≥D-cup</td>
+<td align="left" rowspan="1" colspan="1">19/7,739</td>
+<td align="left" rowspan="1" colspan="1">74,697</td>
+<td align="left" rowspan="1" colspan="1">3.929</td>
+<td align="left" rowspan="1" colspan="1">4.668</td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1" />
+<td align="left" rowspan="1" colspan="1" />
+<td align="left" rowspan="1" colspan="1" />
+<td align="left" rowspan="1" colspan="1">(1.727, 9.771)</td>
+<td align="left" rowspan="1" colspan="1">(1.963, 11.980)</td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1" />
+<td align="left" rowspan="1" colspan="1" />
+<td align="left" rowspan="1" colspan="1" />
+<td align="left" rowspan="1" colspan="1">P = 0.0009</td>
+<td align="left" rowspan="1" colspan="1">P = 0.0004</td>
+</tr>
+</tbody>
+</table>
+</alternatives><table-wrap-foot><fn id="nt104"><label>*</label><p>Adjusted for follow-up age (age, age<sup>2</sup>), MET-hours/wk run or walked, race, menopause, and oral contraceptive and estrogen or estrogen/progesterone use. Additional adjustment for BMI as indicated.</p></fn></table-wrap-foot></table-wrap></sec></sec><sec id="s4">
+<title>Discussion</title>
+<p>Public health guidelines recommend that adults “should do at least 150 minutes (2 hours and 30 minutes) a week of moderate-intensity, or 75 minutes (1 hour and 15 minutes) a week of vigorous-intensity aerobic physical activity, or an equivalent combination of moderate- and vigorous-intensity aerobic activity” <xref ref-type="bibr" rid="pone.0080616-Physical1">[2]</xref>. Our data suggest the risk for breast cancer mortality is reduced substantially by meeting the recommendations. The 41.5% reduction for breast cancer mortality for ≥7.5 MET-hours/wk could not be explained by other purported breast cancer risk factors, including BMI and regional adiposity. The reduction in mortality was not exclusive to either premenopausal or postmenopausal disease. The substantial risk reduction we observed for breast cancer mortality may also reflect, in part, the superiority of calculating MET-hours/wk from distance run than from time spent exercising <xref ref-type="bibr" rid="pone.0080616-Williams4">[9]</xref>–<xref ref-type="bibr" rid="pone.0080616-Williams6">[11]</xref>. The 30% reduction in breast cancer mortality that has occurred between 1991 and 2009 in the United States <xref ref-type="bibr" rid="pone.0080616-Siegel1">[18]</xref> suggests the opportunity for additional reductions in mortality through increased exercise participation.</p>
+<p>The reduction in breast cancer mortality with running and walking we observed could be due to reduced risk for incident breast cancer, improved survival in women diagnosed with breast cancer, or both. Our data revealed no significant difference in the reduction in breast cancer mortality between running and walking. However, the power to detect small differences in risk was probably limited. Although the protective effects of physical activity on breast cancer risk are reasonably well-established <xref ref-type="bibr" rid="pone.0080616-Lynch1">[1]</xref>, <xref ref-type="bibr" rid="pone.0080616-Physical1">[2]</xref>, it is less clear whether vigorous exercise provides even greater protection from incident breast cancer <xref ref-type="bibr" rid="pone.0080616-Eliassen1">[19]</xref>, <xref ref-type="bibr" rid="pone.0080616-Friedenreich1">[20]</xref> or survival <xref ref-type="bibr" rid="pone.0080616-Beasley1">[21]</xref>–<xref ref-type="bibr" rid="pone.0080616-Irwin1">[23]</xref>.</p>
+<p>Other than age and menopause status, baseline bra cup size was the most significant risk factor for fatal breast cancer in the women runners studied here. In young, lean women, larger breast size has been occasionally associated with breast cancer risk <xref ref-type="bibr" rid="pone.0080616-Egan1">[4]</xref>, <xref ref-type="bibr" rid="pone.0080616-Kusano1">[5]</xref>. Egan et al reported that in women who were very lean when young, a larger pre-pregnancy breast size was predictive of postmenopausal breast cancer <xref ref-type="bibr" rid="pone.0080616-Egan1">[4]</xref>. Kusano et al. reported that a larger bra cup size at age 20 was predictive of premenopausal breast cancer in the Nurses Health Study II <xref ref-type="bibr" rid="pone.0080616-Kusano1">[5]</xref>. In our cohort, the association was not limited to young-adulthood breast volume, nor was it significantly affected by age, nulliparous status, or menopausal status. The average baseline BMI of the runners and walkers who died of breast cancer was 23.78 kg/m<sup>2</sup>, which is leaner than the general population. In the current study, the increased risk for breast cancer mortality with breast size remained significant when adjusted for baseline circumferences of the waist, hip and chest, was not necessarily exclusive to premenopausal or postmenopausal breast cancer, and became even more significant when adjusted for baseline BMI.</p>
+<p>Breasts consist of radiographically dense (breast epithelium and stroma) and nondense tissue (adipose tissue) whose proportions differ across women. Those whose breast are ≥75% dense tissue have a four- to six-fold higher breast cancer risk than women with &lt;25% dense tissue <xref ref-type="bibr" rid="pone.0080616-McCormack1">[24]</xref>. On average, larger breasts contain more epithelial cells at risk. However, breast adipose tissue may be protective <xref ref-type="bibr" rid="pone.0080616-Pettersson1">[25]</xref>, <xref ref-type="bibr" rid="pone.0080616-Stone1">[26]</xref>, and the relative proportion of epithelial cells to protective tissue may determine risk <xref ref-type="bibr" rid="pone.0080616-Pettersson1">[25]</xref>. BMI tends to be negatively correlated with the amount of dense tissue and positively correlated with the amount of protective nondense tissue <xref ref-type="bibr" rid="pone.0080616-Pettersson1">[25]</xref>. In the general population, radiographic density is less of a risk factor for larger than smaller breasts <xref ref-type="bibr" rid="pone.0080616-Stuedal1">[27]</xref>. In physically active women, however, breast size may be an important risk factor because the runners and walkers were generally lean, which means their large breasts tend to contain more epithelial cells at risk and less fat that may be protective.</p>
+<p>Hormones and genetics may also contribute to the greater risk from larger breasts. Higher circulating estrogen levels are associated with greater breast cancer risk <xref ref-type="bibr" rid="pone.0080616-Endogenous1">[28]</xref>, and their reduction is one of the mechanisms by which physical activity is thought to lower risk <xref ref-type="bibr" rid="pone.0080616-McTiernan1">[29]</xref>. Larger breasted women have significantly higher estrogen concentrations than smaller breasted women if they have narrow waists (e.g., as characteristic of physically active women) but not if they have broad waists (characteristic of sedentary women) <xref ref-type="bibr" rid="pone.0080616-Jasienska1">[30]</xref>. Abdominal fat per se may suppress breast size, since its liposuction often leads to spontaneous breast enlargement <xref ref-type="bibr" rid="pone.0080616-Yun1">[31]</xref>. High insulin-like growth factor-1 concentrations are linked to both larger breast volume <xref ref-type="bibr" rid="pone.0080616-Jernstrm1">[32]</xref> and increased risk of premenopausal breast cancer <xref ref-type="bibr" rid="pone.0080616-Hankinson1">[33]</xref>. In addition, larger breasts tend to be more asymmetric <xref ref-type="bibr" rid="pone.0080616-Mller1">[34]</xref>, which is also a purported risk factor <xref ref-type="bibr" rid="pone.0080616-Scutt1">[35]</xref>. Breast size and breast cancer risk might also be genetically associated. Breast size heritability is about 56% <xref ref-type="bibr" rid="pone.0080616-Wade1">[36]</xref>. Two of the seven single nucleotide polymorphisms (SNPs) associated with larger breast size have been shown to be in linkage disequilibrium with SNPs associated with greater breast cancer risk <xref ref-type="bibr" rid="pone.0080616-Eriksson1">[37]</xref>. Coffee intake in women with CYP1A2*1F C-allele is associated with both smaller breast size and lower breast cancer risk in BRCA1 carriers <xref ref-type="bibr" rid="pone.0080616-Jernstrm2">[38]</xref>.</p>
+<p>Breast size may also affect survival. Women with breast volumes ≥850 ml have shorter disease-free and metastasis-free survival for ER-positive tumors <xref ref-type="bibr" rid="pone.0080616-Markkula1">[39]</xref>. Larger breast size also increases the odds of late-stage disease <xref ref-type="bibr" rid="pone.0080616-Hall1">[40]</xref>. Poorer survival may explain the greater risk increase we observed for C-cup (398% vis-à-vis A-cup) and D-cup (467% vis-à-vis A-cup) mortality than the Nurses' Health Study observed for ≥D-cup (80% vis-à-vis A-cup) morbidity <xref ref-type="bibr" rid="pone.0080616-Kusano1">[5]</xref>.</p>
+<p>There are important limitations to these analyses. The date and disease stage at diagnosis and the type of breast cancer treatment are not known because diagnosis would have occurred after the baseline survey. Physical activity, bra cup size, and other baseline variables were from self-report from the participants' baseline questionnaires. Bra cup size may not be a very precise measurement of breast volume. It has been suggested that the majority (70% to 100%) of women do not wear the correct size bra <xref ref-type="bibr" rid="pone.0080616-McGhee1">[41]</xref>, <xref ref-type="bibr" rid="pone.0080616-White1">[42]</xref>. In particular, women tend to wear bras with bands one size too large and cups one size too small. This, however, primarily relates to issues of ideal support rather than biases that would affect associations with disease risk, it being unlikely that women would choose better-fitting bras if they were at greater breast cancer risk. Other studies have reported significant associations between breast cancer and self-reported bra cup size as an estimate of breast volume <xref ref-type="bibr" rid="pone.0080616-Egan1">[4]</xref>, <xref ref-type="bibr" rid="pone.0080616-Kusano1">[5]</xref>, <xref ref-type="bibr" rid="pone.0080616-Palmer1">[43]</xref>.</p>
+<p>Exercise levels, bra size, and other subject characteristics could have changed prior to the onset of breast cancer. However, imprecision in breast volume and exercise energy expenditure based upon self-reported bra size and usual distance run are expected to attenuate their associations <xref ref-type="bibr" rid="pone.0080616-Matthews1">[12]</xref>, <xref ref-type="bibr" rid="pone.0080616-Ferrari1">[13]</xref>. Our results suggest that breast size in physically active women is more significantly predictive of breast cancer mortality than any other baseline risk factor except age and menopause, which may be a special consequence of the runners' and walkers' leanness, or their physically active state.</p>
+</sec></body>
+<back><ref-list>
+<title>References</title>
+<ref id="pone.0080616-Lynch1"><label>1</label>
+<mixed-citation publication-type="other" xlink:type="simple">Lynch BM, Neilson HK, Friedenreich CM (2011) Physical activity and breast cancer prevention. Recent Results Cancer Res. 186,13–42.</mixed-citation>
+</ref>
+<ref id="pone.0080616-Physical1"><label>2</label>
+<mixed-citation publication-type="journal" xlink:type="simple"><collab xlink:type="simple">Physical Activity Guidelines Advisory Committee</collab> (<year>2008</year>) <article-title>Physical Activity Guidelines Advisory Committee Report, 2008</article-title>. <source>Washington, DC: U.S. Department of Health and Human Services</source> <volume>2008</volume>: <fpage>A1</fpage>–<lpage>H14</lpage>.</mixed-citation>
+</ref>
+<ref id="pone.0080616-Haskell1"><label>3</label>
+<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Haskell</surname><given-names>WL</given-names></name>, <name name-style="western"><surname>Lee</surname><given-names>IM</given-names></name>, <name name-style="western"><surname>Pate</surname><given-names>RR</given-names></name>, <name name-style="western"><surname>Powell</surname><given-names>KE</given-names></name>, <name name-style="western"><surname>Blair</surname><given-names>SN</given-names></name>, <etal>et al</etal>. (<year>2007</year>) <article-title>Physical activity and public health: updated recommendation for adults from the American College of Sports Medicine and the American Heart Association</article-title>. <source>Med Sci Sports Exerc</source> <volume>39</volume>: <fpage>1423</fpage>–<lpage>1434</lpage>.</mixed-citation>
+</ref>
+<ref id="pone.0080616-Egan1"><label>4</label>
+<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Egan</surname><given-names>KM</given-names></name>, <name name-style="western"><surname>Newcomb</surname><given-names>PA</given-names></name>, <name name-style="western"><surname>Titus-Ernstoff</surname><given-names>L</given-names></name>, <name name-style="western"><surname>Trentham-Dietz</surname><given-names>A</given-names></name>, <name name-style="western"><surname>Baron</surname><given-names>JA</given-names></name>, <etal>et al</etal>. (<year>1999</year>) <article-title>The relation of breast size to breast cancer risk in postmenopausal women (United States). Cancer Causes Control</article-title>. <volume>10</volume>: <fpage>115</fpage>–<lpage>118</lpage>.</mixed-citation>
+</ref>
+<ref id="pone.0080616-Kusano1"><label>5</label>
+<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Kusano</surname><given-names>AS</given-names></name>, <name name-style="western"><surname>Trichopoulos</surname><given-names>D</given-names></name>, <name name-style="western"><surname>Terry</surname><given-names>KL</given-names></name>, <name name-style="western"><surname>Chen</surname><given-names>WY</given-names></name>, <name name-style="western"><surname>Willett</surname><given-names>WC</given-names></name>, <etal>et al</etal>. (<year>2006</year>) <article-title>A prospective study of breast size and premenopausal breast cancer incidence. Int J Cancer</article-title>. <volume>118</volume>: <fpage>2031</fpage>–<lpage>2034</lpage>.</mixed-citation>
+</ref>
+<ref id="pone.0080616-Williams1"><label>6</label>
+<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Williams</surname><given-names>PT</given-names></name> (<year>2007</year>) <article-title>Maintaining vigorous activity attenuates 7-yr weight gain in 8340 runners. Med Sci Sports Exerc</article-title>. <volume>39</volume>: <fpage>801</fpage>–<lpage>809</lpage>.</mixed-citation>
+</ref>
+<ref id="pone.0080616-Williams2"><label>7</label>
+<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Williams</surname><given-names>PT</given-names></name> (<year>2008</year>) <article-title>Asymmetric weight gain and loss from increasing and decreasing exercise. Med Sci Sports Exerc</article-title>. <volume>40</volume>: <fpage>296</fpage>–<lpage>302</lpage>.</mixed-citation>
+</ref>
+<ref id="pone.0080616-Williams3"><label>8</label>
+<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Williams</surname><given-names>PT</given-names></name>, <name name-style="western"><surname>Satariano</surname><given-names>WA</given-names></name> (<year>2005</year>) <article-title>Relationships of age and weekly running distance to BMI and circumferences in 41,582 physically active women. Obes Res</article-title>. <volume>13</volume>: <fpage>1370</fpage>–<lpage>1380</lpage>.</mixed-citation>
+</ref>
+<ref id="pone.0080616-Williams4"><label>9</label>
+<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Williams</surname><given-names>PT</given-names></name> (<year>2012</year>) <article-title>Distance walked and run as improved metrics over time-based energy estimation in epidemiological studies and prevention; evidence from medication use. PLoS One</article-title>. <volume>7</volume>: <fpage>e41906</fpage>.</mixed-citation>
+</ref>
+<ref id="pone.0080616-Williams5"><label>10</label>
+<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Williams</surname><given-names>PT</given-names></name> (<year>2012</year>) <article-title>Non-exchangeability of running vs. other exercise in their association with adiposity, and its implications for public health recommendations. PLoS One</article-title>. <volume>7</volume>: <fpage>e36360</fpage>.</mixed-citation>
+</ref>
+<ref id="pone.0080616-Williams6"><label>11</label>
+<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Williams</surname><given-names>PT</given-names></name> (<year>2012</year>) <article-title>Advantage of distance- versus time-based estimates of walking in predicting adiposity. Med Sci Sports Exerc</article-title>. <volume>44</volume>: <fpage>1728</fpage>–<lpage>1737</lpage>.</mixed-citation>
+</ref>
+<ref id="pone.0080616-Matthews1"><label>12</label>
+<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Matthews</surname><given-names>CE</given-names></name>, <name name-style="western"><surname>Moore</surname><given-names>SC</given-names></name>, <name name-style="western"><surname>George</surname><given-names>SM</given-names></name>, <name name-style="western"><surname>Sampson</surname><given-names>J</given-names></name>, <name name-style="western"><surname>Bowles</surname><given-names>HR</given-names></name> (<year>2012</year>) <article-title>Improving self-reports of active and sedentary behaviors in large epidemiologic studies. Exerc Sport Sci Rev</article-title>. <volume>40</volume>: <fpage>118</fpage>–<lpage>126</lpage>.</mixed-citation>
+</ref>
+<ref id="pone.0080616-Ferrari1"><label>13</label>
+<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Ferrari</surname><given-names>P</given-names></name>, <name name-style="western"><surname>Friedenreich</surname><given-names>C</given-names></name>, <name name-style="western"><surname>Matthews</surname><given-names>CE</given-names></name> (<year>2007</year>) <article-title>The role of measurement error in estimating levels of physical activity. Am J Epidemiol</article-title>. <volume>166</volume>: <fpage>832</fpage>–<lpage>40</lpage>.</mixed-citation>
+</ref>
+<ref id="pone.0080616-Williams7"><label>14</label>
+<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Williams</surname><given-names>PT</given-names></name> (<year>2004</year>) <article-title>Vigorous exercise and the population distribution of body weight. Int J Obes Relat Metab Disord</article-title>. <volume>28</volume>: <fpage>120</fpage>–<lpage>128</lpage>.</mixed-citation>
+</ref>
+<ref id="pone.0080616-Williams8"><label>15</label>
+<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Williams</surname><given-names>PT</given-names></name> (<year>2008</year>) <article-title>Self-selection accounts for inverse association between weight and cardiorespiratory fitness. Obesity (Silver Spring)</article-title>. <volume>16</volume>: <fpage>102</fpage>–<lpage>106</lpage>.</mixed-citation>
+</ref>
+<ref id="pone.0080616-Williams9"><label>16</label>
+<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Williams</surname><given-names>PT</given-names></name> (<year>2007</year>) <article-title>Self-selection contributes significantly to the lower adiposity of faster, longer-distanced, male and female walkers. Int J Obes (Lond)</article-title>. <volume>31</volume>: <fpage>652</fpage>–<lpage>662</lpage>.</mixed-citation>
+</ref>
+<ref id="pone.0080616-Fillenbaum1"><label>17</label>
+<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Fillenbaum</surname><given-names>GG</given-names></name>, <name name-style="western"><surname>Burchett</surname><given-names>BM</given-names></name>, <name name-style="western"><surname>Blazer</surname><given-names>DG</given-names></name> (<year>2009</year>) <article-title>Identifying a National Death Index match</article-title>. <source>American Journal of Epidemiology</source> <volume>170</volume>: <fpage>515</fpage>–<lpage>518</lpage>.</mixed-citation>
+</ref>
+<ref id="pone.0080616-Siegel1"><label>18</label>
+<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Siegel</surname><given-names>R</given-names></name>, <name name-style="western"><surname>Naishadham</surname><given-names>D</given-names></name>, <name name-style="western"><surname>Jemal</surname><given-names>A</given-names></name> (<year>2013</year>) <article-title>Cancer statistics, 2013. CA Cancer J Clin</article-title>. <volume>63</volume>: <fpage>11</fpage>–<lpage>30</lpage>.</mixed-citation>
+</ref>
+<ref id="pone.0080616-Eliassen1"><label>19</label>
+<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Eliassen</surname><given-names>AH</given-names></name>, <name name-style="western"><surname>Hankinson</surname><given-names>SE</given-names></name>, <name name-style="western"><surname>Rosner</surname><given-names>B</given-names></name>, <name name-style="western"><surname>Holmes</surname><given-names>MD</given-names></name>, <name name-style="western"><surname>Willett</surname><given-names>WC</given-names></name> (<year>2010</year>) <article-title>Physical activity and risk of breast cancer among postmenopausal women. Arch Intern Med</article-title>. <volume>170</volume>: <fpage>1758</fpage>–<lpage>1764</lpage>.</mixed-citation>
+</ref>
+<ref id="pone.0080616-Friedenreich1"><label>20</label>
+<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Friedenreich</surname><given-names>CM</given-names></name>, <name name-style="western"><surname>Cust</surname><given-names>AE</given-names></name> (<year>2008</year>) <article-title>Physical activity and breast cancer risk: impact of timing, type and dose of activity and population subgroup effects. Br J Sports Med</article-title>. <volume>42</volume>: <fpage>636</fpage>–<lpage>647</lpage>.</mixed-citation>
+</ref>
+<ref id="pone.0080616-Beasley1"><label>21</label>
+<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Beasley</surname><given-names>JM</given-names></name>, <name name-style="western"><surname>Kwan</surname><given-names>ML</given-names></name>, <name name-style="western"><surname>Chen</surname><given-names>WY</given-names></name>, <name name-style="western"><surname>Weltzien</surname><given-names>EK</given-names></name>, <name name-style="western"><surname>Kroenke</surname><given-names>CH</given-names></name>, <etal>et al</etal>. (<year>2012</year>) <article-title>Meeting the physical activity guidelines and survival after breast cancer: findings from the after breast cancer pooling project. Breast Cancer Res Treat</article-title>. <volume>131</volume>: <fpage>637</fpage>–<lpage>643</lpage>.</mixed-citation>
+</ref>
+<ref id="pone.0080616-Holmes1"><label>22</label>
+<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Holmes</surname><given-names>MD</given-names></name>, <name name-style="western"><surname>Chen</surname><given-names>WY</given-names></name>, <name name-style="western"><surname>Feskanich</surname><given-names>D</given-names></name>, <name name-style="western"><surname>Kroenke</surname><given-names>CH</given-names></name>, <name name-style="western"><surname>Colditz</surname><given-names>GA</given-names></name> (<year>2005</year>) <article-title>Physical activity and survival after breast cancer diagnosis. JAMA</article-title>. <volume>293</volume>: <fpage>2479</fpage>–<lpage>2486</lpage>.</mixed-citation>
+</ref>
+<ref id="pone.0080616-Irwin1"><label>23</label>
+<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Irwin</surname><given-names>ML</given-names></name>, <name name-style="western"><surname>McTiernan</surname><given-names>A</given-names></name>, <name name-style="western"><surname>Manson</surname><given-names>JE</given-names></name>, <name name-style="western"><surname>Thomson</surname><given-names>CA</given-names></name>, <name name-style="western"><surname>Sternfeld</surname><given-names>B</given-names></name>, <etal>et al</etal>. (<year>2011</year>) <article-title>Physical activity and survival in postmenopausal women with breast cancer: results from the women's health initiative. Cancer Prev Res (Phila)</article-title>. <volume>4</volume>: <fpage>522</fpage>–<lpage>529</lpage>.</mixed-citation>
+</ref>
+<ref id="pone.0080616-McCormack1"><label>24</label>
+<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>McCormack</surname><given-names>VA</given-names></name>, <name name-style="western"><surname>dos Santos Silva</surname><given-names>I</given-names></name> (<year>2006</year>) <article-title>Breast density and parenchymal patterns as markers of breast cancer risk: a meta-analysis. Cancer Epidemiol Biomarkers Prev</article-title>. <volume>15</volume>: <fpage>1159</fpage>–<lpage>1169</lpage>.</mixed-citation>
+</ref>
+<ref id="pone.0080616-Pettersson1"><label>25</label>
+<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Pettersson</surname><given-names>A</given-names></name>, <name name-style="western"><surname>Hankinson</surname><given-names>SE</given-names></name>, <name name-style="western"><surname>Willett</surname><given-names>WC</given-names></name>, <name name-style="western"><surname>Lagiou</surname><given-names>P</given-names></name>, <name name-style="western"><surname>Trichopoulos</surname><given-names>D</given-names></name>, <etal>et al</etal>. (<year>2011</year>) <article-title>Nondense mammographic area and risk of breast cancer. Breast Cancer Res</article-title>. <volume>13</volume>: <fpage>R100</fpage>.</mixed-citation>
+</ref>
+<ref id="pone.0080616-Stone1"><label>26</label>
+<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Stone</surname><given-names>J</given-names></name>, <name name-style="western"><surname>Ding</surname><given-names>J</given-names></name>, <name name-style="western"><surname>Warren</surname><given-names>RM</given-names></name>, <name name-style="western"><surname>Duffy</surname><given-names>SW</given-names></name>, <name name-style="western"><surname>Hopper</surname><given-names>JL</given-names></name> (<year>2010</year>) <article-title>Using mammographic density to predict breast cancer risk: dense area or percentage dense area. Breast Cancer Res</article-title>. <volume>12</volume>: <fpage>R97</fpage>.</mixed-citation>
+</ref>
+<ref id="pone.0080616-Stuedal1"><label>27</label>
+<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Stuedal</surname><given-names>A</given-names></name>, <name name-style="western"><surname>Ma</surname><given-names>H</given-names></name>, <name name-style="western"><surname>Bernstein</surname><given-names>L</given-names></name>, <name name-style="western"><surname>Pike</surname><given-names>MC</given-names></name>, <name name-style="western"><surname>Ursin</surname><given-names>G</given-names></name> (<year>2008</year>) <article-title>Does breast size modify the association between mammographic density and breast cancer risk? Cancer Epidemiol Biomarkers Prev</article-title>. <volume>17</volume>: <fpage>621</fpage>–<lpage>627</lpage>.</mixed-citation>
+</ref>
+<ref id="pone.0080616-Endogenous1"><label>28</label>
+<mixed-citation publication-type="journal" xlink:type="simple"><collab xlink:type="simple">Endogenous Hormones and Breast Cancer Collaborative Group</collab> (<year>2002</year>) <article-title>Endogenous sex hormones and breast cancer in postmenopausal women: reanalysis of nine prospective studies. J Natl Cancer Inst</article-title>. <volume>94</volume>: <fpage>606</fpage>–<lpage>616</lpage>.</mixed-citation>
+</ref>
+<ref id="pone.0080616-McTiernan1"><label>29</label>
+<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>McTiernan</surname><given-names>A</given-names></name>, <name name-style="western"><surname>Wu</surname><given-names>L</given-names></name>, <name name-style="western"><surname>Chen</surname><given-names>C</given-names></name>, <name name-style="western"><surname>Chlebowski</surname><given-names>R</given-names></name>, <name name-style="western"><surname>Mossavar-Rahmani</surname><given-names>Y</given-names></name>, <etal>et al</etal>. (<year>2006</year>) <article-title>Relation of BMI and physical activity to sex hormones in postmenopausal women</article-title>. <source>Obesity (Silver Spring)</source> <volume>14</volume>: <fpage>1662</fpage>–<lpage>1667</lpage>.</mixed-citation>
+</ref>
+<ref id="pone.0080616-Jasienska1"><label>30</label>
+<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Jasienska</surname><given-names>G</given-names></name>, <name name-style="western"><surname>Ziomkiewicz</surname><given-names>A</given-names></name>, <name name-style="western"><surname>Ellison</surname><given-names>PT</given-names></name>, <name name-style="western"><surname>Lipson</surname><given-names>SF</given-names></name>, <name name-style="western"><surname>Thune</surname><given-names>I</given-names></name> (<year>2004</year>) <article-title>Large breasts and narrow waists indicate high reproductive potential in women. Proc Biol Sci</article-title>. <volume>271</volume>: <fpage>1213</fpage>–<lpage>1217</lpage>.</mixed-citation>
+</ref>
+<ref id="pone.0080616-Yun1"><label>31</label>
+<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Yun</surname><given-names>PL</given-names></name>, <name name-style="western"><surname>Bruck</surname><given-names>M</given-names></name>, <name name-style="western"><surname>Felsenfeld</surname><given-names>L</given-names></name>, <name name-style="western"><surname>Katz</surname><given-names>BE</given-names></name> (<year>2003</year>) <article-title>Breast enlargement observed after power liposuction: a retrospective review. Dermatol Surg</article-title>. <volume>29</volume>: <fpage>165</fpage>–<lpage>7</lpage>.</mixed-citation>
+</ref>
+<ref id="pone.0080616-Jernstrm1"><label>32</label>
+<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Jernström</surname><given-names>H</given-names></name>, <name name-style="western"><surname>Olsson</surname><given-names>H</given-names></name> (<year>1997</year>) <article-title>Breast size in relation to endogenous hormone levels, body constitution, and oral contraceptive use in healthy nulligravid women aged 19–25 years</article-title>. <source>Am J Epidemiol</source> <volume>145</volume>: <fpage>571</fpage>–<lpage>580</lpage>.</mixed-citation>
+</ref>
+<ref id="pone.0080616-Hankinson1"><label>33</label>
+<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Hankinson</surname><given-names>SE</given-names></name>, <name name-style="western"><surname>Willett</surname><given-names>WC</given-names></name>, <name name-style="western"><surname>Colditz</surname><given-names>GA</given-names></name>, <name name-style="western"><surname>Hunter</surname><given-names>DJ</given-names></name>, <name name-style="western"><surname>Michaud</surname><given-names>DS</given-names></name>, <etal>et al</etal>. (<year>1998</year>) <article-title>Circulating concentrations of insulin-like growth factor-1 and risk of breast cancer</article-title>. <source>Lancet</source> <volume>351</volume>: <fpage>1393</fpage>–<lpage>1396</lpage>.</mixed-citation>
+</ref>
+<ref id="pone.0080616-Mller1"><label>34</label>
+<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Møller</surname><given-names>A</given-names></name>, <name name-style="western"><surname>Soler</surname><given-names>M</given-names></name>, <name name-style="western"><surname>Thornhill</surname><given-names>R</given-names></name> (<year>1995</year>) <article-title>Breast asymmetry, sexual selection and human reproductive success. Ethol Sociobiol</article-title>. <volume>16</volume>: <fpage>207</fpage>–<lpage>219</lpage>.</mixed-citation>
+</ref>
+<ref id="pone.0080616-Scutt1"><label>35</label>
+<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Scutt</surname><given-names>D</given-names></name>, <name name-style="western"><surname>Lancaster</surname><given-names>GA</given-names></name>, <name name-style="western"><surname>Manning</surname><given-names>JT</given-names></name> (<year>2006</year>) <article-title>Breast asymmetry and predisposition to breast cancer. Breast Cancer Res</article-title>. <volume>8</volume>: <fpage>R14</fpage>.</mixed-citation>
+</ref>
+<ref id="pone.0080616-Wade1"><label>36</label>
+<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Wade</surname><given-names>TD</given-names></name>, <name name-style="western"><surname>Zhu</surname><given-names>G</given-names></name>, <name name-style="western"><surname>Martin</surname><given-names>NG</given-names></name> (<year>2010</year>) <article-title>Body mass index and breast size in women: same or different genes? Twin Res Hum Genet</article-title>. <volume>13</volume>: <fpage>450</fpage>–<lpage>454</lpage>.</mixed-citation>
+</ref>
+<ref id="pone.0080616-Eriksson1"><label>37</label>
+<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Eriksson</surname><given-names>N</given-names></name>, <name name-style="western"><surname>Benton</surname><given-names>GM</given-names></name>, <name name-style="western"><surname>Do</surname><given-names>CB</given-names></name>, <name name-style="western"><surname>Kiefer</surname><given-names>AK</given-names></name>, <name name-style="western"><surname>Mountain</surname><given-names>JL</given-names></name>, <etal>et al</etal>. (<year>2012</year>) <article-title>Genetic variants associated with breast size also influence breast cancer risk. BMC Med Genet</article-title>. <volume>13</volume>: <fpage>53</fpage>.</mixed-citation>
+</ref>
+<ref id="pone.0080616-Jernstrm2"><label>38</label>
+<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Jernström</surname><given-names>H</given-names></name>, <name name-style="western"><surname>Henningson</surname><given-names>M</given-names></name>, <name name-style="western"><surname>Johansson</surname><given-names>U</given-names></name>, <name name-style="western"><surname>Olsson</surname><given-names>H</given-names></name> (<year>2008</year>) <article-title>Coffee intake and CYP1A2*1F genotype predict breast volume in young women: implications for breast cancer. Br J Cancer</article-title>. <volume>99</volume>: <fpage>1534</fpage>–<lpage>1538</lpage>.</mixed-citation>
+</ref>
+<ref id="pone.0080616-Markkula1"><label>39</label>
+<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Markkula</surname><given-names>A</given-names></name>, <name name-style="western"><surname>Bromée</surname><given-names>A</given-names></name>, <name name-style="western"><surname>Henningson</surname><given-names>M</given-names></name>, <name name-style="western"><surname>Hietala</surname><given-names>M</given-names></name>, <name name-style="western"><surname>Ringberg</surname><given-names>A</given-names></name>, <etal>et al</etal>. (<year>2012</year>) <article-title>Given breast cancer, does breast size matter? Data from a prospective breast cancer cohort. Cancer Causes Control</article-title>. <volume>23</volume>: <fpage>1307</fpage>–<lpage>1316</lpage>.</mixed-citation>
+</ref>
+<ref id="pone.0080616-Hall1"><label>40</label>
+<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Hall</surname><given-names>HI</given-names></name>, <name name-style="western"><surname>Coates</surname><given-names>RJ</given-names></name>, <name name-style="western"><surname>Uhler</surname><given-names>RJ</given-names></name>, <name name-style="western"><surname>Brinton</surname><given-names>LA</given-names></name>, <name name-style="western"><surname>Gammon</surname><given-names>MD</given-names></name>, <etal>et al</etal>. (<year>1999</year>) <article-title>Stage of breast cancer in relation to body mass index and bra cup size. Int J Cancer</article-title>. <volume>82</volume>: <fpage>23</fpage>–<lpage>27</lpage>.</mixed-citation>
+</ref>
+<ref id="pone.0080616-McGhee1"><label>41</label>
+<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>McGhee</surname><given-names>DE</given-names></name>, <name name-style="western"><surname>Steele</surname><given-names>JR</given-names></name> (<year>2010</year>) <article-title>Optimising breast support in female patients through correct bra fit: a cross-sectional study. Journal of Science and Medicine in Sport</article-title>. <volume>13</volume>: <fpage>568</fpage>–<lpage>572</lpage>.</mixed-citation>
+</ref>
+<ref id="pone.0080616-White1"><label>42</label>
+<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>White</surname><given-names>J</given-names></name>, <name name-style="western"><surname>Scurr</surname><given-names>J</given-names></name> (<year>2012</year>) <article-title>Evaluation of professional bra fitting criteria for bra selection and fitting in the UK. Ergonomics</article-title>. <volume>55</volume>: <fpage>704</fpage>–<lpage>711</lpage>.</mixed-citation>
+</ref>
+<ref id="pone.0080616-Palmer1"><label>43</label>
+<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Palmer</surname><given-names>JR</given-names></name>, <name name-style="western"><surname>Boggs</surname><given-names>DA</given-names></name>, <name name-style="western"><surname>Hatch</surname><given-names>EE</given-names></name>, <name name-style="western"><surname>Troisi</surname><given-names>R</given-names></name>, <name name-style="western"><surname>Titus-Ernstoff</surname><given-names>L</given-names></name>, <etal>et al</etal>. (<year>2013</year>) <article-title>Prenatal DES exposure in relation to breast size. Cancer Causes Control</article-title>. <volume>24</volume>: <fpage>1757</fpage>–<lpage>1761</lpage>.</mixed-citation>
+</ref>
+</ref-list></back>
+</article>

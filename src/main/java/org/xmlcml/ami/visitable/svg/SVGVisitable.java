@@ -101,7 +101,8 @@ public class SVGVisitable extends AbstractVisitable {
 	}
 
 	@Override
-	public void addURL(URL url) throws Exception {
+	public void readURLconvertToObjectAndAddtoVisitable(URL url) throws Exception {
+		super.addURL(url);
 		throw new RuntimeException("URLS for SVG not yet implemented ");
 	}
 

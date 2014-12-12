@@ -1,0 +1,403 @@
+<article xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" article-type="research-article" dtd-version="3.0" xml:lang="en">
+<front>
+<journal-meta>
+<journal-id journal-id-type="nlm-ta">PLoS ONE</journal-id>
+<journal-id journal-id-type="publisher-id">plos</journal-id>
+<journal-id journal-id-type="pmc">plosone</journal-id><journal-title-group>
+<journal-title xml:lang="en">PLoS ONE</journal-title></journal-title-group>
+<issn pub-type="epub">1932-6203</issn>
+<publisher>
+<publisher-name>Public Library of Science</publisher-name>
+<publisher-loc>San Francisco, USA</publisher-loc></publisher>
+</journal-meta>
+<article-meta>
+<article-id pub-id-type="publisher-id">PONE-D-13-14744</article-id>
+<article-id pub-id-type="doi">10.1371/journal.pone.0082706</article-id>
+<article-categories><subj-group subj-group-type="heading"><subject>Research Article</subject></subj-group></article-categories>
+<title-group>
+<article-title>Artificial Sweeteners in a Large Canadian River Reflect Human Consumption in the Watershed</article-title>
+<alt-title alt-title-type="running-head">Artificial Sweeteners in the Grand River, Ontario</alt-title>
+</title-group>
+<contrib-group>
+<contrib contrib-type="author" xlink:type="simple"><name name-style="western"><surname>Spoelstra</surname><given-names>John</given-names></name><xref ref-type="aff" rid="aff1"><sup>1</sup></xref><xref ref-type="aff" rid="aff2"><sup>2</sup></xref><xref ref-type="corresp" rid="cor1"><sup>*</sup></xref></contrib>
+<contrib contrib-type="author" xlink:type="simple"><name name-style="western"><surname>Schiff</surname><given-names>Sherry L.</given-names></name><xref ref-type="aff" rid="aff2"><sup>2</sup></xref></contrib>
+<contrib contrib-type="author" xlink:type="simple"><name name-style="western"><surname>Brown</surname><given-names>Susan J.</given-names></name><xref ref-type="aff" rid="aff1"><sup>1</sup></xref></contrib>
+</contrib-group>
+<aff id="aff1"><label>1</label><addr-line>Water Science and Technology Directorate, Environment Canada, Burlington, Ontario, Canada</addr-line></aff>
+<aff id="aff2"><label>2</label><addr-line>Department of Earth and Environmental Sciences, University of Waterloo, Waterloo, Ontario, Canada</addr-line></aff>
+<contrib-group>
+<contrib contrib-type="editor" xlink:type="simple"><name name-style="western"><surname>Iwata</surname><given-names>Tomoya</given-names></name>
+<role>Editor</role>
+<xref ref-type="aff" rid="edit1" /></contrib>
+</contrib-group>
+<aff id="edit1"><addr-line>University of Yamanashi, Japan</addr-line></aff>
+<author-notes>
+<corresp id="cor1">* E-mail: <email xlink:type="simple">John.Spoelstra@ec.gc.ca</email></corresp>
+<fn fn-type="conflict"><p>The authors have declared that no competing interests exist.</p></fn>
+<fn fn-type="con"><p>Conceived and designed the experiments: JS SLS. Performed the experiments: JS SLS. Analyzed the data: JS SLS. Contributed reagents/materials/analysis tools: JS SLS SJB. Wrote the paper: JS SLS.</p></fn>
+</author-notes>
+<pub-date pub-type="collection"><year>2013</year></pub-date>
+<pub-date pub-type="epub"><day>11</day><month>12</month><year>2013</year></pub-date>
+<volume>8</volume>
+<issue>12</issue>
+<elocation-id>e82706</elocation-id>
+<history>
+<date date-type="received"><day>5</day><month>4</month><year>2013</year></date>
+<date date-type="accepted"><day>26</day><month>10</month><year>2013</year></date>
+</history>
+<permissions>
+<copyright-year>2013</copyright-year>
+<copyright-holder>Spoelstra et al</copyright-holder><license xlink:href="http://creativecommons.org/licenses/by/3.0/" xlink:type="simple"><license-p>This is an open-access article distributed under the terms of the <ext-link ext-link-type="uri" xlink:href="http://creativecommons.org/licenses/by/3.0/" xlink:type="simple">Creative Commons Attribution License</ext-link>, which permits unrestricted use, distribution, and reproduction in any medium, provided the original author and source are credited.</license-p></license></permissions>
+<abstract>
+<p>Artificial sweeteners have been widely incorporated in human food products for aid in weight loss regimes, dental health protection and dietary control of diabetes. Some of these widely used compounds can pass non-degraded through wastewater treatment systems and are subsequently discharged to groundwater and surface waters. Measurements of artificial sweeteners in rivers used for drinking water production are scarce. In order to determine the riverine concentrations of artificial sweeteners and their usefulness as a tracer of wastewater at the scale of an entire watershed, we analyzed samples from 23 sites along the entire length of the Grand River, a large river in Southern Ontario, Canada, that is impacted by agricultural activities and urban centres. Municipal water from household taps was also sampled from several cities within the Grand River Watershed. Cyclamate, saccharin, sucralose, and acesulfame were found in elevated concentrations despite high rates of biological activity, large daily cycles in dissolved oxygen and shallow river depth. The maximum concentrations that we measured for sucralose (21 µg/L), cyclamate (0.88 µg/L), and saccharin (7.2 µg/L) are the highest reported concentrations of these compounds in surface waters to date anywhere in the world. Acesulfame persists at concentrations that are up to several orders of magnitude above the detection limit over a distance of 300 km and it behaves conservatively in the river, recording the wastewater contribution from the cumulative population in the basin. Acesulfame is a reliable wastewater effluent tracer in rivers. Furthermore, it can be used to assess rates of nutrient assimilation, track wastewater plume dilution, separate human and animal waste contributions and determine the relative persistence of emerging contaminants in impacted watersheds where multiple sources confound the usefulness of other tracers. The effects of artificial sweeteners on aquatic biota in rivers and in the downstream Great Lakes are largely unknown.</p>
+</abstract>
+<funding-group><funding-statement>Research on the Grand River was funded by an Natural Sciences and Engineering Research Council (NSERC) Strategic Project (STPGP 336807-06; <ext-link ext-link-type="uri" xlink:href="http://www.nserc-crsng.gc.ca/" xlink:type="simple">www.nserc-crsng.gc.ca/</ext-link>). The funders had no role in study design, data collection and analysis, decision to publish, or preparation of the manuscript.</funding-statement></funding-group><counts><page-count count="6" /></counts></article-meta>
+</front>
+<body><sec id="s1">
+<title>Introduction</title>
+<p>Artificial sweeteners (AS) are increasingly used as a sugar substitute to reduce caloric intake, for dental health protection and for control of diabetes. As a result of the use of artificial sweeteners in food and beverages and the ability of some of these compounds to pass non-degraded through wastewater treatment plants (WWTPs), AS are being detected in rivers and lakes (e.g. <xref ref-type="bibr" rid="pone.0082706-BrorstrmLundn1">[1]</xref>–<xref ref-type="bibr" rid="pone.0082706-VanStempvoort1">[4]</xref>) and groundwater (e.g. <xref ref-type="bibr" rid="pone.0082706-VanStempvoort1">[4]</xref>–<xref ref-type="bibr" rid="pone.0082706-VanStempvoort3">[7]</xref>) around the world. Some AS are also able to pass through water treatment plants and are subsequently found in municipal potable water supplies (e.g. <xref ref-type="bibr" rid="pone.0082706-Buerge1">[2]</xref>, <xref ref-type="bibr" rid="pone.0082706-Scheurer2">[9]</xref>, <xref ref-type="bibr" rid="pone.0082706-Mawhinney1">[10]</xref>), typically where the source water intake for one municipality is downstream from the WWTP discharge of another.</p>
+<p>One AS, acesulfame, is particularly resistant to degradation in WWTPs and has been proposed as an ideal tracer of wastewater in the environment (e.g. <xref ref-type="bibr" rid="pone.0082706-Buerge1">[2]</xref>). Acesulfame has been shown to be mobile and recalcitrant in groundwater <xref ref-type="bibr" rid="pone.0082706-Buerge1">[2]</xref>, <xref ref-type="bibr" rid="pone.0082706-VanStempvoort2">[5]</xref>, <xref ref-type="bibr" rid="pone.0082706-Robertson1">[6]</xref>, making it a suitable wastewater tracer in the subsurface as well as surface water bodies. Additionally, acesulfame removal by the various processes used in water treatment plants for the production of municipal potable water has been shown to be incomplete <xref ref-type="bibr" rid="pone.0082706-Scheurer2">[9]</xref>. To investigate the concentrations and behavior of AS at the scale of an entire watershed, we conducted a study of the Grand River in Ontario, Canada.</p>
+<p>The Grand River Watershed in southern Ontario contains the largest Canadian river discharging to Lake Erie, one of the Great Lakes bordered by Canada and the United States (<xref ref-type="fig" rid="pone-0082706-g001">Fig.1</xref>). Predominant land use in the watershed is agricultural (over 80%) but a large urban population (&gt;600,000) is concentrated in the central portion of the watershed. A total of 30 WWTPs servicing a current population of approximately 800,000, discharge to the Grand River and its tributaries. The total population of the Grand River Watershed is currently 960,000 and expected to increase to over 1,400,000 by 2041 <xref ref-type="bibr" rid="pone.0082706-Grand1">[11]</xref>, with most of this increase occurring in urban areas on sewers. Currently, over 500,000 people rely on Grand River water for domestic use either directly after treatment (&gt;120,000 people) or via groundwater recharge schemes. Therefore the ability of the Grand River to function both as a diluter/assimilator of waste and as a safe source of raw water for drinking water production, while conserving ecological health, is of vital concern.</p>
+<fig id="pone-0082706-g001" position="float" orientation="portrait"><object-id pub-id-type="doi">10.1371/journal.pone.0082706.g001</object-id><label>Figure 1</label><caption>
+<title>Grand River Watershed (6,800 km<sup>2</sup>), Ontario, Canada.</title>
+<p>Numbered circles and red squares indicate the 23 sampling sites and 30 WWTPs, respectively. Site numbering starts in the headwaters and increases downstream, terminating at Port Maitland where the Grand River discharges to Lake Erie. The 3 largest WWTPs by rated capacity are Kitchener, Brantford and Waterloo.</p>
+</caption><graphic mimetype="image" xlink:href="info:doi/10.1371/journal.pone.0082706.g001" position="float" xlink:type="simple" orientation="portrait" /></fig>
+<p>Analysis of artificial sweeteners (AS) presents an extremely powerful tool for tracing the impact of wastewater constituents on receiving waters. Nutrient loads to the Grand River are high due to intensifying agricultural activity and WWTPs, leading to high rates of river metabolism, large daily cycles in dissolved oxygen (DO) <xref ref-type="bibr" rid="pone.0082706-Rosamond1">[12]</xref> and summer nighttime hypoxia below the largest WWTP (Kitchener). River discharge is heavily regulated by reservoirs used for flood prevention and low flow augmentation. To assess the load and persistence of AS in a highly impacted river, we conducted a longitudinal survey by selecting 23 sites over the 300 km river length, starting at the upper 2<sup>nd</sup> order reach and ending at the discharge point to Lake Erie where the river is 7<sup>th</sup> order (<xref ref-type="fig" rid="pone-0082706-g001">Fig. 1</xref>).</p>
+</sec><sec id="s2" sec-type="methods">
+<title>Methods</title>
+<p>Samples were collected along the length of the Grand River at 23 sites from headwaters to mouth (<xref ref-type="fig" rid="pone-0082706-g001">Fig.1</xref>). No specific permissions were required for these sampling locations since they were all publically accessible sites. In the upper one third of the watershed (sites 1–9), the surficial geology is characterized by glacial till. The urban reach near the center of the watershed (sites 10–12) is followed by a zone of higher groundwater recharge (sites 13–16) due to the presence of glacial moraines. The lower third of the watershed (sites 17–23) is covered by clayey tills and the topographic gradient is diminished. Maximum annual discharge increases from &lt;1 m<sup>3</sup>/s at site 1 to &gt;80 m<sup>3</sup>/s at site 23. Below the largest WWTP, nighttime hypoxia is a stressor because river DO varies from less than 1 mg/L on hot summer nights to over 14 mg/L during the day.</p>
+<p>Three sampling campaigns were designed to capture the effects of seasonal variability during lower flows and non-ice covered seasons when biological transformation should be the most effective: 14-June-2007 (early summer, peak photosynthetic activity), 5-September-2007 (late summer, end of growing season, past peak biomass) and 24-April-2009 (spring, higher flows and prior to the emergence of macrophytes). Samples were collected close to solar noon on the specified dates by teams of samplers who waded into the river to manually collect the samples or sampled from piers or bridges in the lower river sections. Travel time of the river from one sampling site to the next was not explicitly factored into the sampling design as sites were sampled at approximately the same time of the day (within 2 hours). Samples were kept on ice in the dark and filtered to 0.45 µm in the laboratory before being stored frozen until analysis. Stability data for samples processed to date shows no indication that freezing causes the four AS to precipitate out of solution (data not shown).</p>
+<p>Effluent discharge volume from the larger WWTPs exhibits daily fluctuations (a factor of 2.5) with peaks in morning and evening corresponding to the beginning and end of a normal workday. As a result, AS concentrations downstream from the WWTPs also vary on a daily cycle with changes in the dilution factor. Samples were collected at 6 to 8 sites within the effluent plume from below each of the two largest WWTPs (Kitchener, Waterloo) to a distance of 5 km in 2 different years. The plume location and highest concentrations were independently confirmed using conductivity, chloride and bromide. Results demonstrate the conservative nature of AS in the WWTP plume in the river at this distance (data not shown). Samples were also collected within the two largest WWTPs from the effluent stream every 3 hours on a diel basis on 4 occasions. Plume and WWTP samples were processed as above.</p>
+<p>Municipal water supply samples were collected from private residences at taps not influenced by additional treatment systems (e.g. water softeners). Prepared sample containers were filled and stored frozen prior to transport to the laboratory for processing and analysis.</p>
+<p>The four sweeteners were analyzed by ion chromatography (Dionex 2500 system) coupled with tandem mass spectrometry (AB Sciex QTRAP 5500 triple-quadrupole), operated in negative electrospray ionization (ESI) mode. Sample pre-treatment (e.g. SPE) is not required for this method, thereby increasing sample throughput compared to some other methods used for AS analysis. The minimum detection limits (mdl) for acesulfame, saccharin, cyclamate, and sucralose were 0.008, 0.021, 0.003, and 5 µg/L, respectively. Precision for the method is better than ±20% for all four artificial sweeteners. For sucralose, our mdl and practical quantification limit (pql: 15 µg/L) are relatively high compared to other analytical methods (e.g. 0.01 µg/L <xref ref-type="bibr" rid="pone.0082706-Scheurer1">[3]</xref>) and therefore a detailed analysis of our sucralose data in the Grand River was not included here. A comprehensive description of the analytical methods has been published in the supplementary material (Appendix A) of Van Stempvoort et al. <xref ref-type="bibr" rid="pone.0082706-VanStempvoort1">[4]</xref>.</p>
+<p>The field work conducted for this study did not involve endangered or protected species.</p>
+</sec><sec id="s3">
+<title>Results and Discussion</title>
+<p>All four AS analyzed were detected at elevated concentrations in the Grand River (<xref ref-type="fig" rid="pone-0082706-g002">Fig. 2</xref>, <xref ref-type="table" rid="pone-0082706-t001">Table 1</xref>). The larger river volume available to dilute WWTP effluent resulted in lower AS concentrations during April compared to June or September (<xref ref-type="fig" rid="pone-0082706-g003">Fig. 3</xref>). The maximum concentrations that we measured for sucralose (21 µg/L), cyclamate (0.88 µg/L), and saccharin (7.2 µg/L) are the highest reported concentrations of these compounds in surface waters to date anywhere in the world.</p>
+<fig id="pone-0082706-g002" position="float" orientation="portrait"><object-id pub-id-type="doi">10.1371/journal.pone.0082706.g002</object-id><label>Figure 2</label><caption>
+<title>Concentrations of 3 artificial sweeteners in the Grand River.</title>
+<p>Acesulfame (a), saccharin (b) and cyclamate (c) concentrations in the Grand River on three sampling dates; Jun 2007 (blue diamonds), Sep 2007 (red squares), Apr 2009 (green triangles). Samples plotted at y  =  “0” have concentrations less than the minimum detection limit.</p>
+</caption><graphic mimetype="image" xlink:href="info:doi/10.1371/journal.pone.0082706.g002" position="float" xlink:type="simple" orientation="portrait" /></fig><fig id="pone-0082706-g003" position="float" orientation="portrait"><object-id pub-id-type="doi">10.1371/journal.pone.0082706.g003</object-id><label>Figure 3</label><caption>
+<title>Grand River discharge.</title>
+<p>Daily mean discharge for the Grand River at gauged sites for each sampling date; Jun 2007 (blue diamonds), Sep 2007 (red squares), Apr 2009 (green triangles).</p>
+</caption><graphic mimetype="image" xlink:href="info:doi/10.1371/journal.pone.0082706.g003" position="float" xlink:type="simple" orientation="portrait" /></fig><table-wrap id="pone-0082706-t001" position="float" orientation="portrait"><object-id pub-id-type="doi">10.1371/journal.pone.0082706.t001</object-id><label>Table 1</label><caption>
+<title>Summary of published data on the concentration of artificial sweeteners measured in freshwater surface waters (streams and lakes) and the data from the Grand River.</title>
+</caption><alternatives><graphic id="pone-0082706-t001-1" position="float" mimetype="image" xlink:href="info:doi/10.1371/journal.pone.0082706.t001" xlink:type="simple" orientation="portrait" />
+<table><colgroup span="1"><col align="left" span="1" /><col align="center" span="1" /><col align="center" span="1" /><col align="center" span="1" /><col align="center" span="1" /><col align="center" span="1" /><col align="center" span="1" /></colgroup>
+<thead>
+<tr>
+<td align="left" rowspan="1" colspan="1" />
+<td align="left" rowspan="1" colspan="1" />
+<td align="left" rowspan="1" colspan="1" />
+<td colspan="4" align="left" rowspan="1">Concentration (µg/L)</td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1">Reference</td>
+<td align="left" rowspan="1" colspan="1">Country</td>
+<td align="left" rowspan="1" colspan="1">n</td>
+<td align="left" rowspan="1" colspan="1">Acesulfame</td>
+<td align="left" rowspan="1" colspan="1">Saccharin</td>
+<td align="left" rowspan="1" colspan="1">Cyclamate</td>
+<td align="left" rowspan="1" colspan="1">Sucralose</td>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left" rowspan="1" colspan="1"><xref ref-type="bibr" rid="pone.0082706-BrorstrmLundn1">[1]</xref></td>
+<td align="left" rowspan="1" colspan="1">Sweden</td>
+<td align="left" rowspan="1" colspan="1">15</td>
+<td align="left" rowspan="1" colspan="1" />
+<td align="left" rowspan="1" colspan="1" />
+<td align="left" rowspan="1" colspan="1" />
+<td align="left" rowspan="1" colspan="1">&lt;mdl to 3.56</td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1"><xref ref-type="bibr" rid="pone.0082706-Scheurer1">[3]</xref></td>
+<td align="left" rowspan="1" colspan="1">Germany</td>
+<td align="left" rowspan="1" colspan="1">23</td>
+<td align="left" rowspan="1" colspan="1">0.27 to 2.7</td>
+<td align="left" rowspan="1" colspan="1">0.01 to 0.35</td>
+<td align="left" rowspan="1" colspan="1">0.03 to 0.32</td>
+<td align="left" rowspan="1" colspan="1">0.01 to 0.11</td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1"><xref ref-type="bibr" rid="pone.0082706-VanStempvoort1">[4]</xref></td>
+<td align="left" rowspan="1" colspan="1">Canada</td>
+<td align="left" rowspan="1" colspan="1">9</td>
+<td align="left" rowspan="1" colspan="1">&lt;mdl to 0.34</td>
+<td align="left" rowspan="1" colspan="1">&lt;mdl to 0.066</td>
+<td align="left" rowspan="1" colspan="1">&lt;mdl</td>
+<td align="left" rowspan="1" colspan="1">&lt;mdl</td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1"><xref ref-type="bibr" rid="pone.0082706-Wolf1">[8]</xref></td>
+<td align="left" rowspan="1" colspan="1">Germany</td>
+<td align="left" rowspan="1" colspan="1">3–4</td>
+<td align="left" rowspan="1" colspan="1">2.0<xref ref-type="table-fn" rid="nt104">*</xref></td>
+<td align="left" rowspan="1" colspan="1">0.01<xref ref-type="table-fn" rid="nt104">*</xref></td>
+<td align="left" rowspan="1" colspan="1">0.25<xref ref-type="table-fn" rid="nt104">*</xref></td>
+<td align="left" rowspan="1" colspan="1">0.05<xref ref-type="table-fn" rid="nt104">*</xref></td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1"><xref ref-type="bibr" rid="pone.0082706-Scheurer2">[9]</xref></td>
+<td align="left" rowspan="1" colspan="1">Germany</td>
+<td align="left" rowspan="1" colspan="1">24</td>
+<td align="left" rowspan="1" colspan="1">2.1 to 3.6</td>
+<td align="left" rowspan="1" colspan="1">0.03 to 0.11</td>
+<td align="left" rowspan="1" colspan="1">0.10 to 0.24</td>
+<td align="left" rowspan="1" colspan="1">0.12 to 0.16</td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1"><xref ref-type="bibr" rid="pone.0082706-Mawhinney1">[10]</xref></td>
+<td align="left" rowspan="1" colspan="1">USA</td>
+<td align="left" rowspan="1" colspan="1" />
+<td align="left" rowspan="1" colspan="1" />
+<td align="left" rowspan="1" colspan="1" />
+<td align="left" rowspan="1" colspan="1" />
+<td align="left" rowspan="1" colspan="1">&lt;mdl to 2.9</td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1"><xref ref-type="bibr" rid="pone.0082706-Ferrer1">[13]</xref></td>
+<td align="left" rowspan="1" colspan="1">USA</td>
+<td align="left" rowspan="1" colspan="1">22</td>
+<td align="left" rowspan="1" colspan="1" />
+<td align="left" rowspan="1" colspan="1">&lt;mdl</td>
+<td align="left" rowspan="1" colspan="1" />
+<td align="left" rowspan="1" colspan="1">&lt;mdl to 1.8</td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1"><xref ref-type="bibr" rid="pone.0082706-Oppenheimer1">[14]</xref></td>
+<td align="left" rowspan="1" colspan="1">USA</td>
+<td align="left" rowspan="1" colspan="1">26</td>
+<td align="left" rowspan="1" colspan="1" />
+<td align="left" rowspan="1" colspan="1" />
+<td align="left" rowspan="1" colspan="1" />
+<td align="left" rowspan="1" colspan="1">&lt;mdl to 10</td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1"><xref ref-type="bibr" rid="pone.0082706-Buerge2">[27]</xref></td>
+<td align="left" rowspan="1" colspan="1">Switzerland</td>
+<td align="left" rowspan="1" colspan="1">20</td>
+<td align="left" rowspan="1" colspan="1">&lt;mdl to 6.9</td>
+<td align="left" rowspan="1" colspan="1">&lt;mdl to 0.18</td>
+<td align="left" rowspan="1" colspan="1">&lt;mdl to 0.13</td>
+<td align="left" rowspan="1" colspan="1">&lt;mdl to 0.6</td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1"><xref ref-type="bibr" rid="pone.0082706-Loos1">[28]</xref></td>
+<td align="left" rowspan="1" colspan="1">EU</td>
+<td align="left" rowspan="1" colspan="1">125</td>
+<td align="left" rowspan="1" colspan="1" />
+<td align="left" rowspan="1" colspan="1" />
+<td align="left" rowspan="1" colspan="1" />
+<td align="left" rowspan="1" colspan="1">&lt;mdl to 0.924</td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1"><xref ref-type="bibr" rid="pone.0082706-Engelhardt1">[29]</xref></td>
+<td align="left" rowspan="1" colspan="1">Germany</td>
+<td align="left" rowspan="1" colspan="1">1</td>
+<td align="left" rowspan="1" colspan="1">23<xref ref-type="table-fn" rid="nt105">†</xref></td>
+<td align="left" rowspan="1" colspan="1" />
+<td align="left" rowspan="1" colspan="1" />
+<td align="left" rowspan="1" colspan="1" />
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1"><xref ref-type="bibr" rid="pone.0082706-Minten1">[30]</xref></td>
+<td align="left" rowspan="1" colspan="1">Sweden</td>
+<td align="left" rowspan="1" colspan="1">3</td>
+<td align="left" rowspan="1" colspan="1" />
+<td align="left" rowspan="1" colspan="1" />
+<td align="left" rowspan="1" colspan="1" />
+<td align="left" rowspan="1" colspan="1">0.11 to 0.41</td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1"><xref ref-type="bibr" rid="pone.0082706-Mller1">[31]</xref></td>
+<td align="left" rowspan="1" colspan="1">Switzerland</td>
+<td align="left" rowspan="1" colspan="1">80</td>
+<td align="left" rowspan="1" colspan="1">&lt;mdl to ∼10</td>
+<td align="left" rowspan="1" colspan="1" />
+<td align="left" rowspan="1" colspan="1" />
+<td align="left" rowspan="1" colspan="1" />
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1">This study</td>
+<td align="left" rowspan="1" colspan="1">Canada</td>
+<td align="left" rowspan="1" colspan="1">57</td>
+<td align="left" rowspan="1" colspan="1">&lt;mdl to 3.6</td>
+<td align="left" rowspan="1" colspan="1">&lt;mdl to 7.2</td>
+<td align="left" rowspan="1" colspan="1">&lt;mdl to 0.88</td>
+<td align="left" rowspan="1" colspan="1">&lt;mdl to 21</td>
+</tr>
+</tbody>
+</table>
+</alternatives><table-wrap-foot><fn id="nt101"><label /><p>n  =  the number of samples; does not include our measurements in the WWTP plume.</p></fn><fn id="nt102"><label /><p>&lt;mdl  =  less than the minimum detection limit.</p></fn><fn id="nt103"><label /><p>Blank cells indicate that the parameter was not reported.</p></fn><fn id="nt104"><label>*</label><p>Maximum value reported.</p></fn><fn id="nt105"><label>†</label><p>About 50% of flow is derived from wastewater sources.</p></fn></table-wrap-foot></table-wrap>
+<p>Saccharin and cyclamate concentrations in the Grand River ranged from less than the minimum detection limit (&lt;mdl) to 7.2 and 0.88 µg/L, respectively. Many of these values, measured downstream of the major urban centres (e.g. below site 9), were higher than previously reported for rivers (<xref ref-type="table" rid="pone-0082706-t001">Table 1</xref>). Although previously detected in groundwater <xref ref-type="bibr" rid="pone.0082706-VanStempvoort1">[4]</xref>–<xref ref-type="bibr" rid="pone.0082706-VanStempvoort3">[7]</xref>, our study is the first to report detectable cyclamate concentrations for a North American river.</p>
+<p>Sucralose had the highest concentration of any of the artificial sweeteners (max. value of 21 µg/L). However, only two samples in the synoptic survey had sucralose concentrations above our quantifiable limit, both at a relatively short distance (23.8 to 35.8 km) below the largest WWTP. Sucralose has previously been measured at concentrations ranging from &lt;mdl to 3.56 µg/L in rivers in European countries <xref ref-type="bibr" rid="pone.0082706-BrorstrmLundn1">[1]</xref>–<xref ref-type="bibr" rid="pone.0082706-Scheurer1">[3]</xref>, <xref ref-type="bibr" rid="pone.0082706-Scheurer2">[9]</xref> and &lt;mdl to 10 µg/L in North America <xref ref-type="bibr" rid="pone.0082706-VanStempvoort1">[4]</xref>, <xref ref-type="bibr" rid="pone.0082706-Mawhinney1">[10]</xref>, <xref ref-type="bibr" rid="pone.0082706-Ferrer1">[13]</xref>, <xref ref-type="bibr" rid="pone.0082706-Oppenheimer1">[14]</xref>.</p>
+<p>Acesulfame was the most consistently detected AS and present at 21 of the 23 sites. In addition to contributions of much smaller WWTPs along the river and tributaries, acesulfame is the only one of the 4 AS to record the input from WWTP lagoons located just upstream of site 2. Concentrations reached as high as 3.6 µg/L downstream of the main urban centre, comparable to levels reported for European surface waters (&lt;mdl to 6.9 µg/L, <xref ref-type="table" rid="pone-0082706-t001">Table 1</xref>) and an order of magnitude higher than previously reported for Canada (&lt;mdl to 0.34 µg/L, <xref ref-type="table" rid="pone-0082706-t001">Table 1</xref>). Acesulfame was often the only AS detected in the upper reaches of the watershed.</p>
+<p>Cyclamate and saccharin are more easily degraded during WWTP processes whereas removal rates for acesulfame and sucralose are very low to not detectable <xref ref-type="bibr" rid="pone.0082706-BrorstrmLundn1">[1]</xref>, <xref ref-type="bibr" rid="pone.0082706-Scheurer1">[3]</xref>. As a result, cyclamate and saccharin concentrations in WWTP effluents and receiving waters are typically much lower than acesulfame and sucralose <xref ref-type="bibr" rid="pone.0082706-Buerge1">[2]</xref>, <xref ref-type="bibr" rid="pone.0082706-Scheurer1">[3]</xref>, (this study). Acesulfame and sucralose have been proposed as tracers of wastewater in aquatic systems because of their conservative nature and ubiquitous occurrence <xref ref-type="bibr" rid="pone.0082706-Buerge1">[2]</xref>, <xref ref-type="bibr" rid="pone.0082706-Scheurer1">[3]</xref>. We show here that all 4 of these AS pass through WWTPs resulting in elevated concentrations in the Grand River (<xref ref-type="fig" rid="pone-0082706-g002">Fig. 2</xref>). Unusually high concentrations of saccharin and cyclamate, recorded at site 11 in June 2007, could be the result of the discharge of under-treated wastewater from the largest WWTP. Effluent samples collected within this WWTP in June 2007 also show unusually high saccharin and cyclamate concentrations compared to effluent samples collected on 3 other dates (data not shown). High saccharin and cyclamate concentrations in the effluent likely resulted from a decreased hydraulic retention time within the WWTP, although the specific mechanism responsible is not known.</p>
+<p>Relatively little is known about the fate and effects of artificial sweeteners in rivers. Acesulfame has been shown to behave conservatively in groundwater <xref ref-type="bibr" rid="pone.0082706-Buerge1">[2]</xref>, <xref ref-type="bibr" rid="pone.0082706-VanStempvoort2">[5]</xref>, <xref ref-type="bibr" rid="pone.0082706-Robertson1">[6]</xref> indicating that biogeochemical activity in the subsurface does not significantly affect acesulfame. In contrast, sucralose is attenuated under aerobic and sub-oxic to anoxic conditions <xref ref-type="bibr" rid="pone.0082706-Scheurer1">[3]</xref>, <xref ref-type="bibr" rid="pone.0082706-VanStempvoort2">[5]</xref>, <xref ref-type="bibr" rid="pone.0082706-Robertson1">[6]</xref>, <xref ref-type="bibr" rid="pone.0082706-Labare1">[15]</xref>, <xref ref-type="bibr" rid="pone.0082706-Labare2">[16]</xref>. Our samples collected in the plumes below two of the largest WWTPs to a distance of 5 km also demonstrate the persistent nature of all four AS in temperate rivers despite the large range in daily DO and high rates of microbiological activity. Furthermore, elevated concentrations of acesulfame persist for over 300 km in the Grand River and reflect the cumulative human population in the watershed (<xref ref-type="fig" rid="pone-0082706-g004">Fig. 4</xref>). Because of the daily variation in discharge at the large WWTPs (a factor of 2.5), single river samples may not capture the full diel range of AS concentrations, especially close to the WWTPs where the river is not fully mixed. However, the general agreement of increasing acesulfame with population (<xref ref-type="fig" rid="pone-0082706-g004">Fig. 4</xref>.) demonstrates the conservative behavior of acesulfame in natural waters and its suitability as a long-term tracer of wastewater in the environment.</p>
+<fig id="pone-0082706-g004" position="float" orientation="portrait"><object-id pub-id-type="doi">10.1371/journal.pone.0082706.g004</object-id><label>Figure 4</label><caption>
+<title>Mass flux of acesulfame in the Grand River.</title>
+<p>Daily mass flux of acesulfame at gauged sites for each sampling date; Jun 2007 (blue diamonds), Sep 2007 (red squares), Apr 2009 (green triangles). Cumulative population contributing to WWTP discharge upstream of each site is indicated by the black line.</p>
+</caption><graphic mimetype="image" xlink:href="info:doi/10.1371/journal.pone.0082706.g004" position="float" xlink:type="simple" orientation="portrait" /></fig>
+<p>Large rivers often serve as raw water sources for municipal potable water production. Acesulfame is also only partially removed by the various processes used in municipal water treatment plants. Of the common treatment methods used, ozonation is the most effective but complete removal of acesulfame is unlikely given ozone concentrations and treatment times typically used in water treatment plants <xref ref-type="bibr" rid="pone.0082706-Scheurer2">[9]</xref>. Acesulfame is therefore the most suitable of the four AS as a tracer of wastewater contamination from source water to end user.</p>
+<p>In addition to receiving the effluent from 30 WWTPs, the Grand River is a source of raw water for drinking water production for major urban centres in the watershed. For example, Brantford takes 100% of its municipal water from the Grand River. Kitchener and Cambridge receive groundwater supplemented by Grand River water via an artificial recharge scheme. In contrast, Waterloo typically receives only groundwater as a municipal water source. Given the high concentrations of AS in the Grand River, especially downstream of the City of Waterloo, it is not surprising that AS were also detected in tap water in these large cities (<xref ref-type="table" rid="pone-0082706-t002">Table 2</xref>). Brantford had the highest concentrations of AS of the cities sampled, including high concentrations of more easily degraded saccharin. Brantford’s water treatment system consists of screening, coagulation, sand ballasted flocculation, sedimentation, ozonation, biological filtration, UV disinfection, chlorination and chloramination <xref ref-type="bibr" rid="pone.0082706-TheCorporationoftheCityof1">[17]</xref>.</p>
+<table-wrap id="pone-0082706-t002" position="float" orientation="portrait"><object-id pub-id-type="doi">10.1371/journal.pone.0082706.t002</object-id><label>Table 2</label><caption>
+<title>Concentration of artificial sweeteners in municipal water collected from household taps.</title>
+</caption><alternatives><graphic id="pone-0082706-t002-2" position="float" mimetype="image" xlink:href="info:doi/10.1371/journal.pone.0082706.t002" xlink:type="simple" orientation="portrait" />
+<table><colgroup span="1"><col align="left" span="1" /><col align="center" span="1" /><col align="center" span="1" /><col align="center" span="1" /><col align="center" span="1" /></colgroup>
+<thead>
+<tr>
+<td align="left" rowspan="1" colspan="1" />
+<td align="left" rowspan="1" colspan="1" />
+<td colspan="3" align="left" rowspan="1">Concentration (µg/L)</td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1">Water Source</td>
+<td align="left" rowspan="1" colspan="1">n</td>
+<td align="left" rowspan="1" colspan="1">acesulfame</td>
+<td align="left" rowspan="1" colspan="1">saccharin</td>
+<td align="left" rowspan="1" colspan="1">cyclamate</td>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left" rowspan="1" colspan="1">Brantford: river water</td>
+<td align="left" rowspan="1" colspan="1">7</td>
+<td align="left" rowspan="1" colspan="1">0.55 – 1.59</td>
+<td align="left" rowspan="1" colspan="1">0.18 – 0.35</td>
+<td align="left" rowspan="1" colspan="1">&lt;mdl (6), 0.24</td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1">Cambridge: groundwater, groundwater from ARS</td>
+<td align="left" rowspan="1" colspan="1">9</td>
+<td align="left" rowspan="1" colspan="1">&lt;mdl (4), &lt;pql (3), 0.04 – 0.39</td>
+<td align="left" rowspan="1" colspan="1">&lt;mdl (7), &lt;pql (2)</td>
+<td align="left" rowspan="1" colspan="1">&lt;mdl (8), 0.01</td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1">Kitchener: groundwater, groundwater from ARS</td>
+<td align="left" rowspan="1" colspan="1">4</td>
+<td align="left" rowspan="1" colspan="1">0.08 – 0.12</td>
+<td align="left" rowspan="1" colspan="1">&lt;pql (3), 0.07</td>
+<td align="left" rowspan="1" colspan="1">&lt;mdl (4)</td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1">Waterloo: groundwater</td>
+<td align="left" rowspan="1" colspan="1">8</td>
+<td align="left" rowspan="1" colspan="1">0.05 – 0.12</td>
+<td align="left" rowspan="1" colspan="1">&lt;mdl (2), &lt;pql (6),</td>
+<td align="left" rowspan="1" colspan="1">&lt;mdl (8)</td>
+</tr>
+</tbody>
+</table>
+</alternatives><table-wrap-foot><fn id="nt106"><label /><p>n  =  total number of samples.</p></fn><fn id="nt107"><label /><p>Brackets indicate the number of each type of result.</p></fn><fn id="nt108"><label /><p>&lt;mdl  =  less than the minimum detection limit.</p></fn><fn id="nt109"><label /><p>&lt;pql  =  below the practical quantification limit.</p></fn><fn id="nt110"><label /><p>ARS  =  artificial recharge scheme.</p></fn></table-wrap-foot></table-wrap>
+<p>Artificial sweeteners in municipal tap water could also result from the presence of groundwater that has been impacted by leaking sewer pipes (e.g. <xref ref-type="bibr" rid="pone.0082706-Wolf1">[8]</xref>) that subsequently enters compromised water supply mains. For areas sourcing their water from groundwater aquifers, septic tile bed plumes are another source of AS <xref ref-type="bibr" rid="pone.0082706-VanStempvoort2">[5]</xref>, <xref ref-type="bibr" rid="pone.0082706-Robertson1">[6]</xref>. The presence of acesulfame in municipal water distribution systems could be a very sensitive way of detecting areas where old or failing infrastructure has compromised the integrity of the sewer and water systems.</p>
+<p>Although concentrations of AS in the Grand River are small compared to the products they are derived from (e.g. diet drinks), mass fluxes of these compounds to Lake Erie via the Grand River are substantial. The mass of acesulfame flowing past site 20 ranged from 2.9 to 6.7 kg/day (<xref ref-type="fig" rid="pone-0082706-g004">Fig. 4</xref>) or 4 to 10 mg/person/day, similar to the WWTP effluent loading of acesulfame in the region of Zurich, Switzerland (11±4.2 mg/person/day <xref ref-type="bibr" rid="pone.0082706-Buerge1">[2]</xref>). Calorie reduced beverages (mainly carbonated soft drinks) constitute a major contributor to the human dietary intake of AS, including acesulfame <xref ref-type="bibr" rid="pone.0082706-Ferrer1">[13]</xref>. Given a mean acesulfame concentration of about 100 mg/L in these beverages <xref ref-type="bibr" rid="pone.0082706-Leclercq1">[18]</xref>–<xref ref-type="bibr" rid="pone.0082706-Huvaere1">[21]</xref>, this mass flux equates to the equivalent amount of acesulfame in 81,850 to 188,650 355mL-cans of soda pop flowing past site 20 each day or 0.12 to 0.28 cans of soda pop per person.</p>
+<p>Although some studies of the effects of sucralose on aquatic biota have been done <xref ref-type="bibr" rid="pone.0082706-Hjorth1">[22]</xref>–<xref ref-type="bibr" rid="pone.0082706-Wiklund1">[26]</xref>, the ecological effects of AS on aquatic organisms are largely unknown. Furthermore, even less is known about the chemical breakdown products of AS in the aquatic environment or their toxicity. We demonstrate here that aquatic organisms likely experience long-term exposure to significant concentrations of AS downstream of urban centres that discharge WWTP effluents. Furthermore, impacts are not confined to the immediate reach below WWTPs but persist for hundreds of kilometers. In systems where both animal manure and human sewage are potential sources of contamination, presence or absence of acesulfame is a powerful geochemical tool to distinguish between these two sources. As we are not aware of acesulfame currently being used in animal feed, the presence of acesulfame indicates an anthropogenic wastewater source. Our finding that acesulfame loading reflects the human population in the Grand River Watershed, coupled with the fact that human sources are concentrated in the center of the watershed whereas large livestock operations are distributed throughout the watershed, supports the use of acesulfame to separate animal and human waste sources. In contrast, saccharin is used in animal feed <xref ref-type="bibr" rid="pone.0082706-Buerge2">[27]</xref>, primarily for pigs. Therefore, in the absence of acesulfame, saccharin in groundwater or surface water could indicate a nearby animal manure source, likely of porcine origin. Since cyclamate and saccharin are largely degraded in WWTPs or by natural processes in groundwater and surface water, presence of these compounds at high concentrations signifies recent contamination by under-treated sewage or a proximal source. Thus the combination of different AS can also be used to trace and differentiate human and animal waste sources.</p>
+<p>At the larger scale, Lake Erie receives discharge from numerous rivers like the Grand River from both Canada and the United States. Given that AS have been in use for many decades and both use of AS and population have been increasing, AS concentrations in the Great Lakes, including Lake Erie, are likely increasing. Acesulfame could be used as a tracer of wastewater impact at the scale of the Great Lakes, especially in the nearshore environment.</p>
+</sec><sec id="s4">
+<title>Conclusions</title>
+<p>Our study demonstrates elevated levels of AS in a large, human-impacted river. The ubiquitous occurrence of acesulfame in wastewater effluents, its high concentration coupled with the high sensitivity of available analytical methods, and its resistance to breakdown in both WWTPs and in groundwater and surface water environments, makes it an ideal tracer of human derived wastewater. Acesulfame will be particularly useful for studying groundwater - surface water interaction, nutrient assimilation and other wastewater constituents including emerging contaminants released to rivers, lakes, and nearshore marine environments. Acesulfame can be used to distinguish and quantify dilution versus attenuation and it circumvents problems of confounding source inputs common with other tracers such as chloride (e.g. road salt, groundwater inputs). Given the persistent nature demonstrated here and solely human source, we expect that acesulfame will become the most reliable detector of wastewater presence, dilution, and transformation in surface and ground waters.</p>
+</sec></body>
+<back>
+<ack>
+<p>We thank Richard Elgood and the dedicated teams of students involved in the Grand River sampling campaigns and the individuals that provided us with domestic tap water samples. The Grand River Conservation Authority provided discharge data for the Grand River. Comments from two anonymous reviewers helped improve a previous version of this manuscript.</p>
+</ack>
+<ref-list>
+<title>References</title>
+<ref id="pone.0082706-BrorstrmLundn1"><label>1</label>
+<mixed-citation publication-type="book" xlink:type="simple">Brorström-Lundén E, Svenson A, Viktor T, Woldegiorgis A, Remberger M, <etal>et al</etal>.. (2008) Measurements of sucralose in the Swedish Screening Program 2007 – PART I; Sucralose in surface waters and STP samples. Report B1769, IVL Swedish Environmental Research Institute Ltd., Stockholm, Sweden. 24 p.</mixed-citation>
+</ref>
+<ref id="pone.0082706-Buerge1"><label>2</label>
+<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Buerge</surname><given-names>IJ</given-names></name>, <name name-style="western"><surname>Buser</surname><given-names>H-R</given-names></name>, <name name-style="western"><surname>Kahle</surname><given-names>M</given-names></name>, <name name-style="western"><surname>Müller</surname><given-names>MD</given-names></name>, <name name-style="western"><surname>Poiger</surname><given-names>T</given-names></name> (<year>2009</year>) <article-title>Ubiquitous occurrence of the artificial sweetener acesulfame in the aquatic environment: an ideal chemical marker of domestic wastewater in groundwater</article-title>. <source>Environ Sci Technol</source> <volume>43(12)</volume>: <fpage>4381</fpage>–<lpage>4385</lpage>.</mixed-citation>
+</ref>
+<ref id="pone.0082706-Scheurer1"><label>3</label>
+<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Scheurer</surname><given-names>M</given-names></name>, <name name-style="western"><surname>Brauch</surname><given-names>H-J</given-names></name>, <name name-style="western"><surname>Lange</surname><given-names>FT</given-names></name> (<year>2009</year>) <article-title>Analysis and occurrence of seven artificial sweeteners in German waste water and surface water and in soil aquifer treatment (SAT)</article-title>. <source>Anal Bioanal Chem</source> <volume>394</volume>: <fpage>1585</fpage>–<lpage>1594</lpage>.</mixed-citation>
+</ref>
+<ref id="pone.0082706-VanStempvoort1"><label>4</label>
+<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Van Stempvoort</surname><given-names>DR</given-names></name>, <name name-style="western"><surname>Roy</surname><given-names>JW</given-names></name>, <name name-style="western"><surname>Brown</surname><given-names>SJ</given-names></name>, <name name-style="western"><surname>Bickerton</surname><given-names>G</given-names></name> (<year>2011</year>) <article-title>Artificial sweeteners as potential tracers in groundwater in urban environments</article-title>. <source>J Hydrol</source> <volume>401(102)</volume>: <fpage>126</fpage>–<lpage>133</lpage>.</mixed-citation>
+</ref>
+<ref id="pone.0082706-VanStempvoort2"><label>5</label>
+<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Van Stempvoort</surname><given-names>DR</given-names></name>, <name name-style="western"><surname>Robertson</surname><given-names>WO</given-names></name>, <name name-style="western"><surname>Brown</surname><given-names>S</given-names></name> (<year>2011</year>) <article-title>Artificial sweeteners in a large septic plume</article-title>. <source>Ground Water Monit R</source> <volume>31(4)</volume>: <fpage>95</fpage>–<lpage>102</lpage>.</mixed-citation>
+</ref>
+<ref id="pone.0082706-Robertson1"><label>6</label>
+<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Robertson</surname><given-names>WD</given-names></name>, <name name-style="western"><surname>Van Stempvoort</surname><given-names>DR</given-names></name>, <name name-style="western"><surname>Solomon</surname><given-names>DK</given-names></name>, <name name-style="western"><surname>Homewood</surname><given-names>J</given-names></name>, <name name-style="western"><surname>Brown</surname><given-names>SJ</given-names></name>, <etal>et al</etal>. (<year>2013</year>) <article-title>Persistence of artificial sweeteners in a 15-year-old septic system plume</article-title>. <source>J Hydrol</source> <volume>477</volume>: <fpage>43</fpage>–<lpage>54</lpage>.</mixed-citation>
+</ref>
+<ref id="pone.0082706-VanStempvoort3"><label>7</label>
+<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Van Stempvoort</surname><given-names>DR</given-names></name>, <name name-style="western"><surname>Roy</surname><given-names>JW</given-names></name>, <name name-style="western"><surname>Grabuski</surname><given-names>J</given-names></name>, <name name-style="western"><surname>Brown</surname><given-names>SJ</given-names></name>, <name name-style="western"><surname>Bickerton</surname><given-names>G</given-names></name>, <etal>et al</etal>. (<year>2013</year>) <article-title>An artificial sweetener and pharmaceutical compounds as co-tracers of urban wastewater in groundwater</article-title>. <source>Sci Total Environ</source> <volume>461–462</volume>: <fpage>348</fpage>–<lpage>359</lpage>.</mixed-citation>
+</ref>
+<ref id="pone.0082706-Wolf1"><label>8</label>
+<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Wolf</surname><given-names>L</given-names></name>, <name name-style="western"><surname>Zwiener</surname><given-names>C</given-names></name>, <name name-style="western"><surname>Zemann</surname><given-names>M</given-names></name> (<year>2012</year>) <article-title>Tracking artificial sweeteners and pharmaceuticals introduced into urban groundwater by leaking sewer networks</article-title>. <source>Sci Total Environ</source> <volume>430</volume>: <fpage>8</fpage>–<lpage>19</lpage>.</mixed-citation>
+</ref>
+<ref id="pone.0082706-Scheurer2"><label>9</label>
+<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Scheurer</surname><given-names>M</given-names></name>, <name name-style="western"><surname>Storck</surname><given-names>FR</given-names></name>, <name name-style="western"><surname>Brauch</surname><given-names>H-J</given-names></name>, <name name-style="western"><surname>Lange</surname><given-names>FT</given-names></name> (<year>2010</year>) <article-title>Performance of conventional multi-barrier drinking water treatment plants for the removal of four artificial sweeteners</article-title>. <source>Water Res</source> <volume>44(12)</volume>: <fpage>3573</fpage>–<lpage>3584</lpage>.</mixed-citation>
+</ref>
+<ref id="pone.0082706-Mawhinney1"><label>10</label>
+<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Mawhinney</surname><given-names>DB</given-names></name>, <name name-style="western"><surname>Young</surname><given-names>RB</given-names></name>, <name name-style="western"><surname>Vanderford</surname><given-names>BJ</given-names></name>, <name name-style="western"><surname>Borch</surname><given-names>T</given-names></name>, <name name-style="western"><surname>Snyder</surname><given-names>SA</given-names></name> (<year>2011</year>) <article-title>Artificial sweetener sucralose in U.S. drinking water systems</article-title>. <source>Environ Sci Technol</source> <volume>45(20)</volume>: <fpage>8716</fpage>–<lpage>8722</lpage>.</mixed-citation>
+</ref>
+<ref id="pone.0082706-Grand1"><label>11</label>
+<mixed-citation publication-type="other" xlink:type="simple">Grand River Conservation Authority (2012) Grand River Conservation Authority Strategic Plan. Available: <ext-link ext-link-type="uri" xlink:href="http://www.grandriver.ca/grca/2012_StratPlan.pdf" xlink:type="simple">http://www.grandriver.ca/grca/2012_StratPlan.pdf</ext-link>. 6 pp. Accessed 2012 Dec 4.</mixed-citation>
+</ref>
+<ref id="pone.0082706-Rosamond1"><label>12</label>
+<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Rosamond</surname><given-names>MS</given-names></name>, <name name-style="western"><surname>Thuss</surname><given-names>SJ</given-names></name>, <name name-style="western"><surname>Schiff</surname><given-names>SL</given-names></name> (<year>2012</year>) <article-title>Dependence of riverine nitrous oxide emissions on dissolved oxygen levels</article-title>. <source>Nat Geosci</source> <volume>5</volume>: <fpage>715</fpage>–<lpage>718</lpage>.</mixed-citation>
+</ref>
+<ref id="pone.0082706-Ferrer1"><label>13</label>
+<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Ferrer</surname><given-names>I</given-names></name>, <name name-style="western"><surname>Thurman</surname><given-names>EM</given-names></name> (<year>2010</year>) <article-title>Analysis of sucralose and other sweeteners in water and beverage samples by liquid chromatography/time-of flight mass spectrometry</article-title>. <source>J Chromatogr A</source> <volume>1217(25)</volume>: <fpage>4127</fpage>–<lpage>4134</lpage>.</mixed-citation>
+</ref>
+<ref id="pone.0082706-Oppenheimer1"><label>14</label>
+<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Oppenheimer</surname><given-names>J</given-names></name>, <name name-style="western"><surname>Eaton</surname><given-names>A</given-names></name>, <name name-style="western"><surname>Badruzzaman</surname><given-names>M</given-names></name>, <name name-style="western"><surname>Haghani</surname><given-names>AW</given-names></name>, <name name-style="western"><surname>Jacangelo</surname><given-names>JG</given-names></name> (<year>2011</year>) <article-title>Occurrence and suitability of sucralose as an indicator compound of wastewater loading to surface waters in urbanized regions</article-title>. <source>Water Res</source> <volume>45(13)</volume>: <fpage>4019</fpage>–<lpage>4027</lpage>.</mixed-citation>
+</ref>
+<ref id="pone.0082706-Labare1"><label>15</label>
+<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Labare</surname><given-names>MP</given-names></name>, <name name-style="western"><surname>Alexander</surname><given-names>M</given-names></name> (<year>1993</year>) <article-title>Biodegradation of sucralose, a chlorinated carbohydrate, in samples of natural environments</article-title>. <source>Environ Chem</source> <volume>12</volume>: <fpage>797</fpage>–<lpage>804</lpage>.</mixed-citation>
+</ref>
+<ref id="pone.0082706-Labare2"><label>16</label>
+<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Labare</surname><given-names>MP</given-names></name>, <name name-style="western"><surname>Alexander</surname><given-names>M</given-names></name> (<year>1994</year>) <article-title>Microbial cometabolism of sucralose, a chlorinated disaccharide, in environmental samples</article-title>. <source>Appl Microbiol Biotechnol</source> <volume>42</volume>: <fpage>173</fpage>–<lpage>178</lpage>.</mixed-citation>
+</ref>
+<ref id="pone.0082706-TheCorporationoftheCityof1"><label>17</label>
+<mixed-citation publication-type="other" xlink:type="simple">The Corporation of the City of Brantford (2013) City of Brantford water system 2012 annual report. Avalable: <ext-link ext-link-type="uri" xlink:href="http://www.brantford.ca/Water%20Quality%20Publications%20%20Documents/Annual%20Report%202012%20-%20including%20Parts%202A,%20Part%203.pdf" xlink:type="simple">http://www.brantford.ca/Water%20Quality%20Publications%20%20Documents/Annual%20Report%202012%20-%20including%20Parts%202A,%20Part%203.pdf</ext-link>. 27 pp. Accessed 2013 Aug 12.</mixed-citation>
+</ref>
+<ref id="pone.0082706-Leclercq1"><label>18</label>
+<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Leclercq</surname><given-names>C</given-names></name>, <name name-style="western"><surname>Berardi</surname><given-names>D</given-names></name>, <name name-style="western"><surname>Sorbillo</surname><given-names>MR</given-names></name>, <name name-style="western"><surname>Lambe</surname><given-names>J</given-names></name> (<year>1999</year>) <article-title>Intake of saccharin, aspartame, acesulfame K and cyclamate in Italian teenagers: present levels and projections</article-title>. <source>Food Addit Contam</source> <volume>16(3)</volume>: <fpage>99</fpage>–<lpage>109</lpage>.</mixed-citation>
+</ref>
+<ref id="pone.0082706-Leth1"><label>19</label>
+<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Leth</surname><given-names>T</given-names></name>, <name name-style="western"><surname>Jensen</surname><given-names>U</given-names></name>, <name name-style="western"><surname>Fagt</surname><given-names>S</given-names></name>, <name name-style="western"><surname>Andersen</surname><given-names>R</given-names></name> (<year>2008</year>) <article-title>Estimated intake of intense sweeteners from non-alcoholic beverages in Denmark, 2005</article-title>. <source>Food Addit Contam</source> <volume>25</volume>: <fpage>662</fpage>–<lpage>668</lpage>.</mixed-citation>
+</ref>
+<ref id="pone.0082706-Lino1"><label>20</label>
+<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Lino</surname><given-names>CM</given-names></name>, <name name-style="western"><surname>Costa</surname><given-names>IM</given-names></name>, <name name-style="western"><surname>Pena</surname><given-names>A</given-names></name>, <name name-style="western"><surname>Ferreira</surname><given-names>R</given-names></name>, <name name-style="western"><surname>Cardoso</surname><given-names>SM</given-names></name> (<year>2008</year>) <article-title>Estimated intake of the sweeteners, acesulfame-K and aspartame, from soft drinks, soft drinks based on mineral waters and nectars for a group of Portuguese teenage students</article-title>. <source>Food Addit Contam</source> <volume>25(11)</volume>: <fpage>1291</fpage>–<lpage>1296</lpage>.</mixed-citation>
+</ref>
+<ref id="pone.0082706-Huvaere1"><label>21</label>
+<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Huvaere</surname><given-names>K</given-names></name>, <name name-style="western"><surname>Vandevijvere</surname><given-names>S</given-names></name>, <name name-style="western"><surname>Hasni</surname><given-names>M</given-names></name>, <name name-style="western"><surname>Vinkx</surname><given-names>C</given-names></name>, <name name-style="western"><surname>Van Loco</surname><given-names>J</given-names></name> (<year>2012</year>) <article-title>Dietary intake of artificial sweeteners by the Belgian population</article-title>. <source>Food Addit Contam</source> <volume>29(1)</volume>: <fpage>54</fpage>–<lpage>65</lpage>.</mixed-citation>
+</ref>
+<ref id="pone.0082706-Hjorth1"><label>22</label>
+<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Hjorth</surname><given-names>M</given-names></name>, <name name-style="western"><surname>Hansen</surname><given-names>JH</given-names></name>, <name name-style="western"><surname>Camus</surname><given-names>L</given-names></name> (<year>2011</year>) <article-title>Short-term effects of sucralose on <italic>Calanus finmarchicus</italic> and <italic>Calanus glacialis</italic> in Disko Bay, Greenland</article-title>. <source>Chem Ecol</source> <volume>26</volume>: <fpage>385</fpage>–<lpage>393</lpage>.</mixed-citation>
+</ref>
+<ref id="pone.0082706-Huggett1"><label>23</label>
+<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Huggett</surname><given-names>DB</given-names></name>, <name name-style="western"><surname>Stoddard</surname><given-names>KI</given-names></name> (<year>2011</year>) <article-title>Effects of the artificial sweetener sucralose on <italic>Daphnia magna</italic> and <italic>Americamysis bahia</italic> survival, growth and reproduction</article-title>. <source>Food Chem Toxicol</source> <volume>49</volume>: <fpage>2575</fpage>–<lpage>2579</lpage>.</mixed-citation>
+</ref>
+<ref id="pone.0082706-Lillicrap1"><label>24</label>
+<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Lillicrap</surname><given-names>A</given-names></name>, <name name-style="western"><surname>Langford</surname><given-names>K</given-names></name>, <name name-style="western"><surname>Tollefsen</surname><given-names>KE</given-names></name> (<year>2011</year>) <article-title>Bioconcentration of the intense sweetener sucralose in a multitrophic battery of aquatic organisms</article-title>. <source>Environ Toxicol Chem</source> <volume>30</volume>: <fpage>673</fpage>–<lpage>681</lpage>.</mixed-citation>
+</ref>
+<ref id="pone.0082706-Soh1"><label>25</label>
+<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Soh</surname><given-names>L</given-names></name>, <name name-style="western"><surname>Connors</surname><given-names>KA</given-names></name>, <name name-style="western"><surname>Brooks</surname><given-names>BW</given-names></name>, <name name-style="western"><surname>Zimmerman</surname><given-names>J</given-names></name> (<year>2011</year>) <article-title>Fate of sucralose through environmental and water treatment processes and impact on plant indicator species</article-title>. <source>Environ Sci Technol</source> <volume>45(4)</volume>: <fpage>1363</fpage>–<lpage>1369</lpage>.</mixed-citation>
+</ref>
+<ref id="pone.0082706-Wiklund1"><label>26</label>
+<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Wiklund</surname><given-names>A-KE</given-names></name>, <name name-style="western"><surname>Breitholtz</surname><given-names>M</given-names></name>, <name name-style="western"><surname>Bengtsson</surname><given-names>B-E</given-names></name>, <name name-style="western"><surname>Adolfsson-Erici</surname><given-names>M</given-names></name> (<year>2012</year>) <article-title>Sucralose - An ecotoxicological challenger?</article-title> <source>Chemosphere</source> <volume>86</volume>: <fpage>50</fpage>–<lpage>55</lpage>.</mixed-citation>
+</ref>
+<ref id="pone.0082706-Buerge2"><label>27</label>
+<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Buerge</surname><given-names>IJ</given-names></name>, <name name-style="western"><surname>Keller</surname><given-names>M</given-names></name>, <name name-style="western"><surname>Buser</surname><given-names>H-R</given-names></name>, <name name-style="western"><surname>Müller</surname><given-names>MD</given-names></name>, <name name-style="western"><surname>Poiger</surname><given-names>T</given-names></name> (<year>2011</year>) <article-title>Saccharin and other artificial sweeteners in soils: estimated inputs from agriculture and households, degradation, and leaching to groundwater</article-title>. <source>Environ Sci Technol</source> <volume>45(2)</volume>: <fpage>615</fpage>–<lpage>621</lpage>.</mixed-citation>
+</ref>
+<ref id="pone.0082706-Loos1"><label>28</label>
+<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Loos</surname><given-names>R</given-names></name>, <name name-style="western"><surname>Gawlik</surname><given-names>BM</given-names></name>, <name name-style="western"><surname>Boettcher</surname><given-names>K</given-names></name>, <name name-style="western"><surname>Locoro</surname><given-names>G</given-names></name>, <name name-style="western"><surname>Contini</surname><given-names>S</given-names></name>, <etal>et al</etal>. (<year>2009</year>) <article-title>Sucralose screening in European surface waters using a solid-phase extraction-liquid chromatography-triple quadrupole mass spectrometry method</article-title>. <source>J Chromatogr A</source> <volume>1216(7)</volume>: <fpage>1126</fpage>–<lpage>1131</lpage>.</mixed-citation>
+</ref>
+<ref id="pone.0082706-Engelhardt1"><label>29</label>
+<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Engelhardt</surname><given-names>I</given-names></name>, <name name-style="western"><surname>Piepenbrink</surname><given-names>M</given-names></name>, <name name-style="western"><surname>Trauth</surname><given-names>N</given-names></name>, <name name-style="western"><surname>Stadler</surname><given-names>S</given-names></name>, <name name-style="western"><surname>Kludt</surname><given-names>C</given-names></name>, <etal>et al</etal>. (<year>2011</year>) <article-title>Comparison of tracer methods to quantify hydrodynamic exchange within the hyporheic zone</article-title>. <source>J Hydrol</source> <volume>400</volume>: <fpage>255</fpage>–<lpage>266</lpage>.</mixed-citation>
+</ref>
+<ref id="pone.0082706-Minten1"><label>30</label>
+<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Minten</surname><given-names>J</given-names></name>, <name name-style="western"><surname>Adolfsson-Erici</surname><given-names>M</given-names></name>, <name name-style="western"><surname>Bjorlenius</surname><given-names>B</given-names></name>, <name name-style="western"><surname>Alsberg</surname><given-names>T</given-names></name> (<year>2011</year>) <article-title>A method for the analysis of sucralose with electrospray LC/MS in recipient waters and in sewage effluent subjected to tertiary treatment technologies</article-title>. <source>Int J Environ Anal Chem</source> <volume>91</volume>: <fpage>357</fpage>–<lpage>366</lpage>.</mixed-citation>
+</ref>
+<ref id="pone.0082706-Mller1"><label>31</label>
+<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Müller</surname><given-names>CE</given-names></name>, <name name-style="western"><surname>Gerecke</surname><given-names>AC</given-names></name>, <name name-style="western"><surname>Alder</surname><given-names>AC</given-names></name>, <name name-style="western"><surname>Scheringer</surname><given-names>M</given-names></name>, <name name-style="western"><surname>Hungerbühler</surname><given-names>K</given-names></name> (<year>2011</year>) <article-title>Identification of perfluoroalkyl acid sources in Swiss surface waters with the help of the artificial sweetener acesulfame</article-title>. <source>Environ Pollut</source> <volume>159</volume>: <fpage>1419</fpage>–<lpage>1426</lpage>.</mixed-citation>
+</ref>
+</ref-list></back>
+</article>

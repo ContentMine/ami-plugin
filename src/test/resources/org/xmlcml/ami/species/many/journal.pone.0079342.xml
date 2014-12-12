@@ -1,0 +1,595 @@
+<article xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" article-type="research-article" dtd-version="3.0" xml:lang="en">
+	<front>
+		<journal-meta>
+    <journal-id journal-id-type="nlm-ta">PLoS ONE</journal-id>
+    <journal-id journal-id-type="publisher-id">plos</journal-id>
+    <journal-id journal-id-type="pmc">plosone</journal-id>
+    <journal-title-group><journal-title xml:lang="en">PLoS ONE</journal-title></journal-title-group>
+    <issn pub-type="epub">1932-6203</issn>
+    <publisher><publisher-name>Public Library of Science</publisher-name>
+    <publisher-loc>San Francisco, USA</publisher-loc></publisher>
+    </journal-meta><article-meta>
+			<article-id pub-id-type="publisher-id">PONE-D-13-29313</article-id><article-id pub-id-type="doi">10.1371/journal.pone.0079342</article-id><article-categories><subj-group subj-group-type="heading">
+    <subject>Research Article</subject></subj-group></article-categories><title-group>
+				<article-title>Energy Expenditure during Sexual Activity in Young Healthy Couples</article-title>
+			<alt-title alt-title-type="running-head">Energy Expenditure and Sexual Activity</alt-title>
+      </title-group>
+			<contrib-group>
+				<contrib xlink:type="simple" contrib-type="author">
+					<name name-style="western">
+						<surname>Frappier</surname>
+						<given-names>Julie</given-names>
+					</name>
+					<xref ref-type="aff" rid="aff1"><sup>1</sup></xref>
+				</contrib>
+				<contrib xlink:type="simple" contrib-type="author">
+					<name name-style="western">
+						<surname>Toupin</surname>
+						<given-names>Isabelle</given-names>
+					</name>
+					<xref ref-type="aff" rid="aff3"><sup>3</sup></xref>
+				</contrib>
+				<contrib xlink:type="simple" contrib-type="author">
+					<name name-style="western">
+						<surname>Levy</surname>
+						<given-names>Joseph J.</given-names>
+					</name>
+					<xref ref-type="aff" rid="aff2"><sup>2</sup></xref>
+				</contrib>
+				<contrib xlink:type="simple" contrib-type="author">
+					<name name-style="western">
+						<surname>Aubertin-Leheudre</surname>
+						<given-names>Mylene</given-names>
+					</name>
+					<xref ref-type="aff" rid="aff1"><sup>1</sup></xref>
+				</contrib>
+				<contrib xlink:type="simple" contrib-type="author">
+					<name name-style="western">
+						<surname>Karelis</surname>
+						<given-names>Antony D.</given-names>
+					</name>
+					<xref ref-type="aff" rid="aff1"><sup>1</sup></xref>
+					<xref ref-type="corresp" rid="cor1"><sup>*</sup></xref>
+				</contrib>
+			</contrib-group>
+			<aff id="aff1"><label>1</label> <addr-line>Department of Kinanthropology, Université du Québec à Montréal, Montreal, Quebec, Canada</addr-line></aff>
+			<aff id="aff2"><label>2</label> <addr-line>Department of Sexology, Université du Québec à Montréal, Montreal, Quebec, Canada</addr-line></aff>
+			<aff id="aff3"><label>3</label> <addr-line>School of Public Health, Université de Montréal, Montreal, Quebec, Canada</addr-line></aff>
+			<contrib-group><contrib contrib-type="editor" xlink:type="simple">
+          <name name-style="western">
+            <surname>Earnest</surname>
+            <given-names>Conrad P.</given-names>
+          </name>
+          <role>Editor</role>
+          <xref ref-type="aff" rid="edit1" />
+        </contrib>
+        </contrib-group><aff id="edit1"><addr-line>University of Bath, United Kingdom</addr-line></aff><author-notes>
+				<corresp id="cor1">* E-mail: <email xlink:type="simple">karelis.antony@uqam.ca</email></corresp>
+			<fn fn-type="conflict"><p>The authors have declared that no competing interests exist</p></fn><fn fn-type="con"><p>Conceived and designed the experiments: ADK MA JJL IT. Performed the experiments: JF IT. Analyzed the data: JF ADK JJL MA. Contributed reagents/materials/analysis tools: JF. Wrote the manuscript: JF IT JJL MA ADK. None. </p></fn></author-notes>
+			<pub-date pub-type="collection"><year>2013</year></pub-date><pub-date pub-type="epub">
+        <day>24</day>
+        <month>10</month>
+        <year>2013</year>
+      </pub-date>
+      <volume>8</volume><issue>10</issue><elocation-id>e79342</elocation-id><history><date date-type="received">
+          <day>16</day>
+          <month>7</month>
+          <year>2013</year>
+        </date>
+        <date date-type="accepted">
+          <day>29</day>
+          <month>9</month>
+          <year>2013</year>
+        </date>
+      </history><permissions>
+    <copyright-year>2013</copyright-year><copyright-holder>Frappier et al</copyright-holder><license xlink:type="simple"><license-p>This is an open-access article distributed under the terms of the Creative Commons Attribution License, which permits unrestricted use, distribution, and reproduction in any medium, provided the original author and source are credited.</license-p></license>
+    </permissions><abstract>
+				<sec sec-type="headed">
+					<title>Objective</title><p>To determine energy expenditure in kilocalories (kcal) during sexual activity in young healthy couples in their natural environment and compare it to a session of endurance exercise.</p>
+				</sec>
+				<sec sec-type="headed">
+					<title>Methods</title><p>The study population consisted of twenty one heterosexual couples (age: 22.6 ± 2.8 years old) from the Montreal region. Free living energy expenditure during sexual activity and the endurance exercise was measured using the portable mini SenseWear armband. Perceived energy expenditure, perception of effort, fatigue and pleasure were also assessed after sexual activity. All participants completed a 30 min endurance exercise session on a treadmill at a moderate intensity.</p>
+				</sec>
+				<sec sec-type="headed">
+					<title>Results</title><p>Mean energy expenditure during sexual activity was 101 kCal or 4.2 kCal/min in men and 69.1 kCal or 3.1 kCal/min in women. In addition, mean intensity was 6.0 METS in men and 5.6 METS in women, which represents a moderate intensity. Moreover, the energy expenditure and intensity during the 30 min exercise session in men was 276 kCal or 9.2 kCal/min and 8.5 METS, respectively and in women 213 kCal or 7.1 kCal/min and 8.4 METS, respectively. Interestingly, the highest range value achieved by men for absolute energy expenditure can potentially be higher than that of the mean energy expenditure of the 30 min exercise session (i.e. 306.1 vs. 276 kCal, respectively) whereas this was not observed in women. Finally, perceived energy expenditure during sexual activity was similar in men (100 kCal) and in women (76.2 kCal) when compared to measured energy expenditure.</p>
+					
+				</sec>
+				<sec sec-type="headed">
+					<title>Conclusion</title><p>The present study indicates that energy expenditure during sexual activity appears to be approximately 85 kCal or 3.6 kCal/min and seems to be performed at a moderate intensity (5.8 METS) in young healthy men and women. These results suggest that sexual activity may potentially be considered, at times, as a significant exercise.</p>
+					
+				</sec>
+			</abstract>
+		<funding-group><funding-statement>This study was supported by grants from The Foundation for the Scientific Study of Sexuality and l’Institut Santé et société of the Université du Québec à Montréal. The funders had no role in study
+design, data collection and analysis, decision to publish, or preparation of the manuscript.</funding-statement></funding-group></article-meta>
+	</front>
+	<body>
+		<sec id="s1" sec-type="introduction">
+			<title>Introduction</title>
+			<p>Health professionals are starting to recognize that sexual activity in humans could be an important aspect on their overall health and quality of life since this activity is practiced regularly by most individuals throughout their lifetime [<xref ref-type="bibr" rid="B1">1</xref>-<xref ref-type="bibr" rid="B6">6</xref>]. However, due to the intimate and sensitive nature of sexuality, few studies have investigated if sexual activity could be considered as an exercise which involves a significant amount of energy expenditure [<xref ref-type="bibr" rid="B7">7</xref>-<xref ref-type="bibr" rid="B14">14</xref>]. For example, in 1966, Masters and Johnson [<xref ref-type="bibr" rid="B12">12</xref>] were one of the first authors to examine the physiological responses of sexual activity albeit in a laboratory setting. The authors reported 11 years of observational studies that involved 382 female volunteers, 18 to 78 years of age, and 312 male volunteers, 21 to 89 years of age. The authors observed a progressive increase in respiratory rates as high as 40 respirations per minute, an increase in heart rate as high as 110 to 180 beats/min and an increase in systolic blood pressure from 30 to 80 mm Hg during sexual activity. In 1970, Hellerstein and Friedman [<xref ref-type="bibr" rid="B9">9</xref>] investigated sexual activity in middle-aged men (mean age 47.5 years) with their wives using 24-hour ambulatory electrocardiogram (ECG) monitors. The mean heart rate at the time of orgasm was 117.4 beats per minute with a range of 90 to 144 beats per minute. Of particular interest was their finding on peak coital heart rate, which was usually lower than the heart rates achieved with normal daily activities (mean of 120.1 beats per minute). In 1984, Bohlen et al. [<xref ref-type="bibr" rid="B8">8</xref>] studied 10 married couples in a laboratory setting using ECG, oxygen consumption (measured using a fast responding polarographic O<sub>2</sub> gas analyzer), heart rate and blood pressure monitoring before and during 4 types of sexual activity: self-stimulation, partner stimulation, man-on-top and woman-on-top coitus. Results from men aged 25 to 43 years old showed that sexual activity with their partners had minimal effect on heart rate, oxygen consumption and blood pressure during foreplay and stimulation (sexual activity before the onset of orgasm). That is, self-stimulation increased heart rate by 37 % from baseline to orgasm compared with a 51 % increase with man-on-top coitus. Not surprisingly, orgasm was associated with maximal increases in all three of these parameters. The highest intensity was associated with coitus, especially the man-on-top position, where 3 to 4 METS were exerted. In 2007, Palmeri et al. [<xref ref-type="bibr" rid="B14">14</xref>] reported that in 19 men and 13 women aged 40-75 years old, the intensity of sexual activity was comparable to stage II of the standard multistage Bruce protocol (moderate intensity) on a treadmill for men and stage I (low intensity) for women. In addition, maximal heart rate and blood pressure during sexual activity was approximately 75 % of that attained during maximum treadmill stress testing of the Bruce protocol. Collectively, based on these above studies, the physiological responses of sexual activity seem to be at a moderate intensity. </p>
+			<p>It should be noted that all of the above studies that were conducted were limited to simple techniques such as heart rate and blood pressure for the determination of intensity during sexual activity. It is also important to indicate that sexual activity is a non-steady-state activity. Thus, the heart rate-blood pressure relationship may not remain linear during sexual activity, suggesting that these physiological parameters might not be primary indicators for the measurement of energy expenditure and/or intensity for this type of activity. In addition, these studies had important environmental and methodological limitations. That is, the experiments, in general, were performed in the laboratory rather than in the couple’s usual and natural environment (i.e. home). Moreover, the equipment that was used to measure exertion in these studies could have affected the ability to perform a sexual activity (i.e. mask placed on the mouth for the measurement of oxygen consumption as well as electrodes, cuffs and cables placed on the body during sexual intercourse). Taken together, performing these studies in the laboratory setting and the potential interferences due to the equipment used, minimize the chances to re-enact the normal intimacy observed in real-life conditions. Furthermore, most of the framework of knowledge of the physiological responses during sexual activity was gathered in studies that were conducted more than a quarter of a century ago. Thus, the conclusions that were made in these older studies may not be as representative in our modern times due to the wider acceptance of sexuality in today’s society. Also, the previous studies used couples that had a wide range of age and did not report the differences between ages from both individuals in the couple, which could be a confounding factor (younger vs. older individuals). Finally, no study, to our knowledge, has investigated the amount of energy expenditure in kilocalories (kcal) during sexual activity and has compared this energy expenditure, using the same subjects, to a regular exercise which could provide valuable clinical information to health professionals. There is even a myth which suggests that energy expenditure during sexual activity is between 100 to 300 kcal per session for each individual involved [<xref ref-type="bibr" rid="B15">15</xref>]. However, no scientific data has documented this claim. Collectively, new timely studies on energy expenditure and sexual activity in a natural environment without any methodological interference are needed in order have more conclusive findings. Therefore, the purpose of the present study was to determine energy expenditure in kilocalories as a primary outcome and intensity (METS) as a secondary outcome using a simple, non-obstructive and accurate method for the measurement of energy expenditure (SenseWear armband) during sexual activity in young healthy couples and compare it to a session of endurance exercise. This objective will provide us with new insights on the potential role of sexual activity as a physical exercise. In addition, as a tertiary outcome, we investigated the perception of energy expenditure, fatigue, effort, pleasure and appreciation of the couples after sexual activity using a questionnaire. Our primary goal was not to examine the physiological responses (i.e. heart rate and blood pressure) of sexual activity <italic>per se</italic> but to get a better understanding of the energy expenditure in kilocalories, which is a unit that is more commonly used today by health professionals and the general public for health purposes.  </p>
+		</sec>
+		<sec id="s2" sec-type="methods">
+			<title>Methods</title>
+			<sec id="s2.1">
+				<title>Participants</title>
+				<p>Twenty one heterosexual couples from the Montreal region were recruited between September 2012 to April 2013 for this study. Volunteers were recruited from the Université du Québec à Montreal and from the Montreal population. To be included in the study, participants had to meet the following criteria: 1) aged between 18-35 years old, 2) born in the province of Quebec and francophone, 3) Caucasian, 4) non-sedentary (&gt;2 hours a week of structured exercise), 5) no sexual dysfunctions, 6) be sexually active (at least one sexual activity per week), 7) in a loving, monogamous and stable relationship with their partner for a duration between 6 and 24 months, and 8) the use of oral contraception for women. In addition, all participants reported no cardiovascular diseases, diabetes or any orthopaedic limitations. Body weight was measured using an electronic scale (Balance Industrielles, Montreal, Canada) and standing height was measured using a wall stadiometer (Perspective Enterprises, Michigan, USA). Body mass index [BMI = body weight/Height (m<sup>2</sup>)] was calculated. All procedures were approved by the Ethics Committee of the Université du Québec à Montréal. Participants were fully informed about the nature, goal, procedures and risks of the study, and gave their informed consent in writing. </p>
+			</sec>
+			<sec id="s2.2">
+				<title>Endurance Exercise Session</title>
+				<p>All participants completed one endurance exercise session at the start of the study which consisted of a 5 min warm-up (walking) followed by 30 minutes of exercise on a treadmill (0 % grade) at ~65 % of maximal heart rate, which represents a moderate intensity and ended with a 5 min cool down. The modalities of the endurance exercise session were based on the recommendations of the American College of Sports Medicine and the American Heart Association which recommends 30 min of exercise at a moderate intensity 5 times a week to the general population [<xref ref-type="bibr" rid="B16">16</xref>]. Our goal was to choose a form of exercise that could be regularly practised by the general population and to be used as a control.</p>
+			</sec>
+			<sec id="s2.3">
+				<title>Sexual Activity</title>
+				<p>In the present study, sexual activity was defined as the onset of foreplay, intercourse and at least one orgasm by either the man or woman and ended at the couple’s discretion. During a one month period, couples were instructed to perform one sexual activity per week in their homes. Thus, all couples had performed a total of 4 sexual activities. The couples were instructed to perform their usual sexual activities and not to use any drugs, alcohol or medication for erectile dysfunction (i.e. Viagra) before the sexual activity as well as not to perform any paraphilic sexual activities. </p>
+			</sec>
+			<sec id="s2.4">
+				<title>Questionnaire</title>
+				<p>All participants completed a questionnaire after each sexual activity. The following seven questions were asked: 1) How would you compare your effort between sexual activity and that of the exercise performed on the treadmill? 2) What was your perception of fatigue after sexual activity? 3) What was your perception of energy expended after sexual activity? 4) What was your personal perception of pleasure after sexual activity? 5) What was your partner’s perception of pleasure after sexual activity? 6) What was your appreciation of the sexual activity in comparison to that of the exercise performed on the treadmill? and 7) How many Calories did you think you burned during sexual activity? The participants had a choice of three categories (i.e. low, medium or high) to choose from for the first six questions. As for the seventh question, participants were asked to write down a number. The couples were instructed not to share or discuss their information with each other. In the present study, we presume that the perception of sexual activity is unique for each participant. Thus, the aim of these questions was to explore in detail how participants are making sense of their personal experiences. </p>
+			</sec>
+			<sec id="s2.5">
+				<title>Measure of Energy Expenditure</title>
+				<p>Free living energy expenditure during sexual activity and the endurance exercise session was measured using the portable mini SenseWear armband (Bodymedia, Pittsburgh, PA). The portable armband uses a 3-axis accelerometer, a heat flux sensor, a galvanic skin response sensor, a skin temperature sensor, and a near-body ambient temperature sensor to capture data. These data as well as body weight, height, handedness and smoking status (smoker or non-smoker) are used to calculate energy expenditure. The armband was placed on the upper left arm (on the triceps at the mid-humerus point) of each volunteer. The net output is a measure of energy expenditure (kcal) and intensity (METS) utilized by the participant across time. Data analysis for energy expenditure and intensity were available minute by minute (SenseWear professional software 7.0). This method of energy expenditure measurement has been validated by several studies and is known to be 92 % accurate compared to the gold standard method of doubly labeled water [<xref ref-type="bibr" rid="B17">17</xref>-<xref ref-type="bibr" rid="B24">24</xref>]. In addition, a test–retest reliability trial (n = 34) for energy expenditure performed in our laboratory showed an intra-class correlation coefficient of 0.97 [<xref ref-type="bibr" rid="B25">25</xref>]. It should be noted that mean energy expenditure and intensity were measured during the four different sessions of sexual activity. Couples were instructed to wear the armbands right before the start of the sexual activity and take it off at the end of their sexual encounter.</p>
+			</sec>
+			<sec id="s2.6">
+				<title>Statistical Methods</title>
+				<p>Results are presented as means ± SD. Normality was verified using the Kurtosis-test. To address our primary and secondary outcomes, paired t-tests were used to identify differences in energy expenditure and intensity between sexual activity and the 30 minute exercise session in both men and women. Moreover, a repeated measures ANOVA using the post-hoc assessment of LSD was used to detect differences in energy expenditure between all four sessions of sexual activity in both men and women. Furthermore, unpaired t-tests were used to detect differences in age, body mass index, energy expenditure and intensity between men and women. To address our tertiary outcome, 1) paired t-tests were used to identify differences in measured energy expenditure and perceived energy expenditure in both men and women and 2) a Chi-square test was performed to analyze differences in perception of effort, fatigue, appreciation and pleasure in men and women. Statistical analysis was performed using SPSS 20 for Windows (Chicago, IL). Significance was accepted at <italic>p</italic> &lt; 0.05.</p>
+			</sec>
+		</sec>
+		<sec id="s3" sec-type="results">
+			<title>Results</title>
+			<p>Mean duration of the relationship of the couples was 13.4 ± 5.5 months (range: 6-24 months) and the mean duration of the sexual activity was 24.7 ± 12.2 min (range: 10-57 min). BMI, absolute and relative energy expenditure during sexual activity, as well as absolute and relative energy expenditure during treadmill exercise were significantly higher in men compared to women (<xref ref-type="table" rid="pone-0079342-t001">Table 1</xref>). When statistically controlling for BMI, significant differences in absolute and relative energy expenditure during sexual activity between men and women persisted. No differences in age, perceived energy expenditure, intensity during sexual activity and intensity during the treadmill exercise were observed between men and women (<xref ref-type="table" rid="pone-0079342-t001">Table 1</xref>). In addition, no differences in percentage (absolute and relative) of the energy expenditure and intensity during sexual activity compared to that of the treadmill exercise were observed between men and women (<xref ref-type="table" rid="pone-0079342-t001">Table 1</xref>). </p>
+			<table-wrap id="pone-0079342-t001" position="float" orientation="portrait">
+				
+				<object-id pub-id-type="doi">10.1371/journal.pone.0079342.t001</object-id><label>Table 1</label>
+				<caption>
+					<title>Mean energy expenditure and intensity during sexual activity in men and women.</title>
+				</caption>
+				<table>
+					<colgroup span="1"><col span="1" /><col span="1" /><col span="1" /><col span="1" /><col span="1" /><col span="1" /></colgroup>
+					<thead>
+						<tr>
+							<th rowspan="1" colspan="1" />
+							<th rowspan="1" colspan="1"><bold>All Participants (n = 42)</bold></th>
+							<th rowspan="1" colspan="1"><bold>Men  (n = 21)</bold></th>
+							<th rowspan="1" colspan="1"><bold>Range</bold></th>
+							<th rowspan="1" colspan="1"><bold>Women	(n = 21)</bold></th>
+							<th rowspan="1" colspan="1"><bold>Range</bold></th>
+						</tr>
+					</thead>
+					<tbody>
+						<tr>
+							<td rowspan="1" colspan="1">Age (yrs)</td>
+							<td rowspan="1" colspan="1">22.6 ± 2.8</td>
+							<td rowspan="1" colspan="1">22.7 ± 2.7</td>
+							<td rowspan="1" colspan="1">19-30</td>
+							<td rowspan="1" colspan="1">22.4 ± 2.9</td>
+							<td rowspan="1" colspan="1">19-31</td>
+						</tr>
+						<tr>
+							<td rowspan="1" colspan="1">Body mass index (kg/m<sup>2</sup>)</td>
+							<td rowspan="1" colspan="1">22.9 ± 2.8</td>
+							<td rowspan="1" colspan="1">24.2 ± 2.7</td>
+							<td rowspan="1" colspan="1">19.5-31.0</td>
+							<td rowspan="1" colspan="1">21.6 ± 2.3*</td>
+							<td rowspan="1" colspan="1">16.9-26.6</td>
+						</tr>
+						<tr>
+							<td rowspan="1" colspan="1">Duration of relationship (months)</td>
+							<td rowspan="1" colspan="1">13.4 ± 5.5</td>
+							<td rowspan="1" colspan="1" />
+							<td rowspan="1" colspan="1" />
+							<td rowspan="1" colspan="1" />
+							<td rowspan="1" colspan="1" />
+						</tr>
+						<tr>
+							<td rowspan="1" colspan="1">Duration of SA (min)</td>
+							<td rowspan="1" colspan="1">24.7 ± 12.2</td>
+							<td rowspan="1" colspan="1" />
+							<td rowspan="1" colspan="1" />
+							<td rowspan="1" colspan="1" />
+							<td rowspan="1" colspan="1" />
+						</tr>
+						<tr>
+							<td rowspan="1" colspan="1">AEE of SA (kcal)</td>
+							<td rowspan="1" colspan="1">84.8 ± 43.5<sup>a</sup></td>
+							<td rowspan="1" colspan="1">101 ± 52<sup>a</sup></td>
+							<td rowspan="1" colspan="1">13.0-306.1</td>
+							<td rowspan="1" colspan="1">69.1 ± 25.6*<sup>a</sup></td>
+							<td rowspan="1" colspan="1">11.6-164.1</td>
+						</tr>
+						<tr>
+							<td rowspan="1" colspan="1">REE of SA (kcal/min)</td>
+							<td rowspan="1" colspan="1">3.6 ± 1.3<sup>a</sup></td>
+							<td rowspan="1" colspan="1">4.2 ± 1.3<sup>a</sup></td>
+							<td rowspan="1" colspan="1">1.2-7.9</td>
+							<td rowspan="1" colspan="1">3.1 ± 1.0*<sup>a</sup></td>
+							<td rowspan="1" colspan="1">1.2-8.4</td>
+						</tr>
+						<tr>
+							<td rowspan="1" colspan="1">Intensity of SA (METS)</td>
+							<td rowspan="1" colspan="1">5.8 ± 1.3<sup>a</sup></td>
+							<td rowspan="1" colspan="1">6.0 ± 1.3<sup>a</sup></td>
+							<td rowspan="1" colspan="1">1.4-9.2</td>
+							<td rowspan="1" colspan="1">5.6 ± 1.2<sup>a</sup></td>
+							<td rowspan="1" colspan="1">1.3-9.6</td>
+						</tr>
+						<tr>
+							<td rowspan="1" colspan="1">PEE of SA (kcal)</td>
+							<td rowspan="1" colspan="1">87.4 ± 54.2</td>
+							<td rowspan="1" colspan="1">100 ± 63</td>
+							<td rowspan="1" colspan="1">15.0-300</td>
+							<td rowspan="1" colspan="1">76.2 ± 43.3</td>
+							<td rowspan="1" colspan="1">5.0-250</td>
+						</tr>
+						<tr>
+							<td rowspan="1" colspan="1">AEE of treadmill (kcal)</td>
+							<td rowspan="1" colspan="1">245 ± 73</td>
+							<td rowspan="1" colspan="1">276 ± 68</td>
+							<td rowspan="1" colspan="1">149-390</td>
+							<td rowspan="1" colspan="1">213 ± 64.3*</td>
+							<td rowspan="1" colspan="1">120-381</td>
+						</tr>
+						<tr>
+							<td rowspan="1" colspan="1">REE of treadmill (kcal/min)</td>
+							<td rowspan="1" colspan="1">8.2 ± 2.4</td>
+							<td rowspan="1" colspan="1">9.2 ± 2.3</td>
+							<td rowspan="1" colspan="1">5.0-13.0</td>
+							<td rowspan="1" colspan="1">7.1 ± 2.2*</td>
+							<td rowspan="1" colspan="1">4.0-12.7</td>
+						</tr>
+						<tr>
+							<td rowspan="1" colspan="1">Intensity of treadmill (METS)</td>
+							<td rowspan="1" colspan="1">8.4 ± 1.6</td>
+							<td rowspan="1" colspan="1">8.5 ± 1.5</td>
+							<td rowspan="1" colspan="1">5.7-10.6</td>
+							<td rowspan="1" colspan="1">8.4 ± 1.8</td>
+							<td rowspan="1" colspan="1">5.2-10.8</td>
+						</tr>
+						<tr>
+							<td rowspan="1" colspan="1">AEE SA vs. AEE of treadmill (%)</td>
+							<td rowspan="1" colspan="1">37.8 ± 19.9</td>
+							<td rowspan="1" colspan="1">31.6 ± 11.9</td>
+							<td rowspan="1" colspan="1">17.2-58.2</td>
+							<td rowspan="1" colspan="1">44.0 ± 24.2</td>
+							<td rowspan="1" colspan="1">12.9-98.5</td>
+						</tr>
+						<tr>
+							<td rowspan="1" colspan="1">REE SA vs. REE of treadmill (%)</td>
+							<td rowspan="1" colspan="1">46.7 ± 16.9</td>
+							<td rowspan="1" colspan="1">47.5 ± 17.5</td>
+							<td rowspan="1" colspan="1">22.6-87.7</td>
+							<td rowspan="1" colspan="1">46.0 ± 16.6</td>
+							<td rowspan="1" colspan="1">16.7-81.9</td>
+						</tr>
+						<tr>
+							<td rowspan="1" colspan="1">Intensity SA vs. intensity treadmill (%)</td>
+							<td rowspan="1" colspan="1">71.0 ± 20.6</td>
+							<td rowspan="1" colspan="1">73.0 ± 20.1</td>
+							<td rowspan="1" colspan="1">37.6-114</td>
+							<td rowspan="1" colspan="1">69.0 ± 21.4</td>
+							<td rowspan="1" colspan="1">27.4-102</td>
+						</tr>
+					</tbody>
+				</table>
+				<table-wrap-foot>
+					<fn>
+						<p>Values are means ± SD. SA: sexual activity; AEE: absolute energy expenditure; REE: relative energy expenditure; PEE: perceived energy expenditure. * Significantly different from men (<italic>P</italic> &lt; 0.05). <sup>a</sup> Significantly different from treadmill (<italic>P</italic> &lt; 0.05).</p>
+					</fn>
+				</table-wrap-foot>
+			</table-wrap>
+			<p><xref ref-type="fig" rid="pone-0079342-g001">Figure 1</xref> and <xref ref-type="table" rid="pone-0079342-t001">Table 1</xref> show mean energy expenditure, intensity and perceived energy expenditure during sexual activity as well as mean energy expenditure and intensity during the 30 min treadmill exercise for all of the participants. We also investigated absolute energy expenditure during sexual activity across all four time points in men (118 ± 65 vs. 98 ± 49 vs. 94 ± 65 vs. 90 ± 74 kcal) and women (83 ± 40 vs. 69 ± 34 vs. 55 ± 27 vs. 65 ± 34 kcal). We observed that energy expenditure in session three was significantly lower than session one in men and women. Also in women, energy expenditure was significantly lower in session four when compared to session one and in session three when compared to session two (<xref ref-type="fig" rid="pone-0079342-g002">Figure 2</xref>). These results could suggest that men and women present different patterns of energy expenditure during sexual activity across time. We also calculated the equivalence in percentage of the energy expenditure and intensity during sexual activity with that of the energy expenditure of the treadmill exercise. Results show that absolute and relative energy expenditure as well as intensity during sexual activity represented ~38 %, 47 % and 71 % of the energy expenditure (absolute and relative) and intensity of the treadmill exercise, respectively. Ranges for energy expenditure, intensity and perceived energy expenditure for the sexual activity as well as the treadmill exercise are also presented in <xref ref-type="table" rid="pone-0079342-t001">table 1</xref>. </p>
+			<fig id="pone-0079342-g001" position="float" orientation="portrait">
+				<object-id pub-id-type="doi">10.1371/journal.pone.0079342.g001</object-id><label>Figure 1</label>
+				<caption>
+					<title>Differences in energy expenditure in all participants as well as in men (black) and women (grey).</title><p>Values are the mean ± SD. * Significantly different from men (<italic>P</italic> &lt; 0.05). </p>
+					<p><sup>a</sup> Significantly different from treadmill (<italic>P</italic> &lt; 0.05). SA: sexual activity.</p>
+				</caption>
+				<graphic xlink:type="simple" position="float" xlink:href="info:doi/10.1371/journal.pone.0079342.g001" orientation="portrait" />
+			</fig>
+			<fig id="pone-0079342-g002" position="float" orientation="portrait">
+				<object-id pub-id-type="doi">10.1371/journal.pone.0079342.g002</object-id><label>Figure 2</label>
+				<caption>
+					<title>Differences in energy expenditure between all four sessions of sexual activity in men (black) and women (grey).</title><p>Values are the mean ± SD. * Significantly different from the first session in men (<italic>P</italic> &lt; 0.05). </p>
+					<p><sup>a</sup> Significantly different from the first session in women (<italic>P</italic> &lt; 0.05). <sup>b</sup> Significantly different from the second session in women (<italic>P</italic> &lt; 0.05). SA: sexual activity.</p>
+				</caption>
+				<graphic xlink:type="simple" position="float" xlink:href="info:doi/10.1371/journal.pone.0079342.g002" orientation="portrait" />
+			</fig>
+			<p><xref ref-type="table" rid="pone-0079342-t002">Table 2</xref> shows the perception of effort, fatigue, appreciation, energy expended as well as personal and the partner’s pleasure after sexual activity in all participants as well as men and women. Briefly, only 5 % of all participants reported that sexual activity was more strenuous when compared to the 30 min treadmill exercise. Nineteen percent of all participants reported that they were highly fatigued and 7 % reported a high energy expended after sexual activity. Approximately 98 % of all participants reported that sexual activity was more pleasant than the 30 min treadmill exercise. Finally, 81 % reported a high level of personal pleasure and ~79 % reported a high level of their partner’s pleasure after sexual activity. No differences between men and women in all of the above parameters were noted. </p>
+			<table-wrap id="pone-0079342-t002" position="float" orientation="portrait">
+				<object-id pub-id-type="doi">10.1371/journal.pone.0079342.t002</object-id><label>Table 2</label>
+				<caption>
+					<title>Perception of effort, fatigue, appreciation and pleasure after the sexual activity in men and women.</title>
+				</caption>
+				<table>
+					<colgroup span="1"><col span="1" /><col span="1" /><col span="1" /><col span="1" /></colgroup>
+					<thead>
+						<tr>
+							<th rowspan="1" colspan="1" />
+							<th rowspan="1" colspan="1"><bold>All Participants  (n = 42)</bold></th>
+							<th rowspan="1" colspan="1"><bold>Men (n = 21)</bold></th>
+							<th rowspan="1" colspan="1"><bold>Women (n = 21)</bold></th>
+						</tr>
+					</thead>
+					<tbody>
+						<tr>
+							<td rowspan="1" colspan="1"><bold>Comparison of Effort Between Sexual Activity and Treadmill</bold></td>
+							<td rowspan="1" colspan="1" />
+							<td rowspan="1" colspan="1" />
+							<td rowspan="1" colspan="1" />
+						</tr>
+						<tr>
+							<td rowspan="1" colspan="1">Less strenuous (%)</td>
+							<td rowspan="1" colspan="1">57.5</td>
+							<td rowspan="1" colspan="1">55.0</td>
+							<td rowspan="1" colspan="1">60.0</td>
+						</tr>
+						<tr>
+							<td rowspan="1" colspan="1">Comparable (%)</td>
+							<td rowspan="1" colspan="1">37.5</td>
+							<td rowspan="1" colspan="1">35.0</td>
+							<td rowspan="1" colspan="1">40.0</td>
+						</tr>
+						<tr>
+							<td rowspan="1" colspan="1">More strenuous (%)</td>
+							<td rowspan="1" colspan="1">5.0</td>
+							<td rowspan="1" colspan="1">10.0</td>
+							<td rowspan="1" colspan="1">0.0</td>
+						</tr>
+						<tr>
+							<td rowspan="1" colspan="1"><bold>Perception of Fatigue</bold></td>
+							<td rowspan="1" colspan="1" />
+							<td rowspan="1" colspan="1" />
+							<td rowspan="1" colspan="1" />
+						</tr>
+						<tr>
+							<td rowspan="1" colspan="1">Slightly Fatigue (%)</td>
+							<td rowspan="1" colspan="1">42.9</td>
+							<td rowspan="1" colspan="1">38.1</td>
+							<td rowspan="1" colspan="1">47.6</td>
+						</tr>
+						<tr>
+							<td rowspan="1" colspan="1">Moderately Fatigue (%) </td>
+							<td rowspan="1" colspan="1">38.1</td>
+							<td rowspan="1" colspan="1">38.1</td>
+							<td rowspan="1" colspan="1">38.1</td>
+						</tr>
+						<tr>
+							<td rowspan="1" colspan="1">Highly Fatigue (%)</td>
+							<td rowspan="1" colspan="1">19.0</td>
+							<td rowspan="1" colspan="1">23.8</td>
+							<td rowspan="1" colspan="1">14.3</td>
+						</tr>
+						<tr>
+							<td rowspan="1" colspan="1"><bold>Perception of Energy Expended</bold></td>
+							<td rowspan="1" colspan="1" />
+							<td rowspan="1" colspan="1" />
+							<td rowspan="1" colspan="1" />
+						</tr>
+						<tr>
+							<td rowspan="1" colspan="1">Low (%)</td>
+							<td rowspan="1" colspan="1">28.6</td>
+							<td rowspan="1" colspan="1">19.0</td>
+							<td rowspan="1" colspan="1">38.1</td>
+						</tr>
+						<tr>
+							<td rowspan="1" colspan="1">Medium (%)</td>
+							<td rowspan="1" colspan="1">64.3</td>
+							<td rowspan="1" colspan="1">66.7</td>
+							<td rowspan="1" colspan="1">61.9</td>
+						</tr>
+						<tr>
+							<td rowspan="1" colspan="1">High (%)</td>
+							<td rowspan="1" colspan="1">7.1</td>
+							<td rowspan="1" colspan="1">14.3</td>
+							<td rowspan="1" colspan="1">0.0</td>
+						</tr>
+						<tr>
+							<td rowspan="1" colspan="1"><bold>Perception of Appreciation of Sexual Activity Compared to Treadmill</bold></td>
+							<td rowspan="1" colspan="1" />
+							<td rowspan="1" colspan="1" />
+							<td rowspan="1" colspan="1" />
+						</tr>
+						<tr>
+							<td rowspan="1" colspan="1">Less pleasant (%)</td>
+							<td rowspan="1" colspan="1">0.0</td>
+							<td rowspan="1" colspan="1">0.0</td>
+							<td rowspan="1" colspan="1">0.0</td>
+						</tr>
+						<tr>
+							<td rowspan="1" colspan="1">As pleasant (%)</td>
+							<td rowspan="1" colspan="1">2.5</td>
+							<td rowspan="1" colspan="1">0.0</td>
+							<td rowspan="1" colspan="1">5.0</td>
+						</tr>
+						<tr>
+							<td rowspan="1" colspan="1">More pleasant (%)</td>
+							<td rowspan="1" colspan="1">97.5</td>
+							<td rowspan="1" colspan="1">100.0</td>
+							<td rowspan="1" colspan="1">95.0</td>
+						</tr>
+						<tr>
+							<td rowspan="1" colspan="1"><bold>Perception of Personal Pleasure</bold></td>
+							<td rowspan="1" colspan="1" />
+							<td rowspan="1" colspan="1" />
+							<td rowspan="1" colspan="1" />
+						</tr>
+						<tr>
+							<td rowspan="1" colspan="1">Low (%)</td>
+							<td rowspan="1" colspan="1">0.0</td>
+							<td rowspan="1" colspan="1">0.0</td>
+							<td rowspan="1" colspan="1">0.0</td>
+						</tr>
+						<tr>
+							<td rowspan="1" colspan="1">Medium (%)</td>
+							<td rowspan="1" colspan="1">19.0</td>
+							<td rowspan="1" colspan="1">19.0</td>
+							<td rowspan="1" colspan="1">19.0</td>
+						</tr>
+						<tr>
+							<td rowspan="1" colspan="1">High (%)</td>
+							<td rowspan="1" colspan="1">81.0</td>
+							<td rowspan="1" colspan="1">81.0</td>
+							<td rowspan="1" colspan="1">81.0</td>
+						</tr>
+						<tr>
+							<td rowspan="1" colspan="1"><bold>Perception of Partner’s Pleasure</bold></td>
+							<td rowspan="1" colspan="1" />
+							<td rowspan="1" colspan="1" />
+							<td rowspan="1" colspan="1" />
+						</tr>
+						<tr>
+							<td rowspan="1" colspan="1">Low (%)</td>
+							<td rowspan="1" colspan="1">0.0</td>
+							<td rowspan="1" colspan="1">0.0</td>
+							<td rowspan="1" colspan="1">0.0</td>
+						</tr>
+						<tr>
+							<td rowspan="1" colspan="1">Medium (%)</td>
+							<td rowspan="1" colspan="1">21.4</td>
+							<td rowspan="1" colspan="1">28.6</td>
+							<td rowspan="1" colspan="1">14.3</td>
+						</tr>
+						<tr>
+							<td rowspan="1" colspan="1">High (%)</td>
+							<td rowspan="1" colspan="1">78.6</td>
+							<td rowspan="1" colspan="1">71.4</td>
+							<td rowspan="1" colspan="1">85.7</td>
+						</tr>
+					</tbody>
+				</table>
+			</table-wrap>
+		</sec>
+		<sec id="s4" sec-type="discussion">
+			<title>Discussion</title>
+			<p>Sexual activity is an important and relevant activity to human life and appears to impact on the mental, physical and social health as well as on the quality of life of the individual [<xref ref-type="bibr" rid="B1">1</xref>,<xref ref-type="bibr" rid="B4">4</xref>-<xref ref-type="bibr" rid="B6">6</xref>]. In the next decade, we will continue to see advances in the field of human sexuality and its relationship with overall health. Considering that sexual activity may be one of the most regularly practiced activities throughout an individual’s life time, it seems important to conduct research on this topic. Therefore, the the purpose of the present study was to examine the energy expenditure during sexual activity in young healthy individuals in their natural environment and compare it to a session of endurance exercise. </p>
+			<p>Results of the present study show that mean energy expenditure during sexual activity was 101 kcal or 4.2 kcal/min in men and 69 kcal or 3.1 kcal/min in women. Energy expenditure from sexual activity was significantly higher in men compared to women. In addition, mean intensity was 6.0 METS in men and 5.6 METS in women, which represents a moderate intensity according the American College of Sports Medicine (ASCM) (moderate: 3-6 METS) [<xref ref-type="bibr" rid="B26">26</xref>]. Furthermore, by comparison, the level of intensity that is exerted from sexual activity could be higher to that of walking at 4.8 km/h but lower to that of jogging at 8 km/h [<xref ref-type="bibr" rid="B27">27</xref>]. The level of intensity of sexual activity in the present study may give health professionals a better understanding on the potential risk for myocardial infarction in cardiac patients since this topic appears to be a preoccupation in the field of medicine [<xref ref-type="bibr" rid="B28">28</xref>]. Moreover, the energy expenditure and intensity during the 30 min exercise session in men was 276 kcal or 9.2 kcal/min and 8.5 METS, respectively and in women 213 kcal or 7.1 kcal/min and 8.4 METS, respectively. Both energy expenditure and intensity were significantly higher during the 30 min exercise session than the sexual activity. Interestingly, the highest range value achieved by men for absolute energy expenditure during sexual activity can potentially be higher than that of the mean absolute energy expenditure of the 30 min exercise session (i.e. 306 vs. 276 kcal, respectively), whereas this was not observed in women. Also, we noted that the highest range value of intensity in both men and women could be higher when compared to the mean intensity of the 30 min exercise session (9.2 vs. 8.5 METS; 9.6 vs. 8.4 METS, respectively). Finally, it should be noted that the absolute and relative energy expenditure of sexual activity in the present study represented more than one third of the absolute and relative energy expenditure of the 30 min treadmill exercise session, respectively. However, the intensity level during sexual activity represented more than two thirds of the intensity of the treadmill exercise. Taken together, these results suggest that sexual activity may potentially be considered, at times, as a significant exercise.  </p>
+			<p>Results of the present study are slightly different from two other studies in which only the level of intensity can be compared [<xref ref-type="bibr" rid="B8">8</xref>,<xref ref-type="bibr" rid="B14">14</xref>]. That is, in the study of Bohlen et al. [<xref ref-type="bibr" rid="B8">8</xref>] the level of intensity during sexual activity (especially the man-on-top position) was between 3 to 4 METS in young (average: 33 years) Caucasian men, whereas in the present study intensity was 6.0 METS in men. In the study of Palmeri et al. [<xref ref-type="bibr" rid="B14">14</xref>], the intensity of sexual activity was comparable to stage II of the standard multistage Bruce protocol on a treadmill for men (average: 55 years), which represents a moderate intensity and is similar to the results in the present study for men. However, for women (average: 51 years) sexual activity was comparable to stage I, which represents a low intensity and differs with the results of the present study for women which showed a moderate intensity. </p>
+			<p>Perception of energy expenditure, effort, fatigue, appreciation and pleasure of the participants were also measured. Interestingly, perceived energy expenditure was similar in men (100 kcal) and in women (76 kcal) when compared to measured energy expenditure. This suggests that the perception of energy expenditure at the group level appears to be accurate during sexual activity. Moreover, a very small minority of participants reported that sexual activity was more strenuous when compared to the treadmill exercise and almost a fifth reported to be highly fatigued after sexual activity. Furthermore, almost all of the participants reported that sexual activity was more pleasant than the treadmill exercise and that most men and women reported a high level of personal pleasure and of the partner’s pleasure during sexual activity. Thus, health professionals may want to consider sexual activity as part of their planning of intervention programs for a healthy lifestyle. It should be noted that no differences between men and women were observed for perception of energy expenditure, effort, fatigue, appreciation and pleasure.</p>
+			<p>There are several limitations in the present study. First, since our cohort is composed of sexually active young healthy men and women, thus, our findings are limited to this population. Further research should be performed in other populations and age groups. Second, the characteristics of the cohort reflect strict inclusion and exclusion criteria. However, our results are strengthened by using a simple, non-obstructive and accurate method for the measurement of free living energy expenditure in the couple’s natural environment making this study more representative.</p>
+		</sec>
+		<sec id="s5" sec-type="conclusions">
+			<title>Conclusions</title>
+			<p>The present study indicates that energy expenditure during sexual activity appears to be approximately 85 kcal or 3.6 kcal/min and seems to be performed at a moderate intensity in young healthy men and women. These results suggest that sexual activity may potentially be considered, at times, as a significant exercise. Moreover, both men and women reported that sexual activity was a highly enjoyable and more appreciated than the 30 min exercise session on the treadmill. Therefore, this study could have implications for the planning of intervention programs as part of a healthy lifestyle by health care professionals. Future studies may want to examine the relationship between psychosocial/qualitative factors with sexual activity and energy expenditure which could explain how these variables could affect overall health and quality of life.</p>
+		</sec>
+	</body>
+	<back>
+		<ack>
+			<p>We would like to thank all of the participants for their participation in this study. </p>
+		</ack>
+		<ref-list>
+			<title>References</title>
+			<ref id="B1">
+				<label>1</label>
+				<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Davey Smith</surname><given-names>G</given-names></name>, <name name-style="western"><surname>Frankel</surname><given-names>S</given-names></name>, <name name-style="western"><surname>Yarnell</surname><given-names>J</given-names></name> (<year>1997</year>) <article-title>Sex and death: are they related? Findings from the Caerphilly Cohort Study</article-title>. <source>BMJ</source> <volume>315</volume>: <fpage>1641</fpage>-<lpage>1644</lpage>. doi:<ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1136/bmj.315.7123.1641" xlink:type="simple">10.1136/bmj.315.7123.1641</ext-link>. PubMed: <ext-link ext-link-type="uri" xlink:href="http://www.ncbi.nlm.nih.gov/pubmed/9448525" xlink:type="simple">9448525</ext-link>.</mixed-citation>
+			</ref>
+			<ref id="B2">
+				<label>2</label>
+				<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Ebrahim</surname><given-names>S</given-names></name>, <name name-style="western"><surname>May</surname><given-names>M</given-names></name>, <name name-style="western"><surname>Ben Shlomo</surname><given-names>Y</given-names></name>, <name name-style="western"><surname>McCarron</surname><given-names>P</given-names></name>, <name name-style="western"><surname>Frankel</surname><given-names>S</given-names></name> <etal>et al.</etal> (<year>2002</year>) <article-title>Sexual intercourse and risk of ischaemic stroke and coronary heart disease: the Caerphilly study</article-title>. <source>J Epidemiol Community Health</source> <volume>56</volume>: <fpage>99</fpage>-<lpage>102</lpage>. doi:<ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1136/jech.56.2.99" xlink:type="simple">10.1136/jech.56.2.99</ext-link>. PubMed: <ext-link ext-link-type="uri" xlink:href="http://www.ncbi.nlm.nih.gov/pubmed/11812807" xlink:type="simple">11812807</ext-link>.</mixed-citation>
+			</ref>
+			<ref id="B3">
+				<label>3</label>
+				<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Laumann</surname><given-names>EO</given-names></name>, <name name-style="western"><surname>Glasser</surname><given-names>DB</given-names></name>, <name name-style="western"><surname>Neves</surname><given-names>RC</given-names></name>, <name name-style="western"><surname>Moreira</surname><given-names>ED</given-names><suffix>Jr.</suffix></name> (<year>2009</year>) <article-title>A population-based survey of sexual activity, sexual problems and associated help-seeking behavior patterns in mature adults in the United States of America</article-title>. <source>Int J Impot Res</source> <volume>21</volume>: <fpage>171</fpage>-<lpage>178</lpage>. doi:<ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1038/ijir.2009.7" xlink:type="simple">10.1038/ijir.2009.7</ext-link>. PubMed: <ext-link ext-link-type="uri" xlink:href="http://www.ncbi.nlm.nih.gov/pubmed/19242482" xlink:type="simple">19242482</ext-link>.</mixed-citation>
+			</ref>
+			<ref id="B4">
+				<label>4</label>
+				<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Lindau</surname><given-names>ST</given-names></name>, <name name-style="western"><surname>Gavrilova</surname><given-names>N</given-names></name> (<year>2010</year>) <article-title>Sex, health, and years of sexually active life gained due to good health: evidence from two US population based cross sectional surveys of ageing</article-title>. <source>BMJ</source> <volume>340</volume>: <fpage>c810</fpage>. doi:<ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1136/bmj.c810" xlink:type="simple">10.1136/bmj.c810</ext-link>. PubMed: <ext-link ext-link-type="uri" xlink:href="http://www.ncbi.nlm.nih.gov/pubmed/20215365" xlink:type="simple">20215365</ext-link>.</mixed-citation>
+			</ref>
+			<ref id="B5">
+				<label>5</label>
+				<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Lindau</surname><given-names>ST</given-names></name>, <name name-style="western"><surname>Schumm</surname><given-names>LP</given-names></name>, <name name-style="western"><surname>Laumann</surname><given-names>EO</given-names></name>, <name name-style="western"><surname>Levinson</surname><given-names>W</given-names></name>, <name name-style="western"><surname>O'Muircheartaigh</surname><given-names>CA</given-names></name> <etal>et al.</etal> (<year>2007</year>) <article-title>A study of sexuality and health among older adults in the United States</article-title>. <source>N Engl J Med</source> <volume>357</volume>: <fpage>762</fpage>-<lpage>774</lpage>. doi:<ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1056/NEJMoa067423" xlink:type="simple">10.1056/NEJMoa067423</ext-link>. PubMed: <ext-link ext-link-type="uri" xlink:href="http://www.ncbi.nlm.nih.gov/pubmed/17715410" xlink:type="simple">17715410</ext-link>.</mixed-citation>
+			</ref>
+			<ref id="B6">
+				<label>6</label>
+				<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>McCall-Hosenfeld</surname><given-names>JS</given-names></name>, <name name-style="western"><surname>Jaramillo</surname><given-names>SA</given-names></name>, <name name-style="western"><surname>Legault</surname><given-names>C</given-names></name>, <name name-style="western"><surname>Freund</surname><given-names>KM</given-names></name>, <name name-style="western"><surname>Cochrane</surname><given-names>BB</given-names></name> <etal>et al.</etal> (<year>2008</year>) <article-title>Correlates of sexual satisfaction among sexually active postmenopausal women in the Women's Health Initiative-Observational Study</article-title>. <source>J Gen Intern Med</source> <volume>23</volume>: <fpage>2000</fpage>-<lpage>2009</lpage>. doi:<ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1007/s11606-008-0820-9" xlink:type="simple">10.1007/s11606-008-0820-9</ext-link>. PubMed: <ext-link ext-link-type="uri" xlink:href="http://www.ncbi.nlm.nih.gov/pubmed/18839256" xlink:type="simple">18839256</ext-link>.</mixed-citation>
+			</ref>
+			<ref id="B7">
+				<label>7</label>
+				<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Bartlett</surname><given-names>RG</given-names><suffix>Jr.</suffix></name> (<year>1956</year>) <article-title>Physiologic responses during coitus</article-title>. <source>J Appl Physiol</source> <volume>9</volume>: <fpage>469</fpage>-<lpage>472</lpage>. PubMed: <ext-link ext-link-type="uri" xlink:href="http://www.ncbi.nlm.nih.gov/pubmed/13376477" xlink:type="simple">13376477</ext-link>.</mixed-citation>
+			</ref>
+			<ref id="B8">
+				<label>8</label>
+				<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Bohlen</surname><given-names>JG</given-names></name>, <name name-style="western"><surname>Held</surname><given-names>JP</given-names></name>, <name name-style="western"><surname>Sanderson</surname><given-names>MO</given-names></name>, <name name-style="western"><surname>Patterson</surname><given-names>RP</given-names></name> (<year>1984</year>) <article-title>Heart rate, rate-pressure product, and oxygen uptake during four sexual activities</article-title>. <source>Arch Intern Med</source> <volume>144</volume>: <fpage>1745</fpage>-<lpage>1748</lpage>. doi:<ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1001/archinte.144.9.1745" xlink:type="simple">10.1001/archinte.144.9.1745</ext-link>. PubMed: <ext-link ext-link-type="uri" xlink:href="http://www.ncbi.nlm.nih.gov/pubmed/6476990" xlink:type="simple">6476990</ext-link>.</mixed-citation>
+			</ref>
+			<ref id="B9">
+				<label>9</label>
+				<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Hellerstein</surname><given-names>HK</given-names></name>, <name name-style="western"><surname>Friedman</surname><given-names>EH</given-names></name> (<year>1970</year>) <article-title>Sexual activity and the postcoronary patient</article-title>. <source>Arch Intern Med</source> <volume>125</volume>: <fpage>987</fpage>-<lpage>999</lpage>. doi:<ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1001/archinte.125.6.987" xlink:type="simple">10.1001/archinte.125.6.987</ext-link>. PubMed: <ext-link ext-link-type="uri" xlink:href="http://www.ncbi.nlm.nih.gov/pubmed/4951941" xlink:type="simple">4951941</ext-link>.</mixed-citation>
+			</ref>
+			<ref id="B10">
+				<label>10</label>
+				<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Larson</surname><given-names>JL</given-names></name>, <name name-style="western"><surname>McNaughton</surname><given-names>MW</given-names></name>, <name name-style="western"><surname>Kennedy</surname><given-names>JW</given-names></name>, <name name-style="western"><surname>Mansfield</surname><given-names>LW</given-names></name> (<year>1980</year>) <article-title>Heart rate and blood pressure responses to sexual activity and a stair-climbing test</article-title>. <source>Heart Lung</source> <volume>9</volume>: <fpage>1025</fpage>-<lpage>1030</lpage>. PubMed: <ext-link ext-link-type="uri" xlink:href="http://www.ncbi.nlm.nih.gov/pubmed/6905836" xlink:type="simple">6905836</ext-link>.</mixed-citation>
+			</ref>
+			<ref id="B11">
+				<label>11</label>
+				<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Masini</surname><given-names>V</given-names></name>, <name name-style="western"><surname>Romei</surname><given-names>E</given-names></name>, <name name-style="western"><surname>Fiorella</surname><given-names>AT</given-names></name> (<year>1980</year>) <article-title>Dynamic electrocardiogram in normal subjects during sexual activity</article-title>. <source>G Ital Cardiol</source> <volume>10</volume>: <fpage>1442</fpage>-<lpage>1448</lpage>. PubMed: <ext-link ext-link-type="uri" xlink:href="http://www.ncbi.nlm.nih.gov/pubmed/7202891" xlink:type="simple">7202891</ext-link>.</mixed-citation>
+			</ref>
+			<ref id="B12">
+				<label>12</label>
+				<mixed-citation publication-type="book" xlink:type="simple"><name name-style="western"><surname>Masters</surname><given-names>W</given-names></name>, <name name-style="western"><surname>Johnson</surname><given-names>VE</given-names></name> (<year>1966</year>) <source>Human Sexual Response</source>. <publisher-loc>Boston</publisher-loc>: <publisher-name>Little, Brown and Co</publisher-name>.</mixed-citation>
+			</ref>
+			<ref id="B13">
+				<label>13</label>
+				<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Nemec</surname><given-names>ED</given-names></name>, <name name-style="western"><surname>Mansfield</surname><given-names>L</given-names></name>, <name name-style="western"><surname>Kennedy</surname><given-names>JW</given-names></name> (<year>1976</year>) <article-title>Heart rate and blood pressure responses during sexual activity in normal males</article-title>. <source>Am Heart J</source> <volume>92</volume>: <fpage>274</fpage>-<lpage>277</lpage>. doi:<ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1016/S0002-8703(76)80106-8" xlink:type="simple">10.1016/S0002-8703(76)80106-8</ext-link>. PubMed: <ext-link ext-link-type="uri" xlink:href="http://www.ncbi.nlm.nih.gov/pubmed/949020" xlink:type="simple">949020</ext-link>.</mixed-citation>
+			</ref>
+			<ref id="B14">
+				<label>14</label>
+				<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Palmeri</surname><given-names>ST</given-names></name>, <name name-style="western"><surname>Kostis</surname><given-names>JB</given-names></name>, <name name-style="western"><surname>Casazza</surname><given-names>L</given-names></name>, <name name-style="western"><surname>Sleeper</surname><given-names>LA</given-names></name>, <name name-style="western"><surname>Lu</surname><given-names>M</given-names></name> <etal>et al.</etal> (<year>2007</year>) <article-title>Heart rate and blood pressure response in adult men and women during exercise and sexual activity</article-title>. <source>Am J Cardiol</source> <volume>100</volume>: <fpage>1795</fpage>-<lpage>1801</lpage>. doi:<ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1016/j.amjcard.2007.07.040" xlink:type="simple">10.1016/j.amjcard.2007.07.040</ext-link>. PubMed: <ext-link ext-link-type="uri" xlink:href="http://www.ncbi.nlm.nih.gov/pubmed/18082530" xlink:type="simple">18082530</ext-link>.</mixed-citation>
+			</ref>
+			<ref id="B15">
+				<label>15</label>
+				<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Casazza</surname><given-names>K</given-names></name>, <name name-style="western"><surname>Fontaine</surname><given-names>KR</given-names></name>, <name name-style="western"><surname>Astrup</surname><given-names>A</given-names></name>, <name name-style="western"><surname>Birch</surname><given-names>LL</given-names></name>, <name name-style="western"><surname>Brown</surname><given-names>AW</given-names></name> <etal>et al.</etal> (<year>2013</year>) <article-title>Myths, presumptions, and facts about obesity</article-title>. <source>N Engl J Med</source> <volume>368</volume>: <fpage>446</fpage>-<lpage>454</lpage>. doi:<ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1056/NEJMsa1208051" xlink:type="simple">10.1056/NEJMsa1208051</ext-link>. PubMed: <ext-link ext-link-type="uri" xlink:href="http://www.ncbi.nlm.nih.gov/pubmed/23363498" xlink:type="simple">23363498</ext-link>.</mixed-citation>
+			</ref>
+			<ref id="B16">
+				<label>16</label>
+				<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Haskell</surname><given-names>WL</given-names></name>, <name name-style="western"><surname>Lee</surname><given-names>IM</given-names></name>, <name name-style="western"><surname>Pate</surname><given-names>RR</given-names></name>, <name name-style="western"><surname>Powell</surname><given-names>KE</given-names></name>, <name name-style="western"><surname>Blair</surname><given-names>SN</given-names></name> <etal>et al.</etal> (<year>2007</year>) <article-title>Physical activity and public health: updated recommendation for adults from the American College of Sports Medicine and the American Heart Association</article-title>. <source>Med Sci Sports Exerc</source> <volume>39</volume>: <fpage>1423</fpage>-<lpage>1434</lpage>. doi:<ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1249/mss.0b013e3180616b27" xlink:type="simple">10.1249/mss.0b013e3180616b27</ext-link>. PubMed: <ext-link ext-link-type="uri" xlink:href="http://www.ncbi.nlm.nih.gov/pubmed/17762377" xlink:type="simple">17762377</ext-link>.</mixed-citation>
+			</ref>
+			<ref id="B17">
+				<label>17</label>
+				<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Drenowatz</surname><given-names>C</given-names></name>, <name name-style="western"><surname>Eisenmann</surname><given-names>JC</given-names></name> (<year>2011</year>) <article-title>Validation of the SenseWear Armband at high intensity exercise</article-title>. <source>Eur J Appl Physiol</source> <volume>111</volume>: <fpage>883</fpage>-<lpage>887</lpage>. doi:<ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1007/s00421-010-1695-0" xlink:type="simple">10.1007/s00421-010-1695-0</ext-link>. PubMed: <ext-link ext-link-type="uri" xlink:href="http://www.ncbi.nlm.nih.gov/pubmed/20972880" xlink:type="simple">20972880</ext-link>.</mixed-citation>
+			</ref>
+			<ref id="B18">
+				<label>18</label>
+				<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Johannsen</surname><given-names>DL</given-names></name>, <name name-style="western"><surname>Calabro</surname><given-names>MA</given-names></name>, <name name-style="western"><surname>Stewart</surname><given-names>J</given-names></name>, <name name-style="western"><surname>Franke</surname><given-names>W</given-names></name>, <name name-style="western"><surname>Rood</surname><given-names>JC</given-names></name> <etal>et al.</etal> (<year>2010</year>) <article-title>Accuracy of armband monitors for measuring daily energy expenditure in healthy adults</article-title>. <source>Med Sci Sports Exerc</source> <volume>42</volume>: <fpage>2134</fpage>-<lpage>2140</lpage>. doi:<ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1249/MSS.0b013e3181e0b3ff" xlink:type="simple">10.1249/MSS.0b013e3181e0b3ff</ext-link>. PubMed: <ext-link ext-link-type="uri" xlink:href="http://www.ncbi.nlm.nih.gov/pubmed/20386334" xlink:type="simple">20386334</ext-link>.</mixed-citation>
+			</ref>
+			<ref id="B19">
+				<label>19</label>
+				<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Mackey</surname><given-names>DC</given-names></name>, <name name-style="western"><surname>Manini</surname><given-names>TM</given-names></name>, <name name-style="western"><surname>Schoeller</surname><given-names>DA</given-names></name>, <name name-style="western"><surname>Koster</surname><given-names>A</given-names></name>, <name name-style="western"><surname>Glynn</surname><given-names>NW</given-names></name> <etal>et al.</etal> (<year>2011</year>) <article-title>Validation of an armband to measure daily energy expenditure in older adults</article-title>. <source>J Gerontol A Biol Sci Med Sci</source> <volume>66</volume>: <fpage>1108</fpage>-<lpage>1113</lpage>. PubMed: <ext-link ext-link-type="uri" xlink:href="http://www.ncbi.nlm.nih.gov/pubmed/21734231" xlink:type="simple">21734231</ext-link>.</mixed-citation>
+			</ref>
+			<ref id="B20">
+				<label>20</label>
+				<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Mignault</surname><given-names>D</given-names></name>, <name name-style="western"><surname>St-Onge</surname><given-names>M</given-names></name>, <name name-style="western"><surname>Karelis</surname><given-names>AD</given-names></name>, <name name-style="western"><surname>Allison</surname><given-names>DB</given-names></name>, <name name-style="western"><surname>Rabasa-Lhoret</surname><given-names>R</given-names></name> (<year>2005</year>) <article-title>Evaluation of the Portable HealthWear Armband: a device to measure total daily energy expenditure in free-living type 2 diabetic individuals</article-title>. <source>Diabetes Care</source> <volume>28</volume>: <fpage>225</fpage>-<lpage>227</lpage>. doi:<ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.2337/diacare.28.1.225-a" xlink:type="simple">10.2337/diacare.28.1.225-a</ext-link>. PubMed: <ext-link ext-link-type="uri" xlink:href="http://www.ncbi.nlm.nih.gov/pubmed/15616258" xlink:type="simple">15616258</ext-link>.</mixed-citation>
+			</ref>
+			<ref id="B21">
+				<label>21</label>
+				<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Ryan</surname><given-names>J</given-names></name>, <name name-style="western"><surname>Gormley</surname><given-names>J</given-names></name> (<year>2013</year>) <article-title>An evaluation of energy expenditure estimation by three activity monitors</article-title>. <source>Eur J Sport Sci</source>: <fpage>1</fpage>-<lpage>8</lpage>.</mixed-citation>
+			</ref>
+			<ref id="B22">
+				<label>22</label>
+				<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>St-Onge</surname><given-names>M</given-names></name>, <name name-style="western"><surname>Mignault</surname><given-names>D</given-names></name>, <name name-style="western"><surname>Allison</surname><given-names>DB</given-names></name>, <name name-style="western"><surname>Rabasa-Lhoret</surname><given-names>R</given-names></name> (<year>2007</year>) <article-title>Evaluation of a portable device to measure daily energy expenditure in free-living adults</article-title>. <source>Am J Clin Nutr</source> <volume>85</volume>: <fpage>742</fpage>-<lpage>749</lpage>. PubMed: <ext-link ext-link-type="uri" xlink:href="http://www.ncbi.nlm.nih.gov/pubmed/17344495" xlink:type="simple">17344495</ext-link>.</mixed-citation>
+			</ref>
+			<ref id="B23">
+				<label>23</label>
+				<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Welk</surname><given-names>GJ</given-names></name>, <name name-style="western"><surname>McClain</surname><given-names>JJ</given-names></name>, <name name-style="western"><surname>Eisenmann</surname><given-names>JC</given-names></name>, <name name-style="western"><surname>Wickel</surname><given-names>EE</given-names></name> (<year>2007</year>) <article-title>Field validation of the MTI Actigraph and BodyMedia armband monitor using the IDEEA monitor</article-title>. <source>Obesity (Silver Spring)</source> <volume>15</volume>: <fpage>918</fpage>-<lpage>928</lpage>. doi:<ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1038/oby.2007.624" xlink:type="simple">10.1038/oby.2007.624</ext-link>. PubMed: <ext-link ext-link-type="uri" xlink:href="http://www.ncbi.nlm.nih.gov/pubmed/17426327" xlink:type="simple">17426327</ext-link>.</mixed-citation>
+			</ref>
+			<ref id="B24">
+				<label>24</label>
+				<mixed-citation publication-type="book" xlink:type="simple"><name name-style="western"><surname>Wetten</surname><given-names>AA</given-names></name>, <name name-style="western"><surname>Batterham</surname><given-names>M</given-names></name>, <name name-style="western"><surname>Tan</surname><given-names>SY</given-names></name>, <name name-style="western"><surname>Tapsell</surname><given-names>L</given-names></name> (<year>2013</year>) <article-title>Relative Validity of Three Accelerometer Models for Estimating Energy Expenditure During Light Activity</article-title>. <source>J Phys Act Health</source>. <publisher-name>PubMed</publisher-name>: <comment>23417054</comment></mixed-citation>
+			</ref>
+			<ref id="B25">
+				<label>25</label>
+				<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Brazeau</surname><given-names>AS</given-names></name>, <name name-style="western"><surname>Karelis</surname><given-names>AD</given-names></name>, <name name-style="western"><surname>Mignault</surname><given-names>D</given-names></name>, <name name-style="western"><surname>Lacroix</surname><given-names>MJ</given-names></name>, <name name-style="western"><surname>Prud'homme</surname><given-names>D</given-names></name> <etal>et al.</etal> (<year>2011</year>) <article-title>Test-retest reliability of a portable monitor to assess energy expenditure</article-title>. <source>Appl Physiol Nutr Metab</source> <volume>36</volume>: <fpage>339</fpage>-<lpage>343</lpage>. doi:<ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1139/h11-016" xlink:type="simple">10.1139/h11-016</ext-link>. PubMed: <ext-link ext-link-type="uri" xlink:href="http://www.ncbi.nlm.nih.gov/pubmed/21574780" xlink:type="simple">21574780</ext-link>.</mixed-citation>
+			</ref>
+			<ref id="B26">
+				<label>26</label>
+				<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Haskell</surname><given-names>WL</given-names></name>, <name name-style="western"><surname>Lee</surname><given-names>IM</given-names></name>, <name name-style="western"><surname>Pate</surname><given-names>RR</given-names></name>, <name name-style="western"><surname>Powell</surname><given-names>KE</given-names></name>, <name name-style="western"><surname>Blair</surname><given-names>SN</given-names></name> <etal>et al.</etal> (<year>2007</year>) <article-title>Physical activity and public health: updated recommendation for adults from the American College of Sports Medicine and the American Heart Association</article-title>. <source>Circulation</source> <volume>116</volume>: <fpage>1081</fpage>-<lpage>1093</lpage>. doi:<ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1161/CIRCULATIONAHA.107.185649" xlink:type="simple">10.1161/CIRCULATIONAHA.107.185649</ext-link>. PubMed: <ext-link ext-link-type="uri" xlink:href="http://www.ncbi.nlm.nih.gov/pubmed/17671237" xlink:type="simple">17671237</ext-link>.</mixed-citation>
+			</ref>
+			<ref id="B27">
+				<label>27</label>
+				<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Ainsworth</surname><given-names>BE</given-names></name>, <name name-style="western"><surname>Haskell</surname><given-names>WL</given-names></name>, <name name-style="western"><surname>Herrmann</surname><given-names>SD</given-names></name>, <name name-style="western"><surname>Meckes</surname><given-names>N</given-names></name>, <name name-style="western"><surname>Bassett</surname><given-names>DR</given-names><suffix>Jr.</suffix></name> <etal>et al.</etal> (<year>2011</year>) <article-title>2011 Compendium of Physical Activities: a second update of codes and MET values</article-title>. <source>Med Sci Sports Exerc</source> <volume>43</volume>: <fpage>1575</fpage>-<lpage>1581</lpage>. doi:<ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1249/MSS.0b013e31821ece12" xlink:type="simple">10.1249/MSS.0b013e31821ece12</ext-link>. PubMed: <ext-link ext-link-type="uri" xlink:href="http://www.ncbi.nlm.nih.gov/pubmed/21681120" xlink:type="simple">21681120</ext-link>.</mixed-citation>
+			</ref>
+			<ref id="B28">
+				<label>28</label>
+				<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Steinke</surname><given-names>EE</given-names></name>, <name name-style="western"><surname>Jaarsma</surname><given-names>T</given-names></name>, <name name-style="western"><surname>Barnason</surname><given-names>SA</given-names></name>, <name name-style="western"><surname>Byrne</surname><given-names>M</given-names></name>, <name name-style="western"><surname>Doherty</surname><given-names>S</given-names></name> <etal>et al.</etal> (<year>2013</year>) <article-title>Sexual Counseling for Individuals With Cardiovascular Disease and Their Partners: A Consensus Document From the American Heart Association and the ESC Council on Cardiovascular Nursing and Allied Professions (CCNAP)</article-title>. <source>Circulation</source>. [Epub ahead of print] PubMed: <ext-link ext-link-type="uri" xlink:href="http://www.ncbi.nlm.nih.gov/pubmed/23897867" xlink:type="simple">23897867</ext-link>.</mixed-citation>
+			</ref>
+		</ref-list>
+	</back>
+</article>
