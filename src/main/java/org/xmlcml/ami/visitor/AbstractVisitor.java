@@ -47,7 +47,7 @@ public abstract class AbstractVisitor {
 
 	protected ResultsListElement resultsElement;
 	protected SourceElement sourceElement;
-	private VisitableInput visitableInput;
+	private List<VisitableInput> visitableInputList;
 	private VisitorOutput visitorOutput;
 	protected AbstractVisitable currentVisitable;
 	private XPathProcessor xPathProcessor;
@@ -270,31 +270,41 @@ public abstract class AbstractVisitor {
 	private void runArgProcessor(String[] commandLineArgs) {
 		ArgProcessor argProcessor = new ArgProcessor(commandLineArgs, this);
 		
-		createVisitableInputFromArgs(argProcessor);
+		createVisitableInputListFromArgs(argProcessor);
 		createVisitableOutputFromArgs();
 		
 		visitVistablesAndWriteOutputFiles();
 	}
 
-	private void createVisitableInputFromArgs(ArgProcessor argProcessor) {
-		visitableInput = argProcessor.getVisitableInput();
+	private void createVisitableInputListFromArgs(ArgProcessor argProcessor) {
+		visitableInputList = argProcessor.getVisitableInputList();
 		setVisitorOutput(argProcessor.getVisitorOutput());
 		setXPathProcessor(argProcessor.getXPathProcessor());
-		if (visitableInput == null) {
+		if (visitableInputList == null || visitableInputList.size() == 0) {
 			throw new RuntimeException("input option mandatory");
 		}
-		visitableInput.setExtensions(argProcessor.getExtensions());
-		visitableInput.setRecursive(argProcessor.isRecursive());
-		visitableInput.createVisitableList();
-		LOG.trace("visitable list: "+visitableInput.getVisitableList());
-		LOG.trace("in: " + visitableInput);
+		createVistablesAndExtensionsForEachVisitable(argProcessor);
+	}
+
+	private void createVistablesAndExtensionsForEachVisitable(ArgProcessor argProcessor) {
+		for (VisitableInput visitableInput : visitableInputList) {
+			visitableInput.setExtensions(argProcessor.getExtensions());
+			visitableInput.setRecursive(argProcessor.isRecursive());
+			try {
+				visitableInput.createVisitableList();
+				LOG.trace("visitable list: "+visitableInput.getVisitableList());
+				LOG.trace("in: " + visitableInputList);
+			} catch (Exception e) {
+				LOG.error("FAILED TO PARSE");
+			}
+		}
 	}
 
 	private void createVisitableOutputFromArgs() {
 		if (getOrCreateVisitorOutput() == null) {
 			setVisitorOutput(new VisitorOutput());
 		}
-		getOrCreateVisitorOutput().setVisitableInput(visitableInput);
+		getOrCreateVisitorOutput().setVisitableInputList(visitableInputList);
 		getOrCreateVisitorOutput().setExtension(XML);
 	}
 
@@ -410,15 +420,17 @@ public abstract class AbstractVisitor {
 	}
 
 	private void visitVistablesAndWriteOutputFiles() {
-		List<AbstractVisitable> inputVisitableList = visitableInput.getVisitableList();
-		if (inputVisitableList.size() == 0) {
-			LOG.error("No visitable input list");
-		} else {
-			LOG.debug("InputVisitables " + inputVisitableList.size());
-			for (AbstractVisitable visitable : inputVisitableList) {
-				LOG.trace("input file List "+ visitable.getFileList().size());
-				visit(visitable);
-				createAndWriteOutputFiles();
+		for (VisitableInput visitableInput : visitableInputList) {
+			List<AbstractVisitable> inputVisitableList = visitableInput.getVisitableList();
+			if (inputVisitableList.size() == 0) {
+				LOG.error("No visitable input list");
+			} else {
+				LOG.debug("InputVisitables " + inputVisitableList.size());
+				for (AbstractVisitable visitable : inputVisitableList) {
+					LOG.trace("input file List "+ visitable.getFileList().size());
+					visit(visitable);
+					createAndWriteOutputFiles();
+				}
 			}
 		}
 	}

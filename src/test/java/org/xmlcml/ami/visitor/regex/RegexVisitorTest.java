@@ -11,13 +11,10 @@ import org.junit.Assert;
 import org.junit.Ignore;
 import org.junit.Test;
 import org.xmlcml.ami.Fixtures;
-import org.xmlcml.ami.util.AMITestUtil;
 import org.xmlcml.ami.visitable.html.HtmlVisitable;
-import org.xmlcml.ami.visitable.pdf.PDF2XHTMLConverter;
 import org.xmlcml.ami.visitor.AbstractVisitor;
 import org.xmlcml.ami.visitor.VisitorOutput;
-import org.xmlcml.ami.visitor.species.SpeciesVisitor;
-import org.xmlcml.svg2xml.pdf.PDFAnalyzer;
+import org.xmlcml.euclid.Util;
 import org.xmlcml.xml.XMLUtil;
 
 public class RegexVisitorTest {
@@ -350,6 +347,23 @@ public class RegexVisitorTest {
 		RegexVisitor.main(args);
 	}
 	
+	/** test agriculture Regex on ca 30 PLOS papers locally.
+	 * 
+	 * @param file
+	 */
+	@Test
+	public void testAgricultureURLs() throws Exception {
+		if (!Util.checkPMR()) return;
+		String[] args = new String[] {
+				"-i", "http://www.biomedcentral.com/1471-2229/14/{1,1}",
+				"-o", "target/agriculture.xml",
+				"-g", "regex/agriculture.xml",
+				"-e", "html",
+		};
+		RegexVisitor.main(args);
+	}
+	
+	
 	/** search one XML file and create corresponding output results.xml
 	 * 
 	 * 	// SHOWCASE NOT YET RUNNING
@@ -398,13 +412,15 @@ public class RegexVisitorTest {
 	 * @param file
 	 */
 	@Test
-	@Ignore // unless you are an astrophysicist
+	//@Ignore // unless you are an astrophysicist
 	public void testAstrophysics() throws Exception {
 		String astroDir = new File("./src/test/resources/org/xmlcml/ami/astrophys/").toString();
 		String[] args = new String[] {
-//				"-i","src/test/resources/org/xmlcml/ami/astrophys/0004-637X_754_2_85.pdf",
-				"-i","src/test/resources/org/xmlcml/ami/astrophys/10.1111_j.1365-2966.2010.17101.x.html",
-//				"-i","src/test/resources/org/xmlcml/ami/astrophys/s2.0-S2212686414000272.html",
+				"-i",
+//				"src/test/resources/org/xmlcml/ami/astrophys/0004-637X_754_2_85.pdf",
+//				"src/test/resources/org/xmlcml/ami/astrophys/10.1111_j.1365-2966.2010.17101.x.html",
+//				"src/test/resources/org/xmlcml/ami/astrophys/s2.0-S2212686414000272.html",
+				"http://www.sciencedirect.com/science/article/pii/S2212686414000272",
 				"-o", "target/astrophys.xml",
 				"-g", "regex/astrophys.xml",
 		};

@@ -8,6 +8,7 @@ import java.util.List;
 import org.apache.log4j.Logger;
 import org.xmlcml.ami.visitable.AbstractVisitable;
 import org.xmlcml.html.HtmlElement;
+import org.xmlcml.html.HtmlFactory;
 import org.xmlcml.html.util.HtmlUtil;
 import org.xmlcml.ami.util.AMIUtil;
 
@@ -19,6 +20,7 @@ public class HtmlVisitable extends AbstractVisitable  {
 	public static final String ITALIC_XPATH = ".//*[local-name()='i']";
 	
 	private List<HtmlContainer> htmlContainerList;
+	private HtmlFactory htmlFactory;
 	
 	public HtmlVisitable() {
 		
@@ -28,7 +30,8 @@ public class HtmlVisitable extends AbstractVisitable  {
 	public void addFile(File htmlFile) throws Exception {
 		checkFile(htmlFile);
 		ensureHtmlContainerList();
-		HtmlElement htmlElement = HtmlUtil.readAndCreateElement(htmlFile);
+		ensureHtmlFactory();
+		HtmlElement htmlElement = htmlFactory.parse(htmlFile);
 		if (htmlElement == null) {
 			throw new RuntimeException("cannot parse HTML file: "+htmlFile.getAbsolutePath());
 		}
@@ -37,10 +40,16 @@ public class HtmlVisitable extends AbstractVisitable  {
 	}
 
 	@Override
-	public void readURLconvertToObjectAndAddtoVisitable(URL url) throws Exception {
+	public void downloadParseAndAddURL(URL url) throws Exception {
+		LOG.debug("downloading "+url);
 		super.addURL(url);
 		ensureHtmlContainerList();
-		HtmlContainer htmlContainer = new HtmlContainer(url, HtmlUtil.readAndCreateElement(url));
+		ensureHtmlFactory();
+		HtmlElement htmlElement = htmlFactory.parse(url);
+		if (htmlElement == null) {
+			throw new RuntimeException("cannot parse URL: "+url);
+		}
+		HtmlContainer htmlContainer = new HtmlContainer(url, htmlElement);
 		htmlContainerList.add(htmlContainer);
 	}
 
@@ -53,7 +62,7 @@ public class HtmlVisitable extends AbstractVisitable  {
 	public List<HtmlContainer> getHtmlContainerList() {
 		ensureHtmlContainerList();
 		if (htmlContainerList.size() > 0) {
-			LOG.debug("htmlContainers: "+htmlContainerList.size());
+			LOG.trace("htmlContainers: "+htmlContainerList.size());
 			// explicit containers already
 		} else if (super.findFilesInDirectories() != null) {
 			htmlContainerList = createContainersFromFiles();
@@ -64,16 +73,31 @@ public class HtmlVisitable extends AbstractVisitable  {
 	public List<HtmlContainer> createContainersFromFiles() {
 		htmlContainerList = new ArrayList<HtmlContainer>();
 		if (fileList != null) {
+			ensureHtmlFactory();
 			for (File file : fileList) {
 				try {
-					HtmlElement htmlElement = HtmlUtil.readAndCreateElement(file);
-					htmlContainerList.add(new HtmlContainer(file, htmlElement));
+					HtmlElement htmlElement = htmlFactory.parse(file);
+					if (htmlElement == null) {
+						LOG.error("cannot parse HTML file: "+file);
+					} else {
+						htmlContainerList.add(new HtmlContainer(file, htmlElement));
+					}
 				} catch (Exception e) {
 					LOG.error("Not an HTML file: "+file);
 				}
 			}
 		}
 		return htmlContainerList;
+	}
+
+	private void ensureHtmlFactory() {
+		if (htmlFactory == null) {
+			htmlFactory = new HtmlFactory();
+			htmlFactory.addTagToDelete("script");
+			htmlFactory.addTagToDelete("button");
+			htmlFactory.addAttributeToDelete("onclick");
+			htmlFactory.addMissingNamespacePrefix("g"); // from biomed central
+		}
 	}
 
 	public String[] getExtensions() {

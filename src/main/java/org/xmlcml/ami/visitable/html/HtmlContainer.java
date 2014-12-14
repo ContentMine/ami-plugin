@@ -61,6 +61,12 @@ public class HtmlContainer extends VisitableContainer {
 	
 	@Override
 	public String getName() {
-		return file == null ? null : file.getAbsolutePath();
+		String name = null;
+		if (file != null) {
+			name = file.getAbsolutePath();
+		} else if (url != null) {
+			name = url.toString();
+		}
+		return name;
 	}
 }

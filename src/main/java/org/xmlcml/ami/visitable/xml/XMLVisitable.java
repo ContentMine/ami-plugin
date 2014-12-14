@@ -45,7 +45,7 @@ public class XMLVisitable extends AbstractVisitable  {
 	}
 
 	@Override
-	public void readURLconvertToObjectAndAddtoVisitable(URL url) throws Exception {
+	public void downloadParseAndAddURL(URL url) throws Exception {
 		super.addURL(url);
 		ensureXMLContainerList();
 		try {

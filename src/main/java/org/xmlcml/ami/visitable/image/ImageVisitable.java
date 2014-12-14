@@ -58,7 +58,7 @@ public class ImageVisitable extends AbstractVisitable {
 	}
 
 	@Override
-	public void readURLconvertToObjectAndAddtoVisitable(URL url) throws Exception {
+	public void downloadParseAndAddURL(URL url) throws Exception {
 		super.addURL(url);
 		BufferedImage bufferedImage = ImageIO.read(url.openStream());
 		LOG.error("URL not implemented");

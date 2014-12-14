@@ -1,11 +1,12 @@
 package org.xmlcml.ami.visitor;
 
 import java.io.File;
+import java.util.List;
 
 import org.apache.commons.io.FilenameUtils;
 import org.apache.log4j.Logger;
-import org.xmlcml.ami.visitable.VisitableInput;
 import org.xmlcml.ami.util.AMIUtil;
+import org.xmlcml.ami.visitable.VisitableInput;
 
 /** manages the output.
  * 
@@ -23,10 +24,11 @@ public class VisitorOutput {
 	private static final String DEFAULT_OUTPUT_SUFFIX = ".xml";
 
 	private String outputLocation;
-	private VisitableInput visitableInput;
+//	private VisitableInput visitableInput;
+	private List<VisitableInput> visitableInputList; 
 	private String extension;
 	private boolean isDirectory;
-	private File outputDirectory; 
+	private File outputDirectory;
 
 	/** reads outputLocation and ducktypes the type (File, Directory, etc.).
 	 * 
@@ -55,8 +57,9 @@ public class VisitorOutput {
 	 * 
 	 * @param visitableInput
 	 */
-	public void setVisitableInput(VisitableInput visitableInput) {
-		this.visitableInput = visitableInput;
+	public void setVisitableInputList(List<VisitableInput> visitableInputList) {
+		
+		this.visitableInputList = visitableInputList;
 	}
 	
 	private void generateOutputDirectoryName() {
@@ -96,7 +99,8 @@ public class VisitorOutput {
 			} else {
 				ifNotEndsWithSlashUseParentAsOutputDirectory();
 				outputDirectory.mkdirs();
-				String baseName = (visitableInput == null) ? DEFAULT_BASENAME : visitableInput.getBaseName();
+				String baseName = (visitableInputList == null || visitableInputList.size() == 0) ? DEFAULT_BASENAME 
+						: visitableInputList.get(0).getBaseName();
 				LOG.trace("basename "+baseName);
 				outputDirectory = new File(outputDirectory, baseName+"."+extension);
 			}

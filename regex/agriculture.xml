@@ -1,4 +1,7 @@
 <compoundRegex title="agriculture">
+<!--  test -->
+<!--  <regex weight="1.0" fields="plant">([Pp]lants?)</regex> -->
+ 
 <regex weight="1.0" fields="deeproot">([Dd]eep\s+[Rr]oot)</regex>
 <regex weight="1.0" fields="droughttol">([Dd]rought\s+[Tt]olerance)</regex>
 <regex weight="1.0" fields="amount sunshade">(([Ff]ull|[Pp]artial)\s+([Ss]hade|[Ss]un))</regex>

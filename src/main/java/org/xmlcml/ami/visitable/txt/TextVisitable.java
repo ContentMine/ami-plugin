@@ -36,7 +36,7 @@ public class TextVisitable extends AbstractVisitable  {
 	}
 
 	@Override
-	public void readURLconvertToObjectAndAddtoVisitable(URL url) throws Exception {
+	public void downloadParseAndAddURL(URL url) throws Exception {
 		super.addURL(url);
 		ensureTextContainerList();
 		try {

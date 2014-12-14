@@ -26,6 +26,7 @@ public abstract class AbstractVisitable {
 	private boolean recursiveVisit = false;
 	protected List<File> fileList;
 	protected URL url;
+	protected int sleepTime = 4000; // includes other time so ca 5000
 
 	protected AbstractVisitable() {
 		
@@ -106,7 +107,7 @@ public abstract class AbstractVisitable {
 	 * @param url
 	 * @throws Exception
 	 */
-	public abstract void readURLconvertToObjectAndAddtoVisitable(URL url) throws Exception;
+	public abstract void downloadParseAndAddURL(URL url) throws Exception;
 
 	public List<File> getFileList() {
 		ensureFileList();
@@ -143,8 +144,9 @@ public abstract class AbstractVisitable {
 		return sb.toString();
 	}
 
-	public void addURL(URL url) {
+	public void addURL(URL url) throws Exception {
 		this.url = url;
+		Thread.sleep(sleepTime);
 	}
 
 }

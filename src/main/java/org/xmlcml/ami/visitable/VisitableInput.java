@@ -82,8 +82,7 @@ public class VisitableInput {
 	private void addURLToVisitableList(String urlString) {
 		try {
 			URL url = new URL(urlString);
-			//FIXME will have to tidy HTML here
-			AbstractVisitable visitable = createVisitable(url);
+			AbstractVisitable visitable = downloadAndCreateVisitable(url);
 			if (visitable != null) {
 				visitableList.add(visitable);
 			}
@@ -123,10 +122,10 @@ public class VisitableInput {
 		return visitable;
 	}
 
-	public AbstractVisitable createVisitable(URL url) throws Exception {
+	public AbstractVisitable downloadAndCreateVisitable(URL url) throws Exception {
 		AbstractVisitable visitable = createNewSubclassedVisitableFromExtension(inputFilenameExtension);
 		if (visitable != null) {
-			visitable.readURLconvertToObjectAndAddtoVisitable(url);
+			visitable.downloadParseAndAddURL(url);
 		}
 		return visitable;
 	}
@@ -216,7 +215,7 @@ public class VisitableInput {
 //		sb.append("visitableList: "+visitableList+"\n");
 		sb.append("inputArg: "+inputArg+"; ");
 		sb.append("extension: "+inputFilenameExtension+"; ");
-		sb.append("extensions: "+Arrays.asList(extensions)+"; ");
+		if (extensions != null) sb.append("extensions: "+Arrays.asList(extensions)+"; ");
 		sb.append("isDirectory: "+isDirectory+"; ");
 		sb.append("recursive: "+recursive+"; ");
 		return sb.toString();

@@ -4,10 +4,12 @@ import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 import java.util.ListIterator;
+import java.util.regex.Matcher;
+import java.util.regex.Pattern;
 
 import org.apache.log4j.Logger;
-import org.xmlcml.ami.visitable.VisitableInput;
 import org.xmlcml.ami.util.AMIUtil;
+import org.xmlcml.ami.visitable.VisitableInput;
 
 /** 
  * Processes commandline arguments.
@@ -32,13 +34,14 @@ public class ArgProcessor {
 	
 	public static final String MINUS = "-";
 	
-	private VisitableInput visitableInput;
+	private List<VisitableInput> visitableInputList;
 	private VisitorOutput visitorOutput;
 	private XPathProcessor xPathProcessor;
 	private List<String> extensions = Arrays.asList(DEFAULT_EXTENSIONS);
 	private boolean recursive = false;
-
 	private AbstractVisitor visitor;
+
+	private static Pattern INTEGER_RANGE = Pattern.compile("(.*)\\{(\\d+),(\\d+)\\}(.*)");
 	
 	public ArgProcessor(String[] commandLineArgs, AbstractVisitor visitor) {
 		this.visitor = visitor;
@@ -64,9 +67,57 @@ public class ArgProcessor {
 	}
 
 	private void processInput(ListIterator<String> listIterator) {
-		checkHasNext(listIterator);
-		String input = listIterator.next();
-		visitableInput = new VisitableInput(input);
+		List<String> inputs = readInputs(listIterator);
+		if (inputs.size() == 0) {
+			visitableInputList = null;
+			LOG.error("Must give at least one input");
+		} else {
+			visitableInputList = new ArrayList<VisitableInput>();
+			if (inputs.size() == 1) {
+				inputs = expandWildcards(inputs.get(0));
+			}
+			for (String input : inputs) {
+				VisitableInput visitableInput = new VisitableInput(input);
+				visitableInputList.add(visitableInput);
+			}
+		}
+	}
+
+	/** expand expressions/wildcards in input.
+	 * 
+	 * @param input
+	 * @return
+	 */
+	private List<String> expandWildcards(String input) {
+		Matcher matcher = INTEGER_RANGE.matcher(input);
+		List<String> inputs = new ArrayList<String>();
+		if (matcher.matches()) {
+			int start = Integer.parseInt(matcher.group(2));
+			int end = Integer.parseInt(matcher.group(3));
+			if (start <= end) {
+				for (int i = start; i <= end; i++) {
+					String input0 = matcher.group(1)+i+matcher.group(4);
+					inputs.add(input0);
+				}
+			}
+		} else {
+			inputs.add(input);
+		}
+		LOG.trace("inputs: "+inputs);
+		return inputs;
+	}
+
+	private List<String> readInputs(ListIterator<String> listIterator) {
+		List<String> inputs = new ArrayList<String>();
+		while (listIterator.hasNext()) {
+			String next = listIterator.next();
+			if (next.startsWith(MINUS)) {
+				listIterator.previous();
+				break;
+			}
+			inputs.add(next);
+		}
+		return inputs;
 	}
 
 	private void processOutput(ListIterator<String> listIterator) {
@@ -103,8 +154,8 @@ public class ArgProcessor {
 		}
 	}
 
-	public VisitableInput getVisitableInput() {
-		return visitableInput;
+	public List<VisitableInput> getVisitableInputList() {
+		return visitableInputList;
 	}
 
 	public VisitorOutput getVisitorOutput() {

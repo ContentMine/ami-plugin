@@ -54,7 +54,7 @@ public class RegexSearcher extends AbstractSearcher {
 		if (regexContainer.getCompoundRegexList() != null) {
 			searchXomElement(xmlContainer.getElement());
 		}
-		LOG.debug("RESULT LIST... "+resultList.size());
+		LOG.trace("RESULT LIST... "+resultList.size());
 		return;
 	}
 
@@ -165,8 +165,8 @@ public class RegexSearcher extends AbstractSearcher {
 				resultList.add(regexResult.getSimpleResult());
 			}
 		}
-		LOG.debug("MADE RESULT LIST: "+resultList.size());
-		LOG.debug("RESULT "+resultList.toString());
+		LOG.trace("MADE RESULT LIST: "+resultList.size());
+		LOG.trace("RESULT "+resultList.toString());
 		return;
 	}
 
