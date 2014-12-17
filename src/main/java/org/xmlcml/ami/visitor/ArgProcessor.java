@@ -28,6 +28,10 @@ public class ArgProcessor {
 	private static final String RECURSIVE  = "--recursive";
 	private static final String E          = "-e";
 	private static final String EXTENSIONS = "--extensions";
+	private static final String T          = "-t";
+	private static final String TAGGER = "--tagger";
+//	private static final String S          = "-s";
+//	private static final String SECTIONS = "--sections";
 	private static final String X          = "-x";
 	private static final String XPATH      = "--xpath";
 	private static final String[] DEFAULT_EXTENSIONS = {AMIUtil.HTM};
@@ -42,7 +46,7 @@ public class ArgProcessor {
 	private AbstractVisitor visitor;
 
 	private static Pattern INTEGER_RANGE = Pattern.compile("(.*)\\{(\\d+),(\\d+)\\}(.*)");
-	
+
 	public ArgProcessor(String[] commandLineArgs, AbstractVisitor visitor) {
 		this.visitor = visitor;
 		processArgs(Arrays.asList(commandLineArgs));
@@ -60,6 +64,8 @@ public class ArgProcessor {
 			if (I.equals(arg) || INPUT.equals(arg)) {processInput(listIterator); continue;}
 			if (O.equals(arg) || OUTPUT.equals(arg)) {processOutput(listIterator); continue;}
 			if (R.equals(arg) || RECURSIVE.equals(arg)) {processRecursive(listIterator); continue;}
+//			if (S.equals(arg) || SECTIONS.equals(arg)) {processSections(listIterator); continue;}
+			if (T.equals(arg) || TAGGER.equals(arg)) {processTagger(listIterator); continue;}
 			if (X.equals(arg) || XPATH.equals(arg)) {processXpath(listIterator); continue;}
 			if (visitor.processArg(arg, listIterator)) {continue;}
 			LOG.error("Unknown arg: ("+arg+"), trying to recover");
@@ -67,15 +73,15 @@ public class ArgProcessor {
 	}
 
 	private void processInput(ListIterator<String> listIterator) {
-		List<String> inputs = readInputs(listIterator);
+		List<String> inputs = createTokenListUpToNextMinus(listIterator);
 		if (inputs.size() == 0) {
 			visitableInputList = null;
 			LOG.error("Must give at least one input");
 		} else {
-			visitableInputList = new ArrayList<VisitableInput>();
 			if (inputs.size() == 1) {
 				inputs = expandWildcards(inputs.get(0));
 			}
+			visitableInputList = new ArrayList<VisitableInput>();
 			for (String input : inputs) {
 				VisitableInput visitableInput = new VisitableInput(input);
 				visitableInputList.add(visitableInput);
@@ -107,19 +113,6 @@ public class ArgProcessor {
 		return inputs;
 	}
 
-	private List<String> readInputs(ListIterator<String> listIterator) {
-		List<String> inputs = new ArrayList<String>();
-		while (listIterator.hasNext()) {
-			String next = listIterator.next();
-			if (next.startsWith(MINUS)) {
-				listIterator.previous();
-				break;
-			}
-			inputs.add(next);
-		}
-		return inputs;
-	}
-
 	private void processOutput(ListIterator<String> listIterator) {
 		checkHasNext(listIterator);
 		String output = listIterator.next();
@@ -130,6 +123,30 @@ public class ArgProcessor {
 		recursive = true;
 	}
 
+	private void processTagger(ListIterator<String> listIterator) {
+		visitor.setTaggers(createTokenListUpToNextMinus(listIterator));
+	}
+
+	/** read tokens until next - sign.
+	 * 
+	 * leave iterator ready to read next minus
+	 * 
+	 * @param listIterator
+	 * @return
+	 */
+	private static List<String> createTokenListUpToNextMinus(ListIterator<String> listIterator) {
+		List<String> list = new ArrayList<String>();
+		while (listIterator.hasNext()) {
+			String next = listIterator.next();
+			if (next.startsWith(MINUS)) {
+				listIterator.previous();
+				break;
+			}
+			list.add(next);
+		}
+		return list;
+	}
+
 	private void processXpath(ListIterator<String> listIterator) {
 		checkHasNext(listIterator);
 		String xpath = listIterator.next();
@@ -137,15 +154,7 @@ public class ArgProcessor {
 	}
 
 	private void processExtensions(ListIterator<String> listIterator) {
-		extensions = new ArrayList<String>();
-		while (listIterator.hasNext()) {
-			String next = listIterator.next();
-			if (next.startsWith(MINUS)) {
-				listIterator.previous();
-				break;
-			}
-			extensions.add(next);
-		}
+		extensions = createTokenListUpToNextMinus(listIterator);
 	}
 
 	private void checkHasNext(ListIterator<String> listIterator) {

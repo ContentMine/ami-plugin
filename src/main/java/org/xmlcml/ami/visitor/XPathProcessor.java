@@ -20,4 +20,9 @@ public class XPathProcessor {
 	public XPathProcessor(String xpath) {
 		this.xpath = xpath;
 	}
+
+	public String getXPath() {
+		return xpath;
+	}
+	
 }

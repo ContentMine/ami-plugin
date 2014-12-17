@@ -46,10 +46,12 @@ public class TreeVisitor extends AbstractVisitor {
 	@Override
 	public void visit(SVGVisitable svgVisitable) {
 		ensureResultsElement();
-		for (VisitableContainer svgContainer : svgVisitable.getSVGContainerList()) {
-			SVGXTree tree = makeTree((SVGContainer)svgContainer);
-			resultsElement.appendChild(tree.createNEXML());
-			//resultsElement.appendChild(tree);
+		if (svgVisitable != null) {
+			for (VisitableContainer svgContainer : svgVisitable.getSVGContainerList()) {
+				SVGXTree tree = makeTree((SVGContainer)svgContainer);
+				resultsElement.appendChild(tree.createNEXML());
+				//resultsElement.appendChild(tree);
+			}
 		}
 	}
 	

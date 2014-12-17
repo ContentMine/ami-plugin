@@ -1,0 +1,2300 @@
+<resultsList xmlns="http://www.xml-cml.org/ami">
+	<resultsX>
+		<source name="http://www.biomedcentral.com/1471-2229/14/1" />
+		<result>
+			<regex>
+				<regex xmlns="" weight="1.0" fields="[growthrate]">
+					<pattern>([Gg]rowth\s+[Rr]ate)</pattern>
+				</regex>
+				<hits>
+					<hit growthrate="growth rate" />
+					<hit growthrate="growth rate" />
+					<hit growthrate="growth rate" />
+					<hit growthrate="growth rate" />
+					<hit growthrate="growth rate" />
+					<hit growthrate="growth rate" />
+					<hit growthrate="growth rate" />
+					<hit growthrate="growth rate" />
+					<hit growthrate="growth rate" />
+					<hit growthrate="growth rate" />
+					<hit growthrate="growth rate" />
+					<hit growthrate="growth rate" />
+					<hit growthrate="growth rate" />
+					<hit growthrate="growth rate" />
+					<hit growthrate="growth rate" />
+					<hit growthrate="growth rate" />
+					<hit growthrate="growth rate" />
+					<hit growthrate="growth rate" />
+					<hit growthrate="growth rate" />
+					<hit growthrate="growth rate" />
+				</hits>
+			</regex>
+		</result>
+	</resultsX>
+	<resultsX>
+		<source name="http://www.biomedcentral.com/1471-2229/14/2" />
+		<result>
+			<regex>
+				<regex xmlns="" weight="1.0" fields="[deeproot]">
+					<pattern>([Dd]eep\s+[Rr]oot)</pattern>
+				</regex>
+				<hits>
+					<hit deeproot="deep root" />
+					<hit deeproot="deep root" />
+				</hits>
+			</regex>
+		</result>
+	</resultsX>
+	<resultsX>
+		<source name="http://www.biomedcentral.com/1471-2229/14/3" />
+	</resultsX>
+	<resultsX>
+		<source name="http://www.biomedcentral.com/1471-2229/14/4" />
+	</resultsX>
+	<resultsX>
+		<source name="http://www.biomedcentral.com/1471-2229/14/5" />
+	</resultsX>
+	<resultsX>
+		<source name="http://www.biomedcentral.com/1471-2229/14/6" />
+	</resultsX>
+	<resultsX>
+		<source name="http://www.biomedcentral.com/1471-2229/14/7" />
+	</resultsX>
+	<resultsX>
+		<source name="http://www.biomedcentral.com/1471-2229/14/8" />
+	</resultsX>
+	<resultsX>
+		<source name="http://www.biomedcentral.com/1471-2229/14/9" />
+	</resultsX>
+	<resultsX>
+		<source name="http://www.biomedcentral.com/1471-2229/14/10" />
+	</resultsX>
+	<resultsX>
+		<source name="http://www.biomedcentral.com/1471-2229/14/11" />
+	</resultsX>
+	<resultsX>
+		<source name="http://www.biomedcentral.com/1471-2229/14/12" />
+	</resultsX>
+	<resultsX>
+		<source name="http://www.biomedcentral.com/1471-2229/14/13" />
+	</resultsX>
+	<resultsX>
+		<source name="http://www.biomedcentral.com/1471-2229/14/14" />
+	</resultsX>
+	<resultsX>
+		<source name="http://www.biomedcentral.com/1471-2229/14/15" />
+		<result>
+			<regex>
+				<regex xmlns="" weight="1.0" fields="[droughttol]">
+					<pattern>([Dd]rought\s+[Tt]olerance)</pattern>
+				</regex>
+				<hits>
+					<hit droughttol="Drought tolerance" />
+					<hit droughttol="drought tolerance" />
+				</hits>
+			</regex>
+		</result>
+	</resultsX>
+	<resultsX>
+		<source name="http://www.biomedcentral.com/1471-2229/14/16" />
+	</resultsX>
+	<resultsX>
+		<source name="http://www.biomedcentral.com/1471-2229/14/17" />
+	</resultsX>
+	<resultsX>
+		<source name="http://www.biomedcentral.com/1471-2229/14/18" />
+	</resultsX>
+	<resultsX>
+		<source name="http://www.biomedcentral.com/1471-2229/14/19" />
+	</resultsX>
+	<resultsX>
+		<source name="http://www.biomedcentral.com/1471-2229/14/20" />
+	</resultsX>
+	<resultsX>
+		<source name="http://www.biomedcentral.com/1471-2229/14/21" />
+	</resultsX>
+	<resultsX>
+		<source name="http://www.biomedcentral.com/1471-2229/14/22" />
+		<result>
+			<regex>
+				<regex xmlns="" weight="1.0" fields="[growthrate]">
+					<pattern>([Gg]rowth\s+[Rr]ate)</pattern>
+				</regex>
+				<hits>
+					<hit growthrate="growth rate" />
+					<hit growthrate="growth rate" />
+				</hits>
+			</regex>
+		</result>
+	</resultsX>
+	<resultsX>
+		<source name="http://www.biomedcentral.com/1471-2229/14/23" />
+	</resultsX>
+	<resultsX>
+		<source name="http://www.biomedcentral.com/1471-2229/14/24" />
+	</resultsX>
+	<resultsX>
+		<source name="http://www.biomedcentral.com/1471-2229/14/25" />
+		<result>
+			<regex>
+				<regex xmlns="" weight="1.0" fields="[growthrate]">
+					<pattern>([Gg]rowth\s+[Rr]ate)</pattern>
+				</regex>
+				<hits>
+					<hit growthrate="growth rate" />
+				</hits>
+			</regex>
+		</result>
+	</resultsX>
+	<resultsX>
+		<source name="http://www.biomedcentral.com/1471-2229/14/26" />
+	</resultsX>
+	<resultsX>
+		<source name="http://www.biomedcentral.com/1471-2229/14/27" />
+	</resultsX>
+	<resultsX>
+		<source name="http://www.biomedcentral.com/1471-2229/14/28" />
+	</resultsX>
+	<resultsX>
+		<source name="http://www.biomedcentral.com/1471-2229/14/29" />
+	</resultsX>
+	<resultsX>
+		<source name="http://www.biomedcentral.com/1471-2229/14/30" />
+	</resultsX>
+	<resultsX>
+		<source name="http://www.biomedcentral.com/1471-2229/14/31" />
+		<result>
+			<regex>
+				<regex xmlns="" weight="1.0" fields="[growthrate]">
+					<pattern>([Gg]rowth\s+[Rr]ate)</pattern>
+				</regex>
+				<hits>
+					<hit growthrate="growth rate" />
+				</hits>
+			</regex>
+		</result>
+	</resultsX>
+	<resultsX>
+		<source name="http://www.biomedcentral.com/1471-2229/14/32" />
+	</resultsX>
+	<resultsX>
+		<source name="http://www.biomedcentral.com/1471-2229/14/33" />
+	</resultsX>
+	<resultsX>
+		<source name="http://www.biomedcentral.com/1471-2229/14/34" />
+	</resultsX>
+	<resultsX>
+		<source name="http://www.biomedcentral.com/1471-2229/14/35" />
+	</resultsX>
+	<resultsX>
+		<source name="http://www.biomedcentral.com/1471-2229/14/36" />
+		<result>
+			<regex>
+				<regex xmlns="" weight="1.0" fields="[droughttol]">
+					<pattern>([Dd]rought\s+[Tt]olerance)</pattern>
+				</regex>
+				<hits>
+					<hit droughttol="drought tolerance" />
+				</hits>
+			</regex>
+		</result>
+		<result>
+			<regex>
+				<regex xmlns="" weight="1.0" fields="[growthrate]">
+					<pattern>([Gg]rowth\s+[Rr]ate)</pattern>
+				</regex>
+				<hits>
+					<hit growthrate="growth rate" />
+				</hits>
+			</regex>
+		</result>
+	</resultsX>
+	<resultsX>
+		<source name="http://www.biomedcentral.com/1471-2229/14/37" />
+		<result>
+			<regex>
+				<regex xmlns="" weight="1.0" fields="[growthrate]">
+					<pattern>([Gg]rowth\s+[Rr]ate)</pattern>
+				</regex>
+				<hits>
+					<hit growthrate="growth rate" />
+					<hit growthrate="Growth rate" />
+				</hits>
+			</regex>
+		</result>
+	</resultsX>
+	<resultsX>
+		<source name="http://www.biomedcentral.com/1471-2229/14/38" />
+	</resultsX>
+	<resultsX>
+		<source name="http://www.biomedcentral.com/1471-2229/14/40" />
+		<result>
+			<regex>
+				<regex xmlns="" weight="1.0" fields="[growthrate]">
+					<pattern>([Gg]rowth\s+[Rr]ate)</pattern>
+				</regex>
+				<hits>
+					<hit growthrate="growth rate" />
+				</hits>
+			</regex>
+		</result>
+	</resultsX>
+	<resultsX>
+		<source name="http://www.biomedcentral.com/1471-2229/14/41" />
+	</resultsX>
+	<resultsX>
+		<source name="http://www.biomedcentral.com/1471-2229/14/42" />
+	</resultsX>
+	<resultsX>
+		<source name="http://www.biomedcentral.com/1471-2229/14/43" />
+		<result>
+			<regex>
+				<regex xmlns="" weight="1.0" fields="[growthrate]">
+					<pattern>([Gg]rowth\s+[Rr]ate)</pattern>
+				</regex>
+				<hits>
+					<hit growthrate="growth rate" />
+					<hit growthrate="growth rate" />
+				</hits>
+			</regex>
+		</result>
+		<result>
+			<regex>
+				<regex xmlns="" weight="1.0" fields="[wateruse]">
+					<pattern>([Ww]ater\s+[Uu]se)</pattern>
+				</regex>
+				<hits>
+					<hit wateruse="Water use" />
+				</hits>
+			</regex>
+		</result>
+	</resultsX>
+	<resultsX>
+		<source name="http://www.biomedcentral.com/1471-2229/14/44" />
+		<result>
+			<regex>
+				<regex xmlns="" weight="1.0" fields="[droughttol]">
+					<pattern>([Dd]rought\s+[Tt]olerance)</pattern>
+				</regex>
+				<hits>
+					<hit droughttol="drought tolerance" />
+					<hit droughttol="drought tolerance" />
+					<hit droughttol="drought tolerance" />
+				</hits>
+			</regex>
+		</result>
+		<result>
+			<regex>
+				<regex xmlns="" weight="1.0" fields="[growthrate]">
+					<pattern>([Gg]rowth\s+[Rr]ate)</pattern>
+				</regex>
+				<hits>
+					<hit growthrate="growth rate" />
+					<hit growthrate="growth rate" />
+				</hits>
+			</regex>
+		</result>
+	</resultsX>
+	<resultsX>
+		<source name="http://www.biomedcentral.com/1471-2229/14/45" />
+	</resultsX>
+	<resultsX>
+		<source name="http://www.biomedcentral.com/1471-2229/14/46" />
+		<result>
+			<regex>
+				<regex xmlns="" weight="1.0" fields="[droughttol]">
+					<pattern>([Dd]rought\s+[Tt]olerance)</pattern>
+				</regex>
+				<hits>
+					<hit droughttol="drought tolerance" />
+				</hits>
+			</regex>
+		</result>
+	</resultsX>
+	<resultsX>
+		<source name="http://www.biomedcentral.com/1471-2229/14/47" />
+		<result>
+			<regex>
+				<regex xmlns="" weight="1.0" fields="[growthrate]">
+					<pattern>([Gg]rowth\s+[Rr]ate)</pattern>
+				</regex>
+				<hits>
+					<hit growthrate="growth rate" />
+				</hits>
+			</regex>
+		</result>
+	</resultsX>
+	<resultsX>
+		<source name="http://www.biomedcentral.com/1471-2229/14/48" />
+	</resultsX>
+	<resultsX>
+		<source name="http://www.biomedcentral.com/1471-2229/14/49" />
+	</resultsX>
+	<resultsX>
+		<source name="http://www.biomedcentral.com/1471-2229/14/50" />
+	</resultsX>
+	<resultsX>
+		<source name="http://www.biomedcentral.com/1471-2229/14/51" />
+	</resultsX>
+	<resultsX>
+		<source name="http://www.biomedcentral.com/1471-2229/14/52" />
+	</resultsX>
+	<resultsX>
+		<source name="http://www.biomedcentral.com/1471-2229/14/53" />
+	</resultsX>
+	<resultsX>
+		<source name="http://www.biomedcentral.com/1471-2229/14/54" />
+		<result>
+			<regex>
+				<regex xmlns="" weight="1.0" fields="[droughttol]">
+					<pattern>([Dd]rought\s+[Tt]olerance)</pattern>
+				</regex>
+				<hits>
+					<hit droughttol="drought tolerance" />
+				</hits>
+			</regex>
+		</result>
+	</resultsX>
+	<resultsX>
+		<source name="http://www.biomedcentral.com/1471-2229/14/55" />
+	</resultsX>
+	<resultsX>
+		<source name="http://www.biomedcentral.com/1471-2229/14/56" />
+	</resultsX>
+	<resultsX>
+		<source name="http://www.biomedcentral.com/1471-2229/14/57" />
+		<result>
+			<regex>
+				<regex xmlns="" weight="1.0" fields="[growthrate]">
+					<pattern>([Gg]rowth\s+[Rr]ate)</pattern>
+				</regex>
+				<hits>
+					<hit growthrate="growth rate" />
+				</hits>
+			</regex>
+		</result>
+	</resultsX>
+	<resultsX>
+		<source name="http://www.biomedcentral.com/1471-2229/14/58" />
+	</resultsX>
+	<resultsX>
+		<source name="http://www.biomedcentral.com/1471-2229/14/59" />
+		<result>
+			<regex>
+				<regex xmlns="" weight="1.0" fields="[droughttol]">
+					<pattern>([Dd]rought\s+[Tt]olerance)</pattern>
+				</regex>
+				<hits>
+					<hit droughttol="drought tolerance" />
+					<hit droughttol="drought tolerance" />
+					<hit droughttol="drought tolerance" />
+				</hits>
+			</regex>
+		</result>
+		<result>
+			<regex>
+				<regex xmlns="" weight="1.0" fields="[wateruse]">
+					<pattern>([Ww]ater\s+[Uu]se)</pattern>
+				</regex>
+				<hits>
+					<hit wateruse="water use" />
+					<hit wateruse="water use" />
+				</hits>
+			</regex>
+		</result>
+	</resultsX>
+	<resultsX>
+		<source name="http://www.biomedcentral.com/1471-2229/14/60" />
+	</resultsX>
+	<resultsX>
+		<source name="http://www.biomedcentral.com/1471-2229/14/61" />
+	</resultsX>
+	<resultsX>
+		<source name="http://www.biomedcentral.com/1471-2229/14/62" />
+	</resultsX>
+	<resultsX>
+		<source name="http://www.biomedcentral.com/1471-2229/14/63" />
+	</resultsX>
+	<resultsX>
+		<source name="http://www.biomedcentral.com/1471-2229/14/64" />
+	</resultsX>
+	<resultsX>
+		<source name="http://www.biomedcentral.com/1471-2229/14/65" />
+	</resultsX>
+	<resultsX>
+		<source name="http://www.biomedcentral.com/1471-2229/14/66" />
+	</resultsX>
+	<resultsX>
+		<source name="http://www.biomedcentral.com/1471-2229/14/67" />
+	</resultsX>
+	<resultsX>
+		<source name="http://www.biomedcentral.com/1471-2229/14/68" />
+	</resultsX>
+	<resultsX>
+		<source name="http://www.biomedcentral.com/1471-2229/14/69" />
+	</resultsX>
+	<resultsX>
+		<source name="http://www.biomedcentral.com/1471-2229/14/70" />
+	</resultsX>
+	<resultsX>
+		<source name="http://www.biomedcentral.com/1471-2229/14/71" />
+	</resultsX>
+	<resultsX>
+		<source name="http://www.biomedcentral.com/1471-2229/14/72" />
+		<result>
+			<regex>
+				<regex xmlns="" weight="1.0" fields="[growthrate]">
+					<pattern>([Gg]rowth\s+[Rr]ate)</pattern>
+				</regex>
+				<hits>
+					<hit growthrate="growth rate" />
+					<hit growthrate="growth rate" />
+					<hit growthrate="growth rate" />
+				</hits>
+			</regex>
+		</result>
+		<result>
+			<regex>
+				<regex xmlns="" weight="1.0" fields="[wateruse]">
+					<pattern>([Ww]ater\s+[Uu]se)</pattern>
+				</regex>
+				<hits>
+					<hit wateruse="water use" />
+					<hit wateruse="water use" />
+				</hits>
+			</regex>
+		</result>
+	</resultsX>
+	<resultsX>
+		<source name="http://www.biomedcentral.com/1471-2229/14/73" />
+		<result>
+			<regex>
+				<regex xmlns="" weight="1.0" fields="[droughttol]">
+					<pattern>([Dd]rought\s+[Tt]olerance)</pattern>
+				</regex>
+				<hits>
+					<hit droughttol="drought tolerance" />
+				</hits>
+			</regex>
+		</result>
+	</resultsX>
+	<resultsX>
+		<source name="http://www.biomedcentral.com/1471-2229/14/74" />
+		<result>
+			<regex>
+				<regex xmlns="" weight="1.0" fields="[growthrate]">
+					<pattern>([Gg]rowth\s+[Rr]ate)</pattern>
+				</regex>
+				<hits>
+					<hit growthrate="growth rate" />
+					<hit growthrate="growth rate" />
+					<hit growthrate="growth rate" />
+				</hits>
+			</regex>
+		</result>
+	</resultsX>
+	<resultsX>
+		<source name="http://www.biomedcentral.com/1471-2229/14/75" />
+		<result>
+			<regex>
+				<regex xmlns="" weight="1.0" fields="[droughttol]">
+					<pattern>([Dd]rought\s+[Tt]olerance)</pattern>
+				</regex>
+				<hits>
+					<hit droughttol="drought tolerance" />
+					<hit droughttol="drought tolerance" />
+					<hit droughttol="drought tolerance" />
+					<hit droughttol="drought tolerance" />
+					<hit droughttol="drought tolerance" />
+				</hits>
+			</regex>
+		</result>
+	</resultsX>
+	<resultsX>
+		<source name="http://www.biomedcentral.com/1471-2229/14/76" />
+	</resultsX>
+	<resultsX>
+		<source name="http://www.biomedcentral.com/1471-2229/14/77" />
+		<result>
+			<regex>
+				<regex xmlns="" weight="1.0" fields="[growthrate]">
+					<pattern>([Gg]rowth\s+[Rr]ate)</pattern>
+				</regex>
+				<hits>
+					<hit growthrate="growth rate" />
+					<hit growthrate="growth rate" />
+					<hit growthrate="growth rate" />
+					<hit growthrate="growth rate" />
+					<hit growthrate="growth rate" />
+					<hit growthrate="growth rate" />
+					<hit growthrate="Growth Rate" />
+					<hit growthrate="growth rate" />
+					<hit growthrate="growth rate" />
+					<hit growthrate="growth rate" />
+					<hit growthrate="growth rate" />
+					<hit growthrate="growth rate" />
+					<hit growthrate="growth rate" />
+					<hit growthrate="growth rate" />
+					<hit growthrate="growth rate" />
+				</hits>
+			</regex>
+		</result>
+	</resultsX>
+	<resultsX>
+		<source name="http://www.biomedcentral.com/1471-2229/14/78" />
+		<result>
+			<regex>
+				<regex xmlns="" weight="1.0" fields="[wateruse]">
+					<pattern>([Ww]ater\s+[Uu]se)</pattern>
+				</regex>
+				<hits>
+					<hit wateruse="water use" />
+				</hits>
+			</regex>
+		</result>
+	</resultsX>
+	<resultsX>
+		<source name="http://www.biomedcentral.com/1471-2229/14/79" />
+	</resultsX>
+	<resultsX>
+		<source name="http://www.biomedcentral.com/1471-2229/14/80" />
+	</resultsX>
+	<resultsX>
+		<source name="http://www.biomedcentral.com/1471-2229/14/81" />
+	</resultsX>
+	<resultsX>
+		<source name="http://www.biomedcentral.com/1471-2229/14/82" />
+	</resultsX>
+	<resultsX>
+		<source name="http://www.biomedcentral.com/1471-2229/14/83" />
+		<result>
+			<regex>
+				<regex xmlns="" weight="1.0" fields="[droughttol]">
+					<pattern>([Dd]rought\s+[Tt]olerance)</pattern>
+				</regex>
+				<hits>
+					<hit droughttol="drought tolerance" />
+					<hit droughttol="drought tolerance" />
+					<hit droughttol="drought tolerance" />
+					<hit droughttol="drought tolerance" />
+					<hit droughttol="drought tolerance" />
+					<hit droughttol="drought tolerance" />
+					<hit droughttol="drought tolerance" />
+					<hit droughttol="drought tolerance" />
+					<hit droughttol="drought tolerance" />
+					<hit droughttol="drought tolerance" />
+					<hit droughttol="drought tolerance" />
+					<hit droughttol="drought tolerance" />
+					<hit droughttol="drought tolerance" />
+					<hit droughttol="drought tolerance" />
+					<hit droughttol="drought tolerance" />
+					<hit droughttol="drought tolerance" />
+					<hit droughttol="drought tolerance" />
+					<hit droughttol="drought tolerance" />
+					<hit droughttol="drought tolerance" />
+					<hit droughttol="drought tolerance" />
+					<hit droughttol="drought tolerance" />
+					<hit droughttol="drought tolerance" />
+					<hit droughttol="drought tolerance" />
+					<hit droughttol="drought tolerance" />
+					<hit droughttol="drought tolerance" />
+					<hit droughttol="drought tolerance" />
+					<hit droughttol="drought tolerance" />
+					<hit droughttol="drought tolerance" />
+					<hit droughttol="drought tolerance" />
+					<hit droughttol="drought tolerance" />
+					<hit droughttol="drought tolerance" />
+					<hit droughttol="drought tolerance" />
+					<hit droughttol="drought tolerance" />
+					<hit droughttol="drought tolerance" />
+					<hit droughttol="drought tolerance" />
+					<hit droughttol="drought tolerance" />
+					<hit droughttol="drought tolerance" />
+					<hit droughttol="drought tolerance" />
+					<hit droughttol="drought tolerance" />
+					<hit droughttol="drought tolerance" />
+					<hit droughttol="drought tolerance" />
+					<hit droughttol="drought tolerance" />
+					<hit droughttol="drought tolerance" />
+					<hit droughttol="drought tolerance" />
+					<hit droughttol="drought tolerance" />
+					<hit droughttol="Drought tolerance" />
+					<hit droughttol="drought tolerance" />
+					<hit droughttol="drought tolerance" />
+					<hit droughttol="drought tolerance" />
+					<hit droughttol="drought tolerance" />
+					<hit droughttol="drought tolerance" />
+					<hit droughttol="drought tolerance" />
+					<hit droughttol="drought tolerance" />
+					<hit droughttol="drought tolerance" />
+					<hit droughttol="drought tolerance" />
+					<hit droughttol="drought tolerance" />
+					<hit droughttol="Drought tolerance" />
+					<hit droughttol="drought tolerance" />
+				</hits>
+			</regex>
+		</result>
+	</resultsX>
+	<resultsX>
+		<source name="http://www.biomedcentral.com/1471-2229/14/84" />
+	</resultsX>
+	<resultsX>
+		<source name="http://www.biomedcentral.com/1471-2229/14/85" />
+		<result>
+			<regex>
+				<regex xmlns="" weight="1.0" fields="[droughttol]">
+					<pattern>([Dd]rought\s+[Tt]olerance)</pattern>
+				</regex>
+				<hits>
+					<hit droughttol="drought tolerance" />
+					<hit droughttol="drought tolerance" />
+				</hits>
+			</regex>
+		</result>
+	</resultsX>
+	<resultsX>
+		<source name="http://www.biomedcentral.com/1471-2229/14/86" />
+	</resultsX>
+	<resultsX>
+		<source name="http://www.biomedcentral.com/1471-2229/14/87" />
+	</resultsX>
+	<resultsX>
+		<source name="http://www.biomedcentral.com/1471-2229/14/88" />
+	</resultsX>
+	<resultsX>
+		<source name="http://www.biomedcentral.com/1471-2229/14/89" />
+	</resultsX>
+	<resultsX>
+		<source name="http://www.biomedcentral.com/1471-2229/14/90" />
+	</resultsX>
+	<resultsX>
+		<source name="http://www.biomedcentral.com/1471-2229/14/91" />
+	</resultsX>
+	<resultsX>
+		<source name="http://www.biomedcentral.com/1471-2229/14/92" />
+	</resultsX>
+	<resultsX>
+		<source name="http://www.biomedcentral.com/1471-2229/14/93" />
+	</resultsX>
+	<resultsX>
+		<source name="http://www.biomedcentral.com/1471-2229/14/94" />
+	</resultsX>
+	<resultsX>
+		<source name="http://www.biomedcentral.com/1471-2229/14/95" />
+	</resultsX>
+	<resultsX>
+		<source name="http://www.biomedcentral.com/1471-2229/14/96" />
+	</resultsX>
+	<resultsX>
+		<source name="http://www.biomedcentral.com/1471-2229/14/97" />
+	</resultsX>
+	<resultsX>
+		<source name="http://www.biomedcentral.com/1471-2229/14/98" />
+	</resultsX>
+	<resultsX>
+		<source name="http://www.biomedcentral.com/1471-2229/14/99" />
+	</resultsX>
+	<resultsX>
+		<source name="http://www.biomedcentral.com/1471-2229/14/100" />
+		<result>
+			<regex>
+				<regex xmlns="" weight="1.0" fields="[wateruse]">
+					<pattern>([Ww]ater\s+[Uu]se)</pattern>
+				</regex>
+				<hits>
+					<hit wateruse="water use" />
+				</hits>
+			</regex>
+		</result>
+	</resultsX>
+	<resultsX>
+		<source name="http://www.biomedcentral.com/1471-2229/14/101" />
+	</resultsX>
+	<resultsX>
+		<source name="http://www.biomedcentral.com/1471-2229/14/102" />
+	</resultsX>
+	<resultsX>
+		<source name="http://www.biomedcentral.com/1471-2229/14/103" />
+		<result>
+			<regex>
+				<regex xmlns="" weight="1.0" fields="[droughttol]">
+					<pattern>([Dd]rought\s+[Tt]olerance)</pattern>
+				</regex>
+				<hits>
+					<hit droughttol="drought tolerance" />
+					<hit droughttol="drought tolerance" />
+					<hit droughttol="drought tolerance" />
+					<hit droughttol="drought tolerance" />
+					<hit droughttol="drought tolerance" />
+				</hits>
+			</regex>
+		</result>
+	</resultsX>
+	<resultsX>
+		<source name="http://www.biomedcentral.com/1471-2229/14/104" />
+		<result>
+			<regex>
+				<regex xmlns="" weight="1.0" fields="[taproot]">
+					<pattern>([Tt]ap\s+[Rr]oot)</pattern>
+				</regex>
+				<hits>
+					<hit taproot="tap root" />
+				</hits>
+			</regex>
+		</result>
+	</resultsX>
+	<resultsX>
+		<source name="http://www.biomedcentral.com/1471-2229/14/105" />
+		<result>
+			<regex>
+				<regex xmlns="" weight="1.0" fields="[growthrate]">
+					<pattern>([Gg]rowth\s+[Rr]ate)</pattern>
+				</regex>
+				<hits>
+					<hit growthrate="growth rate" />
+				</hits>
+			</regex>
+		</result>
+	</resultsX>
+	<resultsX>
+		<source name="http://www.biomedcentral.com/1471-2229/14/106" />
+	</resultsX>
+	<resultsX>
+		<source name="http://www.biomedcentral.com/1471-2229/14/107" />
+	</resultsX>
+	<resultsX>
+		<source name="http://www.biomedcentral.com/1471-2229/14/108" />
+	</resultsX>
+	<resultsX>
+		<source name="http://www.biomedcentral.com/1471-2229/14/109" />
+	</resultsX>
+	<resultsX>
+		<source name="http://www.biomedcentral.com/1471-2229/14/110" />
+	</resultsX>
+	<resultsX>
+		<source name="http://www.biomedcentral.com/1471-2229/14/111" />
+		<result>
+			<regex>
+				<regex xmlns="" weight="1.0" fields="[droughttol]">
+					<pattern>([Dd]rought\s+[Tt]olerance)</pattern>
+				</regex>
+				<hits>
+					<hit droughttol="drought tolerance" />
+				</hits>
+			</regex>
+		</result>
+		<result>
+			<regex>
+				<regex xmlns="" weight="1.0" fields="[wateruse]">
+					<pattern>([Ww]ater\s+[Uu]se)</pattern>
+				</regex>
+				<hits>
+					<hit wateruse="water use" />
+					<hit wateruse="water use" />
+					<hit wateruse="water use" />
+					<hit wateruse="water use" />
+				</hits>
+			</regex>
+		</result>
+	</resultsX>
+	<resultsX>
+		<source name="http://www.biomedcentral.com/1471-2229/14/112" />
+	</resultsX>
+	<resultsX>
+		<source name="http://www.biomedcentral.com/1471-2229/14/113" />
+		<result>
+			<regex>
+				<regex xmlns="" weight="1.0" fields="[growthrate]">
+					<pattern>([Gg]rowth\s+[Rr]ate)</pattern>
+				</regex>
+				<hits>
+					<hit growthrate="growth rate" />
+				</hits>
+			</regex>
+		</result>
+	</resultsX>
+	<resultsX>
+		<source name="http://www.biomedcentral.com/1471-2229/14/114" />
+		<result>
+			<regex>
+				<regex xmlns="" weight="1.0" fields="[droughttol]">
+					<pattern>([Dd]rought\s+[Tt]olerance)</pattern>
+				</regex>
+				<hits>
+					<hit droughttol="drought tolerance" />
+				</hits>
+			</regex>
+		</result>
+	</resultsX>
+	<resultsX>
+		<source name="http://www.biomedcentral.com/1471-2229/14/115" />
+	</resultsX>
+	<resultsX>
+		<source name="http://www.biomedcentral.com/1471-2229/14/116" />
+		<result>
+			<regex>
+				<regex xmlns="" weight="1.0" fields="[nfix]">
+					<pattern>([Nn]itrogen\s+[Ff]ix[^\s+]+)</pattern>
+				</regex>
+				<hits>
+					<hit nfix="nitrogen fixation" />
+				</hits>
+			</regex>
+		</result>
+		<result>
+			<regex>
+				<regex xmlns="" weight="1.0" fields="[wateruse]">
+					<pattern>([Ww]ater\s+[Uu]se)</pattern>
+				</regex>
+				<hits>
+					<hit wateruse="water use" />
+				</hits>
+			</regex>
+		</result>
+	</resultsX>
+	<resultsX>
+		<source name="http://www.biomedcentral.com/1471-2229/14/117" />
+	</resultsX>
+	<resultsX>
+		<source name="http://www.biomedcentral.com/1471-2229/14/118" />
+	</resultsX>
+	<resultsX>
+		<source name="http://www.biomedcentral.com/1471-2229/14/119" />
+		<result>
+			<regex>
+				<regex xmlns="" weight="1.0" fields="[growthrate]">
+					<pattern>([Gg]rowth\s+[Rr]ate)</pattern>
+				</regex>
+				<hits>
+					<hit growthrate="growth rate" />
+				</hits>
+			</regex>
+		</result>
+	</resultsX>
+	<resultsX>
+		<source name="http://www.biomedcentral.com/1471-2229/14/120" />
+	</resultsX>
+	<resultsX>
+		<source name="http://www.biomedcentral.com/1471-2229/14/121" />
+	</resultsX>
+	<resultsX>
+		<source name="http://www.biomedcentral.com/1471-2229/14/122" />
+	</resultsX>
+	<resultsX>
+		<source name="http://www.biomedcentral.com/1471-2229/14/123" />
+		<result>
+			<regex>
+				<regex xmlns="" weight="1.0" fields="[droughttol]">
+					<pattern>([Dd]rought\s+[Tt]olerance)</pattern>
+				</regex>
+				<hits>
+					<hit droughttol="drought tolerance" />
+					<hit droughttol="drought tolerance" />
+				</hits>
+			</regex>
+		</result>
+	</resultsX>
+	<resultsX>
+		<source name="http://www.biomedcentral.com/1471-2229/14/124" />
+	</resultsX>
+	<resultsX>
+		<source name="http://www.biomedcentral.com/1471-2229/14/125" />
+	</resultsX>
+	<resultsX>
+		<source name="http://www.biomedcentral.com/1471-2229/14/126" />
+		<result>
+			<regex>
+				<regex xmlns="" weight="1.0" fields="[growthrate]">
+					<pattern>([Gg]rowth\s+[Rr]ate)</pattern>
+				</regex>
+				<hits>
+					<hit growthrate="growth rate" />
+				</hits>
+			</regex>
+		</result>
+		<result>
+			<regex>
+				<regex xmlns="" weight="1.0" fields="[wateruse]">
+					<pattern>([Ww]ater\s+[Uu]se)</pattern>
+				</regex>
+				<hits>
+					<hit wateruse="water use" />
+					<hit wateruse="water use" />
+				</hits>
+			</regex>
+		</result>
+	</resultsX>
+	<resultsX>
+		<source name="http://www.biomedcentral.com/1471-2229/14/127" />
+	</resultsX>
+	<resultsX>
+		<source name="http://www.biomedcentral.com/1471-2229/14/128" />
+		<result>
+			<regex>
+				<regex xmlns="" weight="1.0" fields="[droughttol]">
+					<pattern>([Dd]rought\s+[Tt]olerance)</pattern>
+				</regex>
+				<hits>
+					<hit droughttol="drought tolerance" />
+					<hit droughttol="drought tolerance" />
+				</hits>
+			</regex>
+		</result>
+		<result>
+			<regex>
+				<regex xmlns="" weight="1.0" fields="[growthrate]">
+					<pattern>([Gg]rowth\s+[Rr]ate)</pattern>
+				</regex>
+				<hits>
+					<hit growthrate="growth rate" />
+				</hits>
+			</regex>
+		</result>
+	</resultsX>
+	<resultsX>
+		<source name="http://www.biomedcentral.com/1471-2229/14/129" />
+		<result>
+			<regex>
+				<regex xmlns="" weight="1.0" fields="[growthrate]">
+					<pattern>([Gg]rowth\s+[Rr]ate)</pattern>
+				</regex>
+				<hits>
+					<hit growthrate="growth rate" />
+					<hit growthrate="growth rate" />
+				</hits>
+			</regex>
+		</result>
+	</resultsX>
+	<resultsX>
+		<source name="http://www.biomedcentral.com/1471-2229/14/130" />
+		<result>
+			<regex>
+				<regex xmlns="" weight="1.0" fields="[soiltype]">
+					<pattern>([Ss]oil\s+[Tt]ype)</pattern>
+				</regex>
+				<hits>
+					<hit soiltype="soil type" />
+				</hits>
+			</regex>
+		</result>
+	</resultsX>
+	<resultsX>
+		<source name="http://www.biomedcentral.com/1471-2229/14/131" />
+	</resultsX>
+	<resultsX>
+		<source name="http://www.biomedcentral.com/1471-2229/14/132" />
+		<result>
+			<regex>
+				<regex xmlns="" weight="1.0" fields="[growthrate]">
+					<pattern>([Gg]rowth\s+[Rr]ate)</pattern>
+				</regex>
+				<hits>
+					<hit growthrate="growth rate" />
+					<hit growthrate="growth rate" />
+					<hit growthrate="growth rate" />
+					<hit growthrate="growth rate" />
+					<hit growthrate="growth rate" />
+					<hit growthrate="growth rate" />
+					<hit growthrate="growth rate" />
+				</hits>
+			</regex>
+		</result>
+	</resultsX>
+	<resultsX>
+		<source name="http://www.biomedcentral.com/1471-2229/14/133" />
+		<result>
+			<regex>
+				<regex xmlns="" weight="1.0" fields="[droughttol]">
+					<pattern>([Dd]rought\s+[Tt]olerance)</pattern>
+				</regex>
+				<hits>
+					<hit droughttol="drought tolerance" />
+					<hit droughttol="drought tolerance" />
+					<hit droughttol="drought tolerance" />
+					<hit droughttol="drought tolerance" />
+					<hit droughttol="drought tolerance" />
+					<hit droughttol="drought tolerance" />
+					<hit droughttol="drought tolerance" />
+				</hits>
+			</regex>
+		</result>
+	</resultsX>
+	<resultsX>
+		<source name="http://www.biomedcentral.com/1471-2229/14/134" />
+	</resultsX>
+	<resultsX>
+		<source name="http://www.biomedcentral.com/1471-2229/14/135" />
+	</resultsX>
+	<resultsX>
+		<source name="http://www.biomedcentral.com/1471-2229/14/136" />
+	</resultsX>
+	<resultsX>
+		<source name="http://www.biomedcentral.com/1471-2229/14/137" />
+	</resultsX>
+	<resultsX>
+		<source name="http://www.biomedcentral.com/1471-2229/14/138" />
+	</resultsX>
+	<resultsX>
+		<source name="http://www.biomedcentral.com/1471-2229/14/139" />
+	</resultsX>
+	<resultsX>
+		<source name="http://www.biomedcentral.com/1471-2229/14/140" />
+	</resultsX>
+	<resultsX>
+		<source name="http://www.biomedcentral.com/1471-2229/14/141" />
+	</resultsX>
+	<resultsX>
+		<source name="http://www.biomedcentral.com/1471-2229/14/142" />
+	</resultsX>
+	<resultsX>
+		<source name="http://www.biomedcentral.com/1471-2229/14/143" />
+		<result>
+			<regex>
+				<regex xmlns="" weight="1.0" fields="[nfix]">
+					<pattern>([Nn]itrogen\s+[Ff]ix[^\s+]+)</pattern>
+				</regex>
+				<hits>
+					<hit nfix="nitrogen fixing" />
+					<hit nfix="nitrogen fixing" />
+					<hit nfix="nitrogen fixation" />
+					<hit nfix="nitrogen fixation." />
+					<hit nfix="nitrogen fixation" />
+					<hit nfix="nitrogen fixation" />
+					<hit nfix="nitrogen fixing" />
+					<hit nfix="nitrogen fixing" />
+					<hit nfix="nitrogen fixation" />
+					<hit nfix="nitrogen fixation" />
+					<hit nfix="Nitrogen fixation" />
+					<hit nfix="nitrogen fixation" />
+					<hit nfix="nitrogen fixation" />
+					<hit nfix="nitrogen fixation." />
+				</hits>
+			</regex>
+		</result>
+		<result>
+			<regex>
+				<regex xmlns="" weight="1.0" fields="[taproot]">
+					<pattern>([Tt]ap\s+[Rr]oot)</pattern>
+				</regex>
+				<hits>
+					<hit taproot="tap root" />
+				</hits>
+			</regex>
+		</result>
+	</resultsX>
+	<resultsX>
+		<source name="http://www.biomedcentral.com/1471-2229/14/144" />
+	</resultsX>
+	<resultsX>
+		<source name="http://www.biomedcentral.com/1471-2229/14/145" />
+	</resultsX>
+	<resultsX>
+		<source name="http://www.biomedcentral.com/1471-2229/14/146" />
+	</resultsX>
+	<resultsX>
+		<source name="http://www.biomedcentral.com/1471-2229/14/147" />
+	</resultsX>
+	<resultsX>
+		<source name="http://www.biomedcentral.com/1471-2229/14/148" />
+		<result>
+			<regex>
+				<regex xmlns="" weight="1.0" fields="[droughttol]">
+					<pattern>([Dd]rought\s+[Tt]olerance)</pattern>
+				</regex>
+				<hits>
+					<hit droughttol="drought tolerance" />
+					<hit droughttol="drought tolerance" />
+				</hits>
+			</regex>
+		</result>
+	</resultsX>
+	<resultsX>
+		<source name="http://www.biomedcentral.com/1471-2229/14/149" />
+	</resultsX>
+	<resultsX>
+		<source name="http://www.biomedcentral.com/1471-2229/14/150" />
+		<result>
+			<regex>
+				<regex xmlns="" weight="1.0" fields="[droughttol]">
+					<pattern>([Dd]rought\s+[Tt]olerance)</pattern>
+				</regex>
+				<hits>
+					<hit droughttol="drought tolerance" />
+					<hit droughttol="drought tolerance" />
+				</hits>
+			</regex>
+		</result>
+	</resultsX>
+	<resultsX>
+		<source name="http://www.biomedcentral.com/1471-2229/14/151" />
+	</resultsX>
+	<resultsX>
+		<source name="http://www.biomedcentral.com/1471-2229/14/152" />
+	</resultsX>
+	<resultsX>
+		<source name="http://www.biomedcentral.com/1471-2229/14/153" />
+	</resultsX>
+	<resultsX>
+		<source name="http://www.biomedcentral.com/1471-2229/14/154" />
+	</resultsX>
+	<resultsX>
+		<source name="http://www.biomedcentral.com/1471-2229/14/155" />
+		<result>
+			<regex>
+				<regex xmlns="" weight="1.0" fields="[droughttol]">
+					<pattern>([Dd]rought\s+[Tt]olerance)</pattern>
+				</regex>
+				<hits>
+					<hit droughttol="drought tolerance" />
+				</hits>
+			</regex>
+		</result>
+	</resultsX>
+	<resultsX>
+		<source name="http://www.biomedcentral.com/1471-2229/14/156" />
+	</resultsX>
+	<resultsX>
+		<source name="http://www.biomedcentral.com/1471-2229/14/157" />
+		<result>
+			<regex>
+				<regex xmlns="" weight="1.0" fields="[growthrate]">
+					<pattern>([Gg]rowth\s+[Rr]ate)</pattern>
+				</regex>
+				<hits>
+					<hit growthrate="growth rate" />
+				</hits>
+			</regex>
+		</result>
+	</resultsX>
+	<resultsX>
+		<source name="http://www.biomedcentral.com/1471-2229/14/158" />
+	</resultsX>
+	<resultsX>
+		<source name="http://www.biomedcentral.com/1471-2229/14/159" />
+	</resultsX>
+	<resultsX>
+		<source name="http://www.biomedcentral.com/1471-2229/14/160" />
+		<result>
+			<regex>
+				<regex xmlns="" weight="1.0" fields="[droughttol]">
+					<pattern>([Dd]rought\s+[Tt]olerance)</pattern>
+				</regex>
+				<hits>
+					<hit droughttol="drought tolerance" />
+					<hit droughttol="drought tolerance" />
+				</hits>
+			</regex>
+		</result>
+		<result>
+			<regex>
+				<regex xmlns="" weight="1.0" fields="[wateruse]">
+					<pattern>([Ww]ater\s+[Uu]se)</pattern>
+				</regex>
+				<hits>
+					<hit wateruse="water use" />
+				</hits>
+			</regex>
+		</result>
+	</resultsX>
+	<resultsX>
+		<source name="http://www.biomedcentral.com/1471-2229/14/161" />
+	</resultsX>
+	<resultsX>
+		<source name="http://www.biomedcentral.com/1471-2229/14/162" />
+	</resultsX>
+	<resultsX>
+		<source name="http://www.biomedcentral.com/1471-2229/14/163" />
+	</resultsX>
+	<resultsX>
+		<source name="http://www.biomedcentral.com/1471-2229/14/164" />
+		<result>
+			<regex>
+				<regex xmlns="" weight="1.0" fields="[droughttol]">
+					<pattern>([Dd]rought\s+[Tt]olerance)</pattern>
+				</regex>
+				<hits>
+					<hit droughttol="drought tolerance" />
+					<hit droughttol="drought tolerance" />
+					<hit droughttol="drought tolerance" />
+				</hits>
+			</regex>
+		</result>
+		<result>
+			<regex>
+				<regex xmlns="" weight="1.0" fields="[wateruse]">
+					<pattern>([Ww]ater\s+[Uu]se)</pattern>
+				</regex>
+				<hits>
+					<hit wateruse="water use" />
+				</hits>
+			</regex>
+		</result>
+	</resultsX>
+	<resultsX>
+		<source name="http://www.biomedcentral.com/1471-2229/14/165" />
+	</resultsX>
+	<resultsX>
+		<source name="http://www.biomedcentral.com/1471-2229/14/166" />
+	</resultsX>
+	<resultsX>
+		<source name="http://www.biomedcentral.com/1471-2229/14/167" />
+		<result>
+			<regex>
+				<regex xmlns="" weight="1.0" fields="[nfix]">
+					<pattern>([Nn]itrogen\s+[Ff]ix[^\s+]+)</pattern>
+				</regex>
+				<hits>
+					<hit nfix="nitrogen fixation," />
+					<hit nfix="Nitrogen fixation" />
+					<hit nfix="nitrogen fixation" />
+					<hit nfix="nitrogen fixation" />
+					<hit nfix="nitrogen fixation" />
+					<hit nfix="nitrogen fixation" />
+					<hit nfix="nitrogen fixation" />
+					<hit nfix="nitrogen fixation" />
+					<hit nfix="nitrogen fixation" />
+				</hits>
+			</regex>
+		</result>
+	</resultsX>
+	<resultsX>
+		<source name="http://www.biomedcentral.com/1471-2229/14/168" />
+	</resultsX>
+	<resultsX>
+		<source name="http://www.biomedcentral.com/1471-2229/14/169" />
+		<result>
+			<regex>
+				<regex xmlns="" weight="1.0" fields="[nfix]">
+					<pattern>([Nn]itrogen\s+[Ff]ix[^\s+]+)</pattern>
+				</regex>
+				<hits>
+					<hit nfix="nitrogen fixation" />
+				</hits>
+			</regex>
+		</result>
+	</resultsX>
+	<resultsX>
+		<source name="http://www.biomedcentral.com/1471-2229/14/170" />
+	</resultsX>
+	<resultsX>
+		<source name="http://www.biomedcentral.com/1471-2229/14/171" />
+	</resultsX>
+	<resultsX>
+		<source name="http://www.biomedcentral.com/1471-2229/14/172" />
+	</resultsX>
+	<resultsX>
+		<source name="http://www.biomedcentral.com/1471-2229/14/173" />
+	</resultsX>
+	<resultsX>
+		<source name="http://www.biomedcentral.com/1471-2229/14/174" />
+	</resultsX>
+	<resultsX>
+		<source name="http://www.biomedcentral.com/1471-2229/14/175" />
+	</resultsX>
+	<resultsX>
+		<source name="http://www.biomedcentral.com/1471-2229/14/176" />
+		<result>
+			<regex>
+				<regex xmlns="" weight="1.0" fields="[droughttol]">
+					<pattern>([Dd]rought\s+[Tt]olerance)</pattern>
+				</regex>
+				<hits>
+					<hit droughttol="drought tolerance" />
+					<hit droughttol="drought tolerance" />
+					<hit droughttol="drought tolerance" />
+				</hits>
+			</regex>
+		</result>
+	</resultsX>
+	<resultsX>
+		<source name="http://www.biomedcentral.com/1471-2229/14/177" />
+	</resultsX>
+	<resultsX>
+		<source name="http://www.biomedcentral.com/1471-2229/14/178" />
+	</resultsX>
+	<resultsX>
+		<source name="http://www.biomedcentral.com/1471-2229/14/179" />
+	</resultsX>
+	<resultsX>
+		<source name="http://www.biomedcentral.com/1471-2229/14/180" />
+	</resultsX>
+	<resultsX>
+		<source name="http://www.biomedcentral.com/1471-2229/14/181" />
+		<result>
+			<regex>
+				<regex xmlns="" weight="1.0" fields="[droughttol]">
+					<pattern>([Dd]rought\s+[Tt]olerance)</pattern>
+				</regex>
+				<hits>
+					<hit droughttol="drought tolerance" />
+					<hit droughttol="drought tolerance" />
+				</hits>
+			</regex>
+		</result>
+		<result>
+			<regex>
+				<regex xmlns="" weight="1.0" fields="[nfix]">
+					<pattern>([Nn]itrogen\s+[Ff]ix[^\s+]+)</pattern>
+				</regex>
+				<hits>
+					<hit nfix="nitrogen fixation" />
+				</hits>
+			</regex>
+		</result>
+		<result>
+			<regex>
+				<regex xmlns="" weight="1.0" fields="[wateruse]">
+					<pattern>([Ww]ater\s+[Uu]se)</pattern>
+				</regex>
+				<hits>
+					<hit wateruse="water use" />
+					<hit wateruse="water use" />
+					<hit wateruse="water use" />
+					<hit wateruse="water use" />
+				</hits>
+			</regex>
+		</result>
+	</resultsX>
+	<resultsX>
+		<source name="http://www.biomedcentral.com/1471-2229/14/182" />
+		<result>
+			<regex>
+				<regex xmlns="" weight="1.0" fields="[droughttol]">
+					<pattern>([Dd]rought\s+[Tt]olerance)</pattern>
+				</regex>
+				<hits>
+					<hit droughttol="drought tolerance" />
+					<hit droughttol="drought tolerance" />
+					<hit droughttol="drought tolerance" />
+					<hit droughttol="drought tolerance" />
+					<hit droughttol="drought tolerance" />
+				</hits>
+			</regex>
+		</result>
+		<result>
+			<regex>
+				<regex xmlns="" weight="1.0" fields="[wateruse]">
+					<pattern>([Ww]ater\s+[Uu]se)</pattern>
+				</regex>
+				<hits>
+					<hit wateruse="Water use" />
+				</hits>
+			</regex>
+		</result>
+	</resultsX>
+	<resultsX>
+		<source name="http://www.biomedcentral.com/1471-2229/14/183" />
+	</resultsX>
+	<resultsX>
+		<source name="http://www.biomedcentral.com/1471-2229/14/184" />
+	</resultsX>
+	<resultsX>
+		<source name="http://www.biomedcentral.com/1471-2229/14/185" />
+	</resultsX>
+	<resultsX>
+		<source name="http://www.biomedcentral.com/1471-2229/14/186" />
+	</resultsX>
+	<resultsX>
+		<source name="http://www.biomedcentral.com/1471-2229/14/187" />
+	</resultsX>
+	<resultsX>
+		<source name="http://www.biomedcentral.com/1471-2229/14/191" />
+	</resultsX>
+	<resultsX>
+		<source name="http://www.biomedcentral.com/1471-2229/14/192" />
+	</resultsX>
+	<resultsX>
+		<source name="http://www.biomedcentral.com/1471-2229/14/193" />
+	</resultsX>
+	<resultsX>
+		<source name="http://www.biomedcentral.com/1471-2229/14/195" />
+	</resultsX>
+	<resultsX>
+		<source name="http://www.biomedcentral.com/1471-2229/14/196" />
+	</resultsX>
+	<resultsX>
+		<source name="http://www.biomedcentral.com/1471-2229/14/197" />
+	</resultsX>
+	<resultsX>
+		<source name="http://www.biomedcentral.com/1471-2229/14/198" />
+	</resultsX>
+	<resultsX>
+		<source name="http://www.biomedcentral.com/1471-2229/14/199" />
+		<result>
+			<regex>
+				<regex xmlns="" weight="1.0" fields="[nfix]">
+					<pattern>([Nn]itrogen\s+[Ff]ix[^\s+]+)</pattern>
+				</regex>
+				<hits>
+					<hit nfix="nitrogen fixation" />
+					<hit nfix="nitrogen fixation" />
+				</hits>
+			</regex>
+		</result>
+	</resultsX>
+	<resultsX>
+		<source name="http://www.biomedcentral.com/1471-2229/14/202" />
+		<result>
+			<regex>
+				<regex xmlns="" weight="1.0" fields="[soiltype]">
+					<pattern>([Ss]oil\s+[Tt]ype)</pattern>
+				</regex>
+				<hits>
+					<hit soiltype="soil type" />
+				</hits>
+			</regex>
+		</result>
+	</resultsX>
+	<resultsX>
+		<source name="http://www.biomedcentral.com/1471-2229/14/203" />
+	</resultsX>
+	<resultsX>
+		<source name="http://www.biomedcentral.com/1471-2229/14/204" />
+	</resultsX>
+	<resultsX>
+		<source name="http://www.biomedcentral.com/1471-2229/14/205" />
+	</resultsX>
+	<resultsX>
+		<source name="http://www.biomedcentral.com/1471-2229/14/206" />
+	</resultsX>
+	<resultsX>
+		<source name="http://www.biomedcentral.com/1471-2229/14/207" />
+	</resultsX>
+	<resultsX>
+		<source name="http://www.biomedcentral.com/1471-2229/14/208" />
+	</resultsX>
+	<resultsX>
+		<source name="http://www.biomedcentral.com/1471-2229/14/209" />
+	</resultsX>
+	<resultsX>
+		<source name="http://www.biomedcentral.com/1471-2229/14/210" />
+	</resultsX>
+	<resultsX>
+		<source name="http://www.biomedcentral.com/1471-2229/14/211" />
+	</resultsX>
+	<resultsX>
+		<source name="http://www.biomedcentral.com/1471-2229/14/212" />
+	</resultsX>
+	<resultsX>
+		<source name="http://www.biomedcentral.com/1471-2229/14/213" />
+	</resultsX>
+	<resultsX>
+		<source name="http://www.biomedcentral.com/1471-2229/14/214" />
+	</resultsX>
+	<resultsX>
+		<source name="http://www.biomedcentral.com/1471-2229/14/215" />
+	</resultsX>
+	<resultsX>
+		<source name="http://www.biomedcentral.com/1471-2229/14/216" />
+		<result>
+			<regex>
+				<regex xmlns="" weight="1.0" fields="[growthrate]">
+					<pattern>([Gg]rowth\s+[Rr]ate)</pattern>
+				</regex>
+				<hits>
+					<hit growthrate="growth rate" />
+				</hits>
+			</regex>
+		</result>
+	</resultsX>
+	<resultsX>
+		<source name="http://www.biomedcentral.com/1471-2229/14/217" />
+	</resultsX>
+	<resultsX>
+		<source name="http://www.biomedcentral.com/1471-2229/14/218" />
+		<result>
+			<regex>
+				<regex xmlns="" weight="1.0" fields="[wateruse]">
+					<pattern>([Ww]ater\s+[Uu]se)</pattern>
+				</regex>
+				<hits>
+					<hit wateruse="water use" />
+				</hits>
+			</regex>
+		</result>
+	</resultsX>
+	<resultsX>
+		<source name="http://www.biomedcentral.com/1471-2229/14/219" />
+		<result>
+			<regex>
+				<regex xmlns="" weight="1.0" fields="[droughttol]">
+					<pattern>([Dd]rought\s+[Tt]olerance)</pattern>
+				</regex>
+				<hits>
+					<hit droughttol="drought tolerance" />
+					<hit droughttol="drought tolerance" />
+				</hits>
+			</regex>
+		</result>
+	</resultsX>
+	<resultsX>
+		<source name="http://www.biomedcentral.com/1471-2229/14/220" />
+	</resultsX>
+	<resultsX>
+		<source name="http://www.biomedcentral.com/1471-2229/14/221" />
+		<result>
+			<regex>
+				<regex xmlns="" weight="1.0" fields="[growthrate]">
+					<pattern>([Gg]rowth\s+[Rr]ate)</pattern>
+				</regex>
+				<hits>
+					<hit growthrate="growth rate" />
+				</hits>
+			</regex>
+		</result>
+	</resultsX>
+	<resultsX>
+		<source name="http://www.biomedcentral.com/1471-2229/14/222" />
+		<result>
+			<regex>
+				<regex xmlns="" weight="1.0" fields="[growthrate]">
+					<pattern>([Gg]rowth\s+[Rr]ate)</pattern>
+				</regex>
+				<hits>
+					<hit growthrate="growth rate" />
+				</hits>
+			</regex>
+		</result>
+	</resultsX>
+	<resultsX>
+		<source name="http://www.biomedcentral.com/1471-2229/14/223" />
+		<result>
+			<regex>
+				<regex xmlns="" weight="1.0" fields="[droughttol]">
+					<pattern>([Dd]rought\s+[Tt]olerance)</pattern>
+				</regex>
+				<hits>
+					<hit droughttol="drought tolerance" />
+				</hits>
+			</regex>
+		</result>
+		<result>
+			<regex>
+				<regex xmlns="" weight="1.0" fields="[growthrate]">
+					<pattern>([Gg]rowth\s+[Rr]ate)</pattern>
+				</regex>
+				<hits>
+					<hit growthrate="growth rate" />
+					<hit growthrate="growth rate" />
+				</hits>
+			</regex>
+		</result>
+		<result>
+			<regex>
+				<regex xmlns="" weight="1.0" fields="[wateruse]">
+					<pattern>([Ww]ater\s+[Uu]se)</pattern>
+				</regex>
+				<hits>
+					<hit wateruse="water use" />
+				</hits>
+			</regex>
+		</result>
+	</resultsX>
+	<resultsX>
+		<source name="http://www.biomedcentral.com/1471-2229/14/224" />
+	</resultsX>
+	<resultsX>
+		<source name="http://www.biomedcentral.com/1471-2229/14/225" />
+	</resultsX>
+	<resultsX>
+		<source name="http://www.biomedcentral.com/1471-2229/14/226" />
+	</resultsX>
+	<resultsX>
+		<source name="http://www.biomedcentral.com/1471-2229/14/227" />
+	</resultsX>
+	<resultsX>
+		<source name="http://www.biomedcentral.com/1471-2229/14/228" />
+	</resultsX>
+	<resultsX>
+		<source name="http://www.biomedcentral.com/1471-2229/14/229" />
+	</resultsX>
+	<resultsX>
+		<source name="http://www.biomedcentral.com/1471-2229/14/230" />
+	</resultsX>
+	<resultsX>
+		<source name="http://www.biomedcentral.com/1471-2229/14/231" />
+	</resultsX>
+	<resultsX>
+		<source name="http://www.biomedcentral.com/1471-2229/14/233" />
+		<result>
+			<regex>
+				<regex xmlns="" weight="1.0" fields="[nfix]">
+					<pattern>([Nn]itrogen\s+[Ff]ix[^\s+]+)</pattern>
+				</regex>
+				<hits>
+					<hit nfix="nitrogen fixation" />
+					<hit nfix="Nitrogen Fixation" />
+					<hit nfix="Nitrogen Fixation" />
+					<hit nfix="Nitrogen Fixation" />
+				</hits>
+			</regex>
+		</result>
+		<result>
+			<regex>
+				<regex xmlns="" weight="1.0" fields="[soilph]">
+					<pattern>([Ss]oil\s+pH)</pattern>
+				</regex>
+				<hits>
+					<hit soilph="soil pH" />
+					<hit soilph="soil pH" />
+					<hit soilph="soil pH" />
+				</hits>
+			</regex>
+		</result>
+		<result>
+			<regex>
+				<regex xmlns="" weight="1.0" fields="[soiltype]">
+					<pattern>([Ss]oil\s+[Tt]ype)</pattern>
+				</regex>
+				<hits>
+					<hit soiltype="soil type" />
+					<hit soiltype="soil type" />
+					<hit soiltype="soil type" />
+					<hit soiltype="soil type" />
+					<hit soiltype="soil type" />
+					<hit soiltype="soil type" />
+					<hit soiltype="soil type" />
+					<hit soiltype="soil type" />
+				</hits>
+			</regex>
+		</result>
+	</resultsX>
+	<resultsX>
+		<source name="http://www.biomedcentral.com/1471-2229/14/234" />
+	</resultsX>
+	<resultsX>
+		<source name="http://www.biomedcentral.com/1471-2229/14/235" />
+	</resultsX>
+	<resultsX>
+		<source name="http://www.biomedcentral.com/1471-2229/14/236" />
+	</resultsX>
+	<resultsX>
+		<source name="http://www.biomedcentral.com/1471-2229/14/237" />
+		<result>
+			<regex>
+				<regex xmlns="" weight="1.0" fields="[droughttol]">
+					<pattern>([Dd]rought\s+[Tt]olerance)</pattern>
+				</regex>
+				<hits>
+					<hit droughttol="drought tolerance" />
+				</hits>
+			</regex>
+		</result>
+	</resultsX>
+	<resultsX>
+		<source name="http://www.biomedcentral.com/1471-2229/14/238" />
+	</resultsX>
+	<resultsX>
+		<source name="http://www.biomedcentral.com/1471-2229/14/239" />
+	</resultsX>
+	<resultsX>
+		<source name="http://www.biomedcentral.com/1471-2229/14/240" />
+	</resultsX>
+	<resultsX>
+		<source name="http://www.biomedcentral.com/1471-2229/14/241" />
+	</resultsX>
+	<resultsX>
+		<source name="http://www.biomedcentral.com/1471-2229/14/242" />
+		<result>
+			<regex>
+				<regex xmlns="" weight="1.0" fields="[growthrate]">
+					<pattern>([Gg]rowth\s+[Rr]ate)</pattern>
+				</regex>
+				<hits>
+					<hit growthrate="growth rate" />
+					<hit growthrate="growth rate" />
+				</hits>
+			</regex>
+		</result>
+	</resultsX>
+	<resultsX>
+		<source name="http://www.biomedcentral.com/1471-2229/14/243" />
+	</resultsX>
+	<resultsX>
+		<source name="http://www.biomedcentral.com/1471-2229/14/244" />
+	</resultsX>
+	<resultsX>
+		<source name="http://www.biomedcentral.com/1471-2229/14/245" />
+	</resultsX>
+	<resultsX>
+		<source name="http://www.biomedcentral.com/1471-2229/14/246" />
+		<result>
+			<regex>
+				<regex xmlns="" weight="1.0" fields="[droughttol]">
+					<pattern>([Dd]rought\s+[Tt]olerance)</pattern>
+				</regex>
+				<hits>
+					<hit droughttol="drought tolerance" />
+				</hits>
+			</regex>
+		</result>
+	</resultsX>
+	<resultsX>
+		<source name="http://www.biomedcentral.com/1471-2229/14/247" />
+	</resultsX>
+	<resultsX>
+		<source name="http://www.biomedcentral.com/1471-2229/14/249" />
+	</resultsX>
+	<resultsX>
+		<source name="http://www.biomedcentral.com/1471-2229/14/250" />
+	</resultsX>
+	<resultsX>
+		<source name="http://www.biomedcentral.com/1471-2229/14/251" />
+	</resultsX>
+	<resultsX>
+		<source name="http://www.biomedcentral.com/1471-2229/14/252" />
+		<result>
+			<regex>
+				<regex xmlns="" weight="1.0" fields="[growthrate]">
+					<pattern>([Gg]rowth\s+[Rr]ate)</pattern>
+				</regex>
+				<hits>
+					<hit growthrate="growth rate" />
+					<hit growthrate="growth rate" />
+					<hit growthrate="Growth rate" />
+					<hit growthrate="growth rate" />
+					<hit growthrate="growth rate" />
+					<hit growthrate="growth rate" />
+					<hit growthrate="growth rate" />
+					<hit growthrate="growth rate" />
+					<hit growthrate="growth rate" />
+				</hits>
+			</regex>
+		</result>
+	</resultsX>
+	<resultsX>
+		<source name="http://www.biomedcentral.com/1471-2229/14/253" />
+	</resultsX>
+	<resultsX>
+		<source name="http://www.biomedcentral.com/1471-2229/14/254" />
+	</resultsX>
+	<resultsX>
+		<source name="http://www.biomedcentral.com/1471-2229/14/255" />
+	</resultsX>
+	<resultsX>
+		<source name="http://www.biomedcentral.com/1471-2229/14/257" />
+		<result>
+			<regex>
+				<regex xmlns="" weight="1.0" fields="[growthrate]">
+					<pattern>([Gg]rowth\s+[Rr]ate)</pattern>
+				</regex>
+				<hits>
+					<hit growthrate="growth rate" />
+					<hit growthrate="growth rate" />
+				</hits>
+			</regex>
+		</result>
+	</resultsX>
+	<resultsX>
+		<source name="http://www.biomedcentral.com/1471-2229/14/258" />
+	</resultsX>
+	<resultsX>
+		<source name="http://www.biomedcentral.com/1471-2229/14/259" />
+	</resultsX>
+	<resultsX>
+		<source name="http://www.biomedcentral.com/1471-2229/14/260" />
+		<result>
+			<regex>
+				<regex xmlns="" weight="1.0" fields="[droughttol]">
+					<pattern>([Dd]rought\s+[Tt]olerance)</pattern>
+				</regex>
+				<hits>
+					<hit droughttol="drought tolerance" />
+					<hit droughttol="drought tolerance" />
+				</hits>
+			</regex>
+		</result>
+	</resultsX>
+	<resultsX>
+		<source name="http://www.biomedcentral.com/1471-2229/14/261" />
+	</resultsX>
+	<resultsX>
+		<source name="http://www.biomedcentral.com/1471-2229/14/262" />
+	</resultsX>
+	<resultsX>
+		<source name="http://www.biomedcentral.com/1471-2229/14/263" />
+		<result>
+			<regex>
+				<regex xmlns="" weight="1.0" fields="[growthrate]">
+					<pattern>([Gg]rowth\s+[Rr]ate)</pattern>
+				</regex>
+				<hits>
+					<hit growthrate="growth rate" />
+				</hits>
+			</regex>
+		</result>
+	</resultsX>
+	<resultsX>
+		<source name="http://www.biomedcentral.com/1471-2229/14/264" />
+		<result>
+			<regex>
+				<regex xmlns="" weight="1.0" fields="[soilph]">
+					<pattern>([Ss]oil\s+pH)</pattern>
+				</regex>
+				<hits>
+					<hit soilph="soil pH" />
+				</hits>
+			</regex>
+		</result>
+		<result>
+			<regex>
+				<regex xmlns="" weight="1.0" fields="[wateruse]">
+					<pattern>([Ww]ater\s+[Uu]se)</pattern>
+				</regex>
+				<hits>
+					<hit wateruse="water use" />
+				</hits>
+			</regex>
+		</result>
+	</resultsX>
+	<resultsX>
+		<source name="http://www.biomedcentral.com/1471-2229/14/265" />
+		<result>
+			<regex>
+				<regex xmlns="" weight="1.0" fields="[growthrate]">
+					<pattern>([Gg]rowth\s+[Rr]ate)</pattern>
+				</regex>
+				<hits>
+					<hit growthrate="growth rate" />
+				</hits>
+			</regex>
+		</result>
+	</resultsX>
+	<resultsX>
+		<source name="http://www.biomedcentral.com/1471-2229/14/266" />
+		<result>
+			<regex>
+				<regex xmlns="" weight="1.0" fields="[nfix]">
+					<pattern>([Nn]itrogen\s+[Ff]ix[^\s+]+)</pattern>
+				</regex>
+				<hits>
+					<hit nfix="Nitrogen fixing." />
+					<hit nfix="nitrogen fixing" />
+					<hit nfix="Nitrogen fixing" />
+				</hits>
+			</regex>
+		</result>
+	</resultsX>
+	<resultsX>
+		<source name="http://www.biomedcentral.com/1471-2229/14/267" />
+	</resultsX>
+	<resultsX>
+		<source name="http://www.biomedcentral.com/1471-2229/14/268" />
+		<result>
+			<regex>
+				<regex xmlns="" weight="1.0" fields="[droughttol]">
+					<pattern>([Dd]rought\s+[Tt]olerance)</pattern>
+				</regex>
+				<hits>
+					<hit droughttol="drought tolerance" />
+					<hit droughttol="drought tolerance" />
+				</hits>
+			</regex>
+		</result>
+		<result>
+			<regex>
+				<regex xmlns="" weight="1.0" fields="[growthrate]">
+					<pattern>([Gg]rowth\s+[Rr]ate)</pattern>
+				</regex>
+				<hits>
+					<hit growthrate="growth rate" />
+				</hits>
+			</regex>
+		</result>
+	</resultsX>
+	<resultsX>
+		<source name="http://www.biomedcentral.com/1471-2229/14/270" />
+	</resultsX>
+	<resultsX>
+		<source name="http://www.biomedcentral.com/1471-2229/14/271" />
+	</resultsX>
+	<resultsX>
+		<source name="http://www.biomedcentral.com/1471-2229/14/272" />
+		<result>
+			<regex>
+				<regex xmlns="" weight="1.0" fields="[droughttol]">
+					<pattern>([Dd]rought\s+[Tt]olerance)</pattern>
+				</regex>
+				<hits>
+					<hit droughttol="drought tolerance" />
+				</hits>
+			</regex>
+		</result>
+	</resultsX>
+	<resultsX>
+		<source name="http://www.biomedcentral.com/1471-2229/14/273" />
+	</resultsX>
+	<resultsX>
+		<source name="http://www.biomedcentral.com/1471-2229/14/274" />
+	</resultsX>
+	<resultsX>
+		<source name="http://www.biomedcentral.com/1471-2229/14/275" />
+	</resultsX>
+	<resultsX>
+		<source name="http://www.biomedcentral.com/1471-2229/14/276" />
+		<result>
+			<regex>
+				<regex xmlns="" weight="1.0" fields="[growthrate]">
+					<pattern>([Gg]rowth\s+[Rr]ate)</pattern>
+				</regex>
+				<hits>
+					<hit growthrate="Growth rate" />
+					<hit growthrate="growth rate" />
+					<hit growthrate="growth rate" />
+					<hit growthrate="Growth rate" />
+					<hit growthrate="growth rate" />
+				</hits>
+			</regex>
+		</result>
+	</resultsX>
+	<resultsX>
+		<source name="http://www.biomedcentral.com/1471-2229/14/277" />
+	</resultsX>
+	<resultsX>
+		<source name="http://www.biomedcentral.com/1471-2229/14/278" />
+	</resultsX>
+	<resultsX>
+		<source name="http://www.biomedcentral.com/1471-2229/14/279" />
+	</resultsX>
+	<resultsX>
+		<source name="http://www.biomedcentral.com/1471-2229/14/280" />
+	</resultsX>
+	<resultsX>
+		<source name="http://www.biomedcentral.com/1471-2229/14/281" />
+		<result>
+			<regex>
+				<regex xmlns="" weight="1.0" fields="[roottype]">
+					<pattern>([Rr]oot\s+[Tt]ype)</pattern>
+				</regex>
+				<hits>
+					<hit roottype="root type" />
+					<hit roottype="root type" />
+					<hit roottype="root type" />
+				</hits>
+			</regex>
+		</result>
+	</resultsX>
+	<resultsX>
+		<source name="http://www.biomedcentral.com/1471-2229/14/282" />
+	</resultsX>
+	<resultsX>
+		<source name="http://www.biomedcentral.com/1471-2229/14/283" />
+	</resultsX>
+	<resultsX>
+		<source name="http://www.biomedcentral.com/1471-2229/14/284" />
+		<result>
+			<regex>
+				<regex xmlns="" weight="1.0" fields="[droughttol]">
+					<pattern>([Dd]rought\s+[Tt]olerance)</pattern>
+				</regex>
+				<hits>
+					<hit droughttol="drought tolerance" />
+				</hits>
+			</regex>
+		</result>
+		<result>
+			<regex>
+				<regex xmlns="" weight="1.0" fields="[sunlight, amount, sunshade]">
+					<pattern>(([Ff]ull|[Pp]artial)\s+([Ss]hade|[Ss]un))</pattern>
+				</regex>
+				<hits>
+					<hit sunlight="full sun" amount="full" sunshade="sun" />
+				</hits>
+			</regex>
+		</result>
+	</resultsX>
+	<resultsX>
+		<source name="http://www.biomedcentral.com/1471-2229/14/285" />
+	</resultsX>
+	<resultsX>
+		<source name="http://www.biomedcentral.com/1471-2229/14/286" />
+		<result>
+			<regex>
+				<regex xmlns="" weight="1.0" fields="[droughttol]">
+					<pattern>([Dd]rought\s+[Tt]olerance)</pattern>
+				</regex>
+				<hits>
+					<hit droughttol="drought tolerance" />
+					<hit droughttol="drought tolerance" />
+					<hit droughttol="Drought tolerance" />
+					<hit droughttol="drought tolerance" />
+				</hits>
+			</regex>
+		</result>
+	</resultsX>
+	<resultsX>
+		<source name="http://www.biomedcentral.com/1471-2229/14/287" />
+	</resultsX>
+	<resultsX>
+		<source name="http://www.biomedcentral.com/1471-2229/14/288" />
+	</resultsX>
+	<resultsX>
+		<source name="http://www.biomedcentral.com/1471-2229/14/289" />
+	</resultsX>
+	<resultsX>
+		<source name="http://www.biomedcentral.com/1471-2229/14/290" />
+		<result>
+			<regex>
+				<regex xmlns="" weight="1.0" fields="[droughttol]">
+					<pattern>([Dd]rought\s+[Tt]olerance)</pattern>
+				</regex>
+				<hits>
+					<hit droughttol="Drought tolerance" />
+					<hit droughttol="drought tolerance" />
+					<hit droughttol="drought tolerance" />
+					<hit droughttol="drought tolerance" />
+					<hit droughttol="drought tolerance" />
+				</hits>
+			</regex>
+		</result>
+	</resultsX>
+	<resultsX>
+		<source name="http://www.biomedcentral.com/1471-2229/14/292" />
+	</resultsX>
+	<resultsX>
+		<source name="http://www.biomedcentral.com/1471-2229/14/293" />
+	</resultsX>
+	<resultsX>
+		<source name="http://www.biomedcentral.com/1471-2229/14/294" />
+		<result>
+			<regex>
+				<regex xmlns="" weight="1.0" fields="[lifespan]">
+					<pattern>([Ll]ifespan)</pattern>
+				</regex>
+				<hits>
+					<hit lifespan="lifespan" />
+				</hits>
+			</regex>
+		</result>
+		<result>
+			<regex>
+				<regex xmlns="" weight="1.0" fields="[nfix]">
+					<pattern>([Nn]itrogen\s+[Ff]ix[^\s+]+)</pattern>
+				</regex>
+				<hits>
+					<hit nfix="nitrogen fixation;" />
+					<hit nfix="nitrogen fixation," />
+					<hit nfix="nitrogen fixation" />
+					<hit nfix="nitrogen fixation." />
+					<hit nfix="nitrogen fixation," />
+					<hit nfix="nitrogen fixation" />
+					<hit nfix="nitrogen fixation" />
+					<hit nfix="Nitrogen Fixation" />
+					<hit nfix="nitrogen fixation" />
+					<hit nfix="nitrogen fixation" />
+				</hits>
+			</regex>
+		</result>
+	</resultsX>
+	<resultsX>
+		<source name="http://www.biomedcentral.com/1471-2229/14/295" />
+		<result>
+			<regex>
+				<regex xmlns="" weight="1.0" fields="[growthrate]">
+					<pattern>([Gg]rowth\s+[Rr]ate)</pattern>
+				</regex>
+				<hits>
+					<hit growthrate="growth rate" />
+				</hits>
+			</regex>
+		</result>
+	</resultsX>
+	<resultsX>
+		<source name="http://www.biomedcentral.com/1471-2229/14/296" />
+	</resultsX>
+	<resultsX>
+		<source name="http://www.biomedcentral.com/1471-2229/14/297" />
+	</resultsX>
+	<resultsX>
+		<source name="http://www.biomedcentral.com/1471-2229/14/298" />
+	</resultsX>
+	<resultsX>
+		<source name="http://www.biomedcentral.com/1471-2229/14/299" />
+	</resultsX>
+	<resultsX>
+		<source name="http://www.biomedcentral.com/1471-2229/14/300" />
+	</resultsX>
+	<resultsX>
+		<source name="http://www.biomedcentral.com/1471-2229/14/301" />
+	</resultsX>
+	<resultsX>
+		<source name="http://www.biomedcentral.com/1471-2229/14/302" />
+	</resultsX>
+	<resultsX>
+		<source name="http://www.biomedcentral.com/1471-2229/14/303" />
+	</resultsX>
+	<resultsX>
+		<source name="http://www.biomedcentral.com/1471-2229/14/304" />
+	</resultsX>
+	<resultsX>
+		<source name="http://www.biomedcentral.com/1471-2229/14/305" />
+		<result>
+			<regex>
+				<regex xmlns="" weight="1.0" fields="[droughttol]">
+					<pattern>([Dd]rought\s+[Tt]olerance)</pattern>
+				</regex>
+				<hits>
+					<hit droughttol="drought tolerance" />
+					<hit droughttol="drought tolerance" />
+				</hits>
+			</regex>
+		</result>
+	</resultsX>
+	<resultsX>
+		<source name="http://www.biomedcentral.com/1471-2229/14/306" />
+	</resultsX>
+	<resultsX>
+		<source name="http://www.biomedcentral.com/1471-2229/14/307" />
+		<result>
+			<regex>
+				<regex xmlns="" weight="1.0" fields="[growthrate]">
+					<pattern>([Gg]rowth\s+[Rr]ate)</pattern>
+				</regex>
+				<hits>
+					<hit growthrate="growth rate" />
+				</hits>
+			</regex>
+		</result>
+	</resultsX>
+	<resultsX>
+		<source name="http://www.biomedcentral.com/1471-2229/14/308" />
+		<result>
+			<regex>
+				<regex xmlns="" weight="1.0" fields="[droughttol]">
+					<pattern>([Dd]rought\s+[Tt]olerance)</pattern>
+				</regex>
+				<hits>
+					<hit droughttol="drought tolerance" />
+				</hits>
+			</regex>
+		</result>
+		<result>
+			<regex>
+				<regex xmlns="" weight="1.0" fields="[growthrate]">
+					<pattern>([Gg]rowth\s+[Rr]ate)</pattern>
+				</regex>
+				<hits>
+					<hit growthrate="growth rate" />
+					<hit growthrate="growth rate" />
+				</hits>
+			</regex>
+		</result>
+	</resultsX>
+	<resultsX>
+		<source name="http://www.biomedcentral.com/1471-2229/14/309" />
+		<result>
+			<regex>
+				<regex xmlns="" weight="1.0" fields="[growthrate]">
+					<pattern>([Gg]rowth\s+[Rr]ate)</pattern>
+				</regex>
+				<hits>
+					<hit growthrate="growth rate" />
+				</hits>
+			</regex>
+		</result>
+	</resultsX>
+	<resultsX>
+		<source name="http://www.biomedcentral.com/1471-2229/14/310" />
+	</resultsX>
+	<resultsX>
+		<source name="http://www.biomedcentral.com/1471-2229/14/311" />
+	</resultsX>
+	<resultsX>
+		<source name="http://www.biomedcentral.com/1471-2229/14/312" />
+	</resultsX>
+	<resultsX>
+		<source name="http://www.biomedcentral.com/1471-2229/14/313" />
+	</resultsX>
+	<resultsX>
+		<source name="http://www.biomedcentral.com/1471-2229/14/314" />
+	</resultsX>
+	<resultsX>
+		<source name="http://www.biomedcentral.com/1471-2229/14/316" />
+	</resultsX>
+	<resultsX>
+		<source name="http://www.biomedcentral.com/1471-2229/14/317" />
+	</resultsX>
+	<resultsX>
+		<source name="http://www.biomedcentral.com/1471-2229/14/319" />
+	</resultsX>
+	<resultsX>
+		<source name="http://www.biomedcentral.com/1471-2229/14/320" />
+	</resultsX>
+	<resultsX>
+		<source name="http://www.biomedcentral.com/1471-2229/14/321" />
+		<result>
+			<regex>
+				<regex xmlns="" weight="1.0" fields="[nfix]">
+					<pattern>([Nn]itrogen\s+[Ff]ix[^\s+]+)</pattern>
+				</regex>
+				<hits>
+					<hit nfix="nitrogen fixing" />
+				</hits>
+			</regex>
+		</result>
+	</resultsX>
+	<resultsX>
+		<source name="http://www.biomedcentral.com/1471-2229/14/325" />
+	</resultsX>
+	<resultsX>
+		<source name="http://www.biomedcentral.com/1471-2229/14/326" />
+	</resultsX>
+	<resultsX>
+		<source name="http://www.biomedcentral.com/1471-2229/14/327" />
+	</resultsX>
+	<resultsX>
+		<source name="http://www.biomedcentral.com/1471-2229/14/331" />
+	</resultsX>
+	<resultsX>
+		<source name="http://www.biomedcentral.com/1471-2229/14/332" />
+		<result>
+			<regex>
+				<regex xmlns="" weight="1.0" fields="[lifespan]">
+					<pattern>([Ll]ifespan)</pattern>
+				</regex>
+				<hits>
+					<hit lifespan="lifespan" />
+				</hits>
+			</regex>
+		</result>
+	</resultsX>
+	<resultsX>
+		<source name="http://www.biomedcentral.com/1471-2229/14/334" />
+	</resultsX>
+	<resultsX>
+		<source name="http://www.biomedcentral.com/1471-2229/14/335" />
+	</resultsX>
+	<resultsX>
+		<source name="http://www.biomedcentral.com/1471-2229/14/336" />
+	</resultsX>
+	<resultsX>
+		<source name="http://www.biomedcentral.com/1471-2229/14/338" />
+		<result>
+			<regex>
+				<regex xmlns="" weight="1.0" fields="[growthrate]">
+					<pattern>([Gg]rowth\s+[Rr]ate)</pattern>
+				</regex>
+				<hits>
+					<hit growthrate="growth rate" />
+				</hits>
+			</regex>
+		</result>
+	</resultsX>
+	<resultsX>
+		<source name="http://www.biomedcentral.com/1471-2229/14/340" />
+	</resultsX>
+	<resultsX>
+		<source name="http://www.biomedcentral.com/1471-2229/14/342" />
+		<result>
+			<regex>
+				<regex xmlns="" weight="1.0" fields="[nfix]">
+					<pattern>([Nn]itrogen\s+[Ff]ix[^\s+]+)</pattern>
+				</regex>
+				<hits>
+					<hit nfix="nitrogen fixing" />
+					<hit nfix="nitrogen fixation" />
+				</hits>
+			</regex>
+		</result>
+	</resultsX>
+</resultsList>

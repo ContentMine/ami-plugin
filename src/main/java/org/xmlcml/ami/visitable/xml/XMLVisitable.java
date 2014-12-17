@@ -35,7 +35,6 @@ public class XMLVisitable extends AbstractVisitable  {
 		ensureFileList();
 		try {
 			this.fileList.add(file);
-//			Document document = XMLUtil.parseQuietlyToDocumentWithoutDTD(xmlFile);
 			Element root = XMLUtil.stripDTDAndParse(FileUtils.readFileToString(file));
 			XMLContainer xmlContainer = new XMLContainer(file, root); 
 			xmlContainerList.add(xmlContainer);

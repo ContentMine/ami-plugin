@@ -55,7 +55,7 @@ public class MatcherResult {
 		int gsize = groupList.size();
 		if (gsize > 0 || fieldList.size() > 0) {
 			if (gsize != fieldList.size()) {
-				throw new RuntimeException(
+				LOG.error(
 					"groupList ("+gsize+"; "+groupList+") does not match fieldList ("
 				    +fieldList.size()+";"+fieldList+")");
 			} else {

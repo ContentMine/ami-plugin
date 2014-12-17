@@ -1,0 +1,1021 @@
+<resultsList xmlns="http://www.xml-cml.org/ami">
+	<resultsX>
+		<source name="http://www.biomedcentral.com/1471-2229/14/1" />
+		<result>
+			<regex>
+				<regex xmlns="" weight="1.0" fields="[growthrate]">
+					<pattern>([Gg]rowth\s+[Rr]ate)</pattern>
+				</regex>
+				<hits>
+					<hit growthrate="growth rate" />
+					<hit growthrate="growth rate" />
+					<hit growthrate="growth rate" />
+					<hit growthrate="growth rate" />
+					<hit growthrate="growth rate" />
+					<hit growthrate="growth rate" />
+					<hit growthrate="growth rate" />
+					<hit growthrate="growth rate" />
+					<hit growthrate="growth rate" />
+					<hit growthrate="growth rate" />
+					<hit growthrate="growth rate" />
+					<hit growthrate="growth rate" />
+					<hit growthrate="growth rate" />
+					<hit growthrate="growth rate" />
+					<hit growthrate="growth rate" />
+					<hit growthrate="growth rate" />
+					<hit growthrate="growth rate" />
+					<hit growthrate="growth rate" />
+					<hit growthrate="growth rate" />
+					<hit growthrate="growth rate" />
+				</hits>
+			</regex>
+		</result>
+		<result>
+			<regex>
+				<regex xmlns="" weight="0.8" fields="[nona]">
+					<pattern>(nona)</pattern>
+				</regex>
+				<hits>
+					<hit nona="nona" />
+					<hit nona="nona" />
+				</hits>
+			</regex>
+		</result>
+	</resultsX>
+	<resultsX>
+		<source name="http://www.biomedcentral.com/1471-2229/14/2" />
+		<result>
+			<regex>
+				<regex xmlns="" weight="1.0" fields="[deeproot]">
+					<pattern>([Dd]eep\s+[Rr]oot)</pattern>
+				</regex>
+				<hits>
+					<hit deeproot="deep root" />
+					<hit deeproot="deep root" />
+				</hits>
+			</regex>
+		</result>
+		<result>
+			<regex>
+				<regex xmlns="" weight="0.5" fields="[align]">
+					<pattern>(align[^\W]*)</pattern>
+				</regex>
+				<hits>
+					<hit align="aligning" />
+					<hit align="alignments" />
+					<hit align="aligning" />
+					<hit align="alignment" />
+					<hit align="alignment" />
+				</hits>
+			</regex>
+		</result>
+		<result>
+			<regex>
+				<regex xmlns="" weight="0.1" fields="[node]">
+					<pattern>(node)</pattern>
+				</regex>
+				<hits>
+					<hit node="node" />
+				</hits>
+			</regex>
+		</result>
+	</resultsX>
+	<resultsX>
+		<source name="http://www.biomedcentral.com/1471-2229/14/3" />
+		<result>
+			<regex>
+				<regex xmlns="" weight="0.5" fields="[align]">
+					<pattern>(align[^\W]*)</pattern>
+				</regex>
+				<hits>
+					<hit align="aligned" />
+					<hit align="alignment" />
+				</hits>
+			</regex>
+		</result>
+		<result>
+			<regex>
+				<regex xmlns="" weight="0.5" fields="[neighbour_join]">
+					<pattern>(neighbou?r\s+join[^\W]*)</pattern>
+				</regex>
+				<hits>
+					<hit neighbour_join="neighbor joining" />
+				</hits>
+			</regex>
+		</result>
+		<result>
+			<regex>
+				<regex xmlns="" weight="0.5" fields="[outgroup]">
+					<pattern>(outgroup)</pattern>
+				</regex>
+				<hits>
+					<hit outgroup="outgroup" />
+				</hits>
+			</regex>
+		</result>
+		<result>
+			<regex>
+				<regex xmlns="" weight="0.5" fields="[phylip]">
+					<pattern>(PHYLIP)</pattern>
+				</regex>
+				<hits>
+					<hit phylip="PHYLIP" />
+				</hits>
+			</regex>
+		</result>
+		<result>
+			<regex>
+				<regex xmlns="" weight="0.2" fields="[phylogen]">
+					<pattern>(phylog[^\W]*)</pattern>
+				</regex>
+				<hits>
+					<hit phylogen="phylogenetic" />
+					<hit phylogen="phylogeny" />
+					<hit phylogen="phylogeny" />
+					<hit phylogen="phylogeny" />
+					<hit phylogen="phylogenetic" />
+					<hit phylogen="phylogenetic" />
+					<hit phylogen="phylogenetic" />
+					<hit phylogen="phylogeny" />
+					<hit phylogen="phylogenetic" />
+					<hit phylogen="phylogenetic" />
+				</hits>
+			</regex>
+		</result>
+		<result>
+			<regex>
+				<regex xmlns="" weight="0.6" fields="[phylogenetic_tree]">
+					<pattern>(phylogenetic\s+tree)</pattern>
+				</regex>
+				<hits>
+					<hit phylogenetic_tree="phylogenetic tree" />
+					<hit phylogenetic_tree="phylogenetic tree" />
+					<hit phylogenetic_tree="phylogenetic tree" />
+				</hits>
+			</regex>
+		</result>
+	</resultsX>
+	<resultsX>
+		<source name="http://www.biomedcentral.com/1471-2229/14/4" />
+		<result>
+			<regex>
+				<regex xmlns="" weight="0.5" fields="[align]">
+					<pattern>(align[^\W]*)</pattern>
+				</regex>
+				<hits>
+					<hit align="alignment" />
+				</hits>
+			</regex>
+		</result>
+	</resultsX>
+	<resultsX>
+		<source name="http://www.biomedcentral.com/1471-2229/14/5" />
+		<result>
+			<regex>
+				<regex xmlns="" weight="0.5" fields="[align]">
+					<pattern>(align[^\W]*)</pattern>
+				</regex>
+				<hits>
+					<hit align="aligned" />
+				</hits>
+			</regex>
+		</result>
+	</resultsX>
+	<resultsX>
+		<source name="http://www.biomedcentral.com/1471-2229/14/6" />
+		<result>
+			<regex>
+				<regex xmlns="" weight="0.5" fields="[align]">
+					<pattern>(align[^\W]*)</pattern>
+				</regex>
+				<hits>
+					<hit align="alignment" />
+					<hit align="aligned" />
+					<hit align="aligned" />
+					<hit align="alignment" />
+				</hits>
+			</regex>
+		</result>
+		<result>
+			<regex>
+				<regex xmlns="" weight="0.1" fields="[node]">
+					<pattern>(node)</pattern>
+				</regex>
+				<hits>
+					<hit node="node" />
+				</hits>
+			</regex>
+		</result>
+	</resultsX>
+	<resultsX>
+		<source name="http://www.biomedcentral.com/1471-2229/14/7" />
+		<result>
+			<regex>
+				<regex xmlns="" weight="0.5" fields="[align]">
+					<pattern>(align[^\W]*)</pattern>
+				</regex>
+				<hits>
+					<hit align="aligned" />
+					<hit align="aligned" />
+					<hit align="alignments" />
+					<hit align="alignment" />
+					<hit align="aligned" />
+					<hit align="aligned" />
+					<hit align="alignment" />
+					<hit align="aligned" />
+					<hit align="aligned" />
+					<hit align="alignment" />
+					<hit align="aligning" />
+					<hit align="alignment" />
+					<hit align="alignments" />
+					<hit align="aligned" />
+					<hit align="aligned" />
+					<hit align="alignment" />
+					<hit align="alignment" />
+					<hit align="alignment" />
+					<hit align="alignment" />
+					<hit align="alignments" />
+					<hit align="alignment" />
+					<hit align="alignment" />
+				</hits>
+			</regex>
+		</result>
+		<result>
+			<regex>
+				<regex xmlns="" weight="0.7" fields="[mega]">
+					<pattern>(MEGA)</pattern>
+				</regex>
+				<hits>
+					<hit mega="MEGA" />
+					<hit mega="MEGA" />
+				</hits>
+			</regex>
+		</result>
+		<result>
+			<regex>
+				<regex xmlns="" weight="0.1" fields="[node]">
+					<pattern>(node)</pattern>
+				</regex>
+				<hits>
+					<hit node="node" />
+					<hit node="node" />
+				</hits>
+			</regex>
+		</result>
+	</resultsX>
+	<resultsX>
+		<source name="http://www.biomedcentral.com/1471-2229/14/8" />
+		<result>
+			<regex>
+				<regex xmlns="" weight="0.5" fields="[align]">
+					<pattern>(align[^\W]*)</pattern>
+				</regex>
+				<hits>
+					<hit align="alignment" />
+					<hit align="aligned" />
+					<hit align="alignment" />
+					<hit align="alignment" />
+					<hit align="aligned" />
+					<hit align="aligned" />
+					<hit align="alignment" />
+					<hit align="aligned" />
+					<hit align="aligned" />
+					<hit align="alignment" />
+				</hits>
+			</regex>
+		</result>
+		<result>
+			<regex>
+				<regex xmlns="" weight="0.6" fields="[bootstrap]">
+					<pattern>(bootstrap[^\W]*)</pattern>
+				</regex>
+				<hits>
+					<hit bootstrap="bootstrap" />
+					<hit bootstrap="bootstrap" />
+					<hit bootstrap="bootstrapped" />
+					<hit bootstrap="bootstrap" />
+					<hit bootstrap="bootstrap" />
+					<hit bootstrap="bootstrapped" />
+					<hit bootstrap="bootstrap" />
+				</hits>
+			</regex>
+		</result>
+		<result>
+			<regex>
+				<regex xmlns="" weight="0.5" fields="[genbank]">
+					<pattern>(GenBank)</pattern>
+				</regex>
+				<hits>
+					<hit genbank="GenBank" />
+					<hit genbank="GenBank" />
+				</hits>
+			</regex>
+		</result>
+		<result>
+			<regex>
+				<regex xmlns="" weight="0.5" fields="[maximum_likelihood]">
+					<pattern>(maximum\s+likelihood)</pattern>
+				</regex>
+				<hits>
+					<hit maximum_likelihood="maximum likelihood" />
+				</hits>
+			</regex>
+		</result>
+		<result>
+			<regex>
+				<regex xmlns="" weight="0.5" fields="[maximum_parsimony]">
+					<pattern>(maximum\s+parsimony)</pattern>
+				</regex>
+				<hits>
+					<hit maximum_parsimony="maximum parsimony" />
+					<hit maximum_parsimony="maximum parsimony" />
+					<hit maximum_parsimony="maximum parsimony" />
+					<hit maximum_parsimony="maximum parsimony" />
+					<hit maximum_parsimony="maximum parsimony" />
+				</hits>
+			</regex>
+		</result>
+		<result>
+			<regex>
+				<regex xmlns="" weight="0.7" fields="[mega]">
+					<pattern>(MEGA)</pattern>
+				</regex>
+				<hits>
+					<hit mega="MEGA" />
+					<hit mega="MEGA" />
+					<hit mega="MEGA" />
+					<hit mega="MEGA" />
+				</hits>
+			</regex>
+		</result>
+		<result>
+			<regex>
+				<regex xmlns="" weight="0.5" fields="[parsimony]">
+					<pattern>([Pp]arsimon[^\W]*)</pattern>
+				</regex>
+				<hits>
+					<hit parsimony="parsimony" />
+					<hit parsimony="parsimony" />
+					<hit parsimony="parsimony" />
+					<hit parsimony="parsimony" />
+					<hit parsimony="parsimony" />
+				</hits>
+			</regex>
+		</result>
+		<result>
+			<regex>
+				<regex xmlns="" weight="0.2" fields="[phylogen]">
+					<pattern>(phylog[^\W]*)</pattern>
+				</regex>
+				<hits>
+					<hit phylogen="phylogenetic" />
+					<hit phylogen="phylogenetic" />
+					<hit phylogen="phylogenetic" />
+					<hit phylogen="phylogenetic" />
+					<hit phylogen="phylogenetic" />
+					<hit phylogen="phylogenetic" />
+					<hit phylogen="phylogenetic" />
+					<hit phylogen="phylogenetic" />
+					<hit phylogen="phylogenetically" />
+					<hit phylogen="phylogenetic" />
+					<hit phylogen="phylogenetic" />
+					<hit phylogen="phylogenetic" />
+				</hits>
+			</regex>
+		</result>
+		<result>
+			<regex>
+				<regex xmlns="" weight="0.6" fields="[phylogenetic_tree]">
+					<pattern>(phylogenetic\s+tree)</pattern>
+				</regex>
+				<hits>
+					<hit phylogenetic_tree="phylogenetic tree" />
+					<hit phylogenetic_tree="phylogenetic tree" />
+					<hit phylogenetic_tree="phylogenetic tree" />
+					<hit phylogenetic_tree="phylogenetic tree" />
+				</hits>
+			</regex>
+		</result>
+	</resultsX>
+	<resultsX>
+		<source name="http://www.biomedcentral.com/1471-2229/14/9" />
+		<result>
+			<regex>
+				<regex xmlns="" weight="0.5" fields="[align]">
+					<pattern>(align[^\W]*)</pattern>
+				</regex>
+				<hits>
+					<hit align="alignment" />
+					<hit align="aligned" />
+					<hit align="alignment" />
+				</hits>
+			</regex>
+		</result>
+		<result>
+			<regex>
+				<regex xmlns="" weight="0.6" fields="[bootstrap]">
+					<pattern>(bootstrap[^\W]*)</pattern>
+				</regex>
+				<hits>
+					<hit bootstrap="bootstrap" />
+				</hits>
+			</regex>
+		</result>
+		<result>
+			<regex>
+				<regex xmlns="" weight="0.5" fields="[maximum_likelihood]">
+					<pattern>(maximum\s+likelihood)</pattern>
+				</regex>
+				<hits>
+					<hit maximum_likelihood="maximum likelihood" />
+				</hits>
+			</regex>
+		</result>
+		<result>
+			<regex>
+				<regex xmlns="" weight="0.5" fields="[maximum_parsimony]">
+					<pattern>(maximum\s+parsimony)</pattern>
+				</regex>
+				<hits>
+					<hit maximum_parsimony="maximum parsimony" />
+				</hits>
+			</regex>
+		</result>
+		<result>
+			<regex>
+				<regex xmlns="" weight="0.7" fields="[mega]">
+					<pattern>(MEGA)</pattern>
+				</regex>
+				<hits>
+					<hit mega="MEGA" />
+					<hit mega="MEGA" />
+					<hit mega="MEGA" />
+					<hit mega="MEGA" />
+				</hits>
+			</regex>
+		</result>
+		<result>
+			<regex>
+				<regex xmlns="" weight="0.1" fields="[node]">
+					<pattern>(node)</pattern>
+				</regex>
+				<hits>
+					<hit node="node" />
+				</hits>
+			</regex>
+		</result>
+		<result>
+			<regex>
+				<regex xmlns="" weight="0.5" fields="[parsimony]">
+					<pattern>([Pp]arsimon[^\W]*)</pattern>
+				</regex>
+				<hits>
+					<hit parsimony="parsimony" />
+				</hits>
+			</regex>
+		</result>
+		<result>
+			<regex>
+				<regex xmlns="" weight="0.2" fields="[phylogen]">
+					<pattern>(phylog[^\W]*)</pattern>
+				</regex>
+				<hits>
+					<hit phylogen="phylogenic" />
+					<hit phylogen="phylogenetic" />
+					<hit phylogen="phylogenetic" />
+					<hit phylogen="phylogenetic" />
+					<hit phylogen="phylogenetic" />
+					<hit phylogen="phylogenetic" />
+					<hit phylogen="phylogenetic" />
+					<hit phylogen="phylogenetic" />
+					<hit phylogen="phylogenetic" />
+				</hits>
+			</regex>
+		</result>
+		<result>
+			<regex>
+				<regex xmlns="" weight="0.6" fields="[phylogenetic_tree]">
+					<pattern>(phylogenetic\s+tree)</pattern>
+				</regex>
+				<hits>
+					<hit phylogenetic_tree="phylogenetic tree" />
+					<hit phylogenetic_tree="phylogenetic tree" />
+					<hit phylogenetic_tree="phylogenetic tree" />
+					<hit phylogenetic_tree="phylogenetic tree" />
+					<hit phylogenetic_tree="phylogenetic tree" />
+					<hit phylogenetic_tree="phylogenetic tree" />
+					<hit phylogenetic_tree="phylogenetic tree" />
+				</hits>
+			</regex>
+		</result>
+	</resultsX>
+	<resultsX>
+		<source name="http://www.biomedcentral.com/1471-2229/14/10" />
+	</resultsX>
+	<resultsX>
+		<source name="http://www.biomedcentral.com/1471-2229/14/11" />
+		<result>
+			<regex>
+				<regex xmlns="" weight="0.5" fields="[align]">
+					<pattern>(align[^\W]*)</pattern>
+				</regex>
+				<hits>
+					<hit align="alignment" />
+				</hits>
+			</regex>
+		</result>
+	</resultsX>
+	<resultsX>
+		<source name="http://www.biomedcentral.com/1471-2229/14/12" />
+	</resultsX>
+	<resultsX>
+		<source name="http://www.biomedcentral.com/1471-2229/14/13" />
+	</resultsX>
+	<resultsX>
+		<source name="http://www.biomedcentral.com/1471-2229/14/14" />
+		<result>
+			<regex>
+				<regex xmlns="" weight="0.6" fields="[bootstrap]">
+					<pattern>(bootstrap[^\W]*)</pattern>
+				</regex>
+				<hits>
+					<hit bootstrap="bootstrap" />
+				</hits>
+			</regex>
+		</result>
+		<result>
+			<regex>
+				<regex xmlns="" weight="0.5" fields="[maximum_likelihood]">
+					<pattern>(maximum\s+likelihood)</pattern>
+				</regex>
+				<hits>
+					<hit maximum_likelihood="maximum likelihood" />
+				</hits>
+			</regex>
+		</result>
+		<result>
+			<regex>
+				<regex xmlns="" weight="0.5" fields="[maximum_parsimony]">
+					<pattern>(maximum\s+parsimony)</pattern>
+				</regex>
+				<hits>
+					<hit maximum_parsimony="maximum parsimony" />
+				</hits>
+			</regex>
+		</result>
+		<result>
+			<regex>
+				<regex xmlns="" weight="0.7" fields="[mega]">
+					<pattern>(MEGA)</pattern>
+				</regex>
+				<hits>
+					<hit mega="MEGA" />
+					<hit mega="MEGA" />
+				</hits>
+			</regex>
+		</result>
+		<result>
+			<regex>
+				<regex xmlns="" weight="0.5" fields="[parsimony]">
+					<pattern>([Pp]arsimon[^\W]*)</pattern>
+				</regex>
+				<hits>
+					<hit parsimony="parsimony" />
+				</hits>
+			</regex>
+		</result>
+		<result>
+			<regex>
+				<regex xmlns="" weight="0.2" fields="[phylogen]">
+					<pattern>(phylog[^\W]*)</pattern>
+				</regex>
+				<hits>
+					<hit phylogen="phylogenetic" />
+					<hit phylogen="phylogenetic" />
+					<hit phylogen="phylogenetic" />
+					<hit phylogen="phylogenetically" />
+					<hit phylogen="phylogenetic" />
+					<hit phylogen="phylogenetic" />
+					<hit phylogen="phylogenetic" />
+					<hit phylogen="phylogenetic" />
+					<hit phylogen="phylogenetic" />
+					<hit phylogen="phylogenetic" />
+				</hits>
+			</regex>
+		</result>
+		<result>
+			<regex>
+				<regex xmlns="" weight="0.6" fields="[phylogenetic_tree]">
+					<pattern>(phylogenetic\s+tree)</pattern>
+				</regex>
+				<hits>
+					<hit phylogenetic_tree="phylogenetic tree" />
+					<hit phylogenetic_tree="phylogenetic tree" />
+				</hits>
+			</regex>
+		</result>
+	</resultsX>
+	<resultsX>
+		<source name="http://www.biomedcentral.com/1471-2229/14/15" />
+		<result>
+			<regex>
+				<regex xmlns="" weight="1.0" fields="[droughttol]">
+					<pattern>([Dd]rought\s+[Tt]olerance)</pattern>
+				</regex>
+				<hits>
+					<hit droughttol="Drought tolerance" />
+					<hit droughttol="drought tolerance" />
+				</hits>
+			</regex>
+		</result>
+		<result>
+			<regex>
+				<regex xmlns="" weight="0.5" fields="[align]">
+					<pattern>(align[^\W]*)</pattern>
+				</regex>
+				<hits>
+					<hit align="alignment" />
+					<hit align="aligned" />
+				</hits>
+			</regex>
+		</result>
+		<result>
+			<regex>
+				<regex xmlns="" weight="0.5" fields="[maximum_likelihood]">
+					<pattern>(maximum\s+likelihood)</pattern>
+				</regex>
+				<hits>
+					<hit maximum_likelihood="maximum likelihood" />
+				</hits>
+			</regex>
+		</result>
+		<result>
+			<regex>
+				<regex xmlns="" weight="0.5" fields="[maximum_parsimony]">
+					<pattern>(maximum\s+parsimony)</pattern>
+				</regex>
+				<hits>
+					<hit maximum_parsimony="maximum parsimony" />
+				</hits>
+			</regex>
+		</result>
+		<result>
+			<regex>
+				<regex xmlns="" weight="0.7" fields="[mega]">
+					<pattern>(MEGA)</pattern>
+				</regex>
+				<hits>
+					<hit mega="MEGA" />
+					<hit mega="MEGA" />
+					<hit mega="MEGA" />
+					<hit mega="MEGA" />
+				</hits>
+			</regex>
+		</result>
+		<result>
+			<regex>
+				<regex xmlns="" weight="0.1" fields="[node]">
+					<pattern>(node)</pattern>
+				</regex>
+				<hits>
+					<hit node="node" />
+				</hits>
+			</regex>
+		</result>
+		<result>
+			<regex>
+				<regex xmlns="" weight="0.5" fields="[parsimony]">
+					<pattern>([Pp]arsimon[^\W]*)</pattern>
+				</regex>
+				<hits>
+					<hit parsimony="parsimony" />
+				</hits>
+			</regex>
+		</result>
+		<result>
+			<regex>
+				<regex xmlns="" weight="0.2" fields="[phylogen]">
+					<pattern>(phylog[^\W]*)</pattern>
+				</regex>
+				<hits>
+					<hit phylogen="phylogenetic" />
+					<hit phylogen="phylogenetic" />
+					<hit phylogen="phylogenetic" />
+					<hit phylogen="phylogenetic" />
+					<hit phylogen="phylogenetic" />
+					<hit phylogen="phylogenetic" />
+					<hit phylogen="phylogenetic" />
+					<hit phylogen="phylogenetic" />
+					<hit phylogen="phylogenetic" />
+					<hit phylogen="phylogenetic" />
+					<hit phylogen="phylogenetic" />
+				</hits>
+			</regex>
+		</result>
+		<result>
+			<regex>
+				<regex xmlns="" weight="0.6" fields="[phylogenetic_tree]">
+					<pattern>(phylogenetic\s+tree)</pattern>
+				</regex>
+				<hits>
+					<hit phylogenetic_tree="phylogenetic tree" />
+				</hits>
+			</regex>
+		</result>
+	</resultsX>
+	<resultsX>
+		<source name="http://www.biomedcentral.com/1471-2229/14/16" />
+		<result>
+			<regex>
+				<regex xmlns="" weight="0.2" fields="[phylogen]">
+					<pattern>(phylog[^\W]*)</pattern>
+				</regex>
+				<hits>
+					<hit phylogen="phylogenetic" />
+					<hit phylogen="phylogeography" />
+					<hit phylogen="phylogenies" />
+					<hit phylogen="phylogeny" />
+					<hit phylogen="phylogeny" />
+				</hits>
+			</regex>
+		</result>
+		<result>
+			<regex>
+				<regex xmlns="" weight="0.6" fields="[phylogenetic_tree]">
+					<pattern>(phylogenetic\s+tree)</pattern>
+				</regex>
+				<hits>
+					<hit phylogenetic_tree="phylogenetic tree" />
+				</hits>
+			</regex>
+		</result>
+	</resultsX>
+	<resultsX>
+		<source name="http://www.biomedcentral.com/1471-2229/14/17" />
+		<result>
+			<regex>
+				<regex xmlns="" weight="0.5" fields="[align]">
+					<pattern>(align[^\W]*)</pattern>
+				</regex>
+				<hits>
+					<hit align="aligned" />
+					<hit align="alignments" />
+				</hits>
+			</regex>
+		</result>
+		<result>
+			<regex>
+				<regex xmlns="" weight="0.6" fields="[bootstrap]">
+					<pattern>(bootstrap[^\W]*)</pattern>
+				</regex>
+				<hits>
+					<hit bootstrap="bootstrap" />
+				</hits>
+			</regex>
+		</result>
+		<result>
+			<regex>
+				<regex xmlns="" weight="0.5" fields="[maximum_likelihood]">
+					<pattern>(maximum\s+likelihood)</pattern>
+				</regex>
+				<hits>
+					<hit maximum_likelihood="maximum likelihood" />
+				</hits>
+			</regex>
+		</result>
+		<result>
+			<regex>
+				<regex xmlns="" weight="0.5" fields="[maximum_parsimony]">
+					<pattern>(maximum\s+parsimony)</pattern>
+				</regex>
+				<hits>
+					<hit maximum_parsimony="maximum parsimony" />
+				</hits>
+			</regex>
+		</result>
+		<result>
+			<regex>
+				<regex xmlns="" weight="0.7" fields="[mega]">
+					<pattern>(MEGA)</pattern>
+				</regex>
+				<hits>
+					<hit mega="MEGA" />
+					<hit mega="MEGA" />
+				</hits>
+			</regex>
+		</result>
+		<result>
+			<regex>
+				<regex xmlns="" weight="0.5" fields="[parsimony]">
+					<pattern>([Pp]arsimon[^\W]*)</pattern>
+				</regex>
+				<hits>
+					<hit parsimony="parsimony" />
+				</hits>
+			</regex>
+		</result>
+		<result>
+			<regex>
+				<regex xmlns="" weight="0.2" fields="[phylogen]">
+					<pattern>(phylog[^\W]*)</pattern>
+				</regex>
+				<hits>
+					<hit phylogen="phylogeographical" />
+					<hit phylogen="phylogeny" />
+				</hits>
+			</regex>
+		</result>
+	</resultsX>
+	<resultsX>
+		<source name="http://www.biomedcentral.com/1471-2229/14/18" />
+		<result>
+			<regex>
+				<regex xmlns="" weight="0.5" fields="[align]">
+					<pattern>(align[^\W]*)</pattern>
+				</regex>
+				<hits>
+					<hit align="alignment" />
+					<hit align="alignments" />
+				</hits>
+			</regex>
+		</result>
+		<result>
+			<regex>
+				<regex xmlns="" weight="0.5" fields="[genbank]">
+					<pattern>(GenBank)</pattern>
+				</regex>
+				<hits>
+					<hit genbank="GenBank" />
+					<hit genbank="GenBank" />
+					<hit genbank="GenBank" />
+				</hits>
+			</regex>
+		</result>
+		<result>
+			<regex>
+				<regex xmlns="" weight="0.7" fields="[mega]">
+					<pattern>(MEGA)</pattern>
+				</regex>
+				<hits>
+					<hit mega="MEGA" />
+				</hits>
+			</regex>
+		</result>
+		<result>
+			<regex>
+				<regex xmlns="" weight="0.2" fields="[phylogen]">
+					<pattern>(phylog[^\W]*)</pattern>
+				</regex>
+				<hits>
+					<hit phylogen="phylogenetic" />
+					<hit phylogen="phylogenetic" />
+				</hits>
+			</regex>
+		</result>
+	</resultsX>
+	<resultsX>
+		<source name="http://www.biomedcentral.com/1471-2229/14/19" />
+		<result>
+			<regex>
+				<regex xmlns="" weight="0.5" fields="[align]">
+					<pattern>(align[^\W]*)</pattern>
+				</regex>
+				<hits>
+					<hit align="alignment" />
+					<hit align="aligned" />
+					<hit align="alignment" />
+					<hit align="aligned" />
+					<hit align="alignments" />
+					<hit align="alignment" />
+					<hit align="alignments" />
+					<hit align="alignments" />
+					<hit align="alignments" />
+					<hit align="alignment" />
+					<hit align="alignments" />
+					<hit align="alignments" />
+				</hits>
+			</regex>
+		</result>
+		<result>
+			<regex>
+				<regex xmlns="" weight="0.6" fields="[bootstrap]">
+					<pattern>(bootstrap[^\W]*)</pattern>
+				</regex>
+				<hits>
+					<hit bootstrap="bootstrap" />
+					<hit bootstrap="bootstrap" />
+					<hit bootstrap="bootstrap" />
+					<hit bootstrap="bootstrap" />
+					<hit bootstrap="bootstrap" />
+					<hit bootstrap="bootstrap" />
+				</hits>
+			</regex>
+		</result>
+		<result>
+			<regex>
+				<regex xmlns="" weight="0.8" fields="[branch_lengths]">
+					<pattern>(branch\s+lengths?)</pattern>
+				</regex>
+				<hits>
+					<hit branch_lengths="branch lengths" />
+				</hits>
+			</regex>
+		</result>
+		<result>
+			<regex>
+				<regex xmlns="" weight="0.5" fields="[maximum_likelihood]">
+					<pattern>(maximum\s+likelihood)</pattern>
+				</regex>
+				<hits>
+					<hit maximum_likelihood="maximum likelihood" />
+					<hit maximum_likelihood="maximum likelihood" />
+					<hit maximum_likelihood="maximum likelihood" />
+					<hit maximum_likelihood="maximum likelihood" />
+					<hit maximum_likelihood="maximum likelihood" />
+					<hit maximum_likelihood="maximum likelihood" />
+				</hits>
+			</regex>
+		</result>
+		<result>
+			<regex>
+				<regex xmlns="" weight="0.1" fields="[node]">
+					<pattern>(node)</pattern>
+				</regex>
+				<hits>
+					<hit node="node" />
+				</hits>
+			</regex>
+		</result>
+		<result>
+			<regex>
+				<regex xmlns="" weight="0.2" fields="[phylogen]">
+					<pattern>(phylog[^\W]*)</pattern>
+				</regex>
+				<hits>
+					<hit phylogen="phylogenetic" />
+					<hit phylogen="phylogenetic" />
+					<hit phylogen="phylogeny" />
+					<hit phylogen="phylogeny" />
+					<hit phylogen="phylogenetic" />
+					<hit phylogen="phylogeny" />
+					<hit phylogen="phylogenetic" />
+					<hit phylogen="phylogenetic" />
+					<hit phylogen="phylogenetic" />
+					<hit phylogen="phylogeny" />
+					<hit phylogen="phylogenetic" />
+					<hit phylogen="phylogenies" />
+				</hits>
+			</regex>
+		</result>
+		<result>
+			<regex>
+				<regex xmlns="" weight="0.8" fields="[phyml]">
+					<pattern>(PHYML)</pattern>
+				</regex>
+				<hits>
+					<hit phyml="PHYML" />
+				</hits>
+			</regex>
+		</result>
+		<result>
+			<regex>
+				<regex xmlns="" weight="0.6" fields="[phylogenetic_tree]">
+					<pattern>(phylogenetic\s+tree)</pattern>
+				</regex>
+				<hits>
+					<hit phylogenetic_tree="phylogenetic tree" />
+					<hit phylogenetic_tree="phylogenetic tree" />
+					<hit phylogenetic_tree="phylogenetic tree" />
+				</hits>
+			</regex>
+		</result>
+	</resultsX>
+	<resultsX>
+		<source name="http://www.biomedcentral.com/1471-2229/14/20" />
+		<result>
+			<regex>
+				<regex xmlns="" weight="0.1" fields="[node]">
+					<pattern>(node)</pattern>
+				</regex>
+				<hits>
+					<hit node="node" />
+					<hit node="node" />
+					<hit node="node" />
+					<hit node="node" />
+					<hit node="node" />
+					<hit node="node" />
+					<hit node="node" />
+					<hit node="node" />
+					<hit node="node" />
+					<hit node="node" />
+					<hit node="node" />
+					<hit node="node" />
+					<hit node="node" />
+					<hit node="node" />
+					<hit node="node" />
+					<hit node="node" />
+				</hits>
+			</regex>
+		</result>
+	</resultsX>
+</resultsList>

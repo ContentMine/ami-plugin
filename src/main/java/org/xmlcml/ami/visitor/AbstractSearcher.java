@@ -190,7 +190,6 @@ public abstract class AbstractSearcher {
 		HtmlContainer htmlContainer = pdfContainer.getHtmlContainer();
 		if (htmlContainer != null) {
 			search(htmlContainer);
-			XMLUtil.debug(htmlContainer.getElement());
 		} else {
 			LOG.error("Cannot create HtmlContainer from PDF");
 		}

@@ -9,7 +9,9 @@ import java.util.List;
 
 import org.apache.commons.io.FileUtils;
 import org.apache.log4j.Logger;
+import org.xmlcml.ami.tagger.JournalTagger;
 import org.xmlcml.ami.visitor.AbstractVisitor;
+import org.xmlcml.ami.visitor.XPathProcessor;
 
 /** 
  * Superclass of SVG2XML visitables.
@@ -27,6 +29,9 @@ public abstract class AbstractVisitable {
 	protected List<File> fileList;
 	protected URL url;
 	protected int sleepTime = 4000; // includes other time so ca 5000
+	protected AbstractVisitor visitor; // not sure whether we need to transfer reference
+	protected JournalTagger tagger;
+	protected XPathProcessor xPathProcessor;
 
 	protected AbstractVisitable() {
 		
@@ -38,7 +43,29 @@ public abstract class AbstractVisitable {
 	 * @param visitor
 	 */
 	public void accept(AbstractVisitor visitor) {
+		setVisitorProperties(visitor);
 		visitor.visit(this);
+	}
+	
+	private void setVisitorProperties(AbstractVisitor visitor) {
+		this.setTagger(visitor.getJournalTagger());
+		this.setXPathProcessor(visitor.getXPathProcessor());
+	}
+
+	public void setTagger(JournalTagger tagger) {
+		this.tagger = tagger;
+	}
+	
+	public JournalTagger getTagger() {
+		return tagger;
+	}
+
+	public void setXPathProcessor(XPathProcessor xPathProcessor) {
+		this.xPathProcessor = xPathProcessor;
+	}
+	
+	public XPathProcessor getXPathProcessor() {
+		return xPathProcessor;
 	}
 
     public List<File> findFilesInDirectories() {
@@ -71,6 +98,10 @@ public abstract class AbstractVisitable {
 
 	// ==========================================
 	
+    public AbstractVisitor getVistor() {
+    	return visitor;
+    }
+    
 	public File getTopDirectory() {
 		return topDirectory;
 	}
@@ -146,6 +177,10 @@ public abstract class AbstractVisitable {
 
 	public void addURL(URL url) throws Exception {
 		this.url = url;
+		addDelayForCourtesy();
+	}
+
+	private void addDelayForCourtesy() throws InterruptedException {
 		Thread.sleep(sleepTime);
 	}
 

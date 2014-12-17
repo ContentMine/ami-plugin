@@ -2,6 +2,7 @@ package org.xmlcml.ami.visitor;
 
 import java.io.File;
 import java.io.IOException;
+import java.util.ArrayList;
 import java.util.List;
 import java.util.ListIterator;
 
@@ -11,6 +12,8 @@ import org.apache.commons.io.FileUtils;
 import org.apache.log4j.Logger;
 import org.xmlcml.ami.result.ResultsListElement;
 import org.xmlcml.ami.result.SimpleResultList;
+import org.xmlcml.ami.tagger.JournalTagger;
+import org.xmlcml.ami.tagger.bmc.BMCTagger;
 import org.xmlcml.ami.visitable.AbstractVisitable;
 import org.xmlcml.ami.visitable.SourceElement;
 import org.xmlcml.ami.visitable.VisitableContainer;
@@ -51,10 +54,9 @@ public abstract class AbstractVisitor {
 	private VisitorOutput visitorOutput;
 	protected AbstractVisitable currentVisitable;
 	private XPathProcessor xPathProcessor;
-
 	private AbstractSearcher searcher;
-
 	private File resultsFile;
+	private List<String> taggerNames;
 
 	// ============== VISITATION ========================
 	
@@ -173,8 +175,10 @@ public abstract class AbstractVisitor {
 	 * @param pdfVisitable
 	 */
 	protected final void doVisit(PDFVisitable pdfVisitable) {
-		for (PDFContainer pdfContainer : pdfVisitable.getPDFContainerList()) {
-			doSearchAndAddResults(pdfContainer);
+		if (pdfVisitable != null) {
+			for (PDFContainer pdfContainer : pdfVisitable.getPDFContainerList()) {
+				doSearchAndAddResults(pdfContainer);
+			}
 		}
 	}
 
@@ -291,7 +295,7 @@ public abstract class AbstractVisitor {
 			visitableInput.setExtensions(argProcessor.getExtensions());
 			visitableInput.setRecursive(argProcessor.isRecursive());
 			try {
-				visitableInput.createVisitableList();
+				visitableInput.createVisitableList(this);
 				LOG.trace("visitable list: "+visitableInput.getVisitableList());
 				LOG.trace("in: " + visitableInputList);
 			} catch (Exception e) {
@@ -312,7 +316,7 @@ public abstract class AbstractVisitor {
 		this.xPathProcessor = xPathProcessor;
 	}
 	
-	protected XPathProcessor getXPathProcessor() {
+	public XPathProcessor getXPathProcessor() {
 		return xPathProcessor;
 	}
 
@@ -482,6 +486,30 @@ public abstract class AbstractVisitor {
 	 * @return
 	 */
 	protected abstract AbstractSearcher createSearcher();
+	
+	public void setTaggers(List<String> taggerNames) {
+		this.taggerNames = taggerNames;
+	}
+	
+	public List<String> getTaggerNames() {
+		return taggerNames;
+	}
+
+	public JournalTagger getJournalTagger() {
+		JournalTagger tagger = null;
+		if (taggerNames != null) {
+			for (String taggerName : taggerNames) {
+				if (BMCTagger.getTaggerName().equals(taggerName)) {
+					tagger = new BMCTagger();
+					break;
+				}
+			}
+			if (tagger == null) {
+				LOG.error("cannot find tagger for any of: "+taggerNames);
+			}
+		}
+		return tagger;
+	}
 
 	// ==============================================
 }

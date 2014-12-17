@@ -185,7 +185,7 @@ public class SpeciesVisitorTest {
 		File outputDir = new File("target/species/many");
 		outputDir.delete();
 		String[] args = new String[] {
-				"-d",
+//				"-d",
 				"-i", inputFile.toString(),
 				"-o", outputDir.toString(),
 				"-e", "xml",
@@ -447,7 +447,7 @@ public class SpeciesVisitorTest {
 	@Ignore // till we create new TestFramework
 	public void testCommandlinePDFDIR() throws Exception {
 		String[] args = new String[] {
-				"-i", new File(Fixtures.XHTML2STM_DIR, "pdfsmall").toString()+"/",
+				"-i", new File(Fixtures.AMI_DIR, "pdfsmall").toString()+"/",
 				"-o", new File(Fixtures.AMI_OUT,"/pdf/").toString(),
 				"-e", AMIUtil.PDF
 		};

@@ -216,7 +216,6 @@ public class RegexComponent {
 			}
 		}
 		results.addAttribute(new Attribute("count", String.valueOf(count)));
-//		XMLUtil.debug(results);
 		return results;
 	}
 }

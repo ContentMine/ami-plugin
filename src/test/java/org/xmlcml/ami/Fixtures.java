@@ -8,10 +8,10 @@ public class Fixtures {
 	public static final File TEST_RESOURCES_DIR = new File("src/test/resources/");
 	public static final File PDF_DIR = new File("../pdfs");
 
-	public static final File XHTML2STM_DIR = new File(TEST_RESOURCES_DIR, "org/xmlcml/ami/");
+	public static final File AMI_DIR = new File(TEST_RESOURCES_DIR, "org/xmlcml/ami/");
 	
 	//CHEM
-	public static final File MOLECULES_DIR = new File(XHTML2STM_DIR, "molecules");
+	public static final File MOLECULES_DIR = new File(AMI_DIR, "molecules");
 	
 	public static File IMAGE_2_10_SVG = new File(MOLECULES_DIR, "image.g.2.10.svg");
 	public static File IMAGE_2_11_SVG = new File(MOLECULES_DIR, "image.g.2.11.svg");
@@ -38,11 +38,11 @@ public class Fixtures {
 	public static File SMALL_TEST_4 = new File(MOLECULES_DIR, "smalltest4.svg");
 	public static File SMALL_TEST_5 = new File(MOLECULES_DIR, "smalltest5.svg");
 	
-	public static File WEDGES = new File(XHTML2STM_DIR, "wedges.svg");
-	public static File WEDGESREDUCED = new File(XHTML2STM_DIR, "wedgesreduced.svg");
-	public static File ARROWHEADS = new File(XHTML2STM_DIR, "arrowheads.svg");
-	public static File THICKLINES = new File(XHTML2STM_DIR, "thicklines.svg");
-	public static File THICKLINESREDUCED = new File(XHTML2STM_DIR, "thicklinesreduced.svg");
+	public static File WEDGES = new File(AMI_DIR, "wedges.svg");
+	public static File WEDGESREDUCED = new File(AMI_DIR, "wedgesreduced.svg");
+	public static File ARROWHEADS = new File(AMI_DIR, "arrowheads.svg");
+	public static File THICKLINES = new File(AMI_DIR, "thicklines.svg");
+	public static File THICKLINESREDUCED = new File(AMI_DIR, "thicklinesreduced.svg");
 	
 	public static File ASPERFURAN_LABEL_CML = new File(MOLECULES_DIR, "asperfuran.label.cml");
 	public static File METHOXYMETHANE = new File(MOLECULES_DIR, "methoxymethane.svg");
@@ -57,23 +57,23 @@ public class Fixtures {
 	public static final File SCATTERPLOT_FIVE_7_2_SVG = new File(FIGURE_DIR, "scatterplot5.g.7.2.svg");
 	public static final File SCATTERPLOT_7_2_SVG = new File(FIGURE_DIR, "scatterplot.g.7.2.svg");
 
-	public static final File IMAGES_DIR = new File(XHTML2STM_DIR, "images");
+	public static final File IMAGES_DIR = new File(AMI_DIR, "images");
 	public static final File IMAGE_G_2_2_SVG = new File(IMAGES_DIR, "image.g.2.2.svg");
 	public static final File IMAGE_G_3_2_SVG = new File(IMAGES_DIR, "image.g.3.2.svg");
 	public static final File IMAGE_G_8_0_SVG = new File(IMAGES_DIR, "image.g.8.0.svg");
 	public static final File IMAGE_G_8_2_SVG = new File(IMAGES_DIR, "image.g.8.2.svg");
 	
 	// HTML
-	public static final File HTML_DIR = new File(XHTML2STM_DIR, "html");
+	public static final File HTML_DIR = new File(AMI_DIR, "html");
 	public static final File MULTIPLE_312_HTML = new File(HTML_DIR, "multiple.312.html");
 	public static final File METABOLITE_00039_HTML = new File(MOLECULES_DIR, "metabolite00039.html");
 	
 	// XML
-	public static final File XML_DIR = new File(XHTML2STM_DIR, "xml");
+	public static final File XML_DIR = new File(AMI_DIR, "xml");
 	public static final File PLOSONE_0080753_XML = new File(XML_DIR, "journal.pone.0080753.xml");
 	
 	// MATERIALS/SPECTRA
-	public static final File MATERIALS_DIR = new File(XHTML2STM_DIR, "materials");
+	public static final File MATERIALS_DIR = new File(AMI_DIR, "materials");
 
 	// OUTPUT
 	public static final File TEST_DIRECTORIES_DIR = new File(TEST_RESOURCES_DIR, "org/xmlcml/ami/directories");
@@ -85,10 +85,10 @@ public class Fixtures {
 	public static final File ARMBRUSTER_HTML = new File(TEST_REGEX_DIR, "armbruster.html");
 
 	// SEQUENCE
-	public static final File SEQUENCE_DIR = new File(XHTML2STM_DIR, "sequences");
+	public static final File SEQUENCE_DIR = new File(AMI_DIR, "sequences");
 
 	// SPECIES
-	public static final File SPECIES_DIR = new File(XHTML2STM_DIR, "species");
+	public static final File SPECIES_DIR = new File(AMI_DIR, "species");
 //	public static final File MULTIPLE_SPECIES_312_HTML = new File(SPECIES_DIR, "multiple.species.312.html");
 	public static final File MULTIPLE_SPECIES_312_HTML = new File(SPECIES_DIR, "1471-2148-11-312.html");
 	public static final File MULTIPLE_SPECIES_312_XML = new File(SPECIES_DIR, "1471-2148-11-312.xml");
@@ -107,6 +107,10 @@ public class Fixtures {
 	public static final File TREE_GIBBONS_SMALL_SVG = new File(TREE_DIR, "gibbons.small.svg");
 	public static final File TREE_BIRDS_CLEAN_SVG = new File(TREE_DIR, "birds.clean.svg");
 	public static final File TREE_BIRDS_CLEAN_SMALL_SVG = new File(TREE_DIR, "birds.clean.small.svg");
+	
+	//SECTIONS
+	public static final File SECTIONS_DIR = new File(AMI_DIR, "sections");
+	public static final File BMC_SECTIONS = new File(SECTIONS_DIR, "bmc");
 
 	// PDFS
 	public static final File BMC_PDFS = new File(PDF_DIR, "bmc");
@@ -114,11 +118,12 @@ public class Fixtures {
 	public static final File BMC_ALL =  new File(BMC_PDFS, "svgOutput");
 	
 	// LOCAL PDFS
-	public static final File XHTML_PDF_DIR = new File(XHTML2STM_DIR, "pdf");
+	public static final File XHTML_PDF_DIR = new File(AMI_DIR, "pdf");
 	public static final File MULTIPLE_312_PDF = new File(XHTML_PDF_DIR, "multiple-1471-2148-11-312.pdf");
 	public static final File _329_PDF = new File(XHTML_PDF_DIR, "1471-2148-11-329.pdf");
 	
 	// AMI
 	public static final File AMI_OUT = new File("target/amiout");
+
 	
 }

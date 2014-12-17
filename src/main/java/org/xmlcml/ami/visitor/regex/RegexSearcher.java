@@ -196,9 +196,7 @@ public class RegexSearcher extends AbstractSearcher {
 				regexResult = new RegexResultElement(regexComponent, matcherResult);
 				regexResult.addLineNumberAttribute(eic);
 				regexResult.addLineValueAttribute(eic);
-				LOG.debug("regexResult *** "+regexResult.toString());
 				regexResultList.add(regexResult);
-//				hits++;
 			}
 		}
 	}

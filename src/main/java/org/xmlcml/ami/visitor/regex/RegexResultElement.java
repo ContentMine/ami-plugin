@@ -43,7 +43,6 @@ public class RegexResultElement extends AbstractResultElement {
 		this.matcherResult = matcherResult;
 		this.appendChild(regexComponent.createElement());
 		this.appendChild(matcherResult.createElement());
-//		XMLUtil.debug(this, "RegexResult");
 	}
 
 	protected RegexResultElement createElement(SimpleResultWrapper simpleResult) {

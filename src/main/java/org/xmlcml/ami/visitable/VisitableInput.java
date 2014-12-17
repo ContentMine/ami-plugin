@@ -17,6 +17,7 @@ import org.xmlcml.ami.visitable.pdf.PDFVisitable;
 import org.xmlcml.ami.visitable.svg.SVGVisitable;
 import org.xmlcml.ami.visitable.txt.TextVisitable;
 import org.xmlcml.ami.visitable.xml.XMLVisitable;
+import org.xmlcml.ami.visitor.AbstractVisitor;
 
 public class VisitableInput {
 
@@ -45,12 +46,14 @@ public class VisitableInput {
 	private final static TextVisitable TXT_VISITABLE = new TextVisitable();
 	private File inputFile;
 	private boolean isUrl;
+	private AbstractVisitor visitor;
 
 	public VisitableInput(String arg) {
 		this.inputArg = arg;
 	}
 	
-	public List<AbstractVisitable> createVisitableList() {
+	public List<AbstractVisitable> createVisitableList(AbstractVisitor visitor) {
+		this.visitor = visitor;
 		String inputItem = inputArg;
 		inputFilenameExtension = FilenameUtils.getExtension(inputItem);
 		isDirectory = AMIUtil.endsWithSeparator(inputItem) || new File(inputItem).isDirectory() 
@@ -82,12 +85,13 @@ public class VisitableInput {
 	private void addURLToVisitableList(String urlString) {
 		try {
 			URL url = new URL(urlString);
-			AbstractVisitable visitable = downloadAndCreateVisitable(url);
+			AbstractVisitable visitable = downloadAndCreateVisitable(url, visitor);
 			if (visitable != null) {
 				visitableList.add(visitable);
 			}
 		} catch (Exception e) {
-			LOG.error(e);
+			e.printStackTrace();
+			LOG.error("FAILED "+e);
 			throw new RuntimeException("Cannot read url: "+urlString, e);
 		}
 	}
@@ -99,7 +103,8 @@ public class VisitableInput {
 				visitableList.add(visitable);
 			}
 		} catch (Exception e) {
-			LOG.error(e);
+			e.printStackTrace();
+			LOG.error("add file "+e);
 			throw new RuntimeException("Cannot read file: "+inputFile, e);
 		}
 	}
@@ -111,7 +116,7 @@ public class VisitableInput {
 	}
 
 	public AbstractVisitable createVisitable(String inputFile) throws Exception {
-		AbstractVisitable visitable = getVisitableFromFileExtension(inputFile);
+		AbstractVisitable visitable = getVisitableFromFileExtension(inputFile, visitor);
 		if (visitable != null) {
 			File file = new File(inputFile);
 			if (!file.exists()) {
@@ -122,15 +127,16 @@ public class VisitableInput {
 		return visitable;
 	}
 
-	public AbstractVisitable downloadAndCreateVisitable(URL url) throws Exception {
+	public AbstractVisitable downloadAndCreateVisitable(URL url, AbstractVisitor visitor) throws Exception {
 		AbstractVisitable visitable = createNewSubclassedVisitableFromExtension(inputFilenameExtension);
 		if (visitable != null) {
+			visitable.accept(visitor);
 			visitable.downloadParseAndAddURL(url);
 		}
 		return visitable;
 	}
 
-	private static AbstractVisitable getVisitableFromFileExtension(String inputFile) {
+	private static AbstractVisitable getVisitableFromFileExtension(String inputFile, AbstractVisitor visitor) {
 		AbstractVisitable visitable = null;
 		if (FilenameUtils.isExtension(inputFile, HTML_VISITABLE.getExtensions())) {
 			visitable = new HtmlVisitable();
@@ -145,6 +151,7 @@ public class VisitableInput {
 		} else if (FilenameUtils.isExtension(inputFile, TXT_VISITABLE.getExtensions())) {
 			visitable = new TextVisitable();
 		}
+		visitable.accept(visitor);
 		return visitable;
 	}
 	

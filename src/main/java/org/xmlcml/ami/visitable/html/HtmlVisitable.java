@@ -5,12 +5,14 @@ import java.net.URL;
 import java.util.ArrayList;
 import java.util.List;
 
+import nu.xom.Element;
+
 import org.apache.log4j.Logger;
+import org.xmlcml.ami.util.AMIUtil;
 import org.xmlcml.ami.visitable.AbstractVisitable;
 import org.xmlcml.html.HtmlElement;
 import org.xmlcml.html.HtmlFactory;
-import org.xmlcml.html.util.HtmlUtil;
-import org.xmlcml.ami.util.AMIUtil;
+import org.xmlcml.xml.XMLUtil;
 
 public class HtmlVisitable extends AbstractVisitable  {
 
@@ -21,36 +23,98 @@ public class HtmlVisitable extends AbstractVisitable  {
 	
 	private List<HtmlContainer> htmlContainerList;
 	private HtmlFactory htmlFactory;
+	private HtmlElement htmlElement;
 	
 	public HtmlVisitable() {
-		
+		super();
 	}
 	
 	@Override
 	public void addFile(File htmlFile) throws Exception {
 		checkFile(htmlFile);
+		parseContentToContainerAndAddToList(htmlFile);
+	}
+
+	/** parse content.
+	 * 
+	 * messy signature as we pass both URLs and HTML files.
+	 * 
+	 * Therefore contains unpleasant if instanceof clauses
+	 * 
+	 * @param object
+	 * @throws Exception
+	 */
+	private void parseContentToContainerAndAddToList(Object object) throws Exception {
 		ensureHtmlContainerList();
 		ensureHtmlFactory();
-		HtmlElement htmlElement = htmlFactory.parse(htmlFile);
-		if (htmlElement == null) {
-			throw new RuntimeException("cannot parse HTML file: "+htmlFile.getAbsolutePath());
+		HtmlElement htmlElement = parseToElement(object);
+		addTags();
+		List<HtmlElement> htmlElements = splitByXPath(htmlElement);
+		for (HtmlElement subHtmlElement : htmlElements) {
+			HtmlContainer htmlContainer = createContainer(object, subHtmlElement);
+			htmlContainerList.add(htmlContainer);
 		}
-		HtmlContainer htmlContainer = new HtmlContainer(htmlFile, htmlElement);
-		htmlContainerList.add(htmlContainer);
+	}
+
+	private List<HtmlElement> splitByXPath(HtmlElement htmlElement) {
+		List<HtmlElement> htmlElementList = new ArrayList<HtmlElement>();
+		String xPath = (xPathProcessor == null) ? null : xPathProcessor.getXPath();
+		if (xPath == null) {
+			htmlElementList.add(htmlElement);
+		} else {
+			List<Element> elementList = XMLUtil.getQueryElements(htmlElement, xPath);
+			for (Element element : elementList) {
+				htmlElementList.add((HtmlElement) element);
+			}
+		}
+		LOG.trace("after xpath split: "+htmlElementList.size());
+		return htmlElementList;
+	}
+
+	private HtmlContainer createContainer(Object object, HtmlElement htmlElement) {
+		HtmlContainer htmlContainer = null;
+		if (object instanceof File) {
+			htmlContainer = new HtmlContainer((File) object, htmlElement);
+		} else if (object instanceof URL) {
+			htmlContainer = new HtmlContainer((URL) object, htmlElement);
+		} else {
+			throw new RuntimeException("Cannot create HtmlContainer for "+object.getClass());
+		}
+		return htmlContainer;
+	}
+
+	private HtmlElement parseToElement(Object object) throws Exception {
+		htmlElement = null;
+		if (object instanceof File) {
+			File htmlFile = (File) object;
+			htmlElement = htmlFactory.parse(htmlFile);
+			if (htmlElement == null) {
+				throw new RuntimeException("cannot parse HTML file: "+htmlFile.getAbsolutePath());
+			}
+		} else if (object instanceof URL) {
+			URL url = (URL) object;
+			htmlElement = htmlFactory.parse(url);
+			if (htmlElement == null) {
+				throw new RuntimeException("cannot parse URL: "+url);
+			}
+		}
+		return htmlElement;
+	}
+
+	private void addTags() {
+		if (tagger != null) {
+			LOG.trace("tagging with "+tagger);
+			tagger.addTagsToSections(htmlElement);
+			List<Element> taggedElements = XMLUtil.getQueryElements(htmlElement, "//*[@tag]");
+			LOG.trace("added tags: "+taggedElements.size());
+		}
 	}
 
 	@Override
 	public void downloadParseAndAddURL(URL url) throws Exception {
 		LOG.debug("downloading "+url);
 		super.addURL(url);
-		ensureHtmlContainerList();
-		ensureHtmlFactory();
-		HtmlElement htmlElement = htmlFactory.parse(url);
-		if (htmlElement == null) {
-			throw new RuntimeException("cannot parse URL: "+url);
-		}
-		HtmlContainer htmlContainer = new HtmlContainer(url, htmlElement);
-		htmlContainerList.add(htmlContainer);
+		parseContentToContainerAndAddToList(url);
 	}
 
 	private void ensureHtmlContainerList() {
@@ -76,14 +140,9 @@ public class HtmlVisitable extends AbstractVisitable  {
 			ensureHtmlFactory();
 			for (File file : fileList) {
 				try {
-					HtmlElement htmlElement = htmlFactory.parse(file);
-					if (htmlElement == null) {
-						LOG.error("cannot parse HTML file: "+file);
-					} else {
-						htmlContainerList.add(new HtmlContainer(file, htmlElement));
-					}
+					addFile(file);
 				} catch (Exception e) {
-					LOG.error("Not an HTML file: "+file);
+					LOG.error("Cannot parse file: "+file+"; "+e);
 				}
 			}
 		}
@@ -93,9 +152,11 @@ public class HtmlVisitable extends AbstractVisitable  {
 	private void ensureHtmlFactory() {
 		if (htmlFactory == null) {
 			htmlFactory = new HtmlFactory();
+			// this should be per publisher...
 			htmlFactory.addTagToDelete("script");
 			htmlFactory.addTagToDelete("button");
 			htmlFactory.addAttributeToDelete("onclick");
+			htmlFactory.addAttributeToDelete("alt"); // often filled with rubbish
 			htmlFactory.addMissingNamespacePrefix("g"); // from biomed central
 		}
 	}

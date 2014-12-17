@@ -180,7 +180,6 @@ public class RegexVisitorTest {
 		RegexVisitor.main(args);
 		Assert.assertTrue("should have created: "+outputFile, outputFile.exists());
 		Element element = XMLUtil.parseQuietlyToDocument(outputFile).getRootElement();
-		XMLUtil.debug(element);
 		LOG.debug(outputFile);
 		List<Element> resultList = XMLUtil.getQueryElements(element, 
 				"/*[local-name()='results']/*[local-name()='results']/*[local-name()='result']");
@@ -205,7 +204,6 @@ public class RegexVisitorTest {
 		RegexVisitor.main(args);
 		Assert.assertTrue("should have created: "+outputFile, outputFile.exists());
 		Element element = XMLUtil.parseQuietlyToDocument(outputFile).getRootElement();
-		XMLUtil.debug(element);
 		LOG.debug(outputFile);
 	}
 	
@@ -270,7 +268,6 @@ public class RegexVisitorTest {
 	}
 	
 	@Test
-	@Ignore // fails on commandline (with reading files) 
 	/** runs Ebola regex over single HTML document.
 	 *  
 	 * @throws Exception
@@ -355,9 +352,44 @@ public class RegexVisitorTest {
 	public void testAgricultureURLs() throws Exception {
 		if (!Util.checkPMR()) return;
 		String[] args = new String[] {
-				"-i", "http://www.biomedcentral.com/1471-2229/14/{1,1}",
+				"-i", "http://www.biomedcentral.com/1471-2229/14/{1,3}",
 				"-o", "target/agriculture.xml",
 				"-g", "regex/agriculture.xml",
+				"-e", "html",
+		};
+		RegexVisitor.main(args);
+	}
+	
+	
+	/** test agriculture Regex on ca 30 PLOS papers locally.
+	 * 
+	 * @param file
+	 */
+	@Test
+	@Ignore //!!
+	public void testPhyloTreeURLs() throws Exception {
+		if (!Util.checkPMR()) return;
+		String[] args = new String[] {
+				"-i", "http://www.biomedcentral.com/1471-2229/14/{1,370}",
+				"-o", "target/phylotree.xml",
+				"-g", "regex/phylotree.xml",
+				"-e", "html",
+		};
+		RegexVisitor.main(args);
+	}
+	
+	/** test agriculture Regex on ca 30 PLOS papers locally.
+	 * 
+	 * @param file
+	 */
+	@Test
+	@Ignore // too large
+	public void testAgriculturePhylogeny() throws Exception {
+		if (!Util.checkPMR()) return;
+		String[] args = new String[] {
+				"-i", "http://www.biomedcentral.com/1471-2229/14/{1,20}",
+				"-o", "target/agriculture.xml",
+				"-g", "regex/agriculture.xml", "regex/phylotree.xml",
 				"-e", "html",
 		};
 		RegexVisitor.main(args);
