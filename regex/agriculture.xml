@@ -17,5 +17,5 @@
 <regex weight="1.0" fields="soilph">([Ss]oil\s+pH)</regex>
 <regex weight="1.0" fields="soiltype">([Ss]oil\s+[Tt]ype)</regex>
 <regex weight="1.0" fields="taproot">([Tt]ap\s+[Rr]oot)</regex>
-<regex weight="1.0" fields="wateruse">([Ww]ater\s+[Uu]se)</regex>
+<regex weight="1.0" fields="wateruse pre water post">(([^\.]{1,200})([Ww]ater\s+[Uu]se)([^\.]{1,200}))</regex>
 </compoundRegex>

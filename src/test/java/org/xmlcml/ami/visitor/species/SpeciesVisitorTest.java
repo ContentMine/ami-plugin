@@ -378,10 +378,7 @@ public class SpeciesVisitorTest {
 //		SpeciesVisitor.main(args);
 		AbstractVisitor visitor = new SpeciesVisitor();
 		visitor.processArgs(args);
-		LOG.debug("t1");
 		Element resultsElement = visitor.getResultsElement();
-//		XMLUtil.debug(resultsElement);
-		LOG.debug("t2");
 		Assert.assertEquals("file count", 3, resultsElement.getChildElements().size());
 		List<Element> nodes = XMLUtil.getQueryElements(resultsElement, "//*[@name]");
 		Assert.assertEquals("doi count", 3, nodes.size());

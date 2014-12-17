@@ -4,7 +4,7 @@
 	<regex weight="0.6" fields="apomorph">(apomorph[^\W]*)</regex>
 	<regex weight="0.6" fields="bayesian">(bayesian)</regex>
 	<regex weight="0.6" fields="beast">(BEAST)</regex>
-	<regex weight="0.6" fields="bootstrap">(bootstrap[^\W]*)</regex>
+	<regex weight="0.6" fields="bootstrap pre bs post">(([^\.]{1,100})(bootstrap[^\W]*)([^\.]{1,100}))</regex>
 	<regex weight="0.8" fields="branch_lengths">(branch\s+lengths?)</regex>
 	<regex weight="1.0" url="DOI: 10.1111/j.1096-0031.1994.tb00179.x" fields="bremer_support">(Bremer\s+support)</regex>
 	<regex weight="0.5" fields="cladist">(cladist[^\W]*)</regex>

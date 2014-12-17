@@ -244,7 +244,6 @@ public class RegexVisitorTest {
 		// asserts
 		Assert.assertTrue("should have created: "+outputFile, outputFile.exists());
 		Element element = XMLUtil.parseQuietlyToDocument(outputFile).getRootElement();
-		XMLUtil.debug(element);
 		LOG.debug(outputFile);
 		List<Element> resultList = XMLUtil.getQueryElements(element, 
 				"/*[local-name()='results']/*[local-name()='results']/*[local-name()='result']");
