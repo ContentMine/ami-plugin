@@ -85,6 +85,7 @@ public class VisitableInput {
 	private void addURLToVisitableList(String urlString) {
 		try {
 			URL url = new URL(urlString);
+			LOG.debug("downloading "+url);
 			AbstractVisitable visitable = downloadAndCreateVisitable(url, visitor);
 			if (visitable != null) {
 				visitableList.add(visitable);
@@ -107,6 +108,7 @@ public class VisitableInput {
 			LOG.error("add file "+e);
 			throw new RuntimeException("Cannot read file: "+inputFile, e);
 		}
+		LOG.debug("visitableList "+visitableList.size());
 	}
 
 	private void ensureVisitableList() {
@@ -130,7 +132,8 @@ public class VisitableInput {
 	public AbstractVisitable downloadAndCreateVisitable(URL url, AbstractVisitor visitor) throws Exception {
 		AbstractVisitable visitable = createNewSubclassedVisitableFromExtension(inputFilenameExtension);
 		if (visitable != null) {
-			visitable.accept(visitor);
+			visitable.setVisitorProperties(visitor);
+//			visitable.accept(visitor);
 			visitable.downloadParseAndAddURL(url);
 		}
 		return visitable;
@@ -151,7 +154,8 @@ public class VisitableInput {
 		} else if (FilenameUtils.isExtension(inputFile, TXT_VISITABLE.getExtensions())) {
 			visitable = new TextVisitable();
 		}
-		visitable.accept(visitor);
+//		visitable.accept(visitor);
+		visitable.setVisitorProperties(visitor);
 		return visitable;
 	}
 	

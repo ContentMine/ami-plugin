@@ -1,0 +1,4 @@
+<compoundRegex title="common">
+<!--  test -->
+  <regex weight="1.0" fields="query pre word post">((.{1,30})([Ww]hen|[Ww]hy|[Ww]hat|[Ww]ho|[Ww]here|of)(.{1,30}))</regex>
+</compoundRegex>

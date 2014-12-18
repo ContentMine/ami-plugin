@@ -503,6 +503,20 @@ public class SpeciesVisitorTest {
 	}
 	
 	@Test
+	// doesn't yet work
+	public void testExtractedPLOSXML() throws Exception {
+		String[] args = new String[] {
+				"-i", new File("src/test/resources/org/xmlcml/ami/plosone/journal.pone.0113556.xml").toString(),
+				"-t", "plosone",
+				"-o", "target/plosone/species/",
+//				"-x", "//*[@tag='abstract' or @tag='discussion']",
+				"-x", "//*[@tag]",
+				"-e", AMIUtil.XML
+		};
+		SpeciesVisitor.main(args);
+	}
+	
+	@Test
 	/**
 	 * writes to target/xml.xml/results.xml
 	 * 

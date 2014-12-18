@@ -7,11 +7,14 @@ import java.util.Collection;
 import java.util.Collections;
 import java.util.List;
 
+import nu.xom.Element;
+
 import org.apache.commons.io.FileUtils;
 import org.apache.log4j.Logger;
 import org.xmlcml.ami.tagger.JournalTagger;
 import org.xmlcml.ami.visitor.AbstractVisitor;
 import org.xmlcml.ami.visitor.XPathProcessor;
+import org.xmlcml.xml.XMLUtil;
 
 /** 
  * Superclass of SVG2XML visitables.
@@ -47,7 +50,7 @@ public abstract class AbstractVisitable {
 		visitor.visit(this);
 	}
 	
-	private void setVisitorProperties(AbstractVisitor visitor) {
+	void setVisitorProperties(AbstractVisitor visitor) {
 		this.setTagger(visitor.getJournalTagger());
 		this.setXPathProcessor(visitor.getXPathProcessor());
 	}
@@ -182,6 +185,15 @@ public abstract class AbstractVisitable {
 
 	private void addDelayForCourtesy() throws InterruptedException {
 		Thread.sleep(sleepTime);
+	}
+
+	protected void addTags(Element htmlElement) {
+		if (tagger != null) {
+			LOG.trace("tagging with "+tagger);
+			tagger.addTagsToSections(htmlElement);
+			List<Element> taggedElements = XMLUtil.getQueryElements(htmlElement, "//*[@tag]");
+			LOG.trace("added tags: "+taggedElements.size());
+		}
 	}
 
 }

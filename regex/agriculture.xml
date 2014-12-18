@@ -2,6 +2,7 @@
 <!--  test -->
 <!--  <regex weight="1.0" fields="plant">([Pp]lants?)</regex> -->
  
+<regex weight="1.0" fields="flower pre word post">((.{1,50})([Ff]lower)\s+(.{1,50}))</regex>
 <regex weight="1.0" fields="deeproot">([Dd]eep\s+[Rr]oot)</regex>
 <regex weight="1.0" fields="droughttol">([Dd]rought\s+[Tt]olerance)</regex>
 <regex weight="1.0" fields="sunlight amount sunshade">(([Ff]ull|[Pp]artial)\s+([Ss]hade|[Ss]un))</regex>

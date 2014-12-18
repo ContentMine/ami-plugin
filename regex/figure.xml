@@ -1,5 +1,7 @@
 <compoundRegex title="figure">
 <!--  test -->
 <regex weight="1.0" fields="caption serial text">([Ff]igure\s+(\d+|[A-Z])\s+\.?(.{1,100})?])</regex>
+<regex weight="1.0" fields="alphanumeric pre word post">((.{1,50})(\([A-Z|[\d]]\))(.{1,100})])</regex>
+<regex weight="1.0" fields="of pre word post">((.{1,50})(of)(.{1,100}))</regex>
 
 </compoundRegex>

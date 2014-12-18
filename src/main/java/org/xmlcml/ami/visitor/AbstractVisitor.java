@@ -2,7 +2,6 @@ package org.xmlcml.ami.visitor;
 
 import java.io.File;
 import java.io.IOException;
-import java.util.ArrayList;
 import java.util.List;
 import java.util.ListIterator;
 
@@ -14,6 +13,7 @@ import org.xmlcml.ami.result.ResultsListElement;
 import org.xmlcml.ami.result.SimpleResultList;
 import org.xmlcml.ami.tagger.JournalTagger;
 import org.xmlcml.ami.tagger.bmc.BMCTagger;
+import org.xmlcml.ami.tagger.plosone.PLOSONETagger;
 import org.xmlcml.ami.visitable.AbstractVisitable;
 import org.xmlcml.ami.visitable.SourceElement;
 import org.xmlcml.ami.visitable.VisitableContainer;
@@ -31,6 +31,7 @@ import org.xmlcml.ami.visitable.txt.TextContainer;
 import org.xmlcml.ami.visitable.txt.TextVisitable;
 import org.xmlcml.ami.visitable.xml.XMLContainer;
 import org.xmlcml.ami.visitable.xml.XMLVisitable;
+import org.xmlcml.svg2xml.container.AbstractContainer;
 
 /** visits the visitables (data).
  * 
@@ -63,6 +64,7 @@ public abstract class AbstractVisitor {
 	public void visit(AbstractVisitable visitable) {
 		// we seem to have to subclass to achieve double dispatch
 		ensureResultsElement();
+		// maybe need to loop though Containers in visitable
 		visitSubclassed(visitable);
 		currentVisitable = visitable;
 	}
@@ -119,7 +121,9 @@ public abstract class AbstractVisitor {
 	}
 	
 	protected final void doVisit(XMLVisitable xmlVisitable) {
-		for (XMLContainer xmlContainer : xmlVisitable.getXMLContainerList()) {
+		List<XMLContainer> containerList = xmlVisitable.getXMLContainerList();
+		LOG.debug("doVisit: searching containerList "+containerList.size());
+		for (XMLContainer xmlContainer : containerList) {
 			doSearchAndAddResults(xmlContainer);
 		}
 	}
@@ -296,7 +300,7 @@ public abstract class AbstractVisitor {
 			visitableInput.setRecursive(argProcessor.isRecursive());
 			try {
 				visitableInput.createVisitableList(this);
-				LOG.trace("visitable list: "+visitableInput.getVisitableList());
+				LOG.debug("visitable list: "+visitableInput.getVisitableList().size());
 				LOG.trace("in: " + visitableInputList);
 			} catch (Exception e) {
 				LOG.error("FAILED TO PARSE");
@@ -501,6 +505,10 @@ public abstract class AbstractVisitor {
 			for (String taggerName : taggerNames) {
 				if (BMCTagger.getTaggerName().equals(taggerName)) {
 					tagger = new BMCTagger();
+					break;
+				}
+				if (PLOSONETagger.getTaggerName().equals(taggerName)) {
+					tagger = new PLOSONETagger();
 					break;
 				}
 			}

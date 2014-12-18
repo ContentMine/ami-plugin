@@ -49,7 +49,7 @@ public class RegexSearcher extends AbstractSearcher {
 	@Override
 	public void search(XMLContainer xmlContainer) {
 		ensureRegexList();
-		LOG.trace("visiting container with  "+(regexContainer.getCompoundRegexList() == null ?
+		LOG.debug("visiting container with  "+(regexContainer.getCompoundRegexList() == null ?
 				"null/zero" : regexContainer.getCompoundRegexList().size())+" compound regexes");
 		if (regexContainer.getCompoundRegexList() != null) {
 			searchXomElement(xmlContainer.getElement());
@@ -78,7 +78,7 @@ public class RegexSearcher extends AbstractSearcher {
 		return new SimpleListElement((SimpleResultList)resultSet);
 	}
 	
-	void searchContainer(XMLContainer xmlContainer) {
+	private void searchContainer(XMLContainer xmlContainer) {
 		ensureRegexList();
 		searchXomElement(xmlContainer.getElement());
 		addComponentListToResults();

@@ -124,7 +124,8 @@ public class ArgProcessor {
 	}
 
 	private void processTagger(ListIterator<String> listIterator) {
-		visitor.setTaggers(createTokenListUpToNextMinus(listIterator));
+		List<String> taggerNames = createTokenListUpToNextMinus(listIterator);
+		visitor.setTaggers(taggerNames);
 	}
 
 	/** read tokens until next - sign.

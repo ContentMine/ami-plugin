@@ -150,12 +150,15 @@ public abstract class JournalTagger {
 	
 	public void addTagsToSections(Element element) {
 		List<String> tagNames = getAllTagNames();
+		int count = 0;
 		for (String tagName : tagNames) {
 			List<Element> sections = findSectionsFromTagDefinitions(element, tagName);
 			for (Element section : sections) {
 				addTag(tagName, section);
+				count++;
 			}
 		}
+		LOG.debug("tagged "+count+" sections");
 	}
 
 	private void addTag(String tagName, Element element) {

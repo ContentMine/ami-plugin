@@ -7,6 +7,7 @@ import nu.xom.Element;
 
 import org.junit.Assert;
 import org.junit.Before;
+import org.junit.Ignore;
 import org.junit.Test;
 import org.xmlcml.ami.Fixtures;
 import org.xmlcml.ami.tagger.JournalTagger;
@@ -99,6 +100,7 @@ public class BMCTaggerTest {
 	}
 
 	@Test
+	@Ignore // use HTML tagger
 	public void testGetXpath() {
 		Element sections = XMLUtil.parseQuietlyToDocument(BMCTagger.BMC_TAGDEFINITIONS_FILE).getRootElement();
 		String xpath = XMLUtil.getQueryElements(sections, "*[local-name()='"+JournalTagger.TAG+"' and @name='abstract']").get(0).getValue();
@@ -106,6 +108,7 @@ public class BMCTaggerTest {
 	}
 
 	@Test
+	@Ignore // use HTML tagger
 	public void testSearchBMCDocument() {
 		JournalTagger bmcTagger = new BMCTagger();
 		List<Element> abstracts = bmcTagger.findSectionsFromTagDefinitions(BMC_188_ROOT, "abstract");
@@ -150,6 +153,7 @@ public class BMCTaggerTest {
 //	}
 	
 	@Test
+	@Ignore // use HTML tagger
 	public void testBMCTagger() {
 		JournalTagger bmcTagger = new BMCTagger();
 		String journal = bmcTagger.getJournalId();
@@ -167,6 +171,7 @@ public class BMCTaggerTest {
 	}
 	
 	@Test
+	@Ignore // use HTML tagger
 	public void testTagSections() {
 		JournalTagger bmcTagger = new BMCTagger();
 		bmcTagger.addTagsToSections(BMC_188_ROOT);

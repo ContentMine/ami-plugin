@@ -11,9 +11,11 @@ import org.junit.Assert;
 import org.junit.Ignore;
 import org.junit.Test;
 import org.xmlcml.ami.Fixtures;
+import org.xmlcml.ami.util.AMIUtil;
 import org.xmlcml.ami.visitable.html.HtmlVisitable;
 import org.xmlcml.ami.visitor.AbstractVisitor;
 import org.xmlcml.ami.visitor.VisitorOutput;
+import org.xmlcml.ami.visitor.species.SpeciesVisitor;
 import org.xmlcml.euclid.Util;
 import org.xmlcml.xml.XMLUtil;
 
@@ -332,6 +334,7 @@ public class RegexVisitorTest {
 	 * @param file
 	 */
 	@Test
+//	@Ignore // too many
 	public void testAgriculture() throws Exception {
 		String plosMany = new File("./src/test/resources/org/xmlcml/ami/species/many/").toString();
 		String[] args = new String[] {
@@ -365,7 +368,7 @@ public class RegexVisitorTest {
 	 * @param file
 	 */
 	@Test
-	@Ignore //!!
+	@Ignore //!! downloads many files
 	public void testPhyloTreeURLs() throws Exception {
 		if (!Util.checkPMR()) return;
 		String[] args = new String[] {
@@ -457,6 +460,55 @@ public class RegexVisitorTest {
 		};
 		RegexVisitor.main(args);
 	}
+	
+	@Test
+	// fails as XML is not properly read
+	public void testExtractedPLOSXML() throws Exception {
+		String[] args = new String[] {
+				"-i", new File("src/test/resources/org/xmlcml/ami/plosone/journal.pone.0113556.xml").toString(),
+				"-t", "plosone",
+				"-o", "target/plosone/species/",
+				"-x", "//*[@tag='figure']",
+//				"-x", "//*[@tag='abstract' or @tag='methods']",
+//				"-x", "//*[@tag='abstract']",
+//				"-x", "//*[@tag]",
+//				"-g", "regex/agriculture.xml",
+				"-g", "regex/figure.xml",
+				"-e", AMIUtil.XML
+		};
+		RegexVisitor.main(args);
+	}
+	
+	@Test
+	// fails as XML is not properly read
+	public void testExtractedPLOSHTML() throws Exception {
+		String[] args = new String[] {
+				"-i", new File("src/test/resources/org/xmlcml/ami/plosone/journal.pone.0113556.html").toString(),
+				"-t", "plosone",
+				"-o", "target/plosone/species/",
+				"-x", "//*[@tag='abstract']",
+//				"-x", "//*[@tag='abstract' or @tag='discussion']",
+//				"-x", "//*[@tag]",
+//				"-g", "regex/agriculture.xml",
+				"-g", "regex/common.xml",
+				"-e", AMIUtil.XML
+		};
+		RegexVisitor.main(args);
+	}
+	
+	@Test
+	public void testBMCPhyloURLs() throws Exception {
+		String[] args = new String[] {
+				"-i", "http://www.biomedcentral.com/content/download/xml/1471-2148-13-191.xml",
+//				"-t", "bmc",
+//				"-o", "target/plosone/species/",
+//				"-x", "//*[@tag]",
+				"-g", "regex/phylotree.xml",
+				"-e", AMIUtil.XML
+		};
+		RegexVisitor.main(args);
+	}
+	
 	
 
 	// ============================

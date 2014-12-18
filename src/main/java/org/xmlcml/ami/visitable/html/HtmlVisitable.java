@@ -16,7 +16,7 @@ import org.xmlcml.xml.XMLUtil;
 
 public class HtmlVisitable extends AbstractVisitable  {
 
-	private final static Logger LOG = Logger.getLogger(HtmlVisitable.class);
+	public final static Logger LOG = Logger.getLogger(HtmlVisitable.class);
 
 	private static final String[] extensions = {AMIUtil.HTM, AMIUtil.HTML};
 	public static final String ITALIC_XPATH = ".//*[local-name()='i']";
@@ -48,7 +48,7 @@ public class HtmlVisitable extends AbstractVisitable  {
 		ensureHtmlContainerList();
 		ensureHtmlFactory();
 		HtmlElement htmlElement = parseToElement(object);
-		addTags();
+		addTags(htmlElement);
 		List<HtmlElement> htmlElements = splitByXPath(htmlElement);
 		for (HtmlElement subHtmlElement : htmlElements) {
 			HtmlContainer htmlContainer = createContainer(object, subHtmlElement);
@@ -99,15 +99,6 @@ public class HtmlVisitable extends AbstractVisitable  {
 			}
 		}
 		return htmlElement;
-	}
-
-	private void addTags() {
-		if (tagger != null) {
-			LOG.trace("tagging with "+tagger);
-			tagger.addTagsToSections(htmlElement);
-			List<Element> taggedElements = XMLUtil.getQueryElements(htmlElement, "//*[@tag]");
-			LOG.trace("added tags: "+taggedElements.size());
-		}
 	}
 
 	@Override
