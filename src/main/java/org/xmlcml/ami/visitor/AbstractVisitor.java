@@ -11,9 +11,6 @@ import org.apache.commons.io.FileUtils;
 import org.apache.log4j.Logger;
 import org.xmlcml.ami.result.ResultsListElement;
 import org.xmlcml.ami.result.SimpleResultList;
-import org.xmlcml.ami.tagger.JournalTagger;
-import org.xmlcml.ami.tagger.bmc.BMCTagger;
-import org.xmlcml.ami.tagger.plosone.PLOSONETagger;
 import org.xmlcml.ami.visitable.AbstractVisitable;
 import org.xmlcml.ami.visitable.SourceElement;
 import org.xmlcml.ami.visitable.VisitableContainer;
@@ -31,7 +28,6 @@ import org.xmlcml.ami.visitable.txt.TextContainer;
 import org.xmlcml.ami.visitable.txt.TextVisitable;
 import org.xmlcml.ami.visitable.xml.XMLContainer;
 import org.xmlcml.ami.visitable.xml.XMLVisitable;
-import org.xmlcml.svg2xml.container.AbstractContainer;
 
 /** visits the visitables (data).
  * 
@@ -499,25 +495,30 @@ public abstract class AbstractVisitor {
 		return taggerNames;
 	}
 
-	public JournalTagger getJournalTagger() {
-		JournalTagger tagger = null;
-		if (taggerNames != null) {
-			for (String taggerName : taggerNames) {
-				if (BMCTagger.getTaggerName().equals(taggerName)) {
-					tagger = new BMCTagger();
-					break;
-				}
-				if (PLOSONETagger.getTaggerName().equals(taggerName)) {
-					tagger = new PLOSONETagger();
-					break;
-				}
-			}
-			if (tagger == null) {
-				LOG.error("cannot find tagger for any of: "+taggerNames);
-			}
-		}
-		return tagger;
-	}
+//	/** replace by pretagged documents.
+//	 * 
+//	 * @return
+//	 */
+//	public DocumentTagger getJournalTagger() {
+//		DocumentTagger tagger = null;
+//		if (taggerNames != null) {
+//			for (String taggerName : taggerNames) {
+//				if (BMCTagger.getTaggerName().equals(taggerName)) {
+//					tagger = new BMCTagger();
+//					break;
+//				}
+//				if (PLOSONETagger.getTaggerName().equals(taggerName)) {
+//					tagger = new PLOSONETagger();
+//					break;
+//				}
+//			}
+//			if (tagger == null) {
+//				LOG.error("cannot find tagger for any of: "+taggerNames);
+//			}
+//		}
+//		return tagger;
+//	}
+	
 
 	// ==============================================
 }

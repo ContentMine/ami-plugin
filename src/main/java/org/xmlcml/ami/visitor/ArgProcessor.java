@@ -28,8 +28,8 @@ public class ArgProcessor {
 	private static final String RECURSIVE  = "--recursive";
 	private static final String E          = "-e";
 	private static final String EXTENSIONS = "--extensions";
-	private static final String T          = "-t";
-	private static final String TAGGER = "--tagger";
+//	private static final String T          = "-t";
+//	private static final String TAGGER = "--tagger";
 //	private static final String S          = "-s";
 //	private static final String SECTIONS = "--sections";
 	private static final String X          = "-x";
@@ -64,8 +64,6 @@ public class ArgProcessor {
 			if (I.equals(arg) || INPUT.equals(arg)) {processInput(listIterator); continue;}
 			if (O.equals(arg) || OUTPUT.equals(arg)) {processOutput(listIterator); continue;}
 			if (R.equals(arg) || RECURSIVE.equals(arg)) {processRecursive(listIterator); continue;}
-//			if (S.equals(arg) || SECTIONS.equals(arg)) {processSections(listIterator); continue;}
-			if (T.equals(arg) || TAGGER.equals(arg)) {processTagger(listIterator); continue;}
 			if (X.equals(arg) || XPATH.equals(arg)) {processXpath(listIterator); continue;}
 			if (visitor.processArg(arg, listIterator)) {continue;}
 			LOG.error("Unknown arg: ("+arg+"), trying to recover");

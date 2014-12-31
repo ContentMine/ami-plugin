@@ -500,11 +500,24 @@ public class RegexVisitorTest {
 	public void testBMCPhyloURLs() throws Exception {
 		String[] args = new String[] {
 				"-i", "http://www.biomedcentral.com/content/download/xml/1471-2148-13-191.xml",
-//				"-t", "bmc",
+				"-t", "bmc",
 //				"-o", "target/plosone/species/",
-//				"-x", "//*[@tag]",
+				"-x", "//*[@tag='abstract']",
 				"-g", "regex/phylotree.xml",
 				"-e", AMIUtil.XML
+		};
+		RegexVisitor.main(args);
+	}
+	
+	@Test
+	public void testBMCPhyloURLHTMLs() throws Exception {
+		String[] args = new String[] {
+				"-i", "http://www.biomedcentral.com/1471-2148/13/191",
+				"-t", "bmc",
+//				"-o", "target/plosone/species/",
+				"-x", "//*[@tag='abstract']",
+				"-g", "regex/phylotree.xml",
+				"-e", AMIUtil.HTML
 		};
 		RegexVisitor.main(args);
 	}

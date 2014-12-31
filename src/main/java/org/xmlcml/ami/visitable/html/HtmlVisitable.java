@@ -48,7 +48,7 @@ public class HtmlVisitable extends AbstractVisitable  {
 		ensureHtmlContainerList();
 		ensureHtmlFactory();
 		HtmlElement htmlElement = parseToElement(object);
-		addTags(htmlElement);
+//		addTags(htmlElement);
 		List<HtmlElement> htmlElements = splitByXPath(htmlElement);
 		for (HtmlElement subHtmlElement : htmlElements) {
 			HtmlContainer htmlContainer = createContainer(object, subHtmlElement);

@@ -7,14 +7,10 @@ import java.util.Collection;
 import java.util.Collections;
 import java.util.List;
 
-import nu.xom.Element;
-
 import org.apache.commons.io.FileUtils;
 import org.apache.log4j.Logger;
-import org.xmlcml.ami.tagger.JournalTagger;
 import org.xmlcml.ami.visitor.AbstractVisitor;
 import org.xmlcml.ami.visitor.XPathProcessor;
-import org.xmlcml.xml.XMLUtil;
 
 /** 
  * Superclass of SVG2XML visitables.
@@ -33,7 +29,7 @@ public abstract class AbstractVisitable {
 	protected URL url;
 	protected int sleepTime = 4000; // includes other time so ca 5000
 	protected AbstractVisitor visitor; // not sure whether we need to transfer reference
-	protected JournalTagger tagger;
+//	protected DocumentTagger tagger;
 	protected XPathProcessor xPathProcessor;
 
 	protected AbstractVisitable() {
@@ -51,17 +47,17 @@ public abstract class AbstractVisitable {
 	}
 	
 	void setVisitorProperties(AbstractVisitor visitor) {
-		this.setTagger(visitor.getJournalTagger());
+//		this.setTagger(visitor.getJournalTagger());
 		this.setXPathProcessor(visitor.getXPathProcessor());
 	}
 
-	public void setTagger(JournalTagger tagger) {
-		this.tagger = tagger;
-	}
-	
-	public JournalTagger getTagger() {
-		return tagger;
-	}
+//	private void setTagger(DocumentTagger tagger) {
+//		this.tagger = tagger;
+//	}
+//	
+//	public DocumentTagger getTagger() {
+//		return tagger;
+//	}
 
 	public void setXPathProcessor(XPathProcessor xPathProcessor) {
 		this.xPathProcessor = xPathProcessor;
@@ -187,13 +183,13 @@ public abstract class AbstractVisitable {
 		Thread.sleep(sleepTime);
 	}
 
-	protected void addTags(Element htmlElement) {
-		if (tagger != null) {
-			LOG.trace("tagging with "+tagger);
-			tagger.addTagsToSections(htmlElement);
-			List<Element> taggedElements = XMLUtil.getQueryElements(htmlElement, "//*[@tag]");
-			LOG.trace("added tags: "+taggedElements.size());
-		}
-	}
+//	protected void addTags(Element htmlElement) {
+//		if (tagger != null) {
+//			LOG.trace("tagging with "+tagger);
+//			tagger.addTagsToSections(htmlElement, InputType.HTML);
+//			List<Element> taggedElements = XMLUtil.getQueryElements(htmlElement, "//*[@tag]");
+//			LOG.trace("added tags: "+taggedElements.size());
+//		}
+//	}
 
 }

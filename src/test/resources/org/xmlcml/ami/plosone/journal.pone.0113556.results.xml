@@ -1,0 +1,188 @@
+<resultsList xmlns="http://www.xml-cml.org/ami">
+	<resultsX>
+		<source name="10.1371/journal.pone.0113556" />
+		<result>
+			<regex>
+				<regex xmlns="" weight="1.0" fields="[flower, pre, word, post]">
+					<pattern>((.{1,50})([Ff]lower)\s+(.{1,50}))</pattern>
+				</regex>
+				<hits>
+					<hit
+						flower="ing (early-sown) or early summer (late-sown), and flower abundance, pollinator visitation, and seed yields "
+						pre="ing (early-sown) or early summer (late-sown), and " word="flower"
+						post="abundance, pollinator visitation, and seed yields " />
+					<hit
+						flower="ntensity of visitation by pollinators. Cumulative flower densities ranged from 1 to 4.5 billion ha−1. Flowe"
+						pre="ntensity of visitation by pollinators. Cumulative " word="flower"
+						post="densities ranged from 1 to 4.5 billion ha−1. Flowe" />
+					<hit
+						flower=" we were able to document extraordinary levels of flower production and pollinator visitation, as well as p"
+						pre=" we were able to document extraordinary levels of " word="flower"
+						post="production and pollinator visitation, as well as p" />
+					<hit flower="Time to first flower (days)" pre="Time to first "
+						word="flower" post="(days)" />
+					<hit
+						flower="Percent ground cover of echium flowers (flower area) was estimated visually in each plot from the"
+						pre="Percent ground cover of echium flowers (" word="flower"
+						post="area) was estimated visually in each plot from the" />
+					<hit
+						flower="otal area that was covered by flowers. Cumulative flower area was estimated by calculating the areas under "
+						pre="otal area that was covered by flowers. Cumulative " word="flower"
+						post="area was estimated by calculating the areas under " />
+					<hit
+						flower="ese integrals represent the coverage time (%t) of flower area. Anthesis duration was measured from the star"
+						pre="ese integrals represent the coverage time (%t) of " word="flower"
+						post="area. Anthesis duration was measured from the star" />
+					<hit
+						flower="from each point to the center of the nearest open flower was measured, as was the distance from the center "
+						pre="from each point to the center of the nearest open " word="flower"
+						post="was measured, as was the distance from the center " />
+					<hit
+						flower="of the first open flower to the center of the next nearest open flower. Mea"
+						pre="of the first open " word="flower"
+						post="to the center of the next nearest open flower. Mea" />
+					<hit
+						flower="d measurements, the maximum search distance for a flower was set to 15 cm to ensure that individual flowers"
+						pre="d measurements, the maximum search distance for a " word="flower"
+						post="was set to 15 cm to ensure that individual flowers" />
+					<hit
+						flower=" the flowers, as per Remple [13]. Calculations of flower density (f ha−1) were performed using Transect Poi"
+						pre=" the flowers, as per Remple [13]. Calculations of " word="flower"
+						post="density (f ha−1) were performed using Transect Poi" />
+					<hit
+						flower="nt Density software [14]. The average flower density within each planting date was plotted by t"
+						pre="nt Density software [14]. The average " word="flower"
+						post="density within each planting date was plotted by t" />
+					<hit
+						flower="egree Brix (°Bx; % sucrose) was recorded for each flower using an Eclipse low volume handheld refractometer"
+						pre="egree Brix (°Bx; % sucrose) was recorded for each " word="flower"
+						post="using an Eclipse low volume handheld refractometer" />
+					<hit
+						flower="interval. The daily sucrose production per echium flower was approximated by summing the average µg of sucr"
+						pre="interval. The daily sucrose production per echium " word="flower"
+						post="was approximated by summing the average µg of sucr" />
+					<hit
+						flower="y the daily sucrose production of a single echium flower to calculate the potential sucrose production of a"
+						pre="y the daily sucrose production of a single echium " word="flower"
+						post="to calculate the potential sucrose production of a" />
+					<hit
+						flower="oughout anthesis. A ratio of insect visitation to flower area was derived by dividing pvt by %t for each pl"
+						pre="oughout anthesis. A ratio of insect visitation to " word="flower"
+						post="area was derived by dividing pvt by %t for each pl" />
+					<hit
+						flower="g date. A larger value indicates more insects per flower area. The 52-ha research farm harbored one commerc"
+						pre="g date. A larger value indicates more insects per " word="flower"
+						post="area. The 52-ha research farm harbored one commerc" />
+					<hit
+						flower="Estimation of open flower density was done using Transect Point Density soft"
+						pre="Estimation of open " word="flower"
+						post="density was done using Transect Point Density soft" />
+					<hit
+						flower="h calculates a corrected point density (CPD, open flower density) based on point to object densities and ad"
+						pre="h calculates a corrected point density (CPD, open " word="flower"
+						post="density) based on point to object densities and ad" />
+					<hit
+						flower="led using sowing date (early, mid, late), days to flower (days from sowing to first flower), anthesis-rainf"
+						pre="led using sowing date (early, mid, late), days to " word="flower"
+						post="(days from sowing to first flower), anthesis-rainf" />
+					<hit
+						flower="ative-rainfall, anthesis thermal time (from first flower to harvest), and total thermal time. Yield was mod"
+						pre="ative-rainfall, anthesis thermal time (from first " word="flower"
+						post="to harvest), and total thermal time. Yield was mod" />
+					<hit
+						flower="Time from sowing to first flower averaged 45 d and varied little across sowing date"
+						pre="Time from sowing to first " word="flower"
+						post="averaged 45 d and varied little across sowing date" />
+					<hit
+						flower="e 2). Thus, the lower the number of days to first flower from sowing, the longer the duration of flowering."
+						pre="e 2). Thus, the lower the number of days to first " word="flower"
+						post="from sowing, the longer the duration of flowering." />
+					<hit
+						flower="Dynamics of open flower cover and total pollinator abundances."
+						pre="Dynamics of open " word="flower"
+						post="cover and total pollinator abundances." />
+					<hit
+						flower="Percent flower cover of early- mid- and late-sown echium in 2011 "
+						pre="Percent " word="flower"
+						post="cover of early- mid- and late-sown echium in 2011 " />
+					<hit
+						flower="gression model of anthesis duration using days to flower (DTF), anthesis rainfall (ARF), and vegetative rai"
+						pre="gression model of anthesis duration using days to " word="flower"
+						post="(DTF), anthesis rainfall (ARF), and vegetative rai" />
+					<hit
+						flower="Coverage times of flower area (%t) for early- and late-sowing dates were 15"
+						pre="Coverage times of " word="flower"
+						post="area (%t) for early- and late-sowing dates were 15" />
+					<hit
+						flower="). Thus, late sowings had 49%, 70% and 87% of the flower coverage time as early sowings of echium in 2011, "
+						pre="). Thus, late sowings had 49%, 70% and 87% of the " word="flower"
+						post="coverage time as early sowings of echium in 2011, " />
+					<hit
+						flower="had 929%t, which was 83% of the early-sown echium flower coverage time. For comparison with standard commod"
+						pre="had 929%t, which was 83% of the early-sown echium " word="flower"
+						post="coverage time. For comparison with standard commod" />
+					<hit
+						flower="ity crops, the 2013 flower coverage time for corn was 9%t and that for soybea"
+						pre="ity crops, the 2013 " word="flower"
+						post="coverage time for corn was 9%t and that for soybea" />
+					<hit
+						flower="m. Therefore, the combined extent and duration of flower availability to pollinators was much less in corn "
+						pre="m. Therefore, the combined extent and duration of " word="flower"
+						post="availability to pollinators was much less in corn " />
+					<hit
+						flower=" y−1), and ratio of pollinator visitation time to flower coverage time (pvt %t−1)."
+						pre=" y−1), and ratio of pollinator visitation time to " word="flower"
+						post="coverage time (pvt %t−1)." />
+					<hit
+						flower=". Although, the early sowing date had the highest flower coverage time (%t) of the three planting dates, th"
+						pre=". Although, the early sowing date had the highest " word="flower"
+						post="coverage time (%t) of the three planting dates, th" />
+					<hit
+						flower="e mid planting date had the highest sum flower density throughout the anthesis period. For compar"
+						pre="e mid planting date had the highest sum " word="flower"
+						post="density throughout the anthesis period. For compar" />
+					<hit
+						flower="e nectar sucrose produced by an individual echium flower throughout the day was equivalent to 635 µg of suc"
+						pre="e nectar sucrose produced by an individual echium " word="flower"
+						post="throughout the day was equivalent to 635 µg of suc" />
+					<hit
+						flower="he cumulative nectar sucrose produced by a single flower in a day by the sum of flowers produced throughout"
+						pre="he cumulative nectar sucrose produced by a single " word="flower"
+						post="in a day by the sum of flowers produced throughout" />
+					<hit
+						flower=" secretion rates. We extracted nectar before peak flower density was reached in the 2013 early sown crop, t"
+						pre=" secretion rates. We extracted nectar before peak " word="flower"
+						post="density was reached in the 2013 early sown crop, t" />
+					<hit
+						flower="ion later in the season may have decreased as the flower density increased. These assumptions likely led to"
+						pre="ion later in the season may have decreased as the " word="flower"
+						post="density increased. These assumptions likely led to" />
+					<hit
+						flower="g approximately 5 µg sugar per flower. Thus, at a flower density of 100–800 flowers per plant [20],[27] and"
+						pre="g approximately 5 µg sugar per flower. Thus, at a " word="flower"
+						post="density of 100–800 flowers per plant [20],[27] and" />
+					<hit
+						flower="s convert to 2 to 54 kg ha−1 of sugar at the same flower density mentioned above. In brief, even the highes"
+						pre="s convert to 2 to 54 kg ha−1 of sugar at the same " word="flower"
+						post="density mentioned above. In brief, even the highes" />
+					<hit
+						flower="tings. The ratio of pollinator visitation time to flower coverage time (pvt %t−1) increased in the later so"
+						pre="tings. The ratio of pollinator visitation time to " word="flower"
+						post="coverage time (pvt %t−1) increased in the later so" />
+					<hit
+						flower=" for each year and sowing date treatment when the flower area was very low. Presumably, at those times hone"
+						pre=" for each year and sowing date treatment when the " word="flower"
+						post="area was very low. Presumably, at those times hone" />
+					<hit
+						flower="and would be expected to achieve highest combined flower production and seed yield."
+						pre="and would be expected to achieve highest combined " word="flower"
+						post="production and seed yield." />
+					<hit
+						flower="JiangH, EgliDB (1993) Shade induced changes in flower and pod number and flower and fruit abscission in "
+						pre="JiangH, EgliDB (1993) Shade induced changes in " word="flower"
+						post="and pod number and flower and fruit abscission in " />
+				</hits>
+			</regex>
+		</result>
+	</resultsX>
+</resultsList>

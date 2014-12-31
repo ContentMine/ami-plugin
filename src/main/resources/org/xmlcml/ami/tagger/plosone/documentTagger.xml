@@ -1,4 +1,5 @@
-<tags journal="plosone"> 
+<taggerList name="plosone"> 
+ <tagger type="xml">
   <tag name="abstract"     >//*[local-name()='abstract']</tag>
   <!--  //sec[@id='s1']/title[.='Introduction'] -->
   <tag name="background"   >//*[local-name()='sec' and *[local-name()='title' and .='Introduction']]</tag>
@@ -14,4 +15,5 @@
   <tag name="figure"       >//*[local-name()='fig']/*[local-name()='caption']</tag>
   
 <!--  <tag name="title">//*[local-name()='div' and @class='topmatter']/*[local-name()='h1']</tag>   -->
-</tags>
+ </tagger>
+</taggerList>

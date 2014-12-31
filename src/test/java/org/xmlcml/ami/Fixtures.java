@@ -108,6 +108,15 @@ public class Fixtures {
 	public static final File TREE_BIRDS_CLEAN_SVG = new File(TREE_DIR, "birds.clean.svg");
 	public static final File TREE_BIRDS_CLEAN_SMALL_SVG = new File(TREE_DIR, "birds.clean.small.svg");
 	
+	//PLOSONE
+	public static final File PLOSONE_DIR = new File(AMI_DIR, "plosone");
+	public static final File TEST_RESULTS0113556_XML = new File("target/journal.pone.0113556.tagged.xml/results.xml");
+	public static final File RAW_0113556 = new File(PLOSONE_DIR, "journal.pone.0113556.xml");
+	public static final File TAGGED_0113556 = new File(PLOSONE_DIR, "journal.pone.0113556.tagged.xml");
+	public static final File RESULTS_0113556 = new File(PLOSONE_DIR, "journal.pone.0113556.results.xml");
+	public static final File RESULTS_ABSTRACT_0113556 = new File(PLOSONE_DIR, "journal.pone.0113556.results.abstract.xml");
+	public static final File RESULTS_FIGURES_0113556 = new File(PLOSONE_DIR, "journal.pone.0113556.results.figures.xml");
+	
 	//SECTIONS
 	public static final File SECTIONS_DIR = new File(AMI_DIR, "sections");
 	public static final File BMC_SECTIONS = new File(SECTIONS_DIR, "bmc");

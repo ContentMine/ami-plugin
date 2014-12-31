@@ -67,7 +67,7 @@ public class XMLVisitable extends AbstractVisitable  {
 	private void parseContentToContainerAndAddToList(Object object) throws Exception {
 		ensureXMLContainerList();
 		xmlElement = parseToElement(object);
-		addTags(xmlElement);
+//		addTags(xmlElement);
 		List<Element> xmlElements = splitByXPath(xmlElement);
 		for (Element subXmlElement : xmlElements) {
 			XMLContainer xmlContainer = createContainer(object, subXmlElement);

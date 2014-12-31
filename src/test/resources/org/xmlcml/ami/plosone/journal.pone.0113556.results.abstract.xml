@@ -1,0 +1,23 @@
+<resultsList xmlns="http://www.xml-cml.org/ami">
+	<resultsX>
+		<source
+			name="/Users/pm286/workspace/ami-core/src/test/resources/org/xmlcml/ami/plosone/journal.pone.0113556.tagged.xml" />
+		<result>
+			<regex>
+				<regex xmlns="" weight="1.0" fields="[flower, pre, word, post]">
+					<pattern>((.{1,50})([Ff]lower)\s+(.{1,50}))</pattern>
+				</regex>
+				<hits>
+					<hit
+						flower="ing (early-sown) or early summer (late-sown), and flower abundance, pollinator visitation, and seed yields "
+						pre="ing (early-sown) or early summer (late-sown), and " word="flower"
+						post="abundance, pollinator visitation, and seed yields " />
+					<hit
+						flower="ntensity of visitation by pollinators. Cumulative flower densities ranged from 1 to 4.5 billion ha−1. Flowe"
+						pre="ntensity of visitation by pollinators. Cumulative " word="flower"
+						post="densities ranged from 1 to 4.5 billion ha−1. Flowe" />
+				</hits>
+			</regex>
+		</result>
+	</resultsX>
+</resultsList>

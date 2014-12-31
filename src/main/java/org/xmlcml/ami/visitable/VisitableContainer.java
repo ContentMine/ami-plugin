@@ -5,8 +5,6 @@ import java.net.URL;
 
 import nu.xom.Element;
 
-import org.xmlcml.ami.tagger.JournalTagger;
-
 /**
  * Container for the Visitable.
  * 
@@ -19,7 +17,6 @@ public abstract class VisitableContainer {
 	protected String doi;
 	protected File file;
 	protected URL url;
-	protected JournalTagger tagger;
 
 	protected VisitableContainer() {
 		// dummy at present 

@@ -4,6 +4,7 @@ foo
 ^.settings/
 ^.classpath$
 ^.hgignore~$
+^.git/
 ^misc/.*
 src/test/resources/org/xmlcml/xhtml2stm1/
 ^target/.*
