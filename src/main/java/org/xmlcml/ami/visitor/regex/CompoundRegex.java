@@ -1,6 +1,7 @@
 package org.xmlcml.ami.visitor.regex;
 
 import java.io.File;
+import java.net.URL;
 import java.util.ArrayList;
 import java.util.List;
 
@@ -59,13 +60,38 @@ public class CompoundRegex {
 			} catch (Exception e) {
 				throw new RuntimeException("Cannot read or parse XML file: "+file+" MEND ME!", e);
 			}
-			compoundRegex = new CompoundRegex(rootElement);
-			List<RegexComponent> regexComponentList = compoundRegex.createRegexComponentList();
-			if (regexComponentList.size() > 0) {
-				compoundRegex.add(regexComponentList);
-			}
-			LOG.trace("read Compound Regex: "+rootElement.getAttributeValue(TITLE)+"\n"+compoundRegex);
+			compoundRegex = addCompoundRegex(rootElement);
 		}
+		return compoundRegex;
+	}
+	
+	/** creates a regex from URL if possible
+	 * 	 * 
+	 * @param file
+	 * @return null if not a regex file
+	 * @exception RuntimeException if cannot read/parse
+	 */
+	public static CompoundRegex readAndCreateRegex(URL url) {
+		CompoundRegex compoundRegex = null;
+		Element rootElement = null;
+		try {
+			Document doc = new Builder().build(url.openStream());
+			rootElement = doc.getRootElement();
+		} catch (Exception e) {
+			throw new RuntimeException("Cannot read or parse URL: "+url+" MEND ME!", e);
+		}
+		compoundRegex = addCompoundRegex(rootElement);
+		return compoundRegex;
+	}
+
+	private static CompoundRegex addCompoundRegex(Element rootElement) {
+		CompoundRegex compoundRegex;
+		compoundRegex = new CompoundRegex(rootElement);
+		List<RegexComponent> regexComponentList = compoundRegex.createRegexComponentList();
+		if (regexComponentList.size() > 0) {
+			compoundRegex.add(regexComponentList);
+		}
+		LOG.trace("read Compound Regex: "+rootElement.getAttributeValue(TITLE)+"\n"+compoundRegex);
 		return compoundRegex;
 	}
 

@@ -1,6 +1,7 @@
 package org.xmlcml.ami.visitor.regex;
 
 import java.io.File;
+import java.net.URL;
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
@@ -56,7 +57,15 @@ public class RegexContainer {
 
 	void readCompoundRegexFile(File file) {
 		CompoundRegex compoundRegex = CompoundRegex.readAndCreateRegex(file);
-		
+		addCompoundRegex(compoundRegex);
+	}
+
+	void readCompoundRegexURL(URL url) {
+		CompoundRegex compoundRegex = CompoundRegex.readAndCreateRegex(url);
+		addCompoundRegex(compoundRegex);
+	}
+
+	private void addCompoundRegex(CompoundRegex compoundRegex) {
 		if (compoundRegex != null) {
 			ensureCompoundRegexByTitleMap();
 			String title = compoundRegex.getTitle();

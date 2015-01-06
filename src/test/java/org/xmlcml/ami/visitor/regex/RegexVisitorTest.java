@@ -473,7 +473,6 @@ public class RegexVisitorTest {
 	}
 	
 	@Test
-	// fails as XML is not properly read
 	public void testExtractedPLOSHTML() throws Exception {
 		String[] args = new String[] {
 				"-i", new File("src/test/resources/org/xmlcml/ami/plosone/journal.pone.0113556.html").toString(),
@@ -499,14 +498,14 @@ public class RegexVisitorTest {
 	}
 	
 	@Test
-	public void testBMCPhyloURLHTMLs() throws Exception {
+	public void testBMCCommonURLHTMLs() throws Exception {
 		String[] args = new String[] {
+//				"-i", "http://www.biomedcentral.com/content/download/xml/1471-2148-13-191.xml",
 				"-i", "http://www.biomedcentral.com/1471-2148/13/191",
-				"-t", "bmc",
-				"-x", "//*[@tag='abstract']",
-				"-g", "regex/phylotree.xml",
+				"--regex", "https://raw.githubusercontent.com/ContentMine/ami/master/regex/phylotree.xml",
 				"-e", AMIUtil.HTML
 		};
+
 		RegexVisitor.main(args);
 	}
 	

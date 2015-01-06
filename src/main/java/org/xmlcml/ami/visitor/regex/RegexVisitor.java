@@ -1,6 +1,7 @@
 package org.xmlcml.ami.visitor.regex;
 
 import java.io.File;
+import java.net.URL;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.ListIterator;
@@ -130,18 +131,29 @@ public class RegexVisitor extends AbstractVisitor {
 		return processed;
 	}
 
-	private RegexContainer addRegexFiles(List<String> regexRoots) {
+	private RegexContainer addRegexFiles(List<String> regexLocations) {
 		List<File> regexFiles = new ArrayList<File>();
-		for (String regexRoot : regexRoots) {
-			File regexFile = new File(regexRoot);
+		List<URL> regexURLs = new ArrayList<URL>();
+		for (String regexLocation : regexLocations) {
+			File regexFile = new File(regexLocation);
 			if (regexFile.exists() && !regexFile.isDirectory()) {
 				regexFiles.add(regexFile);
+			} else if (regexLocation.startsWith("http")) {
+				try {
+					URL regexURL = new URL(regexLocation);
+					regexURLs.add(regexURL);
+				} catch (Exception e) {
+					LOG.error("Cannot create Regex from URL "+regexLocation+" "+e);
+				}
 			} else {
 				throw new RuntimeException("Cannot find regexFile: "+regexFile);
 			}
 		}
 		for (File regexFile : regexFiles) {
 			regexContainer.readCompoundRegexFile(regexFile);
+		}
+		for (URL regexURL : regexURLs) {
+			regexContainer.readCompoundRegexURL(regexURL);
 		}
 		LOG.trace("regex container "+regexContainer.getCompoundRegexList());
 		return regexContainer;
