@@ -180,6 +180,7 @@ public class SpeciesVisitorTest {
 	 * @throws Exception
 	 */
 	@Test
+	@Ignore
 	public void testSearchXmlDirCommand() throws Exception {
 		File inputFile = Fixtures.MANY_SPECIES_DIR;
 		File outputDir = new File("target/species/many");

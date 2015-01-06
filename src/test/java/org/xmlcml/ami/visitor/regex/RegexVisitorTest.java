@@ -318,6 +318,7 @@ public class RegexVisitorTest {
 	 * @param file
 	 */
 	@Test
+	@Ignore // too large
 	public void testPhyloRegex() throws Exception {
 		String plosMany = new File("./src/test/resources/org/xmlcml/ami/species/many/").toString();
 		String[] args = new String[] {
@@ -334,7 +335,7 @@ public class RegexVisitorTest {
 	 * @param file
 	 */
 	@Test
-//	@Ignore // too many
+	@Ignore // too many
 	public void testAgriculture() throws Exception {
 		String plosMany = new File("./src/test/resources/org/xmlcml/ami/species/many/").toString();
 		String[] args = new String[] {
@@ -351,6 +352,7 @@ public class RegexVisitorTest {
 	 * @param file
 	 */
 	@Test
+	@Ignore // uses web
 	public void testAgricultureURLs() throws Exception {
 		if (!Util.checkPMR()) return;
 		String[] args = new String[] {
@@ -407,7 +409,6 @@ public class RegexVisitorTest {
 	@Test
 	@Ignore // uses remote resources
 	public void testSearchURLRanges() throws Exception {
-		File outputDir = new File("target/species/journal.pone.0113556.xml/");
 		String[] args;
 		int[] hits = {
 				 0,   4,   5,  -1,  40,  10,   0,  -1,   0,  18,
@@ -421,7 +422,6 @@ public class RegexVisitorTest {
 //			int jjjjjj = 113500 + i;
 			args = new String[] {
 					"-i", "http://www.biomedcentral.com/content/download/xml/s12870-014-030"+i+"-"+(9-i)+".xml",
-					"-o", outputDir.toString(),
 					"-g", "regex/agriculture.xml",
 			};
 			Thread.sleep(5000);
@@ -451,9 +451,6 @@ public class RegexVisitorTest {
 		String astroDir = new File("./src/test/resources/org/xmlcml/ami/astrophys/").toString();
 		String[] args = new String[] {
 				"-i",
-//				"src/test/resources/org/xmlcml/ami/astrophys/0004-637X_754_2_85.pdf",
-//				"src/test/resources/org/xmlcml/ami/astrophys/10.1111_j.1365-2966.2010.17101.x.html",
-//				"src/test/resources/org/xmlcml/ami/astrophys/s2.0-S2212686414000272.html",
 				"http://www.sciencedirect.com/science/article/pii/S2212686414000272",
 				"-o", "target/astrophys.xml",
 				"-g", "regex/astrophys.xml",
@@ -469,10 +466,6 @@ public class RegexVisitorTest {
 				"-t", "plosone",
 				"-o", "target/plosone/species/",
 				"-x", "//*[@tag='figure']",
-//				"-x", "//*[@tag='abstract' or @tag='methods']",
-//				"-x", "//*[@tag='abstract']",
-//				"-x", "//*[@tag]",
-//				"-g", "regex/agriculture.xml",
 				"-g", "regex/figure.xml",
 				"-e", AMIUtil.XML
 		};
@@ -487,9 +480,6 @@ public class RegexVisitorTest {
 				"-t", "plosone",
 				"-o", "target/plosone/species/",
 				"-x", "//*[@tag='abstract']",
-//				"-x", "//*[@tag='abstract' or @tag='discussion']",
-//				"-x", "//*[@tag]",
-//				"-g", "regex/agriculture.xml",
 				"-g", "regex/common.xml",
 				"-e", AMIUtil.XML
 		};
@@ -501,7 +491,6 @@ public class RegexVisitorTest {
 		String[] args = new String[] {
 				"-i", "http://www.biomedcentral.com/content/download/xml/1471-2148-13-191.xml",
 				"-t", "bmc",
-//				"-o", "target/plosone/species/",
 				"-x", "//*[@tag='abstract']",
 				"-g", "regex/phylotree.xml",
 				"-e", AMIUtil.XML
@@ -514,7 +503,6 @@ public class RegexVisitorTest {
 		String[] args = new String[] {
 				"-i", "http://www.biomedcentral.com/1471-2148/13/191",
 				"-t", "bmc",
-//				"-o", "target/plosone/species/",
 				"-x", "//*[@tag='abstract']",
 				"-g", "regex/phylotree.xml",
 				"-e", AMIUtil.HTML
