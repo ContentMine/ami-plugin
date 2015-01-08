@@ -12,6 +12,7 @@ public class AMIUtil {
 
 	public static final String DOI = "doi:";
 	public static final String HTTP = "http://";
+	public static final String HTTPS = "https://";
 	public static final String HTM = "htm";
 	public static final String HTML = "html";
 	public static final String PDF = "pdf";
@@ -24,6 +25,15 @@ public class AMIUtil {
 	
 	public static boolean endsWithSeparator(String filename) {
 		return filename != null && FilenameUtils.indexOfLastSeparator(filename) == filename.length()-1;
+	}
+
+	/** crude tool to guess whether is URL from name.
+	 * 
+	 * @param name
+	 * @return
+	 */
+	public static boolean isURL(String name) {
+		return name.startsWith(HTTP) || name.startsWith(HTTPS);
 	}
 
 

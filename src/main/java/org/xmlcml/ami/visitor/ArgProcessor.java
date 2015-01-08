@@ -28,13 +28,15 @@ public class ArgProcessor {
 	private static final String RECURSIVE  = "--recursive";
 	private static final String E          = "-e";
 	private static final String EXTENSIONS = "--extensions";
-//	private static final String T          = "-t";
-//	private static final String TAGGER = "--tagger";
+	private static final String C          = "-c";
+	private static final String CONTEXT    = "--context";
 //	private static final String S          = "-s";
 //	private static final String SECTIONS = "--sections";
 	private static final String X          = "-x";
 	private static final String XPATH      = "--xpath";
 	private static final String[] DEFAULT_EXTENSIONS = {AMIUtil.HTM};
+	private static Pattern INTEGER_RANGE = Pattern.compile("(.*)\\{(\\d+),(\\d+)\\}(.*)");
+
 	
 	public static final String MINUS = "-";
 	
@@ -44,8 +46,7 @@ public class ArgProcessor {
 	private List<String> extensions = Arrays.asList(DEFAULT_EXTENSIONS);
 	private boolean recursive = false;
 	private AbstractVisitor visitor;
-
-	private static Pattern INTEGER_RANGE = Pattern.compile("(.*)\\{(\\d+),(\\d+)\\}(.*)");
+	private Integer contextSize;
 
 	public ArgProcessor(String[] commandLineArgs, AbstractVisitor visitor) {
 		this.visitor = visitor;
@@ -60,6 +61,7 @@ public class ArgProcessor {
 				LOG.error("Parsing failed at: ("+arg+"), expected \"-\" trying to recover");
 				continue;
 			}
+			if (C.equals(arg) || CONTEXT.equals(arg)) {processContext(listIterator); continue;}
 			if (E.equals(arg) || EXTENSIONS.equals(arg)) {processExtensions(listIterator); continue;}
 			if (I.equals(arg) || INPUT.equals(arg)) {processInput(listIterator); continue;}
 			if (O.equals(arg) || OUTPUT.equals(arg)) {processOutput(listIterator); continue;}
@@ -115,6 +117,12 @@ public class ArgProcessor {
 		checkHasNext(listIterator);
 		String output = listIterator.next();
 		visitorOutput = new VisitorOutput(output);
+	}
+
+	private void processContext(ListIterator<String> listIterator) {
+		checkHasNext(listIterator);
+		String context = listIterator.next();
+		contextSize = new Integer(context);
 	}
 
 	private void processRecursive(ListIterator<String> listIterator) {
@@ -183,6 +191,10 @@ public class ArgProcessor {
 
 	public XPathProcessor getXPathProcessor() {
 		return xPathProcessor;
+	}
+	
+	public Integer getContextSize() {
+		return contextSize;
 	}
 
 }

@@ -27,6 +27,7 @@ public class VisitableInput {
 	private static final Logger LOG = Logger.getLogger(VisitableInput.class);
 	
 	private static final String HTTP = "http://";
+	private static final String HTTPS = "https://";
 	private static final String DOI  = "doi:";
 	private static final String PMID = "pmid:";
 	
@@ -58,7 +59,7 @@ public class VisitableInput {
 		inputFilenameExtension = FilenameUtils.getExtension(inputItem);
 		isDirectory = AMIUtil.endsWithSeparator(inputItem) || new File(inputItem).isDirectory() 
 				|| inputFilenameExtension == null || "".equals(inputItem)  ;
-		isUrl = inputItem.startsWith(HTTP);
+		isUrl = AMIUtil.isURL(inputItem);
 		ensureVisitableList();
 		if (isDirectory) {
 			addFilesToVisitableList(inputItem);
