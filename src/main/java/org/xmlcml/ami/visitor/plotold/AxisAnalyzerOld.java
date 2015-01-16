@@ -1,18 +1,23 @@
-package org.xmlcml.ami.visitor.plot;
+package org.xmlcml.ami.visitor.plotold;
 
 import java.util.ArrayList;
+
 import java.util.List;
 
 import org.apache.log4j.Logger;
 import org.xmlcml.graphics.svg.SVGG;
 import org.xmlcml.graphics.svg.SVGLine;
-import org.xmlcml.svg2xml.paths.ComplexLine;
-import org.xmlcml.svg2xml.paths.ComplexLine.CombType;
-import org.xmlcml.svg2xml.paths.ComplexLine.LineOrientation;
+import org.xmlcml.graphics.svg.linestuff.ComplexLine;
+import org.xmlcml.graphics.svg.linestuff.ComplexLine.CombType;
+import org.xmlcml.graphics.svg.linestuff.ComplexLine.LineOrientation;
+import org.xmlcml.graphics.svg.unplot.Axis;
+import org.xmlcml.graphics.svg.unplot.GraphPlotBox;
 
-public class AxisAnalyzer {
+@Deprecated // moved to SVG
 
-	static final Logger LOG = Logger.getLogger(AxisAnalyzer.class);
+public class AxisAnalyzerOld {
+
+	static final Logger LOG = Logger.getLogger(AxisAnalyzerOld.class);
 
 	public static final double _MAJOR_MINOR_TICK_RATIO = 1.1;
 
@@ -40,7 +45,7 @@ public class AxisAnalyzer {
 	private SVGG g;
 	public double eps;
 
-	public AxisAnalyzer(SVGG g) {
+	public AxisAnalyzerOld(SVGG g) {
 		super();
 		this.g = g;
 		ensureSVGLines();
@@ -184,7 +189,8 @@ public class AxisAnalyzer {
 	}
 
 	private Axis createAxis(ComplexLine complexLine, LineOrientation orientation) {
-		Axis axis = new Axis(this);
+		Axis axis = new Axis((org.xmlcml.graphics.svg.unplot.AxisAnalyzer)null);
+//		Axis axis = new Axis();
 		if (!orientation.equals(axis.getOrientation())) {
 //			throw new RuntimeException("Inconsistent axis orientation");
 		}

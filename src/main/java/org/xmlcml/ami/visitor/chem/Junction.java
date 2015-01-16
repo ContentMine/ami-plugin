@@ -1,13 +1,13 @@
 package org.xmlcml.ami.visitor.chem;
 
-import org.apache.log4j.Logger;
-import org.xmlcml.ami.visitor.chem.Joinable.JoinPoint;
-import org.xmlcml.euclid.Real2;
-
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.Collection;
 import java.util.List;
+
+import org.apache.log4j.Logger;
+import org.xmlcml.ami.visitor.chem.Joinable.JoinPoint;
+import org.xmlcml.euclid.Real2;
 
 /** 
  * A junction between two or more objects.

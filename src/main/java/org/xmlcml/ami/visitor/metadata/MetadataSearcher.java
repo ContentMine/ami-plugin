@@ -1,12 +1,11 @@
 package org.xmlcml.ami.visitor.metadata;
 
+import org.xmlcml.ami.result.AbstractListElement;
+import org.xmlcml.ami.result.SimpleResultList;
 import org.xmlcml.ami.visitable.AbstractVisitable;
 import org.xmlcml.ami.visitable.image.ImageVisitable;
 import org.xmlcml.ami.visitor.AbstractSearcher;
 import org.xmlcml.ami.visitor.AbstractVisitor;
-import org.xmlcml.ami.visitor.chem.ChemListElement;
-import org.xmlcml.ami.result.AbstractListElement;
-import org.xmlcml.ami.result.SimpleResultList;
 
 public class MetadataSearcher extends AbstractSearcher {
 

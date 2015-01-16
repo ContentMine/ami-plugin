@@ -2,14 +2,10 @@ package org.xmlcml.ami.visitor.sequence;
 
 import org.apache.log4j.Logger;
 import org.xmlcml.ami.Type;
-import org.xmlcml.ami.visitable.SourceElement;
-import org.xmlcml.ami.visitable.html.HtmlContainer;
 import org.xmlcml.ami.visitable.html.HtmlVisitable;
-import org.xmlcml.ami.visitable.xml.XMLContainer;
 import org.xmlcml.ami.visitable.xml.XMLVisitable;
 import org.xmlcml.ami.visitor.AbstractSearcher;
 import org.xmlcml.ami.visitor.AbstractVisitor;
-import org.xmlcml.ami.visitor.species.SpeciesSearcher;
 
 public class SequenceVisitor extends AbstractVisitor {
 

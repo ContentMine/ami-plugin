@@ -7,7 +7,6 @@ import org.junit.Assert;
 import org.junit.Ignore;
 import org.junit.Test;
 import org.xmlcml.ami.Fixtures;
-import org.xmlcml.ami.visitor.chem.ChemistryBuilder;
 import org.xmlcml.euclid.Angle;
 import org.xmlcml.euclid.Angle.Units;
 import org.xmlcml.graphics.svg.SVGElement;

@@ -1,43 +1,45 @@
-package org.xmlcml.ami.visitor.plot;
+package org.xmlcml.ami.visitor.plotold;
 
 import org.xmlcml.euclid.Real2Range;
 import org.xmlcml.euclid.RealRange;
 import org.xmlcml.graphics.svg.SVGG;
 import org.xmlcml.graphics.svg.SVGRect;
-import org.xmlcml.svg2xml.page.BoundingBoxManager;
-import org.xmlcml.svg2xml.paths.ComplexLine;
+import org.xmlcml.graphics.svg.linestuff.BoundingBoxManager;
+import org.xmlcml.graphics.svg.linestuff.ComplexLine;
 
-public class GraphPlotBox {
+
+@Deprecated // moved to SVG
+public class GraphPlotBoxOld {
 
 
 	public static final String AXES_BOX = "axesBox";
 
-	private Axis horizontalAxis;
-	private Axis verticalAxis;
+	private AxisOld horizontalAxis;
+	private AxisOld verticalAxis;
 	private RealRange horizontalRange;
 	private RealRange verticalRange;
 	private Real2Range boxRange;
 
 
-	public GraphPlotBox(Axis horizontalAxis, Axis verticalAxis) {
+	public GraphPlotBoxOld(AxisOld horizontalAxis, AxisOld verticalAxis) {
 		setHorizontalAxis(horizontalAxis);
 		setVerticalAxis(verticalAxis);
 	}
 	
-	public Axis getHorizontalAxis() {
+	public AxisOld getHorizontalAxis() {
 		return horizontalAxis;
 	}
 
-	public void setHorizontalAxis(Axis horizontalAxis) {
+	public void setHorizontalAxis(AxisOld horizontalAxis) {
 		this.horizontalAxis = horizontalAxis;
 		this.horizontalRange = (horizontalAxis == null) ? null : horizontalAxis.getAxisRangeInPixels();
 	}
 
-	public Axis getVerticalAxis() {
+	public AxisOld getVerticalAxis() {
 		return verticalAxis;
 	}
 
-	public void setVerticalAxis(Axis verticalAxis) {
+	public void setVerticalAxis(AxisOld verticalAxis) {
 		this.verticalAxis = verticalAxis;
 		verticalRange = (verticalAxis == null ? null : verticalAxis.getAxisRangeInPixels());
 	}
@@ -57,14 +59,14 @@ public class GraphPlotBox {
 	
 	public boolean areAxesTouching(double eps) {
 		boolean touching = false;
-		ComplexLine horizontalComplexLine = (horizontalAxis == null ? null : horizontalAxis.getComplexLine());
-		ComplexLine verticalComplexLine = (verticalAxis == null ? null : verticalAxis.getComplexLine());
-		if (horizontalComplexLine != null && verticalComplexLine != null) {
-			Real2Range horizontalBBox = BoundingBoxManager.createExtendedBox(horizontalComplexLine.getBackbone(), eps);
-			Real2Range verticalBBox = BoundingBoxManager.createExtendedBox(verticalComplexLine.getBackbone(), eps);
-			Real2Range overlap = horizontalBBox.intersectionWith(verticalBBox);
-			touching = overlap != null;
-		}
+//		ComplexLine horizontalComplexLine = (horizontalAxis == null ? null : horizontalAxis.getComplexLine());
+//		ComplexLine verticalComplexLine = (verticalAxis == null ? null : verticalAxis.getComplexLine());
+//		if (horizontalComplexLine != null && verticalComplexLine != null) {
+//			Real2Range horizontalBBox = BoundingBoxManager.createExtendedBox(horizontalComplexLine.getBackbone(), eps);
+//			Real2Range verticalBBox = BoundingBoxManager.createExtendedBox(verticalComplexLine.getBackbone(), eps);
+//			Real2Range overlap = horizontalBBox.intersectionWith(verticalBBox);
+//			touching = overlap != null;
+//		}
 		return touching;
 	}
 	

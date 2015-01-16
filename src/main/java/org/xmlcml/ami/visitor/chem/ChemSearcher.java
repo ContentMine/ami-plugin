@@ -4,15 +4,13 @@ import java.io.File;
 import java.util.List;
 
 import org.apache.log4j.Logger;
-import org.xmlcml.ami.visitable.html.HtmlContainer;
-import org.xmlcml.ami.visitable.svg.SVGContainer;
-import org.xmlcml.ami.visitable.svg.SVGVisitable;
-import org.xmlcml.ami.visitor.AbstractSearcher;
-import org.xmlcml.ami.visitor.AbstractVisitor;
-import org.xmlcml.ami.visitor.SimpleListElement;
-import org.xmlcml.html.HtmlSub;
 import org.xmlcml.ami.result.AbstractListElement;
 import org.xmlcml.ami.result.SimpleResultList;
+import org.xmlcml.ami.visitable.html.HtmlContainer;
+import org.xmlcml.ami.visitable.svg.SVGContainer;
+import org.xmlcml.ami.visitor.AbstractSearcher;
+import org.xmlcml.ami.visitor.AbstractVisitor;
+import org.xmlcml.html.HtmlSub;
 
 import com.google.common.util.concurrent.UncheckedTimeoutException;
 

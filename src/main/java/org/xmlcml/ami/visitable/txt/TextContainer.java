@@ -4,9 +4,6 @@ import java.io.File;
 import java.net.URL;
 import java.util.List;
 
-import nu.xom.Element;
-import nu.xom.Nodes;
-
 import org.xmlcml.ami.visitable.VisitableContainer;
 
 public class TextContainer extends VisitableContainer {

@@ -10,7 +10,6 @@ import nu.xom.Document;
 import nu.xom.Element;
 
 import org.apache.log4j.Logger;
-import org.xmlcml.ami.visitor.EIC;
 
 /** Container for many smaller regexes.
  * 

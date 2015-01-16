@@ -5,25 +5,27 @@ import java.io.FileNotFoundException;
 import java.io.FileOutputStream;
 import java.util.List;
 
-import org.junit.Assert;
 import org.apache.log4j.Logger;
+import org.junit.Assert;
 import org.junit.Ignore;
 import org.junit.Test;
 import org.xmlcml.ami.Fixtures;
-import org.xmlcml.ami.visitor.plot.Axis;
-import org.xmlcml.ami.visitor.plot.AxisAnalyzer;
-import org.xmlcml.ami.visitor.plot.GraphPlotBox;
 import org.xmlcml.euclid.RealArray;
 import org.xmlcml.graphics.svg.SVGG;
 import org.xmlcml.graphics.svg.SVGSVG;
 import org.xmlcml.graphics.svg.SVGText;
 import org.xmlcml.graphics.svg.SVGUtil;
+import org.xmlcml.graphics.svg.unplot.Axis;
+import org.xmlcml.graphics.svg.unplot.AxisAnalyzer;
+import org.xmlcml.graphics.svg.unplot.GraphPlotBox;
 import org.xmlcml.html.HtmlElement;
 import org.xmlcml.svg2xml.page.TextAnalyzer;
 import org.xmlcml.svg2xml.text.RawWords;
 import org.xmlcml.svg2xml.text.TextLine;
 import org.xmlcml.svg2xml.text.TextStructurer;
 
+@Deprecated // moved to SVG
+@Ignore
 public class AxisAnalyzerTest {
 
 	private static final Logger LOG = Logger.getLogger(AxisAnalyzerTest.class);

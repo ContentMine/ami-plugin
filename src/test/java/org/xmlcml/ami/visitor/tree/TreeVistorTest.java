@@ -4,7 +4,6 @@ import java.io.File;
 
 import org.junit.Test;
 import org.xmlcml.ami.Fixtures;
-import org.xmlcml.ami.visitor.tree.TreeVisitor;
 
 public class TreeVistorTest {
 	

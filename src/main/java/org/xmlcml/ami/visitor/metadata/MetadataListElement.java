@@ -1,12 +1,11 @@
 package org.xmlcml.ami.visitor.metadata;
 
 import org.apache.log4j.Logger;
-import org.xmlcml.ami.visitor.VisitorSimpleResultElement;
-import org.xmlcml.ami.visitor.species.SpeciesListElement;
 import org.xmlcml.ami.result.AbstractListElement;
 import org.xmlcml.ami.result.AbstractResultElement;
 import org.xmlcml.ami.result.SimpleResultList;
 import org.xmlcml.ami.result.SimpleResultWrapper;
+import org.xmlcml.ami.visitor.VisitorSimpleResultElement;
 
 public class MetadataListElement extends AbstractListElement {
 

@@ -3,11 +3,15 @@ package org.xmlcml.ami.visitor.plot;
 import java.util.List;
 
 import org.apache.log4j.Logger;
+import org.junit.Ignore;
 import org.junit.Test;
 import org.xmlcml.ami.Fixtures;
-import org.xmlcml.ami.visitor.plot.GraphPlotBox;
-import org.xmlcml.ami.visitor.plot.SVGLineAnalyzer;
 import org.xmlcml.graphics.svg.SVGG;
+import org.xmlcml.graphics.svg.unplot.GraphPlotBox;
+import org.xmlcml.graphics.svg.unplot.SVGLineAnalyzer;
+
+@Deprecated // moved to SVG
+@Ignore
 
 public class SVGLineAnalyzerTest {
 

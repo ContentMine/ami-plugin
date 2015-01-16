@@ -14,15 +14,14 @@ import org.junit.Assert;
 import org.junit.Ignore;
 import org.junit.Test;
 import org.xmlcml.ami.Fixtures;
+import org.xmlcml.ami.result.ResultsListElement;
 import org.xmlcml.ami.util.AMITestUtil;
+import org.xmlcml.ami.util.AMIUtil;
 import org.xmlcml.ami.visitable.html.HtmlVisitable;
 import org.xmlcml.ami.visitable.pdf.PDFVisitable;
 import org.xmlcml.ami.visitable.svg.SVGVisitable;
 import org.xmlcml.ami.visitable.xml.XMLVisitable;
 import org.xmlcml.ami.visitor.AbstractVisitor;
-import org.xmlcml.ami.visitor.species.SpeciesVisitor;
-import org.xmlcml.ami.result.ResultsListElement;
-import org.xmlcml.ami.util.AMIUtil;
 import org.xmlcml.xml.XMLUtil;
 
 public class SpeciesVisitorTest {

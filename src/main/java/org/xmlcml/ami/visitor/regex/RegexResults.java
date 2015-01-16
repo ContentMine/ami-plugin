@@ -4,8 +4,8 @@ import java.util.ArrayList;
 import java.util.List;
 
 import org.apache.log4j.Logger;
-import org.xmlcml.euclid.Real;
 import org.xmlcml.ami.result.SimpleResultWrapper;
+import org.xmlcml.euclid.Real;
 
 /** captures results of regex search.
  * 

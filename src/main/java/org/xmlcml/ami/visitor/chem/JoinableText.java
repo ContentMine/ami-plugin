@@ -1,5 +1,9 @@
 package org.xmlcml.ami.visitor.chem;
 
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.List;
+
 import org.apache.log4j.Logger;
 import org.xmlcml.euclid.Real2;
 import org.xmlcml.graphics.svg.SVGText;
@@ -8,10 +12,6 @@ import org.xmlcml.svg2xml.text.ScriptWord;
 import org.xmlcml.svg2xml.text.TextStructurer;
 
 import com.google.common.collect.UnionFind;
-
-import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.List;
 
 public class JoinableText extends Joinable {
 

@@ -6,7 +6,6 @@ import org.junit.Ignore;
 import org.junit.Test;
 import org.xmlcml.ami.Fixtures;
 import org.xmlcml.ami.visitable.html.HtmlVisitable;
-import org.xmlcml.ami.visitor.AbstractVisitor;
 import org.xmlcml.ami.visitor.species.SpeciesVisitor;
 
 public class VisitorTest {

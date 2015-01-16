@@ -4,8 +4,6 @@ import org.apache.log4j.Logger;
 import org.xmlcml.ami.result.AbstractResultElement;
 import org.xmlcml.ami.result.SimpleResultWrapper;
 
-import com.google.common.collect.Multiset.Entry;
-
 
 public class VisitorSimpleResultElement extends AbstractResultElement {
 

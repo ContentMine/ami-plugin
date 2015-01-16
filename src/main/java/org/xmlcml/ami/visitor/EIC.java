@@ -13,8 +13,6 @@ import nu.xom.ParentNode;
 import org.apache.log4j.Logger;
 import org.xmlcml.ami.util.AMIUtil;
 
-import boofcv.alg.feature.associate.EnsureUniqueAssociation;
-
 /** entity (or Element) in context.
  * 
  * An object which wraps a document or text to be searched and accumulates some of the immediate context.

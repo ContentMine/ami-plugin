@@ -10,8 +10,6 @@ import org.junit.Test;
 import org.xmlcml.ami.Fixtures;
 import org.xmlcml.ami.visitable.html.HtmlVisitable;
 import org.xmlcml.ami.visitable.svg.SVGVisitable;
-import org.xmlcml.ami.visitor.chem.ChemVisitor;
-import org.xmlcml.ami.visitor.chem.PubChemCommunicator;
 import org.xmlcml.cml.element.CMLLabel;
 import org.xmlcml.cml.element.CMLMolecule;
 import org.xmlcml.cml.tools.Morgan;

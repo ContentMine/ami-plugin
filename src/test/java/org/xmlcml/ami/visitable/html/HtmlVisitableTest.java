@@ -7,8 +7,6 @@ import org.junit.Assert;
 import org.junit.Ignore;
 import org.junit.Test;
 import org.xmlcml.ami.Fixtures;
-import org.xmlcml.ami.visitable.html.HtmlContainer;
-import org.xmlcml.ami.visitable.html.HtmlVisitable;
 
 public class HtmlVisitableTest {
 	@Test

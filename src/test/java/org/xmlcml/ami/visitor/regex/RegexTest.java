@@ -7,8 +7,6 @@ import org.junit.Assert;
 import org.junit.Ignore;
 import org.junit.Test;
 import org.xmlcml.ami.Fixtures;
-import org.xmlcml.ami.visitor.regex.CompoundRegex;
-import org.xmlcml.ami.visitor.regex.RegexComponent;
 
 public class RegexTest {
 	

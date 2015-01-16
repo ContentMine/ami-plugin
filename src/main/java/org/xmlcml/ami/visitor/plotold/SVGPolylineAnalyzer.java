@@ -1,4 +1,4 @@
-package org.xmlcml.ami.visitor.plot;
+package org.xmlcml.ami.visitor.plotold;
 
 import java.util.ArrayList;
 import java.util.Arrays;
@@ -28,6 +28,8 @@ import org.xmlcml.graphics.svg.SVGPoly;
 import org.xmlcml.graphics.svg.SVGPolyline;
 import org.xmlcml.graphics.svg.SVGSVG;
 import org.xmlcml.graphics.svg.SVGUtil;
+import org.xmlcml.graphics.svg.unplot.Axis;
+import org.xmlcml.graphics.svg.unplot.GraphPlotBox;
 import org.xmlcml.svg2xml.page.BoundingBoxManager;
 import org.xmlcml.svg2xml.page.BoundingBoxManager.BoxEdge;
 import org.xmlcml.svg2xml.page.PageIO;
@@ -36,6 +38,7 @@ import org.xmlcml.svg2xml.pdf.PDFAnalyzerOptions;
 import org.xmlcml.svg2xml.util.GraphUtil;
 
 
+@Deprecated // moved to SVG
 public class SVGPolylineAnalyzer {
 
 	private final static Logger LOG = Logger.getLogger(SVGPolylineAnalyzer.class);

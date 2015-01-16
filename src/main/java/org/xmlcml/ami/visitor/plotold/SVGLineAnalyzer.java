@@ -1,4 +1,4 @@
-package org.xmlcml.ami.visitor.plot;
+package org.xmlcml.ami.visitor.plotold;
 
 import java.util.ArrayList;
 import java.util.Arrays;
@@ -9,10 +9,14 @@ import org.xmlcml.euclid.Angle;
 import org.xmlcml.euclid.Vector2;
 import org.xmlcml.graphics.svg.SVGG;
 import org.xmlcml.graphics.svg.SVGLine;
+import org.xmlcml.graphics.svg.unplot.Axis;
+import org.xmlcml.graphics.svg.unplot.AxisAnalyzer;
+import org.xmlcml.graphics.svg.unplot.GraphPlotBox;
 
 import com.google.common.collect.ArrayListMultimap;
 import com.google.common.collect.Multimap;
 
+@Deprecated // moved to SVG
 public class SVGLineAnalyzer {
 
 	private final static Logger LOG = Logger.getLogger(SVGLineAnalyzer.class);

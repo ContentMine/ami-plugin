@@ -3,7 +3,6 @@ package org.xmlcml.ami.visitor.regex;
 import org.apache.log4j.Logger;
 import org.xmlcml.ami.result.AbstractResultElement;
 import org.xmlcml.ami.result.SimpleResultWrapper;
-import org.xmlcml.xml.XMLUtil;
 
 /** holds a regexComponent and the matcher results.
  * 

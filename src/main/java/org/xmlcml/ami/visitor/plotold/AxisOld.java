@@ -1,6 +1,7 @@
-package org.xmlcml.ami.visitor.plot;
+package org.xmlcml.ami.visitor.plotold;
 
 import java.util.ArrayList;
+
 import java.util.List;
 
 import nu.xom.Attribute;
@@ -23,6 +24,8 @@ import org.xmlcml.graphics.svg.SVGPoly;
 import org.xmlcml.graphics.svg.SVGPolyline;
 import org.xmlcml.graphics.svg.SVGText;
 import org.xmlcml.graphics.svg.SVGUtil;
+import org.xmlcml.graphics.svg.unplot.AxisAnalyzer;
+import org.xmlcml.graphics.svg.words.TypedNumber;
 import org.xmlcml.svg2xml.page.BoundingBoxManager;
 import org.xmlcml.svg2xml.page.BoundingBoxManager.BoxEdge;
 import org.xmlcml.svg2xml.page.ChunkAnalyzer;
@@ -35,7 +38,6 @@ import org.xmlcml.svg2xml.paths.Joint;
 import org.xmlcml.svg2xml.text.RawWords;
 import org.xmlcml.svg2xml.text.TextLine;
 import org.xmlcml.svg2xml.text.TextStructurer;
-import org.xmlcml.svg2xml.words.TypedNumber;
 import org.xmlcml.xml.XMLConstants;
 
 /** an axis on a graph.
@@ -47,9 +49,10 @@ import org.xmlcml.xml.XMLConstants;
  * @author pm286
  *
  */
-public class Axis {
+@Deprecated // moved to SVG
+public class AxisOld {
 
-	private final static Logger LOG = Logger.getLogger(Axis.class);
+	private final static Logger LOG = Logger.getLogger(AxisOld.class);
 
 	public enum Direction {
 		BELOW,
@@ -118,7 +121,7 @@ public class Axis {
 	private Double pixelToValueScale;
 
 
-	public Axis(AxisAnalyzer axisAnalyzerX) {
+	public AxisOld(AxisAnalyzer axisAnalyzerX) {
 		this.axisAnalyzerX = axisAnalyzerX;
 		this.boxLengthExtension = axisAnalyzerX.getBoxLengthExtension();
 		this.boxThickness = axisAnalyzerX.getBoxThickness();

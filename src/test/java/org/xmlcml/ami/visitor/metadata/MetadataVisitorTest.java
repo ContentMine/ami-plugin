@@ -8,7 +8,6 @@ import org.junit.Ignore;
 import org.junit.Test;
 import org.xmlcml.ami.Fixtures;
 import org.xmlcml.ami.visitable.svg.SVGVisitable;
-import org.xmlcml.ami.visitor.metadata.MetadataVisitor;
 
 public class MetadataVisitorTest {
 	@Test

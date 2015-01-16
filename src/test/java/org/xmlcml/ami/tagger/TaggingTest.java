@@ -1,7 +1,5 @@
 package org.xmlcml.ami.tagger;
 
-import java.io.File;
-
 import org.junit.Assert;
 import org.junit.Test;
 import org.xmlcml.ami.Fixtures;

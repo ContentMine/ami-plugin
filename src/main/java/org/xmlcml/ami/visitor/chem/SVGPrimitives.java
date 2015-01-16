@@ -1,9 +1,16 @@
 package org.xmlcml.ami.visitor.chem;
 
-import org.xmlcml.graphics.svg.*;
-
 import java.util.ArrayList;
 import java.util.List;
+
+import org.xmlcml.graphics.svg.SVGCircle;
+import org.xmlcml.graphics.svg.SVGLine;
+import org.xmlcml.graphics.svg.SVGPath;
+import org.xmlcml.graphics.svg.SVGPolygon;
+import org.xmlcml.graphics.svg.SVGPolyline;
+import org.xmlcml.graphics.svg.SVGRect;
+import org.xmlcml.graphics.svg.SVGShape;
+import org.xmlcml.graphics.svg.SVGText;
 
 /** 
  * Contains lists of SVG primitives in an SVG object.

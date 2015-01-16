@@ -10,9 +10,7 @@ import org.apache.log4j.Logger;
 import org.xmlcml.ami.visitable.SourceElement;
 import org.xmlcml.ami.visitor.EIC;
 
-import com.google.common.collect.HashMultimap;
 import com.google.common.collect.HashMultiset;
-import com.google.common.collect.Multimap;
 import com.google.common.collect.Multiset;
 
 public class SimpleResultList implements Iterable<SimpleResultWrapper> {

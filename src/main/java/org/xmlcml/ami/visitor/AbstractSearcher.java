@@ -1,14 +1,10 @@
 package org.xmlcml.ami.visitor;
 
-import java.util.ArrayList;
 import java.util.regex.Pattern;
-
-import nu.xom.Element;
 
 import org.apache.log4j.Logger;
 import org.xmlcml.ami.Type;
 import org.xmlcml.ami.result.AbstractListElement;
-import org.xmlcml.ami.result.ResultsListElement;
 import org.xmlcml.ami.result.SimpleResultElement;
 import org.xmlcml.ami.result.SimpleResultList;
 import org.xmlcml.ami.visitable.SourceElement;
@@ -19,7 +15,6 @@ import org.xmlcml.ami.visitable.pdf.PDFContainer;
 import org.xmlcml.ami.visitable.svg.SVGContainer;
 import org.xmlcml.ami.visitable.txt.TextContainer;
 import org.xmlcml.ami.visitable.xml.XMLContainer;
-import org.xmlcml.xml.XMLUtil;
 
 /** tool for searching containers.
  * 

@@ -1,11 +1,11 @@
 package org.xmlcml.ami.visitor.chem;
 
+import java.util.Arrays;
+
 import org.apache.log4j.Logger;
 import org.xmlcml.euclid.Real2;
 import org.xmlcml.graphics.svg.SVGLine;
 import org.xmlcml.graphics.svg.SVGPolygon;
-
-import java.util.Arrays;
 
 public class WedgeBond extends Joinable {
 	

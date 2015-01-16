@@ -2,9 +2,8 @@ package org.xmlcml.ami.visitor.chem;
 
 import org.junit.Ignore;
 import org.junit.Test;
-import org.xmlcml.ami.util.AMITestUtil;
-import org.xmlcml.ami.visitor.species.SpeciesVisitor;
 import org.xmlcml.ami.util.AMIUtil;
+import org.xmlcml.ami.visitor.species.SpeciesVisitor;
 
 public class SuppdataTest {
 

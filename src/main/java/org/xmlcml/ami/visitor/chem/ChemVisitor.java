@@ -1,21 +1,15 @@
 package org.xmlcml.ami.visitor.chem;
 
-import java.io.File;
 import java.util.ArrayList;
 import java.util.List;
 
 import org.apache.log4j.Logger;
-import org.xmlcml.ami.visitable.html.HtmlContainer;
 import org.xmlcml.ami.visitable.html.HtmlVisitable;
-import org.xmlcml.ami.visitable.svg.SVGContainer;
 import org.xmlcml.ami.visitable.svg.SVGVisitable;
 import org.xmlcml.ami.visitor.AbstractSearcher;
 import org.xmlcml.ami.visitor.AbstractVisitor;
 import org.xmlcml.cml.element.CMLMolecule;
 import org.xmlcml.cml.element.CMLReaction;
-import org.xmlcml.html.HtmlSub;
-
-import com.google.common.util.concurrent.UncheckedTimeoutException;
 
 public class ChemVisitor extends AbstractVisitor {
 

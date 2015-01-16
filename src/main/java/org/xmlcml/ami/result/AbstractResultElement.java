@@ -6,8 +6,8 @@ import nu.xom.Element;
 import org.apache.log4j.Logger;
 import org.xmlcml.ami.AbstractAMIElement;
 import org.xmlcml.ami.Type;
-import org.xmlcml.ami.visitor.EIC;
 import org.xmlcml.ami.util.AMIUtil;
+import org.xmlcml.ami.visitor.EIC;
 
 /** an XMLElement capable of holding a variety of results.
  * 

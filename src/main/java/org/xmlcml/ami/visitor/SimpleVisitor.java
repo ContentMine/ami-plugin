@@ -4,8 +4,7 @@ import java.awt.Container;
 import java.util.List;
 
 import org.apache.log4j.Logger;
-import org.xmlcml.ami.visitable.VisitableContainer;
-import org.xmlcml.ami.visitable.html.HtmlContainer;
+import org.xmlcml.ami.result.SimpleResultWrapper;
 import org.xmlcml.ami.visitable.html.HtmlVisitable;
 import org.xmlcml.ami.visitable.image.ImageVisitable;
 import org.xmlcml.ami.visitable.pdf.PDFVisitable;
@@ -13,7 +12,6 @@ import org.xmlcml.ami.visitable.svg.SVGContainer;
 import org.xmlcml.ami.visitable.svg.SVGVisitable;
 import org.xmlcml.ami.visitable.table.TableVisitable;
 import org.xmlcml.ami.visitable.xml.XMLVisitable;
-import org.xmlcml.ami.result.SimpleResultWrapper;
 
 import com.google.common.collect.HashMultiset;
 import com.google.common.collect.Multiset;

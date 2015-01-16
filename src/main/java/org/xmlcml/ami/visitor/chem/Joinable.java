@@ -1,18 +1,18 @@
 package org.xmlcml.ami.visitor.chem;
 
-import org.xmlcml.euclid.Angle;
-import org.xmlcml.euclid.Angle.Units;
-import org.xmlcml.euclid.Line2;
-import org.xmlcml.euclid.Real2;
-import org.xmlcml.graphics.svg.SVGElement;
-import org.xmlcml.graphics.svg.SVGText;
-
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.Comparator;
 import java.util.LinkedHashSet;
 import java.util.List;
 import java.util.Set;
+
+import org.xmlcml.euclid.Angle;
+import org.xmlcml.euclid.Angle.Units;
+import org.xmlcml.euclid.Line2;
+import org.xmlcml.euclid.Real2;
+import org.xmlcml.graphics.svg.SVGElement;
+import org.xmlcml.graphics.svg.SVGText;
 
 /**
  * Holds SVGElements such as SVGLine, TramLine or SVGText.

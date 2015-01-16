@@ -1,9 +1,9 @@
 package org.xmlcml.ami.visitor.chem;
 
-import org.xmlcml.graphics.svg.SVGLine;
-
 import java.util.ArrayList;
 import java.util.List;
+
+import org.xmlcml.graphics.svg.SVGLine;
 
 /** 
  * Holds primitives that are being built.

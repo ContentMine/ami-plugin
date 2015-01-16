@@ -7,8 +7,6 @@ import org.xmlcml.ami.result.AbstractResultElement;
 import org.xmlcml.ami.result.SimpleResultList;
 import org.xmlcml.ami.result.SimpleResultWrapper;
 
-import com.google.common.collect.Multiset.Entry;
-
 public class SequenceListElement extends AbstractListElement {
 	
 	private final static Logger LOG = Logger.getLogger(SequenceListElement.class);

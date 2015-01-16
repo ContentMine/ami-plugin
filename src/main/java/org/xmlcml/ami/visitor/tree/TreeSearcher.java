@@ -1,10 +1,10 @@
 package org.xmlcml.ami.visitor.tree;
 
+import org.xmlcml.ami.result.AbstractListElement;
+import org.xmlcml.ami.result.SimpleResultList;
 import org.xmlcml.ami.visitor.AbstractSearcher;
 import org.xmlcml.ami.visitor.AbstractVisitor;
 import org.xmlcml.ami.visitor.SimpleListElement;
-import org.xmlcml.ami.result.AbstractListElement;
-import org.xmlcml.ami.result.SimpleResultList;
 
 public class TreeSearcher extends AbstractSearcher {
 

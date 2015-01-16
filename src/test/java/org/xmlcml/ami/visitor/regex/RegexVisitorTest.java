@@ -15,7 +15,6 @@ import org.xmlcml.ami.util.AMIUtil;
 import org.xmlcml.ami.visitable.html.HtmlVisitable;
 import org.xmlcml.ami.visitor.AbstractVisitor;
 import org.xmlcml.ami.visitor.VisitorOutput;
-import org.xmlcml.ami.visitor.species.SpeciesVisitor;
 import org.xmlcml.euclid.Util;
 import org.xmlcml.xml.XMLUtil;
 

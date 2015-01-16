@@ -1,14 +1,12 @@
 package org.xmlcml.ami.visitable.pdf;
 
 import java.io.FileOutputStream;
-
 import java.util.List;
 
 import org.junit.Assert;
 import org.junit.Ignore;
 import org.junit.Test;
 import org.xmlcml.ami.Fixtures;
-import org.xmlcml.ami.visitable.pdf.PDF2XHTMLConverter;
 import org.xmlcml.graphics.svg.SVGSVG;
 import org.xmlcml.html.HtmlElement;
 import org.xmlcml.pdf2svg.PDF2SVGConverter;

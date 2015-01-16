@@ -155,8 +155,9 @@ public class VisitableInput {
 		} else if (FilenameUtils.isExtension(inputFile, TXT_VISITABLE.getExtensions())) {
 			visitable = new TextVisitable();
 		}
-//		visitable.accept(visitor);
-		visitable.setVisitorProperties(visitor);
+		if (visitable != null) {
+			visitable.setVisitorProperties(visitor);
+		}
 		return visitable;
 	}
 	

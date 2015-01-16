@@ -1,14 +1,11 @@
 package org.xmlcml.ami.visitor.species;
 
 import org.apache.log4j.Logger;
-import org.xmlcml.ami.visitor.AbstractVisitor;
-import org.xmlcml.ami.visitor.species.SpeciesSearcher.SpeciesType;
 import org.xmlcml.ami.result.AbstractListElement;
 import org.xmlcml.ami.result.AbstractResultElement;
 import org.xmlcml.ami.result.SimpleResultList;
 import org.xmlcml.ami.result.SimpleResultWrapper;
-
-import com.google.common.collect.Multiset.Entry;
+import org.xmlcml.ami.visitor.species.SpeciesSearcher.SpeciesType;
 
 public class SpeciesListElement extends AbstractListElement {
 	

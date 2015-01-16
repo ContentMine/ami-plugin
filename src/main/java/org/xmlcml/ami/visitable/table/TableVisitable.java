@@ -4,10 +4,10 @@ import java.io.File;
 import java.net.URL;
 import java.util.List;
 
+import org.xmlcml.ami.util.AMIUtil;
 import org.xmlcml.ami.visitable.AbstractVisitable;
 import org.xmlcml.html.HtmlTable;
 import org.xmlcml.svg2xml.page.PageAnalyzer;
-import org.xmlcml.ami.util.AMIUtil;
 
 public class TableVisitable extends AbstractVisitable {
 
