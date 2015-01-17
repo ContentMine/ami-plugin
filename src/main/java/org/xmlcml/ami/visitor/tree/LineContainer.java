@@ -3,9 +3,9 @@ package org.xmlcml.ami.visitor.tree;
 import java.util.List;
 
 import org.xmlcml.graphics.svg.SVGLine;
-import org.xmlcml.svg2xml.paths.ComplexLine;
-import org.xmlcml.svg2xml.paths.ComplexLine.LineOrientation;
-import org.xmlcml.svg2xml.paths.ComplexLine.SideOrientation;
+import org.xmlcml.graphics.svg.linestuff.ComplexLine;
+import org.xmlcml.graphics.svg.linestuff.ComplexLine.LineOrientation;
+import org.xmlcml.graphics.svg.linestuff.ComplexLine.SideOrientation;
 
 /** 
  * Data transfer object for Lines in tree.

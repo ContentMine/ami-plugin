@@ -4,8 +4,8 @@ import nu.xom.Attribute;
 
 import org.xmlcml.graphics.svg.SVGG;
 import org.xmlcml.graphics.svg.SVGLine;
-import org.xmlcml.svg2xml.paths.ComplexLine;
-import org.xmlcml.svg2xml.paths.Joint;
+import org.xmlcml.graphics.svg.linestuff.ComplexLine;
+import org.xmlcml.graphics.svg.linestuff.Joint;
 
 public class SVGXTreeEdge extends SVGG {
 

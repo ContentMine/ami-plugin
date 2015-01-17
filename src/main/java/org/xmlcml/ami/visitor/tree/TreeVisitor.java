@@ -16,8 +16,8 @@ import org.xmlcml.ami.visitor.AbstractSearcher;
 import org.xmlcml.ami.visitor.AbstractVisitor;
 import org.xmlcml.diagrams.phylo.PhyloTreeAnalyzer;
 import org.xmlcml.graphics.svg.SVGElement;
+import org.xmlcml.graphics.svg.linestuff.LineMerger.MergeMethod;
 import org.xmlcml.image.pixel.PixelComparator.ComparatorType;
-import org.xmlcml.svg2xml.paths.LineMerger.MergeMethod;
 
 public class TreeVisitor extends AbstractVisitor {
 

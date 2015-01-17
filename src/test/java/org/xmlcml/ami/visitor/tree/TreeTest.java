@@ -15,11 +15,11 @@ import org.xmlcml.graphics.svg.SVGLine;
 import org.xmlcml.graphics.svg.SVGPolyline;
 import org.xmlcml.graphics.svg.SVGSVG;
 import org.xmlcml.graphics.svg.SVGUtil;
-import org.xmlcml.svg2xml.paths.ComplexLine;
-import org.xmlcml.svg2xml.paths.ComplexLine.LineOrientation;
-import org.xmlcml.svg2xml.paths.ComplexLine.SideOrientation;
-import org.xmlcml.svg2xml.paths.LineMerger;
-import org.xmlcml.svg2xml.paths.LineMerger.MergeMethod;
+import org.xmlcml.graphics.svg.linestuff.ComplexLine;
+import org.xmlcml.graphics.svg.linestuff.ComplexLine.LineOrientation;
+import org.xmlcml.graphics.svg.linestuff.ComplexLine.SideOrientation;
+import org.xmlcml.graphics.svg.linestuff.LineMerger;
+import org.xmlcml.graphics.svg.linestuff.LineMerger.MergeMethod;
 
 public class TreeTest {
 	

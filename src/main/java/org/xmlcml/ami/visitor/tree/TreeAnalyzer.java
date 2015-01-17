@@ -14,11 +14,11 @@ import org.xmlcml.euclid.Real2Range;
 import org.xmlcml.euclid.RealRange;
 import org.xmlcml.graphics.svg.SVGElement;
 import org.xmlcml.graphics.svg.SVGLine;
+import org.xmlcml.graphics.svg.linestuff.BoundingBoxManager;
+import org.xmlcml.graphics.svg.linestuff.ComplexLine;
+import org.xmlcml.graphics.svg.linestuff.ComplexLine.LineOrientation;
+import org.xmlcml.graphics.svg.linestuff.ComplexLine.SideOrientation;
 import org.xmlcml.svg2xml.builder.GeometryBuilder;
-import org.xmlcml.svg2xml.page.BoundingBoxManager;
-import org.xmlcml.svg2xml.paths.ComplexLine;
-import org.xmlcml.svg2xml.paths.ComplexLine.LineOrientation;
-import org.xmlcml.svg2xml.paths.ComplexLine.SideOrientation;
 import org.xmlcml.svg2xml.text.Word;
 
 /** 
