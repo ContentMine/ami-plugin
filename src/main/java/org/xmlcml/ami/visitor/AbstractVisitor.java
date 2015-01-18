@@ -2,6 +2,7 @@ package org.xmlcml.ami.visitor;
 
 import java.io.File;
 import java.io.IOException;
+import java.util.ArrayList;
 import java.util.List;
 import java.util.ListIterator;
 
@@ -284,10 +285,11 @@ public abstract class AbstractVisitor {
 		visitableInputList = argProcessor.getVisitableInputList();
 		setVisitorOutput(argProcessor.getVisitorOutput());
 		setXPathProcessor(argProcessor.getXPathProcessor());
-		if (visitableInputList == null || visitableInputList.size() == 0) {
-			throw new RuntimeException("input option mandatory");
+		if (visitableInputList != null && visitableInputList.size() > 0) {
+			createVistablesAndExtensionsForEachVisitable(argProcessor);
+		} else {
+			LOG.debug("No input visitables given");
 		}
-		createVistablesAndExtensionsForEachVisitable(argProcessor);
 	}
 
 	private void createVistablesAndExtensionsForEachVisitable(ArgProcessor argProcessor) {
@@ -424,6 +426,7 @@ public abstract class AbstractVisitor {
 	}
 
 	private void visitVistablesAndWriteOutputFiles() {
+		ensureVisitableInputList();
 		for (VisitableInput visitableInput : visitableInputList) {
 			List<AbstractVisitable> inputVisitableList = visitableInput.getVisitableList();
 			if (inputVisitableList.size() == 0) {
@@ -436,6 +439,12 @@ public abstract class AbstractVisitor {
 					createAndWriteOutputFiles();
 				}
 			}
+		}
+	}
+
+	private void ensureVisitableInputList() {
+		if (visitableInputList == null) {
+			visitableInputList = new ArrayList<VisitableInput>();
 		}
 	}
 
@@ -495,30 +504,6 @@ public abstract class AbstractVisitor {
 		return taggerNames;
 	}
 
-//	/** replace by pretagged documents.
-//	 * 
-//	 * @return
-//	 */
-//	public DocumentTagger getJournalTagger() {
-//		DocumentTagger tagger = null;
-//		if (taggerNames != null) {
-//			for (String taggerName : taggerNames) {
-//				if (BMCTagger.getTaggerName().equals(taggerName)) {
-//					tagger = new BMCTagger();
-//					break;
-//				}
-//				if (PLOSONETagger.getTaggerName().equals(taggerName)) {
-//					tagger = new PLOSONETagger();
-//					break;
-//				}
-//			}
-//			if (tagger == null) {
-//				LOG.error("cannot find tagger for any of: "+taggerNames);
-//			}
-//		}
-//		return tagger;
-//	}
-	
 
 	// ==============================================
 }

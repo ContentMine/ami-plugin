@@ -532,6 +532,18 @@ public class SpeciesVisitorTest {
 		SpeciesVisitor.main(args);
 	}
 	
+	@Test
+	@Ignore
+	public void testHtmlVisitable1() throws Exception {
+		HtmlVisitable htmlVisitable = new HtmlVisitable();
+		htmlVisitable.addFile(Fixtures.METABOLITE_00039_HTML);
+		htmlVisitable.addFile(new File(Fixtures.HTML_DIR, "pb1.html"));
+		
+		AbstractVisitor speciesVisitor = new SpeciesVisitor();
+		speciesVisitor.visit(htmlVisitable);
+	}
+	
+
 	// ================================================
 	/** checks file size in bytes .
 	 * 
