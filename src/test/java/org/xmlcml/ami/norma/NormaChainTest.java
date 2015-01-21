@@ -2,6 +2,8 @@ package org.xmlcml.ami.norma;
 
 import java.io.File;
 
+import org.apache.log4j.Level;
+import org.apache.log4j.Logger;
 import org.junit.Assert;
 import org.junit.Test;
 import org.xmlcml.ami.Fixtures;
@@ -11,6 +13,12 @@ import org.xmlcml.norma.Norma;
 
 public class NormaChainTest {
 
+	
+	private static final Logger LOG = Logger.getLogger(NormaChainTest.class);
+	static {
+		LOG.setLevel(Level.DEBUG);
+	}
+	
 	/** tests chaining output of Norma to AMI.
 	 * 
 	 */
@@ -66,9 +74,12 @@ public class NormaChainTest {
 	@Test
 	public void NormaXML2AMI() throws Exception {
 		File normaOutputFile = new File("target/plosone/0115884.fromnorma.html");
+		LOG.error("Use getResource() for stylesheet");
 		String[] args = {
 				"-i", new File(Fixtures.PLOSONE_DIR, "journal.pone.0115884/fulltext.xml").toString(),
 				"-p", "plosone",
+// works but ucky, need to get it as a resource
+				"-x", "src/main/resources/org/xmlcml/norma/pubstyle/nlm/toHtml.xsl",
 				"-o", normaOutputFile.toString(),
 		};
 		org.xmlcml.norma.Norma norma = new Norma();
@@ -131,7 +142,7 @@ public class NormaChainTest {
 		norma.run(normaArgs);
 		Assert.assertTrue(outputFile.exists());
 		
-		String outputDirName = "target/plosone/0115884.pubstyle.species.xml/";
+		String outputDirName = "target/plosone/0115884.pubstyle.xml/";
 		String[] amiArgs = {
 				"-i", outputFile.toString(),
 				"-g", "regex/common.xml",

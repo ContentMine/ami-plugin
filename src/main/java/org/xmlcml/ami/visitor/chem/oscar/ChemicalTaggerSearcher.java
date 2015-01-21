@@ -51,18 +51,20 @@ public class ChemicalTaggerSearcher extends AbstractSearcher {
 	private List<ResolvedNamedEntity> oscarSearch(String s) {
 		Oscar oscar = new Oscar();
 		List<ResolvedNamedEntity> entities = new ArrayList<ResolvedNamedEntity>();
-//		try {
+		try {
 			entities = oscar.findAndResolveNamedEntities(s);
-//		} catch (Exception e) {
-//			LOG.error("Cannot parse: " + s + "in OPSIN "+e);
-//		}
-		for (ResolvedNamedEntity ne : entities) {
-		    System.out.println(ne.getSurface());
-		    ChemicalStructure stdInchi = ne.getFirstChemicalStructure(FormatType.STD_INCHI);
-		    if (stdInchi != null) {
-		        System.out.println(stdInchi);
-		    }
-		    System.out.println();
+		} catch (Exception e) {
+			LOG.error("Cannot parse: " + s + "in OPSIN "+e);
+		}
+		if (entities != null) {
+			for (ResolvedNamedEntity ne : entities) {
+			    System.out.println(ne.getSurface());
+			    ChemicalStructure stdInchi = ne.getFirstChemicalStructure(FormatType.STD_INCHI);
+			    if (stdInchi != null) {
+			        System.out.println(stdInchi);
+			    }
+			    System.out.println();
+			}
 		}
 		return entities;
 	}
