@@ -113,7 +113,7 @@ public class AMIArgProcessor extends DefaultArgProcessor{
 			pubstyleList = new ArrayList<String>();
 			Pubstyle.help();
 		} else {
-			String name = argOption.processArgs(inputs).getString();
+			String name = argOption.processArgs(inputs).getStringValue();
 			pubstyle = Pubstyle.getPubstyle(name);
 		}
 	}
