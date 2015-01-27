@@ -1,0 +1,23 @@
+<argList>
+	<arg name="context" 
+		brief="-y"
+		long="--context"
+		args="characterExtent [characterExtent2]"
+		class="java.lang.String"
+		default="100"
+		min="1" 
+		max="2"
+		methodName="processContext"
+		>
+		<help>
+		
+			CONTEXT:
+			The extent (in characters) of the text or other content immediately surrounding the located word/phrase/object. By default this is either
+			+- 100 characters (Publisher limit) or to the end of the object (paragraph). a single "characterExtent" field gives +- characterExtent (post == pre),
+			while "characterExtent "characterExtent2" gives the preceeding and
+			following text. 
+		</help>
+	</arg>	
+	
+</argList>
+			

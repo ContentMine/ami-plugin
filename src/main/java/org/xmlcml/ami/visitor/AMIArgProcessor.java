@@ -24,32 +24,39 @@ public class AMIArgProcessor extends DefaultArgProcessor{
 	
 	public final static String HELP_NORMA = "Norma help";
 	
-	public final static ArgumentOption CONTEXT_OPTION = new ArgumentOption(
-			AMIArgProcessor.class,
-			"-c",
-			"--context",
-			"characterCount",
-			"\n"
-			+ "CONTEXT:\n"
-			+ "The text or other content immediately surrounding the located word/phrase/object. By default this is either\n"
-			+ "+- 100 characters (Publisher limit) or to the end of the object (paragraph). Two integers give the oreceeding and \n"
-			+ "following text. if one integer is given that is used for pre- and post- counts; \n"
-			+ "",
-			Integer.class,
-			new Integer(100),
-			1, 2,
-			"processContext"
-			);
-		
-	public final static List<ArgumentOption> AMI_OPTION_LIST = Arrays.asList(
-			new ArgumentOption[] {
-					CONTEXT_OPTION
-			});
+//	public final static ArgumentOption CONTEXT_OPTION = new ArgumentOption(
+//			AMIArgProcessor.class,
+//			"-c",
+//			"--context",
+//			"characterCount",
+//			"\n"
+//			+ "CONTEXT:\n"
+//			+ "The text or other content immediately surrounding the located word/phrase/object. By default this is either\n"
+//			+ "+- 100 characters (Publisher limit) or to the end of the object (paragraph). Two integers give the oreceeding and \n"
+//			+ "following text. if one integer is given that is used for pre- and post- counts; \n"
+//			+ "",
+//			Integer.class,
+//			new Integer(100),
+//			1, 2,
+//			"processContext"
+//			);
+//		
+//	public final static List<ArgumentOption> AMI_OPTION_LIST = Arrays.asList(
+//			new ArgumentOption[] {
+//					CONTEXT_OPTION
+//			});
 	
-	Integer contextCount = 100;
+	private static String RESOURCE_NAME_TOP = "/org/xmlcml/ami";
+	private static String ARGS_RESOURCE = RESOURCE_NAME_TOP+"/"+"args.xml";
+	
+	Integer[] contextCount = new Integer[] {100, 100};
 	
 	public AMIArgProcessor() {
 		super();
+		this.readArgumentOptions(ARGS_RESOURCE);
+        for (ArgumentOption argumentOption : argumentOptionList) {
+			LOG.debug(argumentOption.getHelp());
+		}
 	}
 
 	public AMIArgProcessor(String[] args) {
@@ -57,36 +64,37 @@ public class AMIArgProcessor extends DefaultArgProcessor{
 		parseArgs(args);
 	}
 
-	protected List<ArgumentOption> getOptionList() {
-		List<ArgumentOption> optionList = new ArrayList<ArgumentOption>(AMI_OPTION_LIST);
-		optionList.addAll(super.getArgumentOptionList());
-		return optionList;
-	}
-	
-
 	// =============== METHODS ==============
 
 	public void processContext(ArgumentOption argOption, ArgIterator argIterator) {
 		List<String> inputs = argIterator.createTokenListUpToNextMinus();
 		if (inputs.size() == 0) {
-			LOG.debug(CONTEXT_OPTION.getHelp());
+//			LOG.debug(CONTEXT_OPTION.getHelp());
 		} else {
-			String c = argOption.processArgs(inputs).getStringValue();
-			contextCount = new Integer(c);
+			List<Integer> contexts = argOption.processArgs(inputs).getIntegerValues();
+			if (contexts.size() == 2) {
+				contextCount[0] = contexts.get(0);
+				contextCount[1] = contexts.get(1);
+			} else if (contexts.size() == 1) {
+				contextCount[0] = contexts.get(0);
+				contextCount[1] = contexts.get(0);
+			} else {
+				throw new RuntimeException("Could not parse context "+contexts);
+			}
 		}
 	}
 
 	protected void processHelp() {
 		System.out.println(
-				"\n"
-				+ "====AMI====\n"
-				+ "AMI searches and indexes or transforms normlized structured scholarlyHTML (normally output by Norma).\n"
-				+ "We believe that this task is independent of the original journal Pubstyle, but sometimes it may be necessary to\n"
-				+ "indicate that.\n"
-				+ "\n"
-				+ "AMI selects the plugin either from the commandline, the explicit main class or (NYI) from a name in the arguments.\n"
-				+ ""
-				);
+			"\n"
+			+ "====AMI====\n"
+			+ "AMI searches and indexes or transforms normlized structured scholarlyHTML (normally output by Norma).\n"
+			+ "We believe that this task is independent of the original journal Pubstyle, but sometimes it may be necessary to\n"
+			+ "indicate that.\n"
+			+ "\n"
+			+ "AMI selects the plugin either from the commandline, the explicit main class or (NYI) from a name in the arguments.\n"
+			+ ""
+			);
 		super.processHelp();
 	}
 
