@@ -65,13 +65,12 @@ public class XMLVisitable extends AbstractVisitable  {
 	private void parseContentToContainerAndAddToList(Object object) throws Exception {
 		ensureXMLContainerList();
 		xmlElement = parseToElement(object);
-//		addTags(xmlElement);
 		List<Element> xmlElements = splitByXPath(xmlElement);
 		for (Element subXmlElement : xmlElements) {
 			XMLContainer xmlContainer = createContainer(object, subXmlElement);
 			xmlContainerList.add(xmlContainer);
 		}
-		LOG.debug(this.hashCode()+" XML containerList size now "+xmlContainerList.size());
+		LOG.debug(" read XML; split by tags; XML containerList size now "+xmlContainerList.size());
 	}
 	
 	// FIXME possibly move up

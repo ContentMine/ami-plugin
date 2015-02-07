@@ -1,11 +1,11 @@
 package org.xmlcml.ami.visitor;
 
 import java.util.ArrayList;
-import java.util.Arrays;
 import java.util.List;
 
 import org.apache.log4j.Level;
 import org.apache.log4j.Logger;
+import org.xmlcml.ami.visitable.VisitableInput;
 import org.xmlcml.args.ArgIterator;
 import org.xmlcml.args.ArgumentOption;
 import org.xmlcml.args.DefaultArgProcessor;
@@ -24,38 +24,22 @@ public class AMIArgProcessor extends DefaultArgProcessor{
 	
 	public final static String HELP_NORMA = "Norma help";
 	
-//	public final static ArgumentOption CONTEXT_OPTION = new ArgumentOption(
-//			AMIArgProcessor.class,
-//			"-c",
-//			"--context",
-//			"characterCount",
-//			"\n"
-//			+ "CONTEXT:\n"
-//			+ "The text or other content immediately surrounding the located word/phrase/object. By default this is either\n"
-//			+ "+- 100 characters (Publisher limit) or to the end of the object (paragraph). Two integers give the oreceeding and \n"
-//			+ "following text. if one integer is given that is used for pre- and post- counts; \n"
-//			+ "",
-//			Integer.class,
-//			new Integer(100),
-//			1, 2,
-//			"processContext"
-//			);
-//		
-//	public final static List<ArgumentOption> AMI_OPTION_LIST = Arrays.asList(
-//			new ArgumentOption[] {
-//					CONTEXT_OPTION
-//			});
-	
-	private static String RESOURCE_NAME_TOP = "/org/xmlcml/ami";
+	// MUST have leading slash
+	public final static String RESOURCE_NAME_TOP = "/org/xmlcml/ami/visitor";
 	private static String ARGS_RESOURCE = RESOURCE_NAME_TOP+"/"+"args.xml";
 	
 	Integer[] contextCount = new Integer[] {100, 100};
 	
+	private List<VisitableInput> visitableInputList;
+	private VisitorOutput visitorOutput;
+	private XPathProcessor xPathProcessor;
+	
 	public AMIArgProcessor() {
 		super();
+		LOG.trace(ARGS_RESOURCE);
 		this.readArgumentOptions(ARGS_RESOURCE);
         for (ArgumentOption argumentOption : argumentOptionList) {
-			LOG.debug(argumentOption.getHelp());
+			LOG.trace(argumentOption.getHelp());
 		}
 	}
 
@@ -66,25 +50,43 @@ public class AMIArgProcessor extends DefaultArgProcessor{
 
 	// =============== METHODS ==============
 
-	public void processContext(ArgumentOption argOption, ArgIterator argIterator) {
-		List<String> inputs = argIterator.createTokenListUpToNextMinus();
-		if (inputs.size() == 0) {
-//			LOG.debug(CONTEXT_OPTION.getHelp());
-		} else {
-			List<Integer> contexts = argOption.processArgs(inputs).getIntegerValues();
-			if (contexts.size() == 2) {
-				contextCount[0] = contexts.get(0);
-				contextCount[1] = contexts.get(1);
-			} else if (contexts.size() == 1) {
-				contextCount[0] = contexts.get(0);
-				contextCount[1] = contexts.get(0);
-			} else {
-				throw new RuntimeException("Could not parse context "+contexts);
+	public void parseInput(ArgumentOption divOption, ArgIterator argIterator) {
+		super.parseInput(divOption, argIterator);
+		if (inputList.size() > 0) {
+			visitableInputList = new ArrayList<VisitableInput>();
+			for (String input : inputList) {
+				VisitableInput visitableInput = new VisitableInput(input);
+				visitableInputList.add(visitableInput);
 			}
 		}
 	}
+	
+	public void parseXpath(ArgumentOption argOption, ArgIterator argIterator) {
+		List<String> xpaths = argIterator.createTokenListUpToNextMinus(argOption);
+		if (xpaths.size() == 0) {
+//			LOG.debug(XPATH_OPTION).getHelp());
+		} else if (xpaths.size() > 1) {
+			LOG.debug("Exactly one xpath required");
+		} else {
+			xPathProcessor = new XPathProcessor(xpaths.get(0));
+		}
+	}
 
-	protected void processHelp() {
+	public void parseContext(ArgumentOption argOption, ArgIterator argIterator) {
+		List<String> contexts = argIterator.createTokenListUpToNextMinus(argOption);
+		if (contexts.size() == 0) {
+			throw new IllegalArgumentException("required argument/s missing");
+		}
+		contextCount[0] = new Integer(contexts.get(0));
+		if (contexts.size() == 2) {
+			contextCount[1] = new Integer(contexts.get(1));
+		} else {
+			contextCount[1] = contextCount[0];
+		}
+	}
+
+
+	protected void printHelp() {
 		System.out.println(
 			"\n"
 			+ "====AMI====\n"
@@ -95,7 +97,24 @@ public class AMIArgProcessor extends DefaultArgProcessor{
 			+ "AMI selects the plugin either from the commandline, the explicit main class or (NYI) from a name in the arguments.\n"
 			+ ""
 			);
-		super.processHelp();
+		super.printHelp();
+	}
+
+	public XPathProcessor getXPathProcessor() {
+		return xPathProcessor;
+	}
+
+	public VisitorOutput getVisitorOutput() {
+		return visitorOutput;
+	}
+
+	public List<VisitableInput> getVisitableInputList() {
+		return visitableInputList;
+	}
+
+	public void debug() {
+		// TODO Auto-generated method stub
+		
 	}
 
 

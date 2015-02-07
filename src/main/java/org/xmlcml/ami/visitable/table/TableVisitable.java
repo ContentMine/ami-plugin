@@ -4,8 +4,8 @@ import java.io.File;
 import java.net.URL;
 import java.util.List;
 
-import org.xmlcml.ami.util.AMIUtil;
 import org.xmlcml.ami.visitable.AbstractVisitable;
+import org.xmlcml.files.EuclidSource;
 import org.xmlcml.html.HtmlTable;
 import org.xmlcml.svg2xml.page.PageAnalyzer;
 
@@ -19,7 +19,7 @@ public class TableVisitable extends AbstractVisitable {
 
 	@Override
 	public String[] getExtensions() {
-		return new String[] {AMIUtil.HTM, AMIUtil.HTML};
+		return new String[] {EuclidSource.HTM, EuclidSource.HTML};
 	}
 	
 	@Override

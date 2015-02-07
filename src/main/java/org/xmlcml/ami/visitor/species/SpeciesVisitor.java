@@ -49,5 +49,10 @@ public class SpeciesVisitor extends AbstractVisitor {
 	public String getDescription() {
 		return "Extracts species with either genus or binomial names.";
 	}
+	
+	@Override
+	protected String getResultsDirName() {
+		return "species";
+	}
 
 }

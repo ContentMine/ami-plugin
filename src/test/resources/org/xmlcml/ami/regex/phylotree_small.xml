@@ -1,0 +1,10 @@
+<compoundRegex title="phylotree">
+	<regex weight="1.0" url="books.google.co.uk/books?isbn=1118017862" fields="acctran">(ACCTRAN)</regex>
+	<regex weight="0.5" fields="align">(align[^\W]*)</regex>
+	<regex weight="0.6" fields="apomorph">(apomorph[^\W]*)</regex>
+	<regex weight="0.6" fields="bayesian">(bayesian)</regex>
+	<regex weight="1.0" url="http://paup.csit.fsu.edu/" 
+	   title="Phylogenetic Analysis Using Parsimony" fields="paup version">(PAUP\*?\s*(\d+\.?\d*))</regex>
+	<regex weight="0.5" fields="outgroup">(outgroup)</regex>
+	<regex weight="0.6" fields="beast">(BEAST)</regex>
+</compoundRegex>

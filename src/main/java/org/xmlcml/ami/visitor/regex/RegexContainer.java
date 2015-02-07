@@ -1,6 +1,8 @@
 package org.xmlcml.ami.visitor.regex;
 
 import java.io.File;
+import java.io.IOException;
+import java.io.InputStream;
 import java.net.URL;
 import java.util.ArrayList;
 import java.util.HashMap;
@@ -56,16 +58,29 @@ public class RegexContainer {
 	}
 
 	void readCompoundRegexFile(File file) {
-		CompoundRegex compoundRegex = CompoundRegex.readAndCreateRegex(file);
-		addCompoundRegex(compoundRegex);
+		try {
+			CompoundRegex compoundRegex = CompoundRegex.readAndCreateRegex(file);
+			addCompoundRegex(compoundRegex);
+		} catch (IOException e) {
+			throw new RuntimeException("Cannot read regex file:"+file);
+		}
 	}
 
 	void readCompoundRegexURL(URL url) {
-		CompoundRegex compoundRegex = CompoundRegex.readAndCreateRegex(url);
+		try {
+			CompoundRegex compoundRegex = CompoundRegex.readAndCreateRegex(url);
+			addCompoundRegex(compoundRegex);
+		} catch (IOException e) {
+			throw new RuntimeException("Cannot read regex url:"+url);
+		}
+	}
+
+	void readCompoundRegex(InputStream is) {
+		CompoundRegex compoundRegex = CompoundRegex.readAndCreateRegex(is);
 		addCompoundRegex(compoundRegex);
 	}
 
-	private void addCompoundRegex(CompoundRegex compoundRegex) {
+	void addCompoundRegex(CompoundRegex compoundRegex) {
 		if (compoundRegex != null) {
 			ensureCompoundRegexByTitleMap();
 			String title = compoundRegex.getTitle();

@@ -14,6 +14,7 @@ import org.xmlcml.ami.visitable.xml.XMLVisitable;
 import org.xmlcml.ami.visitor.AbstractSearcher;
 import org.xmlcml.ami.visitor.AbstractVisitor;
 import org.xmlcml.ami.visitor.ArgProcessor;
+import org.xmlcml.ami.visitor.species.SpeciesSearcher;
 
 public class RegexVisitor extends AbstractVisitor {
 
@@ -22,8 +23,8 @@ public class RegexVisitor extends AbstractVisitor {
 	private final static File REGEX_DIRECTORY_BASE = new File("src/main/resources/org/xmlcml/ami/visitor/regex");
 	private final static String REGEX_SUFFIX = ".xml";
 	
-	private static final String G          = "-g";
-	private static final String REGEX      = "--regex";
+	private static final String G          = "-r.r";
+	private static final String REGEX      = "--r.regex";
 
 	private RegexContainer regexContainer;
 	private List<String> regexFiles;
@@ -115,6 +116,12 @@ public class RegexVisitor extends AbstractVisitor {
 	@Override
 	public String getDescription() {
 		return "Regex: Applies regular expressions to HTML or XML Visitables to extract information.";
+	}
+
+	@Override
+	protected void runArgProcessor(String[] commandLineArgs) {
+		argProcessor = new RegexArgProcessor(commandLineArgs);
+		processArgs();
 	}
 
 	@Override

@@ -8,8 +8,8 @@ import java.util.List;
 import nu.xom.Element;
 
 import org.apache.log4j.Logger;
-import org.xmlcml.ami.util.AMIUtil;
 import org.xmlcml.ami.visitable.AbstractVisitable;
+import org.xmlcml.files.EuclidSource;
 import org.xmlcml.html.HtmlElement;
 import org.xmlcml.html.HtmlFactory;
 import org.xmlcml.xml.XMLUtil;
@@ -18,7 +18,7 @@ public class HtmlVisitable extends AbstractVisitable  {
 
 	public final static Logger LOG = Logger.getLogger(HtmlVisitable.class);
 
-	private static final String[] extensions = {AMIUtil.HTM, AMIUtil.HTML};
+	private static final String[] extensions = {EuclidSource.HTM, EuclidSource.HTML};
 	public static final String ITALIC_XPATH = ".//*[local-name()='i']";
 	
 	private List<HtmlContainer> htmlContainerList;

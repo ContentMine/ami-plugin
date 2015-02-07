@@ -7,7 +7,9 @@ import org.apache.log4j.Logger;
 public class NexmlEdge extends NexmlElement {
 
 	private final static Logger LOG = Logger.getLogger(NexmlEdge.class);
+	
 	public final static String TAG = "edge";
+	
 	private static final String TARGET = "target";
 	private static final String SOURCE = "source";
 
@@ -26,5 +28,17 @@ public class NexmlEdge extends NexmlElement {
 		this.addAttribute(new Attribute(SOURCE, source));
 	}
 
+	public String getSourceId() {
+		return getAttributeValue(SOURCE);
+	}
+
+	public String getTargetId() {
+		return getAttributeValue(TARGET);
+	}
+
+	@Override
+	public String toString() {
+		return getSourceId()+"->"+getTargetId();
+	}
 	
 }

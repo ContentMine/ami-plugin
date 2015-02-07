@@ -3,11 +3,11 @@
 		brief="-y"
 		long="--context"
 		args="characterExtent [characterExtent2]"
-		class="java.lang.String"
+		class="java.lang.Integer"
 		default="100"
 		min="1" 
 		max="2"
-		methodName="processContext"
+		methodName="parseContext"
 		>
 		<help>
 		
@@ -16,6 +16,23 @@
 			+- 100 characters (Publisher limit) or to the end of the object (paragraph). a single "characterExtent" field gives +- characterExtent (post == pre),
 			while "characterExtent "characterExtent2" gives the preceeding and
 			following text. 
+		</help>
+	</arg>	
+	<arg name="xpath" 
+		brief="-x"
+		long="--xpath"
+		args="xpath [xpath]"
+		class="java.lang.String"
+		default=""
+		min="1" 
+		max="Integer.MAX_VALUE"
+		methodName="parseXpath"
+		>
+		<help>
+		
+			XPATH
+			Defines the section/s of the document to analyze. The argument is one or more xpath
+			strings separated by spaces. (The xpaths cannot contain spaces currently.)
 		</help>
 	</arg>	
 	

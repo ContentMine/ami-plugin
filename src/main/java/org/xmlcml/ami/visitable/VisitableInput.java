@@ -10,7 +10,6 @@ import java.util.List;
 import org.apache.commons.io.FileUtils;
 import org.apache.commons.io.FilenameUtils;
 import org.apache.log4j.Logger;
-import org.xmlcml.ami.util.AMIUtil;
 import org.xmlcml.ami.visitable.html.HtmlVisitable;
 import org.xmlcml.ami.visitable.image.ImageVisitable;
 import org.xmlcml.ami.visitable.pdf.PDFVisitable;
@@ -18,6 +17,7 @@ import org.xmlcml.ami.visitable.svg.SVGVisitable;
 import org.xmlcml.ami.visitable.txt.TextVisitable;
 import org.xmlcml.ami.visitable.xml.XMLVisitable;
 import org.xmlcml.ami.visitor.AbstractVisitor;
+import org.xmlcml.files.EuclidSource;
 
 public class VisitableInput {
 
@@ -57,9 +57,9 @@ public class VisitableInput {
 		this.visitor = visitor;
 		String inputItem = inputArg;
 		inputFilenameExtension = FilenameUtils.getExtension(inputItem);
-		isDirectory = AMIUtil.endsWithSeparator(inputItem) || new File(inputItem).isDirectory() 
+		isDirectory = EuclidSource.endsWithSeparator(inputItem) || new File(inputItem).isDirectory() 
 				|| inputFilenameExtension == null || "".equals(inputItem)  ;
-		isUrl = AMIUtil.isURL(inputItem);
+		isUrl = EuclidSource.isURL(inputItem);
 		ensureVisitableList();
 		if (isDirectory) {
 			addFilesToVisitableList(inputItem);

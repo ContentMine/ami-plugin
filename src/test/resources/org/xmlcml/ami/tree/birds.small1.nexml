@@ -1,0 +1,40 @@
+<nexml xmlns="http://www.nexml.org/2009" xmlns:nex="http://www.nexml.org/2009"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:svgx="http://www.xml-cml.org/schema/svgx"
+	id="tree.null">
+	<otus id="tax1" label="RootTaxaBlock">
+		<otu id="t1" />
+		<otu id="t2" />
+		<otu id="t3" />
+		<otu id="t4" />
+		<otu id="t5" />
+	</otus>
+	<trees label="TreesBlockFromXML" id="Trees" otus="tax1">
+		<tree id="tree1" label="tree1" xsi:type="FloatTree">
+			<node id="N1" otu="t1" label="Luscinia" x="397.018" y="102.384"/>
+			<node id="N2" otu="t2" label="Ficedula" x="408.942" y="110.23"/>
+			<node id="N3" otu="t3" label="Turdus" x="405.294" y="118.075"/>
+			<node id="N4" otu="t4" label="Mimus" x="398.834" y="125.929"/>
+			<node id="N5" otu="t5" label="Sturnus" x="394.055" y="133.774"/>
+			<node id="N6" label="N6" x="318.938" y="129.848"/>
+			<node id="N7" label="N7" root="true" x="290.932" y="121.022"/>
+			<node id="N8" label="N8" x="303.421" y="112.197"/>
+			<node id="N9" label="N9" x="342.88" y="106.311"/>
+			<edge id="polyline.14" label="polyline.14" source="N9" target="N1"
+				svgx:length="54.138" />
+			<edge id="polyline.16" label="polyline.16" source="N9" target="N2"
+				svgx:length="66.062" />
+			<edge id="polyline.18" label="polyline.18" source="N8" target="N3"
+				svgx:length="101.872" />
+			<edge id="polyline.20" label="polyline.20" source="N6" target="N4"
+				svgx:length="79.897" />
+			<edge id="polyline.21" label="polyline.21" source="N6" target="N5"
+				svgx:length="75.118" />
+			<edge id="polyline.19" label="polyline.19" source="N7" target="N6"
+				svgx:length="28.005" />
+			<edge id="polyline.17" label="polyline.17" source="N7" target="N8"
+				svgx:length="12.489" />
+			<edge id="polyline.15" label="polyline.15" source="N8" target="N9"
+				svgx:length="39.459" />
+		</tree>
+	</trees>
+</nexml>

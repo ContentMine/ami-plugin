@@ -8,8 +8,8 @@ import java.util.List;
 import org.apache.commons.io.FileUtils;
 import org.apache.commons.io.IOUtils;
 import org.apache.log4j.Logger;
-import org.xmlcml.ami.util.AMIUtil;
 import org.xmlcml.ami.visitable.AbstractVisitable;
+import org.xmlcml.files.EuclidSource;
 
 public class TextVisitable extends AbstractVisitable  {
 
@@ -84,7 +84,7 @@ public class TextVisitable extends AbstractVisitable  {
 	}
 
 	public static boolean hasSuffix(String suffix) {
-		return AMIUtil.XML.equalsIgnoreCase(suffix);
+		return EuclidSource.XML.equalsIgnoreCase(suffix);
 	}
 
 	@Override

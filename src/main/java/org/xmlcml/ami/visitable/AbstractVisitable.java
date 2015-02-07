@@ -29,7 +29,6 @@ public abstract class AbstractVisitable {
 	protected URL url;
 	protected int sleepTime = 4000; // includes other time so ca 5000
 	protected AbstractVisitor visitor; // not sure whether we need to transfer reference
-//	protected DocumentTagger tagger;
 	protected XPathProcessor xPathProcessor;
 
 	protected AbstractVisitable() {
@@ -47,17 +46,8 @@ public abstract class AbstractVisitable {
 	}
 	
 	void setVisitorProperties(AbstractVisitor visitor) {
-//		this.setTagger(visitor.getJournalTagger());
 		this.setXPathProcessor(visitor.getXPathProcessor());
 	}
-
-//	private void setTagger(DocumentTagger tagger) {
-//		this.tagger = tagger;
-//	}
-//	
-//	public DocumentTagger getTagger() {
-//		return tagger;
-//	}
 
 	public void setXPathProcessor(XPathProcessor xPathProcessor) {
 		this.xPathProcessor = xPathProcessor;

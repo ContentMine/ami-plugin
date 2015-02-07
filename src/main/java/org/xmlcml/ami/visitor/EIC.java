@@ -11,7 +11,7 @@ import nu.xom.Node;
 import nu.xom.ParentNode;
 
 import org.apache.log4j.Logger;
-import org.xmlcml.ami.util.AMIUtil;
+import org.xmlcml.files.EuclidSource;
 
 /** entity (or Element) in context.
  * 
@@ -33,7 +33,7 @@ public class EIC {
 	private static final String PRE_TAG = "pre";
 	public static final String VALUE_TAG = "value";
 
-	private static final int DEFAULT_MAX_CHAR = 50;
+	private static final int DEFAULT_MAX_CHAR = 80;
 	private static final int MAX_HITS = 50;
 
 	/** parent (if any) of xmlElement */
@@ -58,7 +58,7 @@ public class EIC {
 		stringValue = "";
 		postStrings = new ArrayList<String>();
 		preStrings = new ArrayList<String>();
-		maxChar = 80;
+		maxChar = DEFAULT_MAX_CHAR;
 	}
 
 	public EIC(Element element) {
@@ -96,7 +96,7 @@ public class EIC {
 		this.stringValue = stringValue;
 	}
 
-	/** creates EIV from given line of list.
+	/** creates EIC from given line of list.
 	 * 
 	 * @param lineList
 	 * @param iline line (count from zero)
@@ -470,7 +470,7 @@ public class EIC {
 
 	public Element createElement() {
 		Element eic = new Element("eic");
-		eic.addAttribute(new Attribute(AMIUtil.XPATH, this
+		eic.addAttribute(new Attribute(EuclidSource.XPATH, this
 				.getXPathOfResultElement()));
 		eic.appendChild(createPREElement());
 		eic.appendChild(createVALUEElement());

@@ -29,6 +29,7 @@ import org.xmlcml.ami.visitable.txt.TextContainer;
 import org.xmlcml.ami.visitable.txt.TextVisitable;
 import org.xmlcml.ami.visitable.xml.XMLContainer;
 import org.xmlcml.ami.visitable.xml.XMLVisitable;
+import org.xmlcml.files.QuickscrapeDirectory;
 
 /** visits the visitables (data).
  * 
@@ -48,13 +49,18 @@ public abstract class AbstractVisitor {
 
 	protected ResultsListElement resultsElement;
 	protected SourceElement sourceElement;
-	private List<VisitableInput> visitableInputList;
+	private List<VisitableInput> inputList;
 	private VisitorOutput visitorOutput;
 	protected AbstractVisitable currentVisitable;
 	private XPathProcessor xPathProcessor;
 	private AbstractSearcher searcher;
 	private File resultsFile;
 	private List<String> taggerNames;
+	protected AMIArgProcessor argProcessor;
+
+	private List<QuickscrapeDirectory> quickscrapeDirectoryList;
+
+	private List<AbstractVisitable> visitableList;
 
 	// ============== VISITATION ========================
 	
@@ -94,8 +100,8 @@ public abstract class AbstractVisitor {
 	}
 
 	private void doSearchAndAddResults(VisitableContainer container) {
-		LOG.trace("doSearchAndAddResults "+container.getClass());
-		searcher = createSearcher();
+		LOG.debug("doSearchAndAddResults "+container.getClass());
+		searcher = createSearcher(this);
 		searcher.search(container);
 		ensureResultsElement();
 		SimpleResultList resultsList = searcher.getResultsList();
@@ -272,8 +278,13 @@ public abstract class AbstractVisitor {
 
 	}
 
-	private void runArgProcessor(String[] commandLineArgs) {
-		ArgProcessor argProcessor = new ArgProcessor(commandLineArgs, this);
+	protected void runArgProcessor(String[] commandLineArgs) {
+		argProcessor = new AMIArgProcessor(commandLineArgs);
+		processArgs();
+	}
+
+	protected void processArgs() {
+		LOG.debug("ARGS\n"+argProcessor.createDebugString());
 		
 		createVisitableInputListFromArgs(argProcessor);
 		createVisitableOutputFromArgs();
@@ -281,25 +292,26 @@ public abstract class AbstractVisitor {
 		visitVistablesAndWriteOutputFiles();
 	}
 
-	private void createVisitableInputListFromArgs(ArgProcessor argProcessor) {
-		visitableInputList = argProcessor.getVisitableInputList();
+	private void createVisitableInputListFromArgs(AMIArgProcessor argProcessor) {
+		inputList = argProcessor.getVisitableInputList();
+		
 		setVisitorOutput(argProcessor.getVisitorOutput());
 		setXPathProcessor(argProcessor.getXPathProcessor());
-		if (visitableInputList != null && visitableInputList.size() > 0) {
+		if (inputList != null && inputList.size() > 0) {
 			createVistablesAndExtensionsForEachVisitable(argProcessor);
 		} else {
 			LOG.debug("No input visitables given");
 		}
 	}
 
-	private void createVistablesAndExtensionsForEachVisitable(ArgProcessor argProcessor) {
-		for (VisitableInput visitableInput : visitableInputList) {
+	private void createVistablesAndExtensionsForEachVisitable(AMIArgProcessor argProcessor) {
+		for (VisitableInput visitableInput : inputList) {
 			visitableInput.setExtensions(argProcessor.getExtensions());
 			visitableInput.setRecursive(argProcessor.isRecursive());
 			try {
 				visitableInput.createVisitableList(this);
 				LOG.debug("visitable list: "+visitableInput.getVisitableList().size());
-				LOG.trace("in: " + visitableInputList);
+				LOG.trace("in: " + inputList);
 			} catch (Exception e) {
 				LOG.error("FAILED TO PARSE");
 			}
@@ -310,7 +322,7 @@ public abstract class AbstractVisitor {
 		if (getOrCreateVisitorOutput() == null) {
 			setVisitorOutput(new VisitorOutput());
 		}
-		getOrCreateVisitorOutput().setVisitableInputList(visitableInputList);
+		getOrCreateVisitorOutput().setVisitableInputList(inputList);
 		getOrCreateVisitorOutput().setExtension(XML);
 	}
 
@@ -426,25 +438,60 @@ public abstract class AbstractVisitor {
 	}
 
 	private void visitVistablesAndWriteOutputFiles() {
-		ensureVisitableInputList();
-		for (VisitableInput visitableInput : visitableInputList) {
-			List<AbstractVisitable> inputVisitableList = visitableInput.getVisitableList();
-			if (inputVisitableList.size() == 0) {
+		ensureInputList();
+		quickscrapeDirectoryList = argProcessor.getQuickscrapeDirectoryList();
+		if (inputList.size() > 0 && quickscrapeDirectoryList.size() > 0) {
+			LOG.error("Cannot process both -i and -f");
+			return;
+		} else if (inputList.size() > 0) {
+			processInputList();
+		} else if (quickscrapeDirectoryList.size() > 0) {
+			processQuickscrapeDirectoryList();
+		} else {
+			LOG.error("Must give input files or quickscrapeDirectory");
+		}
+	}
+
+	private void processQuickscrapeDirectoryList() {
+		visitableList = new ArrayList<AbstractVisitable>();
+		for (QuickscrapeDirectory quickscrapeDirectory : quickscrapeDirectoryList) {
+			File shtmlFile = quickscrapeDirectory.getScholarlyHTML();
+			HtmlVisitable visitable = new HtmlVisitable();
+			try {
+				visitable.addFile(shtmlFile);
+//				visitableList.add(visitable);
+				visit(visitable);
+				quickscrapeDirectory.writeResults(this.getResultsDirName(), resultsElement.toXML());
+			} catch (Exception e) {
+				LOG.error("Cannot process SHTML "+shtmlFile +"; "+e);
+			}
+		}
+		processVisitables();
+	}
+
+	private void processInputList() {
+		for (VisitableInput input : inputList) {
+			visitableList = input.getVisitableList();
+			if (visitableList.size() == 0) {
 				LOG.error("No visitable input list");
 			} else {
-				LOG.debug("InputVisitables " + inputVisitableList.size());
-				for (AbstractVisitable visitable : inputVisitableList) {
-					LOG.trace("input file List "+ visitable.getFileList().size());
-					visit(visitable);
-					createAndWriteOutputFiles();
-				}
+				processVisitables();
 			}
 		}
 	}
 
-	private void ensureVisitableInputList() {
-		if (visitableInputList == null) {
-			visitableInputList = new ArrayList<VisitableInput>();
+	private void processVisitables() {
+		LOG.debug("InputVisitables " + visitableList.size());
+		for (AbstractVisitable visitable : visitableList) {
+			LOG.trace("input file List "+ visitable.getFileList().size());
+			visit(visitable);
+			createAndWriteOutputFiles();
+		}
+	}
+
+	private void ensureInputList() {
+		if (inputList == null) {
+			inputList = new ArrayList<VisitableInput>();
 		}
 	}
 
@@ -475,6 +522,10 @@ public abstract class AbstractVisitor {
 		}
 	}
 
+	protected String getResultsDirName() {
+		return "results";
+	}
+
 	private File writeFile(File newDir, String filename, String text) {
 		File file = new File(newDir, filename);
 		writeFile(text, file);
@@ -496,6 +547,12 @@ public abstract class AbstractVisitor {
 	 */
 	protected abstract AbstractSearcher createSearcher();
 	
+	protected AbstractSearcher createSearcher(AbstractVisitor abstractVisitor) {
+		searcher = createSearcher();
+		searcher.setAbstractVisitor(abstractVisitor);
+		return searcher;
+	}
+	
 	public void setTaggers(List<String> taggerNames) {
 		this.taggerNames = taggerNames;
 	}
@@ -504,6 +561,9 @@ public abstract class AbstractVisitor {
 		return taggerNames;
 	}
 
+	public AMIArgProcessor getArgProcessor() {
+		return argProcessor;
+	}
 
 	// ==============================================
 }

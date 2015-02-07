@@ -2,6 +2,7 @@ package org.xmlcml.ami.visitor.species;
 
 import java.io.File;
 import java.io.FileOutputStream;
+import java.io.IOException;
 import java.util.ArrayList;
 import java.util.List;
 
@@ -16,12 +17,12 @@ import org.junit.Test;
 import org.xmlcml.ami.Fixtures;
 import org.xmlcml.ami.result.ResultsListElement;
 import org.xmlcml.ami.util.AMITestUtil;
-import org.xmlcml.ami.util.AMIUtil;
 import org.xmlcml.ami.visitable.html.HtmlVisitable;
 import org.xmlcml.ami.visitable.pdf.PDFVisitable;
 import org.xmlcml.ami.visitable.svg.SVGVisitable;
 import org.xmlcml.ami.visitable.xml.XMLVisitable;
 import org.xmlcml.ami.visitor.AbstractVisitor;
+import org.xmlcml.files.EuclidSource;
 import org.xmlcml.xml.XMLUtil;
 
 public class SpeciesVisitorTest {
@@ -372,7 +373,7 @@ public class SpeciesVisitorTest {
 		String[] args = new String[] {
 				"-i", inputDir,                      // this is a directory
 				"-o", Fixtures.AMI_OUT.toString()+"/",
-				"-e", AMIUtil.XML                       // we need extensions
+				"-e", EuclidSource.XML                       // we need extensions
 		};
 		File resultsFile = new File("target/species.xml/results.xml");
 //		SpeciesVisitor.main(args);
@@ -402,7 +403,7 @@ public class SpeciesVisitorTest {
 		String[] args = new String[] {
 				"-i", inputDir,
 				"-o", new File(Fixtures.AMI_OUT,"/html/").toString(),
-				"-e", AMIUtil.HTM,	AMIUtil.HTML
+				"-e", EuclidSource.HTM,	EuclidSource.HTML
 		};
 		SpeciesVisitor.main(args);
 	}
@@ -425,7 +426,7 @@ public class SpeciesVisitorTest {
 		String[] args = new String[] {
 				"-i", Fixtures._329_PDF.toString(),
 				"-o", new File(Fixtures.AMI_OUT,"/pdf/").toString(),
-				"-e", AMIUtil.HTM,	AMIUtil.HTML
+				"-e", EuclidSource.HTM,	EuclidSource.HTML
 		};
 		SpeciesVisitor.main(args);
 	}
@@ -446,7 +447,7 @@ public class SpeciesVisitorTest {
 		String[] args = new String[] {
 				"-i", new File(Fixtures.AMI_DIR, "pdfsmall").toString()+"/",
 				"-o", new File(Fixtures.AMI_OUT,"/pdf/").toString(),
-				"-e", AMIUtil.PDF
+				"-e", EuclidSource.PDF
 		};
 		SpeciesVisitor.main(args);
 	}
@@ -462,7 +463,7 @@ public class SpeciesVisitorTest {
 	public void testBMCPDF() throws Exception {
 		String[] args = new String[] {
 				"-o", new File(Fixtures.AMI_OUT,"/pdf/1471-2148-13-250.xml").toString(),
-				"-e", AMIUtil.PDF
+				"-e", EuclidSource.PDF
 		};
 		SpeciesVisitor.main(args);
 	}
@@ -473,7 +474,7 @@ public class SpeciesVisitorTest {
 		String[] args = new String[] {
 				"-i", "http://www.biomedcentral.com/1471-2148/11/312",
 				"-o", new File(Fixtures.AMI_OUT,"/pdf/1471-2148-11-312.xml").toString(),
-				"-e", AMIUtil.HTML
+				"-e", EuclidSource.HTML
 		};
 		SpeciesVisitor.main(args);
 	}
@@ -484,7 +485,7 @@ public class SpeciesVisitorTest {
 		String[] args = new String[] {
 				"-i", "http://www.plosone.org/article/info%3Adoi%2F10.1371%2Fjournal.pone.0080753",
 				"-o", new File(Fixtures.AMI_OUT,"/xml/pone.0080753.xml").toString(),
-				"-e", AMIUtil.HTML
+				"-e", EuclidSource.HTML
 		};
 		SpeciesVisitor.main(args);
 	}
@@ -495,7 +496,7 @@ public class SpeciesVisitorTest {
 		String[] args = new String[] {
 				"-i", "src/test/resources/org/xmlcml/ami/plosone/xml",
 				"-o", "target/plosone/species/",
-				"-e", AMIUtil.XML
+				"-e", EuclidSource.XML
 		};
 		SpeciesVisitor.main(args);
 		//File targetPlosoneSpecies = new File("target/plosone/species");
@@ -511,7 +512,7 @@ public class SpeciesVisitorTest {
 				"-o", "target/plosone/species/",
 //				"-x", "//*[@tag='abstract' or @tag='discussion']",
 				"-x", "//*[@tag]",
-				"-e", AMIUtil.XML
+				"-e", EuclidSource.XML
 		};
 		SpeciesVisitor.main(args);
 	}
@@ -527,7 +528,7 @@ public class SpeciesVisitorTest {
 		String[] args = new String[] {
 				"-i", "src/test/resources/org/xmlcml/ami/plosone/2013-12-11/xml/",
 				//"-o", "../extracted/plosone/species/2013-12-11/",
-				"-e", AMIUtil.XML
+				"-e", EuclidSource.XML
 		};
 		SpeciesVisitor.main(args);
 	}
@@ -543,7 +544,6 @@ public class SpeciesVisitorTest {
 		speciesVisitor.visit(htmlVisitable);
 	}
 	
-
 	// ================================================
 	/** checks file size in bytes .
 	 * 

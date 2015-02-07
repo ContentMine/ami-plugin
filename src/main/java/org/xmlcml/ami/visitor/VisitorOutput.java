@@ -5,8 +5,8 @@ import java.util.List;
 
 import org.apache.commons.io.FilenameUtils;
 import org.apache.log4j.Logger;
-import org.xmlcml.ami.util.AMIUtil;
 import org.xmlcml.ami.visitable.VisitableInput;
+import org.xmlcml.files.EuclidSource;
 
 /** manages the output.
  * 
@@ -63,10 +63,10 @@ public class VisitorOutput {
 	}
 	
 	private void generateOutputDirectoryName() {
-		if (outputLocation.startsWith(AMIUtil.HTTP)) {
+		if (outputLocation.startsWith(EuclidSource.HTTP)) {
 			throw new RuntimeException("Cannot output to URL: "+outputLocation);
 		}
-		if (outputLocation.startsWith(AMIUtil.DOI)) {
+		if (outputLocation.startsWith(EuclidSource.DOI)) {
 			throw new RuntimeException("Cannot output to DOI: "+outputLocation);
 		}
 		if (outputLocation == null) {
@@ -74,7 +74,7 @@ public class VisitorOutput {
 		} else {
 			outputLocation = FilenameUtils.normalize(new File(outputLocation).getAbsolutePath());
 			extension = FilenameUtils.getExtension(outputLocation);
-			isDirectory = AMIUtil.endsWithSeparator(outputLocation) || extension == null || extension.equals("");
+			isDirectory = EuclidSource.endsWithSeparator(outputLocation) || extension == null || extension.equals("");
 			outputDirectory = new File(outputLocation);
 		}
 	}

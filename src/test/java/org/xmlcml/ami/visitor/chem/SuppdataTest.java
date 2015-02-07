@@ -2,8 +2,8 @@ package org.xmlcml.ami.visitor.chem;
 
 import org.junit.Ignore;
 import org.junit.Test;
-import org.xmlcml.ami.util.AMIUtil;
 import org.xmlcml.ami.visitor.species.SpeciesVisitor;
+import org.xmlcml.files.EuclidSource;
 
 public class SuppdataTest {
 
@@ -14,7 +14,7 @@ public class SuppdataTest {
 		String[] args = new String[] {
 				"-i", "src/test/resources/org/xmlcml/ami/pdf/spect.pdf",
 				"-o", "target/spect/",
-				"-e", AMIUtil.XML
+				"-e", EuclidSource.XML
 		};
 		SpeciesVisitor.main(args);
 	}
@@ -26,7 +26,7 @@ public class SuppdataTest {
 		String[] args = new String[] {
 				"-i", "src/test/resources/org/xmlcml/ami/pdf/acs1.pdf",
 				"-o", "target/spect/",
-				"-e", AMIUtil.XML
+				"-e", EuclidSource.XML
 		};
 		SpeciesVisitor.main(args);
 	}
@@ -37,7 +37,7 @@ public class SuppdataTest {
 		String[] args = new String[] {
 				"-i", "src/test/resources/org/xmlcml/ami/pdf/suspect_ol2015972_si_002.pdf",
 				"-o", "target/spect/",
-				"-e", AMIUtil.XML
+				"-e", EuclidSource.XML
 		};
 		SpeciesVisitor.main(args);
 	}

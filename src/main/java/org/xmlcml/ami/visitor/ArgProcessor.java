@@ -8,14 +8,15 @@ import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
 import org.apache.log4j.Logger;
-import org.xmlcml.ami.util.AMIUtil;
 import org.xmlcml.ami.visitable.VisitableInput;
+import org.xmlcml.files.EuclidSource;
 
 /** 
  * Processes commandline arguments.
  * 
  * @author pm286
  */
+@Deprecated // use AMIArgProcessor
 public class ArgProcessor {
 
 	private final static Logger LOG = Logger.getLogger(ArgProcessor.class);
@@ -34,7 +35,7 @@ public class ArgProcessor {
 //	private static final String SECTIONS = "--sections";
 	private static final String X          = "-x";
 	private static final String XPATH      = "--xpath";
-	private static final String[] DEFAULT_EXTENSIONS = {AMIUtil.HTM};
+	private static final String[] DEFAULT_EXTENSIONS = {EuclidSource.HTM};
 	private static Pattern INTEGER_RANGE = Pattern.compile("(.*)\\{(\\d+),(\\d+)\\}(.*)");
 
 	

@@ -1,6 +1,7 @@
 package org.xmlcml.ami.visitor.tree.nexml;
 
 import java.io.File;
+import java.io.FileInputStream;
 import java.io.InputStream;
 
 import nu.xom.Attribute;
@@ -14,7 +15,7 @@ public class NexmlElement extends Element {
 
 	private final static Logger LOG = Logger.getLogger(NexmlElement.class);
 	
-	private static final String ID = "id";
+	public static final String ID = "id";
 	private static final String LABEL = "label";
 	static final String NEX = "nex";
 	static final String NEXML = "nexml";
@@ -40,6 +41,7 @@ public class NexmlElement extends Element {
 	 */
 	public static NexmlElement readAndCreateNEXML(Element element) {
 		NexmlElement newElement = null;
+		NexmlTree currentTree = null;
 		String tag = element.getLocalName();
 		if (tag == null || tag.equals("")) {
 			throw new RuntimeException("no tag");
@@ -48,18 +50,24 @@ public class NexmlElement extends Element {
 		} else if (tag.equals(NexmlNEXML.TAG)) {
 			newElement = new NexmlNEXML();
 		} else if (tag.equals(NexmlNode.TAG)) {
-			newElement = new NexmlNode();
+			newElement = new NexmlNode(currentTree);
 		} else if (tag.equals(NexmlOtu.TAG)) {
 			newElement = new NexmlOtu();
 		} else if (tag.equals(NexmlOtus.TAG)) {
 			newElement = new NexmlOtus();
 		} else if (tag.equals(NexmlTree.TAG)) {
 			newElement = new NexmlTree();
+			currentTree = (NexmlTree) newElement;
 		} else if (tag.equals(NexmlTrees.TAG)) {
 			newElement = new NexmlTrees();
 		} else {
-			LOG.trace("unsupported NexML element: "+tag);
+			LOG.debug("unsupported NexML element: "+tag);
 		}
+		copyAttributesAndProcessDescendants(element, newElement);
+        return newElement;
+	}
+
+	private static void copyAttributesAndProcessDescendants(Element element, NexmlElement newElement) {
 		if (newElement != null) {
 			XMLUtil.copyAttributes(element, newElement);
 			for (int i = 0; i < element.getChildCount(); i++) {
@@ -71,8 +79,8 @@ public class NexmlElement extends Element {
 					newElement.appendChild(child.copy());
 				}
 			}
+			
 		}
-        return newElement;
 	}
 	
 	/** converts an NEXML file to NEXMLElement
@@ -80,9 +88,10 @@ public class NexmlElement extends Element {
 	 * @param file
 	 * @return
 	 */
-	public static NexmlElement readAndCreateNEXML(File file) {
-		Element element = XMLUtil.parseQuietlyToDocument(file).getRootElement();
-		return (element == null) ? null : (NexmlElement) readAndCreateNEXML(element);
+	public static NexmlElement readAndCreateNEXML(File file) throws Exception {
+		return readAndCreateNEXML(new FileInputStream(file));
+//		Element element = XMLUtil.parseQuietlyToDocument(file).getRootElement();
+//		return (element == null) ? null : (NexmlElement) readAndCreateNEXML(element);
 	}
 	
 	/** converts an NEXML file to NEXMLElement
@@ -90,9 +99,14 @@ public class NexmlElement extends Element {
 	 * @param file
 	 * @return
 	 */
-	public static NexmlElement readAndCreateNEXML(InputStream is) {
+	public static NexmlNEXML readAndCreateNEXML(InputStream is) {
 		Element element = XMLUtil.parseQuietlyToDocument(is).getRootElement();
-		return (element == null) ? null : (NexmlElement) readAndCreateNEXML(element);
+		NexmlNEXML nexml = null;
+		if (element != null) {
+			nexml = (NexmlNEXML) readAndCreateNEXML(element);
+			nexml.buildTrees();
+		}
+		return nexml;
 	}
 	
 	public void setId(String id){
@@ -104,4 +118,13 @@ public class NexmlElement extends Element {
 	public void setLabel(String label){
 		this.addAttribute(new Attribute(LABEL, label));
 	}
+	
+	public void debug() {
+		XMLUtil.debug(this, "nexml");
+	}
+
+	public String getId() {
+		return getAttributeValue(ID);
+	}
+
 }

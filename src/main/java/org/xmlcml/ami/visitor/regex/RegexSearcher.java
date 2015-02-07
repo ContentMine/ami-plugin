@@ -15,6 +15,7 @@ import org.xmlcml.ami.visitable.html.HtmlContainer;
 import org.xmlcml.ami.visitable.txt.TextContainer;
 import org.xmlcml.ami.visitable.xml.XMLContainer;
 import org.xmlcml.ami.visitor.AbstractSearcher;
+import org.xmlcml.ami.visitor.AbstractVisitor;
 import org.xmlcml.ami.visitor.ArgProcessor;
 import org.xmlcml.ami.visitor.EIC;
 import org.xmlcml.ami.visitor.SimpleListElement;
@@ -27,8 +28,12 @@ public class RegexSearcher extends AbstractSearcher {
 	private static final String REGEX      = "--regex";
 
 	List<RegexComponent> componentList;
-	private RegexContainer regexContainer;
+//	private RegexContainer regexContainer;
 	private List<String> regexFiles;
+
+	private List<RegexContainer> regexContainerList;
+
+	private RegexContainer regexContainer;
 
 	public RegexSearcher(RegexVisitor visitor) {
 		super(visitor);
@@ -49,13 +54,26 @@ public class RegexSearcher extends AbstractSearcher {
 	@Override
 	public void search(XMLContainer xmlContainer) {
 		ensureRegexList();
+		if (abstractVisitor != null) {
+			RegexArgProcessor regexArgProcessor = (RegexArgProcessor) abstractVisitor.getArgProcessor();
+			regexContainerList = regexArgProcessor.getRegexContainerList();
+			for (RegexContainer regexContainer : regexContainerList) {
+				this.regexContainer = regexContainer;
+				searchWithRegexContainer(xmlContainer);
+			}
+		} else {
+			searchWithRegexContainer(xmlContainer);
+		}
+		LOG.trace("RESULT LIST... "+(resultList == null ? "null results" : ""+resultList.size()));
+		return;
+	}
+
+	private void searchWithRegexContainer(XMLContainer xmlContainer) {
 		LOG.debug("visiting container with  "+(regexContainer.getCompoundRegexList() == null ?
 				"null/zero" : regexContainer.getCompoundRegexList().size())+" compound regexes");
 		if (regexContainer.getCompoundRegexList() != null) {
 			searchXomElement(xmlContainer.getElement());
 		}
-		LOG.trace("RESULT LIST... "+resultList.size());
-		return;
 	}
 
 	@Override

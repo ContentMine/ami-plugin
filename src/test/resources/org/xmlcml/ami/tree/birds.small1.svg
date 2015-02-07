@@ -1,0 +1,29 @@
+<svg cxmlns="http://www.w3.org/2000/svg">
+				<circle r="5" fill="red" id="N1" otu="t1" label="Luscinia" cx="397.018" cy="102.384"/>
+				<circle r="5" fill="red" id="N2" otu="t2" label="Ficedula" cx="408.942" cy="110.23"/>
+				<circle r="5" fill="red" id="N3" otu="t3" label="Turdus" cx="405.294" cy="118.075"/>
+				<circle r="5" fill="red" id="N4" otu="t4" label="Mimus" cx="398.834" cy="125.929"/>
+				<circle r="5" fill="red" id="N5" otu="t5" label="Sturnus" cx="394.055" cy="133.774"/>
+				<circle r="5" fill="red" id="N6" label="N6" cx="318.938" cy="129.848"/>
+				<circle r="5" fill="red" id="N7" label="N7" root="true" cx="290.932" cy="121.022"/>
+				<circle r="5" fill="red" id="N8" label="N8" cx="303.421" cy="112.197"/>
+				<circle r="5" fill="red" id="N9" label="N9" cx="342.88" cy="106.311"/>
+<!--
+				<edge id="polyline.14" label="polyline.14" source="N9" target="N1"
+					svgx:length="54.138" />
+				<edge id="polyline.16" label="polyline.16" source="N9" target="N2"
+					svgx:length="66.062" />
+				<edge id="polyline.18" label="polyline.18" source="N8" target="N3"
+					svgx:length="101.872" />
+				<edge id="polyline.20" label="polyline.20" source="N6" target="N4"
+					svgx:length="79.897" />
+				<edge id="polyline.21" label="polyline.21" source="N6" target="N5"
+					svgx:length="75.118" />
+				<edge id="polyline.19" label="polyline.19" source="N7" target="N6"
+					svgx:length="28.005" />
+				<edge id="polyline.17" label="polyline.17" source="N7" target="N8"
+					svgx:length="12.489" />
+				<edge id="polyline.15" label="polyline.15" source="N8" target="N9"
+					svgx:length="39.459" />
+-->
+</svg>

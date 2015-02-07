@@ -82,4 +82,9 @@ public class SimpleVisitor extends AbstractVisitor {
 		return resultSet;
 	}
 
+	public static void main(String[] args) throws Exception {
+		SimpleVisitor visitor = new SimpleVisitor();
+		visitor.processArgs(args);
+	}
+
 }

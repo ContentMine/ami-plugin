@@ -249,7 +249,7 @@ public class EICTest {
 		String[] args = new String[] {
 				"-i", "./docs/regex/1471-2148-14-70.xml",
 				"-o", outputDir.toString(),
-				"-g", "regex/phylotree.xml",
+				"-r.r", "regex/phylotree.xml",
 		};
 		RegexVisitor.main(args);
 		

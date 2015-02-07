@@ -9,6 +9,8 @@ public class Fixtures {
 	public static final File PDF_DIR = new File("../pdfs");
 
 	public static final File AMI_DIR = new File(TEST_RESOURCES_DIR, "org/xmlcml/ami/");
+	//CHEM
+	public static final File FROM_NORMA_DIR = new File(AMI_DIR, "fromNorma");
 	
 	//CHEM
 	public static final File MOLECULES_DIR = new File(AMI_DIR, "molecules");
@@ -83,6 +85,7 @@ public class Fixtures {
 	public static final File TEST_REGEX_DIR = new File(TEST_RESOURCES_DIR, "org/xmlcml/ami/regex");
 	public static final File PHYLO_REGEX_XML = new File(MAIN_REGEX_DIR, "phylotree.xml");
 	public static final File ARMBRUSTER_HTML = new File(TEST_REGEX_DIR, "armbruster.html");
+	public static final File TEST_PHYLO_REGEX_SMALL_XML = new File(TEST_REGEX_DIR, "phylotree_small.xml");
 
 	// SEQUENCE
 	public static final File SEQUENCE_DIR = new File(AMI_DIR, "sequences");

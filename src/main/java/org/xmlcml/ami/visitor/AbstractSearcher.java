@@ -35,6 +35,8 @@ public abstract class AbstractSearcher {
 	
 	int maxChar;  // remove this
 
+	protected AbstractVisitor abstractVisitor;
+
 	private AbstractSearcher() {
 		ensureResultsElement();
 		ensureDocumentFragment();
@@ -205,6 +207,14 @@ public abstract class AbstractSearcher {
 
 	public SimpleResultList getResultsList() {
 		return resultList;
+	}
+
+	public AbstractVisitor getAbstractVisitor() {
+		return abstractVisitor;
+	}
+
+	public void setAbstractVisitor(AbstractVisitor abstractVisitor) {
+		this.abstractVisitor = abstractVisitor;
 	}
 
 

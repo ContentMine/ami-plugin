@@ -1,6 +1,9 @@
 package org.xmlcml.ami.visitor.regex;
 
 import java.io.File;
+import java.io.FileInputStream;
+import java.io.IOException;
+import java.io.InputStream;
 import java.net.URL;
 import java.util.ArrayList;
 import java.util.List;
@@ -10,6 +13,7 @@ import nu.xom.Document;
 import nu.xom.Element;
 
 import org.apache.log4j.Logger;
+import org.xmlcml.files.EuclidSource;
 
 /** Container for many smaller regexes.
  * 
@@ -49,19 +53,8 @@ public class CompoundRegex {
 	 * @return null if not a regex file
 	 * @exception RuntimeException if cannot read/parse
 	 */
-	public static CompoundRegex readAndCreateRegex(File file) {
-		CompoundRegex compoundRegex = null;
-		if (file.toString().endsWith(XML)) {
-			Element rootElement = null;
-			try {
-				Document doc = new Builder().build(file);
-				rootElement = doc.getRootElement();
-			} catch (Exception e) {
-				throw new RuntimeException("Cannot read or parse XML file: "+file+" MEND ME!", e);
-			}
-			compoundRegex = addCompoundRegex(rootElement);
-		}
-		return compoundRegex;
+	public static CompoundRegex readAndCreateRegex(File file) throws IOException {
+		return CompoundRegex.readAndCreateRegex(new FileInputStream(file));
 	}
 	
 	/** creates a regex from URL if possible
@@ -70,14 +63,34 @@ public class CompoundRegex {
 	 * @return null if not a regex file
 	 * @exception RuntimeException if cannot read/parse
 	 */
-	public static CompoundRegex readAndCreateRegex(URL url) {
+	public static CompoundRegex readAndCreateRegex(URL url) throws IOException{
+		return CompoundRegex.readAndCreateRegex(url.openStream());
+	}
+
+	/** creates a regex from name if possible
+	 * 	 * 
+	 * @param name could be  resourceName, file or URL
+	 * @return null if not a regex file
+	 * @exception RuntimeException if cannot read/parse
+	 */
+	public static CompoundRegex readAndCreateRegex(String name) {
+		return CompoundRegex.readAndCreateRegex(EuclidSource.getInputStream(name));
+	}
+
+	/** creates a regex from InputStream if possible
+	 * 	 * 
+	 * @param file
+	 * @return null if not a regex file
+	 * @exception RuntimeException if cannot read/parse
+	 */
+	public static CompoundRegex readAndCreateRegex(InputStream is) {
 		CompoundRegex compoundRegex = null;
 		Element rootElement = null;
 		try {
-			Document doc = new Builder().build(url.openStream());
+			Document doc = new Builder().build(is);
 			rootElement = doc.getRootElement();
 		} catch (Exception e) {
-			throw new RuntimeException("Cannot read or parse URL: "+url+" MEND ME!", e);
+			throw new RuntimeException("Cannot read or parse regexInputStream", e);
 		}
 		compoundRegex = addCompoundRegex(rootElement);
 		return compoundRegex;

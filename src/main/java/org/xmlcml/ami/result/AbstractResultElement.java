@@ -6,8 +6,8 @@ import nu.xom.Element;
 import org.apache.log4j.Logger;
 import org.xmlcml.ami.AbstractAMIElement;
 import org.xmlcml.ami.Type;
-import org.xmlcml.ami.util.AMIUtil;
 import org.xmlcml.ami.visitor.EIC;
+import org.xmlcml.files.EuclidSource;
 
 /** an XMLElement capable of holding a variety of results.
  * 
@@ -57,7 +57,7 @@ public abstract class AbstractResultElement extends AbstractAMIElement {
 	private void addXpathAttribute(EIC eic) {
 		String xpath = eic.getXPathOfResultElement();
 		if (xpath != null) {
-			this.addAttribute(new Attribute(AMIUtil.XPATH, xpath));
+			this.addAttribute(new Attribute(EuclidSource.XPATH, xpath));
 		}
 	}
 
@@ -66,7 +66,7 @@ public abstract class AbstractResultElement extends AbstractAMIElement {
 		if (number != null) {
 			String lineValue = eic.getLineValue();
 			if (lineValue != null) {
-				this.addAttribute(new Attribute(AMIUtil.LINE_VALUE, lineValue));
+				this.addAttribute(new Attribute(EuclidSource.LINE_VALUE, lineValue));
 			}
 		}
 	}
@@ -74,7 +74,7 @@ public abstract class AbstractResultElement extends AbstractAMIElement {
 	public void addLineNumberAttribute(EIC eic) {
 		Integer number = eic.getLineNumber();
 		if (number != null) {
-			this.addAttribute(new Attribute(AMIUtil.LINE_NUMBER, String.valueOf(number)));
+			this.addAttribute(new Attribute(EuclidSource.LINE_NUMBER, String.valueOf(number)));
 		}
 	}
 
