@@ -245,12 +245,12 @@ public class RegexVisitorTest {
 		};
 		RegexVisitor.main(args);
 		// asserts
-		Assert.assertTrue("should have created: "+outputFile, outputFile.exists());
-		Element element = XMLUtil.parseQuietlyToDocument(outputFile).getRootElement();
-		LOG.debug(outputFile);
-		List<Element> resultList = XMLUtil.getQueryElements(element, 
-				"/*[local-name()='results']/*[local-name()='results']/*[local-name()='result']");
-		Assert.assertEquals(0, resultList.size());
+//		Assert.assertTrue("should have created: "+outputFile, outputFile.exists());
+//		Element element = XMLUtil.parseQuietlyToDocument(outputFile).getRootElement();
+//		LOG.debug(outputFile);
+//		List<Element> resultList = XMLUtil.getQueryElements(element, 
+//				"/*[local-name()='results']/*[local-name()='results']/*[local-name()='result']");
+//		Assert.assertEquals(0, resultList.size());
 	}
 	
 	@Test
@@ -353,6 +353,7 @@ public class RegexVisitorTest {
 	 * @param file
 	 */
 	@Test
+	// URL
 	@Ignore // uses web
 	public void testAgricultureURLs() throws Exception {
 		if (!Util.checkPMR()) return;
@@ -366,28 +367,13 @@ public class RegexVisitorTest {
 	}
 	
 	
-	/** test agriculture Regex on ca 30 PLOS papers locally.
-	 * 
-	 * @param file
-	 */
-	@Test
-	@Ignore //!! downloads many files
-	public void testPhyloTreeURLs() throws Exception {
-		if (!Util.checkPMR()) return;
-		String[] args = new String[] {
-				"-i", "http://www.biomedcentral.com/1471-2229/14/{1,370}",
-				"-o", "target/phylotree.xml",
-				"-r.r", "regex/phylotree.xml",
-				"-e", "html",
-		};
-		RegexVisitor.main(args);
-	}
 	
 	/** test agriculture Regex on ca 30 PLOS papers locally.
 	 * 
 	 * @param file
 	 */
 	@Test
+	// URL
 	@Ignore // too large
 	public void testAgriculturePhylogeny() throws Exception {
 		if (!Util.checkPMR()) return;
@@ -400,40 +386,6 @@ public class RegexVisitorTest {
 		RegexVisitor.main(args);
 	}
 	
-	
-	/** search one XML file and create corresponding output results.xml
-	 * 
-	 * 	// SHOWCASE NOT YET RUNNING
-	 * 
-	 * @throws Exception
-	 */
-	@Test
-	@Ignore // uses remote resources
-	public void testSearchURLRanges() throws Exception {
-		String[] args;
-		int[] hits = {
-				 0,   4,   5,  -1,  40,  10,   0,  -1,   0,  18,
-				 7,  17,  51,   0,  -1,  -1,  -1,   0,   6,  38,
-				 0,  25,   0,   1,   0,   0,   7,  83,  32, 102,
-				 0,   2,   2,   2,   0,  -1,  -1,   0,   0, 163,
-				 1,   1,  -1,   0,   2,   0,   0,   0,  -1,  -1,
-		};
-		// sigma 
-		for (int i = 0; i < 9; i++) {
-//			int jjjjjj = 113500 + i;
-			args = new String[] {
-					"-i", "http://www.biomedcentral.com/content/download/xml/s12870-014-030"+i+"-"+(9-i)+".xml",
-					"-r.r", "regex/agriculture.xml",
-			};
-			Thread.sleep(5000);
-			RegexVisitor regexVisitor = new RegexVisitor();
-			LOG.debug("running ");
-			regexVisitor.processArgs(args);
-			
-//			AMITestUtil.assertNodeCount(regexVisitor.getResultsFile(), hits[i], "//*[local-name()='eic']");
-		}
-	}
-		
 	/** test astrophysics Regex 
 	 * 
 	 * 3 sample astrophysics files suggested by Stray Toaster
@@ -447,6 +399,7 @@ public class RegexVisitorTest {
 	 * @param file
 	 */
 	@Test
+	// URL
 	//@Ignore // unless you are an astrophysicist
 	public void testAstrophysics() throws Exception {
 		String astroDir = new File("./src/test/resources/org/xmlcml/ami/astrophys/").toString();
@@ -487,6 +440,8 @@ public class RegexVisitorTest {
 	}
 	
 	@Test
+	// URL
+	@Ignore
 	public void testBMCPhyloURLs() throws Exception {
 		String[] args = new String[] {
 				"-i", "http://www.biomedcentral.com/content/download/xml/1471-2148-13-191.xml",
@@ -499,6 +454,8 @@ public class RegexVisitorTest {
 	}
 	
 	@Test
+	// URL
+	@Ignore
 	public void testBMCCommonURLHTMLs() throws Exception {
 		String[] args = new String[] {
 //				"-i", "http://www.biomedcentral.com/content/download/xml/1471-2148-13-191.xml",

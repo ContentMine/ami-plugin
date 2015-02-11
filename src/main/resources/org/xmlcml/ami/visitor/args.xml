@@ -5,9 +5,8 @@
 		args="characterExtent [characterExtent2]"
 		class="java.lang.Integer"
 		default="100"
-		min="1" 
-		max="2"
-		methodName="parseContext"
+		countRange="{1,2}"
+		parseMethod="parseContext"
 		>
 		<help>
 		
@@ -18,21 +17,55 @@
 			following text. 
 		</help>
 	</arg>	
+	<arg name="param" 
+		brief="-p"
+		long="--param"
+		args="string [string]"
+		class="java.lang.String"
+		default=""
+		countRange="{1,*}"
+		parseMethod="parseParam"
+		>
+		<help>
+		
+			PARAM
+			A simple method (primarily for demo and learning) that passes a number of strings
+			to the application. The strings are parsed by "parseParam()" which should be overridden
+			in the application. The application consists of subclasses of SimpleVisitor and SimpleSearcher
+			
+		</help>
+	</arg>	
+	
 	<arg name="xpath" 
 		brief="-x"
 		long="--xpath"
 		args="xpath [xpath]"
 		class="java.lang.String"
 		default=""
-		min="1" 
-		max="Integer.MAX_VALUE"
-		methodName="parseXpath"
+		countRange="{1,*}"
+		parseMethod="parseXpath"
 		>
 		<help>
 		
 			XPATH
 			Defines the section/s of the document to analyze. The argument is one or more xpath
 			strings separated by spaces. (The xpaths cannot contain spaces currently.)
+		</help>
+	</arg>	
+	
+	<arg name="test" 
+		brief="-t1"
+		long="--test1"
+		args="string [string ...]"
+		class="java.lang.String"
+		default=""
+		countRange="{1,*}"
+		parseMethod="parseTest"
+		pattern="foo|bar[^\s]*|[A-Z]{2}[0-9]{6}"
+		>
+		<help>
+		
+		A dummy parameter to test conformance
 		</help>
 	</arg>	
 	

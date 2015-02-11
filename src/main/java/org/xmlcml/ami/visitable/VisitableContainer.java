@@ -46,11 +46,4 @@ public abstract class VisitableContainer {
 		return sb.toString();
 	}
 	
-//	public void setTagger(ContentTagger tagger) {
-//		this.tagger = tagger;
-//	}
-//	
-//	public ContentTagger getTagger() {
-//		return this.tagger;
-//	}
 }

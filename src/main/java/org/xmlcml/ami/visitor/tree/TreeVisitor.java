@@ -7,10 +7,8 @@ import org.apache.log4j.Logger;
 import org.xmlcml.ami.visitable.VisitableContainer;
 import org.xmlcml.ami.visitable.image.ImageContainer;
 import org.xmlcml.ami.visitable.image.ImageVisitable;
-import org.xmlcml.ami.visitable.pdf.PDFVisitable;
 import org.xmlcml.ami.visitable.svg.SVGContainer;
 import org.xmlcml.ami.visitable.svg.SVGVisitable;
-import org.xmlcml.ami.visitable.table.TableVisitable;
 import org.xmlcml.ami.visitable.xml.XMLVisitable;
 import org.xmlcml.ami.visitor.AbstractSearcher;
 import org.xmlcml.ami.visitor.AbstractVisitor;
@@ -36,11 +34,6 @@ public class TreeVisitor extends AbstractVisitor {
 			resultsElement.appendChild(tree.createNEXML());
 			//resultsElement.appendChild(tree);
 		}
-	}
-	
-	@Override
-	public void visit(PDFVisitable pdfVisitable) {
-		notYetImplemented(pdfVisitable);
 	}
 	
 	@Override
@@ -77,10 +70,6 @@ public class TreeVisitor extends AbstractVisitor {
 		return tree;
 	}
 
-	@Override
-	public void visit(TableVisitable tableVisitable) {
-		notApplicable(tableVisitable);
-	}
 
 	@Override
 	public void visit(XMLVisitable xmlVisitable) {

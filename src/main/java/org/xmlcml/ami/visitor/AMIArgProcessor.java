@@ -36,6 +36,10 @@ public class AMIArgProcessor extends DefaultArgProcessor{
 	
 	public AMIArgProcessor() {
 		super();
+		readArgConfiguration();
+	}
+
+	private void readArgConfiguration() {
 		LOG.trace(ARGS_RESOURCE);
 		this.readArgumentOptions(ARGS_RESOURCE);
         for (ArgumentOption argumentOption : argumentOptionList) {
@@ -83,6 +87,16 @@ public class AMIArgProcessor extends DefaultArgProcessor{
 		} else {
 			contextCount[1] = contextCount[0];
 		}
+	}
+
+	public void parseParam(ArgumentOption argOption, ArgIterator argIterator) {
+		List<String> params = argIterator.createTokenListUpToNextMinus(argOption);
+		LOG.debug("The parameters are..."+params+"; override this if you want to use your own parseParam()");
+	}
+
+	public void parseTest(ArgumentOption argOption, ArgIterator argIterator) {
+		List<String> test = argIterator.createTokenListUpToNextMinus(argOption);
+		LOG.debug("The test strings are..."+test+"; override this if you want to use your own parseTest()");
 	}
 
 

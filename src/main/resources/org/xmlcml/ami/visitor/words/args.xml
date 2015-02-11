@@ -1,12 +1,13 @@
 <argList>
-	<arg name="regex" 
-		brief="-r.r"
-		long="--r.regex"
+	<arg name="simple" 
+		brief="-s.s"
+		long="--s.simple"
 		args="location [location ...]"
 		class="java.lang.String"
 		default=""
-		countRange="{1,*}"
-		parseMethod="parseRegex"
+		min="1" 
+		max="Integer.MAX_VALUE"
+		methodName="parseRegex"
 		>
 		<help>
 		

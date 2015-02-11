@@ -10,12 +10,9 @@ import nu.xom.Element;
 import org.apache.log4j.Logger;
 import org.xmlcml.ami.result.AbstractListElement;
 import org.xmlcml.ami.result.SimpleResultList;
-import org.xmlcml.ami.visitable.SourceElement;
 import org.xmlcml.ami.visitable.html.HtmlContainer;
-import org.xmlcml.ami.visitable.txt.TextContainer;
 import org.xmlcml.ami.visitable.xml.XMLContainer;
 import org.xmlcml.ami.visitor.AbstractSearcher;
-import org.xmlcml.ami.visitor.AbstractVisitor;
 import org.xmlcml.ami.visitor.ArgProcessor;
 import org.xmlcml.ami.visitor.EIC;
 import org.xmlcml.ami.visitor.SimpleListElement;
@@ -28,7 +25,6 @@ public class RegexSearcher extends AbstractSearcher {
 	private static final String REGEX      = "--regex";
 
 	List<RegexComponent> componentList;
-//	private RegexContainer regexContainer;
 	private List<String> regexFiles;
 
 	private List<RegexContainer> regexContainerList;
@@ -74,11 +70,6 @@ public class RegexSearcher extends AbstractSearcher {
 		if (regexContainer.getCompoundRegexList() != null) {
 			searchXomElement(xmlContainer.getElement());
 		}
-	}
-
-	@Override
-	public void search(TextContainer textContainer) {
-		searchLineList(textContainer.getLineList());
 	}
 
 	private void addComponentListToResults() {
@@ -219,37 +210,7 @@ public class RegexSearcher extends AbstractSearcher {
 		}
 	}
 
-	private void searchLineList(List<String> lineList) {
-		ensureResultList(sourceElement);
-		LOG.trace("search XomElement with "+regexContainer.getCompoundRegexList().size()+" compoundRegexes");
-		for (CompoundRegex compoundRegex : regexContainer.getCompoundRegexList()) {
-			List<RegexResultElement> regexResultList = searchWithRegexComponents(compoundRegex, lineList);
-			for (RegexResultElement regexResult : regexResultList) {
-				resultList.add(regexResult.getSimpleResult());
-			}
-		}
-		LOG.debug("MADE RESULT LIST: "+resultList.size());
-		return;
-	}
-
-	private List<RegexResultElement> searchWithRegexComponents(CompoundRegex compoundRegex, List<String> lineList) {
-		LOG.debug("Searching lineList with regexComponentList");
-		
-		List<RegexResultElement> regexResultList = new ArrayList<RegexResultElement>();
-		List<RegexComponent> regexComponentList = compoundRegex.getRegexComponentList();
-		
-		for (int iline = 0; iline < lineList.size(); iline++) {
-			EIC eic = new EIC(lineList, iline);
-			searchElementInContext(eic, regexResultList, regexComponentList);
-		}
-		return regexResultList;
-	}
-
-	private void ensureResultList(SourceElement sourceElement) {
-		if (resultList == null) {
-			resultList = new SimpleResultList(sourceElement);
-		}
-	}
+	
 
 	// ===============
 	

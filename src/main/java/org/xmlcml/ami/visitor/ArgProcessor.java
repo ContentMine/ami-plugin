@@ -51,6 +51,7 @@ public class ArgProcessor {
 
 	public ArgProcessor(String[] commandLineArgs, AbstractVisitor visitor) {
 		this.visitor = visitor;
+		if (true) throw new RuntimeException ("DEPRECATED");
 		processArgs(Arrays.asList(commandLineArgs));
 	}
 

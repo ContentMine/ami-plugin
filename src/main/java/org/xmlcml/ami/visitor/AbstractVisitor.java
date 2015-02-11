@@ -9,6 +9,7 @@ import java.util.ListIterator;
 import nu.xom.Element;
 
 import org.apache.commons.io.FileUtils;
+import org.apache.log4j.Level;
 import org.apache.log4j.Logger;
 import org.xmlcml.ami.result.ResultsListElement;
 import org.xmlcml.ami.result.SimpleResultList;
@@ -20,13 +21,8 @@ import org.xmlcml.ami.visitable.html.HtmlContainer;
 import org.xmlcml.ami.visitable.html.HtmlVisitable;
 import org.xmlcml.ami.visitable.image.ImageContainer;
 import org.xmlcml.ami.visitable.image.ImageVisitable;
-import org.xmlcml.ami.visitable.pdf.PDFContainer;
-import org.xmlcml.ami.visitable.pdf.PDFVisitable;
 import org.xmlcml.ami.visitable.svg.SVGContainer;
 import org.xmlcml.ami.visitable.svg.SVGVisitable;
-import org.xmlcml.ami.visitable.table.TableVisitable;
-import org.xmlcml.ami.visitable.txt.TextContainer;
-import org.xmlcml.ami.visitable.txt.TextVisitable;
 import org.xmlcml.ami.visitable.xml.XMLContainer;
 import org.xmlcml.ami.visitable.xml.XMLVisitable;
 import org.xmlcml.files.QuickscrapeDirectory;
@@ -41,7 +37,10 @@ import org.xmlcml.files.QuickscrapeDirectory;
  */
 public abstract class AbstractVisitor {
 
-	private final static Logger LOG = Logger.getLogger(AbstractVisitor.class);
+	private static final Logger LOG = Logger.getLogger(AbstractVisitor.class);
+	static {
+		LOG.setLevel(Level.DEBUG);
+	}
 
 	public static final String RESULTS_XML = "results.xml";
 	private static final String XML = "xml";
@@ -166,57 +165,7 @@ public abstract class AbstractVisitor {
 			doSearchAndAddResults(imageContainer);
 		}
 	}
-
-
-	/**
-	 * PDF
-	 * 
-	 * @param pdfVisitable
-	 */
-	public void visit(PDFVisitable pdfVisitable) {
-		notYetImplemented(pdfVisitable);
-	}
-
-	/** This may get altered to reflect PDF components.
-	 * 
-	 * @param pdfVisitable
-	 */
-	protected final void doVisit(PDFVisitable pdfVisitable) {
-		if (pdfVisitable != null) {
-			for (PDFContainer pdfContainer : pdfVisitable.getPDFContainerList()) {
-				doSearchAndAddResults(pdfContainer);
-			}
-		}
-	}
-
-	/**
-	 * Table
-	 * 
-	 * Not yet working - may get redesigned
-	 * 
-	 * @param tableVisitable
-	 */
-	public void visit(TableVisitable tableVisitable) {
-		notYetImplemented(tableVisitable);
-	}
 	
-	/**
-	 * Table
-	 * 
-	 * Not yet working - may get redesigned
-	 * 
-	 * @param tableVisitable
-	 */
-	public void visit(TextVisitable textVisitable) {
-		notYetImplemented(textVisitable);
-	}
-	
-	protected final void doVisit(TextVisitable textVisitable) {
-		for (TextContainer textContainer : textVisitable.getTextContainerList()) {
-			doSearchAndAddResults(textContainer);
-		}
-	}
-
 	private void visitSubclassed(AbstractVisitable visitable) {
 		if (visitable instanceof HtmlVisitable) {
 			this.visit((HtmlVisitable) visitable);
@@ -224,14 +173,8 @@ public abstract class AbstractVisitor {
 			this.visit((ImageVisitable) visitable);
 		} else if (visitable instanceof XMLVisitable) {
 			this.visit((XMLVisitable) visitable);
-		} else if (visitable instanceof PDFVisitable) {
-			this.visit((PDFVisitable) visitable);
 		} else if (visitable instanceof SVGVisitable) {
 			this.visit((SVGVisitable) visitable);
-		} else if (visitable instanceof TableVisitable) {
-			this.visit((TableVisitable) visitable);
-		} else if (visitable instanceof TextVisitable) {
-			this.visit((TextVisitable) visitable);
 		} else {
 			throw new RuntimeException("Unknown visitable: " + visitable);
 		}
@@ -379,36 +322,6 @@ public abstract class AbstractVisitor {
 	}
 
 	// ================= PDF search (needs rewriting) ==========
-	/**
-	 * Turns PDF to HTML and searches that.
-	 * // FIXME need a better way 
-	 * @param pdfVisitable
-	 */
-	protected void createAndSearchHtmlContainer(PDFVisitable pdfVisitable) {
-		List<PDFContainer> pdfContainerList = pdfVisitable.getPDFContainerList();
-		for (PDFContainer pdfContainer : pdfContainerList) {
-			HtmlContainer htmlContainer = pdfContainer.getHtmlContainer();
-			if (htmlContainer != null) {
-				searchContainer(htmlContainer);
-			}
-		}
-	}
-
-	/**
-	 * Turns PDF to SVG and searches that.
-	 * 
-	 * @param pdfVisitable
-	 */
-	protected void createAndSearchSVGContainer(PDFVisitable pdfVisitable) {
-		List<PDFContainer> pdfContainerList = pdfVisitable.getPDFContainerList();
-		for (PDFContainer pdfContainer : pdfContainerList) {
-			List<SVGContainer> svgContainerList = pdfContainer.getSVGListContainer();
-			if (svgContainerList != null) {
-				searchContainer(svgContainerList);
-			}
-		}
-	}
-
 	protected void searchContainer(List<SVGContainer> svgContainerList) {throw new RuntimeException("Must override");}
 
 	// =============== RESULTS =======================

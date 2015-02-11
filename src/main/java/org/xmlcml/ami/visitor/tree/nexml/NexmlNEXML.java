@@ -5,7 +5,6 @@ import java.util.List;
 import nu.xom.Element;
 
 import org.apache.log4j.Logger;
-import org.xmlcml.pdf2svg.util.PDF2SVGUtil;
 import org.xmlcml.xml.XMLUtil;
 
 public class NexmlNEXML extends NexmlElement {
@@ -22,7 +21,6 @@ public class NexmlNEXML extends NexmlElement {
 		super(TAG);
 		this.addNamespaceDeclaration(NEX, NEXML_NS);
 		this.addNamespaceDeclaration(XSI, XSI_NS);
-		this.addNamespaceDeclaration(PDF2SVGUtil.SVGX_PREFIX, PDF2SVGUtil.SVGX_NS);
 	}
 
 	public String createNewick() {

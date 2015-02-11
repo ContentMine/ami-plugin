@@ -12,9 +12,7 @@ import org.apache.commons.io.FilenameUtils;
 import org.apache.log4j.Logger;
 import org.xmlcml.ami.visitable.html.HtmlVisitable;
 import org.xmlcml.ami.visitable.image.ImageVisitable;
-import org.xmlcml.ami.visitable.pdf.PDFVisitable;
 import org.xmlcml.ami.visitable.svg.SVGVisitable;
-import org.xmlcml.ami.visitable.txt.TextVisitable;
 import org.xmlcml.ami.visitable.xml.XMLVisitable;
 import org.xmlcml.ami.visitor.AbstractVisitor;
 import org.xmlcml.files.EuclidSource;
@@ -42,9 +40,7 @@ public class VisitableInput {
 	private final static AbstractVisitable HTML_VISITABLE = new HtmlVisitable();
 	private final static ImageVisitable IMAGE_VISITABLE = new ImageVisitable();
 	private final static AbstractVisitable XML_VISITABLE = new XMLVisitable();
-	private final static PDFVisitable PDF_VISITABLE = new PDFVisitable();
 	private final static SVGVisitable SVG_VISITABLE = new SVGVisitable();
-	private final static TextVisitable TXT_VISITABLE = new TextVisitable();
 	private File inputFile;
 	private boolean isUrl;
 	private AbstractVisitor visitor;
@@ -148,12 +144,8 @@ public class VisitableInput {
 			visitable = new ImageVisitable();
 		} else if (FilenameUtils.isExtension(inputFile, XML_VISITABLE.getExtensions())) {
 			visitable = new XMLVisitable();
-		} else if (FilenameUtils.isExtension(inputFile, PDF_VISITABLE.getExtensions())) {
-			visitable = new PDFVisitable();
 		} else if (FilenameUtils.isExtension(inputFile, SVG_VISITABLE.getExtensions())) {
 			visitable = new SVGVisitable();
-		} else if (FilenameUtils.isExtension(inputFile, TXT_VISITABLE.getExtensions())) {
-			visitable = new TextVisitable();
 		}
 		if (visitable != null) {
 			visitable.setVisitorProperties(visitor);
@@ -169,8 +161,6 @@ public class VisitableInput {
 			visitable = new ImageVisitable();
 		} else if (isExtensionIn(extension,  XML_VISITABLE.getExtensions())) {
 			visitable = new XMLVisitable();
-		} else if (isExtensionIn(extension, PDF_VISITABLE.getExtensions())) {
-			visitable = new PDFVisitable();
 		} else if (isExtensionIn(extension, SVG_VISITABLE.getExtensions())) {
 			visitable = new SVGVisitable();
 		}

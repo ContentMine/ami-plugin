@@ -2,7 +2,6 @@ package org.xmlcml.ami.visitor.species;
 
 import java.io.File;
 import java.io.FileOutputStream;
-import java.io.IOException;
 import java.util.ArrayList;
 import java.util.List;
 
@@ -18,7 +17,6 @@ import org.xmlcml.ami.Fixtures;
 import org.xmlcml.ami.result.ResultsListElement;
 import org.xmlcml.ami.util.AMITestUtil;
 import org.xmlcml.ami.visitable.html.HtmlVisitable;
-import org.xmlcml.ami.visitable.pdf.PDFVisitable;
 import org.xmlcml.ami.visitable.svg.SVGVisitable;
 import org.xmlcml.ami.visitable.xml.XMLVisitable;
 import org.xmlcml.ami.visitor.AbstractVisitor;
@@ -228,6 +226,7 @@ public class SpeciesVisitorTest {
 	 * @throws Exception
 	 */
 	@Test
+	// URL
 	@Ignore // unles local
 	public void testSearchURL() throws Exception {
 		File outputDir = new File("target/species/journal.pone.0113556.xml/");
@@ -409,50 +408,6 @@ public class SpeciesVisitorTest {
 	}
 
 	@Test
-	@Ignore // takes too long for tests
-	public void testSpeciesPDF() throws Exception {
-		AbstractVisitor speciesVisitor = new SpeciesVisitor();
-		PDFVisitable pdfVisitable = new PDFVisitable();
-		pdfVisitable.addFile(Fixtures._329_PDF);
-		speciesVisitor.visit(pdfVisitable);
-		ResultsListElement results = speciesVisitor.getResultsElement();
-		XMLUtil.debug(results, new FileOutputStream("target/pdfResults.xml"), 1);
-	}
-	
-	@Test
-	@Ignore // till we sort directory stuff
-	public void testCommandlinePDF() throws Exception {
-		String userHome = System.getProperties().get("user.home").toString();
-		String[] args = new String[] {
-				"-i", Fixtures._329_PDF.toString(),
-				"-o", new File(Fixtures.AMI_OUT,"/pdf/").toString(),
-				"-e", EuclidSource.HTM,	EuclidSource.HTML
-		};
-		SpeciesVisitor.main(args);
-	}
-
-	@Test
-	@Ignore // too big for Hudson
-	public void testCommandlinePDF1() throws Exception {
-		String[] args = new String[] {
-				"-i", new File(Fixtures.XHTML_PDF_DIR, "multiple-1471-2148-11-312.pdf").toString(),
-				"-o", new File(Fixtures.AMI_OUT,"pdf/results312.xml").toString(),
-		};
-		SpeciesVisitor.main(args);
-	}
-
-	@Test
-	@Ignore // till we create new TestFramework
-	public void testCommandlinePDFDIR() throws Exception {
-		String[] args = new String[] {
-				"-i", new File(Fixtures.AMI_DIR, "pdfsmall").toString()+"/",
-				"-o", new File(Fixtures.AMI_OUT,"/pdf/").toString(),
-				"-e", EuclidSource.PDF
-		};
-		SpeciesVisitor.main(args);
-	}
-	
-	@Test
 	public void testUsage() throws Exception {
 		String[] args = null;
 		SpeciesVisitor.main(args);
@@ -464,28 +419,6 @@ public class SpeciesVisitorTest {
 		String[] args = new String[] {
 				"-o", new File(Fixtures.AMI_OUT,"/pdf/1471-2148-13-250.xml").toString(),
 				"-e", EuclidSource.PDF
-		};
-		SpeciesVisitor.main(args);
-	}
-	
-	@Test
-	@Ignore // fails on DTD
-	public void testBMCHTML() throws Exception {
-		String[] args = new String[] {
-				"-i", "http://www.biomedcentral.com/1471-2148/11/312",
-				"-o", new File(Fixtures.AMI_OUT,"/pdf/1471-2148-11-312.xml").toString(),
-				"-e", EuclidSource.HTML
-		};
-		SpeciesVisitor.main(args);
-	}
-		
-	@Test
-	@Ignore // NYI fails on itemscope and other HTML5
-	public void testPLOSHTML() throws Exception {
-		String[] args = new String[] {
-				"-i", "http://www.plosone.org/article/info%3Adoi%2F10.1371%2Fjournal.pone.0080753",
-				"-o", new File(Fixtures.AMI_OUT,"/xml/pone.0080753.xml").toString(),
-				"-e", EuclidSource.HTML
 		};
 		SpeciesVisitor.main(args);
 	}

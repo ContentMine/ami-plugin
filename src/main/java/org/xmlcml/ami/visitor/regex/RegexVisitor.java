@@ -8,13 +8,10 @@ import java.util.ListIterator;
 
 import org.apache.log4j.Logger;
 import org.xmlcml.ami.visitable.html.HtmlVisitable;
-import org.xmlcml.ami.visitable.pdf.PDFVisitable;
-import org.xmlcml.ami.visitable.txt.TextVisitable;
 import org.xmlcml.ami.visitable.xml.XMLVisitable;
 import org.xmlcml.ami.visitor.AbstractSearcher;
 import org.xmlcml.ami.visitor.AbstractVisitor;
 import org.xmlcml.ami.visitor.ArgProcessor;
-import org.xmlcml.ami.visitor.species.SpeciesSearcher;
 
 public class RegexVisitor extends AbstractVisitor {
 
@@ -66,20 +63,10 @@ public class RegexVisitor extends AbstractVisitor {
 	// ===================Called on Visitables===================
 	
 	@Override
-	public void visit(PDFVisitable pdfVisitable) {
-		doVisit(pdfVisitable);
-	}
-	
-	@Override
 	public void visit(HtmlVisitable htmlVisitable) {
 		doVisit(htmlVisitable);
 	}
 	
-	@Override
-	public void visit(TextVisitable textVisitable) {
-		doVisit(textVisitable);
-	}
-
 	@Override
 	public void visit(XMLVisitable xmlVisitable) {
 		doVisit(xmlVisitable);

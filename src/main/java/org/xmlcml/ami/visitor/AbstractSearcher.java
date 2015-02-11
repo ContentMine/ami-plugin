@@ -11,9 +11,7 @@ import org.xmlcml.ami.visitable.SourceElement;
 import org.xmlcml.ami.visitable.VisitableContainer;
 import org.xmlcml.ami.visitable.html.HtmlContainer;
 import org.xmlcml.ami.visitable.image.ImageContainer;
-import org.xmlcml.ami.visitable.pdf.PDFContainer;
 import org.xmlcml.ami.visitable.svg.SVGContainer;
-import org.xmlcml.ami.visitable.txt.TextContainer;
 import org.xmlcml.ami.visitable.xml.XMLContainer;
 
 /** tool for searching containers.
@@ -115,10 +113,6 @@ public abstract class AbstractSearcher {
 		resultElement.appendChild(sourceElement);
 		if (container instanceof HtmlContainer) {
 			search((HtmlContainer) container);
-		} else if (container instanceof PDFContainer) {
-			search((PDFContainer) container);
-		} else if (container instanceof TextContainer) {
-			search((TextContainer) container);
 		} else if (container instanceof XMLContainer) {
 			search((XMLContainer) container);
 		} else {
@@ -182,24 +176,10 @@ public abstract class AbstractSearcher {
 		throw new RuntimeException("Must overide search(ImageContainer)");
 	}
 	
-	protected void search(PDFContainer pdfContainer) {
-		LOG.error("converting PDF to HTML, using defaultSearch");
-		HtmlContainer htmlContainer = pdfContainer.getHtmlContainer();
-		if (htmlContainer != null) {
-			search(htmlContainer);
-		} else {
-			LOG.error("Cannot create HtmlContainer from PDF");
-		}
-	}
-
 	protected void search(SVGContainer svgContainer) {
 		throw new RuntimeException("Must overide search(SVGContainer)");
 	}
 
-	protected void search(TextContainer imageContainer) {
-		throw new RuntimeException("Must overide search(TextContainer)");
-	}
-	
 	protected void search(XMLContainer xmlContainer) {
 		LOG.error("Must overide search(XMLContainer), using defaultSearch");
 		defaultSearch(xmlContainer);
@@ -215,6 +195,12 @@ public abstract class AbstractSearcher {
 
 	public void setAbstractVisitor(AbstractVisitor abstractVisitor) {
 		this.abstractVisitor = abstractVisitor;
+	}
+
+	protected void ensureResultList(SourceElement sourceElement) {
+		if (resultList == null) {
+			resultList = new SimpleResultList(sourceElement);
+		}
 	}
 
 
