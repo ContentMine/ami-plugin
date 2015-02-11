@@ -354,7 +354,7 @@ public abstract class AbstractVisitor {
 		ensureInputList();
 		quickscrapeDirectoryList = argProcessor.getQuickscrapeDirectoryList();
 		if (inputList.size() > 0 && quickscrapeDirectoryList.size() > 0) {
-			LOG.error("Cannot process both -i and -f");
+			LOG.error("Cannot process both -i and -q");
 			return;
 		} else if (inputList.size() > 0) {
 			processInputList();

@@ -28,7 +28,7 @@ public class FromNormaTest {
 		File qd0115884 = new File(Fixtures.FROM_NORMA_DIR, "journal.pone.0115884.norma");
 		FileUtils.copyDirectory(qd0115884, qd0115884temp);
 		String[] args = {
-			"-f", qd0115884temp.toString(),    // output from norma
+			"-q", qd0115884temp.toString(),    // output from norma
 //			"-x", "nlm2html",                  // stylesheet to use (code)
 			"-e", "html"                       // type of file to transform
 		};

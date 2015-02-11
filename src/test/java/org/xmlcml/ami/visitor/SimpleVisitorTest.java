@@ -32,6 +32,8 @@ public class SimpleVisitorTest {
 	@Test
 	public void testCorrectSyntax() throws Exception {
 		parseCorrectParameters(new String[]{"-i", "foo"});
+		parseCorrectParameters(new String[]{"-i", "foo", "bar"});
+		parseCorrectParameters(new String[]{"-r", "true"});
 		try {
 			parseCorrectParameters(new String[]{"-i"});
 			Assert.fail("should throw exception");
@@ -49,6 +51,8 @@ public class SimpleVisitorTest {
 				"RuntimeException: cannot process argument: -y (IllegalArgumentException: argument count (3) is not compatible with {1,2})");
 		parseIncorrectParameters(new String[]{"-y", "100", "TWO", }, 
 				"RuntimeException: cannot process argument: -y (NumberFormatException: For input string: \"TWO\")");
+		parseIncorrectParameters(new String[]{"-r"}, 
+				"RuntimeException: cannot process argument: -r (IllegalArgumentException: argument count (0) is not compatible with {1,1})");
 	}
 
 	// ====================================================
