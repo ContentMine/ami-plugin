@@ -54,7 +54,7 @@ public class SimpleVisitor extends AbstractVisitor {
 	}
 	
 	public String getDescription() {
-		return "SimpleVisitor template for tutorial and development purposes; does nothing";
+		return "SimpleVisitor template for tutorial and development purposes; examples include wordFrquencies and wordLengths";
 
 	}
 	

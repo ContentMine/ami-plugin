@@ -299,7 +299,18 @@
 		    <artifactId>chemicalTagger</artifactId>
 		    <version>1.4.0</version>
 		</dependency>
-		
+		<dependency>
+			<groupId>org.apache.lucene</groupId>
+			<artifactId>lucene-core</artifactId>
+			<version>4.10.3</version>
+		</dependency>
+		<dependency>
+			<groupId>org.apache.lucene</groupId>
+			<artifactId>lucene-analyzers-common</artifactId>
+			<version>4.10.3</version>
+		</dependency>
+
+		<!-- tests -->
 		<dependency>
 			<groupId>junit</groupId>
 			<artifactId>junit</artifactId>

@@ -11,7 +11,6 @@ import org.xmlcml.ami.visitable.html.HtmlVisitable;
 import org.xmlcml.ami.visitable.xml.XMLVisitable;
 import org.xmlcml.ami.visitor.AbstractSearcher;
 import org.xmlcml.ami.visitor.AbstractVisitor;
-import org.xmlcml.ami.visitor.ArgProcessor;
 
 public class RegexVisitor extends AbstractVisitor {
 
@@ -111,19 +110,19 @@ public class RegexVisitor extends AbstractVisitor {
 		processArgs();
 	}
 
-	@Override
-	/** only reads URLs?
-	 * 
-	 */
-	protected boolean processArg(String arg, ListIterator<String> listIterator) {
-		boolean processed = false;
-		if (G.equals(arg) || REGEX.equals(arg)) {
-			regexFiles = extractArgs(listIterator);
-			addRegexFiles(regexFiles);
-			processed = true;
-		}
-		return processed;
-	}
+//	@Override
+//	/** only reads URLs?
+//	 * 
+//	 */
+//	protected boolean processArg(String arg, ListIterator<String> listIterator) {
+//		boolean processed = false;
+//		if (G.equals(arg) || REGEX.equals(arg)) {
+//			regexFiles = extractArgs(listIterator);
+//			addRegexFiles(regexFiles);
+//			processed = true;
+//		}
+//		return processed;
+//	}
 
 	private RegexContainer addRegexFiles(List<String> regexLocations) {
 		List<File> regexFiles = new ArrayList<File>();
@@ -153,18 +152,18 @@ public class RegexVisitor extends AbstractVisitor {
 		return regexContainer;
 	}
 
-	protected List<String> extractArgs(ListIterator<String> listIterator) {
-		List<String> argList = new ArrayList<String>();
-		while (listIterator.hasNext()) {
-			String next = listIterator.next();
-			if (next.startsWith(ArgProcessor.MINUS)) {
-				listIterator.previous();
-				break;
-			}
-			argList.add(next);
-		}
-		return argList;
-	}
+//	protected List<String> extractArgs(ListIterator<String> listIterator) {
+//		List<String> argList = new ArrayList<String>();
+//		while (listIterator.hasNext()) {
+//			String next = listIterator.next();
+//			if (next.startsWith(ArgProcessor.MINUS)) {
+//				listIterator.previous();
+//				break;
+//			}
+//			argList.add(next);
+//		}
+//		return argList;
+//	}
 
 	public void addRegexFile(String filename) {
 		File file = new File(filename);

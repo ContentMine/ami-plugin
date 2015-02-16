@@ -13,7 +13,6 @@ import org.xmlcml.ami.result.SimpleResultList;
 import org.xmlcml.ami.visitable.html.HtmlContainer;
 import org.xmlcml.ami.visitable.xml.XMLContainer;
 import org.xmlcml.ami.visitor.AbstractSearcher;
-import org.xmlcml.ami.visitor.ArgProcessor;
 import org.xmlcml.ami.visitor.EIC;
 import org.xmlcml.ami.visitor.SimpleListElement;
 
@@ -139,31 +138,31 @@ public class RegexSearcher extends AbstractSearcher {
 	}
 
 	// ====== args ========
-	protected List<String> extractArgs(ListIterator<String> listIterator) {
-		List<String> argList = new ArrayList<String>();
-		while (listIterator.hasNext()) {
-			String next = listIterator.next();
-			if (next.startsWith(ArgProcessor.MINUS)) {
-				listIterator.previous();
-				break;
-			}
-			argList.add(next);
-		}
-		return argList;
-	}
+//	protected List<String> extractArgs(ListIterator<String> listIterator) {
+//		List<String> argList = new ArrayList<String>();
+//		while (listIterator.hasNext()) {
+//			String next = listIterator.next();
+//			if (next.startsWith(ArgProcessor.MINUS)) {
+//				listIterator.previous();
+//				break;
+//			}
+//			argList.add(next);
+//		}
+//		return argList;
+//	}
 
-	/**
-	 * 
-	 */
-	protected boolean processArg(String arg, ListIterator<String> listIterator) {
-		boolean processed = false;
-		if (G.equals(arg) || REGEX.equals(arg)) {
-			regexFiles = extractArgs(listIterator);
-			addRegexFiles(regexFiles);
-			processed = true;
-		}
-		return processed;
-	}
+//	/**
+//	 * 
+//	 */
+//	protected boolean processArg(String arg, ListIterator<String> listIterator) {
+//		boolean processed = false;
+//		if (G.equals(arg) || REGEX.equals(arg)) {
+//			regexFiles = extractArgs(listIterator);
+//			addRegexFiles(regexFiles);
+//			processed = true;
+//		}
+//		return processed;
+//	}
 
 	private void searchXomElement(Element xomElement) {
 		ensureResultList(sourceElement);

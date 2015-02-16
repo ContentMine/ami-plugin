@@ -17,7 +17,7 @@ import org.xmlcml.files.EuclidSource;
  * @author pm286
  */
 @Deprecated // use AMIArgProcessor
-public class ArgProcessor {
+class ArgProcessor {
 
 	private final static Logger LOG = Logger.getLogger(ArgProcessor.class);
 	

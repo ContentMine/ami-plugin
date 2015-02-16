@@ -119,7 +119,10 @@ public class Fixtures {
 	public static final File RESULTS_0113556 = new File(PLOSONE_DIR, "journal.pone.0113556.results.xml");
 	public static final File RESULTS_ABSTRACT_0113556 = new File(PLOSONE_DIR, "journal.pone.0113556.results.abstract.xml");
 	public static final File RESULTS_FIGURES_0113556 = new File(PLOSONE_DIR, "journal.pone.0113556.results.figures.xml");
-	
+
+	// BMC
+	public static final File BMC_DIR = new File(TEST_AMI_DIR, "bmc");
+
 	//SECTIONS
 	public static final File SECTIONS_DIR = new File(TEST_AMI_DIR, "sections");
 	public static final File BMC_SECTIONS = new File(SECTIONS_DIR, "bmc");

@@ -1,6 +1,7 @@
 package org.xmlcml.ami.visitor;
 
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.List;
 
 import org.apache.log4j.Level;
@@ -17,6 +18,7 @@ import org.xmlcml.args.DefaultArgProcessor;
  */
 public class AMIArgProcessor extends DefaultArgProcessor{
 	
+
 	public static final Logger LOG = Logger.getLogger(AMIArgProcessor.class);
 	static {
 		LOG.setLevel(Level.DEBUG);
@@ -28,11 +30,19 @@ public class AMIArgProcessor extends DefaultArgProcessor{
 	public final static String RESOURCE_NAME_TOP = "/org/xmlcml/ami/visitor";
 	private static String ARGS_RESOURCE = RESOURCE_NAME_TOP+"/"+"args.xml";
 	
+	public static final String WORD_FREQUENCIES = "wordFrequencies";
+	public static final String WORD_LENGTHS = "wordLengths";
+	public static List<String> HARDCODED_PARAMS = Arrays.asList(new String[] {WORD_LENGTHS, WORD_FREQUENCIES});
+	
 	Integer[] contextCount = new Integer[] {100, 100};
 	
 	private List<VisitableInput> visitableInputList;
 	private VisitorOutput visitorOutput;
 	private XPathProcessor xPathProcessor;
+
+	private List<String> params;
+
+
 	
 	public AMIArgProcessor() {
 		super();
@@ -90,8 +100,13 @@ public class AMIArgProcessor extends DefaultArgProcessor{
 	}
 
 	public void parseParam(ArgumentOption argOption, ArgIterator argIterator) {
-		List<String> params = argIterator.createTokenListUpToNextMinus(argOption);
-		LOG.debug("The parameters are..."+params+"; override this if you want to use your own parseParam()");
+		setParams(argIterator.createTokenListUpToNextMinus(argOption));
+		for (String param : getParams()) {
+			if (!HARDCODED_PARAMS.contains(param)) {
+				LOG.debug("The parameters can be "+HARDCODED_PARAMS +"found..."+getParams()+";");
+				throw new RuntimeException("Bad param: "+param);
+			}
+		}
 	}
 
 	public void parseTest(ArgumentOption argOption, ArgIterator argIterator) {
@@ -129,6 +144,14 @@ public class AMIArgProcessor extends DefaultArgProcessor{
 	public void debug() {
 		// TODO Auto-generated method stub
 		
+	}
+
+	public List<String> getParams() {
+		return params;
+	}
+
+	public void setParams(List<String> params) {
+		this.params = params;
 	}
 
 

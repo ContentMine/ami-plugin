@@ -1,0 +1,16 @@
+
+
+Writing a custom Analyzer that has a stemmer in the analyzer chain should suffice.
+
+Here is the sample code that uses PorterStemFilter in Lucene 4.1
+
+ class MyAnalyzer extends Analyzer {
+  @Override
+  protected TokenStreamComponents createComponents(String fieldName, Reader reader) {
+    Tokenizer source = new LowerCaseTokenizer(version, reader);
+    return new TokenStreamComponents(source, new PorterStemFilter(source));
+  }
+}
+Please note that you MUST use the same custom Analyzer while querying which is used for indexing as well.
+
+You may find the sample code for your version of Lucene in the corresponding PorterStemFilter documentation.
