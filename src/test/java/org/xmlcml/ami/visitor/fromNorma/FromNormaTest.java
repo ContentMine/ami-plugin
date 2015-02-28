@@ -11,7 +11,8 @@ import org.junit.Test;
 import org.xmlcml.ami.Fixtures;
 import org.xmlcml.ami.visitor.AMIArgProcessor;
 import org.xmlcml.ami.visitor.species.SpeciesVisitor;
-import org.xmlcml.files.QuickscrapeDirectory;
+import org.xmlcml.files.QuickscrapeNorma;
+import org.xmlcml.files.QuickscrapeNormaList;
 
 public class FromNormaTest {
 
@@ -36,11 +37,11 @@ public class FromNormaTest {
 		speciesVisitor.processArgs(args);
 		AMIArgProcessor argProcessor = speciesVisitor.getArgProcessor();
 //		LOG.debug(argProcessor.createDebugString());
-		List<QuickscrapeDirectory> quickscrapeDirectoryList = argProcessor.getQuickscrapeDirectoryList();
-		Assert.assertNotNull(quickscrapeDirectoryList);
-		Assert.assertEquals("QuickscrapeDirectory/s",  1,  quickscrapeDirectoryList.size());
-		QuickscrapeDirectory quickscrapeDirectory = quickscrapeDirectoryList.get(0);
-		List<File> files = quickscrapeDirectory.listFiles(true);
+		QuickscrapeNormaList quickscrapeNormaList = argProcessor.getQuickscrapeNormaList();
+		Assert.assertNotNull(quickscrapeNormaList);
+		Assert.assertEquals("QuickscrapeNorma/s",  1,  quickscrapeNormaList.size());
+		QuickscrapeNorma quickscrapeNorma = quickscrapeNormaList.get(0);
+		List<File> files = quickscrapeNorma.listFiles(true);
 		for (File file : files) {
 			LOG.debug(file);
 		}

@@ -19,6 +19,7 @@ import org.xmlcml.ami.result.SimpleResultWrapper;
 import org.xmlcml.ami.visitable.VisitableContainer;
 import org.xmlcml.ami.visitable.html.HtmlContainer;
 import org.xmlcml.ami.visitable.xml.XMLContainer;
+import org.xmlcml.ami.visitor.words.WordSetWrapper;
 
 import com.google.common.collect.HashMultiset;
 import com.google.common.collect.ImmutableSortedMultiset;
@@ -28,11 +29,10 @@ import com.google.common.collect.Multisets;
 
 public class SimpleSearcher extends AbstractSearcher {
 
-	
-	public static final String STOPWORDS_TXT = "/org/xmlcml/ami/visitor/words/stopwords.txt";
 	private static final Logger LOG = Logger.getLogger(SimpleSearcher.class);
+	
 	private static final int MIN_COUNT = 4;
-	private Set<String> stopwords;
+	private WordSetWrapper stopwords;
 	private List<String> rawWords;
 	private VisitableContainer container;
 	static {
@@ -101,7 +101,7 @@ public class SimpleSearcher extends AbstractSearcher {
 	}
 
 	private List<String> splitToWords() {
-		stopwords = getStopwords(STOPWORDS_TXT);
+		stopwords = WordSetWrapper.getCommonEnglishStopwordSet();
 		rawWords = new ArrayList<String>();
 		String value = container.getElement().getValue().trim();
 		String[] words = value.split("\\W\\s*");
@@ -112,20 +112,6 @@ public class SimpleSearcher extends AbstractSearcher {
 			}
 		}
 		return rawWords;
-	}
-
-	public static Set<String> getStopwords(String stopwordsResource) {
-		InputStream stopwordsStream = SimpleSearcher.class.getResourceAsStream(stopwordsResource);
-		Set<String> stopwords0 = new HashSet<String>();
-		try {
-			List<String> lines = IOUtils.readLines(stopwordsStream);
-			for (String line : lines) {
-				stopwords0.add(line.trim());
-			}
-		} catch (IOException e) {
-			throw new RuntimeException("cannot find stopwords "+stopwordsResource);
-		}
-		return stopwords0;
 	}
 
 	private void outputResults(Element lengthsElement) {

@@ -3,8 +3,6 @@
 		brief="-r.r"
 		long="--r.regex"
 		args="location [location ...]"
-		class="java.lang.String"
-		default=""
 		countRange="{1,*}"
 		parseMethod="parseRegex"
 		>

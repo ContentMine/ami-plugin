@@ -25,7 +25,8 @@ import org.xmlcml.ami.visitable.svg.SVGContainer;
 import org.xmlcml.ami.visitable.svg.SVGVisitable;
 import org.xmlcml.ami.visitable.xml.XMLContainer;
 import org.xmlcml.ami.visitable.xml.XMLVisitable;
-import org.xmlcml.files.QuickscrapeDirectory;
+import org.xmlcml.files.QuickscrapeNorma;
+import org.xmlcml.files.QuickscrapeNormaList;
 
 /** visits the visitables (data).
  * 
@@ -57,7 +58,7 @@ public abstract class AbstractVisitor {
 	private List<String> taggerNames;
 	protected AMIArgProcessor argProcessor;
 
-	private List<QuickscrapeDirectory> quickscrapeDirectoryList;
+	private QuickscrapeNormaList quickscrapeNormaList;
 
 	private List<AbstractVisitable> visitableList;
 
@@ -352,29 +353,33 @@ public abstract class AbstractVisitor {
 
 	private void visitVistablesAndWriteOutputFiles() {
 		ensureInputList();
-		quickscrapeDirectoryList = argProcessor.getQuickscrapeDirectoryList();
-		if (inputList.size() > 0 && quickscrapeDirectoryList.size() > 0) {
+		quickscrapeNormaList = argProcessor.getQuickscrapeNormaList();
+		if (inputList.size() > 0 && quickscrapeNormaList.size() > 0) {
 			LOG.error("Cannot process both -i and -q");
 			return;
 		} else if (inputList.size() > 0) {
 			processInputList();
-		} else if (quickscrapeDirectoryList.size() > 0) {
-			processQuickscrapeDirectoryList();
+		} else if (quickscrapeNormaList.size() > 0) {
+			processQuickscrapeNormaList();
 		} else {
-			LOG.error("Must give input files or quickscrapeDirectory");
+			LOG.error("Must give input files or quickscrapeNorma");
 		}
 	}
 
-	private void processQuickscrapeDirectoryList() {
+	private void processQuickscrapeNormaList() {
 		visitableList = new ArrayList<AbstractVisitable>();
-		for (QuickscrapeDirectory quickscrapeDirectory : quickscrapeDirectoryList) {
-			File shtmlFile = quickscrapeDirectory.getScholarlyHTML();
+		for (QuickscrapeNorma quickscrapeNorma : quickscrapeNormaList) {
+			File shtmlFile = quickscrapeNorma.getExistingScholarlyHTML();
+			if (shtmlFile == null) {
+				LOG.error("Cannot find existingScholarlyHTML in "+quickscrapeNorma);
+				continue;
+			}
 			HtmlVisitable visitable = new HtmlVisitable();
 			try {
 				visitable.addFile(shtmlFile);
 //				visitableList.add(visitable);
 				visit(visitable);
-				quickscrapeDirectory.writeResults(this.getResultsDirName(), resultsElement.toXML());
+				quickscrapeNorma.writeResults(this.getResultsDirName(), resultsElement.toXML());
 			} catch (Exception e) {
 				LOG.error("Cannot process SHTML "+shtmlFile +"; "+e);
 			}

@@ -2,6 +2,7 @@ package org.xmlcml.ami.visitor;
 
 import java.io.File;
 import java.io.FileOutputStream;
+import java.io.IOException;
 import java.io.StringReader;
 import java.util.Set;
 
@@ -25,6 +26,7 @@ import org.junit.Assert;
 import org.junit.Ignore;
 import org.junit.Test;
 import org.xmlcml.ami.Fixtures;
+import org.xmlcml.ami.visitor.words.WordSetWrapper;
 import org.xmlcml.files.EuclidSource;
 import org.xmlcml.xml.XMLUtil;
 
@@ -37,6 +39,7 @@ import com.google.common.collect.Multisets;
 public class SimpleVisitorTest {
 
 	
+	private static final int MIN_STEMMED_LENGTH = 2;
 	private static final Logger LOG = Logger.getLogger(SimpleVisitorTest.class);
 	static {
 		LOG.setLevel(Level.DEBUG);
@@ -167,28 +170,19 @@ public class SimpleVisitorTest {
 	
 	@Test
 	public void testLuceneStemmming() throws Exception{
-		MyAnalyzer testAnalyzer = new MyAnalyzer();
+		WordAnalyzer testAnalyzer = new WordAnalyzer();
+		WordSetWrapper stopwordSet = WordSetWrapper.getCommonEnglishStopwordSet();
 		String fieldName = Version.LUCENE_4_10_3.toString();
-		Document doc = XMLUtil.parseQuietlyToDocument(
+		Document documentToBeAnalyzed = XMLUtil.parseQuietlyToDocument(
 				new File("src/test/resources/org/xmlcml/ami/plosone/journal.pone.0115884/fromnorma.html"));
-		TokenStreamComponents tokenStreamComponents = testAnalyzer.createComponents(fieldName, new StringReader(doc.getValue()));
-		TokenStream tokenStream = tokenStreamComponents.getTokenStream();
-		CharTermAttribute cattr = tokenStream.addAttribute(CharTermAttribute.class);
-		tokenStream.reset();
-		Set<String> stopwords = SimpleSearcher.getStopwords(SimpleSearcher.STOPWORDS_TXT);
-		Multiset<String> wordSet = HashMultiset.create(); 
-		while (tokenStream.incrementToken()) {
-			 String rawWord = cattr.toString();
-			if (!stopwords.contains(rawWord) && rawWord.length() > 2) { //remove stopwords and short strings
-				wordSet.add(rawWord);
-			}
-		}
+		WordSetWrapper wordSet = createWordSet(testAnalyzer, stopwordSet, documentToBeAnalyzed);
+		
 		Iterable<Multiset.Entry<String>> entriesSortedByCount = 
-			Multisets.copyHighestCountFirst(wordSet).entrySet();
-		Iterable<Multiset.Entry<String>> entriesSortedByValue =
-			ImmutableSortedMultiset.copyOf(wordSet).entrySet();
+			Multisets.copyHighestCountFirst(wordSet.getMultiset()).entrySet();
 		Iterable<Multiset.Entry<String>> sortedEntries = entriesSortedByCount;
-//			Iterable<Multiset.Entry<String>> sortedEntries = entriesSortedByValue;
+		Iterable<Multiset.Entry<String>> entriesSortedByValue =
+			ImmutableSortedMultiset.copyOf(wordSet.getMultiset()).entrySet();
+//		Iterable<Multiset.Entry<String>> sortedEntries = entriesSortedByValue;
 		
 		Element lengthsElement = new Element("frequencies");
 		for (Entry<String> entry : sortedEntries) {
@@ -202,9 +196,28 @@ public class SimpleVisitorTest {
 		LOG.debug(lengthsElement.toXML());
 		XMLUtil.debug(lengthsElement, new FileOutputStream("target/frequencyTest.xml"),1);
 
+		testAnalyzer.close();
+	}
+
+	private static WordSetWrapper createWordSet(WordAnalyzer testAnalyzer,
+			WordSetWrapper stopwordSet, Document documentToBeAnalyzed)
+			throws IOException {
+		TokenStreamComponents tokenStreamComponents = 
+				testAnalyzer.createComponents(Version.LUCENE_4_10_3.toString(), new StringReader(documentToBeAnalyzed.getValue()));
+		TokenStream tokenStream = tokenStreamComponents.getTokenStream();
+		CharTermAttribute cattr = tokenStream.addAttribute(CharTermAttribute.class);
+		tokenStream.reset();
+		Multiset<String> multiset = HashMultiset.create(); 
+		while (tokenStream.incrementToken()) {
+			 String rawWord = cattr.toString();
+			if (!stopwordSet.contains(rawWord) && rawWord.length() > MIN_STEMMED_LENGTH) { //remove stopwords and short strings
+				multiset.add(rawWord);
+			}
+		}
 		tokenStream.end();
 		tokenStream.close();
-		testAnalyzer.close();
+		
+		return new WordSetWrapper(multiset);
 	}
 
 	// ====================================================
@@ -235,11 +248,13 @@ public class SimpleVisitorTest {
 	}
 	
 	@Test
-	@Ignore // FIXME -p should be parsed
 	public void testArgs() throws Exception {
 		String[] args = new String[] {
 				"-i", new File(Fixtures.TEST_REGEX_DIR, "genbank0.xml").toString(),
-				"-p", "these", "are", "test", "params",
+				"-p", "wordLengths", 
+				"-t1", "a", "b", "c",
+				"-y", "10", "20",
+				"-x", "//*",
 				"-e", EuclidSource.XML
 		};
 		SimpleVisitor.main(args);
@@ -247,7 +262,7 @@ public class SimpleVisitorTest {
 	
 	
 }
-class MyAnalyzer extends Analyzer {
+class WordAnalyzer extends Analyzer {
 	  @Override
 	  protected TokenStreamComponents createComponents(String fieldName, java.io.Reader reader) {
 	    Tokenizer source = new LowerCaseTokenizer(getVersion(), reader);

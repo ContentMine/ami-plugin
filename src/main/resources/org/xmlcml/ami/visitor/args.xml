@@ -21,8 +21,6 @@
 		brief="-p"
 		long="--param"
 		args="string [string]"
-		class="java.lang.String"
-		default=""
 		countRange="{1,*}"
 		parseMethod="parseParam"
 		>
@@ -40,8 +38,6 @@
 		brief="-x"
 		long="--xpath"
 		args="xpath [xpath]"
-		class="java.lang.String"
-		default=""
 		countRange="{1,*}"
 		parseMethod="parseXpath"
 		>
@@ -57,8 +53,6 @@
 		brief="-t1"
 		long="--test1"
 		args="string [string ...]"
-		class="java.lang.String"
-		default=""
 		countRange="{1,*}"
 		parseMethod="parseTest"
 		pattern="foo|bar[^\s]*|[A-Z]{2}[0-9]{6}"

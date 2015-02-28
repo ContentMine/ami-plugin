@@ -42,9 +42,9 @@ public class RegexArgProcessor extends AMIArgProcessor {
 
 	// =============== METHODS ==============
 
-	public void parseRegex(ArgumentOption argOption, ArgIterator argIterator) {
-		List<String> inputs = argIterator.createTokenListUpToNextMinus(argOption);
-		List<String> regexLocations = argOption.processArgs(inputs).getStringValues();
+	public void parseRegex(ArgumentOption option, ArgIterator argIterator) {
+		List<String> tokens= argIterator.createTokenListUpToNextMinus(option);
+		List<String> regexLocations = option.processArgs(tokens).getStringValues();
 		ensureRegexContainerList();
 		for (String regexLocation : regexLocations) {
 			try {

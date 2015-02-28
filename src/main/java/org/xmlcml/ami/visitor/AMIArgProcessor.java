@@ -64,8 +64,8 @@ public class AMIArgProcessor extends DefaultArgProcessor{
 
 	// =============== METHODS ==============
 
-	public void parseInput(ArgumentOption divOption, ArgIterator argIterator) {
-		super.parseInput(divOption, argIterator);
+	public void parseInput(ArgumentOption option, ArgIterator argIterator) {
+		super.parseInput(option, argIterator);
 		if (inputList.size() > 0) {
 			visitableInputList = new ArrayList<VisitableInput>();
 			for (String input : inputList) {
@@ -75,32 +75,32 @@ public class AMIArgProcessor extends DefaultArgProcessor{
 		}
 	}
 	
-	public void parseXpath(ArgumentOption argOption, ArgIterator argIterator) {
-		List<String> xpaths = argIterator.createTokenListUpToNextMinus(argOption);
-		if (xpaths.size() == 0) {
+	public void parseXpath(ArgumentOption option, ArgIterator argIterator) {
+		List<String> tokens = argIterator.createTokenListUpToNextMinus(option);
+		if (tokens.size() == 0) {
 //			LOG.debug(XPATH_OPTION).getHelp());
-		} else if (xpaths.size() > 1) {
+		} else if (tokens.size() > 1) {
 			LOG.debug("Exactly one xpath required");
 		} else {
-			xPathProcessor = new XPathProcessor(xpaths.get(0));
+			xPathProcessor = new XPathProcessor(tokens.get(0));
 		}
 	}
 
-	public void parseContext(ArgumentOption argOption, ArgIterator argIterator) {
-		List<String> contexts = argIterator.createTokenListUpToNextMinus(argOption);
-		if (contexts.size() == 0) {
+	public void parseContext(ArgumentOption option, ArgIterator argIterator) {
+		List<String> tokens = argIterator.createTokenListUpToNextMinus(option);
+		if (tokens.size() == 0) {
 			throw new IllegalArgumentException("required argument/s missing");
 		}
-		contextCount[0] = new Integer(contexts.get(0));
-		if (contexts.size() == 2) {
-			contextCount[1] = new Integer(contexts.get(1));
+		contextCount[0] = new Integer(tokens.get(0));
+		if (tokens.size() == 2) {
+			contextCount[1] = new Integer(tokens.get(1));
 		} else {
 			contextCount[1] = contextCount[0];
 		}
 	}
 
-	public void parseParam(ArgumentOption argOption, ArgIterator argIterator) {
-		setParams(argIterator.createTokenListUpToNextMinus(argOption));
+	public void parseParam(ArgumentOption option, ArgIterator argIterator) {
+		setParams(argIterator.createTokenListUpToNextMinus(option));
 		for (String param : getParams()) {
 			if (!HARDCODED_PARAMS.contains(param)) {
 				LOG.debug("The parameters can be "+HARDCODED_PARAMS +"found..."+getParams()+";");
@@ -109,9 +109,9 @@ public class AMIArgProcessor extends DefaultArgProcessor{
 		}
 	}
 
-	public void parseTest(ArgumentOption argOption, ArgIterator argIterator) {
-		List<String> test = argIterator.createTokenListUpToNextMinus(argOption);
-		LOG.debug("The test strings are..."+test+"; override this if you want to use your own parseTest()");
+	public void parseTest(ArgumentOption option, ArgIterator argIterator) {
+		List<String> tokens = argIterator.createTokenListUpToNextMinus(option);
+		LOG.debug("The test strings are..."+tokens+"; override this if you want to use your own parseTest()");
 	}
 
 

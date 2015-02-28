@@ -74,15 +74,17 @@ public class NormaChainTest {
 	 * 
 	 */
 	@Test
+	@Ignore // not a well structured example // FIXME
 	public void NormaXML2AMI() throws Exception {
 		File normaOutputFile = new File("target/plosone/0115884.fromnorma.html");
 		LOG.error("Use getResource() for stylesheet");
 		String[] args = {
-				"-i", new File(Fixtures.PLOSONE_DIR, "journal.pone.0115884/fulltext.xml").toString(),
+				"-q", new File(Fixtures.PLOSONE_DIR, "journal.pone.0115884").toString(),
+				"--input", "fulltext.xml",
 				"-p", "plosone",
 // works but ucky, need to get it as a resource
-				"-x", "src/main/resources/org/xmlcml/norma/pubstyle/nlm/toHtml.xsl",
-				"-o", normaOutputFile.toString(),
+				"--xsl", "src/main/resources/org/xmlcml/norma/pubstyle/nlm/toHtml.xsl",
+				"--output", "scholarly.html",
 		};
 		org.xmlcml.norma.Norma norma = new Norma();
 		norma.run(args);

@@ -20,11 +20,8 @@ public class RegexSearcher extends AbstractSearcher {
 
 	public final static Logger LOG = Logger.getLogger(RegexSearcher.class);
 	
-	private static final String G          = "-g";
-	private static final String REGEX      = "--regex";
-
 	List<RegexComponent> componentList;
-	private List<String> regexFiles;
+//	private List<String> regexFiles;
 
 	private List<RegexContainer> regexContainerList;
 
