@@ -12,6 +12,7 @@ import org.xmlcml.ami.visitor.regex.RegexVisitor;
 import org.xmlcml.ami.visitor.species.SpeciesVisitor;
 import org.xmlcml.norma.Norma;
 
+@Ignore
 public class NormaChainTest {
 
 	
