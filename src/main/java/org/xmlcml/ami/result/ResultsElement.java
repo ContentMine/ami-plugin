@@ -1,17 +1,14 @@
 package org.xmlcml.ami.result;
 
-import org.apache.log4j.Logger;
-import org.xmlcml.ami.AbstractAMIElement;
+import nu.xom.Element;
 
-public class ResultsElement extends AbstractAMIElement {
-	
-	private static final Logger LOG = Logger.getLogger(ResultsElement.class);
-	
-	public final static String TAG = "resultsX";
-	
+public class ResultsElement extends Element {
+
+	public static final String TAG = "results";
+
 	public ResultsElement() {
 		super(TAG);
 	}
-
-
+	
+	
 }

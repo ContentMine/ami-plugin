@@ -29,7 +29,6 @@ import nu.xom.Node;
 import nu.xom.Nodes;
 
 import org.apache.log4j.Logger;
-import org.xmlcml.ami.visitable.SourceElement;
 import org.xmlcml.xml.XMLConstants;
 import org.xmlcml.xml.XMLUtil;
 
@@ -76,11 +75,9 @@ public abstract class AbstractAMIElement extends Element implements XMLConstants
 		String namespaceURI = element.getNamespaceURI();
 		if (!XHTML_NS.equals(namespaceURI)) {
 			// might be SVG
-			throw new RuntimeException("Multiple Namespaces NYI "+namespaceURI);
-		} else if(SourceElement.TAG.equals(tag)) {
-			searchElement = new SourceElement();
+			LOG.error("Multiple Namespaces NYI "+namespaceURI);
 		} else {
-			throw new RuntimeException("Unknown html tag "+tag);
+			LOG.error("Unknown html tag "+tag);
 		}
 		XMLUtil.copyAttributes(element, searchElement);
 		for (int i = 0; i < element.getChildCount(); i++) {

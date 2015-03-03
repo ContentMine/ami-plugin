@@ -1,0 +1,19 @@
+<argList>
+	<arg name="words" 
+		brief="-w.w"
+		long="--w.words"
+		args="?"
+		countRange="{0,*}"
+		parseMethod="parseWords"
+		runMethod="extractWords"
+		>
+		<help>
+		
+			WORDS:
+			extractWords() allows for various extraction of words such as BagOfWords, Stemming, etc.
+			
+		</help>
+	</arg>	
+	
+</argList>
+			
