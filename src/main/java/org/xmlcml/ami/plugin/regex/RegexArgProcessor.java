@@ -9,7 +9,6 @@ import org.apache.log4j.Logger;
 import org.xmlcml.ami.plugin.AMIArgProcessor;
 import org.xmlcml.args.ArgIterator;
 import org.xmlcml.args.ArgumentOption;
-import org.xmlcml.html.HtmlElement;
 import org.xmlcml.html.HtmlP;
 
 /** 
@@ -60,14 +59,10 @@ public class RegexArgProcessor extends AMIArgProcessor {
 	
 	public void runRegex(ArgumentOption option) {
 		LOG.debug("Running REGEX NYI");
-		List<HtmlP> pElements = extracted();
-		LOG.debug(pElements.size());
-	}
-
-	private List<HtmlP> extracted() {
-		HtmlElement htmlElement = AMIArgProcessor.getScholarlyHtmlElement(currentQuickscrapeNorma);
-		List<HtmlP> pElements = HtmlP.extractSelfAndDescendantIs(htmlElement);
-		return pElements;
+		List<HtmlP> pElements = extractPElements();
+		for (HtmlP pElement : pElements) {
+//			search(pElement);
+		}
 	}
 
 	public void outputResultElements(ArgumentOption option) {
