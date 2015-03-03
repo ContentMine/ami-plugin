@@ -4,9 +4,9 @@
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>org.xml-cml</groupId>
 	<artifactId>ami-plugin</artifactId>
-	<version>1.0</version>
+	<version>0.1-SNAPSHOT</version>
 	<description>Converts HTML, SVG and PNG to STM.</description>
-        <name>AMI</name>
+    <name>AMI</name>
 	<parent>
 		<groupId>uk.ac.cam.ch.wwmm</groupId>
 		<artifactId>wwmm-parent</artifactId>
@@ -276,7 +276,7 @@
 		</dependency>
 		<dependency>
 			<groupId>org.xml-cml</groupId>
-			<artifactId>nhtml</artifactId>
+			<artifactId>norma</artifactId>
 			<version>0.1-SNAPSHOT</version>
 		</dependency>
 		<dependency>
