@@ -12,9 +12,10 @@ import org.junit.Assert;
 import org.junit.Ignore;
 import org.junit.Test;
 import org.xmlcml.ami.Fixtures;
-import org.xmlcml.ami.plugin.AMIArgProcessor;
-import org.xmlcml.ami.plugin.simple.SimpleArgProcessor;
-import org.xmlcml.ami.plugin.simple.SimplePlugin;
+import org.xmlcml.ami.plugin.plugins.AMIArgProcessor;
+import org.xmlcml.ami.plugin.plugins.regex.RegexPlugin;
+import org.xmlcml.ami.plugin.plugins.simple.SimpleArgProcessor;
+import org.xmlcml.ami.plugin.plugins.simple.SimplePlugin;
 import org.xmlcml.files.QuickscrapeNorma;
 import org.xmlcml.xml.XMLUtil;
 
