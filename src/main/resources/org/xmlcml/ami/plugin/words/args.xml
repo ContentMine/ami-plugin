@@ -2,16 +2,61 @@
 	<arg name="words" 
 		brief="-w.w"
 		long="--w.words"
-		args="?"
+		args="method [method...]"
 		countRange="{0,*}"
 		parseMethod="parseWords"
 		runMethod="extractWords"
+		outputMethod="outputWords"
 		>
 		<help>
 		
 			WORDS:
 			extractWords() allows for various extraction of words such as BagOfWords, Stemming, etc.
+			"operations" include:
 			
+			
+		</help>
+	</arg>	
+	
+	<arg name="stopwords" 
+		long="--w.stopwords"
+		args="location [location...]"
+		countRange="{0,*}"
+		parseMethod="parseStopwords"
+		>
+		<help>
+		
+			STOPWORDS:
+			select sets of stopwords. Locations are given by resource locations.
+			
+			
+		</help>
+	</arg>	
+	
+	<arg name="wordlengths" 
+		long="--w.wordlengths"
+		args="shortest longest"
+		countRange="{2,2}"
+		class="java.lang.Integer"
+		parseMethod="parseWordLengths"
+		>
+		<help>
+			WORDLENGTHS:
+			set limits on lengths of words (values are inclusive)
+		</help>
+	</arg>	
+	
+	<arg name="wordtypes" 
+		long="--w.wordtypes"
+		args="type [type...]"
+		countRange="{0,*}"
+		pattern="(acronym|capitalized)"
+		parseMethod="parseWordTypes"
+		>
+		<help>
+			WORDTYPES:
+			word types to extract. Entering zero args will give a list of types. These are likely to change but
+			could be "acronym", "capitalized", etc. 
 		</help>
 	</arg>	
 	

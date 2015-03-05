@@ -22,7 +22,7 @@ public class RegexContainer {
 
 	private static final String SRC_MAIN_RESOURCES = "src/main/resources/";
 	private static final String XHTML2STM_RESOURCES = SRC_MAIN_RESOURCES+"org/xmlcml/ami/";
-	private static final String MAIN_REGEX_DIR_NAME = XHTML2STM_RESOURCES+"visitor/regex";
+	private static final String MAIN_REGEX_DIR_NAME = XHTML2STM_RESOURCES+"plugin/regex";
 	private static final File MAIN_REGEX_DIR = new File(MAIN_REGEX_DIR_NAME);
 
 	private Map<String, CompoundRegex> compoundRegexByTitleMap;

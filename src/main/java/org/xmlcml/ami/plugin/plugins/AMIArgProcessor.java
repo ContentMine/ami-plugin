@@ -1,6 +1,7 @@
 package org.xmlcml.ami.plugin.plugins;
 
 import java.io.File;
+import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 
@@ -39,6 +40,7 @@ public class AMIArgProcessor extends DefaultArgProcessor{
 	Integer[] contextCount = new Integer[] {100, 100};
 	private List<String> params;
 	private XPathProcessor xPathProcessor;
+	protected List<String> words;
 
 	public AMIArgProcessor() {
 		super();
@@ -136,6 +138,12 @@ public class AMIArgProcessor extends DefaultArgProcessor{
 		HtmlElement htmlElement = AMIArgProcessor.getScholarlyHtmlElement(currentQuickscrapeNorma);
 		List<HtmlP> pElements = HtmlP.extractSelfAndDescendantIs(htmlElement);
 		return pElements;
+	}
+
+	public List<String> extractWordsFromScholarlyHtml() {
+		HtmlElement htmlElement = AMIArgProcessor.getScholarlyHtmlElement(currentQuickscrapeNorma);
+		String value = htmlElement == null ? null : htmlElement.getValue();
+		return value == null ? new ArrayList<String>() :  new ArrayList<String>(Arrays.asList(value.split("\\s+")));
 	}
 
 	/** gets the HtmlElement for ScholarlyHtml.

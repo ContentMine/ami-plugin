@@ -10,6 +10,7 @@ import org.apache.commons.io.IOUtils;
 import org.apache.log4j.Level;
 import org.apache.log4j.Logger;
 import org.xmlcml.ami.plugin.AMI;
+import org.xmlcml.ami.plugin.plugins.AbstractAMIPlugin;
 
 import com.google.common.collect.Multiset;
 
@@ -29,7 +30,7 @@ public class WordSetWrapper {
 	}
 	
 	private static WordSetWrapper COMMON_ENGLISH_STOPWORDS;
-	public static final String COMMON_ENGLISH_STOPWORDS_TXT = "/org/xmlcml/ami/visitor/words/stopwords.txt";
+	public static final String COMMON_ENGLISH_STOPWORDS_TXT = AbstractAMIPlugin.ORG_XMLCML_AMI_PLUGIN+"words/stopwords.txt";
 	
 	private Set<String> wordSet;
 	private Multiset<String> multiset;
@@ -82,16 +83,21 @@ public class WordSetWrapper {
 	}
 	
 	private static Set<String> getStopwords(String stopwordsResource) {
-		InputStream stopwordsStream = AMI.class.getResourceAsStream(stopwordsResource);
 		Set<String> stopwords0 = new HashSet<String>();
-		try {
-			List<String> lines = IOUtils.readLines(stopwordsStream);
-			for (String line : lines) {
-				stopwords0.add(line.trim());
+		InputStream stopwordsStream = AMI.class.getResourceAsStream(stopwordsResource);
+		if (stopwordsStream == null) {
+			LOG.debug("Cannot read stopword stream: "+stopwordsResource);
+		} else {
+			try {
+				List<String> lines = IOUtils.readLines(stopwordsStream);
+				for (String line : lines) {
+					stopwords0.add(line.trim());
+				}
+			} catch (IOException e) {
+				throw new RuntimeException("cannot find stopwords "+stopwordsResource);
 			}
-		} catch (IOException e) {
-			throw new RuntimeException("cannot find stopwords "+stopwordsResource);
 		}
+		LOG.trace("stopword set: "+stopwords0.size());
 		return stopwords0;
 	}
 

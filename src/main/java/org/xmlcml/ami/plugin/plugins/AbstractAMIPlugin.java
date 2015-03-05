@@ -14,6 +14,7 @@ public abstract class AbstractAMIPlugin {
 	static {
 		LOG.setLevel(Level.DEBUG);
 	}
+	public static final String ORG_XMLCML_AMI_PLUGIN = "/org/xmlcml/ami/plugin/";
 	
 	private QuickscrapeNorma qsNorma;
 

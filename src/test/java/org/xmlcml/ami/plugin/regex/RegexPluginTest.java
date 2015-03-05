@@ -14,7 +14,6 @@ import org.junit.Test;
 import org.xmlcml.ami.Fixtures;
 import org.xmlcml.ami.plugin.plugins.AMIArgProcessor;
 import org.xmlcml.ami.plugin.plugins.regex.RegexPlugin;
-import org.xmlcml.ami.plugin.plugins.simple.SimpleArgProcessor;
 import org.xmlcml.ami.plugin.plugins.simple.SimplePlugin;
 import org.xmlcml.files.QuickscrapeNorma;
 import org.xmlcml.xml.XMLUtil;
@@ -80,7 +79,7 @@ public class RegexPluginTest {
 				"--s.simple", "foo", "bar"
 		};
 		SimplePlugin simplePlugin = new SimplePlugin(args);
-		SimpleArgProcessor argProcessor = (SimpleArgProcessor) simplePlugin.getArgProcessor();
+		AMIArgProcessor argProcessor = (AMIArgProcessor) simplePlugin.getArgProcessor();
 		argProcessor.runAndOutput();
 		int[] size = {17624,4447,0, 4839,4311,4779,5288}; // file2 has smart quotes; fix HTMLFactory()
 		for (int i = 0; i < nfiles; i++) {

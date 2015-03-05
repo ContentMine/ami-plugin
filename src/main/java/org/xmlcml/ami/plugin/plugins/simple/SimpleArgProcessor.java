@@ -1,5 +1,7 @@
 package org.xmlcml.ami.plugin.plugins.simple;
 
+import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.List;
 
 import org.apache.log4j.Level;
@@ -10,7 +12,6 @@ import org.xmlcml.ami.plugin.result.ResultsElement;
 import org.xmlcml.args.ArgIterator;
 import org.xmlcml.args.ArgumentOption;
 import org.xmlcml.files.QuickscrapeNorma;
-import org.xmlcml.html.HtmlElement;
 
 /** 
  * Processes commandline arguments.
@@ -26,8 +27,6 @@ public class SimpleArgProcessor extends AMIArgProcessor {
 	
 	private static String SIMPLE_RESOURCE_NAME = AMIArgProcessor.PLUGIN_RESOURCE + "/simple";
 	private static String ARGS_RESOURCE = SIMPLE_RESOURCE_NAME+"/"+"args.xml";
-	private String[] words;
-
 	public SimpleArgProcessor() {
 		super();
 		this.readArgumentOptions(ARGS_RESOURCE);
@@ -42,15 +41,13 @@ public class SimpleArgProcessor extends AMIArgProcessor {
 
 	public void parseSimple(ArgumentOption option, ArgIterator argIterator) {
 		List<String> tokens = argIterator.createTokenListUpToNextMinus(option);
-		List<String> stopwordLocations = option.processArgs(tokens).getStringValues();
+//		List<String> stopwordLocations = option.processArgs(tokens).getStringValues();
 	}
 	
 	public void countWords(ArgumentOption option) {
-		HtmlElement htmlElement = AMIArgProcessor.getScholarlyHtmlElement(currentQuickscrapeNorma);
-		String value = htmlElement == null ? null : htmlElement.getValue();
-		words = value == null ? new String[0] : value.split("\\s+");
+		words = extractWordsFromScholarlyHtml();
 	}
-	
+
 	public void outputWordCounts(ArgumentOption option) {
 		String outputFilename = getOutput();
 		if (!QuickscrapeNorma.isReservedFilename(outputFilename)) {
@@ -58,7 +55,7 @@ public class SimpleArgProcessor extends AMIArgProcessor {
 		}
 		ResultsElement resultsElement = new ResultsElement();
 		ResultElement resultElement = new ResultElement();
-		resultElement.setValue("wordCount", String.valueOf(words.length));
+		resultElement.setValue("wordCount", String.valueOf(words.size()));
 		resultsElement.appendChild(resultElement);
 		currentQuickscrapeNorma.writeResults(outputFilename, resultsElement);
 	}
@@ -75,4 +72,5 @@ public class SimpleArgProcessor extends AMIArgProcessor {
 		super.parseArgs(args);
 	}
 
+	
 }
