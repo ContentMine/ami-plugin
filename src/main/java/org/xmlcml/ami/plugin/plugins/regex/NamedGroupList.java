@@ -4,10 +4,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 import nu.xom.Attribute;
-import nu.xom.Element;
-import nu.xom.IllegalNameException;
 
-import org.xmlcml.ami.plugin.result.HitElement;
 import org.xmlcml.ami.plugin.result.ResultElement;
 
 /** the fields matched in a regex mapped to the field names.
@@ -51,14 +48,4 @@ public class NamedGroupList {
 		return resultElement;
 	}
 
-	public Element createElement() throws IllegalNameException {
-		Element hit = new HitElement();
-		for (NamedGroup namedGroup : namedGroupList) {
-			Attribute att = namedGroup.createAttribute();
-			if (att != null) {
-				hit.addAttribute(att);
-			}
-		}
-		return hit;
-	}
 }

@@ -12,7 +12,6 @@ import nu.xom.Text;
 
 import org.apache.log4j.Level;
 import org.apache.log4j.Logger;
-import org.xmlcml.ami.plugin.EIC;
 
 /** a component of a regular expression
  * 
@@ -284,13 +283,6 @@ public class RegexComponent {
 			}
 		}
 		return pattern;
-	}
-
-	MatcherResult searchWithPatterns(EIC eic) {
-		String value = eic == null ? null : eic.getResultValue();
-//		LOG.debug("EIC value "+value);
-		MatcherResult matcherResult =  value == null ? null : searchWithPattern(value);
-		return matcherResult;
 	}
 
 	MatcherResult searchWithPattern(String value) {

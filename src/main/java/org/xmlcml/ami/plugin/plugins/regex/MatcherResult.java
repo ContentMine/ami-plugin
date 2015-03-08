@@ -4,12 +4,10 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.regex.Matcher;
 
-import nu.xom.Element;
 import nu.xom.IllegalNameException;
 
 import org.apache.log4j.Level;
 import org.apache.log4j.Logger;
-import org.xmlcml.ami.plugin.result.HitsElement;
 import org.xmlcml.ami.plugin.result.ResultElement;
 
 /** holds immediate result of match.
@@ -102,19 +100,6 @@ public class MatcherResult {
 
 	}
 
-	public Element createElement() {
-		ensureNamedGroupListList();
-		Element hits = new HitsElement();
-		for (NamedGroupList namedGroupList : namedGroupListList) {
-			try {
-				hits.appendChild(namedGroupList.createElement());
-			} catch (IllegalNameException e) {
-				LOG.error("Illegal attribute name "+e);
-			}
-		}
-		return hits;
-	}
-	
 	public List<ResultElement> createResultElementList() {
 		List<ResultElement> resultElementList = new ArrayList<ResultElement>();
 		ensureNamedGroupListList();
