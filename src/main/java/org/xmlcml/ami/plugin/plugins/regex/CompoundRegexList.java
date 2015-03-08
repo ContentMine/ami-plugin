@@ -16,9 +16,9 @@ import org.apache.log4j.Logger;
  * @author pm286
  *
  */
-public class RegexContainer {
+public class CompoundRegexList {
 
-	final static Logger LOG = Logger.getLogger(RegexContainer.class);
+	final static Logger LOG = Logger.getLogger(CompoundRegexList.class);
 
 	private static final String SRC_MAIN_RESOURCES = "src/main/resources/";
 	private static final String XHTML2STM_RESOURCES = SRC_MAIN_RESOURCES+"org/xmlcml/ami/";
@@ -28,7 +28,10 @@ public class RegexContainer {
 	private Map<String, CompoundRegex> compoundRegexByTitleMap;
 	private List<CompoundRegex> compoundRegexList;
 
-	public RegexContainer() {
+	private RegexArgProcessor regexArgProcessor;
+
+	public CompoundRegexList(RegexArgProcessor regexArgProcessor) {
+		this.regexArgProcessor = regexArgProcessor;
 	}
 
 	/** reads all dictionaries in directory.
@@ -48,7 +51,7 @@ public class RegexContainer {
 	 * @param files
 	 */
 	public void readCompoundRegexes(File[] files) {
-		ensureCompoundRegexByTitleMap();
+		ensureCompoundRegexByTitleMapAndCompoundRegexList();
 		ensureCompoundRegexList();
 		for (File file : files) {
 			readCompoundRegexFile(file);
@@ -59,7 +62,7 @@ public class RegexContainer {
 
 	void readCompoundRegexFile(File file) {
 		try {
-			CompoundRegex compoundRegex = CompoundRegex.readAndCreateRegex(file);
+			CompoundRegex compoundRegex = regexArgProcessor.readAndCreateCompoundRegex(file);
 			addCompoundRegex(compoundRegex);
 		} catch (IOException e) {
 			throw new RuntimeException("Cannot read regex file:"+file);
@@ -68,7 +71,7 @@ public class RegexContainer {
 
 	void readCompoundRegexURL(URL url) {
 		try {
-			CompoundRegex compoundRegex = CompoundRegex.readAndCreateRegex(url);
+			CompoundRegex compoundRegex = regexArgProcessor.readAndCreateCompoundRegex(url);
 			addCompoundRegex(compoundRegex);
 		} catch (IOException e) {
 			throw new RuntimeException("Cannot read regex url:"+url);
@@ -76,13 +79,13 @@ public class RegexContainer {
 	}
 
 	void readCompoundRegex(InputStream is) {
-		CompoundRegex compoundRegex = CompoundRegex.readAndCreateRegex(is);
+		CompoundRegex compoundRegex = regexArgProcessor.readAndCreateCompoundRegex(is);
 		addCompoundRegex(compoundRegex);
 	}
 
 	void addCompoundRegex(CompoundRegex compoundRegex) {
 		if (compoundRegex != null) {
-			ensureCompoundRegexByTitleMap();
+			ensureCompoundRegexByTitleMapAndCompoundRegexList();
 			String title = compoundRegex.getTitle();
 			if (compoundRegexByTitleMap.get(title) != null) {
 				LOG.debug("already read regexes for "+title);
@@ -100,7 +103,7 @@ public class RegexContainer {
 		}
 	}
 
-	private void ensureCompoundRegexByTitleMap() {
+	private void ensureCompoundRegexByTitleMapAndCompoundRegexList() {
 		if (compoundRegexByTitleMap == null) {
 			compoundRegexByTitleMap = new HashMap<String, CompoundRegex>();
 			LOG.trace("created compoundRegexByTitleMap");
@@ -109,13 +112,22 @@ public class RegexContainer {
 	}
 
 	public CompoundRegex getCompoundRegexByTitle(String title) {
-		ensureCompoundRegexByTitleMap();
+		ensureCompoundRegexByTitleMapAndCompoundRegexList();
 		return compoundRegexByTitleMap.get(title);
 	}
 
 	public List<CompoundRegex> getCompoundRegexList() {
 		ensureCompoundRegexList();
 		return compoundRegexList;
+	}
+	
+	@Override
+	public String toString() {
+		StringBuilder sb =  new StringBuilder("CompoundRegexList:\n");
+		for (CompoundRegex compoundRegex : compoundRegexList) {
+			sb.append(compoundRegex.toString()+"\n");
+		}
+		return sb.toString();
 	}
 
 }

@@ -4,7 +4,7 @@
 		long="--context"
 		args="characterExtent [characterExtent2]"
 		class="java.lang.Integer"
-		default="100"
+		default="99"
 		countRange="{1,2}"
 		parseMethod="parseContext"
 		>
@@ -15,6 +15,8 @@
 			+- 100 characters (Publisher limit) or to the end of the object (paragraph). a single "characterExtent" field gives +- characterExtent (post == pre),
 			while "characterExtent "characterExtent2" gives the preceeding and
 			following text. 
+			
+			Note: --context must come before any arguments which may depend on its value (e.g. regex)
 		</help>
 	</arg>	
 	<arg name="param" 

@@ -1,0 +1,69 @@
+<compoundRegex>
+	<regex>electronic</regex>
+	<regex>edition</regex>
+	<regex>article</regex>
+	<regex>conforms</regex>
+	<regex>requirements</regex>
+	<regex>published</regex>
+	<regex>work</regex>
+	<regex>registered</regex>
+	<regex>online</regex>
+	<regex>LSID</regex>
+	<regex>information</regex>
+	<regex>web</regex>
+	<regex>browser</regex>
+	<regex>publication</regex>
+	<regex>ISSN</regex>
+	<regex>archived</regex>
+	<regex>digital</regex>
+	<regex>repositories:</regex>
+	<regex>PubMed Central</regex>
+	<regex>LOCKSS</regex>
+	<regex>Open Access</regex>
+	<regex>distributed</regex>
+	<regex>terms</regex>
+	<regex>Creative Commons</regex>
+	<regex>Creative Commons Attribution License</regex>
+	<regex>permits</regex>
+	<regex>unrestricted</regex>
+	<regex>distribution</regex>
+	<regex>reproduction</regex>
+	<regex>medium</regex>
+	<regex>provided</regex>
+	<regex>original</regex>
+	<regex>properly</regex>
+	<regex>credited</regex>
+	<regex>data</regex>
+	<regex>supporting</regex>
+	<regex>results</regex>
+	<regex>available</regex>
+	<regex>accession</regex>
+	<regex>authors</regex>
+	<regex>declare</regex>
+	<regex>competing</regex>
+	<regex>interests</regex>
+	<regex>conceived</regex>
+	<regex>study</regex>
+	<regex>carried</regex>
+	<regex>performed</regex>
+	<regex>analysis</regex>
+	<regex>coordinated</regex>
+	<regex>material</regex>
+	<regex>interpreted</regex>
+	<regex>context</regex>
+	<regex>results</regex>
+	<regex>wrote</regex>
+	<regex>read</regex>
+	<regex>approved</regex>
+	<regex>final</regex>
+	<regex>manuscript</regex>
+	<regex>thank</regex>
+	<regex>helpful</regex>
+	<regex>comments</regex>
+	<regex>discussion</regex>
+	<regex>received</regex>
+	<regex>funding</regex>
+	<regex>European Union Seventh Framework Programme</regex>
+	<regex>grant</regex>
+	<regex>agreement</regex>
+</compoundRegex>

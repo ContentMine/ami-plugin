@@ -1,0 +1,6 @@
+<compoundRegex title="simpletest">
+	<regex>\W(Ebola)\W</regex>
+	<regex>Marburg</regex>
+	<regex weight="0.8" fields="sudden_onset">(\W[Ss]udden\s+onset)</regex>
+	<regex weight="0.5" fields="drc">\W(Democratic Republic\s*(\s*of)?(\s*the)?\s*Congo)(DRC)</regex>
+</compoundRegex>

@@ -1,0 +1,3 @@
+<compoundRegex title="common">
+  <regex weight="1.0" fields="query pre word post">[Ww]hen|[Ww]hy|[Ww]hat|[Ww]ho|[Ww]here|of</regex>
+</compoundRegex>

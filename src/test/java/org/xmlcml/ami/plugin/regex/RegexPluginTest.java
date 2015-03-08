@@ -25,6 +25,7 @@ public class RegexPluginTest {
 		LOG.setLevel(Level.DEBUG);
 	}
 	
+
 	@Test
 	public void testRegexPlugin() throws IOException {
 		QuickscrapeNorma qsNorma = new QuickscrapeNorma(Fixtures.TEST_BMC_15_1_511_QSN);
@@ -35,7 +36,8 @@ public class RegexPluginTest {
 				"-q", normaTemp.toString(),
 				"-i", "scholarly.html",
 				"-o", "results.xml",
-				"--r.regex", "regex/common.xml",
+				"--context", "25", "40",
+				"--r.regex", "regex/simpletest.xml",
 		};
 		RegexPlugin regexPlugin = new RegexPlugin(args);
 		AMIArgProcessor argProcessor = (AMIArgProcessor) regexPlugin.getArgProcessor();
@@ -45,6 +47,47 @@ public class RegexPluginTest {
 		QuickscrapeNorma qsNormaTemp = new QuickscrapeNorma(normaTemp);
 		// fails at present
 //		Assert.assertTrue("results.xml", qsNormaTemp.hasResultsXML());
+	}
+	
+	@Test
+	public void testRegexPlugins() throws IOException {
+		QuickscrapeNorma qsNorma = new QuickscrapeNorma(Fixtures.TEST_BMC_15_1_511_QSN);
+		File normaTemp = new File("target/bmc/regex/15_1_511_test");
+		qsNorma.copyTo(normaTemp, true);
+		Assert.assertFalse("results.xml", qsNorma.hasResultsXML());
+		String[] args = {
+				"-q", normaTemp.toString(),
+				"-i", "scholarly.html",
+				"-o", "results.xml",
+				"--context", "25", "40",
+				"--r.regex", 
+			    	"regex/commonnew.xml",
+			    	"regex/agriculture.xml",
+			    	"regex/ebola.xml",
+		};
+		RegexPlugin regexPlugin = new RegexPlugin(args);
+		AMIArgProcessor argProcessor = (AMIArgProcessor) regexPlugin.getArgProcessor();
+		Assert.assertNotNull(argProcessor);
+//		LOG.debug(argProcessor.getInputList());
+//		argProcessor.runAndOutput();
+//		QuickscrapeNorma qsNormaTemp = new QuickscrapeNorma(normaTemp);
+//		// fails at present
+////		Assert.assertTrue("results.xml", qsNormaTemp.hasResultsXML());
+	}
+	
+	/** test generation of conformant regexes
+	 * 
+	 * @throws IOException
+	 */
+	@Test
+	public void testSimpleTest() throws IOException {
+		String[] args = {
+				"--context", "25", "40",
+				"--r.regex", 
+			    	"regex/simpletest.xml",
+		};
+		RegexPlugin regexPlugin = new RegexPlugin(args);
+		AMIArgProcessor argProcessor = (AMIArgProcessor) regexPlugin.getArgProcessor();
 	}
 	
 	/** process multiple Norma outputs.

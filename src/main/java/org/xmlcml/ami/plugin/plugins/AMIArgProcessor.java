@@ -37,7 +37,7 @@ public class AMIArgProcessor extends DefaultArgProcessor{
 	public static final String WORD_LENGTHS = "wordLengths";
 	public static List<String> HARDCODED_PARAMS = Arrays.asList(new String[] {WORD_LENGTHS, WORD_FREQUENCIES});
 
-	Integer[] contextCount = new Integer[] {100, 100};
+	Integer[] contextCount = new Integer[] {98, 98};
 	private List<String> params;
 	private XPathProcessor xPathProcessor;
 	protected List<String> words;
@@ -164,6 +164,10 @@ public class AMIArgProcessor extends DefaultArgProcessor{
 			}
 		}
 		return htmlElement;
+	}
+
+	public Integer[] getContextCount() {
+		return contextCount;
 	}
 
 
