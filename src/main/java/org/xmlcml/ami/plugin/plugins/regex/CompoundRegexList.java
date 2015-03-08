@@ -1,11 +1,13 @@
 package org.xmlcml.ami.plugin.plugins.regex;
 
 import java.io.File;
+import java.io.FileInputStream;
 import java.io.IOException;
 import java.io.InputStream;
 import java.net.URL;
 import java.util.ArrayList;
 import java.util.HashMap;
+import java.util.Iterator;
 import java.util.List;
 import java.util.Map;
 
@@ -16,7 +18,7 @@ import org.apache.log4j.Logger;
  * @author pm286
  *
  */
-public class CompoundRegexList {
+public class CompoundRegexList implements Iterable<CompoundRegex> {
 
 	final static Logger LOG = Logger.getLogger(CompoundRegexList.class);
 
@@ -62,7 +64,7 @@ public class CompoundRegexList {
 
 	void readCompoundRegexFile(File file) {
 		try {
-			CompoundRegex compoundRegex = regexArgProcessor.readAndCreateCompoundRegex(file);
+			CompoundRegex compoundRegex = regexArgProcessor.readAndCreateCompoundRegex(new FileInputStream(file));
 			addCompoundRegex(compoundRegex);
 		} catch (IOException e) {
 			throw new RuntimeException("Cannot read regex file:"+file);
@@ -71,7 +73,7 @@ public class CompoundRegexList {
 
 	void readCompoundRegexURL(URL url) {
 		try {
-			CompoundRegex compoundRegex = regexArgProcessor.readAndCreateCompoundRegex(url);
+			CompoundRegex compoundRegex = regexArgProcessor.readAndCreateCompoundRegex(url.openStream());
 			addCompoundRegex(compoundRegex);
 		} catch (IOException e) {
 			throw new RuntimeException("Cannot read regex url:"+url);
@@ -128,6 +130,22 @@ public class CompoundRegexList {
 			sb.append(compoundRegex.toString()+"\n");
 		}
 		return sb.toString();
+	}
+
+	@Override
+	public Iterator<CompoundRegex> iterator() {
+		ensureCompoundRegexList();
+		return compoundRegexList.iterator();
+	}
+
+	public void add(CompoundRegex compoundRegex) {
+		ensureCompoundRegexList();
+		compoundRegexList.add(compoundRegex);
+	}
+
+	public int size() {
+		ensureCompoundRegexList();
+		return compoundRegexList.size();
 	}
 
 }

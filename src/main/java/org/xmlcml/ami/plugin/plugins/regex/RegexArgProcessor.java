@@ -1,12 +1,10 @@
 package org.xmlcml.ami.plugin.plugins.regex;
 
 import java.io.File;
-import java.io.FileInputStream;
-import java.io.IOException;
 import java.io.InputStream;
-import java.net.URL;
-import java.util.ArrayList;
+import java.util.HashMap;
 import java.util.List;
+import java.util.Map;
 
 import nu.xom.Builder;
 import nu.xom.Document;
@@ -15,9 +13,11 @@ import nu.xom.Element;
 import org.apache.log4j.Level;
 import org.apache.log4j.Logger;
 import org.xmlcml.ami.plugin.plugins.AMIArgProcessor;
+import org.xmlcml.ami.plugin.result.ResultsElement;
 import org.xmlcml.args.ArgIterator;
 import org.xmlcml.args.ArgumentOption;
 import org.xmlcml.files.EuclidSource;
+import org.xmlcml.files.QuickscrapeNorma;
 import org.xmlcml.html.HtmlP;
 
 /** 
@@ -32,10 +32,12 @@ public class RegexArgProcessor extends AMIArgProcessor {
 		LOG.setLevel(Level.DEBUG);
 	}
 	
+	private static final String REGEX = "regex";
 	private static String REGEX_RESOURCE_NAME = AMIArgProcessor.PLUGIN_RESOURCE + "/regex";
 	private static String ARGS_RESOURCE = REGEX_RESOURCE_NAME+"/"+"args.xml";
 
-	private List<CompoundRegexList> regexContainerList;
+	private CompoundRegexList compoundRegexList;
+	private Map<String, ResultsElement> resultsByCompoundRegex;
 	
 	public RegexArgProcessor() {
 		super();
@@ -55,51 +57,43 @@ public class RegexArgProcessor extends AMIArgProcessor {
 	public void parseRegex(ArgumentOption option, ArgIterator argIterator) {
 		List<String> tokens= argIterator.createTokenListUpToNextMinus(option);
 		List<String> regexLocations = option.processArgs(tokens).getStringValues();
-		ensureRegexContainerList();
+		getOrCreateCompoundRegexList();
 		for (String regexLocation : regexLocations) {
-			try {
-				CompoundRegexList regexContainer = parseRegex(regexLocation);
-				regexContainerList.add(regexContainer);
-			} catch (IOException e) {
-				LOG.error("Could not parse "+regexLocation);
-			}
+			CompoundRegex compoundRegex = readAndCreateCompoundRegex(EuclidSource.getInputStream(regexLocation));
+			compoundRegexList.add(compoundRegex);
 		}
-		for (CompoundRegexList regexContainer : regexContainerList) {
-			LOG.debug(regexContainer);
+		for (CompoundRegex compoundRegex : compoundRegexList) {
+			LOG.debug(compoundRegex);
 		}
 	}
 	
 	public void runRegex(ArgumentOption option) {
-		LOG.debug("Running REGEX NYI");
 		List<HtmlP> pElements = extractPElements();
-		for (HtmlP pElement : pElements) {
-//			search(pElement);
+		resultsByCompoundRegex = new HashMap<String, ResultsElement>();
+		for (CompoundRegex compoundRegex : compoundRegexList) {
+			RegexSearcher regexSearcher = new RegexSearcher(this, compoundRegex);
+			ResultsElement resultsElement = regexSearcher.search(pElements);
+			resultsByCompoundRegex.put(compoundRegex.getTitle(), resultsElement);
 		}
 	}
 
 	public void outputResultElements(ArgumentOption option) {
-		LOG.debug("Output REGEX NYI");
-	}
-
-	// =============================
-
-	private void ensureRegexContainerList() {
-		if (regexContainerList == null) {
-			regexContainerList = new ArrayList<CompoundRegexList>();
+		for (CompoundRegex compoundRegex : compoundRegexList) {
+			String title = compoundRegex.getTitle();
+			ResultsElement resultsElement = resultsByCompoundRegex.get(title);
+			File regexDirectory = new File(currentQuickscrapeNorma.getDirectory(), REGEX);
+			File regexResultsDirectory = new File(regexDirectory, title);
+			regexResultsDirectory.mkdirs();
+			File regexResultsFile = new File(regexResultsDirectory, QuickscrapeNorma.RESULTS_XML);
+			currentQuickscrapeNorma.writeResults(regexResultsFile, resultsElement);
 		}
 	}
 
-	private CompoundRegexList parseRegex(String regexLocation) throws IOException {
-		CompoundRegex compoundRegex = readAndCreateCompoundRegex(regexLocation);
-		LOG.debug("CompoundRegex: "+compoundRegex.toString());
-		CompoundRegexList regexContainer = new CompoundRegexList(this);
-		regexContainer.addCompoundRegex(compoundRegex);
-		return regexContainer;
-	}
-
-	public List<CompoundRegexList> getRegexContainerList() {
-		ensureRegexContainerList();
-		return regexContainerList;
+	public CompoundRegexList getOrCreateCompoundRegexList() {
+		if (compoundRegexList == null) {
+			compoundRegexList = new CompoundRegexList(this);
+		}
+		return compoundRegexList;
 	}
 
 	@Override
@@ -110,39 +104,6 @@ public class RegexArgProcessor extends AMIArgProcessor {
 	 */
 	public void parseArgs(String[] args) {
 		super.parseArgs(args);
-	}
-
-	/** creates a regex from name if possible
-	 * 	 * 
-	 * @param name could be  resourceName, file or URL
-	 * @return null if not a regex file
-	 * @exception RuntimeException if cannot read/parse
-	 */
-	public CompoundRegex readAndCreateCompoundRegex(String name) {
-		return readAndCreateCompoundRegex(EuclidSource.getInputStream(name));
-	}
-
-	/** creates a regex from URL if possible
-	 * 	 * 
-	 * @param file
-	 * @param url TODO
-	 * @return null if not a regex file
-	 * @exception RuntimeException if cannot read/parse
-	 */
-	public CompoundRegex readAndCreateCompoundRegex(URL url) throws IOException{
-		return readAndCreateCompoundRegex(url.openStream());
-	}
-
-	/** creates a regex from file if possible
-	 * 
-	 * Looks at *.xml
-	 * 
-	 * @param file
-	 * @return null if not a regex file
-	 * @exception RuntimeException if cannot read/parse
-	 */
-	public CompoundRegex readAndCreateCompoundRegex(File file) throws IOException {
-		return readAndCreateCompoundRegex(new FileInputStream(file));
 	}
 
 	/** creates a regex from InputStream if possible

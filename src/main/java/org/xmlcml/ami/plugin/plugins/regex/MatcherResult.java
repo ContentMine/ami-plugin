@@ -7,8 +7,10 @@ import java.util.regex.Matcher;
 import nu.xom.Element;
 import nu.xom.IllegalNameException;
 
+import org.apache.log4j.Level;
 import org.apache.log4j.Logger;
 import org.xmlcml.ami.plugin.result.HitsElement;
+import org.xmlcml.ami.plugin.result.ResultElement;
 
 /** holds immediate result of match.
  * 
@@ -16,12 +18,15 @@ import org.xmlcml.ami.plugin.result.HitsElement;
  *
  */
 public class MatcherResult {
+
 	
-	private final static Logger LOG = Logger.getLogger(MatcherResult.class);
+	private static final Logger LOG = Logger.getLogger(MatcherResult.class);
+	static {
+		LOG.setLevel(Level.DEBUG);
+	}
 	
 	private List<String> groupList;
 	private List<String> fieldList;
-	private RegexComponent regexComponent;
 	private List<NamedGroupList> namedGroupListList;
 
 	
@@ -54,14 +59,14 @@ public class MatcherResult {
 		NamedGroupList namedGroupList = null;
 		int gsize = groupList.size();
 		if (gsize > 0 || fieldList.size() > 0) {
-			if (gsize != fieldList.size()) {
+			if (gsize != fieldList.size() - 1) { // -1 omits the overall match
 				LOG.error(
 					"groupList ("+gsize+"; "+groupList+") does not match fieldList ("
 				    +fieldList.size()+";"+fieldList+")");
 			} else {
 				namedGroupList = new NamedGroupList();
 				for (int i = 0; i < gsize; i++) {
-					NamedGroup namedGroup = new NamedGroup(fieldList.get(i), get(i));
+					NamedGroup namedGroup = new NamedGroup(fieldList.get(i + 1), get(i));
 					LOG.trace("namedgroup "+namedGroup);
 					namedGroupList.add(namedGroup);
 				}
@@ -81,7 +86,6 @@ public class MatcherResult {
 			for (int i = 1; i <= matcher.groupCount(); i++) {
 				add(matcher.group(i));
 			}
-			LOG.trace("matcherResult: "+this);
 		}
 		return this;
 	}
@@ -109,6 +113,20 @@ public class MatcherResult {
 			}
 		}
 		return hits;
+	}
+	
+	public List<ResultElement> createResultElementList() {
+		List<ResultElement> resultElementList = new ArrayList<ResultElement>();
+		ensureNamedGroupListList();
+		for (NamedGroupList namedGroupList : namedGroupListList) {
+			try {
+				ResultElement resultElement = namedGroupList.createResultElement();
+				resultElementList.add(resultElement);
+			} catch (IllegalNameException e) {
+				LOG.error("Illegal attribute name "+e);
+			}
+		}
+		return resultElementList;
 	}
 	
 	@Override

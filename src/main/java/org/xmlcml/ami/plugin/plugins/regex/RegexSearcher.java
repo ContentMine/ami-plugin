@@ -1,6 +1,5 @@
 package org.xmlcml.ami.plugin.plugins.regex;
 
-import java.io.File;
 import java.util.ArrayList;
 import java.util.List;
 
@@ -9,8 +8,11 @@ import nu.xom.Element;
 import org.apache.log4j.Level;
 import org.apache.log4j.Logger;
 import org.xmlcml.ami.plugin.EIC;
+import org.xmlcml.ami.plugin.result.ResultElement;
+import org.xmlcml.ami.plugin.result.ResultsElement;
 import org.xmlcml.ami.plugin.result.SimpleResultList;
 import org.xmlcml.html.HtmlElement;
+import org.xmlcml.html.HtmlP;
 
 public class RegexSearcher {
 
@@ -23,28 +25,25 @@ public class RegexSearcher {
 	List<RegexComponent> componentList;
 	private List<String> regexFiles;
 
-	private List<CompoundRegexList> regexContainerList;
 	private RegexArgProcessor regexArgProcessor;
-	private CompoundRegexList regexContainer;
+	private CompoundRegex compoundRegex;
 	private HtmlElement scholarlyHtml;
 	protected SimpleResultList resultList;
 	Element resultElement;
 
 
-	public RegexSearcher(RegexArgProcessor regexArgProcessor) {
+	public RegexSearcher(RegexArgProcessor regexArgProcessor, CompoundRegex compoundRegex) {
 		this.regexArgProcessor = regexArgProcessor;
+		this.compoundRegex = compoundRegex;
 	}
 
-	public void search(HtmlElement schHtml) {
-		this.scholarlyHtml = schHtml;
-		ensureRegexList();
-		regexContainerList = regexArgProcessor.getRegexContainerList();
-		for (CompoundRegexList regexContainer : regexContainerList) {
-			this.regexContainer = regexContainer;
-			searchXomElement(scholarlyHtml);
-			addComponentListToResults();
-		}
-	}
+//	public ResultsElement search(HtmlElement schHtml) {
+//		this.scholarlyHtml = schHtml;
+//		searchXomElement(scholarlyHtml);
+//		addComponentListToResults();
+//		return null;
+//	}
+	
 	private void addComponentListToResults() {
 		for (RegexComponent regexComponent : componentList) {
 			Element element = regexComponent.createElement();
@@ -52,56 +51,57 @@ public class RegexSearcher {
 		}
 	}
 
-	private CompoundRegexList addRegexFiles(List<String> regexRoots) {
-		List<File> regexFiles = new ArrayList<File>();
-		for (String regexRoot : regexRoots) {
-			File regexFile = new File(regexRoot);
-			if (regexFile.exists() && !regexFile.isDirectory()) {
-				regexFiles.add(regexFile);
-			} else {
-				throw new RuntimeException("Cannot find regexFile: "+regexFile);
-			}
-		}
-		for (File regexFile : regexFiles) {
-			regexContainer.readCompoundRegexFile(regexFile);
-		}
-		LOG.trace("regex container "+regexContainer.getCompoundRegexList());
-		return regexContainer;
-	}
+//	private CompoundRegexList addRegexFiles(List<String> regexRoots) {
+//		List<File> regexFiles = new ArrayList<File>();
+//		for (String regexRoot : regexRoots) {
+//			File regexFile = new File(regexRoot);
+//			if (regexFile.exists() && !regexFile.isDirectory()) {
+//				regexFiles.add(regexFile);
+//			} else {
+//				throw new RuntimeException("Cannot find regexFile: "+regexFile);
+//			}
+//		}
+//		for (File regexFile : regexFiles) {
+//			compoundRegex.readCompoundRegexFile(regexFile);
+//		}
+//		LOG.trace("regex container "+compoundRegex.getCompoundRegexList());
+//		return compoundRegex;
+//	}
 
-	private void ensureRegexList() {
-		regexContainer.ensureCompoundRegexList();
-	}
+//	private void ensureRegexList() {
+//		compoundRegex.ensureCompoundRegexList();
+//	}
 
-	private void ensureComponentList() {
-		if (componentList == null) {
-			componentList = new ArrayList<RegexComponent>();
-		}
-	}
-
-	public CompoundRegex getCompoundRegex(String title) {
-		return regexContainer.getCompoundRegexByTitle(title);
-	}
-
-	public List<CompoundRegex> getCompoundRegexList() {
-		return regexContainer.getCompoundRegexList();
-	}
+//	private void ensureComponentList() {
+//		if (componentList == null) {
+//			componentList = new ArrayList<RegexComponent>();
+//		}
+//	}
 
 
 	// ====== args ========
 
-	private void searchXomElement(Element xomElement) {
-	//	ensureResultList(sourceElement);
-		LOG.debug("search XomElement with "+regexContainer.getCompoundRegexList().size()+" compoundRegexes");
-		for (CompoundRegex compoundRegex : regexContainer.getCompoundRegexList()) {
-			List<RegexResultElement> regexResultList = searchWithRegexComponents(compoundRegex, xomElement);
-			for (RegexResultElement regexResult : regexResultList) {
-				resultList.add(regexResult.getSimpleResult());
+	private ResultsElement searchXomElement(Element xomElement) {
+		ResultsElement resultsElement = searchWithRegexComponents1(compoundRegex, xomElement);
+		return resultsElement;
+	}
+
+	private void ensureResultList() {
+		// TODO Auto-generated method stub
+		
+	}
+
+	private ResultsElement searchWithRegexComponents1(CompoundRegex compoundRegex, Element element) {
+		List<RegexComponent> regexComponents = compoundRegex.getOrCreateRegexComponentList();
+		ResultsElement resultsElement = new ResultsElement();
+		for (RegexComponent regexComponent : regexComponents) {
+			MatcherResult matcherResult = regexComponent.searchWithPattern(element.getValue()); // crude to start with
+			List<ResultElement> resultElementList = matcherResult.createResultElementList();
+			for (ResultElement resultElement : resultElementList) {
+				resultsElement.appendChild(resultElement);
 			}
 		}
-		LOG.trace("MADE RESULT LIST: "+resultList.size());
-		LOG.trace("RESULT "+resultList.toString());
-		return;
+		return resultsElement;
 	}
 
 	private List<RegexResultElement> searchWithRegexComponents(CompoundRegex compoundRegex, Element element) {
@@ -116,6 +116,22 @@ public class RegexSearcher {
 		}
 		return regexResultList;
 	}
+
+//	private void searchElement(List<RegexResultElement> regexResultList, List<RegexComponent> regexComponentList) {
+//		RegexResultElement regexResult = null;
+//		List<RegexComponent> regexComponents = compoundRegex.getOrCreateRegexComponentList();
+//		for (RegexComponent regexComponent : regexComponents) {
+//			LOG.trace("with: "+regexComponent);
+//			MatcherResult matcherResult = regexComponent.searchWithPattern(eic);
+//			LOG.trace("finished");
+//			if (matcherResult.size() > 0) {
+//				regexResult = new RegexResultElement(regexComponent, matcherResult);
+////				regexResult.addLineNumberAttribute(eic);
+////				regexResult.addLineValueAttribute(eic);
+//				regexResultList.add(regexResult);
+//			}
+//		}
+//	}
 
 	private void searchElementInContext(EIC eic,
 			List<RegexResultElement> regexResultList,
@@ -140,11 +156,18 @@ public class RegexSearcher {
 	// ===============
 	
 	public void debug() {
-		LOG.debug("regex list "+regexContainer.getCompoundRegexList());
-		for (CompoundRegex compoundRegex : regexContainer.getCompoundRegexList()) {
-//			compoundRegex.debug();
-			LOG.debug(compoundRegex.getTitle()+"/"+compoundRegex.getRegexValues().size());
+		LOG.debug(compoundRegex.getTitle()+"/"+compoundRegex.getRegexValues().size());
+	}
+
+	public ResultsElement search(List<HtmlP> pElements) {
+		ResultsElement resultsElement = new ResultsElement();
+//		int i = 0;
+		for (HtmlP pElement : pElements) {
+//			LOG.trace(i++);
+			ResultsElement subResultsElement = this.searchXomElement(pElement);
+			resultsElement.transferResultElements(subResultsElement);
 		}
+		return resultsElement;
 	}
 
 }

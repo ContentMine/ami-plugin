@@ -23,10 +23,6 @@ import org.xmlcml.ami.plugin.EIC;
  */
 public class RegexComponent {
 
-
-
-
-
 	private static final Logger LOG = Logger.getLogger(RegexComponent.class);
 	static {
 		LOG.setLevel(Level.DEBUG);
@@ -56,7 +52,8 @@ public class RegexComponent {
 	private static final String END_CONTEXT = "})";
 
 	// ((.{1,50})( ... )\s+(.{1,50}))
-	private static String PRE_POST = "\\(\\(\\.\\{\\d+,\\d+\\}\\)(.*)\\\\s\\+\\(\\.\\{\\d+,\\d+\\}\\)\\)";
+	private static String PRE_POST = "\\(\\.\\{\\d+,\\d+\\}\\)(.*)\\\\s\\+\\(\\.\\{\\d+,\\d+\\}\\)";
+//	private static String PRE_POST = "\\(\\(\\.\\{\\d+,\\d+\\}\\)(.*)\\\\s\\+\\(\\.\\{\\d+,\\d+\\}\\)\\)";
 	private static final Pattern PRE_POST_PATTERN = Pattern.compile(PRE_POST);
 	// (...)
 	private static String SINGLE_BRACKET = "\\(.*\\)";
@@ -134,11 +131,13 @@ public class RegexComponent {
 		}
 		Text childText = (Text) regexElement.getChild(0);
 		childText.setValue(value);
+		pattern = null; // reset 
 	}
 
 	private String addPrePost(String value) {
 		Integer[] contextCounts = regexArgProcessor.getContextCount();
-		return "("+START_CONTEXT+contextCounts[0]+END_CONTEXT+value+"\\s+"+START_CONTEXT+contextCounts[1]+END_CONTEXT+")";
+//		return "("+START_CONTEXT+contextCounts[0]+END_CONTEXT+value+"\\s+"+START_CONTEXT+contextCounts[1]+END_CONTEXT+")";
+		return START_CONTEXT+contextCounts[0]+END_CONTEXT+value+"\\s+"+START_CONTEXT+contextCounts[1]+END_CONTEXT;
 	}
 
 	private String addSingle(String value) {
@@ -290,11 +289,11 @@ public class RegexComponent {
 	MatcherResult searchWithPatterns(EIC eic) {
 		String value = eic == null ? null : eic.getResultValue();
 //		LOG.debug("EIC value "+value);
-		MatcherResult matcherResult =  value == null ? null : searchWithPatterns(value);
+		MatcherResult matcherResult =  value == null ? null : searchWithPattern(value);
 		return matcherResult;
 	}
 
-	MatcherResult searchWithPatterns(String value) {
+	MatcherResult searchWithPattern(String value) {
 		Pattern pattern = getPattern();
 		Matcher matcher = pattern.matcher(value);
 		int start = 0;
@@ -305,7 +304,6 @@ public class RegexComponent {
 			start = matcher.end();
 			count++;
 		}
-		LOG.trace("finished searchWithPatterns(value)");
 		return matcherResult;
 	}
 	

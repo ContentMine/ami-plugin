@@ -26,27 +26,22 @@ public class RegexPluginTest {
 	}
 	
 
+	
+	/** test generation of conformant regexes
+	 * 
+	 * desn't run anything
+	 * 
+	 * @throws IOException
+	 */
 	@Test
-	public void testRegexPlugin() throws IOException {
-		QuickscrapeNorma qsNorma = new QuickscrapeNorma(Fixtures.TEST_BMC_15_1_511_QSN);
-		File normaTemp = new File("target/bmc/regex/15_1_511_test");
-		qsNorma.copyTo(normaTemp, true);
-		Assert.assertFalse("results.xml", qsNorma.hasResultsXML());
+	public void testSimpleTestRegex() throws IOException {
 		String[] args = {
-				"-q", normaTemp.toString(),
-				"-i", "scholarly.html",
-				"-o", "results.xml",
+				// add context for 25 chars preceding and 40 post
 				"--context", "25", "40",
-				"--r.regex", "regex/simpletest.xml",
+				"--r.regex", 
+			    	"regex/simpletest.xml",
 		};
 		RegexPlugin regexPlugin = new RegexPlugin(args);
-		AMIArgProcessor argProcessor = (AMIArgProcessor) regexPlugin.getArgProcessor();
-		Assert.assertNotNull(argProcessor);
-		LOG.debug(argProcessor.getInputList());
-		argProcessor.runAndOutput();
-		QuickscrapeNorma qsNormaTemp = new QuickscrapeNorma(normaTemp);
-		// fails at present
-//		Assert.assertTrue("results.xml", qsNormaTemp.hasResultsXML());
 	}
 	
 	@Test
@@ -61,9 +56,17 @@ public class RegexPluginTest {
 				"-o", "results.xml",
 				"--context", "25", "40",
 				"--r.regex", 
-			    	"regex/commonnew.xml",
 			    	"regex/agriculture.xml",
+			    	"regex/astrophys.xml",
+			    	"regex/commonnew.xml",
 			    	"regex/ebola.xml",
+			    	"regex/figure.xml",
+			    	"regex/genbank.xml",
+			    	"regex/metadata.xml",
+			    	"regex/pdb.xml",
+			    	"regex/phylotree.xml",
+			    	"regex/simpletest.xml",
+			    	"regex/stemtest.xml",
 		};
 		RegexPlugin regexPlugin = new RegexPlugin(args);
 		AMIArgProcessor argProcessor = (AMIArgProcessor) regexPlugin.getArgProcessor();
@@ -75,61 +78,27 @@ public class RegexPluginTest {
 ////		Assert.assertTrue("results.xml", qsNormaTemp.hasResultsXML());
 	}
 	
-	/** test generation of conformant regexes
-	 * 
-	 * @throws IOException
-	 */
 	@Test
-	public void testSimpleTest() throws IOException {
+	public void testRegexPlugin() throws IOException {
+		QuickscrapeNorma qsNorma = new QuickscrapeNorma(Fixtures.TEST_BMC_15_1_511_QSN);
+		File normaTemp = new File("target/bmc/regex/15_1_511_test");
+		qsNorma.copyTo(normaTemp, true);
+		Assert.assertFalse("results.xml", qsNorma.hasResultsXML());
 		String[] args = {
+				"-q", normaTemp.toString(),
+				"-i", "scholarly.html",
+				"-o", "results.xml",
 				"--context", "25", "40",
-				"--r.regex", 
-			    	"regex/simpletest.xml",
+				"--r.regex", "regex/commonnew.xml",
 		};
 		RegexPlugin regexPlugin = new RegexPlugin(args);
 		AMIArgProcessor argProcessor = (AMIArgProcessor) regexPlugin.getArgProcessor();
-	}
-	
-	/** process multiple Norma outputs.
-	 * 
-	 * @throws IOException
-	 */
-	@Test
-	@Ignore // FIXME // Convert to regex
-	public void testMultipleSimplePlugin() throws IOException {
-		// this simply generates 7 temporary copies of the qsNormas
-		int nfiles = Fixtures.TEST_MIXED_DIR.listFiles().length;
-		File[] normaTemp = new File[nfiles];
-		File test = new File("target/simple/multiple");
-		if (test.exists()) FileUtils.deleteQuietly(test);
-		for (int i = 0; i < nfiles; i++) {
-			QuickscrapeNorma qsNorma = new QuickscrapeNorma(new File(Fixtures.TEST_MIXED_DIR, "file"+i));
-			normaTemp[i] = new File(test, "file"+i);
-			qsNorma.copyTo(normaTemp[i], true);
-		}
-		// this is the command line with multiple QSNorma directory names
-		String[] args = {
-				"-q", 
-				normaTemp[0].toString(),
-				normaTemp[1].toString(),
-				normaTemp[2].toString(),
-				normaTemp[3].toString(),
-				normaTemp[4].toString(),
-				normaTemp[5].toString(),
-				normaTemp[6].toString(),
-				"-i", "scholarly.html",
-				"-o", "results.xml",
-				"--s.simple", "foo", "bar"
-		};
-		SimplePlugin simplePlugin = new SimplePlugin(args);
-		AMIArgProcessor argProcessor = (AMIArgProcessor) simplePlugin.getArgProcessor();
+		Assert.assertNotNull(argProcessor);
+		LOG.debug(argProcessor.getInputList());
 		argProcessor.runAndOutput();
-		int[] size = {17624,4447,0, 4839,4311,4779,5288}; // file2 has smart quotes; fix HTMLFactory()
-		for (int i = 0; i < nfiles; i++) {
-			Element rootXML = (Element) XMLUtil.parseQuietlyToDocument(new File(test, "file"+i+"/results.xml")).getRootElement();
-			Element resultXML = (Element) rootXML.getChildElements().get(0);
-			Assert.assertEquals("file"+i, size[i], (int) new Integer(resultXML.getAttributeValue("wordCount")));
-		}
+		QuickscrapeNorma qsNormaTemp = new QuickscrapeNorma(normaTemp);
+		// fails at present
+//		Assert.assertTrue("results.xml", qsNormaTemp.hasResultsXML());
 	}
 	
 

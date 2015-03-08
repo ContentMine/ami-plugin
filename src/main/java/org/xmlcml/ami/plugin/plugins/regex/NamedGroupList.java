@@ -8,6 +8,7 @@ import nu.xom.Element;
 import nu.xom.IllegalNameException;
 
 import org.xmlcml.ami.plugin.result.HitElement;
+import org.xmlcml.ami.plugin.result.ResultElement;
 
 /** the fields matched in a regex mapped to the field names.
  * 
@@ -37,6 +38,17 @@ public class NamedGroupList {
 	@Override
 	public String toString() {
 		return namedGroupList.get(0).toString();
+	}
+
+	public ResultElement createResultElement() {
+		ResultElement resultElement = new ResultElement();
+		for (NamedGroup namedGroup : namedGroupList) {
+			Attribute att = namedGroup.createAttribute();
+			if (att != null) {
+				resultElement.addAttribute(att);
+			}
+		}
+		return resultElement;
 	}
 
 	public Element createElement() throws IllegalNameException {
