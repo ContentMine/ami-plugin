@@ -1,4 +1,4 @@
-<compoundRegex>
+<compoundRegex title="publication">
 	<regex>electronic</regex>
 	<regex>edition</regex>
 	<regex>article</regex>

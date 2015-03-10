@@ -1,6 +1,5 @@
 package org.xmlcml.ami.plugin.plugins.regex;
 
-import java.io.File;
 import java.io.InputStream;
 import java.util.HashMap;
 import java.util.List;
@@ -13,11 +12,10 @@ import nu.xom.Element;
 import org.apache.log4j.Level;
 import org.apache.log4j.Logger;
 import org.xmlcml.ami.plugin.plugins.AMIArgProcessor;
-import org.xmlcml.ami.plugin.result.ResultsElement;
 import org.xmlcml.args.ArgIterator;
 import org.xmlcml.args.ArgumentOption;
 import org.xmlcml.files.EuclidSource;
-import org.xmlcml.files.QuickscrapeNorma;
+import org.xmlcml.files.ResultsElement;
 import org.xmlcml.html.HtmlP;
 
 /** 
@@ -38,6 +36,7 @@ public class RegexArgProcessor extends AMIArgProcessor {
 
 	private CompoundRegexList compoundRegexList;
 	private Map<String, ResultsElement> resultsByCompoundRegex;
+	protected List<String> words;
 	
 	public RegexArgProcessor() {
 		super();
@@ -59,8 +58,14 @@ public class RegexArgProcessor extends AMIArgProcessor {
 		List<String> regexLocations = option.processArgs(tokens).getStringValues();
 		getOrCreateCompoundRegexList();
 		for (String regexLocation : regexLocations) {
-			CompoundRegex compoundRegex = readAndCreateCompoundRegex(EuclidSource.getInputStream(regexLocation));
-			compoundRegexList.add(compoundRegex);
+			LOG.debug("RegexLocation "+regexLocation);
+			try {
+				CompoundRegex compoundRegex = readAndCreateCompoundRegex(EuclidSource.getInputStream(regexLocation));
+				compoundRegexList.add(compoundRegex);
+			} catch (Exception e) {
+				LOG.error("Cannot parse regexLocation: ("+e+")"+regexLocation);
+			}
+			
 		}
 		for (CompoundRegex compoundRegex : compoundRegexList) {
 			LOG.debug(compoundRegex);
@@ -71,7 +76,7 @@ public class RegexArgProcessor extends AMIArgProcessor {
 		List<HtmlP> pElements = extractPElements();
 		resultsByCompoundRegex = new HashMap<String, ResultsElement>();
 		for (CompoundRegex compoundRegex : compoundRegexList) {
-			RegexSearcher regexSearcher = new RegexSearcher(this, compoundRegex);
+			RegexSearcher regexSearcher = new RegexSearcher(compoundRegex);
 			ResultsElement resultsElement = regexSearcher.search(pElements);
 			resultsByCompoundRegex.put(compoundRegex.getTitle(), resultsElement);
 		}
@@ -79,19 +84,15 @@ public class RegexArgProcessor extends AMIArgProcessor {
 
 	public void outputResultElements(ArgumentOption option) {
 		for (CompoundRegex compoundRegex : compoundRegexList) {
-			String title = compoundRegex.getTitle();
-			ResultsElement resultsElement = resultsByCompoundRegex.get(title);
-			File regexDirectory = new File(currentQuickscrapeNorma.getDirectory(), REGEX);
-			File regexResultsDirectory = new File(regexDirectory, title);
-			regexResultsDirectory.mkdirs();
-			File regexResultsFile = new File(regexResultsDirectory, QuickscrapeNorma.RESULTS_XML);
-			currentQuickscrapeNorma.writeResults(regexResultsFile, resultsElement);
+			String regexTitle = compoundRegex.getTitle();
+			ResultsElement resultsElement = resultsByCompoundRegex.get(regexTitle);
+			currentQuickscrapeNorma.createResultsDirectoryAndOutputResultsElement(regexTitle, resultsElement, REGEX);
 		}
 	}
 
-	public CompoundRegexList getOrCreateCompoundRegexList() {
+	private CompoundRegexList getOrCreateCompoundRegexList() {
 		if (compoundRegexList == null) {
-			compoundRegexList = new CompoundRegexList(this);
+			compoundRegexList = new CompoundRegexList();
 		}
 		return compoundRegexList;
 	}
@@ -113,7 +114,7 @@ public class RegexArgProcessor extends AMIArgProcessor {
 	 * @return null if not a regex file
 	 * @exception RuntimeException if cannot read/parse
 	 */
-	public CompoundRegex readAndCreateCompoundRegex(InputStream is) {
+	private CompoundRegex readAndCreateCompoundRegex(InputStream is) {
 		Element rootElement = null;
 		try {
 			Document doc = new Builder().build(is);

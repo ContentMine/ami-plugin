@@ -25,12 +25,12 @@ public class WordExtractor {
 	
 	public void setSVGElement(SVGElement element) {
 		svgElement = element;
-		setTextList(SVGText.extractSelfAndDescendantTexts(element));
+		setTextList(SVGText.extractSelfAndDescendantTexts(svgElement));
 	}
 	
 	public void setTextList(List<SVGText> textList) {
 		this.textList = textList;
-		this.textStructurer = new TextStructurer(textList);
+		this.textStructurer = new TextStructurer(this.textList);
 	}
 	
 	

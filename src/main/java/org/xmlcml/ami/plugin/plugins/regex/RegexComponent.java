@@ -12,6 +12,7 @@ import nu.xom.Text;
 
 import org.apache.log4j.Level;
 import org.apache.log4j.Logger;
+import org.xmlcml.ami.plugin.plugins.AMIArgProcessor;
 
 /** a component of a regular expression
  * 
@@ -39,7 +40,7 @@ public class RegexComponent {
 	public static final String REQUIRED = "required";
 	private static final String TITLE = "title";
 	private static final String URL = "url";
-	private static final String VERSION = "version";
+//	private static final String VERSION = "version";
 	private static final Double DEFAULT_WEIGHT = 0.5;
 
 	private static final int QUERY_FIELD = 0;
@@ -52,7 +53,6 @@ public class RegexComponent {
 
 	// ((.{1,50})( ... )\s+(.{1,50}))
 	private static String PRE_POST = "\\(\\.\\{\\d+,\\d+\\}\\)(.*)\\\\s\\+\\(\\.\\{\\d+,\\d+\\}\\)";
-//	private static String PRE_POST = "\\(\\(\\.\\{\\d+,\\d+\\}\\)(.*)\\\\s\\+\\(\\.\\{\\d+,\\d+\\}\\)\\)";
 	private static final Pattern PRE_POST_PATTERN = Pattern.compile(PRE_POST);
 	// (...)
 	private static String SINGLE_BRACKET = "\\(.*\\)";
@@ -72,21 +72,20 @@ public class RegexComponent {
 	private Integer count;
 	private String value;
 	private String casex;
-	private RegexArgProcessor regexArgProcessor;
+	private AMIArgProcessor regexArgProcessor;
 	private String title;
-	private String word;
 	private String fieldsString;
 	private CompoundRegex compoundRegex;
 	private String centralRegex;
 
-	public RegexComponent(CompoundRegex compoundRegex, RegexArgProcessor regexArgProcessor) {
+	public RegexComponent(CompoundRegex compoundRegex, AMIArgProcessor regexArgProcessor) {
 		this.regexArgProcessor = regexArgProcessor;
 		this.compoundRegex = compoundRegex;
 		
 	}
 
 	void createPatternAndFields() {
-		getPattern();
+		getOrCreatePattern();
 		getOrCreateCase();
 		getOrCreateValue();
 		getURL();
@@ -173,7 +172,7 @@ public class RegexComponent {
 		return regexElement.getAttributeValue(URL);
 	}
 
-	public List<String> getOrCreateFieldList() {
+	List<String> getOrCreateFieldList() {
 		if (fieldList == null) {
 			fieldList = new ArrayList<String>();
 			String fields = regexElement.getAttributeValue(FIELDS);
@@ -192,7 +191,7 @@ public class RegexComponent {
 					LOG.trace(fieldList);
 				} else {
 //					LOG.debug(value);
-					LOG.debug("Unusual fieldList: "+fieldList+" in "+compoundRegex.getTitle()+"; found: "+regexElement.toXML());
+					LOG.debug("Unusual fieldList: "+fieldList+" in "+(compoundRegex == null ? "unknown" : compoundRegex.getTitle())+"; found: "+regexElement.toXML());
 					hasWord = false;
 				}
 			} else {
@@ -251,7 +250,7 @@ public class RegexComponent {
 		}
 	}
 
-	public double getOrCreateWeight() {
+	private double getOrCreateWeight() {
 		if (weight == null) {
 			String w = regexElement.getAttributeValue(WEIGHT);
 			if (w != null) {
@@ -274,7 +273,7 @@ public class RegexComponent {
 	 * 
 	 * @return
 	 */
-	public Pattern getPattern() {
+	private Pattern getOrCreatePattern() {
 		if (pattern == null) {
 			if (RegexComponent.INSENSITIVE.equals(getOrCreateCase())) {
 				pattern = Pattern.compile(getOrCreateValue(), Pattern.CASE_INSENSITIVE);
@@ -286,7 +285,7 @@ public class RegexComponent {
 	}
 
 	MatcherResult searchWithPattern(String value) {
-		Pattern pattern = getPattern();
+		Pattern pattern = getOrCreatePattern();
 		Matcher matcher = pattern.matcher(value);
 		int start = 0;
 		count = 0;
@@ -299,10 +298,6 @@ public class RegexComponent {
 		return matcherResult;
 	}
 	
-	public int getCount() {
-		return count;
-	}
-
 	/**
 	private Element regexElement;
 	private Pattern pattern;
@@ -318,7 +313,7 @@ public class RegexComponent {
 		return sb.toString();
 	}
 
-	public Element createElement() {
+	private Element createElement() {
 		/**
 		private Element regexElement;
 		private Pattern pattern;
@@ -342,22 +337,5 @@ public class RegexComponent {
 		}
 		return regex;
 
-	}
-	private Element toXMLOld() {
-		Element results = new Element(RESULTS);
-		LOG.debug("namedGroup size: "+namedGroupList.size());
-		for (NamedGroup namedGroup : namedGroupList) {
-			Element result = new Element(RESULT);
-			String namedGroupValue =namedGroup.getGroup();
-			if (namedGroupValue != null) { 
-				LOG.debug("named group value: "+namedGroup.getName()+"="+namedGroupValue);
-				result.addAttribute(new Attribute(namedGroup.getName(), namedGroupValue));
-				results.appendChild(result);
-			} else {
-				LOG.trace("null named group: "+namedGroup.getName());
-			}
-		}
-		results.addAttribute(new Attribute(COUNT, String.valueOf(count)));
-		return results;
 	}
 }

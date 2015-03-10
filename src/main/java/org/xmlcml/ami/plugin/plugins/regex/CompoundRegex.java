@@ -7,6 +7,7 @@ import nu.xom.Element;
 
 import org.apache.log4j.Level;
 import org.apache.log4j.Logger;
+import org.xmlcml.ami.plugin.plugins.AMIArgProcessor;
 
 /** Container for many smaller regexes.
  * 
@@ -25,20 +26,17 @@ public class CompoundRegex {
 	}
 	
 	private static final String COMPOUND_REGEX = "compoundRegex";
-	private static final String REGEX = "regex";
 	private static final String REGEX_OR = "|";
 	private static final String REGEX_CLOSE = ")";
 	private static final String REGEX_OPEN = "(";
 	private static final String TITLE = "title";
-	private static final String XML = ".xml";
 	
 	private List<RegexComponent> regexComponentList;
 	private Element root;
-	private String combinedValue;
 	private String title;
-	private RegexArgProcessor regexArgProcessor;
+	private AMIArgProcessor regexArgProcessor;
 
-	public CompoundRegex(RegexArgProcessor regexArgProcessor, Element rootElement) {
+	public CompoundRegex(AMIArgProcessor regexArgProcessor, Element rootElement) {
 		this.root = rootElement;
 		this.regexArgProcessor = regexArgProcessor;
 		this.title = rootElement.getAttributeValue(TITLE);
@@ -54,7 +52,7 @@ public class CompoundRegex {
 	}
 
 	public String getTitle() {
-		return root == null ? null : root.getAttributeValue(TITLE);
+		return title;
 	}
 
 	@Override 
@@ -95,6 +93,7 @@ public class CompoundRegex {
 	 * 
 	 * @return
 	 */
+	// FIXME - needs calling
 	public String generateCombinedPatternString() {
 		getOrCreateRegexComponentList();
 		StringBuilder stringBuilder = null;
@@ -122,7 +121,7 @@ public class CompoundRegex {
 	 * @param regexElement
 	 * @return
 	 */
-	public RegexComponent createRegexComponent(RegexArgProcessor regexArgProcessor, Element regexElement) {
+	public RegexComponent createRegexComponent(AMIArgProcessor regexArgProcessor, Element regexElement) {
 		RegexComponent regexComponent = null;
 		if (regexElement != null) {
 			regexComponent = new RegexComponent(this, regexArgProcessor);

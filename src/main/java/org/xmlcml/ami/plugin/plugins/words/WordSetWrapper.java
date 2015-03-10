@@ -43,7 +43,6 @@ public class WordSetWrapper {
 		this.wordSet = wordSet;
 	}
 	
-	
 	public Set<String> getWordSet() {
 		return wordSet;
 	}

@@ -1,5 +1,6 @@
 package org.xmlcml.ami.plugin.plugins.words;
 
+import java.io.File;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
@@ -7,9 +8,12 @@ import java.util.List;
 import org.apache.log4j.Level;
 import org.apache.log4j.Logger;
 import org.xmlcml.ami.plugin.plugins.AMIArgProcessor;
+import org.xmlcml.ami.plugin.plugins.regex.CompoundRegex;
 import org.xmlcml.args.ArgIterator;
 import org.xmlcml.args.ArgumentOption;
 import org.xmlcml.euclid.IntRange;
+import org.xmlcml.files.QuickscrapeNorma;
+import org.xmlcml.files.ResultsElement;
 
 /** 
  * Processes commandline arguments.
@@ -26,6 +30,7 @@ public class WordArgProcessor extends AMIArgProcessor {
 	private static String RESOURCE_WORD_NAME_TOP = AMIArgProcessor.PLUGIN_RESOURCE + "/words";
 	private static String ARGS_RESOURCE = RESOURCE_WORD_NAME_TOP+"/"+"args.xml";
 	
+	private static final String WORDS = "words";
 	public final static String WORD_LENGTHS = "wordLengths";
 	public final static String WORD_FREQUENCIES = "wordFrequencies";
 	public final static List<String> ANALYSIS_METHODS = Arrays.asList(
@@ -46,6 +51,7 @@ public class WordArgProcessor extends AMIArgProcessor {
 	private List<String> chosenMethods;
 	private IntRange wordLengthRange;
 	private List<String> chosenWordTypes;
+	protected List<String> words;
 
 	public WordArgProcessor() {
 		super();
@@ -131,7 +137,7 @@ public class WordArgProcessor extends AMIArgProcessor {
 	}
 	
 	public void outputWords(ArgumentOption option) {
-		LOG.error("outputWords NYI");
+		currentQuickscrapeNorma.createResultsDirectoryAndOutputResultsElement(WORDS, resultsElement, QuickscrapeNorma.RESULTS_XML);
 	}
 	
 	// =============================

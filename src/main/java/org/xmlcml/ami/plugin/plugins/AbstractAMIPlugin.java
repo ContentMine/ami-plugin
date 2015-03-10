@@ -3,9 +3,7 @@ package org.xmlcml.ami.plugin.plugins;
 import org.apache.log4j.Level;
 import org.apache.log4j.Logger;
 import org.xmlcml.args.DefaultArgProcessor;
-import org.xmlcml.files.QuickscrapeNorma;
 import org.xmlcml.norma.Norma;
-import org.xmlcml.norma.NormaArgProcessor;
 
 public abstract class AbstractAMIPlugin {
 
@@ -16,13 +14,7 @@ public abstract class AbstractAMIPlugin {
 	}
 	public static final String ORG_XMLCML_AMI_PLUGIN = "/org/xmlcml/ami/plugin/";
 	
-	private QuickscrapeNorma qsNorma;
-
 	public AbstractAMIPlugin() {
-	}
-
-	public AbstractAMIPlugin(QuickscrapeNorma qsNorma) {
-		this.qsNorma = qsNorma;
 	}
 
 	protected AMIArgProcessor argProcessor;

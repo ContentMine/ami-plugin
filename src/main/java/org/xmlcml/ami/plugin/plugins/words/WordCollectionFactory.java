@@ -8,6 +8,8 @@ import nu.xom.Element;
 
 import org.apache.log4j.Level;
 import org.apache.log4j.Logger;
+import org.xmlcml.files.ResultElement;
+import org.xmlcml.files.ResultsElement;
 
 import com.google.common.collect.HashMultiset;
 import com.google.common.collect.ImmutableSortedMultiset;
@@ -172,14 +174,13 @@ public class WordCollectionFactory {
 		return currentWords;
 	}
 
-	private void outputResults(Element lengthsElement) {
-//		ensureResultList(sourceElement);
-//		SimpleResultWrapper resultsWrapper = new SimpleResultWrapper();
-//		resultsWrapper.setResultElement(lengthsElement);
-//		resultList.add(resultsWrapper);
-//		
-//		LOG.debug("MADE RESULT LIST: "+resultList.size());
-		LOG.debug(lengthsElement.toXML());
+	private void outputResults(Element element) {
+		LOG.debug("words "+element.toXML());
+		ResultsElement resultsElement = new ResultsElement();
+		ResultElement resultElement = new ResultElement();
+		resultsElement.appendChild(resultElement);
+		resultElement.appendChild(element);
+		wordArgProcessor.setResultsElement(resultsElement);
 	}
 
 	private Element getWordlengthFrequency() {

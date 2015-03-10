@@ -8,6 +8,8 @@ foo
 ^misc/.*
 src/test/resources/org/xmlcml/xhtml2stm1/
 ^target/.*
+^trialsdata/.*
+^trialstemp/.*
 /target/
 ^repo/
 ^bin/

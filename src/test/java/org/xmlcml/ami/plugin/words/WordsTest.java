@@ -2,6 +2,7 @@ package org.xmlcml.ami.plugin.words;
 
 import org.junit.Test;
 import org.xmlcml.ami.Fixtures;
+import org.xmlcml.ami.plugin.plugins.AMIArgProcessor;
 import org.xmlcml.ami.plugin.plugins.words.WordArgProcessor;
 
 public class WordsTest {
@@ -23,7 +24,6 @@ public class WordsTest {
 		new WordArgProcessor(args);
 	}
 	
-
 	@Test
 	public void testWordsRun() {
 		String[] args = {
@@ -33,7 +33,7 @@ public class WordsTest {
 			"--w.wordlengths", "2", "12",
 			"--w.wordtypes", "abbreviation", /* "capitalized", */
 		};
-		WordArgProcessor argProcessor = new WordArgProcessor(args);
+		AMIArgProcessor argProcessor = new WordArgProcessor(args);
 		argProcessor.runAndOutput();
 	}
 }

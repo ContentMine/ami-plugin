@@ -8,7 +8,7 @@ import nu.xom.IllegalNameException;
 
 import org.apache.log4j.Level;
 import org.apache.log4j.Logger;
-import org.xmlcml.ami.plugin.result.ResultElement;
+import org.xmlcml.files.ResultElement;
 
 /** holds immediate result of match.
  * 
@@ -32,7 +32,7 @@ public class MatcherResult {
 		this.fieldList = fieldList;
 	}
 
-	public void add(String group) {
+	private void add(String group) {
 		ensureGroupList();
 		groupList.add(group);
 	}
@@ -43,12 +43,12 @@ public class MatcherResult {
 		}
 	}
 
-	public int size() {
+	int size() {
 		ensureNamedGroupListList();
 		return namedGroupListList.size();
 	}
 
-	public String get(int i) {
+	private String get(int i) {
 		ensureGroupList();
 		return groupList.get(i);
 	}
@@ -100,7 +100,7 @@ public class MatcherResult {
 
 	}
 
-	public List<ResultElement> createResultElementList() {
+	List<ResultElement> createResultElementList() {
 		List<ResultElement> resultElementList = new ArrayList<ResultElement>();
 		ensureNamedGroupListList();
 		for (NamedGroupList namedGroupList : namedGroupListList) {

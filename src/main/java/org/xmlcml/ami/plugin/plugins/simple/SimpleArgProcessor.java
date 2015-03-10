@@ -7,11 +7,11 @@ import java.util.List;
 import org.apache.log4j.Level;
 import org.apache.log4j.Logger;
 import org.xmlcml.ami.plugin.plugins.AMIArgProcessor;
-import org.xmlcml.ami.plugin.result.ResultElement;
-import org.xmlcml.ami.plugin.result.ResultsElement;
 import org.xmlcml.args.ArgIterator;
 import org.xmlcml.args.ArgumentOption;
 import org.xmlcml.files.QuickscrapeNorma;
+import org.xmlcml.files.ResultElement;
+import org.xmlcml.files.ResultsElement;
 
 /** 
  * Processes commandline arguments.
@@ -27,6 +27,8 @@ public class SimpleArgProcessor extends AMIArgProcessor {
 	
 	private static String SIMPLE_RESOURCE_NAME = AMIArgProcessor.PLUGIN_RESOURCE + "/simple";
 	private static String ARGS_RESOURCE = SIMPLE_RESOURCE_NAME+"/"+"args.xml";
+	protected List<String> words;
+
 	public SimpleArgProcessor() {
 		super();
 		this.readArgumentOptions(ARGS_RESOURCE);

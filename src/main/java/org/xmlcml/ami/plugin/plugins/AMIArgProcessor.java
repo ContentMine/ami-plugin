@@ -12,6 +12,7 @@ import org.xmlcml.args.ArgIterator;
 import org.xmlcml.args.ArgumentOption;
 import org.xmlcml.args.DefaultArgProcessor;
 import org.xmlcml.files.QuickscrapeNorma;
+import org.xmlcml.files.ResultsElement;
 import org.xmlcml.html.HtmlElement;
 import org.xmlcml.html.HtmlFactory;
 import org.xmlcml.html.HtmlP;
@@ -24,6 +25,7 @@ import org.xmlcml.html.HtmlP;
  */
 public class AMIArgProcessor extends DefaultArgProcessor{
 	
+	public static final String RESULTS = "results";
 	public static final Logger LOG = Logger.getLogger(AMIArgProcessor.class);
 	static {
 		LOG.setLevel(Level.DEBUG);
@@ -37,11 +39,11 @@ public class AMIArgProcessor extends DefaultArgProcessor{
 	public static final String WORD_LENGTHS = "wordLengths";
 	public static List<String> HARDCODED_PARAMS = Arrays.asList(new String[] {WORD_LENGTHS, WORD_FREQUENCIES});
 
-	Integer[] contextCount = new Integer[] {98, 98};
+	private Integer[] contextCount = new Integer[] {98, 98};
 	private List<String> params;
 	private XPathProcessor xPathProcessor;
-	protected List<String> words;
-
+	protected ResultsElement resultsElement;
+	
 	public AMIArgProcessor() {
 		super();
 		this.readArgumentOptions(ARGS_RESOURCE);
@@ -135,28 +137,37 @@ public class AMIArgProcessor extends DefaultArgProcessor{
 	}
 
 	protected List<HtmlP> extractPElements() {
-		HtmlElement htmlElement = AMIArgProcessor.getScholarlyHtmlElement(currentQuickscrapeNorma);
+		HtmlElement htmlElement = getScholarlyHtmlElement(currentQuickscrapeNorma);
 		List<HtmlP> pElements = HtmlP.extractSelfAndDescendantIs(htmlElement);
 		return pElements;
 	}
 
 	public List<String> extractWordsFromScholarlyHtml() {
-		HtmlElement htmlElement = AMIArgProcessor.getScholarlyHtmlElement(currentQuickscrapeNorma);
+		HtmlElement htmlElement = getScholarlyHtmlElement(currentQuickscrapeNorma);
 		String value = htmlElement == null ? null : htmlElement.getValue();
 		return value == null ? new ArrayList<String>() :  new ArrayList<String>(Arrays.asList(value.split("\\s+")));
+	}
+
+	public Integer[] getContextCount() {
+		return contextCount;
+	}
+
+	public void setResultsElement(ResultsElement resultsElement) {
+		this.resultsElement = resultsElement;
 	}
 
 	/** gets the HtmlElement for ScholarlyHtml.
 	 * 
 	 * ugly static because Euclid cannot depend on html library.
 	 * 
-	 * @param qsNorma
+	 * DO NOT MOVE TO QuickscrapeNorma
+	 * 
 	 * @return
 	 */
-	public static HtmlElement getScholarlyHtmlElement(QuickscrapeNorma qsNorma) {
+	public static HtmlElement getScholarlyHtmlElement(QuickscrapeNorma quickscrapeNorma) {
 		HtmlElement htmlElement = null;
-		if (qsNorma != null && qsNorma.hasScholarlyHTML()) {
-			File scholarlyHtmlFile = qsNorma.getExistingScholarlyHTML();
+		if (quickscrapeNorma != null && quickscrapeNorma.hasScholarlyHTML()) {
+			File scholarlyHtmlFile = quickscrapeNorma.getExistingScholarlyHTML();
 			try {
 				htmlElement = new HtmlFactory().parse(scholarlyHtmlFile);
 			} catch (Exception e) {
@@ -164,10 +175,6 @@ public class AMIArgProcessor extends DefaultArgProcessor{
 			}
 		}
 		return htmlElement;
-	}
-
-	public Integer[] getContextCount() {
-		return contextCount;
 	}
 
 

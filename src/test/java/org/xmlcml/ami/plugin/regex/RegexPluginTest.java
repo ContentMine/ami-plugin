@@ -66,7 +66,7 @@ public class RegexPluginTest {
 			    	"regex/pdb.xml",
 			    	"regex/phylotree.xml",
 			    	"regex/simpletest.xml",
-			    	"regex/stemtest.xml",
+			    	"regex/stemtest.xml", // this doesn't exist and LOGs an error
 		};
 		RegexPlugin regexPlugin = new RegexPlugin(args);
 		AMIArgProcessor argProcessor = (AMIArgProcessor) regexPlugin.getArgProcessor();
@@ -89,7 +89,8 @@ public class RegexPluginTest {
 				"-i", "scholarly.html",
 				"-o", "results.xml",
 				"--context", "25", "40",
-				"--r.regex", "regex/commonnew.xml",
+				"--r.regex", 
+				    "regex/publication.xml",
 		};
 		RegexPlugin regexPlugin = new RegexPlugin(args);
 		AMIArgProcessor argProcessor = (AMIArgProcessor) regexPlugin.getArgProcessor();

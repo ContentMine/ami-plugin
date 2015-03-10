@@ -6,8 +6,8 @@ import nu.xom.Element;
 
 import org.apache.log4j.Level;
 import org.apache.log4j.Logger;
-import org.xmlcml.ami.plugin.result.ResultElement;
-import org.xmlcml.ami.plugin.result.ResultsElement;
+import org.xmlcml.files.ResultElement;
+import org.xmlcml.files.ResultsElement;
 import org.xmlcml.html.HtmlElement;
 import org.xmlcml.html.HtmlP;
 
@@ -20,16 +20,12 @@ public class RegexSearcher {
 	}
 	
 	List<RegexComponent> componentList;
-	private List<String> regexFiles;
 
-	private RegexArgProcessor regexArgProcessor;
 	private CompoundRegex compoundRegex;
-	private HtmlElement scholarlyHtml;
 	Element resultElement;
 
 
-	public RegexSearcher(RegexArgProcessor regexArgProcessor, CompoundRegex compoundRegex) {
-		this.regexArgProcessor = regexArgProcessor;
+	public RegexSearcher(CompoundRegex compoundRegex) {
 		this.compoundRegex = compoundRegex;
 	}
 
@@ -55,7 +51,7 @@ public class RegexSearcher {
 		LOG.debug(compoundRegex.getTitle()+"/"+compoundRegex.getRegexValues().size());
 	}
 
-	public ResultsElement search(List<HtmlP> pElements) {
+	ResultsElement search(List<HtmlP> pElements) {
 		ResultsElement resultsElement = new ResultsElement();
 		for (HtmlP pElement : pElements) {
 			ResultsElement subResultsElement = this.searchXomElement(pElement);

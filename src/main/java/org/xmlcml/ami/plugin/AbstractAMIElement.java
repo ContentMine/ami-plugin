@@ -69,7 +69,7 @@ public abstract class AbstractAMIElement extends Element implements XMLConstants
 		super(name, AMI_NS);
 	}
 	
-	public static AbstractAMIElement create(Element element) {
+	private static AbstractAMIElement create(Element element) {
 		AbstractAMIElement searchElement = null;
 		String tag = element.getLocalName();
 		String namespaceURI = element.getNamespaceURI();

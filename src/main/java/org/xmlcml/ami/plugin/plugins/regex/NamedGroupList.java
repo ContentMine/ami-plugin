@@ -5,7 +5,7 @@ import java.util.List;
 
 import nu.xom.Attribute;
 
-import org.xmlcml.ami.plugin.result.ResultElement;
+import org.xmlcml.files.ResultElement;
 
 /** the fields matched in a regex mapped to the field names.
  * 
