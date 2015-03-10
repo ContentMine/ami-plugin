@@ -12,6 +12,7 @@ import org.xmlcml.args.ArgIterator;
 import org.xmlcml.args.ArgumentOption;
 import org.xmlcml.args.DefaultArgProcessor;
 import org.xmlcml.files.QuickscrapeNorma;
+import org.xmlcml.files.ResultElement;
 import org.xmlcml.files.ResultsElement;
 import org.xmlcml.html.HtmlElement;
 import org.xmlcml.html.HtmlFactory;
@@ -42,7 +43,7 @@ public class AMIArgProcessor extends DefaultArgProcessor{
 	private Integer[] contextCount = new Integer[] {98, 98};
 	private List<String> params;
 	private XPathProcessor xPathProcessor;
-	protected ResultsElement resultsElement;
+	protected List<ResultsElement> resultsElementList;
 	
 	public AMIArgProcessor() {
 		super();
@@ -152,8 +153,28 @@ public class AMIArgProcessor extends DefaultArgProcessor{
 		return contextCount;
 	}
 
-	public void setResultsElement(ResultsElement resultsElement) {
-		this.resultsElement = resultsElement;
+	public void addResultsElement(ResultsElement resultsElement0) {
+		ensureResultsElementList();
+		String title = resultsElement0.getTitle();
+		if (title == null) {
+			throw new RuntimeException("Results Element must have title");
+		}
+		checkNoDuplicatedTitle(title);
+		resultsElementList.add(resultsElement0);
+	}
+
+	private void checkNoDuplicatedTitle(String title) {
+		for (ResultsElement resultsElement : resultsElementList) {
+			if (title.equals(resultsElement.getTitle())) {
+				throw new RuntimeException("Cannot have two ResultsElement with same title");
+			}
+		}
+	}
+	
+	private void ensureResultsElementList() {
+		if (resultsElementList == null) {
+			resultsElementList = new ArrayList<ResultsElement>();
+		}
 	}
 
 	/** gets the HtmlElement for ScholarlyHtml.

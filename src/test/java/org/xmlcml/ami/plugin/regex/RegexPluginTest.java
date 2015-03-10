@@ -102,5 +102,4 @@ public class RegexPluginTest {
 //		Assert.assertTrue("results.xml", qsNormaTemp.hasResultsXML());
 	}
 	
-
 }

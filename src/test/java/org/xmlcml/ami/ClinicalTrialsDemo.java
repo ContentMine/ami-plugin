@@ -6,9 +6,6 @@ import java.io.IOException;
 import org.apache.log4j.Level;
 import org.apache.log4j.Logger;
 import org.junit.Assert;
-import org.junit.Test;
-import org.junit.rules.RunRules;
-import org.vafer.jdeb.shaded.compress.io.FileUtils;
 import org.xmlcml.ami.plugin.plugins.AMIArgProcessor;
 import org.xmlcml.ami.plugin.plugins.regex.RegexPlugin;
 import org.xmlcml.ami.plugin.plugins.words.WordArgProcessor;
@@ -22,25 +19,8 @@ public class ClinicalTrialsDemo {
 	}
 	
 	public static void main(String[] args) throws IOException {
-//		runSingleFile();
 		runManyFiles();
-//		runRegex();
-	}
-
-	private static void runSingleFile() throws IOException {
-		FileUtils.copyDirectory(
-				new File("trialsdata/http_www.trialsjournal.com_content_16_1_1"), 
-				new File("trialstemp/http_www.trialsjournal.com_content_16_1_1"));
-		LOG.debug("copied file");
-		String[] args = {
-			"-q", "trialstemp/http_www.trialsjournal.com_content_16_1_1",
-			"--w.words", WordArgProcessor.WORD_LENGTHS, WordArgProcessor.WORD_FREQUENCIES,
-			"--w.stopwords", "/org/xmlcml/ami/plugin/words/stopwords.txt",
-			"--w.wordlengths", "2", "12",
-			"--w.wordtypes", "acronym", "GROT",
-		};
-		AMIArgProcessor argProcessor = new WordArgProcessor(args);
-		argProcessor.runAndOutput();
+		runDirectoryWithQSNormaDirs();
 	}
 
 	private static void runManyFiles() throws IOException {
@@ -141,6 +121,22 @@ public class ClinicalTrialsDemo {
 		AMIArgProcessor argProcessor = new WordArgProcessor(args);
 		argProcessor.runAndOutput();
 	}
+	
+	private static void runDirectoryWithQSNormaDirs() throws IOException {
+//		FileUtils.copyDirectory(new File("trialsdata/"), new File("trialstemp/"));
+		LOG.debug("copied files");
+		String args[] = {
+			"-q", "trialstemp/", // contains 86 QSN files
+	"--w.words", WordArgProcessor.WORD_FREQUENCIES,
+	"--w.stopwords", "/org/xmlcml/ami/plugin/words/stopwords.txt",
+	"--w.wordlengths", "2", "12",
+	"--w.wordtypes", "acronym", "GROT",
+		};
+		AMIArgProcessor argProcessor = new WordArgProcessor(args);
+		argProcessor.runAndOutput();
+	}
+	
+
 	
 	private static void runRegex() throws IOException {
 		QuickscrapeNorma qsNorma = new QuickscrapeNorma(Fixtures.TEST_BMC_15_1_511_QSN);

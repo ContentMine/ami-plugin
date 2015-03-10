@@ -46,6 +46,38 @@
 		</help>
 	</arg>	
 	
+	<arg name="case" 
+		long="--w.case"
+		args="options"
+		countRange="{1,*}"
+		class="java.lang.String"
+		parseMethod="parseCase"
+		>
+		<help>
+			CASE
+			respects or ignores case:
+			* default is to respect case
+			* ignore = ignore case (everything is internally lowercased)
+			* respectCamel = don't lowercase anything with midWord uppercase (URL, eBook,)
+			
+		</help>
+	</arg>	
+	
+	<arg name="stemming" 
+		long="--w.stem"
+		args=""
+		countRange="{1,1}"
+		class="java.lang.Boolean"
+		default="false"
+		parseMethod="parseStem"
+		>
+		<help>
+		STEM
+		Stemming removes computable suffixes from words (e.g. walks, walked => walk)
+		Uses the Porter Stemming algorithm in Lucene.
+		</help>
+	</arg>	
+	
 	<arg name="wordtypes" 
 		long="--w.wordtypes"
 		args="type [type...]"

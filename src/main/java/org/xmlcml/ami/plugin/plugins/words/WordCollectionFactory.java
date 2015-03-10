@@ -25,13 +25,13 @@ public class WordCollectionFactory {
 
 	private static final String COUNT2 = "count";
 	private static final String VALUE = "value";
-	
 	private static final String COUNT = "count";
 	private static final String LENGTH = "length";
 	private static final String LENGTHS = "lengths";
 	private static final String FREQUENCIES = "frequencies";
 	private static final String FREQUENCY = "frequency";
 	private static final String WORD = "word";
+	private static final String PROPERTY = "property";
 	
 	private static final int DEFAULT_MIN_COUNT_IN_SET = 4;            // for set
 	private static final int DEFAULT_MIN_RAW_WORD_LENGTH = 3;
@@ -61,6 +61,7 @@ public class WordCollectionFactory {
 	}
 
 	void extractWords() {
+		createWordSets();
 		if (wordArgProcessor.getChosenMethods().contains(WordArgProcessor.WORD_LENGTHS)) {
 			createWordLengths();
 		}
@@ -70,15 +71,13 @@ public class WordCollectionFactory {
 	}
 
 	private void createWordLengths() {
-		createWordSets();
-		Element element = getWordlengthFrequency();
-		outputResults(element);
+		ResultsElement element = getWordlengthFrequency();
+		wordArgProcessor.addResultsElement(element);
 	}
 
 	private void createWordFrequencies() {
-		createWordSets();
-		Element element = getWordFrequency();
-		outputResults(element);
+		ResultsElement element = getWordFrequency();
+		wordArgProcessor.addResultsElement(element);
 	}
 
 	private void createWordSets() {
@@ -87,9 +86,12 @@ public class WordCollectionFactory {
 		currentWords = createUnstoppedWords(rawWords);
 		if (wordArgProcessor.getChosenWordTypes().contains(WordArgProcessor.ABBREVIATIONS)) {
 			currentWords = createAbbreviations();
-		}
-		if (wordArgProcessor.getChosenWordTypes().contains(WordArgProcessor.CAPITALIZED)) {
+		} else if (wordArgProcessor.getChosenWordTypes().contains(WordArgProcessor.CAPITALIZED)) {
 			currentWords = createCapitalized();
+		} else {
+			if (wordArgProcessor.getWordCaseList().contains(WordArgProcessor.IGNORE)) {
+				currentWords = toLowerCase(currentWords);
+			}
 		}
 	}
 
@@ -173,32 +175,31 @@ public class WordCollectionFactory {
 		LOG.trace("current words: "+currentWords.size());
 		return currentWords;
 	}
-
-	private void outputResults(Element element) {
-		LOG.debug("words "+element.toXML());
-		ResultsElement resultsElement = new ResultsElement();
-		ResultElement resultElement = new ResultElement();
-		resultsElement.appendChild(resultElement);
-		resultElement.appendChild(element);
-		wordArgProcessor.setResultsElement(resultsElement);
+	
+	private List<String> toLowerCase(List<String> words) {
+		ArrayList<String> newList = new ArrayList<String>();
+		for (String word : words) {
+			newList.add(word.toLowerCase());
+		}
+		return newList;
 	}
 
-	private Element getWordlengthFrequency() {
+	private ResultsElement getWordlengthFrequency() {
 		Multiset<Integer> lengthSet = HashMultiset.create();
 		for (String word : currentWords) {
 			lengthSet.add(word.length());
 		}
-		Element lengthsElement = new Element(LENGTHS);
+		ResultsElement lengthsElement = new ResultsElement(LENGTHS);
 		for (Entry<Integer> entry : lengthSet.entrySet()) {
-			Element lengthElement = new Element(LENGTH);
-			lengthElement.addAttribute(new Attribute(LENGTH, ""+entry.getElement().intValue()));
+			ResultElement lengthElement = new ResultElement(LENGTH);
+			lengthElement.addAttribute(new Attribute(LENGTH, String.valueOf(entry.getElement().intValue())));
 			lengthElement.addAttribute(new Attribute(COUNT, ""+entry.getCount()));
 			lengthsElement.appendChild(lengthElement);
 		}
 		return lengthsElement;
 	}
 	
-	private Element getWordFrequency() {
+	private ResultsElement getWordFrequency() {
 		Multiset<String> wordSet = HashMultiset.create();
 		for (String rawWord : currentWords) {
 //			rawWord = rawWord.toLowerCase(); // normalize case
@@ -213,11 +214,11 @@ public class WordCollectionFactory {
 		entriesSortedByValue = ImmutableSortedMultiset.copyOf(wordSet).entrySet();
 		Iterable<Multiset.Entry<String>> sortedEntries = getSortedEntries();
 		
-		Element lengthsElement = new Element(FREQUENCIES);
+		ResultsElement lengthsElement = new ResultsElement(FREQUENCIES);
 		for (Entry<String> entry : sortedEntries) {
 			int count = +entry.getCount();
 			if (count < minCountInSet) continue;
-			Element lengthElement = new Element(FREQUENCY);
+			ResultElement lengthElement = new ResultElement(FREQUENCY);
 			lengthElement.addAttribute(new Attribute(WORD, String.valueOf(entry.getElement())));
 			lengthElement.addAttribute(new Attribute(COUNT, String.valueOf(count)));
 			lengthsElement.appendChild(lengthElement);

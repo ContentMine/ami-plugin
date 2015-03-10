@@ -22,6 +22,7 @@ import org.xmlcml.files.ResultsElement;
  */
 public class WordArgProcessor extends AMIArgProcessor {
 	
+	
 	public static final Logger LOG = Logger.getLogger(WordArgProcessor.class);
 	static {
 		LOG.setLevel(Level.DEBUG);
@@ -47,11 +48,22 @@ public class WordArgProcessor extends AMIArgProcessor {
 				CAPITALIZED
 		});
 	
+	public final static String PRESERVE = "preserve";
+	public final static String IGNORE = "ignore";
+	public final static List<String> CASE_TYPES = Arrays.asList(
+		new String[]{
+				IGNORE,
+				ABBREVIATIONS,
+				PRESERVE
+		});
+	
 	private List<WordSetWrapper> stopwordSetList;
-	private List<String> chosenMethods;
+	private List<String> chosenMethods = new ArrayList<String>();
 	private IntRange wordLengthRange;
 	private List<String> chosenWordTypes;
 	protected List<String> words;
+	private Boolean stemming;
+	private List<String> wordCaseList = new ArrayList<String>();
 
 	public WordArgProcessor() {
 		super();
@@ -82,18 +94,33 @@ public class WordArgProcessor extends AMIArgProcessor {
 		}
 	}
 
-	private void helpMethods() {
-		System.err.println("ANALYSIS METHODS");
-		for (String method : ANALYSIS_METHODS) {
-			System.err.println("  "+method);
+	/** use stemming?
+	 * 
+	 * @param option list of methods (none gives help)
+	 * @param argIterator
+	 */
+	public void parseCase(ArgumentOption option, ArgIterator argIterator) {
+		List<String> tokens = argIterator.createTokenListUpToNextMinus(option);
+		wordCaseList = new ArrayList<String>();
+		if (tokens.size() == 0) {
+			wordCaseList.add(PRESERVE);
+		} else {
+			wordCaseList = tokens;
 		}
+		checkWordCaseList();
 	}
-	
-	private void helpWordTypes() {
-		System.err.println("WORD TYPES");
-		for (String type : WORD_TYPES) {
-			System.err.println("  "+type);
-		}
+
+	/** use stemming?
+	 * 
+	 * will have to use import org.apache.lucene.analysis.en.PorterStemFilter;
+	 * 
+	 * @param option list of methods (none gives help)
+	 * @param argIterator
+	 */
+	public void parseStem(ArgumentOption option, ArgIterator argIterator) {
+		List<String> tokens = argIterator.createTokenListUpToNextMinus(option);
+		stemming = (tokens.size() == 0) ? true : new Boolean(tokens.get(0));
+		LOG.info("Stemming noy yet implemented");
 	}
 
 	public void parseStopwords(ArgumentOption option, ArgIterator argIterator) {
@@ -137,10 +164,38 @@ public class WordArgProcessor extends AMIArgProcessor {
 	}
 	
 	public void outputWords(ArgumentOption option) {
-		currentQuickscrapeNorma.createResultsDirectoryAndOutputResultsElement(WORDS, resultsElement, QuickscrapeNorma.RESULTS_XML);
+		currentQuickscrapeNorma.createResultsDirectoryAndOutputResultsElement(option, resultsElementList, QuickscrapeNorma.RESULTS_XML);
 	}
 	
 	// =============================
+
+	private void helpMethods() {
+		System.err.println("ANALYSIS METHODS");
+		for (String method : ANALYSIS_METHODS) {
+			System.err.println("  "+method);
+		}
+	}
+	
+	private void helpWordTypes() {
+		System.err.println("WORD TYPES");
+		for (String type : WORD_TYPES) {
+			System.err.println("  "+type);
+		}
+	}
+
+	private void checkWordCaseList() {
+		if (wordCaseList.size() == 1 && PRESERVE.equals(wordCaseList.get(0))) {
+			// OK
+		} else {
+			for (int i = wordCaseList.size() - 1; i >= 0; i--) {
+				String word = wordCaseList.get(i);
+				if (wordCaseList.contains(PRESERVE) || !CASE_TYPES.contains(word)) {
+					LOG.error("Removed forbidden/unknown word: "+word);
+					wordCaseList.remove(i);
+				}
+			}
+		}
+	}
 
 	private void addStopwords(String stopwordLocation) {
 		WordSetWrapper stopwordSet = WordSetWrapper.createStopwordSet(stopwordLocation);
@@ -167,10 +222,15 @@ public class WordArgProcessor extends AMIArgProcessor {
 		return chosenMethods;
 	}
 
+	public boolean getStemming() {
+		return stemming;
+	}
+
+	public List<String> getWordCaseList() {
+		return wordCaseList;
+	}
+
 	public List<String> getChosenWordTypes() {
 		return chosenWordTypes;
 	}
-
-	
-
 }

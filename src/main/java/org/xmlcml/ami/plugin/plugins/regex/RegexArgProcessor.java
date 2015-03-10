@@ -1,6 +1,7 @@
 package org.xmlcml.ami.plugin.plugins.regex;
 
 import java.io.InputStream;
+import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
@@ -15,6 +16,7 @@ import org.xmlcml.ami.plugin.plugins.AMIArgProcessor;
 import org.xmlcml.args.ArgIterator;
 import org.xmlcml.args.ArgumentOption;
 import org.xmlcml.files.EuclidSource;
+import org.xmlcml.files.QuickscrapeNorma;
 import org.xmlcml.files.ResultsElement;
 import org.xmlcml.html.HtmlP;
 
@@ -83,11 +85,14 @@ public class RegexArgProcessor extends AMIArgProcessor {
 	}
 
 	public void outputResultElements(ArgumentOption option) {
+		resultsElementList = new ArrayList<ResultsElement>();
 		for (CompoundRegex compoundRegex : compoundRegexList) {
 			String regexTitle = compoundRegex.getTitle();
 			ResultsElement resultsElement = resultsByCompoundRegex.get(regexTitle);
-			currentQuickscrapeNorma.createResultsDirectoryAndOutputResultsElement(regexTitle, resultsElement, REGEX);
+			resultsElement.setTitle(regexTitle);
+			resultsElementList.add(resultsElement);
 		}
+		currentQuickscrapeNorma.createResultsDirectoryAndOutputResultsElement(option, resultsElementList, QuickscrapeNorma.RESULTS_XML);
 	}
 
 	private CompoundRegexList getOrCreateCompoundRegexList() {
