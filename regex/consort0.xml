@@ -1,0 +1,30 @@
+<compoundRegex title="consort0">
+  <regex>[Rr]andomi[zs]ation</regex>
+  <regex>one to one</regex>
+  <regex>block of size</regex>
+  <regex>SAS procedure plan</regex>
+  <regex>[Rr]andomi[sz]ation list</regex>
+  <regex>[Bb]linding</regex>
+  <regex>follow-up</regex>
+  <regex>participants</regex>
+  <regex>excluded</regex>
+  <regex>withdrew</regex>
+  <regex>diagnosed</regex>
+  <regex>attrition</regex>
+  <regex>sample size of</regex>
+  <regex>prespecified outcomes?</regex>
+  <regex>[Ii]ndependent</regex>
+  <regex>placebo</regex>
+  <regex>[Cc]omputer generated</regex>
+  <regex>allocation of the participants</regex>
+  <regex>random numbers?</regex>
+  <regex>Stata</regex>
+  <regex>stratified by</regex>
+  <regex>allocat[^\s]*</regex>
+  <regex>random block sizes?</regex>
+  <regex>treatment groups?</regex>
+  <regex>consecutive[^\s]* number[^\s]*</regex>
+  <regex>order number</regex>
+  <regex>conceal[^\s]*</regex>
+  <regex>assign[^\s]*</regex>
+</compoundRegex>

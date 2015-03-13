@@ -3,9 +3,9 @@
 
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>org.xml-cml</groupId>
-	<artifactId>ami-plugin</artifactId>
+	<artifactId>ami2</artifactId>
 	<version>0.1-SNAPSHOT</version>
-	<description>Converts HTML, SVG and PNG to STM.</description>
+	<description>Plugin architecture for converting Normalized science to Semantic science</description>
     <name>AMI</name>
 	<parent>
 		<groupId>uk.ac.cam.ch.wwmm</groupId>
@@ -72,31 +72,40 @@
 				<configuration>
 
 					<programs>
+					<!-- 
 						<program>
-							<mainClass>org.xmlcml.ami.visitor.chem.ChemVisitor</mainClass>
-							<id>ami-chem</id>
+							<mainClass>org.xmlcml.ami2.plugins.chem.ChemPlugin</mainClass>
+							<id>ami2-chem</id>
 						</program>
 						<program>
-							<mainClass>org.xmlcml.ami.visitor.chem.oscar.OSCARVisitor</mainClass>
-							<id>ami-oscar</id>
+							<mainClass>org.xmlcml.ami2.plugins.chem.oscar.OSCARPlugin</mainClass>
+							<id>ami2-oscar</id>
+						</program>
+ -->
+ 						<program>
+							<mainClass>org.xmlcml.ami2.plugins.regex.RegexPlugin</mainClass>
+							<id>ami2-regex</id>
+						</program>
+						<!-- 
+						<program>
+							<mainClass>org.xmlcml.ami2.plugins.sequence.SequencePlugin</mainClass>
+							<id>ami2-sequence</id>
 						</program>
 						<program>
-							<mainClass>org.xmlcml.ami.visitor.regex.RegexVisitor</mainClass>
-							<id>ami-regex</id>
+							<mainClass>org.xmlcml.ami2.plugins.species.SpeciesPlugin</mainClass>
+							<id>ami2-species</id>
 						</program>
+ -->
+ 						<!-- 
 						<program>
-							<mainClass>org.xmlcml.ami.visitor.sequence.SequenceVisitor</mainClass>
-							<id>ami-sequence</id>
+							<mainClass>org.xmlcml.ami2.plugins.tree.TreePlugin</mainClass>
+							<id>ami2-tree</id>
 						</program>
+ -->
 						<program>
-							<mainClass>org.xmlcml.ami.visitor.species.SpeciesVisitor</mainClass>
-							<id>ami-species</id>
+							<mainClass>org.xmlcml.ami2.plugins.words.WordPlugin</mainClass>
+							<id>ami2-words</id>
 						</program>
-						<program>
-							<mainClass>org.xmlcml.ami.visitor.tree.TreeVisitor</mainClass>
-							<id>ami-tree</id>
-						</program>
-
 					</programs>
 
 					<!-- Prevent long directories -->
@@ -141,7 +150,7 @@
 								<prefix>/usr/share/ami-repo</prefix>
 							</mapper>
 						</data>
-
+<!--  
 						<data>
 							<src>${basedir}/src/test/resources/org/xmlcml/ami/html/multiple.312.html</src>
 							<type>file</type>
@@ -151,73 +160,46 @@
 								<prefix>/usr/share/ami-repo/exampleData/html</prefix>
 							</mapper>
 						</data>
-						<data>
-							<src>${basedir}/src/test/resources/org/xmlcml/ami/html/pb1.html</src>
-							<type>file</type>
-							<mapper>
-								<type>perm</type>
-								<filemode>555</filemode>
-								<prefix>/usr/share/ami-repo/exampleData/html</prefix>
-							</mapper>
-						</data>
-						<data>
-							<src>${basedir}/src/test/resources/org/xmlcml/ami/species/journal.pone.0077058.xml</src>
-							<type>file</type>
-							<mapper>
-								<type>perm</type>
-								<filemode>555</filemode>
-								<prefix>/usr/share/ami-repo/exampleData/species</prefix>
-							</mapper>
-						</data>
-						<data>
-							<src>${basedir}/src/test/resources/org/xmlcml/ami/pdf/multiple-1471-2148-11-312.pdf</src>
-							<type>file</type>
-							<mapper>
-								<type>perm</type>
-								<filemode>555</filemode>
-								<prefix>/usr/share/ami-repo/exampleData/pdf</prefix>
-							</mapper>
-						</data>
-						<data>
-							<src>${basedir}/src/test/resources/org/xmlcml/ami/pdf/tree-1471-2148-11-313.pdf</src>
-							<type>file</type>
-							<mapper>
-								<type>perm</type>
-								<filemode>555</filemode>
-								<prefix>/usr/share/ami-repo/exampleData/pdf</prefix>
-							</mapper>
-						</data>
-
-
+-->
+<!-- 
 						<data>
 							<type>link</type>
 							<symlink>true</symlink>
-							<linkName>/usr/bin/ami-chem</linkName>
-							<linkTarget>/usr/share/ami-repo/bin/ami-chem</linkTarget>
+							<linkName>/usr/bin/ami2-chem</linkName>
+							<linkTarget>/usr/share/ami-repo/bin/ami2-chem</linkTarget>
+						</data>
+ -->
+ 						<data>
+							<type>link</type>
+							<symlink>true</symlink>
+							<linkName>/usr/bin/ami2-regex</linkName>
+							<linkTarget>/usr/share/ami-repo/bin/ami2-regex</linkTarget>
+						</data>
+						<!-- 
+						<data>
+							<type>link</type>
+							<symlink>true</symlink>
+							<linkName>/usr/bin/ami2-sequence</linkName>
+							<linkTarget>/usr/share/ami-repo/bin/ami2-sequence</linkTarget>
 						</data>
 						<data>
 							<type>link</type>
 							<symlink>true</symlink>
-							<linkName>/usr/bin/ami-regex</linkName>
-							<linkTarget>/usr/share/ami-repo/bin/ami-regex</linkTarget>
+							<linkName>/usr/bin/ami2-species</linkName>
+							<linkTarget>/usr/share/ami-repo/bin/ami2-species</linkTarget>
 						</data>
 						<data>
 							<type>link</type>
 							<symlink>true</symlink>
-							<linkName>/usr/bin/ami-sequence</linkName>
-							<linkTarget>/usr/share/ami-repo/bin/ami-sequence</linkTarget>
+							<linkName>/usr/bin/ami2-tree</linkName>
+							<linkTarget>/usr/share/ami-repo/bin/ami2-tree</linkTarget>
 						</data>
+						-->
 						<data>
 							<type>link</type>
 							<symlink>true</symlink>
-							<linkName>/usr/bin/ami-species</linkName>
-							<linkTarget>/usr/share/ami-repo/bin/ami-species</linkTarget>
-						</data>
-						<data>
-							<type>link</type>
-							<symlink>true</symlink>
-							<linkName>/usr/bin/ami-tree</linkName>
-							<linkTarget>/usr/share/ami-repo/bin/ami-tree</linkTarget>
+							<linkName>/usr/bin/ami2-word</linkName>
+							<linkTarget>/usr/share/ami-repo/bin/ami2-word</linkTarget>
 						</data>
 
 					</dataSet>

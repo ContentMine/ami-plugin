@@ -27,4 +27,29 @@ It is often strightforward to develop text-based searches, and this is accessibl
  
 The plugin architecture is moderately stable and it requires very little alteration to the codebase to add a new one (hopefully soon this can be done automatically by configuration files).
 
+### file structure
+
+The input must be a QuickscrapeNorma directory (QSNorma). This must contain `scholarly.html` which is used for 
+analysis. When a plugin is run, the output is to the `results` directory, wiwth a subdirectory for each plugin
+and a sub-subdirectory for each plugin option: Example:
+
+
+    http_www.foo_1_2/
+        fulltext.xml
+        fulltext.pdf
+        scholarly.html
+        results/
+            words/
+                frequency/
+                    results.xml
+                lengths/
+                    results.xml
+            regex/
+                consort0/
+                    results.xml
+                publication/
+                    results.xml
+
+
+        
 

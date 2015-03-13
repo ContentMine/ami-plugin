@@ -2,8 +2,8 @@ Package: [[name]]
 Section: contrib/java
 Priority: optional
 Architecture: all
-Homepage: https://bitbucket.org/petermr/ami-core/wiki/Home
+Homepage: https://bitbucket.org/petermr/ami-plugin/wiki/Home
 Depends: java7-runtime
 Version: [[version]]
-Maintainer: Mark J. Williamson <mjw@mjw.name>
+Maintainer: Peter Murray-Rust <peter.murray.rust@googlemail.com>
 Description: [[description]]
