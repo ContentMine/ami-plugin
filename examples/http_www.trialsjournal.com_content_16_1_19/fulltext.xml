@@ -1,0 +1,2064 @@
+<?xml version='1.0'?>
+<!DOCTYPE art SYSTEM 'http://www.biomedcentral.com/xml/article.dtd'>
+<art>
+    <ui>s13063-014-0529-5</ui>
+    <ji>1745-6215</ji>
+    <fm>
+       <dochead>Study protocol</dochead>
+       <bibl>
+          <title>
+             <p>Application time for postoperative wound dressing following breast augmentation with implants: study protocol for a randomized controlled trial</p>
+          </title>
+          <aug>
+             <au id="A1">
+                <snm>Mendes</snm>
+                <mnm>de Almeida</mnm>
+                <fnm>Denise</fnm>
+                <insr iid="I1"/>
+                <insr iid="I2"/>
+                <email>deniseamendes@uol.com.br</email>
+             </au>
+             <au id="A2" ca="yes">
+                <snm>Veiga</snm>
+                <mnm>Francescato</mnm>
+                <fnm>Daniela</fnm>
+                <insr iid="I1"/>
+                <insr iid="I2"/>
+                <email>danielafveiga@gmail.com</email>
+             </au>
+             <au id="A3">
+                <snm>Veiga-Filho</snm>
+                <fnm>Joel</fnm>
+                <insr iid="I1"/>
+                <insr iid="I2"/>
+                <email>veigafilhoj@gmail.com</email>
+             </au>
+             <au id="A4">
+                <snm>Fonseca</snm>
+                <mnm>Elias Martins</mnm>
+                <fnm>Fernando</fnm>
+                <insr iid="I2"/>
+                <email>femfonseca@uol.com.br</email>
+             </au>
+             <au id="A5">
+                <snm>de Paiva</snm>
+                <mnm>Francisley</mnm>
+                <fnm>Luiz</fnm>
+                <insr iid="I3"/>
+                <email>francisleybiologo@yahoo.com.br</email>
+             </au>
+             <au id="A6">
+                <snm>Novo</snm>
+                <mnm>Ferreira</mnm>
+                <fnm>Neil</fnm>
+                <insr iid="I4"/>
+                <email>nnovo@unisa.br</email>
+             </au>
+             <au id="A7">
+                <snm>Loyola</snm>
+                <mnm>Beatriz Alkmin Teixeira</mnm>
+                <fnm>Ana</fnm>
+                <insr iid="I3"/>
+                <email>analkimin@hotmail.com</email>
+             </au>
+             <au id="A8">
+                <snm>Ferreira</snm>
+                <mnm>Masako</mnm>
+                <fnm>Lydia</fnm>
+                <insr iid="I1"/>
+                <email>lydiamferreira@gmail.com</email>
+             </au>
+          </aug>
+          <insg>
+             <ins id="I1">
+                <p>Division of Plastic Surgery, Universidade Federal de S&#227;o Paulo, Rua Napole&#227;o de Barros, 715,-4&#176; andar, S&#227;o Paulo - SP 04024-002, CEP, Brazil</p>
+             </ins>
+             <ins id="I2">
+                <p>Division of Plastic Surgery, Department of Surgery, Universidade do Vale do Sapuca&#237;, Avenida Alfredo Cust&#243;dio de Paula, 320, Pouso Alegre - MG 37550-000, CEP, Brazil</p>
+             </ins>
+             <ins id="I3">
+                <p>Department of Microbiology, Universidade do Vale do Sapuca&#237;, Avenida Alfredo Cust&#243;dio de Paula, 320, Pouso Alegre - MG 37550-000, CEP, Brazil</p>
+             </ins>
+             <ins id="I4">
+                <p>Department of Bioestatistics, Universidade do Vale do Sapuca&#237;, Avenida Alfredo Cust&#243;dio de Paula, 320, Pouso Alegre - MG 37550-000, CEP, Brazil</p>
+             </ins>
+          </insg>
+          <source>Trials</source>
+          <issn>1745-6215</issn>
+          <pubdate>2015</pubdate>
+          <volume>16</volume>
+          <issue>1</issue>
+          <fpage>19</fpage>
+          <url>http://www.trialsjournal.com/content/16/1/19</url>
+          <xrefbib>
+             <pubidlist>
+                <pubid idtype="doi">10.1186/s13063-014-0529-5</pubid>
+             </pubidlist>
+          </xrefbib>
+       </bibl>
+       <history>
+          <rec>
+             <date>
+                <day>2</day>
+                <month>6</month>
+                <year>2014</year>
+             </date>
+          </rec>
+          <acc>
+             <date>
+                <day>19</day>
+                <month>12</month>
+                <year>2014</year>
+             </date>
+          </acc>
+          <pub>
+             <date>
+                <day>27</day>
+                <month>1</month>
+                <year>2015</year>
+             </date>
+          </pub>
+       </history>
+       <cpyrt>
+          <year>2015</year>
+          <collab>Mendes et al.; licensee BioMed Central.</collab>
+          <note>This is an Open Access article distributed under the terms of the Creative Commons Attribution License (<url>http://creativecommons.org/licenses/by/4.0</url>), which permits unrestricted use, distribution, and reproduction in any medium, provided the original work is properly credited. The Creative Commons Public Domain Dedication waiver (<url>http://creativecommons.org/publicdomain/zero/1.0/</url>) applies to the data made available in this article, unless otherwise stated.</note>
+       </cpyrt>
+       <kwdg>
+          <kwd>Breast</kwd>
+          <kwd>Prosthesis implantation</kwd>
+          <kwd>Augmentation mammaplasty</kwd>
+          <kwd>Postoperative care</kwd>
+          <kwd>Dressings</kwd>
+          <kwd>Surgical wound infection</kwd>
+          <kwd>Bacterial growth</kwd>
+          <kwd>Patient satisfaction</kwd>
+       </kwdg>
+       <abs>
+          <sec>
+             <st>
+                <p>Abstract</p>
+             </st>
+             <sec>
+                <st>
+                   <p>Background</p>
+                </st>
+                <p>Breast augmentation with silicone implants is one of the most frequently performed cosmetic surgeries worldwide. Surgical site infection (SSI) remains an important complication of this procedure. One of the most important risk factors for SSI is the presence of microorganisms on the skin surrounding the wound. Guidelines by the Centers for Disease Control (CDC) recommend that surgical wounds be covered with a sterile dressing for 24 to 48&#160;hours. However, a recent study showed that the application of a dressing for six days after breast reduction reduced wound colonization by coagulase-negative staphylococci.</p>
+             </sec>
+             <sec>
+                <st>
+                   <p>Methods/Design</p>
+                </st>
+                <p>A randomized clinical trial was designed to assess two protocols of postoperative wound care to determine how the application duration of the postoperative dressing influences wound colonization in patients undergoing breast augmentation with silicone implants. Women aged between 18 and 60&#160;years who are candidates for breast augmentation with silicone implants will be randomly allocated to group I (n&#8201;=&#8201;48), in which the dressing will be removed on the first postoperative day, or group II (n&#8201;=&#8201;48), in which the dressing will be removed on the sixth postoperative day. Cutaneous colonization will be assessed by cultures of samples of skin flora taken from the wound region. The incidence of SSI, using standardized CDC criteria, and the perceptions of patients towards the dressing will be secondary outcomes.</p>
+             </sec>
+             <sec>
+                <st>
+                   <p>Discussion</p>
+                </st>
+                <p>An important component of SSI prevention is to minimize all possible risk factors, and the application of postoperative dressing plays a key role in this endeavor. The results of this clinical trial may help to standardize postoperative wound care after breast augmentation with silicone implants.</p>
+             </sec>
+             <sec>
+                <st>
+                   <p>Trial registration</p>
+                </st>
+                <p>This trial was registered on 12 March 2012 with ClinicalTrials.gov (identifier: <url>NCT01553604</url>).</p>
+             </sec>
+          </sec>
+       </abs>
+    </fm>
+    <bdy>
+       <sec>
+          <st>
+             <p>Background</p>
+          </st>
+          <p>The popularity of breast augmentation with silicone implants has grown exponentially in the last decade. Since 2007, this operation is one of the most frequently performed cosmetic surgeries worldwide. In 2012, over 330,000 new breast augmentations were performed in the United States alone <abbrgrp>
+                <abbr bid="B1">1</abbr>
+             </abbrgrp>. Despite advances in the surgical technique of breast augmentation and the technology for manufacturing breast implants, surgical site infection (SSI) remains an important complication of this procedure <abbrgrp>
+                <abbr bid="B2">2</abbr>
+             </abbrgrp>,<abbrgrp>
+                <abbr bid="B3">3</abbr>
+             </abbrgrp>. SSI increases morbidity, financial and personal costs, and the possibility of operative failure, as the implant may need to be removed to treat the infection <abbrgrp>
+                <abbr bid="B4">4</abbr>
+             </abbrgrp>.</p>
+          <p>The risk of postoperative SSI in primary augmentation mammoplasty with silicone implants is estimated to be between 0.1 and 2.5% <abbrgrp>
+                <abbr bid="B2">2</abbr>
+             </abbrgrp>,<abbrgrp>
+                <abbr bid="B4">4</abbr>
+             </abbrgrp>-<abbrgrp>
+                <abbr bid="B10">10</abbr>
+             </abbrgrp>. These low rates of SSI make correlations with risk factors or specific interventions difficult, as very large sample sizes are required to determine statistically significant correlations <abbrgrp>
+                <abbr bid="B11">11</abbr>
+             </abbrgrp>. However, due to the severity of the consequences of implant-related SSI, any contribution towards understanding these risk factors will aid in the development of strategies for preventing infection and improving surgical outcomes <abbrgrp>
+                <abbr bid="B12">12</abbr>
+             </abbrgrp>.</p>
+          <p>One of the most important risk factors for SSI is the presence of microorganisms on the skin surrounding the wound <abbrgrp>
+                <abbr bid="B4">4</abbr>
+             </abbrgrp>,<abbrgrp>
+                <abbr bid="B11">11</abbr>
+             </abbrgrp>,<abbrgrp>
+                <abbr bid="B13">13</abbr>
+             </abbrgrp>,<abbrgrp>
+                <abbr bid="B14">14</abbr>
+             </abbrgrp>. This risk increases when alloplastic material is used <abbrgrp>
+                <abbr bid="B4">4</abbr>
+             </abbrgrp>. The ability of endogenous skin bacteria to colonize mammary prostheses has been demonstrated <it>in vitro</it> 
+             <abbrgrp>
+                <abbr bid="B15">15</abbr>
+             </abbrgrp>. Bacteria from the endogenous flora or external sources of contamination may adhere to the implant and form an extracellular polysaccharide-rich matrix or biofilm, which surrounds the implant <abbrgrp>
+                <abbr bid="B16">16</abbr>
+             </abbrgrp>. Bacteria aggregate and adhere to this extracellular matrix, enabling them to evade the host immune response and resist systemic antibiotics. Biofilm formation facilitates plasmid transfer among the bacteria, leading to highly virulent organisms. The minimum inhibitory concentration of antibiotics is 1,000 times greater for biofilms than for planktonic bacteria <abbrgrp>
+                <abbr bid="B17">17</abbr>
+             </abbrgrp>. The seeding of a foreign body and the subsequent formation of a biofilm are not only difficult to diagnose, but may be very difficult to treat, especially with routine antibiotics <abbrgrp>
+                <abbr bid="B18">18</abbr>
+             </abbrgrp>. Studies have suggested that chronic subclinical infection related to biofilms on implants may be associated with symptomatic capsular contracture, which is the leading cause of reoperation in mammary prosthetic surgery <abbrgrp>
+                <abbr bid="B19">19</abbr>
+             </abbrgrp>-<abbrgrp>
+                <abbr bid="B24">24</abbr>
+             </abbrgrp>.</p>
+          <p>SSIs are related to preoperative factors (such as patient selection), intraoperative factors (such as type of surgery), and postoperative factors. Surgical wound management during the postoperative period greatly influences the risk of SSI because the skin incision serves as a gateway for microorganisms <abbrgrp>
+                <abbr bid="B4">4</abbr>
+             </abbrgrp>,<abbrgrp>
+                <abbr bid="B20">20</abbr>
+             </abbrgrp>,<abbrgrp>
+                <abbr bid="B25">25</abbr>
+             </abbrgrp>,<abbrgrp>
+                <abbr bid="B26">26</abbr>
+             </abbrgrp>. Bacteria can access the operative site via the incision. They may multiply and invade tissues to cause infection, depending on their number and pathogenic interaction with the host immune system <abbrgrp>
+                <abbr bid="B19">19</abbr>
+             </abbrgrp>. However, few studies have justified the normalization of this period <abbrgrp>
+                <abbr bid="B26">26</abbr>
+             </abbrgrp>.</p>
+          <p>Care of surgical incisions has long been practiced. The use of dressings has been documented for over 4,000&#160;years, but Joseph Lister introduced the concept of antisepsis only in the nineteenth century. The ideal dressing should protect the wound from trauma and contamination, absorb secretions, and provide the necessary compression to minimize edema and obliterate any dead space. Furthermore, the dressing covers unsightly operative wounds, thereby improving the psychological wellbeing of the patient <abbrgrp>
+                <abbr bid="B26">26</abbr>
+             </abbrgrp>,<abbrgrp>
+                <abbr bid="B27">27</abbr>
+             </abbrgrp>.</p>
+          <p>The standardization of postoperative wound dressings, including those used after breast surgery, has been based on scarce and empirical evidence <abbrgrp>
+                <abbr bid="B28">28</abbr>
+             </abbrgrp>,<abbrgrp>
+                <abbr bid="B29">29</abbr>
+             </abbrgrp>. Different materials and techniques for the application of new dressings have been developed, however, conventional gauze-based dressings are still used very often <abbrgrp>
+                <abbr bid="B30">30</abbr>
+             </abbrgrp>. A systematic review failed to prove the superiority of any one type of dressing over another type, or no dressing, and suggested a need for well-designed clinical trials to determine the ideal application time for postoperative wound dressings, an issue that remains controversial <abbrgrp>
+                <abbr bid="B31">31</abbr>
+             </abbrgrp>.</p>
+          <p>Guidelines by the Centers for Disease Control (CDC) recommend that surgical wounds be covered with a sterile dressing for 24 to 48&#160;hours <abbrgrp>
+                <abbr bid="B25">25</abbr>
+             </abbrgrp>. Subsequent postoperative care should be individualized; there is no ideal home-care protocol. At present, the care of postoperative wounds is not standardized and is based on the individual experience of each surgeon <abbrgrp>
+                <abbr bid="B25">25</abbr>
+             </abbrgrp>,<abbrgrp>
+                <abbr bid="B26">26</abbr>
+             </abbrgrp>. A recent study by Veiga-Filho <it>et al</it>. <abbrgrp>
+                <abbr bid="B32">32</abbr>
+             </abbrgrp> showed that the application of a dressing for six days after breast reduction reduced wound colonization by coagulase-negative staphylococci. These authors also demonstrated that patients preferred to retain the same dressing for six days and considered this method to be safe <abbrgrp>
+                <abbr bid="B32">32</abbr>
+             </abbrgrp>.</p>
+       </sec>
+       <sec>
+          <st>
+             <p>Methods/Design</p>
+          </st>
+          <sec>
+             <st>
+                <p>Study aims</p>
+             </st>
+             <p>A randomized clinical trial was designed to assess two protocols of postoperative wound care to determine how the application duration of the postoperative dressing influences wound colonization in patients undergoing breast augmentation with silicone implants. The secondary aims are to determine the SSI rates and the perceptions of the patients regarding the comfort, convenience and safety of the postoperative dressing. The trial will be conducted in a double-blinded manner in a university hospital in Brazil (Hospital das Cl&#237;nicas Samuel Lib&#226;nio, Universidade do Vale do Sapuca&#237;). This trial has been registered at Clinicaltrials.gov (identifier: NCT01553604).</p>
+          </sec>
+          <sec>
+             <st>
+                <p>Ethical issues</p>
+             </st>
+             <p>The Ethical Committee of the Universidade do Vale do Sapuca&#237; have reviewed and approved the study protocol (reference number: 113.612). Only those patients who agree to sign informed consent forms will be included in the study.</p>
+          </sec>
+          <sec>
+             <st>
+                <p>Inclusion and exclusion criteria</p>
+             </st>
+             <p>Patients will be recruited from the private practices of the first three authors (DAM, DFV and JVF). Women aged between 18 and 60&#160;years who are candidates for breast augmentation with silicone implants via the inframammary fold approach will be eligible for the study. Patients with a body mass index (BMI) above 30&#160;kg/m<sup>2</sup>, those on immunosuppressive therapy, those with diabetes, those who smoke, and those with a history of breast cancer or breast surgery will be excluded. Patients with an indication for an areolar or axillar approach and those who had the dressing wet will also be excluded.</p>
+          </sec>
+          <sec>
+             <st>
+                <p>Sample size</p>
+             </st>
+             <p>On the basis of the literature, an increase in bacterial growth of 100 colony-forming units (CFUs) per plate will be considered clinically significant <abbrgrp>
+                   <abbr bid="B32">32</abbr>
+                </abbrgrp>. For a statistical power of 95% and an alpha test risk of 5%, the sample size has been estimated to be 48 patients per study arm.</p>
+          </sec>
+          <sec>
+             <st>
+                <p>Group assignment, randomization and allocation concealment</p>
+             </st>
+             <p>Patients will be randomly allocated to group I (n&#8201;=&#8201;48), in which the dressing will be removed on the first postoperative day, or group II (n&#8201;=&#8201;48), in which the dressing will be removed on the sixth postoperative day. Allocation will be determined by a random, computer-generated sequence (Bioestat 5.0, Instituto Mamirau&#225;, Bel&#233;m, PA, Brazil). An opaque envelope with the patient number will be opened on the first postoperative day to reveal the allocation of the patient.</p>
+          </sec>
+          <sec>
+             <st>
+                <p>Procedures and interventions</p>
+             </st>
+             <p>Patients will be instructed to bathe before surgery with a 4% chlorhexidine-based detergent (Rioqu&#237;mica Ind&#250;stria Farmac&#234;utica Ltda., S&#227;o Jos&#233; do Rio Preto, Brazil) <abbrgrp>
+                   <abbr bid="B33">33</abbr>
+                </abbrgrp>. In the operating room, antisepsis of the surgical site will be performed with a 0.5% chlorhexidine solution in alcohol (Rioqu&#237;mica Ind&#250;stria Farmac&#234;utica Ltda., S&#227;o Jos&#233; do Rio Preto, Brazil) <abbrgrp>
+                   <abbr bid="B34">34</abbr>
+                </abbrgrp>. The nipple areola complexes will remain uncovered during the operation; sterile tapes will not be used to cover them, since this is not the standardized procedure in our hospital. Patients will undergo breast augmentation under general anesthesia. All patients will receive prophylactic antibiotics (cefazolin - Uni&#227;o Qu&#237;mica Farmac&#234;utica Nacional S.A., S&#227;o Paulo, Brazil) <abbrgrp>
+                   <abbr bid="B35">35</abbr>
+                </abbrgrp>.</p>
+             <p>The surgical approach will be via the inframammary fold. Implants (Silimed Ind&#250;stria de Implantes Ltda., Rio de Janeiro, Brazil) will be placed in the subglandular, submuscular or subfascial position, depending on which is the best course of action for a given patient. The surgical site will be cleaned with sterile saline after the surgery. A sample of skin flora will be obtained for semiquantitative culture before the application of a dressing over the surgical incision.</p>
+             <p>The dressing will consist of four layers of cotton gauze, covered with micropore tape. The surgical team will not know to which group the patient belongs. On the first postoperative day, the allocation envelopes will be opened. If the patient is allocated to group I, the dressing will be removed, and a sample will be harvested for culture. The patient will be instructed to return to their normal personal hygiene routine and return on the sixth day for reassessment and collection of samples for culture. If the patient is allocated to group II, she will be instructed to not wet the bandage for six days, when it will be removed and a sample will be harvested for culture. Thus, samples of the skin flora will be obtained in the operating room just before placement of the dressing and after removal of the dressing. Additional samples will be obtained on the sixth postoperative day from patients in group I.</p>
+          </sec>
+          <sec>
+             <st>
+                <p>Method of sample collection</p>
+             </st>
+             <p>A sterile fenestrated paper field with a standard 5&#160;cm per 10&#160;cm area will be placed over the surgical wound on the right breast. A sterile swab soaked in sterile saline will be passed across the predetermined area in a standardized manner. This swab will be placed in a sterile tube containing 1.0&#160;ml of sterile saline and immediately transferred to the laboratory.</p>
+             <p>Culture methodsStandard culture methods will be used for the identification of microorganisms <abbrgrp>
+                   <abbr bid="B36">36</abbr>
+                </abbrgrp>. Aliquots of 0.2&#160;ml from each sample will be plated on agar medium hypertonic mannitol (HiMedia Laboratories Pvt. Ltd., Mumbai, India) to culture <it>Staphylococcus</it> sp., on blood agar (HiMedia Laboratories Pvt. Ltd., Mumbai, India) to identify hemolytic colonies, on eosin-methylene blue agar (HiMedia Laboratories Pvt. Ltd., Mumbai, India) to identify <it>Enterobacteriaceae</it>, and on Sabouraud agar supplemented with chloramphenicol (HiMedia Laboratories Pvt. Ltd., Mumbai, India) (0.05&#160;mg/ml) to detect fungi. The plates will be incubated in an aerobic atmosphere at 37&#176;C. After 48&#160;hours, a microbiologist will assess the plates. The lab technicians and microbiologist will not know which group each sample belongs to.</p>
+             <p>Culture results will be expressed as CFUs per plate. When a result exceeds 300&#160;CFUs, it will be recorded as &#8216;&gt;300&#160;CFU/plate&#8217;. Staphylococci will be identified as coagulase-negative staphylococci or <it>Staphylococcus aureus</it>, on the basis of the results of Gram staining, the presence of hemolysis, and the results of the coagulase test.</p>
+          </sec>
+          <sec>
+             <st>
+                <p>Assessment of postoperative infections and dressing duration</p>
+             </st>
+             <p>Patients will be evaluated weekly for four weeks, and then re-evaluated at six months and one year after the operation. The CDC definition and classification of SSIs will be used. As the surgery involves the implantation of prostheses, an SSI is defined as an infection that occurs within one year after the surgery <abbrgrp>
+                   <abbr bid="B37">37</abbr>
+                </abbrgrp>. The patients will use a five-point scale to classify the dressing in terms of comfort, practicality and safety. This assessment will be done at the postoperative week two visit for each patient.</p>
+          </sec>
+          <sec>
+             <st>
+                <p>Outcomes</p>
+             </st>
+             <p>The primary outcome will be cutaneous colonization, expressed as the number of CFUs. The incidence of SSI and the perceptions of patients towards healing will be secondary outcomes. Participation will be completed at one year after surgery, after evaluation for the presence of infection.</p>
+          </sec>
+          <sec>
+             <st>
+                <p>Statistical analysis</p>
+             </st>
+             <p>The Mann&#8211;Whitney U test will be used to test the homogeneity of the groups in terms of age, BMI and duration of surgery. The Friedman test will be used to compare the number of CFUs in the samples collected before, and one and six days after the application of the dressing in group I. If there is a significant difference between these times, then the Friedman test will be supplemented with the multiple comparisons test to determine at which time points significant differences appeared. In group II, the Wilcoxon test will be used to compare the number of CFUs in samples collected before the dressing and on the sixth postoperative day. The Mann&#8211;Whitney U test will be used to compare groups I and II in terms of the number of CFUs before and six days after the application of the dressing. Tests will always be applied independently for each medium used.</p>
+             <p>The Fisher test will be used to compare groups I and II in terms of the rates of infection. The Kolmogorov-Smirnov test will be used to compare the two groups in terms of the perceptions of the patients regarding the comfort, safety and practicality of the dressings. All statistical analyses will be performed using SPSS software (version 18, SPSS Inc., Chicago, United States of America). A <it>P</it> value &#8804;0.05 will be considered to be statistically significant.</p>
+          </sec>
+       </sec>
+       <sec>
+          <st>
+             <p>Discussion</p>
+          </st>
+          <p>As breast augmentation with silicone implants has become a common procedure, risks factors for complications associated with this procedure must be investigated in detail to improve procedural safety. As modern protocols and guidelines should be based on the principles of evidence-based medicine, well-designed randomized clinical trials are essential to guide or adjust clinical practice <abbrgrp>
+                <abbr bid="B28">28</abbr>
+             </abbrgrp>.</p>
+          <p>Attention to the skin incision in breast augmentation is warranted, as this incision acts as a gateway for microorganisms present on the surrounding skin or in external sources of contamination. Incisions for insertion of breast implants are most commonly placed in the inframammary fold, areola or axilla <abbrgrp>
+                <abbr bid="B38">38</abbr>
+             </abbrgrp>,<abbrgrp>
+                <abbr bid="B39">39</abbr>
+             </abbrgrp>. Each of these different incisions traverse through the breast ducts at different levels, providing for different potential amounts of contamination by breast duct bacteria-colonized material <abbrgrp>
+                <abbr bid="B40">40</abbr>
+             </abbrgrp>. However, there is not a clear relationship between incision location and SSI, and literature on this issue is controversial. Wiener, in a review of 430 patients who underwent augmentation surgery, found a significantly higher incidence of capsular contracture when a periareolar incision was used, and he hypothesized that this could be due to bacterial contamination from contact with the endogenous bacteria within the breast tissue <abbrgrp>
+                <abbr bid="B40">40</abbr>
+             </abbrgrp>. Jacobson <it>et al</it>., in a retrospective chart review of 197 primary breast augmentation patients, observed that transaxillary incisions produced the highest incidence of contracture (6.4%), followed by periareolar (2.4%) and inframammary (0.5%), with a statistically significant difference <abbrgrp>
+                <abbr bid="B41">41</abbr>
+             </abbrgrp>. Stutman <it>et al</it>. performed a chart review on 619 patients who underwent primary breast augmentation, and found a trend of increased rate of capsular contracture when the inframammary incision was used, but this was without statistical significance <abbrgrp>
+                <abbr bid="B39">39</abbr>
+             </abbrgrp>. The inframammary incisions have been the most commonly used for primary augmentation mammaplasty, since it is the simplest and most straightforward approach <abbrgrp>
+                <abbr bid="B38">38</abbr>
+             </abbrgrp>-<abbrgrp>
+                <abbr bid="B40">40</abbr>
+             </abbrgrp>. For this reason, this was the incision of choice for the current trial.</p>
+          <p>The use of biomaterials and the increased pathogenicity of bacteria enable colonization of the implant even when the bacterial load is relatively low. It is exceedingly difficult to control bacterial growth after implant colonization has occurred, and this difficulty tends to increase the infection risk <abbrgrp>
+                <abbr bid="B4">4</abbr>
+             </abbrgrp>. Subclinical implant infection is related to the development of bacterial biofilms and severe capsular contracture around the implant, which are the leading causes of reoperation in breast augmentation <abbrgrp>
+                <abbr bid="B19">19</abbr>
+             </abbrgrp>. The need to remove the implant can cause psychological trauma to the patient <abbrgrp>
+                <abbr bid="B2">2</abbr>
+             </abbrgrp>. For these reasons, implant subclinical infection has become a focus of substantial research <abbrgrp>
+                <abbr bid="B19">19</abbr>
+             </abbrgrp>,<abbrgrp>
+                <abbr bid="B20">20</abbr>
+             </abbrgrp>.</p>
+          <p>Bacteria are responsible for most postoperative infections that occur after breast augmentation when implants are used. Gram-positive cocci are part of the skin flora, especially in the upper portion of the trunk, and they account for many implant-related SSIs <abbrgrp>
+                <abbr bid="B42">42</abbr>
+             </abbrgrp>. Cultures of mammary tissue collected during breast surgery demonstrate that these bacteria are the most frequent endogenous bacteria in the breasts <abbrgrp>
+                <abbr bid="B18">18</abbr>
+             </abbrgrp>. Infections by opportunistic agents, such as fungi, Gram-negative bacteria and atypical mycobacteria, have also been described <abbrgrp>
+                <abbr bid="B43">43</abbr>
+             </abbrgrp>-<abbrgrp>
+                <abbr bid="B45">45</abbr>
+             </abbrgrp>. Therefore, we have opted to culture these organisms as well.</p>
+          <p>An important component of SSI prevention is to minimize all possible risk factors. The application of postoperative dressing plays a key role in this endeavor <abbrgrp>
+                <abbr bid="B12">12</abbr>
+             </abbrgrp>. However, it is difficult to demonstrate gains related to the use of dressings for ensuring clean wounds and lowering the infection rate <abbrgrp>
+                <abbr bid="B46">46</abbr>
+             </abbrgrp>. For this reason, we chose the rate of skin colonization, which is related to the SSI rate <abbrgrp>
+                <abbr bid="B4">4</abbr>
+             </abbrgrp>,<abbrgrp>
+                <abbr bid="B11">11</abbr>
+             </abbrgrp>,<abbrgrp>
+                <abbr bid="B13">13</abbr>
+             </abbrgrp>,<abbrgrp>
+                <abbr bid="B14">14</abbr>
+             </abbrgrp>, as the primary focus of this study.</p>
+          <p>The opinion of the patients regarding the proposed treatment is an important factor in the quality of care. Two different surgical dressing strategies are proposed, and determining patients&#8217; perceptions regarding their comfort, convenience and safety is a secondary goal of this study. The results of this clinical trial may help to standardize postoperative wound care after breast augmentation with silicone implants.</p>
+       </sec>
+       <sec>
+          <st>
+             <p>Trial status</p>
+          </st>
+          <p>Recruitment began in April, 2012. A total of 69 patients have been enrolled in this study and have undergone breast augmentation with silicone implants. All patients will be monitored for the presence of infection until one year after their operation.</p>
+       </sec>
+       <sec>
+          <st>
+             <p>Abbreviations</p>
+          </st>
+          <p>BMI: Body mass index</p>
+          <p>CDC: Centers for Disease Control and Prevention</p>
+          <p>CFU: Colony forming units</p>
+          <p>SSI: Surgical site infection</p>
+       </sec>
+       <sec>
+          <st>
+             <p>Competing interests</p>
+          </st>
+          <p>The authors declare that they have no competing interests.</p>
+       </sec>
+       <sec>
+          <st>
+             <p>Authors&#8217; contributions</p>
+          </st>
+          <p>DAM conceived the study and participated in study design, surgical procedures and manuscript draft. JVF and DFV participated in study design, surgical procedures, patients&#8217; follow-up and interpretation of data. FEMF is involved in patients&#8217; follow-up. LFP and ABATL performed microbiology analysis and participated in interpretation of data. NFN participates in the analysis and interpretation of data. LMF participated in the design and coordinates the study. All authors contributed to development of study protocol and all of them read and approved the final version of the manuscript.</p>
+       </sec>
+    </bdy>
+    <bm>
+       <ack>
+          <sec>
+             <st>
+                <p>Acknowledgments</p>
+             </st>
+             <p>This study received grants from Funda&#231;&#227;o de Amparo &#224; Pesquisa do Estado de Minas Gerais - FAPEMIG.</p>
+          </sec>
+       </ack>
+       <refgrp>
+          
+          <bibl id="B1">
+             <note>American Society for Aesthetic Plastic Surgery statistics. [<url>www.surgery.org/media/statistics</url>]</note>
+          </bibl>
+          <bibl id="B2">
+             <title>
+                <p>Management of infected or exposed breast prosthesis: a single surgeon&#8217;s 15-year experience with 69 patients</p>
+             </title>
+             <aug>
+                <au>
+                   <snm>Spear</snm>
+                   <fnm>SL</fnm>
+                </au>
+                <au>
+                   <snm>Seruya</snm>
+                   <fnm>M</fnm>
+                </au>
+             </aug>
+             <source>Plast Reconstr Surg</source>
+             <pubdate>2010</pubdate>
+             <volume>125</volume>
+             <fpage>1074</fpage>
+             <lpage>84</lpage>
+             <xrefbib>
+                <pubidlist>
+                   <pubid idtype="doi">10.1097/PRS.0b013e3181d17fff</pubid>
+                   <pubid idtype="pmpid" link="fulltext">20335860</pubid>
+                </pubidlist>
+             </xrefbib>
+          </bibl>
+          <bibl id="B3">
+             <title>
+                <p>Infection after plastic procedures: incidences, etiologies, risk factors, and antibiotic prophylaxis</p>
+             </title>
+             <aug>
+                <au>
+                   <snm>Gravante</snm>
+                   <fnm>G</fnm>
+                </au>
+                <au>
+                   <snm>Caruso</snm>
+                   <fnm>R</fnm>
+                </au>
+                <au>
+                   <snm>Araco</snm>
+                   <fnm>A</fnm>
+                </au>
+                <au>
+                   <snm>Cervelli</snm>
+                   <fnm>V</fnm>
+                </au>
+             </aug>
+             <source>Aesth Plast Surg</source>
+             <pubdate>2008</pubdate>
+             <volume>32</volume>
+             <fpage>243</fpage>
+             <lpage>51</lpage>
+             <xrefbib>
+                <pubidlist>
+                   <pubid idtype="doi">10.1007/s00266-007-9068-8</pubid>
+                </pubidlist>
+             </xrefbib>
+          </bibl>
+          <bibl id="B4">
+             <title>
+                <p>Staphylococcal surgical site infections</p>
+             </title>
+             <aug>
+                <au>
+                   <snm>Anderson</snm>
+                   <fnm>DJ</fnm>
+                </au>
+                <au>
+                   <snm>Kaye</snm>
+                   <fnm>KS</fnm>
+                </au>
+             </aug>
+             <source>Infect Dis Clin N Am</source>
+             <pubdate>2009</pubdate>
+             <volume>23</volume>
+             <fpage>53</fpage>
+             <lpage>72</lpage>
+             <xrefbib>
+                <pubidlist>
+                   <pubid idtype="doi">10.1016/j.idc.2008.10.004</pubid>
+                </pubidlist>
+             </xrefbib>
+          </bibl>
+          <bibl id="B5">
+             <title>
+                <p>Benchmarking outcomes in plastic surgery: national complication rates for abdominoplasty and breast augmentation</p>
+             </title>
+             <aug>
+                <au>
+                   <snm>Alderman</snm>
+                   <fnm>AK</fnm>
+                </au>
+                <au>
+                   <snm>Collins</snm>
+                   <fnm>ED</fnm>
+                </au>
+                <au>
+                   <snm>Streu</snm>
+                   <fnm>R</fnm>
+                </au>
+                <au>
+                   <snm>Grotting</snm>
+                   <fnm>JC</fnm>
+                </au>
+                <au>
+                   <snm>Sulkin</snm>
+                   <fnm>AL</fnm>
+                </au>
+                <au>
+                   <snm>Neligan</snm>
+                   <fnm>P</fnm>
+                </au>
+                <au>
+                   <snm>Haeck</snm>
+                   <fnm>PC</fnm>
+                </au>
+                <au>
+                   <snm>Gutowski</snm>
+                   <fnm>KA</fnm>
+                </au>
+             </aug>
+             <source>Plast Reconstr Surg</source>
+             <pubdate>2009</pubdate>
+             <volume>124</volume>
+             <fpage>2127</fpage>
+             <lpage>33</lpage>
+             <xrefbib>
+                <pubidlist>
+                   <pubid idtype="doi">10.1097/PRS.0b013e3181bf8378</pubid>
+                   <pubid idtype="pmpid" link="fulltext">19952670</pubid>
+                </pubidlist>
+             </xrefbib>
+          </bibl>
+          <bibl id="B6">
+             <title>
+                <p>A 15-year experience with primary breast augmentation</p>
+             </title>
+             <aug>
+                <au>
+                   <snm>Codner</snm>
+                   <fnm>MA</fnm>
+                </au>
+                <au>
+                   <snm>Mejia</snm>
+                   <fnm>JD</fnm>
+                </au>
+                <au>
+                   <snm>Locke</snm>
+                   <fnm>MB</fnm>
+                </au>
+                <au>
+                   <snm>Mahoney</snm>
+                   <fnm>A</fnm>
+                </au>
+                <au>
+                   <snm>Thiels</snm>
+                   <fnm>C</fnm>
+                </au>
+                <au>
+                   <snm>Nahai</snm>
+                   <fnm>FR</fnm>
+                </au>
+                <au>
+                   <snm>Hester</snm>
+                   <fnm>TR</fnm>
+                </au>
+                <au>
+                   <snm>Nahai</snm>
+                   <fnm>F</fnm>
+                </au>
+             </aug>
+             <source>Plast Reconstr Surg</source>
+             <pubdate>2011</pubdate>
+             <volume>127</volume>
+             <fpage>1300</fpage>
+             <lpage>10</lpage>
+             <xrefbib>
+                <pubidlist>
+                   <pubid idtype="doi">10.1097/PRS.0b013e318205f41b</pubid>
+                   <pubid idtype="pmpid" link="fulltext">21364430</pubid>
+                </pubidlist>
+             </xrefbib>
+          </bibl>
+          <bibl id="B7">
+             <title>
+                <p>Use of gentamicin collagen sponges for treatment of periprosthetic breast implant infection</p>
+             </title>
+             <aug>
+                <au>
+                   <snm>Lapid</snm>
+                   <fnm>O</fnm>
+                </au>
+             </aug>
+             <source>J Plast Reconstr Aesthet Surg</source>
+             <pubdate>2011</pubdate>
+             <volume>64</volume>
+             <fpage>e313</fpage>
+             <lpage>16</lpage>
+             <xrefbib>
+                <pubidlist>
+                   <pubid idtype="doi">10.1016/j.bjps.2011.05.007</pubid>
+                   <pubid idtype="pmpid" link="fulltext">21798834</pubid>
+                </pubidlist>
+             </xrefbib>
+          </bibl>
+          <bibl id="B8">
+             <title>
+                <p>Local complications after cosmetic breast augmentation: results from the Danish Registry for Plastic Surgery of the Breast</p>
+             </title>
+             <aug>
+                <au>
+                   <snm>Hvilsom</snm>
+                   <fnm>GB</fnm>
+                </au>
+                <au>
+                   <snm>Holmich</snm>
+                   <fnm>LR</fnm>
+                </au>
+                <au>
+                   <snm>Henriksen</snm>
+                   <fnm>TF</fnm>
+                </au>
+                <au>
+                   <snm>Lipworth</snm>
+                   <fnm>L</fnm>
+                </au>
+                <au>
+                   <snm>McLaughlin</snm>
+                   <fnm>JK</fnm>
+                </au>
+                <au>
+                   <snm>Friis</snm>
+                   <fnm>S</fnm>
+                </au>
+             </aug>
+             <source>Plast Surg Nurs</source>
+             <pubdate>2010</pubdate>
+             <volume>30</volume>
+             <fpage>172</fpage>
+             <lpage>9</lpage>
+             <xrefbib>
+                <pubidlist>
+                   <pubid idtype="doi">10.1097/PRS.0b013e3181b0389e</pubid>
+                   <pubid idtype="pmpid" link="fulltext">20814274</pubid>
+                </pubidlist>
+             </xrefbib>
+          </bibl>
+          <bibl id="B9">
+             <title>
+                <p>Evaluating the role of postoperative prophylactic antibiotics in primary and secondary breast augmentation: a retrospective review</p>
+             </title>
+             <aug>
+                <au>
+                   <snm>Mirzabeigi</snm>
+                   <fnm>MN</fnm>
+                </au>
+                <au>
+                   <snm>Mericli</snm>
+                   <fnm>AF</fnm>
+                </au>
+                <au>
+                   <snm>Ortlip</snm>
+                   <fnm>T</fnm>
+                </au>
+                <au>
+                   <snm>Tuma</snm>
+                   <fnm>GA</fnm>
+                </au>
+                <au>
+                   <snm>Copit</snm>
+                   <fnm>SE</fnm>
+                </au>
+                <au>
+                   <snm>Fox</snm>
+                   <fnm>JW</fnm>
+                   <suf>4th</suf>
+                </au>
+                <au>
+                   <snm>Moore</snm>
+                   <fnm>JH</fnm>
+                   <suf>Jr</suf>
+                </au>
+             </aug>
+             <source>Aesthet Surg J</source>
+             <pubdate>2012</pubdate>
+             <volume>32</volume>
+             <fpage>61</fpage>
+             <lpage>8</lpage>
+             <xrefbib>
+                <pubidlist>
+                   <pubid idtype="doi">10.1177/1090820X11430830</pubid>
+                   <pubid idtype="pmpid" link="fulltext">22231414</pubid>
+                </pubidlist>
+             </xrefbib>
+          </bibl>
+          <bibl id="B10">
+             <title>
+                <p>Infection in breast implants</p>
+             </title>
+             <aug>
+                <au>
+                   <snm>Pittet</snm>
+                   <fnm>B</fnm>
+                </au>
+                <au>
+                   <snm>Montadon</snm>
+                   <fnm>D</fnm>
+                </au>
+                <au>
+                   <snm>Pittet</snm>
+                   <fnm>D</fnm>
+                </au>
+             </aug>
+             <source>Lancet Infect Dis</source>
+             <pubdate>2005</pubdate>
+             <volume>5</volume>
+             <fpage>94</fpage>
+             <lpage>106</lpage>
+             <xrefbib>
+                <pubidlist>
+                   <pubid idtype="doi">10.1016/S1473-3099(05)01281-8</pubid>
+                   <pubid idtype="pmpid" link="fulltext">15680779</pubid>
+                </pubidlist>
+             </xrefbib>
+          </bibl>
+          <bibl id="B11">
+             <title>
+                <p>The impact of preoperative skin infection on preventing intraoperative wound contamination</p>
+             </title>
+             <aug>
+                <au>
+                   <snm>Garibaldi</snm>
+                   <fnm>RA</fnm>
+                </au>
+                <au>
+                   <snm>Skolnik</snm>
+                   <fnm>D</fnm>
+                </au>
+                <au>
+                   <snm>Lerer</snm>
+                   <fnm>T</fnm>
+                </au>
+                <au>
+                   <snm>Poirot</snm>
+                   <fnm>A</fnm>
+                </au>
+                <au>
+                   <snm>Grahan</snm>
+                   <fnm>J</fnm>
+                </au>
+                <au>
+                   <snm>Krisuinas</snm>
+                   <fnm>E</fnm>
+                </au>
+                <au>
+                   <snm>Lyons</snm>
+                   <fnm>R</fnm>
+                </au>
+             </aug>
+             <source>Infect Control Hosp Epidemiol</source>
+             <pubdate>1988</pubdate>
+             <volume>9</volume>
+             <fpage>109</fpage>
+             <lpage>13</lpage>
+             <xrefbib>
+                <pubidlist>
+                   <pubid idtype="doi">10.2307/30144163</pubid>
+                   <pubid idtype="pmpid" link="fulltext">3351267</pubid>
+                </pubidlist>
+             </xrefbib>
+          </bibl>
+          <bibl id="B12">
+             <title>
+                <p>Hospital-associated costs due to surgical site infection after breast surgery</p>
+             </title>
+             <aug>
+                <au>
+                   <snm>Olsen</snm>
+                   <fnm>MA</fnm>
+                </au>
+                <au>
+                   <snm>Chu-Ongsakul</snm>
+                   <fnm>S</fnm>
+                </au>
+                <au>
+                   <snm>Brandt</snm>
+                   <fnm>KE</fnm>
+                </au>
+                <au>
+                   <snm>Dietz</snm>
+                   <fnm>JR</fnm>
+                </au>
+                <au>
+                   <snm>Mayfield</snm>
+                   <fnm>J</fnm>
+                </au>
+                <au>
+                   <snm>Fraser</snm>
+                   <fnm>V</fnm>
+                </au>
+             </aug>
+             <source>Arch Surg</source>
+             <pubdate>2008</pubdate>
+             <volume>143</volume>
+             <fpage>53</fpage>
+             <lpage>60</lpage>
+             <xrefbib>
+                <pubidlist>
+                   <pubid idtype="doi">10.1001/archsurg.2007.11</pubid>
+                   <pubid idtype="pmpid" link="fulltext">18209153</pubid>
+                </pubidlist>
+             </xrefbib>
+          </bibl>
+          <bibl id="B13">
+             <title>
+                <p>Wound colonization and infection: the role of topical antimicrobials</p>
+             </title>
+             <aug>
+                <au>
+                   <snm>White</snm>
+                   <fnm>RJ</fnm>
+                </au>
+                <au>
+                   <snm>Cooper</snm>
+                   <fnm>R</fnm>
+                </au>
+                <au>
+                   <snm>Kinsley</snm>
+                   <fnm>A</fnm>
+                </au>
+             </aug>
+             <source>B J Nurs</source>
+             <pubdate>2001</pubdate>
+             <volume>10</volume>
+             <fpage>563</fpage>
+             <lpage>77</lpage>
+             <xrefbib>
+                <pubidlist>
+                   <pubid idtype="doi">10.12968/bjon.2001.10.9.9387</pubid>
+                </pubidlist>
+             </xrefbib>
+          </bibl>
+          <bibl id="B14">
+             <title>
+                <p>Preventing surgical site infections: a surgeon&#8217;s perspective</p>
+             </title>
+             <aug>
+                <au>
+                   <snm>Nichols</snm>
+                   <fnm>RL</fnm>
+                </au>
+             </aug>
+             <source>Emerg Infect Dis</source>
+             <pubdate>2001</pubdate>
+             <volume>7</volume>
+             <fpage>220</fpage>
+             <lpage>4</lpage>
+             <xrefbib>
+                <pubidlist>
+                   <pubid idtype="doi">10.3201/eid0702.010214</pubid>
+                   <pubid idtype="pmpid" link="fulltext">11294711</pubid>
+                </pubidlist>
+             </xrefbib>
+          </bibl>
+          <bibl id="B15">
+             <title>
+                <p>In vitro adhesion of endogenous skin microorganisms to breast protheses</p>
+             </title>
+             <aug>
+                <au>
+                   <snm>Jennings</snm>
+                   <fnm>DA</fnm>
+                </au>
+                <au>
+                   <snm>Moykwas</snm>
+                   <fnm>MJ</fnm>
+                </au>
+                <au>
+                   <snm>Burns</snm>
+                   <fnm>WW</fnm>
+                </au>
+                <au>
+                   <snm>Crook</snm>
+                   <fnm>ME</fnm>
+                </au>
+                <au>
+                   <snm>Hudson</snm>
+                   <fnm>WP</fnm>
+                </au>
+                <au>
+                   <snm>Argenta</snm>
+                   <fnm>LC</fnm>
+                </au>
+             </aug>
+             <source>Ann Plast Surg</source>
+             <pubdate>1991</pubdate>
+             <volume>27</volume>
+             <fpage>216</fpage>
+             <lpage>20</lpage>
+             <xrefbib>
+                <pubidlist>
+                   <pubid idtype="doi">10.1097/00000637-199109000-00005</pubid>
+                   <pubid idtype="pmpid" link="fulltext">1952748</pubid>
+                </pubidlist>
+             </xrefbib>
+          </bibl>
+          <bibl id="B16">
+             <title>
+                <p>Novel rat model of methicillin-resistant <it>Staphylococcus aureus</it>-infected silicone breast implants: a study of biofilm pathogenesis</p>
+             </title>
+             <aug>
+                <au>
+                   <snm>Arad</snm>
+                   <fnm>E</fnm>
+                </au>
+                <au>
+                   <snm>Navon-Venezia</snm>
+                   <fnm>S</fnm>
+                </au>
+                <au>
+                   <snm>Gur</snm>
+                   <fnm>E</fnm>
+                </au>
+                <au>
+                   <snm>Glick</snm>
+                   <fnm>R</fnm>
+                </au>
+                <au>
+                   <snm>Frenkiel-Krispin</snm>
+                   <fnm>D</fnm>
+                </au>
+                <au>
+                   <snm>Kramer</snm>
+                   <fnm>E</fnm>
+                </au>
+                <au>
+                   <snm>Carmeli</snm>
+                   <fnm>Y</fnm>
+                </au>
+                <au>
+                   <snm>Barnea</snm>
+                   <fnm>Y</fnm>
+                </au>
+             </aug>
+             <source>Plast Reconstr Surg J</source>
+             <pubdate>2013</pubdate>
+             <volume>131</volume>
+             <fpage>205</fpage>
+             <lpage>14</lpage>
+             <xrefbib>
+                <pubidlist>
+                   <pubid idtype="doi">10.1097/PRS.0b013e3182778590</pubid>
+                </pubidlist>
+             </xrefbib>
+          </bibl>
+          <bibl id="B17">
+             <title>
+                <p>Microbial barriers</p>
+             </title>
+             <aug>
+                <au>
+                   <snm>Gwtein</snm>
+                   <fnm>LG</fnm>
+                </au>
+                <au>
+                   <snm>Panigrahi</snm>
+                   <fnm>M</fnm>
+                </au>
+                <au>
+                   <snm>Schultz</snm>
+                   <fnm>GS</fnm>
+                </au>
+                <au>
+                   <snm>Mast</snm>
+                   <fnm>BA</fnm>
+                </au>
+             </aug>
+             <source>Clin Plast Surg</source>
+             <pubdate>2012</pubdate>
+             <volume>39</volume>
+             <fpage>A229</fpage>
+             <lpage>38</lpage>
+             <xrefbib>
+                <pubidlist>
+                   <pubid idtype="doi">10.1016/j.cps.2012.04.002</pubid>
+                </pubidlist>
+             </xrefbib>
+          </bibl>
+          <bibl id="B18">
+             <title>
+                <p>The breast: a clean contaminated surgical site</p>
+             </title>
+             <aug>
+                <au>
+                   <snm>Bartsich</snm>
+                   <fnm>S</fnm>
+                </au>
+                <au>
+                   <snm>Asherman</snm>
+                   <fnm>JA</fnm>
+                </au>
+                <au>
+                   <snm>Whittier</snm>
+                   <fnm>S</fnm>
+                </au>
+                <au>
+                   <snm>Yao</snm>
+                   <fnm>CA</fnm>
+                </au>
+                <au>
+                   <snm>Rohde</snm>
+                   <fnm>C</fnm>
+                </au>
+             </aug>
+             <source>Aesthet Surg J</source>
+             <pubdate>2011</pubdate>
+             <volume>31</volume>
+             <fpage>802</fpage>
+             <lpage>6</lpage>
+             <xrefbib>
+                <pubidlist>
+                   <pubid idtype="doi">10.1177/1090820X11417428</pubid>
+                   <pubid idtype="pmpid" link="fulltext">21908811</pubid>
+                </pubidlist>
+             </xrefbib>
+          </bibl>
+          <bibl id="B19">
+             <title>
+                <p>Subclinical (biofilm) infection causes capsular contracture in a porcine model following augmentation mammaplasty</p>
+             </title>
+             <aug>
+                <au>
+                   <snm>Tamboto</snm>
+                   <fnm>H</fnm>
+                </au>
+                <au>
+                   <snm>Vickery</snm>
+                   <fnm>K</fnm>
+                </au>
+                <au>
+                   <snm>Deva</snm>
+                   <fnm>AK</fnm>
+                </au>
+             </aug>
+             <source>Plast Reconstr Surg</source>
+             <pubdate>2010</pubdate>
+             <volume>126</volume>
+             <fpage>835</fpage>
+             <lpage>42</lpage>
+             <xrefbib>
+                <pubidlist>
+                   <pubid idtype="doi">10.1097/PRS.0b013e3181e3b456</pubid>
+                   <pubid idtype="pmpid" link="fulltext">20811216</pubid>
+                </pubidlist>
+             </xrefbib>
+          </bibl>
+          <bibl id="B20">
+             <title>
+                <p>The role of postoperative antibiotics in reducing biofilm-related capsular contracture in augmentation mammaplasty</p>
+             </title>
+             <aug>
+                <au>
+                   <snm>Mirazabeigi</snm>
+                   <fnm>MN</fnm>
+                </au>
+                <au>
+                   <snm>Sbitany</snm>
+                   <fnm>H</fnm>
+                </au>
+                <au>
+                   <snm>Jandali</snm>
+                   <fnm>S</fnm>
+                </au>
+                <au>
+                   <snm>Serletti</snm>
+                   <fnm>JM</fnm>
+                </au>
+             </aug>
+             <source>Plast Reconstr Surg</source>
+             <pubdate>2011</pubdate>
+             <volume>128</volume>
+             <fpage>34e</fpage>
+             <lpage>5e</lpage>
+             <xrefbib>
+                <pubidlist>
+                   <pubid idtype="doi">10.1097/PRS.0b013e3182173fe5</pubid>
+                </pubidlist>
+             </xrefbib>
+          </bibl>
+          <bibl id="B21">
+             <title>
+                <p>A novel antibacterial silicone implant material with short and long-term release of copper ions</p>
+             </title>
+             <aug>
+                <au>
+                   <snm>Prantl</snm>
+                   <fnm>L</fnm>
+                </au>
+                <au>
+                   <snm>Burgers RSchreml</snm>
+                   <fnm>S</fnm>
+                </au>
+                <au>
+                   <snm>Zellner</snm>
+                   <fnm>J</fnm>
+                </au>
+                <au>
+                   <snm>Gosau</snm>
+                   <fnm>M</fnm>
+                </au>
+             </aug>
+             <source>Plast Reconstr Surg</source>
+             <pubdate>2010</pubdate>
+             <volume>125</volume>
+             <fpage>78e</fpage>
+             <lpage>80e</lpage>
+             <xrefbib>
+                <pubidlist>
+                   <pubid idtype="doi">10.1097/PRS.0b013e3181c2a708</pubid>
+                   <pubid idtype="pmpid" link="fulltext">20124818</pubid>
+                </pubidlist>
+             </xrefbib>
+          </bibl>
+          <bibl id="B22">
+             <title>
+                <p>Capsular contracture and genetic profile of ica genes among <it>Staphylococcus epidermidis</it> isolates from subclinical periprosthetic infections</p>
+             </title>
+             <aug>
+                <au>
+                   <snm>Pershichetti</snm>
+                   <fnm>P</fnm>
+                </au>
+                <au>
+                   <snm>Giovanni Lombardo</snm>
+                   <fnm>GA</fnm>
+                </au>
+                <au>
+                   <snm>Marangi</snm>
+                   <fnm>GF</fnm>
+                </au>
+                <au>
+                   <snm>Gherardi</snm>
+                   <fnm>G</fnm>
+                </au>
+                <au>
+                   <snm>Dicuonzo</snm>
+                   <fnm>G</fnm>
+                </au>
+             </aug>
+             <source>Plast Reconstr Surg</source>
+             <pubdate>2011</pubdate>
+             <volume>127</volume>
+             <fpage>1747</fpage>
+             <lpage>8</lpage>
+             <xrefbib>
+                <pubidlist>
+                   <pubid idtype="doi">10.1097/PRS.0b013e31820a6592</pubid>
+                </pubidlist>
+             </xrefbib>
+          </bibl>
+          <bibl id="B23">
+             <title>
+                <p>The effects of copper additives on quantity and cell viability of adherent <it>Staphylococcus epidermidis</it> in silicone implants</p>
+             </title>
+             <aug>
+                <au>
+                   <snm>Gossau</snm>
+                   <fnm>M</fnm>
+                </au>
+                <au>
+                   <snm>Prantl</snm>
+                   <fnm>L</fnm>
+                </au>
+                <au>
+                   <snm>Feldmann</snm>
+                   <fnm>M</fnm>
+                </au>
+                <au>
+                   <snm>Kokott</snm>
+                   <fnm>A</fnm>
+                </au>
+                <au>
+                   <snm>Hahnel</snm>
+                   <fnm>S</fnm>
+                </au>
+                <au>
+                   <snm>Burgers</snm>
+                   <fnm>R</fnm>
+                </au>
+             </aug>
+             <source>Biofouling</source>
+             <pubdate>2010</pubdate>
+             <volume>26</volume>
+             <fpage>359</fpage>
+             <lpage>65</lpage>
+             <xrefbib>
+                <pubidlist>
+                   <pubid idtype="doi">10.1080/08927011003629300</pubid>
+                </pubidlist>
+             </xrefbib>
+          </bibl>
+          <bibl id="B24">
+             <title>
+                <p>A novel antibacterial titania coating: metal ion toxicity and in vitro surface colonization</p>
+             </title>
+             <aug>
+                <au>
+                   <snm>Heideau</snm>
+                   <fnm>F</fnm>
+                </au>
+                <au>
+                   <snm>Mittelmeier</snm>
+                   <fnm>W</fnm>
+                </au>
+                <au>
+                   <snm>Destsch</snm>
+                   <fnm>R</fnm>
+                </au>
+                <au>
+                   <snm>Haenle</snm>
+                   <fnm>M</fnm>
+                </au>
+                <au>
+                   <snm>Stenzel</snm>
+                   <fnm>F</fnm>
+                </au>
+                <au>
+                   <snm>Ziegler</snm>
+                   <fnm>G</fnm>
+                </au>
+                <au>
+                   <snm>Gollwitzer</snm>
+                   <fnm>H</fnm>
+                </au>
+             </aug>
+             <source>J Mater Sci Mater Med</source>
+             <pubdate>2005</pubdate>
+             <volume>16</volume>
+             <fpage>883</fpage>
+             <lpage>8</lpage>
+             <xrefbib>
+                <pubidlist>
+                   <pubid idtype="doi">10.1007/s10856-005-4422-3</pubid>
+                </pubidlist>
+             </xrefbib>
+          </bibl>
+          <bibl id="B25">
+             <title>
+                <p>The Hospital Infection Control Practices Advisory Committee: Guideline for prevention of surgical site infection</p>
+             </title>
+             <aug>
+                <au>
+                   <snm>Mangram</snm>
+                   <fnm>AJ</fnm>
+                </au>
+                <au>
+                   <snm>Horan</snm>
+                   <fnm>TC</fnm>
+                </au>
+                <au>
+                   <snm>Pearson</snm>
+                   <fnm>ML</fnm>
+                </au>
+                <au>
+                   <snm>Silver</snm>
+                   <fnm>LC</fnm>
+                </au>
+                <au>
+                   <snm>Jarvis</snm>
+                   <fnm>WR</fnm>
+                </au>
+             </aug>
+             <source>Am J Infect Control</source>
+             <pubdate>1999</pubdate>
+             <volume>27</volume>
+             <fpage>97</fpage>
+             <lpage>134</lpage>
+             <xrefbib>
+                <pubidlist>
+                   <pubid idtype="doi">10.1016/S0196-6553(99)70088-X</pubid>
+                   <pubid idtype="pmpid" link="fulltext">10196487</pubid>
+                </pubidlist>
+             </xrefbib>
+          </bibl>
+          <bibl id="B26">
+             <title>
+                <p>Barrier dressing in surgical site infection prevention strategies</p>
+             </title>
+             <aug>
+                <au>
+                   <snm>Downie</snm>
+                   <fnm>F</fnm>
+                </au>
+                <au>
+                   <snm>Egdell</snm>
+                   <fnm>S</fnm>
+                </au>
+                <au>
+                   <snm>Bielby</snm>
+                   <fnm>A</fnm>
+                </au>
+                <au>
+                   <snm>Searle</snm>
+                   <fnm>R</fnm>
+                </au>
+             </aug>
+             <source>Br J Nurs</source>
+             <pubdate>2010</pubdate>
+             <volume>19</volume>
+             <fpage>S42</fpage>
+             <lpage>S46</lpage>
+             <xrefbib>
+                <pubidlist>
+                   <pubid idtype="doi">10.12968/bjon.2010.19.Sup10.79693</pubid>
+                   <pubid idtype="pmpid" link="fulltext">21072011</pubid>
+                </pubidlist>
+             </xrefbib>
+          </bibl>
+          <bibl id="B27">
+             <title>
+                <p>Wound dressings</p>
+             </title>
+             <aug>
+                <au>
+                   <snm>Lionelli</snm>
+                   <fnm>GT</fnm>
+                </au>
+                <au>
+                   <snm>Lawrence</snm>
+                   <fnm>WT</fnm>
+                </au>
+             </aug>
+             <source>Surg Clin N Am</source>
+             <pubdate>2003</pubdate>
+             <volume>83</volume>
+             <fpage>617</fpage>
+             <lpage>38</lpage>
+             <xrefbib>
+                <pubidlist>
+                   <pubid idtype="doi">10.1016/S0039-6109(02)00192-5</pubid>
+                   <pubid idtype="pmpid" link="fulltext">12822729</pubid>
+                </pubidlist>
+             </xrefbib>
+          </bibl>
+          <bibl id="B28">
+             <title>
+                <p>Randomized clinical trial comparing two options for postoperative incisional care to prevent poststernotomy surgical site infections</p>
+             </title>
+             <aug>
+                <au>
+                   <snm>Segers</snm>
+                   <fnm>P</fnm>
+                </au>
+                <au>
+                   <snm>de Jong</snm>
+                   <fnm>AP</fnm>
+                </au>
+                <au>
+                   <snm>Spanjaard</snm>
+                   <fnm>L</fnm>
+                </au>
+                <au>
+                   <snm>Ubbink</snm>
+                   <fnm>DT</fnm>
+                </au>
+                <au>
+                   <snm>de Mol</snm>
+                   <fnm>BAJM</fnm>
+                </au>
+             </aug>
+             <source>Wound Rep Reg</source>
+             <pubdate>2007</pubdate>
+             <volume>15</volume>
+             <fpage>192</fpage>
+             <lpage>6</lpage>
+             <xrefbib>
+                <pubidlist>
+                   <pubid idtype="doi">10.1111/j.1524-475X.2007.00204.x</pubid>
+                </pubidlist>
+             </xrefbib>
+          </bibl>
+          <bibl id="B29">
+             <title>
+                <p>Effect of different wound dressings on cell viability and proliferation</p>
+             </title>
+             <aug>
+                <au>
+                   <snm>Paddle-Ledinek</snm>
+                   <fnm>JE</fnm>
+                </au>
+                <au>
+                   <snm>Nasa</snm>
+                   <fnm>Z</fnm>
+                </au>
+                <au>
+                   <snm>Cleland</snm>
+                   <fnm>H</fnm>
+                </au>
+             </aug>
+             <source>Plast Reconstr Surg</source>
+             <pubdate>2006</pubdate>
+             <volume>117</volume>
+             <fpage>110S</fpage>
+             <lpage>118S</lpage>
+             <xrefbib>
+                <pubidlist>
+                   <pubid idtype="doi">10.1097/01.prs.0000225439.39352.ce</pubid>
+                   <pubid idtype="pmpid" link="fulltext">16799377</pubid>
+                </pubidlist>
+             </xrefbib>
+          </bibl>
+          <bibl id="B30">
+             <title>
+                <p>The use of gauze: will it ever change?</p>
+             </title>
+             <aug>
+                <au>
+                   <snm>Jones</snm>
+                   <fnm>VJ</fnm>
+                </au>
+             </aug>
+             <source>Int Wound J</source>
+             <pubdate>2006</pubdate>
+             <volume>3</volume>
+             <fpage>79</fpage>
+             <lpage>86</lpage>
+             <xrefbib>
+                <pubidlist>
+                   <pubid idtype="doi">10.1111/j.1742-4801.2006.00215.x</pubid>
+                   <pubid idtype="pmpid" link="fulltext">17007339</pubid>
+                </pubidlist>
+             </xrefbib>
+          </bibl>
+          <bibl id="B31">
+             <title>
+                <p>Systematic review and meta-analysis of wound dressings in the prevention of surgical-site infections in surgical wounds healing by primary intention</p>
+             </title>
+             <aug>
+                <au>
+                   <snm>Walter</snm>
+                   <fnm>CJ</fnm>
+                </au>
+                <au>
+                   <snm>Dumville</snm>
+                   <fnm>JC</fnm>
+                </au>
+                <au>
+                   <snm>Sharp</snm>
+                   <fnm>CA</fnm>
+                </au>
+                <au>
+                   <snm>Page</snm>
+                   <fnm>T</fnm>
+                </au>
+             </aug>
+             <source>Br J Surg</source>
+             <pubdate>2012</pubdate>
+             <volume>99</volume>
+             <fpage>1185</fpage>
+             <lpage>94</lpage>
+             <xrefbib>
+                <pubidlist>
+                   <pubid idtype="doi">10.1002/bjs.8812</pubid>
+                   <pubid idtype="pmpid" link="fulltext">22777875</pubid>
+                </pubidlist>
+             </xrefbib>
+          </bibl>
+          <bibl id="B32">
+             <title>
+                <p>Dressing wear time after reduction mammaplasty: a randomized controlled trial</p>
+             </title>
+             <aug>
+                <au>
+                   <snm>Veiga-Filho</snm>
+                   <fnm>J</fnm>
+                </au>
+                <au>
+                   <snm>Veiga</snm>
+                   <fnm>DF</fnm>
+                </au>
+                <au>
+                   <snm>Sabino-Neto</snm>
+                   <fnm>M</fnm>
+                </au>
+                <au>
+                   <snm>Damasceno</snm>
+                   <fnm>CAV</fnm>
+                </au>
+                <au>
+                   <snm>Sales</snm>
+                   <fnm>EM</fnm>
+                </au>
+                <au>
+                   <snm>Garcia</snm>
+                   <fnm>ES</fnm>
+                </au>
+                <au>
+                   <snm>Oliveira</snm>
+                   <fnm>IB</fnm>
+                </au>
+                <au>
+                   <snm>De Simoni</snm>
+                   <fnm>LF</fnm>
+                </au>
+                <au>
+                   <snm>Juliano</snm>
+                   <fnm>Y</fnm>
+                </au>
+                <au>
+                   <snm>Ferreira</snm>
+                   <fnm>LM</fnm>
+                </au>
+             </aug>
+             <source>Plast Reconstr Surg</source>
+             <pubdate>2012</pubdate>
+             <volume>129</volume>
+             <fpage>1e</fpage>
+             <lpage>7e</lpage>
+             <xrefbib>
+                <pubidlist>
+                   <pubid idtype="doi">10.1097/PRS.0b013e3182361ee9</pubid>
+                   <pubid idtype="pmpid" link="fulltext">22186564</pubid>
+                </pubidlist>
+             </xrefbib>
+          </bibl>
+          <bibl id="B33">
+             <title>
+                <p>Randomized controlled trial on the effectiveness of chlorhexidine showers before elective plastic surgical procedures</p>
+             </title>
+             <aug>
+                <au>
+                   <snm>Veiga</snm>
+                   <fnm>DF</fnm>
+                </au>
+                <au>
+                   <snm>Damasceno</snm>
+                   <fnm>CAV</fnm>
+                </au>
+                <au>
+                   <snm>Veiga-Filho</snm>
+                   <fnm>J</fnm>
+                </au>
+                <au>
+                   <snm>Figueiras</snm>
+                   <fnm>RG</fnm>
+                </au>
+                <au>
+                   <snm>Vieira</snm>
+                   <fnm>RB</fnm>
+                </au>
+                <au>
+                   <snm>Garcia</snm>
+                   <fnm>ES</fnm>
+                </au>
+                <au>
+                   <snm>Silva</snm>
+                   <fnm>VV</fnm>
+                </au>
+                <au>
+                   <snm>Novo</snm>
+                   <fnm>NF</fnm>
+                </au>
+                <au>
+                   <snm>Ferreira</snm>
+                   <fnm>LM</fnm>
+                </au>
+             </aug>
+             <source>Infect Control Hosp Epidemiol</source>
+             <pubdate>2009</pubdate>
+             <volume>30</volume>
+             <fpage>77</fpage>
+             <lpage>9</lpage>
+             <xrefbib>
+                <pubidlist>
+                   <pubid idtype="doi">10.1086/592980</pubid>
+                   <pubid idtype="pmpid" link="fulltext">19046051</pubid>
+                </pubidlist>
+             </xrefbib>
+          </bibl>
+          <bibl id="B34">
+             <title>
+                <p>Povidone-iodine (PVP-I) versus chlorhexidine in antisepsis before elective plastic surgery procedures: randomized controlled trial</p>
+             </title>
+             <aug>
+                <au>
+                   <snm>Veiga</snm>
+                   <fnm>DF</fnm>
+                </au>
+                <au>
+                   <snm>Damasceno</snm>
+                   <fnm>CAV</fnm>
+                </au>
+                <au>
+                   <snm>Veiga-Filho</snm>
+                   <fnm>J</fnm>
+                </au>
+                <au>
+                   <snm>Figueiras</snm>
+                   <fnm>RG</fnm>
+                </au>
+                <au>
+                   <snm>Vieira</snm>
+                   <fnm>RB</fnm>
+                </au>
+                <au>
+                   <snm>Florenzano</snm>
+                   <fnm>FH</fnm>
+                </au>
+                <au>
+                   <snm>Juliano</snm>
+                   <fnm>Y</fnm>
+                </au>
+                <au>
+                   <snm>Ferreira</snm>
+                   <fnm>LM</fnm>
+                </au>
+             </aug>
+             <source>Plast Reconstr Surg</source>
+             <pubdate>2008</pubdate>
+             <volume>122</volume>
+             <fpage>170e</fpage>
+             <lpage>171e</lpage>
+             <xrefbib>
+                <pubidlist>
+                   <pubid idtype="doi">10.1097/PRS.0b013e318186cd7f</pubid>
+                   <pubid idtype="pmpid" link="fulltext">18971711</pubid>
+                </pubidlist>
+             </xrefbib>
+          </bibl>
+          <bibl id="B35">
+             <title>
+                <p>Antibiotic use in aesthetic surgery: a national survey and literature review</p>
+             </title>
+             <aug>
+                <au>
+                   <snm>Perotti</snm>
+                   <fnm>JA</fnm>
+                </au>
+                <au>
+                   <snm>Castor</snm>
+                   <fnm>SA</fnm>
+                </au>
+                <au>
+                   <snm>Perez</snm>
+                   <fnm>PC</fnm>
+                </au>
+                <au>
+                   <snm>Zins</snm>
+                   <fnm>JE</fnm>
+                </au>
+             </aug>
+             <source>Plast Reconstr Surg</source>
+             <pubdate>2002</pubdate>
+             <volume>109</volume>
+             <fpage>1685</fpage>
+             <lpage>93</lpage>
+             <xrefbib>
+                <pubidlist>
+                   <pubid idtype="doi">10.1097/00006534-200204150-00033</pubid>
+                </pubidlist>
+             </xrefbib>
+          </bibl>
+          <bibl id="B36">
+             <aug>
+                <au>
+                   <snm>Trabulsi</snm>
+                   <fnm>LR</fnm>
+                </au>
+                <au>
+                   <snm>Alterthum</snm>
+                   <fnm>F</fnm>
+                </au>
+             </aug>
+             <source>Microbiologia</source>
+             <publisher>S&#227;o Paulo, Atheneu</publisher>
+             <edition>4</edition>
+             <pubdate>2005</pubdate>
+          </bibl>
+          <bibl id="B37">
+             <title>
+                <p>CDC definitions of nosocomial surgical site infections, 1992: a modification of CDC definitions of surgical wound infections</p>
+             </title>
+             <aug>
+                <au>
+                   <snm>Horan</snm>
+                   <fnm>TC</fnm>
+                </au>
+                <au>
+                   <snm>Gaynes</snm>
+                   <fnm>RPG</fnm>
+                </au>
+                <au>
+                   <snm>Martone</snm>
+                   <fnm>WJ</fnm>
+                </au>
+                <au>
+                   <snm>Jarvis</snm>
+                   <fnm>WR</fnm>
+                </au>
+                <au>
+                   <snm>Emori</snm>
+                   <fnm>TG</fnm>
+                </au>
+             </aug>
+             <source>Infect Control Hosp Epidemiol</source>
+             <pubdate>1992</pubdate>
+             <volume>13</volume>
+             <fpage>606</fpage>
+             <lpage>8</lpage>
+             <xrefbib>
+                <pubidlist>
+                   <pubid idtype="doi">10.2307/30148464</pubid>
+                   <pubid idtype="pmpid" link="fulltext">1334988</pubid>
+                </pubidlist>
+             </xrefbib>
+          </bibl>
+          <bibl id="B38">
+             <title>
+                <p>Breast augmentation</p>
+             </title>
+             <aug>
+                <au>
+                   <snm>Spear</snm>
+                   <fnm>SL</fnm>
+                </au>
+                <au>
+                   <snm>Bulan</snm>
+                   <fnm>EJ</fnm>
+                </au>
+                <au>
+                   <snm>Venturi</snm>
+                   <fnm>ML</fnm>
+                </au>
+             </aug>
+             <source>Plast Reconstr Surg</source>
+             <pubdate>2004</pubdate>
+             <volume>14</volume>
+             <issue>5</issue>
+             <fpage>73e</fpage>
+             <lpage>81e</lpage>
+          </bibl>
+          <bibl id="B39">
+             <title>
+                <p>Comparison of breast augmentation incisions and common complications</p>
+             </title>
+             <aug>
+                <au>
+                   <snm>Stutman</snm>
+                   <fnm>RL</fnm>
+                </au>
+                <au>
+                   <snm>Codner</snm>
+                   <fnm>M</fnm>
+                </au>
+                <au>
+                   <snm>Mahoney</snm>
+                   <fnm>A</fnm>
+                </au>
+                <au>
+                   <snm>Amei</snm>
+                   <fnm>A</fnm>
+                </au>
+             </aug>
+             <source>Aesthetic Plast Surg</source>
+             <pubdate>2012</pubdate>
+             <volume>36</volume>
+             <fpage>1096</fpage>
+             <lpage>104</lpage>
+             <xrefbib>
+                <pubidlist>
+                   <pubid idtype="doi">10.1007/s00266-012-9918-x</pubid>
+                   <pubid idtype="pmpid" link="fulltext">22653141</pubid>
+                </pubidlist>
+             </xrefbib>
+          </bibl>
+          <bibl id="B40">
+             <title>
+                <p>Relationship of incision choice to capsular contracture</p>
+             </title>
+             <aug>
+                <au>
+                   <snm>Wiener</snm>
+                   <fnm>TC</fnm>
+                </au>
+             </aug>
+             <source>Aesthetic Plast Surg</source>
+             <pubdate>2008</pubdate>
+             <volume>32</volume>
+             <fpage>303</fpage>
+             <lpage>6</lpage>
+             <xrefbib>
+                <pubidlist>
+                   <pubid idtype="doi">10.1007/s00266-007-9061-2</pubid>
+                   <pubid idtype="pmpid" link="fulltext">17994260</pubid>
+                </pubidlist>
+             </xrefbib>
+          </bibl>
+          <bibl id="B41">
+             <title>
+                <p>Effect of incision choice on outcomes in primary breast augmentation</p>
+             </title>
+             <aug>
+                <au>
+                   <snm>Jacobson</snm>
+                   <fnm>JM</fnm>
+                </au>
+                <au>
+                   <snm>Gatti</snm>
+                   <fnm>ME</fnm>
+                </au>
+                <au>
+                   <snm>Schaffner</snm>
+                   <fnm>AD</fnm>
+                </au>
+                <au>
+                   <snm>Hill</snm>
+                   <fnm>LM</fnm>
+                </au>
+                <au>
+                   <snm>Spear</snm>
+                   <fnm>SL</fnm>
+                </au>
+             </aug>
+             <source>Aesthet Surg J</source>
+             <pubdate>2012</pubdate>
+             <volume>32</volume>
+             <fpage>456</fpage>
+             <lpage>62</lpage>
+             <xrefbib>
+                <pubidlist>
+                   <pubid idtype="doi">10.1177/1090820X12444267</pubid>
+                   <pubid idtype="pmpid" link="fulltext">22523100</pubid>
+                </pubidlist>
+             </xrefbib>
+          </bibl>
+          <bibl id="B42">
+             <title>
+                <p>Dressing the part</p>
+             </title>
+             <aug>
+                <au>
+                   <snm>Cho</snm>
+                   <fnm>CY</fnm>
+                </au>
+                <au>
+                   <snm>Lo</snm>
+                   <fnm>JS</fnm>
+                </au>
+             </aug>
+             <source>Dermatol Clin</source>
+             <pubdate>1998</pubdate>
+             <volume>16</volume>
+             <fpage>25</fpage>
+             <lpage>47</lpage>
+             <xrefbib>
+                <pubidlist>
+                   <pubid idtype="doi">10.1016/S0733-8635(05)70485-X</pubid>
+                   <pubid idtype="pmpid" link="fulltext">9460576</pubid>
+                </pubidlist>
+             </xrefbib>
+          </bibl>
+          <bibl id="B43">
+             <title>
+                <p>Implant infection after augmentation mammaplasty: A review of the literature and report of a multidrug-resistant <it>Candida albicans</it> infection</p>
+             </title>
+             <aug>
+                <au>
+                   <snm>Dessy</snm>
+                   <fnm>LA</fnm>
+                </au>
+                <au>
+                   <snm>Corrias</snm>
+                   <fnm>F</fnm>
+                </au>
+                <au>
+                   <snm>Marchetti</snm>
+                   <fnm>F</fnm>
+                </au>
+                <au>
+                   <snm>Marcasciano</snm>
+                   <fnm>M</fnm>
+                </au>
+                <au>
+                   <snm>Armenti</snm>
+                   <fnm>AF</fnm>
+                </au>
+                <au>
+                   <snm>Mazzochi</snm>
+                   <fnm>M</fnm>
+                </au>
+                <au>
+                   <snm>Carlesimo</snm>
+                   <fnm>B</fnm>
+                </au>
+             </aug>
+             <source>Aesthetic Plast Surg</source>
+             <pubdate>2012</pubdate>
+             <volume>36</volume>
+             <fpage>153</fpage>
+             <lpage>9</lpage>
+             <xrefbib>
+                <pubidlist>
+                   <pubid idtype="doi">10.1007/s00266-011-9777-x</pubid>
+                   <pubid idtype="pmpid" link="fulltext">21717259</pubid>
+                </pubidlist>
+             </xrefbib>
+          </bibl>
+          <bibl id="B44">
+             <title>
+                <p>A successful salvage protocol for breast implants</p>
+             </title>
+             <aug>
+                <au>
+                   <snm>Sforza</snm>
+                   <fnm>M</fnm>
+                </au>
+                <au>
+                   <snm>Andjelkov</snm>
+                   <fnm>K</fnm>
+                </au>
+                <au>
+                   <snm>Zaccheddu</snm>
+                   <fnm>R</fnm>
+                </au>
+             </aug>
+             <source>Plast Reconstr Surg</source>
+             <pubdate>2011</pubdate>
+             <volume>128</volume>
+             <fpage>33e</fpage>
+             <lpage>4e</lpage>
+             <xrefbib>
+                <pubidlist>
+                   <pubid idtype="doi">10.1097/PRS.0b013e3182173fd3</pubid>
+                   <pubid idtype="pmpid" link="fulltext">21701308</pubid>
+                </pubidlist>
+             </xrefbib>
+          </bibl>
+          <bibl id="B45">
+             <title>
+                <p>Breast implant infection by <it>Mycobacterium fortuitum</it> in a patient with systemic lupus erythematosus</p>
+             </title>
+             <aug>
+                <au>
+                   <snm>Lizaso</snm>
+                   <fnm>D</fnm>
+                </au>
+                <au>
+                   <snm>Garcia</snm>
+                   <fnm>M</fnm>
+                </au>
+                <au>
+                   <snm>Aguirre</snm>
+                   <fnm>A</fnm>
+                </au>
+                <au>
+                   <snm>Esposto</snm>
+                   <fnm>A</fnm>
+                </au>
+             </aug>
+             <source>Rev Chilena Infectol</source>
+             <pubdate>2011</pubdate>
+             <volume>28</volume>
+             <fpage>474</fpage>
+             <lpage>8</lpage>
+             <xrefbib>
+                <pubidlist>
+                   <pubid idtype="doi">10.4067/S0716-10182011000600013</pubid>
+                   <pubid idtype="pmpid" link="fulltext">22051625</pubid>
+                </pubidlist>
+             </xrefbib>
+          </bibl>
+          <bibl id="B46">
+             <title>
+                <p>Occlusive wrap dressing reduces infection rate in saphenous vein harvest site</p>
+             </title>
+             <aug>
+                <au>
+                   <snm>Rosenfeldt</snm>
+                   <fnm>FL</fnm>
+                </au>
+                <au>
+                   <snm>Negri</snm>
+                   <fnm>J</fnm>
+                </au>
+                <au>
+                   <snm>Holdaway</snm>
+                   <fnm>D</fnm>
+                </au>
+                <au>
+                   <snm>Davis</snm>
+                   <fnm>BB</fnm>
+                </au>
+                <au>
+                   <snm>Mack</snm>
+                   <fnm>J</fnm>
+                </au>
+                <au>
+                   <snm>Grigg</snm>
+                   <fnm>MJ</fnm>
+                </au>
+                <au>
+                   <snm>Miles</snm>
+                   <fnm>C</fnm>
+                </au>
+                <au>
+                   <snm>Esmore</snm>
+                   <fnm>DS</fnm>
+                </au>
+             </aug>
+             <source>Ann Thorac Surg</source>
+             <pubdate>2003</pubdate>
+             <volume>75</volume>
+             <fpage>101</fpage>
+             <lpage>5</lpage>
+             <xrefbib>
+                <pubidlist>
+                   <pubid idtype="doi">10.1016/S0003-4975(02)04121-8</pubid>
+                   <pubid idtype="pmpid" link="fulltext">12537200</pubid>
+                </pubidlist>
+             </xrefbib>
+          </bibl>
+       </refgrp>
+    </bm>
+ </art>

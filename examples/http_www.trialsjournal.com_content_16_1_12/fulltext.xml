@@ -1,0 +1,2131 @@
+<?xml version='1.0'?>
+<!DOCTYPE art SYSTEM 'http://www.biomedcentral.com/xml/article.dtd'>
+<art>
+    <ui>s13063-014-0526-8</ui>
+    <ji>1745-6215</ji>
+    <fm>
+       <dochead>Research</dochead>
+       <bibl>
+          <title>
+             <p>Specifying the target difference in the primary outcome for a randomised controlled trial: guidance for researchers</p>
+          </title>
+          <aug>
+             <au id="A1" ca="yes">
+                <snm>Cook</snm>
+                <mi>A</mi>
+                <fnm>Jonathan</fnm>
+                <insr iid="I1"/>
+                <insr iid="I2"/>
+                <email>jonathan.cook@ndorms.ox.ac.uk</email>
+             </au>
+             <au id="A2">
+                <snm>Hislop</snm>
+                <fnm>Jenni</fnm>
+                <insr iid="I3"/>
+                <email>jenni.hislop@newcastle.ac.uk</email>
+             </au>
+             <au id="A3">
+                <snm>Altman</snm>
+                <mi>G</mi>
+                <fnm>Douglas</fnm>
+                <insr iid="I1"/>
+                <email>doug.altman@csm.ox.ac.uk</email>
+             </au>
+             <au id="A4">
+                <snm>Fayers</snm>
+                <fnm>Peter</fnm>
+                <insr iid="I4"/>
+                <insr iid="I5"/>
+                <email>p.fayers@abdn.ac.uk</email>
+             </au>
+             <au id="A5">
+                <snm>Briggs</snm>
+                <mi>H</mi>
+                <fnm>Andrew</fnm>
+                <insr iid="I6"/>
+                <email>Andrew.briggs@glasgow.ac.uk</email>
+             </au>
+             <au id="A6">
+                <snm>Ramsay</snm>
+                <mi>R</mi>
+                <fnm>Craig</fnm>
+                <insr iid="I2"/>
+                <email>c.r.ramsay@abdn.ac.uk</email>
+             </au>
+             <au id="A7">
+                <snm>Norrie</snm>
+                <mi>D</mi>
+                <fnm>John</fnm>
+                <insr iid="I7"/>
+                <email>j.norrie@abdn.ac.uk</email>
+             </au>
+             <au id="A8">
+                <snm>Harvey</snm>
+                <mi>M</mi>
+                <fnm>Ian</fnm>
+                <insr iid="I8"/>
+                <email>Ian.harvey@uea.ac.uk</email>
+             </au>
+             <au id="A9">
+                <snm>Buckley</snm>
+                <fnm>Brian</fnm>
+                <insr iid="I9"/>
+                <email>briansbuckley@gmail.com</email>
+             </au>
+             <au id="A10">
+                <snm>Fergusson</snm>
+                <fnm>Dean</fnm>
+                <insr iid="I10"/>
+                <email>dafergusson@ohri.ca</email>
+             </au>
+             <au id="A11">
+                <snm>Ford</snm>
+                <fnm>Ian</fnm>
+                <insr iid="I11"/>
+                <email>ian.ford@glasgow.ac.uk</email>
+             </au>
+             <au id="A12">
+                <snm>Vale</snm>
+                <mi>D</mi>
+                <fnm>Luke</fnm>
+                <insr iid="I3"/>
+                <email>luke.vale@newcastle.ac.uk</email>
+             </au>
+             <au id="A13" type="on_behalf">
+                <cnm>for the DELTA group</cnm>
+             </au>
+          </aug>
+          <insg>
+             <ins id="I1">
+                <p>Centre for Statistics in Medicine, Nuffield Department of Orthopaedics, Rheumatology and Musculoskeletal Sciences, University of Oxford, Botnar Research Centre, Nuffield Orthopaedic Centre, Windmill Road, Oxford OX3 7LD, UK</p>
+             </ins>
+             <ins id="I2">
+                <p>Health Services Research Unit, University of Aberdeen, Health Sciences Building, Foresthill, Aberdeen AB25 2ZD, UK</p>
+             </ins>
+             <ins id="I3">
+                <p>Institute of Health and Society, Newcastle University, The Baddiley-Clark Building, Richardson Road, Newcastle upon Tyne NE2 4AX, UK</p>
+             </ins>
+             <ins id="I4">
+                <p>Population Health, University of Aberdeen, Polwarth Building, Foresterhill, Aberdeen AB25 2ZD, UK</p>
+             </ins>
+             <ins id="I5">
+                <p>Department of Cancer Research and Molecular, Norwegian University of Science and Technology, Trondheim N-7491, Norway</p>
+             </ins>
+             <ins id="I6">
+                <p>Health Economics and Health Technology Assessment, University of Glasgow, 1 Lilybank Gardens, Glasgow G12 8RZ, UK</p>
+             </ins>
+             <ins id="I7">
+                <p>Centre for Healthcare Randomised Trials (CHaRT), University of Aberdeen, Health Sciences Building, Aberdeen AB25 2ZD, UK</p>
+             </ins>
+             <ins id="I8">
+                <p>Faculty of Medicine and Health Sciences, University of East Anglia, Elizabeth Fry Building, Norwich Research Park, Norwich NR4 7TJ, UK</p>
+             </ins>
+             <ins id="I9">
+                <p>National University of Ireland, University Road, Galway, Ireland</p>
+             </ins>
+             <ins id="I10">
+                <p>Clinical Epidemiology Program, Ottawa Hospital Research Institute, 725 Parkdale Avenue, Ottawa K1Y 4E9, ON, Canada</p>
+             </ins>
+             <ins id="I11">
+                <p>Robertson Centre for Biostatistics, University of Glasgow, Boyd Orr Building, University Avenue, Glasgow G12 8QQ, UK</p>
+             </ins>
+          </insg>
+          <source>Trials</source>
+          <issn>1745-6215</issn>
+          <pubdate>2015</pubdate>
+          <volume>16</volume>
+          <issue>1</issue>
+          <fpage>12</fpage>
+          <url>http://www.trialsjournal.com/content/16/1/12</url>
+          <xrefbib>
+             <pubidlist>
+                <pubid idtype="doi">10.1186/s13063-014-0526-8</pubid>
+             </pubidlist>
+          </xrefbib>
+       </bibl>
+       <history>
+          <rec>
+             <date>
+                <day>30</day>
+                <month>6</month>
+                <year>2014</year>
+             </date>
+          </rec>
+          <acc>
+             <date>
+                <day>19</day>
+                <month>12</month>
+                <year>2014</year>
+             </date>
+          </acc>
+          <pub>
+             <date>
+                <day>15</day>
+                <month>1</month>
+                <year>2015</year>
+             </date>
+          </pub>
+       </history>
+       <cpyrt>
+          <year>2015</year>
+          <collab>Cook et al.; licensee BioMed Central.</collab>
+          <note>This is an Open Access article distributed under the terms of the Creative Commons Attribution License (<url>http://creativecommons.org/licenses/by/4.0</url>), which permits unrestricted use, distribution, and reproduction in any medium, provided the original work is properly credited. The Creative Commons Public Domain Dedication waiver (<url>http://creativecommons.org/publicdomain/zero/1.0/</url>) applies to the data made available in this article, unless otherwise stated.</note>
+       </cpyrt>
+       <kwdg>
+          <kwd>Target difference</kwd>
+          <kwd>clinically important difference</kwd>
+          <kwd>sample size</kwd>
+          <kwd>randomised controlled trial</kwd>
+          <kwd>guidance</kwd>
+       </kwdg>
+       <abs>
+          <sec>
+             <st>
+                <p>Abstract</p>
+             </st>
+             <sec>
+                <st>
+                   <p>Background</p>
+                </st>
+                <p>Central to the design of a randomised controlled trial is the calculation of the number of participants needed. This is typically achieved by specifying a target difference and calculating the corresponding sample size, which provides reassurance that the trial will have the required statistical power (at the planned statistical significance level) to identify whether a difference of a particular magnitude exists. Beyond pure statistical or scientific concerns, it is ethically imperative that an appropriate number of participants should be recruited. Despite the critical role of the target difference for the primary outcome in the design of randomised controlled trials, its determination has received surprisingly little attention. This article provides guidance on the specification of the target difference for the primary outcome in a sample size calculation for a two parallel group randomised controlled trial with a superiority question.</p>
+             </sec>
+             <sec>
+                <st>
+                   <p>Methods</p>
+                </st>
+                <p>This work was part of the DELTA (Difference ELicitation in TriAls) project. Draft guidance was developed by the project steering and advisory groups utilising the results of the systematic review and surveys. Findings were circulated and presented to members of the combined group at a face-to-face meeting, along with a proposed outline of the guidance document structure, containing recommendations and reporting items for a trial protocol and report. The guidance and was subsequently drafted and circulated for further comment before finalisation.</p>
+             </sec>
+             <sec>
+                <st>
+                   <p>Results</p>
+                </st>
+                <p>Guidance on specification of a target difference in the primary outcome for a two group parallel randomised controlled trial was produced. Additionally, a list of reporting items for protocols and trial reports was generated.</p>
+             </sec>
+             <sec>
+                <st>
+                   <p>Conclusions</p>
+                </st>
+                <p>Specification of the target difference for the primary outcome is a key component of a randomized controlled trial sample size calculation. There is a need for better justification of the target difference and reporting of its specification.</p>
+             </sec>
+          </sec>
+       </abs>
+    </fm>
+    <bdy>
+       <sec>
+          <st>
+             <p>Background</p>
+          </st>
+          <p>Well-conducted randomised controlled trials (RCTs) are widely viewed as providing the optimal evidence on the relative performance of competing healthcare interventions <abbrgrp>
+                <abbr bid="B1">1</abbr>
+             </abbrgrp>,<abbrgrp>
+                <abbr bid="B2">2</abbr>
+             </abbrgrp>. However, simply detecting any statistical difference in the effectiveness of interventions may not be sufficient or useful; if the interventions differ to a degree or in a manner that is of little consequence in patient, clinical or economic (or other meaningful) terms, then the interventions might be considered not to be different. If RCTs are to produce useful information that can help patients, clinicians and planners make decisions about health care, it is essential that they are designed to achieve this. This is typically achieved by specifying a target difference for a primary outcome as part of a sample size calculation, which provides reassurance that the trial will have the specified statistical power to identify whether a difference of a particular magnitude exists. Beyond purely statistical or scientific concerns, the sample size calculation has financial and ethical implications. Failing to recruit sufficient participants to be able to confidently detect a relevant difference between interventions may be viewed as an inefficient use of finite research resources, while recruiting substantially more than are needed risks exposing participants to unnecessary experimentation <abbrgrp>
+                <abbr bid="B3">3</abbr>
+             </abbrgrp>.</p>
+          <p>Given these considerations, determining an appropriate sample size is of critical importance. Surprisingly, little practical advice is available on specifying the target difference of the chosen primary outcome, which as noted above is a key component of the sample size calculation. A comprehensive systematic review of the literature identified methods for determining the target difference that are available and surveys have shown these methods are in use <abbrgrp>
+                <abbr bid="B4">4</abbr>
+             </abbrgrp>,<abbrgrp>
+                <abbr bid="B5">5</abbr>
+             </abbrgrp>. Nevertheless, uncertainty regarding the magnitude of the target difference when designing the trial will lead to uncertainty regarding the interpretation of the results, even when the trial is otherwise successfully conducted <abbrgrp>
+                <abbr bid="B6">6</abbr>
+             </abbrgrp>,<abbrgrp>
+                <abbr bid="B7">7</abbr>
+             </abbrgrp>.</p>
+          <p>This article aims to provide practical guidance primarily for researchers involved in determining the sample size for an RCT and, in particular, the specification of the target difference in the primary outcome. It is also relevant to those who are involved in commissioning and publishing such studies. We provide guidance on the choice of the primary outcome, specification of the target difference and a brief summary of available methods that can be used to inform its specification and reporting. Additionally, two sets of reporting items, one for a trial protocol and the other a report of the trial findings in a peer reviewed biomedical journal, are also proposed and examples provided. A comprehensive systematic review and discussion of the individual methods for specifying a target difference has been reported elsewhere <abbrgrp>
+                <abbr bid="B4">4</abbr>
+             </abbrgrp>,<abbrgrp>
+                <abbr bid="B5">5</abbr>
+             </abbrgrp>. The focus of this guidance is upon what might be termed the conventional, or standard, approach to an RCT sample size calculation: a standalone trial utilising the conventional statistical framework for sample size calculation and primarily for superiority trials (those where the difference to be detected is specified). The key issues considered are relevant to other RCT designs and analysis approaches though implementation may differ. We note that the conventional approach to sample size calculation is not without its limitations and alternatives have been proposed <abbrgrp>
+                <abbr bid="B8">8</abbr>
+             </abbrgrp>, nevertheless it continues to be the most widely adopted approach <abbrgrp>
+                <abbr bid="B1">1</abbr>
+             </abbrgrp>,<abbrgrp>
+                <abbr bid="B9">9</abbr>
+             </abbrgrp>.</p>
+          <p>The conventional approach to the sample size calculation for a two parallel group RCT is as follows:</p><p>1. The RCT is conceived as a standalone definitive study (a study that is designed to provide a meaningful answer on its own);</p>
+             <p>2. It addresses a superiority question evaluating evidence of a difference (in either direction);</p>
+             <p>3. Adoption of a two parallel-group RCT design (typically 1:1 allocation);</p>
+             <p>4. Application of the Neyman-Pearson framework to calculate the sample size <abbrgrp>
+                   <abbr bid="B2">2</abbr>
+                </abbrgrp>,<abbrgrp>
+                   <abbr bid="B10">10</abbr>
+                </abbrgrp>-<abbrgrp>
+                   <abbr bid="B12">12</abbr>
+                </abbrgrp>. This requires specification of: the primary outcome for which the required sample size is to be calculated; the target difference (specification varies according to outcome type); statistical parameters (significance level and power) and other component(s) of the sample size calculation (such as standard deviation (SD)).</p>
+       </sec>
+       <sec>
+          <st>
+             <p>Methods</p>
+          </st>
+          <sec>
+             <st>
+                <p>Development of the guidance</p>
+             </st>
+             <p>This work was part of the DELTA (Difference ELicitation in TriAls) project, a study on target differences commissioned by the Medical Research Council/National Institute for Health Research Methodology Research Panel (MRC/NIHR) in the United Kingdom. It comprised three interlinking components: a comprehensive systematic review of methods for specifying the target difference, two surveys of current practice amongst clinical trialists and generation of structured guidance. This article is an abridged version of this guidance and other components of the project which have been reported in full elsewhere <abbrgrp>
+                   <abbr bid="B4">4</abbr>
+                </abbrgrp>. DELTA was undertaken by a collaborative group in which the majority of members have extensive experience of the design and conduct of RCTs (both as investigators and as independent committee members) and have conducted methodological research related to RCTs (such as quality-of-life measurement, statistical methodology, reporting, surgical trials and economic evaluation). The draft guidance was developed by the project steering and advisory groups utilising the results of the systematic review and surveys. Findings were circulated and presented to members of the combined group at a face-to-face meeting, along with a proposed outline of the guidance document structure and a list of recommendations and reporting items for a trial protocol and report. Both the structure and main recommendations were agreed at this meeting. The guidance was subsequently drafted and circulated for further comment before finalisation. No ethical approval was needed for this research.</p>
+          </sec>
+          <sec>
+             <st>
+                <p>Scope of the guidance</p>
+             </st>
+             <p>This guidance is based upon the conventional approach to a sample size calculation, though it should be applicable to most RCTs <abbrgrp>
+                   <abbr bid="B1">1</abbr>
+                </abbrgrp>,<abbrgrp>
+                   <abbr bid="B9">9</abbr>
+                </abbrgrp>. However, other approaches, for example trials with an explicitly Bayesian analysis framework, will require adaptation of the reporting items. It focuses upon guidance for a trial with a &#8216;superiority&#8217; question; one which seeks evidence of a difference between intervention groups. Although this guidance is primarily aimed at researchers, it is also relevant for publishers, funders and commissioners of research.</p>
+          </sec>
+       </sec>
+       <sec>
+          <st>
+             <p>Results</p>
+          </st>
+          <p>Abridged guidance is given below.</p>
+          <sec>
+             <st>
+                <p>Choosing the primary outcome</p>
+             </st>
+             <p>In the conventional approach to the sample size calculation for an RCT, a single outcome is usually chosen to be the primary measure upon which the sample size calculation is based (in some cases more than one primary outcome may be appropriate) <abbrgrp>
+                   <abbr bid="B2">2</abbr>
+                </abbrgrp>,<abbrgrp>
+                   <abbr bid="B10">10</abbr>
+                </abbrgrp>,<abbrgrp>
+                   <abbr bid="B13">13</abbr>
+                </abbrgrp>. The specification of a primary outcome performs a number of functions in terms of trial design, but it is clearly a pragmatic simplification to aid the design, interpretation and use of RCT findings. Through the corresponding sample size calculation and specification of the target difference, it clarifies what the study aims to identify, and the statistical power and precision with which this can be achieved. Stating the primary outcome in the study protocol also helps prevents undue over-interpretation arising from testing multiple outcomes and selective outcome reporting bias, whereby authors report only statistically significant (on possibly clinically irrelevant) outcomes or change the primary focus of the study to match a statistically significance finding. Additionally, it helps clarify the initial basis upon which to judge the study findings. This is particularly important in presence of a &#8216;negative&#8217; result, where the result does not meet the criteria for statistical significance (typically 5%). In all cases, focus should be upon the confidence interval as well as the point estimate, where a justifiable target difference can guide the interpretation. However, such justification of the target difference is often lacking in trial reports <abbrgrp>
+                   <abbr bid="B1">1</abbr>
+                </abbrgrp>,<abbrgrp>
+                   <abbr bid="B6">6</abbr>
+                </abbrgrp>. Calculating (or reverse engineering) the magnitude of a difference that can be detected at conventional levels of statistical significance and power (typically two-sided 5% and 80%, respectively), given a sample size which is believed to feasible, is often performed in practice for a selection of key outcomes before determining the primary outcome. Nevertheless, it is important to report the final sample size calculation, including the chosen primary outcome, the target difference and any justification of the value chosen, in as robust and transparent a fashion as possible to allow others to judge the basis of the calculation.</p>
+          </sec>
+          <sec>
+             <st>
+                <p>Specifying the target difference</p>
+             </st>
+             <p>The specification of the target difference in an RCT sample size calculation has received surprisingly little discussion in the literature. For a superiority trial, it is the difference in the primary outcome value that the study is designed to detect reliably <abbrgrp>
+                   <abbr bid="B2">2</abbr>
+                </abbrgrp>,<abbrgrp>
+                   <abbr bid="B10">10</abbr>
+                </abbrgrp>,<abbrgrp>
+                   <abbr bid="B13">13</abbr>
+                </abbrgrp>. There are two main bases for specifying the target difference: a difference considered to be &#8216;important&#8217; (for example, by a stakeholder group such as health professionals or patients), and a &#8216;realistic difference&#8217; based upon current evidence (for example, seeking the best available estimates in the literature through some form of knowledge synthesis).</p>
+             <p>It has been argued that a target difference should always meet both of these criteria <abbrgrp>
+                   <abbr bid="B14">14</abbr>
+                </abbrgrp>. The desire to be able to consider an (clinically) important difference can be viewed as a middle ground between ignoring the consequences of the treatment decision and a full assessment of the benefits, harms and costs of an intervention against the alternatives, which seeks to ensure that any harms and costs are incurred for a good reason. Focusing on a benefit (or harm) of the most important outcome is a natural and intuitive, if imperfect, way to guide a decision. A large body of literature exists on defining a clinically important difference, though not in the context of an RCT sample size calculation <abbrgrp>
+                   <abbr bid="B15">15</abbr>
+                </abbrgrp>-<abbrgrp>
+                   <abbr bid="B17">17</abbr>
+                </abbrgrp>. The most common general approach is the minimal clinically important difference (MCID). This has been defined as &#8216;the smallest difference &#8230;. which patients perceive as beneficial and which would mandate, in the absence of troublesome side effects and excessive cost, a change in the patient&#8217;s management&#8217;, or more simply as &#8216;minimum difference that is important to a patient&#8217; <abbrgrp>
+                   <abbr bid="B17">17</abbr>
+                </abbrgrp>. Many variants on this basic approach exist <abbrgrp>
+                   <abbr bid="B18">18</abbr>
+                </abbrgrp>,<abbrgrp>
+                   <abbr bid="B19">19</abbr>
+                </abbrgrp>. In the context of specifying a target difference for a typical two parallel-group trial, the focus is on a difference at the group level, between two groups of different participants. This contrasts with the vast majority of the MCID (and related) literature, which focuses overwhelmingly upon within-patient change and whether an important difference can be said to have occurred <abbrgrp>
+                   <abbr bid="B15">15</abbr>
+                </abbrgrp>-<abbrgrp>
+                   <abbr bid="B17">17</abbr>
+                </abbrgrp>. An alternative approach is to consider all relevant issues, including the consequences of decision-making, whereby a difference of any magnitude can be viewed as important and therefore a study&#8217;s size (and implicitly the target difference) is determined by reference to resource implications <abbrgrp>
+                   <abbr bid="B20">20</abbr>
+                </abbrgrp>,<abbrgrp>
+                   <abbr bid="B21">21</abbr>
+                </abbrgrp>. Whatever definition is used, estimation of an important difference is not without its challenges and limitations <abbrgrp>
+                   <abbr bid="B22">22</abbr>
+                </abbrgrp>,<abbrgrp>
+                   <abbr bid="B23">23</abbr>
+                </abbrgrp>.</p>
+             <p>The other main basis for a target difference is to specify a realistic difference; there is, for example, little point in setting as the target difference one that is so large that it cannot plausibly exist. If a systematic review of RCTs on the research question is available, it can be used to specify what difference is supported by current evidence. In essence, a realistic difference makes no claim regarding its clinical importance or otherwise. However, where a realistic difference is used, consideration of the importance of the difference is needed if the study findings are intended to inform clinical, patient or policy decisions. For some outcomes, the importance may be very clear (for example, mortality), whereas for others (especially quality of life and surrogate outcomes) further explanation is needed. Recruitment, study management and finance will naturally come into play when determining the sample size of a study. However, such considerations do not negate concerns about what is a realistic and/or important difference.</p>
+             <p>For a superiority trial it is generally accepted that the target difference should be a clinically important difference <abbrgrp>
+                   <abbr bid="B2">2</abbr>
+                </abbrgrp>,<abbrgrp>
+                   <abbr bid="B10">10</abbr>
+                </abbrgrp>-<abbrgrp>
+                   <abbr bid="B12">12</abbr>
+                </abbrgrp> or &#8216;at least as large as the MCID [minimum clinically important difference]&#8217; <abbrgrp>
+                   <abbr bid="B24">24</abbr>
+                </abbrgrp>. The target difference in a conventional sample size calculation is not the minimum difference that can be statistically detected; statistical significance alone is not a sufficient consideration for attributing importance to a difference <abbrgrp>
+                   <abbr bid="B2">2</abbr>
+                </abbrgrp>,<abbrgrp>
+                   <abbr bid="B12">12</abbr>
+                </abbrgrp>.</p>
+             <p>The target difference is specified differently depending upon the type of primary outcome. For a continuous outcome, this target difference on either the original or standardised scale is often referred to as the &#8216;effect size&#8217;. Strictly speaking, this value alone does not fully (uniquely) specify the target difference; the assumed variability of the outcome (standard deviation) is also needed to convert the effect size between the original and standardised scales. For a binary outcome, the target difference will be conditional on the control group event proportion. To uniquely specify the sample size, the target difference and the control group event proportion are needed, which together imply a unique pair of absolute and relative target differences. Similarly, survival outcomes require the control group proportion or survival distribution and length of follow-up period to be stated, in addition to the target difference. This is necessary as the sample size required is sensitive to both the absolute level and the relative difference. Despite this, it is not uncommon for only one or the other to be specifically stated in trial reports.</p>
+             <p>Seven methods for specifying the target difference have been identified <abbrgrp>
+                   <abbr bid="B4">4</abbr>
+                </abbrgrp> which can be used to inform the choice of target difference: anchor, distribution, health economic, opinion-seeking, pilot study, review of the evidence base and standardised effect size (see Table&#160;<tblr tid="T1">1</tblr> for a brief summary and elsewhere for a summary of the literature assessment of the use of each method <abbrgrp>
+                   <abbr bid="B5">5</abbr>
+                </abbrgrp>).
+                  </p>
+             
+                <table id="T1">
+                   <title>
+                      <p>Table 1</p>
+                   </title>
+                   <caption>
+                      <p>
+                            <b>Methods for specifying an important and/or realistic difference</b> 
+                         <abbrgrp>
+                            <abbr bid="B5">5</abbr>
+                         </abbrgrp>
+                      </p>
+                   </caption>
+                   <tgroup align="left" cols="3">
+                      <colspec align="left" colname="c1" colnum="1" colwidth="*"/>
+                      <colspec align="left" colname="c2" colnum="2" colwidth="*"/>
+                      <colspec align="left" colname="c3" colnum="3" colwidth="*"/>
+                      <thead>
+                         <row valign="top">
+                            <entry colname="c1">
+                               <p>
+                                  <b>Name</b>                              
+                               </p>
+                            </entry>
+                            <entry colname="c2">
+                               <p>
+                                  <b>Description</b>                              
+                               </p>
+                            </entry>
+                            <entry colname="c3">
+                               <p>
+                                  <b>Difference specified</b>                              
+                               </p>
+                            </entry>
+                         </row>
+                      </thead>
+                      <tbody>
+                         <row valign="top">
+                            <entry colname="c1">
+                               <p>
+                                  <it>Anchor</it>                              
+                               </p>
+                            </entry>
+                            <entry colname="c2">
+                               <p>The outcome of interest can be &#8216;anchored&#8217; by using either a patient&#8217;s or health professional&#8217;s judgement to define an important difference. This may be achieved by comparing a patient&#8217;s health before and after treatment, and then linking this change to participants who showed improvement and/or deterioration using a more familiar outcome (for which either patients or health professionals more readily agree on what amount of change constitutes an important difference). An outcome can be anchored to another which more is known about. Contrasts between patients (such as individuals with varying severity of a disease) can also be used to determine a meaningful difference.</p>
+                            </entry>
+                            <entry colname="c3">
+                               <p>Important</p>
+                            </entry>
+                         </row>
+                         <row valign="top">
+                            <entry colname="c1">
+                               <p>
+                                  <it>Distribution</it>                              
+                               </p>
+                            </entry>
+                            <entry colname="c2">
+                               <p>Approaches that determine a value based upon distributional variation. A common approach is to use a value that is larger than the inherent imprecision in the measurement and therefore likely to represent a minimal level for a noticeable difference.</p>
+                            </entry>
+                            <entry colname="c3">
+                               <p>Important</p>
+                            </entry>
+                         </row>
+                         <row valign="top">
+                            <entry colname="c1">
+                               <p>
+                                  <it>Health economic</it>                              
+                               </p>
+                            </entry>
+                            <entry colname="c2">
+                               <p>Approaches that use principles of economic evaluation. These typically include both resource cost and health outcomes, and define a threshold value for the cost of a unit of health effect that a decision-maker is willing to pay, to estimate the overall net benefit of treatment. The net benefit can be analysed in a frequentist framework or take the form of a (typically Bayesian) decision-theoretic value of information analysis. Due to difficulties in implementing a value of information analysis simpler heuristic frameworks, also based on the principles of economic evaluation, have been proposed.</p>
+                            </entry>
+                            <entry colname="c3">
+                               <p>Important</p>
+                            </entry>
+                         </row>
+                         <row valign="top">
+                            <entry colname="c1">
+                               <p>
+                                  <it>Opinion-seeking</it>                              
+                               </p>
+                            </entry>
+                            <entry colname="c2">
+                               <p>The target difference can be based on opinions elicited from health professionals, patients or others. Possible approaches include forming a panel of experts, surveying the membership of a professional or patient body or interviewing individuals. This elicitation process can be explicitly framed within a trial context.</p>
+                            </entry>
+                            <entry colname="c3">
+                               <p>Important and/or realistic</p>
+                            </entry>
+                         </row>
+                         <row valign="top">
+                            <entry colname="c1">
+                               <p>
+                                  <it>Pilot study</it>                              
+                               </p>
+                            </entry>
+                            <entry colname="c2">
+                               <p>A pilot (or preliminary) study may be carried out where there is little evidence, or even experience, to guide expectations and determine an appropriate target difference for the trial. In a similar manner, a phase two study could be used to inform a phase three study, though this would need to take account of methodological differences (such as inclusion criteria and outcomes), which should be reflected in the target difference.</p>
+                            </entry>
+                            <entry colname="c3">
+                               <p>Realistic</p>
+                            </entry>
+                         </row>
+                         <row valign="top">
+                            <entry colname="c1">
+                               <p>
+                                  <it>Review of evidence base</it>                              
+                               </p>
+                            </entry>
+                            <entry colname="c2">
+                               <p>The target difference can be derived using current evidence on the research question. Ideally, this would be from a systematic review or meta-analysis of RCTs. In the absence of randomised evidence, evidence from observational studies could be used in a similar manner. An alternative approach is to undertake a review of studies in which an important difference was determined.</p>
+                            </entry>
+                            <entry colname="c3">
+                               <p>Important and/or realistic</p>
+                            </entry>
+                         </row>
+                         <row valign="top">
+                            <entry colname="c1">
+                               <p>
+                                  <it>Standardised effect size</it>                              
+                               </p>
+                            </entry>
+                            <entry colname="c2">
+                               <p>The magnitude of the effect on a standardised scale defines the value of the difference. For a continuous outcome, the standardised difference (most commonly expressed as Cohen&#8217;s d effect size) can be used. Cohen&#8217;s cutoff values of 0.2, 0.5 and 0.8 for small, medium and large effects, respectively, are often used. Thus a medium effect corresponds simply to a change in the outcome of 0.5 SDs. Binary or survival (time-to-event) outcome metrics (such as an odds, risk or hazard ratio) can be utilised in a similar manner, though no widely recognised cutoff values exist. Cohen&#8217;s cutoff values approximate odds ratios of 1.44, 2.48 and 4.27, respectively. Corresponding risk ratio values vary according to the control group event proportion.</p>
+                            </entry>
+                            <entry colname="c3">
+                               <p>Important</p>
+                            </entry>
+                         </row>
+                      </tbody>
+                   </tgroup>
+                </table>
+             
+          </sec>
+          <sec>
+             <st>
+                <p>Reporting the sample size calculation and target difference</p>
+             </st>
+             <p>The assumptions made in the sample size calculation should be clearly specified. All inputs should be clearly stated so that the calculation can be replicated. It is recommended that trial protocols clearly and fully state the sample size calculations, including where the approach taken differs from the conventional approach (for example, the adoption of a Bayesian framework instead of a frequentist approach), statistical parameters and the target difference, with justification for the choice of values. Due to space restrictions in many publications the main trial paper is likely to contain less detail. A minimum set of items for the main trial results paper along with full specification in the trial protocol is recommended below in Table&#160;<tblr tid="T2">2</tblr>. These are more extensive lists of reporting items building upon the Consolidated Standards for Reporting Trials (CONSORT) including the 2010 version) and Standard Protocol Items: Recommendations for Interventional Trials (SPIRIT) statements, which provide guidance on reporting the sample size calculation, but not explicitly how to report the target difference and its justification <abbrgrp>
+                   <abbr bid="B25">25</abbr>
+                </abbrgrp>-<abbrgrp>
+                   <abbr bid="B27">27</abbr>
+                </abbrgrp> Examples for the three most common outcome types are provided in Table&#160;<tblr tid="T3">3</tblr>.
+                    
+                  </p>
+             
+                <table id="T2">
+                   <title>
+                      <p>Table 2</p>
+                   </title>
+                   <caption>
+                      <p>
+                            <b>Reporting items for the protocol and report of a two parallel group superiority trial</b>                          
+                      </p>
+                   </caption>
+                   <tgroup align="left" cols="4">
+                      <colspec align="left" colname="c1" colnum="1" colwidth="*"/>
+                      <colspec align="left" colname="c2" colnum="2" colwidth="*"/>
+                      <colspec align="left" colname="c3" colnum="3" colwidth="*"/>
+                      <colspec align="left" colname="c4" colnum="4" colwidth="*"/>
+                      <thead>
+                         <row valign="top">
+                            <entry colname="c1">
+                               <p>
+                                  <b>Item no.</b>                              
+                               </p>
+                            </entry>
+                            <entry colname="c2">
+                               <p>
+                                  <b>Item description</b>                              
+                               </p>
+                            </entry>
+                            <entry colname="c3">
+                               <p>
+                                  <b>Protocol</b>                              
+                               </p>
+                            </entry>
+                            <entry colname="c4">
+                               <p>
+                                  <b>Report</b>                              
+                               </p>
+                            </entry>
+                         </row>
+                      </thead>
+                      <tbody>
+                         <row valign="top">
+                            <entry colname="c1">
+                               <p>
+                                  <it>1</it>                              
+                               </p>
+                            </entry>
+                            <entry colname="c2">
+                               <p>State any divergence from the conventional approach.</p>
+                            </entry>
+                            <entry colname="c3">
+                               <p>&#8730;</p>
+                            </entry>
+                            <entry colname="c4">
+                               <p>&#8730;</p>
+                            </entry>
+                         </row>
+                         <row valign="top">
+                            <entry colname="c1">
+                               <p>
+                                  <it>2</it>                              
+                               </p>
+                            </entry>
+                            <entry colname="c2">
+                               <p>State the primary outcome (and any other outcome which the study sample size calculation is based upon), or state why there is not one.</p>
+                            </entry>
+                            <entry colname="c3">
+                               <p>&#8730;</p>
+                            </entry>
+                            <entry colname="c4">
+                               <p>&#8730;</p>
+                            </entry>
+                         </row>
+                         <row valign="top">
+                            <entry colname="c1">
+                               <p>
+                                  <it>3</it>                              
+                               </p>
+                            </entry>
+                            <entry colname="c2">
+                               <p>Reference the formula and/or simulation approach if the standard binary, continuous or survival outcome formulas are not used <abbrgrp>
+                                     <abbr bid="B2">2</abbr>
+                                  </abbrgrp>,<abbrgrp>
+                                     <abbr bid="B11">11</abbr>
+                                  </abbrgrp>. The primary analysis should be stated in the statistical analysis section.</p>
+                            </entry>
+                            <entry colname="c3">
+                               <p>&#8730;</p>
+                            </entry>
+                            <entry colname="c4"/>
+                         </row>
+                         <row valign="top">
+                            <entry colname="c1">
+                               <p>
+                                  <it>4</it>                              
+                               </p>
+                            </entry>
+                            <entry colname="c2">
+                               <p>State the values used for statistical parameters (such as significance level and power).</p>
+                            </entry>
+                            <entry colname="c3">
+                               <p>&#8730;</p>
+                            </entry>
+                            <entry colname="c4">
+                               <p>&#8730;</p>
+                            </entry>
+                         </row>
+                         <row valign="top">
+                            <entry colname="c1" morerows="3">
+                               <p>
+                                  <it>5</it>                              
+                               </p>
+                            </entry>
+                            <entry colname="c2">
+                               <p>State the underlying basis for determining the target difference:</p>
+                            </entry>
+                            <entry colname="c3" morerows="3">
+                               <p>&#8730;</p>
+                            </entry>
+                            <entry colname="c4" morerows="3"/>
+                         </row>
+                         <row valign="top">
+                            <entry colname="c2">
+                               <p>a. an important difference as judged by a stakeholder,</p>
+                            </entry>
+                         </row>
+                         <row valign="top">
+                            <entry colname="c2">
+                               <p>b. a realistic difference based upon current knowledge or</p>
+                            </entry>
+                         </row>
+                         <row valign="top">
+                            <entry colname="c2">
+                               <p>c. both an important and realistic difference.</p>
+                            </entry>
+                         </row>
+                         <row valign="top">
+                            <entry colname="c1" morerows="3">
+                               <p>
+                                  <it>6</it>                              
+                               </p>
+                            </entry>
+                            <entry colname="c2">
+                               <p>Express the target difference according to the outcome type:</p>
+                            </entry>
+                            <entry colname="c3" morerows="3">
+                               <p>&#8730;</p>
+                            </entry>
+                            <entry colname="c4" morerows="3">
+                               <p>&#8730;</p>
+                            </entry>
+                         </row>
+                         <row valign="top">
+                            <entry colname="c2">
+                               <p>a. Binary: state the target difference as an absolute and/or relative effect, along with the intervention and control group proportions. If both an absolute and a relative difference are provided, clarify if either takes primacy in terms of the sample size calculation.</p>
+                            </entry>
+                         </row>
+                         <row valign="top">
+                            <entry colname="c2">
+                               <p>b. Continuous: state the target mean difference on the natural scale, the common SD and standardised effect size (mean difference/SD). It is preferable to also provide the anticipated control group mean even though it is not required for the sample size calculation.</p>
+                            </entry>
+                         </row>
+                         <row valign="top">
+                            <entry colname="c2">
+                               <p>c. Time-to-event (survival): state the target difference as an absolute and/or relative difference, provide the control group event proportion, along with the intervention and control group survival distributions. Additionally, the planned length of follow-up should be stated along with the assumed accrual pattern. If both an absolute and a relative difference are provided, clarify if either takes primacy in terms of the sample size calculation.</p>
+                            </entry>
+                         </row>
+                         <row valign="top">
+                            <entry colname="c1">
+                               <p>
+                                  <it>7</it>                              
+                               </p>
+                            </entry>
+                            <entry colname="c2">
+                               <p>Explain the choice of target difference: specify and reference any formal method used or relevant previous research.</p>
+                            </entry>
+                            <entry colname="c3">
+                               <p>&#8730;</p>
+                            </entry>
+                            <entry colname="c4"/>
+                         </row>
+                         <row valign="top">
+                            <entry colname="c1">
+                               <p>
+                                  <it>8</it>                              
+                               </p>
+                            </entry>
+                            <entry colname="c2">
+                               <p>State the sample size based upon the assumptions specified above (for a time-to-event outcome, the number of events required should also be stated). If any factors are incorporated which alter the required sample size (such as allowance for loss-to-follow-up) they should also be specified along with the final sample size.</p>
+                            </entry>
+                            <entry colname="c3">
+                               <p>&#8730;</p>
+                            </entry>
+                            <entry colname="c4">
+                               <p>&#8730;</p>
+                            </entry>
+                         </row>
+                         <row valign="top">
+                            <entry colname="c1">
+                               <p>
+                                  <it>9</it>                              
+                               </p>
+                            </entry>
+                            <entry colname="c2">
+                               <p>Reference the trial protocol</p>
+                            </entry>
+                            <entry colname="c3"/>
+                            <entry colname="c4">
+                               <p>&#8730;</p>
+                            </entry>
+                         </row>
+                      </tbody>
+                   </tgroup>
+                </table>
+             
+             
+                <table id="T3">
+                   <title>
+                      <p>Table 3</p>
+                   </title>
+                   <caption>
+                      <p>
+                            <b>Reworked example RCT protocol sample size calculation sections</b>                          
+                      </p>
+                   </caption>
+                   <tgroup align="left" cols="2">
+                      <colspec align="left" colname="c1" colnum="1" colwidth="*"/>
+                      <colspec align="left" colname="c2" colnum="2" colwidth="*"/>
+                      <thead>
+                         <row valign="top">
+                            <entry colname="c1">
+                               <p>
+                                  <b>Primary outcome type</b>                              
+                               </p>
+                            </entry>
+                            <entry colname="c2">
+                               <p>
+                                  <b>Example text</b>                              
+                               </p>
+                            </entry>
+                         </row>
+                      </thead>
+                      <tbody>
+                         <row valign="top">
+                            <entry colname="c1">
+                               <p>
+                                  <it>Binary</it>                              
+                               </p>
+                            </entry>
+                            <entry colname="c2">
+                               <p>Men After Prostate Surgery (MAPS) radical prostatectomy trial <abbrgrp>
+                                     <abbr bid="B28">28</abbr>
+                                  </abbrgrp>: The primary outcome is continence. The sample size was based upon a target difference of 15% absolute difference (85 versus 70%). This magnitude of a target difference was determined as both a realistic and important difference from discussion between clinicians and the project management group, and inspection of the proportion of urinary incontinence in the trials included in the Cochrane systematic review <abbrgrp>
+                                     <abbr bid="B29">29</abbr>
+                                  </abbrgrp>. The control group proportion is also based upon the observed proportion in the RCTs in this review. Setting the statistical significance to the two-sided 5% level and seeking 90% power, 174 participants per group are required; 348 in total.</p>
+                            </entry>
+                         </row>
+                         <row valign="top">
+                            <entry colname="c1">
+                               <p>
+                                  <it>Continuous</it>                              
+                               </p>
+                            </entry>
+                            <entry colname="c2">
+                               <p>Full-thickness macular hole and Internal Limiting Membrane peeling Study (FILMS) <abbrgrp>
+                                     <abbr bid="B7">7</abbr>
+                                  </abbrgrp>: The primary outcome is ETDRS (Early Treatment Diabetic Retinopathy Study) distance visual acuity. A target difference of a mean difference of five letters, with a common standard deviation (SD) of 12, was assumed as five letters is equivalent to one line on a visual acuity chart and is viewed as an important difference by patients and clinicians. The SD value was based upon two previous studies; one RCT and one observational comparative study <abbrgrp>
+                                     <abbr bid="B30">30</abbr>
+                                  </abbrgrp>,<abbrgrp>
+                                     <abbr bid="B31">31</abbr>
+                                  </abbrgrp>. This target difference is equivalent to a standardised effect size of 0.42. Setting the statistical significance to the two-sided 5% level and seeking 90% power, 123 participants per group are required; 246 in total.</p>
+                            </entry>
+                         </row>
+                         <row valign="top">
+                            <entry colname="c1">
+                               <p>
+                                  <it>Time to event</it>                              
+                               </p>
+                            </entry>
+                            <entry colname="c2">
+                               <p>Arterial Revascularisation Trial (ART) <abbrgrp>
+                                     <abbr bid="B32">32</abbr>
+                                  </abbrgrp>: The primary outcome is all-cause mortality. The sample size was based upon a target difference of 5% in 10-year mortality with a control group mortality of 25%. Both the difference and control group mortality proportions are realistic based upon a systematic review of observational (cohort) studies <abbrgrp>
+                                     <abbr bid="B33">33</abbr>
+                                  </abbrgrp>. Setting the statistical significance to the two-sided 5% level and seeking 90% power, 1464 participants per group are required; 2,928 participants (651 events) in total. Participants will be followed for 10&#160;years.</p>
+                            </entry>
+                         </row>
+                      </tbody>
+                   </tgroup>
+                </table>
+             
+          </sec>
+       </sec>
+       <sec>
+          <st>
+             <p>Discussion</p>
+          </st>
+          <p>The RCT is widely considered to be the best method for comparing the effectiveness of health interventions <abbrgrp>
+                <abbr bid="B1">1</abbr>
+             </abbrgrp>. Determining the target difference is a key element of an RCT design. Improved standards in both RCT sample size calculations and reporting of these calculations would aid health professionals, patients, researchers and funders in judging the strength of the available evidence and would ensure better use of scarce resources. While no single method provides a perfect solution to a difficult question, we have provided practical guidance for researchers on sample size calculation with reference to specifying the target difference and how this should be reported in trial protocols and reports. To our knowledge, no alternative guidance exists. Although our examples and framing are from a medical context, the issues are relevant to social care, animal and other non-medical research as well. Further research into the implementation, practicality and consequence of using alternative methods for specifying the target difference (such as health economic and opinion-seeking), and exploration of the justification of some methods (such as the standardised effect size method, where the magnitude of the effect is used to infer the important of a difference) is needed.</p>
+       </sec>
+       <sec>
+          <st>
+             <p>Conclusions</p>
+          </st>
+          <p>Specification of the target difference for the primary outcome is a key component of an RCT sample size calculation. There is a need for better justification of the target difference and for corresponding reporting of its specification. Raising the standard of RCT sample size calculations would aid health professionals, patients, researchers and funders in judging the strength of the evidence and would ensure better use of scarce resources.</p>
+       </sec>
+       <sec>
+          <st>
+             <p>Abbreviations</p>
+          </st>
+          <p>ART: Arterial Revascularisation Trial</p>
+          <p>CONSORT: Consolidated Standards of Reporting Trials</p>
+          <p>DELTA: Difference Elicitation in TriAls</p>
+          <p>ETDRS: Early Treatment Diabetic Retinopathy Study</p>
+          <p>FILMS: Full-thickness macular hole and Internal Limiting Membrane peeling Study</p>
+          <p>MAPS: Men After Prostate Surgery</p>
+          <p>MCID: Minimal(ly) clinical(ly) important difference</p>
+          <p>MRC: Medical Research Council</p>
+          <p>NIHR: National Institute for Health Research</p>
+          <p>RCT: Randomised controlled trial</p>
+          <p>SD: standard deviation</p>
+          <p>SPIRIT: Standard Protocol Items: Recommendations for Interventional Trials</p>
+       </sec>
+       <sec>
+          <st>
+             <p>Competing interests</p>
+          </st>
+          <p>All authors have completed the Unified Competing Interest form (available on request from the corresponding author) and declare that all authors have no financial relationships that might have an interest in the submitted work.</p>
+       </sec>
+       <sec>
+          <st>
+             <p>Authors&#8217; contributions</p>
+          </st>
+          <p>JAC had the original idea and wrote the first draft of this paper. JH, DGA, PMF, AHB, CRR, JDN, IMH, BB, DF, IF and LDV contributed to the development of the guidance and commented on the draft manuscript. All authors read and approved the final version.</p>
+       </sec>
+    </bdy>
+    <bm>
+       <ack>
+          <sec>
+             <st>
+                <p>Acknowledgements</p>
+             </st>
+             <p>The authors would like to acknowledge the other members of the DELTA group (Kirsten Harrild, Temitope E Adewuyi and Cynthia Fraser) and the advisory group who were involved in the wider project (Adrian Grant and Marion Campbell). Funding was received from the MRC/NIHR Methodology Research Panel which is jointly funded by the MRC (reference number: G0902147) and Health Technology Assessment (HTA) (project number: 06/98/01). Jonathan Cook held MRC training (reference number: G0601938) and methodology (reference number: G1002292) fellowships while this research was undertaken. The Health Services Research Unit, Institute of Applied Health Sciences (University of Aberdeen), is core-funded by the Chief Scientist Office of the Scottish Government Health and Social Care Directorates. The funders had no involvement in study design, collection, analysis and interpretation of data, reporting or the decision to publish.</p>
+          </sec>
+       </ack>
+       <refgrp>
+          
+          <bibl id="B1">
+             <title>
+                <p>Reporting of sample size calculation in randomised controlled trials: review</p>
+             </title>
+             <aug>
+                <au>
+                   <snm>Charles</snm>
+                   <fnm>P</fnm>
+                </au>
+                <au>
+                   <snm>Giraudeau</snm>
+                   <fnm>B</fnm>
+                </au>
+                <au>
+                   <snm>Dechartres</snm>
+                   <fnm>A</fnm>
+                </au>
+                <au>
+                   <snm>Baron</snm>
+                   <fnm>G</fnm>
+                </au>
+                <au>
+                   <snm>Ravaud</snm>
+                   <fnm>P</fnm>
+                </au>
+             </aug>
+             <source>BMJ</source>
+             <pubdate>2009</pubdate>
+             <volume>338</volume>
+             <fpage>b1732</fpage>
+             <xrefbib>
+                <pubidlist>
+                   <pubid idtype="doi">10.1136/bmj.b1732</pubid>
+                   <pubid idtype="pmpid" link="fulltext">19435763</pubid>
+                </pubidlist>
+             </xrefbib>
+          </bibl>
+          <bibl id="B2">
+             <aug>
+                <au>
+                   <snm>Julious</snm>
+                   <fnm>S</fnm>
+                </au>
+             </aug>
+             <source>Sample Sizes for Clinical Trials</source>
+             <publisher>Chapman and Hall/CRC Press, Boca Raton, FL</publisher>
+             <pubdate>2010</pubdate>
+          </bibl>
+          <bibl id="B3">
+             <title>
+                <p>What influences recruitment to randomised controlled trials? A review of trials funded by two UK funding agencies</p>
+             </title>
+             <aug>
+                <au>
+                   <snm>McDonald</snm>
+                   <fnm>A</fnm>
+                </au>
+                <au>
+                   <snm>Knight</snm>
+                   <fnm>RC</fnm>
+                </au>
+                <au>
+                   <snm>Campbell</snm>
+                   <fnm>MK</fnm>
+                </au>
+                <au>
+                   <snm>Entwistle</snm>
+                   <fnm>VA</fnm>
+                </au>
+                <au>
+                   <snm>Grant</snm>
+                   <fnm>AM</fnm>
+                </au>
+                <au>
+                   <snm>Cook</snm>
+                   <fnm>JA</fnm>
+                </au>
+                <au>
+                   <snm>Elbourne</snm>
+                   <fnm>DR</fnm>
+                </au>
+                <au>
+                   <snm>Francis</snm>
+                   <fnm>D</fnm>
+                </au>
+                <au>
+                   <snm>Garcia</snm>
+                   <fnm>J</fnm>
+                </au>
+                <au>
+                   <snm>Roberts</snm>
+                   <fnm>I</fnm>
+                </au>
+                <au>
+                   <snm>Snowdon</snm>
+                   <fnm>C</fnm>
+                </au>
+             </aug>
+             <source>Trials</source>
+             <pubdate>2006</pubdate>
+             <volume>7</volume>
+             <fpage>7</fpage>
+             <xrefbib>
+                <pubidlist>
+                   <pubid idtype="doi">10.1186/1745-6215-7-9</pubid>
+                </pubidlist>
+             </xrefbib>
+          </bibl>
+          <bibl id="B4">
+             <title>
+                <p>Assessing methods to specify the targeted difference for a randomised controlled trial &#8211; DELTA (Difference ELicitation in TriAls) review</p>
+             </title>
+             <aug>
+                <au>
+                   <snm>Cook</snm>
+                   <fnm>JA</fnm>
+                </au>
+                <au>
+                   <snm>Hislop</snm>
+                   <fnm>J</fnm>
+                </au>
+                <au>
+                   <snm>Adewuyi</snm>
+                   <fnm>TE</fnm>
+                </au>
+                <au>
+                   <snm>Harrild</snm>
+                   <fnm>K</fnm>
+                </au>
+                <au>
+                   <snm>Altman</snm>
+                   <fnm>DG</fnm>
+                </au>
+                <au>
+                   <snm>Ramsay</snm>
+                   <fnm>CR</fnm>
+                </au>
+                <au>
+                   <snm>Fraser</snm>
+                   <fnm>C</fnm>
+                </au>
+                <au>
+                   <snm>Buckley</snm>
+                   <fnm>B</fnm>
+                </au>
+                <au>
+                   <snm>Fayers</snm>
+                   <fnm>P</fnm>
+                </au>
+                <au>
+                   <snm>Harvey</snm>
+                   <fnm>I</fnm>
+                </au>
+                <au>
+                   <snm>Briggs</snm>
+                   <fnm>A</fnm>
+                </au>
+                <au>
+                   <snm>Norrie</snm>
+                   <fnm>JD</fnm>
+                </au>
+                <au>
+                   <snm>Fergusson</snm>
+                   <fnm>D</fnm>
+                </au>
+                <au>
+                   <snm>Ford</snm>
+                   <fnm>I</fnm>
+                </au>
+                <au>
+                   <snm>Vale</snm>
+                   <fnm>LD</fnm>
+                </au>
+             </aug>
+             <source>Health Technol Assess</source>
+             <pubdate>2014</pubdate>
+             <volume>18</volume>
+             <fpage>28</fpage>
+             <xrefbib>
+                <pubidlist>
+                   <pubid idtype="doi">10.3310/hta18280</pubid>
+                </pubidlist>
+             </xrefbib>
+          </bibl>
+          <bibl id="B5">
+             <title>
+                <p>Methods for specifying the target difference in a randomised controlled trial: the Difference ELicitation in TriAls (DELTA) systematic review</p>
+             </title>
+             <aug>
+                <au>
+                   <snm>Hislop</snm>
+                   <fnm>J</fnm>
+                </au>
+                <au>
+                   <snm>Adewuyi</snm>
+                   <fnm>T</fnm>
+                </au>
+                <au>
+                   <snm>Vale</snm>
+                   <fnm>LD</fnm>
+                </au>
+                <au>
+                   <snm>Harrild</snm>
+                   <fnm>K</fnm>
+                </au>
+                <au>
+                   <snm>Fraser</snm>
+                   <fnm>C</fnm>
+                </au>
+                <au>
+                   <snm>Gurung</snm>
+                   <fnm>T</fnm>
+                </au>
+                <au>
+                   <snm>Altman</snm>
+                   <fnm>DG</fnm>
+                </au>
+                <au>
+                   <snm>Briggs</snm>
+                   <fnm>AH</fnm>
+                </au>
+                <au>
+                   <snm>Fayers</snm>
+                   <fnm>P</fnm>
+                </au>
+                <au>
+                   <snm>Ramsay</snm>
+                   <fnm>CR</fnm>
+                </au>
+                <au>
+                   <snm>Norrie</snm>
+                   <fnm>JD</fnm>
+                </au>
+                <au>
+                   <snm>Harvey</snm>
+                   <fnm>IM</fnm>
+                </au>
+                <au>
+                   <snm>Buckley</snm>
+                   <fnm>B</fnm>
+                </au>
+                <au>
+                   <snm>Cook</snm>
+                   <fnm>JA</fnm>
+                </au>
+             </aug>
+             <insg>
+                <ins>
+                   <p>for the DELTA group</p>
+                </ins>
+             </insg>
+             <source>PLoS Med</source>
+             <pubdate>2014</pubdate>
+             <volume>11</volume>
+             <fpage>e1001645</fpage>
+             <xrefbib>
+                <pubidlist>
+                   <pubid idtype="doi">10.1371/journal.pmed.1001645</pubid>
+                   <pubid idtype="pmpid" link="fulltext">24824338</pubid>
+                </pubidlist>
+             </xrefbib>
+          </bibl>
+          <bibl id="B6">
+             <title>
+                <p>Surgery with disc prosthesis versus rehabilitation in patients with low back pain and degenerative disc: two year follow-up of randomised study</p>
+             </title>
+             <aug>
+                <au>
+                   <snm>Hellum</snm>
+                   <fnm>C</fnm>
+                </au>
+                <au>
+                   <snm>Johnsen</snm>
+                   <fnm>LG</fnm>
+                </au>
+                <au>
+                   <snm>Storheim</snm>
+                   <fnm>K</fnm>
+                </au>
+                <au>
+                   <snm>Nygaard</snm>
+                   <fnm>OP</fnm>
+                </au>
+                <au>
+                   <snm>Brox</snm>
+                   <fnm>JI</fnm>
+                </au>
+                <au>
+                   <snm>Rossvoll</snm>
+                   <fnm>I</fnm>
+                </au>
+                <au>
+                   <snm>Ro</snm>
+                   <fnm>M</fnm>
+                </au>
+                <au>
+                   <snm>Sandvik</snm>
+                   <fnm>L</fnm>
+                </au>
+                <au>
+                   <snm>Grundnes</snm>
+                   <fnm>O</fnm>
+                </au>
+             </aug>
+             <insg>
+                <ins>
+                   <p>Norwegian Spine Study Group</p>
+                </ins>
+             </insg>
+             <source>BMJ</source>
+             <pubdate>2011</pubdate>
+             <volume>342</volume>
+             <fpage>d2786</fpage>
+             <xrefbib>
+                <pubidlist>
+                   <pubid idtype="doi">10.1136/bmj.d2786</pubid>
+                   <pubid idtype="pmpid" link="fulltext">21596740</pubid>
+                </pubidlist>
+             </xrefbib>
+          </bibl>
+          <bibl id="B7">
+             <title>
+                <p>Internal limiting membrane peeling versus no peeling for idiopathic full-thickness macular hole: a pragmatic randomized controlled trial</p>
+             </title>
+             <aug>
+                <au>
+                   <snm>Lois</snm>
+                   <fnm>N</fnm>
+                </au>
+                <au>
+                   <snm>Burr</snm>
+                   <fnm>J</fnm>
+                </au>
+                <au>
+                   <snm>Norrie</snm>
+                   <fnm>J</fnm>
+                </au>
+                <au>
+                   <snm>Vale</snm>
+                   <fnm>L</fnm>
+                </au>
+                <au>
+                   <snm>Cook</snm>
+                   <fnm>J</fnm>
+                </au>
+                <au>
+                   <snm>McDonald</snm>
+                   <fnm>A</fnm>
+                </au>
+                <au>
+                   <snm>Boachie</snm>
+                   <fnm>C</fnm>
+                </au>
+                <au>
+                   <snm>Ternent</snm>
+                   <fnm>L</fnm>
+                </au>
+                <au>
+                   <snm>McPherson</snm>
+                   <fnm>G</fnm>
+                </au>
+             </aug>
+             <insg>
+                <ins>
+                   <p>for the Full-thickness macular hole and Internal Limiting Membrane peeling Study (FILMS) Group</p>
+                </ins>
+             </insg>
+             <source>Invest Ophthalmol Vis Sci</source>
+             <pubdate>2011</pubdate>
+             <volume>52</volume>
+             <fpage>1586</fpage>
+             <lpage>1592</lpage>
+             <xrefbib>
+                <pubidlist>
+                   <pubid idtype="doi">10.1167/iovs.10-6287</pubid>
+                   <pubid idtype="pmpid" link="fulltext">21051731</pubid>
+                </pubidlist>
+             </xrefbib>
+          </bibl>
+          <bibl id="B8">
+             <title>
+                <p>Current sample size conventions: flaws, harms, and alternatives</p>
+             </title>
+             <aug>
+                <au>
+                   <snm>Bacchetti</snm>
+                   <fnm>P</fnm>
+                </au>
+             </aug>
+             <source>BMC Med</source>
+             <pubdate>2010</pubdate>
+             <volume>8</volume>
+             <fpage>17</fpage>
+             <xrefbib>
+                <pubidlist>
+                   <pubid idtype="doi">10.1186/1741-7015-8-17</pubid>
+                   <pubid idtype="pmpid" link="fulltext">20307281</pubid>
+                </pubidlist>
+             </xrefbib>
+          </bibl>
+          <bibl id="B9">
+             <title>
+                <p>Sample size determinations in original research protocols for randomised clinical trials submitted to UK research ethics committees: review</p>
+             </title>
+             <aug>
+                <au>
+                   <snm>Clark</snm>
+                   <fnm>T</fnm>
+                </au>
+                <au>
+                   <snm>Berger</snm>
+                   <fnm>U</fnm>
+                </au>
+                <au>
+                   <snm>Mansmann</snm>
+                   <fnm>U</fnm>
+                </au>
+             </aug>
+             <source>BMJ</source>
+             <pubdate>2013</pubdate>
+             <volume>346</volume>
+             <fpage>f1135</fpage>
+             <xrefbib>
+                <pubidlist>
+                   <pubid idtype="doi">10.1136/bmj.f1135</pubid>
+                   <pubid idtype="pmpid" link="fulltext">23518273</pubid>
+                </pubidlist>
+             </xrefbib>
+          </bibl>
+          <bibl id="B10">
+             <aug>
+                <au>
+                   <snm>Friedman</snm>
+                   <fnm>LM</fnm>
+                </au>
+                <au>
+                   <snm>Furberg</snm>
+                   <fnm>CD</fnm>
+                </au>
+                <au>
+                   <snm>DeMets</snm>
+                   <fnm>DL</fnm>
+                </au>
+             </aug>
+             <source>Fundamentals of Clinical Trials</source>
+             <publisher>Springer, New York</publisher>
+             <pubdate>2010</pubdate>
+          </bibl>
+          <bibl id="B11">
+             <aug>
+                <au>
+                   <snm>Matthews</snm>
+                   <fnm>JN</fnm>
+                </au>
+             </aug>
+             <source>Introduction to Randomized Controlled Clinical Trials</source>
+             <publisher>Taylor &amp; Francis, London</publisher>
+             <pubdate>2006</pubdate>
+          </bibl>
+          <bibl id="B12">
+             <aug>
+                <au>
+                   <snm>Peace</snm>
+                   <fnm>KE</fnm>
+                </au>
+                <au>
+                   <snm>Chen</snm>
+                   <fnm>DG</fnm>
+                </au>
+             </aug>
+             <source>Clinical Trial Methodology</source>
+             <publisher>Chapman &amp; Hall, London</publisher>
+             <pubdate>2010</pubdate>
+          </bibl>
+          <bibl id="B13">
+             <aug>
+                <au>
+                   <snm>Pocock</snm>
+                   <fnm>SJ</fnm>
+                </au>
+             </aug>
+             <source>Clinical Trials: A Practical Approach</source>
+             <publisher>Wiley &amp; Co, Chichester</publisher>
+             <pubdate>1983</pubdate>
+          </bibl>
+          <bibl id="B14">
+             <title>
+                <p>Sample size calculation for clinical trials: the impact of clinician beliefs</p>
+             </title>
+             <aug>
+                <au>
+                   <snm>Fayers</snm>
+                   <fnm>PM</fnm>
+                </au>
+                <au>
+                   <snm>Cuschieri</snm>
+                   <fnm>A</fnm>
+                </au>
+                <au>
+                   <snm>Fielding</snm>
+                   <fnm>J</fnm>
+                </au>
+                <au>
+                   <snm>Craven</snm>
+                   <fnm>J</fnm>
+                </au>
+                <au>
+                   <snm>Uscinska</snm>
+                   <fnm>B</fnm>
+                </au>
+                <au>
+                   <snm>Freedman</snm>
+                   <fnm>L</fnm>
+                </au>
+             </aug>
+             <source>Br J Cancer</source>
+             <pubdate>2000</pubdate>
+             <volume>82</volume>
+             <fpage>213</fpage>
+             <lpage>219</lpage>
+             <xrefbib>
+                <pubidlist>
+                   <pubid idtype="doi">10.1054/bjoc.1999.0902</pubid>
+                   <pubid idtype="pmpid" link="fulltext">10638992</pubid>
+                </pubidlist>
+             </xrefbib>
+          </bibl>
+          <bibl id="B15">
+             <title>
+                <p>Understanding the minimum clinically important difference: a review of concepts and methods</p>
+             </title>
+             <aug>
+                <au>
+                   <snm>Copay</snm>
+                   <fnm>AG</fnm>
+                </au>
+                <au>
+                   <snm>Subach</snm>
+                   <fnm>BR</fnm>
+                </au>
+                <au>
+                   <snm>Glassman</snm>
+                   <fnm>SD</fnm>
+                </au>
+                <au>
+                   <snm>Polly</snm>
+                   <fnm>J</fnm>
+                </au>
+                <au>
+                   <snm>Schuler</snm>
+                   <fnm>TC</fnm>
+                </au>
+             </aug>
+             <source>Spine J</source>
+             <pubdate>2007</pubdate>
+             <volume>7</volume>
+             <fpage>541</fpage>
+             <lpage>546</lpage>
+             <xrefbib>
+                <pubidlist>
+                   <pubid idtype="doi">10.1016/j.spinee.2007.01.008</pubid>
+                   <pubid idtype="pmpid" link="fulltext">17448732</pubid>
+                </pubidlist>
+             </xrefbib>
+          </bibl>
+          <bibl id="B16">
+             <title>
+                <p>Minimal clinically important differences: Review of methods</p>
+             </title>
+             <aug>
+                <au>
+                   <snm>Wells</snm>
+                   <fnm>G</fnm>
+                </au>
+                <au>
+                   <snm>Beaton</snm>
+                   <fnm>D</fnm>
+                </au>
+                <au>
+                   <snm>Shea</snm>
+                   <fnm>B</fnm>
+                </au>
+                <au>
+                   <snm>Boers</snm>
+                   <fnm>M</fnm>
+                </au>
+                <au>
+                   <snm>Simon</snm>
+                   <fnm>L</fnm>
+                </au>
+                <au>
+                   <snm>Strand</snm>
+                   <fnm>V</fnm>
+                </au>
+                <au>
+                   <snm>Brooks</snm>
+                   <fnm>P</fnm>
+                </au>
+                <au>
+                   <snm>Tugwell</snm>
+                   <fnm>P</fnm>
+                </au>
+             </aug>
+             <source>J Rheumatol</source>
+             <pubdate>2001</pubdate>
+             <volume>28</volume>
+             <fpage>406</fpage>
+             <lpage>412</lpage>
+             <xrefbib>
+                <pubidlist>
+                   <pubid idtype="pmpid" link="fulltext">11246688</pubid>
+                </pubidlist>
+             </xrefbib>
+          </bibl>
+          <bibl id="B17">
+             <title>
+                <p>Many faces of the minimal clinically important difference (MICD): A literature review and directions for future research</p>
+             </title>
+             <aug>
+                <au>
+                   <snm>Beaton</snm>
+                   <fnm>DE</fnm>
+                </au>
+                <au>
+                   <snm>Boers</snm>
+                   <fnm>M</fnm>
+                </au>
+                <au>
+                   <snm>Wells</snm>
+                   <fnm>GA</fnm>
+                </au>
+             </aug>
+             <source>Curr Opin Rheumatol</source>
+             <pubdate>2002</pubdate>
+             <volume>14</volume>
+             <fpage>109</fpage>
+             <lpage>114</lpage>
+             <xrefbib>
+                <pubidlist>
+                   <pubid idtype="doi">10.1097/00002281-200203000-00006</pubid>
+                   <pubid idtype="pmpid" link="fulltext">11845014</pubid>
+                </pubidlist>
+             </xrefbib>
+          </bibl>
+          <bibl id="B18">
+             <title>
+                <p>The concept of clinically meaningful difference in health-related quality-of-life research. How meaningful is it?</p>
+             </title>
+             <aug>
+                <au>
+                   <snm>Hays</snm>
+                   <fnm>RD</fnm>
+                </au>
+                <au>
+                   <snm>Woolley</snm>
+                   <fnm>JM</fnm>
+                </au>
+             </aug>
+             <source>Pharmacoeconomics</source>
+             <pubdate>2000</pubdate>
+             <volume>18</volume>
+             <fpage>419</fpage>
+             <lpage>423</lpage>
+             <xrefbib>
+                <pubidlist>
+                   <pubid idtype="doi">10.2165/00019053-200018050-00001</pubid>
+                   <pubid idtype="pmpid" link="fulltext">11151395</pubid>
+                </pubidlist>
+             </xrefbib>
+          </bibl>
+          <bibl id="B19">
+             <title>
+                <p>Sufficiently important difference: expanding the framework of clinical significance</p>
+             </title>
+             <aug>
+                <au>
+                   <snm>Barrett</snm>
+                   <fnm>B</fnm>
+                </au>
+                <au>
+                   <snm>Brown</snm>
+                   <fnm>D</fnm>
+                </au>
+                <au>
+                   <snm>Mundt</snm>
+                   <fnm>M</fnm>
+                </au>
+                <au>
+                   <snm>Brown</snm>
+                   <fnm>R</fnm>
+                </au>
+             </aug>
+             <source>Med Decis Making</source>
+             <pubdate>2005</pubdate>
+             <volume>25</volume>
+             <fpage>250</fpage>
+             <lpage>261</lpage>
+             <xrefbib>
+                <pubidlist>
+                   <pubid idtype="doi">10.1177/0272989X05276863</pubid>
+                   <pubid idtype="pmpid" link="fulltext">15951453</pubid>
+                </pubidlist>
+             </xrefbib>
+          </bibl>
+          <bibl id="B20">
+             <title>
+                <p>Optimal clinical trial design using value of information methods with imperfect implementation</p>
+             </title>
+             <aug>
+                <au>
+                   <snm>Willan</snm>
+                   <fnm>AR</fnm>
+                </au>
+                <au>
+                   <snm>Eckermann</snm>
+                   <fnm>S</fnm>
+                </au>
+             </aug>
+             <source>Health Econ</source>
+             <pubdate>2010</pubdate>
+             <volume>19</volume>
+             <fpage>549</fpage>
+             <lpage>561</lpage>
+             <xrefbib>
+                <pubidlist>
+                   <pubid idtype="pmpid" link="fulltext">19399753</pubid>
+                </pubidlist>
+             </xrefbib>
+          </bibl>
+          <bibl id="B21">
+             <title>
+                <p>A Bayesian cost-benefit approach to the determination of sample size in clinical trials</p>
+             </title>
+             <aug>
+                <au>
+                   <snm>Kikuchi</snm>
+                   <fnm>T</fnm>
+                </au>
+                <au>
+                   <snm>Pezeshk</snm>
+                   <fnm>H</fnm>
+                </au>
+                <au>
+                   <snm>Gittins</snm>
+                   <fnm>J</fnm>
+                </au>
+             </aug>
+             <source>Stat Med</source>
+             <pubdate>2008</pubdate>
+             <volume>27</volume>
+             <fpage>68</fpage>
+             <lpage>82</lpage>
+             <xrefbib>
+                <pubidlist>
+                   <pubid idtype="doi">10.1002/sim.2965</pubid>
+                   <pubid idtype="pmpid" link="fulltext">17566967</pubid>
+                </pubidlist>
+             </xrefbib>
+          </bibl>
+          <bibl id="B22">
+             <title>
+                <p>Arbitrary metrics in psychology</p>
+             </title>
+             <aug>
+                <au>
+                   <snm>Blanton</snm>
+                   <fnm>H</fnm>
+                </au>
+                <au>
+                   <snm>Jaccard</snm>
+                   <fnm>J</fnm>
+                </au>
+             </aug>
+             <source>Am Psychol</source>
+             <pubdate>2006</pubdate>
+             <volume>61</volume>
+             <fpage>27</fpage>
+             <lpage>41</lpage>
+             <xrefbib>
+                <pubidlist>
+                   <pubid idtype="doi">10.1037/0003-066X.61.1.27</pubid>
+                   <pubid idtype="pmpid" link="fulltext">16435974</pubid>
+                </pubidlist>
+             </xrefbib>
+          </bibl>
+          <bibl id="B23">
+             <title>
+                <p>The rise and fall of the &#8220;minimum clinically important difference&#8221;</p>
+             </title>
+             <aug>
+                <au>
+                   <snm>Carragee</snm>
+                   <fnm>EJ</fnm>
+                </au>
+             </aug>
+             <source>Spine J</source>
+             <pubdate>2010</pubdate>
+             <volume>10</volume>
+             <fpage>283</fpage>
+             <lpage>284</lpage>
+             <xrefbib>
+                <pubidlist>
+                   <pubid idtype="doi">10.1016/j.spinee.2010.02.013</pubid>
+                   <pubid idtype="pmpid" link="fulltext">20362245</pubid>
+                </pubidlist>
+             </xrefbib>
+          </bibl>
+          <bibl id="B24">
+             <title>
+                <p>Statistical significance versus clinical importance: trials on exercise therapy for chronic low back pain as example</p>
+             </title>
+             <aug>
+                <au>
+                   <snm>Van</snm>
+                   <fnm>TM</fnm>
+                </au>
+                <au>
+                   <snm>Malmivaara</snm>
+                   <fnm>A</fnm>
+                </au>
+                <au>
+                   <snm>Hayden</snm>
+                   <fnm>J</fnm>
+                </au>
+                <au>
+                   <snm>Koes</snm>
+                   <fnm>B</fnm>
+                </au>
+             </aug>
+             <source>Spine</source>
+             <pubdate>2007</pubdate>
+             <volume>32</volume>
+             <fpage>1785</fpage>
+             <lpage>1790</lpage>
+             <xrefbib>
+                <pubidlist>
+                   <pubid idtype="doi">10.1097/BRS.0b013e3180b9ef49</pubid>
+                </pubidlist>
+             </xrefbib>
+          </bibl>
+          <bibl id="B25">
+             <title>
+                <p>The revised CONSORT statement for reporting randomized trials: explanation and elaboration</p>
+             </title>
+             <aug>
+                <au>
+                   <snm>Altman</snm>
+                   <fnm>DG</fnm>
+                </au>
+                <au>
+                   <snm>Schulz</snm>
+                   <fnm>KF</fnm>
+                </au>
+                <au>
+                   <snm>Moher</snm>
+                   <fnm>D</fnm>
+                </au>
+                <au>
+                   <snm>Egger</snm>
+                   <fnm>M</fnm>
+                </au>
+                <au>
+                   <snm>Davidoff</snm>
+                   <fnm>F</fnm>
+                </au>
+                <au>
+                   <snm>Elbourne</snm>
+                   <fnm>D</fnm>
+                </au>
+                <au>
+                   <snm>G&#248;tzsche</snm>
+                   <fnm>PC</fnm>
+                </au>
+                <au>
+                   <snm>Lang</snm>
+                   <fnm>T</fnm>
+                </au>
+             </aug>
+             <insg>
+                <ins>
+                   <p>CONSORT group</p>
+                </ins>
+             </insg>
+             <source>Ann Intern Med</source>
+             <pubdate>2001</pubdate>
+             <volume>134</volume>
+             <fpage>663</fpage>
+             <lpage>694</lpage>
+             <xrefbib>
+                <pubidlist>
+                   <pubid idtype="doi">10.7326/0003-4819-134-8-200104170-00012</pubid>
+                   <pubid idtype="pmpid" link="fulltext">11304107</pubid>
+                </pubidlist>
+             </xrefbib>
+          </bibl>
+          <bibl id="B26">
+             <title>
+                <p>CONSORT 2010 statement: updated guidelines for reporting parallel group randomised trials</p>
+             </title>
+             <aug>
+                <au>
+                   <snm>Schulz</snm>
+                   <fnm>KF</fnm>
+                </au>
+                <au>
+                   <snm>Altman</snm>
+                   <fnm>DG</fnm>
+                </au>
+                <au>
+                   <snm>Moher</snm>
+                   <fnm>D</fnm>
+                </au>
+             </aug>
+             <insg>
+                <ins>
+                   <p>CONSORT Group</p>
+                </ins>
+             </insg>
+             <source>BMJ</source>
+             <pubdate>2010</pubdate>
+             <volume>340</volume>
+             <fpage>c332</fpage>
+             <xrefbib>
+                <pubidlist>
+                   <pubid idtype="doi">10.1136/bmj.c332</pubid>
+                   <pubid idtype="pmpid" link="fulltext">20332509</pubid>
+                </pubidlist>
+             </xrefbib>
+          </bibl>
+          <bibl id="B27">
+             <title>
+                <p>SPIRIT 2013 statement: defining standard protocol items for clinical trials</p>
+             </title>
+             <aug>
+                <au>
+                   <snm>Chan</snm>
+                   <fnm>AW</fnm>
+                </au>
+                <au>
+                   <snm>Tetzlaff</snm>
+                   <fnm>JM</fnm>
+                </au>
+                <au>
+                   <snm>Altman</snm>
+                   <fnm>DG</fnm>
+                </au>
+                <au>
+                   <snm>Laupacis</snm>
+                   <fnm>A</fnm>
+                </au>
+                <au>
+                   <snm>Gotzsche</snm>
+                   <fnm>PC</fnm>
+                </au>
+                <au>
+                   <snm>Krle&#382;a-Jeri&#263;</snm>
+                   <fnm>K</fnm>
+                </au>
+                <au>
+                   <snm>Hr&#243;bjartsson</snm>
+                   <fnm>A</fnm>
+                </au>
+                <au>
+                   <snm>Mann</snm>
+                   <fnm>H</fnm>
+                </au>
+                <au>
+                   <snm>Dickersin</snm>
+                   <fnm>K</fnm>
+                </au>
+                <au>
+                   <snm>Berlin</snm>
+                   <fnm>JA</fnm>
+                </au>
+                <au>
+                   <snm>Dor&#233;</snm>
+                   <fnm>CJ</fnm>
+                </au>
+                <au>
+                   <snm>Parulekar</snm>
+                   <fnm>WR</fnm>
+                </au>
+                <au>
+                   <snm>Summerskill</snm>
+                   <fnm>WS</fnm>
+                </au>
+                <au>
+                   <snm>Groves</snm>
+                   <fnm>T</fnm>
+                </au>
+                <au>
+                   <snm>Schulz</snm>
+                   <fnm>KF</fnm>
+                </au>
+                <au>
+                   <snm>Sox</snm>
+                   <fnm>HC</fnm>
+                </au>
+                <au>
+                   <snm>Rockhold</snm>
+                   <fnm>FW</fnm>
+                </au>
+                <au>
+                   <snm>Rennie</snm>
+                   <fnm>D</fnm>
+                </au>
+                <au>
+                   <snm>Moher</snm>
+                   <fnm>D</fnm>
+                </au>
+             </aug>
+             <source>Ann Intern Med</source>
+             <pubdate>2013</pubdate>
+             <volume>158</volume>
+             <fpage>200</fpage>
+             <lpage>207</lpage>
+             <xrefbib>
+                <pubidlist>
+                   <pubid idtype="doi">10.7326/0003-4819-158-3-201302050-00583</pubid>
+                   <pubid idtype="pmpid" link="fulltext">23295957</pubid>
+                </pubidlist>
+             </xrefbib>
+          </bibl>
+          <bibl id="B28">
+             <title>
+                <p>Urinary incontinence in men after formal one-to-one pelvic-floor muscle training following radical prostatectomy or transurethral resection of the prostate (MAPS): two parallel randomised controlled trials</p>
+             </title>
+             <aug>
+                <au>
+                   <snm>Glazener</snm>
+                   <fnm>C</fnm>
+                </au>
+                <au>
+                   <snm>Boachie</snm>
+                   <fnm>C</fnm>
+                </au>
+                <au>
+                   <snm>Buckley</snm>
+                   <fnm>B</fnm>
+                </au>
+                <au>
+                   <snm>Cochran</snm>
+                   <fnm>C</fnm>
+                </au>
+                <au>
+                   <snm>Dorey</snm>
+                   <fnm>G</fnm>
+                </au>
+                <au>
+                   <snm>Grant</snm>
+                   <fnm>A</fnm>
+                </au>
+                <au>
+                   <snm>Hagen</snm>
+                   <fnm>S</fnm>
+                </au>
+                <au>
+                   <snm>Kilonzo</snm>
+                   <fnm>M</fnm>
+                </au>
+                <au>
+                   <snm>McDonald</snm>
+                   <fnm>A</fnm>
+                </au>
+                <au>
+                   <snm>McPherson</snm>
+                   <fnm>G</fnm>
+                </au>
+                <au>
+                   <snm>Moore</snm>
+                   <fnm>K</fnm>
+                </au>
+                <au>
+                   <snm>Norrie</snm>
+                   <fnm>J</fnm>
+                </au>
+                <au>
+                   <snm>Ramsay</snm>
+                   <fnm>C</fnm>
+                </au>
+                <au>
+                   <snm>Vale</snm>
+                   <fnm>L</fnm>
+                </au>
+                <au>
+                   <snm>N'Dow</snm>
+                   <fnm>J</fnm>
+                </au>
+             </aug>
+             <source>Lancet</source>
+             <pubdate>2011</pubdate>
+             <volume>378</volume>
+             <fpage>328</fpage>
+             <lpage>337</lpage>
+             <xrefbib>
+                <pubidlist>
+                   <pubid idtype="doi">10.1016/S0140-6736(11)60751-4</pubid>
+                   <pubid idtype="pmpid" link="fulltext">21741700</pubid>
+                </pubidlist>
+             </xrefbib>
+          </bibl>
+          <bibl id="B29">
+             <title>
+                <p>Conservative management for postprostatectomy urinary incontinence</p>
+             </title>
+             <aug>
+                <au>
+                   <snm>Hunter</snm>
+                   <fnm>KF</fnm>
+                </au>
+                <au>
+                   <snm>Moore</snm>
+                   <fnm>KN</fnm>
+                </au>
+                <au>
+                   <snm>Glazener</snm>
+                   <fnm>CM</fnm>
+                </au>
+             </aug>
+             <source>Cochrane Database Syst Rev</source>
+             <pubdate>2007</pubdate>
+             <volume>2</volume>
+             <xrefbib>
+                <pubidlist>
+                   <pubid idtype="pmpid" link="fulltext">17443512</pubid>
+                </pubidlist>
+             </xrefbib>
+          </bibl>
+          <bibl id="B30">
+             <title>
+                <p>Macular hole surgery with and without internal limiting membrane peeling</p>
+             </title>
+             <aug>
+                <au>
+                   <snm>Brooks</snm>
+                   <fnm>HL</fnm>
+                   <suf>Jr</suf>
+                </au>
+             </aug>
+             <source>Ophthalmology</source>
+             <pubdate>2000</pubdate>
+             <volume>107</volume>
+             <fpage>1939</fpage>
+             <lpage>1948</lpage>
+             <xrefbib>
+                <pubidlist>
+                   <pubid idtype="doi">10.1016/S0161-6420(00)00331-6</pubid>
+                   <pubid idtype="pmpid" link="fulltext">11013203</pubid>
+                </pubidlist>
+             </xrefbib>
+          </bibl>
+          <bibl id="B31">
+             <title>
+                <p>Effect of autologous platelet concentrate in surgery for idiopathic macular hole: results of a multicenter, double-masked, randomized trial. Platelets in Macular Hole Surgery Group</p>
+             </title>
+             <aug>
+                <au>
+                   <snm>Paques</snm>
+                   <fnm>M</fnm>
+                </au>
+                <au>
+                   <snm>Chastang</snm>
+                   <fnm>C</fnm>
+                </au>
+                <au>
+                   <snm>Mathis</snm>
+                   <fnm>A</fnm>
+                </au>
+                <au>
+                   <snm>Sahel</snm>
+                   <fnm>J</fnm>
+                </au>
+                <au>
+                   <snm>Massin</snm>
+                   <fnm>P</fnm>
+                </au>
+                <au>
+                   <snm>Dosquet</snm>
+                   <fnm>C</fnm>
+                </au>
+                <au>
+                   <snm>Korobelnik</snm>
+                   <fnm>JF</fnm>
+                </au>
+                <au>
+                   <snm>Le Gargasson</snm>
+                   <fnm>JF</fnm>
+                </au>
+                <au>
+                   <snm>Gaudric</snm>
+                   <fnm>A</fnm>
+                </au>
+             </aug>
+             <source>Ophthalmology</source>
+             <pubdate>1999</pubdate>
+             <volume>106</volume>
+             <fpage>932</fpage>
+             <lpage>938</lpage>
+             <xrefbib>
+                <pubidlist>
+                   <pubid idtype="doi">10.1016/S0161-6420(99)00512-6</pubid>
+                   <pubid idtype="pmpid" link="fulltext">10328392</pubid>
+                </pubidlist>
+             </xrefbib>
+          </bibl>
+          <bibl id="B32">
+             <title>
+                <p>Protocol for the Arterial Revascularisation Trial (ART). A randomised trial to compare survival following bilateral versus single internal mammary grafting in coronary revascularisation</p>
+             </title>
+             <aug>
+                <au>
+                   <snm>Taggart</snm>
+                   <fnm>DP</fnm>
+                </au>
+                <au>
+                   <snm>Lees</snm>
+                   <fnm>B</fnm>
+                </au>
+                <au>
+                   <snm>Gray</snm>
+                   <fnm>A</fnm>
+                </au>
+                <au>
+                   <snm>Altman</snm>
+                   <fnm>DG</fnm>
+                </au>
+                <au>
+                   <snm>Flather</snm>
+                   <fnm>M</fnm>
+                </au>
+                <au>
+                   <snm>Channon</snm>
+                   <fnm>K</fnm>
+                </au>
+             </aug>
+             <insg>
+                <ins>
+                   <p>and the ART Investigator</p>
+                </ins>
+             </insg>
+             <source>Trials</source>
+             <pubdate>2006</pubdate>
+             <volume>7</volume>
+             <fpage>7</fpage>
+             <xrefbib>
+                <pubidlist>
+                   <pubid idtype="doi">10.1186/1745-6215-7-7</pubid>
+                   <pubid idtype="pmpid" link="fulltext">16573820</pubid>
+                </pubidlist>
+             </xrefbib>
+          </bibl>
+          <bibl id="B33">
+             <title>
+                <p>Effect of arterial revascularisation on survival: a systematic review of studies comparing bilateral and single internal mammary arteries</p>
+             </title>
+             <aug>
+                <au>
+                   <snm>Taggart</snm>
+                   <fnm>DP</fnm>
+                </au>
+                <au>
+                   <snm>D&#8217;Amico</snm>
+                   <fnm>R</fnm>
+                </au>
+                <au>
+                   <snm>Altman</snm>
+                   <fnm>DG</fnm>
+                </au>
+             </aug>
+             <source>Lancet</source>
+             <pubdate>2001</pubdate>
+             <volume>358</volume>
+             <fpage>870</fpage>
+             <lpage>875</lpage>
+             <xrefbib>
+                <pubidlist>
+                   <pubid idtype="doi">10.1016/S0140-6736(01)06069-X</pubid>
+                   <pubid idtype="pmpid" link="fulltext">11567701</pubid>
+                </pubidlist>
+             </xrefbib>
+          </bibl>
+       </refgrp>
+    </bm>
+ </art>

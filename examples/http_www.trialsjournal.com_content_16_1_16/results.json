@@ -1,0 +1,100 @@
+{
+  "publisher": {
+    "value": [
+      "BioMed Central Ltd"
+    ]
+  },
+  "journal": {
+    "value": [
+      "Trials"
+    ]
+  },
+  "title": {
+    "value": [
+      "The natural history of conducting and reporting clinical trials: interviews with trialists"
+    ]
+  },
+  "authors": {
+    "value": [
+      "Rebecca MD Smyth",
+      "Ann Jacoby",
+      "Douglas G Altman",
+      "Carrol Gamble",
+      "Paula R Williamson"
+    ]
+  },
+  "date": {
+    "value": [
+      "2015-01-26"
+    ]
+  },
+  "doi": {
+    "value": [
+      "10.1186/s13063-014-0536-6"
+    ]
+  },
+  "volume": {
+    "value": [
+      "16"
+    ]
+  },
+  "issue": {
+    "value": [
+      "1"
+    ]
+  },
+  "firstpage": {
+    "value": [
+      "16"
+    ]
+  },
+  "description": {
+    "value": [
+      "To investigate the nature of the research process as a whole, factors that might influence the way in which research is carried out, and how researchers ultimately report their findings."
+    ]
+  },
+  "abstract": {
+    "value": [
+      "To investigate the nature of the research process as a whole, factors that might influence the way in which research is carried out, and how researchers ultimately report their findings."
+    ]
+  },
+  "fulltext_html": {
+    "value": [
+      "http://www.trialsjournal.com/content/16/1/16"
+    ]
+  },
+  "fulltext_pdf": {
+    "value": [
+      "http://www.trialsjournal.com/content/pdf/s13063-014-0536-6.pdf"
+    ]
+  },
+  "fulltext_xml": {
+    "value": [
+      "/content/download/xml/s13063-014-0536-6.xml"
+    ]
+  },
+  "supplementary_material": {
+    "value": []
+  },
+  "figure": {
+    "value": [
+      "/content/figures/s13063-014-0536-6-1.gif"
+    ]
+  },
+  "figure_caption": {
+    "value": [
+      "Figure 1.",
+      "Trialists eligible for interview."
+    ]
+  },
+  "license": {
+    "value": [
+      "\r\n\t\t\t\tThis is an Open Access article distributed under the terms of the Creative Commons Attribution License (http://creativecommons.org/licenses/by/4.0), which permits unrestricted use, distribution, and reproduction in any medium, provided the original work is properly credited. The Creative Commons Public Domain Dedication waiver (http://creativecommons.org/publicdomain/zero/1.0/) applies to the data made available in this article, unless otherwise stated.\r\n\t\t\t"
+    ]
+  },
+  "copyright": {
+    "value": [
+      "\r\n            © 2015 Smyth et al.; licensee BioMed Central. \r\n        "
+    ]
+  }
+}

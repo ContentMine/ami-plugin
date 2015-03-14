@@ -1,4 +1,4 @@
-<argList>
+<argList name="regex">
 	<arg name="regex" 
 		brief="-r.r"
 		long="--r.regex"

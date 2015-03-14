@@ -3,6 +3,7 @@ package org.xmlcml.ami2.plugins.words;
 import org.apache.log4j.Level;
 import org.apache.log4j.Logger;
 import org.xmlcml.ami2.plugins.AbstractAMIPlugin;
+import org.xmlcml.args.DefaultArgProcessor;
 
 /** test plugin.
  * 
@@ -26,7 +27,7 @@ public class WordPlugin extends AbstractAMIPlugin {
 	}
 	
 	public static void main(String[] args) {
-		WordArgProcessor argProcessor = new WordArgProcessor(args);
+		DefaultArgProcessor argProcessor = new WordArgProcessor(args);
 		argProcessor.runAndOutput();
 	}
 

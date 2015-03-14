@@ -1,0 +1,107 @@
+{
+  "publisher": {
+    "value": [
+      "BioMed Central Ltd"
+    ]
+  },
+  "journal": {
+    "value": [
+      "Trials"
+    ]
+  },
+  "title": {
+    "value": [
+      "Evaluating the effects of increasing physical activity to optimize rehabilitation outcomes in hospitalized older adults (MOVE Trial): study protocol for a randomized controlled trial"
+    ]
+  },
+  "authors": {
+    "value": [
+      "Catherine M Said",
+      "Meg E Morris",
+      "Jennifer L McGinley",
+      "Cassandra Szoeke",
+      "Barbara Workman",
+      "Danny Liew",
+      "Keith Hill",
+      "Michael Woodward",
+      "Joanne E Wittwer",
+      "Leonid Churilov",
+      "Cameron Ventura",
+      "Julie Bernhardt"
+    ]
+  },
+  "date": {
+    "value": [
+      "2015-01-15"
+    ]
+  },
+  "doi": {
+    "value": [
+      "10.1186/s13063-014-0531-y"
+    ]
+  },
+  "volume": {
+    "value": [
+      "16"
+    ]
+  },
+  "issue": {
+    "value": [
+      "1"
+    ]
+  },
+  "firstpage": {
+    "value": [
+      "13"
+    ]
+  },
+  "description": {
+    "value": [
+      "Older adults who have received inpatient rehabilitation often have significant mobility disability at discharge. Physical activity levels in rehabilitation are also low. It is hypothesized that providing increased physical activity to older people receiving hospital-based rehabilitation will lead to better mobility outcomes at discharge."
+    ]
+  },
+  "abstract": {
+    "value": [
+      "Older adults who have received inpatient rehabilitation often have significant mobility disability at discharge. Physical activity levels in rehabilitation are also low. It is hypothesized that providing increased physical activity to older people receiving hospital-based rehabilitation will lead to better mobility outcomes at discharge."
+    ]
+  },
+  "fulltext_html": {
+    "value": [
+      "http://www.trialsjournal.com/content/16/1/13"
+    ]
+  },
+  "fulltext_pdf": {
+    "value": [
+      "http://www.trialsjournal.com/content/pdf/s13063-014-0531-y.pdf"
+    ]
+  },
+  "fulltext_xml": {
+    "value": [
+      "/content/download/xml/s13063-014-0531-y.xml"
+    ]
+  },
+  "supplementary_material": {
+    "value": []
+  },
+  "figure": {
+    "value": [
+      "/content/figures/s13063-014-0531-y-1.gif"
+    ]
+  },
+  "figure_caption": {
+    "value": [
+      "Figure 1.",
+      "Participant flow-through study."
+    ]
+  },
+  "license": {
+    "value": [
+      "\r\n\t\t\t\tThis is an Open Access article distributed under the terms of the Creative Commons Attribution License (http://creativecommons.org/licenses/by/4.0), which permits unrestricted use, distribution, and reproduction in any medium, provided the original work is properly credited. The Creative Commons Public Domain Dedication waiver (http://creativecommons.org/publicdomain/zero/1.0/) applies to the data made available in this article, unless otherwise stated.\r\n\t\t\t"
+    ]
+  },
+  "copyright": {
+    "value": [
+      "\r\n            © 2015 Said et al.; licensee BioMed Central. \r\n        "
+    ]
+  }
+}

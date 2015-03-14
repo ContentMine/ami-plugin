@@ -2,16 +2,19 @@ package org.xmlcml.ami2.plugins.words;
 
 import java.util.ArrayList;
 import java.util.List;
+import java.util.Set;
 
 import nu.xom.Attribute;
-import nu.xom.Element;
 
 import org.apache.log4j.Level;
 import org.apache.log4j.Logger;
+import org.eclipse.jetty.util.log.Log;
 import org.xmlcml.files.ResultElement;
 import org.xmlcml.files.ResultsElement;
+import org.xmlcml.files.ResultsElementList;
 
 import com.google.common.collect.HashMultiset;
+import com.google.common.collect.ImmutableSet;
 import com.google.common.collect.ImmutableSortedMultiset;
 import com.google.common.collect.Multiset;
 import com.google.common.collect.Multiset.Entry;
@@ -25,14 +28,17 @@ public class WordCollectionFactory {
 
 	private static final String COUNT2 = "count";
 	private static final String VALUE = "value";
-	private static final String COUNT = "count";
 	private static final String LENGTH = "length";
 	private static final String LENGTHS = "lengths";
-	private static final String FREQUENCIES = "frequencies";
-	private static final String FREQUENCY = "frequency";
-	private static final String WORD = "word";
+	private static final String FREQUENCIES_ATT = "frequencies";
+	private static final String FREQUENCY_ATT = "frequency";
 	private static final String PROPERTY = "property";
-	
+
+	private static final String DOCUMENT_FREQUENCY   = "documentFrequency";
+	private static final String BOOLEAN_FREQUENCIES = "booleanFrequencies";
+	private static final String TFIDF_FREQUENCY      = "tfidfFrequency";
+	private static final String TFIDF_FREQUENCIES    = "tfidfFrequencies";
+
 	private static final int DEFAULT_MIN_COUNT_IN_SET = 4;            // for set
 	private static final int DEFAULT_MIN_RAW_WORD_LENGTH = 3;
 	private static final int DEFAULT_MAX_RAW_WORD_LENGTH = 99999;
@@ -48,6 +54,9 @@ public class WordCollectionFactory {
 	private String sortControl = COUNT2;
 	private Iterable<Multiset.Entry<String>> entriesSortedByCount;
 	private Iterable<Multiset.Entry<String>> entriesSortedByValue;
+	private WordResultsElement frequenciesElement;
+	private WordResultsElement aggregatedFrequenciesElement;
+	private WordResultsElement booleanFrequenciesElement;
 
 	protected WordCollectionFactory(WordArgProcessor wordArgProcessor) {
 		this.wordArgProcessor = wordArgProcessor;
@@ -71,12 +80,12 @@ public class WordCollectionFactory {
 	}
 
 	private void createWordLengths() {
-		ResultsElement element = getWordlengthFrequency();
+		ResultsElement element = getWordlengths();
 		wordArgProcessor.addResultsElement(element);
 	}
 
 	private void createWordFrequencies() {
-		ResultsElement element = getWordFrequency();
+		ResultsElement element = getWordFrequencies();
 		wordArgProcessor.addResultsElement(element);
 	}
 
@@ -184,22 +193,26 @@ public class WordCollectionFactory {
 		return newList;
 	}
 
-	private ResultsElement getWordlengthFrequency() {
+	private WordResultsElement getWordlengths() {
 		Multiset<Integer> lengthSet = HashMultiset.create();
 		for (String word : currentWords) {
 			lengthSet.add(word.length());
 		}
-		ResultsElement lengthsElement = new ResultsElement(LENGTHS);
+		return getWordLengths(lengthSet);
+	}
+
+	private WordResultsElement getWordLengths(Multiset<Integer> lengthSet) {
+		WordResultsElement lengthsElement = new WordResultsElement(LENGTHS);
 		for (Entry<Integer> entry : lengthSet.entrySet()) {
-			ResultElement lengthElement = new ResultElement(LENGTH);
-			lengthElement.addAttribute(new Attribute(LENGTH, String.valueOf(entry.getElement().intValue())));
-			lengthElement.addAttribute(new Attribute(COUNT, ""+entry.getCount()));
+			WordResultElement lengthElement = new WordResultElement(LENGTH);
+			lengthElement.setLength(entry.getElement().intValue());
+			lengthElement.setCount(entry.getCount());
 			lengthsElement.appendChild(lengthElement);
 		}
 		return lengthsElement;
 	}
 	
-	private ResultsElement getWordFrequency() {
+	private WordResultsElement getWordFrequencies() {
 		Multiset<String> wordSet = HashMultiset.create();
 		for (String rawWord : currentWords) {
 //			rawWord = rawWord.toLowerCase(); // normalize case
@@ -210,20 +223,35 @@ public class WordCollectionFactory {
 				wordSet.add(rawWord);
 			}
 		}		
-		entriesSortedByCount = Multisets.copyHighestCountFirst(wordSet).entrySet();
-		entriesSortedByValue = ImmutableSortedMultiset.copyOf(wordSet).entrySet();
+		entriesSortedByCount = getEntriesSortedByCount(wordSet);
+		entriesSortedByValue = getEntriesSortedByValue(wordSet);
 		Iterable<Multiset.Entry<String>> sortedEntries = getSortedEntries();
-		
-		ResultsElement lengthsElement = new ResultsElement(FREQUENCIES);
+		frequenciesElement =  createFrequenciesElement(sortedEntries);
+		return frequenciesElement;
+	}
+
+	private WordResultsElement createFrequenciesElement(
+			Iterable<Multiset.Entry<String>> sortedEntries) {
+		frequenciesElement = new WordResultsElement(FREQUENCIES_ATT);
 		for (Entry<String> entry : sortedEntries) {
 			int count = +entry.getCount();
 			if (count < minCountInSet) continue;
-			ResultElement lengthElement = new ResultElement(FREQUENCY);
-			lengthElement.addAttribute(new Attribute(WORD, String.valueOf(entry.getElement())));
-			lengthElement.addAttribute(new Attribute(COUNT, String.valueOf(count)));
-			lengthsElement.appendChild(lengthElement);
+			WordResultElement frequencyElement = new WordResultElement(FREQUENCY_ATT);
+			frequencyElement.addAttribute(new Attribute(WordResultElement.WORD_ATT, String.valueOf(entry.getElement())));
+			frequencyElement.addAttribute(new Attribute(WordResultElement.COUNT_ATT, String.valueOf(count)));
+			frequenciesElement.appendChild(frequencyElement);
 		}
-		return lengthsElement;
+		return frequenciesElement;
+	}
+
+	/** convenience method (for my memory!) */
+	public static Iterable<Entry<String>> getEntriesSortedByValue(Multiset<String> wordSet) {
+		return ImmutableSortedMultiset.copyOf(wordSet).entrySet();
+	}
+
+	/** convenience method (for my memory!) */
+	public static Iterable<Multiset.Entry<String>> getEntriesSortedByCount(Multiset<String> wordSet) {
+		return Multisets.copyHighestCountFirst(wordSet).entrySet();
 	}
 
 	private Iterable<Multiset.Entry<String>> getSortedEntries() {
@@ -276,4 +304,93 @@ public class WordCollectionFactory {
 	public List<String> getCapitalized() {
 		return capitalized;
 	}
+
+	/** aggregate frequencies for each ResultsElement.
+	 * 
+	 * @param resultsElementList
+	 */
+	public void createAggregateFrequenciesElement(ResultsElementList resultsElementList) {
+		Multiset<String> aggregateSet = this.createAggregateSet(resultsElementList);
+		Iterable<Entry<String>> sortedEntries = getEntriesSortedByCount(aggregateSet);
+		this.createWordResultElementsAndAddToAggregateFrequenciesElement(sortedEntries);
+	}
+
+	private Multiset<String> createAggregateSet(ResultsElementList resultsElementList) {
+		Multiset<String> aggregateSet = HashMultiset.create();
+		for (ResultsElement resultsElement : resultsElementList) {
+			String title = resultsElement.getTitle();
+			if (!WordArgProcessor.FREQUENCIES.equals(title)) {
+				LOG.debug("Skipped non:frequencies result: "+title);
+				continue;
+			}
+			addResultsToSet(aggregateSet, resultsElement);
+		}
+		return aggregateSet;
+	}
+
+	private WordResultsElement createWordResultElementsAndAddToAggregateFrequenciesElement(Iterable<Entry<String>> sortedEntries) {
+		aggregatedFrequenciesElement = new WordResultsElement(WordArgProcessor.FREQUENCIES);
+		for (Entry<String> entry : sortedEntries) {
+			WordResultElement wordResultElement = new WordResultElement(FREQUENCY_ATT);
+			wordResultElement.setWord(entry.getElement());
+			wordResultElement.setCount(entry.getCount());
+			aggregatedFrequenciesElement.appendChild(wordResultElement);
+		}
+		return aggregatedFrequenciesElement;
+	}
+
+	private void addResultsToSet(Multiset<String> aggregateSet, ResultsElement resultsElement) {
+		for (ResultElement resultElement : resultsElement) {
+			WordResultElement wordResultElement = (WordResultElement) resultElement;
+			String word = wordResultElement.getWord();
+			Integer count = wordResultElement.getCount();
+			aggregateSet.add(word, count);
+		}
+	}
+
+	WordResultsElement createAggregatedFrequenciesElement(WordResultsElementList frequenciesElementList) {
+		Multiset<String> aggregateSet = createAggregateSet(frequenciesElementList);
+		Iterable<Entry<String>> sortedEntries = WordCollectionFactory.getEntriesSortedByCount(aggregateSet);
+		aggregatedFrequenciesElement = createWordResultElementsAndAddToAggregateFrequenciesElement(sortedEntries);
+		return aggregatedFrequenciesElement;
+	}
+
+	WordResultsElement createBooleanFrequencies(WordArgProcessor wordArgProcessor, WordResultsElementList frequenciesElementList) {
+		aggregatedFrequenciesElement = createAggregatedFrequenciesElement(frequenciesElementList);
+		booleanFrequenciesElement = new WordResultsElement(BOOLEAN_FREQUENCIES);
+		for (ResultElement termElement : aggregatedFrequenciesElement) {
+			String word = ((WordResultElement)termElement).getWord();
+			int documentCount = frequenciesElementList.getSingleCountsOfWord(word);
+			if (documentCount > 0) {
+				WordResultElement documentFrequencyElement = new WordResultElement(DOCUMENT_FREQUENCY);
+				documentFrequencyElement.setWord(word);
+				documentFrequencyElement.setCount(documentCount);
+				booleanFrequenciesElement.appendChild(documentFrequencyElement);
+			}
+		}
+		return booleanFrequenciesElement;
+	}
+	
+	/** NYI
+	 * 
+	 * @param wordArgProcessor
+	 * @param frequenciesElementList
+	 * @return
+	 */
+	WordResultsElement createTFIDFFrequencies(WordArgProcessor wordArgProcessor, WordResultsElementList frequenciesElementList) {
+//		WordResultsElement aggregatedFrequenciesElement = createAggregatedFrequenciesElement(frequenciesElementList);
+		WordResultsElement booleanFrequencyElement = new WordResultsElement(TFIDF_FREQUENCIES);
+//		for (ResultElement termElement : aggregatedFrequenciesElement) {
+//			String word = ((WordResultElement)termElement).getWord();
+//			int documentCount = frequenciesElementList.getSingleCountsOfWord(word);
+//			if (documentCount > 0) {
+//				WordResultElement documentFrequencyElement = new WordResultElement(TFIDF_FREQUENCY);
+//				documentFrequencyElement.setWord(word);
+//				documentFrequencyElement.setCount(documentCount);
+//				booleanFrequencyElement.appendChild(documentFrequencyElement);
+//			}
+//		}
+		return booleanFrequencyElement;
+	}
+	
 }

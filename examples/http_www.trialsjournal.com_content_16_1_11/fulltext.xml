@@ -1,0 +1,2456 @@
+<?xml version='1.0'?>
+<!DOCTYPE art SYSTEM 'http://www.biomedcentral.com/xml/article.dtd'>
+<art>
+    <ui>s13063-014-0525-9</ui>
+    <ji>1745-6215</ji>
+    <fm>
+       <dochead>Study protocol</dochead>
+       <bibl>
+          <title>
+             <p>Selective or stepwise removal of deep caries in deciduous molars: study protocol for a randomized controlled trial</p>
+          </title>
+          <aug>
+             <au id="A1" ca="yes">
+                <snm>Schwendicke</snm>
+                <fnm>Falk</fnm>
+                <insr iid="I1"/>
+                <email>falk.schwendicke@charite.de</email>
+             </au>
+             <au id="A2">
+                <snm>Schweigel</snm>
+                <fnm>Hardy</fnm>
+                <insr iid="I2"/>
+                <email>hschweigel@dgm-dental.com</email>
+             </au>
+             <au id="A3">
+                <snm>Petrou</snm>
+                <mnm>Agathi</mnm>
+                <fnm>Marina</fnm>
+                <insr iid="I3"/>
+                <email>mpetrou@ukaachen.de</email>
+             </au>
+             <au id="A4">
+                <snm>Santamaria</snm>
+                <fnm>Ruth</fnm>
+                <insr iid="I4"/>
+                <email>ruth.santamaria@uni-greifswald.de</email>
+             </au>
+             <au id="A5">
+                <snm>Hopfenm&#252;ller</snm>
+                <fnm>Werner</fnm>
+                <insr iid="I5"/>
+                <email>werner.hopfenmueller@charite.de</email>
+             </au>
+             <au id="A6">
+                <snm>Finke</snm>
+                <fnm>Christian</fnm>
+                <insr iid="I6"/>
+                <email>christian.finke@charite.de</email>
+             </au>
+             <au id="A7">
+                <snm>Paris</snm>
+                <fnm>Sebastian</fnm>
+                <insr iid="I1"/>
+                <email>sebastian.paris@charite.de</email>
+             </au>
+          </aug>
+          <insg>
+             <ins id="I1">
+                <p>Department of Operative and Preventive Dentistry, Charit&#233; - Universit&#228;tsmedizin, A&#223;mannshauser Str 4-6, Berlin 14197, Germany</p>
+             </ins>
+             <ins id="I2">
+                <p>DMG Dental Material Gesellschaft, Department of Clinical Research, Elbgaustr 248, Hamburg 22547, Germany</p>
+             </ins>
+             <ins id="I3">
+                <p>Department of Operative Dentistry, Periodontology and Preventive Dentistry, RWTH University of Aachen, Pauwelsstr 30, Aachen 52074, Germany</p>
+             </ins>
+             <ins id="I4">
+                <p>Department of Preventive and Paediatric Dentistry, Ernst-Moritz-Arndt University of Greifswald, Rotgerberstr 8, Greifswald 17487, Germany</p>
+             </ins>
+             <ins id="I5">
+                <p>Institute of Medical Biometrics and Clinical Epidemiology, Charit&#233; - Universit&#228;tsmedizin, Hindenburgdamm 30, Berlin 12203, Germany</p>
+             </ins>
+             <ins id="I6">
+                <p>Department of Orthodontics, Dentofacial Orthopedics and Pedodontics, Charit&#233; - Universit&#228;tsmedizin, A&#223;mannshauser Str 4-6, Berlin 14197, Germany</p>
+             </ins>
+          </insg>
+          <source>Trials</source>
+          <issn>1745-6215</issn>
+          <pubdate>2015</pubdate>
+          <volume>16</volume>
+          <issue>1</issue>
+          <fpage>11</fpage>
+          <url>http://www.trialsjournal.com/content/16/1/11</url>
+          <xrefbib>
+             <pubidlist>
+                <pubid idtype="doi">10.1186/s13063-014-0525-9</pubid>
+             </pubidlist>
+          </xrefbib>
+       </bibl>
+       <history>
+          <rec>
+             <date>
+                <day>8</day>
+                <month>9</month>
+                <year>2014</year>
+             </date>
+          </rec>
+          <acc>
+             <date>
+                <day>19</day>
+                <month>12</month>
+                <year>2014</year>
+             </date>
+          </acc>
+          <pub>
+             <date>
+                <day>6</day>
+                <month>1</month>
+                <year>2015</year>
+             </date>
+          </pub>
+       </history>
+       <cpyrt>
+          <year>2014</year>
+          <collab>Schwendicke et al.; licensee BioMed Central.</collab>
+          <note>This is an Open Access article distributed under the terms of the Creative Commons Attribution License (<url>http://creativecommons.org/licenses/by/4.0</url>), which permits unrestricted use, distribution, and reproduction in any medium, provided the original work is properly credited. The Creative Commons Public Domain Dedication waiver (<url>http://creativecommons.org/publicdomain/zero/1.0/</url>) applies to the data made available in this article, unless otherwise stated.</note>
+       </cpyrt>
+       <kwdg>
+          <kwd>Caries</kwd>
+          <kwd>Costs</kwd>
+          <kwd>Dentin</kwd>
+          <kwd>One-step excavation</kwd>
+          <kwd>Partial excavation</kwd>
+          <kwd>Two-step excavation</kwd>
+       </kwdg>
+       <abs>
+          <sec>
+             <st>
+                <p>Abstract</p>
+             </st>
+             <sec>
+                <st>
+                   <p>Background</p>
+                </st>
+                <p>For treating deep caries lesions, selective or stepwise (one- and two-step) incomplete excavation seems advantageous compared with complete caries removal. However, current evidence regarding the success, as defined by not requiring any retreatments, or survival of teeth after different excavations is insufficient for definitive recommendation, especially when treating deciduous teeth. Moreover, restoration integrity has not been comparatively analyzed longitudinally, and neither patients&#8217;, dentists&#8217; or parents&#8217; preferences nor the clinical long-term costs emanating from both initial and retreatments have been reported yet.</p>
+             </sec>
+             <sec>
+                <st>
+                   <p>Methods/Design</p>
+                </st>
+                <p>The planned study is a prospective multicenter, two-arm parallel group, randomized controlled clinical trial comparing selective and stepwise excavation in deciduous molars with deep, active caries lesions without pulpal symptoms. We will recruit 300 children aged between three and nine-years-old with a minimum of one such molar. Patients participating in another study, or those with systemic diseases, disabilities or known allergies to used materials as well patients with teeth expected to exfoliate within the next 18 months will be excluded. After inclusion, sequence generation will be performed. Initial treatment will follow dental routine. During excavation, leathery, moist and reasonably soft dentin will be left in proximity to the pulp followed by adhesive restoration of the cavity. Afterwards, patients&#8217;, dentists&#8217; and parents&#8217; subjective assessment of the treatment will be recorded using visual analogue or Likert scales. Re-examination will be performed after six months, and only then teeth will be allocated to one of the two interventions. Selectively excavated teeth will not be treated further, whilst for stepwise caries removal, a second excavation will be performed until only hard dentin remains. Clinical re-evaluations will be performed after 12, 24 and 36 months. Restorations will be reassessed using modified Ryge criteria. Objectively or subjectively required retreatments will determine success and survival. Retreatments will be evaluated both subjectively and regarding generated costs.</p>
+             </sec>
+             <sec>
+                <st>
+                   <p>Discussion</p>
+                </st>
+                <p>Based on the results of the trial, decision-making for treating deep caries lesions in deciduous molars based on multiple criteria should be feasible.</p>
+             </sec>
+             <sec>
+                <st>
+                   <p>Trial registration</p>
+                </st>
+                <p>Clinicaltrials.gov identifier: <url>NCT02232828</url> (registered on 29 November 2014).</p>
+             </sec>
+          </sec>
+       </abs>
+    </fm>
+    <bdy>
+       <sec>
+          <st>
+             <p>Background</p>
+          </st>
+          <p>The treatment of deep caries lesions is associated with significant risks for the pulp, including pulpal exposure and postoperative pulpal complications, which might eventually compromise the retention of the tooth <abbrgrp>
+                <abbr bid="B1">1</abbr>
+             </abbrgrp>. Moreover, treating deep lesions might be associated with pain and subjective burden both during and after treatment, and might generate long-term costs due to retreatments being required <abbrgrp>
+                <abbr bid="B2">2</abbr>
+             </abbrgrp>,<abbrgrp>
+                <abbr bid="B3">3</abbr>
+             </abbrgrp>.</p>
+          <p>For deciduous teeth, various treatments for deep lesions have been described: complete excavation aims at removing all infected and affected carious dentin, with the inherent risk of pulpal exposure. In contrast, stepwise (two-step) excavation leaves carious dentin after the initial excavation step, then seals residual caries under a temporary restoration, and re-enters the cavity in a second step to eventually attempt complete excavation. This approach is thought to facilitate arrest and remineralization of the lesion and to induce development of tertiary dentin, thereby reducing the risk of pulpal exposure and postoperative complications after the second excavation step <abbrgrp>
+                <abbr bid="B4">4</abbr>
+             </abbrgrp>,<abbrgrp>
+                <abbr bid="B5">5</abbr>
+             </abbrgrp>. Since several studies found sealed residual lesions to be clinically and microbiologically arrested, the need to re-enter was increasingly questioned within the last decade <abbrgrp>
+                <abbr bid="B6">6</abbr>
+             </abbrgrp>. Selective (one-step) incomplete or partial excavation seals carious dentin under a definitive restoration, omitting any re-entry <abbrgrp>
+                <abbr bid="B7">7</abbr>
+             </abbrgrp>. Sealing the lesion is thought to deprive residual bacteria from dietary carbohydrates and has been found to exert significant antibacterial effects, thus arresting the lesion <abbrgrp>
+                <abbr bid="B8">8</abbr>
+             </abbrgrp>,<abbrgrp>
+                <abbr bid="B9">9</abbr>
+             </abbrgrp>.</p>
+          <p>However, doubts remain regarding the effects of sealed carious dentin on the long-term quality of the restoration <abbrgrp>
+                <abbr bid="B10">10</abbr>
+             </abbrgrp>. Moreover, it remains unknown if patients prefer one treatment over the other, which might be especially relevant when treating children. Several studies comparing complete with selective or stepwise excavation of deciduous teeth have been published, but only one three-arm study compared selective with stepwise excavation of primary teeth (Table&#160;<tblr tid="T1">1</tblr>). In addition, none of these studies assessed patient- or dentist-centered outcomes, that is, preferences, or analyzed clinically assessed long-term costs emanating from both excavations.
+                </p>
+          
+             <table id="T1">
+                <title>
+                   <p>Table 1</p>
+                </title>
+                <caption>
+                   <p>
+                          <b>Published randomized controlled trials comparing different excavations of dentin caries in deciduous molars</b>                        
+                   </p>
+                </caption>
+                <tgroup align="left" cols="7">
+                   <colspec align="left" colname="c1" colnum="1" colwidth="*"/>
+                   <colspec align="left" colname="c2" colnum="2" colwidth="*"/>
+                   <colspec align="left" colname="c3" colnum="3" colwidth="*"/>
+                   <colspec align="left" colname="c4" colnum="4" colwidth="*"/>
+                   <colspec align="left" colname="c5" colnum="5" colwidth="*"/>
+                   <colspec align="left" colname="c6" colnum="6" colwidth="*"/>
+                   <colspec align="left" colname="c7" colnum="7" colwidth="*"/>
+                   <thead>
+                      <row valign="top">
+                         <entry colname="c1" morerows="3">
+                            <p>
+                              <b>Study</b>                            
+                            </p>
+                         </entry>
+                         <entry colname="c2" morerows="3">
+                            <p>
+                              <b>Study type; setting; country</b>                            
+                            </p>
+                         </entry>
+                         <entry colname="c3" morerows="3">
+                            <p>
+                              <b>Participants (age); teeth; lesion</b>                            
+                            </p>
+                         </entry>
+                         <entry colname="c4" morerows="3">
+                            <p>
+                              <b>Intervention (number of teeth)</b>                            
+                            </p>
+                         </entry>
+                         <entry colname="c5" morerows="3">
+                            <p>
+                              <b>Control (number of teeth)</b>                            
+                            </p>
+                         </entry>
+                         <entry colname="c6" morerows="3">
+                            <p>
+                              <b>Follow-up, drop-out</b>                            
+                            </p>
+                         </entry>
+                         <entry colname="c7">
+                            <p>
+                              <b>Pulp exposure (PE)</b>                            
+                            </p>
+                         </entry>
+                      </row>
+                      <row valign="top">
+                         <entry colname="c7">
+                            <p>
+                              <b>Pulp symptoms (PS)</b>                            
+                            </p>
+                         </entry>
+                      </row>
+                      <row valign="top">
+                         <entry colname="c7">
+                            <p>
+                              <b>Failure (F)</b>                            
+                            </p>
+                         </entry>
+                      </row>
+                      <row valign="top">
+                         <entry colname="c7">
+                            <p>
+                              <b>Caries progression (CP)</b>                            
+                            </p>
+                         </entry>
+                      </row>
+                   </thead>
+                   <tfoot>
+                      <p>BCC: black copper cement, CR: complete caries removal, EDJ: enamel-dentinal junction, GIC: glass ionomer cement, RCT: randomized controlled trial.</p>
+                   </tfoot>
+                   <tbody>
+                      <row rowsep="1" valign="top">
+                         <entry colname="c1" morerows="2">
+                            <p>Leksell <it>et al.</it> 1996 <abbrgrp>
+                                  <abbr bid="B11">11</abbr>
+                               </abbrgrp>
+                            </p>
+                         </entry>
+                         <entry colname="c2" morerows="2">
+                            <p>Multicenter parallel-group RCT; university and clinics; Sweden</p>
+                         </entry>
+                         <entry colname="c3" morerows="2">
+                            <p>116 (6-16); 134 primary molars; caries with &#8216;risk of pulp exposure&#8217;</p>
+                         </entry>
+                         <entry colname="c4" morerows="2">
+                            <p>Stepwise (64) (&#8216;remaining innermost layer of carious dentin&#8217; left); re-entry after 8-24 weeks</p>
+                         </entry>
+                         <entry colname="c5" morerows="2">
+                            <p>CR (70) (&#8216;hard&#8217;)</p>
+                         </entry>
+                         <entry colname="c6" morerows="2">
+                            <p>24 weeks, 4.3% yearly</p>
+                         </entry>
+                         <entry colname="c7">
+                            <p>PE: 18% stepwise, 40% CR</p>
+                         </entry>
+                      </row>
+                      <row rowsep="1" valign="top">
+                         <entry colname="c7">
+                            <p>PS: Non-exposed teeth remained asymptomatic</p>
+                         </entry>
+                      </row>
+                      <row rowsep="1" valign="top">
+                         <entry colname="c7">
+                            <p>F: 0% stepwise, 0% CR</p>
+                         </entry>
+                      </row>
+                      <row rowsep="1" valign="top">
+                         <entry colname="c1" morerows="2">
+                            <p>Foley <it>et al</it>. 2004 <abbrgrp>
+                                  <abbr bid="B12">12</abbr>
+                               </abbrgrp>
+                            </p>
+                         </entry>
+                         <entry colname="c2" morerows="2">
+                            <p>Split-mouth RCT; university; Scotland</p>
+                         </entry>
+                         <entry colname="c3" morerows="2">
+                            <p>44 (3-9); 120 primary molars; dentin caries</p>
+                         </entry>
+                         <entry colname="c4" morerows="2">
+                            <p>Selective (36) restored with BCC and GIC; one-step (43) restored with just GIC</p>
+                         </entry>
+                         <entry colname="c5" morerows="2">
+                            <p>CR (41)</p>
+                         </entry>
+                         <entry colname="c6" morerows="2">
+                            <p>24 months, 11% yearly</p>
+                         </entry>
+                         <entry colname="c7">
+                            <p>PS: More abscesses in BCC group</p>
+                         </entry>
+                      </row>
+                      <row rowsep="1" valign="top">
+                         <entry colname="c7">
+                            <p>F: 23% GIC, 33% BCC, 22% CR</p>
+                         </entry>
+                      </row>
+                      <row rowsep="1" valign="top">
+                         <entry colname="c7">
+                            <p>CP: Caries increase highest in CR</p>
+                         </entry>
+                      </row>
+                      <row rowsep="1" valign="top">
+                         <entry colname="c1" morerows="2">
+                            <p>Ribeiro <it>et al</it>. 1999 <abbrgrp>
+                                  <abbr bid="B13">13</abbr>
+                               </abbrgrp>
+                            </p>
+                         </entry>
+                         <entry colname="c2" morerows="2">
+                            <p>Parallel-group RCT; university; Brazil</p>
+                         </entry>
+                         <entry colname="c3" morerows="2">
+                            <p>38 (7-11); 48 primary molars; dentin caries without risk of pulp exposure</p>
+                         </entry>
+                         <entry colname="c4" morerows="2">
+                            <p>Selective (24) (&#8216;partially removed, soft and moist dentine left&#8217;)</p>
+                         </entry>
+                         <entry colname="c5" morerows="2">
+                            <p>CR (24) (dye)</p>
+                         </entry>
+                         <entry colname="c6" morerows="2">
+                            <p>12 months, 0% yearly</p>
+                         </entry>
+                         <entry colname="c7">
+                            <p>PS: 0% selective, 4% CR</p>
+                         </entry>
+                      </row>
+                      <row rowsep="1" valign="top">
+                         <entry colname="c7">
+                            <p>F: 0% selective, 4% CR</p>
+                         </entry>
+                      </row>
+                      <row rowsep="1" valign="top">
+                         <entry colname="c7">
+                            <p>CP: 25% selective</p>
+                         </entry>
+                      </row>
+                      <row rowsep="1" valign="top">
+                         <entry colname="c1" morerows="2">
+                            <p>Orhan <it>et al</it>. 2010 <abbrgrp>
+                                  <abbr bid="B14">14</abbr>
+                               </abbrgrp>
+                            </p>
+                         </entry>
+                         <entry colname="c2" morerows="2">
+                            <p>Parallel-group RCT; university; Turkey</p>
+                         </entry>
+                         <entry colname="c3" morerows="2">
+                            <p>123 (4-15); 154 (94 deciduous and 60 permanent) molars; caries &gt;3/4 dentin</p>
+                         </entry>
+                         <entry colname="c4" morerows="2">
+                            <p>Stepwise (50) (&#8216;thin layer of soft tissue left&#8217;); Stepwise (49); re-entry after 3 months</p>
+                         </entry>
+                         <entry colname="c5" morerows="2">
+                            <p>CR (55)</p>
+                         </entry>
+                         <entry colname="c6" morerows="2">
+                            <p>12 months, 0% yearly</p>
+                         </entry>
+                         <entry colname="c7">
+                            <p>PE: 6% selective, 8% stepwise, 22% CR</p>
+                         </entry>
+                      </row>
+                      <row rowsep="1" valign="top">
+                         <entry colname="c7">
+                            <p>PS: 0% selective, 2% stepwise, 5% CR</p>
+                         </entry>
+                      </row>
+                      <row rowsep="1" valign="top">
+                         <entry colname="c7">
+                            <p>F: 0% selective, 2% stepwise, 5% CR</p>
+                         </entry>
+                      </row>
+                      <row rowsep="1" valign="top">
+                         <entry colname="c1" morerows="1">
+                            <p>Magnusson and Sundell, 1977 <abbrgrp>
+                                  <abbr bid="B15">15</abbr>
+                               </abbrgrp>
+                            </p>
+                         </entry>
+                         <entry colname="c2" morerows="1">
+                            <p>Parallel-group quasi-RCT; university; Sweden</p>
+                         </entry>
+                         <entry colname="c3" morerows="1">
+                            <p>62 (5-10); 110 primary molars; caries &#8216;considered for stepwise excavation&#8217;</p>
+                         </entry>
+                         <entry colname="c4" morerows="1">
+                            <p>Stepwise (55) (&#8216;soft layer of dentin over the pulp&#8217;); re-entry after 4-6 weeks</p>
+                         </entry>
+                         <entry colname="c5" morerows="1">
+                            <p>CR (55) (&#8216;until hard&#8217;)</p>
+                         </entry>
+                         <entry colname="c6" morerows="1">
+                            <p>No follow-up</p>
+                         </entry>
+                         <entry colname="c7">
+                            <p>PE: 11% stepwise, 53% CR</p>
+                         </entry>
+                      </row>
+                      <row rowsep="1" valign="top">
+                         <entry colname="c7">
+                            <p>PS: 5% stepwise, CR not followed-up</p>
+                         </entry>
+                      </row>
+                      <row rowsep="1" valign="top">
+                         <entry colname="c1" morerows="2">
+                            <p>Heinrich <it>et al</it>. 1991 <abbrgrp>
+                                  <abbr bid="B16">16</abbr>
+                               </abbrgrp>
+                            </p>
+                         </entry>
+                         <entry colname="c2" morerows="2">
+                            <p>Parallel-group RCT; university; Germany</p>
+                         </entry>
+                         <entry colname="c3" morerows="2">
+                            <p>125 (6-7); 125 primary molars; deep caries</p>
+                         </entry>
+                         <entry colname="c4" morerows="2">
+                            <p>Stepwise (52) (&#8216;slightly soft&#8217;); re-entry after 6-8 weeks</p>
+                         </entry>
+                         <entry colname="c5" morerows="2">
+                            <p>CR (52) (&#8216;hard with explorer&#8217;)</p>
+                         </entry>
+                         <entry colname="c6" morerows="2">
+                            <p>16 months, 12% yearly</p>
+                         </entry>
+                         <entry colname="c7">
+                            <p>PE: 15% stepwise, 31% CR</p>
+                         </entry>
+                      </row>
+                      <row rowsep="1" valign="top">
+                         <entry colname="c7">
+                            <p>PS: 6% stepwise, 13% CR</p>
+                         </entry>
+                      </row>
+                      <row rowsep="1" valign="top">
+                         <entry colname="c7">
+                            <p>F: 6% stepwise, 13% CR</p>
+                         </entry>
+                      </row>
+                      <row rowsep="1" valign="top">
+                         <entry colname="c1" morerows="2">
+                            <p>Lula <it>et al</it>. 2009 <abbrgrp>
+                                  <abbr bid="B17">17</abbr>
+                               </abbrgrp>
+                            </p>
+                         </entry>
+                         <entry colname="c2" morerows="2">
+                            <p>Parallel-group RCT; university; Brazil</p>
+                         </entry>
+                         <entry colname="c3" morerows="2">
+                            <p>30 (5-8); 36 primary molars; caries &gt;1/2 dentin</p>
+                         </entry>
+                         <entry colname="c4" morerows="2">
+                            <p>Selective (18) (&#8216;only superficial necrotic dentin removed from the pulpal and axial walls&#8217;)</p>
+                         </entry>
+                         <entry colname="c5" morerows="2">
+                            <p>CR (18) (dye)</p>
+                         </entry>
+                         <entry colname="c6" morerows="2">
+                            <p>6 months, 5.7% yearly</p>
+                         </entry>
+                         <entry colname="c7">
+                            <p>PE: 0% selective, 22% CR</p>
+                         </entry>
+                      </row>
+                      <row rowsep="1" valign="top">
+                         <entry colname="c7">
+                            <p>PS: 0% selective, 7% CR</p>
+                         </entry>
+                      </row>
+                      <row rowsep="1" valign="top">
+                         <entry colname="c7">
+                            <p>F: 0% selective, 14% CR</p>
+                         </entry>
+                      </row>
+                      <row rowsep="1" valign="top">
+                         <entry colname="c1" morerows="3">
+                            <p>Phonghanyudh <it>et al</it>. 2012 <abbrgrp>
+                                  <abbr bid="B18">18</abbr>
+                               </abbrgrp>
+                            </p>
+                         </entry>
+                         <entry colname="c2" morerows="3">
+                            <p>Bi-centered parallel-group RCT; dental hospitals; Thailand</p>
+                         </entry>
+                         <entry colname="c3" morerows="3">
+                            <p>276 (6-11); 276 primary molars; caries &#8805;1/3</p>
+                         </entry>
+                         <entry colname="c4" morerows="3">
+                            <p>Selective (92) (&#8216;soft carious tissues at EDJ completely removed, without further removal of carious dentin&#8217;)</p>
+                         </entry>
+                         <entry colname="c5" morerows="3">
+                            <p>CR (92)</p>
+                         </entry>
+                         <entry colname="c6" morerows="3">
+                            <p>12 months, 2.5% yearly</p>
+                         </entry>
+                         <entry colname="c7">
+                            <p>PE: 0% selective, 2% CR</p>
+                         </entry>
+                      </row>
+                      <row rowsep="1" valign="top">
+                         <entry colname="c7">
+                            <p>PS: 1% selective, 2% CR</p>
+                         </entry>
+                      </row>
+                      <row rowsep="1" valign="top">
+                         <entry colname="c7">
+                            <p>F: 18% selective, 14% CR restoration failure</p>
+                         </entry>
+                      </row>
+                      <row rowsep="1" valign="top">
+                         <entry colname="c7">
+                            <p>CP: No caries progression in any group</p>
+                         </entry>
+                      </row>
+                      <row rowsep="1" valign="top">
+                         <entry colname="c1" morerows="1">
+                            <p>Franzon <it>et al</it>. 2014 <abbrgrp>
+                                  <abbr bid="B19">19</abbr>
+                               </abbrgrp>
+                            </p>
+                         </entry>
+                         <entry colname="c2" morerows="1">
+                            <p>Split-mouth RCT; university; Brazil</p>
+                         </entry>
+                         <entry colname="c3" morerows="1">
+                            <p>51 (3-8); 124 primary molars; Caries in &#8216;inner quarter of dentin&#8217;</p>
+                         </entry>
+                         <entry colname="c4" morerows="1">
+                            <p>Selective (61) (&#8216;leathery&#8217;)</p>
+                         </entry>
+                         <entry colname="c5" morerows="1">
+                            <p>CR (67)</p>
+                         </entry>
+                         <entry colname="c6" morerows="1">
+                            <p>24 months, 2.0% yearly</p>
+                         </entry>
+                         <entry colname="c7">
+                            <p>PE: 2% selective, 28% CR</p>
+                         </entry>
+                      </row>
+                      <row valign="top">
+                         <entry colname="c7">
+                            <p>PS: 10% selective, 0% CR</p>
+                         </entry>
+                      </row>
+                   </tbody>
+                </tgroup>
+             </table>
+          
+          <sec>
+             <st>
+                <p>Objectives and hypotheses</p>
+             </st>
+             <p>The study aims at comparing the success (the probability of not requiring any re-interventions) and the survival (the probability of not requiring tooth removal) of selectively excavated versus stepwise excavated vital, non-symptomatic deciduous molars with deep lesions. In addition, we assess the restoration integrity of selectively excavated versus stepwise excavated deciduous molars, evaluate the preference of patients, parents and dentists for one of both strategies, and comparatively assess the costs associated with each strategy.</p>
+             <p>Our primary hypothesis is that success rates differ significantly between selectively excavated and stepwise excavated teeth. Secondary hypotheses are that restoration integrity is assumed to significantly differ between selectively excavated and stepwise excavated teeth. Moreover, we hypothesize that patients&#8217;, parents&#8217; and dentists&#8217; preference is significantly different for selectively excavated versus stepwise excavated teeth. Eventually, both initial and long-term costs of excavation methods are supposed to significantly differ.</p>
+          </sec>
+       </sec>
+       <sec>
+          <st>
+             <p>Methods/Design</p>
+          </st>
+          <sec>
+             <st>
+                <p>Overview</p>
+             </st>
+             <p>The planned study is a secondary care-based prospective, multicenter, two-arm parallel-group, randomized controlled trial at three pediatric university dental clinics in Germany: the Charit&#233; - Universit&#228;tsmedizin Berlin, the Ernst-Moritz-Arndt University Greifswald and the RWTH University of Aachen. We plan to enroll 300 patients with one or more deeply carious, sensitive and non-symptomatic deciduous molar. One molar per patient will be randomly allocated to receive one of two treatments (selective or stepwise excavation). The total follow-up time will be three years after completion of the initial treatment. Success, survival and restoration integrity will be assessed after one, two and three years. Patients&#8217;, parents&#8217; and dentists&#8217; preference will be assessed after each treatment using visual analogue or Likert rating scales. Costs will be assessed for the initial and follow-up treatments and will be based on a micro-costing approach. The study has been approved by the ethics committee of the Charit&#233; - Universit&#228;tsmedizin Berlin (approval number: EA4/057/14), the Ernst-Moritz-Arndt University Greifswald (approval number: BB 112/14) and the RWTH University of Aachen (approval number: EK 283/14). The study is registered at Clinicaltrials.gov (identifier: NCT02232828).</p>
+          </sec>
+          <sec>
+             <st>
+                <p>Setting and participants</p>
+             </st>
+             <p>The study will take place in three dental university clinics in Eastern, Northern and Western Germany. All are publically funded teaching hospitals. We will include children aged between three and nine-years-old with a minimum of one sensitive, clinically and radiographically non-symptomatic, retainable, deeply carious deciduous molar with a caries lesion involving either only the occlusal or the occlusal and exactly one proximal (mesial or distal) surface. The lesion will be required to radiographically extend into the inner third of the dentin (D3) and show signs of activity, such as plaque retention, papillary bleeding and/or softness of the surface <abbrgrp>
+                   <abbr bid="B20">20</abbr>
+                </abbrgrp>. Patients will require parental consent for participation. In addition, patients&#8217; cooperation for treatment under no or only local anesthesia will be expected.</p>
+             <p>Patients participating in another study, patients with parents planning to move away within the next three years, patients who are not residents of the federal states of Berlin, Brandenburg, Mecklenburg-Vorpommern and Nordrhein-Westfalen, as well as patients with systemic diseases or disabilities will not be included. Patients with known allergies to dental materials used within the study as well as those with teeth expected to exfoliate within the next 18 months will also not be included.</p>
+          </sec>
+          <sec>
+             <st>
+                <p>Sample size</p>
+             </st>
+             <p>The required sample size was calculated based on the primary outcome parameter, success (see below). We anticipate a hazard ratio of 1.3 <abbrgrp>
+                   <abbr bid="B21">21</abbr>
+                </abbrgrp> of stepwise excavated compared with selectively excavated teeth. If &#945;&#8201;=&#8201;0.05 and 1-&#946;&#8201;=&#8201;0.9, a sample size of n&#8201;=&#8201;66 per group is required. Assuming an annual drop-out rate of 20%, 114 patients per group will be required. The total required sample size would thus be n&#8201;=&#8201;228. To allow possible subgroup analyses, a total of 300 patients will be recruited (n&#8201;=&#8201;100 per center).</p>
+          </sec>
+          <sec>
+             <st>
+                <p>Recruitment</p>
+             </st>
+             <p>Recruitment will be performed within the pediatric clinics of the participating centers. Both referred and in-house patients will be approached after routine examination was performed. Eligible patients and their parents will receive the study information and consent forms. Written consent will be given by the parents of the children. There will be a minimum time period of 48 hours between receipt of study information and consent.</p>
+          </sec>
+          <sec>
+             <st>
+                <p>Allocation and blinding</p>
+             </st>
+             <p>If more than one primary molar is eligible, the decision as to which tooth will be included into the study will be performed using random number tables (WH) before treatment is commenced. Sequence generation will be performed after inclusion via random number tables (WH). Allocation will be performed via sealed opaque envelopes after the six-monthly recall examination (six months after selective excavation) by the treating dentists. Thus, both the first excavation step and the first re-examination will be performed blinded as to whether further excavation will be performed or not. Clinical follow-up examinations will also be performed blinded to treatment group allocation. Blinding during the second excavation step and blinding of patients as to which treatment was performed will not be possible, but patients will be informed not to reveal treatment allocation to the examiner during follow-up examinations.</p>
+          </sec>
+          <sec>
+             <st>
+                <p>Outcomes</p>
+             </st>
+             <p>Outcomes will be assessed by the treating dentists or study nurses. The primary outcome of the study will be success (not requiring any re-intervention). Secondary outcomes will include survival (not requiring extraction), restoration integrity, assessed via modified USPHS-criteria <abbrgrp>
+                   <abbr bid="B13">13</abbr>
+                </abbrgrp>, patients&#8217; subjective assessment of the treatment using a visual analogue scale (for stepwise excavation, assessments will be performed twice and mean visual analogue scale results will be calculated), dentists&#8217; and parents&#8217; subjective assessment of the treatment using grades 1 (very good) to 6 (very bad) and initial and follow-up treatment costs (calculated by combining costs for staff, as assessed by time required for the procedures and the number of personnel involved, and costs for transportation of patients or materials).</p>
+          </sec>
+          <sec>
+             <st>
+                <p>Intervention and data collection</p>
+             </st>
+             <p>In the first visit, a full assessment and intraoral examination will be performed. For patients who are possibly eligible, caries risk will be estimated <abbrgrp>
+                   <abbr bid="B22">22</abbr>
+                </abbrgrp> and dental anxiety assessed <abbrgrp>
+                   <abbr bid="B23">23</abbr>
+                </abbrgrp>. If informed consent is given, treatment will be provided in the second visit, with local anesthetics being applied according to individual needs. Removal of enamel and cavity preparation will be performed using water-cooled diamond instruments. Caries removal in the periphery including the enamel-dentinal junction will be performed using rose head burs and/or an excavator until hard, dry dentin remains. Pulpo-proximal caries will be removed until leathery, slightly moist and reasonably soft dentin remains. Operating dentists will be calibrated prior to study commencement regarding these criteria using extracted teeth. Moisture control will be performed using cotton rolls and continuous aspiration. Restoration will be performed adhesively with the use of a self-etching one-bottle adhesive (G-aenial bond, GC, Bad Homburg, Germany) and a compomer material (Dyract, Dentsply Detray, Konstanz, Germany).</p>
+             <p>After six months, a follow-up examination will be performed. After the examination, allocation will be revealed. If allocated to stepwise excavation, the second excavation will be performed as described until only hard, dry dentin remains. Restoration will again be provided adhesively as described. All treatment steps will be documented photographically if possible (Figure&#160;<figr fid="F1">1</figr>).
+                  </p>
+             
+                <fig id="F1">
+                   <title>
+                      <p>Figure 1</p>
+                   </title>
+                   <caption>
+                      <p>Flowchart of the study. </p>
+                   </caption>
+                   <text>
+                      <p>
+                            <b>Flowchart of the study.</b>                          
+                      </p>
+                   </text>
+                   <graphic file="s13063-014-0525-9-1"/>
+                </fig>
+             
+             <p>If pulpal exposure occurs during excavation, a pulpotomy will be attempted. This will be provided according to dental routine, using ferric-sulfate for hemostasis and a calcium hydroxide dressing. Teeth with amputated pulps will be restored via stainless steel crowns if necessary. If no amputation is possible, teeth will be extracted. All retained teeth will be followed up on regardless of the treatment arm.</p>
+             <p>Data collection will be performed via case reports forms. The following data will be collected after the initial or second-step treatment:</p><p>1. Anesthetic and restorative material used,</p>
+                <p>2. Patients&#8217; cooperation (1 to 4) <abbrgrp>
+                      <abbr bid="B24">24</abbr>
+                   </abbrgrp>,</p>
+                <p>3. Subjective assessment of patient (visual analogue scale),</p>
+                <p>4. Subjective assessment of parent (grade 1 to 6),</p>
+                <p>5. Subjective assessment of dentist (grade 1 to 6),</p>
+                <p>6. Transportation time and costs, and</p>
+                <p>7. Time, staff and material required for treatment.</p>
+             <p>During follow-up examinations, the following parameters will be assessed:</p><p>1. Tooth retreated at another clinic (yes or no),</p>
+                <p>2. Tooth exfoliated (yes or no),</p>
+                <p>3. Sensitivity and symptoms, and</p>
+                <p>4. Restoration integrity <abbrgrp>
+                      <abbr bid="B22">22</abbr>
+                   </abbrgrp>.</p>
+             <p>If retreatments are required, the cost of these will be assessed as well. Retained, retreated teeth will be followed up on to assess the survival of these teeth regardless of retreatment. A summary of performed procedures and recorded data can be found in Table&#160;<tblr tid="T2">2</tblr>.
+                  </p>
+             
+                <table id="T2">
+                   <title>
+                      <p>Table 2</p>
+                   </title>
+                   <caption>
+                      <p>
+                            <b>Timing of measurements</b>                          
+                      </p>
+                   </caption>
+                   <tgroup align="left" cols="6">
+                      <colspec align="left" colname="c1" colnum="1" colwidth="*"/>
+                      <colspec align="left" colname="c2" colnum="2" colwidth="*"/>
+                      <colspec align="left" colname="c3" colnum="3" colwidth="*"/>
+                      <colspec align="left" colname="c4" colnum="4" colwidth="*"/>
+                      <colspec align="left" colname="c5" colnum="5" colwidth="*"/>
+                      <colspec align="left" colname="c6" colnum="6" colwidth="*"/>
+                      <thead>
+                         <row valign="top">
+                            <entry colname="c1">
+                               <p>
+                                  <b>Measures</b>                              
+                               </p>
+                            </entry>
+                            <entry colname="c2">
+                               <p>
+                                  <b>Preoperative</b>                              
+                               </p>
+                            </entry>
+                            <entry colname="c3">
+                               <p>
+                                  <b>First step</b>                              
+                               </p>
+                            </entry>
+                            <entry colname="c4">
+                               <p>
+                                  <b>After six month/second step</b>                              
+                               </p>
+                            </entry>
+                            <entry colname="c5">
+                               <p>
+                                  <b>Follow-up</b>                              
+                               </p>
+                            </entry>
+                            <entry colname="c6">
+                               <p>
+                                  <b>Retreatment</b>                              
+                               </p>
+                            </entry>
+                         </row>
+                      </thead>
+                      <tbody>
+                         <row rowsep="1" valign="top">
+                            <entry colname="c1">
+                               <p>Demographics</p>
+                            </entry>
+                            <entry colname="c2">
+                               <p>x</p>
+                            </entry>
+                            <entry colname="c3"/>
+                            <entry colname="c4"/>
+                            <entry colname="c5"/>
+                            <entry colname="c6"/>
+                         </row>
+                         <row rowsep="1" valign="top">
+                            <entry colname="c1">
+                               <p>Dental history</p>
+                            </entry>
+                            <entry colname="c2">
+                               <p>x</p>
+                            </entry>
+                            <entry colname="c3"/>
+                            <entry colname="c4"/>
+                            <entry colname="c5"/>
+                            <entry colname="c6"/>
+                         </row>
+                         <row rowsep="1" valign="top">
+                            <entry colname="c1">
+                               <p>Caries risk</p>
+                            </entry>
+                            <entry colname="c2">
+                               <p>x</p>
+                            </entry>
+                            <entry colname="c3"/>
+                            <entry colname="c4"/>
+                            <entry colname="c5"/>
+                            <entry colname="c6"/>
+                         </row>
+                         <row rowsep="1" valign="top">
+                            <entry colname="c1">
+                               <p>ICDAS score</p>
+                            </entry>
+                            <entry colname="c2">
+                               <p>x</p>
+                            </entry>
+                            <entry colname="c3"/>
+                            <entry colname="c4"/>
+                            <entry colname="c5"/>
+                            <entry colname="c6"/>
+                         </row>
+                         <row rowsep="1" valign="top">
+                            <entry colname="c1">
+                               <p>Sensitivity testing</p>
+                            </entry>
+                            <entry colname="c2">
+                               <p>x</p>
+                            </entry>
+                            <entry colname="c3">
+                               <p>x</p>
+                            </entry>
+                            <entry colname="c4">
+                               <p>x</p>
+                            </entry>
+                            <entry colname="c5">
+                               <p>x</p>
+                            </entry>
+                            <entry colname="c6"/>
+                         </row>
+                         <row rowsep="1" valign="top">
+                            <entry colname="c1">
+                               <p>Radiographic depth</p>
+                            </entry>
+                            <entry colname="c2">
+                               <p>x</p>
+                            </entry>
+                            <entry colname="c3"/>
+                            <entry colname="c4"/>
+                            <entry colname="c5"/>
+                            <entry colname="c6"/>
+                         </row>
+                         <row rowsep="1" valign="top">
+                            <entry colname="c1">
+                               <p>Radiographic endodontic status</p>
+                            </entry>
+                            <entry colname="c2"/>
+                            <entry colname="c3">
+                               <p>(x)</p>
+                            </entry>
+                            <entry colname="c4">
+                               <p>(x)</p>
+                            </entry>
+                            <entry colname="c5">
+                               <p>(x)</p>
+                            </entry>
+                            <entry colname="c6">
+                               <p>(x)</p>
+                            </entry>
+                         </row>
+                         <row rowsep="1" valign="top">
+                            <entry colname="c1">
+                               <p>Dental anxiety</p>
+                            </entry>
+                            <entry colname="c2">
+                               <p>x</p>
+                            </entry>
+                            <entry colname="c3"/>
+                            <entry colname="c4"/>
+                            <entry colname="c5"/>
+                            <entry colname="c6"/>
+                         </row>
+                         <row rowsep="1" valign="top">
+                            <entry colname="c1">
+                               <p>Cooperation</p>
+                            </entry>
+                            <entry colname="c2"/>
+                            <entry colname="c3">
+                               <p>x</p>
+                            </entry>
+                            <entry colname="c4">
+                               <p>x</p>
+                            </entry>
+                            <entry colname="c5"/>
+                            <entry colname="c6">
+                               <p>x</p>
+                            </entry>
+                         </row>
+                         <row rowsep="1" valign="top">
+                            <entry colname="c1">
+                               <p>Subjective assessments</p>
+                            </entry>
+                            <entry colname="c2"/>
+                            <entry colname="c3">
+                               <p>x</p>
+                            </entry>
+                            <entry colname="c4">
+                               <p>x</p>
+                            </entry>
+                            <entry colname="c5"/>
+                            <entry colname="c6">
+                               <p>x</p>
+                            </entry>
+                         </row>
+                         <row rowsep="1" valign="top">
+                            <entry colname="c1">
+                               <p>Costs (time, staff and material)</p>
+                            </entry>
+                            <entry colname="c2"/>
+                            <entry colname="c3">
+                               <p>x</p>
+                            </entry>
+                            <entry colname="c4">
+                               <p>x</p>
+                            </entry>
+                            <entry colname="c5"/>
+                            <entry colname="c6">
+                               <p>x</p>
+                            </entry>
+                         </row>
+                         <row valign="top">
+                            <entry colname="c1">
+                               <p>Clinical outcomes</p>
+                            </entry>
+                            <entry colname="c2"/>
+                            <entry colname="c3"/>
+                            <entry colname="c4">
+                               <p>x</p>
+                            </entry>
+                            <entry colname="c5">
+                               <p>x</p>
+                            </entry>
+                            <entry colname="c6">
+                               <p>x</p>
+                            </entry>
+                         </row>
+                      </tbody>
+                   </tgroup>
+                </table>
+             
+          </sec>
+          <sec>
+             <st>
+                <p>Data analysis and statistical evaluation</p>
+             </st>
+             <p>The statistical evaluation will be performed using SPSS 20.0. Descriptive statistics will be calculated according to distribution of data. Log rank tests will be used to compare success and survival between groups, with effects of possible confounders (age, gender, dental anxiety, cooperation, use of local anesthetics, caries risk, dental arch, first or second molar, surfaces and center) being assessed. Moreover, we will use two-sided independent t tests or Mann-Whitney U test (to compare visual analogue scale results and costs) as well as chi-square tests (to compare restorative integrity and subjective grading of treatments).</p>
+          </sec>
+          <sec>
+             <st>
+                <p>Missing data</p>
+             </st>
+             <p>We anticipate various reasons for missing data (Table&#160;<tblr tid="T3">3</tblr>). Sample size calculation was performed accounting for possible loss to follow-up, that is, data missing at random. To prevent data missing not at random, case report forms have been designed in a way that enables and enforces complete reporting. Moreover, regular data control procedures will be performed for the early detection of missing data. Moreover, we will account for data not missing at random due to imbalanced loss to follow-up by handling drop-outs as non-success or non-survival using the intention-to-treat principle.
+                  </p>
+             
+                <table id="T3">
+                   <title>
+                      <p>Table 3</p>
+                   </title>
+                   <caption>
+                      <p>
+                            <b>Handling of loss to follow-up</b>                          
+                      </p>
+                   </caption>
+                   <tgroup align="left" cols="3">
+                      <colspec align="left" colname="c1" colnum="1" colwidth="*"/>
+                      <colspec align="left" colname="c2" colnum="2" colwidth="*"/>
+                      <colspec align="left" colname="c3" colnum="3" colwidth="*"/>
+                      <thead>
+                         <row valign="top">
+                            <entry colname="c1">
+                               <p>
+                                  <b>Level</b>                              
+                               </p>
+                            </entry>
+                            <entry colname="c2">
+                               <p>
+                                  <b>Reason</b>                              
+                               </p>
+                            </entry>
+                            <entry colname="c3">
+                               <p>
+                                  <b>Consequence</b>                              
+                               </p>
+                            </entry>
+                         </row>
+                      </thead>
+                      <tbody>
+                         <row rowsep="1" valign="top">
+                            <entry colname="c1" morerows="2">
+                               <p>Tooth</p>
+                            </entry>
+                            <entry colname="c2">
+                               <p>Complication</p>
+                            </entry>
+                            <entry colname="c3">
+                               <p>Complications leading to tooth loss will be counted as non-survival. Teeth with complications which allow the retention of the tooth will be count as non-success. Required follow-up treatments will be recorded and survived teeth will be followed up on.</p>
+                            </entry>
+                         </row>
+                         <row rowsep="1" valign="top">
+                            <entry colname="c2">
+                               <p>Lesion treated by other dentist</p>
+                            </entry>
+                            <entry colname="c3">
+                               <p>Tooth will be counted as non-success or non-survival.</p>
+                            </entry>
+                         </row>
+                         <row rowsep="1" valign="top">
+                            <entry colname="c2">
+                               <p>Tooth exfoliation</p>
+                            </entry>
+                            <entry colname="c3">
+                               <p>The last observation will be carried forward.</p>
+                            </entry>
+                         </row>
+                         <row rowsep="1" valign="top">
+                            <entry colname="c1" morerows="3">
+                               <p>Patient</p>
+                            </entry>
+                            <entry colname="c2" morerows="1">
+                               <p>Adverse or serious adverse events related to treatment or material</p>
+                            </entry>
+                            <entry colname="c3">
+                               <p>Counteractive measures will be taken and events documented.</p>
+                            </entry>
+                         </row>
+                         <row rowsep="1" valign="top">
+                            <entry colname="c3">
+                               <p>Patient and tooth will be censored and the last observation carried forward.</p>
+                            </entry>
+                         </row>
+                         <row rowsep="1" valign="top">
+                            <entry colname="c2">
+                               <p>The patient cannot be examined (lost to follow-up)</p>
+                            </entry>
+                            <entry colname="c3">
+                               <p>Patient and survived tooth or teeth will be censored and the last observation carried forward.</p>
+                            </entry>
+                         </row>
+                         <row rowsep="1" valign="top">
+                            <entry colname="c2">
+                               <p>The patient decides to withdraw from the study.</p>
+                            </entry>
+                            <entry colname="c3">
+                               <p>Patient and tooth will be censored and the last observation carried forward.</p>
+                            </entry>
+                         </row>
+                         <row rowsep="1" valign="top">
+                            <entry colname="c1" morerows="3">
+                               <p>Study</p>
+                            </entry>
+                            <entry colname="c2" morerows="1">
+                               <p>One to four patient(s) show adverse events related to treatment or material</p>
+                            </entry>
+                            <entry colname="c3">
+                               <p>Counteractive measures will be taken and events documented.</p>
+                            </entry>
+                         </row>
+                         <row rowsep="1" valign="top">
+                            <entry colname="c3">
+                               <p>Patient and tooth will be censored and the last observation carried forward. The study will be interrupted.</p>
+                            </entry>
+                         </row>
+                         <row rowsep="1" valign="top">
+                            <entry colname="c2" morerows="1">
+                               <p>More than four patients show adverse events or one patient shows a severe adverse event related to treatment or material</p>
+                            </entry>
+                            <entry colname="c3">
+                               <p>Counteractive measures will be taken and events documented.</p>
+                            </entry>
+                         </row>
+                         <row valign="top">
+                            <entry colname="c3">
+                               <p>The study will be terminated. All patients and available teeth will be marked as censored and the last observation carried forward.</p>
+                            </entry>
+                         </row>
+                      </tbody>
+                   </tgroup>
+                </table>
+             
+          </sec>
+          <sec>
+             <st>
+                <p>Ethical considerations</p>
+             </st>
+             <sec>
+                <st>
+                   <p>Ethical approval</p>
+                </st>
+                <p>The protocol was approved by the ethical committee of the Charit&#233; - Universit&#228;tsmedizin Berlin, Germany, the Ernst-Moritz-Arndt University Greifswald (approval number: BB 112/14) and the RWTH University of Aachen (approval number: EK 283/14). In case of adverse and/or severe adverse events, the review board will be informed as outlined below. Similarly, the board will be contacted to approve significant protocol amendments. Both parents and patients will receive detailed verbal and written explanations regarding the study and the procedures therein involved. Informed written consent of the parents is required and should be given not earlier than 48 hours after study information.</p>
+             </sec>
+             <sec>
+                <st>
+                   <p>Protocol amendments</p>
+                </st>
+                <p>All amendments to the protocol shall be agreed to by the principal clinical investigator and be recorded with a justification for the amendments. Amendments will be reviewed to determine the need for ethically reapproving the amended protocol. All deviations will be similarly reviewed. Changes and amendments will be recorded, including a detailed change history, and will eventually be reported.</p>
+             </sec>
+             <sec>
+                <st>
+                   <p>Consent and assent</p>
+                </st>
+                <p>Patients and their parents will be informed about the study and will be requested to sign the informed consent forms not earlier than 48 hours after being provided with study information. Assent to participate will be documented in the case report forms.</p>
+             </sec>
+             <sec>
+                <st>
+                   <p>Withdrawal</p>
+                </st>
+                <p>Patients and their parents will be informed that patients have the right to withdraw from the study at any time without giving reasons. Regardless of withdrawal, patients will be provided with any treatment in their best interest. Withdrawal will be documented and consent will be sought from participants to retain data collected up to the point of withdrawal.</p>
+             </sec>
+          </sec>
+          <sec>
+             <st>
+                <p>Dissemination of results</p>
+             </st>
+             <p>The results of this study will be published in international peer-reviewed journals. A summary of study results will also be saved at Clinicaltrials.gov to allow general access to obtained findings.</p>
+          </sec>
+          <sec>
+             <st>
+                <p>Trial management</p>
+             </st>
+             <sec>
+                <st>
+                   <p>Oversight</p>
+                </st>
+                <p>Study initiation, implementation, evaluation and monitoring are supported by the Department of Operative and Preventive Dentistry, Charit&#233; - Universit&#228;tsmedizin, Berlin, Germany. Each participating center (Charit&#233; - Universit&#228;tsmedizin Berlin, RWTH Aachen and Ernst-Moritz-Arndt University Greifswald) will recruit and treat patients and document both treatments and follow-up assessments as outlined. For each center, local oversight by local investigators will be implemented.</p>
+             </sec>
+             <sec>
+                <st>
+                   <p>Responsibilities</p>
+                </st>
+                <p>The principal investigator (FS) will oversee this study; act as main contact for all study communication and monitor trial procedures including documentation. Deviations from the protocol will be reported to him, who will be responsible for analyzing and approving or declining deviations. The local investigators of the two other centers (MP and RS) will be responsible for center-specific issues regarding the trial and constantly supervise the data collection, reporting and all active clinicians. We plan four trial group meetings: initiation and calibration, 12- and 24-monthly re-evaluations, 36-monthly/final evaluation.</p>
+             </sec>
+             <sec>
+                <st>
+                   <p>Adverse events and code-breaking</p>
+                </st>
+                <p>The performed procedures, despite not being used by all dentists worldwide, can be regarded as clinical routine, especially for treating children <abbrgrp>
+                      <abbr bid="B25">25</abbr>
+                   </abbrgrp>,<abbrgrp>
+                      <abbr bid="B26">26</abbr>
+                   </abbrgrp>. We therefore expect adverse or severe advents to be similar to those associated with routine treatment. Specific study-related adverse or severe events will be allergy or severe reaction to a study material used (local anesthetics, bonding and/or compomer) or rare, uncommon reactions (unexpected bleeding, unexpected severe pain and/or uncontrollable anxiety) to or during the performed interventions. Any adverse event to treatments provided within the study will be investigated and reported to the ethics committee. In case of serious adverse events requiring un-blinding, code-breaking is possible. If the investigation is terminated prematurely or suspended, the principal clinical investigator (FS) will promptly inform the clinical investigators of all centers. Additionally, the ethics committee will also be informed immediately.</p>
+             </sec>
+          </sec>
+       </sec>
+       <sec>
+          <st>
+             <p>Discussion</p>
+          </st>
+          <p>The treatment of deep caries lesions bears significant risks for the pulp of the tooth, including pulpal exposure, especially in deciduous teeth <abbrgrp>
+                <abbr bid="B1">1</abbr>
+             </abbrgrp>,<abbrgrp>
+                <abbr bid="B10">10</abbr>
+             </abbrgrp>. For the latter, two opposite strategies for treating deep caries are currently available. On the one hand, more conservative options aim at retaining pulpal integrity and health. On the other hand, more invasive strategies anticipate an eventual loss of pulpal vitality and perform pulpotomy instead. Whilst the latter treatment may be highly successful, requiring few re-interventions and often retaining primary teeth until their exfoliation <abbrgrp>
+                <abbr bid="B27">27</abbr>
+             </abbrgrp>, it might be both more burdensome for children and more costly compared with less invasive strategies. Moreover, it might not be feasible in many circumstances, requiring local or even general anesthetics and further, advanced restorations using, for example, preformed crowns. Given the polarized distribution of deep lesions both between and within countries <abbrgrp>
+                <abbr bid="B28">28</abbr>
+             </abbrgrp>, incomplete caries removal followed by direct restoration might be an option, which is applicable especially for conditions which, or patients who, do not allow for other options.</p>
+          <p>In the planned study, our main outcome variable will be success, followed by survival. Admittedly, both have to be seen as having limited precision and reliability: Since we omit regular radiographic evaluations and rely solely on clinically determined need to retreat, we might miss &#8216;failures&#8217; and thereby systematically bias our results. However, our approach is both clinically relevant and ethically sound; in a clinical setting, regular radiographic re-examination is unlikely due to concerns of radiation. Moreover, the need for re-intervention would be determined subjectively too, especially when treating children, since only few dental practitioners would aim at endodontically treating asymptomatic teeth based only on a negative &#8216;vitality testing&#8217; result <abbrgrp>
+                <abbr bid="B26">26</abbr>
+             </abbrgrp>,<abbrgrp>
+                <abbr bid="B29">29</abbr>
+             </abbrgrp>,<abbrgrp>
+                <abbr bid="B30">30</abbr>
+             </abbrgrp>.</p>
+          <p>In the planned study, retreated teeth will not be excluded from further analyses, but followed. Thus, we will be able to not only determine the initial efficacy of both treatments, but measure their long-term effects. These long-term effects have been found to determine both the retention time of the tooth and the total generated costs <abbrgrp>
+                <abbr bid="B2">2</abbr>
+             </abbrgrp>. Moreover, they are additionally burdening children, and might have further effects regarding their attitudes toward the dentist.</p>
+          <p>In general, patients&#8217; assessment of different therapies is relevant especially when treating children, since personal experiences or preferences shape both long-term attitudes and short-term compliance. The opinion of providers (dentists) might be relevant to implement less invasive caries treatments in general practice; only having the evidence (knowledge) is often insufficient for translating change into a primary care setting. Here, personal experience and attitudes are of high importance for the acceptance of a treatment <abbrgrp>
+                <abbr bid="B31">31</abbr>
+             </abbrgrp>-<abbrgrp>
+                <abbr bid="B34">34</abbr>
+             </abbrgrp>. Dentists&#8217; attitudes regarding selective excavation have been additionally shaped by fear of restorative failure, especially if legal regulations such as guarantee times are in place <abbrgrp>
+                <abbr bid="B25">25</abbr>
+             </abbrgrp>. We therefore aim at focusing not only on pulpal failures, but will also assess restoration integrity.</p>
+          <p>The mentioned regulative framework is put in place by political decision-makers. The latter are, again, only limitedly influenced by evidence and driven by several indirect factors like political reward, feasibility or justifiability of change <abbrgrp>
+                <abbr bid="B35">35</abbr>
+             </abbrgrp>,<abbrgrp>
+                <abbr bid="B36">36</abbr>
+             </abbrgrp>. Justifiability might be given if a new treatment option is more cost-effective than the established standard especially in a cost-driven environment with low overall priority like dental treatment <abbrgrp>
+                <abbr bid="B36">36</abbr>
+             </abbrgrp>. Comparing the cost-effectiveness of selective versus stepwise excavation might further assist the implementation and clinical decision-making regarding treatment of deep caries lesions in deciduous molars.</p>
+       </sec>
+       <sec>
+          <st>
+             <p>Trial status</p>
+          </st>
+          <p>The trial was registered at Clinicaltrials.gov and the study is open for recruitment.</p>
+       </sec>
+       <sec>
+          <st>
+             <p>Competing interests</p>
+          </st>
+          <p>The authors declare that they have no competing interests.</p>
+       </sec>
+       <sec>
+          <st>
+             <p>Authors&#8217; contributions</p>
+          </st>
+          <p>FS, SP and CF conceived the study and its design and participated in its coordination. FS and HS drafted the protocol in accordance with international standards for clinical trials <abbrgrp>
+                <abbr bid="B37">37</abbr>
+             </abbrgrp>,<abbrgrp>
+                <abbr bid="B38">38</abbr>
+             </abbrgrp>. MP, RS and WH participated in the design of the study and read and approved the final protocol. All authors read and approved the final manuscript.</p>
+       </sec>
+    </bdy>
+    <bm>
+       <ack>
+          <sec>
+             <st>
+                <p>Acknowledgements</p>
+             </st>
+             <p>No funding for this study has been secured so far. The study has been funded so far by the authors and their institutions.</p>
+          </sec>
+       </ack>
+       <refgrp>
+          
+          <bibl id="B1">
+             <title>
+                <p>Operative caries management in adults and children</p>
+             </title>
+             <aug>
+                <au>
+                   <snm>Ricketts</snm>
+                   <fnm>D</fnm>
+                </au>
+                <au>
+                   <snm>Lamont</snm>
+                   <fnm>T</fnm>
+                </au>
+                <au>
+                   <snm>Innes</snm>
+                   <fnm>NP</fnm>
+                </au>
+                <au>
+                   <snm>Kidd</snm>
+                   <fnm>E</fnm>
+                </au>
+                <au>
+                   <snm>Clarkson</snm>
+                   <fnm>JE</fnm>
+                </au>
+             </aug>
+             <source>Cochrane Database Syst Rev</source>
+             <pubdate>2013</pubdate>
+             <volume>3</volume>
+             <fpage>CD003808</fpage>
+             <xrefbib>
+                <pubidlist>
+                   <pubid idtype="pmpid" link="fulltext">23543523</pubid>
+                </pubidlist>
+             </xrefbib>
+          </bibl>
+          <bibl id="B2">
+             <title>
+                <p>Cost-effectiveness of One- and Two-step incomplete and complete excavations</p>
+             </title>
+             <aug>
+                <au>
+                   <snm>Schwendicke</snm>
+                   <fnm>F</fnm>
+                </au>
+                <au>
+                   <snm>Stolpe</snm>
+                   <fnm>M</fnm>
+                </au>
+                <au>
+                   <snm>Meyer-Lueckel</snm>
+                   <fnm>H</fnm>
+                </au>
+                <au>
+                   <snm>Paris</snm>
+                   <fnm>S</fnm>
+                </au>
+                <au>
+                   <snm>D&#246;rfer</snm>
+                   <fnm>CE</fnm>
+                </au>
+             </aug>
+             <source>J Dent Res</source>
+             <pubdate>2013</pubdate>
+             <volume>90</volume>
+             <fpage>880</fpage>
+             <lpage>887</lpage>
+             <xrefbib>
+                <pubidlist>
+                   <pubid idtype="doi">10.1177/0022034513500792</pubid>
+                </pubidlist>
+             </xrefbib>
+          </bibl>
+          <bibl id="B3">
+             <title>
+                <p>The Hall Technique; a randomized controlled clinical trial of a novel method of managing carious primary molars in general dental practice: acceptability of the technique and outcomes at 23 months</p>
+             </title>
+             <aug>
+                <au>
+                   <snm>Innes</snm>
+                   <fnm>N</fnm>
+                </au>
+                <au>
+                   <snm>Evans</snm>
+                   <fnm>D</fnm>
+                </au>
+                <au>
+                   <snm>Stirrups</snm>
+                   <fnm>D</fnm>
+                </au>
+             </aug>
+             <source>BMC Oral Health</source>
+             <pubdate>2007</pubdate>
+             <volume>7</volume>
+             <fpage>18</fpage>
+             <xrefbib>
+                <pubidlist>
+                   <pubid idtype="doi">10.1186/1472-6831-7-18</pubid>
+                   <pubid idtype="pmpid" link="fulltext">18096042</pubid>
+                </pubidlist>
+             </xrefbib>
+          </bibl>
+          <bibl id="B4">
+             <title>
+                <p>The treatment of deep dentine caries lesions</p>
+             </title>
+             <aug>
+                <au>
+                   <snm>Bj&#248;rndal</snm>
+                   <fnm>L</fnm>
+                </au>
+                <au>
+                   <snm>Kidd</snm>
+                   <fnm>E</fnm>
+                </au>
+             </aug>
+             <source>Dental Update</source>
+             <pubdate>2005</pubdate>
+             <volume>32</volume>
+             <fpage>402</fpage>
+             <lpage>404</lpage>
+             <note>407&#8211;410, 413</note>
+             <xrefbib>
+                <pubidlist>
+                   <pubid idtype="pmpid" link="fulltext">16178284</pubid>
+                </pubidlist>
+             </xrefbib>
+          </bibl>
+          <bibl id="B5">
+             <title>
+                <p>A clinical and microbiological study of deep carious lesions during stepwise excavation using long treatment intervals</p>
+             </title>
+             <aug>
+                <au>
+                   <snm>Bj&#248;rndal</snm>
+                   <fnm>L</fnm>
+                </au>
+                <au>
+                   <snm>Larsen</snm>
+                   <fnm>T</fnm>
+                </au>
+                <au>
+                   <snm>Thylstrup</snm>
+                   <fnm>A</fnm>
+                </au>
+             </aug>
+             <source>Caries Res</source>
+             <pubdate>1997</pubdate>
+             <volume>31</volume>
+             <fpage>411</fpage>
+             <lpage>417</lpage>
+             <xrefbib>
+                <pubidlist>
+                   <pubid idtype="doi">10.1159/000262431</pubid>
+                   <pubid idtype="pmpid" link="fulltext">9353579</pubid>
+                </pubidlist>
+             </xrefbib>
+          </bibl>
+          <bibl id="B6">
+             <title>
+                <p>How 'clean' must a cavity be before restoration?</p>
+             </title>
+             <aug>
+                <au>
+                   <snm>Kidd</snm>
+                   <fnm>EA</fnm>
+                </au>
+             </aug>
+             <source>Caries Res</source>
+             <pubdate>2004</pubdate>
+             <volume>38</volume>
+             <fpage>305</fpage>
+             <lpage>313</lpage>
+             <xrefbib>
+                <pubidlist>
+                   <pubid idtype="doi">10.1159/000077770</pubid>
+                   <pubid idtype="pmpid" link="fulltext">15153704</pubid>
+                </pubidlist>
+             </xrefbib>
+          </bibl>
+          <bibl id="B7">
+             <title>
+                <p>Incomplete caries removal in deep lesions: a 10-year prospective study</p>
+             </title>
+             <aug>
+                <au>
+                   <snm>Maltz</snm>
+                   <fnm>M</fnm>
+                </au>
+                <au>
+                   <snm>Alves</snm>
+                   <fnm>L</fnm>
+                </au>
+                <au>
+                   <snm>Jardim</snm>
+                   <fnm>J</fnm>
+                </au>
+                <au>
+                   <snm>Moura Mdos</snm>
+                   <fnm>S</fnm>
+                </au>
+                <au>
+                   <snm>de Oliveira</snm>
+                   <fnm>E</fnm>
+                </au>
+             </aug>
+             <source>Am J Dent</source>
+             <pubdate>2011</pubdate>
+             <volume>24</volume>
+             <fpage>211</fpage>
+             <lpage>214</lpage>
+             <xrefbib>
+                <pubidlist>
+                   <pubid idtype="pmpid" link="fulltext">22016914</pubid>
+                </pubidlist>
+             </xrefbib>
+          </bibl>
+          <bibl id="B8">
+             <title>
+                <p>The effectiveness of sealants in managing caries lesions</p>
+             </title>
+             <aug>
+                <au>
+                   <snm>Griffin</snm>
+                   <fnm>SO</fnm>
+                </au>
+                <au>
+                   <snm>Oong</snm>
+                   <fnm>E</fnm>
+                </au>
+                <au>
+                   <snm>Kohn</snm>
+                   <fnm>W</fnm>
+                </au>
+                <au>
+                   <snm>Vidakovic</snm>
+                   <fnm>B</fnm>
+                </au>
+                <au>
+                   <snm>Gooch</snm>
+                   <fnm>BF</fnm>
+                </au>
+                <au>
+                   <snm>Bader</snm>
+                   <fnm>J</fnm>
+                </au>
+                <au>
+                   <snm>Clarkson</snm>
+                   <fnm>J</fnm>
+                </au>
+                <au>
+                   <snm>Fontana</snm>
+                   <fnm>MR</fnm>
+                </au>
+                <au>
+                   <snm>Meyer</snm>
+                   <fnm>DM</fnm>
+                </au>
+                <au>
+                   <snm>Rozier</snm>
+                   <fnm>RG</fnm>
+                </au>
+                <au>
+                   <snm>Weintraub</snm>
+                   <fnm>JA</fnm>
+                </au>
+                <au>
+                   <snm>Zero</snm>
+                   <fnm>DT</fnm>
+                </au>
+             </aug>
+             <source>J Dent Res</source>
+             <pubdate>2008</pubdate>
+             <volume>87</volume>
+             <fpage>169</fpage>
+             <lpage>174</lpage>
+             <xrefbib>
+                <pubidlist>
+                   <pubid idtype="doi">10.1177/154405910808700211</pubid>
+                   <pubid idtype="pmpid" link="fulltext">18218845</pubid>
+                </pubidlist>
+             </xrefbib>
+          </bibl>
+          <bibl id="B9">
+             <title>
+                <p>The effect of dental sealants on bacteria levels in caries lesions</p>
+             </title>
+             <aug>
+                <au>
+                   <snm>Oong</snm>
+                   <fnm>EM</fnm>
+                </au>
+                <au>
+                   <snm>Griffin</snm>
+                   <fnm>SO</fnm>
+                </au>
+                <au>
+                   <snm>Kohn</snm>
+                   <fnm>WG</fnm>
+                </au>
+                <au>
+                   <snm>Gooch</snm>
+                   <fnm>BF</fnm>
+                </au>
+                <au>
+                   <snm>Caufield</snm>
+                   <fnm>PW</fnm>
+                </au>
+             </aug>
+             <source>J Am Dent Assoc</source>
+             <pubdate>2008</pubdate>
+             <volume>139</volume>
+             <fpage>271</fpage>
+             <lpage>278</lpage>
+             <xrefbib>
+                <pubidlist>
+                   <pubid idtype="doi">10.14219/jada.archive.2008.0156</pubid>
+                   <pubid idtype="pmpid" link="fulltext">18310731</pubid>
+                </pubidlist>
+             </xrefbib>
+          </bibl>
+          <bibl id="B10">
+             <title>
+                <p>Failure of incompletely excavated teeth - a systematic review</p>
+             </title>
+             <aug>
+                <au>
+                   <snm>Schwendicke</snm>
+                   <fnm>F</fnm>
+                </au>
+                <au>
+                   <snm>Meyer-L&#252;ckel</snm>
+                   <fnm>H</fnm>
+                </au>
+                <au>
+                   <snm>Dorfer</snm>
+                   <fnm>C</fnm>
+                </au>
+                <au>
+                   <snm>Paris</snm>
+                   <fnm>S</fnm>
+                </au>
+             </aug>
+             <source>J Dent</source>
+             <pubdate>2013</pubdate>
+             <volume>41</volume>
+             <fpage>569</fpage>
+             <lpage>580</lpage>
+             <xrefbib>
+                <pubidlist>
+                   <pubid idtype="doi">10.1016/j.jdent.2013.05.004</pubid>
+                   <pubid idtype="pmpid" link="fulltext">23685036</pubid>
+                </pubidlist>
+             </xrefbib>
+          </bibl>
+          <bibl id="B11">
+             <title>
+                <p>Pulp exposure after stepwise versus direct complete excavation of deep carious lesions in young posterior permanent teeth</p>
+             </title>
+             <aug>
+                <au>
+                   <snm>Leksell</snm>
+                   <fnm>E</fnm>
+                </au>
+                <au>
+                   <snm>Ridell</snm>
+                   <fnm>K</fnm>
+                </au>
+                <au>
+                   <snm>Cvek</snm>
+                   <fnm>M</fnm>
+                </au>
+                <au>
+                   <snm>Mej&#224;re</snm>
+                   <fnm>I</fnm>
+                </au>
+             </aug>
+             <source>Endodontol Dental Traumatol</source>
+             <pubdate>1996</pubdate>
+             <volume>12</volume>
+             <fpage>192</fpage>
+             <lpage>196</lpage>
+             <xrefbib>
+                <pubidlist>
+                   <pubid idtype="doi">10.1111/j.1600-9657.1996.tb00513.x</pubid>
+                </pubidlist>
+             </xrefbib>
+          </bibl>
+          <bibl id="B12">
+             <title>
+                <p>Partial caries removal and cariostatic materials in carious primary molar teeth: a randomised controlled clinical trial</p>
+             </title>
+             <aug>
+                <au>
+                   <snm>Foley</snm>
+                   <fnm>J</fnm>
+                </au>
+                <au>
+                   <snm>Evans</snm>
+                   <fnm>D</fnm>
+                </au>
+                <au>
+                   <snm>Blackwell</snm>
+                   <fnm>A</fnm>
+                </au>
+             </aug>
+             <source>Br Dent J</source>
+             <pubdate>2004</pubdate>
+             <volume>197</volume>
+             <fpage>697</fpage>
+             <lpage>701</lpage>
+             <xrefbib>
+                <pubidlist>
+                   <pubid idtype="doi">10.1038/sj.bdj.4811865</pubid>
+                   <pubid idtype="pmpid" link="fulltext">15592552</pubid>
+                </pubidlist>
+             </xrefbib>
+          </bibl>
+          <bibl id="B13">
+             <title>
+                <p>A clinical, radiographic, and scanning electron microscopic evaluation of adhesive restorations on carious dentin in primary teeth</p>
+             </title>
+             <aug>
+                <au>
+                   <snm>Ribeiro</snm>
+                   <fnm>CC</fnm>
+                </au>
+                <au>
+                   <snm>Baratieri</snm>
+                   <fnm>LN</fnm>
+                </au>
+                <au>
+                   <snm>Perdig&#227;o</snm>
+                   <fnm>J</fnm>
+                </au>
+                <au>
+                   <snm>Baratieri</snm>
+                   <fnm>NM</fnm>
+                </au>
+                <au>
+                   <snm>Ritter</snm>
+                   <fnm>AV</fnm>
+                </au>
+             </aug>
+             <source>Quintessence Int</source>
+             <pubdate>1999</pubdate>
+             <volume>30</volume>
+             <fpage>591</fpage>
+             <lpage>599</lpage>
+             <xrefbib>
+                <pubidlist>
+                   <pubid idtype="pmpid" link="fulltext">10765864</pubid>
+                </pubidlist>
+             </xrefbib>
+          </bibl>
+          <bibl id="B14">
+             <title>
+                <p>Pulp exposure occurrence and outcomes after 1- or 2-visit indirect pulp therapy vs complete caries removal in primary and permanent molars</p>
+             </title>
+             <aug>
+                <au>
+                   <snm>Orhan</snm>
+                   <fnm>AI</fnm>
+                </au>
+                <au>
+                   <snm>Oz</snm>
+                   <fnm>FT</fnm>
+                </au>
+                <au>
+                   <snm>Orhan</snm>
+                   <fnm>K</fnm>
+                </au>
+             </aug>
+             <source>Pediatr Dent</source>
+             <pubdate>2010</pubdate>
+             <volume>32</volume>
+             <fpage>347</fpage>
+             <lpage>355</lpage>
+             <xrefbib>
+                <pubidlist>
+                   <pubid idtype="pmpid" link="fulltext">20836956</pubid>
+                </pubidlist>
+             </xrefbib>
+          </bibl>
+          <bibl id="B15">
+             <title>
+                <p>Stepwise excavation of deep carious lesions in primary molars</p>
+             </title>
+             <aug>
+                <au>
+                   <snm>Magnusson</snm>
+                   <fnm>BO</fnm>
+                </au>
+                <au>
+                   <snm>Sundell</snm>
+                   <fnm>SO</fnm>
+                </au>
+             </aug>
+             <source>J Int Assoc Dent Child</source>
+             <pubdate>1977</pubdate>
+             <volume>8</volume>
+             <fpage>36</fpage>
+             <lpage>40</lpage>
+             <xrefbib>
+                <pubidlist>
+                   <pubid idtype="pmpid" link="fulltext">282351</pubid>
+                </pubidlist>
+             </xrefbib>
+          </bibl>
+          <bibl id="B16">
+             <title>
+                <p>Klinisch kontrollierte Untersuchung zur Caries-profunda-Therapie am Milchmolaren</p>
+             </title>
+             <aug>
+                <au>
+                   <snm>Heinrich</snm>
+                   <fnm>R</fnm>
+                </au>
+                <au>
+                   <snm>Kneist</snm>
+                   <fnm>S</fnm>
+                </au>
+                <au>
+                   <snm>K&#252;nzel</snm>
+                   <fnm>W</fnm>
+                </au>
+             </aug>
+             <source>Deutsche Zahnaerztliche Zeitung</source>
+             <pubdate>1991</pubdate>
+             <volume>46</volume>
+             <fpage>581</fpage>
+             <lpage>584</lpage>
+          </bibl>
+          <bibl id="B17">
+             <title>
+                <p>Partial caries removal in primary teeth: association of clinical parameters with microbiological status</p>
+             </title>
+             <aug>
+                <au>
+                   <snm>Lula</snm>
+                   <fnm>EC</fnm>
+                </au>
+                <au>
+                   <snm>Almeida</snm>
+                   <fnm>LJ</fnm>
+                   <suf>Jr</suf>
+                </au>
+                <au>
+                   <snm>Alves</snm>
+                   <fnm>CM</fnm>
+                </au>
+                <au>
+                   <snm>Monteiro-Neto</snm>
+                   <fnm>V</fnm>
+                </au>
+                <au>
+                   <snm>Ribeiro</snm>
+                   <fnm>CC</fnm>
+                </au>
+             </aug>
+             <source>Caries Res</source>
+             <pubdate>2011</pubdate>
+             <volume>45</volume>
+             <fpage>275</fpage>
+             <lpage>280</lpage>
+             <xrefbib>
+                <pubidlist>
+                   <pubid idtype="doi">10.1159/000325854</pubid>
+                   <pubid idtype="pmpid" link="fulltext">21576960</pubid>
+                </pubidlist>
+             </xrefbib>
+          </bibl>
+          <bibl id="B18">
+             <title>
+                <p>Clinical evaluation of three caries removal approaches in primary teeth: a randomised controlled trial</p>
+             </title>
+             <aug>
+                <au>
+                   <snm>Phonghanyudh</snm>
+                   <fnm>A</fnm>
+                </au>
+                <au>
+                   <snm>Phantumvanit</snm>
+                   <fnm>P</fnm>
+                </au>
+                <au>
+                   <snm>Songpaisan</snm>
+                   <fnm>Y</fnm>
+                </au>
+                <au>
+                   <snm>Petersen</snm>
+                   <fnm>PE</fnm>
+                </au>
+             </aug>
+             <source>Community Dent Health</source>
+             <pubdate>2012</pubdate>
+             <volume>29</volume>
+             <fpage>173</fpage>
+             <lpage>178</lpage>
+             <xrefbib>
+                <pubidlist>
+                   <pubid idtype="pmpid" link="fulltext">22779380</pubid>
+                </pubidlist>
+             </xrefbib>
+          </bibl>
+          <bibl id="B19">
+             <title>
+                <p>Outcomes of one-step incomplete and complete excavation in primary teeth: a 24-month randomized controlled trial</p>
+             </title>
+             <aug>
+                <au>
+                   <snm>Franzon</snm>
+                   <fnm>R</fnm>
+                </au>
+                <au>
+                   <snm>Guimar&#227;es</snm>
+                   <fnm>LF</fnm>
+                </au>
+                <au>
+                   <snm>Magalh&#227;es</snm>
+                   <fnm>CE</fnm>
+                </au>
+                <au>
+                   <snm>Haas</snm>
+                   <fnm>AN</fnm>
+                </au>
+                <au>
+                   <snm>Araujo</snm>
+                   <fnm>FB</fnm>
+                </au>
+             </aug>
+             <source>Caries Res</source>
+             <pubdate>2014</pubdate>
+             <volume>48</volume>
+             <fpage>376</fpage>
+             <lpage>383</lpage>
+             <xrefbib>
+                <pubidlist>
+                   <pubid idtype="doi">10.1159/000357628</pubid>
+                   <pubid idtype="pmpid" link="fulltext">24732081</pubid>
+                </pubidlist>
+             </xrefbib>
+          </bibl>
+          <bibl id="B20">
+             <title>
+                <p>Assessing the stage of caries lesion activity on the basis of clinical and microbiological examination</p>
+             </title>
+             <aug>
+                <au>
+                   <snm>Nyvad</snm>
+                   <fnm>B</fnm>
+                </au>
+                <au>
+                   <snm>Fejerskov</snm>
+                   <fnm>O</fnm>
+                </au>
+             </aug>
+             <source>Community Dent Oral Epidemiol</source>
+             <pubdate>1997</pubdate>
+             <volume>25</volume>
+             <fpage>69</fpage>
+             <lpage>75</lpage>
+             <xrefbib>
+                <pubidlist>
+                   <pubid idtype="doi">10.1111/j.1600-0528.1997.tb00901.x</pubid>
+                   <pubid idtype="pmpid" link="fulltext">9088694</pubid>
+                </pubidlist>
+             </xrefbib>
+          </bibl>
+          <bibl id="B21">
+             <title>
+                <p>Randomized trial of partial vs. stepwise caries removal</p>
+             </title>
+             <aug>
+                <au>
+                   <snm>Maltz</snm>
+                   <fnm>M</fnm>
+                </au>
+                <au>
+                   <snm>Garcia</snm>
+                   <fnm>R</fnm>
+                </au>
+                <au>
+                   <snm>Jardim</snm>
+                   <fnm>JJ</fnm>
+                </au>
+                <au>
+                   <snm>de Paula</snm>
+                   <fnm>LM</fnm>
+                </au>
+                <au>
+                   <snm>Yamaguti</snm>
+                   <fnm>PM</fnm>
+                </au>
+                <au>
+                   <snm>Moura</snm>
+                   <fnm>MS</fnm>
+                </au>
+                <au>
+                   <snm>Garcia</snm>
+                   <fnm>F</fnm>
+                </au>
+                <au>
+                   <snm>Nascimento</snm>
+                   <fnm>C</fnm>
+                </au>
+                <au>
+                   <snm>Oliveira</snm>
+                   <fnm>A</fnm>
+                </au>
+                <au>
+                   <snm>Mestrinho</snm>
+                   <fnm>HD</fnm>
+                </au>
+             </aug>
+             <source>J Dent Res</source>
+             <pubdate>2012</pubdate>
+             <volume>91</volume>
+             <fpage>1026</fpage>
+             <lpage>1031</lpage>
+             <xrefbib>
+                <pubidlist>
+                   <pubid idtype="doi">10.1177/0022034512460403</pubid>
+                   <pubid idtype="pmpid" link="fulltext">22983407</pubid>
+                </pubidlist>
+             </xrefbib>
+          </bibl>
+          <bibl id="B22">
+             <title>
+                <p>Reprint of criteria for the clinical evaluation of dental restorative materials. 1971</p>
+             </title>
+             <aug>
+                <au>
+                   <snm>Cvar</snm>
+                   <fnm>JF</fnm>
+                </au>
+                <au>
+                   <snm>Ryge</snm>
+                   <fnm>G</fnm>
+                </au>
+             </aug>
+             <source>Clin Oral Investig</source>
+             <pubdate>2005</pubdate>
+             <volume>9</volume>
+             <fpage>215</fpage>
+             <lpage>232</lpage>
+             <xrefbib>
+                <pubidlist>
+                   <pubid idtype="doi">10.1007/s00784-005-0018-z</pubid>
+                   <pubid idtype="pmpid" link="fulltext">16315023</pubid>
+                </pubidlist>
+             </xrefbib>
+          </bibl>
+          <bibl id="B23">
+             <title>
+                <p>Cariogram&#8211;a multifactorial risk assessment model for a multifactorial disease</p>
+             </title>
+             <aug>
+                <au>
+                   <snm>Bratthall</snm>
+                   <fnm>D</fnm>
+                </au>
+                <au>
+                   <snm>Hansel Petersson</snm>
+                   <fnm>G</fnm>
+                </au>
+             </aug>
+             <source>Community Dent Oral Epidemiol</source>
+             <pubdate>2005</pubdate>
+             <volume>33</volume>
+             <fpage>256</fpage>
+             <lpage>264</lpage>
+             <xrefbib>
+                <pubidlist>
+                   <pubid idtype="doi">10.1111/j.1600-0528.2005.00233.x</pubid>
+                   <pubid idtype="pmpid" link="fulltext">16008632</pubid>
+                </pubidlist>
+             </xrefbib>
+          </bibl>
+          <bibl id="B24">
+             <title>
+                <p>The influence of mental development on children's acceptance of dental treatment</p>
+             </title>
+             <aug>
+                <au>
+                   <snm>Rud</snm>
+                   <fnm>B</fnm>
+                </au>
+                <au>
+                   <snm>Kisling</snm>
+                   <fnm>E</fnm>
+                </au>
+             </aug>
+             <source>Scand J Dent Res</source>
+             <pubdate>1973</pubdate>
+             <volume>81</volume>
+             <fpage>343</fpage>
+             <lpage>352</lpage>
+             <xrefbib>
+                <pubidlist>
+                   <pubid idtype="pmpid" link="fulltext">4519551</pubid>
+                </pubidlist>
+             </xrefbib>
+          </bibl>
+          <bibl id="B25">
+             <title>
+                <p>Attitudes and behaviour regarding deep dentin caries removal &#8211; a survey among German dentists</p>
+             </title>
+             <aug>
+                <au>
+                   <snm>Schwendicke</snm>
+                   <fnm>F</fnm>
+                </au>
+                <au>
+                   <snm>Meyer-Lueckel</snm>
+                   <fnm>H</fnm>
+                </au>
+                <au>
+                   <snm>D&#246;rfer</snm>
+                   <fnm>CE</fnm>
+                </au>
+                <au>
+                   <snm>Paris</snm>
+                   <fnm>S</fnm>
+                </au>
+             </aug>
+             <source>Caries Res</source>
+             <pubdate>2013</pubdate>
+             <volume>47</volume>
+             <fpage>566</fpage>
+             <lpage>573</lpage>
+             <xrefbib>
+                <pubidlist>
+                   <pubid idtype="doi">10.1159/000351662</pubid>
+                   <pubid idtype="pmpid" link="fulltext">23899958</pubid>
+                </pubidlist>
+             </xrefbib>
+          </bibl>
+          <bibl id="B26">
+             <title>
+                <p>A survey of primary tooth pulp therapy as taught in US dental schools and practiced by diplomates of the American Board of Pediatric Dentistry</p>
+             </title>
+             <aug>
+                <au>
+                   <snm>Dunston</snm>
+                   <fnm>B</fnm>
+                </au>
+                <au>
+                   <snm>Coll</snm>
+                   <fnm>JA</fnm>
+                </au>
+             </aug>
+             <source>Pediatr Dent</source>
+             <pubdate>2008</pubdate>
+             <volume>30</volume>
+             <fpage>42</fpage>
+             <lpage>48</lpage>
+             <xrefbib>
+                <pubidlist>
+                   <pubid idtype="pmpid" link="fulltext">18402098</pubid>
+                </pubidlist>
+             </xrefbib>
+          </bibl>
+          <bibl id="B27">
+             <title>
+                <p>Vital pulp therapy in vital permanent teeth with cariously exposed pulp: a systematic review</p>
+             </title>
+             <aug>
+                <au>
+                   <snm>Aguilar</snm>
+                   <fnm>P</fnm>
+                </au>
+                <au>
+                   <snm>Linsuwanont</snm>
+                   <fnm>P</fnm>
+                </au>
+             </aug>
+             <source>J Endod</source>
+             <pubdate>2011</pubdate>
+             <volume>37</volume>
+             <fpage>581</fpage>
+             <lpage>587</lpage>
+             <xrefbib>
+                <pubidlist>
+                   <pubid idtype="doi">10.1016/j.joen.2010.12.004</pubid>
+                   <pubid idtype="pmpid" link="fulltext">21496652</pubid>
+                </pubidlist>
+             </xrefbib>
+          </bibl>
+          <bibl id="B28">
+             <title>
+                <p>Global oral health inequalities: dental caries task group&#8212;research agenda</p>
+             </title>
+             <aug>
+                <au>
+                   <snm>Pitts</snm>
+                   <fnm>N</fnm>
+                </au>
+                <au>
+                   <snm>Amaechi</snm>
+                   <fnm>B</fnm>
+                </au>
+                <au>
+                   <snm>Niederman</snm>
+                   <fnm>R</fnm>
+                </au>
+                <au>
+                   <snm>Acevedo</snm>
+                   <fnm>AM</fnm>
+                </au>
+                <au>
+                   <snm>Vianna</snm>
+                   <fnm>R</fnm>
+                </au>
+                <au>
+                   <snm>Ganss</snm>
+                   <fnm>C</fnm>
+                </au>
+                <au>
+                   <snm>Ismail</snm>
+                   <fnm>A</fnm>
+                </au>
+                <au>
+                   <snm>Honkala</snm>
+                   <fnm>E</fnm>
+                </au>
+             </aug>
+             <source>Adv Dent Res</source>
+             <pubdate>2011</pubdate>
+             <volume>23</volume>
+             <fpage>211</fpage>
+             <lpage>220</lpage>
+             <xrefbib>
+                <pubidlist>
+                   <pubid idtype="doi">10.1177/0022034511402016</pubid>
+                   <pubid idtype="pmpid" link="fulltext">21490233</pubid>
+                </pubidlist>
+             </xrefbib>
+          </bibl>
+          <bibl id="B29">
+             <title>
+                <p>Pediatric and general dentists' attitudes toward pulp therapy for primary teeth</p>
+             </title>
+             <aug>
+                <au>
+                   <snm>Bowen</snm>
+                   <fnm>JL</fnm>
+                </au>
+                <au>
+                   <snm>Mathu-Muju</snm>
+                   <fnm>KR</fnm>
+                </au>
+                <au>
+                   <snm>Nash</snm>
+                   <fnm>DA</fnm>
+                </au>
+                <au>
+                   <snm>Chance</snm>
+                   <fnm>KB</fnm>
+                </au>
+                <au>
+                   <snm>Bush</snm>
+                   <fnm>HM</fnm>
+                </au>
+                <au>
+                   <snm>Li</snm>
+                   <fnm>HF</fnm>
+                </au>
+             </aug>
+             <source>Pediatr Dent</source>
+             <pubdate>2012</pubdate>
+             <volume>34</volume>
+             <fpage>210</fpage>
+             <lpage>215</lpage>
+             <xrefbib>
+                <pubidlist>
+                   <pubid idtype="pmpid" link="fulltext">22795153</pubid>
+                </pubidlist>
+             </xrefbib>
+          </bibl>
+          <bibl id="B30">
+             <title>
+                <p>Primary tooth pulp therapy as taught in predoctoral pediatric dental programs in the United States</p>
+             </title>
+             <aug>
+                <au>
+                   <snm>Primosch</snm>
+                   <fnm>RE</fnm>
+                </au>
+                <au>
+                   <snm>Glomb</snm>
+                   <fnm>TA</fnm>
+                </au>
+                <au>
+                   <snm>Jerrell</snm>
+                   <fnm>RG</fnm>
+                </au>
+             </aug>
+             <source>Pediatr Dent</source>
+             <pubdate>1997</pubdate>
+             <volume>19</volume>
+             <fpage>118</fpage>
+             <lpage>122</lpage>
+             <xrefbib>
+                <pubidlist>
+                   <pubid idtype="pmpid" link="fulltext">9106874</pubid>
+                </pubidlist>
+             </xrefbib>
+          </bibl>
+          <bibl id="B31">
+             <title>
+                <p>Changing clinicians' behavior: a randomized controlled trial of fees and education</p>
+             </title>
+             <aug>
+                <au>
+                   <snm>Clarkson</snm>
+                   <fnm>JE</fnm>
+                </au>
+                <au>
+                   <snm>Turner</snm>
+                   <fnm>S</fnm>
+                </au>
+                <au>
+                   <snm>Grimshaw</snm>
+                   <fnm>JM</fnm>
+                </au>
+                <au>
+                   <snm>Ramsay</snm>
+                   <fnm>CR</fnm>
+                </au>
+                <au>
+                   <snm>Johnston</snm>
+                   <fnm>M</fnm>
+                </au>
+                <au>
+                   <snm>Scott</snm>
+                   <fnm>A</fnm>
+                </au>
+                <au>
+                   <snm>Bonetti</snm>
+                   <fnm>D</fnm>
+                </au>
+                <au>
+                   <snm>Tilley</snm>
+                   <fnm>CJ</fnm>
+                </au>
+                <au>
+                   <snm>Maclennan</snm>
+                   <fnm>G</fnm>
+                </au>
+                <au>
+                   <snm>Ibbetson</snm>
+                   <fnm>R</fnm>
+                </au>
+                <au>
+                   <snm>Macpherson</snm>
+                   <fnm>LM</fnm>
+                </au>
+                <au>
+                   <snm>Pitts</snm>
+                   <fnm>NB</fnm>
+                </au>
+             </aug>
+             <source>J Dent Res</source>
+             <pubdate>2008</pubdate>
+             <volume>87</volume>
+             <fpage>640</fpage>
+             <lpage>644</lpage>
+             <xrefbib>
+                <pubidlist>
+                   <pubid idtype="doi">10.1177/154405910808700701</pubid>
+                   <pubid idtype="pmpid" link="fulltext">18573983</pubid>
+                </pubidlist>
+             </xrefbib>
+          </bibl>
+          <bibl id="B32">
+             <title>
+                <p>Dental care providers' decision making regarding maintenance of compromised teeth and implant therapy indication: an analysis of gender and enrollment in teaching positions</p>
+             </title>
+             <aug>
+                <au>
+                   <snm>Junges</snm>
+                   <fnm>R</fnm>
+                </au>
+                <au>
+                   <snm>Zitzmann</snm>
+                   <fnm>NU</fnm>
+                </au>
+                <au>
+                   <snm>Walter</snm>
+                   <fnm>C</fnm>
+                </au>
+                <au>
+                   <snm>Rosing</snm>
+                   <fnm>CK</fnm>
+                </au>
+             </aug>
+             <source>Clin Oral Implants Res</source>
+             <pubdate>2013</pubdate>
+             <volume>25</volume>
+             <fpage>1027</fpage>
+             <lpage>1033</lpage>
+             <xrefbib>
+                <pubidlist>
+                   <pubid idtype="doi">10.1111/clr.12206</pubid>
+                   <pubid idtype="pmpid" link="fulltext">23786485</pubid>
+                </pubidlist>
+             </xrefbib>
+          </bibl>
+          <bibl id="B33">
+             <title>
+                <p>Variations in restorative treatment decisions: an international comparison</p>
+             </title>
+             <aug>
+                <au>
+                   <snm>Kay</snm>
+                   <fnm>EJ</fnm>
+                </au>
+                <au>
+                   <snm>Locker</snm>
+                   <fnm>D</fnm>
+                </au>
+             </aug>
+             <source>Community Dent Oral Epidemiol</source>
+             <pubdate>1996</pubdate>
+             <volume>24</volume>
+             <fpage>376</fpage>
+             <lpage>379</lpage>
+             <xrefbib>
+                <pubidlist>
+                   <pubid idtype="doi">10.1111/j.1600-0528.1996.tb00882.x</pubid>
+                   <pubid idtype="pmpid" link="fulltext">9007352</pubid>
+                </pubidlist>
+             </xrefbib>
+          </bibl>
+          <bibl id="B34">
+             <title>
+                <p>Sealants and dental caries: insight into dentists&#8217; behaviors regarding implementation of clinical practice recommendations</p>
+             </title>
+             <aug>
+                <au>
+                   <snm>O&#8217;Donnell</snm>
+                   <fnm>JA</fnm>
+                </au>
+                <au>
+                   <snm>Modesto</snm>
+                   <fnm>A</fnm>
+                </au>
+                <au>
+                   <snm>Oakley</snm>
+                   <fnm>M</fnm>
+                </au>
+                <au>
+                   <snm>Polk</snm>
+                   <fnm>DE</fnm>
+                </au>
+                <au>
+                   <snm>Valappil</snm>
+                   <fnm>B</fnm>
+                </au>
+                <au>
+                   <snm>Spallek</snm>
+                   <fnm>H</fnm>
+                </au>
+             </aug>
+             <source>J Am Dent Assoc</source>
+             <pubdate>2013</pubdate>
+             <volume>144</volume>
+             <fpage>e24</fpage>
+             <lpage>e30</lpage>
+             <xrefbib>
+                <pubidlist>
+                   <pubid idtype="doi">10.14219/jada.archive.2013.0139</pubid>
+                   <pubid idtype="pmpid" link="fulltext">23543700</pubid>
+                </pubidlist>
+             </xrefbib>
+          </bibl>
+          <bibl id="B35">
+             <title>
+                <p>How are policy makers using evidence? Models of research utilisation and local NHS policy making</p>
+             </title>
+             <aug>
+                <au>
+                   <snm>Elliott</snm>
+                   <fnm>H</fnm>
+                </au>
+                <au>
+                   <snm>Popay</snm>
+                   <fnm>J</fnm>
+                </au>
+             </aug>
+             <source>J Epidemiol Community Health</source>
+             <pubdate>2000</pubdate>
+             <volume>54</volume>
+             <fpage>461</fpage>
+             <lpage>468</lpage>
+             <xrefbib>
+                <pubidlist>
+                   <pubid idtype="doi">10.1136/jech.54.6.461</pubid>
+                   <pubid idtype="pmpid" link="fulltext">10818123</pubid>
+                </pubidlist>
+             </xrefbib>
+          </bibl>
+          <bibl id="B36">
+             <title>
+                <p>Limits to evidence-based health policymaking: policy hurdles to structural HIV prevention in Tanzania</p>
+             </title>
+             <aug>
+                <au>
+                   <snm>Hunsmann</snm>
+                   <fnm>M</fnm>
+                </au>
+             </aug>
+             <source>Soc Sci Med</source>
+             <pubdate>2012</pubdate>
+             <volume>74</volume>
+             <fpage>1477</fpage>
+             <lpage>1485</lpage>
+             <xrefbib>
+                <pubidlist>
+                   <pubid idtype="doi">10.1016/j.socscimed.2012.01.023</pubid>
+                   <pubid idtype="pmpid" link="fulltext">22445763</pubid>
+                </pubidlist>
+             </xrefbib>
+          </bibl>
+          <bibl id="B37">
+             <note>
+                <b>International conference on harmonisation of technical requirements for registration of pharmaceuticals for human use: Harmonised tripartite guideline: statistical principles for clinical trials.</b> 
+                <it>Stat Med</it> 1999, <b>18:</b>1905&#8211;1942.</note>
+          </bibl>
+          <bibl id="B38">
+             <title>
+                <p>Group tC: CONSORT 2010 Statement: updated guidelines for reporting parallel group randomised trials</p>
+             </title>
+             <aug>
+                <au>
+                   <snm>Schulz</snm>
+                   <fnm>K</fnm>
+                </au>
+                <au>
+                   <snm>Altman</snm>
+                   <fnm>D</fnm>
+                </au>
+                <au>
+                   <snm>Moher</snm>
+                   <fnm>D</fnm>
+                </au>
+             </aug>
+             <source>BMC Med</source>
+             <pubdate>2010</pubdate>
+             <volume>8</volume>
+             <fpage>18</fpage>
+             <xrefbib>
+                <pubidlist>
+                   <pubid idtype="doi">10.1186/1741-7015-8-18</pubid>
+                   <pubid idtype="pmpid" link="fulltext">20334633</pubid>
+                </pubidlist>
+             </xrefbib>
+          </bibl>
+       </refgrp>
+    </bm>
+ </art>

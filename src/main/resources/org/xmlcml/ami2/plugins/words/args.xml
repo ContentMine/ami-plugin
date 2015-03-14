@@ -1,20 +1,29 @@
-<argList>
+<argList name="words">
+    <arg name="final"
+        long="--w.summary"
+        parseMethod="parseSummary"
+        finalMethod="finalSummary"
+		args="method [method...]"
+		countRange="{1,*}"
+		pattern="(aggregateFrequencies|tfidf|foo)"
+        >
+        <help>
+        
+        </help>
+    </arg>
 	<arg name="words" 
 		brief="-w.w"
 		long="--w.words"
 		args="method [method...]"
 		countRange="{0,*}"
 		parseMethod="parseWords"
-		runMethod="extractWords"
+		runMethod="runExtractWords"
 		outputMethod="outputWords"
 		>
 		<help>
-		
 			WORDS:
 			extractWords() allows for various extraction of words such as BagOfWords, Stemming, etc.
 			"operations" include:
-			
-			
 		</help>
 	</arg>	
 	
@@ -89,6 +98,30 @@
 			WORDTYPES:
 			word types to extract. Entering zero args will give a list of types. These are likely to change but
 			could be "acronym", "capitalized", etc. 
+		</help>
+	</arg>	
+	
+	<arg name="mincount" 
+		long="--w.mincount"
+		args="mincount"
+		countRange="{1,1}"
+		parseMethod="parseMinCount"
+		>
+		<help>
+		MINCOUNT
+		Minimum number of words in summary bins
+		</help>
+	</arg>	
+	
+	<arg name="maxcount" 
+		long="--w.maxcount"
+		args="maxcount"
+		countRange="{1,1}"
+		parseMethod="parseMaxCount"
+		>
+		<help>
+		MAXCOUNT
+		Maximum number of words in summary bins
 		</help>
 	</arg>	
 	

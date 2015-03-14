@@ -1,0 +1,1419 @@
+<?xml version='1.0'?>
+<!DOCTYPE art SYSTEM 'http://www.biomedcentral.com/xml/article.dtd'>
+<art>
+    <ui>s13063-014-0524-x</ui>
+    <ji>1745-6215</ji>
+    <fm>
+       <dochead>Study protocol</dochead>
+       <bibl>
+          <title>
+             <p>A primary care, electronic health record-based strategy to promote safe drug use: study protocol for a randomized controlled trial</p>
+          </title>
+          <aug>
+             <au id="A1">
+                <snm>Przytula</snm>
+                <fnm>Kamila</fnm>
+                <insr iid="I1"/>
+                <email>kamila.przytula@northwestern.edu</email>
+             </au>
+             <au id="A2">
+                <snm>Bailey</snm>
+                <mnm>Cooper</mnm>
+                <fnm>Stacy</fnm>
+                <insr iid="I2"/>
+                <email>scbailey@unc.edu</email>
+             </au>
+             <au id="A3">
+                <snm>Galanter</snm>
+                <mi>L</mi>
+                <fnm>William</fnm>
+                <insr iid="I3"/>
+                <insr iid="I4"/>
+                <email>billg@uic.edu</email>
+             </au>
+             <au id="A4">
+                <snm>Lambert</snm>
+                <mi>L</mi>
+                <fnm>Bruce</fnm>
+                <insr iid="I5"/>
+                <email>bruce.lambert@northwestern.edu</email>
+             </au>
+             <au id="A5">
+                <snm>Shrestha</snm>
+                <fnm>Neeha</fnm>
+                <insr iid="I4"/>
+                <email>neeha.shrestha@northwestern.edu</email>
+             </au>
+             <au id="A6">
+                <snm>Dickens</snm>
+                <fnm>Carolyn</fnm>
+                <insr iid="I6"/>
+                <email>cdickens@uic.edu</email>
+             </au>
+             <au id="A7">
+                <snm>Falck</snm>
+                <fnm>Suzanne</fnm>
+                <insr iid="I3"/>
+                <email>sfalck@uic.edu</email>
+             </au>
+             <au id="A8" ca="yes">
+                <snm>Wolf</snm>
+                <mi>S</mi>
+                <fnm>Michael</fnm>
+                <insr iid="I1"/>
+                <email>mswolf@northwestern.edu</email>
+             </au>
+          </aug>
+          <insg>
+             <ins id="I1">
+                <p>Division of General Internal Medicine, Feinberg School of Medicine at Northwestern University, 750 N Lake Shore Drive, 10th Floor, Chicago 60611, IL, USA</p>
+             </ins>
+             <ins id="I2">
+                <p>Division of Pharmaceutical Outcomes and Policy at the UNC Eshelman School of Pharmacy, Chapel Hill, NC, USA</p>
+             </ins>
+             <ins id="I3">
+                <p>Medicine and Pharmacy Practice at the University of Illinois at Chicago, Chicago, IL, USA</p>
+             </ins>
+             <ins id="I4">
+                <p>Northwestern Center for Education and Research on Therapeutics (CERT), Chicago, IL, USA</p>
+             </ins>
+             <ins id="I5">
+                <p>Department of Communication Studies, Center for Communication and Health at Northwestern University, Chicago, IL, USA</p>
+             </ins>
+             <ins id="I6">
+                <p>College of Nursing at the University of Illinois in Chicago, Chicago, IL, USA</p>
+             </ins>
+          </insg>
+          <source>Trials</source>
+          <issn>1745-6215</issn>
+          <pubdate>2015</pubdate>
+          <volume>16</volume>
+          <issue>1</issue>
+          <fpage>17</fpage>
+          <url>http://www.trialsjournal.com/content/16/1/17</url>
+          <xrefbib>
+             <pubidlist>
+                <pubid idtype="doi">10.1186/s13063-014-0524-x</pubid>
+             </pubidlist>
+          </xrefbib>
+       </bibl>
+       <history>
+          <rec>
+             <date>
+                <day>16</day>
+                <month>6</month>
+                <year>2014</year>
+             </date>
+          </rec>
+          <acc>
+             <date>
+                <day>19</day>
+                <month>12</month>
+                <year>2014</year>
+             </date>
+          </acc>
+          <pub>
+             <date>
+                <day>27</day>
+                <month>1</month>
+                <year>2015</year>
+             </date>
+          </pub>
+       </history>
+       <cpyrt>
+          <year>2015</year>
+          <collab>Przytula et al.; licensee BioMed Central.</collab>
+          <note>This is an Open Access article distributed under the terms of the Creative Commons Attribution License (<url>http://creativecommons.org/licenses/by/4.0</url>), which permits unrestricted use, distribution, and reproduction in any medium, provided the original work is properly credited. The Creative Commons Public Domain Dedication waiver (<url>http://creativecommons.org/publicdomain/zero/1.0/</url>) applies to the data made available in this article, unless otherwise stated.</note>
+       </cpyrt>
+       <kwdg>
+          <kwd>Electronic health record</kwd>
+          <kwd>Health literacy</kwd>
+          <kwd>Prescription medication</kwd>
+       </kwdg>
+       <abs>
+          <sec>
+             <st>
+                <p>Abstract</p>
+             </st>
+             <sec>
+                <st>
+                   <p>Background</p>
+                </st>
+                <p>The Northwestern University Center for Education and Research on Therapeutics (CERT), funded by the Agency for Healthcare Research and Quality, is one of seven such centers in the USA. The thematic focus of the Northwestern CERT is &#8216;Tools for Optimizing Medication Safety.&#8217; Ensuring drug safety is essential, as many adults struggle to take medications, with estimates indicating that only half of adults take drugs as prescribed. This report describes the methods and rationale for one innovative project within the CERT: the &#8216;Primary Care, Electronic Health Record-Based Strategy to Promote Safe and Appropriate Drug Use&#8217;.</p>
+             </sec>
+             <sec>
+                <st>
+                   <p>Methods/Design</p>
+                </st>
+                <p>The overall objective of this 5-year study is to evaluate a health literacy-informed, electronic health record-based strategy for promoting safe and effective prescription medication use in a primary care setting. A total of 600 English and Spanish-speaking patients with diabetes will be consecutively recruited to participate in the study. Patients will be randomized to receive either usual care or the intervention; those in the intervention arm will receive a set of print materials designed to support medication use and prompt provider counseling and medication reconciliation. Participants will be interviewed in person after their index clinic visit and again one month later. Process outcomes related to intervention delivery will be recorded. A medical chart review will be performed at 6 months. Patient outcome measures include medication understanding, adherence and clinical measures (hemoglobin A<sub>1</sub>c, blood pressure, and cholesterol<ul>; </ul>exploratory outcomes only).</p>
+             </sec>
+             <sec>
+                <st>
+                   <p>Discussion</p>
+                </st>
+                <p>Through this study, we will be able to examine the impact of a health literacy-informed, electronic health record-based strategy on medication understanding and adherence among diabetic primary care patients. The measurement of process outcomes will help inform how the strategy might ultimately be refined and disseminated to other sites. Strategies such as these are needed to address the multifaceted challenges related to medication self-management among patients with chronic conditions.</p>
+             </sec>
+             <sec>
+                <st>
+                   <p>Trial registration</p>
+                </st>
+                <p>Clinicaltrials.gov NCT01669473.</p>
+             </sec>
+          </sec>
+       </abs>
+    </fm>
+    <bdy>
+       <sec>
+          <st>
+             <p>Background</p>
+          </st>
+          <p>According to the Institute of Medicine, more than 1.5 million preventable drug events occur each year in the USA <abbrgrp>
+                <abbr bid="B1">1</abbr>
+             </abbrgrp>. A third of these occur in outpatient settings, at a cost of approximately $4.2 billion annually <abbrgrp>
+                <abbr bid="B1">1</abbr>
+             </abbrgrp>. Ensuring safe medication use is likely to become increasingly important as the number of adults taking prescription medications has risen dramatically <abbrgrp>
+                <abbr bid="B2">2</abbr>
+             </abbrgrp>. Nearly half of Americans take at least one prescription medication, and one in ten takes five or more drugs, an increase of 70% since 1999 <abbrgrp>
+                <abbr bid="B2">2</abbr>
+             </abbrgrp>.</p>
+          <p>Despite frequent use, many adults struggle to take medications, with estimates indicating that only half of adults take drugs as prescribed <abbrgrp>
+                <abbr bid="B3">3</abbr>
+             </abbrgrp>. Medication use may be particularly challenging for diabetic patients, who must often manage multiple comorbidities and complex multidrug regimens. Patients with low health literacy and limited English proficiency are likely to experience even greater confusion and negative medication-related outcomes, emphasizing the need for innovative and effective strategies to promote positive medication-related outcomes in this vulnerable population <abbrgrp>
+                <abbr bid="B4">4</abbr>
+             </abbrgrp>-<abbrgrp>
+                <abbr bid="B6">6</abbr>
+             </abbrgrp>.</p>
+          <p>To address these challenges, we designed a health literacy-informed, electronic health record based strategy for promoting safe and effective prescription medication use among English and Spanish-speaking patients with diabetes mellitus. This project is one of four thematically related projects within the Northwestern University Center for Education and Research on Therapeutics (CERT). Funded by the Agency for Healthcare Research and Quality, the &#8216;Tools for Optimizing Medication Safety&#8217; CERT is one of seven such centers created to promote optimal use of medications and to raise patient awareness of drug risks and benefits. In this paper, we provide an overview of our intervention, summarize evaluation activities, and discuss the sustainability and potential dissemination of our novel strategy.</p>
+       </sec>
+       <sec>
+          <st>
+             <p>Methods/Design</p>
+          </st>
+          <p>This study seeks to reduce the patient confusion that often leads to unintentional medication non-adherence or medication errors. To promote sustainability and dissemination, we are utilizing an electronic health record platform to automate the delivery of patient-centered medication information materials. The specific aims of the study are as follows: (1) to refine and field test an electronic health record strategy for generating and distributing low-literacy prescription information for English- and Spanish-speaking primary care patients with diabetes; (2) to assess the process of the electronic health record intervention and its fidelity for providing understandable and actionable prescription information for patients at the point of prescribing; and (3) to evaluate the effectiveness of the electronic health record-based strategy to improve medication understanding, reconciliation, regimen consolidation, and adherence, compared with standard care. We have an additional exploratory aim to examine the effect of the intervention on surrogate clinical outcomes; hemoglobin A<sub>1</sub>c, low-density lipoprotein cholesterol and blood pressure.</p>
+          <p>This study is being conducted at the University of Illinois Hospital and Health Sciences System, an urban, academic medical center located in Chicago, which uses Cerner Powerchart&#174;, a common electronic health record system. Patients are enrolled from three primary care sites: a resident-staffed general medicine clinic, a medicine/pediatrics clinic, and a faculty primary care clinic. These clinics serve a diverse, low-income patient population that is approximately 65% African American and 20% Hispanic. An estimated 36% of general medicine clinic patients have limited health literacy. Adjusted for patient volume, approximately 25% of these low literacy patients have been diagnosed with diabetes. The current standard of care in this clinic is for patients to receive a basic after-visit summary that describes the medical visit and includes a list of medications prescribed to the patient according to the electronic health record. This summary has not been designed according to health literacy best practices and patient education materials are not routinely given as part of standard care.</p>
+          <p>We will recruit 600 patients from participating clinics in no set proportion and randomize each to receive either standard care or the intervention. Participants will be eligible if they: (1) are over 18 years old; (2) have a documented diagnosis of diabetes; (3) are currently taking at least three daily, chronic, non-PRN (not pro re nata) medications; (4) speak English or Spanish; (5) have no intention to change clinics within the next year; (6) score 4 or higher on a six-item cognitive screener <abbrgrp>
+                <abbr bid="B7">7</abbr>
+             </abbrgrp>; (7) are, by self-report, primarily responsible for taking their own medications; and (8) were prescribed a new medication, or have a dose, refill, or frequency change of a current medication for hypertension, hyperlipidemia, or diabetes mellitus during their index clinic visit.</p>
+          <p>Potentially eligible patients (criteria 1 to 4 above) are first identified via a review of their electronic health records. A list of those patients with a clinic appointment scheduled within the next three months is then compiled and sent to clinic physicians via secure email. Physicians have the opportunity to indicate which potentially eligible patients should not be contacted, owing to severe illness or cognitive concerns. With physician approval, patients will be approached by the research assistant to confirm eligibility following their doctor&#8217;s appointment. Research assistants will speak with potential participants after receiving an electronic message that they have been prescribed a new medication or received a changed dose or frequency of a medication of interest. Eligibility criteria will be confirmed before patients provide written consent and are enrolled into the study. The study has been approved by institutional review boards at the University of Illinois in Chicago (2012&#8211;0262) and Northwestern (STU00064056) and is also registered on clinicaltrials.gov (NCT01669473).</p>
+          <p>Patients in the intervention arm will receive three electronic health record-generated items at their clinic visit: (1) a pre-visit medication list, (2) medication information sheets, and (3) a post-visit medication list. These materials were designed by study team members and incorporate health literacy best practices, with Lexile analyses confirming a readability level of &lt;8th grade <abbrgrp>
+                <abbr bid="B8">8</abbr>
+             </abbrgrp>,<abbrgrp>
+                <abbr bid="B9">9</abbr>
+             </abbrgrp>. The medication sheets and pre-visit medication list were previously tested in a National Institutes of Health study (R18HS17220). All materials were translated into Spanish using a committee-based approach and pilot tested among English- and Spanish-speaking patients (<it>N</it>&#8201;=&#8201;9) to ensure comprehensibility <abbrgrp>
+                <abbr bid="B10">10</abbr>
+             </abbrgrp>. The materials are as follows:</p><p>1. The pre-visit medication list is generated on check-in and includes all medications prescribed to the patient according to their electronic health record. It lists the dosage, frequency and indication for all medications. The instructions on the form ask patients to report how much of each medication they take on a daily basis and if they have any concerns (need refill, cost, and so on) for any of the drugs. Patients are then asked to add any additional prescription or over-the-counter medications they are using and to remove medications that they are no longer taking. Forms are designed to be shared with providers during the clinic visit to promote medication reconciliation.</p>
+             <p>2. If the patient is prescribed a new or dose-adjusted medication for diabetes, hyperlipidemia, or hypertension, a medication information sheet for that medicine will print automatically in the patients&#8217; preferred language (English or Spanish). The medication information sheet is a one-page, plain-language information sheet that describes the medication&#8217;s indication for use, general directions, and side effects. It is designed to be patient-friendly and to provide essential need-to-know information for each drug.</p>
+             <p>3. Following the visit, patients receive an updated post-visit medication list, which reflects any changes made to the pre-visit medication list as a result of their visit that day. The post-visit medication list includes all of the patient&#8217;s medications, listing dosage, indication, and the times each medication should be taken. It is intended to help patients organize their regimen according to the Universal Medication Schedule <abbrgrp>
+                   <abbr bid="B11">11</abbr>
+                </abbrgrp>. The Universal Medication Schedule &#8216;grounds&#8217; medication use by providing more explicit times to describe when medicine should be taken (morning, noon, evening, bedtime) <abbrgrp>
+                   <abbr bid="B5">5</abbr>
+                </abbrgrp>. This concept was reviewed and recommended by the Institute of Medicine, the US Pharmacopeia, and the National Council for Prescription Drug Programs as a health literacy best practice. Patients in the intervention arm will receive this post-visit medication list, while those in usual care will receive a standard &#8216;after-visit summary&#8217; recently implemented at the University of Illinois Hospital and Health Sciences System to comply with meaningful use requirements <abbrgrp>
+                   <abbr bid="B12">12</abbr>
+                </abbrgrp>. This standard after-visit summary is the only educational print material that patients in the usual care arm routinely receive after their clinic visit.</p>
+          <p>We will interview each patient in person at baseline, immediately following the index clinic visit, and one month after the index visit. At 6 months, a chart abstraction will be conducted to extract clinical surrogate outcome data (hemoglobin A<sub>1</sub>c, blood pressure, and low-density lipoprotein cholesterol).</p>
+          <sec>
+             <st>
+                <p>Process outcomes</p>
+             </st>
+             <p>As part of the intervention delivery, we will explore process outcome measures, such as the proportion of patients who automatically received the pre-visit medication list, the proportion of patients who used the intervention materials at home, and whether the intervention materials prompted physician-patient discussion.</p>
+          </sec>
+          <sec>
+             <st>
+                <p>Study outcomes</p>
+             </st>
+             <p>This study is designed to target four key medication-related outcomes: medication reconciliation, medication understanding, regimen consolidation, and medication adherence.</p>
+             <sec>
+                <st>
+                   <p>Medication reconciliation</p>
+                </st>
+                <p>Numerous studies have shown discrepancies between the medications that patients report taking and those listed in their medical chart, undermining the quality and safety of clinical care <abbrgrp>
+                      <abbr bid="B13">13</abbr>
+                   </abbrgrp>-<abbrgrp>
+                      <abbr bid="B16">16</abbr>
+                   </abbrgrp>. The pre-visit medication list is designed to prompt greater physician-patient communication about medication use and to ensure that self-reported medication use matches the medications listed in the patient&#8217;s chart. To measure medication reconciliation, we will ask patients, during the one-month follow-up interview, what medications they are taking. We will compare self-reports with the medications listed in their chart. Research assistants will note any discrepancies and ask patients whether they are taking any medications that were not named but are listed in their charts. Similarly, the research assistant will inquire after any medications that the patient reports taking but are not on their medication list. This outcome will then be coded as: (1) no discrepancies present between self-report and medical chart or (2) discrepancies present. The number of and type of discrepancies will also be recorded and forwarded to supervising physicians in the research team for review, with clinically significant discrepancies being communicated to the patient&#8217;s primary care doctor immediately. This coding schema is consistent with previous studies on medication reconciliation <abbrgrp>
+                      <abbr bid="B14">14</abbr>
+                   </abbrgrp>,<abbrgrp>
+                      <abbr bid="B15">15</abbr>
+                   </abbrgrp>.</p>
+             </sec>
+             <sec>
+                <st>
+                   <p>Medication understanding</p>
+                </st>
+                <p>Numerous studies have found limited literacy skills and limited English proficiency to be associated with poorer recall of medication names and indications, inadequate understanding of prescription instructions and precautions, and poorly demonstrated use of medications and devices <abbrgrp>
+                      <abbr bid="B11">11</abbr>
+                   </abbrgrp>,<abbrgrp>
+                      <abbr bid="B17">17</abbr>
+                   </abbrgrp>. To measure patients&#8217; understanding of their medication regimens, research assistants will guide each patient through a pill-dosing demonstration. Specifically, patients will be given a tray with 24 compartments, each representing one hour of the day. Patients will be oriented to the tray and then asked to show how they take each of their medications over a 24 hour period of time, using the tray and colored beads that represent pills. Research assistants will record when patients indicate that they take their medications, including dose, frequency, and spacing between doses; this will be coded as correct or incorrect, based on pre-established coding criteria <abbrgrp>
+                      <abbr bid="B18">18</abbr>
+                   </abbrgrp>.</p>
+             </sec>
+             <sec>
+                <st>
+                   <p>Regimen consolidation</p>
+                </st>
+                <p>As part of this dosing exercise, we will also measure patients&#8217; consolidation of their medication regimen. Research indicates an inverse relationship between dosing frequency and adherence <abbrgrp>
+                      <abbr bid="B19">19</abbr>
+                   </abbrgrp>-<abbrgrp>
+                      <abbr bid="B21">21</abbr>
+                   </abbrgrp>. Despite this, a recent study by our team demonstrated that many patients unnecessarily overcomplicate medication use by not consolidating a complex regimen so that it can be taken the minimum number of times per day <abbrgrp>
+                      <abbr bid="B5">5</abbr>
+                   </abbrgrp>. Using the data from the dosing exercise, we will measure regimen consolidation, defined as the number of times per day when medication is taken, as indicated in the dosing exercise.</p>
+             </sec>
+             <sec>
+                <st>
+                   <p>Medication adherence</p>
+                </st>
+                <p>Non-adherence to prescribed medications is well documented, highly prevalent, and common among patients with chronic conditions, with nearly half of patients taking less than 80% of their prescribed doses <abbrgrp>
+                      <abbr bid="B3">3</abbr>
+                   </abbrgrp>,<abbrgrp>
+                      <abbr bid="B22">22</abbr>
+                   </abbrgrp>-<abbrgrp>
+                      <abbr bid="B24">24</abbr>
+                   </abbrgrp>. For this study, where data on adherence to multiple medications is collected, using technology such as medication event monitoring systems is not feasible. We are therefore following other adherence measurement guidelines and triangulating multiple measures of adherence <abbrgrp>
+                      <abbr bid="B25">25</abbr>
+                   </abbrgrp>. Medication adherence will be assessed using the Morisky general measure of adherence, a directly observed pill count, and a 4-day self-reported assessment of pills missed <abbrgrp>
+                      <abbr bid="B26">26</abbr>
+                   </abbrgrp>.</p>
+             </sec>
+          </sec>
+          <sec>
+             <st>
+                <p>Key covariates</p>
+             </st>
+             <p>We will collect data on a number of key covariates, including age, sex, English proficiency, comorbidities, medication and healthcare utilization, income, and race and ethnicity. Health literacy will be measured using the Newest Vital Sign <abbrgrp>
+                   <abbr bid="B27">27</abbr>
+                </abbrgrp>.</p>
+          </sec>
+          <sec>
+             <st>
+                <p>Analyses</p>
+             </st>
+             <p>A sample size of 600 patients, 300 in each arm, was determined for this research study based on sample size calculations for the outcome measure of medication understanding. Assuming an overall baseline rate of understanding of 65%, a sample of 300 patients per arm would enable the detection of an 11% absolute increase in medication understanding with 80% power. These differences were considered appropriate, based on the results of prior studies conducted by this study team <abbrgrp>
+                   <abbr bid="B17">17</abbr>
+                </abbrgrp>,<abbrgrp>
+                   <abbr bid="B28">28</abbr>
+                </abbrgrp>,<abbrgrp>
+                   <abbr bid="B29">29</abbr>
+                </abbrgrp>. This sample size also supports our exploratory analyses for the effects of the intervention on surrogate clinical outcomes. For example, a sample size of 600 provides adequate power (86%) to detect a difference of 3 mm Hg in mean systolic blood pressure by study arm, assuming a standard deviation of 12.</p>
+             <p>We will perform intent-to-treat analyses to determine the study results. Before conducting formal analyses, we will perform descriptive statistics to ensure adequate balance of patient characteristics across the two treatment arms (usual care and intervention) at baseline; <it>t</it> tests and <it>&#967;</it>                    
+                <sup>2</sup> tests will be used to evaluate differences across the two arms for continuous and binary variables, respectively. Generalized linear models will be used for data analyses using PROC GENMOD in SAS (version 9.2), specifying the logit link function for binary outcomes (medication understanding, reconciliation, adherence, and regimen consolidation) and the identity link function for continuous outcomes (blood pressure, hemoglobin A<sub>1</sub>c). The treatment group will be the independent variable of primary interest and will be modeled with usual care specified as the reference group. Any potential confounding covariates noted in the descriptive analysis will also be included in the models.</p>
+          </sec>
+       </sec>
+       <sec>
+          <st>
+             <p>Discussion</p>
+          </st>
+          <p>Innovative low-cost interventions are necessary to standardize and improve the currently fragmented system of patient medication information. If found effective, our strategy could serve as a model for providing language-appropriate, easy-to-understand medication information and support to patients to improve medication self-management in ambulatory care settings. With a focus on low health literacy, limited English proficiency, and multiple chronic conditions, our strategy seeks to promote safe and appropriate medication use among those at the greatest risk of poor medication-related outcomes. Our tools are designed to reduce medication discrepancies and patient misunderstanding by improving access to high-quality medication information and by prompting improved patient-provider communication. The strategy also involves producing an enhanced patient-centered medication summary in compliance with Joint Commission and Meaningful Use mandates <abbrgrp>
+                <abbr bid="B30">30</abbr>
+             </abbrgrp>,<abbrgrp>
+                <abbr bid="B31">31</abbr>
+             </abbrgrp>. Although the process of initially integrating the materials into the electronic health record is technical and time-intensive, once programming is completed, the intervention is low-cost, automated, and would require limited occasional adjustments compared with alternative approaches, particularly those involving additional staff support. As the majority of community health clinics now have an electronic health record, this strategy is increasingly feasible and can be disseminated to health centers across the nation <abbrgrp>
+                <abbr bid="B32">32</abbr>
+             </abbrgrp>.</p>
+          <p>The challenge of medication therapy management goes beyond effective risk communication by also seeking behavioral maintenance in support of sustained adherence to prescribed regimens. We hope to learn what our strategy can contribute to appropriate, safe medication use, how it might ultimately be disseminated, and also how it might be supplemented to address the multifaceted problem of medication self-management <abbrgrp>
+                <abbr bid="B33">33</abbr>
+             </abbrgrp>.</p>
+       </sec>
+       <sec>
+          <st>
+             <p>Trial status</p>
+          </st>
+          <p>The study is currently enrolling participants. Enrollment began on 16 June 2013 and is anticipated to conclude in the summer of 2016.</p>
+       </sec>
+       <sec>
+          <st>
+             <p>Abbreviations</p>
+          </st>
+          <p>CERT: Center for Education and Research on Therapeutics</p>
+          <p>PRN: pro re nata</p>
+       </sec>
+       <sec>
+          <st>
+             <p>Competing interests</p>
+          </st>
+          <p>The authors declare that they have no competing interests.</p>
+       </sec>
+       <sec>
+          <st>
+             <p>Authors&#8217; contributions</p>
+          </st>
+          <p>MSW and SCB conceived the study and designed the intervention and intervention materials; they drafted these portions of manuscript. BLL and WLG supported the implementation of the intervention and intervention materials at the study sites. They described the study sites in the manuscript and participated in manuscript revision. SF and CD provided technical expertise to the implementation of the study and intervention within a healthcare setting and provided a technical review of the manuscript. KP and NS provided support in the design of the intervention materials, data collection tools, and manuscript preparation, drafting and revision. All authors have contributed to, read, and approved the final manuscript.</p>
+       </sec>
+    </bdy>
+    <bm>
+       <ack>
+          <sec>
+             <st>
+                <p>Acknowledgements</p>
+             </st>
+             <p>This project was supported by grant number U19HS021093 from the Agency for Healthcare Research and Quality. The content is solely the responsibility of the authors and does not necessarily represent the official views of the Agency for Healthcare Research and Quality.</p>
+          </sec>
+       </ack>
+       <refgrp>
+          
+          <bibl id="B1">
+             <insg>
+                <ins>
+                   <p>Institute of Medicine</p>
+                </ins>
+             </insg>
+             <source>Health Literacy: A Prescription to End Confusion</source>
+             <publisher>National Academy Press, Washington DC</publisher>
+             <pubdate>2004</pubdate>
+          </bibl>
+          <bibl id="B2">
+             <title>
+                <p>Prescription Drug Use Continues to Increase: U.S. Prescription Drug Data for 2007&#8211;2008</p>
+             </title>
+             <aug>
+                <au>
+                   <snm>Gu</snm>
+                   <fnm>Q</fnm>
+                </au>
+                <au>
+                   <snm>Dillon</snm>
+                   <fnm>CF</fnm>
+                </au>
+                <au>
+                   <snm>Burt</snm>
+                   <fnm>VL</fnm>
+                </au>
+             </aug>
+             <source>NCHS Data Brief</source>
+             <pubdate>2010</pubdate>
+             <volume>42</volume>
+             <fpage>1</fpage>
+             <lpage>8</lpage>
+             <xrefbib>
+                <pubidlist>
+                   <pubid idtype="pmpid" link="fulltext">20854747</pubid>
+                </pubidlist>
+             </xrefbib>
+          </bibl>
+          <bibl id="B3">
+             <title>
+                <p>Interventions for enhancing medication adherence</p>
+             </title>
+             <aug>
+                <au>
+                   <snm>Haynes</snm>
+                   <fnm>RB</fnm>
+                </au>
+                <au>
+                   <snm>Yao</snm>
+                   <fnm>X</fnm>
+                </au>
+                <au>
+                   <snm>Degani</snm>
+                   <fnm>A</fnm>
+                </au>
+                <au>
+                   <snm>Kripalani</snm>
+                   <fnm>S</fnm>
+                </au>
+                <au>
+                   <snm>Garg</snm>
+                   <fnm>A</fnm>
+                </au>
+                <au>
+                   <snm>McDonald</snm>
+                   <fnm>HP</fnm>
+                </au>
+             </aug>
+             <source>Cochrane Database Syst Rev.</source>
+             <pubdate>2005</pubdate>
+             <volume>4</volume>
+             <fpage>CD000011</fpage>
+             <xrefbib>
+                <pubidlist>
+                   <pubid idtype="pmpid" link="fulltext">16235271</pubid>
+                </pubidlist>
+             </xrefbib>
+          </bibl>
+          <bibl id="B4">
+             <title>
+                <p>Effects of limited English proficiency and physician language on health care comprehension</p>
+             </title>
+             <aug>
+                <au>
+                   <snm>Wilson</snm>
+                   <fnm>E</fnm>
+                </au>
+                <au>
+                   <snm>Chen</snm>
+                   <fnm>AH</fnm>
+                </au>
+                <au>
+                   <snm>Grumbach</snm>
+                   <fnm>K</fnm>
+                </au>
+                <au>
+                   <snm>Wang</snm>
+                   <fnm>F</fnm>
+                </au>
+                <au>
+                   <snm>Fernandez</snm>
+                   <fnm>A</fnm>
+                </au>
+             </aug>
+             <source>J Gen Intern Med</source>
+             <pubdate>2005</pubdate>
+             <volume>20</volume>
+             <issue>9</issue>
+             <fpage>800</fpage>
+             <lpage>6</lpage>
+             <xrefbib>
+                <pubidlist>
+                   <pubid idtype="doi">10.1111/j.1525-1497.2005.0174.x</pubid>
+                   <pubid idtype="pmpid" link="fulltext">16117746</pubid>
+                </pubidlist>
+             </xrefbib>
+          </bibl>
+          <bibl id="B5">
+             <title>
+                <p>Helping patients simplify and safely use complex prescription regimens</p>
+             </title>
+             <aug>
+                <au>
+                   <snm>Wolf</snm>
+                   <fnm>MS</fnm>
+                </au>
+                <au>
+                   <snm>Curtis</snm>
+                   <fnm>LM</fnm>
+                </au>
+                <au>
+                   <snm>Waite</snm>
+                   <fnm>K</fnm>
+                </au>
+                <au>
+                   <snm>Bailey</snm>
+                   <fnm>SC</fnm>
+                </au>
+                <au>
+                   <snm>Hedlund</snm>
+                   <fnm>LA</fnm>
+                </au>
+                <au>
+                   <snm>Davis</snm>
+                   <fnm>TC</fnm>
+                </au>
+                <etal/>
+             </aug>
+             <source>Arch Intern Med</source>
+             <pubdate>2011</pubdate>
+             <volume>171</volume>
+             <issue>4</issue>
+             <fpage>300</fpage>
+             <lpage>5</lpage>
+             <xrefbib>
+                <pubidlist>
+                   <pubid idtype="doi">10.1001/archinternmed.2011.39</pubid>
+                   <pubid idtype="pmpid" link="fulltext">21357804</pubid>
+                </pubidlist>
+             </xrefbib>
+          </bibl>
+          <bibl id="B6">
+             <title>
+                <p>Misunderstanding of prescription drug warning labels among patients with low literacy</p>
+             </title>
+             <aug>
+                <au>
+                   <snm>Wolf</snm>
+                   <fnm>MS</fnm>
+                </au>
+                <au>
+                   <snm>Davis</snm>
+                   <fnm>TC</fnm>
+                </au>
+                <au>
+                   <snm>Tilson</snm>
+                   <fnm>HH</fnm>
+                </au>
+                <au>
+                   <snm>Bass</snm>
+                   <fnm>PF</fnm>
+                   <suf>3rd</suf>
+                </au>
+                <au>
+                   <snm>Parker</snm>
+                   <fnm>RM</fnm>
+                </au>
+             </aug>
+             <source>Am J Health Syst Pharm</source>
+             <pubdate>2006</pubdate>
+             <volume>63</volume>
+             <issue>11</issue>
+             <fpage>1048</fpage>
+             <lpage>55</lpage>
+             <xrefbib>
+                <pubidlist>
+                   <pubid idtype="doi">10.2146/ajhp050469</pubid>
+                   <pubid idtype="pmpid" link="fulltext">16709891</pubid>
+                </pubidlist>
+             </xrefbib>
+          </bibl>
+          <bibl id="B7">
+             <title>
+                <p>Six-item screener to identify cognitive impairment among potential subjects for clinical research</p>
+             </title>
+             <aug>
+                <au>
+                   <snm>Callahan</snm>
+                   <fnm>CM</fnm>
+                </au>
+                <au>
+                   <snm>Unverzagt</snm>
+                   <fnm>FW</fnm>
+                </au>
+                <au>
+                   <snm>Hui</snm>
+                   <fnm>SL</fnm>
+                </au>
+                <au>
+                   <snm>Perkins</snm>
+                   <fnm>AJ</fnm>
+                </au>
+                <au>
+                   <snm>Hendrie</snm>
+                   <fnm>HC</fnm>
+                </au>
+             </aug>
+             <source>Med Care</source>
+             <pubdate>2002</pubdate>
+             <volume>40</volume>
+             <issue>9</issue>
+             <fpage>771</fpage>
+             <lpage>81</lpage>
+             <xrefbib>
+                <pubidlist>
+                   <pubid idtype="doi">10.1097/00005650-200209000-00007</pubid>
+                   <pubid idtype="pmpid" link="fulltext">12218768</pubid>
+                </pubidlist>
+             </xrefbib>
+          </bibl>
+          <bibl id="B8">
+             <aug>
+                <au>
+                   <snm>Doak</snm>
+                   <fnm>CC</fnm>
+                </au>
+                <au>
+                   <snm>Doak</snm>
+                   <fnm>LG</fnm>
+                </au>
+                <au>
+                   <snm>Root</snm>
+                   <fnm>JH</fnm>
+                </au>
+             </aug>
+             <source>Assessing Suitability of Materials. Teaching Patients with Low Literacy Skills</source>
+             <publisher>JB Lippincott, Philadelphia</publisher>
+             <edition>2</edition>
+             <pubdate>1996</pubdate>
+          </bibl>
+          <bibl id="B9">
+             <title>
+                <p>Strategies to improve cancer education materials</p>
+             </title>
+             <aug>
+                <au>
+                   <snm>Doak</snm>
+                   <fnm>LG</fnm>
+                </au>
+                <au>
+                   <snm>Doak</snm>
+                   <fnm>CC</fnm>
+                </au>
+                <au>
+                   <snm>Meade</snm>
+                   <fnm>CD</fnm>
+                </au>
+             </aug>
+             <source>Oncol Nurs Forum</source>
+             <pubdate>1996</pubdate>
+             <volume>23</volume>
+             <issue>8</issue>
+             <fpage>1305</fpage>
+             <lpage>12</lpage>
+             <xrefbib>
+                <pubidlist>
+                   <pubid idtype="pmpid" link="fulltext">8883075</pubid>
+                </pubidlist>
+             </xrefbib>
+          </bibl>
+          <bibl id="B10">
+             <note>Harkness J, Pennell BE, Schoua-Glusberg A: Survey questionnaire translation and assessment. In Methods for Testing and Evaluating Survey Questionnaires<it>.</it> Edited by Presser S, Rothgeb JM, Couper MP, Lessler JT, Martin E, Martin J, Singer E<it>.</it> Hoboken, NJ: John Wiley &amp; Sons; 2004:453&#8211;473.</note>
+          </bibl>
+          <bibl id="B11">
+             <title>
+                <p>Health literacy among Spanish-speaking Latino parents with limited English proficiency</p>
+             </title>
+             <aug>
+                <au>
+                   <snm>Leyva</snm>
+                   <fnm>M</fnm>
+                </au>
+                <au>
+                   <snm>Sharif</snm>
+                   <fnm>I</fnm>
+                </au>
+                <au>
+                   <snm>Ozuah</snm>
+                   <fnm>PO</fnm>
+                </au>
+             </aug>
+             <source>Ambul Pediatr</source>
+             <pubdate>2005</pubdate>
+             <volume>5</volume>
+             <issue>1</issue>
+             <fpage>56</fpage>
+             <lpage>9</lpage>
+             <xrefbib>
+                <pubidlist>
+                   <pubid idtype="doi">10.1367/A04-093R.1</pubid>
+                   <pubid idtype="pmpid" link="fulltext">15656706</pubid>
+                </pubidlist>
+             </xrefbib>
+          </bibl>
+          <bibl id="B12">
+             <title>
+                <p>The &#8216;meaningful use&#8217; regulation for electronic health records</p>
+             </title>
+             <aug>
+                <au>
+                   <snm>Blumenthal</snm>
+                   <fnm>D</fnm>
+                </au>
+                <au>
+                   <snm>Tavenner</snm>
+                   <fnm>M</fnm>
+                </au>
+             </aug>
+             <source>N Engl J Med</source>
+             <pubdate>2010</pubdate>
+             <volume>363</volume>
+             <issue>6</issue>
+             <fpage>501</fpage>
+             <lpage>4</lpage>
+             <xrefbib>
+                <pubidlist>
+                   <pubid idtype="doi">10.1056/NEJMp1006114</pubid>
+                   <pubid idtype="pmpid" link="fulltext">20647183</pubid>
+                </pubidlist>
+             </xrefbib>
+          </bibl>
+          <bibl id="B13">
+             <title>
+                <p>Interventions to improve medication reconciliation in primary care</p>
+             </title>
+             <aug>
+                <au>
+                   <snm>Bayoumi</snm>
+                   <fnm>I</fnm>
+                </au>
+                <au>
+                   <snm>Howard</snm>
+                   <fnm>M</fnm>
+                </au>
+                <au>
+                   <snm>Holbrook</snm>
+                   <fnm>AM</fnm>
+                </au>
+                <au>
+                   <snm>Schabort</snm>
+                   <fnm>I</fnm>
+                </au>
+             </aug>
+             <source>Ann Pharmacother</source>
+             <pubdate>2009</pubdate>
+             <volume>43</volume>
+             <issue>10</issue>
+             <fpage>1667</fpage>
+             <lpage>75</lpage>
+             <xrefbib>
+                <pubidlist>
+                   <pubid idtype="doi">10.1345/aph.1M059</pubid>
+                   <pubid idtype="pmpid" link="fulltext">19737997</pubid>
+                </pubidlist>
+             </xrefbib>
+          </bibl>
+          <bibl id="B14">
+             <title>
+                <p>Limited health literacy is a barrier to medication reconciliation in ambulatory care</p>
+             </title>
+             <aug>
+                <au>
+                   <snm>Persell</snm>
+                   <fnm>SD</fnm>
+                </au>
+                <au>
+                   <snm>Osborn</snm>
+                   <fnm>CY</fnm>
+                </au>
+                <au>
+                   <snm>Richard</snm>
+                   <fnm>R</fnm>
+                </au>
+                <au>
+                   <snm>Skripkauskas</snm>
+                   <fnm>S</fnm>
+                </au>
+                <au>
+                   <snm>Wolf</snm>
+                   <fnm>MS</fnm>
+                </au>
+             </aug>
+             <source>J Gen Intern Med</source>
+             <pubdate>2007</pubdate>
+             <volume>22</volume>
+             <issue>11</issue>
+             <fpage>1523</fpage>
+             <lpage>6</lpage>
+             <xrefbib>
+                <pubidlist>
+                   <pubid idtype="doi">10.1007/s11606-007-0334-x</pubid>
+                   <pubid idtype="pmpid" link="fulltext">17786521</pubid>
+                </pubidlist>
+             </xrefbib>
+          </bibl>
+          <bibl id="B15">
+             <title>
+                <p>Medication reconciliation and hypertension control</p>
+             </title>
+             <aug>
+                <au>
+                   <snm>Persell</snm>
+                   <fnm>SD</fnm>
+                </au>
+                <au>
+                   <snm>Bailey</snm>
+                   <fnm>SC</fnm>
+                </au>
+                <au>
+                   <snm>Tang</snm>
+                   <fnm>J</fnm>
+                </au>
+                <au>
+                   <snm>Davis</snm>
+                   <fnm>TC</fnm>
+                </au>
+                <au>
+                   <snm>Wolf</snm>
+                   <fnm>MS</fnm>
+                </au>
+             </aug>
+             <source>Am J Med</source>
+             <pubdate>2010</pubdate>
+             <volume>123</volume>
+             <issue>2</issue>
+             <fpage>182 e189</fpage>
+             <lpage>182 e115</lpage>
+             <xrefbib>
+                <pubidlist>
+                   <pubid idtype="doi">10.1016/j.amjmed.2009.06.027</pubid>
+                </pubidlist>
+             </xrefbib>
+          </bibl>
+          <bibl id="B16">
+             <title>
+                <p>Can electronic health records help improve patients&#8217; understanding of medications?</p>
+             </title>
+             <aug>
+                <au>
+                   <snm>Webb</snm>
+                   <fnm>JR</fnm>
+                </au>
+                <au>
+                   <snm>Feinglass</snm>
+                   <fnm>J</fnm>
+                </au>
+                <au>
+                   <snm>Makoul</snm>
+                   <fnm>G</fnm>
+                </au>
+                <au>
+                   <snm>Wilkes</snm>
+                   <fnm>CL</fnm>
+                </au>
+                <au>
+                   <snm>Dunham</snm>
+                   <fnm>DP</fnm>
+                </au>
+                <au>
+                   <snm>Baker</snm>
+                   <fnm>DW</fnm>
+                </au>
+                <etal/>
+             </aug>
+             <source>Am J Manag Care</source>
+             <pubdate>2010</pubdate>
+             <volume>16</volume>
+             <issue>12</issue>
+             <fpage>919</fpage>
+             <lpage>22</lpage>
+             <xrefbib>
+                <pubidlist>
+                   <pubid idtype="pmpid" link="fulltext">21348562</pubid>
+                </pubidlist>
+             </xrefbib>
+          </bibl>
+          <bibl id="B17">
+             <title>
+                <p>Evaluation of language concordant, patient-centered drug label instructions</p>
+             </title>
+             <aug>
+                <au>
+                   <snm>Bailey</snm>
+                   <fnm>SC</fnm>
+                </au>
+                <au>
+                   <snm>Sarkar</snm>
+                   <fnm>U</fnm>
+                </au>
+                <au>
+                   <snm>Chen</snm>
+                   <fnm>AH</fnm>
+                </au>
+                <au>
+                   <snm>Schillinger</snm>
+                   <fnm>D</fnm>
+                </au>
+                <au>
+                   <snm>Wolf</snm>
+                   <fnm>MS</fnm>
+                </au>
+             </aug>
+             <source>J Gen Intern Med</source>
+             <pubdate>2012</pubdate>
+             <volume>27</volume>
+             <issue>12</issue>
+             <fpage>1707</fpage>
+             <lpage>13</lpage>
+             <xrefbib>
+                <pubidlist>
+                   <pubid idtype="doi">10.1007/s11606-012-2035-3</pubid>
+                   <pubid idtype="pmpid" link="fulltext">22451015</pubid>
+                </pubidlist>
+             </xrefbib>
+          </bibl>
+          <bibl id="B18">
+             <title>
+                <p>An EMR-based tool to support collaborative planning for medication use among adults with diabetes: design of a multi-site randomized control trial</p>
+             </title>
+             <aug>
+                <au>
+                   <snm>Morrow</snm>
+                   <fnm>DG</fnm>
+                </au>
+                <au>
+                   <snm>Conner-Garcia</snm>
+                   <fnm>T</fnm>
+                </au>
+                <au>
+                   <snm>Graumlich</snm>
+                   <fnm>JF</fnm>
+                </au>
+                <au>
+                   <snm>Wolf</snm>
+                   <fnm>MS</fnm>
+                </au>
+                <au>
+                   <snm>McKeever</snm>
+                   <fnm>S</fnm>
+                </au>
+                <au>
+                   <snm>Madison</snm>
+                   <fnm>A</fnm>
+                </au>
+                <etal/>
+             </aug>
+             <source>Contemp Clin Trials</source>
+             <pubdate>2012</pubdate>
+             <volume>33</volume>
+             <issue>5</issue>
+             <fpage>1023</fpage>
+             <lpage>32</lpage>
+             <xrefbib>
+                <pubidlist>
+                   <pubid idtype="doi">10.1016/j.cct.2012.05.010</pubid>
+                   <pubid idtype="pmpid" link="fulltext">22664648</pubid>
+                </pubidlist>
+             </xrefbib>
+          </bibl>
+          <bibl id="B19">
+             <title>
+                <p>Effect of medication dosing frequency on adherence in chronic diseases</p>
+             </title>
+             <aug>
+                <au>
+                   <snm>Saini</snm>
+                   <fnm>SD</fnm>
+                </au>
+                <au>
+                   <snm>Schoenfeld</snm>
+                   <fnm>P</fnm>
+                </au>
+                <au>
+                   <snm>Kaulback</snm>
+                   <fnm>K</fnm>
+                </au>
+                <au>
+                   <snm>Dubinsky</snm>
+                   <fnm>MC</fnm>
+                </au>
+             </aug>
+             <source>Am J Manag Care</source>
+             <pubdate>2009</pubdate>
+             <volume>15</volume>
+             <issue>6</issue>
+             <fpage>e22</fpage>
+             <lpage>33</lpage>
+             <xrefbib>
+                <pubidlist>
+                   <pubid idtype="pmpid" link="fulltext">19514806</pubid>
+                </pubidlist>
+             </xrefbib>
+          </bibl>
+          <bibl id="B20">
+             <title>
+                <p>Patient adherence to treatment: three decades of research. A comprehensive review</p>
+             </title>
+             <aug>
+                <au>
+                   <snm>Vermeire</snm>
+                   <fnm>E</fnm>
+                </au>
+                <au>
+                   <snm>Hearnshaw</snm>
+                   <fnm>H</fnm>
+                </au>
+                <au>
+                   <snm>Van Royen</snm>
+                   <fnm>P</fnm>
+                </au>
+                <au>
+                   <snm>Denekens</snm>
+                   <fnm>J</fnm>
+                </au>
+             </aug>
+             <source>J Clin Pharm Ther</source>
+             <pubdate>2001</pubdate>
+             <volume>26</volume>
+             <issue>5</issue>
+             <fpage>331</fpage>
+             <lpage>42</lpage>
+             <xrefbib>
+                <pubidlist>
+                   <pubid idtype="doi">10.1046/j.1365-2710.2001.00363.x</pubid>
+                   <pubid idtype="pmpid" link="fulltext">11679023</pubid>
+                </pubidlist>
+             </xrefbib>
+          </bibl>
+          <bibl id="B21">
+             <title>
+                <p>Factors associated with medication refill adherence in cardiovascular-related diseases: a focus on health literacy</p>
+             </title>
+             <aug>
+                <au>
+                   <snm>Gazmararian</snm>
+                   <fnm>JA</fnm>
+                </au>
+                <au>
+                   <snm>Kripalani</snm>
+                   <fnm>S</fnm>
+                </au>
+                <au>
+                   <snm>Miller</snm>
+                   <fnm>MJ</fnm>
+                </au>
+                <au>
+                   <snm>Echt</snm>
+                   <fnm>KV</fnm>
+                </au>
+                <au>
+                   <snm>Ren</snm>
+                   <fnm>J</fnm>
+                </au>
+                <au>
+                   <snm>Rask</snm>
+                   <fnm>K</fnm>
+                </au>
+             </aug>
+             <source>J Gen Intern Med</source>
+             <pubdate>2006</pubdate>
+             <volume>21</volume>
+             <issue>12</issue>
+             <fpage>1215</fpage>
+             <lpage>21</lpage>
+             <xrefbib>
+                <pubidlist>
+                   <pubid idtype="doi">10.1111/j.1525-1497.2006.00591.x</pubid>
+                   <pubid idtype="pmpid" link="fulltext">17105519</pubid>
+                </pubidlist>
+             </xrefbib>
+          </bibl>
+          <bibl id="B22">
+             <title>
+                <p>Long-term persistence in use of statin therapy in elderly patients</p>
+             </title>
+             <aug>
+                <au>
+                   <snm>Benner</snm>
+                   <fnm>JS</fnm>
+                </au>
+                <au>
+                   <snm>Glynn</snm>
+                   <fnm>RJ</fnm>
+                </au>
+                <au>
+                   <snm>Mogun</snm>
+                   <fnm>H</fnm>
+                </au>
+                <au>
+                   <snm>Neumann</snm>
+                   <fnm>PJ</fnm>
+                </au>
+                <au>
+                   <snm>Weinstein</snm>
+                   <fnm>MC</fnm>
+                </au>
+                <au>
+                   <snm>Avorn</snm>
+                   <fnm>J</fnm>
+                </au>
+             </aug>
+             <source>JAMA</source>
+             <pubdate>2002</pubdate>
+             <volume>288</volume>
+             <issue>4</issue>
+             <fpage>455</fpage>
+             <lpage>61</lpage>
+             <xrefbib>
+                <pubidlist>
+                   <pubid idtype="doi">10.1001/jama.288.4.455</pubid>
+                   <pubid idtype="pmpid" link="fulltext">12132975</pubid>
+                </pubidlist>
+             </xrefbib>
+          </bibl>
+          <bibl id="B23">
+             <title>
+                <p>Adherence to medication</p>
+             </title>
+             <aug>
+                <au>
+                   <snm>Osterberg</snm>
+                   <fnm>L</fnm>
+                </au>
+                <au>
+                   <snm>Blaschke</snm>
+                   <fnm>T</fnm>
+                </au>
+             </aug>
+             <source>N Engl J Med</source>
+             <pubdate>2005</pubdate>
+             <volume>353</volume>
+             <issue>5</issue>
+             <fpage>487</fpage>
+             <lpage>97</lpage>
+             <xrefbib>
+                <pubidlist>
+                   <pubid idtype="doi">10.1056/NEJMra050100</pubid>
+                   <pubid idtype="pmpid" link="fulltext">16079372</pubid>
+                </pubidlist>
+             </xrefbib>
+          </bibl>
+          <bibl id="B24">
+             <title>
+                <p>A systematic review of adherence with medications for diabetes</p>
+             </title>
+             <aug>
+                <au>
+                   <snm>Cramer</snm>
+                   <fnm>JA</fnm>
+                </au>
+             </aug>
+             <source>Diabetes Care</source>
+             <pubdate>2004</pubdate>
+             <volume>27</volume>
+             <issue>5</issue>
+             <fpage>1218</fpage>
+             <lpage>24</lpage>
+             <xrefbib>
+                <pubidlist>
+                   <pubid idtype="doi">10.2337/diacare.27.5.1218</pubid>
+                   <pubid idtype="pmpid" link="fulltext">15111553</pubid>
+                </pubidlist>
+             </xrefbib>
+          </bibl>
+          <bibl id="B25">
+             <aug>
+                <au>
+                   <snm>Io</snm>
+                   <fnm>M</fnm>
+                </au>
+             </aug>
+             <source>Methodological Challenges in Biomedical HIV Prevention Trials</source>
+             <publisher>National Academies Press, Washington, DC</publisher>
+             <pubdate>2008</pubdate>
+          </bibl>
+          <bibl id="B26">
+             <title>
+                <p>Concurrent and predictive validity of a self-reported measure of medication adherence</p>
+             </title>
+             <aug>
+                <au>
+                   <snm>Morisky</snm>
+                   <fnm>DE</fnm>
+                </au>
+                <au>
+                   <snm>Green</snm>
+                   <fnm>LW</fnm>
+                </au>
+                <au>
+                   <snm>Levine</snm>
+                   <fnm>DM</fnm>
+                </au>
+             </aug>
+             <source>Med Care</source>
+             <pubdate>1986</pubdate>
+             <volume>24</volume>
+             <issue>1</issue>
+             <fpage>67</fpage>
+             <lpage>74</lpage>
+             <xrefbib>
+                <pubidlist>
+                   <pubid idtype="doi">10.1097/00005650-198601000-00007</pubid>
+                   <pubid idtype="pmpid" link="fulltext">3945130</pubid>
+                </pubidlist>
+             </xrefbib>
+          </bibl>
+          <bibl id="B27">
+             <title>
+                <p>Quick assessment of literacy in primary care: the Newest Vital Sign</p>
+             </title>
+             <aug>
+                <au>
+                   <snm>Weiss</snm>
+                   <fnm>BD</fnm>
+                </au>
+                <au>
+                   <snm>Mays</snm>
+                   <fnm>MZ</fnm>
+                </au>
+                <au>
+                   <snm>Martz</snm>
+                   <fnm>W</fnm>
+                </au>
+                <au>
+                   <snm>Castro</snm>
+                   <fnm>KM</fnm>
+                </au>
+                <au>
+                   <snm>DeWalt</snm>
+                   <fnm>DA</fnm>
+                </au>
+                <au>
+                   <snm>Pignone</snm>
+                   <fnm>MP</fnm>
+                </au>
+                <etal/>
+             </aug>
+             <source>Ann Fam Med</source>
+             <pubdate>2005</pubdate>
+             <volume>3</volume>
+             <fpage>514</fpage>
+             <lpage>22</lpage>
+             <xrefbib>
+                <pubidlist>
+                   <pubid idtype="doi">10.1370/afm.405</pubid>
+                   <pubid idtype="pmpid" link="fulltext">16338915</pubid>
+                </pubidlist>
+             </xrefbib>
+          </bibl>
+          <bibl id="B28">
+             <title>
+                <p>Improving patient understanding of prescription drug instructions</p>
+             </title>
+             <aug>
+                <au>
+                   <snm>Davis</snm>
+                   <fnm>TC</fnm>
+                </au>
+                <au>
+                   <snm>Federman</snm>
+                   <fnm>AD</fnm>
+                </au>
+                <au>
+                   <snm>Bass</snm>
+                   <fnm>PF</fnm>
+                   <suf>3rd</suf>
+                </au>
+                <au>
+                   <snm>Jackson</snm>
+                   <fnm>RH</fnm>
+                </au>
+                <au>
+                   <snm>Middlebrooks</snm>
+                   <fnm>M</fnm>
+                </au>
+                <au>
+                   <snm>Parker</snm>
+                   <fnm>RM</fnm>
+                </au>
+                <etal/>
+             </aug>
+             <source>J Gen Intern Med</source>
+             <pubdate>2009</pubdate>
+             <volume>24</volume>
+             <fpage>57</fpage>
+             <lpage>62</lpage>
+             <xrefbib>
+                <pubidlist>
+                   <pubid idtype="doi">10.1007/s11606-008-0833-4</pubid>
+                   <pubid idtype="pmpid" link="fulltext">18979142</pubid>
+                </pubidlist>
+             </xrefbib>
+          </bibl>
+          <bibl id="B29">
+             <title>
+                <p>Literacy and misunderstanding prescription drug labels</p>
+             </title>
+             <aug>
+                <au>
+                   <snm>Davis</snm>
+                   <fnm>TC</fnm>
+                </au>
+                <au>
+                   <snm>Wolf</snm>
+                   <fnm>MS</fnm>
+                </au>
+                <au>
+                   <snm>Bass</snm>
+                   <fnm>PF</fnm>
+                   <suf>3rd</suf>
+                </au>
+                <au>
+                   <snm>Thompson</snm>
+                   <fnm>JA</fnm>
+                </au>
+                <au>
+                   <snm>Tilson</snm>
+                   <fnm>HH</fnm>
+                </au>
+                <au>
+                   <snm>Neuberger</snm>
+                   <fnm>M</fnm>
+                </au>
+                <etal/>
+             </aug>
+             <source>Ann Intern Med</source>
+             <pubdate>2006</pubdate>
+             <volume>145</volume>
+             <issue>12</issue>
+             <fpage>887</fpage>
+             <lpage>94</lpage>
+             <xrefbib>
+                <pubidlist>
+                   <pubid idtype="doi">10.7326/0003-4819-145-12-200612190-00144</pubid>
+                   <pubid idtype="pmpid" link="fulltext">17135578</pubid>
+                </pubidlist>
+             </xrefbib>
+          </bibl>
+          <bibl id="B30">
+             
+                <url>http://www.healthit.gov/policy-researchers-implementers/meaningful-use-regulations</url>
+             
+<note>US Department of Health and Human Services: Health IT Regulations: Meaningful Use Regulations , Accessed January 19, 2015. [<url>http://healthit.hhs.gov/portal/server.pt?open=512&amp;objID=1325&amp;parentname=CommunityPage&amp;parentid=1&amp;mode=2</url>]</note>
+          </bibl>
+          <bibl id="B31">
+             <note>The Joint Commission: &#8220;What Did The Doctor Say?&#8221;: Improving Health Literacy to Protect Patient Safety [<url>http://www.jointcommission.org/assets/1/18/improving_health_literacy.pdf</url>]</note>
+          </bibl>
+          <bibl id="B32">
+             <title>
+                <p>Physician adoption of electronic health record systems: United States, 2011</p>
+             </title>
+             <aug>
+                <au>
+                   <snm>Jamoom</snm>
+                   <fnm>E</fnm>
+                </au>
+                <au>
+                   <snm>Beatty</snm>
+                   <fnm>P</fnm>
+                </au>
+                <au>
+                   <snm>Bercovitz</snm>
+                   <fnm>A</fnm>
+                </au>
+                <au>
+                   <snm>Woodwell</snm>
+                   <fnm>D</fnm>
+                </au>
+                <au>
+                   <snm>Palso</snm>
+                   <fnm>K</fnm>
+                </au>
+                <au>
+                   <snm>Rechtsteiner</snm>
+                   <fnm>E</fnm>
+                </au>
+             </aug>
+             <source>NCHS Data Brief</source>
+             <pubdate>2012</pubdate>
+             <volume>98</volume>
+             <fpage>1</fpage>
+             <lpage>8</lpage>
+             <xrefbib>
+                <pubidlist>
+                   <pubid idtype="pmpid" link="fulltext">23050588</pubid>
+                </pubidlist>
+             </xrefbib>
+          </bibl>
+          <bibl id="B33">
+             <title>
+                <p>Medication adherence: a call for action</p>
+             </title>
+             <aug>
+                <au>
+                   <snm>Bosworth</snm>
+                   <fnm>HB</fnm>
+                </au>
+                <au>
+                   <snm>Granger</snm>
+                   <fnm>BB</fnm>
+                </au>
+                <au>
+                   <snm>Mendys</snm>
+                   <fnm>P</fnm>
+                </au>
+                <au>
+                   <snm>Brindis</snm>
+                   <fnm>R</fnm>
+                </au>
+                <au>
+                   <snm>Burkholder</snm>
+                   <fnm>R</fnm>
+                </au>
+                <au>
+                   <snm>Czajkowski</snm>
+                   <fnm>SM</fnm>
+                </au>
+                <etal/>
+             </aug>
+             <source>Am Heart J Sep</source>
+             <pubdate>2011</pubdate>
+             <volume>162</volume>
+             <issue>3</issue>
+             <fpage>412</fpage>
+             <lpage>24</lpage>
+             <xrefbib>
+                <pubidlist>
+                   <pubid idtype="doi">10.1016/j.ahj.2011.06.007</pubid>
+                </pubidlist>
+             </xrefbib>
+          </bibl>
+       </refgrp>
+    </bm>
+ </art>

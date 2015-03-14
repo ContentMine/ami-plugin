@@ -1,4 +1,4 @@
-<argList>
+<argList name="simple">
 	<arg name="simple" 
 		brief="-s.s"
 		long="--s.simple"

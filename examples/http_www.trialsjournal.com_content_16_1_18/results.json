@@ -1,0 +1,105 @@
+{
+  "publisher": {
+    "value": [
+      "BioMed Central Ltd"
+    ]
+  },
+  "journal": {
+    "value": [
+      "Trials"
+    ]
+  },
+  "title": {
+    "value": [
+      "Clinical and cost effectiveness of computer treatment for aphasia post stroke (Big CACTUS): study protocol for a randomised controlled trial"
+    ]
+  },
+  "authors": {
+    "value": [
+      "Rebecca Palmer",
+      "Cindy Cooper",
+      "Pam Enderby",
+      "Marian Brady",
+      "Steven Julious",
+      "Audrey Bowen",
+      "Nicholas Latimer"
+    ]
+  },
+  "date": {
+    "value": [
+      "2015-01-27"
+    ]
+  },
+  "doi": {
+    "value": [
+      "10.1186/s13063-014-0527-7"
+    ]
+  },
+  "volume": {
+    "value": [
+      "16"
+    ]
+  },
+  "issue": {
+    "value": [
+      "1"
+    ]
+  },
+  "firstpage": {
+    "value": [
+      "18"
+    ]
+  },
+  "description": {
+    "value": [
+      "Aphasia affects the ability to speak, comprehend spoken language, read and write. One third of stroke survivors experience aphasia. Evidence suggests that aphasia can continue to improve after the first few months with intensive speech and language therapy, which is frequently beyond what resources allow. The development of computer software for language practice provides an opportunity for self-managed therapy. This pragmatic randomised controlled trial will investigate the clinical and cost effectiveness of a computerised approach to long-term aphasia therapy post stroke."
+    ]
+  },
+  "abstract": {
+    "value": [
+      "Aphasia affects the ability to speak, comprehend spoken language, read and write. One third of stroke survivors experience aphasia. Evidence suggests that aphasia can continue to improve after the first few months with intensive speech and language therapy, which is frequently beyond what resources allow. The development of computer software for language practice provides an opportunity for self-managed therapy. This pragmatic randomised controlled trial will investigate the clinical and cost effectiveness of a computerised approach to long-term aphasia therapy post stroke."
+    ]
+  },
+  "fulltext_html": {
+    "value": [
+      "http://www.trialsjournal.com/content/16/1/18"
+    ]
+  },
+  "fulltext_pdf": {
+    "value": [
+      "http://www.trialsjournal.com/content/pdf/s13063-014-0527-7.pdf"
+    ]
+  },
+  "fulltext_xml": {
+    "value": [
+      "/content/download/xml/s13063-014-0527-7.xml"
+    ]
+  },
+  "supplementary_material": {
+    "value": []
+  },
+  "figure": {
+    "value": [
+      "/content/figures/s13063-014-0527-7-1.gif",
+      "/content/figures/s13063-014-0527-7-2.gif"
+    ]
+  },
+  "figure_caption": {
+    "value": [
+      "Figure 1.",
+      "Progression of participants through the trial (CONSORT diagram).",
+      "Figure 2.",
+      "Statistical testing procedure."
+    ]
+  },
+  "license": {
+    "value": [
+      "\r\n\t\t\t\tThis is an Open Access article distributed under the terms of the Creative Commons Attribution License (http://creativecommons.org/licenses/by/4.0), which permits unrestricted use, distribution, and reproduction in any medium, provided the original work is properly credited. The Creative Commons Public Domain Dedication waiver (http://creativecommons.org/publicdomain/zero/1.0/) applies to the data made available in this article, unless otherwise stated.\r\n\t\t\t"
+    ]
+  },
+  "copyright": {
+    "value": [
+      "\r\n            © 2015 Palmer et al.; licensee BioMed Central. \r\n        "
+    ]
+  }
+}

@@ -1,0 +1,2659 @@
+<?xml version='1.0'?>
+<!DOCTYPE art SYSTEM 'http://www.biomedcentral.com/xml/article.dtd'>
+<art>
+    <ui>s13063-014-0530-z</ui>
+    <ji>1745-6215</ji>
+    <fm>
+       <dochead>Study protocol</dochead>
+       <bibl>
+          <title>
+             <p>Effects of adaptive servo-ventilation therapy on cardiac function and remodeling in patients with chronic heart failure (SAVIOR-C): study protocol for a randomized controlled trial</p>
+          </title>
+          <aug>
+             <au id="A1" ca="yes">
+                <snm>Seino</snm>
+                <fnm>Yoshihiko</fnm>
+                <insr iid="I1"/>
+                <email>y-seino@nms.ac.jp</email>
+             </au>
+             <au id="A2">
+                <snm>Momomura</snm>
+                <fnm>Shin-ichi</fnm>
+                <insr iid="I2"/>
+                <email>momochan-tky@umin.net</email>
+             </au>
+             <au id="A3">
+                <snm>Kihara</snm>
+                <fnm>Yasuki</fnm>
+                <insr iid="I3"/>
+                <email>ykihara@hiroshima-u.ac.jp</email>
+             </au>
+             <au id="A4">
+                <snm>Adachi</snm>
+                <fnm>Hitoshi</fnm>
+                <insr iid="I4"/>
+                <email>h-adachi@ops.dti.ne.jp</email>
+             </au>
+             <au id="A5">
+                <snm>Yasumura</snm>
+                <fnm>Yoshio</fnm>
+                <insr iid="I5"/>
+                <email>yasumura@onh.go.jp</email>
+             </au>
+             <au id="A6">
+                <snm>Yokoyama</snm>
+                <fnm>Hiroyuki</fnm>
+                <insr iid="I6"/>
+                <email>hiyokoya@hctv.ne.jp</email>
+             </au>
+             <au id="A7" type="on_behalf">
+                <cnm>for the SAVIOR-C investigators</cnm>
+             </au>
+          </aug>
+          <insg>
+             <ins id="I1">
+                <p>Department of Cardiology, Cardiovascular Center, Nippon Medical School Chiba Hokusoh Hospital, 1715 Kamagari, Inzai 270-1694, Chiba, Japan</p>
+             </ins>
+             <ins id="I2">
+                <p>Division of Cardiovascular Medicine, Saitama Medical Center, Jichi Medical University, 1-847 Amanuma-cho, Omiya-ku, Saitama 330-8503, Saitama, Japan</p>
+             </ins>
+             <ins id="I3">
+                <p>Department of Cardiovascular Medicine, Hiroshima University Graduate School of Biomedical &amp; Health Sciences, 1-2-3 Kasumi, Minami-ku, Hiroshima 734-8551, Hiroshima, Japan</p>
+             </ins>
+             <ins id="I4">
+                <p>Division of Cardiology, Gunma Prefectural Cardiovascular Center, 3-12 Kamiizumi-machi, Maebashi 371-0004, Gunma, Japan</p>
+             </ins>
+             <ins id="I5">
+                <p>Cardiovascular Division, Osaka National Hospital, 2-1-14 Hoenzaka, Chuo-ku 540-0006, Osaka, Japan</p>
+             </ins>
+             <ins id="I6">
+                <p>Department of Cardiovascular Medicine, National Cerebral and Cardiovascular Center, 5-7-1 Fujishirodai, Suita 565-8565, Osaka, Japan</p>
+             </ins>
+          </insg>
+          <source>Trials</source>
+          <issn>1745-6215</issn>
+          <pubdate>2015</pubdate>
+          <volume>16</volume>
+          <issue>1</issue>
+          <fpage>14</fpage>
+          <url>http://www.trialsjournal.com/content/16/1/14</url>
+          <xrefbib>
+             <pubidlist>
+                <pubid idtype="doi">10.1186/s13063-014-0530-z</pubid>
+             </pubidlist>
+          </xrefbib>
+       </bibl>
+       <history>
+          <rec>
+             <date>
+                <day>10</day>
+                <month>9</month>
+                <year>2014</year>
+             </date>
+          </rec>
+          <acc>
+             <date>
+                <day>19</day>
+                <month>12</month>
+                <year>2014</year>
+             </date>
+          </acc>
+          <pub>
+             <date>
+                <day>16</day>
+                <month>1</month>
+                <year>2015</year>
+             </date>
+          </pub>
+       </history>
+       <cpyrt>
+          <year>2015</year>
+          <collab>Seino et al.; licensee BioMed Central.</collab>
+          <note>This is an Open Access article distributed under the terms of the Creative Commons Attribution License (<url>http://creativecommons.org/licenses/by/4.0</url>), which permits unrestricted use, distribution, and reproduction in any medium, provided the original work is properly credited. The Creative Commons Public Domain Dedication waiver (<url>http://creativecommons.org/publicdomain/zero/1.0/</url>) applies to the data made available in this article, unless otherwise stated.</note>
+       </cpyrt>
+       <kwdg>
+          <kwd>Adaptive servo-ventilation</kwd>
+          <kwd>Chronic heart failure</kwd>
+          <kwd>Noninvasive positive pressure ventilation</kwd>
+          <kwd>Left ventricular remodeling</kwd>
+          <kwd>Left ventricular ejection fraction</kwd>
+          <kwd>Cardiac function</kwd>
+          <kwd>Prognosis</kwd>
+          <kwd>Quality of life</kwd>
+          <kwd>Nonpharmacotherapy</kwd>
+          <kwd>Sleep-disordered breathing</kwd>
+       </kwdg>
+       <abs>
+          <sec>
+             <st>
+                <p>Abstract</p>
+             </st>
+             <sec>
+                <st>
+                   <p>Background</p>
+                </st>
+                <p>Adaptive servo-ventilation (ASV) therapy, which is a form of noninvasive positive pressure ventilation therapy and uses an innovative ventilator that has simple operability and provides good patient adherence, potentially has therapeutic benefits&#8212;suppression of the deterioration and progression of chronic heart failure (CHF) and a reduction in the number of repeated hospitalizations. Therefore, ASV therapy draws attention as a novel, noninvasive nonpharmacotherapy for patients with CHF owing to its hemodynamics-improving effect, and it is currently being accepted in real-world clinical settings in Japan. However, clinical evidence sufficient for treatment recommendation is lacking because a multicenter, randomized, controlled study of ASV therapy has never been conducted.</p>
+             </sec>
+             <sec>
+                <st>
+                   <p>Methods/Design</p>
+                </st>
+                <p>The present study is a confirmatory, prospective, multicenter, collaborative, open-label, blinded-endpoint, parallel-group, randomized, controlled study. At 40 medical institutions in Japan, 200 Japanese outpatients with mild to severe CHF (age: &#8805; 20 years; New York Heart Association classification: greater than or equal to class II) will be randomly assigned to either of the following two study groups: the ASV group, in which 100 outpatients undergo guideline-directed medical therapy and ASV therapy for 24 weeks; and the control group, in which 100 outpatients undergo only guideline-directed medical therapy for 24 weeks. The objective of the present study is to confirm whether the ASV group is superior to the control group concerning the improvement of left ventricular contractility and remodeling, both assessed by two-dimensional echocardiography. Furthermore, the present study will also secondarily examine the effects of ASV therapy on the prognosis and quality of life of patients with CHF.</p>
+             </sec>
+             <sec>
+                <st>
+                   <p>Discussion</p>
+                </st>
+                <p>ASV therapy using the device has the potential to provide therapeutic benefits based on its simple operability and good patient adherence and possesses the potential to improve left ventricular contractility and remodeling. Therefore, the present study is expected to afford more solid scientific evidence regarding ASV therapy as a novel, noninvasive, nonpharmacological, in-home, long-term ventilation therapy for patients with mild to severe CHF.</p>
+             </sec>
+             <sec>
+                <st>
+                   <p>Trial registration</p>
+                </st>
+                <p>UMIN identifier: <url>UMIN000006549</url>, registered on 17 October, 2011.</p>
+             </sec>
+          </sec>
+       </abs>
+    </fm>
+    <bdy>
+       <sec>
+          <st>
+             <p>Background</p>
+          </st>
+          <p>In recent years, pharmacotherapy for chronic heart failure (CHF) has made remarkable progress. Furthermore, nonpharmacotherapies (for example, cardiac resynchronization therapy using an implantable cardioverter-defibrillator and comprehensive cardiac rehabilitation) have shown a given level of efficacy. However, patients with severe CHF still have a poor life prognosis and are often and repeatedly admitted to the hospital in the chronic clinical course of the disease. In addition, there are many patients whose symptoms of pulmonary congestion (for example, dyspnea and orthopnea) as well as quality of life are not sufficiently improved by existing therapeutic modalities.</p>
+          <p>Noninvasive positive pressure ventilation (NPPV) therapy has been reported to improve not only dyspnea and respiratory distress caused by cardiogenic pulmonary edema but also cardiovascular hemodynamics <abbrgrp>
+                <abbr bid="B1">1</abbr>
+             </abbrgrp>. Namely, NPPV therapy is beneficial for both the respiratory and hemodynamic functions of patients with heart failure. In Japan, NPPV therapy is recommended for patients with acute heart failure who do not respond to oxygen therapy as a therapy categorized to class I in treatment recommendation and to A in evidence level <abbrgrp>
+                <abbr bid="B2">2</abbr>
+             </abbrgrp>. These facts lead us to conjecture that NPPV therapy is potentially effective for patients presenting with symptoms that are attributable to the insufficient long-term management of pulmonary congestion/edema (for example, dyspnea at rest, intense fatigability, orthopnea, and paroxysmal nocturnal dyspnea). Nevertheless, NPPV therapy has not become established as a therapeutic modality for CHF because conventional medical devices for NPPV therapy are difficult to use for a long period due to their problems (for example, cumbersome operability of the devices and poor patient adherence).</p>
+          <p>Adaptive servo-ventilation (ASV) therapy, which is a form of NPPV therapy and uses an innovative ventilator AutoSet CS&#8482; (Teijin Pharma Limited, Tokyo, Japan), potentially has the following mechanistic features that differ from conventional NPPV therapy including continuous positive airway pressure and bi-level positive airway pressure: 1) ASV therapy appropriately sustains ventilation by instantaneously detecting a decay in spontaneous ventilation of the patient and by providing support pressure in concert with his/her respiratory flow patterns; and 2) ASV therapy presents more physiological synchronization with the respiratory patterns <abbrgrp>
+                <abbr bid="B3">3</abbr>
+             </abbrgrp>. ASV therapy potentially has therapeutic benefits&#8212;suppression of the deterioration and progression of CHF and a reduction in the number of repeated hospitalizations&#8212;based on the simple operability of the device and good patient adherence as compared with conventional NPPV therapy. Thus, it draws attention as a novel, noninvasive nonpharmacotherapy for patients with CHF owing to its hemodynamics-improving effect. Prior to the present study, we conducted a multicenter, retrospective, observational study [<it>S</it>tudy on the effects of <it>A</it>daptive servo-<it>V</it>entilation <it>I</it>n patients with chr<it>O</it>nic heart failu<it>R</it>e: <it>R</it>eal-world, multicenter, retrospective, observational study (SAVIOR-R)] for the objective of examining the real-world practical efficacy and limitations of ASV therapy for patients with CHF in Japan <abbrgrp>
+                <abbr bid="B4">4</abbr>
+             </abbrgrp>. SAVIOR-R suggested that ASV therapy possibly improves the cardiac function and symptoms of patients with CHF, regardless of the severity of sleep-disordered breathing. Furthermore, prior single-center clinical studies indicated that ASV therapy improves left ventricular contractility and induces cardiac reverse remodeling <abbrgrp>
+                <abbr bid="B5">5</abbr>
+             </abbrgrp>, that pulmonary congestion improved by positive end-expiratory pressure suppresses sympathetic nerve activity <abbrgrp>
+                <abbr bid="B6">6</abbr>
+             </abbrgrp>-<abbrgrp>
+                <abbr bid="B8">8</abbr>
+             </abbrgrp>, and that ASV therapy improves left ventricular ejection fraction (LVEF) and reduces brain natriuretic peptide levels <abbrgrp>
+                <abbr bid="B9">9</abbr>
+             </abbrgrp> and further cardiac events (death and hospitalization) <abbrgrp>
+                <abbr bid="B10">10</abbr>
+             </abbrgrp>.</p>
+          <p>The present study is a confirmatory study of SAVIOR-R and aims to assess the effects of ASV therapy on left ventricular contractility and remodeling in patients with mild to severe CHF in a multicenter, randomized, controlled study. Left ventricular contractility and remodeling will be assessed by two-dimensional echocardiography.</p>
+       </sec>
+       <sec>
+          <st>
+             <p>Methods/Design</p>
+          </st>
+          <sec>
+             <st>
+                <p>Study design and study organization</p>
+             </st>
+             <p>The present study (SAVIOR-C) is a confirmatory, prospective, multicenter, collaborative, open-label, blinded-endpoint, parallel-group, randomized, controlled study. The target number of patients is 200, and the study groups consist of the ASV group and the control group. The present study will last for 24 weeks, and the primary and secondary endpoints will be assessed at baseline (8 weeks prior to treatment onset through treatment onset), at week 12 of study (&#177;4 weeks), on the day of study discontinuation, or on the day of study completion at week 24 (&#177;4 weeks).</p>
+             <p>The Steering Committee will perform activities (for example, selection of study sites, investigators, and others, preparation and revision of the protocol and other documents, interpretation of questions about the study plan, coordination with investigators, establishment of the handling criteria for patients and data, determination of the acceptance of patients and data, interpretation of the study results, and preparation of study conclusions; Additional file <supplr sid="S1">1</supplr>). The Central Adjudication Committee will confirm in a blind manner the absence of any problems in measurement conditions and results of two-dimensional echocardiographic parameters, including LVEF&#8212;the primary endpoint&#8212;and in the subinvestigator&#8217;s assessment on CHF deterioration&#8212;the secondary endpoint, and will check whether adverse events and ventilator failure have developed in a biased fashion to a given group. The Study Promotion Committee will afford study support to study sites. The present study has been approved by the Ethical Review Board at each participating medical institution (Additional file <supplr sid="S2">2</supplr>) before its conduct in accordance with the Declaration of Helsinki. Prior to enrollment, all patients will provide written informed consent to be involved in the present study. The present trial is registered (UMIN identifier: UMIN000006549, registered on 17 October, 2011).</p></sec>
+          <sec>
+             <st>
+                <p>Patients</p>
+             </st>
+             <p>SAVIOR-C will assign 200 Japanese outpatients with CHF, who meet all of the inclusion criteria and do not fall under any of the exclusion criteria (Table&#160;<tblr tid="T1">1</tblr>), to either of the following two study groups at 40 medical institutions in Japan based on assignment adjustment factors [age: &lt; 65 years/&#8805; 65 years: gender: male/female:, and New York Heart Association (NYHA) classification: class II/III]: the ASV group and the control group (Figure&#160;<figr fid="F1">1</figr>).
+                    
+                  </p>
+             
+                <table id="T1">
+                   <title>
+                      <p>Table 1</p>
+                   </title>
+                   <caption>
+                      <p>
+                            <b>Inclusion and exclusion criteria</b>                          
+                      </p>
+                   </caption>
+                   <tgroup align="left" cols="2">
+                      <colspec align="left" colname="c1" colnum="1" colwidth="*"/>
+                      <colspec align="left" colname="c2" colnum="2" colwidth="*"/>
+                      <thead>
+                         <row valign="top">
+                            <entry colname="c1">
+                               <p>
+                                  <b>Inclusion criteria</b>                              
+                               </p>
+                            </entry>
+                            <entry colname="c2">
+                               <p>
+                                  <b>Exclusion criteria</b>                              
+                               </p>
+                            </entry>
+                         </row>
+                      </thead>
+                      <tfoot>
+                         <p>*Week 8 before enrollment through day of enrollment. ASV, adaptive servo-ventilation; CHF, chronic heart failure; LVEF, left ventricular ejection fraction; NYHA, New York Heart Association.</p>
+                      </tfoot>
+                      <tbody>
+                         <row valign="top">
+                            <entry colname="c1">
+                               <p>1. Men and women</p>
+                            </entry>
+                            <entry colname="c2">
+                               <p>1. Patients with any of the following symptoms:</p>
+                            </entry>
+                         </row>
+                         <row valign="top">
+                            <entry colname="c1">
+                               <p>2. Age &#8805;20 years at informed consent acquisition</p>
+                            </entry>
+                            <entry colname="c2">
+                               <p>- Acute sinusitis or otitis media</p>
+                            </entry>
+                         </row>
+                         <row valign="top">
+                            <entry colname="c1">
+                               <p>3. Patients with CHF who are undergoing guideline-directed medical therapy</p>
+                            </entry>
+                            <entry colname="c2">
+                               <p>- Symptoms predisposing vomiting in the mask</p>
+                            </entry>
+                         </row>
+                         <row valign="top">
+                            <entry colname="c1" morerows="1">
+                               <p>4. Patients with CHF capable of using the ASV device at home as outpatients after enrollment</p>
+                            </entry>
+                            <entry colname="c2">
+                               <p>- Incapable of swallowing airway secretions</p>
+                            </entry>
+                         </row>
+                         <row valign="top">
+                            <entry colname="c2">
+                               <p>- Pneumothorax or mediastinal emphysema</p>
+                            </entry>
+                         </row>
+                         <row valign="top">
+                            <entry colname="c1">
+                               <p>5. Patients whose NYHA class at baseline* is greater than or equal to II</p>
+                            </entry>
+                            <entry colname="c2">
+                               <p>- Recent cranial injury or surgery</p>
+                            </entry>
+                         </row>
+                         <row valign="top">
+                            <entry colname="c1">
+                               <p>6. Patients whose LVEF at baseline* is &lt;40%</p>
+                            </entry>
+                            <entry colname="c2">
+                               <p>- Chronic hypoventilation</p>
+                            </entry>
+                         </row>
+                         <row valign="top">
+                            <entry colname="c1"/>
+                            <entry colname="c2">
+                               <p>2. Patients at risk of developing any of the following symptoms due to the use of the ASV device</p>
+                            </entry>
+                         </row>
+                         <row valign="top">
+                            <entry colname="c1"/>
+                            <entry colname="c2">
+                               <p>- Hypotension or a significant reduction in intravascular volume</p>
+                            </entry>
+                         </row>
+                         <row valign="top">
+                            <entry colname="c1"/>
+                            <entry colname="c2">
+                               <p>- Intense nasal bleeding leading to the risk of pulmonary aspiration</p>
+                            </entry>
+                         </row>
+                         <row valign="top">
+                            <entry colname="c1"/>
+                            <entry colname="c2">
+                               <p>3. Patients incapable of giving voluntary consent</p>
+                            </entry>
+                         </row>
+                         <row valign="top">
+                            <entry colname="c1"/>
+                            <entry colname="c2">
+                               <p>4. Patients with a history of undergoing the treatment of CHF by ASV at home</p>
+                            </entry>
+                         </row>
+                         <row valign="top">
+                            <entry colname="c1"/>
+                            <entry colname="c2">
+                               <p>5. Patients who are enrolled in another clinical study or trial</p>
+                            </entry>
+                         </row>
+                         <row valign="top">
+                            <entry colname="c1"/>
+                            <entry colname="c2">
+                               <p>6. Patients diagnosed with or suspected of dementia</p>
+                            </entry>
+                         </row>
+                         <row valign="top">
+                            <entry colname="c1"/>
+                            <entry colname="c2">
+                               <p>7. Patients whom the attending physician has considered ineligible for this study</p>
+                            </entry>
+                         </row>
+                      </tbody>
+                   </tgroup>
+                </table>
+             
+             
+                <fig id="F1">
+                   <title>
+                      <p>Figure 1</p>
+                   </title>
+                   <caption>
+                      <p>Flow diagram of SAVIOR-C. </p>
+                   </caption>
+                   <text>
+                      <p>
+                            <b>Flow diagram of SAVIOR-C.</b> AHI, apnea-hypopnea index; ASV, adaptive servo-ventilation; GDMT, guideline-directed medical therapy; NYHA, New York Heart Association.</p>
+                   </text>
+                   <graphic file="s13063-014-0530-z-1"/>
+                </fig>
+             
+          </sec>
+          <sec>
+             <st>
+                <p>Study treatment</p>
+             </st>
+             <p>Study treatment initiates within 8 weeks after provision of the verbal and written explanations by the investigator to each patient. Eligibility check, enrollment, and randomization of each patient are performed between the provision and the study onset. Patients in the ASV group undergo ASV therapy in addition to guideline-directed medical therapy <abbrgrp>
+                   <abbr bid="B11">11</abbr>
+                </abbrgrp> for the study period (study onset through week 24 of study), while patients in the control group undergo only guideline-directed medical therapy for the study period. Patients in the ASV therapy group, who are in bed, undergo the ASV therapy each night during the study period.</p>
+          </sec>
+          <sec>
+             <st>
+                <p>Endpoints</p>
+             </st>
+             <p>Efficacy, safety, and other aspects of ASV therapy will be assessed. The primary endpoint for efficacy is LVEF, a variable for the evaluation of heart failure that is applicable to a randomized controlled study of prospective, open-label, blinded-endpoint design. Two-dimensional echocardiography will be conducted at each institution in accordance with the procedures specified for SAVIOR-C. LVEF, left ventricular end-systolic volume, and left ventricular end-diastolic volume will be calculated according to the biplane Simpson&#8217;s method <abbrgrp>
+                   <abbr bid="B12">12</abbr>
+                </abbrgrp>. Furthermore, the Central Adjudication Committee will determine in a blinded fashion the acceptability of the echocardiograms to be submitted by the investigators.</p>
+             <p>The secondary endpoints for efficacy are 1) clinical events (death, hospitalization, treatment changes, and long-lasting (&#8805;12 weeks) deterioration of symptoms) <abbrgrp>
+                   <abbr bid="B13">13</abbr>
+                </abbrgrp> to be finally adjudicated by the Central Adjudication Committee in a blind fashion, 2) brain natriuretic peptide to be measured at each participating medical institution, and 3) clinical composite response to be categorized (worsened, unchanged, and improved) based on NYHA classification and clinical events.</p>
+             <p>The endpoints for safety are adverse events and ventilator failure. The endpoints for other aspects of ASV therapy are as follows: 1) those to be collected via the case report form - patient background, quality of life, activities of daily living, vital signs, physical findings, echocardiograms, chest radiographs, hematology results, sleep study results (for example, apnea-hypopnea index), and usage of the ventilator, all from the ASV and control groups; and 2) those to be collected via electronic means&#8212;echocardiograms and air flow in the sleep study from the ASV and control groups, and usage of the ventilator from the ASV group. The schedule of observations, examinations, and assessments is shown in Table&#160;<tblr tid="T2">2</tblr>.
+                  </p>
+             
+                <table id="T2">
+                   <title>
+                      <p>Table 2</p>
+                   </title>
+                   <caption>
+                      <p>
+                            <b>Schedule for observation, testing, and assessment</b>                          
+                      </p>
+                   </caption>
+                   <tgroup align="left" cols="5">
+                      <colspec align="left" colname="c1" colnum="1" colwidth="*"/>
+                      <colspec align="left" colname="c2" colnum="2" colwidth="*"/>
+                      <colspec align="left" colname="c3" colnum="3" colwidth="*"/>
+                      <colspec align="left" colname="c4" colnum="4" colwidth="*"/>
+                      <colspec align="left" colname="c5" colnum="5" colwidth="*"/>
+                      <thead>
+                         <row valign="top">
+                            <entry colname="c1">
+                               <p>
+                                  <b>Acquisition means</b>                              
+                               </p>
+                            </entry>
+                            <entry colname="c2">
+                               <p>
+                                  <b>Examination items</b>                              
+                               </p>
+                            </entry>
+                            <entry nameend="c5" namest="c3">
+                               <p>
+                                  <b>Timing (allowable range)</b>                              
+                               </p>
+                            </entry>
+                         </row>
+                      </thead>
+                      <tfoot>
+                         <p>
+                            <sup>1</sup>Without the ASV device, a device for sleep study (type 1, 2, or 3) is used. <sup>2</sup>Without the ASV device, a device for sleep study (types 1, 2, 3, or 4) is used. ASV, adaptive servo-ventilation; NYHA, New York Heart Association.</p>
+                      </tfoot>
+                      <tbody>
+                         <row valign="top">
+                            <entry colname="c1"/>
+                            <entry colname="c2"/>
+                            <entry colname="c3">
+                               <p>Baseline: week 8 before enrollment through day of enrollment</p>
+                            </entry>
+                            <entry colname="c4">
+                               <p>Week 12 (&#177;4 weeks)</p>
+                            </entry>
+                            <entry colname="c5">
+                               <p>Day of study discontinuation or day of study completion at week 24 (&#177;4 weeks)</p>
+                            </entry>
+                         </row>
+                         <row valign="top">
+                            <entry colname="c1" morerows="13">
+                               <p>Case report form</p>
+                            </entry>
+                            <entry colname="c2">
+                               <p>Patient background</p>
+                            </entry>
+                            <entry colname="c3">
+                               <p>&#215;</p>
+                            </entry>
+                            <entry colname="c4"/>
+                            <entry colname="c5"/>
+                         </row>
+                         <row valign="top">
+                            <entry colname="c2">
+                               <p>Combined therapy</p>
+                            </entry>
+                            <entry colname="c3">
+                               <p>&#215;</p>
+                            </entry>
+                            <entry colname="c4">
+                               <p>&#215;</p>
+                            </entry>
+                            <entry colname="c5">
+                               <p>&#215;</p>
+                            </entry>
+                         </row>
+                         <row valign="top">
+                            <entry colname="c2">
+                               <p>Symptoms (NYHA class and self-assessment of daytime sleepiness)</p>
+                            </entry>
+                            <entry colname="c3">
+                               <p>&#215;</p>
+                            </entry>
+                            <entry colname="c4">
+                               <p>&#215;</p>
+                            </entry>
+                            <entry colname="c5">
+                               <p>&#215;</p>
+                            </entry>
+                         </row>
+                         <row valign="top">
+                            <entry colname="c2">
+                               <p>Quality of life and activities of daily living</p>
+                            </entry>
+                            <entry colname="c3">
+                               <p>&#215;</p>
+                            </entry>
+                            <entry colname="c4">
+                               <p>&#215;</p>
+                            </entry>
+                            <entry colname="c5">
+                               <p>&#215;</p>
+                            </entry>
+                         </row>
+                         <row valign="top">
+                            <entry colname="c2">
+                               <p>Vital signs</p>
+                            </entry>
+                            <entry colname="c3">
+                               <p>&#215;</p>
+                            </entry>
+                            <entry colname="c4">
+                               <p>&#215;</p>
+                            </entry>
+                            <entry colname="c5">
+                               <p>&#215;</p>
+                            </entry>
+                         </row>
+                         <row valign="top">
+                            <entry colname="c2">
+                               <p>Physical examination</p>
+                            </entry>
+                            <entry colname="c3">
+                               <p>&#215;</p>
+                            </entry>
+                            <entry colname="c4">
+                               <p>&#215;</p>
+                            </entry>
+                            <entry colname="c5">
+                               <p>&#215;</p>
+                            </entry>
+                         </row>
+                         <row valign="top">
+                            <entry colname="c2">
+                               <p>Echocardiography</p>
+                            </entry>
+                            <entry colname="c3">
+                               <p>&#215;</p>
+                            </entry>
+                            <entry colname="c4">
+                               <p>&#215;</p>
+                            </entry>
+                            <entry colname="c5">
+                               <p>&#215;</p>
+                            </entry>
+                         </row>
+                         <row valign="top">
+                            <entry colname="c2">
+                               <p>Chest X-ray</p>
+                            </entry>
+                            <entry colname="c3">
+                               <p>&#215;</p>
+                            </entry>
+                            <entry colname="c4">
+                               <p>&#215;</p>
+                            </entry>
+                            <entry colname="c5">
+                               <p>&#215;</p>
+                            </entry>
+                         </row>
+                         <row valign="top">
+                            <entry colname="c2">
+                               <p>Brain natriuretic peptide</p>
+                            </entry>
+                            <entry colname="c3">
+                               <p>&#215;</p>
+                            </entry>
+                            <entry colname="c4">
+                               <p>&#215;</p>
+                            </entry>
+                            <entry colname="c5">
+                               <p>&#215;</p>
+                            </entry>
+                         </row>
+                         <row valign="top">
+                            <entry colname="c2">
+                               <p>Hematology</p>
+                            </entry>
+                            <entry colname="c3">
+                               <p>&#215;</p>
+                            </entry>
+                            <entry colname="c4">
+                               <p>&#215;</p>
+                            </entry>
+                            <entry colname="c5">
+                               <p>&#215;</p>
+                            </entry>
+                         </row>
+                         <row valign="top">
+                            <entry colname="c2">
+                               <p>Sleep study</p>
+                            </entry>
+                            <entry colname="c3">
+                               <p>&#215;<sup>1</sup>
+                              </p>
+                            </entry>
+                            <entry colname="c4">
+                               <p>&#215;</p>
+                            </entry>
+                            <entry colname="c5">
+                               <p>Wherever possible<sup>2</sup>
+                              </p>
+                            </entry>
+                         </row>
+                         <row valign="top">
+                            <entry colname="c2">
+                               <p>Cardiac event</p>
+                            </entry>
+                            <entry colname="c3"/>
+                            <entry colname="c4">
+                               <p>&#215;</p>
+                            </entry>
+                            <entry colname="c5">
+                               <p>&#215;</p>
+                            </entry>
+                         </row>
+                         <row valign="top">
+                            <entry colname="c2">
+                               <p>Usage of the ventilator in the ASV group</p>
+                            </entry>
+                            <entry colname="c3">
+                               <p>&#215;</p>
+                            </entry>
+                            <entry colname="c4">
+                               <p>&#215;</p>
+                            </entry>
+                            <entry colname="c5">
+                               <p>&#215;</p>
+                            </entry>
+                         </row>
+                         <row valign="top">
+                            <entry colname="c2">
+                               <p>Adverse events</p>
+                            </entry>
+                            <entry colname="c3"/>
+                            <entry colname="c4">
+                               <p>&#215;</p>
+                            </entry>
+                            <entry colname="c5">
+                               <p>&#215;</p>
+                            </entry>
+                         </row>
+                         <row valign="top">
+                            <entry colname="c1" morerows="2">
+                               <p>Electronic means</p>
+                            </entry>
+                            <entry colname="c2">
+                               <p>Echocardiogram</p>
+                            </entry>
+                            <entry colname="c3">
+                               <p>&#215;</p>
+                            </entry>
+                            <entry colname="c4">
+                               <p>&#215;</p>
+                            </entry>
+                            <entry colname="c5">
+                               <p>&#215;</p>
+                            </entry>
+                         </row>
+                         <row valign="top">
+                            <entry colname="c2">
+                               <p>Air flow in the sleep study</p>
+                            </entry>
+                            <entry colname="c3">
+                               <p>&#215;<sup>1</sup>
+                              </p>
+                            </entry>
+                            <entry colname="c4"/>
+                            <entry colname="c5">
+                               <p>Wherever possible<sup>2</sup>
+                              </p>
+                            </entry>
+                         </row>
+                         <row valign="top">
+                            <entry colname="c2">
+                               <p>Usage of the ventilator in the ASV group</p>
+                            </entry>
+                            <entry colname="c3"/>
+                            <entry colname="c4">
+                               <p>&#215;</p>
+                            </entry>
+                            <entry colname="c5">
+                               <p>&#215;</p>
+                            </entry>
+                         </row>
+                      </tbody>
+                   </tgroup>
+                </table>
+             
+          </sec>
+          <sec>
+             <st>
+                <p>Statistical methods and sample size</p>
+             </st>
+             <p>The subgroup analysis of patients with reduced LVEF (&lt;40%) in SAVIOR-R revealed a 6.9% improvement (before ASV therapy: 26.5&#8201;&#177;&#8201;7.4%; after ASV therapy: 33.4&#8201;&#177;&#8201;13.0%). In SAVIOR-R, furthermore, a statistical analysis considering time-course changes in LVEF indicated that the LVEF-improving effect of ASV therapy tended to appear at week 12 of the study or later. LVEF remained unchanged when ASV therapy was not conducted and improved by 5% when ASV therapy was conducted for 24 weeks. The target number of patients in SAVIOR-C was calculated based on an assumed standard deviation of 7.4 in reference to the pre-ASV therapy value. Consequently, power exceeds 80% when a group includes not less than 90 patients. Since sufficient power is obtained when a group includes 100 patients in consideration of a presumed withdrawal rate of 10%, a total of 200 patients&#8212;100 patients per study group&#8212;were established.</p>
+             <p>The efficacy analysis set consists of the full analysis set and the per-protocol set to be defined below. The full analysis set consists of patients who initiated ASV therapy, from whom the following patients are excluded: 1) patients in the ASV group who never used the ventilator during the study period; and 2) patients from whom the efficacy data after study onset were not obtained at all during the study period. The per-protocol set consists of patients in the full analysis set, from whom the following patients are excluded: 1) patients who deviated from the inclusion criteria or fell under any of the exclusion criteria; 2) patients who fell under any of prohibited combination therapies; and 3) patients with poor compliance in ventilator use. Poor compliance is defined as an ASV therapy practice rate of&#8201;&lt;&#8201;80% (number of days from day of treatment onset through day of treatment discontinuation or day of study completion). The safety of the study groups will be analyzed statistically on an intention-to-treat basis.</p>
+             <p>The aim of the statistical analyses is to examine the efficacy and safety of ASV therapy for the target number of 200 patients by comparing the ASV group with the control group with respect to the primary endpoint for efficacy&#8212;LVEF&#8212;and to the measured values of respective secondary endpoints. The detailed procedures for randomized assignment will be determined but will not be informed to the subinvestigators at each participating medical institution. The details and technical methods of the statistical analyses will be described in the statistical analysis plan to be prepared prior to database lock. Statistical tests (for example, chi-square test using the contingency table, Fisher&#8217;s exact probability test, Kruskal-Wallis test, and analysis of variance) will be used in accordance with the scale of demographic data. Furthermore, a two-tailed probability of 15% will be established as an index of intergroup homogeneity. The data to be collected in the present study will be analyzed by the Japan-Clinical Research Support Unit that is completely independent from study organizations.</p>
+          </sec>
+       </sec>
+       <sec>
+          <st>
+             <p>Discussion</p>
+          </st>
+          <p>The 5-year survival rates of patients with CHF in the 1990s were as low as 25% and 38% for males and females, respectively <abbrgrp>
+                <abbr bid="B14">14</abbr>
+             </abbrgrp>. The 5-year survival rate of patients with CHF who had left ventricular systolic dysfunction improved to 52% <abbrgrp>
+                <abbr bid="B15">15</abbr>
+             </abbrgrp>. However, in both males and females, CHF requiring hospitalization was more &#8220;malignant&#8221; than many of the common types of cancer <abbrgrp>
+                <abbr bid="B16">16</abbr>
+             </abbrgrp>. The 5-year survival rates of patients with CHF aged 65 to 74 years were 54% and 40% for males and females, respectively <abbrgrp>
+                <abbr bid="B17">17</abbr>
+             </abbrgrp>. Furthermore, the 5-year survival rates of patients with CHF categorized to stages A, B, C, and D were 97%, 96%, 75%, and 20%, respectively <abbrgrp>
+                <abbr bid="B18">18</abbr>
+             </abbrgrp>. These epidemiologic data clearly indicate that CHF, once progressed, still exhibits a poor life prognosis despite recent progress in therapeutic modalities and that preventing the deterioration and progression of CHF severe enough to require hospitalization is critically important for the further betterment of the survival rate of patients with CHF, and also indicates the need to develop a novel therapeutic modality which is useful for the prevention and progression of CHF, apart from pharmacotherapies and nonpharmacoptherapies that are recommended by guidelines <abbrgrp>
+                <abbr bid="B11">11</abbr>
+             </abbrgrp>,<abbrgrp>
+                <abbr bid="B19">19</abbr>
+             </abbrgrp>,<abbrgrp>
+                <abbr bid="B20">20</abbr>
+             </abbrgrp>.</p>
+          <p>Nonpharmacotherapies that are currently applied to the treatment of CHF include 1) cardiac resynchronization therapy using an implantable cardioverter-defibrillator to treat heart failure involving dyssynchrony of left ventricular contraction <abbrgrp>
+                <abbr bid="B21">21</abbr>
+             </abbrgrp>-<abbrgrp>
+                <abbr bid="B23">23</abbr>
+             </abbrgrp>, 2) comprehensive cardiac rehabilitation including exercise therapy <abbrgrp>
+                <abbr bid="B24">24</abbr>
+             </abbrgrp>-<abbrgrp>
+                <abbr bid="B26">26</abbr>
+             </abbrgrp>, 3) Waon therapy&#8212;soothing warmth therapy, a novel systemic treatment for heart failure by means of dry far-infrared radiation sauna equipment <abbrgrp>
+                <abbr bid="B27">27</abbr>
+             </abbrgrp>,<abbrgrp>
+                <abbr bid="B28">28</abbr>
+             </abbrgrp>, 4) surgical approaches including coronary revascularization <abbrgrp>
+                <abbr bid="B29">29</abbr>
+             </abbrgrp>, on- or off-pump coronary artery bypass grafting <abbrgrp>
+                <abbr bid="B30">30</abbr>
+             </abbrgrp>, mitral annuloplasty <abbrgrp>
+                <abbr bid="B31">31</abbr>
+             </abbrgrp>, and mitral valve replacement <abbrgrp>
+                <abbr bid="B32">32</abbr>
+             </abbrgrp> to treat functional mitral regurgitation caused by left ventricular volume expansion due to left ventricular remodeling, 5) auxiliary circulation including intraaortic balloon pumping <abbrgrp>
+                <abbr bid="B33">33</abbr>
+             </abbrgrp> and extracorporeal auxiliary artificial heart <abbrgrp>
+                <abbr bid="B34">34</abbr>
+             </abbrgrp>, and 6) heart transplantation <abbrgrp>
+                <abbr bid="B35">35</abbr>
+             </abbrgrp>. Nevertheless, none of these therapeutic modalities are practicable at home, and all of them cause great physical, mental, and economic burdens to the patient. The estimated medical cost of pharmacotherapy for the treatment of heart failure in the United States is $3.2 billion annually, and about three-quarters of the total treatment costs for heart failure are related with admissions to the hospital, in-hospital treatment, and nursing care in nursing homes <abbrgrp>
+                <abbr bid="B36">36</abbr>
+             </abbrgrp>. Heart failure accounts for 56% of causes of death for patients with NYHA class IV, while sudden death (for example, fatal ventricular arrhythmias) accounts for 64% and 59% of causes of death for patients with NYHA classes II and III, respectively <abbrgrp>
+                <abbr bid="B37">37</abbr>
+             </abbrgrp>. In Japan, furthermore, the percentages of patients categorized to NYHA classes I to IV at admission were 1.2%, 11.4%, 44.6%, and 42.9%, respectively <abbrgrp>
+                <abbr bid="B2">2</abbr>
+             </abbrgrp>. Therefore, it is vitally important in the therapeutic strategy and medical economics of CHF to reasonably reduce the percentages of NYHA class III and IV patients, as well as the number of repeated admissions to hospital.</p>
+          <p>Positive end-expiratory pressure generated by NPPV therapy has the following physiologic mechanisms: alleviation of preload via a decrease in venous return <abbrgrp>
+                <abbr bid="B38">38</abbr>
+             </abbrgrp>, suppression of sympathetic overactivity <abbrgrp>
+                <abbr bid="B6">6</abbr>
+             </abbrgrp>,<abbrgrp>
+                <abbr bid="B7">7</abbr>
+             </abbrgrp>, and relief of afterload via a reduction in transmural pressure <abbrgrp>
+                <abbr bid="B39">39</abbr>
+             </abbrgrp>,<abbrgrp>
+                <abbr bid="B40">40</abbr>
+             </abbrgrp>. The activation of these mechanisms is also expected during in-home therapy for the treatment of CHF. Nevertheless, conventional NPPV therapy has the limitations of cumbersome operability of the ventilator and poor patient adherence, and has not sufficiently diffused as a therapeutic modality for CHF that brings therapeutic benefits. AutoSet CS&#8482;, originally developed for the treatment of sleep-disordered breathing, demonstrates extensive improvements in the abovementioned drawbacks of the conventional medical devices for NPPV therapy. ASV therapy is being accepted rapidly among Japanese cardiologists who expect the circulatory and respiratory function-improving effects of the device. SAVIOR-R, which investigated the practice efficacy and limitations of ASV therapy for real-world patients with CHF in Japan, clearly revealed these facts and also suggested, as with other prior studies <abbrgrp>
+                <abbr bid="B9">9</abbr>
+             </abbrgrp>,<abbrgrp>
+                <abbr bid="B10">10</abbr>
+             </abbrgrp>, that ASV therapy improves the cardiac function of patients with CHF, regardless of the severity of sleep-disordered breathing. The present study plans to investigate these expectations in terms of the multicenter, randomized, controlled study because of its confirmatory nature of SAVIOR-R.</p>
+          <p>ASV therapy has the potential to improve left ventricular contractility via reverse remodeling, exerting therapeutic benefits based on the simple operability of the device and good patient adherence as compared with conventional NPPV therapy, and improving the prognosis and quality of life of patients with CHF. Therefore, the present study is expected to afford more solid scientific evidence about ASV therapy as a novel, noninvasive, nonpharmacological, in-home, long-term ventilation therapy for patients with CHF.</p>
+       </sec>
+       <sec>
+          <st>
+             <p>Trial status</p>
+          </st>
+          <p>The trial is ongoing.</p>
+       </sec>
+       <sec>
+          <st>
+             <p>Abbreviations</p>
+          </st>
+          <p>ASV: adaptive servo-ventilation</p>
+          <p>CHF: chronic heart failure</p>
+          <p>LVEF: left ventricular ejection fraction</p>
+          <p>NPPV: noninvasive positive pressure ventilation</p>
+          <p>NYHA: New York Heart Association</p>
+          <p>SAVIOR-C: a <it>C</it>onfirmatory, multicenter, randomized, controlled <it>S</it>tudy of <it>A</it>daptive servo-<it>V</it>entIlation <it>I</it>n patients with chr<it>O</it>nic hea<it>R</it>t failure</p>
+          <p>SAVIOR-R: 
+                        <it>S</it>tudy on the effects of <it>A</it>daptive servo-<it>V</it>entilation <it>I</it>n patients with chr<it>O</it>nic heart failu<it>R</it>e: <it>R</it>eal-world, multicenter, retrospective, observational study</p>
+       </sec>
+       <sec>
+          <st>
+             <p>Competing interests</p>
+          </st>
+          <p>The authors declare that they have no competing interests relevant to the manuscript. This study (SAVIOR-C) will be supported by the Comprehensive Support Project for Clinical Research of Lifestyle-Related Disease of the Public Health Research Foundation. All decisions concerning the planning, implementation, and publication of this study will be made by the Steering Committee of this study.</p>
+       </sec>
+       <sec>
+          <st>
+             <p>Authors&#8217; contributions</p>
+          </st>
+          <p>YS and SM conceived the study design that was further developed and modified by YK, HA, YY, and HY. All authors read and approved the final version of the manuscript.</p>
+       </sec>
+       <sec>
+          <st>
+             <p>Authors&#8217; information</p>
+          </st>
+          <p>The investigators for SAVIOR-C are listed in Additional file <supplr sid="S3">3</supplr>.</p></sec>
+       <sec>
+          <st>
+             <p>Additional files</p>
+          </st>
+          <suppl id="S1">
+             <title>
+                <p>Additional file 1:</p>
+             </title>
+             <text>
+                <p>
+                              <b>Lists of the Steering Committee, Central Adjudication Committee, Study Promotion Committee, and Advisors.</b>                            
+                </p>
+             </text>
+             <file name="s13063-014-0530-z-S1.docx">
+                <p>Click here for file</p>
+             </file>
+          </suppl>
+          <suppl id="S2">
+             <title>
+                <p>Additional file 2:</p>
+             </title>
+             <text>
+                <p>
+                              <b>A list of 41 Ethical Review Boards that approved SAVIOR-C.</b>                            
+                </p>
+             </text>
+             <file name="s13063-014-0530-z-S2.docx">
+                <p>Click here for file</p>
+             </file>
+          </suppl>
+          <suppl id="S3">
+             <title>
+                <p>Additional file 3:</p>
+             </title>
+             <text>
+                <p>
+                              <b>A list of investigators at the participating medical institutions of SAVIOR-C.</b>                            
+                </p>
+             </text>
+             <file name="s13063-014-0530-z-S3.docx">
+                <p>Click here for file</p>
+             </file>
+          </suppl>
+          
+       </sec>
+    </bdy>
+    <bm>
+       <ack>
+          <sec>
+             <st>
+                <p>Acknowledgments</p>
+             </st>
+             <p>The research fund for SAVIOR-C was provided to the Comprehensive Support Project for Clinical Research of Lifestyle-Related Disease of the Public Health Research Foundation by Teijin Pharma Limited. The authors are grateful to Satoshi Sakima for his critical review of the manuscript.</p>
+             <sec>
+                <st>
+                   <p>Disclosures</p>
+                </st>
+                <p>Any part or whole of the manuscript has never been published.</p>
+             </sec>
+          </sec>
+       </ack>
+       <refgrp>
+          
+          <bibl id="B1">
+             <title>
+                <p>Noninvasive ventilation in acute cardiogenic pulmonary edema</p>
+             </title>
+             <aug>
+                <au>
+                   <snm>Gray</snm>
+                   <fnm>A</fnm>
+                </au>
+                <au>
+                   <snm>Goodacre</snm>
+                   <fnm>S</fnm>
+                </au>
+                <au>
+                   <snm>Newby</snm>
+                   <fnm>DE</fnm>
+                </au>
+                <au>
+                   <snm>Masson</snm>
+                   <fnm>M</fnm>
+                </au>
+                <au>
+                   <snm>Sampson</snm>
+                   <fnm>F</fnm>
+                </au>
+                <au>
+                   <snm>Nicholl</snm>
+                   <fnm>J</fnm>
+                </au>
+             </aug>
+             <insg>
+                <ins>
+                   <p>3CPO Trialists</p>
+                </ins>
+             </insg>
+             <source>N Engl J Med.</source>
+             <pubdate>2008</pubdate>
+             <volume>359</volume>
+             <fpage>142</fpage>
+             <lpage>151</lpage>
+             <xrefbib>
+                <pubidlist>
+                   <pubid idtype="doi">10.1056/NEJMoa0707992</pubid>
+                   <pubid idtype="pmpid" link="fulltext">18614781</pubid>
+                </pubidlist>
+             </xrefbib>
+          </bibl>
+          <bibl id="B2">
+             <title>
+                <p>Guidelines for treatment of acute heart failure (JCS 2011)</p>
+             </title>
+             <insg>
+                <ins>
+                   <p>JCS Joint Working Group</p>
+                </ins>
+             </insg>
+             <source>Circ J</source>
+             <pubdate>2013</pubdate>
+             <volume>77</volume>
+             <fpage>2157</fpage>
+             <lpage>2201</lpage>
+             <xrefbib>
+                <pubidlist>
+                   <pubid idtype="doi">10.1253/circj.CJ-66-0068</pubid>
+                </pubidlist>
+             </xrefbib>
+          </bibl>
+          <bibl id="B3">
+             <title>
+                <p>Adaptive pressure support servo-ventilation: a novel treatment for Cheyne-Stokes respiration in heart failure</p>
+             </title>
+             <aug>
+                <au>
+                   <snm>Teschler</snm>
+                   <fnm>H</fnm>
+                </au>
+                <au>
+                   <snm>D&#246;hring</snm>
+                   <fnm>J</fnm>
+                </au>
+                <au>
+                   <snm>Wang</snm>
+                   <fnm>YM</fnm>
+                </au>
+                <au>
+                   <snm>Berthon-Jones</snm>
+                   <fnm>M</fnm>
+                </au>
+             </aug>
+             <source>Am J Respir Crit Care Med.</source>
+             <pubdate>2001</pubdate>
+             <volume>164</volume>
+             <fpage>614</fpage>
+             <lpage>619</lpage>
+             <xrefbib>
+                <pubidlist>
+                   <pubid idtype="doi">10.1164/ajrccm.164.4.9908114</pubid>
+                   <pubid idtype="pmpid" link="fulltext">11520725</pubid>
+                </pubidlist>
+             </xrefbib>
+          </bibl>
+          <bibl id="B4">
+             <note>Momomura S, Seino Y, Kihara Y, Adachi H, Yasumura Y, Yokoyama H; the SAVIOR-R investigators. Adaptive servo-ventilation therapy using an innovative ventilator for patients with chronic heart failure: a real-world, multicenter, retrospective, observational study (SAVIOR-R). Heart Vessels. 2014. Epub ahead of print.</note>
+          </bibl>
+          <bibl id="B5">
+             <title>
+                <p>Comparison of acute and chronic impact of adaptive servo-ventilation on left chamber geometry and function in patients with chronic heart failure</p>
+             </title>
+             <aug>
+                <au>
+                   <snm>Haruki</snm>
+                   <fnm>N</fnm>
+                </au>
+                <au>
+                   <snm>Takeuchi</snm>
+                   <fnm>M</fnm>
+                </au>
+                <au>
+                   <snm>Kaku</snm>
+                   <fnm>K</fnm>
+                </au>
+                <au>
+                   <snm>Yoshitani</snm>
+                   <fnm>H</fnm>
+                </au>
+                <au>
+                   <snm>Kuwaki</snm>
+                   <fnm>H</fnm>
+                </au>
+                <au>
+                   <snm>Tamura</snm>
+                   <fnm>M</fnm>
+                </au>
+                <au>
+                   <snm>Abe</snm>
+                   <fnm>H</fnm>
+                </au>
+                <au>
+                   <snm>Okazaki</snm>
+                   <fnm>M</fnm>
+                </au>
+                <au>
+                   <snm>Tsutsumi</snm>
+                   <fnm>A</fnm>
+                </au>
+                <au>
+                   <snm>Otsuji</snm>
+                   <fnm>Y</fnm>
+                </au>
+             </aug>
+             <source>Eur J Heart Fail.</source>
+             <pubdate>2011</pubdate>
+             <volume>13</volume>
+             <fpage>1140</fpage>
+             <lpage>1146</lpage>
+             <xrefbib>
+                <pubidlist>
+                   <pubid idtype="doi">10.1093/eurjhf/hfr103</pubid>
+                   <pubid idtype="pmpid" link="fulltext">21831914</pubid>
+                </pubidlist>
+             </xrefbib>
+          </bibl>
+          <bibl id="B6">
+             <title>
+                <p>Short term effect of adaptive servo-ventilation on muscle sympathetic nerve activity in patients with heart failure</p>
+             </title>
+             <aug>
+                <au>
+                   <snm>Harada</snm>
+                   <fnm>D</fnm>
+                </au>
+                <au>
+                   <snm>Joho</snm>
+                   <fnm>S</fnm>
+                </au>
+                <au>
+                   <snm>Oda</snm>
+                   <fnm>Y</fnm>
+                </au>
+                <au>
+                   <snm>Hirai</snm>
+                   <fnm>T</fnm>
+                </au>
+                <au>
+                   <snm>Asanoi</snm>
+                   <fnm>H</fnm>
+                </au>
+                <au>
+                   <snm>Inoue</snm>
+                   <fnm>H</fnm>
+                </au>
+             </aug>
+             <source>Auton Neurosci.</source>
+             <pubdate>2011</pubdate>
+             <volume>161</volume>
+             <fpage>95</fpage>
+             <lpage>102</lpage>
+             <xrefbib>
+                <pubidlist>
+                   <pubid idtype="doi">10.1016/j.autneu.2010.12.001</pubid>
+                   <pubid idtype="pmpid" link="fulltext">21195678</pubid>
+                </pubidlist>
+             </xrefbib>
+          </bibl>
+          <bibl id="B7">
+             <title>
+                <p>Effect of adaptive servoventilation on muscle sympathetic nerve activity in patients with chronic heart failure and central sleep apnea</p>
+             </title>
+             <aug>
+                <au>
+                   <snm>Joho</snm>
+                   <fnm>S</fnm>
+                </au>
+                <au>
+                   <snm>Oda</snm>
+                   <fnm>Y</fnm>
+                </au>
+                <au>
+                   <snm>Ushijima</snm>
+                   <fnm>R</fnm>
+                </au>
+                <au>
+                   <snm>Hirai</snm>
+                   <fnm>T</fnm>
+                </au>
+                <au>
+                   <snm>Inoue</snm>
+                   <fnm>H</fnm>
+                </au>
+             </aug>
+             <source>J Card Fail.</source>
+             <pubdate>2012</pubdate>
+             <volume>18</volume>
+             <fpage>769</fpage>
+             <lpage>775</lpage>
+             <xrefbib>
+                <pubidlist>
+                   <pubid idtype="doi">10.1016/j.cardfail.2012.08.360</pubid>
+                   <pubid idtype="pmpid" link="fulltext">23040112</pubid>
+                </pubidlist>
+             </xrefbib>
+          </bibl>
+          <bibl id="B8">
+             <title>
+                <p>Differing effects of adaptive servoventilation and continuous positive airway pressure on muscle sympathetic nerve activity in patients with heart failure</p>
+             </title>
+             <aug>
+                <au>
+                   <snm>Ushijima</snm>
+                   <fnm>R</fnm>
+                </au>
+                <au>
+                   <snm>Joho</snm>
+                   <fnm>S</fnm>
+                </au>
+                <au>
+                   <snm>Akabane</snm>
+                   <fnm>T</fnm>
+                </au>
+                <au>
+                   <snm>Oda</snm>
+                   <fnm>Y</fnm>
+                </au>
+                <au>
+                   <snm>Inoue</snm>
+                   <fnm>H</fnm>
+                </au>
+             </aug>
+             <source>Circ J.</source>
+             <pubdate>2014</pubdate>
+             <volume>78</volume>
+             <fpage>1387</fpage>
+             <lpage>1395</lpage>
+             <xrefbib>
+                <pubidlist>
+                   <pubid idtype="doi">10.1253/circj.CJ-13-1468</pubid>
+                   <pubid idtype="pmpid" link="fulltext">24705391</pubid>
+                </pubidlist>
+             </xrefbib>
+          </bibl>
+          <bibl id="B9">
+             <title>
+                <p>Effectiveness of adaptive servo-ventilation for treating heart failure regardless of the severity of sleep-disordered breathing</p>
+             </title>
+             <aug>
+                <au>
+                   <snm>Takama</snm>
+                   <fnm>N</fnm>
+                </au>
+                <au>
+                   <snm>Kurabayashi</snm>
+                   <fnm>M</fnm>
+                </au>
+             </aug>
+             <source>Circ J.</source>
+             <pubdate>2011</pubdate>
+             <volume>75</volume>
+             <fpage>1164</fpage>
+             <lpage>1169</lpage>
+             <xrefbib>
+                <pubidlist>
+                   <pubid idtype="doi">10.1253/circj.CJ-10-0831</pubid>
+                   <pubid idtype="pmpid" link="fulltext">21378449</pubid>
+                </pubidlist>
+             </xrefbib>
+          </bibl>
+          <bibl id="B10">
+             <title>
+                <p>Short-term prognosis of adaptive servo-ventilation therapy in patients with heart failure</p>
+             </title>
+             <aug>
+                <au>
+                   <snm>Koyama</snm>
+                   <fnm>T</fnm>
+                </au>
+                <au>
+                   <snm>Watanabe</snm>
+                   <fnm>H</fnm>
+                </au>
+                <au>
+                   <snm>Igarashi</snm>
+                   <fnm>G</fnm>
+                </au>
+                <au>
+                   <snm>Terada</snm>
+                   <fnm>S</fnm>
+                </au>
+                <au>
+                   <snm>Makabe</snm>
+                   <fnm>S</fnm>
+                </au>
+                <au>
+                   <snm>Ito</snm>
+                   <fnm>H</fnm>
+                </au>
+             </aug>
+             <source>Circ J.</source>
+             <pubdate>2011</pubdate>
+             <volume>75</volume>
+             <fpage>710</fpage>
+             <lpage>712</lpage>
+             <xrefbib>
+                <pubidlist>
+                   <pubid idtype="doi">10.1253/circj.CJ-10-0956</pubid>
+                   <pubid idtype="pmpid" link="fulltext">21266785</pubid>
+                </pubidlist>
+             </xrefbib>
+          </bibl>
+          <bibl id="B11">
+             <title>
+                <p>ACCF/AHA guideline for the management of heart failure: a report of the American College of Cardiology Foundation/American Heart Association Task Force on practice guidelines</p>
+             </title>
+             <aug>
+                <au>
+                   <snm>Yancy</snm>
+                   <fnm>CW</fnm>
+                </au>
+                <au>
+                   <snm>Jessup</snm>
+                   <fnm>M</fnm>
+                </au>
+                <au>
+                   <snm>Bozkurt</snm>
+                   <fnm>B</fnm>
+                </au>
+                <au>
+                   <snm>Butler</snm>
+                   <fnm>J</fnm>
+                </au>
+                <au>
+                   <snm>Casey</snm>
+                   <fnm>DE</fnm>
+                   <suf>Jr</suf>
+                </au>
+                <au>
+                   <snm>Drazner</snm>
+                   <fnm>MH</fnm>
+                </au>
+                <au>
+                   <snm>Fonarow</snm>
+                   <fnm>GC</fnm>
+                </au>
+                <au>
+                   <snm>Geraci</snm>
+                   <fnm>SA</fnm>
+                </au>
+                <au>
+                   <snm>Horwich</snm>
+                   <fnm>T</fnm>
+                </au>
+                <au>
+                   <snm>Januzzi</snm>
+                   <fnm>JL</fnm>
+                </au>
+                <au>
+                   <snm>Johnson</snm>
+                   <fnm>MR</fnm>
+                </au>
+                <au>
+                   <snm>Kasper</snm>
+                   <fnm>EK</fnm>
+                </au>
+                <au>
+                   <snm>Levy</snm>
+                   <fnm>WC</fnm>
+                </au>
+                <au>
+                   <snm>Masoudi</snm>
+                   <fnm>FA</fnm>
+                </au>
+                <au>
+                   <snm>McBride</snm>
+                   <fnm>PE</fnm>
+                </au>
+                <au>
+                   <snm>McMurray</snm>
+                   <fnm>JJ</fnm>
+                </au>
+                <au>
+                   <snm>Mitchell</snm>
+                   <fnm>JE</fnm>
+                </au>
+                <au>
+                   <snm>Peterson</snm>
+                   <fnm>PN</fnm>
+                </au>
+                <au>
+                   <snm>Riegel</snm>
+                   <fnm>B</fnm>
+                </au>
+                <au>
+                   <snm>Sam</snm>
+                   <fnm>F</fnm>
+                </au>
+                <au>
+                   <snm>Stevenson</snm>
+                   <fnm>LW</fnm>
+                </au>
+                <au>
+                   <snm>Tang</snm>
+                   <fnm>WH</fnm>
+                </au>
+                <au>
+                   <snm>Tsai</snm>
+                   <fnm>EJ</fnm>
+                </au>
+                <au>
+                   <snm>Wilkoff</snm>
+                   <fnm>BL</fnm>
+                </au>
+             </aug>
+             <insg>
+                <ins>
+                   <p>American College of Cardiology Foundation/American Heart Association Task Force on Practice Guidelines</p>
+                </ins>
+             </insg>
+             <source>Circulation</source>
+             <pubdate>2013</pubdate>
+             <volume>2013</volume>
+             <issue>128</issue>
+             <fpage>e240</fpage>
+             <lpage>e327</lpage>
+          </bibl>
+          <bibl id="B12">
+             <title>
+                <p>Recommendations for chamber quantification: a report from the American Society of Echocardiography&#8217;s Guidelines and Standards Committee and the Chamber Quantification Writing Group, developed in conjunction with the European Association of Echocardiography, a branch of the European Society of Cardiology</p>
+             </title>
+             <aug>
+                <au>
+                   <snm>Lang</snm>
+                   <fnm>RM</fnm>
+                </au>
+                <au>
+                   <snm>Bierig</snm>
+                   <fnm>M</fnm>
+                </au>
+                <au>
+                   <snm>Devereux</snm>
+                   <fnm>RB</fnm>
+                </au>
+                <au>
+                   <snm>Flachskampf</snm>
+                   <fnm>FA</fnm>
+                </au>
+                <au>
+                   <snm>Foster</snm>
+                   <fnm>E</fnm>
+                </au>
+                <au>
+                   <snm>Pellikka</snm>
+                   <fnm>PA</fnm>
+                </au>
+                <au>
+                   <snm>Picard</snm>
+                   <fnm>MH</fnm>
+                </au>
+                <au>
+                   <snm>Roman</snm>
+                   <fnm>MJ</fnm>
+                </au>
+                <au>
+                   <snm>Seward</snm>
+                   <fnm>J</fnm>
+                </au>
+                <au>
+                   <snm>Shanewise</snm>
+                   <fnm>JS</fnm>
+                </au>
+                <au>
+                   <snm>Solomon</snm>
+                   <fnm>SD</fnm>
+                </au>
+                <au>
+                   <snm>Spencer</snm>
+                   <fnm>KT</fnm>
+                </au>
+                <au>
+                   <snm>Sutton</snm>
+                   <fnm>MS</fnm>
+                </au>
+                <au>
+                   <snm>Stewart</snm>
+                   <fnm>WJ</fnm>
+                </au>
+             </aug>
+             <insg>
+                <ins>
+                   <p>Chamber Quantification Writing Group; American Society of Echocardiography&#8217;s Guidelines and Standards Committee; European Association of Echocardiography</p>
+                </ins>
+             </insg>
+             <source>J Am Soc Echocardiogr</source>
+             <pubdate>2005</pubdate>
+             <volume>18</volume>
+             <fpage>1440</fpage>
+             <lpage>1463</lpage>
+             <xrefbib>
+                <pubidlist>
+                   <pubid idtype="doi">10.1016/j.echo.2005.10.005</pubid>
+                   <pubid idtype="pmpid" link="fulltext">16376782</pubid>
+                </pubidlist>
+             </xrefbib>
+          </bibl>
+          <bibl id="B13">
+             <title>
+                <p>Proposal for a new clinical end point to evaluate the efficacy of drugs and devices in the treatment of chronic heart failure</p>
+             </title>
+             <aug>
+                <au>
+                   <snm>Packer</snm>
+                   <fnm>M</fnm>
+                </au>
+             </aug>
+             <source>J Card Fail.</source>
+             <pubdate>2001</pubdate>
+             <volume>7</volume>
+             <fpage>176</fpage>
+             <lpage>182</lpage>
+             <xrefbib>
+                <pubidlist>
+                   <pubid idtype="doi">10.1054/jcaf.2001.25652</pubid>
+                   <pubid idtype="pmpid" link="fulltext">11420770</pubid>
+                </pubidlist>
+             </xrefbib>
+          </bibl>
+          <bibl id="B14">
+             <title>
+                <p>Survival after the onset of congestive heart failure in Framingham Heart Study subjects</p>
+             </title>
+             <aug>
+                <au>
+                   <snm>Ho</snm>
+                   <fnm>KK</fnm>
+                </au>
+                <au>
+                   <snm>Anderson</snm>
+                   <fnm>KM</fnm>
+                </au>
+                <au>
+                   <snm>Kannel</snm>
+                   <fnm>WB</fnm>
+                </au>
+                <au>
+                   <snm>Grossman</snm>
+                   <fnm>W</fnm>
+                </au>
+                <au>
+                   <snm>Levy</snm>
+                   <fnm>D</fnm>
+                </au>
+             </aug>
+             <source>Circulation.</source>
+             <pubdate>1993</pubdate>
+             <volume>88</volume>
+             <fpage>107</fpage>
+             <lpage>115</lpage>
+             <xrefbib>
+                <pubidlist>
+                   <pubid idtype="doi">10.1161/01.CIR.88.1.107</pubid>
+                   <pubid idtype="pmpid" link="fulltext">8319323</pubid>
+                </pubidlist>
+             </xrefbib>
+          </bibl>
+          <bibl id="B15">
+             <title>
+                <p>Prognosis of all-cause heart failure and borderline left ventricular systolic dysfunction: 5 year mortality follow-up of the Echocardiographic Heart of England Screening Study (ECHOES)</p>
+             </title>
+             <aug>
+                <au>
+                   <snm>Hobbs</snm>
+                   <fnm>FD</fnm>
+                </au>
+                <au>
+                   <snm>Roalfe</snm>
+                   <fnm>AK</fnm>
+                </au>
+                <au>
+                   <snm>Davis</snm>
+                   <fnm>RC</fnm>
+                </au>
+                <au>
+                   <snm>Davies</snm>
+                   <fnm>MK</fnm>
+                </au>
+                <au>
+                   <snm>Hare</snm>
+                   <fnm>R</fnm>
+                </au>
+             </aug>
+             <insg>
+                <ins>
+                   <p>Midlands Research Practices Consortium (MidReC)</p>
+                </ins>
+             </insg>
+             <source>Eur Heart J.</source>
+             <pubdate>2007</pubdate>
+             <volume>28</volume>
+             <fpage>1128</fpage>
+             <lpage>1134</lpage>
+             <xrefbib>
+                <pubidlist>
+                   <pubid idtype="doi">10.1093/eurheartj/ehm102</pubid>
+                   <pubid idtype="pmpid" link="fulltext">17459902</pubid>
+                </pubidlist>
+             </xrefbib>
+          </bibl>
+          <bibl id="B16">
+             <title>
+                <p>More &#8220;malignant&#8221; than cancer? Five-year survival following a first admission for heart failure</p>
+             </title>
+             <aug>
+                <au>
+                   <snm>Stewart</snm>
+                   <fnm>S</fnm>
+                </au>
+                <au>
+                   <snm>MacIntyre</snm>
+                   <fnm>K</fnm>
+                </au>
+                <au>
+                   <snm>Hole</snm>
+                   <fnm>DJ</fnm>
+                </au>
+                <au>
+                   <snm>Capewell</snm>
+                   <fnm>S</fnm>
+                </au>
+                <au>
+                   <snm>McMurray</snm>
+                   <fnm>JJ</fnm>
+                </au>
+             </aug>
+             <source>Eur J Heart Fail.</source>
+             <pubdate>2001</pubdate>
+             <volume>3</volume>
+             <fpage>315</fpage>
+             <lpage>322</lpage>
+             <xrefbib>
+                <pubidlist>
+                   <pubid idtype="doi">10.1016/S1388-9842(00)00141-0</pubid>
+                   <pubid idtype="pmpid" link="fulltext">11378002</pubid>
+                </pubidlist>
+             </xrefbib>
+          </bibl>
+          <bibl id="B17">
+             <title>
+                <p>Long-term trends in the incidence of and survival with heart failure</p>
+             </title>
+             <aug>
+                <au>
+                   <snm>Levy</snm>
+                   <fnm>D</fnm>
+                </au>
+                <au>
+                   <snm>Kenchaiah</snm>
+                   <fnm>S</fnm>
+                </au>
+                <au>
+                   <snm>Larson</snm>
+                   <fnm>MG</fnm>
+                </au>
+                <au>
+                   <snm>Benjamin</snm>
+                   <fnm>EJ</fnm>
+                </au>
+                <au>
+                   <snm>Kupka</snm>
+                   <fnm>MJ</fnm>
+                </au>
+                <au>
+                   <snm>Ho</snm>
+                   <fnm>KK</fnm>
+                </au>
+                <au>
+                   <snm>Murabito</snm>
+                   <fnm>JM</fnm>
+                </au>
+                <au>
+                   <snm>Vasan</snm>
+                   <fnm>RS</fnm>
+                </au>
+             </aug>
+             <source>N Engl J Med.</source>
+             <pubdate>2002</pubdate>
+             <volume>347</volume>
+             <fpage>1397</fpage>
+             <lpage>1402</lpage>
+             <xrefbib>
+                <pubidlist>
+                   <pubid idtype="doi">10.1056/NEJMoa020265</pubid>
+                   <pubid idtype="pmpid" link="fulltext">12409541</pubid>
+                </pubidlist>
+             </xrefbib>
+          </bibl>
+          <bibl id="B18">
+             <title>
+                <p>Prevalence and prognostic significance of heart failure stages: application of the American College of Cardiology/American Heart Association heart failure staging criteria in the community</p>
+             </title>
+             <aug>
+                <au>
+                   <snm>Ammar</snm>
+                   <fnm>KA</fnm>
+                </au>
+                <au>
+                   <snm>Jacobsen</snm>
+                   <fnm>SJ</fnm>
+                </au>
+                <au>
+                   <snm>Mahoney</snm>
+                   <fnm>DW</fnm>
+                </au>
+                <au>
+                   <snm>Kors</snm>
+                   <fnm>JA</fnm>
+                </au>
+                <au>
+                   <snm>Redfield</snm>
+                   <fnm>MM</fnm>
+                </au>
+                <au>
+                   <snm>Burnett</snm>
+                   <fnm>JC</fnm>
+                   <suf>Jr</suf>
+                </au>
+                <au>
+                   <snm>Rodeheffer</snm>
+                   <fnm>RJ</fnm>
+                </au>
+             </aug>
+             <source>Circulation.</source>
+             <pubdate>2007</pubdate>
+             <volume>115</volume>
+             <fpage>1563</fpage>
+             <lpage>1570</lpage>
+             <xrefbib>
+                <pubidlist>
+                   <pubid idtype="doi">10.1161/CIRCULATIONAHA.106.666818</pubid>
+                   <pubid idtype="pmpid" link="fulltext">17353436</pubid>
+                </pubidlist>
+             </xrefbib>
+          </bibl>
+          <bibl id="B19">
+             <title>
+                <p>2009 focused update: ACCF/AHA Guidelines for the Diagnosis and Management of Heart Failure in Adults: a report of the American College of Cardiology Foundation/American Heart Association Task Force on Practice Guidelines: developed in collaboration with the International Society for Heart and Lung Transplantation</p>
+             </title>
+             <aug>
+                <au>
+                   <snm>Jessup</snm>
+                   <fnm>M</fnm>
+                </au>
+                <au>
+                   <snm>Abraham</snm>
+                   <fnm>WT</fnm>
+                </au>
+                <au>
+                   <snm>Casey</snm>
+                   <fnm>DE</fnm>
+                </au>
+                <au>
+                   <snm>Feldman</snm>
+                   <fnm>AM</fnm>
+                </au>
+                <au>
+                   <snm>Francis</snm>
+                   <fnm>GS</fnm>
+                </au>
+                <au>
+                   <snm>Ganiats</snm>
+                   <fnm>TG</fnm>
+                </au>
+                <au>
+                   <snm>Konstam</snm>
+                   <fnm>MA</fnm>
+                </au>
+                <au>
+                   <snm>Mancini</snm>
+                   <fnm>DM</fnm>
+                </au>
+                <au>
+                   <snm>Rahko</snm>
+                   <fnm>PS</fnm>
+                </au>
+                <au>
+                   <snm>Silver</snm>
+                   <fnm>MA</fnm>
+                </au>
+                <au>
+                   <snm>Stevenson</snm>
+                   <fnm>LW</fnm>
+                </au>
+                <au>
+                   <snm>Yancy</snm>
+                   <fnm>CW</fnm>
+                </au>
+             </aug>
+             <source>Circulation.</source>
+             <pubdate>2009</pubdate>
+             <volume>119</volume>
+             <fpage>1977</fpage>
+             <lpage>2016</lpage>
+             <xrefbib>
+                <pubidlist>
+                   <pubid idtype="doi">10.1161/CIRCULATIONAHA.109.192064</pubid>
+                   <pubid idtype="pmpid" link="fulltext">19324967</pubid>
+                </pubidlist>
+             </xrefbib>
+          </bibl>
+          <bibl id="B20">
+             <title>
+                <p>ESC Guidelines for the diagnosis and treatment of acute and chronic heart failure 2008: the Task Force for the Diagnosis and Treatment of Acute and Chronic Heart Failure 2008 of the European Society of Cardiology. Developed in collaboration with the Heart Failure Association of the ESC (HFA) and endorsed by the European Society of Intensive Care Medicine (ESICM)</p>
+             </title>
+             <aug>
+                <au>
+                   <snm>Dickstein</snm>
+                   <fnm>K</fnm>
+                </au>
+                <au>
+                   <snm>Cohen-Solal</snm>
+                   <fnm>A</fnm>
+                </au>
+                <au>
+                   <snm>Filippatos</snm>
+                   <fnm>G</fnm>
+                </au>
+                <au>
+                   <snm>McMurray</snm>
+                   <fnm>JJ</fnm>
+                </au>
+                <au>
+                   <snm>Ponikowski</snm>
+                   <fnm>P</fnm>
+                </au>
+                <au>
+                   <snm>Poole-Wilson</snm>
+                   <fnm>PA</fnm>
+                </au>
+                <au>
+                   <snm>Str&#246;mberg</snm>
+                   <fnm>A</fnm>
+                </au>
+                <au>
+                   <snm>van Veldhuisen</snm>
+                   <fnm>DJ</fnm>
+                </au>
+                <au>
+                   <snm>Atar</snm>
+                   <fnm>D</fnm>
+                </au>
+                <au>
+                   <snm>Hoes</snm>
+                   <fnm>AW</fnm>
+                </au>
+                <au>
+                   <snm>Keren</snm>
+                   <fnm>A</fnm>
+                </au>
+                <au>
+                   <snm>Mebazaa</snm>
+                   <fnm>A</fnm>
+                </au>
+                <au>
+                   <snm>Nieminen</snm>
+                   <fnm>M</fnm>
+                </au>
+                <au>
+                   <snm>Priori</snm>
+                   <fnm>SG</fnm>
+                </au>
+                <au>
+                   <snm>Swedberg</snm>
+                   <fnm>K</fnm>
+                </au>
+             </aug>
+             <insg>
+                <ins>
+                   <p>ESC Committee for Practice Guidelines (CPG)</p>
+                </ins>
+             </insg>
+             <source>Eur Heart J.</source>
+             <pubdate>2008</pubdate>
+             <volume>29</volume>
+             <fpage>2388</fpage>
+             <lpage>2442</lpage>
+             <xrefbib>
+                <pubidlist>
+                   <pubid idtype="doi">10.1093/eurheartj/ehn309</pubid>
+                   <pubid idtype="pmpid" link="fulltext">18799522</pubid>
+                </pubidlist>
+             </xrefbib>
+          </bibl>
+          <bibl id="B21">
+             <title>
+                <p>The effect of cardiac resynchronization on morbidity and mortality in heart failure</p>
+             </title>
+             <aug>
+                <au>
+                   <snm>Cleland</snm>
+                   <fnm>JG</fnm>
+                </au>
+                <au>
+                   <snm>Daubert</snm>
+                   <fnm>JC</fnm>
+                </au>
+                <au>
+                   <snm>Erdmann</snm>
+                   <fnm>E</fnm>
+                </au>
+                <au>
+                   <snm>Freemantle</snm>
+                   <fnm>N</fnm>
+                </au>
+                <au>
+                   <snm>Gras</snm>
+                   <fnm>D</fnm>
+                </au>
+                <au>
+                   <snm>Kappenberger</snm>
+                   <fnm>L</fnm>
+                </au>
+                <au>
+                   <snm>Tavazzi</snm>
+                   <fnm>L</fnm>
+                </au>
+             </aug>
+             <insg>
+                <ins>
+                   <p>Cardiac Resynchronization-Heart Failure (CARE-HF) Study Investigators</p>
+                </ins>
+             </insg>
+             <source>N Eng J Med.</source>
+             <pubdate>2005</pubdate>
+             <volume>352</volume>
+             <fpage>1539</fpage>
+             <lpage>1549</lpage>
+             <xrefbib>
+                <pubidlist>
+                   <pubid idtype="doi">10.1056/NEJMoa050496</pubid>
+                </pubidlist>
+             </xrefbib>
+          </bibl>
+          <bibl id="B22">
+             <title>
+                <p>Guidelines for cardiac pacing and cardiac resynchronization therapy: The Task Force for Cardiac Pacing and Cardiac Resynchronization Therapy of the European Society of Cardiology. Developed in collaboration with the European Heart Rhythm Association</p>
+             </title>
+             <aug>
+                <au>
+                   <snm>Vardas</snm>
+                   <fnm>PE</fnm>
+                </au>
+                <au>
+                   <snm>Auricchio</snm>
+                   <fnm>A</fnm>
+                </au>
+                <au>
+                   <snm>Blanc</snm>
+                   <fnm>JJ</fnm>
+                </au>
+                <au>
+                   <snm>Daubert</snm>
+                   <fnm>JC</fnm>
+                </au>
+                <au>
+                   <snm>Drexler</snm>
+                   <fnm>H</fnm>
+                </au>
+                <au>
+                   <snm>Ector</snm>
+                   <fnm>H</fnm>
+                </au>
+                <au>
+                   <snm>Gasparini</snm>
+                   <fnm>M</fnm>
+                </au>
+                <au>
+                   <snm>Linde</snm>
+                   <fnm>C</fnm>
+                </au>
+                <au>
+                   <snm>Morgado</snm>
+                   <fnm>FB</fnm>
+                </au>
+                <au>
+                   <snm>Oto</snm>
+                   <fnm>A</fnm>
+                </au>
+                <au>
+                   <snm>Sutton</snm>
+                   <fnm>R</fnm>
+                </au>
+                <au>
+                   <snm>Trusz-Gluza</snm>
+                   <fnm>M</fnm>
+                </au>
+             </aug>
+             <insg>
+                <ins>
+                   <p>European Society of Cardiology; European Heart Rhythm Association</p>
+                </ins>
+             </insg>
+             <source>Europace</source>
+             <pubdate>2007</pubdate>
+             <volume>9</volume>
+             <fpage>959</fpage>
+             <lpage>998</lpage>
+             <xrefbib>
+                <pubidlist>
+                   <pubid idtype="doi">10.1093/europace/eum189</pubid>
+                   <pubid idtype="pmpid" link="fulltext">17726043</pubid>
+                </pubidlist>
+             </xrefbib>
+          </bibl>
+          <bibl id="B23">
+             <title>
+                <p>Comparative effects of permanent biventricular and right-univentricular pacing in heart failure patients with chronic atrial fibrillation</p>
+             </title>
+             <aug>
+                <au>
+                   <snm>Leclercq</snm>
+                   <fnm>C</fnm>
+                </au>
+                <au>
+                   <snm>Walker</snm>
+                   <fnm>S</fnm>
+                </au>
+                <au>
+                   <snm>Linde</snm>
+                   <fnm>C</fnm>
+                </au>
+                <au>
+                   <snm>Clementy</snm>
+                   <fnm>J</fnm>
+                </au>
+                <au>
+                   <snm>Marshall</snm>
+                   <fnm>AJ</fnm>
+                </au>
+                <au>
+                   <snm>Ritter</snm>
+                   <fnm>P</fnm>
+                </au>
+                <au>
+                   <snm>Djiane</snm>
+                   <fnm>P</fnm>
+                </au>
+                <au>
+                   <snm>Mabo</snm>
+                   <fnm>P</fnm>
+                </au>
+                <au>
+                   <snm>Levy</snm>
+                   <fnm>T</fnm>
+                </au>
+                <au>
+                   <snm>Gadler</snm>
+                   <fnm>F</fnm>
+                </au>
+                <au>
+                   <snm>Bailleul</snm>
+                   <fnm>C</fnm>
+                </au>
+                <au>
+                   <snm>Daubert</snm>
+                   <fnm>JC</fnm>
+                </au>
+             </aug>
+             <source>Eur Heart J.</source>
+             <pubdate>2002</pubdate>
+             <volume>23</volume>
+             <fpage>1780</fpage>
+             <lpage>1787</lpage>
+             <xrefbib>
+                <pubidlist>
+                   <pubid idtype="doi">10.1053/euhj.2002.3232</pubid>
+                   <pubid idtype="pmpid" link="fulltext">12419298</pubid>
+                </pubidlist>
+             </xrefbib>
+          </bibl>
+          <bibl id="B24">
+             <title>
+                <p>Randomized, controlled trial of long-term moderate exercise training in chronic heart failure: effects on functional capacity, quality of life, and clinical outcome</p>
+             </title>
+             <aug>
+                <au>
+                   <snm>Belardinelli</snm>
+                   <fnm>R</fnm>
+                </au>
+                <au>
+                   <snm>Georgiou</snm>
+                   <fnm>D</fnm>
+                </au>
+                <au>
+                   <snm>Cianci</snm>
+                   <fnm>G</fnm>
+                </au>
+                <au>
+                   <snm>Purcaro</snm>
+                   <fnm>A</fnm>
+                </au>
+             </aug>
+             <source>Circulation.</source>
+             <pubdate>1999</pubdate>
+             <volume>99</volume>
+             <fpage>1173</fpage>
+             <lpage>1182</lpage>
+             <xrefbib>
+                <pubidlist>
+                   <pubid idtype="doi">10.1161/01.CIR.99.9.1173</pubid>
+                   <pubid idtype="pmpid" link="fulltext">10069785</pubid>
+                </pubidlist>
+             </xrefbib>
+          </bibl>
+          <bibl id="B25">
+             <title>
+                <p>Exercise and heart failure: a statement from the American Heart Association Committee on exercise, rehabilitation, and prevention</p>
+             </title>
+             <aug>
+                <au>
+                   <snm>Pi&#241;a</snm>
+                   <fnm>IL</fnm>
+                </au>
+                <au>
+                   <snm>Apstein</snm>
+                   <fnm>CS</fnm>
+                </au>
+                <au>
+                   <snm>Balady</snm>
+                   <fnm>GJ</fnm>
+                </au>
+                <au>
+                   <snm>Belardinelli</snm>
+                   <fnm>R</fnm>
+                </au>
+                <au>
+                   <snm>Chaitman</snm>
+                   <fnm>BR</fnm>
+                </au>
+                <au>
+                   <snm>Duscha</snm>
+                   <fnm>BD</fnm>
+                </au>
+                <au>
+                   <snm>Fletcher</snm>
+                   <fnm>BJ</fnm>
+                </au>
+                <au>
+                   <snm>Fleg</snm>
+                   <fnm>JL</fnm>
+                </au>
+                <au>
+                   <snm>Myers</snm>
+                   <fnm>JN</fnm>
+                </au>
+                <au>
+                   <snm>Sullivan</snm>
+                   <fnm>MJ</fnm>
+                </au>
+             </aug>
+             <insg>
+                <ins>
+                   <p>American Heart Association Committee on Exercise, Rehabilitation, and Prevention</p>
+                </ins>
+             </insg>
+             <source>Circulation</source>
+             <pubdate>2003</pubdate>
+             <volume>107</volume>
+             <fpage>1210</fpage>
+             <lpage>1225</lpage>
+             <xrefbib>
+                <pubidlist>
+                   <pubid idtype="doi">10.1161/01.CIR.0000055013.92097.40</pubid>
+                   <pubid idtype="pmpid" link="fulltext">12615804</pubid>
+                </pubidlist>
+             </xrefbib>
+          </bibl>
+          <bibl id="B26">
+             <title>
+                <p>Exercise training in patients with severe congestive heart failure: enhancing peak aerobic capacity while minimizing the increase in ventricular wall stress</p>
+             </title>
+             <aug>
+                <au>
+                   <snm>Demopoulos</snm>
+                   <fnm>L</fnm>
+                </au>
+                <au>
+                   <snm>Bijou</snm>
+                   <fnm>R</fnm>
+                </au>
+                <au>
+                   <snm>Fergus</snm>
+                   <fnm>I</fnm>
+                </au>
+                <au>
+                   <snm>Jones</snm>
+                   <fnm>M</fnm>
+                </au>
+                <au>
+                   <snm>Strom</snm>
+                   <fnm>J</fnm>
+                </au>
+                <au>
+                   <snm>LeJemtel</snm>
+                   <fnm>TH</fnm>
+                </au>
+             </aug>
+             <source>J Am Coll Cardiol.</source>
+             <pubdate>1997</pubdate>
+             <volume>29</volume>
+             <fpage>597</fpage>
+             <lpage>603</lpage>
+             <xrefbib>
+                <pubidlist>
+                   <pubid idtype="doi">10.1016/S0735-1097(96)00526-8</pubid>
+                   <pubid idtype="pmpid" link="fulltext">9060899</pubid>
+                </pubidlist>
+             </xrefbib>
+          </bibl>
+          <bibl id="B27">
+             <title>
+                <p>Waon therapy: soothing warmth therapy</p>
+             </title>
+             <aug>
+                <au>
+                   <snm>Tei</snm>
+                   <fnm>C</fnm>
+                </au>
+             </aug>
+             <source>J Cardiol.</source>
+             <pubdate>2007</pubdate>
+             <volume>49</volume>
+             <fpage>301</fpage>
+             <lpage>304</lpage>
+             <xrefbib>
+                <pubidlist>
+                   <pubid idtype="pmpid" link="fulltext">17633566</pubid>
+                </pubidlist>
+             </xrefbib>
+          </bibl>
+          <bibl id="B28">
+             <title>
+                <p>Beneficial effects of Waon therapy on patients with chronic heart failure: results of a prospective multicenter study</p>
+             </title>
+             <aug>
+                <au>
+                   <snm>Miyata</snm>
+                   <fnm>M</fnm>
+                </au>
+                <au>
+                   <snm>Kihara</snm>
+                   <fnm>T</fnm>
+                </au>
+                <au>
+                   <snm>Kubozono</snm>
+                   <fnm>T</fnm>
+                </au>
+                <au>
+                   <snm>Ikeda</snm>
+                   <fnm>Y</fnm>
+                </au>
+                <au>
+                   <snm>Shinsato</snm>
+                   <fnm>T</fnm>
+                </au>
+                <au>
+                   <snm>Izumi</snm>
+                   <fnm>T</fnm>
+                </au>
+                <au>
+                   <snm>Matsuzaki</snm>
+                   <fnm>M</fnm>
+                </au>
+                <au>
+                   <snm>Yamaguchi</snm>
+                   <fnm>T</fnm>
+                </au>
+                <au>
+                   <snm>Kasanuki</snm>
+                   <fnm>H</fnm>
+                </au>
+                <au>
+                   <snm>Daida</snm>
+                   <fnm>H</fnm>
+                </au>
+                <au>
+                   <snm>Nagayama</snm>
+                   <fnm>M</fnm>
+                </au>
+                <au>
+                   <snm>Nishigami</snm>
+                   <fnm>K</fnm>
+                </au>
+                <au>
+                   <snm>Hirata</snm>
+                   <fnm>K</fnm>
+                </au>
+                <au>
+                   <snm>Kihara</snm>
+                   <fnm>K</fnm>
+                </au>
+                <au>
+                   <snm>Tei</snm>
+                   <fnm>C</fnm>
+                </au>
+             </aug>
+             <source>J Cardiol.</source>
+             <pubdate>2008</pubdate>
+             <volume>52</volume>
+             <fpage>79</fpage>
+             <lpage>85</lpage>
+             <xrefbib>
+                <pubidlist>
+                   <pubid idtype="doi">10.1016/j.jjcc.2008.07.009</pubid>
+                   <pubid idtype="pmpid" link="fulltext">18922381</pubid>
+                </pubidlist>
+             </xrefbib>
+          </bibl>
+          <bibl id="B29">
+             <title>
+                <p>Coronary artery bypass grafting in severe left ventricular dysfunction: excellent survival with improved ejection fraction and functional state</p>
+             </title>
+             <aug>
+                <au>
+                   <snm>Elefteriades</snm>
+                   <fnm>JA</fnm>
+                </au>
+                <au>
+                   <snm>Tolis</snm>
+                   <fnm>G</fnm>
+                   <suf>Jr</suf>
+                </au>
+                <au>
+                   <snm>Levi</snm>
+                   <fnm>E</fnm>
+                </au>
+                <au>
+                   <snm>Mills</snm>
+                   <fnm>LK</fnm>
+                </au>
+                <au>
+                   <snm>Zaret</snm>
+                   <fnm>BL</fnm>
+                </au>
+             </aug>
+             <source>J Am Coll Cardiol.</source>
+             <pubdate>1993</pubdate>
+             <volume>22</volume>
+             <fpage>1411</fpage>
+             <lpage>1417</lpage>
+             <xrefbib>
+                <pubidlist>
+                   <pubid idtype="doi">10.1016/0735-1097(93)90551-B</pubid>
+                   <pubid idtype="pmpid" link="fulltext">8227799</pubid>
+                </pubidlist>
+             </xrefbib>
+          </bibl>
+          <bibl id="B30">
+             <title>
+                <p>Results and predictors of early and late outcome of coronary artery bypass grafting in patients with severely depressed left ventricular function</p>
+             </title>
+             <aug>
+                <au>
+                   <snm>Filsoufi</snm>
+                   <fnm>F</fnm>
+                </au>
+                <au>
+                   <snm>Rahmanian</snm>
+                   <fnm>PB</fnm>
+                </au>
+                <au>
+                   <snm>Castillo</snm>
+                   <fnm>JG</fnm>
+                </au>
+                <au>
+                   <snm>Chikwe</snm>
+                   <fnm>J</fnm>
+                </au>
+                <au>
+                   <snm>Kini</snm>
+                   <fnm>AS</fnm>
+                </au>
+                <au>
+                   <snm>Adams</snm>
+                   <fnm>DH</fnm>
+                </au>
+             </aug>
+             <source>Ann Thorac Surg.</source>
+             <pubdate>2007</pubdate>
+             <volume>84</volume>
+             <fpage>808</fpage>
+             <lpage>816</lpage>
+             <xrefbib>
+                <pubidlist>
+                   <pubid idtype="doi">10.1016/j.athoracsur.2007.04.117</pubid>
+                   <pubid idtype="pmpid" link="fulltext">17720380</pubid>
+                </pubidlist>
+             </xrefbib>
+          </bibl>
+          <bibl id="B31">
+             <title>
+                <p>Intermediate-term outcome of mitral reconstruction in cardiomyopathy</p>
+             </title>
+             <aug>
+                <au>
+                   <snm>Bolling</snm>
+                   <fnm>SF</fnm>
+                </au>
+                <au>
+                   <snm>Pagani</snm>
+                   <fnm>FD</fnm>
+                </au>
+                <au>
+                   <snm>Deeb</snm>
+                   <fnm>GM</fnm>
+                </au>
+                <au>
+                   <snm>Bach</snm>
+                   <fnm>DS</fnm>
+                </au>
+             </aug>
+             <source>J Thorac Cardiovasc Surg.</source>
+             <pubdate>1998</pubdate>
+             <volume>115</volume>
+             <fpage>381</fpage>
+             <lpage>386</lpage>
+             <xrefbib>
+                <pubidlist>
+                   <pubid idtype="doi">10.1016/S0022-5223(98)70282-X</pubid>
+                   <pubid idtype="pmpid" link="fulltext">9475533</pubid>
+                </pubidlist>
+             </xrefbib>
+          </bibl>
+          <bibl id="B32">
+             <title>
+                <p>Mitral valve surgery for chronic ischemic mitral regurgitation</p>
+             </title>
+             <aug>
+                <au>
+                   <snm>Calafiore</snm>
+                   <fnm>AM</fnm>
+                </au>
+                <au>
+                   <snm>Di Mauro</snm>
+                   <fnm>M</fnm>
+                </au>
+                <au>
+                   <snm>Gallina</snm>
+                   <fnm>S</fnm>
+                </au>
+                <au>
+                   <snm>Di Giammarco</snm>
+                   <fnm>G</fnm>
+                </au>
+                <au>
+                   <snm>Iac&#242;</snm>
+                   <fnm>AL</fnm>
+                </au>
+                <au>
+                   <snm>Teodori</snm>
+                   <fnm>G</fnm>
+                </au>
+                <au>
+                   <snm>Tavarozzi</snm>
+                   <fnm>I</fnm>
+                </au>
+             </aug>
+             <source>Ann Thorac Surg.</source>
+             <pubdate>2004</pubdate>
+             <volume>77</volume>
+             <fpage>1989</fpage>
+             <lpage>1997</lpage>
+             <xrefbib>
+                <pubidlist>
+                   <pubid idtype="doi">10.1016/j.athoracsur.2003.11.017</pubid>
+                   <pubid idtype="pmpid" link="fulltext">15172252</pubid>
+                </pubidlist>
+             </xrefbib>
+          </bibl>
+          <bibl id="B33">
+             <note>Guidelines for the evaluation and management of heart failure. Report of the American College of Cardiology/American Heart Association Task Force on Practice Guidelines (Committee on Evaluation and Management of Heart Failure). J Am Coll Cardiol. 1995;26:1376&#8211;98</note>
+          </bibl>
+          <bibl id="B34">
+             <title>
+                <p>Ventricular assist systems: experience in Japan with Toyobo pump and Zeon pump</p>
+             </title>
+             <aug>
+                <au>
+                   <snm>Takano</snm>
+                   <fnm>H</fnm>
+                </au>
+                <au>
+                   <snm>Nakatani</snm>
+                   <fnm>T</fnm>
+                </au>
+             </aug>
+             <source>Ann Thorac Surg.</source>
+             <pubdate>1996</pubdate>
+             <volume>61</volume>
+             <fpage>317</fpage>
+             <lpage>322</lpage>
+             <xrefbib>
+                <pubidlist>
+                   <pubid idtype="doi">10.1016/0003-4975(95)01007-6</pubid>
+                   <pubid idtype="pmpid" link="fulltext">8561597</pubid>
+                </pubidlist>
+             </xrefbib>
+          </bibl>
+          <bibl id="B35">
+             <title>
+                <p>ACC/AHA guidelines for the evaluation and management of chronic heart failure in the adult: executive summary. A report of the American College of Cardiology/American Heart Association Task Force on Practice Guidelines (Committee to revise the 1995 Guidelines for the Evaluation and Management of Heart Failure)</p>
+             </title>
+             <aug>
+                <au>
+                   <snm>Hunt</snm>
+                   <fnm>SA</fnm>
+                </au>
+                <au>
+                   <snm>Baker</snm>
+                   <fnm>DW</fnm>
+                </au>
+                <au>
+                   <snm>Chin</snm>
+                   <fnm>MH</fnm>
+                </au>
+                <au>
+                   <snm>Cinquegrani</snm>
+                   <fnm>MP</fnm>
+                </au>
+                <au>
+                   <snm>Feldman</snm>
+                   <fnm>AM</fnm>
+                </au>
+                <au>
+                   <snm>Francis</snm>
+                   <fnm>GS</fnm>
+                </au>
+                <au>
+                   <snm>Ganiats</snm>
+                   <fnm>TG</fnm>
+                </au>
+                <au>
+                   <snm>Goldstein</snm>
+                   <fnm>S</fnm>
+                </au>
+                <au>
+                   <snm>Gregoratos</snm>
+                   <fnm>G</fnm>
+                </au>
+                <au>
+                   <snm>Jessup</snm>
+                   <fnm>ML</fnm>
+                </au>
+                <au>
+                   <snm>Noble</snm>
+                   <fnm>RJ</fnm>
+                </au>
+                <au>
+                   <snm>Packer</snm>
+                   <fnm>M</fnm>
+                </au>
+                <au>
+                   <snm>Silver</snm>
+                   <fnm>MA</fnm>
+                </au>
+                <au>
+                   <snm>Stevenson</snm>
+                   <fnm>LW</fnm>
+                </au>
+                <au>
+                   <snm>Gibbons</snm>
+                   <fnm>RJ</fnm>
+                </au>
+                <au>
+                   <snm>Antman</snm>
+                   <fnm>EM</fnm>
+                </au>
+                <au>
+                   <snm>Alpert</snm>
+                   <fnm>JS</fnm>
+                </au>
+                <au>
+                   <snm>Faxon</snm>
+                   <fnm>DP</fnm>
+                </au>
+                <au>
+                   <snm>Fuster</snm>
+                   <fnm>V</fnm>
+                </au>
+                <au>
+                   <snm>Jacobs</snm>
+                   <fnm>AK</fnm>
+                </au>
+                <au>
+                   <snm>Hiratzka</snm>
+                   <fnm>LF</fnm>
+                </au>
+                <au>
+                   <snm>Russell</snm>
+                   <fnm>RO</fnm>
+                </au>
+                <au>
+                   <snm>Smith</snm>
+                   <fnm>SC</fnm>
+                   <suf>Jr</suf>
+                </au>
+             </aug>
+             <insg>
+                <ins>
+                   <p>American College of Cardiology/American Heart Association</p>
+                </ins>
+             </insg>
+             <source>J Am Coll Cardiol.</source>
+             <pubdate>2001</pubdate>
+             <volume>38</volume>
+             <fpage>2101</fpage>
+             <lpage>2113</lpage>
+             <xrefbib>
+                <pubidlist>
+                   <pubid idtype="doi">10.1016/S0735-1097(01)01683-7</pubid>
+                   <pubid idtype="pmpid" link="fulltext">11738322</pubid>
+                </pubidlist>
+             </xrefbib>
+          </bibl>
+          <bibl id="B36">
+             <title>
+                <p>What are the costs of heart failure?</p>
+             </title>
+             <aug>
+                <au>
+                   <snm>Braunschweig</snm>
+                   <fnm>F</fnm>
+                </au>
+                <au>
+                   <snm>Cowie</snm>
+                   <fnm>MR</fnm>
+                </au>
+                <au>
+                   <snm>Auricchio</snm>
+                   <fnm>A</fnm>
+                </au>
+             </aug>
+             <source>Europace</source>
+             <pubdate>2011</pubdate>
+             <volume>13</volume>
+             <issue>Suppl 2</issue>
+             <fpage>ii13</fpage>
+             <lpage>ii17</lpage>
+             <xrefbib>
+                <pubidlist>
+                   <pubid idtype="doi">10.1093/europace/eur081</pubid>
+                   <pubid idtype="pmpid" link="fulltext">21518742</pubid>
+                </pubidlist>
+             </xrefbib>
+          </bibl>
+          <bibl id="B37">
+             <note>Effect of metoprolol CR/XL in chronic heart failure: Metoprolol CR/XL Randomised Intervention Trial in Congestive Heart Failure (MERIT-HF). Lancet<it>.</it> 1999;353<b>:</b>2001<b>&#8211;</b>0<b>7</b> 
+             </note>
+          </bibl>
+          <bibl id="B38">
+             <title>
+                <p>Effects of positive end-expiratory pressure ventilation and extracorporeal ultrafiltration method in patients with refractory heart failure</p>
+             </title>
+             <aug>
+                <au>
+                   <snm>Takano</snm>
+                   <fnm>T</fnm>
+                </au>
+                <au>
+                   <snm>Endo</snm>
+                   <fnm>T</fnm>
+                </au>
+                <au>
+                   <snm>Tanaka</snm>
+                   <fnm>K</fnm>
+                </au>
+                <au>
+                   <snm>Seino</snm>
+                   <fnm>Y</fnm>
+                </au>
+                <au>
+                   <snm>Nitta</snm>
+                   <fnm>T</fnm>
+                </au>
+                <au>
+                   <snm>Matsuyama</snm>
+                   <fnm>Y</fnm>
+                </au>
+                <au>
+                   <snm>Koh</snm>
+                   <fnm>M</fnm>
+                </au>
+                <au>
+                   <snm>Hayakawa</snm>
+                   <fnm>H</fnm>
+                </au>
+             </aug>
+             <source>Jpn Circ J.</source>
+             <pubdate>1986</pubdate>
+             <volume>50</volume>
+             <fpage>359</fpage>
+             <lpage>367</lpage>
+             <xrefbib>
+                <pubidlist>
+                   <pubid idtype="doi">10.1253/jcj.50.359</pubid>
+                   <pubid idtype="pmpid" link="fulltext">3528548</pubid>
+                </pubidlist>
+             </xrefbib>
+          </bibl>
+          <bibl id="B39">
+             <title>
+                <p>Noninvasive ventilation</p>
+             </title>
+             <aug>
+                <au>
+                   <snm>Mehta</snm>
+                   <fnm>S</fnm>
+                </au>
+                <au>
+                   <snm>Hill</snm>
+                   <fnm>NS</fnm>
+                </au>
+             </aug>
+             <source>Am J Respir Crit Care Med.</source>
+             <pubdate>2001</pubdate>
+             <volume>163</volume>
+             <fpage>540</fpage>
+             <lpage>577</lpage>
+             <xrefbib>
+                <pubidlist>
+                   <pubid idtype="doi">10.1164/ajrccm.163.2.9906116</pubid>
+                   <pubid idtype="pmpid" link="fulltext">11179136</pubid>
+                </pubidlist>
+             </xrefbib>
+          </bibl>
+          <bibl id="B40">
+             <title>
+                <p>Effect of continuous positive airway pressure on intrathoracic and left ventricular transmural pressures in patients with congestive heart failure</p>
+             </title>
+             <aug>
+                <au>
+                   <snm>Naughton</snm>
+                   <fnm>MT</fnm>
+                </au>
+                <au>
+                   <snm>Rahman</snm>
+                   <fnm>MA</fnm>
+                </au>
+                <au>
+                   <snm>Hara</snm>
+                   <fnm>K</fnm>
+                </au>
+                <au>
+                   <snm>Floras</snm>
+                   <fnm>JS</fnm>
+                </au>
+                <au>
+                   <snm>Bradley</snm>
+                   <fnm>TD</fnm>
+                </au>
+             </aug>
+             <source>Circulation</source>
+             <pubdate>1995</pubdate>
+             <volume>91</volume>
+             <fpage>1725</fpage>
+             <lpage>1731</lpage>
+             <xrefbib>
+                <pubidlist>
+                   <pubid idtype="doi">10.1161/01.CIR.91.6.1725</pubid>
+                   <pubid idtype="pmpid" link="fulltext">7882480</pubid>
+                </pubidlist>
+             </xrefbib>
+          </bibl>
+       </refgrp>
+    </bm>
+ </art>

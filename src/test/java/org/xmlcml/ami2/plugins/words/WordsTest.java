@@ -9,7 +9,6 @@ import org.apache.log4j.Logger;
 import org.junit.Test;
 import org.xmlcml.ami2.Fixtures;
 import org.xmlcml.ami2.plugins.AMIArgProcessor;
-import org.xmlcml.ami2.plugins.words.WordArgProcessor;
 
 public class WordsTest {
 
@@ -103,5 +102,59 @@ public class WordsTest {
 		AMIArgProcessor argProcessor = new WordArgProcessor(args);
 		argProcessor.runAndOutput();
 	}
+
+	@Test
+	public void testSummarize() throws IOException {
+		if (Fixtures.EXAMPLES_TEMP.exists()) FileUtils.forceDelete(Fixtures.EXAMPLES_TEMP);
+		FileUtils.copyDirectory(Fixtures.EXAMPLES, Fixtures.EXAMPLES_TEMP);
+		LOG.debug("copied files");
+		String args[] = {
+			"-q", Fixtures.EXAMPLES_TEMP.toString(), 
+	"--w.words", WordArgProcessor.WORD_FREQUENCIES,
+	"--w.stopwords", STOPWORDS_TXT,
+	"--w.case", "ignore",
+	"--w.summary", "aggregate",
+	"--summaryfile", "target/examples/"
+		};
+		AMIArgProcessor argProcessor = new WordArgProcessor(args);
+		argProcessor.runAndOutput();
+	}
+
+
+	@Test
+	public void testSummarizeDocumentFrequencies() throws IOException {
+		if (Fixtures.EXAMPLES_TEMP.exists()) FileUtils.forceDelete(Fixtures.EXAMPLES_TEMP);
+		FileUtils.copyDirectory(Fixtures.EXAMPLES, Fixtures.EXAMPLES_TEMP);
+		LOG.debug("copied files");
+		String args[] = {
+			"-q", Fixtures.EXAMPLES_TEMP.toString(), 
+	"--w.words", WordArgProcessor.WORD_FREQUENCIES,
+	"--w.stopwords", STOPWORDS_TXT,
+	"--w.case", "ignore",
+	"--w.summary", "booleanFrequency",
+	"--summaryfile", "target/examples/",
+	"--w.mincount", "3"
+		};
+		AMIArgProcessor argProcessor = new WordArgProcessor(args);
+		argProcessor.runAndOutput();
+	}
+
+//	@Test
+//	public void testSummarizeDocumentFrequenciesAll() throws IOException {
+//		if (Fixtures.EXAMPLES_TEMP.exists()) FileUtils.forceDelete(Fixtures.EXAMPLES_TEMP);
+//		FileUtils.copyDirectory(Fixtures.EXAMPLES, Fixtures.EXAMPLES_TEMP);
+//		LOG.debug("copied files");
+//		String args[] = {
+//			"-q", Fixtures.EXAMPLES_TEMP.toString(), 
+//	"--w.words", WordArgProcessor.WORD_FREQUENCIES,
+//	"--w.stopwords", STOPWORDS_TXT,
+//	"--w.case", "ignore",
+//	"--w.summary", "booleanFrequency",
+//	"--summaryfile", "target/examples/",
+//	"--w.mincount", "3"
+//		};
+//		AMIArgProcessor argProcessor = new WordArgProcessor(args);
+//		argProcessor.runAndOutput();
+//	}
 
 }

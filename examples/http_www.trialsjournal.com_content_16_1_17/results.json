@@ -1,0 +1,98 @@
+{
+  "publisher": {
+    "value": [
+      "BioMed Central Ltd"
+    ]
+  },
+  "journal": {
+    "value": [
+      "Trials"
+    ]
+  },
+  "title": {
+    "value": [
+      "A primary care, electronic health record-based strategy to promote safe drug use: study protocol for a randomized controlled trial"
+    ]
+  },
+  "authors": {
+    "value": [
+      "Kamila Przytula",
+      "Stacy C Bailey",
+      "William L Galanter",
+      "Bruce L Lambert",
+      "Neeha Shrestha",
+      "Carolyn Dickens",
+      "Suzanne Falck",
+      "Michael S Wolf"
+    ]
+  },
+  "date": {
+    "value": [
+      "2015-01-27"
+    ]
+  },
+  "doi": {
+    "value": [
+      "10.1186/s13063-014-0524-x"
+    ]
+  },
+  "volume": {
+    "value": [
+      "16"
+    ]
+  },
+  "issue": {
+    "value": [
+      "1"
+    ]
+  },
+  "firstpage": {
+    "value": [
+      "17"
+    ]
+  },
+  "description": {
+    "value": [
+      "The Northwestern University Center for Education and Research on Therapeutics (CERT), funded by the Agency for Healthcare Research and Quality, is one of seven such centers in the USA. The thematic focus of the Northwestern CERT is ‘Tools for Optimizing Medication Safety.’ Ensuring drug safety is essential, as many adults struggle to take medications, with estimates indicating that only half of adults take drugs as prescribed. This report describes the methods and rationale for one innovative project within the CERT: the ‘Primary Care, Electronic Health Record-Based Strategy to Promote Safe and Appropriate Drug Use’."
+    ]
+  },
+  "abstract": {
+    "value": [
+      "The Northwestern University Center for Education and Research on Therapeutics (CERT), funded by the Agency for Healthcare Research and Quality, is one of seven such centers in the USA. The thematic focus of the Northwestern CERT is ‘Tools for Optimizing Medication Safety.’ Ensuring drug safety is essential, as many adults struggle to take medications, with estimates indicating that only half of adults take drugs as prescribed. This report describes the methods and rationale for one innovative project within the CERT: the ‘Primary Care, Electronic Health Record-Based Strategy to Promote Safe and Appropriate Drug Use’."
+    ]
+  },
+  "fulltext_html": {
+    "value": [
+      "http://www.trialsjournal.com/content/16/1/17"
+    ]
+  },
+  "fulltext_pdf": {
+    "value": [
+      "http://www.trialsjournal.com/content/pdf/s13063-014-0524-x.pdf"
+    ]
+  },
+  "fulltext_xml": {
+    "value": [
+      "/content/download/xml/s13063-014-0524-x.xml"
+    ]
+  },
+  "supplementary_material": {
+    "value": []
+  },
+  "figure": {
+    "value": []
+  },
+  "figure_caption": {
+    "value": []
+  },
+  "license": {
+    "value": [
+      "\r\n\t\t\t\tThis is an Open Access article distributed under the terms of the Creative Commons Attribution License (http://creativecommons.org/licenses/by/4.0), which permits unrestricted use, distribution, and reproduction in any medium, provided the original work is properly credited. The Creative Commons Public Domain Dedication waiver (http://creativecommons.org/publicdomain/zero/1.0/) applies to the data made available in this article, unless otherwise stated.\r\n\t\t\t"
+    ]
+  },
+  "copyright": {
+    "value": [
+      "\r\n            © 2015 Przytula et al.; licensee BioMed Central. \r\n        "
+    ]
+  }
+}

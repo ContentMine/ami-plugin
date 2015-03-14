@@ -1,4 +1,4 @@
-<argList>
+<argList name="ami">
 	<arg name="context" 
 		brief="-y"
 		long="--context"
