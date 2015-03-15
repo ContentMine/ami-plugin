@@ -6,7 +6,7 @@
   <regex>[Rr]andomi[sz]ation list</regex>
   <regex>[Bb]linding</regex>
   <regex>follow-up</regex>
-  <regex>participants</regex>
+  <regex fields="count">(\d+)\s+participants</regex>
   <regex>excluded</regex>
   <regex>withdrew</regex>
   <regex>diagnosed</regex>

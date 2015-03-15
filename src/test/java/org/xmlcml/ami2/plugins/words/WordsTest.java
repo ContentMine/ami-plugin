@@ -6,6 +6,7 @@ import java.io.IOException;
 import org.apache.commons.io.FileUtils;
 import org.apache.log4j.Level;
 import org.apache.log4j.Logger;
+import org.junit.Ignore;
 import org.junit.Test;
 import org.xmlcml.ami2.Fixtures;
 import org.xmlcml.ami2.plugins.AMIArgProcessor;
@@ -14,6 +15,7 @@ public class WordsTest {
 
 	
 	private static final String STOPWORDS_TXT = "/org/xmlcml/ami2/plugins/words/stopwords.txt";
+	private static final String CLINICAL_STOPWORDS_TXT = "/org/xmlcml/ami2/plugins/words/clinicaltrials200.txt";
 	private static final Logger LOG = Logger.getLogger(WordsTest.class);
 	static {
 		LOG.setLevel(Level.DEBUG);
@@ -23,6 +25,11 @@ public class WordsTest {
 			"trialsdata/http_www.trialsjournal.com_content_16_1_1";
 	private static final String TEMP_16_1_1 = 
 			"trialstemp/http_www.trialsjournal.com_content_16_1_1";
+
+	private static final String EXAMPLES = 
+			"examples";
+	private static final String EXAMPLES_TEMP = 
+			"examplestemp";
 
 	@Test
 	public void testWordsHelp() {
@@ -72,6 +79,22 @@ public class WordsTest {
 	}
 
 	@Test
+	public void testExamplesFrequencies() throws IOException {
+		FileUtils.copyDirectory(
+				new File(EXAMPLES), 
+				new File(EXAMPLES_TEMP));
+		LOG.debug("copied file");
+		String[] args = {
+			"-q", EXAMPLES_TEMP,
+			"--w.words", WordArgProcessor.WORD_FREQUENCIES,
+			"--w.stopwords", STOPWORDS_TXT, CLINICAL_STOPWORDS_TXT,
+		};
+		AMIArgProcessor argProcessor = new WordArgProcessor(args);
+		argProcessor.runAndOutput();
+	}
+
+	@Test
+	@Ignore
 	public void testStemming() throws IOException {
 		FileUtils.copyDirectory(new File(DATA_16_1_1), new File(TEMP_16_1_1));
 		LOG.debug("copied files");
@@ -80,7 +103,6 @@ public class WordsTest {
 	"--w.words", WordArgProcessor.WORD_FREQUENCIES,
 	"--w.stopwords", STOPWORDS_TXT,
 	"--w.wordlengths", "2", "12",
-	"--w.wordtypes", "acronym", "GROT",
 	"--w.stem", "true",
 		};
 		AMIArgProcessor argProcessor = new WordArgProcessor(args);
@@ -96,7 +118,6 @@ public class WordsTest {
 	"--w.words", WordArgProcessor.WORD_FREQUENCIES,
 	"--w.stopwords", STOPWORDS_TXT,
 	"--w.wordlengths", "2", "12",
-	"--w.wordtypes", "acronym", "GROT",
 	"--w.case", "ignore",
 		};
 		AMIArgProcessor argProcessor = new WordArgProcessor(args);
@@ -111,7 +132,7 @@ public class WordsTest {
 		String args[] = {
 			"-q", Fixtures.EXAMPLES_TEMP.toString(), 
 	"--w.words", WordArgProcessor.WORD_FREQUENCIES,
-	"--w.stopwords", STOPWORDS_TXT,
+	"--w.stopwords", STOPWORDS_TXT, 
 	"--w.case", "ignore",
 	"--w.summary", "aggregate",
 	"--summaryfile", "target/examples/"
@@ -129,7 +150,7 @@ public class WordsTest {
 		String args[] = {
 			"-q", Fixtures.EXAMPLES_TEMP.toString(), 
 	"--w.words", WordArgProcessor.WORD_FREQUENCIES,
-	"--w.stopwords", STOPWORDS_TXT,
+	"--w.stopwords", STOPWORDS_TXT, CLINICAL_STOPWORDS_TXT,
 	"--w.case", "ignore",
 	"--w.summary", "booleanFrequency",
 	"--summaryfile", "target/examples/",

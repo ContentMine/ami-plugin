@@ -1,0 +1,102 @@
+{
+  "publisher": {
+    "value": [
+      "BioMed Central Ltd"
+    ]
+  },
+  "journal": {
+    "value": [
+      "Trials"
+    ]
+  },
+  "title": {
+    "value": [
+      "Selective or stepwise removal of deep caries in deciduous molars: study protocol for a randomized controlled trial"
+    ]
+  },
+  "authors": {
+    "value": [
+      "Falk Schwendicke",
+      "Hardy Schweigel",
+      "Marina A Petrou",
+      "Ruth Santamaria",
+      "Werner Hopfenmüller",
+      "Christian Finke",
+      "Sebastian Paris"
+    ]
+  },
+  "date": {
+    "value": [
+      "2015-01-06"
+    ]
+  },
+  "doi": {
+    "value": [
+      "10.1186/s13063-014-0525-9"
+    ]
+  },
+  "volume": {
+    "value": [
+      "16"
+    ]
+  },
+  "issue": {
+    "value": [
+      "1"
+    ]
+  },
+  "firstpage": {
+    "value": [
+      "11"
+    ]
+  },
+  "description": {
+    "value": [
+      "For treating deep caries lesions, selective or stepwise (one- and two-step) incomplete excavation seems advantageous compared with complete caries removal. However, current evidence regarding the success, as defined by not requiring any retreatments, or survival of teeth after different excavations is insufficient for definitive recommendation, especially when treating deciduous teeth. Moreover, restoration integrity has not been comparatively analyzed longitudinally, and neither patients’, dentists’ or parents’ preferences nor the clinical long-term costs emanating from both initial and retreatments have been reported yet."
+    ]
+  },
+  "abstract": {
+    "value": [
+      "For treating deep caries lesions, selective or stepwise (one- and two-step) incomplete excavation seems advantageous compared with complete caries removal. However, current evidence regarding the success, as defined by not requiring any retreatments, or survival of teeth after different excavations is insufficient for definitive recommendation, especially when treating deciduous teeth. Moreover, restoration integrity has not been comparatively analyzed longitudinally, and neither patients’, dentists’ or parents’ preferences nor the clinical long-term costs emanating from both initial and retreatments have been reported yet."
+    ]
+  },
+  "fulltext_html": {
+    "value": [
+      "http://www.trialsjournal.com/content/16/1/11"
+    ]
+  },
+  "fulltext_pdf": {
+    "value": [
+      "http://www.trialsjournal.com/content/pdf/s13063-014-0525-9.pdf"
+    ]
+  },
+  "fulltext_xml": {
+    "value": [
+      "/content/download/xml/s13063-014-0525-9.xml"
+    ]
+  },
+  "supplementary_material": {
+    "value": []
+  },
+  "figure": {
+    "value": [
+      "/content/figures/s13063-014-0525-9-1.gif"
+    ]
+  },
+  "figure_caption": {
+    "value": [
+      "Figure 1.",
+      "Flowchart of the study."
+    ]
+  },
+  "license": {
+    "value": [
+      "\r\n\t\t\t\tThis is an Open Access article distributed under the terms of the Creative Commons Attribution License (http://creativecommons.org/licenses/by/4.0), which permits unrestricted use, distribution, and reproduction in any medium, provided the original work is properly credited. The Creative Commons Public Domain Dedication waiver (http://creativecommons.org/publicdomain/zero/1.0/) applies to the data made available in this article, unless otherwise stated.\r\n\t\t\t"
+    ]
+  },
+  "copyright": {
+    "value": [
+      "\r\n            © 2014 Schwendicke et al.; licensee BioMed Central. \r\n        "
+    ]
+  }
+}

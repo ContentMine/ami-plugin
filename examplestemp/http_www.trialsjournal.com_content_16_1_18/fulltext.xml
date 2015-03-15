@@ -1,0 +1,1771 @@
+<?xml version='1.0'?>
+<!DOCTYPE art SYSTEM 'http://www.biomedcentral.com/xml/article.dtd'>
+<art>
+    <ui>s13063-014-0527-7</ui>
+    <ji>1745-6215</ji>
+    <fm>
+       <dochead>Study protocol</dochead>
+       <bibl>
+          <title>
+             <p>Clinical and cost effectiveness of computer treatment for aphasia post stroke (Big CACTUS): study protocol for a randomised controlled trial</p>
+          </title>
+          <aug>
+             <au id="A1" ca="yes">
+                <snm>Palmer</snm>
+                <fnm>Rebecca</fnm>
+                <insr iid="I1"/>
+                <email>r.l.palmer@sheffield.ac.uk</email>
+             </au>
+             <au id="A2">
+                <snm>Cooper</snm>
+                <fnm>Cindy</fnm>
+                <insr iid="I1"/>
+                <email>c.l.cooper@sheffield.ac.uk</email>
+             </au>
+             <au id="A3">
+                <snm>Enderby</snm>
+                <fnm>Pam</fnm>
+                <insr iid="I1"/>
+                <email>p.m.enderby@sheffield.ac.uk</email>
+             </au>
+             <au id="A4">
+                <snm>Brady</snm>
+                <fnm>Marian</fnm>
+                <insr iid="I2"/>
+                <email>M.Brady@gcu.ac.uk</email>
+             </au>
+             <au id="A5">
+                <snm>Julious</snm>
+                <fnm>Steven</fnm>
+                <insr iid="I3"/>
+                <email>s.a.julious@sheffield.ac.uk</email>
+             </au>
+             <au id="A6">
+                <snm>Bowen</snm>
+                <fnm>Audrey</fnm>
+                <insr iid="I4"/>
+                <email>audrey.bowen@manchester.ac.uk</email>
+             </au>
+             <au id="A7">
+                <snm>Latimer</snm>
+                <fnm>Nicholas</fnm>
+                <insr iid="I5"/>
+                <email>n.latimer@shef.ac.uk</email>
+             </au>
+          </aug>
+          <insg>
+             <ins id="I1">
+                <p>School of Health and Related Research, University of Sheffield, 107 Innovation Centre, 217 Portobello, Sheffield S1 4DP, England</p>
+             </ins>
+             <ins id="I2">
+                <p>Nursing, Midwifery and Allied Health Professions Research Unit, Glasgow Caledonian University, Cowcaddens Road, Glasgow G40BA, England</p>
+             </ins>
+             <ins id="I3">
+                <p>Medical Statistics Group, School of Health and Related Research, University of Sheffield, Regent Court, Regent Street, Sheffield S1 4DA, England</p>
+             </ins>
+             <ins id="I4">
+                <p>Reader, School of Psychological Sciences, University of Manchester (MAHSC), Joint theme lead - Patient-Centred Care, NIHR CLAHRC Greater Manchester, Centre for Stroke and Vascular Research, CSB, Salford Royal NHS Foundation Trust, Stott Lane, Salford M6 8HD, England</p>
+             </ins>
+             <ins id="I5">
+                <p>Senior Research Fellow in Health Economics, Health Economics and Decision Science, ScHARR, University of Sheffield, Regent Court, 30 Regent Street, Sheffield S1 4DA, England</p>
+             </ins>
+          </insg>
+          <source>Trials</source>
+          <issn>1745-6215</issn>
+          <pubdate>2015</pubdate>
+          <volume>16</volume>
+          <issue>1</issue>
+          <fpage>18</fpage>
+          <url>http://www.trialsjournal.com/content/16/1/18</url>
+          <xrefbib>
+             <pubidlist>
+                <pubid idtype="doi">10.1186/s13063-014-0527-7</pubid>
+             </pubidlist>
+          </xrefbib>
+       </bibl>
+       <history>
+          <rec>
+             <date>
+                <day>22</day>
+                <month>8</month>
+                <year>2014</year>
+             </date>
+          </rec>
+          <acc>
+             <date>
+                <day>19</day>
+                <month>12</month>
+                <year>2014</year>
+             </date>
+          </acc>
+          <pub>
+             <date>
+                <day>27</day>
+                <month>1</month>
+                <year>2015</year>
+             </date>
+          </pub>
+       </history>
+       <cpyrt>
+          <year>2015</year>
+          <collab>Palmer et al.; licensee BioMed Central.</collab>
+          <note>This is an Open Access article distributed under the terms of the Creative Commons Attribution License (<url>http://creativecommons.org/licenses/by/4.0</url>), which permits unrestricted use, distribution, and reproduction in any medium, provided the original work is properly credited. The Creative Commons Public Domain Dedication waiver (<url>http://creativecommons.org/publicdomain/zero/1.0/</url>) applies to the data made available in this article, unless otherwise stated.</note>
+       </cpyrt>
+       <kwdg>
+          <kwd>Speech and language therapy</kwd>
+          <kwd>Aphasia</kwd>
+          <kwd>Computerised intervention</kwd>
+          <kwd>Self-management</kwd>
+          <kwd>Long term rehabilitation</kwd>
+          <kwd>RCT design</kwd>
+          <kwd>Stroke</kwd>
+       </kwdg>
+       <abs>
+          <sec>
+             <st>
+                <p>Abstract</p>
+             </st>
+             <sec>
+                <st>
+                   <p>Background</p>
+                </st>
+                <p>Aphasia affects the ability to speak, comprehend spoken language, read and write. One third of stroke survivors experience aphasia. Evidence suggests that aphasia can continue to improve after the first few months with intensive speech and language therapy, which is frequently beyond what resources allow. The development of computer software for language practice provides an opportunity for self-managed therapy. This pragmatic randomised controlled trial will investigate the clinical and cost effectiveness of a computerised approach to long-term aphasia therapy post stroke.</p>
+             </sec>
+             <sec>
+                <st>
+                   <p>Methods/Design</p>
+                </st>
+                <p>A total of 285 adults with aphasia at least four months post stroke will be randomly allocated to either usual care, computerised intervention in addition to usual care or attention and activity control in addition to usual care. Those in the intervention group will receive six months of self-managed word finding practice on their home computer with monthly face-to-face support from a volunteer/assistant. Those in the attention control group will receive puzzle activities, supplemented by monthly telephone calls.</p>
+                <p>Study delivery will be coordinated by 20 speech and language therapy departments across the United Kingdom. Outcome measures will be made at baseline, six, nine and 12&#160;months after randomisation by blinded speech and language therapist assessors. Primary outcomes are the change in number of words (of personal relevance) named correctly at six months and improvement in functional conversation. Primary outcomes will be analysed using a Hochberg testing procedure. Significance will be declared if differences in both word retrieval and functional conversation at six months are significant at the 5% level, or if either comparison is significant at 2.5%. A cost utility analysis will be undertaken from the NHS and personal social service perspective. Differences between costs and quality-adjusted life years in the three groups will be described and the incremental cost effectiveness ratio will be calculated. Treatment fidelity will be monitored.</p>
+             </sec>
+             <sec>
+                <st>
+                   <p>Discussion</p>
+                </st>
+                <p>This is the first fully powered trial of the clinical and cost effectiveness of computerised aphasia therapy. Specific challenges in designing the protocol are considered.</p>
+             </sec>
+             <sec>
+                <st>
+                   <p>Trial registration</p>
+                </st>
+                <p>Registered with Current Controlled Trials <url>ISRCTN68798818</url> on 18 February 2014.</p>
+             </sec>
+          </sec>
+       </abs>
+    </fm>
+    <bdy>
+       <sec>
+          <st>
+             <p>Background</p>
+          </st>
+          <p>Stroke is the largest cause of disability in the United Kingdom with communication impairment affecting one third of survivors <abbrgrp>
+                <abbr bid="B1">1</abbr>
+             </abbrgrp>. Aphasia is the most common communication impairment acquired post stroke. It is a disorder of language which may affect understanding, expression, reading and writing. Speech and language therapy (SLT) is often received regularly initially but rarely continues after the first few months. Medical instability, fatigue and confusion may reduce full engagement with language therapy in the early weeks post stroke, reducing the opportunity for people to participate in treatment. There is evidence that people can continue to improve their language skills for several years <abbrgrp>
+                <abbr bid="B2">2</abbr>
+             </abbrgrp>. As the consequences of aphasia remain a problem long term, investigation of interventions to reduce this health burden in the chronic stages post stroke is crucial. The National Stroke Strategy <abbrgrp>
+                <abbr bid="B1">1</abbr>
+             </abbrgrp> recommends people receive rehabilitation for as long as they benefit from it. Treatment of aphasia that persists beyond the first few months post stroke is often not available through NHS services in the United Kingdom as ongoing therapy is costly through face-to-face SLT and places greater demands on limited resources.</p>
+          <p>Meta-analysis in a Cochrane review <abbrgrp>
+                <abbr bid="B2">2</abbr>
+             </abbrgrp> of SLT for aphasia following stroke suggests some effectiveness of aphasia therapy <abbrgrp>
+                <abbr bid="B2">2</abbr>
+             </abbrgrp>. Adequately powered randomized controlled trials (RCTs) in this field are rare except for recent studies of SLT intervention in the first few weeks post stroke. Laska <it>et al</it>. <abbrgrp>
+                <abbr bid="B3">3</abbr>
+             </abbrgrp> randomised 123 patients with aphasia to receive 45&#160;minutes of SLT a day for 21&#160;days, starting within two days of stroke onset, or no SLT intervention. Severity of the aphasia was not reduced. A recently completed study, ACT NoW <abbrgrp>
+                <abbr bid="B4">4</abbr>
+             </abbrgrp>, randomised 170 people in hospital post stroke to SLT intervention or attention control (informal conversation with paid visitors) for up to four months. No significant differences between groups were shown and the authors suggested that the intervention may have been provided too early in the stroke pathway. As aphasia persists for many stroke survivors, therapy in the longer term also warrants investigation using adequately powered RCTs. Although rapid spontaneous recovery may occur in the first few months, there is preliminary evidence to suggest targeted and intensive SLT treatments can promote further improvement in the latter months <abbrgrp>
+                <abbr bid="B5">5</abbr>
+             </abbrgrp>-<abbrgrp>
+                <abbr bid="B7">7</abbr>
+             </abbrgrp>.</p>
+          <p>Targeted therapies with good preliminary evidence to date include constraint induced aphasia therapy (CIAT); use of language in games to make, reject or clarify requests for targeted items for 30&#160;hours over 2&#160;weeks <abbrgrp>
+                <abbr bid="B5">5</abbr>
+             </abbrgrp>,<abbrgrp>
+                <abbr bid="B8">8</abbr>
+             </abbrgrp>,<abbrgrp>
+                <abbr bid="B9">9</abbr>
+             </abbrgrp>. A systematic review of 10 studies conducted over the decade concluded that evidence for this technique is favourable <abbrgrp>
+                <abbr bid="B10">10</abbr>
+             </abbrgrp>. Model oriented aphasia therapy (MOAT), which tailors treatment according to a patient&#8217;s individual symptoms, was found to be comparable to CIAT when delivered with similar intensity <abbrgrp>
+                <abbr bid="B11">11</abbr>
+             </abbrgrp>. Raymer <it>et al</it>. found personal relevance or &#8216;salience&#8217; of the language material being practiced to be important when targeting therapy <abbrgrp>
+                <abbr bid="B6">6</abbr>
+             </abbrgrp>. While the optimum intensity remains unclear, it is generally acknowledged that for stroke rehabilitation regular, repetitive therapy practice is a factor in treatment success.</p>
+          <p>The resources required to achieve intensive therapy in the long term is prohibitive in the current financial climate and lower cost options for the support of repetitive intensive practice are needed. Non-speech and language therapy professionals have been employed successfully to support therapy activity <abbrgrp>
+                <abbr bid="B4">4</abbr>
+             </abbrgrp>,<abbrgrp>
+                <abbr bid="B12">12</abbr>
+             </abbrgrp>,<abbrgrp>
+                <abbr bid="B13">13</abbr>
+             </abbrgrp>.</p>
+          <p>Computer therapy, developed for the treatment of aphasia, has been reported to be useful in the provision of targeted language practice and provides opportunities for independent home practice as part of a self-management approach to maximise practice intensity, improving outcomes for reading, spelling and expressive language <abbrgrp>
+                <abbr bid="B13">13</abbr>
+             </abbrgrp>-<abbrgrp>
+                <abbr bid="B17">17</abbr>
+             </abbrgrp>. The Department of Health report, &#8216;<it>Our Health, Our Care, Our Say</it>&#8217; <abbrgrp>
+                <abbr bid="B18">18</abbr>
+             </abbrgrp>, recommends self-management for long term conditions supported through technological innovation <abbrgrp>
+                <abbr bid="B18">18</abbr>
+             </abbrgrp>. However, to date, studies of self-managed computer therapy for aphasia have been limited to descriptive case series with only three reported RCTs; two for treatment of reading disorders and one for treatment of word finding <abbrgrp>
+                <abbr bid="B13">13</abbr>
+             </abbrgrp>,<abbrgrp>
+                <abbr bid="B14">14</abbr>
+             </abbrgrp>,<abbrgrp>
+                <abbr bid="B19">19</abbr>
+             </abbrgrp>. Although these studies were not fully powered, they indicate potential effectiveness of computer therapy. Such computer-based services for long term management of aphasia therapy could provide a low cost therapy option which is acceptable to patients and families. However, the actual cost effectiveness has not been definitively tested.</p>
+          <p>The StepbyStep&#169; computerised approach to long term aphasia therapy combines current evidence underpinning language therapy with practical considerations of treatment delivery. Skills of a qualified speech and language therapist are used to select individually targeted therapy exercises, computer software is provided for regular self-managed practice of therapy exercises and volunteers or assistant SLTs support language practice and computer use <abbrgrp>
+                <abbr bid="B20">20</abbr>
+             </abbrgrp>. A pilot study evaluating this approach was carried out with 34 people with persistent aphasia. They were randomly assigned to using computer software designed for treating aphasia, or usual long term care (most frequently this was social support). On average people with aphasia practiced their speech exercises on the computer independently for 25&#160;hours over five months. The therapy showed statistically significant improvement in the ability to use spoken words when compared to usual care (<it>P</it>&#8201;=&#8201;0.014). The results indicated that self-managed computer therapy supported by volunteers (a total of four hours on average) could help people with aphasia to continue to practise, improving their vocabulary and confidence talking <abbrgrp>
+                <abbr bid="B13">13</abbr>
+             </abbrgrp>. Patients and carers found it an acceptable alternative to face-to-face therapy <abbrgrp>
+                <abbr bid="B21">21</abbr>
+             </abbrgrp>. Self-managed computer therapy could therefore improve the quality of life of people with persistent aphasia at relatively low cost, and exploratory economic analysis has suggested considerable potential for the intervention to prove cost effective <abbrgrp>
+                <abbr bid="B13">13</abbr>
+             </abbrgrp>,<abbrgrp>
+                <abbr bid="B22">22</abbr>
+             </abbrgrp>.</p>
+          <p>The aim of this study is to provide definitive evidence of the clinical and cost effectiveness of targeted, intensive speech and language impairment-based therapy intervention for word finding delivered through self-managed computer exercise for persisting post-stroke aphasia. This builds on the pilot RCT which explored possible effects, and informed measures, feasibility, recruitment rates, adherence, cost effectiveness analysis and a power calculation. The current study was commissioned by the United Kingdom National Institute for Health Research, having considered the limitations in the current evidence base.</p>
+          <sec>
+             <st>
+                <p>Objectives</p>
+             </st>
+             <p>The primary objectives of the study are:</p><p>1. To establish whether self-managed computerised speech and language therapy for aphasia related word finding problems after stroke increases the ability to use vocabulary of personal importance (impairment).</p>
+                <p>2. To establish whether self-managed computerised speech and language therapy for word finding problems after stroke improves functional communication ability in conversation (activity).</p>
+                <p>3. To investigate whether patients receiving self-managed computerised speech and language therapy perceive greater changes in social participation and quality of life (participation).</p>
+                <p>4. To establish whether self-managed computerised speech and language therapy is cost effective for persistent aphasia post stroke.</p>
+                <p>5. To identify whether any effects of the intervention are evident 12&#160;months after therapy has begun.</p>
+             <p>Secondary objectives include investigating the generalisation of treatment to retrieval of untreated words (impairment); the use of treated words in conversation; the carer perception of communication effectiveness (participation) and identification of any possible adverse events. Carers&#8217; own quality of life will be measured. Fidelity to treatment will also be monitored.</p>
+          </sec>
+       </sec>
+       <sec>
+          <st>
+             <p>Methods/Design</p>
+          </st>
+          <sec>
+             <st>
+                <p>Design</p>
+             </st>
+             <p>The study will use a pragmatic, parallel group randomised controlled adjunct trial design. The intervention under test or attention control will be delivered in addition to usual care. Outcomes will be compared for people who are four months or more post stroke, with persistent aphasia who are randomly allocated to either: usual care, self-managed computerised speech and language therapy in addition to usual care or attention control in addition to usual care.</p>
+             <p>Each participant will be in the trial for 12&#160;months. Participants will be identified and recruited over an 18-month period in total, and 15&#160;months at each site. Each participant will receive their intervention for six months, with follow-up at six, nine and 12&#160;months. The study has an internal pilot phase with criteria for progression to completion of the full RCT. There are no formal statistical criteria for stopping the trial early. Decisions to stop the trial early on grounds of safety or futility will be made by independent data management and ethics committee members. The protocol conforms to the Consolidated Standards of Reporting Trials (CONSORT) guidelines for non-pharmacological studies (Figure&#160;<figr fid="F1">1</figr>) <abbrgrp>
+                   <abbr bid="B23">23</abbr>
+                </abbrgrp>.
+                  </p>
+             
+                <fig id="F1">
+                   <title>
+                      <p>Figure 1</p>
+                   </title>
+                   <caption>
+                      <p>Progression of participants through the trial (CONSORT diagram). </p>
+                   </caption>
+                   <text>
+                      <p>
+                            <b>Progression of participants through the trial (CONSORT diagram).</b> SLT&#8201;=&#8201;speech and language therapist; ITT&#8201;=&#8201;intention to treat.</p>
+                   </text>
+                   <graphic file="s13063-014-0527-7-1"/>
+                </fig>
+             
+          </sec>
+          <sec>
+             <st>
+                <p>Ethics approval</p>
+             </st>
+             <p>The study protocol was approved by Leeds West research ethics committee (reference number: 13/YH/0377). Additional approval was granted for Scotland by the Scotland A research ethics committee (reference number: 14/SS/0023). The University of Sheffield is the sponsor. The trial is registered with the International Standard Randomised Controlled Trials database ISRCTN (reference number: 68798818) and is commissioned by the National Institute for Health Research.</p>
+          </sec>
+          <sec>
+             <st>
+                <p>Participants</p>
+             </st>
+             <p>A total of 285 participants who have a diagnosis of aphasia as a consequence of a stroke will be recruited from approximately 20 speech and language therapy departments across the United Kingdom. The study will also be advertised at voluntary groups and using posters in libraries and GP surgeries in each locality so that potential participants can self-present to the local research team.</p>
+          </sec>
+          <sec>
+             <st>
+                <p>Inclusion criteria</p>
+             </st>
+             <p>Participants will be included if they meet the following criteria:</p><p>1. Aged 18 or over;</p>
+                <p>2. Diagnosis of stroke(s);</p>
+                <p>3. Onset of stroke at least four months prior to randomisation;</p>
+                <p>4. Diagnosis of aphasia, subsequent to stroke, as confirmed by a trained speech and language therapist;</p>
+                <p>5. Ability to retrieve 10 to 90% of words on the Comprehensive Aphasia Test Naming Objects subtest (score of 5 to 43 out of 48);</p>
+                <p>6. Ability to perform a simple matching task in StepByStep with at least 50% accuracy (to confirm sufficient vision and cognitive ability) and</p>
+                <p>7. Ability to repeat at least 50% of words in a simple word repetition task in the StepByStep&#169; program.</p>
+          </sec>
+          <sec>
+             <st>
+                <p>Exclusion criteria</p>
+             </st>
+             <p>Participants will be excluded from the study if they meet any of the following criteria:</p><p>1. They have another pre-morbid speech and language disorder caused by a neurological deficit other than stroke (a formal diagnosis can be reported by the participant or relatives and confirmed by the recruiting speech and language therapist).</p>
+                <p>2. They require treatment for a language other than English (as the software is in English).</p>
+                <p>3. They are currently using the StepbyStep&#169; computer programme or other computer speech therapy aimed at word retrieval and/or naming.</p>
+          </sec>
+          <sec>
+             <st>
+                <p>Procedures</p>
+             </st>
+             <sec>
+                <st>
+                   <p>Identification</p>
+                </st>
+                <p>Potential participants will be contacted by the research speech and language therapist in each project centre and provided with information on the project. They will be contacted within a fortnight to establish whether they are interested in knowing more about the study. If they are interested, the research speech and language therapist will make an appointment to visit them at home. The number of those contacted but who cannot be followed up on or who are not interested in learning more and the reason for this will be recorded.</p>
+             </sec>
+             <sec>
+                <st>
+                   <p>Screening for eligibility</p>
+                </st>
+                <p>Eligibility will be established on the first visit. The speech and language therapist will request verbal consent to carry out the Naming Objects subtest of the Comprehensive Aphasia Test <abbrgrp>
+                      <abbr bid="B24">24</abbr>
+                   </abbrgrp>. This test is used in routine practice and will establish the severity of the word finding deficit. If the word finding score is less than 10%, or greater than 90%, an explanation will be given that this type of computer therapy is not suitable for them. If the potential participant has eligible word finding scores, the research speech and language therapist will ask them to try a simple repetition task to confirm their repetition ability, followed by a matching task on the computer to confirm ability to see the screen and perform simple computer related actions.</p>
+             </sec>
+             <sec>
+                <st>
+                   <p>Recruitment</p>
+                </st>
+                <p>The level of support required to enable a person with aphasia to provide informed consent is dependent upon the severity and profile of the aphasia. In order to provide information in a format consistent with each individual's language ability, a consent support tool (CST) will be used <abbrgrp>
+                      <abbr bid="B25">25</abbr>
+                   </abbrgrp>. The research speech and language therapist at each site will request verbal consent from the potential participant to carry out part A of the CST. The result will indicate the style of information they are most likely to understand in part B. Participants will be given sufficient time to consider their participation before informed consent is taken by a research speech and language therapist. Participants providing their own informed consent will be provided with an aphasia-friendly consent form. If potential participants with severe aphasia indicate an interest, a relative (in Scotland this will be the person&#8217;s legal representative or nearest relative) will be asked to read an information sheet detailing their responsibility, and will be asked to sign a carer declaration on behalf of their relative with aphasia (in Scotland they will be asked to sign a consent form). For those participants with a carer, the carer will be asked if they are willing to complete some outcome measures related to their own quality of life and perception of their relative&#8217;s communication ability. They will be provided with the carer information sheet detailing their potential involvement and will be asked to sign a separate consent form. Informed consent will be obtained from each participant where they are able to give it, or consent or carer declaration will be obtained by the carer or legal representative where the participant is interested in participating, but is unable to provide their own fully informed consent.</p>
+             </sec>
+          </sec>
+          <sec>
+             <st>
+                <p>Baseline assessment</p>
+             </st>
+             <p>Initial assessment will be performed by the local research speech and language therapist once informed consent has been given. This will include collection of the following demographic data: aphasia type, age, gender, time post-onset of stroke and type and location of stroke (if known). Baseline information will also include results of the standardised naming test - Naming Objects subtest of the Comprehensive Aphasia Test (performed as part of eligibility testing during screening) and the Comprehension of Spoken Sentences subtest of the CAT to provide information on the comprehension ability of the participants <abbrgrp>
+                   <abbr bid="B24">24</abbr>
+                </abbrgrp>. Baseline measures relating to the study outcomes are summarised in Table&#160;<tblr tid="T1">1</tblr>.
+                  </p>
+             
+                <table id="T1">
+                   <title>
+                      <p>Table 1</p>
+                   </title>
+                   <caption>
+                      <p>
+                            <b>Summary of measures</b>                          
+                      </p>
+                   </caption>
+                   <tgroup align="left" cols="3">
+                      <colspec align="left" colname="c1" colnum="1" colwidth="*"/>
+                      <colspec align="left" colname="c2" colnum="2" colwidth="*"/>
+                      <colspec align="left" colname="c3" colnum="3" colwidth="*"/>
+                      <thead>
+                         <row valign="top">
+                            <entry colname="c1">
+                               <p>
+                                  <b>Outcome</b>                              
+                               </p>
+                            </entry>
+                            <entry colname="c2">
+                               <p>
+                                  <b>Measure</b>                              
+                               </p>
+                            </entry>
+                            <entry colname="c3">
+                               <p>
+                                  <b>Method of collection</b>                              
+                               </p>
+                            </entry>
+                         </row>
+                      </thead>
+                      <tfoot>
+                         <p>SLT&#8201;=&#8201;speech and language therapist; TOMS&#8201;=&#8201;Therapy Outcome Measures; COAST&#8201;=&#8201;Communication Outcomes After Stroke questionnaire; SLTA speech and language therapy assistant.</p>
+                      </tfoot>
+                      <tbody>
+                         <row valign="top">
+                            <entry colname="c1">
+                               <p>Change in word finding ability</p>
+                            </entry>
+                            <entry colname="c2">
+                               <p>Naming of 100 personally relevant words</p>
+                            </entry>
+                            <entry colname="c3">
+                               <p>Taken at baseline by blinded SLT recruiting participant 6, 9 and 12&#160;months by separate blinded SLT.</p>
+                            </entry>
+                         </row>
+                         <row valign="top">
+                            <entry colname="c1">
+                               <p>Change in functional communication</p>
+                            </entry>
+                            <entry colname="c2">
+                               <p>10-minute videoed conversations structured around topics of personal interest. Activity scale of TOMS used to measure conversational ability</p>
+                            </entry>
+                            <entry colname="c3">
+                               <p>Conversations at baseline by blinded SLT. Separate blinded SLT follows same topic guide at 6, 9 and 12&#160;months. Videos randomised and rated centrally by blinded assessors.</p>
+                            </entry>
+                         </row>
+                         <row valign="top">
+                            <entry colname="c1">
+                               <p>Change in patient perception of communication and quality of life</p>
+                            </entry>
+                            <entry colname="c2">
+                               <p>COAST self-reported questionnaire.</p>
+                            </entry>
+                            <entry colname="c3">
+                               <p>Administered by blinded SLT at baseline. Separate blinded SLT at 6, 9, and 12&#160;months.</p>
+                            </entry>
+                         </row>
+                         <row valign="top">
+                            <entry colname="c1">
+                               <p>Generalisation to untreated words</p>
+                            </entry>
+                            <entry colname="c2">
+                               <p>Naming Objects subtest from Comprehensive Aphasia Test</p>
+                            </entry>
+                            <entry colname="c3">
+                               <p>As above</p>
+                            </entry>
+                         </row>
+                         <row valign="top">
+                            <entry colname="c1">
+                               <p>QALYs for cost effectiveness</p>
+                            </entry>
+                            <entry colname="c2">
+                               <p>EQ-5D for patient and carer (accessible and by proxy)</p>
+                            </entry>
+                            <entry colname="c3">
+                               <p>As above</p>
+                            </entry>
+                         </row>
+                         <row valign="top">
+                            <entry colname="c1">
+                               <p>Carer quality of life</p>
+                            </entry>
+                            <entry colname="c2">
+                               <p>Carer COAST and CarerQol</p>
+                            </entry>
+                            <entry colname="c3">
+                               <p>Self-administered</p>
+                            </entry>
+                         </row>
+                         <row valign="top">
+                            <entry colname="c1">
+                               <p>Cost of intervention</p>
+                            </entry>
+                            <entry colname="c2">
+                               <p>Diaries of time spent on intervention</p>
+                            </entry>
+                            <entry colname="c3">
+                               <p>Self-administered by SLTs, SLTAs and volunteers</p>
+                            </entry>
+                         </row>
+                         <row valign="top">
+                            <entry colname="c1">
+                               <p>Cost of usual care</p>
+                            </entry>
+                            <entry colname="c2">
+                               <p>Diaries of time spent on usual care</p>
+                            </entry>
+                            <entry colname="c3">
+                               <p>SLT collects data from usual treating therapists and participants at baseline, 3, 6, 9 and 12&#160;months</p>
+                            </entry>
+                         </row>
+                         <row valign="top">
+                            <entry colname="c1">
+                               <p>Carer perception of change in communication</p>
+                            </entry>
+                            <entry colname="c2">
+                               <p>Carer COAST</p>
+                            </entry>
+                            <entry colname="c3">
+                               <p>Collected by blinded SLT at baseline. Separate blinded SLT at 6, 9, and 12&#160;months.</p>
+                            </entry>
+                         </row>
+                         <row valign="top">
+                            <entry colname="c1">
+                               <p>Negative effects of treatment</p>
+                            </entry>
+                            <entry colname="c2">
+                               <p>Patient diary to record any difficulties and/or negative impacts of intervention</p>
+                            </entry>
+                            <entry colname="c3">
+                               <p>Patients and carers - central team to send monthly letter reminding to send back in prepaid envelope.</p>
+                            </entry>
+                         </row>
+                         <row valign="top">
+                            <entry colname="c1">
+                               <p>Intervention adherence</p>
+                            </entry>
+                            <entry colname="c2">
+                               <p>Software tailoring checklists. Volunteer and/or assistant feedback forms. Software key files. Puzzle book and telephone support feedback.</p>
+                            </entry>
+                            <entry colname="c3">
+                               <p>Completed by SLT, monitored by central study team. Self-managed practice monitored by central study team. Puzzle book completion and telephone support recorded by member of central study team.</p>
+                            </entry>
+                         </row>
+                      </tbody>
+                   </tgroup>
+                </table>
+             
+          </sec>
+          <sec>
+             <st>
+                <p>Outcome measures</p>
+             </st>
+             <sec>
+                <st>
+                   <p>Primary</p>
+                </st>
+                <p>1. Change in the number of words (personally relevant to the participant) named correctly at 6&#160;months from baseline will be measured by a naming task of 100 pictures presented on the computer.</p>
+                   <p>2. Change in functional communication will be measured by blinded ratings of video-recorded conversations between unfamiliar speech and language therapists blinded to treatment allocation and participants at six months. Conversations will be structured around topics of personal relevance to the participants by the speech and language therapist performing an assessment to ensure the sensitivity of the measure. The same topic guide will be followed by blinded speech and language therapists performing outcome measures. Independent speech and language therapists blinded to treatment allocation and measurement time point will rate the videoed conversations at the project coordinating centre using the activity scale of the Therapy Outcome Measures (TOMS) <abbrgrp>
+                         <abbr bid="B26">26</abbr>
+                      </abbrgrp>.</p>
+             </sec>
+             <sec>
+                <st>
+                   <p>Key secondary</p>
+                </st>
+                <p>Improvement in patient perception of communication will be measured using the Communication Outcomes After Stroke (COAST) questionnaire at six months - a patient-centred, patient-reported measure of communication related activity, participation and quality of life <abbrgrp>
+                      <abbr bid="B27">27</abbr>
+                   </abbrgrp>.</p>
+             </sec>
+             <sec>
+                <st>
+                   <p>Other secondary</p>
+                </st>
+                <p>Evidence of treatment effect will be measured by repeating all outcome measures at nine and 12&#160;months from baseline, in addition to the primary end point of 6&#160;months. The nine-month time point is included as an interim measure as drop out from the study was found to increase over time in the pilot study <abbrgrp>
+                      <abbr bid="B13">13</abbr>
+                   </abbrgrp>.</p>
+                <p>Generalisation of treatment to retrieval of untreated words will be measured using the Naming Objects subtest from the Comprehensive Aphasia Test. Carer perception of communication effectiveness will be measured using the Carer COAST questionnaire <abbrgrp>
+                      <abbr bid="B28">28</abbr>
+                   </abbrgrp>. Carer quality of life will be measured using the last five items of the Carer COAST questionnaire <abbrgrp>
+                      <abbr bid="B28">28</abbr>
+                   </abbrgrp> and the CarerQol questionnaire <abbrgrp>
+                      <abbr bid="B29">29</abbr>
+                   </abbrgrp>. Negative effects of treatment will be reported through diaries. Table&#160;<tblr tid="T1">1</tblr> summarises the main measures and methods of data collection. Follow-up assessments will be conducted within one month of the target time point.</p>
+             </sec>
+             <sec>
+                <st>
+                   <p>Randomisation, blinding and allocation concealment</p>
+                </st>
+                <p>Following baseline assessment, the participant will be randomised to one of the three trial intervention arms. Randomisation will be performed by an online randomisation system developed and maintained through the Sheffield Clinical Trials Research Unit (CTRU). The randomisation sequence will be generated in advance by the trial statistician. Randomisation will be stratified by centre (as heterogeneity between centres is expected), and according to severity of word retrieval at baseline, based on percentage scores on the Naming Objects subtest of the Comprehensive Aphasia Test (severe&#8201;=&#8201;10 to 34%, moderate&#8201;=&#8201;35 to 64%, and mild&#8201;=&#8201;65 to 90%). The research speech and language therapist will then inform the participant which group they have been allocated to and draw their attention to the description of this group in the information sheet.</p>
+             </sec>
+             <sec>
+                <st>
+                   <p>Blinding</p>
+                </st>
+                <p>This is a single blind study. The patient participants are not blind to their treatment allocation. The speech and language therapists performing baseline assessments will do this prior to randomisation. A second speech and language therapist at each site, blinded to group allocation, will perform follow-up assessments. The speech and language therapist setting up the treatment will ask participants not to discuss treatment with the person coming to carry out the follow-up measures. It is possible that unblinding will happen during conversation and the speech and language therapists will be asked to record instances of this. A primary outcome is functional communication in conversation. Video recordings of conversations will be presented in random order to speech and language therapists in the project coordinating centre to rate, blind to treatment allocation and follow-up time. The chief investigator, study manager, statisticians and health economist will all be blind to group allocation.</p>
+             </sec>
+             <sec>
+                <st>
+                   <p>Interventions</p>
+                </st>
+                <sec>
+                   <st>
+                      <p>Usual care control arm</p>
+                   </st>
+                   <p>Usual care for this pragmatic study may consist of participation in a range of activities to a greater or lesser extent. Usual care varies across the country in terms of type, frequency and length of provision, and is dependent upon available resources in each locality. Findings from the pilot study confirmed that usual care for four months or more following a stroke may include: face-to-face speech and language therapy targeting language impairment (reading, writing, speaking or understanding); therapy focussing on compensatory communication strategies, provision of communication aids or psychological support; attendance at voluntary support groups or informal communication support from family and friends. Usual care will be recorded retrospectively for three months prior to the study and throughout the study on the case report forms for all groups. Those who are randomised to the usual care group will not receive any project specific intervention.</p>
+                </sec>
+                <sec>
+                   <st>
+                      <p>Self-managed computerised therapy intervention</p>
+                   </st>
+                   <p>A structured intervention is proposed in addition to usual care as tested in the pilot study. The intervention targets word retrieval as it is one of the challenges most frequently experienced by people with aphasia, restricting their communication. The three components of the intervention are as follows:</p><p> Qualified speech and language therapist assessment, tailoring of exercises and monitoring</p>
+                      <p>The speech and language therapist at each site will tailor computer exercises to the individual using 100 words of personal relevance chosen by the participant. Photographs imaging the 100 words will be selected from those existing in the software, or can be added from a digital camera or from image stores on a computer. The computer software (StepbyStep&#169; by Steps Consulting Ltd, Gloucester, UK) <abbrgrp>
+                            <abbr bid="B30">30</abbr>
+                         </abbrgrp> enables the speech and language therapist to select exercises using these words that follow steps in the therapy process that the therapist would take if delivering it face to face. The speech and language therapist bases the selection of exercises on language skills demonstrated in the initial language assessments. The speech and language therapist will provide initial demonstration of the software exercises, check that the individual is able to use the software and monitor the appropriateness of the tailored exercises. This is expected to take only three to four hours, based on the pilot study <abbrgrp>
+                            <abbr bid="B13">13</abbr>
+                         </abbrgrp>, as the computer intervention is predominantly self-managed by the patient.</p>
+                      <p> Regular self-managed practice</p>
+                      <p>The participant will then be asked to work through the exercises on the computer and be encouraged to practise each day for 20 to 30&#160;minutes. Participants will be given a six-month period to work though the therapy material on the computer and practise using the new vocabulary in their daily lives. As this is a pragmatic trial, those participants who have the software installed on their own computers will not be prevented from continuing to practise if they wish, following the six-month supported intervention time. Any continued use of software beyond the six months will be recorded.</p>
+                      <p> Volunteer support to assist with treatment adherence and carry over into daily activity</p>
+                      <p>To enhance treatment adherence, the speech and language therapist will provide training to local volunteers who already have a working relationship with the SLT department or SLT assistants based in the department. They will use the three-hour training programme and instruction book (University of Sheffield, Sheffield, UK) developed and evaluated during the pilot study. The volunteer will be asked to visit the participant once a month for an hour, or every two weeks for half an hour (to suit the patient), carrying out the following tasks: provide technical assistance; observe and encourage use of computer exercises; check results and discuss difficulties; assist the participant to move on to harder tasks in the therapy process pre-programmed by the speech and language therapist; encourage the use of new words in everyday situations, conversation and discussions with family about how to encourage use and encourage re-use of completed exercises over time.</p>
+                      <p>The participants will be able to contact the volunteer or SLTA by telephone for technical advice on computer use between planned visits if necessary. Volunteers and SLTAs will be asked to complete a feedback form on each face-to-face session with a participant and send it to the therapist to enable them to provide tailored advice and support. They therapists are also encouraged to meet with all the volunteers/SLTAs together every two months for support and discussion of issues arising.</p>
+                      <p>The majority of the practice time involved in the intervention is self-managed by the participant through regular use of the aphasia computer software. The therapists, SLTAs and volunteers will be asked to keep diaries of resource use showing direct and indirect (telephone and computer set up) time spent and therapist grade (see Table&#160;<tblr tid="T1">1</tblr>).</p>
+                </sec>
+                <sec>
+                   <st>
+                      <p>Attention and activity control arm</p>
+                   </st>
+                   <p>The third group in this study intends to control for the potential impact of elements of the intervention which of themselves do not provide or require specific speech and language intervention.</p>
+                   <p>Participants randomised to this arm will be provided with generalised activities to carry out and general attention in addition to usual care. On allocation to this group, the speech and language therapists conducting baseline assessments will provide books of standard puzzles that can be purchased from most supermarkets or high street shops. Each book will contain enough activities for one to be carried out each day for at least a month. Examples of puzzles include getting through a maze, spotting the difference between pictures, matching objects that are the same, word searches, Sudoku and so forth. The SLT will provide age appropriate puzzle books that match the participant&#8217;s linguistic ability as indicated by the baseline assessments. Puzzle books will be colour coded into levels of easy, medium and hard by the clinicians on the research team centrally and a leaflet will be provided to give speech and language therapists guidance on skills required for each level.</p>
+                   <p>A member of the research team will contact the participants or their carer by telephone or email (whichever is preferred by the participant) once a month to provide the attention similar to that given by volunteers in the intervention arm. They will ask if they are enjoying the activities, how many they have managed to do, whether they would like a new puzzle book sent to them for the coming month and whether they would like the same level of difficulty or an easier or harder one. The participants will also have access to these contact details to enable them to ask for easier or harder books at any time if necessary, again, mimicking the access to the volunteers and SLTAs and type of attention available in the intervention arm.</p>
+                </sec>
+             </sec>
+             <sec>
+                <st>
+                   <p>Treatment fidelity</p>
+                </st>
+                <p>The speech and language therapists delivering this intervention will receive training on how to set up appropriate exercise steps. To enable monitoring of the treatment fidelity, they will be asked to complete a checklist which guides their selection of exercises based on the participant language profile identified during assessment. These will be reviewed centrally by the study quality monitor. Encrypted and anonymised key files from the participants&#8217; software will be returned to the study team to enable comparison of a random selection of exercises provided with the corresponding checklist completed.</p>
+                <p>As this is a self-managed intervention, adherence of the participants in using the intervention as intended will be monitored. This will be achieved through volunteer or assistant visits with reminders to practise daily and assistance with using the full range of exercises set. The speech and language therapist will also monitor practice through feedback forms provided by the volunteer or assistant. In addition, the software key files returned to the study coordinating team centrally will be reviewed for total practice time and patterns of practice over the six-month treatment period. Practice with the computer for a minimum of 20&#160;minutes three times a week at home on average will be considered per protocol to account for periods of illness and holiday. Volunteer and assistant adherence will be monitored through their feedback forms to the speech and language therapists who will record amounts of support provided. A minimum of four hours in total per patient will be considered per protocol. Adherence to the attention control group will be monitored by recording information regarding the number of puzzles completed and the frequency and duration of telephone support calls received. Usual care will be recorded across the study period for all groups.</p>
+             </sec>
+             <sec>
+                <st>
+                   <p>Data and statistical analysis</p>
+                </st>
+                <sec>
+                   <st>
+                      <p>Sample size</p>
+                   </st>
+                   <p>The study aims to recruit 285 participants across 20 speech and language therapy departments (study sites and centres). The sample size of 285 patients in total (95 per arm) is the maximum sample size estimate across the two primary endpoints (word finding ability and functional conversation ability) and key secondary endpoint (patient perception of communication ability) for 90% power and a two-sided significance level of 5%.</p>
+                </sec>
+                <sec>
+                   <st>
+                      <p>Assumptions for the sample size calculation</p>
+                   </st>
+                   <p>For improvement in word retrieval the estimated effect size is 10%, with a standard deviation (SD) of 17.38%, from an analysis of covariance (based on results of the pilot study <abbrgrp>
+                         <abbr bid="B13">13</abbr>
+                      </abbrgrp>). For assessment of conversation the estimated effect size is 0.45 of a SD (with a correlation between baseline and outcome of 0.5 previously observed in the ACT NoW study). For patient-rated improvement using the COAST questionnaire the estimated effect size is 7.2, with a standard deviation (SD) of 13.5 (with an assumed correlation between baseline and outcome of 0.5). The observed dropout rate was 5 out of 33 (15%; 95% CI: 5 to 32%) in the pilot study, which translated to a completion rate of 28/33 (85%; 95% CI: 68 to 95%) <abbrgrp>
+                         <abbr bid="B31">31</abbr>
+                      </abbrgrp>.</p>
+                </sec>
+             </sec>
+          </sec>
+          <sec>
+             <st>
+                <p>Internal pilot</p>
+             </st>
+             <p>The initial phase of the study will be conducted as an internal pilot trial and will include clear criteria to inform decisions about progression. Data from the internal pilot will be included in the final analysis. The internal pilot trial will be limited to six sites (over 25% of the total), representative of the sites which will be in the substantive study. However, during this phase we will recruit and commence set-up processes for all the intended sites. The progression criteria will be reviewed eight months from site set-up of the sixth site in the internal pilot trial. We are estimating that this will be approximately halfway through the recruitment phase, at 22&#160;months from contract start.</p>
+             <p>The progression will be based on achieving the following criteria: recruitment of no fewer than 30 participants (10% of the target for the full trial), a minimum participant retention rate of 65%, 80% of participants having been offered a volunteer and 70% of participants continuing to be supported by the same volunteer for their six-month treatment period.</p>
+          </sec>
+          <sec>
+             <st>
+                <p>Statistical analysis</p>
+             </st>
+             <p>Patients with at least one post-randomisation observation will be included in the analysis. Missing data will be described using summary statistics. Data will be checked and cleaned blind to the actual treatment allocation. Data checking will be conducted throughout the study and prior to any analysis of the data.</p>
+             <p>Primary and key secondary endpoints for the comparisons of control to intervention and active control to intervention will be analysed using a Hochberg testing procedure, which allows for an investigation of all three endpoints whilst maintaining the overall type I error at 5% <abbrgrp>
+                   <abbr bid="B32">32</abbr>
+                </abbrgrp>. This approach has the advantage of not inflating the sample size while maintaining the type I error rate at 5%.</p>
+             <p>Significance will be declared for the comparison of usual care to intervention if and only if both primary outcomes, word retrieval and conversation, are significant at the 5% level, or if either comparison is significant at 2.5%. If and only if significance is declared for both primary outcomes, a similar comparison of attention control to intervention will be made. Significance will be declared for the comparison of attention control to intervention if and only if both word retrieval and conversation are significant at the 5% level, or if either comparison is significant at 2.5%.</p>
+             <p>If and only if significance is declared for the comparison of attention control to intervention for both comparisons will the key secondary outcome measure (patient perception of communication and related quality of life, measured using the COAST rating scale) be used in a further comparison of usual care to intervention. If and only if this comparison is significant at the 5% level will the intervention be compared to attention control based on the COAST questionnaire (see Figure&#160;<figr fid="F2">2</figr>).
+                  </p>
+             
+                <fig id="F2">
+                   <title>
+                      <p>Figure 2</p>
+                   </title>
+                   <caption>
+                      <p>Statistical testing procedure. </p>
+                   </caption>
+                   <text>
+                      <p>
+                            <b>Statistical testing procedure.</b> COAST&#8201;=&#8201;Communication Outcomes After Stroke questionnaire.</p>
+                   </text>
+                   <graphic file="s13063-014-0527-7-2"/>
+                </fig>
+             
+             <p>Primary analysis will take an intention-to-treat approach (ITT) for all key measures, and further exploratory analysis of participants who complied with the intervention will be undertaken using the same statistical tests, according to the per protocol principle (PP). Only patients with post-randomisation observations will be included in the primary analysis at six months. A sensitivity analysis responses will be imputed as appropriate with details provided in the statistical analysis plan.</p>
+             <p>The mean difference in percentage improvement of words named correctly between the treatment and control groups, adjusted for baseline naming ability, will be analysed using an analysis of covariance (ANCOVA). Terms for treatment and baseline will be fitted into the model. Assumptions underlying the analyses will be assessed by inspection of residual plots. Homogeneity of variance will be assessed by plotting the studentised residuals against the predicted values from the model, whilst Normality will be assessed by use of Normal probability plots. If the assumptions for the analysis of variance are violated then appropriate transformations may be applied or alternative analyses may be performed. Similar analyses will be undertaken for the endpoints of functional conversation ability (measured by the activity scale of the Therapy Outcome Measures and patient-reported communication outcomes (the COAST questionnaire). The endpoints at nine and 12&#160;months will be similarly analysed for exploratory purposes. Likewise an investigation of trends over time will be made.</p>
+             <sec>
+                <st>
+                   <p>Health economic analysis</p>
+                </st>
+                <p>A cost utility analysis will be undertaken from the NHS and personal social service (PSS) perspective. Due to the use of volunteers to help participants with their use of the computer program we will undertake a supplementary analysis taking a societal perspective. Costs will be estimated for individual patients, including intervention costs and SLT support and coordination time (collected through diaries as shown in Table&#160;<tblr tid="T1">1</tblr>), combined with standard costing sources <abbrgrp>
+                      <abbr bid="B33">33</abbr>
+                   </abbrgrp>. In the pilot study we collected other resource use data (on, for example, GP and hospital visits and prescribed medications) via patient and carer diaries, but these did not show important differences between treatment groups and we will not collect such data in the full trial. The EQ-5D questionnaire will be administered at every data collection time point (see Table&#160;<tblr tid="T1">1</tblr>) and will be combined with standard valuation sources to measure the QALYs gained in each treatment arm <abbrgrp>
+                      <abbr bid="B34">34</abbr>
+                   </abbrgrp>. An accessible version of the EQ-5D designed for people with aphasia was trialled in the pilot study. This has not been validated but represents a way in which EQ-5D scores can be elicited directly from patients. We will administer this version of the EQ-5D alongside the standard version which will be completed by carers (where the participant has a carer) by proxy. EQ-5D and CarerQoL scores will also be elicited from carers (Table&#160;<tblr tid="T1">1</tblr>).</p>
+                <p>We developed a Markov model to estimate the cost effectiveness of the computer intervention alongside our previous pilot study. Model parameters were informed by clinical data from the trial. We estimated that the intervention was likely to be cost effective, with an incremental cost effectiveness ratio (ICER) of &#163;3,058 per QALY gained, however results were uncertain and the value of obtaining further (perfect) information was very high (expected value of perfect information (EVPI) was approximately &#163;37 million). This model will be updated with data from the full trial. The third attention control group will be added to the model. Differences between costs and QALYs in the three groups will be described and an incremental analysis will be performed with ICERs calculated. Probabilistic sensitivity analysis will be undertaken to allow the production of cost effectiveness acceptability curves <abbrgrp>
+                      <abbr bid="B33">33</abbr>
+                   </abbrgrp> and value of information analyses <abbrgrp>
+                      <abbr bid="B35">35</abbr>
+                   </abbrgrp>.</p>
+             </sec>
+          </sec>
+          <sec>
+             <st>
+                <p>Quality monitoring</p>
+             </st>
+             <p>The speech and language therapists carrying out outcome measures will receive training on how to deliver the assessments reliably, including scoring criteria and benchmarking of scoring video-recorded assessments with other assessors. Site monitoring visits will also be carried out within the first six months of recruitment (and more frequently if required) to check accurate completion of case report forms, adherence to the protocol for taking consent and discussion of any issues arising.</p>
+          </sec>
+       </sec>
+       <sec>
+          <st>
+             <p>Discussion</p>
+          </st>
+          <p>Chronic aphasia has a considerable impact on a person&#8217;s ability to participate in many personal, social and work activities. Despite evidence of the potential for continued language improvement over time with intensive practice of targeted, salient language therapy exercises, opportunities to participate in such ongoing therapy are limited due to resource pressures. There is preliminary evidence of the potential for computer software developed for aphasia therapy to provide new opportunities for ongoing aphasia therapy for patients to participate in for as long as they wish and/or benefit. Indeed, there is an increase in the software options being developed for independent language practice. In order for health services or private practitioners and the public to invest in this option it is crucial to know whether such interventions are clinically and cost effective. This protocol describes the first fully powered RCT of long term aphasia therapy delivered through self-managed computerised language exercises, with the support of volunteers or assistants. The protocol also describes the process for the first full economic analysis of a computerised aphasia intervention.</p>
+          <p>The therapy under investigation is a complex intervention of word finding therapy for aphasia. Previous studies, including the pilot study informing this protocol, have shown that people with aphasia learn the words that are meaningful to them more successfully than those they have little functional need for. As in many rehabilitation interventions, this therapy is driven by the patient&#8217;s own goals. Communication needs to achieve different goals are discussed with the therapist and a range of words key to achieving those goals are identified. The personalisation of the therapy goals requires some personalisation in the measurement of whether they have been achieved. The design of outcome measures which can be used to make group comparisons whilst maintaining accurate measurement of individual goals was a challenge. Discussions resulted in two primary outcome measures. The first measures word finding ability whereby all participants have comparable word finding scores from naming 100 pictures. Measurement of word finding of personally meaningful and useful words is achieved by allowing the 100 words to be different for each individual according to their goals. Similarly, the second measures ability to communicate in conversation. All conversations are rated using the activity scale of the TOMS so group comparisons can be made. Measurement of individual goals is maintained by structuring the conversations around the communication areas identified as personally relevant by each individual.</p>
+          <p>Other key issues in designing the protocol arose from the pragmatic nature of the study. First of all, in order to recruit sufficient numbers of participants, at least 20 speech and language departments are required across the United Kingdom. This will allow generalisation of the results to the population of the United Kingdom. However, we expect considerable variation in the usual care provided to people with aphasia in the long term post stroke, with some sites providing impairment based interventions face to face for several months, and others limiting their service provision to hospital care or for a few weeks post-hospital discharge only. The intervention being tested could be implemented in addition to any existing services in practice. The study therefore uses an adjunct design whereby patients continue to receive any ongoing care. This may have the added benefit of recruiting those patients who would not wish to be randomised away from usual care. To account for the heterogeneity expected, the randomisation is to be stratified by site, ensuring representation of different models of usual care in each study group.</p>
+          <p>There are challenges in involving people with aphasia in research, as they often have difficulty reading or understanding spoken language. The protocol for obtaining informed consent therefore needed careful consideration. In order to adhere to the Mental Capacity Act (2005) in England and the Adults with Incapacity Act (2000) in Scotland, a consent support tool has been included to identify reading and spoken comprehension ability of individuals and recommend the style of information that is likely to best inform each individual. The tool also identifies those participants whose aphasia severity is such that they are unlikely to understand the information sufficiently to provide informed consent and therefore need the involvement of a carer, relative or legal representative. In addition, the reading deficits make completion of standard questionnaire tools such as the EQ-5D difficult and unreliable. We therefore developed and tested an accessible EQ-5D which uses illustrations and visually represented extent of difficulty.</p>
+          <p>There are three groups in the study. Introducing a three-way comparison increases the required sample size and therefore poses a potential threat to the power of the study if recruitment is insufficient. However, a three-way comparison is not required here as the first question to answer is whether the computerised intervention is more effective than usual care alone. Only if the answer to the first question is positive is there a need to ask whether it is the speech and language therapy components that cause the effectiveness shown. In this case a second comparison of computer intervention to activity and/or attention control needs to be carried out. The Hochberg analysis was chosen to allow for these consecutive comparisons, thus also maintaining a more achievable sample size.</p>
+          <p>Finally, the set-up of 20 individual speech and language therapy departments to participate in the study is a considerable challenge, in which service support and excess treatment costs must be negotiated at each site independently, with a large range of local policies and financial restrictions across the United Kingdom.</p>
+       </sec>
+       <sec>
+          <st>
+             <p>Trial status</p>
+          </st>
+          <p>The study has received ethical approval and fifteen participants have been recruited from the first five sites set up.</p>
+       </sec>
+       <sec>
+          <st>
+             <p>Abbreviations</p>
+          </st>
+          <p>ANCOVA: Analysis of covariance</p>
+          <p>CAT: CIAT, Constraint induced aphasia therapy</p>
+          <p>COAST: Communication Outcomes After Stroke</p>
+          <p>CST: Consent support tool</p>
+          <p>CTRU: Clinical Trials Research Unit</p>
+          <p>EVPI: Estimated value of perfect information</p>
+          <p>ICER: Incremental cost effectiveness ratio</p>
+          <p>ISRCTN: International standard randomised controlled trial number</p>
+          <p>MOAT: Model oriented aphasia therapy</p>
+          <p>NHS: National Health Service</p>
+          <p>NIHR: National Institute of Health Research</p>
+          <p>PSS: Personal social service</p>
+          <p>QALYs: Quality-adjusted life years</p>
+          <p>RCT: Randomised control trial</p>
+          <p>SLT: speech and language therapy</p>
+          <p>SLTA: Speech and language therapy assistant</p>
+          <p>TOM: Therapy Outcome Measures</p>
+       </sec>
+       <sec>
+          <st>
+             <p>Competing interests</p>
+          </st>
+          <p>The authors declare they have no competing interests.</p>
+       </sec>
+       <sec>
+          <st>
+             <p>Authors&#8217; contributions</p>
+          </st>
+          <p>RP is the chief investigator of the study and led the protocol design and the writing of this manuscript. CC, PE, MB and AB contributed to the design of the protocol and helped to draft the manuscript. SJ carried out the power calculation and designed the analysis plan. NL designed and wrote the health economic sections of the protocol. All co-authors read and approved the manuscript.</p>
+       </sec>
+    </bdy>
+    <bm>
+       <ack>
+          <sec>
+             <st>
+                <p>Acknowledgements</p>
+             </st>
+             <p>This report is independent research funded by the National Institute for Health Research (Health Technology Assessment number: 12/21/01AB; Clinical and cost effectiveness of aphasia computer therapy compared with usual stimulation or attention control long term post stroke (CACTUS)). RP is partially funded by an NIHR/HEFCE (Higher Education Council for England) senior academic clinical lectureship. AB is partially funded by the National Institute for Health Research Collaboration for Leadership in Applied Health Research and Care (NIHR CLAHRC), Greater Manchester. MB is partially funded by the Chief Scientist Office (CSO), Scottish Government Health and Social Care Directorates. The views expressed in this article are those of the authors and not necessarily those of the NHS, CSO, NIHR or the Department of Health.</p>
+             <p>On behalf of the Big CACTUS project we would like to thank Liz Cross, Madeleine Harrison, Helen Hughes, Tim Chater, Ellen Bradley and Annabelle Allison.</p>
+          </sec>
+       </ack>
+       <refgrp>
+          
+          <bibl id="B1">
+             <insg>
+                <ins>
+                   <p>Department of Health</p>
+                </ins>
+             </insg>
+             <source>National Stroke Strategy</source>
+             <publisher>Department of Health, London</publisher>
+             <pubdate>2007</pubdate>
+          </bibl>
+          <bibl id="B2">
+             <title>
+                <p>Speech and language therapy for aphasia following stroke</p>
+             </title>
+             <aug>
+                <au>
+                   <snm>Brady</snm>
+                   <fnm>MC</fnm>
+                </au>
+                <au>
+                   <snm>Kelly</snm>
+                   <fnm>H</fnm>
+                </au>
+                <au>
+                   <snm>Godwin</snm>
+                   <fnm>J</fnm>
+                </au>
+                <au>
+                   <snm>Enderby</snm>
+                   <fnm>P</fnm>
+                </au>
+             </aug>
+             <source>Cochrane Database Syst Rev</source>
+             <pubdate>2012</pubdate>
+             <volume>5</volume>
+             <xrefbib>
+                <pubidlist>
+                   <pubid idtype="pmpid" link="fulltext">22592672</pubid>
+                </pubidlist>
+             </xrefbib>
+          </bibl>
+          <bibl id="B3">
+             <title>
+                <p>Randomized controlled trial on very early speech and language therapy in acute stroke patients with aphasia</p>
+             </title>
+             <aug>
+                <au>
+                   <snm>Laska</snm>
+                   <fnm>A</fnm>
+                </au>
+                <au>
+                   <snm>Kahan</snm>
+                   <fnm>T</fnm>
+                </au>
+                <au>
+                   <snm>Helblom</snm>
+                   <fnm>A</fnm>
+                </au>
+                <au>
+                   <snm>Murray</snm>
+                   <fnm>V</fnm>
+                </au>
+                <au>
+                   <snm>Von Arbin</snm>
+                   <fnm>MA</fnm>
+                </au>
+             </aug>
+             <source>Cerebrovasc Dis Extra</source>
+             <pubdate>2011</pubdate>
+             <volume>1</volume>
+             <fpage>66</fpage>
+             <lpage>74</lpage>
+             <xrefbib>
+                <pubidlist>
+                   <pubid idtype="doi">10.1159/000329835</pubid>
+                   <pubid idtype="pmpid" link="fulltext">22566984</pubid>
+                </pubidlist>
+             </xrefbib>
+          </bibl>
+          <bibl id="B4">
+             <title>
+                <p>Clinical effectiveness, cost effectiveness and service users&#8217; perceptions of early, well-resourced communication therapy following a stroke, a randomised controlled trial (The ACT NoW Study)</p>
+             </title>
+             <aug>
+                <au>
+                   <snm>Bowen</snm>
+                   <fnm>A</fnm>
+                </au>
+                <au>
+                   <snm>Hesketh</snm>
+                   <fnm>A</fnm>
+                </au>
+                <au>
+                   <snm>Patchick</snm>
+                   <fnm>E</fnm>
+                </au>
+                <au>
+                   <snm>Young</snm>
+                   <fnm>A</fnm>
+                </au>
+                <au>
+                   <snm>Davies</snm>
+                   <fnm>L</fnm>
+                </au>
+                <au>
+                   <snm>Vail</snm>
+                   <fnm>A</fnm>
+                </au>
+                <au>
+                   <snm>Long</snm>
+                   <fnm>A</fnm>
+                </au>
+                <au>
+                   <snm>Watkins</snm>
+                   <fnm>C</fnm>
+                </au>
+                <au>
+                   <snm>Wilkinson</snm>
+                   <fnm>M</fnm>
+                </au>
+                <au>
+                   <snm>Pearl</snm>
+                   <fnm>G</fnm>
+                </au>
+                <au>
+                   <snm>Lambon Ralph</snm>
+                   <fnm>M</fnm>
+                </au>
+                <au>
+                   <snm>Tyrrell</snm>
+                   <fnm>P</fnm>
+                </au>
+             </aug>
+             <source>Health Technol Assess</source>
+             <pubdate>2012</pubdate>
+             <volume>16</volume>
+             <fpage>26</fpage>
+             <xrefbib>
+                <pubidlist>
+                   <pubid idtype="doi">10.3310/hta16260</pubid>
+                </pubidlist>
+             </xrefbib>
+          </bibl>
+          <bibl id="B5">
+             <title>
+                <p>Long term stability of improved language functions in chronic aphasia after constraint-induced aphasia therapy</p>
+             </title>
+             <aug>
+                <au>
+                   <snm>Meinzer</snm>
+                   <fnm>M</fnm>
+                </au>
+                <au>
+                   <snm>Djundja</snm>
+                   <fnm>D</fnm>
+                </au>
+                <au>
+                   <snm>Barthel</snm>
+                   <fnm>G</fnm>
+                </au>
+                <au>
+                   <snm>Elbert</snm>
+                   <fnm>T</fnm>
+                </au>
+                <au>
+                   <snm>Rockstroh</snm>
+                   <fnm>B</fnm>
+                </au>
+             </aug>
+             <source>Stroke</source>
+             <pubdate>2005</pubdate>
+             <volume>36</volume>
+             <fpage>1462</fpage>
+             <lpage>1466</lpage>
+             <xrefbib>
+                <pubidlist>
+                   <pubid idtype="doi">10.1161/01.STR.0000169941.29831.2a</pubid>
+                   <pubid idtype="pmpid" link="fulltext">15947279</pubid>
+                </pubidlist>
+             </xrefbib>
+          </bibl>
+          <bibl id="B6">
+             <title>
+                <p>Translational research in aphasia: from neuroscience to neurorehabilitation</p>
+             </title>
+             <aug>
+                <au>
+                   <snm>Raymer</snm>
+                   <fnm>A</fnm>
+                </au>
+                <au>
+                   <snm>Beeson</snm>
+                   <fnm>P</fnm>
+                </au>
+                <au>
+                   <snm>Holland</snm>
+                   <fnm>A</fnm>
+                </au>
+                <au>
+                   <snm>Kendall</snm>
+                   <fnm>D</fnm>
+                </au>
+                <au>
+                   <snm>Maher</snm>
+                   <fnm>L</fnm>
+                </au>
+                <au>
+                   <snm>Martin</snm>
+                   <fnm>N</fnm>
+                </au>
+                <au>
+                   <snm>Murray</snm>
+                   <fnm>L</fnm>
+                </au>
+                <au>
+                   <snm>Rose</snm>
+                   <fnm>M</fnm>
+                </au>
+                <au>
+                   <snm>Thompson</snm>
+                   <fnm>CK</fnm>
+                </au>
+                <au>
+                   <snm>Turkstra</snm>
+                   <fnm>L</fnm>
+                </au>
+                <au>
+                   <snm>Altmann</snm>
+                   <fnm>L</fnm>
+                </au>
+                <au>
+                   <snm>Boyle</snm>
+                   <fnm>M</fnm>
+                </au>
+                <au>
+                   <snm>Conway</snm>
+                   <fnm>T</fnm>
+                </au>
+                <au>
+                   <snm>Hula</snm>
+                   <fnm>W</fnm>
+                </au>
+                <au>
+                   <snm>Kearns</snm>
+                   <fnm>K</fnm>
+                </au>
+                <au>
+                   <snm>Rapp</snm>
+                   <fnm>B</fnm>
+                </au>
+                <au>
+                   <snm>Simmons-Mackie</snm>
+                   <fnm>N</fnm>
+                </au>
+                <au>
+                   <snm>Gonzalez Rothi</snm>
+                   <fnm>LJ</fnm>
+                </au>
+             </aug>
+             <source>J Speech Lang Hear Res</source>
+             <pubdate>2008</pubdate>
+             <volume>51</volume>
+             <fpage>259</fpage>
+             <lpage>275</lpage>
+             <xrefbib>
+                <pubidlist>
+                   <pubid idtype="doi">10.1044/1092-4388(2008/020)</pubid>
+                </pubidlist>
+             </xrefbib>
+          </bibl>
+          <bibl id="B7">
+             <title>
+                <p>Treatment-induced neuroplasticity following intensive naming therapy in a case of chronic Wernicke&#8217;s aphasia</p>
+             </title>
+             <aug>
+                <au>
+                   <snm>Kurland</snm>
+                   <fnm>J</fnm>
+                </au>
+                <au>
+                   <snm>Baldwin</snm>
+                   <fnm>K</fnm>
+                </au>
+                <au>
+                   <snm>Tauer</snm>
+                   <fnm>C</fnm>
+                </au>
+             </aug>
+             <source>Aphasiology</source>
+             <pubdate>2010</pubdate>
+             <volume>24</volume>
+             <fpage>737</fpage>
+             <lpage>751</lpage>
+             <xrefbib>
+                <pubidlist>
+                   <pubid idtype="doi">10.1080/02687030903524711</pubid>
+                </pubidlist>
+             </xrefbib>
+          </bibl>
+          <bibl id="B8">
+             <title>
+                <p>Aphasia therapy on a neuroscience basis</p>
+             </title>
+             <aug>
+                <au>
+                   <snm>Pulvermuller</snm>
+                   <fnm>F</fnm>
+                </au>
+                <au>
+                   <snm>Berthier</snm>
+                   <fnm>M</fnm>
+                </au>
+             </aug>
+             <source>Aphasiology</source>
+             <pubdate>2008</pubdate>
+             <volume>22</volume>
+             <fpage>563</fpage>
+             <lpage>599</lpage>
+             <xrefbib>
+                <pubidlist>
+                   <pubid idtype="doi">10.1080/02687030701612213</pubid>
+                   <pubid idtype="pmpid" link="fulltext">18923644</pubid>
+                </pubidlist>
+             </xrefbib>
+          </bibl>
+          <bibl id="B9">
+             <title>
+                <p>Constraint induced therapy of chronic aphasia after stroke</p>
+             </title>
+             <aug>
+                <au>
+                   <snm>Pulvermuller</snm>
+                   <fnm>F</fnm>
+                </au>
+                <au>
+                   <snm>Neininger</snm>
+                   <fnm>B</fnm>
+                </au>
+                <au>
+                   <snm>Elbert</snm>
+                   <fnm>T</fnm>
+                </au>
+                <au>
+                   <snm>Mohr</snm>
+                   <fnm>B</fnm>
+                </au>
+                <au>
+                   <snm>Rockstroh</snm>
+                   <fnm>B</fnm>
+                </au>
+                <au>
+                   <snm>Koebbel</snm>
+                   <fnm>P</fnm>
+                </au>
+                <au>
+                   <snm>Taub</snm>
+                   <fnm>E</fnm>
+                </au>
+             </aug>
+             <source>Stroke</source>
+             <pubdate>2001</pubdate>
+             <volume>32</volume>
+             <fpage>1621</fpage>
+             <xrefbib>
+                <pubidlist>
+                   <pubid idtype="doi">10.1161/01.STR.32.7.1621</pubid>
+                   <pubid idtype="pmpid" link="fulltext">11441210</pubid>
+                </pubidlist>
+             </xrefbib>
+          </bibl>
+          <bibl id="B10">
+             <title>
+                <p>Evidence-based systematic review: effects of intensity of treatment and constraint-induced language therapy for individuals with stroke-induced aphasia</p>
+             </title>
+             <aug>
+                <au>
+                   <snm>Cherney</snm>
+                   <fnm>L</fnm>
+                </au>
+                <au>
+                   <snm>Patterson</snm>
+                   <fnm>J</fnm>
+                </au>
+                <au>
+                   <snm>Raymer</snm>
+                   <fnm>A</fnm>
+                </au>
+                <au>
+                   <snm>Frymark</snm>
+                   <fnm>T</fnm>
+                </au>
+             </aug>
+             <source>J Speech Lang Hear Res</source>
+             <pubdate>2008</pubdate>
+             <volume>51</volume>
+             <fpage>1282</fpage>
+             <lpage>1299</lpage>
+             <xrefbib>
+                <pubidlist>
+                   <pubid idtype="doi">10.1044/1092-4388(2008/07-0206)</pubid>
+                   <pubid idtype="pmpid" link="fulltext">18812489</pubid>
+                </pubidlist>
+             </xrefbib>
+          </bibl>
+          <bibl id="B11">
+             <title>
+                <p>Intensive language therapy in chronic aphasia: which aspects contribute most?</p>
+             </title>
+             <aug>
+                <au>
+                   <snm>Barthel</snm>
+                   <fnm>G</fnm>
+                </au>
+                <au>
+                   <snm>Meinzer</snm>
+                   <fnm>M</fnm>
+                </au>
+                <au>
+                   <snm>Djundja</snm>
+                   <fnm>D</fnm>
+                </au>
+                <au>
+                   <snm>Rockstroh</snm>
+                   <fnm>B</fnm>
+                </au>
+             </aug>
+             <source>Aphasiology</source>
+             <pubdate>2008</pubdate>
+             <volume>22</volume>
+             <fpage>408</fpage>
+             <lpage>421</lpage>
+             <xrefbib>
+                <pubidlist>
+                   <pubid idtype="doi">10.1080/02687030701415880</pubid>
+                </pubidlist>
+             </xrefbib>
+          </bibl>
+          <bibl id="B12">
+             <title>
+                <p>Treatment of acquired aphasia: speech therapists and volunteers compared</p>
+             </title>
+             <aug>
+                <au>
+                   <snm>David</snm>
+                   <fnm>R</fnm>
+                </au>
+                <au>
+                   <snm>Enderby</snm>
+                   <fnm>P</fnm>
+                </au>
+                <au>
+                   <snm>Bainton</snm>
+                   <fnm>D</fnm>
+                </au>
+             </aug>
+             <source>J Neurol Neurosurg Psychiatr</source>
+             <pubdate>1982</pubdate>
+             <volume>45</volume>
+             <fpage>957</fpage>
+             <lpage>961</lpage>
+             <xrefbib>
+                <pubidlist>
+                   <pubid idtype="doi">10.1136/jnnp.45.11.957</pubid>
+                   <pubid idtype="pmpid" link="fulltext">6184453</pubid>
+                </pubidlist>
+             </xrefbib>
+          </bibl>
+          <bibl id="B13">
+             <title>
+                <p>Computer therapy compared with usual care for people with long standing aphasia post stroke: a pilot randomized controlled trial</p>
+             </title>
+             <aug>
+                <au>
+                   <snm>Palmer</snm>
+                   <fnm>R</fnm>
+                </au>
+                <au>
+                   <snm>Enderby</snm>
+                   <fnm>P</fnm>
+                </au>
+                <au>
+                   <snm>Cooper</snm>
+                   <fnm>C</fnm>
+                </au>
+                <au>
+                   <snm>Latimer</snm>
+                   <fnm>N</fnm>
+                </au>
+                <au>
+                   <snm>Julious</snm>
+                   <fnm>S</fnm>
+                </au>
+                <au>
+                   <snm>Paterson</snm>
+                   <fnm>G</fnm>
+                </au>
+                <au>
+                   <snm>Dimairo</snm>
+                   <fnm>M</fnm>
+                </au>
+                <au>
+                   <snm>Dixon</snm>
+                   <fnm>S</fnm>
+                </au>
+                <au>
+                   <snm>Mortley</snm>
+                   <fnm>J</fnm>
+                </au>
+                <au>
+                   <snm>Hilton</snm>
+                   <fnm>R</fnm>
+                </au>
+                <au>
+                   <snm>Delaney</snm>
+                   <fnm>A</fnm>
+                </au>
+                <au>
+                   <snm>Hughes</snm>
+                   <fnm>H</fnm>
+                </au>
+             </aug>
+             <source>Stroke</source>
+             <pubdate>2012</pubdate>
+             <volume>43</volume>
+             <fpage>1904</fpage>
+             <lpage>1911</lpage>
+             <xrefbib>
+                <pubidlist>
+                   <pubid idtype="doi">10.1161/STROKEAHA.112.650671</pubid>
+                   <pubid idtype="pmpid" link="fulltext">22733794</pubid>
+                </pubidlist>
+             </xrefbib>
+          </bibl>
+          <bibl id="B14">
+             <title>
+                <p>Oral Reading for Language in Aphasia (ORLA): evaluating the efficacy of computer-delivered therapy in chronic nonfluent aphasia</p>
+             </title>
+             <aug>
+                <au>
+                   <snm>Cherney</snm>
+                   <fnm>LR</fnm>
+                </au>
+             </aug>
+             <source>Top Stroke Rehabil</source>
+             <pubdate>2010</pubdate>
+             <volume>17</volume>
+             <fpage>423</fpage>
+             <lpage>431</lpage>
+             <xrefbib>
+                <pubidlist>
+                   <pubid idtype="doi">10.1310/tsr1706-423</pubid>
+                   <pubid idtype="pmpid" link="fulltext">21239366</pubid>
+                </pubidlist>
+             </xrefbib>
+          </bibl>
+          <bibl id="B15">
+             <title>
+                <p>Aphasia rehabilitation and the role of computer technology: can we keep up with modern times?</p>
+             </title>
+             <aug>
+                <au>
+                   <snm>van de Sandt-Koenderman</snm>
+                   <fnm>M</fnm>
+                </au>
+             </aug>
+             <source>Int J Speech Lang Pathol</source>
+             <pubdate>2011</pubdate>
+             <volume>13</volume>
+             <fpage>21</fpage>
+             <lpage>27</lpage>
+             <xrefbib>
+                <pubidlist>
+                   <pubid idtype="doi">10.3109/17549507.2010.502973</pubid>
+                   <pubid idtype="pmpid" link="fulltext">21329407</pubid>
+                </pubidlist>
+             </xrefbib>
+          </bibl>
+          <bibl id="B16">
+             <title>
+                <p>A computer-implemented protocol for treatment of naming disorders: evaluation of clinician-guided and partially self-guided instruction</p>
+             </title>
+             <aug>
+                <au>
+                   <snm>Fink</snm>
+                   <fnm>R</fnm>
+                </au>
+                <au>
+                   <snm>Breecher</snm>
+                   <fnm>A</fnm>
+                </au>
+                <au>
+                   <snm>Schwarz</snm>
+                   <fnm>M</fnm>
+                </au>
+                <au>
+                   <snm>Robey</snm>
+                   <fnm>R</fnm>
+                </au>
+             </aug>
+             <source>Aphasiology</source>
+             <pubdate>2002</pubdate>
+             <volume>16</volume>
+             <fpage>1061</fpage>
+             <lpage>1086</lpage>
+             <xrefbib>
+                <pubidlist>
+                   <pubid idtype="doi">10.1080/02687030244000400</pubid>
+                </pubidlist>
+             </xrefbib>
+          </bibl>
+          <bibl id="B17">
+             <title>
+                <p>Superhighway to promoting a client-therapist partnership: using the internet to deliver word-retrieval computer therapy monitored remotely with minimal speech and language therapy input</p>
+             </title>
+             <aug>
+                <au>
+                   <snm>Mortley</snm>
+                   <fnm>J</fnm>
+                </au>
+                <au>
+                   <snm>Wade</snm>
+                   <fnm>J</fnm>
+                </au>
+                <au>
+                   <snm>Enderby</snm>
+                   <fnm>P</fnm>
+                </au>
+             </aug>
+             <source>Aphasiology</source>
+             <pubdate>2004</pubdate>
+             <volume>18</volume>
+             <fpage>193</fpage>
+             <lpage>211</lpage>
+             <xrefbib>
+                <pubidlist>
+                   <pubid idtype="doi">10.1080/02687030344000553</pubid>
+                </pubidlist>
+             </xrefbib>
+          </bibl>
+          <bibl id="B18">
+             <insg>
+                <ins>
+                   <p>Department of Health</p>
+                </ins>
+             </insg>
+             <source>Our Health, Our Care, Our Say: a New Direction for Community Services</source>
+             <publisher>Her Majesty&#8217;s Government, London</publisher>
+             <pubdate>2006</pubdate>
+          </bibl>
+          <bibl id="B19">
+             <title>
+                <p>The efficacy of computer-provided reading treatment for chronic aphasic adults</p>
+             </title>
+             <aug>
+                <au>
+                   <snm>Katz</snm>
+                   <fnm>R</fnm>
+                </au>
+                <au>
+                   <snm>Wertz</snm>
+                   <fnm>R</fnm>
+                </au>
+             </aug>
+             <source>J Speech Lang Hear Res</source>
+             <pubdate>1997</pubdate>
+             <volume>40</volume>
+             <fpage>493</fpage>
+             <lpage>507</lpage>
+             <xrefbib>
+                <pubidlist>
+                   <pubid idtype="doi">10.1044/jslhr.4003.493</pubid>
+                   <pubid idtype="pmpid" link="fulltext">9210109</pubid>
+                </pubidlist>
+             </xrefbib>
+          </bibl>
+          <bibl id="B20">
+             <note>Palmer R, Mortley J. How I offer impairment therapy (2): from idealism to realism, step by step. Speech &amp; Language Therapy in Practice. 2011; Winter:29&#8211;32.</note>
+          </bibl>
+          <bibl id="B21">
+             <title>
+                <p>Using computers to enable self-management of aphasia therapy exercises for word finding: the patient and carer perspective</p>
+             </title>
+             <aug>
+                <au>
+                   <snm>Palmer</snm>
+                   <fnm>R</fnm>
+                </au>
+                <au>
+                   <snm>Enderby</snm>
+                   <fnm>P</fnm>
+                </au>
+                <au>
+                   <snm>Paterson</snm>
+                   <fnm>G</fnm>
+                </au>
+             </aug>
+             <source>Int J of Language and Communication Dis</source>
+             <pubdate>2013</pubdate>
+             <volume>48</volume>
+             <fpage>508</fpage>
+             <lpage>521</lpage>
+             <xrefbib>
+                <pubidlist>
+                   <pubid idtype="doi">10.1111/1460-6984.12024</pubid>
+                </pubidlist>
+             </xrefbib>
+          </bibl>
+          <bibl id="B22">
+             <title>
+                <p>Cost-utility of self-managed computer therapy for people with aphasia</p>
+             </title>
+             <aug>
+                <au>
+                   <snm>Latimer</snm>
+                   <fnm>NR</fnm>
+                </au>
+                <au>
+                   <snm>Dixon</snm>
+                   <fnm>S</fnm>
+                </au>
+                <au>
+                   <snm>Palmer</snm>
+                   <fnm>R</fnm>
+                </au>
+             </aug>
+             <source>Int J Technol Assess Health Care</source>
+             <pubdate>2013</pubdate>
+             <volume>29</volume>
+             <fpage>402</fpage>
+             <lpage>409</lpage>
+             <xrefbib>
+                <pubidlist>
+                   <pubid idtype="doi">10.1017/S0266462313000421</pubid>
+                   <pubid idtype="pmpid" link="fulltext">24290333</pubid>
+                </pubidlist>
+             </xrefbib>
+          </bibl>
+          <bibl id="B23">
+             <title>
+                <p>Extending the CONSORT statement to randomized trials of nonpharmacologic treatment: explanation and elaboration</p>
+             </title>
+             <aug>
+                <au>
+                   <snm>Boutron</snm>
+                   <fnm>I</fnm>
+                </au>
+                <au>
+                   <snm>Moher</snm>
+                   <fnm>D</fnm>
+                </au>
+                <au>
+                   <snm>Altman</snm>
+                   <fnm>D</fnm>
+                </au>
+                <au>
+                   <snm>Schulz</snm>
+                   <fnm>K</fnm>
+                </au>
+                <au>
+                   <snm>Ravaud</snm>
+                   <fnm>P</fnm>
+                </au>
+             </aug>
+             <insg>
+                <ins>
+                   <p>for the Consort group</p>
+                </ins>
+             </insg>
+             <source>Ann Intern Med</source>
+             <pubdate>2008</pubdate>
+             <volume>148</volume>
+             <fpage>295</fpage>
+             <lpage>309</lpage>
+             <xrefbib>
+                <pubidlist>
+                   <pubid idtype="doi">10.7326/0003-4819-148-4-200802190-00008</pubid>
+                   <pubid idtype="pmpid" link="fulltext">18283207</pubid>
+                </pubidlist>
+             </xrefbib>
+          </bibl>
+          <bibl id="B24">
+             <aug>
+                <au>
+                   <snm>Swinburn</snm>
+                   <fnm>K</fnm>
+                </au>
+                <au>
+                   <snm>Porter</snm>
+                   <fnm>G</fnm>
+                </au>
+                <au>
+                   <snm>Howard</snm>
+                   <fnm>D</fnm>
+                </au>
+             </aug>
+             <source>Comprehensive Aphasia Test</source>
+             <publisher>Psychology Press, London</publisher>
+             <pubdate>2004</pubdate>
+          </bibl>
+          <bibl id="B25">
+             <title>
+                <p>Initial evaluation of the consent support tool: a structured procedure to facilitate the inclusion and engagement of people with aphasia in the informed consent process</p>
+             </title>
+             <aug>
+                <au>
+                   <snm>Jayes</snm>
+                   <fnm>M</fnm>
+                </au>
+                <au>
+                   <snm>Palmer</snm>
+                   <fnm>R</fnm>
+                </au>
+             </aug>
+             <source>Int J Speech Lang Pathol</source>
+             <pubdate>2013</pubdate>
+             <volume>16</volume>
+             <fpage>159</fpage>
+             <lpage>168</lpage>
+             <xrefbib>
+                <pubidlist>
+                   <pubid idtype="doi">10.3109/17549507.2013.795999</pubid>
+                   <pubid idtype="pmpid" link="fulltext">23826849</pubid>
+                </pubidlist>
+             </xrefbib>
+          </bibl>
+          <bibl id="B26">
+             <aug>
+                <au>
+                   <snm>Enderby</snm>
+                   <fnm>PM</fnm>
+                </au>
+                <au>
+                   <snm>John</snm>
+                   <fnm>A</fnm>
+                </au>
+                <au>
+                   <snm>Petheram</snm>
+                   <fnm>B</fnm>
+                </au>
+             </aug>
+             <source>Therapy Outcome Measures for Rehabilitation Professionals</source>
+             <publisher>John Wiley&amp; Sons Ltd, Chichester</publisher>
+             <pubdate>2006</pubdate>
+          </bibl>
+          <bibl id="B27">
+             <title>
+                <p>Development of a reliable self-report outcome measure for pragmatic trials of communication therapy following stroke: the Communication Outcome after Stroke (COAST) scale</p>
+             </title>
+             <aug>
+                <au>
+                   <snm>Long</snm>
+                   <fnm>A</fnm>
+                </au>
+                <au>
+                   <snm>Hesketh</snm>
+                   <fnm>A</fnm>
+                </au>
+                <au>
+                   <snm>Paszek</snm>
+                   <fnm>G</fnm>
+                </au>
+                <au>
+                   <snm>Booth</snm>
+                   <fnm>M</fnm>
+                </au>
+                <au>
+                   <snm>Bowen</snm>
+                   <fnm>A</fnm>
+                </au>
+             </aug>
+             <source>Clin Rehabil</source>
+             <pubdate>2008</pubdate>
+             <volume>22</volume>
+             <fpage>1083</fpage>
+             <lpage>1094</lpage>
+             <xrefbib>
+                <pubidlist>
+                   <pubid idtype="doi">10.1177/0269215508090091</pubid>
+                   <pubid idtype="pmpid" link="fulltext">19052247</pubid>
+                </pubidlist>
+             </xrefbib>
+          </bibl>
+          <bibl id="B28">
+             <title>
+                <p>Communication outcome after stroke: a new measure of the carer's perspective</p>
+             </title>
+             <aug>
+                <au>
+                   <snm>Long</snm>
+                   <fnm>AF</fnm>
+                </au>
+                <au>
+                   <snm>Hesketh</snm>
+                   <fnm>A</fnm>
+                </au>
+                <au>
+                   <snm>Bowen</snm>
+                   <fnm>A</fnm>
+                </au>
+             </aug>
+             <insg>
+                <ins>
+                   <p>on behalf of the ACT NoW Study</p>
+                </ins>
+             </insg>
+             <source>Clin Rehabil</source>
+             <pubdate>2009</pubdate>
+             <volume>23</volume>
+             <fpage>846</fpage>
+             <lpage>856</lpage>
+             <xrefbib>
+                <pubidlist>
+                   <pubid idtype="doi">10.1177/0269215509336055</pubid>
+                   <pubid idtype="pmpid" link="fulltext">19482891</pubid>
+                </pubidlist>
+             </xrefbib>
+          </bibl>
+          <bibl id="B29">
+             <title>
+                <p>The CarerQol instrument: a new instrument to measure care-related quality of life of informal caregivers for use in economic evaluations</p>
+             </title>
+             <aug>
+                <au>
+                   <snm>Brouwer</snm>
+                   <fnm>W</fnm>
+                </au>
+                <au>
+                   <snm>van Exel</snm>
+                   <fnm>N</fnm>
+                </au>
+                <au>
+                   <snm>van Gorp</snm>
+                   <fnm>B</fnm>
+                </au>
+                <au>
+                   <snm>Redekop</snm>
+                   <fnm>W</fnm>
+                </au>
+             </aug>
+             <source>Qual Life Res</source>
+             <pubdate>2006</pubdate>
+             <volume>15</volume>
+             <fpage>1005</fpage>
+             <lpage>2</lpage>
+             <xrefbib>
+                <pubidlist>
+                   <pubid idtype="doi">10.1007/s11136-005-5994-6</pubid>
+                   <pubid idtype="pmpid" link="fulltext">16900281</pubid>
+                </pubidlist>
+             </xrefbib>
+          </bibl>
+          <bibl id="B30">
+             <note>Steps Consultancy Ltd: StepbyStep&#169; software. [<url>http://www.aphasia-software.com</url>]</note>
+          </bibl>
+          <bibl id="B31">
+             <aug>
+                <au>
+                   <snm>Julious</snm>
+                   <fnm>SA</fnm>
+                </au>
+             </aug>
+             <source>Sample Sizes for Clinical Trials</source>
+             <publisher>Chapman and Hall, London</publisher>
+             <pubdate>2009</pubdate>
+          </bibl>
+          <bibl id="B32">
+             <aug>
+                <au>
+                   <snm>Hochberg</snm>
+                   <fnm>Y</fnm>
+                </au>
+                <au>
+                   <snm>Tamhane</snm>
+                   <fnm>AC</fnm>
+                </au>
+             </aug>
+             <source>Multiple Comparison Procedures</source>
+             <publisher>Wiley, New York</publisher>
+             <pubdate>1987</pubdate>
+          </bibl>
+          <bibl id="B33">
+             <note>Curtis L. Unit Costs of Health and Social Care. University of Kent at Canterbury: Personal and Social Services Research Unit; 2011.</note>
+          </bibl>
+          <bibl id="B34">
+             <title>
+                <p>Modeling valuations for EuroQol health states</p>
+             </title>
+             <aug>
+                <au>
+                   <snm>Dolan</snm>
+                   <fnm>P</fnm>
+                </au>
+             </aug>
+             <source>Med Care</source>
+             <pubdate>1997</pubdate>
+             <volume>35</volume>
+             <fpage>1095</fpage>
+             <lpage>1108</lpage>
+             <xrefbib>
+                <pubidlist>
+                   <pubid idtype="doi">10.1097/00005650-199711000-00002</pubid>
+                   <pubid idtype="pmpid" link="fulltext">9366889</pubid>
+                </pubidlist>
+             </xrefbib>
+          </bibl>
+          <bibl id="B35">
+             <title>
+                <p>Exploring the research decision space: the expected value of information for sequential research designs</p>
+             </title>
+             <aug>
+                <au>
+                   <snm>Griffin</snm>
+                   <fnm>S</fnm>
+                </au>
+                <au>
+                   <snm>Welton</snm>
+                   <fnm>NJ</fnm>
+                </au>
+                <au>
+                   <snm>Claxton</snm>
+                   <fnm>K</fnm>
+                </au>
+             </aug>
+             <source>Med Decis Making</source>
+             <pubdate>2010</pubdate>
+             <volume>30</volume>
+             <fpage>155</fpage>
+             <lpage>162</lpage>
+             <xrefbib>
+                <pubidlist>
+                   <pubid idtype="doi">10.1177/0272989X09344746</pubid>
+                   <pubid idtype="pmpid" link="fulltext">20040743</pubid>
+                </pubidlist>
+             </xrefbib>
+          </bibl>
+       </refgrp>
+    </bm>
+ </art>

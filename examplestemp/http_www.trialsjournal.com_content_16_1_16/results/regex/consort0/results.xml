@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<results title="consort0">
+ <result pre="o be interviewed and the " name0="samplesizeof" value0="sample size of" post="the trial. "/>
+ <result pre="lems associated with the " name0="[rr]andomi[zs]ation" value0="randomisation" post="process (n = 1), difficulty recruiting r"/>
+ <result pre="hat point we got someone " name0="[ii]ndependent" value0="independent" post="(statistician) to look at the data and t"/>
+ <result pre="what treatment they were " name0="assign[^\s]*" value0="assigned," post="you could see there was poor efficacy ov"/>
+ <result pre=" blinded to intervention " name0="allocat[^\s]*" value0="allocation" post="they nonetheless had access to outcome d"/>
+ <result pre="we actually put in for a " name0="placebo" value0="placebo" post="controlled efficacy trial, and the [fund"/>
+ <result pre=" and we talked about the " name0="[rr]andomi[zs]ation" value0="randomisation" post="of patients and we presented some anecdo"/>
+ <result pre="rison of descriptions of " name0="allocat[^\s]*" value0="allocation" post="concealment in trial protocols and the p"/>
+ <result pre="scriptions of allocation " name0="conceal[^\s]*" value0="concealment" post="in trial protocols and the published rep"/>
+ <result pre="Reporting on " name0="[bb]linding" value0="blinding" post="in trial protocols and corresponding pub"/>
+</results>

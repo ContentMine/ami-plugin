@@ -24,6 +24,7 @@ import com.google.common.collect.Multiset;
 public class WordSetWrapper {
 
 	
+	private static final String XML = ".xml";
 	private static final Logger LOG = Logger.getLogger(WordSetWrapper.class);
 	static {
 		LOG.setLevel(Level.DEBUG);
@@ -86,6 +87,7 @@ public class WordSetWrapper {
 		InputStream stopwordsStream = AMI.class.getResourceAsStream(stopwordsResource);
 		if (stopwordsStream == null) {
 			LOG.debug("Cannot read stopword stream: "+stopwordsResource);
+		} else if (stopwordsResource.endsWith(XML)){
 		} else {
 			try {
 				List<String> lines = IOUtils.readLines(stopwordsStream);
@@ -102,6 +104,10 @@ public class WordSetWrapper {
 
 	public boolean contains(String word) {
 		return wordSet == null ? false : wordSet.contains(word);
+	}
+
+	public int size() {
+		return wordSet == null ? 0 : wordSet.size();
 	}
 
 

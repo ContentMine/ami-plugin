@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<results title="consort0">
+ <result pre=" only then teeth will be " name0="allocat[^\s]*" value0="allocated" post="to one of the two interventions. Selecti"/>
+ <result pre="e excavation). The total " name0="follow-up" value0="follow-up" post="time will be three years after completio"/>
+ <result pre="ssed for the initial and " name0="follow-up" value0="follow-up" post="treatments and will be based on a micro-"/>
+ <result pre="patient will be randomly " name0="allocat[^\s]*" value0="allocated" post="to receive one of two treatments (select"/>
+ <result pre=" = 0.05 and 1-β = 0.9, a " name0="samplesizeof" value0="sample size of" post="n = 66 per group is required. Assuming a"/>
+ <result pre="atment group allocation. " name0="[bb]linding" value0="Blinding" post="during the second excavation step and bl"/>
+ <result pre="rformed or not. Clinical " name0="follow-up" value0="follow-up" post="examinations will also be performed blin"/>
+ <result pre="n to the examiner during " name0="follow-up" value0="follow-up" post="examinations. "/>
+ <result pre=" will be performed using " name0="randomnumbers?" value0="random number" post="tables (WH) before treatment is commence"/>
+ <result pre="rmed after inclusion via " name0="randomnumbers?" value0="random number" post="tables (WH). Allocation will be performe"/>
+ <result pre="inded to treatment group " name0="allocat[^\s]*" value0="allocation." post="Blinding during the second excavation st"/>
+ <result pre=" not to reveal treatment " name0="allocat[^\s]*" value0="allocation" post="to the examiner during follow-up examina"/>
+ <result pre=" be performed blinded to " name0="treatmentgroups?" value0="treatment group" post="allocation. Blinding during the second e"/>
+ <result pre="ery bad) and initial and " name0="follow-up" value0="follow-up" post="treatment costs (calculated by combining"/>
+ <result pre="After six months, a " name0="follow-up" value0="follow-up" post="examination will be performed. After the"/>
+ <result pre=". After the examination, " name0="allocat[^\s]*" value0="allocation" post="will be revealed. If allocated to stepwi"/>
+ <result pre="During " name0="follow-up" value0="follow-up" post="examinations, the following parameters w"/>
+ <result pre="r, we will use two-sided " name0="[ii]ndependent" value0="independent" post="t tests or Mann-Whitney U test (to compa"/>
+ <result pre="ue to imbalanced loss to " name0="follow-up" value0="follow-up" post="by handling drop-outs as non-success or "/>
+ <result pre=" Handling of loss to " name0="follow-up" value0="follow-up" post=""/>
+ <result pre="as non-success. Required " name0="follow-up" value0="follow-up" post="treatments will be recorded and survived"/>
+ <result pre="ment both treatments and " name0="follow-up" value0="follow-up" post="assessments as outlined. For each center"/>
+ <result pre="reated teeth will not be " name0="excluded" value0="excluded" post="from further analyses, but followed. Thu"/>
+</results>

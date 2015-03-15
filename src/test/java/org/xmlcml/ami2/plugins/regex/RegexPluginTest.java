@@ -102,4 +102,22 @@ public class RegexPluginTest {
 //		Assert.assertTrue("results.xml", qsNormaTemp.hasResultsXML());
 	}
 	
+	
+	@Test
+	public void testRegexPluginExtractNumbers() throws IOException {
+		File normaTemp = new File("target/bmc/regex/15_1_511_test");
+		String[] args = {
+				"-q", "examplestemp",
+				"-i", "scholarly.html",
+				"-o", "results.xml",
+				"--context", "25", "40",
+				"--r.regex", 
+				    "regex/consort0.xml",
+		};
+		RegexPlugin regexPlugin = new RegexPlugin(args);
+		AMIArgProcessor argProcessor = (AMIArgProcessor) regexPlugin.getArgProcessor();
+		Assert.assertNotNull(argProcessor);
+//		LOG.debug(argProcessor.getInputList());
+		argProcessor.runAndOutput();
+	}
 }

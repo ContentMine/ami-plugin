@@ -2,19 +2,16 @@ package org.xmlcml.ami2.plugins.words;
 
 import java.util.ArrayList;
 import java.util.List;
-import java.util.Set;
 
 import nu.xom.Attribute;
 
 import org.apache.log4j.Level;
 import org.apache.log4j.Logger;
-import org.eclipse.jetty.util.log.Log;
 import org.xmlcml.files.ResultElement;
 import org.xmlcml.files.ResultsElement;
 import org.xmlcml.files.ResultsElementList;
 
 import com.google.common.collect.HashMultiset;
-import com.google.common.collect.ImmutableSet;
 import com.google.common.collect.ImmutableSortedMultiset;
 import com.google.common.collect.Multiset;
 import com.google.common.collect.Multiset.Entry;
@@ -90,9 +87,8 @@ public class WordCollectionFactory {
 	}
 
 	private void createWordSets() {
-		stopwords = WordSetWrapper.getCommonEnglishStopwordSet();
 		List<String> rawWords = wordArgProcessor.extractWordsFromScholarlyHtml();
-		currentWords = createUnstoppedWords(rawWords);
+		currentWords = rawWords;
 		if (wordArgProcessor.getChosenWordTypes().contains(WordArgProcessor.ABBREVIATIONS)) {
 			currentWords = createAbbreviations();
 		} else if (wordArgProcessor.getChosenWordTypes().contains(WordArgProcessor.CAPITALIZED)) {
@@ -101,6 +97,11 @@ public class WordCollectionFactory {
 			if (wordArgProcessor.getWordCaseList().contains(WordArgProcessor.IGNORE)) {
 				currentWords = toLowerCase(currentWords);
 			}
+		}
+//		stopwords = WordSetWrapper.getCommonEnglishStopwordSet();
+//		currentWords = applyStopwordFilter(stopwords, rawWords);
+		for (WordSetWrapper stopwordSet : wordArgProcessor.getStopwordSetList()) {
+			currentWords = applyStopwordFilter(stopwordSet, currentWords);
 		}
 	}
 
@@ -130,6 +131,7 @@ public class WordCollectionFactory {
 	 * @return
 	 */
 	private boolean isAbbreviation(String word) {
+		if (word == null || word.length() == 0) return false;
 		// must start with Uppercase
 		if (!Character.isUpperCase(word.charAt(0))) return false;
 		int nupper = 0;
@@ -173,15 +175,15 @@ public class WordCollectionFactory {
 		return true;
 	}
 
-	private List<String> createUnstoppedWords(List<String> rawWords) {
+	private List<String> applyStopwordFilter(WordSetWrapper stopwords, List<String> rawWords) {
 		currentWords = new ArrayList<String>();
 		for (String word : rawWords) {
 			word = word.trim();
-			if (!stopwords.contains(word)) {
+			if (!stopwords.contains(word.toLowerCase())) {
 				currentWords.add(word);
 			}
 		}
-		LOG.trace("current words: "+currentWords.size());
+		LOG.debug("stopwords "+stopwords.size()+"; current words: "+currentWords.size());
 		return currentWords;
 	}
 	
@@ -217,8 +219,8 @@ public class WordCollectionFactory {
 		for (String rawWord : currentWords) {
 //			rawWord = rawWord.toLowerCase(); // normalize case
 			rawWord = rawWord.replaceAll("[\\d+]", ""); // remove numbers
-			if (!stopwords.contains(rawWord.toLowerCase()) 
-					&& rawWord.length() >= minRawWordLength 
+//			if (!stopwords.contains(rawWord.toLowerCase()) 
+			if (rawWord.length() >= minRawWordLength 
 					&& rawWord.length() <= maxRawWordLength) { //remove stopwords and short strings
 				wordSet.add(rawWord);
 			}

@@ -1,0 +1,1492 @@
+<?xml version='1.0'?>
+<!DOCTYPE art SYSTEM 'http://www.biomedcentral.com/xml/article.dtd'>
+<art>
+    <ui>s13063-014-0535-7</ui>
+    <ji>1745-6215</ji>
+    <fm>
+       <dochead>Research</dochead>
+       <bibl>
+          <title>
+             <p>Improving the pre-screening of eligible patients in order to increase enrollment in cancer clinical trials</p>
+          </title>
+          <aug>
+             <au id="A1" ca="yes">
+                <snm>Campillo-Gimenez</snm>
+                <fnm>Boris</fnm>
+                <insr iid="I1"/>
+                <email>boris.campillo-gimenez@univ-rennes1.fr</email>
+             </au>
+             <au id="A2">
+                <snm>Buscail</snm>
+                <fnm>Camille</fnm>
+                <insr iid="I2"/>
+                <email>camille.buscail@chu-rennes.fr</email>
+             </au>
+             <au id="A3">
+                <snm>Zekri</snm>
+                <fnm>Oussama</fnm>
+                <insr iid="I3"/>
+                <email>o.zekri@rennes.unicancer.fr</email>
+             </au>
+             <au id="A4">
+                <snm>Laguerre</snm>
+                <fnm>Brigitte</fnm>
+                <insr iid="I3"/>
+                <email>b.laguerre@rennes.unicancer.fr</email>
+             </au>
+             <au id="A5">
+                <snm>Le Pris&#233;</snm>
+                <fnm>Elisabeth</fnm>
+                <insr iid="I3"/>
+                <email>e.leprise@rennes.unicancer.fr</email>
+             </au>
+             <au id="A6">
+                <snm>De Crevoisier</snm>
+                <fnm>Renaud</fnm>
+                <insr iid="I3"/>
+                <email>r.de-crevoisier@rennes.unicancer.fr</email>
+             </au>
+             <au id="A7">
+                <snm>Cuggia</snm>
+                <fnm>Marc</fnm>
+                <insr iid="I1"/>
+                <insr iid="I4"/>
+                <email>marc.cuggia@univ-rennes1.fr</email>
+             </au>
+          </aug>
+          <insg>
+             <ins id="I1">
+                <p>Inserm U1099 - LTSI, Equipe Donn&#233;es Massives en Sant&#233; - Universit&#233; Rennes 1, 2 rue du Professeur L&#233;on Bernard, Rennes Cedex, 35043, France</p>
+             </ins>
+             <ins id="I2">
+                <p>Department of Medical Information, University Hospital of Rennes, 2 rue Henri Le Guilloux, Rennes, 35000, France</p>
+             </ins>
+             <ins id="I3">
+                <p>Comprehensive Cancer Center Eugene Marquis (CCC), Avenue de la Bataille Flandres-Dunkerque, Rennes Cedex, 35042, France</p>
+             </ins>
+             <ins id="I4">
+                <p>Clinical Investigation Center, University Hospital of Rennes, 2 rue du Professeur L&#233;on Bernard, Rennes Cedex, 35043, France</p>
+             </ins>
+          </insg>
+          <source>Trials</source>
+          <issn>1745-6215</issn>
+          <pubdate>2015</pubdate>
+          <volume>16</volume>
+          <issue>1</issue>
+          <fpage>15</fpage>
+          <url>http://www.trialsjournal.com/content/16/1/15</url>
+          <xrefbib>
+             <pubidlist>
+                <pubid idtype="doi">10.1186/s13063-014-0535-7</pubid>
+             </pubidlist>
+          </xrefbib>
+       </bibl>
+       <history>
+          <rec>
+             <date>
+                <day>9</day>
+                <month>4</month>
+                <year>2014</year>
+             </date>
+          </rec>
+          <acc>
+             <date>
+                <day>19</day>
+                <month>12</month>
+                <year>2014</year>
+             </date>
+          </acc>
+          <pub>
+             <date>
+                <day>16</day>
+                <month>1</month>
+                <year>2015</year>
+             </date>
+          </pub>
+       </history>
+       <cpyrt>
+          <year>2015</year>
+          <collab>Campillo-Gimenez et al.; licensee BioMed Central.</collab>
+          <note>This is an Open Access article distributed under the terms of the Creative Commons Attribution License (<url>http://creativecommons.org/licenses/by/4.0</url>), which permits unrestricted use, distribution, and reproduction in any medium, provided the original work is properly credited. The Creative Commons Public Domain Dedication waiver (<url>http://creativecommons.org/publicdomain/zero/1.0/</url>) applies to the data made available in this article, unless otherwise stated.</note>
+       </cpyrt>
+       <kwdg>
+          <kwd>Prostatic neoplasms</kwd>
+          <kwd>Randomized controlled trials as a topic</kwd>
+          <kwd>Patient selection</kwd>
+          <kwd>Decision support systems</kwd>
+          <kwd>Clinical</kwd>
+          <kwd>Patient pre-screening</kwd>
+       </kwdg>
+       <abs>
+          <sec>
+             <st>
+                <p>Abstract</p>
+             </st>
+             <sec>
+                <st>
+                   <p>Background</p>
+                </st>
+                <p>The performance of randomized controlled trials (RCTs) is often hindered by recruitment difficulties. This study aims to explore the pre-screening phase of four prostate cancer RCTs to identify the impact of a systematic pre-selection of eligible patients for RCT recruitment.</p>
+             </sec>
+             <sec>
+                <st>
+                   <p>Methods</p>
+                </st>
+                <p>The pre-screening of four RCTs opened at the Comprehensive Cancer Center in Rennes was analyzed retrospectively (French Genitourinary Tumor Group (GETUG) 14, 15, 16, and 17). Data were extracted from electronic multidisciplinary cancer (MDC) reports and manually completed by physicians and medical secretaries. These data were the main source of information for clinicians to discuss treatment alternatives during MDC sessions. The pre-screening decisions made by the clinicians during these MDC meetings were compared with those made after a systematic review of the MDC reports by a clinical research assistant (CRA). Any inconsistencies in decisions between the CRA and the MDC physicians were corrected by the principal investigator (PI).</p>
+             </sec>
+             <sec>
+                <st>
+                   <p>Results</p>
+                </st>
+                <p>The pre-screening rate was 9.1% during the MDC meetings, while it was estimated to be 12.9% after the final review by the PI, and 29% after the systematic review by the CRA. The study showed that 77% and 67% of the MDC reports did not mention clinical and pathological Tumor, lymph node and metastasis classification of malignant tumors (TNM) staging, respectively, and that 35 of the CRA&#8217;s 47 proposals rejected by the PI concerned implicit information (not specified in the MDC reports). Only one patient was proposed by the PI, and none by the CRA.</p>
+             </sec>
+             <sec>
+                <st>
+                   <p>Conclusions</p>
+                </st>
+                <p>These results confirm that pre-screening could be improved by a systematic review of the medical reports. They also highlight the fact that missing data in electronic MDC reports leads to over-enrollment of non-eligible patients, but not to over-exclusion of eligible patients. Thus, our study confirms the potential gain in using semi-automated pre-selection of MDC reports, in order to avoid missing out on patients eligible for RCTs.</p>
+             </sec>
+             <sec>
+                <st>
+                   <p>Trial registration</p>
+                </st>
+                <p>The trials evaluated in this study were previously registered with clinicaltrials.gov (registration number: <url>NCT00104741</url> on 3 March 2005; <url>NCT00104715</url> on 3 March 2005; <url>NCT00423475</url> on 16 January 2007; and <url>NCT00667069</url> on 24 April 2008).</p>
+             </sec>
+          </sec>
+       </abs>
+    </fm>
+    <bdy>
+       <sec>
+          <st>
+             <p>Background</p>
+          </st>
+          <p>The randomized controlled trial (RCT) is the gold standard for evaluating the effects of healthcare procedures, but the performance of clinical RCTs is often hindered by recruitment difficulties <abbrgrp>
+                <abbr bid="B1">1</abbr>
+             </abbrgrp>. Inadequate recruitment causes delays, increases costs, reduces the statistical power of analysis and finally, may lead to failed clinical trials.</p>
+          <p>Clinical trials are an important option of care for cancer patients since they often provide the most up-to-date and effective treatment for end-stage disease. It has also been suggested that more participation in oncology clinical trials could lead to improved survival in cancer patients <abbrgrp>
+                <abbr bid="B2">2</abbr>
+             </abbrgrp>,<abbrgrp>
+                <abbr bid="B3">3</abbr>
+             </abbrgrp>. Nevertheless, patient enrollment remains particularly low in oncology clinical trials (according to the National Cancer Institute, less than 5% of adults with incident cancer participate in clinical trials in the United States) <abbrgrp>
+                <abbr bid="B4">4</abbr>
+             </abbrgrp>,<abbrgrp>
+                <abbr bid="B5">5</abbr>
+             </abbrgrp>.</p>
+          <p>Barriers to recruitment for oncology clinical trials can be summarized into three main categories <abbrgrp>
+                <abbr bid="B6">6</abbr>
+             </abbrgrp>,<abbrgrp>
+                <abbr bid="B7">7</abbr>
+             </abbrgrp>:</p><p> Individual barriers (such as patients feeling uncomfortable with experimentation or experiencing a loss of control over decision-making, and physician time and effort required for recruitment),</p>
+             <p> Barriers related to RCT designs (overly strict or non-adapted criteria, too large a number of RCTs, RCT complexity leading to difficulties in explaining trials to patients, and so forth), and</p>
+             <p> Barriers caused by system and organizational features (lack of staff and research nurses, communication difficulties, planning of local resources according to RCT designs, and so forth).</p>
+          <p>Different strategies, often timesaving and cost-effective, can be used to overcome these barriers (for example, hiring a research nurse or a data manager). But there is also evidence that Health Information Systems and Information Technologies can improve the recruitment process. A review of recent literature shows that many studies examine, discuss, and/or deal with support systems for clinical trial recruitment <abbrgrp>
+                <abbr bid="B5">5</abbr>
+             </abbrgrp>. These are mainly concerned with addressing individual barriers, and sometimes with the development of tools to ease usability of eligibility criteria. However, the authors highlight the lack of evaluation and workflow integration of the support systems into the RCT recruitment process, and they emphasize the importance of the pre-screening phase for recruitment, particularly for RCT recruitment systems.</p>
+          <p>In this study, we hypothesized that the improvement of pre-screening of patients eligible for RCTs would lead to an improvement in overall patient enrollment in clinical trials. Thus, the study focused on the pre-screening steps of patient enrollment to RCTs.</p>
+          <p>The main objective of the present study was to assess the impact of semi-automated decision support systems in improving patient pre-screening in oncology RCTs. Therefore, the study compared the pre-screening decisions made prospectively by the physicians during patient care, with the pre-screening decisions made with a systematic and retrospective review of the medical reports. Then, the study identified factors that could make pre-screening more efficient.</p>
+       </sec>
+       <sec>
+          <st>
+             <p>Methods</p>
+          </st>
+          <sec>
+             <st>
+                <p>Workflow of multidisciplinary cancer meetings</p>
+             </st>
+             <p>As presented in Figure&#160;<figr fid="F1">1</figr>, multidisciplinary cancer (MDC) meetings (MDMs) are the start of patient management in oncology and often the first step leading to patient enrollment in cancer RCTs, known as the pre-screening phase.
+                  </p>
+             
+                <fig id="F1">
+                   <title>
+                      <p>Figure 1</p>
+                   </title>
+                   <caption>
+                      <p>The therapeutic decision-making process for patients with cancer in Brittany (France), including the multidisciplinary cancer (MDC) meeting. </p>
+                   </caption>
+                   <text>
+                      <p>
+                            <b>The therapeutic decision-making process for patients with cancer in Brittany (France), including the multidisciplinary cancer (MDC) meeting.</b> Step one: MDC meeting request by a treating physician concerning a patient; step two: MDC meeting scheduled by the MDC secretary; step three: presentation of the MDC report during the MDC meeting; step four: registration of the therapeutic decision in the oncologic electronic health records (EHR) and feedback to the treating physician.</p>
+                   </text>
+                   <graphic file="s13063-014-0535-7-1"/>
+                </fig>
+             
+             <p>In Brittany (France), the workflow starts with a request made by the treating physician to the MDC secretary, in order to schedule the presentation of the patient&#8217;s case within the MDM (steps one and two). With the patient data provided by the treating physician (most of the time from the paper-based patient record), the secretary fills in an online standard MDC report designed for each type of cancer. The MDC report is intended to collect all essential patient data to make the decision during the MDM.</p>
+             <p>On the day of the MDM, the secretary shows each MDC report to the tumor board (step three). After the discussion, the therapeutic decision is registered (step four) and sent back to the treating physician who can then inform the patient.</p>
+             <p>During the MDM, some patients may be proposed (in a pre-screening phase) as being potentially eligible for an RCT; according to a subset of selection criteria called that we will call &#8216;pre-screening criteria&#8217;. These criteria correspond to those that can be checked from the retrospective data available in the patient charts. Pre-screening criteria include, for instance, demographic characteristics (such as age and gender) and some medical characteristics (such as tumor stage and surgical history). The other criteria (which we will call &#8216;screening criteria&#8217;) are those that can only be tested secondarily (in a screening phase), after having contacted the patient (for example, a negative HIV test on the day of enrollment). The patients are eventually included in the appropriate RCT when all eligibility criteria are met.</p>
+             <p>The present study proposes to retrospectively analyze the decision-making process of the MDM and to compare it to a systematic review of the patient&#8217;s case.</p>
+          </sec>
+          <sec>
+             <st>
+                <p>Focus on the ongoing randomized controlled trials used for the study</p>
+             </st>
+             <p>Urologic oncology was chosen as the experimental field for practical reasons, partly because most eligibility criteria are readily handled by computerized data (Tumor, lymph node and metastasis classification of malignant tumors (TNM) staging, the Gleason score, prostate-specific antigen (PSA) level, and so forth). The study focused on prostate cancer, which is the most common form in urology. It is also the main topic of discussion at urology MDMs and of many clinical trials.</p>
+             <p>Four prostate cancer clinical trials were active and recruiting patients at the Cancer Research Institute of Rennes during the study period (between October 2008 and March 2009), all conducted by the French Genitourinary Tumor Group (GETUG) <abbrgrp>
+                   <abbr bid="B8">8</abbr>
+                </abbrgrp>:</p><p> 
+                          <smcaps>GETUG 14, </smcaps>comparing triptorelin, flutamide, and external-beam radiation therapy to external-beam radiation therapy alone in treatment of patients with stage II or stage III prostate cancer (Clinicaltrials.gov identifier: NCT00104741);</p>
+                <p> 
+                          <smcaps>GETUG 15, </smcaps>comparing hormone therapy and docetaxel to hormone therapy alone in treatment of patients with metastatic prostate cancer (Clinicaltrials.gov identifier: NCT00104715);</p>
+                <p> 
+                          <smcaps>GETUG 16, </smcaps>comparing radiation therapy and goserelin to radiation therapy alone in treatment of patients who have undergone surgery for recurrent or refractory prostate cancer (Clinicaltrials.gov identifier: NCT00423475);</p>
+                <p> 
+                          <smcaps>GETUG 17, </smcaps>comparing immediate triptorelin and radiation therapy after surgery to the delayed treatment of patients who have undergone surgery for intermediate-risk stage III or stage IV prostate cancer (Clinicaltrials.gov identifier: NCT00667069).</p>
+             <p>Detailed eligibility criteria for the four RCTs discussed at the MDMs during the study period are presented in Table&#160;<tblr tid="T1">1</tblr>. The RCTs were conducted in accordance with the Declaration of Helsinki. All participants were required to give written informed consent before enrollment in one of the four studies.
+                  </p>
+             
+                <table id="T1">
+                   <title>
+                      <p>Table 1</p>
+                   </title>
+                   <caption>
+                      <p>
+                            <b>Eligibility criteria of GETUG 14, GETUG 15, GETUG 16, and GETUG 17 clinical trials</b>                          
+                      </p>
+                   </caption>
+                   <tgroup align="left" cols="6">
+                      <colspec align="left" colname="c1" colnum="1" colwidth="*"/>
+                      <colspec align="left" colname="c2" colnum="2" colwidth="*"/>
+                      <colspec align="left" colname="c3" colnum="3" colwidth="*"/>
+                      <colspec align="left" colname="c4" colnum="4" colwidth="*"/>
+                      <colspec align="left" colname="c5" colnum="5" colwidth="*"/>
+                      <colspec align="left" colname="c6" colnum="6" colwidth="*"/>
+                      <thead>
+                         <row valign="top">
+                            <entry colname="c1"/>
+                            <entry colname="c2">
+                               <p>
+                                  <b>Eligibility criteria</b>                              
+                               </p>
+                            </entry>
+                            <entry colname="c3">
+                               <p>
+                                  <b>GETUG 14 (</b>                                
+                                  <b>NCT00104741</b>                                
+                                  <b>)</b>                              
+                               </p>
+                            </entry>
+                            <entry colname="c4">
+                               <p>
+                                  <b>GETUG 15 (</b>                                
+                                  <b>NCT00104715</b>                                
+                                  <b>)</b>                              
+                               </p>
+                            </entry>
+                            <entry colname="c5">
+                               <p>
+                                  <b>GETUG 16 (</b>                                
+                                  <b>NCT00423475</b>                                
+                                  <b>)</b>                              
+                               </p>
+                            </entry>
+                            <entry colname="c6">
+                               <p>
+                                  <b>GETUG 17 (</b>                                
+                                  <b>NCT00667069</b>                                
+                                  <b>)</b>                              
+                               </p>
+                            </entry>
+                         </row>
+                      </thead>
+                      <tfoot>
+                         <p>
+                            <sup>a</sup>eligibility criterion available for pre-screening; pTNM: pathological Tumor Nodes and Metastasis staging; PSA: Prostate-specific antigen; ECOG: Eastern Cooperative Oncology Group (ECOG) Performance status; WBC: White Blood Cell; ULN: Upper limit of normal; AST: aspartate aminotransferase (i.e. SGOT: serum glutamic oxaloacetic transaminase); ALT: alanine aminotransferase (i.e. SGPT: serum glutamic-pyruvic transaminase); NYHA: New York Heart Association (NYHA) Functional Classification</p>
+                      </tfoot>
+                      <tbody>
+                         <row valign="top">
+                            <entry colname="c1" morerows="7">
+                               <p>
+                                  <b>Disease characteristics</b>                              
+                               </p>
+                            </entry>
+                            <entry colname="c2">
+                               <p>
+                                  <b>Histology</b>                              
+                               </p>
+                            </entry>
+                            <entry colname="c3">
+                               <p>Histologically confirmed prostate cancer: (Stage T1b-T1c AND PSA &#8805;10&#160;ng/mL) OR (Stage T1b-T1c AND Gleason score &#8805;7 OR Stage T2a-T3a)<sup>a</sup>
+                              </p>
+                            </entry>
+                            <entry colname="c4">
+                               <p>Histologically confirmed prostate adenocarcinoma<sup>a</sup>
+                              </p>
+                            </entry>
+                            <entry colname="c5">
+                               <p>Histologically confirmed prostate adenocarcinoma: pT2, pT3, or pT4, pN0 or pNx<sup>a</sup>
+                              </p>
+                            </entry>
+                            <entry colname="c6">
+                               <p>Histologically confirmed prostate adenocarcinoma: pT3a, pT3b (or pT4 by reaching the bladder neck), or R1 disease, OR pN0 or pNx<sup>a</sup>
+                              </p>
+                            </entry>
+                         </row>
+                         <row valign="top">
+                            <entry colname="c2">
+                               <p>
+                                  <b>Disease&#8217;s prior treatment</b>                              
+                               </p>
+                            </entry>
+                            <entry colname="c3">
+                               <p>Not specified</p>
+                            </entry>
+                            <entry colname="c4">
+                               <p>Not specified</p>
+                            </entry>
+                            <entry colname="c5">
+                               <p>Treated with surgery only<sup>a</sup>
+                              </p>
+                            </entry>
+                            <entry colname="c6">
+                               <p>Treated by curative surgery in the past 6&#160;months<sup>a</sup>
+                              </p>
+                            </entry>
+                         </row>
+                         <row valign="top">
+                            <entry colname="c2"/>
+                            <entry colname="c3"/>
+                            <entry colname="c4"/>
+                            <entry colname="c5"/>
+                            <entry colname="c6">
+                               <p>Positive margins (tumoral glands in contact with contour ink)</p>
+                            </entry>
+                         </row>
+                         <row valign="top">
+                            <entry colname="c2">
+                               <p>
+                                  <b>Metastasis</b>                              
+                               </p>
+                            </entry>
+                            <entry colname="c3">
+                               <p>No metastatic disease (M0) confirmed by thoracic radiography and bone scan<sup>a</sup>
+                              </p>
+                            </entry>
+                            <entry colname="c4">
+                               <p>Metastatic disease<sup>a</sup>
+                              </p>
+                            </entry>
+                            <entry colname="c5">
+                               <p>Not specified</p>
+                            </entry>
+                            <entry colname="c6">
+                               <p>Not specified</p>
+                            </entry>
+                         </row>
+                         <row valign="top">
+                            <entry colname="c2">
+                               <p>
+                                  <b>Disease&#8217;s exclusion criteria</b>                              
+                               </p>
+                            </entry>
+                            <entry colname="c3">
+                               <p>History of invasive cancer<sup>a</sup>
+                              </p>
+                            </entry>
+                            <entry colname="c4">
+                               <p>Brain metastases<sup>a</sup>
+                              </p>
+                            </entry>
+                            <entry colname="c5">
+                               <p>Clinical signs of progressive disease</p>
+                            </entry>
+                            <entry colname="c6">
+                               <p>pN1 disease, pT2 disease,</p>
+                            </entry>
+                         </row>
+                         <row valign="top">
+                            <entry colname="c2"/>
+                            <entry colname="c3">
+                               <p>Lymph node invasion (N0 or N-)<sup>a</sup>
+                              </p>
+                            </entry>
+                            <entry colname="c4"/>
+                            <entry colname="c5"/>
+                            <entry colname="c6">
+                               <p>Other histology than adenocarcinoma<sup>a</sup>
+                              </p>
+                            </entry>
+                         </row>
+                         <row valign="top">
+                            <entry colname="c2">
+                               <p>
+                                  <b>PSA/GLEASON score</b>                              
+                               </p>
+                            </entry>
+                            <entry colname="c3">
+                               <p>PSA &lt;30&#160;ng/mL</p>
+                            </entry>
+                            <entry colname="c4">
+                               <p>Not specified</p>
+                            </entry>
+                            <entry colname="c5">
+                               <p>PSA &#8804;0.1&#160;ng/mL after prostatectomy<sup>a</sup>
+                              </p>
+                            </entry>
+                            <entry colname="c6">
+                               <p>PSA &#8804;0.1&#160;ng/mL after prostatectomy<sup>a</sup>
+                              </p>
+                            </entry>
+                         </row>
+                         <row valign="top">
+                            <entry colname="c2"/>
+                            <entry colname="c3"/>
+                            <entry colname="c4"/>
+                            <entry colname="c5">
+                               <p>PSA &#8805;0.2&#160;ng/mL and &lt;2&#160;ng/mL at study entry</p>
+                            </entry>
+                            <entry colname="c6">
+                               <p>Gleason score &lt;8<sup>a</sup>
+                              </p>
+                            </entry>
+                         </row>
+                         <row valign="top">
+                            <entry colname="c1" morerows="16">
+                               <p>
+                                  <b>Patient characteristics</b>                              
+                               </p>
+                            </entry>
+                            <entry colname="c2">
+                               <p>
+                                  <b>Age</b>                              
+                               </p>
+                            </entry>
+                            <entry colname="c3">
+                               <p>Under 75<sup>a</sup>
+                              </p>
+                            </entry>
+                            <entry colname="c4">
+                               <p>18 and over<sup>a</sup>
+                              </p>
+                            </entry>
+                            <entry colname="c5">
+                               <p>18 and over<sup>a</sup>
+                              </p>
+                            </entry>
+                            <entry colname="c6">
+                               <p>18 and over<sup>a</sup>
+                              </p>
+                            </entry>
+                         </row>
+                         <row valign="top">
+                            <entry colname="c2">
+                               <p>
+                                  <b>Performance status</b>                              
+                               </p>
+                            </entry>
+                            <entry colname="c3">
+                               <p>ECOG 0-1<sup>a</sup>
+                              </p>
+                            </entry>
+                            <entry colname="c4">
+                               <p>ECOG 0-2<sup>a</sup>
+                              </p>
+                            </entry>
+                            <entry colname="c5">
+                               <p>ECOG 0-1<sup>a</sup>
+                              </p>
+                            </entry>
+                            <entry colname="c6">
+                               <p>ECOG 0-1<sup>a</sup>
+                              </p>
+                            </entry>
+                         </row>
+                         <row valign="top">
+                            <entry colname="c2">
+                               <p>
+                                  <b>Life expectancy</b>                              
+                               </p>
+                            </entry>
+                            <entry colname="c3">
+                               <p>At least 10&#160;years<sup>a</sup>
+                              </p>
+                            </entry>
+                            <entry colname="c4">
+                               <p>At least 3&#160;months<sup>a</sup>
+                              </p>
+                            </entry>
+                            <entry colname="c5">
+                               <p>&#8805;10&#160;years<sup>a</sup>
+                              </p>
+                            </entry>
+                            <entry colname="c6">
+                               <p>&#8805;10&#160;years<sup>a</sup>
+                              </p>
+                            </entry>
+                         </row>
+                         <row valign="top">
+                            <entry colname="c2">
+                               <p>
+                                  <b>Hematopoietic</b>                              
+                               </p>
+                            </entry>
+                            <entry colname="c3">
+                               <p>Not specified</p>
+                            </entry>
+                            <entry colname="c4">
+                               <p>WBC &#8805;2,000/mm<sup>3</sup>
+                              </p>
+                            </entry>
+                            <entry colname="c5">
+                               <p>Not specified</p>
+                            </entry>
+                            <entry colname="c6">
+                               <p>Not specified</p>
+                            </entry>
+                         </row>
+                         <row valign="top">
+                            <entry colname="c2"/>
+                            <entry colname="c3"/>
+                            <entry colname="c4">
+                               <p>Absolute neutrophil count &#8805;1,000/mm<sup>3</sup>
+                              </p>
+                            </entry>
+                            <entry colname="c5"/>
+                            <entry colname="c6"/>
+                         </row>
+                         <row valign="top">
+                            <entry colname="c2"/>
+                            <entry colname="c3"/>
+                            <entry colname="c4">
+                               <p>Platelet count &#8805;100,000/mm<sup>3</sup>
+                              </p>
+                            </entry>
+                            <entry colname="c5"/>
+                            <entry colname="c6"/>
+                         </row>
+                         <row valign="top">
+                            <entry colname="c2">
+                               <p>
+                                  <b>Hepatic</b>                              
+                               </p>
+                            </entry>
+                            <entry colname="c3">
+                               <p>Not specified</p>
+                            </entry>
+                            <entry colname="c4">
+                               <p>Bilirubin &#8804;1.5&#8201;&#215;&#8201;upper limit of normal (ULN) AND AST, ALT &#8804;1.5&#8201;&#215;&#8201;ULN</p>
+                            </entry>
+                            <entry colname="c5">
+                               <p>Not specified</p>
+                            </entry>
+                            <entry colname="c6">
+                               <p>Not specified</p>
+                            </entry>
+                         </row>
+                         <row valign="top">
+                            <entry colname="c2">
+                               <p>
+                                  <b>Renal</b>                              
+                               </p>
+                            </entry>
+                            <entry colname="c3">
+                               <p>Not specified</p>
+                            </entry>
+                            <entry colname="c4">
+                               <p>Creatinine &#8804;150&#160;&#956;mol/L</p>
+                            </entry>
+                            <entry colname="c5">
+                               <p>Not specified</p>
+                            </entry>
+                            <entry colname="c6">
+                               <p>Not specified</p>
+                            </entry>
+                         </row>
+                         <row valign="top">
+                            <entry colname="c2">
+                               <p>
+                                  <b>Cardiovascular</b>                              
+                               </p>
+                            </entry>
+                            <entry colname="c3">
+                               <p>Not specified</p>
+                            </entry>
+                            <entry colname="c4">
+                               <p>No symptomatic coronary disease<sup>a</sup>
+                              </p>
+                            </entry>
+                            <entry colname="c5">
+                               <p>No uncontrolled hypertension</p>
+                            </entry>
+                            <entry colname="c6">
+                               <p>No uncontrolled hypertension</p>
+                            </entry>
+                         </row>
+                         <row valign="top">
+                            <entry colname="c2"/>
+                            <entry colname="c3"/>
+                            <entry colname="c4">
+                               <p>No congenital cardiac insufficiency<sup>a</sup>
+                              </p>
+                            </entry>
+                            <entry colname="c5">
+                               <p>(systolic &#8805;160, diastolic &#8805;90&#160;mm Hg)</p>
+                            </entry>
+                            <entry colname="c6">
+                               <p>(systolic &#8805;160, diastolic &#8805;90&#160;mm Hg)</p>
+                            </entry>
+                         </row>
+                         <row valign="top">
+                            <entry colname="c2"/>
+                            <entry colname="c3"/>
+                            <entry colname="c4">
+                               <p>NYHA class&#8201;&lt;&#8201;III or IV<sup>a</sup>
+                              </p>
+                            </entry>
+                            <entry colname="c5"/>
+                            <entry colname="c6"/>
+                         </row>
+                         <row valign="top">
+                            <entry colname="c2">
+                               <p>
+                                  <b>Other diseases</b>                              
+                               </p>
+                            </entry>
+                            <entry colname="c3">
+                               <p>Not specified</p>
+                            </entry>
+                            <entry colname="c4">
+                               <p>No other malignancy (in the past 5&#160;years)<sup>a</sup>
+                              </p>
+                            </entry>
+                            <entry colname="c5">
+                               <p>No other malignancy (in the past 5&#160;years)<sup>a</sup>
+                              </p>
+                            </entry>
+                            <entry colname="c6">
+                               <p>No other malignancy (in the past 5&#160;years)</p>
+                            </entry>
+                         </row>
+                         <row valign="top">
+                            <entry colname="c2"/>
+                            <entry colname="c3"/>
+                            <entry colname="c4">
+                               <p>No active infection<sup>a</sup>
+                              </p>
+                            </entry>
+                            <entry colname="c5">
+                               <p>No known pituitary gland adenoma<sup>a</sup>
+                              </p>
+                            </entry>
+                            <entry colname="c6">
+                               <p>No known hypersensitivity to gonadotropin-releasing hormone<sup>a</sup>
+                              </p>
+                            </entry>
+                         </row>
+                         <row valign="top">
+                            <entry colname="c2"/>
+                            <entry colname="c3"/>
+                            <entry colname="c4">
+                               <p>No severe peripheral neuropathy<sup>a</sup>
+                              </p>
+                            </entry>
+                            <entry colname="c5"/>
+                            <entry colname="c6">
+                               <p>No contraindication of intramuscular injection<sup>a</sup>
+                              </p>
+                            </entry>
+                         </row>
+                         <row valign="top">
+                            <entry colname="c2">
+                               <p>
+                                  <b>Other</b>                              
+                               </p>
+                            </entry>
+                            <entry colname="c3">
+                               <p>Not specified</p>
+                            </entry>
+                            <entry colname="c4">
+                               <p>No compliance and follow-up difficulties due to familial, social, geographical, or psychological situation<sup>a</sup>
+                              </p>
+                            </entry>
+                            <entry colname="c5">
+                               <p>No compliance and follow-up difficulties due to familial, social, geographical, or psychological situation<sup>a</sup>
+                              </p>
+                            </entry>
+                            <entry colname="c6">
+                               <p>No compliance and follow-up difficulties due to familial, social, geographical, or psychological situation<sup>a</sup>
+                              </p>
+                            </entry>
+                         </row>
+                         <row valign="top">
+                            <entry colname="c2"/>
+                            <entry colname="c3"/>
+                            <entry colname="c4"/>
+                            <entry colname="c5">
+                               <p>Affiliated with social security program<sup>a</sup>
+                              </p>
+                            </entry>
+                            <entry colname="c6">
+                               <p>Affiliated with social security program<sup>a</sup>
+                              </p>
+                            </entry>
+                         </row>
+                         <row valign="top">
+                            <entry colname="c2"/>
+                            <entry colname="c3"/>
+                            <entry colname="c4"/>
+                            <entry colname="c5"/>
+                            <entry colname="c6">
+                               <p>No patients who are deprived of liberty or under guardianship<sup>a</sup>
+                              </p>
+                            </entry>
+                         </row>
+                         <row valign="top">
+                            <entry colname="c1" morerows="6">
+                               <p>
+                                  <b>Prior concurrent therapy</b>                              
+                               </p>
+                            </entry>
+                            <entry colname="c2">
+                               <p>
+                                  <b>Chemotherapy</b>                              
+                               </p>
+                            </entry>
+                            <entry colname="c3">
+                               <p>Not specified</p>
+                            </entry>
+                            <entry colname="c4">
+                               <p>No prior chemotherapy for metastatic prostate cancer (within the past year)<sup>a</sup>
+                              </p>
+                            </entry>
+                            <entry colname="c5">
+                               <p>Not specified</p>
+                            </entry>
+                            <entry colname="c6">
+                               <p>Not specified</p>
+                            </entry>
+                         </row>
+                         <row valign="top">
+                            <entry colname="c2">
+                               <p>
+                                  <b>Endocrine therapy</b>                              
+                               </p>
+                            </entry>
+                            <entry colname="c3">
+                               <p>No prior hormonal therapy<sup>a</sup>
+                              </p>
+                            </entry>
+                            <entry colname="c4">
+                               <p>Prior hormonal therapy within the past 2&#160;months allowed<sup>a</sup>
+                              </p>
+                            </entry>
+                            <entry colname="c5">
+                               <p>No prior hormonal therapy<sup>a</sup>
+                              </p>
+                            </entry>
+                            <entry colname="c6">
+                               <p>No prior hormonal therapy<sup>a</sup>
+                              </p>
+                            </entry>
+                         </row>
+                         <row valign="top">
+                            <entry colname="c2">
+                               <p>
+                                  <b>Radiotherapy</b>                              
+                               </p>
+                            </entry>
+                            <entry colname="c3">
+                               <p>No prior pelvic radiotherapy<sup>a</sup>
+                              </p>
+                            </entry>
+                            <entry colname="c4">
+                               <p>No prior radiotherapy to metastatic sites (within the 4 last weeks) <sup>a</sup>
+                              </p>
+                            </entry>
+                            <entry colname="c5">
+                               <p>No prior pelvic radiotherapy<sup>a</sup>
+                              </p>
+                            </entry>
+                            <entry colname="c6">
+                               <p>No prior radiotherapy within 3&#160;months after radical prostatectomy<sup>a</sup>
+                              </p>
+                            </entry>
+                         </row>
+                         <row valign="top">
+                            <entry colname="c2"/>
+                            <entry colname="c3"/>
+                            <entry colname="c4"/>
+                            <entry colname="c5"/>
+                            <entry colname="c6">
+                               <p>No prior pelvic radiotherapy<sup>a</sup>
+                              </p>
+                            </entry>
+                         </row>
+                         <row valign="top">
+                            <entry colname="c2">
+                               <p>
+                                  <b>Surgery</b>                              
+                               </p>
+                            </entry>
+                            <entry colname="c3">
+                               <p>No prior radical prostatectomy<sup>a</sup>
+                              </p>
+                            </entry>
+                            <entry colname="c4">
+                               <p>No prior surgical castration<sup>a</sup>
+                              </p>
+                            </entry>
+                            <entry colname="c5">
+                               <p>No prior surgical or chemical castration<sup>a</sup>
+                              </p>
+                            </entry>
+                            <entry colname="c6">
+                               <p>No prior surgical or chemical castration<sup>a</sup>
+                              </p>
+                            </entry>
+                         </row>
+                         <row valign="top">
+                            <entry colname="c2"/>
+                            <entry colname="c3">
+                               <p>No prior castration</p>
+                            </entry>
+                            <entry colname="c4"/>
+                            <entry colname="c5">
+                               <p>At least 6&#160;months since surgery for biological recurrence<sup>a</sup>
+                              </p>
+                            </entry>
+                            <entry colname="c6"/>
+                         </row>
+                         <row valign="top">
+                            <entry colname="c2">
+                               <p>
+                                  <b>Other</b>                              
+                               </p>
+                            </entry>
+                            <entry colname="c3">
+                               <p>Not specified</p>
+                            </entry>
+                            <entry colname="c4">
+                               <p>No concurrent investigational drugs<sup>a</sup>
+                              </p>
+                            </entry>
+                            <entry colname="c5">
+                               <p>No concurrent anticancer therapy<sup>a</sup>
+                              </p>
+                            </entry>
+                            <entry colname="c6">
+                               <p>No concurrent participation in another study<sup>a</sup>
+                              </p>
+                            </entry>
+                         </row>
+                      </tbody>
+                   </tgroup>
+                </table>
+             
+          </sec>
+          <sec>
+             <st>
+                <p>Data collection</p>
+             </st>
+             <p>The data used in our study consisted of the information contained in the MDC reports, and of the corresponding therapeutic decisions taken during the MDMs. The MDC reports included general characteristics of patients, medical history, and data related to prostate cancer, such as the Gleason score, tumor staging (clinical and pathological TNM classification), and the prostate-specific antigen (PSA) level. According to each case, the MDC team&#8217;s decisions were either to propose a standard therapy to the patient, or to participate in a clinical trial (in this case, the MDC team had estimated that pre-screening criteria seemed to be verified). MDC reports and MDM decisions were retrospectively and exhaustively collected. The data extraction (Figures&#160;<figr fid="F1">1</figr> and <figr fid="F2">2</figr>) corresponded to a period of six months while patient recruitment for the four prostate cancer RCTs was occurring.
+                  </p>
+             
+                <fig id="F2">
+                   <title>
+                      <p>Figure 2</p>
+                   </title>
+                   <caption>
+                      <p>Evaluation design of the multidisciplinary cancer (MDC) team&#8217;s pre-screening decisions. </p>
+                   </caption>
+                   <text>
+                      <p>
+                            <b>Evaluation design of the multidisciplinary cancer (MDC) team&#8217;s pre-screening decisions.</b> Step one: extraction of the MDC reports from the oncologic electronic health records (her); step two: Extraction of the MDC team&#8217;s pre-screening decisions from the oncologic EHR; Step 3: systematic review of the MDC reports by the clinical research assistant (CRA); step four: comparison of the pre-screening decisions made by the CRA and the MDC team; step five: principal investigator&#8217;s review of the MDC reports corresponding to the discrepancies between the CRA&#8217;s decisions and the MDC team&#8217;s decisions; step six: final pre-screening decisions (gold standard) including the principal investigator&#8217;s decisions.</p>
+                   </text>
+                   <graphic file="s13063-014-0535-7-2"/>
+                </fig>
+             
+             <p>Data were completed with the number of medical records and the number of prostate cancer records discussed at each MDC meeting, as well as the number of physicians who participated in the MDMs.</p>
+          </sec>
+          <sec>
+             <st>
+                <p>Ethical statement</p>
+             </st>
+             <p>The local ethics committee, &#8216;Comit&#233; d&#8217;&#233;thique du CHU de Rennes&#8217;, approved the present study (registration identifier: 13&#8211;26). All four trials cited in this study obtained ethical approval by a research ethics committee with the following approval numbers for GETUG 14: 2003/015 (CPPRB Haute Normandie), for GETUG 15: 04/08 (CPPRB Marseille 1), GETUG 16: 06/025 (CPPRB Lyon), GETUG 17: 2007/53 (CPP Sud-Ouest et Outre Mer III).</p>
+          </sec>
+          <sec>
+             <st>
+                <p>Evaluation and statistical analysis</p>
+             </st>
+             <p>The evaluation protocol consisted in collecting and comparing three types of decision (MDC, clinical research assistant (CRA), and principal investigator (PI)). The MDC team&#8217;s decision was the initial tumor board&#8217;s decision made directly during the MDM.</p>
+             <p>The CRA&#8217;s decision (Figure&#160;<figr fid="F2">2</figr>, step three) was obtained by asking a CRA experienced in recruitment to clinical trials to systematically review all the MDC reports (while ensuring to hide the MDC team&#8217;s decision). Thus, the CRA only had access to information explicitly contained in the MDC reports; the CRA did not have any knowledge or information about the patients other than MDC reports and was unaware of MDC decisions. The MDC decisions and CRA&#8217;s decisions were compared (Figure&#160;<figr fid="F2">2</figr>, step four). A PI reviewed the MDC reports corresponding to the discrepancies between the CRA&#8217;s decisions and MDM decisions (Figure&#160;<figr fid="F2">2</figr>, steps five and six). In our study, we considered the PI&#8217;s decision (Figure&#160;<figr fid="F2">2</figr>, step six) as being the best gold standard as the PI is the person the most involved in clinical trial recruitment.</p>
+             <p>Results were described using means associated with standard deviations (<it>m&#8201;&#177;&#8201;&#949;</it>), and absolute and relative frequencies (n (%)). The MDC, CRA, and PI pre-screening decisions were described especially by the MDC, CRA and PI pre-screening rate, and compared using the McNemar&#8217;s chi-square test. Factors that could influence the MDC team&#8217;s pre-screening decisions (the characteristics of the MDMs and the content of the MDC reports) were tested using the Pearson&#8217;s correlation test and the Mann&#8211;Whitney U test.</p>
+             <p>A descriptive analysis of the discrepancies between the MDC, CRA, and PI proposals was also performed. Statistical analysis was performed using R software, R Foundation for Statistical Computing, Vienna, Austria <abbrgrp>
+                   <abbr bid="B9">9</abbr>
+                </abbrgrp>. Two-tailed <it>P</it> values were reported with <it>P</it> &lt;0.05 considered to be statistically significant.</p>
+          </sec>
+       </sec>
+       <sec>
+          <st>
+             <p>Results</p>
+          </st>
+          <sec>
+             <st>
+                <p>Description of the multidisciplinary cancer meetings and the multidisciplinary cancer reports</p>
+             </st>
+             <p>During the study period, 23 urologic MDMs were held at the Comprehensive Cancer Center of Rennes, and 466 MDC reports were analyzed. Among them, 286 MDC reports concerned patients with prostate cancer, all of which were evaluated in the present study.</p>
+             <p>On average, 7&#8201;&#177;&#8201;1.7 physicians, including 3&#8201;&#177;&#8201;0.9 oncologists, attended each MDM. The PI of GETUG 14 was present at 12 of the 23 MDMs held during the study period, the PI of GETUG 15 at 15 of the 23 MDMs, the PI of GETUG 16 at 12 of the 23 MDMs, and the PI of GETUG 17 at 13 of the 23 MDMs.</p>
+             <p>On average, during an MDM, 20&#8201;&#177;&#8201;6.2 reports were discussed with 12&#8201;&#177;&#8201;4.6 of those being related to patients with prostate cancer. Clinical and pathological TNM stages were found in 67 (23.4%) and 94 (32.9%) of the 286 MDC reports, respectively concerning patients with prostate cancer. However, 261 (91.3%) and 252 (88.1%) of the 286 MDC reports included the Gleason score and the PSA level, respectively.</p>
+          </sec>
+          <sec>
+             <st>
+                <p>Factors influencing the MDC team&#8217;s pre-screening decisions in GETUG 14, 15, 16 and 17</p>
+             </st>
+             <p>A total of 26 patients were proposed for screening by the physicians who participated in the MDMs; 17 for screening in GETUG 14, seven for screening in GETUG 16 and two for screening in GETUG 17. No patient was proposed for screening in GETUG 15.</p>
+             <p>Among factors that may have influenced pre-screening during the MDMs (the MDC team&#8217;s decisions), a statistically significant and negative correlation was found between the number of MDC reports concerning patients with prostate cancer and the pre-screening rate of each MDM (Pearson correlation coefficient (r)&#8201;=&#8201;&#8722;0.42, <it>P</it>&#8201;=&#8201;0.046). There was also a reverse correlation between the overall number of MDC reports discussed in MDMs and the pre-screening rates of the MDMs, but this negative correlation was not found to be significant (r&#8201;=&#8201;&#8722;0.37, <it>P</it>&#8201;=&#8201;0.082). The number of physicians and the number of oncologists attending the MDMs did not significantly influence the pre-screening rates (<it>P</it>&#8201;=&#8201;0.521 and <it>P</it>&#8201;=&#8201;0.964, respectively). Neither did the presence of the PI, whatever the RCT (GETUG 14: <it>P</it>&#8201;=&#8201;0.095, GETUG 15: no initial pre-screening proposal, GETUG 16: <it>P</it>&#8201;=&#8201;0.550, GETUG 17: <it>P</it>&#8201;=&#8201;0.950).</p>
+             <p>Absence of (clinical and pathological) TNM staging, the Gleason Score, or the PSA level in the MDC reports did not hinder MDM attenders to make pre-screening decisions, and did not significantly influence the pre-screening rate of the MDC team (data not shown).</p>
+          </sec>
+          <sec>
+             <st>
+                <p>Pre-screening rates based on the multidisciplinary cancer team&#8217;s, clinical research assistants, and PI&#8217;s decisions</p>
+             </st>
+             <p>In total, 146 cumulative MDC report selections were recorded, concerning 86 different patients eligible for at least one RCT. GETUG 14 was the RCT with the most selections during the pre-screening period, with 106 (72.6%) proposals concerning 60 (69.8%) different patients. Pre-screening rates related to each RCT, according to the MDC team&#8217;s, CRA&#8217;s, and PI&#8217;s decisions, are reported in Table&#160;<tblr tid="T2">2</tblr>. The overall pre-screening rates were estimated at 9.1% (26 patients) based on the MDC decisions, 29.0% (83 patients) based on the CRA&#8217;s decisions, and 12.9% (37 patients) based on the PI&#8217;s decisions.
+                  </p>
+             
+                <table id="T2">
+                   <title>
+                      <p>Table 2</p>
+                   </title>
+                   <caption>
+                      <p>
+                            <b>Results of pre-screening of patients eligible for the clinical trials GETUG 14, GETUG 15, GETUG 16, and GETUG 17</b>                          
+                      </p>
+                   </caption>
+                   <tgroup align="left" cols="6">
+                      <colspec align="left" colname="c1" colnum="1" colwidth="*"/>
+                      <colspec align="left" colname="c2" colnum="2" colwidth="*"/>
+                      <colspec align="left" colname="c3" colnum="3" colwidth="*"/>
+                      <colspec align="left" colname="c4" colnum="4" colwidth="*"/>
+                      <colspec align="left" colname="c5" colnum="5" colwidth="*"/>
+                      <colspec align="left" colname="c6" colnum="6" colwidth="*"/>
+                      <thead>
+                         <row valign="top">
+                            <entry colname="c1"/>
+                            <entry colname="c2">
+                               <p>
+                                  <b>GETUG 14</b>                              
+                               </p>
+                            </entry>
+                            <entry colname="c3">
+                               <p>
+                                  <b>GETUG 15</b>                              
+                               </p>
+                            </entry>
+                            <entry colname="c4">
+                               <p>
+                                  <b>GETUG 16</b>                              
+                               </p>
+                            </entry>
+                            <entry colname="c5">
+                               <p>
+                                  <b>GETUG 17</b>                              
+                               </p>
+                            </entry>
+                            <entry colname="c6">
+                               <p>
+                                  <b>Total*</b>                              
+                               </p>
+                            </entry>
+                         </row>
+                      </thead>
+                      <tfoot>
+                         <p>*McNemar&#8217;s chi-squared test: (1) versus (2) <it>P</it> &lt;10<sup>&#8722;3</sup>; (1) versus (3) <it>P</it>&#8201;=&#8201;0.022; (2) versus (3) <it>P</it> &lt;10<sup>&#8722;3</sup>.</p>
+                         <p>(1) Decisions of the physicians during the multidisciplinary cancer (MDC) meetings; (2) Decisions of a clinical research assistant (CRA) after the systematic review of the MDC reports; (3) Final decisions after the principal investigator (PI) corrected the discrepancies between the MDC team&#8217;s and the CRA&#8217;s decisions.</p>
+                      </tfoot>
+                      <tbody>
+                         <row valign="top">
+                            <entry colname="c1">
+                               <p>MDC team&#8217;s decisions (1)</p>
+                            </entry>
+                            <entry colname="c2">
+                               <p>17 (5.9%)</p>
+                            </entry>
+                            <entry colname="c3">
+                               <p>0</p>
+                            </entry>
+                            <entry colname="c4">
+                               <p>7 (2.4%)</p>
+                            </entry>
+                            <entry colname="c5">
+                               <p>2 (0.7%)</p>
+                            </entry>
+                            <entry colname="c6">
+                               <p>26 (9.1%)</p>
+                            </entry>
+                         </row>
+                         <row valign="top">
+                            <entry colname="c1">
+                               <p>CRA&#8217;s decisions (2)</p>
+                            </entry>
+                            <entry colname="c2">
+                               <p>59 (20.6%)</p>
+                            </entry>
+                            <entry colname="c3">
+                               <p>8 (2.8%)</p>
+                            </entry>
+                            <entry colname="c4">
+                               <p>13 (4.5%)</p>
+                            </entry>
+                            <entry colname="c5">
+                               <p>3 (1.0%)</p>
+                            </entry>
+                            <entry colname="c6">
+                               <p>83 (29.0%)</p>
+                            </entry>
+                         </row>
+                         <row valign="top">
+                            <entry colname="c1">
+                               <p>PI&#8217;s decisions (3)</p>
+                            </entry>
+                            <entry colname="c2">
+                               <p>30 (10.5%)</p>
+                            </entry>
+                            <entry colname="c3">
+                               <p>0</p>
+                            </entry>
+                            <entry colname="c4">
+                               <p>6 (2.1%)</p>
+                            </entry>
+                            <entry colname="c5">
+                               <p>1 (0.3%)</p>
+                            </entry>
+                            <entry colname="c6">
+                               <p>37 (12.9%)</p>
+                            </entry>
+                         </row>
+                      </tbody>
+                   </tgroup>
+                </table>
+             
+             <p>A total of 22 patients were found eligible for screening in an RCT based on at least two pre-screening methods; most pre-selections were for the same RCTs. Only one discrepancy was observed between decisions made at the MDM and the CRA (GETUG 17 versus GETUG 16, respectively), but the PI retained neither.</p>
+             <p>Discrepancies mainly concerned patients initially excluded during the MDC meetings (59 patients were proposed by the CRA and 14 were finally validated by the PI). Regarding patients initially proposed for an RCT during the MDC meetings, two patients were secondarily excluded by the CRA and, finally, the PI definitively excluded four patients. There was no patient who was not proposed by the CRA but was proposed either during an MDM or by the PI. Nevertheless, the PI proposed one patient who was not proposed either by the CRA or at the MDC meetings. Figure&#160;<figr fid="F3">3</figr> summarizes these results in a Venn diagram.
+                  </p>
+             
+                <fig id="F3">
+                   <title>
+                      <p>Figure 3</p>
+                   </title>
+                   <caption>
+                      <p>Venn diagram of the pre-screening of patients eligible for four randomized clinical trials carried out at the Comprehensive Cancer Center in Rennes (GETUG 14, 15, 16, and 17). </p>
+                   </caption>
+                   <text>
+                      <p>
+                            <b>Venn diagram of the pre-screening of patients eligible for four randomized clinical trials carried out at the Comprehensive Cancer Center in Rennes (GETUG 14, 15, 16, and 17).</b> Pre-screening was based on the physicians&#8217; decisions during the multidisciplinary cancer meetings (MDC team&#8217;s decisions), the decisions of the clinical research assistant (CRA&#8217;s decisions), and the principal investigator (PI&#8217;s decisions) after a systematic review of the MDC reports.</p>
+                   </text>
+                   <graphic file="s13063-014-0535-7-3"/>
+                </fig>
+             
+             <p>The four MDC team&#8217;s pre-selections excluded by the PI were due to mistakes on the evaluation of some exclusion criteria during the MDMs (too high a PSA rate or the presence of a positive margin after surgery). Among the CRA's 47 pre-selections that were not retained by the PI, 35 were due to implicit information known only by the clinicians and not explicitly available in the MDC reports. For example, the PI excluded 18 CRA proposals because the patients had a Gleason score of less than seven, but such a criterion was not described in the exclusion or inclusion criteria of the RCTs. In the same way, six patients could have been eligible for an RCT but the MDC teams judged another type of care more effective. Further, nine patients were excluded because they had some specific characteristics (vital status, combination of comorbidities, and wishes) not compatible with enrollment in the RCTs according to the MDC teams.</p>
+          </sec>
+       </sec>
+       <sec>
+          <st>
+             <p>Discussion</p>
+          </st>
+          <p>In this study, the pre-screening rate with MDC team&#8217;s decisions made during the MDMs was estimated to be at 9.1%. It is higher than rates previously reported in other studies (around 5% for oncology RCTs) <abbrgrp>
+                <abbr bid="B4">4</abbr>
+             </abbrgrp>. Nevertheless, the best pre-screening rate was estimated to be 12.9% (based on the PI&#8217;s decisions). This confirms that patient pre-screening in clinical cancer research could be improved by a systematic review of the MDC reports after MDMs.</p>
+          <p>It has been shown that individual barriers, such as the time and effort required for patient recruitment for the physicians, are factors that decrease enrollment in RCTs <abbrgrp>
+                <abbr bid="B6">6</abbr>
+             </abbrgrp>. The present study found that all patients proposed by the PIs were also proposed by the CRA&#8217;s systematic review, except one. In other words, the CRA&#8217;s review resulted in the justified rejection of more than 200 of the 286 initial MDC reports. Thus, we argue that the addition of a manual (or a computerized) systematic review at the first step of the screening process (the pre-screening phase) could lead to substantial gains in time and effort for the physicians&#8217; screening task afterwards.</p>
+          <p>Nevertheless, the results showed that the pre-screening decision should not be based only on the information available in the MDC reports, since some data are missing (such as TNM staging), or are not explicit. These issues illustrate why the pre-screening rate (29.0%) is so high when the CRA makes the decision alone; because their decision relies only on the content of the MDC reports. Missing data cannot be used to exclude the patients who are then selected as being eligible for RCTs. From the perspective of automating this decision-making process using a recruitment support system, we can foresee that such a system will overestimate the number of patients potentially eligible for RCTs, just as the CRA has done.</p>
+          <p>It is likely that the best approach for these systems is not intended to replace the physicians&#8217; decision, but to help physicians by reminding them that every patient is potentially eligible for an available clinical trial. The main objective will therefore be more to avoid missing out on patients who could be included than deciding which patients should be included.</p>
+          <p>Indeed, our result showed that clinical TNM staging and pathological TNM staging are missing in 68% and 76%, respectively, of the MDC reports proposed by pre-screening after correction by the PI (data not shown). From a decision-making perspective, missing and implicit data (only known by the physicians of the MDC teams) could be seen as problematic regarding patient selection, but our results showed that missing and implicit information usually led to the exclusion of patients. Thus, these results showed that missing and implicit data mainly caused an overestimation of patients eligible for RCTs, resulting in the decreased precision of the systematic (or automated) pre-screening, but this did not lead to the wrongful exclusion of eligible patients.</p>
+          <p>It could be argued that observations in the present study reflect local patterns of pre-screening practice and medical record design. Indeed, centers with routine systematic pathology reporting, in line with international standards, could certainly have a better registration rate of clinical and pathological TNM staging and thus increase the performance, and above all precision, of systematic (or automated) pre-screening.</p>
+          <p>This illustrates that the best pre-screening practices cannot be guaranteed without providing the essential information (such as TNM staging) at the time of pre-screening, but they are not limited due to the systematic (or automated) pre-screening methods themselves. The present study shows that despite the presence of numerous missing data concerning key elements for enrollment in RCTs in urologic oncology, the implementation of a manual (or a computerized) systematic review could optimize the pre-screening task by improving the pre-screening rate and by reducing the time and effort required for pre-screening by physicians.</p>
+          <p>We did not succeed in discovering which factors could really impact the pre-screening rate, except for the number of MDC reports discussed per session. The low number of patients who are actually eligible in the present study could be a limit to the interpretation of such a result, but it confirmed at least that the workload during the MDC meetings is a major factor that decreases pre-screening performance and enrollment in RCTs in oncology. Therefore, this is a strong argument for research as investigated in the automatic selection of clinical trials based on eligibility criteria (ASTEC) project <abbrgrp>
+                <abbr bid="B10">10</abbr>
+             </abbrgrp>, which aims to provide tools to physicians (oncologists) to make the recruitment of patients for RCTs easier and more automatic.</p>
+       </sec>
+       <sec>
+          <st>
+             <p>Conclusions</p>
+          </st>
+          <p>The study found that a systematic review of medical reports could increase the cumulative pre-screening rates of four RCTs recruiting patients at the Comprehensive Cancer Center in Rennes from 9 to 13%. Also, we argue that such an additional systematic review during the first step of the screening process could lead to substantial gains in time and effort for physicians in their task of recruiting patients for RCTs.</p>
+          <p>The study also showed that missing data in the MDC reports leads to a systematic review that over-includes non-eligible patients, but does not over-exclude eligible patients. Therefore, we confirm the potential gain in using the semi-automated selection of electronic MDC reports to avoid missing out on patients eligible for RCTs.</p>
+          <p>To conclude, optimizing the pre-screening process represents an interesting way to improve patient enrollment in clinical trials, which remains particularly low in oncology research. The use of computerized pre-screening support systems to perform a systematic review of eligible patients could help to reach such an objective.</p>
+       </sec>
+       <sec>
+          <st>
+             <p>Abbreviations</p>
+          </st>
+          <p>ASTEC: Automatic selection of clinical trials based on eligibility criteria</p>
+          <p>CPP/CPPRB: French research ethics committee</p>
+          <p>CRA: Clinical research assistant</p>
+          <p>EHR: Electronic health records</p>
+          <p>GETUG: French Genitourinary Tumor Group</p>
+          <p>MDC: Multidisciplinary cancer</p>
+          <p>MDM: Multidisciplinary cancer meeting</p>
+          <p>PI: Principal investigator</p>
+          <p>PSA: Prostate-specific antigen</p>
+          <p>RCT: Randomized controlled trial</p>
+          <p>TNM: Tumor, lymph node and metastasis classification of malignant tumors</p>
+       </sec>
+       <sec>
+          <st>
+             <p>Competing interests</p>
+          </st>
+          <p>The authors declare that they have no competing interests.</p>
+       </sec>
+       <sec>
+          <st>
+             <p>Authors&#8217; contributions</p>
+          </st>
+          <p>MC is responsible for the ASTEC project coordination. MC and BCG conceptualized and designed the study. CB and OZ contributed in the data collection and pre-screening evaluation. BL, ELP, and RDC were responsible for the validation of patient pre-screening. BCG performed the statistical analysis. BCG and MC drafted the manuscript. All authors provided critical review and final approval.</p>
+       </sec>
+    </bdy>
+    <bm>
+       <ack>
+          <sec>
+             <st>
+                <p>Acknowledgments</p>
+             </st>
+             <p>The French National Research Agency under the TecSan program 2008 funded the ASTEC project (ASTEC number: ANR-08-003). The authors would like to especially thank Delphine Rosille, Sahar Bayat, Marc Carpentier, and Regis Duvauferrier for their valuable comments.</p>
+          </sec>
+       </ack>
+       <refgrp>
+          
+          <bibl id="B1">
+             <title>
+                <p>Strategies for increasing recruitment to randomised controlled trials: systematic review</p>
+             </title>
+             <aug>
+                <au>
+                   <snm>Caldwell</snm>
+                   <fnm>PHY</fnm>
+                </au>
+                <au>
+                   <snm>Hamilton</snm>
+                   <fnm>S</fnm>
+                </au>
+                <au>
+                   <snm>Tan</snm>
+                   <fnm>A</fnm>
+                </au>
+                <au>
+                   <snm>Craig</snm>
+                   <fnm>JC</fnm>
+                </au>
+             </aug>
+             <source>PLoS Med</source>
+             <pubdate>2010</pubdate>
+             <volume>7</volume>
+             <fpage>e1000368</fpage>
+             <xrefbib>
+                <pubidlist>
+                   <pubid idtype="doi">10.1371/journal.pmed.1000368</pubid>
+                   <pubid idtype="pmpid" link="fulltext">21085696</pubid>
+                </pubidlist>
+             </xrefbib>
+          </bibl>
+          <bibl id="B2">
+             <title>
+                <p>National survival trends of young adults with sarcoma: lack of progress is associated with lack of clinical trial participation</p>
+             </title>
+             <aug>
+                <au>
+                   <snm>Bleyer</snm>
+                   <fnm>A</fnm>
+                </au>
+                <au>
+                   <snm>Montello</snm>
+                   <fnm>M</fnm>
+                </au>
+                <au>
+                   <snm>Budd</snm>
+                   <fnm>T</fnm>
+                </au>
+                <au>
+                   <snm>Saxman</snm>
+                   <fnm>S</fnm>
+                </au>
+             </aug>
+             <source>Cancer</source>
+             <pubdate>2005</pubdate>
+             <volume>103</volume>
+             <fpage>1891</fpage>
+             <lpage>1897</lpage>
+             <xrefbib>
+                <pubidlist>
+                   <pubid idtype="doi">10.1002/cncr.20995</pubid>
+                   <pubid idtype="pmpid" link="fulltext">15795902</pubid>
+                </pubidlist>
+             </xrefbib>
+          </bibl>
+          <bibl id="B3">
+             <title>
+                <p>Does enrollment in cancer trials improve survival?</p>
+             </title>
+             <aug>
+                <au>
+                   <snm>Chow</snm>
+                   <fnm>CJ</fnm>
+                </au>
+                <au>
+                   <snm>Habermann</snm>
+                   <fnm>EB</fnm>
+                </au>
+                <au>
+                   <snm>Abraham</snm>
+                   <fnm>A</fnm>
+                </au>
+                <au>
+                   <snm>Zhu</snm>
+                   <fnm>Y</fnm>
+                </au>
+                <au>
+                   <snm>Vickers</snm>
+                   <fnm>SM</fnm>
+                </au>
+                <au>
+                   <snm>Rothenberger</snm>
+                   <fnm>DA</fnm>
+                </au>
+                <au>
+                   <snm>Al-Refaie</snm>
+                   <fnm>WB</fnm>
+                </au>
+             </aug>
+             <source>J Am Coll Surg</source>
+             <pubdate>2013</pubdate>
+             <volume>216</volume>
+             <fpage>774</fpage>
+             <lpage>780</lpage>
+             <note>discussion 780&#8211;781</note>
+             <xrefbib>
+                <pubidlist>
+                   <pubid idtype="doi">10.1016/j.jamcollsurg.2012.12.036</pubid>
+                   <pubid idtype="pmpid" link="fulltext">23415510</pubid>
+                </pubidlist>
+             </xrefbib>
+          </bibl>
+          <bibl id="B4">
+             <title>
+                <p>Participation in cancer clinical trials: race-, sex-, and age-based disparities</p>
+             </title>
+             <aug>
+                <au>
+                   <snm>Murthy</snm>
+                   <fnm>VH</fnm>
+                </au>
+             </aug>
+             <source>JAMA</source>
+             <pubdate>2004</pubdate>
+             <volume>291</volume>
+             <fpage>2720</fpage>
+             <lpage>2726</lpage>
+             <xrefbib>
+                <pubidlist>
+                   <pubid idtype="doi">10.1001/jama.291.22.2720</pubid>
+                   <pubid idtype="pmpid" link="fulltext">15187053</pubid>
+                </pubidlist>
+             </xrefbib>
+          </bibl>
+          <bibl id="B5">
+             <title>
+                <p>France, an attractive country for international clinical research: 2010 survey assessed by Leem (French association of pharmaceutical companies)</p>
+             </title>
+             <aug>
+                <au>
+                   <snm>Lassale</snm>
+                   <fnm>C</fnm>
+                </au>
+                <au>
+                   <snm>Sibenaler</snm>
+                   <fnm>C</fnm>
+                </au>
+                <au>
+                   <snm>Behier</snm>
+                   <fnm>J-M</fnm>
+                </au>
+                <au>
+                   <snm>Pletan</snm>
+                   <fnm>Y</fnm>
+                </au>
+                <au>
+                   <snm>Courcier</snm>
+                   <fnm>S</fnm>
+                </au>
+             </aug>
+             <source>Therapie</source>
+             <pubdate>2011</pubdate>
+             <volume>66</volume>
+             <fpage>1</fpage>
+             <lpage>15</lpage>
+             <xrefbib>
+                <pubidlist>
+                   <pubid idtype="doi">10.2515/therapie/2011007</pubid>
+                   <pubid idtype="pmpid" link="fulltext">21466772</pubid>
+                </pubidlist>
+             </xrefbib>
+          </bibl>
+          <bibl id="B6">
+             <title>
+                <p>Obstacles to participation in randomised cancer clinical trials: a systematic review of the literature</p>
+             </title>
+             <aug>
+                <au>
+                   <snm>Grand</snm>
+                   <fnm>MM</fnm>
+                </au>
+                <au>
+                   <snm>O&#8217;Brien</snm>
+                   <fnm>PC</fnm>
+                </au>
+             </aug>
+             <source>J Med Imaging Radiat Oncol</source>
+             <pubdate>2012</pubdate>
+             <volume>56</volume>
+             <fpage>31</fpage>
+             <lpage>39</lpage>
+             <xrefbib>
+                <pubidlist>
+                   <pubid idtype="doi">10.1111/j.1754-9485.2011.02337.x</pubid>
+                   <pubid idtype="pmpid" link="fulltext">22339743</pubid>
+                </pubidlist>
+             </xrefbib>
+          </bibl>
+          <bibl id="B7">
+             <title>
+                <p>Barriers to participation in clinical trials of cancer: a meta-analysis and systematic review of patient-reported factors</p>
+             </title>
+             <aug>
+                <au>
+                   <snm>Mills</snm>
+                   <fnm>EJ</fnm>
+                </au>
+                <au>
+                   <snm>Seely</snm>
+                   <fnm>D</fnm>
+                </au>
+                <au>
+                   <snm>Rachlis</snm>
+                   <fnm>B</fnm>
+                </au>
+                <au>
+                   <snm>Griffith</snm>
+                   <fnm>L</fnm>
+                </au>
+                <au>
+                   <snm>Wu</snm>
+                   <fnm>P</fnm>
+                </au>
+                <au>
+                   <snm>Wilson</snm>
+                   <fnm>K</fnm>
+                </au>
+                <au>
+                   <snm>Ellis</snm>
+                   <fnm>P</fnm>
+                </au>
+                <au>
+                   <snm>Wright</snm>
+                   <fnm>JR</fnm>
+                </au>
+             </aug>
+             <source>Lancet Oncol</source>
+             <pubdate>2006</pubdate>
+             <volume>7</volume>
+             <fpage>141</fpage>
+             <lpage>148</lpage>
+             <xrefbib>
+                <pubidlist>
+                   <pubid idtype="doi">10.1016/S1470-2045(06)70576-9</pubid>
+                   <pubid idtype="pmpid" link="fulltext">16455478</pubid>
+                </pubidlist>
+             </xrefbib>
+          </bibl>
+          <bibl id="B8">
+             <title>
+                <p>The French clinical trials ongoing (GETUG and AFU) on urothelial carcinomas, kidney and prostate cancers</p>
+             </title>
+             <aug>
+                <au>
+                   <snm>Neuzillet</snm>
+                   <fnm>Y</fnm>
+                </au>
+                <au>
+                   <snm>N&#233;grier</snm>
+                   <fnm>S</fnm>
+                </au>
+                <au>
+                   <snm>Fizazi</snm>
+                   <fnm>K</fnm>
+                </au>
+                <au>
+                   <snm>Pignot</snm>
+                   <fnm>G</fnm>
+                </au>
+                <au>
+                   <snm>Benchikh El Fegoun</snm>
+                   <fnm>A</fnm>
+                </au>
+                <au>
+                   <snm>Guillotreau</snm>
+                   <fnm>J</fnm>
+                </au>
+                <au>
+                   <snm>Culine</snm>
+                   <fnm>S</fnm>
+                </au>
+             </aug>
+             <source>Prog En Urol J Assoc Fr Urol Soci&#233;t&#233; Fr Urol</source>
+             <pubdate>2010</pubdate>
+             <volume>20</volume>
+             <issue>Suppl 1</issue>
+             <fpage>S84</fpage>
+             <lpage>S89</lpage>
+             <xrefbib>
+                <pubidlist>
+                   <pubid idtype="doi">10.1016/S1166-7087(10)70035-X</pubid>
+                </pubidlist>
+             </xrefbib>
+          </bibl>
+          <bibl id="B9">
+             <insg>
+                <ins>
+                   <p>R Core Team</p>
+                </ins>
+             </insg>
+             <source>R: A language and environment for statistical computing</source>
+             <publisher>R Foundation for Statistical Computing, Vienna, Austria</publisher>
+             <pubdate>2014</pubdate>
+          </bibl>
+          <bibl id="B10">
+             <title>
+                <p>Using Semantic Web Technologies for Clinical Trial Recruitment</p>
+             </title>
+             <aug>
+                <au>
+                   <snm>Besana</snm>
+                   <fnm>P</fnm>
+                </au>
+                <au>
+                   <snm>Cuggia</snm>
+                   <fnm>M</fnm>
+                </au>
+                <au>
+                   <snm>Zekri</snm>
+                   <fnm>O</fnm>
+                </au>
+                <au>
+                   <snm>Bourde</snm>
+                   <fnm>A</fnm>
+                </au>
+                <au>
+                   <snm>Burgun</snm>
+                   <fnm>A</fnm>
+                </au>
+             </aug>
+             <source>Semantic Web-Iswc 2010, Pt Ii</source>
+             <publisher>Springer-Verlag Berlin, Berlin</publisher>
+             <editor>PatelSchneider PF, Pan Y, Hitzler P, Mika P, Zhang L, Pan JZ, Horrocks I, Glimm B</editor>
+             <pubdate>2010</pubdate>
+             <fpage>34</fpage>
+             <lpage>49</lpage>
+             <xrefbib>
+                <pubidlist>
+                   <pubid idtype="doi">10.1007/978-3-642-17749-1_3</pubid>
+                </pubidlist>
+             </xrefbib>
+          </bibl>
+       </refgrp>
+    </bm>
+ </art>

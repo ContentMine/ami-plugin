@@ -211,7 +211,13 @@ public class WordArgProcessor extends AMIArgProcessor {
 	}
 	
 	public void outputWords(ArgumentOption option) {
-		currentQuickscrapeNorma.createResultsDirectoryAndOutputResultsElement(option, resultsElementList, QuickscrapeNorma.RESULTS_XML);
+		List<File> outputDirectories = currentQuickscrapeNorma.createResultsDirectoriesAndOutputResultsElement(
+				option, resultsElementList, QuickscrapeNorma.RESULTS_XML);
+		for (int i = 0; i < outputDirectories.size(); i++) {
+			File outputDirectory = outputDirectories.get(i);
+			File htmlFile = new File(outputDirectory, QuickscrapeNorma.RESULTS_HTML);
+			writeResultsElementAsHTML(htmlFile, (WordResultsElement)resultsElementList.get(i));
+		}
 	}
 	
 	public void parseSummary(ArgumentOption option, ArgIterator argIterator) {
@@ -269,30 +275,37 @@ public class WordArgProcessor extends AMIArgProcessor {
 	}
 
 	private void writeResultsElementAsHTML(File outputFile, WordResultsElement wordResultsElement) {
-		IntArray countArray = wordResultsElement.getCountArray();
-		LOG.debug("CountArray: "+countArray);
-		IntRange countRange = countArray.getRange();
-		RealRange realCountRange = new RealRange(countRange);
-		RealRange fontRange = new RealRange(MIN_FONT, MAX_FONT);
-		double countToFont = realCountRange.getScaleTo(fontRange);
-		LOG.debug("countToFont "+countToFont);
-		RealArray fontSizeArray = new RealArray(countArray);
-		fontSizeArray = fontSizeArray.multiplyBy(countToFont);
-		fontSizeArray = fontSizeArray.addScalar(MIN_FONT);
-		IntArray fontSizeIntArray = fontSizeArray.createIntArray();
-		
-		Set<Integer> fontSizeSet = fontSizeIntArray.createIntegerSet();
-//		LOG.debug("FontSizes: "+fontSizeIntArray);
-//		LOG.debug("FontSet: "+fontSizeSet);
-		HtmlElement html = createHtmlElement(wordResultsElement, fontSizeIntArray, fontSizeSet);
-		try {
-			outputFile.getParentFile().mkdirs();
-			XMLUtil.debug(html, new FileOutputStream(outputFile), 1);
-		} catch (IOException e) {
-			throw new RuntimeException("Cannot write file "+outputFile, e);
+		IntArray fontSizeIntArray = createOrderedFontSizeArray(wordResultsElement);
+		if (fontSizeIntArray != null) {
+			Set<Integer> fontSizeSet = fontSizeIntArray.createIntegerSet();
+			HtmlElement html = createHtmlElement(wordResultsElement, fontSizeIntArray, fontSizeSet);
+			try {
+				outputFile.getParentFile().mkdirs();
+				XMLUtil.debug(html, new FileOutputStream(outputFile), 1);
+			} catch (IOException e) {
+				throw new RuntimeException("Cannot write file "+outputFile, e);
+			}
 		}
 
 		
+	}
+
+	private IntArray createOrderedFontSizeArray(WordResultsElement wordResultsElement) {
+		IntArray fontSizeIntArray = null;
+		IntArray countArray = wordResultsElement.getCountArray();
+		try {
+			IntRange countRange = countArray.getRange();
+			RealRange realCountRange = new RealRange(countRange);
+			RealRange fontRange = new RealRange(MIN_FONT, MAX_FONT);
+			double countToFont = realCountRange.getScaleTo(fontRange);
+			RealArray fontSizeArray = new RealArray(countArray);
+			fontSizeArray = fontSizeArray.multiplyBy(countToFont);
+			fontSizeArray = fontSizeArray.addScalar(MIN_FONT);
+			fontSizeIntArray = fontSizeArray.createIntArray();
+		} catch (ArrayIndexOutOfBoundsException e) {
+			// return null
+		}
+		return fontSizeIntArray;
 	}
 
 	private HtmlElement createHtmlElement(WordResultsElement wordResultsElement,
@@ -358,6 +371,7 @@ public class WordArgProcessor extends AMIArgProcessor {
 	}
 
 	private void addStopwords(String stopwordLocation) {
+		ensureStopwordSetList();
 		WordSetWrapper stopwordSet = WordSetWrapper.createStopwordSet(stopwordLocation);
 		if (stopwordSet != null) {
 			stopwordSetList.add(stopwordSet);
@@ -375,6 +389,7 @@ public class WordArgProcessor extends AMIArgProcessor {
 	}
 
 	public List<WordSetWrapper> getStopwordSetList() {
+		ensureStopwordSetList();
 		return stopwordSetList;
 	}
 

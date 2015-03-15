@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<results title="consort0">
+ <result pre="We will randomly " name0="assign[^\s]*" value0="assign" post="2,200 adult ambulatory patients in the p"/>
+ <result pre="ch patients are randomly " name0="assign[^\s]*" value0="assigned" post="to the ISTOP-ADE system or routine care "/>
+ <result pre=" will perform stratified " name0="[rr]andomi[zs]ation" value0="randomization" post="at the physician practice level with blo"/>
+ <result pre="ystem with the patient’s " name0="treatmentgroups?" value0="treatment group" post="but this information will not be availab"/>
+ <result pre="of whom we will randomly " name0="assign[^\s]*" value0="assign" post="to the intervention or control arms usin"/>
+ <result pre=" to which the patient is " name0="allocat[^\s]*" value0="allocated." post=""/>
+ <result pre="cations during the study " name0="follow-up" value0="follow-up" post="period using the RAMQ medication file. "/>
+ <result pre="o physicians (blinded to " name0="allocat[^\s]*" value0="allocation" post="group) will review each case summary and"/>
+ <result pre="the nature of the study, " name0="[bb]linding" value0="blinding" post="of patients and health-care providers wi"/>
+ <result pre="DE status of study group " name0="allocat[^\s]*" value0="allocation." post=""/>
+ <result pre="c. A 10% loss to " name0="follow-up" value0="follow-up" post="(based on our pilot study)"/>
+ <result pre="sociations between group " name0="assign[^\s]*" value0="assignment" post="and measures will be assessed using the "/>
+ <result pre="he treatment group as an " name0="[ii]ndependent" value0="independent" post="covariate. If over-dispersion is noted, "/>
+ <result pre=". The model will use the " name0="treatmentgroups?" value0="treatment group" post="as an independent covariate. If over-dis"/>
+ <result pre="rements are met. Patient " name0="follow-up" value0="follow-up" post="will continue for 1 year from enrolment."/>
+ <result pre="mary risk is the lack of " name0="[bb]linding" value0="blinding" post="in patients and primary care doctors. Th"/>
+ <result pre=" concern as knowledge of " name0="allocat[^\s]*" value0="allocation" post="could change behavior. However, based on"/>
+</results>

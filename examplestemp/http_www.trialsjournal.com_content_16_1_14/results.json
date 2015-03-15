@@ -1,0 +1,106 @@
+{
+  "publisher": {
+    "value": [
+      "BioMed Central Ltd"
+    ]
+  },
+  "journal": {
+    "value": [
+      "Trials"
+    ]
+  },
+  "title": {
+    "value": [
+      "Effects of adaptive servo-ventilation therapy on cardiac function and remodeling in patients with chronic heart failure (SAVIOR-C): study protocol for a randomized controlled trial"
+    ]
+  },
+  "authors": {
+    "value": [
+      "Yoshihiko Seino",
+      "Shin-ichi Momomura",
+      "Yasuki Kihara",
+      "Hitoshi Adachi",
+      "Yoshio Yasumura",
+      "Hiroyuki Yokoyama",
+      "$author.firstName $author.lastName"
+    ]
+  },
+  "date": {
+    "value": [
+      "2015-01-16"
+    ]
+  },
+  "doi": {
+    "value": [
+      "10.1186/s13063-014-0530-z"
+    ]
+  },
+  "volume": {
+    "value": [
+      "16"
+    ]
+  },
+  "issue": {
+    "value": [
+      "1"
+    ]
+  },
+  "firstpage": {
+    "value": [
+      "14"
+    ]
+  },
+  "description": {
+    "value": [
+      "Adaptive servo-ventilation (ASV) therapy, which is a form of noninvasive positive pressure ventilation therapy and uses an innovative ventilator that has simple operability and provides good patient adherence, potentially has therapeutic benefits—suppression of the deterioration and progression of chronic heart failure (CHF) and a reduction in the number of repeated hospitalizations. Therefore, ASV therapy draws attention as a novel, noninvasive nonpharmacotherapy for patients with CHF owing to its hemodynamics-improving effect, and it is currently being accepted in real-world clinical settings in Japan. However, clinical evidence sufficient for treatment recommendation is lacking because a multicenter, randomized, controlled study of ASV therapy has never been conducted."
+    ]
+  },
+  "abstract": {
+    "value": [
+      "Adaptive servo-ventilation (ASV) therapy, which is a form of noninvasive positive pressure ventilation therapy and uses an innovative ventilator that has simple operability and provides good patient adherence, potentially has therapeutic benefits—suppression of the deterioration and progression of chronic heart failure (CHF) and a reduction in the number of repeated hospitalizations. Therefore, ASV therapy draws attention as a novel, noninvasive nonpharmacotherapy for patients with CHF owing to its hemodynamics-improving effect, and it is currently being accepted in real-world clinical settings in Japan. However, clinical evidence sufficient for treatment recommendation is lacking because a multicenter, randomized, controlled study of ASV therapy has never been conducted."
+    ]
+  },
+  "fulltext_html": {
+    "value": [
+      "http://www.trialsjournal.com/content/16/1/14"
+    ]
+  },
+  "fulltext_pdf": {
+    "value": [
+      "http://www.trialsjournal.com/content/pdf/s13063-014-0530-z.pdf"
+    ]
+  },
+  "fulltext_xml": {
+    "value": [
+      "/content/download/xml/s13063-014-0530-z.xml"
+    ]
+  },
+  "supplementary_material": {
+    "value": [
+      "http://trialsjournal.com/content/download/supplementary/s13063-014-0530-z-s1.docx",
+      "http://trialsjournal.com/content/download/supplementary/s13063-014-0530-z-s2.docx",
+      "http://trialsjournal.com/content/download/supplementary/s13063-014-0530-z-s3.docx"
+    ]
+  },
+  "figure": {
+    "value": [
+      "/content/figures/s13063-014-0530-z-1.gif"
+    ]
+  },
+  "figure_caption": {
+    "value": [
+      "Figure 1.",
+      "Flow diagram of SAVIOR-C."
+    ]
+  },
+  "license": {
+    "value": [
+      "\r\n\t\t\t\tThis is an Open Access article distributed under the terms of the Creative Commons Attribution License (http://creativecommons.org/licenses/by/4.0), which permits unrestricted use, distribution, and reproduction in any medium, provided the original work is properly credited. The Creative Commons Public Domain Dedication waiver (http://creativecommons.org/publicdomain/zero/1.0/) applies to the data made available in this article, unless otherwise stated.\r\n\t\t\t"
+    ]
+  },
+  "copyright": {
+    "value": [
+      "\r\n            © 2015 Seino et al.; licensee BioMed Central. \r\n        "
+    ]
+  }
+}

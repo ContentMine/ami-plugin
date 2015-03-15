@@ -1,0 +1,103 @@
+{
+  "publisher": {
+    "value": [
+      "BioMed Central Ltd"
+    ]
+  },
+  "journal": {
+    "value": [
+      "Trials"
+    ]
+  },
+  "title": {
+    "value": [
+      "Specifying the target difference in the primary outcome for a randomised controlled trial: guidance for researchers"
+    ]
+  },
+  "authors": {
+    "value": [
+      "Jonathan A Cook",
+      "Jenni Hislop",
+      "Douglas G Altman",
+      "Peter Fayers",
+      "Andrew H Briggs",
+      "Craig R Ramsay",
+      "John D Norrie",
+      "Ian M Harvey",
+      "Brian Buckley",
+      "Dean Fergusson",
+      "Ian Ford",
+      "Luke D Vale",
+      "$author.firstName $author.lastName"
+    ]
+  },
+  "date": {
+    "value": [
+      "2015-01-15"
+    ]
+  },
+  "doi": {
+    "value": [
+      "10.1186/s13063-014-0526-8"
+    ]
+  },
+  "volume": {
+    "value": [
+      "16"
+    ]
+  },
+  "issue": {
+    "value": [
+      "1"
+    ]
+  },
+  "firstpage": {
+    "value": [
+      "12"
+    ]
+  },
+  "description": {
+    "value": [
+      "Central to the design of a randomised controlled trial is the calculation of the number of participants needed. This is typically achieved by specifying a target difference and calculating the corresponding sample size, which provides reassurance that the trial will have the required statistical power (at the planned statistical significance level) to identify whether a difference of a particular magnitude exists. Beyond pure statistical or scientific concerns, it is ethically imperative that an appropriate number of participants should be recruited. Despite the critical role of the target difference for the primary outcome in the design of randomised controlled trials, its determination has received surprisingly little attention. This article provides guidance on the specification of the target difference for the primary outcome in a sample size calculation for a two parallel group randomised controlled trial with a superiority question."
+    ]
+  },
+  "abstract": {
+    "value": [
+      "Central to the design of a randomised controlled trial is the calculation of the number of participants needed. This is typically achieved by specifying a target difference and calculating the corresponding sample size, which provides reassurance that the trial will have the required statistical power (at the planned statistical significance level) to identify whether a difference of a particular magnitude exists. Beyond pure statistical or scientific concerns, it is ethically imperative that an appropriate number of participants should be recruited. Despite the critical role of the target difference for the primary outcome in the design of randomised controlled trials, its determination has received surprisingly little attention. This article provides guidance on the specification of the target difference for the primary outcome in a sample size calculation for a two parallel group randomised controlled trial with a superiority question."
+    ]
+  },
+  "fulltext_html": {
+    "value": [
+      "http://www.trialsjournal.com/content/16/1/12"
+    ]
+  },
+  "fulltext_pdf": {
+    "value": [
+      "http://www.trialsjournal.com/content/pdf/s13063-014-0526-8.pdf"
+    ]
+  },
+  "fulltext_xml": {
+    "value": [
+      "/content/download/xml/s13063-014-0526-8.xml"
+    ]
+  },
+  "supplementary_material": {
+    "value": []
+  },
+  "figure": {
+    "value": []
+  },
+  "figure_caption": {
+    "value": []
+  },
+  "license": {
+    "value": [
+      "\r\n\t\t\t\tThis is an Open Access article distributed under the terms of the Creative Commons Attribution License (http://creativecommons.org/licenses/by/4.0), which permits unrestricted use, distribution, and reproduction in any medium, provided the original work is properly credited. The Creative Commons Public Domain Dedication waiver (http://creativecommons.org/publicdomain/zero/1.0/) applies to the data made available in this article, unless otherwise stated.\r\n\t\t\t"
+    ]
+  },
+  "copyright": {
+    "value": [
+      "\r\n            © 2015 Cook et al.; licensee BioMed Central. \r\n        "
+    ]
+  }
+}

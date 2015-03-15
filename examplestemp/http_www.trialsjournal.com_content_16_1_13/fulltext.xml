@@ -1,0 +1,2451 @@
+<?xml version='1.0'?>
+<!DOCTYPE art SYSTEM 'http://www.biomedcentral.com/xml/article.dtd'>
+<art>
+    <ui>s13063-014-0531-y</ui>
+    <ji>1745-6215</ji>
+    <fm>
+       <dochead>Study protocol</dochead>
+       <bibl>
+          <title>
+             <p>Evaluating the effects of increasing physical activity to optimize rehabilitation outcomes in hospitalized older adults (MOVE Trial): study protocol for a randomized controlled trial</p>
+          </title>
+          <aug>
+             <au id="A1" ca="yes">
+                <snm>Said</snm>
+                <mi>M</mi>
+                <fnm>Catherine</fnm>
+                <insr iid="I1"/>
+                <insr iid="I2"/>
+                <insr iid="I3"/>
+                <email>Cathy.SAID@austin.org.au</email>
+             </au>
+             <au id="A2">
+                <snm>Morris</snm>
+                <mi>E</mi>
+                <fnm>Meg</fnm>
+                <insr iid="I1"/>
+                <email>M.Morris@latrobe.edu.au</email>
+             </au>
+             <au id="A3">
+                <snm>McGinley</snm>
+                <mi>L</mi>
+                <fnm>Jennifer</fnm>
+                <insr iid="I3"/>
+                <email>mcginley@unimelb.edu.au</email>
+             </au>
+             <au id="A4">
+                <snm>Szoeke</snm>
+                <fnm>Cassandra</fnm>
+                <insr iid="I4"/>
+                <email>cszoeke@unimelb.edu.au</email>
+             </au>
+             <au id="A5">
+                <snm>Workman</snm>
+                <fnm>Barbara</fnm>
+                <insr iid="I5"/>
+                <insr iid="I6"/>
+                <email>Barbara.Workman@monashhealth.org</email>
+             </au>
+             <au id="A6">
+                <snm>Liew</snm>
+                <fnm>Danny</fnm>
+                <insr iid="I7"/>
+                <email>Danny.Liew@mh.org.au</email>
+             </au>
+             <au id="A7">
+                <snm>Hill</snm>
+                <fnm>Keith</fnm>
+                <insr iid="I8"/>
+                <email>Keith.Hill@Curtin.edu.au</email>
+             </au>
+             <au id="A8">
+                <snm>Woodward</snm>
+                <fnm>Michael</fnm>
+                <insr iid="I9"/>
+                <insr iid="I10"/>
+                <email>michael.woodward@austin.org.au</email>
+             </au>
+             <au id="A9">
+                <snm>Wittwer</snm>
+                <mi>E</mi>
+                <fnm>Joanne</fnm>
+                <insr iid="I1"/>
+                <email>J.Wittwer@latrobe.edu.au</email>
+             </au>
+             <au id="A10">
+                <snm>Churilov</snm>
+                <fnm>Leonid</fnm>
+                <insr iid="I11"/>
+                <email>leonidc@unimelb.edu.au</email>
+             </au>
+             <au id="A11">
+                <snm>Ventura</snm>
+                <fnm>Cameron</fnm>
+                <insr iid="I1"/>
+                <email>crventura15@gmail.com</email>
+             </au>
+             <au id="A12">
+                <snm>Bernhardt</snm>
+                <fnm>Julie</fnm>
+                <insr iid="I12"/>
+                <email>J.Bernhardt@unimelb.edu.au</email>
+             </au>
+          </aug>
+          <insg>
+             <ins id="I1">
+                <p>Department of Physiotherapy, School of Allied Health, La Trobe University, Kingsbury Drive, Bundoora 3086, Victoria, Australia</p>
+             </ins>
+             <ins id="I2">
+                <p>Department of Physiotherapy, Austin Health, 145 Studley Rd, Heidelberg 3084, Victoria, Australia</p>
+             </ins>
+             <ins id="I3">
+                <p>Department of Physiotherapy, Melbourne School of Health Sciences, The University of Melbourne, Parkville 3010, Victoria, Australia</p>
+             </ins>
+             <ins id="I4">
+                <p>Department of Psychiatry &amp; National Ageing Research Institute, The University of Melbourne, Parkville 3050, Victoria, Australia</p>
+             </ins>
+             <ins id="I5">
+                <p>Rehabilitation and Aged Services, Monash Health, Warrigal Rd, Cheltenham 3192, Victoria, Australia</p>
+             </ins>
+             <ins id="I6">
+                <p>Monash Ageing Research Centre (MONARC), Monash University, Warrigal Rd, Cheltenham 3192, Victoria, Australia</p>
+             </ins>
+             <ins id="I7">
+                <p>Melbourne EpiCentre, The University of Melbourne and Melbourne Health, Parkville 3050, Victoria, Australia</p>
+             </ins>
+             <ins id="I8">
+                <p>School of Physiotherapy and Exercise Science, Curtin University, Kent St, Bentley 6102, Western Australia, Australia</p>
+             </ins>
+             <ins id="I9">
+                <p>Aged Care Services, Austin Health, 300 Waterdale Rd, Heidelberg West 3081, Victoria, Australia</p>
+             </ins>
+             <ins id="I10">
+                <p>Department of Medicine, The University of Melbourne, Parkville 3010, Victoria, Australia</p>
+             </ins>
+             <ins id="I11">
+                <p>Statistics and Decision Analysis Academic Platform, The Florey Institute of Neuroscience &amp; Mental Health, 245 Burgundy St, Heidelberg 3084, Victoria, Australia</p>
+             </ins>
+             <ins id="I12">
+                <p>Stroke Division, The Florey Institute of Neuroscience and Mental Health, 245 Burgundy St, Heidelberg 3084, Victoria, Australia</p>
+             </ins>
+          </insg>
+          <source>Trials</source>
+          <issn>1745-6215</issn>
+          <pubdate>2015</pubdate>
+          <volume>16</volume>
+          <issue>1</issue>
+          <fpage>13</fpage>
+          <url>http://www.trialsjournal.com/content/16/1/13</url>
+          <xrefbib>
+             <pubidlist>
+                <pubid idtype="doi">10.1186/s13063-014-0531-y</pubid>
+             </pubidlist>
+          </xrefbib>
+       </bibl>
+       <history>
+          <rec>
+             <date>
+                <day>28</day>
+                <month>8</month>
+                <year>2014</year>
+             </date>
+          </rec>
+          <acc>
+             <date>
+                <day>19</day>
+                <month>12</month>
+                <year>2014</year>
+             </date>
+          </acc>
+          <pub>
+             <date>
+                <day>15</day>
+                <month>1</month>
+                <year>2015</year>
+             </date>
+          </pub>
+       </history>
+       <cpyrt>
+          <year>2015</year>
+          <collab>Said et al.; licensee BioMed Central.</collab>
+          <note>This is an Open Access article distributed under the terms of the Creative Commons Attribution License (<url>http://creativecommons.org/licenses/by/4.0</url>), which permits unrestricted use, distribution, and reproduction in any medium, provided the original work is properly credited. The Creative Commons Public Domain Dedication waiver (<url>http://creativecommons.org/publicdomain/zero/1.0/</url>) applies to the data made available in this article, unless otherwise stated.</note>
+       </cpyrt>
+       <kwdg>
+          <kwd>mobility limitation</kwd>
+          <kwd>rehabilitation</kwd>
+          <kwd>exercise therapy</kwd>
+          <kwd>hospitalization</kwd>
+          <kwd>randomized controlled trial</kwd>
+       </kwdg>
+       <abs>
+          <sec>
+             <st>
+                <p>Abstract</p>
+             </st>
+             <sec>
+                <st>
+                   <p>Background</p>
+                </st>
+                <p>Older adults who have received inpatient rehabilitation often have significant mobility disability at discharge. Physical activity levels in rehabilitation are also low. It is hypothesized that providing increased physical activity to older people receiving hospital-based rehabilitation will lead to better mobility outcomes at discharge.</p>
+             </sec>
+             <sec>
+                <st>
+                   <p>Methods/Design</p>
+                </st>
+                <p>A single blind, parallel-group, multisite randomized controlled trial with blinded assessment of outcome and intention-to-treat analysis. The cost effectiveness of the intervention will also be examined. Older people (age &gt;60&#160;years) undergoing inpatient rehabilitation to improve mobility will be recruited from geriatric rehabilitation units at two Australian hospitals. A computer-generated blocked stratified randomization sequence will be used to assign 198 participants in a 1:1 ratio to either an &#8216;enhanced physical activity&#8217; (intervention) group or a &#8216;usual care plus&#8217; (control) group for the duration of their inpatient stay. Participants will receive usual care and either spend time each week performing additional physical activities such as standing or walking (intervention group) or performing an equal amount of social activities that have minimal impact on mobility such as card and board games (control group). Self-selected gait speed will be measured using a 6-meter walk test at discharge (primary outcome) and 6&#160;months follow-up (secondary outcome). The study is powered to detect a 0.1&#160;m/sec increase in self-selected gait speed in the intervention group at discharge. Additional measures of mobility (Timed Up and Go, De Morton Mobility Index), function (Functional Independence Measure) and quality of life will be obtained as secondary outcomes at discharge and tertiary outcomes at 6&#160;months follow-up. The trial commenced recruitment on 28 January 2014.</p>
+             </sec>
+             <sec>
+                <st>
+                   <p>Discussion</p>
+                </st>
+                <p>This study will evaluate the efficacy and cost effectiveness of increasing physical activity in older people during inpatient rehabilitation. These results will assist in the development of evidenced-based rehabilitation programs for this population.</p>
+             </sec>
+             <sec>
+                <st>
+                   <p>Trial registration</p>
+                </st>
+                <p>Australian New Zealand Clinical Trials Registry <url>ACTRN12613000884707</url> (Date of registration 08 August 2013); ClinicalTrials.gov Identifier <url>NCT01910740</url> (Date of registration 22 July 2013).</p>
+             </sec>
+          </sec>
+       </abs>
+    </fm>
+    <bdy>
+       <sec>
+          <st>
+             <p>Background</p>
+          </st>
+          <p>The aging population represents a significant and growing challenge to the Australian <abbrgrp>
+                <abbr bid="B1">1</abbr>
+             </abbrgrp>, US <abbrgrp>
+                <abbr bid="B2">2</abbr>
+             </abbrgrp> and other healthcare systems <abbrgrp>
+                <abbr bid="B3">3</abbr>
+             </abbrgrp>. In Australia in 2011 and 2012, people aged over 65&#160;years accounted for 48% of all hospital bed days and 39% of hospital discharges <abbrgrp>
+                <abbr bid="B4">4</abbr>
+             </abbrgrp>, despite only representing 14.4% of the population <abbrgrp>
+                <abbr bid="B1">1</abbr>
+             </abbrgrp>. Older people often require inpatient mobility rehabilitation after discharge from an acute hospital to enable them &#8216;to reach and maintain their optimal physical, sensory, intellectual, psychological and social functional levels&#8217; <abbrgrp>
+                <abbr bid="B5">5</abbr>
+             </abbrgrp>. In turn, this can help them to return to previous living arrangements and lifestyle.</p>
+          <p>Mobility outcomes following rehabilitation are often poor in older adults. Many older people are frail and have impaired mobility on admission to an inpatient geriatric rehabilitation unit, and evidence indicates that mobility outcomes remain suboptimal in many older people following discharge from these facilities <abbrgrp>
+                <abbr bid="B6">6</abbr>
+             </abbrgrp>,<abbrgrp>
+                <abbr bid="B7">7</abbr>
+             </abbrgrp>. For example, a recent study found that 14% of older people discharged from an inpatient geriatric rehabilitation unit were unable to walk 10 meters <abbrgrp>
+                <abbr bid="B6">6</abbr>
+             </abbrgrp>. Of those who could walk 10 meters, only 31% were independent when walking up stairs. Gait speed was also reduced, with a very low median speed of 0.46&#160;m/sec (IQR&#8201;=&#8201;0.32), compared to a mean speed of 1.2 to 1.3&#160;m/sec in healthy older adults <abbrgrp>
+                <abbr bid="B6">6</abbr>
+             </abbrgrp>. Mobility problems commonly persist following discharge, with only 41% of older adults being able to walk 800 meters or climb a flight of stairs 3&#160;months after discharge <abbrgrp>
+                <abbr bid="B7">7</abbr>
+             </abbrgrp>. Poor mobility can have serious consequences for older adults. It is associated with the need for long-term care <abbrgrp>
+                <abbr bid="B8">8</abbr>
+             </abbrgrp>, loss of functional independence and mortality <abbrgrp>
+                <abbr bid="B9">9</abbr>
+             </abbrgrp> and falls <abbrgrp>
+                <abbr bid="B10">10</abbr>
+             </abbrgrp>. It is therefore important to maximize recovery of mobility in older people with mobility disability.</p>
+          <p>While it is widely believed that bed rest and inactivity in hospital are detrimental for mobility and function <abbrgrp>
+                <abbr bid="B11">11</abbr>
+             </abbrgrp>, there are no definitive clinical guidelines on optimum physical activity levels for older adults undergoing inpatient rehabilitation. Despite the publication of physical activity guidelines for older people <abbrgrp>
+                <abbr bid="B12">12</abbr>
+             </abbrgrp>-<abbrgrp>
+                <abbr bid="B15">15</abbr>
+             </abbrgrp>, a gap exists in guidelines for frail older people or those who have multiple chronic diseases and are undergoing rehabilitation. A number of studies indicate that activity levels in rehabilitation are low <abbrgrp>
+                <abbr bid="B16">16</abbr>
+             </abbrgrp>-<abbrgrp>
+                <abbr bid="B18">18</abbr>
+             </abbrgrp> and that physical activity levels in aged care rehabilitation are particularly low <abbrgrp>
+                <abbr bid="B19">19</abbr>
+             </abbrgrp>. This raises the possibility that better outcomes could be achieved by adding interventions, strategies and systems to increase physical activity. Increasing physical activity is a simple intervention likely to have a positive impact on recovery of mobility.</p>
+          <p>Surprisingly, there is limited research examining the effect of increasing physical activity on mobility outcomes in hospitalized older people undergoing rehabilitation. These patients typically have a wide variety of admission diagnoses and multiple co-morbidities, which may include cognitive impairment <abbrgrp>
+                <abbr bid="B6">6</abbr>
+             </abbrgrp>. As a consequence, they are often excluded from clinical trials. A recent systematic review <abbrgrp>
+                <abbr bid="B20">20</abbr>
+             </abbrgrp> found providing hospitalized patients with an additional average of 19&#160;minutes physiotherapy per day led to improvements in mobility and quality of life and reductions in length of stay. However, the average age of participants in the review was only 69.8&#160;years. There is some evidence that a multidisciplinary exercise intervention in an acute hospital reduces acute length of stay and increases the proportion of older people who return home <abbrgrp>
+                <abbr bid="B21">21</abbr>
+             </abbrgrp>. There is also promising evidence that increasing physical activity in a range of outpatient, home and residential care settings can improve outcomes in some older people <abbrgrp>
+                <abbr bid="B22">22</abbr>
+             </abbrgrp>-<abbrgrp>
+                <abbr bid="B24">24</abbr>
+             </abbrgrp>. A pilot study conducted by our group demonstrated the feasibility of utilizing a randomized controlled trial (RCT) to examine the impact of increased physical activity on mobility outcomes in older people receiving inpatient geriatric rehabilitation. A satisfactory recruitment and retention rate was achieved, protocols to increase physical activity were developed, increases in physical activity were obtainable, there was no evidence of group contamination, and there was no increase in adverse events <abbrgrp>
+                <abbr bid="B25">25</abbr>
+             </abbrgrp>. Given the success of the pilot trial and the potential for mobility improvements via increasing physical activity, a larger and appropriately powered RCT to further explore the efficacy of increasing physical activity in older people on mobility and other outcomes is warranted.</p>
+          <p>The proposed study will test the primary hypothesis that increasing physical activity in older people during rehabilitation, compared with a control group, will lead to better mobility at discharge, as measured by self-selected gait speed. Secondary hypotheses follow concerning the increase of physical activity during rehabilitation:</p><p>1. It will lead to significantly greater improvements in secondary measures of mobility and function both at discharge and 6&#160;months after discharge.</p>
+             <p>2. It will lead to a better quality of life 6&#160;months after hospital discharge.</p>
+             <p>3. It will be cost effective compared to usual care.</p>
+       </sec>
+       <sec>
+          <st>
+             <p>Methods/Design</p>
+          </st>
+          <sec>
+             <st>
+                <p>Design</p>
+             </st>
+             <p>An investigator and assessor-blinded, parallel group multisite RCT will be used to compare enhanced physical activity to &#8216;usual care plus&#8217; provided to older people receiving in-hospital geriatric rehabilitation at hospitals in the Melbourne metropolitan area of Victoria, Australia. Figure&#160;<figr fid="F1">1</figr> provides an overview of the study design. Reporting of results will conform to the recommendations of the Consolidated Standards of Reporting Trials (CONSORT) statement <abbrgrp>
+                   <abbr bid="B26">26</abbr>
+                </abbrgrp>. Ethical approval has been obtained from the La Trobe University Human Ethics Committee (12-122), and from ethics committees at each site prior to commencement at that site (Austin Health Human Research Ethics Committee approval H2013/05042, Monash Health Human Research Ethics Committee approval14117X). The trial has also been registered with The University of Melbourne (Ethics ID 1340834) and Curtin University (HR 25/2014). Any protocol amendments will be submitted to the relevant Ethics Committees for review and will be updated on the trial registries.
+                  </p>
+             
+                <fig id="F1">
+                   <title>
+                      <p>Figure 1</p>
+                   </title>
+                   <caption>
+                      <p>Participant flow-through study. </p>
+                   </caption>
+                   <text>
+                      <p>
+                            <b>Participant flow-through study.</b> TUG, Timed up and go; DEMMI, De Morton Mobility Index; FIM, Functional Independence Measure; EQ5D, Euro QoL Health Questionnaire; EQ-VAS, Euro QoL, Visual Analog Scale.</p>
+                   </text>
+                   <graphic file="s13063-014-0531-y-1"/>
+                </fig>
+             
+          </sec>
+          <sec>
+             <st>
+                <p>Participants</p>
+             </st>
+             <p>Older people will be recruited within 48&#160;hours of admission to rehabilitation and geriatric evaluation and management wards of the participating hospitals. People admitted to these wards are medically stable, but may have chronic or complex health conditions that require treatment and management by a multidisciplinary team, or require a period of rehabilitation to maximize function. A member of the research team will screen each person upon admission and approach potential participants in person. To be included in the study, participants must be aged 60&#160;years or older and have a goal of admission to &#8216;improve mobility or improve walking&#8217; as determined by admission referral or the treating therapist. Participants will be excluded if (1) there are specific medical restrictions that limit mobilization, (2) mobility goals are limited to non-weight bearing mobility goals, (3) they are already enrolled in an RCT, or (4) the primary reason for admission is to await residential care or carer training. Informed consent will be obtained from the participant, or &#8216;responsible person&#8217; if the participant is unable to give consent due to cognitive impairment. Interpreters will enable recruitment of people who are non-English speaking.</p>
+          </sec>
+          <sec>
+             <st>
+                <p>Randomization</p>
+             </st>
+             <p>As study site and mobility on admission are potential confounders, randomization will be blocked and stratified by site and mobility level. At baseline, the mobility of participants will be classified as either non-ambulant (Level 1 or 2 as detailed in Table&#160;<tblr tid="T1">1</tblr>) or ambulant (Level 3 or 4 as detailed in Table&#160;<tblr tid="T1">1</tblr>)<it>.</it> This classification will be used for stratification by mobility level. Once consent has been obtained and baseline data collected, participants will be individually randomized to an intervention group (enhanced physical activity) or a control group (usual care plus) according to a computer generated randomization procedure performed by a third party. Group assignment will only be available to intervention staff and the project manager, and will be accessed online via a password protected site.
+                  </p>
+             
+                <table id="T1">
+                   <title>
+                      <p>Table 1</p>
+                   </title>
+                   <caption>
+                      <p>
+                            <b>Functional classification of participants and summary of activities for intervention group</b>                          
+                      </p>
+                   </caption>
+                   <tgroup align="left" cols="3">
+                      <colspec align="left" colname="c1" colnum="1" colwidth="*"/>
+                      <colspec align="left" colname="c2" colnum="2" colwidth="*"/>
+                      <colspec align="left" colname="c3" colnum="3" colwidth="*"/>
+                      <thead>
+                         <row valign="top">
+                            <entry colname="c1">
+                               <p>
+                                  <b>Level</b>                              
+                               </p>
+                            </entry>
+                            <entry colname="c2">
+                               <p>
+                                  <b>Function</b>                              
+                               </p>
+                            </entry>
+                            <entry colname="c3">
+                               <p>
+                                  <b>Intervention</b>                              
+                               </p>
+                            </entry>
+                         </row>
+                      </thead>
+                      <tfoot>
+                         <p>Reprinted from Said, C. M., Morris, M. E., Woodward, M., Churilov, L., &amp; Bernhardt, J. (2012). Mobility in older adults receiving hospital based rehabilitation: A phase II feasibility study. BMC Geriatrics, 12:26. doi: 10.1186/1471-2318-12-26.</p>
+                      </tfoot>
+                      <tbody>
+                         <row valign="top">
+                            <entry colname="c1">
+                               <p>1</p>
+                            </entry>
+                            <entry colname="c2">
+                               <p>Patient is unable to transfer out of bed without maximum assistance (two persons or a hoist) and has poor static and dynamic sitting balance (unable to sit independently).</p>
+                            </entry>
+                            <entry colname="c3">
+                               <p>Bed exercise program (including lower limb, upper limb and abdominal strength and bed mobility) and sitting balance exercises.</p>
+                            </entry>
+                         </row>
+                         <row valign="top">
+                            <entry colname="c1">
+                               <p>2</p>
+                            </entry>
+                            <entry colname="c2">
+                               <p>Patient can transfer out of bed with assistance from one person, has independent sitting balance, but is unable to stand independently. Requires moderate assistance from two people to walk.</p>
+                            </entry>
+                            <entry colname="c3">
+                               <p>Sitting exercise program including targeted lower limb strengthening exercises. Sit to stand exercises, standing balance exercises, stepping/marching on the spot as able (using rails/ gait aids for safety as indicated). Activities from the previous level may be included if specifically indicated. For example, if the participant is unable to perform full range movement against the effects of gravity, specific lower limb muscle strengthening exercises may be performed on the bed.</p>
+                            </entry>
+                         </row>
+                         <row valign="top">
+                            <entry colname="c1">
+                               <p>3</p>
+                            </entry>
+                            <entry colname="c2">
+                               <p>Patient can walk with minimal assistance from one person.</p>
+                            </entry>
+                            <entry colname="c3">
+                               <p>Walking exercises, sit to stand exercises, standing balance exercises, and step up exercises. Targeted lower limb strength exercises (where possible closed chain or functional strengthening exercises).</p>
+                            </entry>
+                         </row>
+                         <row valign="top">
+                            <entry colname="c1">
+                               <p>4</p>
+                            </entry>
+                            <entry colname="c2">
+                               <p>Supervision only or independence with ambulation. Requires minimal assistance or supervision on stairs.</p>
+                            </entry>
+                            <entry colname="c3">
+                               <p>Stairs exercises, walking exercises (including outdoor mobility), step up exercises, standing balance exercises. Targeted lower limb strength exercises as indicated (where possible closed chain or functional strengthening exercises).</p>
+                            </entry>
+                         </row>
+                      </tbody>
+                   </tgroup>
+                </table>
+             
+          </sec>
+          <sec>
+             <st>
+                <p>Outcome measures</p>
+             </st>
+             <sec>
+                <st>
+                   <p>Primary outcome</p>
+                </st>
+                <p>The primary outcome measure is mobility on discharge from hospital as assessed using gait speed. This will be measured using the 6-meter walk test <abbrgrp>
+                      <abbr bid="B27">27</abbr>
+                   </abbrgrp> at self-selected speed by a trained assessor blinded to group allocation. Participants will be instructed to walk at self-selected speed along a 10-meter walkway, and a stopwatch will be used to measure speed over the middle 6 meters. Participants will be allowed to use a gait-aid if required, and this will be recorded. Up to three trials will be performed, and the best performance recorded. Participants unable to complete the test will be given a score of 0&#160;m/sec. Gait speed was chosen as a primary outcome measure as it is associated with the need for long-term care <abbrgrp>
+                      <abbr bid="B8">8</abbr>
+                   </abbrgrp>, functional dependence, mortality <abbrgrp>
+                      <abbr bid="B9">9</abbr>
+                   </abbrgrp> and falls <abbrgrp>
+                      <abbr bid="B10">10</abbr>
+                   </abbrgrp>. Gait speed can also predict activity levels at home and in the community <abbrgrp>
+                      <abbr bid="B28">28</abbr>
+                   </abbrgrp>,<abbrgrp>
+                      <abbr bid="B29">29</abbr>
+                   </abbrgrp> and increases in gait speed are associated with improvements in overall health status <abbrgrp>
+                      <abbr bid="B30">30</abbr>
+                   </abbrgrp>. Furthermore, gait speed has good retest reliability <abbrgrp>
+                      <abbr bid="B27">27</abbr>
+                   </abbrgrp>,<abbrgrp>
+                      <abbr bid="B31">31</abbr>
+                   </abbrgrp> and is responsive to changes in walking ability <abbrgrp>
+                      <abbr bid="B32">32</abbr>
+                   </abbrgrp>-<abbrgrp>
+                      <abbr bid="B34">34</abbr>
+                   </abbrgrp>.</p>
+             </sec>
+             <sec>
+                <st>
+                   <p>Secondary outcomes</p>
+                </st>
+                <p>Secondary outcome measures include mobility on discharge from hospital as assessed using the Timed Up and Go (TUG) <abbrgrp>
+                      <abbr bid="B31">31</abbr>
+                   </abbrgrp>,<abbrgrp>
+                      <abbr bid="B35">35</abbr>
+                   </abbrgrp> and the De Morton Mobility Index (DEMMI) <abbrgrp>
+                      <abbr bid="B36">36</abbr>
+                   </abbrgrp>-<abbrgrp>
+                      <abbr bid="B38">38</abbr>
+                   </abbrgrp>. Gait speed will also be measured 6&#160;months postdischarge as a secondary outcome measure. Additional secondary outcomes include function, as measured using the Functional Independence Measure (FIM<sup>TM</sup>) <abbrgrp>
+                      <abbr bid="B39">39</abbr>
+                   </abbrgrp>, health-related quality of life, as measured by the EuroQol health questionnaire (EQ5D) and the EuroQol Visual Analog Scale (EQ-VAS) <abbrgrp>
+                      <abbr bid="B40">40</abbr>
+                   </abbrgrp> and subacute length of stay (LOS). These tests will be administered in accordance with previously published protocols. If a participant is unable to complete the EQ5D or EQ-VAS due to cognitive impairment, a proxy will complete it on their behalf.</p>
+             </sec>
+             <sec>
+                <st>
+                   <p>Tertiary outcomes</p>
+                </st>
+                <p>Tertiary outcomes of mobility, function and quality of life will be obtained 6&#160;months postdischarge, using the TUG <abbrgrp>
+                      <abbr bid="B31">31</abbr>
+                   </abbrgrp>,<abbrgrp>
+                      <abbr bid="B35">35</abbr>
+                   </abbrgrp>, the DEMMI <abbrgrp>
+                      <abbr bid="B36">36</abbr>
+                   </abbrgrp>-<abbrgrp>
+                      <abbr bid="B38">38</abbr>
+                   </abbrgrp>, the FIM <abbrgrp>
+                      <abbr bid="B39">39</abbr>
+                   </abbrgrp>, the EQ5D and the EQ-VAS.</p>
+                <p>Falls will be monitored throughout the study. Falls will be defined as &#8216;an unexpected event in which you come to rest on the ground, floor or lower level&#8217; <abbrgrp>
+                      <abbr bid="B41">41</abbr>
+                   </abbrgrp>. Data on falls during the period of hospitalization will be obtained via review of medical records and hospital incident reports. Falls in the 6&#160;months postdischarge will be recorded prospectively via a monthly falls calendar provided to participants at discharge. Participants will be asked to record the date of any falls and whether or not advice or treatment from a health professional had been sought related to the fall. They will be asked to return the calendar at the end of each month, and will receive a telephone reminder if the falls calendar is not returned. This method of falls data collection is considered the &#8216;gold standard&#8217; for collecting falls data <abbrgrp>
+                      <abbr bid="B41">41</abbr>
+                   </abbrgrp>.</p>
+             </sec>
+          </sec>
+          <sec>
+             <st>
+                <p>Assessments</p>
+             </st>
+             <p>Each assessment will be completed at three time points by an assessor blinded to group allocation. All assessors will be trained to ensure the assessments are standardized and will be FIM<sup>TM</sup> credentialed.</p>
+             <sec>
+                <st>
+                   <p>Baseline</p>
+                </st>
+                <p>The baseline assessment will be completed within 48&#160;hours of admission. In addition to primary and secondary outcome measures collected at baseline, additional demographic and clinical data will be obtained. These data will include the participant&#8217;s age, sex, height and weight, acute LOS, mental state (measured by the Mini Mental State Examination <abbrgrp>
+                      <abbr bid="B42">42</abbr>
+                   </abbrgrp>), frailty (measured using the modified Fried Frailty Index) <abbrgrp>
+                      <abbr bid="B43">43</abbr>
+                   </abbrgrp>,<abbrgrp>
+                      <abbr bid="B44">44</abbr>
+                   </abbrgrp>, co-morbidities (age adjusted Charlson Comorbidity Score <abbrgrp>
+                      <abbr bid="B45">45</abbr>
+                   </abbrgrp>), depression (Geriatric Depression Scale <abbrgrp>
+                      <abbr bid="B46">46</abbr>
+                   </abbrgrp>), medications, self (or carer) reported falls in the last 12&#160;months and social situation.</p>
+             </sec>
+             <sec>
+                <st>
+                   <p>Discharge</p>
+                </st>
+                <p>The second assessment will be completed within 48&#160;hours of discharge. Self-selected gait speed (primary outcome) at this assessment will be the primary endpoint of the study. In addition to the primary and secondary outcome assessments, discharge destination and service referrals on discharge will also be collected. For participants discharged to residential care, the day the treating team determined that they required residential care placement and required paperwork was completed will be used in lieu of actual discharge date for this analysis.</p>
+             </sec>
+             <sec>
+                <st>
+                   <p>Six months postdischarge</p>
+                </st>
+                <p>The third and final assessment will be conducted 6&#160;months postdischarge in the person&#8217;s residence. In addition to further secondary and tertiary outcome assessments, falls data and any associated health professional advice or treatment will be collected.</p>
+             </sec>
+          </sec>
+          <sec>
+             <st>
+                <p>Interventions</p>
+             </st>
+             <p>Both the intervention and control group will be provided with usual care, which will include ongoing therapy provided by a multidisciplinary team including nurses, medical staff, physiotherapists, occupational therapists and other allied health professionals as required throughout their in-patient rehabilitation. Both groups will receive additional therapy sessions, but the content of these sessions will differ depending on group allocation.</p>
+             <sec>
+                <st>
+                   <p>Intervention group: enhanced physical activity</p>
+                </st>
+                <p>In addition to usual care, participants in the enhanced physical activity intervention group will undertake 1 to 2 sessions of additional physical activities on weekdays, and a further two sessions each weekend throughout their inpatient stay (anticipated average of 19&#160;days, based on data from the participating hospitals). Programs will be individually tailored with the aim of increasing the amount of time participants spent performing mobility exercises, such as standing or walking. Intervention protocol guides, which were trialed in the pilot study, <abbrgrp>
+                      <abbr bid="B25">25</abbr>
+                   </abbrgrp> will be specified for participants according to their functional level (summary provided in Table&#160;<tblr tid="T1">1</tblr>; full details provided in trial manual available from authors). Specific targets for activity levels on weekdays and weekends have been set, based on pilot data <abbrgrp>
+                      <abbr bid="B19">19</abbr>
+                   </abbrgrp>,<abbrgrp>
+                      <abbr bid="B25">25</abbr>
+                   </abbrgrp>. All sessions will be provided by a physiotherapist or physiotherapy assistant not involved in the provision of usual care to participants. At the end of each intervention session, the physiotherapist or allied health assistant will record the amount of time spent performing each activity in 5-minute increments. No specific program to be completed outside of these sessions will be provided.</p>
+             </sec>
+             <sec>
+                <st>
+                   <p>Control group</p>
+                </st>
+                <p>To control for the extra hours of social interaction received by participants in the enhanced physical activity group, participants in the control group will undertake additional seated or resting social activities including card and board games, conversation and reading, as well as upper limb and other physical exercises that have minimal impact on mobility. These sessions will be provided by either a physiotherapist or physiotherapy assistant, and time involved in these sessions will be recorded.</p>
+             </sec>
+          </sec>
+          <sec>
+             <st>
+                <p>Blinding, contamination and monitoring</p>
+             </st>
+             <p>All assessments will be performed by clinicians blinded to group allocation. All investigators, with the exception of the project manager (JW) will remain blinded to group assignment. Staff providing the intervention cannot be blinded. To minimize the risk of usual-care staff altering practice during the period of data collection, staff not directly involved in the research will not be told the specific aims of the study. As it is essential that activity delivered as part of the intervention is in addition to usual care, intervention staff will not be involved in other aspects of patient care. To monitor usual-care activities, usual-care physiotherapy staff will record the amount of time performing various activities in physiotherapy sessions for all participants in five minute increments. To ensure the correct &#8216;dosage&#8217; of intervention activity is delivered, time spent performing upright activities will be monitored, and feedback on dose will be provided to intervention therapists by the project manager. To monitor for activity levels and contamination throughout the day, participants in both study groups will have their activity levels monitored over a 5-day period using a SenseWear armband <abbrgrp>
+                   <abbr bid="B47">47</abbr>
+                </abbrgrp>-<abbrgrp>
+                   <abbr bid="B49">49</abbr>
+                </abbrgrp>. Regular monitoring of activity will help identify deviations from protocol and potential contamination of usual care. These data will be reviewed monthly by the Project Management Committee and strategies to address any issues implemented.</p>
+          </sec>
+          <sec>
+             <st>
+                <p>Risk management and safety monitoring</p>
+             </st>
+             <p>There is a risk that the intervention may result in an increase in adverse events, although no differences between groups were reported in the pilot study <abbrgrp>
+                   <abbr bid="B25">25</abbr>
+                </abbrgrp>. In the event of a fall or medical event, standard hospital procedures will be followed. Falls during hospital stay, mortality and unplanned re-admissions to an acute service (during rehabilitation or within six months postdischarge) will be recorded on an incident form, monitored by an independent Data Safety and Monitoring Committee and reported to the relevant ethics committees.</p>
+          </sec>
+          <sec>
+             <st>
+                <p>Data management</p>
+             </st>
+             <p>All data will be stored in a confidential manner. Participants will be assigned a code, which will be used for all data management and analyses. Paper data will be stored at the local site in a locked filing cabinet. Coded electronic data will be stored on a computer server at The Florey Institute of Neuroscience and Mental Health for the duration of the study. Access to the computer files will be password-protected and accessible only to the research team. Data quality will be monitored by the project manager on a regular basis and reported to the management committee. The project manager will also conduct regular site visits to monitor trial conduct. All project investigators will have access to the final, de-identified data set.</p>
+          </sec>
+          <sec>
+             <st>
+                <p>Sample size estimation</p>
+             </st>
+             <p>The sample size for this study was calculated based on pilot data, which showed that the median gait speed of people discharged from aged care rehabilitation was 0.46&#160;m/sec (range 0.1 to 1.2&#160;m/sec) <abbrgrp>
+                   <abbr bid="B6">6</abbr>
+                </abbrgrp>, which allowed a mean gait speed (0.46&#160;m/sec) and variance (0.18&#160;m/sec) to be estimated <abbrgrp>
+                   <abbr bid="B50">50</abbr>
+                </abbrgrp>. Sample size estimation was based on the intervention group achieving an increase in gait speed of at least 0.1&#160;m/sec compared with the control group, the recommended minimal clinically important difference for gait speed in older adults <abbrgrp>
+                   <abbr bid="B30">30</abbr>
+                </abbrgrp>,<abbrgrp>
+                   <abbr bid="B51">51</abbr>
+                </abbrgrp>. With a two-tailed significance threshold alpha of 0.05 and power to yield a statistically significant result set at 90%, a sample size of 69 participants in each group is required. To account for an estimated 25% dropout rate and 14% of participants being unable to complete the walk test on discharge, as observed in pilot data <abbrgrp>
+                   <abbr bid="B6">6</abbr>
+                </abbrgrp>,<abbrgrp>
+                   <abbr bid="B25">25</abbr>
+                </abbrgrp>, an estimated 198 participants will be required in total <abbrgrp>
+                   <abbr bid="B52">52</abbr>
+                </abbrgrp>. A recruitment rate of 34% was achieved in the pilot study. Based on average hospital admissions to the selected sites in this trial, and using a conservative recruitment rate of 20%, it is anticipated that the recruitment will be completed over 13&#160;months.</p>
+          </sec>
+          <sec>
+             <st>
+                <p>Statistical analysis</p>
+             </st>
+             <p>The primary analysis will be conducted on an intention-to-treat basis using data from all randomized participants, although a &#8216;per protocol&#8217; analysis of the primary outcome will also be reported. Primary outcome values missing due to participants&#8217; death will be imputed as zero. An independent adjudication panel, blinded to group assignment, will review records for participants&#8217; who were discharged to an acute facility as medically unwell. Based on the reasons for transfer, the adjudication panel will determine whether the participant was likely to be able to walk and complete a 6-meter walk test at the time of transfer. If the adjudication panel determines the person was unlikely to be able to walk, the missing value will be imputed as zero. If the adjudication panel determines the person was likely to be able to walk, the last measure will be carried forward. Following that, multiple imputation of other missing primary outcome values will be conducted subject to the satisfaction of relevant missingness assumptions. Baseline data will be examined to ensure that the intervention and control groups are comparable using descriptive statistics with 95% confidence intervals.</p>
+             <p>All outcomes and analyses have been prospectively categorized as primary, secondary, or tertiary. Differences in both primary and secondary endpoints between the two arms of the study will be tested independently at the 0.05 level of significance. No formal adjustments will be undertaken to constrain the overall type I error associated with the secondary analyses. Their purpose is to supplement evidence from the confirmatory primary analysis to help more fully characterize the treatment effect. Results from the secondary analyses will be interpreted in this context.</p>
+             <sec>
+                <st>
+                   <p>Primary outcome analysis</p>
+                </st>
+                <p>Between-group differences in the primary outcome measure, self-selected gait speed on discharge, will be assessed using a one-way ANCOVA model that will include self-selected gait speed at baseline as a covariate.</p>
+             </sec>
+             <sec>
+                <st>
+                   <p>Secondary outcomes analyses</p>
+                </st>
+                <p>Between-group differences in gait speed 6&#160;months postdischarge will be assessed using a one-way ANCOVA model that will include self-selected gait speed at baseline as a covariate;</p>
+                <p>Between-group differences in TUG on discharge will be assessed using a Cox regression model that will include self-selected gait speed at baseline as a covariate;</p>
+                <p>Between-group differences in DEMMI score on discharge will be assessed using a one-way ANCOVA model that will include DEMMI score at baseline as a covariate;</p>
+                <p>Between-group differences in FIM score on discharge will be assessed using a median regression model that will include the FIM score at baseline as a covariate;</p>
+                <p>Between-group differences in EQ5D score on discharge will be assessed using a median regression model that will include the EQ5D score at baseline as a covariate;</p>
+                <p>Between-group differences in subacute LOS will be assessed using a median regression model that will include the FIM score at baseline as a covariate.</p>
+             </sec>
+             <sec>
+                <st>
+                   <p>Exploratory analyses of tertiary endpoints</p>
+                </st>
+                <p>Between-group differences in the outcomes at 6&#160;months postdischarge will be assessed using appropriate regression models that will include relevant measures at baseline as covariates. The exploratory longitudinal analysis for all outcomes over the period from baseline until 6&#160;months postdischarge will be conducted using a mixed model repeated measures approach subject to the satisfaction of the underlying model assumptions.</p>
+             </sec>
+          </sec>
+          <sec>
+             <st>
+                <p>Health economic analysis</p>
+             </st>
+             <p>Health economic modelling will be undertaken to estimate the potential cost-effectiveness of the intervention arm compared to the control arm. Decision analysis <abbrgrp>
+                   <abbr bid="B53">53</abbr>
+                </abbrgrp> will be used to compare downstream consequences of enhanced physical care and Markov <abbrgrp>
+                   <abbr bid="B54">54</abbr>
+                </abbrgrp> and life-tabling <abbrgrp>
+                   <abbr bid="B55">55</abbr>
+                </abbrgrp> techniques will be applied to model outcomes beyond one year. The main output of interest will be incremental cost-effectiveness ratios in terms of net costs per unit of health gain. Net costs will comprise the costs of the enhanced physical activity program minus costs saved from the reduction in downstream health services utilization. Data on health services utilization will include clinical costing data provided by the hospitals, as well as data from the Australian Medical Benefits Scheme (MBS) and Pharmaceutical Benefits Scheme (PBS). The MBS and PBS are the programs through which clinical services and medications, respectively, are subsidized for Australians. Health gains can be measured in a variety of ways. For the proposed study, in addition to clinical outcomes, we will estimate years of life gained and quality-adjusted life years (QALYs) gained. Both will be enabled by the collection of time-to-outcome data and the latter also by collection of the EuroQoL Quality of Life data. All health economic analyses will be undertaken in accordance with recommended approaches, such as 5% discounting of estimated future costs and health gains. To account for any uncertainty in the data inputs for health economic modelling, sensitivity and uncertainty analyses will be undertaken using Monte Carlo simulation techniques <abbrgrp>
+                   <abbr bid="B56">56</abbr>
+                </abbrgrp>.</p>
+          </sec>
+          <sec>
+             <st>
+                <p>Project governance</p>
+             </st>
+             <p>Authors CMS and MM are responsible for overseeing all aspects of the project. Project management support is provided by JW, and additional project management was provided by Neurosciences Trials Australia during the setup phase. The project will be overseen by the project management committee, which consists of CMS, MM, JMcG, CSz, BW, DL, KH, MW, JW and JB and a community representative. This committee meets on a monthly basis. Funding agreements will be entered into between the administering institution and all collaborating institutions. An independent Data Safety Monitoring Committee, comprising a geriatrician and a physiotherapist, both with significant clinical research expertise, will monitor the trial.</p>
+          </sec>
+          <sec>
+             <st>
+                <p>Dissemination policy</p>
+             </st>
+             <p>The results of the trial will be presented in international peer-reviewed journals and presented at conferences. Decisions about publications arising from the data set will be ratified by the Management Committee and all named investigators will be eligible to have authorship on publications arising from the trial. Trial staff will also provide workshops to clinicians to assist the translation of findings to clinical practice.</p>
+          </sec>
+       </sec>
+       <sec>
+          <st>
+             <p>Discussion</p>
+          </st>
+          <p>Loss of mobility is a major determinant of the need for inpatient rehabilitation for older adults <abbrgrp>
+                <abbr bid="B57">57</abbr>
+             </abbrgrp>. However, there is currently little evidence to guide clinicians in the management for older people admitted to rehabilitation. It is hypothesized that optimizing physical activity will lead to improved mobility outcomes for this population. It has been established that programs designed to increase physical activity during inpatient rehabilitation can be delivered to most older patients, but whether increasing physical activity during hospitalization is efficacious or cost-effective has not been tested. This study will assess both the shorter and longer term (6&#160;months following discharge) functional outcomes and healthcare utilization of participants who undergo a program to increase their physical activity in addition to usual rehabilitation compared to those who only receive usual rehabilitation plus social interaction. The results of this study will inform current rehabilitation practice in Australia and worldwide, and will contribute to the development of clinical practice guidelines.</p>
+       </sec>
+       <sec>
+          <st>
+             <p>Trial status</p>
+          </st>
+          <p>The trial commenced recruitment on 28 January 2014 and is currently open for recruitment. Recruitment will cease when 198 participants have been randomized. It is anticipated this target will be reached by April 2015.</p>
+       </sec>
+       <sec>
+          <st>
+             <p>Abbreviations</p>
+          </st>
+          <p>ACTRN: Australian New Zealand Clinical Trials Registry</p>
+          <p>CONSORT: Consolidated Standards of Reporting Trials</p>
+          <p>DEMMI: De Morton Mobility Index</p>
+          <p>EQ5D: Euro QoL Health Questionnaire</p>
+          <p>EQ-VAS: Euro QoL Visual Analog Scale</p>
+          <p>FIM: Functional Independence Measure</p>
+          <p>IQR: interquartile range</p>
+          <p>LOS: length of stay</p>
+          <p>NHMRC: National Health and Medical Research Council</p>
+          <p>QALYs: quality-adjusted life years</p>
+          <p>RCT: randomized controlled trial</p>
+          <p>TUG: timed up and go</p>
+       </sec>
+       <sec>
+          <st>
+             <p>Competing interests</p>
+          </st>
+          <p>The authors declare that they have no competing interests.</p>
+       </sec>
+       <sec>
+          <st>
+             <p>Authors&#8217; contributions</p>
+          </st>
+          <p>The protocol was developed by CMS, MM, JMcG, CSz, JB, KH, DL, MW, and BW. JW is the project manager and has contributed to the refinement of the protocol. LC provided advice on statistical analysis. CMS, CV and MM prepared the initial manuscript. All authors reviewed the final manuscript prior to submission. All authors read and approved the final manuscript.</p>
+       </sec>
+    </bdy>
+    <bm>
+       <ack>
+          <sec>
+             <st>
+                <p>Acknowledgements</p>
+             </st>
+             <p>The study has been funded by a National Health and Medical Research Council project grant (NHMRC) (App1042680).</p>
+          </sec>
+       </ack>
+       <refgrp>
+          
+          <bibl id="B1">
+             <insg>
+                <ins>
+                   <p>Australian Bureau of Statistics</p>
+                </ins>
+             </insg>
+             <source>Australian Demographic Statistics June 2013 (cat. no. 3101.0)</source>
+             <publisher>ABS, Canberra</publisher>
+             <pubdate>2013</pubdate>
+          </bibl>
+          <bibl id="B2">
+             <title>
+                <p>An aging population and growing disease burden will require alarge and specialized health care workforce by 2025</p>
+             </title>
+             <aug>
+                <au>
+                   <snm>Dall</snm>
+                   <fnm>TM</fnm>
+                </au>
+                <au>
+                   <snm>Gallo</snm>
+                   <fnm>PD</fnm>
+                </au>
+                <au>
+                   <snm>Chakrabarti</snm>
+                   <fnm>R</fnm>
+                </au>
+                <au>
+                   <snm>West</snm>
+                   <fnm>T</fnm>
+                </au>
+                <au>
+                   <snm>Semilla</snm>
+                   <fnm>AP</fnm>
+                </au>
+                <au>
+                   <snm>Storm</snm>
+                   <fnm>MV</fnm>
+                </au>
+             </aug>
+             <source>Health Aff (Millwood)</source>
+             <pubdate>2013</pubdate>
+             <volume>32</volume>
+             <fpage>2013</fpage>
+             <lpage>20</lpage>
+             <xrefbib>
+                <pubidlist>
+                   <pubid idtype="doi">10.1377/hlthaff.2013.0714</pubid>
+                </pubidlist>
+             </xrefbib>
+          </bibl>
+          <bibl id="B3">
+             <note>National Institute on Aging, National Institutes of Health &amp; World Health Organization. Global Health and Aging<it>.</it> NIH Publication no 11&#8211;7737; 2011.</note>
+          </bibl>
+          <bibl id="B4">
+             <insg>
+                <ins>
+                   <p>Australian Institute of Health and Welfare</p>
+                </ins>
+             </insg>
+             <source>Australian Hospital Statistics 2011&#8211;12. Health services series no. 50. Cat. no. HSE 134</source>
+             <publisher>AIHW, Canberra</publisher>
+             <pubdate>2013</pubdate>
+          </bibl>
+          <bibl id="B5">
+             <note>World Health Organization. Health topics &#8211; rehabilitation. [<url>http://www.who.int/topics/rehabilitation/en/</url>]</note>
+          </bibl>
+          <bibl id="B6">
+             <title>
+                <p>Mobility on discharge from an aged care unit</p>
+             </title>
+             <aug>
+                <au>
+                   <snm>Gorgon</snm>
+                   <fnm>E</fnm>
+                </au>
+                <au>
+                   <snm>Said</snm>
+                   <fnm>C</fnm>
+                </au>
+                <au>
+                   <snm>Galea</snm>
+                   <fnm>M</fnm>
+                </au>
+             </aug>
+             <source>Physiother Res Int</source>
+             <pubdate>2007</pubdate>
+             <volume>12</volume>
+             <fpage>72</fpage>
+             <lpage>81</lpage>
+             <xrefbib>
+                <pubidlist>
+                   <pubid idtype="doi">10.1002/pri.348</pubid>
+                   <pubid idtype="pmpid" link="fulltext">17536645</pubid>
+                </pubidlist>
+             </xrefbib>
+          </bibl>
+          <bibl id="B7">
+             <title>
+                <p>Mobility-related disability three months after aged care rehabilitation can be predicted with a simple tool: an observational study</p>
+             </title>
+             <aug>
+                <au>
+                   <snm>Sherrington</snm>
+                   <fnm>C</fnm>
+                </au>
+                <au>
+                   <snm>Lord</snm>
+                   <fnm>SR</fnm>
+                </au>
+                <au>
+                   <snm>Close</snm>
+                   <fnm>JCT</fnm>
+                </au>
+                <au>
+                   <snm>Barraclough</snm>
+                   <fnm>E</fnm>
+                </au>
+                <au>
+                   <snm>Taylor</snm>
+                   <fnm>M</fnm>
+                </au>
+                <au>
+                   <snm>Cumming</snm>
+                   <fnm>RG</fnm>
+                </au>
+                <au>
+                   <snm>Herbert</snm>
+                   <fnm>RD</fnm>
+                </au>
+             </aug>
+             <source>J Geophys Res</source>
+             <pubdate>2010</pubdate>
+             <volume>56</volume>
+             <fpage>121</fpage>
+             <lpage>7</lpage>
+          </bibl>
+          <bibl id="B8">
+             <title>
+                <p>A prospective trial of serial gait speed as a measure of rehabilitation in the elderly</p>
+             </title>
+             <aug>
+                <au>
+                   <snm>Freidman</snm>
+                   <fnm>PJ</fnm>
+                </au>
+                <au>
+                   <snm>Richmond</snm>
+                   <fnm>DE</fnm>
+                </au>
+                <au>
+                   <snm>Baskett</snm>
+                   <fnm>JJ</fnm>
+                </au>
+             </aug>
+             <source>Age Ageing</source>
+             <pubdate>1988</pubdate>
+             <volume>17</volume>
+             <fpage>227</fpage>
+             <lpage>35</lpage>
+             <xrefbib>
+                <pubidlist>
+                   <pubid idtype="doi">10.1093/ageing/17.4.227</pubid>
+                </pubidlist>
+             </xrefbib>
+          </bibl>
+          <bibl id="B9">
+             <title>
+                <p>Mobility difficulties and physical activity as predictors of mortality and loss of independence in the community-living older population</p>
+             </title>
+             <aug>
+                <au>
+                   <snm>Hirvensalo</snm>
+                   <fnm>M</fnm>
+                </au>
+                <au>
+                   <snm>Rantanen</snm>
+                   <fnm>T</fnm>
+                </au>
+                <au>
+                   <snm>Heikkinen</snm>
+                   <fnm>E</fnm>
+                </au>
+             </aug>
+             <source>J Am Geriatr Soc</source>
+             <pubdate>2000</pubdate>
+             <volume>48</volume>
+             <fpage>493</fpage>
+             <lpage>8</lpage>
+             <xrefbib>
+                <pubidlist>
+                   <pubid idtype="pmpid" link="fulltext">10811541</pubid>
+                </pubidlist>
+             </xrefbib>
+          </bibl>
+          <bibl id="B10">
+             <title>
+                <p>The Patient Who Falls: &#8220;It&#8217;s Always a Trade-off&#8221;</p>
+             </title>
+             <aug>
+                <au>
+                   <snm>Tinetti</snm>
+                   <fnm>ME</fnm>
+                </au>
+                <au>
+                   <snm>Kumar</snm>
+                   <fnm>C</fnm>
+                </au>
+             </aug>
+             <source>JAMA</source>
+             <pubdate>2010</pubdate>
+             <volume>303</volume>
+             <fpage>258</fpage>
+             <lpage>66</lpage>
+             <xrefbib>
+                <pubidlist>
+                   <pubid idtype="doi">10.1001/jama.2009.2024</pubid>
+                   <pubid idtype="pmpid" link="fulltext">20085954</pubid>
+                </pubidlist>
+             </xrefbib>
+          </bibl>
+          <bibl id="B11">
+             <title>
+                <p>Predictors of functional decline in hospitalized elderly patients: a systematic review</p>
+             </title>
+             <aug>
+                <au>
+                   <snm>McCusker</snm>
+                   <fnm>J</fnm>
+                </au>
+                <au>
+                   <snm>Kakuma</snm>
+                   <fnm>R</fnm>
+                </au>
+                <au>
+                   <snm>Abrahamowicz</snm>
+                   <fnm>M</fnm>
+                </au>
+             </aug>
+             <source>J Gerontol A Biol Sci Med Sci</source>
+             <pubdate>2002</pubdate>
+             <volume>57</volume>
+             <fpage>M569</fpage>
+             <lpage>77</lpage>
+             <xrefbib>
+                <pubidlist>
+                   <pubid idtype="doi">10.1093/gerona/57.9.M569</pubid>
+                   <pubid idtype="pmpid" link="fulltext">12196493</pubid>
+                </pubidlist>
+             </xrefbib>
+          </bibl>
+          <bibl id="B12">
+             <insg>
+                <ins>
+                   <p>U.S. Department of Health and Human Services</p>
+                </ins>
+             </insg>
+             <source>2008 Physical Activity Guidelines for Americans</source>
+             <pubdate>2008</pubdate>
+          </bibl>
+          <bibl id="B13">
+             <note>New Zealand Government Ministry of Health. Guidelines on Physical Activity for Older People (aged 65&#160;years and over)<it>.</it> Wellington, New Zealand; 2013.</note>
+          </bibl>
+          <bibl id="B14">
+             <title>
+                <p>Physical activity and public health in older adults: recommendation from the American College of Sports Medicine and the American Heart Association</p>
+             </title>
+             <aug>
+                <au>
+                   <snm>Nelson</snm>
+                   <fnm>ME</fnm>
+                </au>
+                <au>
+                   <snm>Rejeski</snm>
+                   <fnm>WJ</fnm>
+                </au>
+                <au>
+                   <snm>Blair</snm>
+                   <fnm>SN</fnm>
+                </au>
+                <au>
+                   <snm>Duncan</snm>
+                   <fnm>PW</fnm>
+                </au>
+                <au>
+                   <snm>Judge</snm>
+                   <fnm>JO</fnm>
+                </au>
+                <au>
+                   <snm>King</snm>
+                   <fnm>AC</fnm>
+                </au>
+                <au>
+                   <snm>Macera</snm>
+                   <fnm>CA</fnm>
+                </au>
+                <au>
+                   <snm>Castaneda-Sceppa</snm>
+                   <fnm>C</fnm>
+                </au>
+             </aug>
+             <source>Circulation</source>
+             <pubdate>2007</pubdate>
+             <volume>116</volume>
+             <fpage>1094</fpage>
+             <lpage>105</lpage>
+             <xrefbib>
+                <pubidlist>
+                   <pubid idtype="doi">10.1161/CIRCULATIONAHA.107.185650</pubid>
+                   <pubid idtype="pmpid" link="fulltext">17671236</pubid>
+                </pubidlist>
+             </xrefbib>
+          </bibl>
+          <bibl id="B15">
+             <title>
+                <p>Physical activity recommendations for older Australians</p>
+             </title>
+             <aug>
+                <au>
+                   <snm>Sims</snm>
+                   <fnm>J</fnm>
+                </au>
+                <au>
+                   <snm>Hill Keith</snm>
+                   <fnm>D</fnm>
+                </au>
+                <au>
+                   <snm>Hunt</snm>
+                   <fnm>S</fnm>
+                </au>
+                <au>
+                   <snm>Haralambous</snm>
+                   <fnm>B</fnm>
+                </au>
+             </aug>
+             <source>Australas J Ageing</source>
+             <pubdate>2010</pubdate>
+             <volume>29</volume>
+             <fpage>81</fpage>
+             <lpage>7</lpage>
+             <xrefbib>
+                <pubidlist>
+                   <pubid idtype="doi">10.1111/j.1741-6612.2009.00388.x</pubid>
+                   <pubid idtype="pmpid" link="fulltext">20553539</pubid>
+                </pubidlist>
+             </xrefbib>
+          </bibl>
+          <bibl id="B16">
+             <title>
+                <p>Stand up and be counted: measuring time spent upright after hip fracture and comparison with community dwelling older people</p>
+             </title>
+             <aug>
+                <au>
+                   <snm>Bernhardt</snm>
+                   <fnm>J</fnm>
+                </au>
+                <au>
+                   <snm>Borschmann</snm>
+                   <fnm>K</fnm>
+                </au>
+                <au>
+                   <snm>Crock</snm>
+                   <fnm>D</fnm>
+                </au>
+                <au>
+                   <snm>Hill</snm>
+                   <fnm>K</fnm>
+                </au>
+                <au>
+                   <snm>McGann</snm>
+                   <fnm>A</fnm>
+                </au>
+                <au>
+                   <snm>DeGori</snm>
+                   <fnm>M</fnm>
+                </au>
+             </aug>
+             <source>Physiotherapy</source>
+             <pubdate>2005</pubdate>
+             <volume>91</volume>
+             <fpage>215</fpage>
+             <lpage>22</lpage>
+             <xrefbib>
+                <pubidlist>
+                   <pubid idtype="doi">10.1016/j.physio.2005.01.011</pubid>
+                </pubidlist>
+             </xrefbib>
+          </bibl>
+          <bibl id="B17">
+             <title>
+                <p>Stroke rehabilitation: are highly structured units more conducive to physical activity than less structured units?</p>
+             </title>
+             <aug>
+                <au>
+                   <snm>Mackey</snm>
+                   <fnm>F</fnm>
+                </au>
+                <au>
+                   <snm>Ada</snm>
+                   <fnm>L</fnm>
+                </au>
+                <au>
+                   <snm>Heard</snm>
+                   <fnm>R</fnm>
+                </au>
+                <au>
+                   <snm>Adams</snm>
+                   <fnm>R</fnm>
+                </au>
+             </aug>
+             <source>Arch Phys Med Rehabil</source>
+             <pubdate>1996</pubdate>
+             <volume>77</volume>
+             <fpage>1066</fpage>
+             <lpage>70</lpage>
+             <xrefbib>
+                <pubidlist>
+                   <pubid idtype="doi">10.1016/S0003-9993(96)90070-2</pubid>
+                   <pubid idtype="pmpid" link="fulltext">8857888</pubid>
+                </pubidlist>
+             </xrefbib>
+          </bibl>
+          <bibl id="B18">
+             <title>
+                <p>Determinants of walking function after stroke: Differences by deficit severity</p>
+             </title>
+             <aug>
+                <au>
+                   <snm>Patterson</snm>
+                   <fnm>SL</fnm>
+                </au>
+                <au>
+                   <snm>Forrester</snm>
+                   <fnm>LW</fnm>
+                </au>
+                <au>
+                   <snm>Rodgers</snm>
+                   <fnm>MM</fnm>
+                </au>
+                <au>
+                   <snm>Ryan</snm>
+                   <fnm>AS</fnm>
+                </au>
+                <au>
+                   <snm>Ivey</snm>
+                   <fnm>FM</fnm>
+                </au>
+                <au>
+                   <snm>Sorkin</snm>
+                   <fnm>JD</fnm>
+                </au>
+                <au>
+                   <snm>Macko</snm>
+                   <fnm>RF</fnm>
+                </au>
+             </aug>
+             <source>Arch Phys Med Rehabil</source>
+             <pubdate>2007</pubdate>
+             <volume>88</volume>
+             <fpage>115</fpage>
+             <lpage>9</lpage>
+             <xrefbib>
+                <pubidlist>
+                   <pubid idtype="doi">10.1016/j.apmr.2006.10.025</pubid>
+                   <pubid idtype="pmpid" link="fulltext">17207686</pubid>
+                </pubidlist>
+             </xrefbib>
+          </bibl>
+          <bibl id="B19">
+             <title>
+                <p>Physical activity by elderly patients undergoing inpatient rehabilitation is low: an observational study</p>
+             </title>
+             <aug>
+                <au>
+                   <snm>Smith</snm>
+                   <fnm>PA</fnm>
+                </au>
+                <au>
+                   <snm>Galea</snm>
+                   <fnm>M</fnm>
+                </au>
+                <au>
+                   <snm>Woodward</snm>
+                   <fnm>M</fnm>
+                </au>
+                <au>
+                   <snm>Said</snm>
+                   <fnm>C</fnm>
+                </au>
+                <au>
+                   <snm>Doreveitch</snm>
+                   <fnm>M</fnm>
+                </au>
+             </aug>
+             <source>Aust J Physiother</source>
+             <pubdate>2008</pubdate>
+             <volume>54</volume>
+             <fpage>209</fpage>
+             <lpage>13</lpage>
+             <xrefbib>
+                <pubidlist>
+                   <pubid idtype="doi">10.1016/S0004-9514(08)70028-X</pubid>
+                   <pubid idtype="pmpid" link="fulltext">18721125</pubid>
+                </pubidlist>
+             </xrefbib>
+          </bibl>
+          <bibl id="B20">
+             <title>
+                <p>Extra physical therapy reduces patient length of stay and improves functional outcomes and quality of life in people with acute or subacute conditions: a systematic review</p>
+             </title>
+             <aug>
+                <au>
+                   <snm>Peiris</snm>
+                   <fnm>CL</fnm>
+                </au>
+                <au>
+                   <snm>Taylor</snm>
+                   <fnm>NF</fnm>
+                </au>
+                <au>
+                   <snm>Shields</snm>
+                   <fnm>N</fnm>
+                </au>
+             </aug>
+             <source>Arch Phys Med Rehabil</source>
+             <pubdate>2011</pubdate>
+             <volume>92</volume>
+             <fpage>1490</fpage>
+             <lpage>500</lpage>
+             <xrefbib>
+                <pubidlist>
+                   <pubid idtype="doi">10.1016/j.apmr.2011.04.005</pubid>
+                   <pubid idtype="pmpid" link="fulltext">21878220</pubid>
+                </pubidlist>
+             </xrefbib>
+          </bibl>
+          <bibl id="B21">
+             <title>
+                <p>Exercise for acutely hospitalised older medical patients</p>
+             </title>
+             <aug>
+                <au>
+                   <snm>de Morton</snm>
+                   <fnm>NA</fnm>
+                </au>
+                <au>
+                   <snm>Keating</snm>
+                   <fnm>JL</fnm>
+                </au>
+                <au>
+                   <snm>Jeffs</snm>
+                   <fnm>K</fnm>
+                </au>
+             </aug>
+             <source>Cochrane Database Syst Rev</source>
+             <pubdate>2007</pubdate>
+             <volume>1</volume>
+             <fpage>CD005955</fpage>
+             <xrefbib>
+                <pubidlist>
+                   <pubid idtype="pmpid" link="fulltext">17253572</pubid>
+                </pubidlist>
+             </xrefbib>
+          </bibl>
+          <bibl id="B22">
+             <title>
+                <p>Rehabilitation for older people in long-term care</p>
+             </title>
+             <aug>
+                <au>
+                   <snm>Forster</snm>
+                   <fnm>A</fnm>
+                </au>
+                <au>
+                   <snm>Lambley</snm>
+                   <fnm>R</fnm>
+                </au>
+                <au>
+                   <snm>Hardy</snm>
+                   <fnm>J</fnm>
+                </au>
+                <au>
+                   <snm>Young</snm>
+                   <fnm>J</fnm>
+                </au>
+                <au>
+                   <snm>Smith</snm>
+                   <fnm>J</fnm>
+                </au>
+                <au>
+                   <snm>Green</snm>
+                   <fnm>J</fnm>
+                </au>
+                <au>
+                   <snm>Burns</snm>
+                   <fnm>E</fnm>
+                </au>
+             </aug>
+             <source>Cochrane Database Syst Rev</source>
+             <pubdate>2009</pubdate>
+             <volume>21</volume>
+             <fpage>CD004294</fpage>
+          </bibl>
+          <bibl id="B23">
+             <title>
+                <p>Interventions for promoting mobility in community-dwelling older adults</p>
+             </title>
+             <aug>
+                <au>
+                   <snm>Yeom</snm>
+                   <fnm>HA</fnm>
+                </au>
+                <au>
+                   <snm>Keller</snm>
+                   <fnm>C</fnm>
+                </au>
+                <au>
+                   <snm>Fleury</snm>
+                   <fnm>J</fnm>
+                </au>
+             </aug>
+             <source>J Am Acad Nurse Prace</source>
+             <pubdate>2009</pubdate>
+             <volume>21</volume>
+             <fpage>95</fpage>
+             <lpage>100</lpage>
+             <xrefbib>
+                <pubidlist>
+                   <pubid idtype="doi">10.1111/j.1745-7599.2008.00390.x</pubid>
+                </pubidlist>
+             </xrefbib>
+          </bibl>
+          <bibl id="B24">
+             <title>
+                <p>A randomized trial of a multicomponent home intervention to reduce functional difficulties in older adults</p>
+             </title>
+             <aug>
+                <au>
+                   <snm>Gitlin</snm>
+                   <fnm>LN</fnm>
+                </au>
+                <au>
+                   <snm>Winter</snm>
+                   <fnm>L</fnm>
+                </au>
+                <au>
+                   <snm>Dennis</snm>
+                   <fnm>MP</fnm>
+                </au>
+                <au>
+                   <snm>Corcoran</snm>
+                   <fnm>M</fnm>
+                </au>
+                <au>
+                   <snm>Schinfeld</snm>
+                   <fnm>S</fnm>
+                </au>
+                <au>
+                   <snm>Hauck</snm>
+                   <fnm>WW</fnm>
+                </au>
+             </aug>
+             <source>J Am Geriatr Soc</source>
+             <pubdate>2006</pubdate>
+             <volume>54</volume>
+             <fpage>950</fpage>
+             <lpage>5</lpage>
+             <xrefbib>
+                <pubidlist>
+                   <pubid idtype="doi">10.1111/j.1532-5415.2006.00733.x</pubid>
+                   <pubid idtype="pmpid" link="fulltext">16776791</pubid>
+                </pubidlist>
+             </xrefbib>
+          </bibl>
+          <bibl id="B25">
+             <title>
+                <p>Mobility in older adults receiving hospital based rehabilitation: A phase II feasibility study</p>
+             </title>
+             <aug>
+                <au>
+                   <snm>Said</snm>
+                   <fnm>CM</fnm>
+                </au>
+                <au>
+                   <snm>Morris</snm>
+                   <fnm>ME</fnm>
+                </au>
+                <au>
+                   <snm>Woodward</snm>
+                   <fnm>M</fnm>
+                </au>
+                <au>
+                   <snm>Churilov</snm>
+                   <fnm>L</fnm>
+                </au>
+                <au>
+                   <snm>Bernhardt</snm>
+                   <fnm>J</fnm>
+                </au>
+             </aug>
+             <source>BMC Geriatr</source>
+             <pubdate>2012</pubdate>
+             <volume>12</volume>
+             <fpage>26</fpage>
+             <xrefbib>
+                <pubidlist>
+                   <pubid idtype="doi">10.1186/1471-2318-12-26</pubid>
+                   <pubid idtype="pmpid" link="fulltext">22676723</pubid>
+                </pubidlist>
+             </xrefbib>
+          </bibl>
+          <bibl id="B26">
+             <title>
+                <p>CONSORT 2010 Explanation and Elaboration: updated guidelines for reporting parallel group randomised trial</p>
+             </title>
+             <aug>
+                <au>
+                   <snm>Moher</snm>
+                   <fnm>D</fnm>
+                </au>
+                <au>
+                   <snm>Hopewell</snm>
+                   <fnm>S</fnm>
+                </au>
+                <au>
+                   <snm>Schulz</snm>
+                   <fnm>KF</fnm>
+                </au>
+                <au>
+                   <snm>Montori</snm>
+                   <fnm>V</fnm>
+                </au>
+                <au>
+                   <snm>Goetzsche</snm>
+                   <fnm>PC</fnm>
+                </au>
+                <au>
+                   <snm>Devereaux</snm>
+                   <fnm>PJ</fnm>
+                </au>
+                <au>
+                   <snm>Elbourne</snm>
+                   <fnm>D</fnm>
+                </au>
+                <au>
+                   <snm>Egger</snm>
+                   <fnm>M</fnm>
+                </au>
+                <au>
+                   <snm>Altman</snm>
+                   <fnm>DG</fnm>
+                </au>
+             </aug>
+             <insg>
+                <ins>
+                   <p>Group ftC</p>
+                </ins>
+             </insg>
+             <source>BMJ</source>
+             <pubdate>2010</pubdate>
+             <volume>340</volume>
+             <fpage>c869</fpage>
+             <xrefbib>
+                <pubidlist>
+                   <pubid idtype="doi">10.1136/bmj.c869</pubid>
+                   <pubid idtype="pmpid" link="fulltext">20332511</pubid>
+                </pubidlist>
+             </xrefbib>
+          </bibl>
+          <bibl id="B27">
+             <title>
+                <p>Retest reliability of the temporal and distance characteristics of hemiplegic gait using a footswitch system</p>
+             </title>
+             <aug>
+                <au>
+                   <snm>Hill</snm>
+                   <fnm>KD</fnm>
+                </au>
+                <au>
+                   <snm>Goldie</snm>
+                   <fnm>PA</fnm>
+                </au>
+                <au>
+                   <snm>Baker</snm>
+                   <fnm>PA</fnm>
+                </au>
+                <au>
+                   <snm>Greenwood</snm>
+                   <fnm>KM</fnm>
+                </au>
+             </aug>
+             <source>Arch Phys Med Rehabil</source>
+             <pubdate>1994</pubdate>
+             <volume>75</volume>
+             <fpage>577</fpage>
+             <lpage>83</lpage>
+             <xrefbib>
+                <pubidlist>
+                   <pubid idtype="pmpid" link="fulltext">8185453</pubid>
+                </pubidlist>
+             </xrefbib>
+          </bibl>
+          <bibl id="B28">
+             <title>
+                <p>Studies of gait and mobility in the elderly</p>
+             </title>
+             <aug>
+                <au>
+                   <snm>Imms</snm>
+                   <fnm>FJ</fnm>
+                </au>
+                <au>
+                   <snm>Edholm</snm>
+                   <fnm>OG</fnm>
+                </au>
+             </aug>
+             <source>Age Ageing</source>
+             <pubdate>1981</pubdate>
+             <volume>10</volume>
+             <fpage>147</fpage>
+             <lpage>56</lpage>
+             <xrefbib>
+                <pubidlist>
+                   <pubid idtype="doi">10.1093/ageing/10.3.147</pubid>
+                   <pubid idtype="pmpid" link="fulltext">7270322</pubid>
+                </pubidlist>
+             </xrefbib>
+          </bibl>
+          <bibl id="B29">
+             <title>
+                <p>Relationship of clinic-based gait speed measurement to limitations in community-based activities in older adults</p>
+             </title>
+             <aug>
+                <au>
+                   <snm>Verghese</snm>
+                   <fnm>J</fnm>
+                </au>
+                <au>
+                   <snm>Wang</snm>
+                   <fnm>C</fnm>
+                </au>
+                <au>
+                   <snm>Holtzer</snm>
+                   <fnm>R</fnm>
+                </au>
+             </aug>
+             <source>Arch Phys Med Rehabil</source>
+             <pubdate>2011</pubdate>
+             <volume>92</volume>
+             <fpage>844</fpage>
+             <lpage>6</lpage>
+             <xrefbib>
+                <pubidlist>
+                   <pubid idtype="doi">10.1016/j.apmr.2010.12.030</pubid>
+                   <pubid idtype="pmpid" link="fulltext">21530734</pubid>
+                </pubidlist>
+             </xrefbib>
+          </bibl>
+          <bibl id="B30">
+             <title>
+                <p>Walking speed predicts health status and hospital costs for frail elderly male veterans</p>
+             </title>
+             <aug>
+                <au>
+                   <snm>Purser</snm>
+                   <fnm>JL</fnm>
+                </au>
+                <au>
+                   <snm>Weinberger</snm>
+                   <fnm>M</fnm>
+                </au>
+                <au>
+                   <snm>Cohen</snm>
+                   <fnm>HJ</fnm>
+                </au>
+                <au>
+                   <snm>Pieper</snm>
+                   <fnm>CF</fnm>
+                </au>
+                <au>
+                   <snm>Morey</snm>
+                   <fnm>MC</fnm>
+                </au>
+                <au>
+                   <snm>Li</snm>
+                   <fnm>T</fnm>
+                </au>
+                <au>
+                   <snm>Williams</snm>
+                   <fnm>GR</fnm>
+                </au>
+                <au>
+                   <snm>Lapuerta</snm>
+                   <fnm>P</fnm>
+                </au>
+             </aug>
+             <source>J Rehabil Res Dev</source>
+             <pubdate>2005</pubdate>
+             <volume>42</volume>
+             <fpage>535</fpage>
+             <lpage>46</lpage>
+             <xrefbib>
+                <pubidlist>
+                   <pubid idtype="doi">10.1682/JRRD.2004.07.0087</pubid>
+                   <pubid idtype="pmpid" link="fulltext">16320148</pubid>
+                </pubidlist>
+             </xrefbib>
+          </bibl>
+          <bibl id="B31">
+             <title>
+                <p>Test-retest reliability and minimal detectable change scores for the Timed &#8220;Up &amp; Go&#8221; Test, the Six-Minute Walk Test, and gait speed in people with Alzheimer disease</p>
+             </title>
+             <aug>
+                <au>
+                   <snm>Ries</snm>
+                   <fnm>JD</fnm>
+                </au>
+             </aug>
+             <source>Phys Ther</source>
+             <pubdate>2009</pubdate>
+             <volume>89</volume>
+             <fpage>569</fpage>
+             <lpage>79</lpage>
+             <xrefbib>
+                <pubidlist>
+                   <pubid idtype="doi">10.2522/ptj.20080258</pubid>
+                   <pubid idtype="pmpid" link="fulltext">19389792</pubid>
+                </pubidlist>
+             </xrefbib>
+          </bibl>
+          <bibl id="B32">
+             <title>
+                <p>Gait after stroke: Initial deficit and changes in temporal patterns for each gait phase</p>
+             </title>
+             <aug>
+                <au>
+                   <snm>Goldie</snm>
+                   <fnm>PA</fnm>
+                </au>
+                <au>
+                   <snm>Matyas</snm>
+                   <fnm>TA</fnm>
+                </au>
+                <au>
+                   <snm>Evans</snm>
+                   <fnm>OM</fnm>
+                </au>
+             </aug>
+             <source>Arch Phys Med Rehabil</source>
+             <pubdate>2001</pubdate>
+             <volume>82</volume>
+             <fpage>1057</fpage>
+             <lpage>65</lpage>
+             <xrefbib>
+                <pubidlist>
+                   <pubid idtype="doi">10.1053/apmr.2001.25085</pubid>
+                   <pubid idtype="pmpid" link="fulltext">11494185</pubid>
+                </pubidlist>
+             </xrefbib>
+          </bibl>
+          <bibl id="B33">
+             <title>
+                <p>Responsiveness and predictability of gait speed and other disability measures in acute stroke</p>
+             </title>
+             <aug>
+                <au>
+                   <snm>Salbach</snm>
+                   <fnm>NM</fnm>
+                </au>
+                <au>
+                   <snm>Mayo</snm>
+                   <fnm>NE</fnm>
+                </au>
+                <au>
+                   <snm>Higgins</snm>
+                   <fnm>J</fnm>
+                </au>
+                <au>
+                   <snm>Ahmed</snm>
+                   <fnm>S</fnm>
+                </au>
+                <au>
+                   <snm>Finch</snm>
+                   <fnm>LE</fnm>
+                </au>
+                <au>
+                   <snm>Richards</snm>
+                   <fnm>CL</fnm>
+                </au>
+             </aug>
+             <source>Arch Phys Med Rehabil</source>
+             <pubdate>2001</pubdate>
+             <volume>82</volume>
+             <fpage>1204</fpage>
+             <lpage>12</lpage>
+             <xrefbib>
+                <pubidlist>
+                   <pubid idtype="doi">10.1053/apmr.2001.24907</pubid>
+                   <pubid idtype="pmpid" link="fulltext">11552192</pubid>
+                </pubidlist>
+             </xrefbib>
+          </bibl>
+          <bibl id="B34">
+             <title>
+                <p>Does functional reach improve with rehabilitation?</p>
+             </title>
+             <aug>
+                <au>
+                   <snm>Weiner</snm>
+                   <fnm>D</fnm>
+                </au>
+                <au>
+                   <snm>Bongoiorni</snm>
+                   <fnm>D</fnm>
+                </au>
+                <au>
+                   <snm>Studenski</snm>
+                   <fnm>S</fnm>
+                </au>
+                <au>
+                   <snm>Duncan</snm>
+                   <fnm>P</fnm>
+                </au>
+             </aug>
+             <source>Arch Phys Med Rehabil</source>
+             <pubdate>1993</pubdate>
+             <volume>74</volume>
+             <fpage>796</fpage>
+             <xrefbib>
+                <pubidlist>
+                   <pubid idtype="doi">10.1016/0003-9993(93)90003-S</pubid>
+                   <pubid idtype="pmpid" link="fulltext">8347063</pubid>
+                </pubidlist>
+             </xrefbib>
+          </bibl>
+          <bibl id="B35">
+             <title>
+                <p>The timed &#8220;Up and Go&#8221;: a test of basic functional mobility for frail elderly persons</p>
+             </title>
+             <aug>
+                <au>
+                   <snm>Podsiadlo</snm>
+                   <fnm>D</fnm>
+                </au>
+                <au>
+                   <snm>Richardson</snm>
+                   <fnm>S</fnm>
+                </au>
+             </aug>
+             <source>J Am Geriatr Soc</source>
+             <pubdate>1991</pubdate>
+             <volume>39</volume>
+             <fpage>142</fpage>
+             <lpage>8</lpage>
+             <xrefbib>
+                <pubidlist>
+                   <pubid idtype="pmpid" link="fulltext">1991946</pubid>
+                </pubidlist>
+             </xrefbib>
+          </bibl>
+          <bibl id="B36">
+             <title>
+                <p>The de Morton Mobility Index (DEMMI) provides a valid method for measuring and monitoring the mobility of patients making the transition from hospital to the community: an observational study</p>
+             </title>
+             <aug>
+                <au>
+                   <snm>de Morton</snm>
+                   <fnm>NA</fnm>
+                </au>
+                <au>
+                   <snm>Brusco</snm>
+                   <fnm>NK</fnm>
+                </au>
+                <au>
+                   <snm>Wood</snm>
+                   <fnm>L</fnm>
+                </au>
+                <au>
+                   <snm>Lawler</snm>
+                   <fnm>K</fnm>
+                </au>
+                <au>
+                   <snm>Taylor</snm>
+                   <fnm>N</fnm>
+                </au>
+             </aug>
+             <source>J Geophys Res</source>
+             <pubdate>2011</pubdate>
+             <volume>57</volume>
+             <fpage>109</fpage>
+             <lpage>16</lpage>
+          </bibl>
+          <bibl id="B37">
+             <title>
+                <p>The de Morton Mobility Index (DEMMI): An essential health index for an ageing world</p>
+             </title>
+             <aug>
+                <au>
+                   <snm>de Morton</snm>
+                   <fnm>NA</fnm>
+                </au>
+                <au>
+                   <snm>Davidson</snm>
+                   <fnm>M</fnm>
+                </au>
+                <au>
+                   <snm>Keating</snm>
+                   <fnm>J</fnm>
+                </au>
+             </aug>
+             <source>Health and Qual Life Outcomes</source>
+             <pubdate>2008</pubdate>
+             <volume>6</volume>
+             <fpage>63</fpage>
+             <xrefbib>
+                <pubidlist>
+                   <pubid idtype="doi">10.1186/1477-7525-6-63</pubid>
+                </pubidlist>
+             </xrefbib>
+          </bibl>
+          <bibl id="B38">
+             <title>
+                <p>Validity and reliability of the de Morton Mobility Index (DEMMI) in the subacute hospital setting in a geriatric evaluation and management (GEM) population</p>
+             </title>
+             <aug>
+                <au>
+                   <snm>de Morton</snm>
+                   <fnm>NA</fnm>
+                </au>
+                <au>
+                   <snm>Lane</snm>
+                   <fnm>K</fnm>
+                </au>
+             </aug>
+             <source>J Rehabil Med</source>
+             <pubdate>2010</pubdate>
+             <volume>42</volume>
+             <fpage>956</fpage>
+             <lpage>61</lpage>
+             <xrefbib>
+                <pubidlist>
+                   <pubid idtype="doi">10.2340/16501977-0626</pubid>
+                   <pubid idtype="pmpid" link="fulltext">21031293</pubid>
+                </pubidlist>
+             </xrefbib>
+          </bibl>
+          <bibl id="B39">
+             <title>
+                <p>The Functional Independence Measure: A new tool for rehabilitation</p>
+             </title>
+             <aug>
+                <au>
+                   <snm>Keith</snm>
+                   <fnm>RA</fnm>
+                </au>
+                <au>
+                   <snm>Granger</snm>
+                   <fnm>CV</fnm>
+                </au>
+                <au>
+                   <snm>Hamilton</snm>
+                   <fnm>BB</fnm>
+                </au>
+                <au>
+                   <snm>Sherwin</snm>
+                   <fnm>FS</fnm>
+                </au>
+             </aug>
+             <source>Adv Clin Rehabil</source>
+             <publisher>Springer Publishing Company, Inc, New York</publisher>
+             <editor>Eisenberg MG</editor>
+             <pubdate>1987</pubdate>
+          </bibl>
+          <bibl id="B40">
+             <title>
+                <p>EuroQol- a new facility for the measurement of health related quality of life</p>
+             </title>
+             <aug>
+                <au>
+                   <snm>Group</snm>
+                   <fnm>EQ</fnm>
+                </au>
+             </aug>
+             <source>Health policy</source>
+             <pubdate>1990</pubdate>
+             <volume>16</volume>
+             <fpage>199</fpage>
+             <lpage>208</lpage>
+             <xrefbib>
+                <pubidlist>
+                   <pubid idtype="doi">10.1016/0168-8510(90)90421-9</pubid>
+                </pubidlist>
+             </xrefbib>
+          </bibl>
+          <bibl id="B41">
+             <title>
+                <p>Development of a common data set for fall injury prevention trials: the Prevention of Falls Network Europe Consensus</p>
+             </title>
+             <aug>
+                <au>
+                   <snm>Lamb</snm>
+                   <fnm>SE</fnm>
+                </au>
+                <au>
+                   <snm>J&#248;rstad-Stein</snm>
+                   <fnm>EC</fnm>
+                </au>
+                <au>
+                   <snm>Hauer</snm>
+                   <fnm>K</fnm>
+                </au>
+                <au>
+                   <snm>Becker</snm>
+                   <fnm>C</fnm>
+                </au>
+             </aug>
+             <source>J Am Geriatr Soc</source>
+             <pubdate>2005</pubdate>
+             <volume>53</volume>
+             <fpage>1618</fpage>
+             <lpage>22</lpage>
+             <xrefbib>
+                <pubidlist>
+                   <pubid idtype="doi">10.1111/j.1532-5415.2005.53455.x</pubid>
+                   <pubid idtype="pmpid" link="fulltext">16137297</pubid>
+                </pubidlist>
+             </xrefbib>
+          </bibl>
+          <bibl id="B42">
+             <title>
+                <p>&#8220;Mini Mental State&#8221;. A practical method of grading the cognitive state of patients for the clinician</p>
+             </title>
+             <aug>
+                <au>
+                   <snm>Folstein</snm>
+                   <fnm>MF</fnm>
+                </au>
+                <au>
+                   <snm>Folstein</snm>
+                   <fnm>SE</fnm>
+                </au>
+                <au>
+                   <snm>McHugh</snm>
+                   <fnm>PR</fnm>
+                </au>
+             </aug>
+             <source>J Psychiatr Res</source>
+             <pubdate>1975</pubdate>
+             <volume>12</volume>
+             <fpage>189</fpage>
+             <lpage>98</lpage>
+             <xrefbib>
+                <pubidlist>
+                   <pubid idtype="doi">10.1016/0022-3956(75)90026-6</pubid>
+                   <pubid idtype="pmpid" link="fulltext">1202204</pubid>
+                </pubidlist>
+             </xrefbib>
+          </bibl>
+          <bibl id="B43">
+             <title>
+                <p>Frailty in older adults</p>
+             </title>
+             <aug>
+                <au>
+                   <snm>Fried</snm>
+                   <fnm>LP</fnm>
+                </au>
+                <au>
+                   <snm>Tangen</snm>
+                   <fnm>CM</fnm>
+                </au>
+                <au>
+                   <snm>Walston</snm>
+                   <fnm>J</fnm>
+                </au>
+                <au>
+                   <snm>Newman</snm>
+                   <fnm>AB</fnm>
+                </au>
+                <au>
+                   <snm>Hirsch</snm>
+                   <fnm>C</fnm>
+                </au>
+                <au>
+                   <snm>Gottdiener</snm>
+                   <fnm>J</fnm>
+                </au>
+                <au>
+                   <snm>Seeman</snm>
+                   <fnm>T</fnm>
+                </au>
+                <au>
+                   <snm>Tracy</snm>
+                   <fnm>R</fnm>
+                </au>
+                <au>
+                   <snm>Kop</snm>
+                   <fnm>WJ</fnm>
+                </au>
+                <au>
+                   <snm>Burke</snm>
+                   <fnm>G</fnm>
+                </au>
+                <au>
+                   <snm>McBurnie</snm>
+                   <fnm>MA</fnm>
+                </au>
+             </aug>
+             <source>J Gerontol A Biol Sci Med Sci</source>
+             <pubdate>2001</pubdate>
+             <volume>56</volume>
+             <fpage>M146</fpage>
+             <lpage>57</lpage>
+             <xrefbib>
+                <pubidlist>
+                   <pubid idtype="doi">10.1093/gerona/56.3.M146</pubid>
+                   <pubid idtype="pmpid" link="fulltext">11253156</pubid>
+                </pubidlist>
+             </xrefbib>
+          </bibl>
+          <bibl id="B44">
+             <title>
+                <p>Frailty Intervention Trial (FIT)</p>
+             </title>
+             <aug>
+                <au>
+                   <snm>Fairhall</snm>
+                   <fnm>N</fnm>
+                </au>
+                <au>
+                   <snm>Aggar</snm>
+                   <fnm>C</fnm>
+                </au>
+                <au>
+                   <snm>Kurrle</snm>
+                   <fnm>SE</fnm>
+                </au>
+                <au>
+                   <snm>Sherrington</snm>
+                   <fnm>C</fnm>
+                </au>
+                <au>
+                   <snm>Lord</snm>
+                   <fnm>S</fnm>
+                </au>
+                <au>
+                   <snm>Lockwood</snm>
+                   <fnm>K</fnm>
+                </au>
+                <au>
+                   <snm>Monaghan</snm>
+                   <fnm>N</fnm>
+                </au>
+                <au>
+                   <snm>Cameron</snm>
+                   <fnm>ID</fnm>
+                </au>
+             </aug>
+             <source>BMC Geriatr</source>
+             <pubdate>2008</pubdate>
+             <volume>8</volume>
+             <fpage>27</fpage>
+             <xrefbib>
+                <pubidlist>
+                   <pubid idtype="doi">10.1186/1471-2318-8-27</pubid>
+                   <pubid idtype="pmpid" link="fulltext">18851754</pubid>
+                </pubidlist>
+             </xrefbib>
+          </bibl>
+          <bibl id="B45">
+             <title>
+                <p>A new method of classifying prognostic comorbidity in longitudinal studies: development and validation</p>
+             </title>
+             <aug>
+                <au>
+                   <snm>Charlson</snm>
+                   <fnm>ME</fnm>
+                </au>
+                <au>
+                   <snm>Pompei</snm>
+                   <fnm>P</fnm>
+                </au>
+                <au>
+                   <snm>Ales</snm>
+                   <fnm>KL</fnm>
+                </au>
+                <au>
+                   <snm>MacKenzie</snm>
+                   <fnm>CR</fnm>
+                </au>
+             </aug>
+             <source>J Chronic Dis</source>
+             <pubdate>1987</pubdate>
+             <volume>40</volume>
+             <fpage>373</fpage>
+             <lpage>83</lpage>
+             <xrefbib>
+                <pubidlist>
+                   <pubid idtype="doi">10.1016/0021-9681(87)90171-8</pubid>
+                   <pubid idtype="pmpid" link="fulltext">3558716</pubid>
+                </pubidlist>
+             </xrefbib>
+          </bibl>
+          <bibl id="B46">
+             <title>
+                <p>Geriatric Depression Scale (GDS): recent evidence and development of a shorter version</p>
+             </title>
+             <aug>
+                <au>
+                   <snm>Sheik</snm>
+                   <fnm>JI</fnm>
+                </au>
+                <au>
+                   <snm>Yesavage</snm>
+                   <fnm>JA</fnm>
+                </au>
+             </aug>
+             <source>Clinical Gerontology: A Guide To Assessment And Intervention</source>
+             <publisher>Haworth Press, New York</publisher>
+             <editor>Brink TL</editor>
+             <pubdate>1986</pubdate>
+          </bibl>
+          <bibl id="B47">
+             <title>
+                <p>Physical activity measured by the SenseWear Armband in women with rheumatoid arthritis</p>
+             </title>
+             <aug>
+                <au>
+                   <snm>Almeida</snm>
+                   <fnm>GJM</fnm>
+                </au>
+                <au>
+                   <snm>Wasko</snm>
+                   <fnm>MCM</fnm>
+                </au>
+                <au>
+                   <snm>Jeong</snm>
+                   <fnm>K</fnm>
+                </au>
+                <au>
+                   <snm>Moore</snm>
+                   <fnm>CG</fnm>
+                </au>
+                <au>
+                   <snm>Piva</snm>
+                   <fnm>SR</fnm>
+                </au>
+             </aug>
+             <source>Phys Ther</source>
+             <pubdate>2011</pubdate>
+             <volume>91</volume>
+             <fpage>1367</fpage>
+             <lpage>76</lpage>
+             <xrefbib>
+                <pubidlist>
+                   <pubid idtype="doi">10.2522/ptj.20100291</pubid>
+                   <pubid idtype="pmpid" link="fulltext">21719635</pubid>
+                </pubidlist>
+             </xrefbib>
+          </bibl>
+          <bibl id="B48">
+             <title>
+                <p>Validity of a multi-sensor armband in estimating rest and exercise energy expenditure</p>
+             </title>
+             <aug>
+                <au>
+                   <snm>Fruin</snm>
+                   <fnm>ML</fnm>
+                </au>
+                <au>
+                   <snm>Rankin</snm>
+                   <fnm>JW</fnm>
+                </au>
+             </aug>
+             <source>Med Sci Sports Exerc</source>
+             <pubdate>2004</pubdate>
+             <volume>36</volume>
+             <fpage>1063</fpage>
+             <lpage>9</lpage>
+             <xrefbib>
+                <pubidlist>
+                   <pubid idtype="doi">10.1249/01.MSS.0000128144.91337.38</pubid>
+                   <pubid idtype="pmpid" link="fulltext">15179178</pubid>
+                </pubidlist>
+             </xrefbib>
+          </bibl>
+          <bibl id="B49">
+             <title>
+                <p>Validation of an armband to measure daily energy expenditure in older adults</p>
+             </title>
+             <aug>
+                <au>
+                   <snm>Mackey</snm>
+                   <fnm>DC</fnm>
+                </au>
+                <au>
+                   <snm>Manini</snm>
+                   <fnm>TM</fnm>
+                </au>
+                <au>
+                   <snm>Schoeller</snm>
+                   <fnm>DA</fnm>
+                </au>
+                <au>
+                   <snm>Koster</snm>
+                   <fnm>A</fnm>
+                </au>
+                <au>
+                   <snm>Glynn</snm>
+                   <fnm>NW</fnm>
+                </au>
+                <au>
+                   <snm>Goodpaster</snm>
+                   <fnm>BH</fnm>
+                </au>
+                <au>
+                   <snm>Satterfield</snm>
+                   <fnm>S</fnm>
+                </au>
+                <au>
+                   <snm>Newman</snm>
+                   <fnm>AB</fnm>
+                </au>
+                <au>
+                   <snm>Harris</snm>
+                   <fnm>TB</fnm>
+                </au>
+                <au>
+                   <snm>Cummings</snm>
+                   <fnm>SR</fnm>
+                </au>
+             </aug>
+             <insg>
+                <ins>
+                   <p>Health, Aging, and Body Composition Study Group</p>
+                </ins>
+             </insg>
+             <source>J Gerontol A Biol Sci Med Sci</source>
+             <pubdate>2011</pubdate>
+             <volume>66</volume>
+             <fpage>1108</fpage>
+             <lpage>13</lpage>
+             <xrefbib>
+                <pubidlist>
+                   <pubid idtype="doi">10.1093/gerona/glr101</pubid>
+                   <pubid idtype="pmpid" link="fulltext">21734231</pubid>
+                </pubidlist>
+             </xrefbib>
+          </bibl>
+          <bibl id="B50">
+             <title>
+                <p>Estimating the mean and variance from the median, range, and the size of a sample</p>
+             </title>
+             <aug>
+                <au>
+                   <snm>Hozo</snm>
+                   <fnm>SP</fnm>
+                </au>
+                <au>
+                   <snm>Djulbegovic</snm>
+                   <fnm>B</fnm>
+                </au>
+                <au>
+                   <snm>Hozo</snm>
+                   <fnm>I</fnm>
+                </au>
+             </aug>
+             <source>BMC Med Res Methodol</source>
+             <pubdate>2005</pubdate>
+             <volume>5</volume>
+             <fpage>13</fpage>
+             <xrefbib>
+                <pubidlist>
+                   <pubid idtype="doi">10.1186/1471-2288-5-13</pubid>
+                   <pubid idtype="pmpid" link="fulltext">15840177</pubid>
+                </pubidlist>
+             </xrefbib>
+          </bibl>
+          <bibl id="B51">
+             <title>
+                <p>Meaningful change and responsiveness in common physical performance measures in older adults</p>
+             </title>
+             <aug>
+                <au>
+                   <snm>Perera</snm>
+                   <fnm>S</fnm>
+                </au>
+                <au>
+                   <snm>Mody</snm>
+                   <fnm>SH</fnm>
+                </au>
+                <au>
+                   <snm>Woodman</snm>
+                   <fnm>RC</fnm>
+                </au>
+                <au>
+                   <snm>Studenski</snm>
+                   <fnm>SA</fnm>
+                </au>
+             </aug>
+             <source>J Am Geriatr Soc</source>
+             <pubdate>2006</pubdate>
+             <volume>54</volume>
+             <fpage>743</fpage>
+             <lpage>9</lpage>
+             <xrefbib>
+                <pubidlist>
+                   <pubid idtype="doi">10.1111/j.1532-5415.2006.00701.x</pubid>
+                   <pubid idtype="pmpid" link="fulltext">16696738</pubid>
+                </pubidlist>
+             </xrefbib>
+          </bibl>
+          <bibl id="B52">
+             <aug>
+                <au>
+                   <snm>Chow</snm>
+                   <fnm>S-C</fnm>
+                </au>
+                <au>
+                   <snm>Shao</snm>
+                   <fnm>J</fnm>
+                </au>
+                <au>
+                   <snm>Wang</snm>
+                   <fnm>H</fnm>
+                </au>
+             </aug>
+             <source>Sample Size Calculations in Clinical Research</source>
+             <publisher>Chapman and Hall/CRC, Boca Raton</publisher>
+             <edition>2</edition>
+             <pubdate>2008</pubdate>
+          </bibl>
+          <bibl id="B53">
+             <title>
+                <p>Decision analysis and the implementation of research findings</p>
+             </title>
+             <aug>
+                <au>
+                   <snm>Lilford</snm>
+                   <fnm>RJ</fnm>
+                </au>
+                <au>
+                   <snm>Pauker</snm>
+                   <fnm>SG</fnm>
+                </au>
+                <au>
+                   <snm>Braunholtz</snm>
+                   <fnm>DA</fnm>
+                </au>
+                <au>
+                   <snm>Chard</snm>
+                   <fnm>J</fnm>
+                </au>
+             </aug>
+             <source>BMJ</source>
+             <pubdate>1998</pubdate>
+             <volume>317</volume>
+             <fpage>405</fpage>
+             <lpage>9</lpage>
+             <xrefbib>
+                <pubidlist>
+                   <pubid idtype="doi">10.1136/bmj.317.7155.405</pubid>
+                   <pubid idtype="pmpid" link="fulltext">9694762</pubid>
+                </pubidlist>
+             </xrefbib>
+          </bibl>
+          <bibl id="B54">
+             <title>
+                <p>An introduction to Markov modelling for economic evaluation</p>
+             </title>
+             <aug>
+                <au>
+                   <snm>Briggs</snm>
+                   <fnm>A</fnm>
+                </au>
+                <au>
+                   <snm>Sculpher</snm>
+                   <fnm>M</fnm>
+                </au>
+             </aug>
+             <source>Pharmacoeconomics</source>
+             <pubdate>1998</pubdate>
+             <volume>13</volume>
+             <fpage>397</fpage>
+             <lpage>409</lpage>
+             <xrefbib>
+                <pubidlist>
+                   <pubid idtype="doi">10.2165/00019053-199813040-00003</pubid>
+                   <pubid idtype="pmpid" link="fulltext">10178664</pubid>
+                </pubidlist>
+             </xrefbib>
+          </bibl>
+          <bibl id="B55">
+             <title>
+                <p>Life table analysis</p>
+             </title>
+             <aug>
+                <au>
+                   <snm>Wesley</snm>
+                   <fnm>D</fnm>
+                </au>
+             </aug>
+             <source>J Insur Med</source>
+             <pubdate>1998</pubdate>
+             <volume>30</volume>
+             <fpage>247</fpage>
+             <lpage>54</lpage>
+             <xrefbib>
+                <pubidlist>
+                   <pubid idtype="pmpid" link="fulltext">10537931</pubid>
+                </pubidlist>
+             </xrefbib>
+          </bibl>
+          <bibl id="B56">
+             <title>
+                <p>Handling uncertainty in cost-effectiveness models</p>
+             </title>
+             <aug>
+                <au>
+                   <snm>Briggs</snm>
+                   <fnm>AH</fnm>
+                </au>
+             </aug>
+             <source>Pharmacoeconomics</source>
+             <pubdate>2000</pubdate>
+             <volume>17</volume>
+             <fpage>479</fpage>
+             <lpage>500</lpage>
+             <xrefbib>
+                <pubidlist>
+                   <pubid idtype="doi">10.2165/00019053-200017050-00006</pubid>
+                   <pubid idtype="pmpid" link="fulltext">10977389</pubid>
+                </pubidlist>
+             </xrefbib>
+          </bibl>
+          <bibl id="B57">
+             <title>
+                <p>1: Rehabilitation and older people</p>
+             </title>
+             <aug>
+                <au>
+                   <snm>Cameron</snm>
+                   <fnm>ID</fnm>
+                </au>
+                <au>
+                   <snm>Kurrle</snm>
+                   <fnm>SE</fnm>
+                </au>
+             </aug>
+             <source>Med J Aust</source>
+             <pubdate>2002</pubdate>
+             <volume>177</volume>
+             <fpage>387</fpage>
+             <lpage>91</lpage>
+             <xrefbib>
+                <pubidlist>
+                   <pubid idtype="pmpid" link="fulltext">12358585</pubid>
+                </pubidlist>
+             </xrefbib>
+          </bibl>
+       </refgrp>
+    </bm>
+ </art>

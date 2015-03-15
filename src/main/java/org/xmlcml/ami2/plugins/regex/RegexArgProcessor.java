@@ -92,7 +92,7 @@ public class RegexArgProcessor extends AMIArgProcessor {
 			resultsElement.setTitle(regexTitle);
 			resultsElementList.add(resultsElement);
 		}
-		currentQuickscrapeNorma.createResultsDirectoryAndOutputResultsElement(option, resultsElementList, QuickscrapeNorma.RESULTS_XML);
+		currentQuickscrapeNorma.createResultsDirectoriesAndOutputResultsElement(option, resultsElementList, QuickscrapeNorma.RESULTS_XML);
 	}
 
 	private CompoundRegexList getOrCreateCompoundRegexList() {
