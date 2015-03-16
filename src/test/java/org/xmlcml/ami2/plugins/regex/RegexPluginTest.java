@@ -25,6 +25,22 @@ public class RegexPluginTest {
 		LOG.setLevel(Level.DEBUG);
 	}
 	
+	
+	
+	/** test help
+	 * 
+	 * desn't run anything
+	 * 
+	 * @throws IOException
+	 */
+	@Test
+	public void testSimpleTestRegexHelp() throws IOException {
+		String[] args = {
+				
+		};
+		RegexPlugin regexPlugin = new RegexPlugin(args);
+	}
+	
 
 	
 	/** test generation of conformant regexes

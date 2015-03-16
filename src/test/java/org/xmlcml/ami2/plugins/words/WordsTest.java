@@ -33,7 +33,8 @@ public class WordsTest {
 
 	@Test
 	public void testWordsHelp() {
-		new WordArgProcessor();
+		String[] args = {};
+		new WordArgProcessor(args);
 	}
 
 	@Test
@@ -159,23 +160,5 @@ public class WordsTest {
 		AMIArgProcessor argProcessor = new WordArgProcessor(args);
 		argProcessor.runAndOutput();
 	}
-
-//	@Test
-//	public void testSummarizeDocumentFrequenciesAll() throws IOException {
-//		if (Fixtures.EXAMPLES_TEMP.exists()) FileUtils.forceDelete(Fixtures.EXAMPLES_TEMP);
-//		FileUtils.copyDirectory(Fixtures.EXAMPLES, Fixtures.EXAMPLES_TEMP);
-//		LOG.debug("copied files");
-//		String args[] = {
-//			"-q", Fixtures.EXAMPLES_TEMP.toString(), 
-//	"--w.words", WordArgProcessor.WORD_FREQUENCIES,
-//	"--w.stopwords", STOPWORDS_TXT,
-//	"--w.case", "ignore",
-//	"--w.summary", "booleanFrequency",
-//	"--summaryfile", "target/examples/",
-//	"--w.mincount", "3"
-//		};
-//		AMIArgProcessor argProcessor = new WordArgProcessor(args);
-//		argProcessor.runAndOutput();
-//	}
 
 }

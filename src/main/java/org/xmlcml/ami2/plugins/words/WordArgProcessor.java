@@ -157,7 +157,7 @@ public class WordArgProcessor extends AMIArgProcessor {
 	public void parseStem(ArgumentOption option, ArgIterator argIterator) {
 		List<String> tokens = argIterator.createTokenListUpToNextMinus(option);
 		stemming = (tokens.size() == 0) ? true : new Boolean(tokens.get(0));
-		LOG.info("Stemming noy yet implemented");
+		LOG.trace("Stemming not yet implemented");
 	}
 
 	public void parseStopwords(ArgumentOption option, ArgIterator argIterator) {
