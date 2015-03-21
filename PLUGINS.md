@@ -1,5 +1,6 @@
 # Writing a PLUGIN
 
+[Note: the code may change continually, so refer to that for latest versions.]
 ## Overview
 
 We illustrate how to write a plugin by creating one for searching for sequences in full text. We allow for a variety, DNA
@@ -33,6 +34,58 @@ This contains all generic parsing software, general flow , input and output. See
 
 This contains generic plugin parsing software, such as text contexts, output options, choice of inputs. See AMI.md)
 
-## `args.xml`
+## design
 
-We can rely on the functiona
+Each option will probably need an `<arg>`.
+
+We want to control at least
+
+ * The type of sequence
+ * the lengths of sequences
+ * lookup in repositories
+ 
+## args.xml
+
+Much of the generic functionality (input, parsing, etc.) is inherited, so we can concentrate on the functionallity for sequences. The structure of the file is
+
+```
+<argList name="sequence">
+    <arg name="type" ...
+    <arg name="...
+</argList>
+```
+
+Each arg represents a possible argument (starting with `-` or `--`). It has a name, constraints on occurrence numbers, constraints on values, Java type, default values, actions when triggered, etc.
+
+### Sequence type
+
+This describes the biological type of the sequence. (Note we'll use lowercase throughout). We'll do this through a `pattern` which allows only listed keywords. We'll only allow one type at present - if you want to search for DNA and Protein, run independent searches - they can always be merged later. Note that the attributes (name="value") can be in any order but the same attribute name cannot occur more than once.
+
+```
+<arg name="type"
+    brief="-sq.t"
+    long="--sq.type"
+    args="type"
+    default="dna"
+    class="java.lang.String"
+    pattern="(dna|rna|prot|prot3|carb3)"
+    parseMethod="parseType"
+    countRange="{1,1}"
+    >
+    <help>
+    The type of the sequence. All sequences are 1-letter unless they have a trailing digit.
+    </help>
+```
+
+Comments:
+
+ * the `name` must be unique in this plugin and may be useful to create output subdirectories
+ * the flags (`brief` and `long`) must be unique within the job. `long` is mandatory and recommended; it starts with 2 minus signs. `brief` cannot normally be condensed to single letters (which themselves cannot be concatenated). 
+ * `args` is a semi-formatted string to prompt the user on possible arguments.
+ * `default` provides a default value which must be of the same class as the argument value, and must be consistent with any constraints.
+ * `class` is the Java data type of the argument value. By default it is a `String` (of text) - formally `java.lang.String`. Other common values are `Boolean`, `Integer` and `Double`. 
+ * `pattern` is a constraint on the argument values. In this case it's a regular expression describing an enumeration of allowed values.
+ * `countRange` constraints the number of values for the argument. In this case it's minimum of 1, maximum of 1, so 1.
+ * `parseMethod` is mandatory for every argument, and names the Java class used to parse this argument. In many cases it's a single line assigning the value (although it can be more complex).
+ 
+ 
