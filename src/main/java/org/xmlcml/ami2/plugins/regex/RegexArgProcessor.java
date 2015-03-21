@@ -32,20 +32,12 @@ public class RegexArgProcessor extends AMIArgProcessor {
 		LOG.setLevel(Level.DEBUG);
 	}
 	
-	private static final String REGEX = "regex";
-	private static String REGEX_RESOURCE_NAME = AMIArgProcessor.PLUGIN_RESOURCE + "/regex";
-	private static String ARGS_RESOURCE = REGEX_RESOURCE_NAME+"/"+"args.xml";
-
 	private CompoundRegexList compoundRegexList;
 	private Map<String, ResultsElement> resultsByCompoundRegex;
 	protected List<String> words;
 	
 	public RegexArgProcessor() {
 		super();
-		this.readArgumentOptions(ARGS_RESOURCE);
-        for (ArgumentOption argumentOption : argumentOptionList) {
-			LOG.trace("REGEX "+argumentOption.getHelp());
-		}
 	}
 
 	public RegexArgProcessor(String[] args) {
@@ -56,7 +48,46 @@ public class RegexArgProcessor extends AMIArgProcessor {
 	// =============== METHODS ==============
 
 	public void parseRegex(ArgumentOption option, ArgIterator argIterator) {
-		List<String> tokens= argIterator.createTokenListUpToNextMinus(option);
+		List<String> tokens= argIterator.createTokenListUpToNextNonDigitMinus(option);
+		createCompoundRegexes(option, tokens);
+	}
+
+	public void runRegex(ArgumentOption option) {
+		runRegex();
+	}
+
+	public void outputResultElements(ArgumentOption option) {
+		outputResultElementsx(option);
+	}
+
+	// =========================
+	
+	/** might need to refcator option to use its name.
+	 * 
+	 * @param option
+	 */
+	private void outputResultElementsx(ArgumentOption option) {
+		resultsElementList = new ArrayList<ResultsElement>();
+		for (CompoundRegex compoundRegex : compoundRegexList) {
+			String regexTitle = compoundRegex.getTitle();
+			ResultsElement resultsElement = resultsByCompoundRegex.get(regexTitle);
+			resultsElement.setTitle(regexTitle);
+			resultsElementList.add(resultsElement);
+		}
+		currentQuickscrapeNorma.createResultsDirectoriesAndOutputResultsElement(option, resultsElementList, QuickscrapeNorma.RESULTS_XML);
+	}
+
+	private void runRegex() {
+		List<HtmlP> pElements = extractPElements();
+		resultsByCompoundRegex = new HashMap<String, ResultsElement>();
+		for (CompoundRegex compoundRegex : compoundRegexList) {
+			RegexSearcher regexSearcher = new RegexSearcher(compoundRegex);
+			ResultsElement resultsElement = regexSearcher.search(pElements);
+			resultsByCompoundRegex.put(compoundRegex.getTitle(), resultsElement);
+		}
+	}
+
+	private void createCompoundRegexes(ArgumentOption option, List<String> tokens) {
 		List<String> regexLocations = option.processArgs(tokens).getStringValues();
 		getOrCreateCompoundRegexList();
 		for (String regexLocation : regexLocations) {
@@ -74,27 +105,6 @@ public class RegexArgProcessor extends AMIArgProcessor {
 		}
 	}
 	
-	public void runRegex(ArgumentOption option) {
-		List<HtmlP> pElements = extractPElements();
-		resultsByCompoundRegex = new HashMap<String, ResultsElement>();
-		for (CompoundRegex compoundRegex : compoundRegexList) {
-			RegexSearcher regexSearcher = new RegexSearcher(compoundRegex);
-			ResultsElement resultsElement = regexSearcher.search(pElements);
-			resultsByCompoundRegex.put(compoundRegex.getTitle(), resultsElement);
-		}
-	}
-
-	public void outputResultElements(ArgumentOption option) {
-		resultsElementList = new ArrayList<ResultsElement>();
-		for (CompoundRegex compoundRegex : compoundRegexList) {
-			String regexTitle = compoundRegex.getTitle();
-			ResultsElement resultsElement = resultsByCompoundRegex.get(regexTitle);
-			resultsElement.setTitle(regexTitle);
-			resultsElementList.add(resultsElement);
-		}
-		currentQuickscrapeNorma.createResultsDirectoriesAndOutputResultsElement(option, resultsElementList, QuickscrapeNorma.RESULTS_XML);
-	}
-
 	private CompoundRegexList getOrCreateCompoundRegexList() {
 		if (compoundRegexList == null) {
 			compoundRegexList = new CompoundRegexList();

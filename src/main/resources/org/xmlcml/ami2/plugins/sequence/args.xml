@@ -1,0 +1,44 @@
+<argList name="sequence">
+	<arg name="sequence" 
+		long="--sq.sequence"
+		args="?"
+		countRange="{0,*}"
+		parseMethod="parseSequence"
+		runMethod="runSequence"
+		outputMethod="outputSequence"
+		>
+		<help>
+		SEQUENCE
+			
+		</help>
+	</arg>	
+	
+	<arg name="type" 
+		long="--sq.sequence"
+		args="<type of sequence>"
+		countRange="{1,1}"
+		parseMethod="parseType"
+		default="dna"
+		pattern="(dna|rna|mrna|protein|saccharide)"
+		>
+		<help>
+		TYPE
+			
+		</help>
+	</arg>	
+	
+	<arg name="length" 
+		long="--sq.length"
+		args="minlength maxlength"
+		countRange="{1,1}"
+		parseMethod="parseLength"
+		default="{6,*}"
+		class="org.xmlcml.euclid.IntRange"
+		>
+		<help>
+		LENGTH
+		</help>
+	</arg>	
+	
+</argList>
+			

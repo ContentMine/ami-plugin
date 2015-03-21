@@ -26,6 +26,9 @@ public class WordResultsElement extends ResultsElement {
 	}
 
 	public WordResultsElement(ResultsElement resultsElement) {
+		if (resultsElement == null) {
+			throw new RuntimeException("Null ResultsElement");
+		}
 		XMLUtil.copyAttributesFromTo(resultsElement, this);
 		for (ResultElement resultElement : resultsElement) {
 			WordResultElement wordResultElement = new WordResultElement(resultElement);

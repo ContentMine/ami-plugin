@@ -9,8 +9,8 @@ import java.util.Set;
 import org.apache.commons.io.IOUtils;
 import org.apache.log4j.Level;
 import org.apache.log4j.Logger;
-import org.xmlcml.ami2.AMI;
-import org.xmlcml.ami2.plugins.AbstractAMIPlugin;
+import org.xmlcml.ami2.plugins.AMIArgProcessor;
+import org.xmlcml.ami2.plugins.AMIPlugin;
 
 import com.google.common.collect.Multiset;
 
@@ -31,7 +31,7 @@ public class WordSetWrapper {
 	}
 	
 	private static WordSetWrapper COMMON_ENGLISH_STOPWORDS;
-	public static final String COMMON_ENGLISH_STOPWORDS_TXT = AbstractAMIPlugin.ORG_XMLCML_AMI_PLUGIN+"words/stopwords.txt";
+	public static final String COMMON_ENGLISH_STOPWORDS_TXT = AMIPlugin.ORG_XMLCML_AMI_PLUGIN+"word/stopwords.txt";
 	
 	private Set<String> wordSet;
 	private Multiset<String> multiset;
@@ -84,7 +84,7 @@ public class WordSetWrapper {
 	
 	private static Set<String> getStopwords(String stopwordsResource) {
 		Set<String> stopwords0 = new HashSet<String>();
-		InputStream stopwordsStream = AMI.class.getResourceAsStream(stopwordsResource);
+		InputStream stopwordsStream = AMIArgProcessor.class.getResourceAsStream(stopwordsResource);
 		if (stopwordsStream == null) {
 			LOG.debug("Cannot read stopword stream: "+stopwordsResource);
 		} else if (stopwordsResource.endsWith(XML)){

@@ -2,7 +2,7 @@ package org.xmlcml.ami2.plugins.regex;
 
 import org.apache.log4j.Level;
 import org.apache.log4j.Logger;
-import org.xmlcml.ami2.plugins.AbstractAMIPlugin;
+import org.xmlcml.ami2.plugins.AMIPlugin;
 import org.xmlcml.files.QuickscrapeNorma;
 
 /** RegexPlugin
@@ -11,7 +11,7 @@ import org.xmlcml.files.QuickscrapeNorma;
  * @author pm286
  *
  */
-public class RegexPlugin extends AbstractAMIPlugin {
+public class RegexPlugin extends AMIPlugin {
 
 	private static final Logger LOG = Logger.getLogger(RegexPlugin.class);
 	static {

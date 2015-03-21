@@ -7,6 +7,7 @@ import nu.xom.Attribute;
 
 import org.apache.log4j.Level;
 import org.apache.log4j.Logger;
+import org.xmlcml.ami2.plugins.AMIArgProcessor;
 import org.xmlcml.files.ResultElement;
 import org.xmlcml.files.ResultsElement;
 import org.xmlcml.files.ResultsElementList;
@@ -357,7 +358,7 @@ public class WordCollectionFactory {
 		return aggregatedFrequenciesElement;
 	}
 
-	WordResultsElement createBooleanFrequencies(WordArgProcessor wordArgProcessor, WordResultsElementList frequenciesElementList) {
+	WordResultsElement createBooleanFrequencies(AMIArgProcessor wordArgProcessor, WordResultsElementList frequenciesElementList) {
 		aggregatedFrequenciesElement = createAggregatedFrequenciesElement(frequenciesElementList);
 		booleanFrequenciesElement = new WordResultsElement(BOOLEAN_FREQUENCIES);
 		for (ResultElement termElement : aggregatedFrequenciesElement) {
@@ -379,7 +380,7 @@ public class WordCollectionFactory {
 	 * @param frequenciesElementList
 	 * @return
 	 */
-	WordResultsElement createTFIDFFrequencies(WordArgProcessor wordArgProcessor, WordResultsElementList frequenciesElementList) {
+	WordResultsElement createTFIDFFrequencies(AMIArgProcessor wordArgProcessor, WordResultsElementList frequenciesElementList) {
 //		WordResultsElement aggregatedFrequenciesElement = createAggregatedFrequenciesElement(frequenciesElementList);
 		WordResultsElement booleanFrequencyElement = new WordResultsElement(TFIDF_FREQUENCIES);
 //		for (ResultElement termElement : aggregatedFrequenciesElement) {

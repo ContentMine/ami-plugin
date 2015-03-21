@@ -1,4 +1,4 @@
-<argList name="words">
+<argList name="word">
     <arg name="final"
         long="--w.summary"
         parseMethod="parseSummary"
@@ -11,7 +11,9 @@
         
         </help>
     </arg>
-	<arg name="words" 
+    <!--  the name needs to match the classname of the ArgProcessor at present.
+    MESSY -->
+	<arg name="word" 
 		brief="-w.w"
 		long="--w.words"
 		args="method [method...]"

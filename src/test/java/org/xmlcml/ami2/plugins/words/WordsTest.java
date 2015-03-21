@@ -14,8 +14,8 @@ import org.xmlcml.ami2.plugins.AMIArgProcessor;
 public class WordsTest {
 
 	
-	private static final String STOPWORDS_TXT = "/org/xmlcml/ami2/plugins/words/stopwords.txt";
-	private static final String CLINICAL_STOPWORDS_TXT = "/org/xmlcml/ami2/plugins/words/clinicaltrials200.txt";
+	private static final String STOPWORDS_TXT = "/org/xmlcml/ami2/plugins/word/stopwords.txt";
+	private static final String CLINICAL_STOPWORDS_TXT = "/org/xmlcml/ami2/plugins/word/clinicaltrials200.txt";
 	private static final Logger LOG = Logger.getLogger(WordsTest.class);
 	static {
 		LOG.setLevel(Level.DEBUG);

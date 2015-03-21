@@ -7,7 +7,6 @@ import java.util.List;
 
 import org.apache.log4j.Level;
 import org.apache.log4j.Logger;
-import org.xmlcml.ami2.XPathProcessor;
 import org.xmlcml.args.ArgIterator;
 import org.xmlcml.args.ArgumentOption;
 import org.xmlcml.args.DefaultArgProcessor;
@@ -23,7 +22,7 @@ import org.xmlcml.html.HtmlP;
  * 
  * @author pm286
  */
-public class AMIArgProcessor extends DefaultArgProcessor{
+public class AMIArgProcessor extends DefaultArgProcessor {
 	
 	public static final String RESULTS = "results";
 	public static final Logger LOG = Logger.getLogger(AMIArgProcessor.class);
@@ -35,33 +34,46 @@ public class AMIArgProcessor extends DefaultArgProcessor{
 	protected static String PLUGIN_RESOURCE = RESOURCE_NAME_TOP+"/plugins";
 	private static String ARGS_RESOURCE = PLUGIN_RESOURCE+"/"+"args.xml";
 
-	public static final String WORD_FREQUENCIES = "wordFrequencies";
-	public static final String WORD_LENGTHS = "wordLengths";
-	private static final Object OVERWRITE = "overwrite";
-	private static final Object NO_DUPLICATES = "noDuplicates";
-	private static final Object MERGE = "merge";
-	public static List<String> HARDCODED_PARAMS = Arrays.asList(new String[] {WORD_LENGTHS, WORD_FREQUENCIES});
+	private static final String OVERWRITE = "overwrite";
+	private static final String NO_DUPLICATES = "noDuplicates";
+	private static final String MERGE = "merge";
 
 	private Integer[] contextCount = new Integer[] {98, 98};
 	private List<String> params;
 	private XPathProcessor xPathProcessor;
 	protected List<ResultsElement> resultsElementList;
 	private String update;
+	private String plugin;
 	
 	public AMIArgProcessor() {
 		super();
-		this.readArgumentOptions(ARGS_RESOURCE);
+		readArgsResourcesIntoOptions();
+	}
+
+	private void readArgsResourcesIntoOptions() {
+		// the default ami2 options
+		super.readArgumentOptions(ARGS_RESOURCE);
+		// the plugin-specific options
+		super.readArgumentOptions(createPluginArgsResourceName());
 	}
 
 	public AMIArgProcessor(String[] args) {
 		this();
 		parseArgs(args);
 	}
+	
+	protected String createPluginArgsResourceName() {
+		String clazz = this.getClass().getSimpleName();
+		plugin = clazz.replace("ArgProcessor", "").toLowerCase();
+		return AMIArgProcessor.PLUGIN_RESOURCE + "/"+plugin+"/"+ARGS_XML;
+	}
+
+
 
 	// ============= METHODS =============
 	
 	public void parseContext(ArgumentOption option, ArgIterator argIterator) {
-		List<String> tokens = argIterator.createTokenListUpToNextMinus(option);
+		List<String> tokens = argIterator.createTokenListUpToNextNonDigitMinus(option);
 		if (tokens.size() == 0) {
 			throw new IllegalArgumentException("required argument/s missing");
 		}
@@ -74,7 +86,7 @@ public class AMIArgProcessor extends DefaultArgProcessor{
 	}
 
 	public void parseUpdate(ArgumentOption option, ArgIterator argIterator) {
-		List<String> tokens = argIterator.createTokenListUpToNextMinus(option);
+		List<String> tokens = argIterator.createTokenListUpToNextNonDigitMinus(option);
 		if (tokens.size() != 1) {
 			throw new IllegalArgumentException("required single argument missing");
 		}
@@ -82,22 +94,22 @@ public class AMIArgProcessor extends DefaultArgProcessor{
 	}
 
 	public void parseParam(ArgumentOption option, ArgIterator argIterator) {
-		setParams(argIterator.createTokenListUpToNextMinus(option));
+		setParams(argIterator.createTokenListUpToNextNonDigitMinus(option));
 		for (String param : getParams()) {
-			if (!HARDCODED_PARAMS.contains(param)) {
-				LOG.debug("The parameters can be "+HARDCODED_PARAMS +"found..."+getParams()+";");
-				throw new RuntimeException("Bad param: "+param);
-			}
+//			if (!HARDCODED_PARAMS.contains(param)) {
+//				LOG.debug("The parameters can be "+HARDCODED_PARAMS +"found..."+getParams()+";");
+//				throw new RuntimeException("Bad param: "+param);
+//			}
 		}
 	}
 
 	public void parseTest(ArgumentOption option, ArgIterator argIterator) {
-		List<String> tokens = argIterator.createTokenListUpToNextMinus(option);
+		List<String> tokens = argIterator.createTokenListUpToNextNonDigitMinus(option);
 		LOG.debug("The test strings are..."+tokens+"; override this if you want to use your own parseTest()");
 	}
 
 	public void parseXpath(ArgumentOption option, ArgIterator argIterator) {
-		List<String> tokens = argIterator.createTokenListUpToNextMinus(option);
+		List<String> tokens = argIterator.createTokenListUpToNextNonDigitMinus(option);
 		if (tokens.size() == 0) {
 //			LOG.debug(XPATH_OPTION).getHelp());
 		} else if (tokens.size() > 1) {
@@ -107,16 +119,6 @@ public class AMIArgProcessor extends DefaultArgProcessor{
 		}
 	}
 
-
-	public void printHelp() {
-		System.err.println(
-				"\n"
-				+ "====AMI====\n"
-				);
-		super.printHelp();
-	}
-
-	
 	// =============transformations=============
 	
 	
@@ -140,8 +142,6 @@ public class AMIArgProcessor extends DefaultArgProcessor{
 	public String getUpdate() {
 		return update;
 	}
-
-
 
 	@Override
 	/** parse args and resolve their dependencies.
@@ -198,6 +198,15 @@ public class AMIArgProcessor extends DefaultArgProcessor{
 		if (resultsElementList == null) {
 			resultsElementList = new ArrayList<ResultsElement>();
 		}
+	}
+
+	public void parseArgsRunAndOutput(String[] args) {
+		this.parseArgs(args);
+		this.runAndOutput();
+	}
+
+	public String getPlugin() {
+		return plugin;
 	}
 
 	/** gets the HtmlElement for ScholarlyHtml.

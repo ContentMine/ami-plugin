@@ -25,13 +25,10 @@ public class SimpleArgProcessor extends AMIArgProcessor {
 		LOG.setLevel(Level.DEBUG);
 	}
 	
-	private static String SIMPLE_RESOURCE_NAME = AMIArgProcessor.PLUGIN_RESOURCE + "/simple";
-	private static String ARGS_RESOURCE = SIMPLE_RESOURCE_NAME+"/"+"args.xml";
 	protected List<String> words;
 
 	public SimpleArgProcessor() {
 		super();
-		this.readArgumentOptions(ARGS_RESOURCE);
 	}
 
 	public SimpleArgProcessor(String[] args) {
@@ -42,8 +39,7 @@ public class SimpleArgProcessor extends AMIArgProcessor {
 	// =============== METHODS ==============
 
 	public void parseSimple(ArgumentOption option, ArgIterator argIterator) {
-		List<String> tokens = argIterator.createTokenListUpToNextMinus(option);
-//		List<String> stopwordLocations = option.processArgs(tokens).getStringValues();
+		List<String> tokens = argIterator.createTokenListUpToNextNonDigitMinus(option);
 	}
 	
 	public void countWords(ArgumentOption option) {

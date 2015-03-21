@@ -1,0 +1,17 @@
+<argList name="species">
+	<arg name="species" 
+		long="--sp.species"
+		args="?"
+		countRange="{0,*}"
+		parseMethod="parseSpecies"
+		runMethod="runSpecies"
+		outputMethod="outputSpecies"
+		>
+		<help>
+		SPECIES
+			
+		</help>
+	</arg>	
+	
+</argList>
+			

@@ -13,6 +13,7 @@ import org.apache.log4j.Logger;
 import org.xmlcml.ami2.plugins.AMIArgProcessor;
 import org.xmlcml.args.ArgIterator;
 import org.xmlcml.args.ArgumentOption;
+import org.xmlcml.args.DefaultArgProcessor;
 import org.xmlcml.euclid.IntArray;
 import org.xmlcml.euclid.IntRange;
 import org.xmlcml.euclid.RealArray;
@@ -41,11 +42,6 @@ public class WordArgProcessor extends AMIArgProcessor {
 		LOG.setLevel(Level.DEBUG);
 	}
 	
-	static final String WORD_ARG_PROCESSOR = "words";
-	private static String RESOURCE_WORD_NAME_TOP = AMIArgProcessor.PLUGIN_RESOURCE + "/"+WORD_ARG_PROCESSOR;
-	private static String ARGS_RESOURCE = RESOURCE_WORD_NAME_TOP+"/"+ARGS_XML;
-	
-//	private static final String WORDS = "words";
 	public final static String WORD_LENGTHS = "wordLengths";
 	public final static String WORD_FREQUENCIES = "wordFrequencies";
 	public final static List<String> ANALYSIS_METHODS = Arrays.asList(
@@ -104,10 +100,6 @@ public class WordArgProcessor extends AMIArgProcessor {
 
 	public WordArgProcessor() {
 		super();
-		this.readArgumentOptions(ARGS_RESOURCE);
-        for (ArgumentOption argumentOption : argumentOptionList) {
-			LOG.trace("WORD "+argumentOption.getHelp());
-		}
 	}
 
 	public WordArgProcessor(String[] args) {
@@ -123,7 +115,7 @@ public class WordArgProcessor extends AMIArgProcessor {
 	 * @param argIterator
 	 */
 	public void parseWords(ArgumentOption option, ArgIterator argIterator) {
-		List<String> tokens = argIterator.createTokenListUpToNextMinus(option);
+		List<String> tokens = argIterator.createTokenListUpToNextNonDigitMinus(option);
 		if (tokens.size() == 0) {
 			helpMethods();
 		} else {
@@ -131,13 +123,13 @@ public class WordArgProcessor extends AMIArgProcessor {
 		}
 	}
 
-	/** use stemming?
+	/** caseSensitive?
 	 * 
 	 * @param option list of methods (none gives help)
 	 * @param argIterator
 	 */
 	public void parseCase(ArgumentOption option, ArgIterator argIterator) {
-		List<String> tokens = argIterator.createTokenListUpToNextMinus(option);
+		List<String> tokens = argIterator.createTokenListUpToNextNonDigitMinus(option);
 		wordCaseList = new ArrayList<String>();
 		if (tokens.size() == 0) {
 			wordCaseList.add(PRESERVE);
@@ -155,39 +147,24 @@ public class WordArgProcessor extends AMIArgProcessor {
 	 * @param argIterator
 	 */
 	public void parseStem(ArgumentOption option, ArgIterator argIterator) {
-		List<String> tokens = argIterator.createTokenListUpToNextMinus(option);
-		stemming = (tokens.size() == 0) ? true : new Boolean(tokens.get(0));
+		stemming = argIterator.getBoolean(option);
 		LOG.trace("Stemming not yet implemented");
 	}
 
 	public void parseStopwords(ArgumentOption option, ArgIterator argIterator) {
-		List<String> tokens = argIterator.createTokenListUpToNextMinus(option);
-		List<String> stopwordLocations = option.processArgs(tokens).getStringValues();
-		ensureStopwordSetList();
-		for (String stopwordLocation : stopwordLocations) {
-			addStopwords(stopwordLocation);
-		}
+		List<String> stopwordLocations = argIterator.createTokenListUpToNextNonDigitMinus(option);
+		addStopwords(stopwordLocations);
 	}
 
 	public void parseWordLengths(ArgumentOption option, ArgIterator argIterator) {
-		List<String> tokens = argIterator.createTokenListUpToNextMinus(option);
-		if (tokens.size() != 2) {
-			LOG.error("Must give min and max word length: "+tokens);
-		} else {
-			try {
-				wordLengthRange = new IntRange((int)new Integer(tokens.get(0)), (int)new Integer(tokens.get(1)));
-				if (wordLengthRange.getMin() < 1 || wordLengthRange.getMax() < 1) {
-					throw new RuntimeException("bad word lengths: "+tokens);
-				}
-			} catch (Exception e) {
-				throw new RuntimeException("Bad word length arguments: "+tokens);
-			}
+		wordLengthRange =argIterator.getIntRange(option);
+		if (wordLengthRange.getMin() < 1 || wordLengthRange.getMax() < 1) {
+			throw new RuntimeException("bad word lengths: "+wordLengthRange);
 		}
-		
 	}
-	
+
 	public void parseWordTypes(ArgumentOption option, ArgIterator argIterator) {
-		List<String> tokens = argIterator.createTokenListUpToNextMinus(option);
+		List<String> tokens = argIterator.createTokenListUpToNextNonDigitMinus(option);
 		if (tokens.size() == 0) {
 			helpWordTypes();
 		} else {
@@ -196,12 +173,11 @@ public class WordArgProcessor extends AMIArgProcessor {
 	}
 	
 	public void parseMinCount(ArgumentOption option, ArgIterator argIterator) {
-		List<String> tokens = argIterator.createTokenListUpToNextMinus(option);
-		minCount = new Integer(tokens.get(0));
+		minCount = argIterator.getInteger(option);
 	}
 	
 	public void parseMaxCount(ArgumentOption option, ArgIterator argIterator) {
-		List<String> tokens = argIterator.createTokenListUpToNextMinus(option);
+		List<String> tokens = argIterator.createTokenListUpToNextNonDigitMinus(option);
 		maxCount = new Integer(tokens.get(0));
 	}
 	
@@ -210,6 +186,10 @@ public class WordArgProcessor extends AMIArgProcessor {
 		wordCollectionFactory.extractWords();
 	}
 	
+	/** refactor output option.
+	 * 
+	 * @param option
+	 */
 	public void outputWords(ArgumentOption option) {
 		List<File> outputDirectories = currentQuickscrapeNorma.createResultsDirectoriesAndOutputResultsElement(
 				option, resultsElementList, QuickscrapeNorma.RESULTS_XML);
@@ -221,7 +201,7 @@ public class WordArgProcessor extends AMIArgProcessor {
 	}
 	
 	public void parseSummary(ArgumentOption option, ArgIterator argIterator) {
-		List<String> tokens = argIterator.createTokenListUpToNextMinus(option);
+		List<String> tokens = argIterator.createTokenListUpToNextNonDigitMinus(option);
 		if (tokens.size() == 0) {
 			LOG.error("parseSummary needs a list of actions");
 		} else {
@@ -230,7 +210,7 @@ public class WordArgProcessor extends AMIArgProcessor {
 	}
 	
 	public void finalSummary(ArgumentOption option) {
-		WordResultsElementList frequenciesElementList = this.aggregateOverQSNormaList(WordArgProcessor.WORD_ARG_PROCESSOR, WordArgProcessor.FREQUENCIES);
+		WordResultsElementList frequenciesElementList = this.aggregateOverQSNormaList(getPlugin(), WordArgProcessor.FREQUENCIES);
 		WordCollectionFactory wordCollectionFactory = new WordCollectionFactory(this);
 		for (String method : summaryMethods) {
 			runSummaryMethod(frequenciesElementList, wordCollectionFactory, method);
@@ -265,11 +245,23 @@ public class WordArgProcessor extends AMIArgProcessor {
 	
 	// =============================
 
+	private void addStopwords(List<String> stopwordLocations) {
+		ensureStopwordSetList();
+		for (String stopwordLocation : stopwordLocations) {
+			addStopwords(stopwordLocation);
+		}
+	}
+
 	public WordResultsElementList aggregateOverQSNormaList(String pluginName, String methodName) {
 		WordResultsElementList resultsElementList = new WordResultsElementList();
 		for (QuickscrapeNorma qsn : quickscrapeNormaList) {
-			WordResultsElement resultsElement = new WordResultsElement(qsn.getResultsElement(pluginName, methodName));
-			resultsElementList.add(resultsElement);
+			ResultsElement resultsElement = qsn.getResultsElement(pluginName, methodName);
+			if (resultsElement == null) {
+				LOG.error("Null results element, skipped "+qsn.getDirectory());
+			} else {
+				WordResultsElement wordResultsElement = new WordResultsElement(qsn.getResultsElement(pluginName, methodName));
+				resultsElementList.add(wordResultsElement);
+			}
 		}
 		return resultsElementList;
 	}

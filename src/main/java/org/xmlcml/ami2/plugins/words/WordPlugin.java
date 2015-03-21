@@ -2,8 +2,8 @@ package org.xmlcml.ami2.plugins.words;
 
 import org.apache.log4j.Level;
 import org.apache.log4j.Logger;
-import org.xmlcml.ami2.plugins.AbstractAMIPlugin;
-import org.xmlcml.args.DefaultArgProcessor;
+import org.xmlcml.ami2.plugins.AMIArgProcessor;
+import org.xmlcml.ami2.plugins.AMIPlugin;
 
 /** test plugin.
  * 
@@ -12,7 +12,7 @@ import org.xmlcml.args.DefaultArgProcessor;
  * @author pm286
  *
  */
-public class WordPlugin extends AbstractAMIPlugin {
+public class WordPlugin extends AMIPlugin {
 
 	private static final Logger LOG = Logger.getLogger(WordPlugin.class);
 	static {
@@ -23,12 +23,14 @@ public class WordPlugin extends AbstractAMIPlugin {
 	
 	public WordPlugin(String[] args) {
 		super();
-		this.argProcessor = new WordArgProcessor(args);
+		this.argProcessor = new WordArgProcessor();
+		argProcessor.parseArgs(args);
+
 	}
 	
 	public static void main(String[] args) {
-		DefaultArgProcessor argProcessor = new WordArgProcessor(args);
-		argProcessor.runAndOutput();
+		AMIArgProcessor argProcessor = new WordArgProcessor();
+		argProcessor.parseArgsRunAndOutput(args);
 	}
 
 
