@@ -83,9 +83,37 @@ Comments:
  * the flags (`brief` and `long`) must be unique within the job. `long` is mandatory and recommended; it starts with 2 minus signs. `brief` cannot normally be condensed to single letters (which themselves cannot be concatenated). 
  * `args` is a semi-formatted string to prompt the user on possible arguments.
  * `default` provides a default value which must be of the same class as the argument value, and must be consistent with any constraints.
- * `class` is the Java data type of the argument value. By default it is a `String` (of text) - formally `java.lang.String`. Other common values are `Boolean`, `Integer` and `Double`. 
+ * `class` is the Java data type of the argument value. By default it is a `String` (of text) - formally `java.lang.String`. Other common `java.lang.*` values are `Boolean`, `Integer` and `Double`. 
  * `pattern` is a constraint on the argument values. In this case it's a regular expression describing an enumeration of allowed values.
  * `countRange` constraints the number of values for the argument. In this case it's minimum of 1, maximum of 1, so 1.
  * `parseMethod` is mandatory for every argument, and names the Java class used to parse this argument. In many cases it's a single line assigning the value (although it can be more complex).
  
+ ### sequence length
  
+ To constrain the length of the sequence we can set minimum and/or maximum length. "don't care" is represented by `*`. Examples:
+ 
+  * `countRange="{6,20}"`   sequences of length 6 to 20 inclusive
+  * `countRange="{*,20}"`   sequences of length up to 20 
+  * `countRange="{6,*}"`   sequences of length 6 or more
+  * `countRange="{*,*}"`   sequences of any length 
+  
+  The `<arg>` looks  like
+  
+  ```
+<arg name="length"
+    brief="-sq.l"
+    long="--sq.length"
+    args="lengthRange"
+    default="{1,*}"
+    class="org.xmlcml.euclid.IntRange"
+    parseMethod="parseLength"
+    countRange="{1,1}"
+    >
+    <help>
+    The allowed length of the sequence, described by a single org.xmlcml.euclid.IntRange (note there are no internal spaces). The default is `{1,*}` - any non-empty sequence - will be used if there is no `--sq.length` attribute. When this attribute is present, the method `parseLength` will be called which saves the value of the `IntRange`.
+    </help>
+```
+
+  
+  
+  
