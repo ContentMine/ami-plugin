@@ -1,0 +1,56 @@
+{
+  "fulltext_pdf": {
+    "value": []
+  },
+  "fulltext_html": {
+    "value": []
+  },
+  "fulltext_xml": {
+    "value": []
+  },
+  "title": {
+    "value": []
+  },
+  "author": {
+    "value": [
+      "David Smith",
+      "Peter Leary",
+      "Jamie Craggs",
+      "John Bythell",
+      "Michael Sweet"
+    ]
+  },
+  "date": {
+    "value": [
+      "2015-03-20T07:00:00Z"
+    ]
+  },
+  "doi": {
+    "value": [
+      "10.1371/journal.pone.0121780"
+    ]
+  },
+  "volume": {
+    "value": [
+      "10"
+    ]
+  },
+  "issue": {
+    "value": [
+      "3"
+    ]
+  },
+  "firstpage": {
+    "value": [
+      "e0121780"
+    ]
+  },
+  "description": {
+    "value": []
+  },
+  "abstract": {
+    "value": [
+      "AbstractProkaryotic and ciliate communities of healthy and aquarium White Syndrome (WS)-affected coral fragments were screened using denaturing gradient gel electrophoresis (DGGE). A significant difference (R = 0.907, p < 0.001) in 16S rRNA prokaryotic diversity was found between healthy (H), sloughed tissue (ST), WS-affected (WSU) and antibiotic treated (WST) samples. Although 3 Vibrio spp were found in WS-affected samples, two of these species were eliminated following ampicillin treatment, yet lesions continued to advance, suggesting they play a minor or secondary role in the pathogenesis. The third Vibrio sp increased slightly in relative abundance in diseased samples and was abundant in non-diseased samples. Interestingly, a Tenacibaculum sp showed the greatest increase in relative abundance between healthy and WS-affected samples, demonstrating consistently high abundance across all WS-affected and treated samples, suggesting Tenacibaculum sp could be a more likely candidate for pathogenesis in this instance. In contrast to previous studies bacterial abundance did not vary significantly (ANOVA, F2, 6 = 1.000, p = 0.422) between H, ST, WSU or WST. Antimicrobial activity (assessed on Vibrio harveyi cultures) was limited in both H and WSU samples (8.1% ±8.2 and 8.0% ±2.5, respectively) and did not differ significantly (Kruskal-Wallis, χ2 (2) = 3.842, p = 0.146). A Philaster sp, a Cohnilembus sp and a Pseudokeronopsis sp. were present in all WS-affected samples, but not in healthy samples. The exact role of ciliates in WS is yet to be determined, but it is proposed that they are at least responsible for the neat lesion boundary observed in the disease.\n"
+    ]
+  }
+}

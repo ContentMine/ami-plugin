@@ -1,7 +1,6 @@
 package org.xmlcml.ami2;
 
 import java.io.File;
-
 import java.io.IOException;
 
 import org.apache.commons.io.FileUtils;
@@ -9,7 +8,7 @@ import org.apache.log4j.Level;
 import org.apache.log4j.Logger;
 import org.xmlcml.ami2.plugins.AMIArgProcessor;
 import org.xmlcml.ami2.plugins.regex.RegexPlugin;
-import org.xmlcml.ami2.plugins.words.WordArgProcessor;
+import org.xmlcml.ami2.plugins.word.WordArgProcessor;
 
 public class ClinicalTrialsDemo {
 

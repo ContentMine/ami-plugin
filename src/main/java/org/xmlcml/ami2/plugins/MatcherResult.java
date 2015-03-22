@@ -1,4 +1,4 @@
-package org.xmlcml.ami2.plugins.regex;
+package org.xmlcml.ami2.plugins;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -28,6 +28,9 @@ public class MatcherResult {
 	private List<NamedGroupList> namedGroupListList;
 
 	
+	public MatcherResult() {
+	}
+		
 	public MatcherResult(List<String> fieldList) {
 		this.fieldList = fieldList;
 	}
@@ -88,7 +91,7 @@ public class MatcherResult {
 		return this;
 	}
 
-	void captureNextMatch(Matcher matcher) {
+	public void captureNextMatch(Matcher matcher) {
 		groupList = new ArrayList<String>();
 		extractMatcherResult(matcher);
 		NamedGroupList namedGroupList = mapFieldsToGroups();
@@ -100,7 +103,7 @@ public class MatcherResult {
 
 	}
 
-	List<ResultElement> createResultElementList() {
+	public List<ResultElement> createResultElementList() {
 		List<ResultElement> resultElementList = new ArrayList<ResultElement>();
 		ensureNamedGroupListList();
 		for (NamedGroupList namedGroupList : namedGroupListList) {

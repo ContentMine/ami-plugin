@@ -1,4 +1,4 @@
-package org.xmlcml.ami2.plugins.regex;
+package org.xmlcml.ami2.plugins;
 
 import java.util.ArrayList;
 import java.util.List;

@@ -47,8 +47,8 @@
 	<arg name="wordlengths" 
 		long="--w.wordlengths"
 		args="shortest longest"
-		countRange="{2,2}"
-		class="java.lang.Integer"
+		countRange="{1,1}"
+		class="org.xmlcml.euclid.IntRange"
 		parseMethod="parseWordLengths"
 		>
 		<help>
@@ -103,29 +103,18 @@
 		</help>
 	</arg>	
 	
-	<arg name="mincount" 
-		long="--w.mincount"
-		args="mincount"
+	<arg name="wordcount" 
+		long="--w.wordcount"
+		args="{min"
 		countRange="{1,1}"
+		class="org.xmlcml.euclid.IntRange"
 		parseMethod="parseMinCount"
 		>
 		<help>
-		MINCOUNT
-		Minimum number of words in summary bins
+		 number of words in summary bins
 		</help>
 	</arg>	
 	
-	<arg name="maxcount" 
-		long="--w.maxcount"
-		args="maxcount"
-		countRange="{1,1}"
-		parseMethod="parseMaxCount"
-		>
-		<help>
-		MAXCOUNT
-		Maximum number of words in summary bins
-		</help>
-	</arg>	
 	
 </argList>
 			

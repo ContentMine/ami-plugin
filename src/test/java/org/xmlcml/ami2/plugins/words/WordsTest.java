@@ -10,6 +10,7 @@ import org.junit.Ignore;
 import org.junit.Test;
 import org.xmlcml.ami2.Fixtures;
 import org.xmlcml.ami2.plugins.AMIArgProcessor;
+import org.xmlcml.ami2.plugins.word.WordArgProcessor;
 
 public class WordsTest {
 
@@ -43,7 +44,7 @@ public class WordsTest {
 			"-q", Fixtures.TEST_PLOSONE_0115884.toString(),
 			"--w.words", WordArgProcessor.WORD_LENGTHS, WordArgProcessor.WORD_FREQUENCIES,
 			"--w.stopwords", STOPWORDS_TXT,
-			"--w.wordlengths", "2", "12",
+			"--w.wordlengths", "{2,12}",
 			"--w.wordtypes", "acronym", "GROT",
 		};
 		new WordArgProcessor(args);
@@ -55,7 +56,7 @@ public class WordsTest {
 			"-q", Fixtures.TEST_PLOSONE_0115884.toString(),
 			"--w.words", /*WordArgProcessor.WORD_LENGTHS, */WordArgProcessor.WORD_FREQUENCIES,
 			"--w.stopwords", STOPWORDS_TXT,
-			"--w.wordlengths", "2", "12",
+			"--w.wordlengths", "{2,12}",
 			"--w.wordtypes", "abbreviation", /* "capitalized", */
 		};
 		AMIArgProcessor argProcessor = new WordArgProcessor(args);
@@ -72,7 +73,7 @@ public class WordsTest {
 			"-q", TEMP_16_1_1,
 			"--w.words", WordArgProcessor.WORD_LENGTHS, WordArgProcessor.WORD_FREQUENCIES,
 			"--w.stopwords", STOPWORDS_TXT,
-			"--w.wordlengths", "2", "12",
+			"--w.wordlengths", "{2,12}",
 			"--w.wordtypes", "acronym", "GROT",
 		};
 		AMIArgProcessor argProcessor = new WordArgProcessor(args);
@@ -103,7 +104,7 @@ public class WordsTest {
 			"-q", TEMP_16_1_1, // contains 86 QSN files
 	"--w.words", WordArgProcessor.WORD_FREQUENCIES,
 	"--w.stopwords", STOPWORDS_TXT,
-	"--w.wordlengths", "2", "12",
+	"--w.wordlengths", "{2,12}",
 	"--w.stem", "true",
 		};
 		AMIArgProcessor argProcessor = new WordArgProcessor(args);
@@ -118,7 +119,7 @@ public class WordsTest {
 			"-q", TEMP_16_1_1, 
 	"--w.words", WordArgProcessor.WORD_FREQUENCIES,
 	"--w.stopwords", STOPWORDS_TXT,
-	"--w.wordlengths", "2", "12",
+	"--w.wordlengths", "{2,12}",
 	"--w.case", "ignore",
 		};
 		AMIArgProcessor argProcessor = new WordArgProcessor(args);
@@ -155,7 +156,7 @@ public class WordsTest {
 	"--w.case", "ignore",
 	"--w.summary", "booleanFrequency",
 	"--summaryfile", "target/examples/",
-	"--w.mincount", "3"
+	"--w.wordcount", "{3,*}"
 		};
 		AMIArgProcessor argProcessor = new WordArgProcessor(args);
 		argProcessor.runAndOutput();

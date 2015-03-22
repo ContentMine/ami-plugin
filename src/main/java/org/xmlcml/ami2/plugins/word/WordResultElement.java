@@ -1,4 +1,4 @@
-package org.xmlcml.ami2.plugins.words;
+package org.xmlcml.ami2.plugins.word;
 
 import nu.xom.Attribute;
 

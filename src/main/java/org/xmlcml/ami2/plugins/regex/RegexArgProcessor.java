@@ -62,7 +62,7 @@ public class RegexArgProcessor extends AMIArgProcessor {
 
 	// =========================
 	
-	/** might need to refcator option to use its name.
+	/** might need to refactor option to use its name.
 	 * 
 	 * @param option
 	 */

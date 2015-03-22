@@ -1,44 +1,50 @@
 <argList name="sequence">
 	<arg name="sequence" 
 		long="--sq.sequence"
-		args="?"
-		countRange="{0,*}"
-		parseMethod="parseSequence"
-		runMethod="runSequence"
-		outputMethod="outputSequence"
+		args=""
+		countRange="{0,0}"
+		initMethod="initSequences"
+		runMethod="runExtractSequences"
+		outputMethod="outputSequences"
 		>
 		<help>
-		SEQUENCE
-			
+    This runs the search - there are no argument values. 
 		</help>
+		<!-- 5’-CCTACGGGAGGCAGCAG-3’ --> 
+		<value name="dna">5['’]\-?[ACGTRYNWSKBHDV]{6,}\-?3['’]</value> <!-- allow for 5' and 3' ends.   -->
+		<value name="rna">[ACGU]{6,}</value>
+		<value name="prot">[ACDEFGHIKLMNPQRSTVWY]{10,}[\s\.]</value> <!-- many false positives from abbreviations -->
+		<value name="prot3">(Ala\-?|Cys\-?|Asp\-?|Glu\-?|Phe\-?|Gly\-?|His\-?|Ile\-?|Lys\-?|Leu\-?|Met\-?|Asn\-?|Pro\-?|Gln\-?|Arg\-?|Ser\-?|Thr\-?|Val\-?|Trp\-?|Tyr\-?){2,}</value>
+		<value name="carb3">(Glc\-?|Man\-?|Gal\-?|Rib\-?|Xyl\-?){2,}</value> <!-- a placeholder; no stereochemistry or branches-->
 	</arg>	
 	
-	<arg name="type" 
-		long="--sq.sequence"
-		args="<type of sequence>"
-		countRange="{1,1}"
-		parseMethod="parseType"
-		default="dna"
-		pattern="(dna|rna|mrna|protein|saccharide)"
-		>
-		<help>
-		TYPE
-			
-		</help>
-	</arg>	
+	<arg name="type"
+	    long="--sq.type"
+	    args="type"
+	    class="java.lang.String"
+	    pattern="(dna|rna|prot|prot3|carb3)"
+	    parseMethod="parseTypes"
+	    countRange="{1,*}"
+	    >
+	    <help>
+	    The type of the sequence. All sequences are 1-letter unless they have a trailing digit (prot3 = "Gly", etc.).
+	    This list will almost certainly increase
+	    </help>
+	</arg>
+
 	
-	<arg name="length" 
-		long="--sq.length"
-		args="minlength maxlength"
-		countRange="{1,1}"
-		parseMethod="parseLength"
-		default="{6,*}"
-		class="org.xmlcml.euclid.IntRange"
-		>
-		<help>
-		LENGTH
-		</help>
-	</arg>	
-	
+	<arg name="length"
+	    long="--sq.length"
+	    args="lengthRange"
+	    default="{1,*}"
+	    class="org.xmlcml.euclid.IntRange"
+	    parseMethod="parseLength"
+	    countRange="{1,1}"
+	    >
+	    <help>
+	    The allowed length of the sequence, described by a single org.xmlcml.euclid.IntRange (note there are no internal spaces). The default is `{1,*}` - any non-empty sequence - will be used if there is no `--sq.length` attribute. When this attribute is present, the method `parseLength` will be called which saves the value of the `IntRange`.
+	    </help>
+    </arg>	
+    
 </argList>
 			

@@ -1,4 +1,4 @@
-package org.xmlcml.ami2.plugins.regex;
+package org.xmlcml.ami2.plugins;
 
 import nu.xom.Attribute;
 import nu.xom.IllegalNameException;

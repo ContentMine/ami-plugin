@@ -37,6 +37,7 @@ public class AMIArgProcessor extends DefaultArgProcessor {
 	private static final String OVERWRITE = "overwrite";
 	private static final String NO_DUPLICATES = "noDuplicates";
 	private static final String MERGE = "merge";
+	protected static final String NAME = "name";
 
 	private Integer[] contextCount = new Integer[] {98, 98};
 	private List<String> params;

@@ -1,4 +1,4 @@
-package org.xmlcml.ami2.plugins.words;
+package org.xmlcml.ami2.plugins.word;
 
 import java.io.File;
 import java.io.FileOutputStream;
@@ -94,8 +94,7 @@ public class WordArgProcessor extends AMIArgProcessor {
 	private List<String> summaryMethods;
 	WordResultsElementList frequenciesElementList;
 	WordResultsElement aggregatedFrequenciesElement;
-	private int minCount;
-	private int maxCount;
+	private IntRange wordCount;
 	private WordResultsElement booleanFrequencyElement;
 
 	public WordArgProcessor() {
@@ -173,12 +172,7 @@ public class WordArgProcessor extends AMIArgProcessor {
 	}
 	
 	public void parseMinCount(ArgumentOption option, ArgIterator argIterator) {
-		minCount = argIterator.getInteger(option);
-	}
-	
-	public void parseMaxCount(ArgumentOption option, ArgIterator argIterator) {
-		List<String> tokens = argIterator.createTokenListUpToNextNonDigitMinus(option);
-		maxCount = new Integer(tokens.get(0));
+		wordCount = argIterator.getIntRange(option);
 	}
 	
 	public void runExtractWords(ArgumentOption option) {
@@ -278,8 +272,6 @@ public class WordArgProcessor extends AMIArgProcessor {
 				throw new RuntimeException("Cannot write file "+outputFile, e);
 			}
 		}
-
-		
 	}
 
 	private IntArray createOrderedFontSizeArray(WordResultsElement wordResultsElement) {

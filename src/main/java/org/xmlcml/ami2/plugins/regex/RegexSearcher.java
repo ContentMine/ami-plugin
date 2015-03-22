@@ -6,6 +6,7 @@ import nu.xom.Element;
 
 import org.apache.log4j.Level;
 import org.apache.log4j.Logger;
+import org.xmlcml.ami2.plugins.MatcherResult;
 import org.xmlcml.files.ResultElement;
 import org.xmlcml.files.ResultsElement;
 import org.xmlcml.html.HtmlElement;

@@ -3,32 +3,15 @@ package org.xmlcml.ami2.plugins.species;
 import java.io.File;
 import java.io.FileOutputStream;
 import java.io.IOException;
-import java.lang.reflect.Type;
-import java.util.ArrayList;
-import java.util.Arrays;
 import java.util.List;
-import java.util.Set;
-import java.util.regex.Pattern;
 
 import org.apache.log4j.Level;
 import org.apache.log4j.Logger;
 import org.xmlcml.ami2.plugins.AMIArgProcessor;
 import org.xmlcml.args.ArgIterator;
 import org.xmlcml.args.ArgumentOption;
-import org.xmlcml.args.DefaultArgProcessor;
-import org.xmlcml.euclid.IntArray;
-import org.xmlcml.euclid.IntRange;
-import org.xmlcml.euclid.RealArray;
-import org.xmlcml.euclid.RealRange;
 import org.xmlcml.files.QuickscrapeNorma;
-import org.xmlcml.files.ResultElement;
 import org.xmlcml.files.ResultsElement;
-import org.xmlcml.html.HtmlBody;
-import org.xmlcml.html.HtmlElement;
-import org.xmlcml.html.HtmlHtml;
-import org.xmlcml.html.HtmlP;
-import org.xmlcml.html.HtmlSpan;
-import org.xmlcml.html.HtmlStyle;
 import org.xmlcml.xml.XMLUtil;
 
 /** 

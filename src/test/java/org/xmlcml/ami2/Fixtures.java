@@ -14,6 +14,7 @@ public class Fixtures {
 
 	public final static File TEST_PLOSONE_DIR      = new File(Fixtures.TEST_AMI_DIR, "plosone");
 	public final static File TEST_PLOSONE_0115884  = new File(Fixtures.TEST_PLOSONE_DIR, "journal.pone.0115884");
+	public final static File TEST_PLOSONE_SEQUENCE_0121780  = new File(Fixtures.TEST_PLOSONE_DIR, "plosjournal.pone.0121780_sequence");
 
 	public static final File EXAMPLES              = new File("examples");
 	public static final File EXAMPLES_TEMP         = new File("target/examples");
