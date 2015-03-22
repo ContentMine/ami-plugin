@@ -1,17 +1,46 @@
 <argList name="species">
+
 	<arg name="species" 
 		long="--sp.species"
-		args="?"
-		countRange="{0,*}"
-		parseMethod="parseSpecies"
-		runMethod="runSpecies"
+		args=""
+		countRange="{0,0}"
+		initMethod="initSpecies"
+		runMethod="runExtractSpecies"
 		outputMethod="outputSpecies"
 		>
 		<help>
-		SPECIES
-			
+    This runs the search - there are no argument values. 
 		</help>
+		<!-- NEVER search HTML with regexes, but here it's safe -->
+		<value name="binomial">&lt;i>\s*(([A-Z]\.|[A-Z][a-z]+)\s+[a-z]+)\s*&lt;/i></value> 
+		<value name="binomialsp">(([A-Z]\.|[A-Z][a-z]+)\s+[a-z]+\s+sp\.)</value> 
 	</arg>	
 	
+	<arg name="type"
+	    long="--sp.type"
+	    args="type"
+	    class="java.lang.String"
+	    pattern="(binomial|binomialsp)"
+	    parseMethod="parseTypes"
+	    countRange="{1,*}"
+	    >
+	    <help>
+	    The type of the species. 
+	    </help>
+	</arg>
+	
+	<arg name="abbreviations"
+	    long="--sp.abbrev"
+	    args="boolean"
+	    class="java.lang.Boolean"
+	    parseMethod="parseAbbreviations"
+	    countRange="{1,1}"
+	    >
+	    <help>
+	    if true, expand abbreviations.
+	    </help>
+	</arg>
+
+    
 </argList>
 			

@@ -47,7 +47,7 @@ public class DefaultSearcher {
 		return resultsElement;
 	}
 
-	private List<ResultElement> search(String value) {
+	protected List<ResultElement> search(String value) {
 		List<ResultElement> resultElementList = new ArrayList<ResultElement>();
 		Matcher matcher = pattern.matcher(value);
 		int start = 0;
@@ -66,10 +66,14 @@ public class DefaultSearcher {
 		int preStart = Math.max(0, preEnd - contextCounts[0]);
 		int postStart = matcher.end();
 		int postEnd = Math.min(value.length(), postStart + contextCounts[1]);
-		resultElement.setPre(value.substring(preStart, preEnd));
-		resultElement.setMatch(match);
-		resultElement.setPost(value.substring(postStart, postEnd));
+		resultElement.setPre(unmark(value.substring(preStart, preEnd)));
+		resultElement.setMatch(unmark(match));
+		resultElement.setPost(unmark(value.substring(postStart, postEnd)));
 		return resultElement;
+	}
+	
+	protected String unmark(String s) {
+		return s;
 	}
 
 	public ResultsElement search(List<HtmlP> pElements) {
