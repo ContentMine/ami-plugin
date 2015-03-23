@@ -36,6 +36,10 @@ public class SpeciesSearcher extends DefaultSearcher {
 			String xmlString = pElement.toXML().replaceAll("\\s+", " ");
 			// some markup is of form <i>Foo</i>. <i>bar</i>
 			xmlString = xmlString.replaceAll("</i>\\.\\s+<i>", ". ");
+			xmlString = xmlString.replaceAll("<span[^>]*>", "[");
+			xmlString = xmlString.replaceAll("</span[^>]*>", "]");
+			xmlString = xmlString.replaceAll("<b>", "");
+			xmlString = xmlString.replaceAll("</b>", "");
 			List<ResultElement> resultElementList = this.search(xmlString);
 			for (ResultElement resultElement : resultElementList) {
 				resultsElement.appendChild(resultElement);
@@ -45,9 +49,11 @@ public class SpeciesSearcher extends DefaultSearcher {
 	}
 
 	@Override
-	protected String unmark(String s) {
+	protected String flattenTags(String s) {
 		s = s.replaceAll("<i>", "");
 		s = s.replaceAll("</i>", "");
+		s = s.replaceAll("<b[^>]*>", "");
+		s = s.replaceAll("</b[^>]*>", "");
 		return s;
 	}
 

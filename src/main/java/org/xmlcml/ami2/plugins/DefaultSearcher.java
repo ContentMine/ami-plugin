@@ -66,13 +66,13 @@ public class DefaultSearcher {
 		int preStart = Math.max(0, preEnd - contextCounts[0]);
 		int postStart = matcher.end();
 		int postEnd = Math.min(value.length(), postStart + contextCounts[1]);
-		resultElement.setPre(unmark(value.substring(preStart, preEnd)));
-		resultElement.setMatch(unmark(match));
-		resultElement.setPost(unmark(value.substring(postStart, postEnd)));
+		resultElement.setPre(flattenTags(value.substring(preStart, preEnd)));
+		resultElement.setMatch(flattenTags(match));
+		resultElement.setPost(flattenTags(value.substring(postStart, postEnd)));
 		return resultElement;
 	}
 	
-	protected String unmark(String s) {
+	protected String flattenTags(String s) {
 		return s;
 	}
 
