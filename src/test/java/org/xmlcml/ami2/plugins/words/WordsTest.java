@@ -23,9 +23,9 @@ public class WordsTest {
 	}
 	
 	private static final String DATA_16_1_1 = 
-			"trialsdata/http_www.trialsjournal.com_content_16_1_1";
+			new File(Fixtures.TEST_BMC_DIR, "http_www.trialsjournal.com_content_16_1_1").toString();
 	private static final String TEMP_16_1_1 = 
-			"trialstemp/http_www.trialsjournal.com_content_16_1_1";
+			"target/http_www.trialsjournal.com_content_16_1_1";
 
 	private static final String EXAMPLES = 
 			"examples";
