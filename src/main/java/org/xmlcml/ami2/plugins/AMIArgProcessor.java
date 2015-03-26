@@ -3,10 +3,15 @@ package org.xmlcml.ami2.plugins;
 import java.io.File;
 import java.util.ArrayList;
 import java.util.Arrays;
+import java.util.HashMap;
 import java.util.List;
+import java.util.Map;
+
+import nu.xom.Element;
 
 import org.apache.log4j.Level;
 import org.apache.log4j.Logger;
+import org.xmlcml.ami2.lookups.AbstractLookup;
 import org.xmlcml.args.ArgIterator;
 import org.xmlcml.args.ArgumentOption;
 import org.xmlcml.args.DefaultArgProcessor;
@@ -45,6 +50,8 @@ public class AMIArgProcessor extends DefaultArgProcessor {
 	protected List<ResultsElement> resultsElementList;
 	private String update;
 	private String plugin;
+	private List<String> lookupNames;
+    Map<String,AbstractLookup> lookupInstanceByName;
 	
 	public AMIArgProcessor() {
 		super();
@@ -120,14 +127,19 @@ public class AMIArgProcessor extends DefaultArgProcessor {
 		}
 	}
 
+	public void parseLookup(ArgumentOption option, ArgIterator argIterator) {
+		List<String> lookupNames = argIterator.getStrings(option);
+		loadLookupClassesFromArgValues(option);
+	}
+
+	public void finalLookup(ArgumentOption option) {
+		LOG.debug("final lookup");
+	}
+
+
 	// =============transformations=============
-	
-	
 
 	// ============output options==============
-	
-
-
 
 	// ==========================
 
@@ -229,6 +241,41 @@ public class AMIArgProcessor extends DefaultArgProcessor {
 			}
 		}
 		return htmlElement;
+	}
+
+	private void loadLookupClassesFromArgValues(ArgumentOption option) {
+		getOrCreateLookupInstanceByName();
+		List<Element> values = option.getOrCreateValues();
+		for (Element value : values) {
+			String name = value.getAttributeValue(ArgumentOption.NAME);
+			String className = value.getAttributeValue(ArgumentOption.CLASSNAME);
+			if (name == null || className == null) {
+				LOG.error("Missing name or class: "+value.toXML());
+				continue;
+			}
+			Class<? extends AbstractLookup> lookupClass;
+			try {
+				lookupClass = (Class<? extends AbstractLookup>)Class.forName(className);
+			} catch (ClassNotFoundException e) {
+				LOG.error("Cannot find class, skipping: "+className);
+				continue;
+			}
+			AbstractLookup lookup;
+			try {
+				lookup = (AbstractLookup) lookupClass.newInstance();
+			} catch (InstantiationException | IllegalAccessException e) {
+				LOG.error("Cannot instantiate, skipping: "+lookupClass+"; "+e.getMessage());
+				continue;
+			}
+			lookupInstanceByName.put(name, lookup);
+		}
+	}
+
+	Map<String, AbstractLookup> getOrCreateLookupInstanceByName() {
+		if (lookupInstanceByName == null) {
+			lookupInstanceByName = new HashMap<String, AbstractLookup>(); 
+		}
+		return lookupInstanceByName;
 	}
 
 

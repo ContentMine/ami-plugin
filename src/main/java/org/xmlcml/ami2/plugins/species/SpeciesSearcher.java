@@ -1,6 +1,7 @@
 package org.xmlcml.ami2.plugins.species;
 
 import java.util.List;
+import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
 import org.apache.log4j.Level;
@@ -30,7 +31,7 @@ public class SpeciesSearcher extends DefaultSearcher {
 
 	@Override
 	public ResultsElement search(List<HtmlP> pElements) {
-		ResultsElement resultsElement = new ResultsElement();
+		SpeciesResultsElement resultsElement = new SpeciesResultsElement("species");
 		for (HtmlP pElement : pElements) {
 			// this is ucky, but since we know the HTML is normalized it's probably OK
 			String xmlString = pElement.toXML().replaceAll("\\s+", " ");
@@ -45,6 +46,11 @@ public class SpeciesSearcher extends DefaultSearcher {
 				resultsElement.appendChild(resultElement);
 			}
 		}
+		List<String> nameList = resultsElement.getNameList();
+		LinneanNamer linneanNamer = new LinneanNamer();
+		nameList = linneanNamer.expandAbbreviations(nameList);
+		resultsElement.replaceMatches(nameList);
+		
 		return resultsElement;
 	}
 
@@ -57,6 +63,11 @@ public class SpeciesSearcher extends DefaultSearcher {
 		return s;
 	}
 
+	protected SpeciesResultElement createResultElement(String value, Matcher matcher) {
+		SpeciesResultElement resultElement = new SpeciesResultElement();
+		matchAndAddPrePost(value, matcher, resultElement);
+		return resultElement;
+	}
 
 
 	public String getSpeciesType() {

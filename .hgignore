@@ -6,6 +6,7 @@ foo
 ^.hgignore~$
 ^.git/
 ^misc/.*
+phylo/
 src/test/resources/org/xmlcml/xhtml2stm1/
 ^target/.*
 ^trialsdata/.*

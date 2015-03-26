@@ -58,7 +58,7 @@ public class SequenceArgProcessor extends AMIArgProcessor {
 			try {
 				createAndStoreSequenceSearchers(valueElement);
 			} catch (Exception e) {
-				LOG.error("Could not create SequenceSearcher "+valueElement.getAttributeValue(NAME)+"; "+e.getCause());
+				LOG.error("Could not create SequenceSearcher "+valueElement.getAttributeValue(ArgumentOption.NAME)+"; "+e.getCause());
 				continue;
 			}
 		}

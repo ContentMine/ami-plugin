@@ -101,6 +101,11 @@ public class WordArgProcessor extends AMIArgProcessor {
 		super();
 	}
 
+	public WordArgProcessor(String args) {
+		this();
+		parseArgs(args);
+	}
+
 	public WordArgProcessor(String[] args) {
 		this();
 		parseArgs(args);

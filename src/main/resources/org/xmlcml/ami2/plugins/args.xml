@@ -67,6 +67,22 @@
 		</help>
 	</arg>	
 	
+	<arg name="lookup" 
+		long="--lookup"
+		args="site [site...]"
+		countRange="{1,*}"
+		pattern="wikipedia|genbank|pubmed"
+		parseMethod="parseLookup"
+		finalMethod="finalLookup"
+		>
+		<help>
+		Looks up results in online sites. This can be overridden for specialist plugins. may be called at ResultElement creation or might be deferred to final.
+		</help>
+		<value name="wikipedia" className="org.xmlcml.ami2.lookups.WikipediaLookup"/>
+		<value name="genbank" className="org.xmlcml.ami2.lookups.GenbankLookup"/>
+		<value name="pubmed" className="org.xmlcml.ami2.lookups.PubmedLookup"/>
+	</arg>	
+	
 	<arg name="test" 
 		brief="-t1"
 		long="--test1"

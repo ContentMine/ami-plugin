@@ -1,14 +1,19 @@
 package org.xmlcml.ami2.plugins;
 
+import java.io.IOException;
 import java.util.ArrayList;
+import java.util.HashMap;
 import java.util.List;
+import java.util.Map;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
+import nu.xom.Attribute;
 import nu.xom.Element;
 
 import org.apache.log4j.Level;
 import org.apache.log4j.Logger;
+import org.xmlcml.ami2.lookups.AbstractLookup;
 import org.xmlcml.files.ResultElement;
 import org.xmlcml.files.ResultsElement;
 import org.xmlcml.html.HtmlP;
@@ -16,6 +21,7 @@ import org.xmlcml.html.HtmlP;
 public class DefaultSearcher {
 
 	
+	private static final String NOT_FOUND = "NOT_FOUND";
 	private static final Logger LOG = Logger.getLogger(DefaultSearcher.class);
 	static {
 		LOG.setLevel(Level.DEBUG);
@@ -24,6 +30,8 @@ public class DefaultSearcher {
 	protected Pattern pattern;
 	private AMIArgProcessor argProcessor;
 	protected Integer[] contextCounts;
+	private String match;
+	private AbstractLookup lookup;
 
 	public DefaultSearcher(AMIArgProcessor argProcessor, Pattern pattern) {
 		this.pattern = pattern;
@@ -59,17 +67,45 @@ public class DefaultSearcher {
 		return resultElementList;
 	}
 
-	private ResultElement createResultElement(String value, Matcher matcher) {
+	protected ResultElement createResultElement(String value, Matcher matcher) {
 		ResultElement resultElement = new ResultElement();
-		String match = matcher.group(0);
+		matchAndAddPrePost(value, matcher, resultElement);
+		return resultElement;
+	}
+
+	protected void matchAndAddPrePost(String value, Matcher matcher,
+			ResultElement resultElement) {
+		match = matcher.group(0);
 		int preEnd = matcher.start();
 		int preStart = Math.max(0, preEnd - contextCounts[0]);
 		int postStart = matcher.end();
 		int postEnd = Math.min(value.length(), postStart + contextCounts[1]);
 		resultElement.setPre(flattenTags(value.substring(preStart, preEnd)));
-		resultElement.setMatch(flattenTags(match));
+		match = flattenTags(match);
+		resultElement.setMatch(match);
 		resultElement.setPost(flattenTags(value.substring(postStart, postEnd)));
-		return resultElement;
+		lookupMatchAndAddLookupRefs(resultElement);
+	}
+
+	private void lookupMatchAndAddLookupRefs(ResultElement resultElement) {
+		Map<String, AbstractLookup> lookupInstanceByName = argProcessor.getOrCreateLookupInstanceByName();
+		for (String lookupName : lookupInstanceByName.keySet()) {
+			AbstractLookup lookup = lookupInstanceByName.get(lookupName);
+			Map<String, String> lookupRefByMatch = lookup.getOrCreateLookupRefByMatch();
+			String lookupRef = lookupRefByMatch.get(match);
+			if (lookupRef == null) {
+				try {
+					lookupRef = lookup.lookup(match);
+				} catch (IOException e) {
+					LOG.debug("Cannot find match: "+match+" in "+lookupName);
+				}
+				lookupRef = lookupRef == null ? NOT_FOUND : lookupRef;
+				lookupRefByMatch.put(match,  lookupRef);
+			}
+			if (!(NOT_FOUND.equals(lookupRef))) {
+				resultElement.addAttribute(new Attribute(lookupName, lookupRef));
+			}
+		}
 	}
 	
 	protected String flattenTags(String s) {
