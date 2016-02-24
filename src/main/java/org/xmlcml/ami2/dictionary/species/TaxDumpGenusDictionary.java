@@ -33,13 +33,16 @@ public class TaxDumpGenusDictionary extends DefaultAMIDictionary {
 	}
 
 	private void readTAXDUMPXML() {
-		if (!TAXDUMP_XML_FILE.exists()) {
+		ClassLoader classLoader = getClass().getClassLoader();
+		LOG.debug(TAXDUMP_XML_FILE.getPath());
+		File TAXDUMP_XML_RES = new File(getClass().getClassLoader().getResource("org/xmlcml/ami2/plugins/species/taxdump/taxdumpGenus.xml").getFile());
+		if (!TAXDUMP_XML_RES.exists()) {
 			// read text file
 //			readTAXDUMPJson();
 //			createDictionaryElementFromHashMap(TAXDUMP);
 //			writeXMLFile(TAXDUMP_XML_FILE);
 		} else {
-			readDictionary(TAXDUMP_XML_FILE);
+			readDictionary(TAXDUMP_XML_RES);
 		}
 	}
 

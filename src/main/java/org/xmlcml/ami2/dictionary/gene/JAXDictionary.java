@@ -50,7 +50,8 @@ public class JAXDictionary extends DefaultAMIDictionary {
 
 	private void readJAX_XML() {
 		if (!JAX_XML_FILE.exists()) {
-			readJAXTSV(JAX_TSV_FILE);
+			File JAX_TSV_RES = new File(getClass().getClassLoader().getResource("org/xmlcml/ami2/plugins/genes/jax/MGI_Gene_Model_Coord.tsv").getFile());
+			readJAXTSV(JAX_TSV_RES);
 			dictionaryElement = createDictionaryElementFromHashMap("jax");
 			writeXMLFile(JAX_XML_FILE);
 		} else {

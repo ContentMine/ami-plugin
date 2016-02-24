@@ -24,7 +24,8 @@ public class SynbioDictionary extends DefaultAMIDictionary {
 	}
 	
 	private void init() {
-		readDictionary(SYNBIO_XML_FILE);
+		ClassLoader cl = getClass().getClassLoader();
+		readDictionary(new File(cl.getResource("org/xmlcml/ami2/plugins/synbio/synbio.xml").getFile()));
 	}
 
 
