@@ -26,7 +26,7 @@
 		<repository>
 			<id>ebi-repo</id>
 			<name>EBI Maven Repository</name>
-			<url>http://www.ebi.ac.uk/intact/maven/nexus/content/repositories/ebi-repo/</url>
+			<url>http://www.ebi.ac.uk/Tools/maven/repos/content/groups/ebi-repo/</url>
 			<releases>
 				<enabled>true</enabled>
 				<updatePolicy>never</updatePolicy>
