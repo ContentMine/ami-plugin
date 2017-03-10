@@ -1,6 +1,10 @@
 # AMI
 AMI provides a generic infrastructure where plugins can search, index or transform structured documents on a high-through basis. The typical input is structured, normalized, tagged XHTML, possibly containing (or linked to) SVG and PNG files. The plugins are designed to analyse text or graphics or a combination according to the discipline. 
 
+##Installation
+
+See the ContentMine [installation instructions](https://contentmine.github.io/).
+
 ## Running
 There are binaries provided with releases which enable running of ami's plugins; shell and batch scripts are provided to make running these easier. Detailed tutorials of these can be found in the ContentMine software tutorials.
 
