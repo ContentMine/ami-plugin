@@ -159,7 +159,7 @@ public class CMJsonDictionaryTest {
 	public void testReadMixMatch() throws IOException {
 		boolean useHeader = true;
 		File mapping = new File(AMIFixtures.TEST_DICTIONARY_DIR, "mixmatch.tsv");
-		RectangularTable table = RectangularTable.readTable(mapping, useHeader);
+		RectangularTable table = RectangularTable.readCSVTable(mapping, useHeader);
 		Assert.assertEquals("size", 60174, table.size());
 		Assert.assertEquals("[ext_id, q]", table.getHeader().toString());
 		List<String> ids = table.getColumn("ext_id");
@@ -202,7 +202,7 @@ public class CMJsonDictionaryTest {
 	public void testAddMixMatchIds() throws IOException {
 		boolean useHeader = true;
 		File mapping = new File(AMIFixtures.TEST_DICTIONARY_DIR, "mixmatch.tsv");
-		RectangularTable table = RectangularTable.readTable(mapping, useHeader);
+		RectangularTable table = RectangularTable.readCSVTable(mapping, useHeader);
 		File jsonFile = new File(AMIFixtures.TEST_DICTIONARY_DIR, "cochrane.json");
 		CMJsonDictionary cmJsonDictionary = CMJsonDictionary.readJsonDictionary(FileUtils.readFileToString(jsonFile));
 		Assert.assertNotNull("null jsonDictionary", cmJsonDictionary);

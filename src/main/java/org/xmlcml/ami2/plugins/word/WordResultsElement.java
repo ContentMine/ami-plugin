@@ -120,7 +120,7 @@ public class WordResultsElement extends ResultsElement {
 			style.addCss(cssStyle);
 		}
 		HtmlP p = new HtmlP();
-		html.ensureBody().appendChild(p);
+		html.getOrCreateHead().appendChild(p);
 		addWordsWithFontSizesInSpans(fontSizeIntArray, p);
 		return html;
 	}

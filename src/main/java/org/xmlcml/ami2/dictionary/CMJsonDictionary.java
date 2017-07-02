@@ -270,7 +270,7 @@ public class CMJsonDictionary {
 		boolean useHeader = true;
 		RectangularTable table;
 		try {
-			table = RectangularTable.readTable(mapping, useHeader);
+			table = RectangularTable.readCSVTable(mapping, useHeader);
 		} catch (IOException e) {
 			throw new RuntimeException("Cannot read mixMatch", e);
 		}
@@ -295,7 +295,7 @@ public class CMJsonDictionary {
 		File dictionaryDir = new File("/Users/pm286/workspace", "dictionaries");
 		File jsonDir = new File(dictionaryDir, "json");
 		File[] dictionaries = jsonDir.listFiles();
-		RectangularTable mapping = RectangularTable.readTable(new File(dictionaryDir, "mixnmatch/2016-09-09.tsv"), true);
+		RectangularTable mapping = RectangularTable.readCSVTable(new File(dictionaryDir, "mixnmatch/2016-09-09.tsv"), true);
 		for (File dictionary : dictionaries) {
 			CMJsonDictionary cmJsonDictionary = CMJsonDictionary.readJsonDictionary(FileUtils.readFileToString(dictionary));
 			cmJsonDictionary.addMixMatchIds(mapping);

@@ -7,8 +7,8 @@
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <ami.version>0.3.6</ami.version>
         <!--  upstream -->
-        <norma.version>0.3.8</norma.version>
-        <diagramanalyzer.version>0.3.6</diagramanalyzer.version>
+        <norma.version>0.4.0</norma.version>
+        <diagramanalyzer.version>0.4.0</diagramanalyzer.version>
 <!-- this should not be necessary -->
         <guava.version>18.0</guava.version>
         
